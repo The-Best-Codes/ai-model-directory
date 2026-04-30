@@ -1,0 +1,29 @@
+id = "gpt-5"
+name = "GPT 5.0"
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+knowledge = "2024-12-30"
+release_date = "2025-12-30"
+last_updated = "2025-12-30"
+open_weights = true
+
+[cost]
+input = 3.00 # per million tokens, USD
+output = 15.00
+reasoning = 15.00
+cache_read = 0.30
+cache_write = 3.75
+input_audio = 1.00
+output_audio = 10.00
+
+[limit]
+context = 400_000
+input = 272_000
+output = 8_192
+
+[modalities]
+input = ["text", "image"]
+output = ["text"]
