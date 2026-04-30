@@ -1,0 +1,7 @@
+name = "OpenRouter"
+website = "https://openrouter.ai"
+apiBaseUrl = "https://openrouter.ai/api/v1"
+
+[aiSdk]
+npmPackage = "@openrouter/ai-sdk-provider"
+defaultApiKeyEnv = ["OPENROUTER_API_KEY"]
