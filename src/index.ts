@@ -1,7 +1,7 @@
 import { fileURLToPath } from "node:url";
 
 import { writeProviderModels } from "./io.ts";
-import { ProgressBar } from "./progress.ts";
+import { ProgressBar, sanitizeTerminalText } from "./progress.ts";
 import { providers } from "./providers/index.ts";
 import type { ProviderDefinition } from "./providers/types.ts";
 
@@ -110,7 +110,7 @@ export async function main(): Promise<void> {
   }
 
   for (const summary of summaries) {
-    console.log(summary);
+    console.log(sanitizeTerminalText(summary));
   }
 }
 

@@ -16,6 +16,12 @@ type Payload = {
   label: string;
 };
 
+const terminalControlPattern = /[\u0000-\u001f\u007f-\u009f]/g;
+
+export function sanitizeTerminalText(text: string): string {
+  return text.replace(terminalControlPattern, "");
+}
+
 function truncate(text: string, max: number): string {
   return text.length <= max ? text : `${text.slice(0, Math.max(0, max - 1))}…`;
 }
@@ -65,7 +71,7 @@ export class ProgressBar implements ProgressReporter {
   beginProvider(index: number, total: number, name: string): void {
     this.payload.providerIndex = index;
     this.payload.providerTotal = total;
-    this.payload.providerName = name;
+    this.payload.providerName = sanitizeTerminalText(name);
     this.payload.phase = "starting";
     this.payload.ok = 0;
     this.payload.error = 0;
@@ -91,7 +97,7 @@ export class ProgressBar implements ProgressReporter {
   }
 
   tick(label: string, ok: boolean): void {
-    this.payload.label = label;
+    this.payload.label = sanitizeTerminalText(label);
 
     if (ok) {
       this.payload.ok += 1;
@@ -103,7 +109,7 @@ export class ProgressBar implements ProgressReporter {
   }
 
   log(message: string): void {
-    this.buffered.push(message);
+    this.buffered.push(sanitizeTerminalText(message));
   }
 
   stop(): void {

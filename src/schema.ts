@@ -1,5 +1,21 @@
 import { z } from "zod";
 
+const controlCharacterPattern = /[\u0000-\u001f\u007f]/;
+const modelIdSchema = z
+  .string()
+  .min(1)
+  .max(200)
+  .refine((value) => !controlCharacterPattern.test(value), {
+    message: "must not contain control characters",
+  });
+const modelNameSchema = z
+  .string()
+  .min(1)
+  .max(500)
+  .refine((value) => !controlCharacterPattern.test(value), {
+    message: "must not contain control characters",
+  });
+
 export const unixTimestampSchema = z.string().regex(/^(0|[1-9]\d*)$/);
 
 export const modalitySchema = z.enum([
@@ -11,7 +27,7 @@ export const modalitySchema = z.enum([
 ]);
 export type ModelModality = z.infer<typeof modalitySchema>;
 
-const finiteNumberSchema = z.number().finite().nonnegative();
+const finiteNumberSchema = z.number().nonnegative();
 const finiteIntegerSchema = z.number().int().nonnegative();
 
 export const featuresSchema = z
@@ -53,8 +69,8 @@ export const modalitiesSchema = z
 
 export const modelSchema = z
   .object({
-    id: z.string().min(1),
-    name: z.string().min(1).optional(),
+    id: modelIdSchema,
+    name: modelNameSchema.optional(),
     knowledge_cutoff: unixTimestampSchema.optional(),
     release_date: unixTimestampSchema.optional(),
     last_updated: unixTimestampSchema.optional(),
@@ -68,8 +84,8 @@ export const modelSchema = z
 
 export const modelOverrideSchema = z
   .object({
-    id: z.string().min(1).optional(),
-    name: z.string().min(1).optional(),
+    id: modelIdSchema.optional(),
+    name: modelNameSchema.optional(),
     knowledge_cutoff: unixTimestampSchema.optional(),
     release_date: unixTimestampSchema.optional(),
     last_updated: unixTimestampSchema.optional(),
