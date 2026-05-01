@@ -1,4 +1,4 @@
-import { mkdir } from "node:fs/promises";
+import { mkdir, readdir, rm } from "node:fs/promises";
 import { join } from "node:path";
 import { ZodError } from "zod";
 
@@ -51,6 +51,30 @@ function detectCollisions(models: ModelRecord[]): Map<string, string[]> {
   return collisions;
 }
 
+async function removeStaleModelDirectories(
+  outputDirectory: string,
+  activeDirectories: ReadonlySet<string>,
+  progress: ProgressBar,
+): Promise<void> {
+  const entries = await readdir(outputDirectory, { withFileTypes: true });
+
+  for (const entry of entries) {
+    if (!entry.isDirectory() || activeDirectories.has(entry.name)) {
+      continue;
+    }
+
+    const directoryPath = join(outputDirectory, entry.name);
+    const keepFile = Bun.file(join(directoryPath, ".keep"));
+
+    if (await keepFile.exists()) {
+      continue;
+    }
+
+    await rm(directoryPath, { recursive: true, force: true });
+    progress.log(`Removed stale model directory: ${entry.name}`);
+  }
+}
+
 export async function writeProviderModels(
   rootDirectory: string,
   provider: ProviderDefinition,
@@ -62,14 +86,25 @@ export async function writeProviderModels(
   await mkdir(outputDirectory, { recursive: true });
 
   const collisions = detectCollisions(apiModels);
-  const models = apiModels.filter(
-    (model) => collisions.get(normalizeModelId(model.id))?.[0] === model.id,
-  );
+  const modelsByDirectory = new Map<string, ModelRecord>();
+
+  for (const model of apiModels) {
+    const directoryName = normalizeModelId(model.id);
+
+    if (!directoryName) {
+      progress.log(`Skipping ${model.id}: normalized model directory is empty`);
+      continue;
+    }
+
+    modelsByDirectory.set(directoryName, model);
+  }
+
+  const models = [...modelsByDirectory.entries()];
 
   for (const [directoryName, ids] of collisions) {
     if (ids.length > 1) {
       progress.log(
-        `Directory collision at ${directoryName}: ${ids.join(", ")}`,
+        `Directory collision at ${directoryName}: ${ids.join(", ")} (using last entry ${ids[ids.length - 1]})`,
       );
     }
   }
@@ -79,8 +114,7 @@ export async function writeProviderModels(
   let written = 0;
   let errors = 0;
 
-  for (const model of models) {
-    const directoryName = normalizeModelId(model.id);
+  for (const [directoryName, model] of models) {
     const modelDirectory = join(outputDirectory, directoryName);
     const outputFile = join(modelDirectory, "index.toml");
 
@@ -108,6 +142,12 @@ export async function writeProviderModels(
       progress.tick(model.id, false);
     }
   }
+
+  await removeStaleModelDirectories(
+    outputDirectory,
+    new Set(modelsByDirectory.keys()),
+    progress,
+  );
 
   return { written, errors };
 }

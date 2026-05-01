@@ -1,6 +1,7 @@
 import { z } from "zod";
 
 type HttpHeaders = Record<string, string>;
+const fetchTimeoutMs = 60_000;
 
 type FetchJsonOptions<T extends z.ZodTypeAny> = {
   schema: T;
@@ -22,6 +23,7 @@ export async function fetchJson<T extends z.ZodTypeAny>(
   const response = await fetch(url, {
     ...options.init,
     headers: options.headers,
+    signal: AbortSignal.timeout(fetchTimeoutMs),
   });
 
   if (!response.ok) {
@@ -44,6 +46,7 @@ export async function fetchText(
   const response = await fetch(url, {
     ...options.init,
     headers: options.headers,
+    signal: AbortSignal.timeout(fetchTimeoutMs),
   });
 
   if (!response.ok) {
