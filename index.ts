@@ -18,6 +18,10 @@ import {
   outputDirectory as abacusOutputDirectory,
 } from "./updaters/abacus.ts";
 import {
+  fetchModels as fetchAIHubMixModels,
+  outputDirectory as aihubmixOutputDirectory,
+} from "./updaters/aihubmix.ts";
+import {
   fetchModels as fetchAnthropicModels,
   outputDirectory as anthropicOutputDirectory,
 } from "./updaters/anthropic.ts";
@@ -332,6 +336,10 @@ const UPDATERS: Updater[] = [
   {
     fetchModels: fetchAbacusModels,
     outputDirectory: abacusOutputDirectory,
+  },
+  {
+    fetchModels: fetchAIHubMixModels,
+    outputDirectory: aihubmixOutputDirectory,
   },
 ];
 
