@@ -1,3 +1,22 @@
 id = "gpt-4.1-nano"
-name = "gpt-4.1-nano"
+name = "GPT-4.1 nano"
 release_date = "2025-04-10"
+knowledge_cutoff = "2024-06-01"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+
+[pricing]
+input = 0.1
+output = 0.4
+cache_read = 0.025
+
+[limit]
+context = 1047576
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

@@ -1,3 +1,16 @@
 id = "gpt-4o-transcribe-diarize"
-name = "gpt-4o-transcribe-diarize"
+name = "GPT-4o Transcribe Diarize"
 release_date = "2025-06-24"
+knowledge_cutoff = "2024-06-01"
+
+[pricing]
+input = 2.5
+output = 10
+
+[limit]
+context = 16000
+output = 2000
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]

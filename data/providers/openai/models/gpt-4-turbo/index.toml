@@ -1,3 +1,21 @@
 id = "gpt-4-turbo"
-name = "gpt-4-turbo"
+name = "GPT-4 Turbo"
 release_date = "2024-04-05"
+knowledge_cutoff = "2023-12-01"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = false
+
+[pricing]
+input = 10
+output = 30
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

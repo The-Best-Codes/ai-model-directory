@@ -1,3 +1,7 @@
 id = "tts-1-hd"
-name = "tts-1-hd"
+name = "TTS-1 HD"
 release_date = "2023-11-03"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

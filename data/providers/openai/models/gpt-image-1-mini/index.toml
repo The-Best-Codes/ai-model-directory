@@ -1,3 +1,15 @@
 id = "gpt-image-1-mini"
 name = "gpt-image-1-mini"
 release_date = "2025-09-26"
+
+[features]
+attachment = true
+
+[pricing]
+input = 2.5
+output = 8
+cache_read = 0.25
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

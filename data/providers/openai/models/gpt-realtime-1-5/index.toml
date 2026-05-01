@@ -1,3 +1,22 @@
 id = "gpt-realtime-1.5"
 name = "gpt-realtime-1.5"
 release_date = "2026-02-19"
+knowledge_cutoff = "2024-09-30"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = false
+
+[pricing]
+input = 5
+output = 64
+cache_read = 0.5
+
+[limit]
+context = 32000
+output = 4096
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "audio", "text" ]
