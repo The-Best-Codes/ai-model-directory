@@ -1,0 +1,30 @@
+import type { ProviderDefinition } from "./types.ts";
+import { abacusProvider } from "./abacus.ts";
+import { aihubmixProvider } from "./aihubmix.ts";
+import { anthropicProvider } from "./anthropic.ts";
+import { chutesProvider } from "./chutes.ts";
+import { cortecsProvider } from "./cortecs.ts";
+import { deepinfraProvider } from "./deepinfra.ts";
+import { fastrouterProvider } from "./fastrouter.ts";
+import { friendliProvider } from "./friendli.ts";
+import { huggingfaceProvider } from "./huggingface.ts";
+import { inceptionProvider } from "./inception.ts";
+import { kiloProvider } from "./kilo.ts";
+import { openaiProvider } from "./openai.ts";
+import { openrouterProvider } from "./openrouter.ts";
+
+export const providers: ProviderDefinition[] = [
+  openrouterProvider,
+  openaiProvider,
+  anthropicProvider,
+  abacusProvider,
+  aihubmixProvider,
+  chutesProvider,
+  cortecsProvider,
+  deepinfraProvider,
+  friendliProvider,
+  fastrouterProvider,
+  huggingfaceProvider,
+  inceptionProvider,
+  kiloProvider,
+];
