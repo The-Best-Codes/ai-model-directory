@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This project is currently in alpha. Nothing you see here is finished yet, so don't use this in production!
+
 # The AI Model Directory
 
 The AI model directory is the most comprehensive, automatically updated directory of AI models.
@@ -28,3 +31,5 @@ Every model gets its own folder under `data/providers/<provider>/<model-id>/inde
 ## Security
 
 Because the directory is updated automatically based on JSON fetched from third-party providers, the data here is only as trustworthy as the providers it comes from. If you're using this to make billing or routing decisions, treat it as a strong default and not as gospel. We have several measures in place to mitigate major vulnerabilities:
+
+(Stay tuned!)
