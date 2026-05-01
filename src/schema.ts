@@ -2,7 +2,13 @@ import { z } from "zod";
 
 export const unixTimestampSchema = z.string().regex(/^(0|[1-9]\d*)$/);
 
-export const modalitySchema = z.enum(["text", "image", "audio", "video", "file"]);
+export const modalitySchema = z.enum([
+  "text",
+  "image",
+  "audio",
+  "video",
+  "file",
+]);
 export type ModelModality = z.infer<typeof modalitySchema>;
 
 const finiteNumberSchema = z.number().finite().nonnegative();

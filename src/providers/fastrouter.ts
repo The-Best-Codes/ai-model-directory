@@ -3,7 +3,11 @@ import { z } from "zod";
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import { pricePerMillion, timestampFromUnixSeconds } from "../lib/model.ts";
-import { filterModalities, hasAnyString, hasAttachmentSource } from "./helpers.ts";
+import {
+  filterModalities,
+  hasAnyString,
+  hasAttachmentSource,
+} from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const apiModelSchema = z.object({
@@ -60,7 +64,8 @@ export const fastrouterProvider: ProviderDefinition = {
         name: model.name,
         release_date: timestampFromUnixSeconds(model.created),
         features: {
-          attachment: hasAttachmentSource(model.architecture.input_modalities) ?? false,
+          attachment:
+            hasAttachmentSource(model.architecture.input_modalities) ?? false,
           reasoning:
             hasAnyString(
               model.supported_parameters,

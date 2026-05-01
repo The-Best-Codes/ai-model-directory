@@ -163,15 +163,24 @@ export function normalizeModel(input: ModelRecord): ModelRecord {
   const parsed = modelSchema.parse(input);
 
   const features = emptyToUndefined(
-    compactObject(featuresSchema.parse(parsed.features ?? {})) as Record<string, unknown>,
+    compactObject(featuresSchema.parse(parsed.features ?? {})) as Record<
+      string,
+      unknown
+    >,
   ) as ModelRecord["features"];
 
   const pricing = emptyToUndefined(
-    compactObject(pricingSchema.parse(parsed.pricing ?? {})) as Record<string, unknown>,
+    compactObject(pricingSchema.parse(parsed.pricing ?? {})) as Record<
+      string,
+      unknown
+    >,
   ) as ModelRecord["pricing"];
 
   const limit = emptyToUndefined(
-    compactObject(limitSchema.parse(parsed.limit ?? {})) as Record<string, unknown>,
+    compactObject(limitSchema.parse(parsed.limit ?? {})) as Record<
+      string,
+      unknown
+    >,
   ) as ModelRecord["limit"];
 
   const modalitiesValue = modalitiesSchema.parse(parsed.modalities ?? {});
@@ -249,11 +258,17 @@ export function applyModelOverride(
       : model.open_weights,
     features:
       override.features || model.features
-        ? compactObject({ ...(model.features ?? {}), ...(override.features ?? {}) })
+        ? compactObject({
+            ...(model.features ?? {}),
+            ...(override.features ?? {}),
+          })
         : undefined,
     pricing:
       override.pricing || model.pricing
-        ? compactObject({ ...(model.pricing ?? {}), ...(override.pricing ?? {}) })
+        ? compactObject({
+            ...(model.pricing ?? {}),
+            ...(override.pricing ?? {}),
+          })
         : undefined,
     limit:
       override.limit || model.limit
@@ -261,7 +276,10 @@ export function applyModelOverride(
         : undefined,
     modalities:
       override.modalities || model.modalities
-        ? compactObject({ ...(model.modalities ?? {}), ...(override.modalities ?? {}) })
+        ? compactObject({
+            ...(model.modalities ?? {}),
+            ...(override.modalities ?? {}),
+          })
         : undefined,
   }) as ModelRecord;
 

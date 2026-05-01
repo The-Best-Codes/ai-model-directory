@@ -9,7 +9,9 @@ type FetchJsonOptions<T extends z.ZodTypeAny> = {
   label: string;
 };
 
-export function withBearerToken(token: string | undefined): HttpHeaders | undefined {
+export function withBearerToken(
+  token: string | undefined,
+): HttpHeaders | undefined {
   return token ? { Authorization: `Bearer ${token}` } : undefined;
 }
 

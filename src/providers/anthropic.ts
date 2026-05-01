@@ -2,10 +2,7 @@ import { z } from "zod";
 
 import { fetchJson } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import {
-  nonNegativeInteger,
-  timestampFromDateInput,
-} from "../lib/model.ts";
+import { nonNegativeInteger, timestampFromDateInput } from "../lib/model.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const capabilitySchema = z.object({ supported: z.boolean() });
@@ -81,7 +78,9 @@ export const anthropicProvider: ProviderDefinition = {
       return compactObject({
         id: model.id,
         name: model.display_name || model.id,
-        release_date: timestampFromDateInput(model.created_at, { rejectEpoch: true }),
+        release_date: timestampFromDateInput(model.created_at, {
+          rejectEpoch: true,
+        }),
         features: {
           attachment: imageInput || pdfInput,
           reasoning: model.capabilities.thinking?.supported === true,

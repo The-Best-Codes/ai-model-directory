@@ -27,7 +27,9 @@ export function filterModalities(
     }
   }
 
-  return unique.size > 0 ? allModalities.filter((value) => unique.has(value)) : undefined;
+  return unique.size > 0
+    ? allModalities.filter((value) => unique.has(value))
+    : undefined;
 }
 
 export function hasAttachmentSupport(
@@ -50,7 +52,9 @@ export function hasAttachmentSource(
   return values.some((value) => {
     const normalized = value.trim().toLowerCase();
 
-    return normalized === "file" || normalized === "pdf" || normalized !== "text";
+    return (
+      normalized === "file" || normalized === "pdf" || normalized !== "text"
+    );
   });
 }
 
@@ -66,9 +70,7 @@ export function hasAnyString(
   return expected.some((value) => set.has(value.trim().toLowerCase()));
 }
 
-export function parseCommaSet(
-  value: string | null | undefined,
-): Set<string> {
+export function parseCommaSet(value: string | null | undefined): Set<string> {
   if (!value) {
     return new Set();
   }

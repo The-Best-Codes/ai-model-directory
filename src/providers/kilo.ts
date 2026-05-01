@@ -3,7 +3,11 @@ import { z } from "zod";
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import { pricePerMillion, timestampFromUnixSeconds } from "../lib/model.ts";
-import { filterModalities, hasAnyString, hasAttachmentSource } from "./helpers.ts";
+import {
+  filterModalities,
+  hasAnyString,
+  hasAttachmentSource,
+} from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const apiModelSchema = z.object({
@@ -49,7 +53,10 @@ export const kiloProvider: ProviderDefinition = {
       label: "Kilo API error",
     });
 
-    progress?.tick(`api.kilo.ai/api/gateway/models (${response.data.length})`, true);
+    progress?.tick(
+      `api.kilo.ai/api/gateway/models (${response.data.length})`,
+      true,
+    );
 
     return response.data.map((model) => {
       const input = filterModalities(model.architecture?.input_modalities);
@@ -61,7 +68,9 @@ export const kiloProvider: ProviderDefinition = {
         id: model.id,
         name: model.name,
         release_date:
-          model.created > 0 ? timestampFromUnixSeconds(model.created) : undefined,
+          model.created > 0
+            ? timestampFromUnixSeconds(model.created)
+            : undefined,
         features: compactObject({
           attachment: hasAttachmentSource(model.architecture?.input_modalities),
           reasoning:

@@ -33,7 +33,10 @@ export const abacusProvider: ProviderDefinition = {
       label: "Abacus API error",
     });
 
-    progress?.tick(`routellm.abacus.ai/v1/models (${response.data.length})`, true);
+    progress?.tick(
+      `routellm.abacus.ai/v1/models (${response.data.length})`,
+      true,
+    );
 
     return response.data.map((model) => {
       const input = filterModalities(model.input_modalities);
