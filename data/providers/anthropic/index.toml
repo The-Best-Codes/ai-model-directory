@@ -1,0 +1,7 @@
+name = "Anthropic"
+website = "https://anthropic.com"
+apiBaseUrl = "https://api.anthropic.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/anthropic"
+defaultApiKeyEnv = ["ANTHROPIC_API_KEY"]
