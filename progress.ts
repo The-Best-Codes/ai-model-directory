@@ -98,6 +98,8 @@ export class ProgressBar implements ProgressReporter {
   beginPhase(phase: string, total: number): void {
     this.payload.phase = phase;
     this.payload.label = "";
+    this.payload.ok = 0;
+    this.payload.err = 0;
     this.bar.setTotal(Math.max(total, 1));
     this.bar.update(0, this.payload);
   }
