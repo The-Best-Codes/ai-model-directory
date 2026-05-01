@@ -1,0 +1,19 @@
+id = "zai-org/AutoGLM-Phone-9B-Multilingual"
+name = "zai-org/AutoGLM-Phone-9B-Multilingual"
+release_date = "2025-12-09"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.035
+output = 0.138

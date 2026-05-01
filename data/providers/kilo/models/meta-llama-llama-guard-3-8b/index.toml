@@ -1,0 +1,21 @@
+id = "meta-llama/llama-guard-3-8b"
+name = "Llama Guard 3 8B"
+release_date = "2025-02-12"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.48
+output = 0.03

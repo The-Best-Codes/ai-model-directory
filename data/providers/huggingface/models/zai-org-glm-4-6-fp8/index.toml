@@ -1,0 +1,12 @@
+id = "zai-org/GLM-4.6-FP8"
+name = "zai-org/GLM-4.6-FP8"
+release_date = "2025-09-29"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,7 @@
+name = "Inception"
+website = "https://inceptionlabs.ai"
+apiBaseUrl = "https://api.inceptionlabs.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["INCEPTION_API_KEY"]

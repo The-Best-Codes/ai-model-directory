@@ -1,0 +1,23 @@
+id = "openai/o3"
+name = "OpenAI: o3"
+release_date = "2025-04-16"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 2
+output = 8

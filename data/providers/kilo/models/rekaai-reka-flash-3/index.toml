@@ -1,0 +1,22 @@
+id = "rekaai/reka-flash-3"
+name = "Reka Flash 3"
+release_date = "2025-03-12"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 65536
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.2

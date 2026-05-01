@@ -1,0 +1,19 @@
+id = "Qwen/Qwen3.5-122B-A10B"
+name = "Qwen/Qwen3.5-122B-A10B"
+release_date = "2026-02-24"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 3.2

@@ -1,0 +1,12 @@
+id = "zai-org/GLM-4.5V"
+name = "zai-org/GLM-4.5V"
+release_date = "2025-08-10"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

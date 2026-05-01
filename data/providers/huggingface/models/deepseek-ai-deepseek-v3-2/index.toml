@@ -1,0 +1,19 @@
+id = "deepseek-ai/DeepSeek-V3.2"
+name = "deepseek-ai/DeepSeek-V3.2"
+release_date = "2025-12-01"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.269
+output = 0.4

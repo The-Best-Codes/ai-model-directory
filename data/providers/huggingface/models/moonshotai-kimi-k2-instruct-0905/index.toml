@@ -1,0 +1,19 @@
+id = "moonshotai/Kimi-K2-Instruct-0905"
+name = "moonshotai/Kimi-K2-Instruct-0905"
+release_date = "2025-09-03"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.5

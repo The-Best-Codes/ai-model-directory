@@ -1,0 +1,16 @@
+id = "allenai/Olmo-3-7B-Instruct"
+name = "allenai/Olmo-3-7B-Instruct"
+release_date = "2025-11-19"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.2

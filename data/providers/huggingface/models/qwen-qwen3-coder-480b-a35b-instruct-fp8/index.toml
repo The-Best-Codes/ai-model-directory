@@ -1,0 +1,19 @@
+id = "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"
+name = "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"
+release_date = "2025-07-22"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 2

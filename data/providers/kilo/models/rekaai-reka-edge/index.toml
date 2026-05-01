@@ -1,0 +1,22 @@
+id = "rekaai/reka-edge"
+name = "Reka Edge"
+release_date = "2026-03-20"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 16384
+output = 16384
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

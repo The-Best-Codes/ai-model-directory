@@ -1,0 +1,19 @@
+id = "meta-llama/Meta-Llama-3-70B-Instruct"
+name = "meta-llama/Meta-Llama-3-70B-Instruct"
+release_date = "2024-04-17"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.51
+output = 0.74

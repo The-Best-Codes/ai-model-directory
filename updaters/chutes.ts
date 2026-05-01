@@ -1,6 +1,6 @@
 import type { Modality, ProviderModel } from "../schema.ts";
 import type { ProgressReporter } from "../progress.ts";
-import { compact, isoDateFromUnix } from "./_lib.ts";
+import { compact, isoDateFromUnix, nonNegativeNumber } from "./_lib.ts";
 
 export const outputDirectory = "data/providers/chutes/models";
 
@@ -40,10 +40,6 @@ function filterModalities(input: unknown): Modality[] | undefined {
     VALID_MODALITIES.has(m as Modality),
   );
   return filtered.length > 0 ? filtered : undefined;
-}
-
-function nonNegativeNumber(n: number | undefined): number | undefined {
-  return n !== undefined && Number.isFinite(n) && n >= 0 ? n : undefined;
 }
 
 function convert(model: ApiModel): ProviderModel {

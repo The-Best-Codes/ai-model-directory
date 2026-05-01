@@ -1,0 +1,23 @@
+id = "qwen/qwen-plus-2025-07-28:thinking"
+name = "Qwen: Qwen Plus 0728 (thinking)"
+release_date = "2025-09-08"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_write = 0.325
+input = 0.26
+output = 0.78

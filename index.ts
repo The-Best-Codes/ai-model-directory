@@ -38,9 +38,25 @@ import {
   outputDirectory as deepInfraOutputDirectory,
 } from "./updaters/deepinfra.ts";
 import {
+  fetchModels as fetchFriendliModels,
+  outputDirectory as friendliOutputDirectory,
+} from "./updaters/friendli.ts";
+import {
   fetchModels as fetchFastRouterModels,
   outputDirectory as fastRouterOutputDirectory,
 } from "./updaters/fastrouter.ts";
+import {
+  fetchModels as fetchHuggingFaceModels,
+  outputDirectory as huggingFaceOutputDirectory,
+} from "./updaters/huggingface.ts";
+import {
+  fetchModels as fetchInceptionModels,
+  outputDirectory as inceptionOutputDirectory,
+} from "./updaters/inception.ts";
+import {
+  fetchModels as fetchKiloModels,
+  outputDirectory as kiloOutputDirectory,
+} from "./updaters/kilo.ts";
 import {
   fetchModels as fetchOpenAIModels,
   outputDirectory as openAIOutputDirectory,
@@ -379,9 +395,29 @@ const UPDATERS: Updater[] = [
     outputDirectory: deepInfraOutputDirectory,
   },
   {
+    name: "friendli",
+    fetchModels: fetchFriendliModels,
+    outputDirectory: friendliOutputDirectory,
+  },
+  {
     name: "fastrouter",
     fetchModels: fetchFastRouterModels,
     outputDirectory: fastRouterOutputDirectory,
+  },
+  {
+    name: "huggingface",
+    fetchModels: fetchHuggingFaceModels,
+    outputDirectory: huggingFaceOutputDirectory,
+  },
+  {
+    name: "inception",
+    fetchModels: fetchInceptionModels,
+    outputDirectory: inceptionOutputDirectory,
+  },
+  {
+    name: "kilo",
+    fetchModels: fetchKiloModels,
+    outputDirectory: kiloOutputDirectory,
   },
 ];
 

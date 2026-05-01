@@ -1,0 +1,19 @@
+id = "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT"
+name = "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT"
+release_date = "2025-06-28"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 123000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.42
+output = 1.25

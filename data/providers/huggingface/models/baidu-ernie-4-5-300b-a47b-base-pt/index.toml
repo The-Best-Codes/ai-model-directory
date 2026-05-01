@@ -1,0 +1,19 @@
+id = "baidu/ERNIE-4.5-300B-A47B-Base-PT"
+name = "baidu/ERNIE-4.5-300B-A47B-Base-PT"
+release_date = "2025-06-28"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 123000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.28
+output = 1.1

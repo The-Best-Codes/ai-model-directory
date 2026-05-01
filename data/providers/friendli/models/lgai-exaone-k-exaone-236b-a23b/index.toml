@@ -1,0 +1,16 @@
+id = "LGAI-EXAONE/K-EXAONE-236B-A23B"
+name = "LGAI-EXAONE/K-EXAONE-236B-A23B"
+release_date = "2025-12-31"
+
+[features]
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.1
+input = 0.2
+output = 0.8

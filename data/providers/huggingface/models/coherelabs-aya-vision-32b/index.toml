@@ -1,0 +1,12 @@
+id = "CohereLabs/aya-vision-32b"
+name = "CohereLabs/aya-vision-32b"
+release_date = "2025-03-02"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

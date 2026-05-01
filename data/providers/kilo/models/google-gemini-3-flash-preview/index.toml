@@ -1,0 +1,25 @@
+id = "google/gemini-3-flash-preview"
+name = "Google: Gemini 3 Flash Preview"
+release_date = "2025-12-17"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 0.08333333333333334
+input = 0.5
+output = 3
+reasoning = 3

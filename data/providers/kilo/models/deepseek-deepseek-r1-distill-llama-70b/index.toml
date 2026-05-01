@@ -1,0 +1,22 @@
+id = "deepseek/deepseek-r1-distill-llama-70b"
+name = "DeepSeek: R1 Distill Llama 70B"
+release_date = "2025-01-23"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 131072
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 0.8

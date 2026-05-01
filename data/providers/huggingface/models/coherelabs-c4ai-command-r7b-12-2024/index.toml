@@ -1,0 +1,12 @@
+id = "CohereLabs/c4ai-command-r7b-12-2024"
+name = "CohereLabs/c4ai-command-r7b-12-2024"
+release_date = "2024-12-11"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

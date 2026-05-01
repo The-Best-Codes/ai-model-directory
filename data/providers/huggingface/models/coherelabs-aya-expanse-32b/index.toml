@@ -1,0 +1,12 @@
+id = "CohereLabs/aya-expanse-32b"
+name = "CohereLabs/aya-expanse-32b"
+release_date = "2024-10-23"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

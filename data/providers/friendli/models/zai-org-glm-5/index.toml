@@ -1,0 +1,16 @@
+id = "zai-org/GLM-5"
+name = "zai-org/GLM-5"
+release_date = "2026-02-11"
+
+[features]
+structured_output = true
+tool_call = true
+
+[limit]
+context = 202752
+output = 202752
+
+[pricing]
+cache_read = 0.5
+input = 1
+output = 3.2

@@ -1,0 +1,19 @@
+id = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+release_date = "2025-01-20"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

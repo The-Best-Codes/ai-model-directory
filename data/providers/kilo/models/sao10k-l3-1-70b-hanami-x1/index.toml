@@ -1,0 +1,21 @@
+id = "sao10k/l3.1-70b-hanami-x1"
+name = "Sao10K: Llama 3.1 70B Hanami x1"
+release_date = "2025-01-08"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 3

@@ -1,0 +1,22 @@
+id = "deepseek/deepseek-chat-v3.1"
+name = "DeepSeek: DeepSeek V3.1"
+release_date = "2025-08-21"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 32768
+output = 7168
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.75

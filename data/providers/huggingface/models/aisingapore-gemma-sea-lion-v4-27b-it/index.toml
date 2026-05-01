@@ -1,0 +1,16 @@
+id = "aisingapore/Gemma-SEA-LION-v4-27B-IT"
+name = "aisingapore/Gemma-SEA-LION-v4-27B-IT"
+release_date = "2025-08-11"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.4
