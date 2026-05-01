@@ -4,7 +4,10 @@ import { z } from "zod";
 import { mapWithConcurrency } from "../lib/async.ts";
 import { fetchJson, fetchText } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import { timestampFromDateInput, timestampFromUnixSeconds } from "../lib/model.ts";
+import {
+  timestampFromDateInput,
+  timestampFromUnixSeconds,
+} from "../lib/model.ts";
 import type { ModelModality, ModelRecord } from "../schema.ts";
 import type { ProviderDefinition } from "./types.ts";
 
@@ -89,7 +92,8 @@ function parseDetails(html: string): Omit<ModelRecord, "id"> | undefined {
     if (label === "Features") {
       content.find("div.text-sm.font-semibold").each((_, node) => {
         const key = $(node).text().trim().toLowerCase();
-        const status = $(node).next().text().trim().toLowerCase() === "supported";
+        const status =
+          $(node).next().text().trim().toLowerCase() === "supported";
 
         if (key === "function calling") {
           features.tool_call = status;
@@ -152,8 +156,20 @@ function parseDetails(html: string): Omit<ModelRecord, "id"> | undefined {
       input.has("video") ||
       input.has("file");
     result.modalities = compactObject({
-      input: input.size > 0 ? ["text", "image", "audio", "video", "file"].filter((entry): entry is ModelModality => input.has(entry as ModelModality)) : undefined,
-      output: output.size > 0 ? ["text", "image", "audio", "video", "file"].filter((entry): entry is ModelModality => output.has(entry as ModelModality)) : undefined,
+      input:
+        input.size > 0
+          ? ["text", "image", "audio", "video", "file"].filter(
+              (entry): entry is ModelModality =>
+                input.has(entry as ModelModality),
+            )
+          : undefined,
+      output:
+        output.size > 0
+          ? ["text", "image", "audio", "video", "file"].filter(
+              (entry): entry is ModelModality =>
+                output.has(entry as ModelModality),
+            )
+          : undefined,
     });
   }
 
@@ -177,7 +193,9 @@ function parseDetails(html: string): Omit<ModelRecord, "id"> | undefined {
   });
 }
 
-async function fetchModelDetails(id: string): Promise<Omit<ModelRecord, "id"> | undefined> {
+async function fetchModelDetails(
+  id: string,
+): Promise<Omit<ModelRecord, "id"> | undefined> {
   try {
     const html = await fetchText(
       `https://developers.openai.com/api/docs/models/${encodeURIComponent(id)}`,

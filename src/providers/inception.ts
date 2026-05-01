@@ -7,7 +7,11 @@ import {
   pricePerMillion,
   timestampFromUnixSeconds,
 } from "../lib/model.ts";
-import { filterModalities, hasAnyString, hasAttachmentSource } from "./helpers.ts";
+import {
+  filterModalities,
+  hasAnyString,
+  hasAttachmentSource,
+} from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const apiModelSchema = z.object({

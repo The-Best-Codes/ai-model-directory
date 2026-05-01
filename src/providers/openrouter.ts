@@ -3,7 +3,11 @@ import { z } from "zod";
 import { fetchJson } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import { pricePerMillion, timestampFromUnixSeconds } from "../lib/model.ts";
-import { filterModalities, hasAnyString, hasAttachmentSource } from "./helpers.ts";
+import {
+  filterModalities,
+  hasAnyString,
+  hasAttachmentSource,
+} from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const apiModelSchema = z.object({
@@ -44,7 +48,10 @@ export const openrouterProvider: ProviderDefinition = {
       label: "OpenRouter API error",
     });
 
-    progress?.tick(`openrouter.ai/api/v1/models (${response.data.length})`, true);
+    progress?.tick(
+      `openrouter.ai/api/v1/models (${response.data.length})`,
+      true,
+    );
 
     return response.data.map((model) => {
       const input = filterModalities(model.architecture.input_modalities);
@@ -57,7 +64,8 @@ export const openrouterProvider: ProviderDefinition = {
         knowledge_cutoff: model.knowledge_cutoff ?? undefined,
         release_date: timestampFromUnixSeconds(model.created),
         features: {
-          attachment: hasAttachmentSource(model.architecture.input_modalities) ?? false,
+          attachment:
+            hasAttachmentSource(model.architecture.input_modalities) ?? false,
           reasoning:
             hasAnyString(
               model.supported_parameters,

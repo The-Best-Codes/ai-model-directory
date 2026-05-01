@@ -48,7 +48,8 @@ function pickProvider(
     providers.find((provider) => provider.is_model_author) ??
     providers.find(
       (provider) =>
-        provider.pricing?.input !== undefined || provider.context_length !== undefined,
+        provider.pricing?.input !== undefined ||
+        provider.context_length !== undefined,
     ) ??
     providers[0]
   );
@@ -60,11 +61,14 @@ export const huggingfaceProvider: ProviderDefinition = {
   async fetchModels(progress) {
     progress?.beginPhase("fetching", 1);
 
-    const response = await fetchJson("https://router.huggingface.co/v1/models", {
-      schema: responseSchema,
-      headers: withBearerToken(process.env.HF_TOKEN),
-      label: "Hugging Face API error",
-    });
+    const response = await fetchJson(
+      "https://router.huggingface.co/v1/models",
+      {
+        schema: responseSchema,
+        headers: withBearerToken(process.env.HF_TOKEN),
+        label: "Hugging Face API error",
+      },
+    );
 
     progress?.tick(
       `router.huggingface.co/v1/models (${response.data.length})`,

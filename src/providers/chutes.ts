@@ -7,7 +7,11 @@ import {
   nonNegativeNumber,
   timestampFromUnixSeconds,
 } from "../lib/model.ts";
-import { filterModalities, hasAttachmentSource, parseCommaSet } from "./helpers.ts";
+import {
+  filterModalities,
+  hasAttachmentSource,
+  parseCommaSet,
+} from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const apiModelSchema = z.object({
@@ -68,7 +72,9 @@ export const chutesProvider: ProviderDefinition = {
           cache_read: nonNegativeNumber(model.pricing?.input_cache_read),
         }),
         limit: compactObject({
-          context: nonNegativeInteger(model.context_length ?? model.max_model_len),
+          context: nonNegativeInteger(
+            model.context_length ?? model.max_model_len,
+          ),
           output: nonNegativeInteger(model.max_output_length),
         }),
         modalities: compactObject({ input, output }),

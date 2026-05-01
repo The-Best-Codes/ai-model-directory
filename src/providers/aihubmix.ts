@@ -4,7 +4,11 @@ import { z } from "zod";
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import { nonNegativeInteger } from "../lib/model.ts";
-import { allModalities, hasAttachmentSource, parseCommaSet } from "./helpers.ts";
+import {
+  allModalities,
+  hasAttachmentSource,
+  parseCommaSet,
+} from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const priceBase = new Decimal(2);
@@ -58,14 +62,21 @@ function parseModalities(value: string | undefined) {
     }
   }
 
-  return result.size > 0 ? allModalities.filter((entry) => result.has(entry)) : undefined;
+  return result.size > 0
+    ? allModalities.filter((entry) => result.has(entry))
+    : undefined;
 }
 
 function priceFromRatio(
   ratio: number | undefined,
   multiplier: number | undefined,
 ): number | undefined {
-  if (ratio === undefined || multiplier === undefined || ratio < 0 || multiplier < 0) {
+  if (
+    ratio === undefined ||
+    multiplier === undefined ||
+    ratio < 0 ||
+    multiplier < 0
+  ) {
     return undefined;
   }
 
@@ -84,7 +95,10 @@ export const aihubmixProvider: ProviderDefinition = {
       label: "AIHubMix API error",
     });
 
-    progress?.tick(`aihubmix.com/v1/models (${basicResponse.data.length})`, true);
+    progress?.tick(
+      `aihubmix.com/v1/models (${basicResponse.data.length})`,
+      true,
+    );
 
     const firstPage = await fetchJson(
       `https://aihubmix.com/call/mdl_info_pagination?p=0&num=${pageSize}&sort_by=&sort_order=desc`,
@@ -95,7 +109,10 @@ export const aihubmixProvider: ProviderDefinition = {
     );
 
     const byId = new Map(firstPage.data.map((entry) => [entry.model, entry]));
-    const pageCount = Math.max(1, Math.ceil(Math.max(firstPage.total, firstPage.data.length) / pageSize));
+    const pageCount = Math.max(
+      1,
+      Math.ceil(Math.max(firstPage.total, firstPage.data.length) / pageSize),
+    );
 
     progress?.beginPhase("details", pageCount);
     progress?.tick(`page 1/${pageCount} (${firstPage.data.length})`, true);
@@ -114,7 +131,10 @@ export const aihubmixProvider: ProviderDefinition = {
           byId.set(model.model, model);
         }
 
-        progress?.tick(`page ${page + 1}/${pageCount} (${response.data.length})`, true);
+        progress?.tick(
+          `page ${page + 1}/${pageCount} (${response.data.length})`,
+          true,
+        );
       } catch {
         progress?.tick(`page ${page + 1}/${pageCount} (0)`, false);
       }
@@ -165,7 +185,9 @@ export const aihubmixProvider: ProviderDefinition = {
             : undefined,
         }),
         pricing: compactObject({
-          input: hasNonTokenPricing ? undefined : priceFromRatio(details?.model_ratio, 1),
+          input: hasNonTokenPricing
+            ? undefined
+            : priceFromRatio(details?.model_ratio, 1),
           output:
             hasNonTokenPricing ||
             details?.completion_ratio === undefined ||
