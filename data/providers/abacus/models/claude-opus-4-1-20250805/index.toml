@@ -1,0 +1,17 @@
+id = "claude-opus-4-1-20250805"
+name = "Claude Opus 4.1"
+
+[features]
+attachment = true
+
+[limit]
+context = 200000
+output = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 15
+output = 75

@@ -1,0 +1,9 @@
+id = "sora"
+name = "Sora 2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

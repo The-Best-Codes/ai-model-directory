@@ -1,0 +1,9 @@
+id = "luma_labs"
+name = "Luma Labs"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

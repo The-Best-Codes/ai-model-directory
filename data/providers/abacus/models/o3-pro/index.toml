@@ -1,0 +1,17 @@
+id = "o3-pro"
+name = "o3 Pro"
+
+[features]
+attachment = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 20
+output = 40

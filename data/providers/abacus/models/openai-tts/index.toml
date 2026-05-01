@@ -1,0 +1,6 @@
+id = "openai_tts"
+name = "openai_tts"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,14 @@
+id = "m2.7"
+name = "MiniMax M2.7"
+
+[limit]
+context = 204800
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

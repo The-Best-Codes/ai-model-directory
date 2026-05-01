@@ -1,0 +1,14 @@
+id = "grok-3"
+name = "Grok 3"
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 15

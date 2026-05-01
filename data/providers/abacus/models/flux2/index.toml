@@ -1,0 +1,6 @@
+id = "flux2"
+name = "FLUX.2"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,6 @@
+id = "imagen"
+name = "Imagen 4"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

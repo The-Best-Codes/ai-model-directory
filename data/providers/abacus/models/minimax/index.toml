@@ -1,0 +1,9 @@
+id = "minimax"
+name = "Hailuo 2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

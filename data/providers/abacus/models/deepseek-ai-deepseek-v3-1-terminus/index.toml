@@ -1,0 +1,14 @@
+id = "deepseek-ai/DeepSeek-V3.1-Terminus"
+name = "Deepseek Chat"
+
+[limit]
+context = 131072
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.27
+output = 1

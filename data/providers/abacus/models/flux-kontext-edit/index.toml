@@ -1,0 +1,9 @@
+id = "flux_kontext_edit"
+name = "FLUX.1 Kontext [Edit]"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

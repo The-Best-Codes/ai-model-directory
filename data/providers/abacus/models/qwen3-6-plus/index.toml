@@ -1,0 +1,14 @@
+id = "qwen3.6-plus"
+name = "Qwen3.6"
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 3

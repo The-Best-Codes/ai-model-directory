@@ -1,0 +1,9 @@
+id = "runway"
+name = "Runway"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

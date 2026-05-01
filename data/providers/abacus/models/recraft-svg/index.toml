@@ -1,0 +1,6 @@
+id = "recraft_svg"
+name = "Recraft SVG"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

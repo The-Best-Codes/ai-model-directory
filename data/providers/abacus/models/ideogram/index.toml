@@ -1,0 +1,6 @@
+id = "ideogram"
+name = "Ideogram 3.0"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,9 @@
+id = "kling_ai_o1"
+name = "Kling AI O1"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

@@ -1,0 +1,6 @@
+id = "veo31"
+name = "Veo 3.1"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio", "video" ]

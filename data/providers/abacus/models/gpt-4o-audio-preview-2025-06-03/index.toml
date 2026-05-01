@@ -1,0 +1,17 @@
+id = "gpt-4o-audio-preview-2025-06-03"
+name = "GPT-4o Audio Preview"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 2.5
+output = 10

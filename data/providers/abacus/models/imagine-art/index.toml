@@ -1,0 +1,6 @@
+id = "imagine_art"
+name = "Imagineart 1.5"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
