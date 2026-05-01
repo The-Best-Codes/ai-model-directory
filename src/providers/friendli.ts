@@ -12,21 +12,21 @@ import type { ProviderDefinition } from "./types.ts";
 const apiModelSchema = z.object({
   id: z.string(),
   name: z.string(),
-  max_completion_tokens: z.number().optional(),
-  context_length: z.number().optional(),
+  max_completion_tokens: z.number().nullish(),
+  context_length: z.number().nullish(),
   functionality: z
     .object({
       tool_call: z.boolean().optional(),
       structured_output: z.boolean().optional(),
     })
-    .optional(),
+    .nullish(),
   pricing: z
     .object({
-      input: z.number().optional(),
-      output: z.number().optional(),
-      input_cache_read: z.number().optional(),
+      input: z.number().nullish(),
+      output: z.number().nullish(),
+      input_cache_read: z.number().nullish(),
     })
-    .optional(),
+    .nullish(),
   created: z.number(),
 });
 

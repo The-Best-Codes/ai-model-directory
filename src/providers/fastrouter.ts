@@ -14,19 +14,19 @@ const apiModelSchema = z.object({
   id: z.string(),
   name: z.string(),
   created: z.number(),
-  context_length: z.number(),
+  context_length: z.number().nullish(),
   architecture: z.object({
-    input_modalities: z.array(z.string()),
-    output_modalities: z.array(z.string()),
+    input_modalities: z.array(z.string()).optional().default([]),
+    output_modalities: z.array(z.string()).optional().default([]),
   }),
   pricing: z.object({
     prompt: z.string(),
     completion: z.string(),
-    input_cache_read: z.string().optional(),
-    input_cache_write: z.string().optional(),
-    internal_reasoning: z.string().optional(),
-    audio_input: z.string().optional(),
-    audio_output: z.string().optional(),
+    input_cache_read: z.string().nullish(),
+    input_cache_write: z.string().nullish(),
+    internal_reasoning: z.string().nullish(),
+    audio_input: z.string().nullish(),
+    audio_output: z.string().nullish(),
   }),
   top_provider: z.object({
     context_length: z.number().nullable(),
@@ -96,7 +96,10 @@ export const fastrouterProvider: ProviderDefinition = {
           output_audio: pricePerMillion(model.pricing.audio_output),
         }),
         limit: compactObject({
-          context: model.top_provider.context_length ?? model.context_length,
+          context:
+            model.top_provider.context_length ??
+            model.context_length ??
+            undefined,
           output: model.top_provider.max_completion_tokens ?? undefined,
         }),
         modalities: compactObject({ input, output }),
