@@ -1,0 +1,21 @@
+id = "google/veo3-fast"
+name = "Google: Google Veo 3 Fast"
+release_date = "2025-02-12"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 0
+output = 0
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+reasoning = 0

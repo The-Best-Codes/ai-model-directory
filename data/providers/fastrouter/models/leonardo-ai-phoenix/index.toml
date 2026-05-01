@@ -1,0 +1,22 @@
+id = "leonardo-ai/phoenix"
+name = "Leonardo.AI: Phoenix"
+release_date = "2024-06-14"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

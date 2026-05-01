@@ -1,0 +1,24 @@
+id = "openai/gpt-image-1"
+name = "OpenAI: GPT-image-1"
+release_date = "2025-02-12"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 2.5
+input = 10
+output = 40
+reasoning = 0

@@ -1,0 +1,23 @@
+id = "x-ai/grok-4.20-beta"
+name = "xAI: Grok 4.20 Beta"
+release_date = "2026-03-12"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 2000000
+output = 0
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 6

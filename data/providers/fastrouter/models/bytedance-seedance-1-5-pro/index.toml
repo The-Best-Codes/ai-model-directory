@@ -1,0 +1,21 @@
+id = "bytedance/seedance-1.5-pro"
+name = "ByteDance: Seedance 1.5 Pro"
+release_date = "2025-12-23"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 400000
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+reasoning = 0

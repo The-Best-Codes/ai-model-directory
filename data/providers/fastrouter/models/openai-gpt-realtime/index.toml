@@ -1,0 +1,25 @@
+id = "openai/gpt-realtime"
+name = "GPT Realtime"
+release_date = "2025-08-28"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 32000
+output = 4096
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 4
+input_audio = 32
+output = 16
+output_audio = 64

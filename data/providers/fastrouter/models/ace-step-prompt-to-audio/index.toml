@@ -1,0 +1,23 @@
+id = "ace-step/prompt-to-audio"
+name = "ACE Step: Prompt-to-Audio"
+release_date = "2025-02-12"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 0
+output = 0
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0
+reasoning = 0

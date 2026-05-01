@@ -1,0 +1,22 @@
+id = "leonardo-ai/lucid-origin"
+name = "Leonardo.AI: Lucid Origin"
+release_date = "2025-08-05"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

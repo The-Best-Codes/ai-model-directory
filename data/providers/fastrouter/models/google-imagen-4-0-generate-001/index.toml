@@ -1,0 +1,22 @@
+id = "google/imagen-4.0-generate-001"
+name = "Google: Imagen 4"
+release_date = "2025-08-14"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

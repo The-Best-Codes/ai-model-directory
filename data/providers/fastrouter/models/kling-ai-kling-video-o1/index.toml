@@ -1,0 +1,21 @@
+id = "kling-ai/kling-video-o1"
+name = "Kling AI: Kling Video O1"
+release_date = "2025-12-01"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+reasoning = 0

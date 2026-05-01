@@ -1,0 +1,22 @@
+id = "sarvam/bulbul:v2"
+name = "Sarvam: Bulbul V2"
+release_date = "2025-05-07"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 1500
+output = 1500
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 16
+output = 0

@@ -1,0 +1,7 @@
+name = "FastRouter"
+website = "https://fastrouter.ai"
+apiBaseUrl = "https://go.fastrouter.ai/api/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["FASTROUTER_API_KEY"]

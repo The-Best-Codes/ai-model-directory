@@ -1,0 +1,25 @@
+id = "openai/gpt-4o-realtime-preview-2024-12-17"
+name = "GPT-4o Realtime Preview (2024-12-17)"
+release_date = "2024-12-17"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 32000
+output = 4096
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 2.5
+input = 5
+input_audio = 40
+output = 20
+output_audio = 80
