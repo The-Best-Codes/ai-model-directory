@@ -1,7 +1,7 @@
 id = "qwen/qwen3-235b-a22b-thinking-2507"
-knowledge_cutoff = "2025-06-30"
+knowledge_cutoff = "1751241600"
 name = "Qwen: Qwen3 235B A22B Thinking 2507"
-release_date = "2025-07-25"
+release_date = "1753449557"
 
 [features]
 attachment = false

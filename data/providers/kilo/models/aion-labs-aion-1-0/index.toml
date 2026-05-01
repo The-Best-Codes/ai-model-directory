@@ -1,6 +1,6 @@
 id = "aion-labs/aion-1.0"
 name = "AionLabs: Aion-1.0"
-release_date = "2025-02-04"
+release_date = "1738697557"
 
 [features]
 attachment = false

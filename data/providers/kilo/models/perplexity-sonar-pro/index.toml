@@ -1,6 +1,6 @@
 id = "perplexity/sonar-pro"
 name = "Perplexity: Sonar Pro"
-release_date = "2025-03-07"
+release_date = "1741312423"
 
 [features]
 attachment = true

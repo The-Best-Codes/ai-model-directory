@@ -1,7 +1,7 @@
 id = "o3"
-knowledge_cutoff = "2024-06-01"
+knowledge_cutoff = "1717218000"
 name = "o3"
-release_date = "2025-04-09"
+release_date = "1744225308"
 
 [features]
 attachment = true

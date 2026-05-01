@@ -1,9 +1,9 @@
 id = "x-ai/grok-2-vision-1212"
 name = "xAI: Grok 2 Vision 1212"
-release_date = "2024-12-15"
+release_date = "1734237338"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

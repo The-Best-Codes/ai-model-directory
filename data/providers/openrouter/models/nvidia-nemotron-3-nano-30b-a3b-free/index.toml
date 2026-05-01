@@ -1,6 +1,6 @@
 id = "nvidia/nemotron-3-nano-30b-a3b:free"
 name = "NVIDIA: Nemotron 3 Nano 30B A3B (free)"
-release_date = "2025-12-14"
+release_date = "1765731275"
 
 [features]
 attachment = false

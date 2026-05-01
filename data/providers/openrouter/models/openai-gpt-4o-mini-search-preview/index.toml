@@ -1,7 +1,7 @@
 id = "openai/gpt-4o-mini-search-preview"
-knowledge_cutoff = "2023-10-31"
+knowledge_cutoff = "1698710400"
 name = "OpenAI: GPT-4o-mini Search Preview"
-release_date = "2025-03-12"
+release_date = "1741818122"
 
 [features]
 attachment = false

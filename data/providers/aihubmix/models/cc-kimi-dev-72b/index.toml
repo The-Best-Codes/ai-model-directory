@@ -2,10 +2,12 @@ id = "cc-kimi-dev-72b"
 name = "cc-kimi-dev-72b"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 cache_read = 0

@@ -1,6 +1,6 @@
 id = "gryphe/mythomax-l2-13b"
 name = "MythoMax 13B"
-release_date = "2023-07-02"
+release_date = "1688256000"
 
 [features]
 attachment = false

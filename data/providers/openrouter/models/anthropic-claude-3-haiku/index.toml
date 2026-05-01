@@ -1,10 +1,10 @@
 id = "anthropic/claude-3-haiku"
-knowledge_cutoff = "2023-08-31"
+knowledge_cutoff = "1693440000"
 name = "Anthropic: Claude 3 Haiku"
-release_date = "2024-03-13"
+release_date = "1710288000"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 temperature = true

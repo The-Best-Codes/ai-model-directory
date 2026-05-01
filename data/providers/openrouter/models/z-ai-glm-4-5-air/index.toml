@@ -1,7 +1,7 @@
 id = "z-ai/glm-4.5-air"
-knowledge_cutoff = "2024-12-31"
+knowledge_cutoff = "1735603200"
 name = "Z.ai: GLM 4.5 Air"
-release_date = "2025-07-25"
+release_date = "1753471258"
 
 [features]
 attachment = false

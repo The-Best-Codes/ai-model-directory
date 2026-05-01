@@ -1,7 +1,7 @@
 id = "cohere/command-r7b-12-2024"
-knowledge_cutoff = "2024-08-31"
+knowledge_cutoff = "1725062400"
 name = "Cohere: Command R7B (12-2024)"
-release_date = "2024-12-14"
+release_date = "1734158152"
 
 [features]
 attachment = false

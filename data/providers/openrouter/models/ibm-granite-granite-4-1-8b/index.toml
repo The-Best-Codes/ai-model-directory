@@ -1,6 +1,6 @@
 id = "ibm-granite/granite-4.1-8b"
 name = "IBM: Granite 4.1 8B"
-release_date = "2026-04-30"
+release_date = "1777577071"
 
 [features]
 attachment = false

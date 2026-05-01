@@ -1,9 +1,9 @@
 id = "openai/gpt-4-1106-preview"
 name = "OpenAI: GPT-4 Turbo (older v1106)"
-release_date = "2023-11-06"
+release_date = "1699228800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

@@ -1,6 +1,6 @@
 id = "inclusionai/ling-2.6-1t:free"
 name = "inclusionAI: Ling-2.6-1T (free)"
-release_date = "2026-04-23"
+release_date = "1776948238"
 
 [features]
 attachment = false

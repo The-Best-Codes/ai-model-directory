@@ -1,6 +1,6 @@
 id = "arcee-ai/coder-large"
 name = "Arcee AI: Coder Large"
-release_date = "2025-05-05"
+release_date = "1746478663"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "google/imagen-4.0-generate-001"
 name = "Google: Imagen 4"
-release_date = "2025-08-14"
+release_date = "1755163830"
 
 [features]
 attachment = false

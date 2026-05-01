@@ -1,7 +1,7 @@
 id = "x-ai/grok-3-mini"
-knowledge_cutoff = "2025-02-28"
+knowledge_cutoff = "1740700800"
 name = "xAI: Grok 3 Mini"
-release_date = "2025-06-10"
+release_date = "1749583245"
 
 [features]
 attachment = false

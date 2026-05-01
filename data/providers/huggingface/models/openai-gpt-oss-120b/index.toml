@@ -1,6 +1,6 @@
 id = "openai/gpt-oss-120b"
 name = "openai/gpt-oss-120b"
-release_date = "2025-08-04"
+release_date = "1754346786"
 
 [features]
 attachment = false

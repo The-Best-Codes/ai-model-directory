@@ -2,10 +2,12 @@ id = "qwen3-30b-a3b-instruct-2507"
 name = "qwen3-30b-a3b-instruct-2507"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.1028

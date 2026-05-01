@@ -1,6 +1,6 @@
 id = "z-ai/glm-4.5v"
 name = "Z.ai: GLM 4.5V"
-release_date = "2025-08-11"
+release_date = "1754922288"
 
 [features]
 attachment = true

@@ -1,9 +1,9 @@
 id = "qwen/qwen3.6-27b"
 name = "Qwen: Qwen3.6 27B"
-release_date = "2026-04-27"
+release_date = "1777255064"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

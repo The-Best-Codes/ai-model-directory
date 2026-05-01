@@ -1,6 +1,6 @@
 id = "openai/gpt-4.1-nano"
 name = "OpenAI: GPT-4.1 Nano"
-release_date = "2025-04-14"
+release_date = "1744651369"
 
 [features]
 attachment = true

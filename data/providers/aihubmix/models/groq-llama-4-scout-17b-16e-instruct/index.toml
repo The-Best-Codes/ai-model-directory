@@ -2,10 +2,12 @@ id = "groq-llama-4-scout-17b-16e-instruct"
 name = "groq-llama-4-scout-17b-16e-instruct"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.122

@@ -1,6 +1,6 @@
 id = "thedrummer/rocinante-12b"
 name = "TheDrummer: Rocinante 12B"
-release_date = "2024-09-30"
+release_date = "1727654400"
 
 [features]
 attachment = false

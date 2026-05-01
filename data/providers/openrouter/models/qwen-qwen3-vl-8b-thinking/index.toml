@@ -1,9 +1,9 @@
 id = "qwen/qwen3-vl-8b-thinking"
 name = "Qwen: Qwen3 VL 8B Thinking"
-release_date = "2025-10-14"
+release_date = "1760463746"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

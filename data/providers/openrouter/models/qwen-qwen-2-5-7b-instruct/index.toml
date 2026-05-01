@@ -1,7 +1,7 @@
 id = "qwen/qwen-2.5-7b-instruct"
-knowledge_cutoff = "2024-06-30"
+knowledge_cutoff = "1719705600"
 name = "Qwen: Qwen2.5 7B Instruct"
-release_date = "2024-10-16"
+release_date = "1729036800"
 
 [features]
 attachment = false

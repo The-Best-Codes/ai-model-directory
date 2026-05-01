@@ -1,7 +1,7 @@
 id = "mistralai/mistral-large-2411"
-knowledge_cutoff = "2024-07-31"
+knowledge_cutoff = "1722384000"
 name = "Mistral Large 2411"
-release_date = "2024-11-19"
+release_date = "1731978685"
 
 [features]
 attachment = false

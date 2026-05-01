@@ -1,7 +1,7 @@
 id = "x-ai/grok-3-beta"
-knowledge_cutoff = "2025-02-28"
+knowledge_cutoff = "1740700800"
 name = "xAI: Grok 3 Beta"
-release_date = "2025-04-09"
+release_date = "1744240068"
 
 [features]
 attachment = false

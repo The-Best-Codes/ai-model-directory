@@ -1,10 +1,10 @@
 id = "mistralai/mistral-medium-3"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Mistral: Mistral Medium 3"
-release_date = "2025-05-07"
+release_date = "1746627341"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

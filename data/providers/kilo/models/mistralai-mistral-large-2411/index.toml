@@ -1,6 +1,6 @@
 id = "mistralai/mistral-large-2411"
 name = "Mistral Large 2411"
-release_date = "2024-11-19"
+release_date = "1731978685"
 
 [features]
 attachment = false

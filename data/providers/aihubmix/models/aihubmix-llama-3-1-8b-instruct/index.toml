@@ -2,10 +2,12 @@ id = "aihubmix-Llama-3-1-8B-Instruct"
 name = "aihubmix-Llama-3-1-8B-Instruct"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.3

@@ -2,10 +2,12 @@ id = "alicloud-minimax-m2.5"
 name = "alicloud-minimax-m2.5"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 cache_read = 0.05752

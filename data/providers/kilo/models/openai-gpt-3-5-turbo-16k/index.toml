@@ -1,9 +1,9 @@
 id = "openai/gpt-3.5-turbo-16k"
 name = "OpenAI: GPT-3.5 Turbo 16k"
-release_date = "2023-08-28"
+release_date = "1693180800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

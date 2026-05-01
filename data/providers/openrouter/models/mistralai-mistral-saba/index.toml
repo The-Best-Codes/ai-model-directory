@@ -1,7 +1,7 @@
 id = "mistralai/mistral-saba"
-knowledge_cutoff = "2024-09-30"
+knowledge_cutoff = "1727654400"
 name = "Mistral: Saba"
-release_date = "2025-02-17"
+release_date = "1739803239"
 
 [features]
 attachment = false

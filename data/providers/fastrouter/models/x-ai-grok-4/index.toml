@@ -1,9 +1,9 @@
 id = "x-ai/grok-4"
 name = "xAI: Grok 4"
-release_date = "2025-07-09"
+release_date = "1752087689"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

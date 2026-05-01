@@ -1,9 +1,9 @@
 id = "google/gemma-4-26b-a4b-it:free"
 name = "Google: Gemma 4 26B A4B  (free)"
-release_date = "2026-04-03"
+release_date = "1775227989"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

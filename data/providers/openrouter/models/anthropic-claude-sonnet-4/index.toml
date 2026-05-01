@@ -1,7 +1,7 @@
 id = "anthropic/claude-sonnet-4"
-knowledge_cutoff = "2025-01-31"
+knowledge_cutoff = "1738281600"
 name = "Anthropic: Claude Sonnet 4"
-release_date = "2025-05-22"
+release_date = "1747930371"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "amazon/nova-premier-v1"
 name = "Amazon: Nova Premier 1.0"
-release_date = "2025-10-31"
+release_date = "1761950332"
 
 [features]
 attachment = true

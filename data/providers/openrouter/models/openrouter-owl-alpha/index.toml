@@ -1,6 +1,6 @@
 id = "openrouter/owl-alpha"
 name = "Owl Alpha"
-release_date = "2026-04-28"
+release_date = "1777398589"
 
 [features]
 attachment = false

@@ -1,7 +1,7 @@
 id = "gpt-realtime-1.5"
-knowledge_cutoff = "2024-09-30"
+knowledge_cutoff = "1727672400"
 name = "gpt-realtime-1.5"
-release_date = "2026-02-19"
+release_date = "1771461469"
 
 [features]
 attachment = true

@@ -1,7 +1,7 @@
 id = "tngtech/deepseek-r1t2-chimera"
-knowledge_cutoff = "2024-07-31"
+knowledge_cutoff = "1722384000"
 name = "TNG: DeepSeek R1T2 Chimera"
-release_date = "2025-07-08"
+release_date = "1751986985"
 
 [features]
 attachment = false

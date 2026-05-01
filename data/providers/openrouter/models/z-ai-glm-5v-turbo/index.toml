@@ -1,9 +1,9 @@
 id = "z-ai/glm-5v-turbo"
 name = "Z.ai: GLM 5V Turbo"
-release_date = "2026-04-01"
+release_date = "1775061458"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

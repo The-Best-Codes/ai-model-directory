@@ -2,10 +2,12 @@ id = "meta-llama-3-70b"
 name = "meta-llama-3-70b"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 4.795

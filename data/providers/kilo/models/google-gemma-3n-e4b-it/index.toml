@@ -1,6 +1,6 @@
 id = "google/gemma-3n-e4b-it"
 name = "Google: Gemma 3n 4B"
-release_date = "2025-05-20"
+release_date = "1747776824"
 
 [features]
 attachment = false

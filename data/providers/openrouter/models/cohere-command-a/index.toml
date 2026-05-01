@@ -1,7 +1,7 @@
 id = "cohere/command-a"
-knowledge_cutoff = "2024-08-31"
+knowledge_cutoff = "1725062400"
 name = "Cohere: Command A"
-release_date = "2025-03-13"
+release_date = "1741894342"
 
 [features]
 attachment = false

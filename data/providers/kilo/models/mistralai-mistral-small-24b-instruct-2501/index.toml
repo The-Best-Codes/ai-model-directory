@@ -1,6 +1,6 @@
 id = "mistralai/mistral-small-24b-instruct-2501"
 name = "Mistral: Mistral Small 3"
-release_date = "2025-01-30"
+release_date = "1738255409"
 
 [features]
 attachment = false

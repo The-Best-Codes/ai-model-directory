@@ -1,6 +1,6 @@
 id = "liquid/lfm-2-24b-a2b"
 name = "LiquidAI: LFM2-24B-A2B"
-release_date = "2026-02-25"
+release_date = "1772048711"
 
 [features]
 attachment = false

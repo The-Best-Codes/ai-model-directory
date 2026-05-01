@@ -1,6 +1,6 @@
 id = "mistralai/mistral-7b-instruct-v0.1"
 name = "Mistral: Mistral 7B Instruct v0.1"
-release_date = "2023-09-28"
+release_date = "1695859200"
 
 [features]
 attachment = false

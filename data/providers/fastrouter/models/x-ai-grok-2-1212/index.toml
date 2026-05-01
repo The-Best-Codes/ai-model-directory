@@ -1,6 +1,6 @@
 id = "x-ai/grok-2-1212"
 name = "xAI: Grok 2 1212"
-release_date = "2024-12-15"
+release_date = "1734232814"
 
 [features]
 attachment = false

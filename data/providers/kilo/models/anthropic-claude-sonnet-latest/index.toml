@@ -1,6 +1,6 @@
 id = "~anthropic/claude-sonnet-latest"
 name = "Anthropic Claude Sonnet Latest"
-release_date = "2026-04-27"
+release_date = "1777318368"
 
 [features]
 attachment = true

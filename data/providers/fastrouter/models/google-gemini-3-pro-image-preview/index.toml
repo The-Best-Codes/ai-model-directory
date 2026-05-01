@@ -1,9 +1,9 @@
 id = "google/gemini-3-pro-image-preview"
 name = "Google: Gemini 3 Pro Image Preview (Nano Banana Pro)"
-release_date = "2025-11-20"
+release_date = "1763653797"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

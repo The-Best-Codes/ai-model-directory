@@ -1,6 +1,6 @@
 id = "openai/o3-deep-research"
 name = "OpenAI: o3 Deep Research"
-release_date = "2025-10-10"
+release_date = "1760129661"
 
 [features]
 attachment = true

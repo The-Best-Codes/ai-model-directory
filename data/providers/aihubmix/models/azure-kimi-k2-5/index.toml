@@ -2,7 +2,6 @@ id = "azure-kimi-k2.5"
 name = "azure-kimi-k2.5"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false

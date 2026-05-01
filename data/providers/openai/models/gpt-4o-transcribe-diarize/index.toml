@@ -1,10 +1,10 @@
 id = "gpt-4o-transcribe-diarize"
-knowledge_cutoff = "2024-06-01"
+knowledge_cutoff = "1717218000"
 name = "GPT-4o Transcribe Diarize"
-release_date = "2025-06-24"
+release_date = "1750798887"
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
 context = 16000

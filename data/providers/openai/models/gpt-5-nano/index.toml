@@ -1,7 +1,7 @@
 id = "gpt-5-nano"
-knowledge_cutoff = "2024-05-31"
+knowledge_cutoff = "1717131600"
 name = "GPT-5 nano"
-release_date = "2025-08-05"
+release_date = "1754426384"
 
 [features]
 attachment = true

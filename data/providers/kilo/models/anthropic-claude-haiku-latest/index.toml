@@ -1,6 +1,6 @@
 id = "~anthropic/claude-haiku-latest"
 name = "Anthropic Claude Haiku Latest"
-release_date = "2026-04-27"
+release_date = "1777318492"
 
 [features]
 attachment = true

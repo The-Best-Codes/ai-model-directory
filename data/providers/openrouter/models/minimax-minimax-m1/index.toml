@@ -1,7 +1,7 @@
 id = "minimax/minimax-m1"
-knowledge_cutoff = "2024-06-30"
+knowledge_cutoff = "1719705600"
 name = "MiniMax: MiniMax M1"
-release_date = "2025-06-17"
+release_date = "1750200414"
 
 [features]
 attachment = false

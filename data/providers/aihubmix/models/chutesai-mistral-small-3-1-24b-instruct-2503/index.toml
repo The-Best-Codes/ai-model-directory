@@ -2,10 +2,12 @@ id = "chutesai/Mistral-Small-3.1-24B-Instruct-2503"
 name = "chutesai/Mistral-Small-3.1-24B-Instruct-2503"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.2

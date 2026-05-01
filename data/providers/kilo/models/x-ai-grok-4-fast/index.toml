@@ -1,6 +1,6 @@
 id = "x-ai/grok-4-fast"
 name = "xAI: Grok 4 Fast"
-release_date = "2025-09-19"
+release_date = "1758240090"
 
 [features]
 attachment = true

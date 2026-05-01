@@ -1,7 +1,7 @@
 id = "sao10k/l3-lunaris-8b"
-knowledge_cutoff = "2023-12-31"
+knowledge_cutoff = "1703980800"
 name = "Sao10K: Llama 3 8B Lunaris"
-release_date = "2024-08-13"
+release_date = "1723507200"
 
 [features]
 attachment = false

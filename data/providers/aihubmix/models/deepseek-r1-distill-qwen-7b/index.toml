@@ -2,10 +2,12 @@ id = "DeepSeek-R1-Distill-Qwen-7B"
 name = "DeepSeek-R1-Distill-Qwen-7B"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.06

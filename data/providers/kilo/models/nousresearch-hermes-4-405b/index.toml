@@ -1,6 +1,6 @@
 id = "nousresearch/hermes-4-405b"
 name = "Nous: Hermes 4 405B"
-release_date = "2025-08-26"
+release_date = "1756235463"
 
 [features]
 attachment = false

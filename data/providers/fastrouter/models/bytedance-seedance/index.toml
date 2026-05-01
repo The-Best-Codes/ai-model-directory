@@ -1,9 +1,9 @@
 id = "bytedance/seedance"
 name = "ByteDance: Seedance"
-release_date = "2025-02-12"
+release_date = "1739403115"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = false

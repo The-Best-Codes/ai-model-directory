@@ -2,10 +2,12 @@ id = "mai-image-2"
 name = "mai-image-2"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 cache_read = 0

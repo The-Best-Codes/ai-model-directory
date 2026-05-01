@@ -1,6 +1,6 @@
 id = "qwen-2.5-72b-instruct"
 name = "qwen-2.5-72b-instruct"
-release_date = "2026-03-25"
+release_date = "1774438682"
 
 [features]
 attachment = false

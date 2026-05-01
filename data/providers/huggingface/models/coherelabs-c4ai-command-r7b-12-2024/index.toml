@@ -1,6 +1,6 @@
 id = "CohereLabs/c4ai-command-r7b-12-2024"
 name = "CohereLabs/c4ai-command-r7b-12-2024"
-release_date = "2024-12-11"
+release_date = "1733932505"
 
 [features]
 attachment = false

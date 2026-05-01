@@ -1,9 +1,9 @@
 id = "~anthropic/claude-opus-latest"
 name = "Anthropic: Claude Opus Latest"
-release_date = "2026-04-21"
+release_date = "1776795361"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = false

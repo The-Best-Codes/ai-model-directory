@@ -1,7 +1,7 @@
 id = "gpt-5-codex"
-knowledge_cutoff = "2024-09-30"
+knowledge_cutoff = "1727672400"
 name = "GPT-5-Codex"
-release_date = "2025-09-10"
+release_date = "1757527818"
 
 [features]
 attachment = true

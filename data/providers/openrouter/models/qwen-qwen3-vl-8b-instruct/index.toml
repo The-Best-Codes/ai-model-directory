@@ -1,9 +1,9 @@
 id = "qwen/qwen3-vl-8b-instruct"
 name = "Qwen: Qwen3 VL 8B Instruct"
-release_date = "2025-10-14"
+release_date = "1760463308"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

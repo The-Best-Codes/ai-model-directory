@@ -1,7 +1,7 @@
 id = "~openai/gpt-mini-latest"
-knowledge_cutoff = "2025-08-31"
+knowledge_cutoff = "1756598400"
 name = "OpenAI GPT Mini Latest"
-release_date = "2026-04-27"
+release_date = "1777318471"
 
 [features]
 attachment = true

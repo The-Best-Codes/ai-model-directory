@@ -1,9 +1,9 @@
 id = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
 name = "NVIDIA: Nemotron 3 Nano Omni (free)"
-release_date = "2026-04-28"
+release_date = "1777393095"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = true

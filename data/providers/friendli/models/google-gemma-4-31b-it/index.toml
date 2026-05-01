@@ -1,6 +1,6 @@
 id = "google/gemma-4-31B-it"
 name = "google/gemma-4-31B-it"
-release_date = "2026-04-30"
+release_date = "1777570734"
 
 [features]
 structured_output = true

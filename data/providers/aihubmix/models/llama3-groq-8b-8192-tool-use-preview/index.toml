@@ -2,10 +2,12 @@ id = "llama3-groq-8b-8192-tool-use-preview"
 name = "llama3-groq-8b-8192-tool-use-preview"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.00019

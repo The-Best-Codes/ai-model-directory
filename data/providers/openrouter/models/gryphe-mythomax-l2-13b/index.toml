@@ -1,7 +1,7 @@
 id = "gryphe/mythomax-l2-13b"
-knowledge_cutoff = "2023-06-30"
+knowledge_cutoff = "1688083200"
 name = "MythoMax 13B"
-release_date = "2023-07-02"
+release_date = "1688256000"
 
 [features]
 attachment = false

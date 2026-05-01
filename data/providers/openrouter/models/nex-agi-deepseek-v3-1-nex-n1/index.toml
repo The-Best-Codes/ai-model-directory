@@ -1,6 +1,6 @@
 id = "nex-agi/deepseek-v3.1-nex-n1"
 name = "Nex AGI: DeepSeek V3.1 Nex N1"
-release_date = "2025-12-08"
+release_date = "1765204393"
 
 [features]
 attachment = false

@@ -1,7 +1,7 @@
 id = "openai/gpt-4-0314"
-knowledge_cutoff = "2021-09-30"
+knowledge_cutoff = "1632960000"
 name = "OpenAI: GPT-4 (older v0314)"
-release_date = "2023-05-28"
+release_date = "1685232000"
 
 [features]
 attachment = false

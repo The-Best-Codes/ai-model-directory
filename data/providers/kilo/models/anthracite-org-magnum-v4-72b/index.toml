@@ -1,6 +1,6 @@
 id = "anthracite-org/magnum-v4-72b"
 name = "Magnum v4 72B"
-release_date = "2024-10-22"
+release_date = "1729555200"
 
 [features]
 attachment = false

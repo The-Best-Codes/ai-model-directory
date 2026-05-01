@@ -1,6 +1,6 @@
 id = "CohereLabs/aya-vision-32b"
 name = "CohereLabs/aya-vision-32b"
-release_date = "2025-03-02"
+release_date = "1740951400"
 
 [features]
 attachment = true

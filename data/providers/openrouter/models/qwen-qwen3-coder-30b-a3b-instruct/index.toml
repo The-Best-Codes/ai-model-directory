@@ -1,7 +1,7 @@
 id = "qwen/qwen3-coder-30b-a3b-instruct"
-knowledge_cutoff = "2025-06-30"
+knowledge_cutoff = "1751241600"
 name = "Qwen: Qwen3 Coder 30B A3B Instruct"
-release_date = "2025-07-31"
+release_date = "1753972379"
 
 [features]
 attachment = false

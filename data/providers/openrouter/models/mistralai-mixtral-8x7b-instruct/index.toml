@@ -1,7 +1,7 @@
 id = "mistralai/mixtral-8x7b-instruct"
-knowledge_cutoff = "2023-12-31"
+knowledge_cutoff = "1703980800"
 name = "Mistral: Mixtral 8x7B Instruct"
-release_date = "2023-12-10"
+release_date = "1702166400"
 
 [features]
 attachment = false

@@ -1,9 +1,9 @@
 id = "google/gemini-2.5-flash-image"
 name = "Google: Gemini 2.5 Flash Image (Nano Banana)"
-release_date = "2025-10-07"
+release_date = "1759870431"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

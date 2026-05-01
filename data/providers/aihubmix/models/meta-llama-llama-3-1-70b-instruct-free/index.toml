@@ -2,10 +2,12 @@ id = "meta-llama/llama-3.1-70b-instruct:free"
 name = "meta-llama/llama-3.1-70b-instruct:free"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.02

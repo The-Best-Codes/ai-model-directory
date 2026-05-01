@@ -1,6 +1,6 @@
 id = "meta-llama/Meta-Llama-3-70B-Instruct"
 name = "meta-llama/Meta-Llama-3-70B-Instruct"
-release_date = "2024-04-17"
+release_date = "1713346494"
 
 [features]
 attachment = false

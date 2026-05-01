@@ -1,6 +1,6 @@
 id = "tencent/hy3-preview:free"
 name = "Tencent: Hy3 preview (free)"
-release_date = "2026-04-22"
+release_date = "1776878150"
 
 [features]
 attachment = false

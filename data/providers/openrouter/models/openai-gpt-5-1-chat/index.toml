@@ -1,6 +1,6 @@
 id = "openai/gpt-5.1-chat"
 name = "OpenAI: GPT-5.1 Chat"
-release_date = "2025-11-13"
+release_date = "1763060302"
 
 [features]
 attachment = true

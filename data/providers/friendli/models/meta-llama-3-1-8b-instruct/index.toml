@@ -1,6 +1,6 @@
 id = "meta-llama-3.1-8b-instruct"
 name = "meta-llama/Llama-3.1-8B-Instruct"
-release_date = "2024-08-01"
+release_date = "1722470400"
 
 [features]
 structured_output = true

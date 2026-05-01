@@ -1,6 +1,6 @@
 id = "deepseek-ai/DeepSeek-V3.2"
 name = "deepseek-ai/DeepSeek-V3.2"
-release_date = "2026-09-09"
+release_date = "1788912000"
 
 [features]
 structured_output = true

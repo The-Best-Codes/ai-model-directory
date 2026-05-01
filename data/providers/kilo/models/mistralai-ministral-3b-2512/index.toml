@@ -1,6 +1,6 @@
 id = "mistralai/ministral-3b-2512"
 name = "Mistral: Ministral 3 3B 2512"
-release_date = "2025-12-02"
+release_date = "1764681560"
 
 [features]
 attachment = true

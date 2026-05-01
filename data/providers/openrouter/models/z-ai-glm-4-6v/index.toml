@@ -1,9 +1,9 @@
 id = "z-ai/glm-4.6v"
 name = "Z.ai: GLM 4.6V"
-release_date = "2025-12-08"
+release_date = "1765207462"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = true

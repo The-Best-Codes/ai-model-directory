@@ -2,10 +2,12 @@ id = "cc-k2.6-code-preview"
 name = "cc-k2.6-code-preview"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 cache_read = 0.02

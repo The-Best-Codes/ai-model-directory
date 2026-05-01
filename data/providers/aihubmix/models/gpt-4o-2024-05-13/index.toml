@@ -2,7 +2,6 @@ id = "gpt-4o-2024-05-13"
 name = "gpt-4o-2024-05-13"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false

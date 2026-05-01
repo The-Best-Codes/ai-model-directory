@@ -1,9 +1,9 @@
 id = "nvidia/nemotron-nano-12b-v2-vl"
 name = "NVIDIA: Nemotron Nano 12B 2 VL"
-release_date = "2025-10-28"
+release_date = "1761675565"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

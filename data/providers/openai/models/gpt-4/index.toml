@@ -1,7 +1,7 @@
 id = "gpt-4"
-knowledge_cutoff = "2023-12-01"
+knowledge_cutoff = "1701410400"
 name = "GPT-4"
-release_date = "2023-06-27"
+release_date = "1687882411"
 
 [features]
 attachment = false

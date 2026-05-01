@@ -1,6 +1,6 @@
 id = "amazon/nova-2-lite-v1"
 name = "Amazon: Nova 2 Lite"
-release_date = "2025-12-02"
+release_date = "1764696672"
 
 [features]
 attachment = true

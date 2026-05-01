@@ -1,6 +1,6 @@
 id = "xiaomi/mimo-v2.5-pro"
 name = "Xiaomi: MiMo-V2.5-Pro"
-release_date = "2026-04-22"
+release_date = "1776874273"
 
 [features]
 attachment = false

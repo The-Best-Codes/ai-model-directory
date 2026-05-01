@@ -1,6 +1,6 @@
 id = "nvidia/llama-3.3-nemotron-super-49b-v1.5"
 name = "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5"
-release_date = "2025-10-10"
+release_date = "1760101395"
 
 [features]
 attachment = false

@@ -1,7 +1,7 @@
 id = "nvidia/nemotron-nano-9b-v2"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "NVIDIA: Nemotron Nano 9B V2"
-release_date = "2025-09-05"
+release_date = "1757106807"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "cohere/command-a"
 name = "Cohere: Command A"
-release_date = "2025-03-13"
+release_date = "1741894342"
 
 [features]
 attachment = false

@@ -1,7 +1,7 @@
 id = "openai/gpt-oss-20b:free"
-knowledge_cutoff = "2024-06-30"
+knowledge_cutoff = "1719705600"
 name = "OpenAI: gpt-oss-20b (free)"
-release_date = "2025-08-05"
+release_date = "1754414229"
 
 [features]
 attachment = false

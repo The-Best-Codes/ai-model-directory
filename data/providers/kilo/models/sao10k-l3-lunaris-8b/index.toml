@@ -1,6 +1,6 @@
 id = "sao10k/l3-lunaris-8b"
 name = "Sao10K: Llama 3 8B Lunaris"
-release_date = "2024-08-13"
+release_date = "1723507200"
 
 [features]
 attachment = false

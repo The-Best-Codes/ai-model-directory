@@ -1,7 +1,7 @@
 id = "openai/gpt-5-chat"
-knowledge_cutoff = "2024-09-30"
+knowledge_cutoff = "1727654400"
 name = "OpenAI: GPT-5 Chat"
-release_date = "2025-08-07"
+release_date = "1754587837"
 
 [features]
 attachment = true

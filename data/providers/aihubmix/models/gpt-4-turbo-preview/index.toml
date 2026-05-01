@@ -2,10 +2,12 @@ id = "gpt-4-turbo-preview"
 name = "gpt-4-turbo-preview"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 10

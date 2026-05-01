@@ -1,9 +1,9 @@
 id = "perplexity/sonar"
 name = "Perplexity: Sonar"
-release_date = "2025-01-27"
+release_date = "1738013808"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = true

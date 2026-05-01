@@ -1,10 +1,10 @@
 id = "gpt-4o-mini-realtime-preview"
-knowledge_cutoff = "2023-10-01"
+knowledge_cutoff = "1696136400"
 name = "GPT-4o mini Realtime"
-release_date = "2024-12-16"
+release_date = "1734387380"
 
 [features]
-attachment = false
+attachment = true
 structured_output = false
 tool_call = true
 

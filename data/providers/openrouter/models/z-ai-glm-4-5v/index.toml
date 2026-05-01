@@ -1,10 +1,10 @@
 id = "z-ai/glm-4.5v"
-knowledge_cutoff = "2024-12-31"
+knowledge_cutoff = "1735603200"
 name = "Z.ai: GLM 4.5V"
-release_date = "2025-08-11"
+release_date = "1754922288"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = true

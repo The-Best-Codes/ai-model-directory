@@ -1,6 +1,6 @@
 id = "dall-e-3"
 name = "DALL·E 3"
-release_date = "2023-10-31"
+release_date = "1698785189"
 
 [features]
 attachment = false

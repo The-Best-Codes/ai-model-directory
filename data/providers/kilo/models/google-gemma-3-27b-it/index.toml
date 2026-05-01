@@ -1,6 +1,6 @@
 id = "google/gemma-3-27b-it"
 name = "Google: Gemma 3 27B"
-release_date = "2025-03-12"
+release_date = "1741756359"
 
 [features]
 attachment = true

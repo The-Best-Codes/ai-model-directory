@@ -1,7 +1,7 @@
 id = "deepseek/deepseek-r1-distill-llama-70b"
-knowledge_cutoff = "2024-07-31"
+knowledge_cutoff = "1722384000"
 name = "DeepSeek: R1 Distill Llama 70B"
-release_date = "2025-01-23"
+release_date = "1737663169"
 
 [features]
 attachment = false

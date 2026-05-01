@@ -1,7 +1,7 @@
 id = "google/gemma-2-27b-it"
-knowledge_cutoff = "2024-06-30"
+knowledge_cutoff = "1719705600"
 name = "Google: Gemma 2 27B"
-release_date = "2024-07-13"
+release_date = "1720828800"
 
 [features]
 attachment = false

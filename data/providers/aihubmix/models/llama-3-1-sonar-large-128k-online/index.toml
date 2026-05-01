@@ -2,10 +2,12 @@ id = "llama-3.1-sonar-large-128k-online"
 name = "llama-3.1-sonar-large-128k-online"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 1.2

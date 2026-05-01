@@ -1,6 +1,6 @@
 id = "rekaai/reka-edge"
 name = "Reka Edge"
-release_date = "2026-03-20"
+release_date = "1774026965"
 
 [features]
 attachment = true

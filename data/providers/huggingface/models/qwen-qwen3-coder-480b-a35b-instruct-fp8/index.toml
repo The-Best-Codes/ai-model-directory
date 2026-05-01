@@ -1,6 +1,6 @@
 id = "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"
 name = "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"
-release_date = "2025-07-22"
+release_date = "1753197829"
 
 [features]
 attachment = false

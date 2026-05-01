@@ -1,7 +1,7 @@
 id = "o1"
-knowledge_cutoff = "2023-10-01"
+knowledge_cutoff = "1696136400"
 name = "o1"
-release_date = "2024-12-16"
+release_date = "1734375816"
 
 [features]
 attachment = true

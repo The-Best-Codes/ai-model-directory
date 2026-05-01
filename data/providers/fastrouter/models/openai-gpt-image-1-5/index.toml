@@ -1,6 +1,6 @@
 id = "openai/gpt-image-1.5"
 name = "OpenAI: GPT Image 1.5"
-release_date = "2025-12-16"
+release_date = "1765893957"
 
 [features]
 attachment = false

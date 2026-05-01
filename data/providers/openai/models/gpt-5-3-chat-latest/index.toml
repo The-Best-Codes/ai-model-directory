@@ -1,7 +1,7 @@
 id = "gpt-5.3-chat-latest"
-knowledge_cutoff = "2025-08-31"
+knowledge_cutoff = "1756616400"
 name = "GPT-5.3 Chat"
-release_date = "2026-02-27"
+release_date = "1772236571"
 
 [features]
 attachment = true

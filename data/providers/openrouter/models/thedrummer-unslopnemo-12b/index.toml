@@ -1,7 +1,7 @@
 id = "thedrummer/unslopnemo-12b"
-knowledge_cutoff = "2024-04-30"
+knowledge_cutoff = "1714435200"
 name = "TheDrummer: UnslopNemo 12B"
-release_date = "2024-11-08"
+release_date = "1731103448"
 
 [features]
 attachment = false

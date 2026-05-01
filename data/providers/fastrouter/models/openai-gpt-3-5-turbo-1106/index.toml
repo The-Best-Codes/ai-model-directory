@@ -1,6 +1,6 @@
 id = "openai/gpt-3.5-turbo-1106"
 name = "OpenAI: GPT-3.5 Turbo 16k (older v1106)"
-release_date = "2023-11-06"
+release_date = "1699228800"
 
 [features]
 attachment = false

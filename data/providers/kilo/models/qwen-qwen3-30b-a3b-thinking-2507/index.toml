@@ -1,6 +1,6 @@
 id = "qwen/qwen3-30b-a3b-thinking-2507"
 name = "Qwen: Qwen3 30B A3B Thinking 2507"
-release_date = "2025-08-28"
+release_date = "1756399192"
 
 [features]
 attachment = false

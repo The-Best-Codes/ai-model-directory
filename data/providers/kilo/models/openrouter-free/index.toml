@@ -1,6 +1,6 @@
 id = "openrouter/free"
 name = "Free Models Router"
-release_date = "2026-02-01"
+release_date = "1769917427"
 
 [features]
 attachment = true

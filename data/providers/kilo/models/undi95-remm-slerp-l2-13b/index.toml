@@ -1,6 +1,6 @@
 id = "undi95/remm-slerp-l2-13b"
 name = "ReMM SLERP 13B"
-release_date = "2023-07-22"
+release_date = "1689984000"
 
 [features]
 attachment = false

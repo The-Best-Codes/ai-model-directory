@@ -1,7 +1,7 @@
 id = "davinci-002"
-knowledge_cutoff = "2021-09-01"
+knowledge_cutoff = "1630472400"
 name = "davinci-002"
-release_date = "2023-08-21"
+release_date = "1692634301"
 
 [features]
 attachment = false

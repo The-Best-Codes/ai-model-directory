@@ -1,7 +1,7 @@
 id = "meta-llama/llama-guard-3-8b"
-knowledge_cutoff = "2023-12-31"
+knowledge_cutoff = "1703980800"
 name = "Llama Guard 3 8B"
-release_date = "2025-02-12"
+release_date = "1739401318"
 
 [features]
 attachment = false

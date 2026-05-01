@@ -1,6 +1,6 @@
 id = "~openai/gpt-mini-latest"
 name = "OpenAI GPT Mini Latest"
-release_date = "2026-04-27"
+release_date = "1777318471"
 
 [features]
 attachment = true

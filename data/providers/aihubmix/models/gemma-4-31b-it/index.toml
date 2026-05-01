@@ -2,7 +2,6 @@ id = "gemma-4-31b-it"
 name = "gemma-4-31b-it"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false

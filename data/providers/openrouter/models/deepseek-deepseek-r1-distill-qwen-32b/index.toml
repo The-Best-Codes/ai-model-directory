@@ -1,7 +1,7 @@
 id = "deepseek/deepseek-r1-distill-qwen-32b"
-knowledge_cutoff = "2024-07-31"
+knowledge_cutoff = "1722384000"
 name = "DeepSeek: R1 Distill Qwen 32B"
-release_date = "2025-01-29"
+release_date = "1738194830"
 
 [features]
 attachment = false

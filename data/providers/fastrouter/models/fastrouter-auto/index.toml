@@ -1,9 +1,9 @@
 id = "fastrouter/auto"
 name = "FastRouter: Auto"
-release_date = "2026-01-01"
+release_date = "1767260074"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 temperature = false

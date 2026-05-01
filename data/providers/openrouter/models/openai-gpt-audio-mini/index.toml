@@ -1,9 +1,9 @@
 id = "openai/gpt-audio-mini"
 name = "OpenAI: GPT Audio Mini"
-release_date = "2026-01-19"
+release_date = "1768859419"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

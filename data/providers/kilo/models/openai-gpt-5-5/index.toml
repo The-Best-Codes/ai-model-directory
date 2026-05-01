@@ -1,6 +1,6 @@
 id = "openai/gpt-5.5"
 name = "OpenAI: GPT-5.5"
-release_date = "2026-04-24"
+release_date = "1777051893"
 
 [features]
 attachment = true

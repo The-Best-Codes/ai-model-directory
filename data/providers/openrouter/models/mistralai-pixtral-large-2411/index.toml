@@ -1,10 +1,10 @@
 id = "mistralai/pixtral-large-2411"
-knowledge_cutoff = "2024-07-31"
+knowledge_cutoff = "1722384000"
 name = "Mistral: Pixtral Large 2411"
-release_date = "2024-11-19"
+release_date = "1731977388"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

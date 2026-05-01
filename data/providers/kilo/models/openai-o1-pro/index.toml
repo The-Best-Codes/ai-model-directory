@@ -1,6 +1,6 @@
 id = "openai/o1-pro"
 name = "OpenAI: o1-pro ($$$$)"
-release_date = "2025-03-19"
+release_date = "1742423211"
 
 [features]
 attachment = true

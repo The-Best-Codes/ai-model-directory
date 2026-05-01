@@ -2,10 +2,12 @@ id = "cc-glm-4.7"
 name = "cc-glm-4.7"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.06
