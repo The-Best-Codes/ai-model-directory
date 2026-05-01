@@ -2,7 +2,7 @@
   "name": "ai-model-directory",
   "private": true,
   "type": "module",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "devDependencies": {
     "@types/bun": "^1.3.13",
     "@types/cli-progress": "^3.11.6"
