@@ -232,6 +232,7 @@ function mergeModel(
 
 // Provider runner
 type Updater = {
+  name: string;
   fetchModels: (progress?: ProgressReporter) => Promise<ProviderModel[]>;
   outputDirectory: string;
 };
@@ -326,43 +327,114 @@ async function runUpdater(
 // Main
 const UPDATERS: Updater[] = [
   {
+    name: "openrouter",
     fetchModels: fetchOpenRouterModels,
     outputDirectory: openRouterOutputDirectory,
   },
   {
+    name: "openai",
     fetchModels: fetchOpenAIModels,
     outputDirectory: openAIOutputDirectory,
   },
   {
+    name: "anthropic",
     fetchModels: fetchAnthropicModels,
     outputDirectory: anthropicOutputDirectory,
   },
   {
+    name: "abacus",
     fetchModels: fetchAbacusModels,
     outputDirectory: abacusOutputDirectory,
   },
   {
+    name: "aihubmix",
     fetchModels: fetchAIHubMixModels,
     outputDirectory: aihubmixOutputDirectory,
   },
   {
+    name: "chutes",
     fetchModels: fetchChutesModels,
     outputDirectory: chutesOutputDirectory,
   },
 ];
+
+/**
+ * Parse `--providers <list>` / `--providers=<list>` (also `--only`)
+ * from process.argv. List items are comma- or space-separated.
+ * Returns null if no flag was passed (meaning: run all).
+ */
+function parseProviderFilter(argv: string[]): Set<string> | null {
+  const items: string[] = [];
+  let seen = false;
+
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+
+    if (arg === undefined) continue;
+
+    if (arg === "--providers" || arg === "--only" || arg === "-p") {
+      seen = true;
+      const next = argv[i + 1];
+
+      if (next !== undefined && !next.startsWith("-")) {
+        items.push(...next.split(","));
+        i++;
+      }
+      continue;
+    }
+
+    const eqMatch = arg.match(/^(?:--providers|--only|-p)=(.*)$/);
+
+    if (eqMatch) {
+      seen = true;
+      items.push(...(eqMatch[1] ?? "").split(","));
+    }
+  }
+
+  if (!seen) return null;
+
+  const cleaned = items
+    .map((s) => s.trim().toLowerCase())
+    .filter((s) => s.length > 0);
+
+  return new Set(cleaned);
+}
 
 async function main() {
   const rootDirectory = import.meta.dir;
   const progress = new ProgressBar();
   const summaries: string[] = [];
 
-  try {
-    for (let i = 0; i < UPDATERS.length; i++) {
-      const updater = UPDATERS[i]!;
-      const providerName =
-        updater.outputDirectory.split("/").at(-2) ?? updater.outputDirectory;
+  const filter = parseProviderFilter(process.argv.slice(2));
+  const known = new Set(UPDATERS.map((u) => u.name));
 
-      progress.beginProvider(i + 1, UPDATERS.length, providerName);
+  if (filter !== null) {
+    const unknown = [...filter].filter((n) => !known.has(n));
+
+    if (unknown.length > 0) {
+      console.error(
+        `Unknown provider(s): ${unknown.join(", ")}\n` +
+          `Available: ${[...known].join(", ")}`,
+      );
+      process.exit(1);
+    }
+  }
+
+  const selected = UPDATERS.filter(
+    (u) => filter === null || filter.has(u.name),
+  );
+
+  if (selected.length === 0) {
+    console.log("No providers selected.");
+    return;
+  }
+
+  try {
+    for (let i = 0; i < selected.length; i++) {
+      const updater = selected[i]!;
+      const providerName = updater.name;
+
+      progress.beginProvider(i + 1, selected.length, providerName);
 
       try {
         const { written, errors } = await runUpdater(
