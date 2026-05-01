@@ -5,6 +5,10 @@ import { z } from "zod";
 
 import { ProgressBar, type ProgressReporter } from "./progress.ts";
 import {
+  fetchModels as fetchOpenAIModels,
+  outputDirectory as openAIOutputDirectory,
+} from "./updaters/openai.ts";
+import {
   fetchModels as fetchOpenRouterModels,
   outputDirectory as openRouterOutputDirectory,
   type ProviderModel,
@@ -320,6 +324,10 @@ const UPDATERS: Updater[] = [
   {
     fetchModels: fetchOpenRouterModels,
     outputDirectory: openRouterOutputDirectory,
+  },
+  {
+    fetchModels: fetchOpenAIModels,
+    outputDirectory: openAIOutputDirectory,
   },
 ];
 
