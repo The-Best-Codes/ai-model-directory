@@ -1,0 +1,23 @@
+id = "mistralai/Mistral-7B-Instruct-v0.1"
+name = "Mistral: Mistral 7B Instruct"
+release_date = "2024-05-27"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 32768
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.028
+output = 0.054
+reasoning = 0

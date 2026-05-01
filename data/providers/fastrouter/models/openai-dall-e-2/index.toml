@@ -1,0 +1,24 @@
+id = "openai/dall-e-2"
+name = "OpenAI: DALL·E 2"
+release_date = "2025-02-12"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 0
+output = 0
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 2.5
+input = 10
+output = 40
+reasoning = 0

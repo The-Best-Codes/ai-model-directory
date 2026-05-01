@@ -1,0 +1,23 @@
+id = "perplexity/sonar"
+name = "Perplexity: Sonar"
+release_date = "2025-01-27"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 127072
+output = 0
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 1
+reasoning = 0

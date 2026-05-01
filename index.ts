@@ -38,6 +38,10 @@ import {
   outputDirectory as deepInfraOutputDirectory,
 } from "./updaters/deepinfra.ts";
 import {
+  fetchModels as fetchFastRouterModels,
+  outputDirectory as fastRouterOutputDirectory,
+} from "./updaters/fastrouter.ts";
+import {
   fetchModels as fetchOpenAIModels,
   outputDirectory as openAIOutputDirectory,
 } from "./updaters/openai.ts";
@@ -373,6 +377,11 @@ const UPDATERS: Updater[] = [
     name: "deepinfra",
     fetchModels: fetchDeepInfraModels,
     outputDirectory: deepInfraOutputDirectory,
+  },
+  {
+    name: "fastrouter",
+    fetchModels: fetchFastRouterModels,
+    outputDirectory: fastRouterOutputDirectory,
   },
 ];
 

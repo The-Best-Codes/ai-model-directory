@@ -1,0 +1,23 @@
+id = "openai/gpt-image-2"
+name = "OpenAI: GPT Image 2"
+release_date = "2026-04-21"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 2
+input = 8
+output = 30

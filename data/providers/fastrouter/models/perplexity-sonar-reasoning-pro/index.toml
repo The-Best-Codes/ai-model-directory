@@ -1,0 +1,23 @@
+id = "perplexity/sonar-reasoning-pro"
+name = "Perplexity: Sonar Reasoning Pro"
+release_date = "2025-03-07"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 0
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 8
+reasoning = 0

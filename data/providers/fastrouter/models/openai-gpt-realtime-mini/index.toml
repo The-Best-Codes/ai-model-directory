@@ -1,0 +1,25 @@
+id = "openai/gpt-realtime-mini"
+name = "GPT Realtime Mini"
+release_date = "2025-10-06"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 32000
+output = 4096
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.6
+input_audio = 10
+output = 2.4
+output_audio = 20

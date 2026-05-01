@@ -1,0 +1,23 @@
+id = "meta-llama/llama-3.1-8b-instant"
+name = "Meta: LLaMA 3.1 8B Instant"
+release_date = "2025-02-12"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 8192
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.08
+reasoning = 0

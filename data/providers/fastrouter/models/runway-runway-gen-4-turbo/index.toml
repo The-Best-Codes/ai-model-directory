@@ -1,0 +1,21 @@
+id = "runway/runway-gen-4-turbo"
+name = "Runway: Runway Gen-4 Turbo"
+release_date = "2025-02-12"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+reasoning = 0
