@@ -1,0 +1,7 @@
+name = "302.AI"
+website = "https://302.ai"
+apiBaseUrl = "https://api.302.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["302AI_API_KEY"]
