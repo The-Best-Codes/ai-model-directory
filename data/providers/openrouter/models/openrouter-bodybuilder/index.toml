@@ -1,0 +1,10 @@
+id = "openrouter/bodybuilder"
+name = "Body Builder (beta)"
+release_date = "2025-12-05"
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

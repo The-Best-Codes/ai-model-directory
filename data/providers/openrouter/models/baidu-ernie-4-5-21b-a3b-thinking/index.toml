@@ -1,0 +1,20 @@
+id = "baidu/ernie-4.5-21b-a3b-thinking"
+name = "Baidu: ERNIE 4.5 21B A3B Thinking"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-10-09"
+
+[features]
+reasoning = true
+temperature = true
+
+[pricing]
+input = 0.07
+output = 0.28
+
+[limit]
+context = 131072
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

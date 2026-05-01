@@ -1,0 +1,22 @@
+id = "x-ai/grok-3-mini"
+name = "xAI: Grok 3 Mini"
+knowledge_cutoff = "2025-02-28"
+release_date = "2025-06-10"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.3
+output = 0.5
+cache_read = 0.075
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

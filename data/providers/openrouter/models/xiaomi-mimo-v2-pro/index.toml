@@ -1,0 +1,22 @@
+id = "xiaomi/mimo-v2-pro"
+name = "Xiaomi: MiMo-V2-Pro"
+release_date = "2026-03-18"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 1
+output = 3
+cache_read = 0.19999999999999998
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,21 @@
+id = "inclusionai/ling-2.6-flash"
+name = "inclusionAI: Ling-2.6-flash"
+release_date = "2026-04-21"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.08
+output = 0.24
+cache_read = 0.016
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

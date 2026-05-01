@@ -1,0 +1,21 @@
+id = "cohere/command-r-08-2024"
+name = "Cohere: Command R (08-2024)"
+knowledge_cutoff = "2024-03-31"
+release_date = "2024-08-30"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.15
+output = 0.6
+
+[limit]
+context = 128000
+output = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

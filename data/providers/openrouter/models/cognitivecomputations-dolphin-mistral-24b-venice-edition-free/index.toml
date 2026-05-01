@@ -1,0 +1,19 @@
+id = "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+name = "Venice: Uncensored (free)"
+knowledge_cutoff = "2024-04-30"
+release_date = "2025-07-09"
+
+[features]
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0
+output = 0
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

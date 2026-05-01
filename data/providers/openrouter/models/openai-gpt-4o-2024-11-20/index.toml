@@ -1,0 +1,23 @@
+id = "openai/gpt-4o-2024-11-20"
+name = "OpenAI: GPT-4o (2024-11-20)"
+knowledge_cutoff = "2023-10-31"
+release_date = "2024-11-20"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 2.5
+output = 10
+cache_read = 1.25
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

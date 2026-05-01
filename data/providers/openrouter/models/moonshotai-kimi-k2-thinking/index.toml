@@ -1,0 +1,22 @@
+id = "moonshotai/kimi-k2-thinking"
+name = "MoonshotAI: Kimi K2 Thinking"
+release_date = "2025-11-06"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.6
+output = 2.5
+cache_read = 0.15
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

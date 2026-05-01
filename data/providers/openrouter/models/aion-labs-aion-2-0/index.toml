@@ -1,0 +1,20 @@
+id = "aion-labs/aion-2.0"
+name = "AionLabs: Aion-2.0"
+release_date = "2026-02-23"
+
+[features]
+reasoning = true
+temperature = true
+
+[pricing]
+input = 0.7999999999999999
+output = 1.5999999999999999
+cache_read = 0.19999999999999998
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

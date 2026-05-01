@@ -1,0 +1,18 @@
+id = "switchpoint/router"
+name = "Switchpoint Router"
+release_date = "2025-07-11"
+
+[features]
+reasoning = true
+temperature = true
+
+[pricing]
+input = 0.85
+output = 3.4
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

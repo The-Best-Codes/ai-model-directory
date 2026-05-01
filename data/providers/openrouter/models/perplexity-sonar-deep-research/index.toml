@@ -1,0 +1,19 @@
+id = "perplexity/sonar-deep-research"
+name = "Perplexity: Sonar Deep Research"
+release_date = "2025-03-07"
+
+[features]
+reasoning = true
+temperature = true
+
+[pricing]
+input = 2
+output = 8
+reasoning = 3
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

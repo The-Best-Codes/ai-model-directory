@@ -1,0 +1,22 @@
+id = "minimax/minimax-m2.5"
+name = "MiniMax: MiniMax M2.5"
+release_date = "2026-02-12"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.15
+output = 1.15
+cache_read = 0.03
+
+[limit]
+context = 196608
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,22 @@
+id = "arcee-ai/trinity-large-thinking"
+name = "Arcee AI: Trinity Large Thinking"
+release_date = "2026-04-01"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.22
+output = 0.85
+cache_read = 0.06
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

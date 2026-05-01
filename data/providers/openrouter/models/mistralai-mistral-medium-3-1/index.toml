@@ -1,0 +1,22 @@
+id = "mistralai/mistral-medium-3.1"
+name = "Mistral: Mistral Medium 3.1"
+knowledge_cutoff = "2025-06-30"
+release_date = "2025-08-13"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.39999999999999997
+output = 2
+cache_read = 0.04
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

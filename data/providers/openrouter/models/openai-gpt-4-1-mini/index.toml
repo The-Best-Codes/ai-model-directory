@@ -1,0 +1,23 @@
+id = "openai/gpt-4.1-mini"
+name = "OpenAI: GPT-4.1 Mini"
+knowledge_cutoff = "2024-06-30"
+release_date = "2025-04-14"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.39999999999999997
+output = 1.5999999999999999
+cache_read = 0.09999999999999999
+
+[limit]
+context = 1047576
+output = 32768
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,23 @@
+id = "~openai/gpt-mini-latest"
+name = "OpenAI GPT Mini Latest"
+knowledge_cutoff = "2025-08-31"
+release_date = "2026-04-27"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+
+[pricing]
+input = 0.75
+output = 4.5
+cache_read = 0.075
+
+[limit]
+context = 400000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

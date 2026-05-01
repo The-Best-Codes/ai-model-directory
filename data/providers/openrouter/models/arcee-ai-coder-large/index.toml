@@ -1,0 +1,18 @@
+id = "arcee-ai/coder-large"
+name = "Arcee AI: Coder Large"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-05-05"
+
+[features]
+temperature = true
+
+[pricing]
+input = 0.5
+output = 0.7999999999999999
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

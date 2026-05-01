@@ -1,0 +1,22 @@
+id = "z-ai/glm-5"
+name = "Z.ai: GLM 5"
+release_date = "2026-02-11"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.6
+output = 2.08
+cache_read = 0.12
+
+[limit]
+context = 202752
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

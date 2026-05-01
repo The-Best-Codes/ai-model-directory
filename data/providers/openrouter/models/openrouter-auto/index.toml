@@ -1,0 +1,17 @@
+id = "openrouter/auto"
+name = "Auto Router"
+release_date = "2023-11-08"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "image", "text" ]

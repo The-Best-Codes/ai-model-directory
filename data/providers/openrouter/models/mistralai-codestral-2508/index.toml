@@ -1,0 +1,21 @@
+id = "mistralai/codestral-2508"
+name = "Mistral: Codestral 2508"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-08-01"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.3
+output = 0.8999999999999999
+cache_read = 0.03
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

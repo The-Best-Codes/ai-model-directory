@@ -1,0 +1,23 @@
+id = "moonshotai/kimi-k2.6"
+name = "MoonshotAI: Kimi K2.6"
+release_date = "2026-04-20"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.74
+output = 3.49
+cache_read = 0.14
+
+[limit]
+context = 262142
+output = 262142
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

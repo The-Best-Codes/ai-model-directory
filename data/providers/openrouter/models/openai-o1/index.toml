@@ -1,0 +1,23 @@
+id = "openai/o1"
+name = "OpenAI: o1"
+knowledge_cutoff = "2023-10-31"
+release_date = "2024-12-17"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+
+[pricing]
+input = 15
+output = 60
+cache_read = 7.5
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,20 @@
+id = "nousresearch/hermes-3-llama-3.1-70b"
+name = "Nous: Hermes 3 70B Instruct"
+knowledge_cutoff = "2023-12-31"
+release_date = "2024-08-18"
+
+[features]
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.3
+output = 0.3
+
+[limit]
+context = 131072
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

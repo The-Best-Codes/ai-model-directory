@@ -1,0 +1,21 @@
+id = "prime-intellect/intellect-3"
+name = "Prime Intellect: INTELLECT-3"
+release_date = "2025-11-27"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.19999999999999998
+output = 1.1
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

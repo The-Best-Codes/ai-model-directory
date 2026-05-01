@@ -1,0 +1,21 @@
+id = "kwaipilot/kat-coder-pro-v2"
+name = "Kwaipilot: KAT-Coder-Pro V2"
+release_date = "2026-03-27"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.3
+output = 1.2
+cache_read = 0.06
+
+[limit]
+context = 256000
+output = 80000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

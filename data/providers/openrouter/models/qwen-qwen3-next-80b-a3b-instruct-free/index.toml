@@ -1,0 +1,20 @@
+id = "qwen/qwen3-next-80b-a3b-instruct:free"
+name = "Qwen: Qwen3 Next 80B A3B Instruct (free)"
+knowledge_cutoff = "2025-09-30"
+release_date = "2025-09-11"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0
+output = 0
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

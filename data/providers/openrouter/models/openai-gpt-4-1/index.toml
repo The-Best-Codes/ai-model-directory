@@ -1,0 +1,22 @@
+id = "openai/gpt-4.1"
+name = "OpenAI: GPT-4.1"
+knowledge_cutoff = "2024-06-30"
+release_date = "2025-04-14"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 2
+output = 8
+cache_read = 0.5
+
+[limit]
+context = 1047576
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

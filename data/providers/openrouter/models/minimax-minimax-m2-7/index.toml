@@ -1,0 +1,21 @@
+id = "minimax/minimax-m2.7"
+name = "MiniMax: MiniMax M2.7"
+release_date = "2026-03-18"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.3
+output = 1.2
+cache_read = 0.059
+
+[limit]
+context = 196608
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

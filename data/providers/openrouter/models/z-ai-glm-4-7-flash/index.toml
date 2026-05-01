@@ -1,0 +1,22 @@
+id = "z-ai/glm-4.7-flash"
+name = "Z.ai: GLM 4.7 Flash"
+release_date = "2026-01-19"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.06
+output = 0.39999999999999997
+cache_read = 0.01
+
+[limit]
+context = 202752
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

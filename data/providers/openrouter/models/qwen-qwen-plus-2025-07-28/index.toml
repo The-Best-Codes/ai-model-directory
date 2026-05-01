@@ -1,0 +1,22 @@
+id = "qwen/qwen-plus-2025-07-28"
+name = "Qwen: Qwen Plus 0728"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-09-08"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.26
+output = 0.78
+cache_write = 0.325
+
+[limit]
+context = 1000000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

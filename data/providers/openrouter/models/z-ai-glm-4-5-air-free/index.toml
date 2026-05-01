@@ -1,0 +1,21 @@
+id = "z-ai/glm-4.5-air:free"
+name = "Z.ai: GLM 4.5 Air (free)"
+knowledge_cutoff = "2024-12-31"
+release_date = "2025-07-25"
+
+[features]
+reasoning = true
+tool_call = true
+temperature = true
+
+[pricing]
+input = 0
+output = 0
+
+[limit]
+context = 131072
+output = 96000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

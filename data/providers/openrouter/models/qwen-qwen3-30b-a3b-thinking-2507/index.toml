@@ -1,0 +1,23 @@
+id = "qwen/qwen3-30b-a3b-thinking-2507"
+name = "Qwen: Qwen3 30B A3B Thinking 2507"
+knowledge_cutoff = "2025-06-30"
+release_date = "2025-08-28"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.08
+output = 0.39999999999999997
+cache_read = 0.08
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

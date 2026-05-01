@@ -1,0 +1,21 @@
+id = "ibm-granite/granite-4.1-8b"
+name = "IBM: Granite 4.1 8B"
+release_date = "2026-04-30"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.049999999999999996
+output = 0.09999999999999999
+cache_read = 0.049999999999999996
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

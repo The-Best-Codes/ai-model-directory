@@ -1,0 +1,23 @@
+id = "openai/gpt-5-mini"
+name = "OpenAI: GPT-5 Mini"
+knowledge_cutoff = "2024-05-31"
+release_date = "2025-08-07"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+
+[pricing]
+input = 0.25
+output = 2
+cache_read = 0.024999999999999998
+
+[limit]
+context = 400000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

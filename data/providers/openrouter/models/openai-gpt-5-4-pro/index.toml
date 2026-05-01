@@ -1,0 +1,21 @@
+id = "openai/gpt-5.4-pro"
+name = "OpenAI: GPT-5.4 Pro"
+release_date = "2026-03-05"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+
+[pricing]
+input = 30
+output = 180
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,20 @@
+id = "nousresearch/hermes-4-70b"
+name = "Nous: Hermes 4 70B"
+knowledge_cutoff = "2024-08-31"
+release_date = "2025-08-26"
+
+[features]
+reasoning = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.13
+output = 0.39999999999999997
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

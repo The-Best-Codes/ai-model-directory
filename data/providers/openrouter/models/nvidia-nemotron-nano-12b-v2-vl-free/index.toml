@@ -1,0 +1,21 @@
+id = "nvidia/nemotron-nano-12b-v2-vl:free"
+name = "NVIDIA: Nemotron Nano 12B 2 VL (free)"
+release_date = "2025-10-28"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+temperature = true
+
+[pricing]
+input = 0
+output = 0
+
+[limit]
+context = 128000
+output = 128000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

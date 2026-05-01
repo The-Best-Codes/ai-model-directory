@@ -1,0 +1,23 @@
+id = "openai/gpt-4o-audio-preview"
+name = "OpenAI: GPT-4o Audio"
+knowledge_cutoff = "2023-10-31"
+release_date = "2025-08-15"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 2.5
+output = 10
+input_audio = 40
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]

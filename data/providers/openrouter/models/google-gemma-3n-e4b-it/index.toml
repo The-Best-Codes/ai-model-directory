@@ -1,0 +1,18 @@
+id = "google/gemma-3n-e4b-it"
+name = "Google: Gemma 3n 4B"
+knowledge_cutoff = "2024-08-31"
+release_date = "2025-05-20"
+
+[features]
+temperature = true
+
+[pricing]
+input = 0.06
+output = 0.12
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

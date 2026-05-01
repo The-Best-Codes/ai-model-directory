@@ -1,0 +1,22 @@
+id = "openai/gpt-4-turbo"
+name = "OpenAI: GPT-4 Turbo"
+knowledge_cutoff = "2023-12-31"
+release_date = "2024-04-09"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 10
+output = 30
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

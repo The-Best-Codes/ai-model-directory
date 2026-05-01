@@ -1,0 +1,21 @@
+id = "mistralai/mistral-saba"
+name = "Mistral: Saba"
+knowledge_cutoff = "2024-09-30"
+release_date = "2025-02-17"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.19999999999999998
+output = 0.6
+cache_read = 0.02
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

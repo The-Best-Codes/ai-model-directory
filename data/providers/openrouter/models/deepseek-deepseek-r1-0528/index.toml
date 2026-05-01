@@ -1,0 +1,23 @@
+id = "deepseek/deepseek-r1-0528"
+name = "DeepSeek: R1 0528"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-05-28"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.5
+output = 2.1500000000000004
+cache_read = 0.35
+
+[limit]
+context = 163840
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

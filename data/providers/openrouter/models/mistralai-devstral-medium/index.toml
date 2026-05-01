@@ -1,0 +1,21 @@
+id = "mistralai/devstral-medium"
+name = "Mistral: Devstral Medium"
+knowledge_cutoff = "2025-06-30"
+release_date = "2025-07-10"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.39999999999999997
+output = 2
+cache_read = 0.04
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

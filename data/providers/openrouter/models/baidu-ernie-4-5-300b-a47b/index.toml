@@ -1,0 +1,19 @@
+id = "baidu/ernie-4.5-300b-a47b"
+name = "Baidu: ERNIE 4.5 300B A47B "
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-06-30"
+
+[features]
+temperature = true
+
+[pricing]
+input = 0.28
+output = 1.1
+
+[limit]
+context = 123000
+output = 12000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

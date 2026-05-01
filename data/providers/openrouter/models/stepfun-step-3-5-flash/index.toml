@@ -1,0 +1,21 @@
+id = "stepfun/step-3.5-flash"
+name = "StepFun: Step 3.5 Flash"
+release_date = "2026-01-29"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.09999999999999999
+output = 0.3
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

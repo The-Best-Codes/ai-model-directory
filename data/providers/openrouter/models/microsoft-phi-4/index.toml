@@ -1,0 +1,20 @@
+id = "microsoft/phi-4"
+name = "Microsoft: Phi 4"
+knowledge_cutoff = "2024-06-30"
+release_date = "2025-01-10"
+
+[features]
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.065
+output = 0.14
+
+[limit]
+context = 16384
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

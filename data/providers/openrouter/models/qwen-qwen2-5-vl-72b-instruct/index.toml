@@ -1,0 +1,20 @@
+id = "qwen/qwen2.5-vl-72b-instruct"
+name = "Qwen: Qwen2.5 VL 72B Instruct"
+knowledge_cutoff = "2024-06-30"
+release_date = "2025-02-01"
+
+[features]
+attachment = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.25
+output = 0.75
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

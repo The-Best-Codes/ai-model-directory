@@ -1,0 +1,21 @@
+id = "qwen/qwen3-coder-next"
+name = "Qwen: Qwen3 Coder Next"
+release_date = "2026-02-04"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.12
+output = 0.7999999999999999
+cache_read = 0.07
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

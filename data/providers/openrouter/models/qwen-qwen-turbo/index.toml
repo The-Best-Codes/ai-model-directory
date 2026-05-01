@@ -1,0 +1,22 @@
+id = "qwen/qwen-turbo"
+name = "Qwen: Qwen-Turbo"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-02-01"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.0325
+output = 0.13
+cache_read = 0.006500000000000001
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

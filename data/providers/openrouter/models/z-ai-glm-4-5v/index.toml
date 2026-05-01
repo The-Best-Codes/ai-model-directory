@@ -1,0 +1,23 @@
+id = "z-ai/glm-4.5v"
+name = "Z.ai: GLM 4.5V"
+knowledge_cutoff = "2024-12-31"
+release_date = "2025-08-11"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+temperature = true
+
+[pricing]
+input = 0.6
+output = 1.7999999999999998
+cache_read = 0.11
+
+[limit]
+context = 65536
+output = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

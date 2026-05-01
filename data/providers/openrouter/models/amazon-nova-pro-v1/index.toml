@@ -1,0 +1,21 @@
+id = "amazon/nova-pro-v1"
+name = "Amazon: Nova Pro 1.0"
+knowledge_cutoff = "2024-10-31"
+release_date = "2024-12-05"
+
+[features]
+attachment = true
+tool_call = true
+temperature = true
+
+[pricing]
+input = 0.7999999999999999
+output = 3.1999999999999997
+
+[limit]
+context = 300000
+output = 5120
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

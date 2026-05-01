@@ -1,0 +1,23 @@
+id = "openai/o4-mini-deep-research"
+name = "OpenAI: o4 Mini Deep Research"
+release_date = "2025-10-10"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 2
+output = 8
+cache_read = 0.5
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

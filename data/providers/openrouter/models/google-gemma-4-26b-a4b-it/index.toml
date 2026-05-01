@@ -1,0 +1,21 @@
+id = "google/gemma-4-26b-a4b-it"
+name = "Google: Gemma 4 26B A4B "
+release_date = "2026-04-03"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.06
+output = 0.33
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

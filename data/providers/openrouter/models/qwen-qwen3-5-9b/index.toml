@@ -1,0 +1,21 @@
+id = "qwen/qwen3.5-9b"
+name = "Qwen: Qwen3.5-9B"
+release_date = "2026-03-10"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.09999999999999999
+output = 0.15
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
