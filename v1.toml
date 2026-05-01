@@ -1,0 +1,31 @@
+id = "openai/gpt-5" # required field, all the rest are optional. "omit if not sure" means to omit a key if we cant extrapolate a value from the provider's documentation or api.
+name = "GPT 5.0"
+knowledge_cutoff = "1777663364" # unix timestamp, omit if not sure
+release_date = "1777663364" # unix timestamp, omit if not sure
+last_updated = "1777663364" # unix timestamp, omit if not sure
+open_weights = false # true|false, omit if not sure
+
+[features] # supported features, true|false, omit if not sure for each feature
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing] # per million tokens, USD. number, omit if not sure for each pricing category
+input = 3.00
+output = 15.00
+reasoning = 15.00
+cache_read = 0.30
+cache_write = 3.75
+input_audio = 1.00
+output_audio = 10.00
+
+[limit] # limits, omit if not sure for each limit category
+context = 400_000
+input = 272_000
+output = 8_192
+
+[modalities] # modalities, omit if not sure for each modality category
+input = ["text", "image"]
+output = ["text"]
