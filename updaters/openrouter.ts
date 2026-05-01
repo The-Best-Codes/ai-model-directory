@@ -1,5 +1,7 @@
 import Decimal from "decimal.js";
 
+import type { ProgressReporter } from "../progress.ts";
+
 export const outputDirectory = "data/providers/openrouter/models";
 
 // Intermediate format
@@ -149,16 +151,26 @@ function convert(model: ApiModel): ProviderModel {
 }
 
 // Exported fetch function
-export async function fetchModels(): Promise<ProviderModel[]> {
+export async function fetchModels(
+  progress?: ProgressReporter,
+): Promise<ProviderModel[]> {
+  // OpenRouter exposes everything in a single request, so the fetch phase is
+  // just one tick. The bulk of progress for this provider happens in the
+  // writing phase driven by index.ts.
+  progress?.beginPhase("fetching", 1);
+
   const response = await fetch("https://openrouter.ai/api/v1/models");
 
   if (!response.ok) {
+    progress?.tick("openrouter.ai/api/v1/models", false);
     throw new Error(
       `OpenRouter API error: ${response.status} ${response.statusText}`,
     );
   }
 
   const { data } = (await response.json()) as ApiResponse;
+
+  progress?.tick(`openrouter.ai/api/v1/models (${data.length})`, true);
 
   return data.map(convert);
 }
