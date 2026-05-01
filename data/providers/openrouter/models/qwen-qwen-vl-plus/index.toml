@@ -1,17 +1,12 @@
 id = "qwen/qwen-vl-plus"
-name = "Qwen: Qwen VL Plus"
 knowledge_cutoff = "2025-03-31"
+name = "Qwen: Qwen VL Plus"
 release_date = "2025-02-05"
 
 [features]
 attachment = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.1365
-output = 0.4095
-cache_read = 0.0273
 
 [limit]
 context = 131072
@@ -20,3 +15,8 @@ output = 8192
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.0273
+input = 0.1365
+output = 0.4095

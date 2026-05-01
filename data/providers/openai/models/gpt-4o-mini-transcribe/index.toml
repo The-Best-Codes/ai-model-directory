@@ -1,11 +1,7 @@
 id = "gpt-4o-mini-transcribe"
+knowledge_cutoff = "2024-06-01"
 name = "GPT-4o mini Transcribe"
 release_date = "2025-03-15"
-knowledge_cutoff = "2024-06-01"
-
-[pricing]
-input = 1.25
-output = 5
 
 [limit]
 context = 16000
@@ -14,3 +10,7 @@ output = 2000
 [modalities]
 input = [ "audio", "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 5

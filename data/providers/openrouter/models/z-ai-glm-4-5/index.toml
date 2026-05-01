@@ -1,18 +1,13 @@
 id = "z-ai/glm-4.5"
-name = "Z.ai: GLM 4.5"
 knowledge_cutoff = "2024-12-31"
+name = "Z.ai: GLM 4.5"
 release_date = "2025-07-25"
 
 [features]
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.6
-output = 2.2
-cache_read = 0.11
+tool_call = true
 
 [limit]
 context = 131072
@@ -21,3 +16,8 @@ output = 98304
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.11
+input = 0.6
+output = 2.2

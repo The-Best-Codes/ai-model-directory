@@ -4,14 +4,9 @@ release_date = "2026-03-18"
 
 [features]
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.3
-output = 1.2
-cache_read = 0.059
+tool_call = true
 
 [limit]
 context = 196608
@@ -19,3 +14,8 @@ context = 196608
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.059
+input = 0.3
+output = 1.2

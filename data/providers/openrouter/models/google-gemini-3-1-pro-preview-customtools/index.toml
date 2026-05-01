@@ -5,17 +5,9 @@ release_date = "2026-02-25"
 [features]
 attachment = true
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 2
-output = 12
-reasoning = 12
-cache_read = 0.2
-cache_write = 0.375
-input_audio = 2
+tool_call = true
 
 [limit]
 context = 1048576
@@ -24,3 +16,11 @@ output = 65536
 [modalities]
 input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 0.375
+input = 2
+input_audio = 2
+output = 12
+reasoning = 12

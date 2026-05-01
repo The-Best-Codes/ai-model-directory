@@ -4,15 +4,9 @@ release_date = "2025-10-30"
 
 [features]
 attachment = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.1
-output = 0.3
-cache_read = 0.01
-input_audio = 100
+tool_call = true
 
 [limit]
 context = 32000
@@ -20,3 +14,9 @@ context = 32000
 [modalities]
 input = [ "audio", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.1
+input_audio = 100
+output = 0.3

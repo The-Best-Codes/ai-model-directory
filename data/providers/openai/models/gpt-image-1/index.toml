@@ -4,14 +4,14 @@ release_date = "2025-04-24"
 
 [features]
 attachment = true
-tool_call = false
 structured_output = false
-
-[pricing]
-input = 10
-output = 40
-cache_read = 2.5
+tool_call = false
 
 [modalities]
 input = [ "image", "text" ]
 output = [ "image" ]
+
+[pricing]
+cache_read = 2.5
+input = 10
+output = 40

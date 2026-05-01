@@ -1,17 +1,13 @@
 id = "qwen/qwen3-14b"
-name = "Qwen: Qwen3 14B"
 knowledge_cutoff = "2025-03-31"
+name = "Qwen: Qwen3 14B"
 release_date = "2025-04-28"
 
 [features]
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.06
-output = 0.24
+tool_call = true
 
 [limit]
 context = 40960
@@ -20,3 +16,7 @@ output = 40960
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.24

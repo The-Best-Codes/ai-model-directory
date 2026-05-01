@@ -6,11 +6,6 @@ release_date = "2026-02-23"
 reasoning = true
 temperature = true
 
-[pricing]
-input = 0.8
-output = 1.6
-cache_read = 0.2
-
 [limit]
 context = 131072
 output = 32768
@@ -18,3 +13,8 @@ output = 32768
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 0.8
+output = 1.6

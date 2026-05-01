@@ -1,15 +1,11 @@
 id = "alpindale/goliath-120b"
-name = "Goliath 120B"
 knowledge_cutoff = "2023-12-31"
+name = "Goliath 120B"
 release_date = "2023-11-10"
 
 [features]
 structured_output = true
 temperature = true
-
-[pricing]
-input = 3.75
-output = 7.5
 
 [limit]
 context = 6144
@@ -18,3 +14,7 @@ output = 1024
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 3.75
+output = 7.5

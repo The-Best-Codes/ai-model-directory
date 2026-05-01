@@ -1,18 +1,13 @@
 id = "openai/o4-mini-high"
-name = "OpenAI: o4 Mini High"
 knowledge_cutoff = "2024-06-30"
+name = "OpenAI: o4 Mini High"
 release_date = "2025-04-16"
 
 [features]
 attachment = true
 reasoning = true
-tool_call = true
 structured_output = true
-
-[pricing]
-input = 1.1
-output = 4.4
-cache_read = 0.275
+tool_call = true
 
 [limit]
 context = 200000
@@ -21,3 +16,8 @@ output = 100000
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.275
+input = 1.1
+output = 4.4

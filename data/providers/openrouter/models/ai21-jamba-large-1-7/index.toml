@@ -1,16 +1,12 @@
 id = "ai21/jamba-large-1.7"
-name = "AI21: Jamba Large 1.7"
 knowledge_cutoff = "2024-08-31"
+name = "AI21: Jamba Large 1.7"
 release_date = "2025-08-08"
 
 [features]
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 2
-output = 8
+tool_call = true
 
 [limit]
 context = 256000
@@ -19,3 +15,7 @@ output = 4096
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 2
+output = 8

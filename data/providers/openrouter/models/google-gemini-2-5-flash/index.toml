@@ -1,22 +1,14 @@
 id = "google/gemini-2.5-flash"
-name = "Google: Gemini 2.5 Flash"
 knowledge_cutoff = "2025-01-31"
+name = "Google: Gemini 2.5 Flash"
 release_date = "2025-06-17"
 
 [features]
 attachment = true
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.3
-output = 2.5
-reasoning = 2.5
-cache_read = 0.03
-cache_write = 0.08333333333333334
-input_audio = 1
+tool_call = true
 
 [limit]
 context = 1048576
@@ -25,3 +17,11 @@ output = 65535
 [modalities]
 input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.08333333333333334
+input = 0.3
+input_audio = 1
+output = 2.5
+reasoning = 2.5

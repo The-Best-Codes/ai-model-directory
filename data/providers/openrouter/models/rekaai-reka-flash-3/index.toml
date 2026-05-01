@@ -1,15 +1,11 @@
 id = "rekaai/reka-flash-3"
-name = "Reka Flash 3"
 knowledge_cutoff = "2025-01-31"
+name = "Reka Flash 3"
 release_date = "2025-03-12"
 
 [features]
 reasoning = true
 temperature = true
-
-[pricing]
-input = 0.1
-output = 0.2
 
 [limit]
 context = 65536
@@ -18,3 +14,7 @@ output = 65536
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.2

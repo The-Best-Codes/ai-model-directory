@@ -1,19 +1,13 @@
 id = "anthropic/claude-opus-4"
-name = "Anthropic: Claude Opus 4"
 knowledge_cutoff = "2025-01-31"
+name = "Anthropic: Claude Opus 4"
 release_date = "2025-05-22"
 
 [features]
 attachment = true
 reasoning = true
-tool_call = true
 temperature = true
-
-[pricing]
-input = 15
-output = 75
-cache_read = 1.5
-cache_write = 18.75
+tool_call = true
 
 [limit]
 context = 200000
@@ -22,3 +16,9 @@ output = 32000
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 1.5
+cache_write = 18.75
+input = 15
+output = 75

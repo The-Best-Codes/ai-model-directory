@@ -1,16 +1,12 @@
 id = "openai/gpt-oss-20b:free"
-name = "OpenAI: gpt-oss-20b (free)"
 knowledge_cutoff = "2024-06-30"
+name = "OpenAI: gpt-oss-20b (free)"
 release_date = "2025-08-05"
 
 [features]
 reasoning = true
-tool_call = true
 temperature = true
-
-[pricing]
-input = 0
-output = 0
+tool_call = true
 
 [limit]
 context = 131072
@@ -19,3 +15,7 @@ output = 8192
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

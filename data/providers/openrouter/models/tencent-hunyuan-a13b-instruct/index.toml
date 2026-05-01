@@ -1,16 +1,12 @@
 id = "tencent/hunyuan-a13b-instruct"
-name = "Tencent: Hunyuan A13B Instruct"
 knowledge_cutoff = "2025-03-31"
+name = "Tencent: Hunyuan A13B Instruct"
 release_date = "2025-07-08"
 
 [features]
 reasoning = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.14
-output = 0.57
 
 [limit]
 context = 131072
@@ -19,3 +15,7 @@ output = 131072
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.57

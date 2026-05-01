@@ -5,15 +5,9 @@ release_date = "2025-11-24"
 [features]
 attachment = true
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 5
-output = 25
-cache_read = 0.5
-cache_write = 6.25
+tool_call = true
 
 [limit]
 context = 200000
@@ -22,3 +16,9 @@ output = 64000
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 6.25
+input = 5
+output = 25

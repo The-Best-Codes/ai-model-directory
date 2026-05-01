@@ -5,10 +5,6 @@ release_date = "2025-07-07"
 [features]
 temperature = true
 
-[pricing]
-input = 0.9
-output = 1.9
-
 [limit]
 context = 262144
 output = 131072
@@ -16,3 +12,7 @@ output = 131072
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.9
+output = 1.9

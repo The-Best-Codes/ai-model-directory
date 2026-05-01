@@ -1,15 +1,11 @@
 id = "gpt-4"
+knowledge_cutoff = "2023-12-01"
 name = "GPT-4"
 release_date = "2023-06-27"
-knowledge_cutoff = "2023-12-01"
 
 [features]
-tool_call = false
 structured_output = false
-
-[pricing]
-input = 30
-output = 60
+tool_call = false
 
 [limit]
 context = 8192
@@ -18,3 +14,7 @@ output = 8192
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 30
+output = 60

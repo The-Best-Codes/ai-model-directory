@@ -1,15 +1,11 @@
 id = "anthracite-org/magnum-v4-72b"
-name = "Magnum v4 72B"
 knowledge_cutoff = "2024-06-30"
+name = "Magnum v4 72B"
 release_date = "2024-10-22"
 
 [features]
 structured_output = true
 temperature = true
-
-[pricing]
-input = 3
-output = 5
 
 [limit]
 context = 16384
@@ -18,3 +14,7 @@ output = 2048
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 3
+output = 5

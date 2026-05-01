@@ -7,11 +7,6 @@ reasoning = true
 structured_output = true
 temperature = true
 
-[pricing]
-input = 0.4
-output = 1.2
-cache_read = 0.2
-
 [limit]
 context = 163840
 output = 163840
@@ -19,3 +14,8 @@ output = 163840
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 0.4
+output = 1.2

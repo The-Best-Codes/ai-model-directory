@@ -1,16 +1,12 @@
 id = "deepseek/deepseek-r1-distill-qwen-32b"
-name = "DeepSeek: R1 Distill Qwen 32B"
 knowledge_cutoff = "2024-07-31"
+name = "DeepSeek: R1 Distill Qwen 32B"
 release_date = "2025-01-29"
 
 [features]
 reasoning = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.29
-output = 0.29
 
 [limit]
 context = 32768
@@ -19,3 +15,7 @@ output = 32768
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.29
+output = 0.29

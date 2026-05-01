@@ -1,14 +1,10 @@
 id = "microsoft/wizardlm-2-8x22b"
-name = "WizardLM-2 8x22B"
 knowledge_cutoff = "2024-04-30"
+name = "WizardLM-2 8x22B"
 release_date = "2024-04-16"
 
 [features]
 temperature = true
-
-[pricing]
-input = 0.62
-output = 0.62
 
 [limit]
 context = 65535
@@ -17,3 +13,7 @@ output = 8000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.62
+output = 0.62

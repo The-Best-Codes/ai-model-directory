@@ -1,18 +1,13 @@
 id = "deepseek/deepseek-v3.1-terminus"
-name = "DeepSeek: DeepSeek V3.1 Terminus"
 knowledge_cutoff = "2025-03-31"
+name = "DeepSeek: DeepSeek V3.1 Terminus"
 release_date = "2025-09-22"
 
 [features]
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.21
-output = 0.79
-cache_read = 0.13
+tool_call = true
 
 [limit]
 context = 163840
@@ -21,3 +16,8 @@ output = 32768
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.13
+input = 0.21
+output = 0.79

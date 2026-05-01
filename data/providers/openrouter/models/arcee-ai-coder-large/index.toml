@@ -1,14 +1,10 @@
 id = "arcee-ai/coder-large"
-name = "Arcee AI: Coder Large"
 knowledge_cutoff = "2025-03-31"
+name = "Arcee AI: Coder Large"
 release_date = "2025-05-05"
 
 [features]
 temperature = true
-
-[pricing]
-input = 0.5
-output = 0.8
 
 [limit]
 context = 32768
@@ -16,3 +12,7 @@ context = 32768
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 0.8

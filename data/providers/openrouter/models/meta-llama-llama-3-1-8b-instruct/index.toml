@@ -1,16 +1,12 @@
 id = "meta-llama/llama-3.1-8b-instruct"
-name = "Meta: Llama 3.1 8B Instruct"
 knowledge_cutoff = "2023-12-31"
+name = "Meta: Llama 3.1 8B Instruct"
 release_date = "2024-07-23"
 
 [features]
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.02
-output = 0.05
+tool_call = true
 
 [limit]
 context = 16384
@@ -19,3 +15,7 @@ output = 16384
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.02
+output = 0.05

@@ -1,15 +1,11 @@
 id = "cohere/command-r7b-12-2024"
-name = "Cohere: Command R7B (12-2024)"
 knowledge_cutoff = "2024-08-31"
+name = "Cohere: Command R7B (12-2024)"
 release_date = "2024-12-14"
 
 [features]
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.0375
-output = 0.15
 
 [limit]
 context = 128000
@@ -18,3 +14,7 @@ output = 4000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.0375
+output = 0.15

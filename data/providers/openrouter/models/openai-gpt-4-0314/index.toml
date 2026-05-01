@@ -1,16 +1,12 @@
 id = "openai/gpt-4-0314"
-name = "OpenAI: GPT-4 (older v0314)"
 knowledge_cutoff = "2021-09-30"
+name = "OpenAI: GPT-4 (older v0314)"
 release_date = "2023-05-28"
 
 [features]
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 30
-output = 60
+tool_call = true
 
 [limit]
 context = 8191
@@ -19,3 +15,7 @@ output = 4096
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 30
+output = 60

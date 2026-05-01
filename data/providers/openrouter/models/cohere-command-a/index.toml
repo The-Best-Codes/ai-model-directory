@@ -1,15 +1,11 @@
 id = "cohere/command-a"
-name = "Cohere: Command A"
 knowledge_cutoff = "2024-08-31"
+name = "Cohere: Command A"
 release_date = "2025-03-13"
 
 [features]
 structured_output = true
 temperature = true
-
-[pricing]
-input = 2.5
-output = 10
 
 [limit]
 context = 256000
@@ -18,3 +14,7 @@ output = 8192
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10

@@ -1,17 +1,13 @@
 id = "baidu/ernie-4.5-vl-28b-a3b"
-name = "Baidu: ERNIE 4.5 VL 28B A3B"
 knowledge_cutoff = "2025-03-31"
+name = "Baidu: ERNIE 4.5 VL 28B A3B"
 release_date = "2025-08-12"
 
 [features]
 attachment = true
 reasoning = true
-tool_call = true
 temperature = true
-
-[pricing]
-input = 0.14
-output = 0.56
+tool_call = true
 
 [limit]
 context = 30000
@@ -20,3 +16,7 @@ output = 8000
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.56

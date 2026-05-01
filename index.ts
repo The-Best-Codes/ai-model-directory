@@ -100,6 +100,50 @@ function compact<T extends object>(obj: T): T {
 }
 
 /**
+ * Recursively sort object keys alphabetically so that TOML output
+ * has a stable, deterministic ordering across runs.
+ * Arrays are preserved in their original order.
+ */
+function sortKeysDeep<T>(value: T): T {
+  if (Array.isArray(value)) {
+    return value.map((item) => sortKeysDeep(item)) as unknown as T;
+  }
+
+  if (value !== null && typeof value === "object") {
+    const entries = Object.entries(value as Record<string, unknown>);
+
+    // TOML requires scalar keys to appear before any table keys at the
+    // same level — otherwise scalars after a [table] header would be
+    // parsed as part of that table. So we sort scalars first (alphabetical),
+    // then tables (alphabetical).
+    const isTable = (v: unknown): boolean =>
+      v !== null &&
+      typeof v === "object" &&
+      !Array.isArray(v) &&
+      !(v instanceof Date);
+
+    entries.sort(([a, av], [b, bv]) => {
+      const aTable = isTable(av);
+      const bTable = isTable(bv);
+
+      if (aTable !== bTable) return aTable ? 1 : -1;
+
+      return a.localeCompare(b);
+    });
+
+    const sorted: Record<string, unknown> = {};
+
+    for (const [key, v] of entries) {
+      sorted[key] = sortKeysDeep(v);
+    }
+
+    return sorted as T;
+  }
+
+  return value;
+}
+
+/**
  * Validate a table object against a zod schema, keeping only valid fields.
  * Returns undefined if the resulting object has no keys.
  */
@@ -308,7 +352,10 @@ async function runUpdater(
         continue;
       }
 
-      await Bun.write(modelFile, stringify(merged as Record<string, unknown>));
+      await Bun.write(
+        modelFile,
+        stringify(sortKeysDeep(merged) as Record<string, unknown>),
+      );
       written++;
       progress.tick(model.id, true);
     } catch (error) {

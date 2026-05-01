@@ -7,11 +7,6 @@ attachment = true
 reasoning = true
 structured_output = true
 
-[pricing]
-input = 8
-output = 15
-cache_read = 2
-
 [limit]
 context = 272000
 output = 128000
@@ -19,3 +14,8 @@ output = 128000
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "image", "text" ]
+
+[pricing]
+cache_read = 2
+input = 8
+output = 15

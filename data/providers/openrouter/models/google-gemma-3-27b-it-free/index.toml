@@ -1,16 +1,12 @@
 id = "google/gemma-3-27b-it:free"
-name = "Google: Gemma 3 27B (free)"
 knowledge_cutoff = "2024-08-31"
+name = "Google: Gemma 3 27B (free)"
 release_date = "2025-03-12"
 
 [features]
 attachment = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0
-output = 0
 
 [limit]
 context = 131072
@@ -19,3 +15,7 @@ output = 8192
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,15 +1,11 @@
 id = "z-ai/glm-4-32b"
-name = "Z.ai: GLM 4 32B "
 knowledge_cutoff = "2024-06-30"
+name = "Z.ai: GLM 4 32B "
 release_date = "2025-07-24"
 
 [features]
-tool_call = true
 temperature = true
-
-[pricing]
-input = 0.1
-output = 0.1
+tool_call = true
 
 [limit]
 context = 128000
@@ -17,3 +13,7 @@ context = 128000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

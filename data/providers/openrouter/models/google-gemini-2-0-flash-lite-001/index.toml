@@ -1,20 +1,14 @@
 id = "google/gemini-2.0-flash-lite-001"
-name = "Google: Gemini 2.0 Flash Lite"
 knowledge_cutoff = "2024-08-31"
+name = "Google: Gemini 2.0 Flash Lite"
 release_date = "2025-02-25"
 
 [features]
 attachment = true
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.075
-output = 0.3
-reasoning = 0.3
-input_audio = 0.075
+tool_call = true
 
 [limit]
 context = 1048576
@@ -23,3 +17,9 @@ output = 8192
 [modalities]
 input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.075
+input_audio = 0.075
+output = 0.3
+reasoning = 0.3

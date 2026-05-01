@@ -1,15 +1,10 @@
 id = "thedrummer/skyfall-36b-v2"
-name = "TheDrummer: Skyfall 36B V2"
 knowledge_cutoff = "2024-06-30"
+name = "TheDrummer: Skyfall 36B V2"
 release_date = "2025-03-10"
 
 [features]
 temperature = true
-
-[pricing]
-input = 0.55
-output = 0.8
-cache_read = 0.25
 
 [limit]
 context = 32768
@@ -18,3 +13,8 @@ output = 32768
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.55
+output = 0.8

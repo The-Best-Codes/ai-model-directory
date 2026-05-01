@@ -1,17 +1,12 @@
 id = "deepseek/deepseek-chat-v3-0324"
-name = "DeepSeek: DeepSeek V3 0324"
 knowledge_cutoff = "2024-07-31"
+name = "DeepSeek: DeepSeek V3 0324"
 release_date = "2025-03-24"
 
 [features]
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.2
-output = 0.77
-cache_read = 0.135
+tool_call = true
 
 [limit]
 context = 163840
@@ -20,3 +15,8 @@ output = 16384
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.135
+input = 0.2
+output = 0.77

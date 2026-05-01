@@ -5,13 +5,8 @@ release_date = "2026-02-24"
 [features]
 attachment = true
 reasoning = true
-tool_call = true
 structured_output = true
-
-[pricing]
-input = 1.75
-output = 14
-cache_read = 0.175
+tool_call = true
 
 [limit]
 context = 400000
@@ -20,3 +15,8 @@ output = 128000
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.175
+input = 1.75
+output = 14

@@ -1,14 +1,10 @@
 id = "nousresearch/hermes-3-llama-3.1-405b:free"
-name = "Nous: Hermes 3 405B Instruct (free)"
 knowledge_cutoff = "2023-12-31"
+name = "Nous: Hermes 3 405B Instruct (free)"
 release_date = "2024-08-16"
 
 [features]
 temperature = true
-
-[pricing]
-input = 0
-output = 0
 
 [limit]
 context = 131072
@@ -16,3 +12,7 @@ context = 131072
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

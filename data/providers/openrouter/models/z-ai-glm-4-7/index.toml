@@ -4,13 +4,9 @@ release_date = "2025-12-22"
 
 [features]
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.38
-output = 1.74
+tool_call = true
 
 [limit]
 context = 202752
@@ -18,3 +14,7 @@ context = 202752
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.38
+output = 1.74

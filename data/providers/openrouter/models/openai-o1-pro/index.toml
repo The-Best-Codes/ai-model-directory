@@ -1,16 +1,12 @@
 id = "openai/o1-pro"
-name = "OpenAI: o1-pro"
 knowledge_cutoff = "2023-10-31"
+name = "OpenAI: o1-pro"
 release_date = "2025-03-19"
 
 [features]
 attachment = true
 reasoning = true
 structured_output = true
-
-[pricing]
-input = 150
-output = 600
 
 [limit]
 context = 200000
@@ -19,3 +15,7 @@ output = 100000
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 150
+output = 600

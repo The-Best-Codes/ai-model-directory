@@ -3,13 +3,9 @@ name = "EssentialAI: Rnj 1 Instruct"
 release_date = "2025-12-07"
 
 [features]
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.15
-output = 0.15
+tool_call = true
 
 [limit]
 context = 32768
@@ -17,3 +13,7 @@ context = 32768
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.15
