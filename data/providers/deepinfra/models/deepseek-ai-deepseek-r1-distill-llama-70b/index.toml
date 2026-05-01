@@ -1,0 +1,14 @@
+id = "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+name = "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+input = 0.7
+output = 0.8

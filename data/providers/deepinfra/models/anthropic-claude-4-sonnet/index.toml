@@ -1,0 +1,14 @@
+id = "anthropic/claude-4-sonnet"
+name = "anthropic/claude-4-sonnet"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+output = 200000
+
+[pricing]
+input = 3.3000000000000003
+output = 16.5

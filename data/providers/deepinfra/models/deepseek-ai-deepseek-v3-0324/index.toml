@@ -1,0 +1,15 @@
+id = "deepseek-ai/DeepSeek-V3-0324"
+name = "deepseek-ai/DeepSeek-V3-0324"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 163840
+output = 163840
+
+[pricing]
+cache_read = 0.135
+input = 0.2
+output = 0.77

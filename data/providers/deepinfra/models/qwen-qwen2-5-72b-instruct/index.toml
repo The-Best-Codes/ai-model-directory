@@ -1,0 +1,14 @@
+id = "Qwen/Qwen2.5-72B-Instruct"
+name = "Qwen/Qwen2.5-72B-Instruct"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 32768
+output = 32768
+
+[pricing]
+input = 0.36
+output = 0.4

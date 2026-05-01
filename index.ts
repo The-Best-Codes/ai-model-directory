@@ -34,6 +34,10 @@ import {
   outputDirectory as cortecsOutputDirectory,
 } from "./updaters/cortecs.ts";
 import {
+  fetchModels as fetchDeepInfraModels,
+  outputDirectory as deepInfraOutputDirectory,
+} from "./updaters/deepinfra.ts";
+import {
   fetchModels as fetchOpenAIModels,
   outputDirectory as openAIOutputDirectory,
 } from "./updaters/openai.ts";
@@ -364,6 +368,11 @@ const UPDATERS: Updater[] = [
     name: "cortecs",
     fetchModels: fetchCortecsModels,
     outputDirectory: cortecsOutputDirectory,
+  },
+  {
+    name: "deepinfra",
+    fetchModels: fetchDeepInfraModels,
+    outputDirectory: deepInfraOutputDirectory,
   },
 ];
 

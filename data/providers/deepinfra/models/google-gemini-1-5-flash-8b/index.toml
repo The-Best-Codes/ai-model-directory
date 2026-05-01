@@ -1,0 +1,14 @@
+id = "google/gemini-1.5-flash-8b"
+name = "google/gemini-1.5-flash-8b"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 1000000
+
+[pricing]
+input = 0.0375
+output = 0.15

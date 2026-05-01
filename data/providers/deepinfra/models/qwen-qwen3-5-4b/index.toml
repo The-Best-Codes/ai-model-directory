@@ -1,0 +1,14 @@
+id = "Qwen/Qwen3.5-4B"
+name = "Qwen/Qwen3.5-4B"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+input = 0.030000000000000002
+output = 0.15

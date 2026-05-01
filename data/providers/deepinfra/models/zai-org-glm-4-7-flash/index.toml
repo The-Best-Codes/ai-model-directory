@@ -1,0 +1,15 @@
+id = "zai-org/GLM-4.7-Flash"
+name = "zai-org/GLM-4.7-Flash"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 202752
+output = 202752
+
+[pricing]
+cache_read = 0.0100000002
+input = 0.060000000000000005
+output = 0.4

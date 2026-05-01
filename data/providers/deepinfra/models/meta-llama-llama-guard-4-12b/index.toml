@@ -1,0 +1,14 @@
+id = "meta-llama/Llama-Guard-4-12B"
+name = "meta-llama/Llama-Guard-4-12B"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 163840
+output = 163840
+
+[pricing]
+input = 0.18
+output = 0.18

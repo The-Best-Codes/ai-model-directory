@@ -1,0 +1,15 @@
+id = "Qwen/Qwen3-235B-A22B-Thinking-2507"
+name = "Qwen/Qwen3-235B-A22B-Thinking-2507"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.20000000059999998
+input = 0.22999999999999998
+output = 2.3

@@ -1,0 +1,15 @@
+id = "ByteDance/Seed-2.0-mini"
+name = "ByteDance/Seed-2.0-mini"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 256000
+output = 256000
+
+[pricing]
+cache_read = 0.020000000000000004
+input = 0.1
+output = 0.4

@@ -1,0 +1,14 @@
+id = "google/gemini-2.5-pro"
+name = "google/gemini-2.5-pro"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 1000000
+
+[pricing]
+input = 1.25
+output = 10

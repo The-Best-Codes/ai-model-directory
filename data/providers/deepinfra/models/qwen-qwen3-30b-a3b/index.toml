@@ -1,0 +1,14 @@
+id = "Qwen/Qwen3-30B-A3B"
+name = "Qwen/Qwen3-30B-A3B"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 40960
+output = 40960
+
+[pricing]
+input = 0.08
+output = 0.28

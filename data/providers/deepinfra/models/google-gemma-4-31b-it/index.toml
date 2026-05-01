@@ -1,0 +1,14 @@
+id = "google/gemma-4-31B-it"
+name = "google/gemma-4-31B-it"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+input = 0.13
+output = 0.38

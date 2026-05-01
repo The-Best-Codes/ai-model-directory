@@ -1,0 +1,14 @@
+id = "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+name = "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+input = 0.04
+output = 0.16

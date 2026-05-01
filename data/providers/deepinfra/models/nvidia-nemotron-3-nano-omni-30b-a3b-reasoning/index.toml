@@ -1,0 +1,14 @@
+id = "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning"
+name = "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+input = 0.2
+output = 0.8

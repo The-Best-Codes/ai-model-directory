@@ -1,0 +1,15 @@
+id = "deepseek-ai/DeepSeek-R1-0528"
+name = "deepseek-ai/DeepSeek-R1-0528"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 163840
+output = 163840
+
+[pricing]
+cache_read = 0.35
+input = 0.5
+output = 2.15

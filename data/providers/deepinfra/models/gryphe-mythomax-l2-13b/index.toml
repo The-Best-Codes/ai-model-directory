@@ -1,0 +1,14 @@
+id = "Gryphe/MythoMax-L2-13b"
+name = "Gryphe/MythoMax-L2-13b"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 4096
+output = 4096
+
+[pricing]
+input = 0.4
+output = 0.4
