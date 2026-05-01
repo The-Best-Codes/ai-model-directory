@@ -1,0 +1,14 @@
+id = "llama-3.3-70b-versatile"
+name = "Llama 3.3 70B"
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.59
+output = 0.79

@@ -1,0 +1,14 @@
+id = "Qwen/Qwen3-32B"
+name = "Qwen3 32B"
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09
+output = 0.29

@@ -1,0 +1,17 @@
+id = "google/gemma-4-31b-it"
+name = "Gemma 4 31B IT"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.4

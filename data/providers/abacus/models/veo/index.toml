@@ -1,0 +1,9 @@
+id = "veo"
+name = "Veo 2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

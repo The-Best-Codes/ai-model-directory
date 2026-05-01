@@ -1,0 +1,17 @@
+id = "claude-sonnet-4-5-20250929"
+name = "Claude Sonnet 4.5"
+
+[features]
+attachment = true
+
+[limit]
+context = 200000
+output = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 15

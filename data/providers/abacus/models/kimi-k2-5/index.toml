@@ -1,0 +1,17 @@
+id = "kimi-k2.5"
+name = "Kimi K2.5"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 3

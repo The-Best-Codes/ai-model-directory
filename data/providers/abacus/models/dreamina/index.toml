@@ -1,0 +1,6 @@
+id = "dreamina"
+name = "Dreamina"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

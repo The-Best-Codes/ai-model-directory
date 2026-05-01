@@ -1,0 +1,9 @@
+id = "hunyuan"
+name = "Hunyuan Video"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

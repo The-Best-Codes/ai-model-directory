@@ -1,0 +1,17 @@
+id = "grok-4-0709"
+name = "Grok 4"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 15

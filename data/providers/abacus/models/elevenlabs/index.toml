@@ -1,0 +1,6 @@
+id = "elevenlabs"
+name = "elevenlabs"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

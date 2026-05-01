@@ -1,0 +1,15 @@
+id = "zai-org/glm-5.1"
+name = "GLM 5.1"
+
+[limit]
+context = 204800
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.26
+input = 1.4
+output = 4.4

@@ -1,0 +1,17 @@
+id = "grok-4.20-beta-0309-non-reasoning"
+name = "Grok 4.2"
+
+[features]
+attachment = true
+
+[limit]
+context = 2097152
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 6

@@ -1,0 +1,17 @@
+id = "gpt-4o-mini"
+name = "GPT-4o Mini"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

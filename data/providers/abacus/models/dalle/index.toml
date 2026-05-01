@@ -1,0 +1,6 @@
+id = "dalle"
+name = "DALL-E"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

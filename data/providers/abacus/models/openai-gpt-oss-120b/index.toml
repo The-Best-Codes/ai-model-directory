@@ -1,0 +1,14 @@
+id = "openai/gpt-oss-120b"
+name = "GPT-OSS 120B"
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.44

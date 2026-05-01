@@ -1,0 +1,18 @@
+id = "gemini-3-pro-image-preview"
+name = "Nano Banana (Gemini 3 Pro Image)"
+
+[features]
+attachment = true
+
+[limit]
+context = 2097152
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 12

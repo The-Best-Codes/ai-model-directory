@@ -1,0 +1,9 @@
+id = "wan"
+name = "Wan 2.2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

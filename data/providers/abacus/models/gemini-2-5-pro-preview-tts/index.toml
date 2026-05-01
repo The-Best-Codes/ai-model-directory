@@ -1,0 +1,14 @@
+id = "gemini-2.5-pro-preview-tts"
+name = "Gemini 2.5 Pro TTS"
+
+[limit]
+context = 2097152
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 1
+output = 0

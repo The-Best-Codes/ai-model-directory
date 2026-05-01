@@ -1,0 +1,9 @@
+id = "magnific"
+name = "Magnific Upscaler"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

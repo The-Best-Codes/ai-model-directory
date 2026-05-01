@@ -1,0 +1,17 @@
+id = "gemini-3.1-flash-image-preview"
+name = "Nano Banana 2 (Gemini 3.1 Flash Image)"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.5
+output = 3

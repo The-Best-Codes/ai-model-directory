@@ -1,0 +1,6 @@
+id = "hume"
+name = "hume"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

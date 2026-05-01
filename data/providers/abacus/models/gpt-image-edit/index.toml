@@ -1,0 +1,9 @@
+id = "gpt_image_edit"
+name = "GPT Image [Edit]"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,14 @@
+id = "gemini-2.5-flash-preview-tts"
+name = "Gemini 2.5 Flash TTS"
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 0.5
+output = 0

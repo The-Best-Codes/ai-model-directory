@@ -1,0 +1,18 @@
+id = "o3"
+name = "o3"
+
+[features]
+attachment = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 2
+output = 8

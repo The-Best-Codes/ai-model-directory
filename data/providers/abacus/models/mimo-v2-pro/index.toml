@@ -1,0 +1,15 @@
+id = "mimo-v2-pro"
+name = "MiMo V2 Pro"
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 1
+output = 3

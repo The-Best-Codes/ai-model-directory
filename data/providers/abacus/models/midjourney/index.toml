@@ -1,0 +1,9 @@
+id = "midjourney"
+name = "Midjourney"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

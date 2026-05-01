@@ -1,0 +1,14 @@
+id = "Qwen/Qwen2.5-72B-Instruct"
+name = "Qwen 2.5 72B"
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.11
+output = 0.38

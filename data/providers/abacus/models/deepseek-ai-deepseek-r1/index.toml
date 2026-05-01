@@ -1,0 +1,14 @@
+id = "deepseek-ai/DeepSeek-R1"
+name = "Deepseek Reasoner"
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 7

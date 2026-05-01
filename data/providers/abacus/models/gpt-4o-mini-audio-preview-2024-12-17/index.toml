@@ -1,0 +1,17 @@
+id = "gpt-4o-mini-audio-preview-2024-12-17"
+name = "GPT-4o Mini Audio Preview"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

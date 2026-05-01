@@ -1,0 +1,14 @@
+id = "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo"
+name = "Llama 3.1 405B"
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.5
+output = 3.5

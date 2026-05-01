@@ -1,0 +1,9 @@
+id = "ideogram_character"
+name = "Ideogram Character"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
