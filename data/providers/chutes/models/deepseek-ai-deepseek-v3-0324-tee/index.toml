@@ -1,0 +1,20 @@
+id = "deepseek-ai/DeepSeek-V3-0324-TEE"
+name = "deepseek-ai/DeepSeek-V3-0324-TEE"
+release_date = "2026-05-01"
+
+[features]
+structured_output = true
+tool_call = true
+
+[limit]
+context = 163840
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.125
+input = 0.25
+output = 1

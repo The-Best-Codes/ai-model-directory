@@ -1,0 +1,21 @@
+id = "Qwen/Qwen3-32B-TEE"
+name = "Qwen/Qwen3-32B-TEE"
+release_date = "2026-05-01"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 40960
+output = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+input = 0.08
+output = 0.24

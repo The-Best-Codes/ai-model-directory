@@ -1,0 +1,19 @@
+id = "Qwen/Qwen2.5-Coder-32B-Instruct"
+name = "Qwen/Qwen2.5-Coder-32B-Instruct"
+release_date = "2026-05-01"
+
+[features]
+structured_output = true
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0136
+input = 0.0272
+output = 0.1087

@@ -1,0 +1,21 @@
+id = "zai-org/GLM-5-Turbo"
+name = "zai-org/GLM-5-Turbo"
+release_date = "2026-05-01"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 202752
+output = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.24455
+input = 0.4891
+output = 1.9565

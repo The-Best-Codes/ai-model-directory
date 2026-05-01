@@ -1,0 +1,21 @@
+id = "Qwen/Qwen3-30B-A3B"
+name = "Qwen/Qwen3-30B-A3B"
+release_date = "2026-05-01"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 40960
+output = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.06
+output = 0.22

@@ -1,0 +1,21 @@
+id = "tngtech/DeepSeek-TNG-R1T2-Chimera-TEE"
+name = "tngtech/DeepSeek-TNG-R1T2-Chimera-TEE"
+release_date = "2026-05-01"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 163840
+output = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 0.3
+output = 1.1

@@ -1,0 +1,19 @@
+id = "unsloth/Mistral-Nemo-Instruct-2407"
+name = "unsloth/Mistral-Nemo-Instruct-2407"
+release_date = "2026-05-01"
+
+[features]
+structured_output = true
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.02
+output = 0.04

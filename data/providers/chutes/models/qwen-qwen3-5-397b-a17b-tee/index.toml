@@ -1,0 +1,22 @@
+id = "Qwen/Qwen3.5-397B-A17B-TEE"
+name = "Qwen/Qwen3.5-397B-A17B-TEE"
+release_date = "2026-05-01"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.195
+input = 0.39
+output = 2.34

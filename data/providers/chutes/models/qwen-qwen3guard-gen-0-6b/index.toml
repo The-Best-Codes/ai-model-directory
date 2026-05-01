@@ -1,0 +1,11 @@
+id = "Qwen/Qwen3Guard-Gen-0.6B"
+name = "Qwen/Qwen3Guard-Gen-0.6B"
+release_date = "2026-05-01"
+
+[limit]
+context = 32768
+
+[pricing]
+cache_read = 0.005
+input = 0.01
+output = 0.0109
