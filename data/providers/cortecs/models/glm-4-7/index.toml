@@ -1,0 +1,15 @@
+id = "glm-4.7"
+name = "glm-4.7"
+release_date = "2026-02-04"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 202752
+
+[pricing]
+input = 0.532
+output = 1.952

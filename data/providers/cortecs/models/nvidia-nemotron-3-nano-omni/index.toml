@@ -1,0 +1,15 @@
+id = "nvidia-nemotron-3-nano-omni"
+name = "nvidia-nemotron-3-nano-omni"
+release_date = "2026-04-29"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 300000
+
+[pricing]
+input = 0.053
+output = 0.213

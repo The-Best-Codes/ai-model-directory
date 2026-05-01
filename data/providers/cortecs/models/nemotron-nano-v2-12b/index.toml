@@ -1,0 +1,15 @@
+id = "nemotron-nano-v2-12b"
+name = "nemotron-nano-v2-12b"
+release_date = "2025-10-31"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.215
+output = 0.635

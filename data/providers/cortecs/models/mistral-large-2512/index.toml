@@ -1,0 +1,16 @@
+id = "mistral-large-2512"
+name = "mistral-large-2512"
+release_date = "2025-12-03"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+cache_read = 0.05
+input = 0.5
+output = 1.5

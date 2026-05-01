@@ -1,0 +1,15 @@
+id = "mistral-large-2402"
+name = "mistral-large-2402"
+release_date = "2025-05-26"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 32000
+
+[pricing]
+input = 3.846
+output = 11.627

@@ -1,0 +1,16 @@
+id = "codestral-2508"
+name = "codestral-2508"
+release_date = "2025-01-13"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+cache_read = 0.03
+input = 0.3
+output = 0.9

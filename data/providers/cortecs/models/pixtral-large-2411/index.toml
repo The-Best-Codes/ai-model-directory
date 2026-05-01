@@ -1,0 +1,16 @@
+id = "pixtral-large-2411"
+name = "pixtral-large-2411"
+release_date = "2024-11-18"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+cache_read = 0.18
+input = 1.8
+output = 5.4

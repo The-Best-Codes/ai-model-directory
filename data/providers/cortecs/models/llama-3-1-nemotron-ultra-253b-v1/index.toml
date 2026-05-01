@@ -1,0 +1,15 @@
+id = "llama-3.1-nemotron-ultra-253b-v1"
+name = "llama-3.1-nemotron-ultra-253b-v1"
+release_date = "2025-04-07"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.537
+output = 1.61

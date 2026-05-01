@@ -1,0 +1,16 @@
+id = "claude-opus4-5"
+name = "claude-opus4-5"
+release_date = "2026-01-05"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[pricing]
+cache_read = 0.477
+input = 4.769
+output = 23.849

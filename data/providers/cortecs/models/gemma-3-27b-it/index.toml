@@ -1,0 +1,15 @@
+id = "gemma-3-27b-it"
+name = "gemma-3-27b-it"
+release_date = "2025-03-12"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131000
+
+[pricing]
+input = 0.089
+output = 0.268

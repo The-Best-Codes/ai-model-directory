@@ -1,0 +1,15 @@
+id = "llama-4-maverick"
+name = "llama-4-maverick"
+release_date = "2025-03-26"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 1050000
+
+[pricing]
+input = 0.124
+output = 0.603

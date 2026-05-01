@@ -30,6 +30,10 @@ import {
   outputDirectory as chutesOutputDirectory,
 } from "./updaters/chutes.ts";
 import {
+  fetchModels as fetchCortecsModels,
+  outputDirectory as cortecsOutputDirectory,
+} from "./updaters/cortecs.ts";
+import {
   fetchModels as fetchOpenAIModels,
   outputDirectory as openAIOutputDirectory,
 } from "./updaters/openai.ts";
@@ -355,6 +359,11 @@ const UPDATERS: Updater[] = [
     name: "chutes",
     fetchModels: fetchChutesModels,
     outputDirectory: chutesOutputDirectory,
+  },
+  {
+    name: "cortecs",
+    fetchModels: fetchCortecsModels,
+    outputDirectory: cortecsOutputDirectory,
   },
 ];
 

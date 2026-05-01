@@ -1,0 +1,15 @@
+id = "pixtral-12b-2409"
+name = "pixtral-12b-2409"
+release_date = "2024-11-09"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.2
+output = 0.2

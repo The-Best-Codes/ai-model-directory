@@ -1,0 +1,15 @@
+id = "codellama-13b-instruct-hf"
+name = "codellama-13b-instruct-hf"
+release_date = "2024-03-13"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 16000
+
+[pricing]
+input = 0.45
+output = 0.45

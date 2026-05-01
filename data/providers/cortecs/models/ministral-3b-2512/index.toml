@@ -1,0 +1,16 @@
+id = "ministral-3b-2512"
+name = "ministral-3b-2512"
+release_date = "2025-12-03"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+cache_read = 0.01
+input = 0.1
+output = 0.1

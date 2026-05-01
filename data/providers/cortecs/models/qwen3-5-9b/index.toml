@@ -1,0 +1,15 @@
+id = "qwen3.5-9b"
+name = "qwen3.5-9b"
+release_date = "2026-04-09"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262000
+
+[pricing]
+input = 0.1
+output = 0.15

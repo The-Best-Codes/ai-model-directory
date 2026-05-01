@@ -1,0 +1,16 @@
+id = "gpt-5.1"
+name = "gpt-5.1"
+release_date = "2025-11-15"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 400000
+
+[pricing]
+cache_read = 0.14
+input = 1.234
+output = 9.838

@@ -1,0 +1,15 @@
+id = "deepseek-chat-v3.1"
+name = "deepseek-chat-v3.1"
+release_date = "2026-03-26"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 164000
+
+[pricing]
+input = 0.177
+output = 0.71

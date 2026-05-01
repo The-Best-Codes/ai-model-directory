@@ -1,0 +1,16 @@
+id = "gpt-4.1-nano"
+name = "gpt-4.1-nano"
+release_date = "2025-04-14"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1047576
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.39
