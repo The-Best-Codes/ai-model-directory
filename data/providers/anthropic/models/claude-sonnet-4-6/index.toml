@@ -1,6 +1,6 @@
-release_date = "2026-02-17"
 id = "claude-sonnet-4-6"
 name = "Claude Sonnet 4.6"
+release_date = "2026-02-17"
 
 [features]
 attachment = true

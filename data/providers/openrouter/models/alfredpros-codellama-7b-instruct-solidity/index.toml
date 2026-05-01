@@ -1,14 +1,10 @@
 id = "alfredpros/codellama-7b-instruct-solidity"
-name = "AlfredPros: CodeLLaMa 7B Instruct Solidity"
 knowledge_cutoff = "2023-06-30"
+name = "AlfredPros: CodeLLaMa 7B Instruct Solidity"
 release_date = "2025-04-14"
 
 [features]
 temperature = true
-
-[pricing]
-input = 0.8
-output = 1.2
 
 [limit]
 context = 4096
@@ -17,3 +13,7 @@ output = 4096
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 1.2

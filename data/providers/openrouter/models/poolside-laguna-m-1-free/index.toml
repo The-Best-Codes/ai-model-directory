@@ -4,12 +4,8 @@ release_date = "2026-04-28"
 
 [features]
 reasoning = true
-tool_call = true
 temperature = true
-
-[pricing]
-input = 0
-output = 0
+tool_call = true
 
 [limit]
 context = 131072
@@ -18,3 +14,7 @@ output = 8192
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

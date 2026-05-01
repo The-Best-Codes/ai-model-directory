@@ -1,15 +1,10 @@
 id = "thedrummer/cydonia-24b-v4.1"
-name = "TheDrummer: Cydonia 24B V4.1"
 knowledge_cutoff = "2024-04-30"
+name = "TheDrummer: Cydonia 24B V4.1"
 release_date = "2025-09-27"
 
 [features]
 temperature = true
-
-[pricing]
-input = 0.3
-output = 0.5
-cache_read = 0.15
 
 [limit]
 context = 131072
@@ -18,3 +13,8 @@ output = 131072
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 0.3
+output = 0.5

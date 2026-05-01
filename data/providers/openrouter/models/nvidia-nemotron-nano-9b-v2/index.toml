@@ -1,17 +1,13 @@
 id = "nvidia/nemotron-nano-9b-v2"
-name = "NVIDIA: Nemotron Nano 9B V2"
 knowledge_cutoff = "2025-03-31"
+name = "NVIDIA: Nemotron Nano 9B V2"
 release_date = "2025-09-05"
 
 [features]
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.04
-output = 0.16
+tool_call = true
 
 [limit]
 context = 131072
@@ -20,3 +16,7 @@ output = 16384
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0.16

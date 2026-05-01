@@ -1,17 +1,12 @@
 id = "x-ai/grok-3"
-name = "xAI: Grok 3"
 knowledge_cutoff = "2025-02-28"
+name = "xAI: Grok 3"
 release_date = "2025-06-10"
 
 [features]
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 3
-output = 15
-cache_read = 0.75
+tool_call = true
 
 [limit]
 context = 131072
@@ -19,3 +14,8 @@ context = 131072
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.75
+input = 3
+output = 15

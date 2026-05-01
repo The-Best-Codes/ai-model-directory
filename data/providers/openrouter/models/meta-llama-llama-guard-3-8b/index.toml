@@ -1,14 +1,10 @@
 id = "meta-llama/llama-guard-3-8b"
-name = "Llama Guard 3 8B"
 knowledge_cutoff = "2023-12-31"
+name = "Llama Guard 3 8B"
 release_date = "2025-02-12"
 
 [features]
 temperature = true
-
-[pricing]
-input = 0.48
-output = 0.03
 
 [limit]
 context = 131072
@@ -16,3 +12,7 @@ context = 131072
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.48
+output = 0.03

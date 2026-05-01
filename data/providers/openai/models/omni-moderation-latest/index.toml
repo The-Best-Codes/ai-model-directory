@@ -4,8 +4,8 @@ release_date = "2024-11-15"
 
 [features]
 attachment = true
-tool_call = false
 structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "image", "text" ]

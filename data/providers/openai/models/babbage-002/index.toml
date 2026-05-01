@@ -1,15 +1,11 @@
 id = "babbage-002"
+knowledge_cutoff = "2021-09-01"
 name = "babbage-002"
 release_date = "2023-08-21"
-knowledge_cutoff = "2021-09-01"
 
 [features]
-tool_call = false
 structured_output = false
-
-[pricing]
-input = 0.4
-output = 0.4
+tool_call = false
 
 [limit]
 output = 16384
@@ -17,3 +13,7 @@ output = 16384
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 0.4

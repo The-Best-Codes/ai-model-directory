@@ -3,12 +3,8 @@ name = "Relace: Relace Search"
 release_date = "2025-12-08"
 
 [features]
-tool_call = true
 temperature = true
-
-[pricing]
-input = 1
-output = 3
+tool_call = true
 
 [limit]
 context = 256000
@@ -17,3 +13,7 @@ output = 128000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 1
+output = 3

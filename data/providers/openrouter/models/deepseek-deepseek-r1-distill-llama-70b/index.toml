@@ -1,16 +1,12 @@
 id = "deepseek/deepseek-r1-distill-llama-70b"
-name = "DeepSeek: R1 Distill Llama 70B"
 knowledge_cutoff = "2024-07-31"
+name = "DeepSeek: R1 Distill Llama 70B"
 release_date = "2025-01-23"
 
 [features]
 reasoning = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.7
-output = 0.8
 
 [limit]
 context = 131072
@@ -19,3 +15,7 @@ output = 16384
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 0.8

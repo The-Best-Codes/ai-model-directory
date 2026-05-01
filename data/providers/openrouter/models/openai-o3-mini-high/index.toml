@@ -1,18 +1,13 @@
 id = "openai/o3-mini-high"
-name = "OpenAI: o3 Mini High"
 knowledge_cutoff = "2023-10-31"
+name = "OpenAI: o3 Mini High"
 release_date = "2025-02-12"
 
 [features]
 attachment = true
 reasoning = true
-tool_call = true
 structured_output = true
-
-[pricing]
-input = 1.1
-output = 4.4
-cache_read = 0.55
+tool_call = true
 
 [limit]
 context = 200000
@@ -21,3 +16,8 @@ output = 100000
 [modalities]
 input = [ "file", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.55
+input = 1.1
+output = 4.4

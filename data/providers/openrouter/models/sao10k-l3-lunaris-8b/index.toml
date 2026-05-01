@@ -1,15 +1,11 @@
 id = "sao10k/l3-lunaris-8b"
-name = "Sao10K: Llama 3 8B Lunaris"
 knowledge_cutoff = "2023-12-31"
+name = "Sao10K: Llama 3 8B Lunaris"
 release_date = "2024-08-13"
 
 [features]
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.04
-output = 0.05
 
 [limit]
 context = 8192
@@ -18,3 +14,7 @@ output = 16384
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0.05

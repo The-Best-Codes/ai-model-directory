@@ -1,14 +1,10 @@
 id = "aion-labs/aion-rp-llama-3.1-8b"
-name = "AionLabs: Aion-RP 1.0 (8B)"
 knowledge_cutoff = "2023-12-31"
+name = "AionLabs: Aion-RP 1.0 (8B)"
 release_date = "2025-02-04"
 
 [features]
 temperature = true
-
-[pricing]
-input = 0.8
-output = 1.6
 
 [limit]
 context = 32768
@@ -17,3 +13,7 @@ output = 32768
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 1.6

@@ -1,15 +1,11 @@
 id = "google/gemma-2-27b-it"
-name = "Google: Gemma 2 27B"
 knowledge_cutoff = "2024-06-30"
+name = "Google: Gemma 2 27B"
 release_date = "2024-07-13"
 
 [features]
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.65
-output = 0.65
 
 [limit]
 context = 8192
@@ -18,3 +14,7 @@ output = 2048
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.65
+output = 0.65

@@ -1,15 +1,11 @@
 id = "sao10k/l3-euryale-70b"
-name = "Sao10k: Llama 3 Euryale 70B v2.1"
 knowledge_cutoff = "2023-12-31"
+name = "Sao10k: Llama 3 Euryale 70B v2.1"
 release_date = "2024-06-18"
 
 [features]
-tool_call = true
 temperature = true
-
-[pricing]
-input = 1.48
-output = 1.48
+tool_call = true
 
 [limit]
 context = 8192
@@ -18,3 +14,7 @@ output = 8192
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 1.48
+output = 1.48

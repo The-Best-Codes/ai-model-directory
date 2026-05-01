@@ -1,6 +1,6 @@
-release_date = "2026-02-04"
 id = "claude-opus-4-6"
 name = "Claude Opus 4.6"
+release_date = "2026-02-04"
 
 [features]
 attachment = true

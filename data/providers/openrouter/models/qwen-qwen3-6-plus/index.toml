@@ -5,14 +5,9 @@ release_date = "2026-04-02"
 [features]
 attachment = true
 reasoning = true
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.325
-output = 1.95
-cache_write = 0.40625
+tool_call = true
 
 [limit]
 context = 1000000
@@ -21,3 +16,8 @@ output = 65536
 [modalities]
 input = [ "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+cache_write = 0.40625
+input = 0.325
+output = 1.95

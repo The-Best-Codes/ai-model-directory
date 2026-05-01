@@ -1,14 +1,10 @@
 id = "arcee-ai/maestro-reasoning"
-name = "Arcee AI: Maestro Reasoning"
 knowledge_cutoff = "2025-03-31"
+name = "Arcee AI: Maestro Reasoning"
 release_date = "2025-05-05"
 
 [features]
 temperature = true
-
-[pricing]
-input = 0.9
-output = 3.3
 
 [limit]
 context = 131072
@@ -17,3 +13,7 @@ output = 32000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.9
+output = 3.3

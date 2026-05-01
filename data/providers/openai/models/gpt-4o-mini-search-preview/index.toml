@@ -1,15 +1,11 @@
 id = "gpt-4o-mini-search-preview"
+knowledge_cutoff = "2023-10-01"
 name = "GPT-4o mini Search Preview"
 release_date = "2025-03-07"
-knowledge_cutoff = "2023-10-01"
 
 [features]
-tool_call = false
 structured_output = true
-
-[pricing]
-input = 0.15
-output = 0.6
+tool_call = false
 
 [limit]
 context = 128000
@@ -18,3 +14,7 @@ output = 16384
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

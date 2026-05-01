@@ -8,10 +8,6 @@ reasoning = true
 structured_output = true
 temperature = true
 
-[pricing]
-input = 0.2
-output = 0.6
-
 [limit]
 context = 131072
 output = 16384
@@ -19,3 +15,7 @@ output = 16384
 [modalities]
 input = [ "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.6

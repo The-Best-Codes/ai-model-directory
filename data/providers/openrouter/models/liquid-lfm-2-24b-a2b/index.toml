@@ -5,13 +5,13 @@ release_date = "2026-02-25"
 [features]
 temperature = true
 
-[pricing]
-input = 0.03
-output = 0.12
-
 [limit]
 context = 32768
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.03
+output = 0.12

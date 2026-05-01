@@ -1,17 +1,12 @@
 id = "mistralai/mistral-saba"
-name = "Mistral: Saba"
 knowledge_cutoff = "2024-09-30"
+name = "Mistral: Saba"
 release_date = "2025-02-17"
 
 [features]
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.2
-output = 0.6
-cache_read = 0.02
+tool_call = true
 
 [limit]
 context = 32768
@@ -19,3 +14,8 @@ context = 32768
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.2
+output = 0.6

@@ -8,14 +8,6 @@ reasoning = true
 structured_output = true
 temperature = true
 
-[pricing]
-input = 2
-output = 12
-reasoning = 12
-cache_read = 0.2
-cache_write = 0.375
-input_audio = 2
-
 [limit]
 context = 65536
 output = 32768
@@ -23,3 +15,11 @@ output = 32768
 [modalities]
 input = [ "image", "text" ]
 output = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 0.375
+input = 2
+input_audio = 2
+output = 12
+reasoning = 12

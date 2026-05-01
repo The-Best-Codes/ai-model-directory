@@ -1,15 +1,11 @@
 id = "arcee-ai/virtuoso-large"
-name = "Arcee AI: Virtuoso Large"
 knowledge_cutoff = "2025-03-31"
+name = "Arcee AI: Virtuoso Large"
 release_date = "2025-05-05"
 
 [features]
-tool_call = true
 temperature = true
-
-[pricing]
-input = 0.75
-output = 1.2
+tool_call = true
 
 [limit]
 context = 131072
@@ -18,3 +14,7 @@ output = 64000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.75
+output = 1.2

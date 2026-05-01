@@ -1,18 +1,12 @@
 id = "qwen/qwen-plus"
-name = "Qwen: Qwen-Plus"
 knowledge_cutoff = "2025-03-31"
+name = "Qwen: Qwen-Plus"
 release_date = "2025-02-01"
 
 [features]
-tool_call = true
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0.26
-output = 0.78
-cache_read = 0.052
-cache_write = 0.325
+tool_call = true
 
 [limit]
 context = 1000000
@@ -21,3 +15,9 @@ output = 32768
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.052
+cache_write = 0.325
+input = 0.26
+output = 0.78

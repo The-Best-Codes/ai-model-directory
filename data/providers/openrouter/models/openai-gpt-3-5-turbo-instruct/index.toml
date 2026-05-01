@@ -1,15 +1,11 @@
 id = "openai/gpt-3.5-turbo-instruct"
-name = "OpenAI: GPT-3.5 Turbo Instruct"
 knowledge_cutoff = "2021-09-30"
+name = "OpenAI: GPT-3.5 Turbo Instruct"
 release_date = "2023-09-28"
 
 [features]
 structured_output = true
 temperature = true
-
-[pricing]
-input = 1.5
-output = 2
 
 [limit]
 context = 4095
@@ -18,3 +14,7 @@ output = 4096
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 1.5
+output = 2

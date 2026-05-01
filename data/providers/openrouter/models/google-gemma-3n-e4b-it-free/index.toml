@@ -1,15 +1,11 @@
 id = "google/gemma-3n-e4b-it:free"
-name = "Google: Gemma 3n 4B (free)"
 knowledge_cutoff = "2024-08-31"
+name = "Google: Gemma 3n 4B (free)"
 release_date = "2025-05-20"
 
 [features]
 structured_output = true
 temperature = true
-
-[pricing]
-input = 0
-output = 0
 
 [limit]
 context = 8192
@@ -18,3 +14,7 @@ output = 2048
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
