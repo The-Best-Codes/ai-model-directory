@@ -17,7 +17,7 @@ const apiModelSchema = z.object({
     .object({
       input_token: z.number().optional(),
       output_token: z.number().optional(),
-      cache_read_cost: z.number().optional(),
+      cache_read_cost: z.number().nullish(),
     })
     .optional(),
   context_size: z.number().optional(),

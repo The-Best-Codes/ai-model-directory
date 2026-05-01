@@ -16,43 +16,43 @@ import {
 } from "../schema.ts";
 
 const modalityOrder: readonly ModelModality[] = [
-  "text",
-  "image",
   "audio",
-  "video",
   "file",
+  "image",
+  "text",
+  "video",
 ];
 
 const featureOrder = [
   "attachment",
   "reasoning",
-  "tool_call",
   "structured_output",
   "temperature",
+  "tool_call",
 ] as const;
 
 const pricingOrder = [
-  "input",
-  "output",
-  "reasoning",
   "cache_read",
   "cache_write",
+  "input",
   "input_audio",
+  "output",
   "output_audio",
+  "reasoning",
 ] as const;
 
 const limitOrder = ["context", "input", "output"] as const;
 const topLevelOrder = [
   "id",
-  "name",
   "knowledge_cutoff",
-  "release_date",
   "last_updated",
+  "name",
   "open_weights",
+  "release_date",
   "features",
-  "pricing",
   "limit",
   "modalities",
+  "pricing",
 ] as const;
 
 function dedupeAndSortModalities(
@@ -88,6 +88,14 @@ export function timestampFromDateInput(
 ): string | undefined {
   if (value === null || value === undefined) {
     return undefined;
+  }
+
+  if (typeof value === "string" && /^(0|[1-9]\d*)$/.test(value)) {
+    if (options.rejectEpoch && value === "0") {
+      return undefined;
+    }
+
+    return value;
   }
 
   const date = value instanceof Date ? value : new Date(value);
@@ -132,7 +140,9 @@ export function pricePerMillion(
   }
 
   try {
-    return new Decimal(value).mul(1_000_000).toNumber();
+    const result = new Decimal(value).mul(1_000_000).toNumber();
+
+    return Number.isFinite(result) && result >= 0 ? result : undefined;
   } catch {
     return undefined;
   }

@@ -2,7 +2,11 @@ import { z } from "zod";
 
 import { fetchJson } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import { pricePerMillion, timestampFromUnixSeconds } from "../lib/model.ts";
+import {
+  pricePerMillion,
+  timestampFromDateInput,
+  timestampFromUnixSeconds,
+} from "../lib/model.ts";
 import {
   filterModalities,
   hasAnyString,
@@ -15,7 +19,7 @@ const apiModelSchema = z.object({
   name: z.string(),
   created: z.number(),
   context_length: z.number(),
-  knowledge_cutoff: z.string().nullable(),
+  knowledge_cutoff: z.string().nullable().optional(),
   architecture: z.object({
     input_modalities: z.array(z.string()),
     output_modalities: z.array(z.string()),
@@ -61,7 +65,7 @@ export const openrouterProvider: ProviderDefinition = {
       return compactObject({
         id: model.id,
         name: model.name,
-        knowledge_cutoff: model.knowledge_cutoff ?? undefined,
+        knowledge_cutoff: timestampFromDateInput(model.knowledge_cutoff),
         release_date: timestampFromUnixSeconds(model.created),
         features: {
           attachment:

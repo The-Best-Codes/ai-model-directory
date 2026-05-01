@@ -15,15 +15,15 @@ const apiModelSchema = z.object({
   created: z.number(),
   metadata: z
     .object({
-      context_length: z.number().optional(),
-      max_tokens: z.number().optional(),
+      context_length: z.number().nullish(),
+      max_tokens: z.number().nullish(),
       pricing: z
         .object({
-          input_tokens: z.number().optional(),
-          output_tokens: z.number().optional(),
-          cache_read_tokens: z.number().optional(),
+          input_tokens: z.number().nullish(),
+          output_tokens: z.number().nullish(),
+          cache_read_tokens: z.number().nullish(),
         })
-        .optional(),
+        .nullish(),
       tags: z.array(z.string()).optional(),
     })
     .nullable()
