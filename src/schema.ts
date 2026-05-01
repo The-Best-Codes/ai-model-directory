@@ -99,3 +99,22 @@ export const modelOverrideSchema = z
 
 export type ModelRecord = z.infer<typeof modelSchema>;
 export type ModelOverride = z.infer<typeof modelOverrideSchema>;
+
+// For build-all.ts
+export const providerInfoSchema = z
+  .object({
+    name: z.string().min(1),
+    website: z.string().min(1).optional(),
+    apiBaseUrl: z.string().min(1).optional(),
+    aiSdk: z
+      .object({
+        npmPackage: z.string().min(1).optional(),
+        defaultApiKeyEnv: z.array(z.string().min(1)).optional(),
+      })
+      .strict()
+      .optional(),
+  })
+  .strict();
+
+export type ProviderInfo = z.infer<typeof providerInfoSchema>;
+// End for build-all.ts
