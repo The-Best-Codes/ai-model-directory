@@ -10,8 +10,8 @@ tool_call = true
 structured_output = true
 
 [pricing]
-input = 0.049999999999999996
-output = 0.39999999999999997
+input = 0.05
+output = 0.4
 cache_read = 0.01
 
 [limit]

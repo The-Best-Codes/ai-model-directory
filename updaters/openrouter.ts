@@ -1,3 +1,5 @@
+import Decimal from "decimal.js";
+
 export const outputDirectory = "data/providers/openrouter/models";
 
 // Intermediate format
@@ -74,8 +76,11 @@ type ApiResponse = {
 // Conversion helpers
 function pricePerMillion(raw: string | undefined): number | undefined {
   if (raw === undefined) return undefined;
-  const n = Number(raw);
-  return Number.isFinite(n) ? n * 1_000_000 : undefined;
+  try {
+    return new Decimal(raw).mul(1_000_000).toNumber();
+  } catch {
+    return undefined;
+  }
 }
 
 function isoDate(unixSeconds: number): string {
@@ -104,7 +109,7 @@ function convert(model: ApiModel): ProviderModel {
     release_date: isoDate(model.created),
 
     features: compact({
-      attachment: inputMods.some((m) => m !== "text") || undefined,
+      attachment: inputMods.includes("file") || undefined,
       reasoning:
         hasParam(
           params,

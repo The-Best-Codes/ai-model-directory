@@ -10,7 +10,7 @@ temperature = true
 
 [pricing]
 input = 0.06
-output = 0.39999999999999997
+output = 0.4
 cache_read = 0.01
 
 [limit]

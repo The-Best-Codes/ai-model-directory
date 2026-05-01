@@ -10,9 +10,9 @@ structured_output = true
 temperature = true
 
 [pricing]
-input = 0.19999999999999998
+input = 0.2
 output = 0.5
-cache_read = 0.049999999999999996
+cache_read = 0.05
 
 [limit]
 context = 2000000

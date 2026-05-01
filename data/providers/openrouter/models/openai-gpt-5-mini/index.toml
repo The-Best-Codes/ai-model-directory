@@ -12,7 +12,7 @@ structured_output = true
 [pricing]
 input = 0.25
 output = 2
-cache_read = 0.024999999999999998
+cache_read = 0.025
 
 [limit]
 context = 400000

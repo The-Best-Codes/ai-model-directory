@@ -13,7 +13,7 @@ temperature = true
 input = 0.25
 output = 1.5
 reasoning = 1.5
-cache_read = 0.024999999999999998
+cache_read = 0.025
 cache_write = 0.08333333333333334
 input_audio = 0.5
 

@@ -11,9 +11,9 @@ structured_output = true
 temperature = true
 
 [pricing]
-input = 0.09999999999999999
-output = 0.39999999999999997
-reasoning = 0.39999999999999997
+input = 0.1
+output = 0.4
+reasoning = 0.4
 cache_read = 0.01
 cache_write = 0.08333333333333334
 input_audio = 0.3
