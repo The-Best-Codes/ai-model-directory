@@ -1,0 +1,14 @@
+id = "BAAI/bge-large-zh-v1.5"
+name = "BAAI/bge-large-zh-v1.5"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.034
+output = 0.034

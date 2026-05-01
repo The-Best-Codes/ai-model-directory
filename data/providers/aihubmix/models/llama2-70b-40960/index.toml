@@ -1,0 +1,6 @@
+id = "llama2-70b-40960"
+name = "llama2-70b-40960"
+
+[pricing]
+input = 0.5
+output = 0.5

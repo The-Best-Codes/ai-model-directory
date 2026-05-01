@@ -1,0 +1,6 @@
+id = "deepseek-ai/deepseek-llm-67b-chat"
+name = "deepseek-ai/deepseek-llm-67b-chat"
+
+[pricing]
+input = 0.16
+output = 0.16

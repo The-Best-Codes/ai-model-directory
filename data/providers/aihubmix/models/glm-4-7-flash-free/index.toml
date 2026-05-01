@@ -1,0 +1,14 @@
+id = "glm-4.7-flash-free"
+name = "glm-4.7-flash-free"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

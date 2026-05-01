@@ -1,0 +1,10 @@
+id = "Qwen/QwQ-32B"
+name = "Qwen/QwQ-32B"
+
+[features]
+structured_output = true
+tool_call = true
+
+[pricing]
+input = 0.14
+output = 0.56

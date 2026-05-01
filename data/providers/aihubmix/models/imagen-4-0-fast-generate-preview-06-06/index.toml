@@ -1,0 +1,8 @@
+id = "imagen-4.0-fast-generate-preview-06-06"
+name = "imagen-4.0-fast-generate-preview-06-06"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

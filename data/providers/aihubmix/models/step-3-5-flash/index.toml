@@ -1,0 +1,15 @@
+id = "step-3.5-flash"
+name = "step-3.5-flash"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.1
+output = 0.3

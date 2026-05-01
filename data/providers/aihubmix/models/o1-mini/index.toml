@@ -1,0 +1,7 @@
+id = "o1-mini"
+name = "o1-mini"
+
+[pricing]
+cache_read = 1.5
+input = 3
+output = 12

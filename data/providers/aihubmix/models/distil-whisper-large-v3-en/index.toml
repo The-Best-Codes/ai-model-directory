@@ -1,0 +1,12 @@
+id = "distil-whisper-large-v3-en"
+name = "distil-whisper-large-v3-en"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+input = 5.556
+output = 5.556

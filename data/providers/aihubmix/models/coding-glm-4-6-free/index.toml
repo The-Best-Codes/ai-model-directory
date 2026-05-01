@@ -1,0 +1,17 @@
+id = "coding-glm-4.6-free"
+name = "coding-glm-4.6-free"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

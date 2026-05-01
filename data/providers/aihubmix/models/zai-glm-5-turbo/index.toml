@@ -1,0 +1,7 @@
+id = "zai-glm-5-turbo"
+name = "zai-glm-5-turbo"
+
+[pricing]
+cache_read = 0.24
+input = 1.2
+output = 3.9996

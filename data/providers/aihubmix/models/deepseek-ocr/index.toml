@@ -1,0 +1,15 @@
+id = "DeepSeek-OCR"
+name = "DeepSeek-OCR"
+
+[features]
+attachment = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.02
+output = 0.02

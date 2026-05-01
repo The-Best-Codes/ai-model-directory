@@ -1,0 +1,15 @@
+id = "jina-reranker-v3"
+name = "jina-reranker-v3"
+
+[features]
+attachment = true
+
+[limit]
+context = 131000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

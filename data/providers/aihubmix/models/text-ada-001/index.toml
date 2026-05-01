@@ -1,0 +1,6 @@
+id = "text-ada-001"
+name = "text-ada-001"
+
+[pricing]
+input = 0.4
+output = 0.4

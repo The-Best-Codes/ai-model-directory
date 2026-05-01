@@ -1,0 +1,13 @@
+id = "codex-mini-latest"
+name = "codex-mini-latest"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.375
+input = 1.5
+output = 6

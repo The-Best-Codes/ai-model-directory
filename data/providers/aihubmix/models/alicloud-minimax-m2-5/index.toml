@@ -1,0 +1,7 @@
+id = "alicloud-minimax-m2.5"
+name = "alicloud-minimax-m2.5"
+
+[pricing]
+cache_read = 0.05752
+input = 0.2876
+output = 1.1504

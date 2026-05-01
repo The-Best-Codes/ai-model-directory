@@ -1,0 +1,6 @@
+id = "groq-llama-4-scout-17b-16e-instruct"
+name = "groq-llama-4-scout-17b-16e-instruct"
+
+[pricing]
+input = 0.122
+output = 0.366

@@ -1,0 +1,6 @@
+id = "Doubao-lite-32k"
+name = "Doubao-lite-32k"
+
+[pricing]
+input = 0.06
+output = 0.12

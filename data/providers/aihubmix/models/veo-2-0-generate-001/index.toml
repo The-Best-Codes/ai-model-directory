@@ -1,0 +1,8 @@
+id = "veo-2.0-generate-001"
+name = "veo-2.0-generate-001"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]

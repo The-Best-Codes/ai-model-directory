@@ -1,0 +1,6 @@
+id = "google-gemma-3-12b-it"
+name = "google-gemma-3-12b-it"
+
+[pricing]
+input = 0.2
+output = 0.2

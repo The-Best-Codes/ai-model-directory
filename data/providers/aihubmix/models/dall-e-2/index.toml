@@ -1,0 +1,8 @@
+id = "dall-e-2"
+name = "dall-e-2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

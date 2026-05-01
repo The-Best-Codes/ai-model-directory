@@ -1,0 +1,12 @@
+id = "BAAI/bge-reranker-v2-m3"
+name = "BAAI/bge-reranker-v2-m3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.034
+output = 0.034

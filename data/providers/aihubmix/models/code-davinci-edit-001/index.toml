@@ -1,0 +1,6 @@
+id = "code-davinci-edit-001"
+name = "code-davinci-edit-001"
+
+[pricing]
+input = 20
+output = 20

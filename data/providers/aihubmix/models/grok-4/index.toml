@@ -1,0 +1,19 @@
+id = "grok-4"
+name = "grok-4"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.825
+input = 3.3
+output = 16.5

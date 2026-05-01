@@ -1,0 +1,9 @@
+id = "jina-colbert-v2"
+name = "jina-colbert-v2"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

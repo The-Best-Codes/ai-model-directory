@@ -1,0 +1,7 @@
+id = "cc-kimi-dev-72b"
+name = "cc-kimi-dev-72b"
+
+[pricing]
+cache_read = 0
+input = 0.32
+output = 1.28

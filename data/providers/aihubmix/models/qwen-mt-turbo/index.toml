@@ -1,0 +1,12 @@
+id = "qwen-mt-turbo"
+name = "qwen-mt-turbo"
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.192
+output = 0.534912

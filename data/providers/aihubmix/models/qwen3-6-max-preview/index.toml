@@ -1,0 +1,19 @@
+id = "qwen3.6-max-preview"
+name = "qwen3.6-max-preview"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 240000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.1268
+input = 1.268
+output = 7.608

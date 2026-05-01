@@ -1,0 +1,9 @@
+id = "gemini-3-pro-image-preview"
+name = "gemini-3-pro-image-preview"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text" ]

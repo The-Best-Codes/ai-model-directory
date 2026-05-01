@@ -1,0 +1,6 @@
+id = "llama-3.1-sonar-huge-128k-online"
+name = "llama-3.1-sonar-huge-128k-online"
+
+[pricing]
+input = 5.6
+output = 5.6

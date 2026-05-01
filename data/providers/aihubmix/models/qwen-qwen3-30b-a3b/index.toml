@@ -1,0 +1,6 @@
+id = "Qwen/Qwen3-30B-A3B"
+name = "Qwen/Qwen3-30B-A3B"
+
+[pricing]
+input = 1
+output = 1

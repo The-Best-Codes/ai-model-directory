@@ -1,0 +1,15 @@
+id = "claude-3-5-sonnet-20240620"
+name = "claude-3-5-sonnet-20240620"
+
+[features]
+attachment = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 3.3
+output = 16.5

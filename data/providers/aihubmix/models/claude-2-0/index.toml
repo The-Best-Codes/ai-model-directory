@@ -1,0 +1,6 @@
+id = "claude-2.0"
+name = "claude-2.0"
+
+[pricing]
+input = 8.8
+output = 39.6

@@ -1,0 +1,6 @@
+id = "claude-instant-1"
+name = "claude-instant-1"
+
+[pricing]
+input = 1.793
+output = 1.793

@@ -1,0 +1,6 @@
+id = "ahm-Phi-3-5-MoE-instruct"
+name = "ahm-Phi-3-5-MoE-instruct"
+
+[pricing]
+input = 0.4
+output = 1.6

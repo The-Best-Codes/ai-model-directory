@@ -1,0 +1,12 @@
+id = "claude-3-haiku-20240307"
+name = "claude-3-haiku-20240307"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.275
+output = 1.375

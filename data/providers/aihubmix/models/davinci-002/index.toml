@@ -1,0 +1,6 @@
+id = "davinci-002"
+name = "davinci-002"
+
+[pricing]
+input = 2
+output = 2

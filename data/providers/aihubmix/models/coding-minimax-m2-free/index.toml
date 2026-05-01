@@ -1,0 +1,17 @@
+id = "coding-minimax-m2-free"
+name = "coding-minimax-m2-free"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

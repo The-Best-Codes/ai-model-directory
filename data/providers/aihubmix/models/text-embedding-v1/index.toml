@@ -1,0 +1,9 @@
+id = "text-embedding-v1"
+name = "text-embedding-v1"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

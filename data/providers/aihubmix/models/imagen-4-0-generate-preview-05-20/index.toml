@@ -1,0 +1,8 @@
+id = "imagen-4.0-generate-preview-05-20"
+name = "imagen-4.0-generate-preview-05-20"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

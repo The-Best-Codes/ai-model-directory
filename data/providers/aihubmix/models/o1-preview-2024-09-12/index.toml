@@ -1,0 +1,7 @@
+id = "o1-preview-2024-09-12"
+name = "o1-preview-2024-09-12"
+
+[pricing]
+cache_read = 7.5
+input = 15
+output = 60

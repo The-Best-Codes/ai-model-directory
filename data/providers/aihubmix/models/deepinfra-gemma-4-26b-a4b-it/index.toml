@@ -1,0 +1,10 @@
+id = "deepinfra-gemma-4-26b-a4b-it"
+name = "deepinfra-gemma-4-26b-a4b-it"
+
+[limit]
+context = 262100
+
+[pricing]
+cache_read = 0.011
+input = 0.088
+output = 0.385

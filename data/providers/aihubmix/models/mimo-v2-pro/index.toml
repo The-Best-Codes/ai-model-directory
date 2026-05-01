@@ -1,0 +1,16 @@
+id = "mimo-v2-pro"
+name = "mimo-v2-pro"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.22
+input = 1.1
+output = 3.3

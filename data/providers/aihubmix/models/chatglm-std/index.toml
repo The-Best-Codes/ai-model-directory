@@ -1,0 +1,6 @@
+id = "chatglm_std"
+name = "chatglm_std"
+
+[pricing]
+input = 0.7144
+output = 0.7144

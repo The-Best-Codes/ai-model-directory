@@ -1,0 +1,5 @@
+id = "happyhorse-1.0-video-edit"
+name = "happyhorse-1.0-video-edit"
+
+[modalities]
+input = [ "text" ]

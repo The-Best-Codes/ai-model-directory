@@ -1,0 +1,8 @@
+id = "V_2A_TURBO"
+name = "V_2A_TURBO"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

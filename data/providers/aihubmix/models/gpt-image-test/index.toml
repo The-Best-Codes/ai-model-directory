@@ -1,0 +1,7 @@
+id = "gpt-image-test"
+name = "gpt-image-test"
+
+[pricing]
+cache_read = 0
+input = 5
+output = 40

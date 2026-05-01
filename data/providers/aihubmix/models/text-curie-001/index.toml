@@ -1,0 +1,6 @@
+id = "text-curie-001"
+name = "text-curie-001"
+
+[pricing]
+input = 2
+output = 2

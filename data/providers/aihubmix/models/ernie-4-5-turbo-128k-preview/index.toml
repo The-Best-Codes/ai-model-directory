@@ -1,0 +1,14 @@
+id = "ernie-4.5-turbo-128k-preview"
+name = "ernie-4.5-turbo-128k-preview"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.108
+output = 0.432

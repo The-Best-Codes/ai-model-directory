@@ -1,0 +1,19 @@
+id = "claude-sonnet-4-6-think"
+name = "claude-sonnet-4-6-think"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 3
+output = 15

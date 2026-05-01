@@ -1,0 +1,16 @@
+id = "ernie-5.0-thinking-exp"
+name = "ernie-5.0-thinking-exp"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 119000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.82192
+output = 3.28768

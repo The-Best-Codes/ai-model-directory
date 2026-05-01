@@ -1,0 +1,12 @@
+id = "gpt-4o-mini-tts"
+name = "gpt-4o-mini-tts"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+input = 0.6
+output = 12

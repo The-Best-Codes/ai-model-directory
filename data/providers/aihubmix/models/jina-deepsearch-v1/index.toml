@@ -1,0 +1,16 @@
+id = "jina-deepsearch-v1"
+name = "jina-deepsearch-v1"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

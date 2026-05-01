@@ -1,0 +1,15 @@
+id = "embed-v-4-0"
+name = "embed-v-4-0"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.12
+output = 0.12

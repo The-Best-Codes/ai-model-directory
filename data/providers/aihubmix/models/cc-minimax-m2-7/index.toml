@@ -1,0 +1,13 @@
+id = "cc-minimax-m2.7"
+name = "cc-minimax-m2.7"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

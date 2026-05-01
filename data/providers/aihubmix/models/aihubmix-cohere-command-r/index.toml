@@ -1,0 +1,9 @@
+id = "aihubmix-Cohere-command-r"
+name = "aihubmix-Cohere-command-r"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.64
+output = 1.92

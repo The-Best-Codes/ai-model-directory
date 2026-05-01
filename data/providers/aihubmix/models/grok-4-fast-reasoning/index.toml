@@ -1,0 +1,19 @@
+id = "grok-4-fast-reasoning"
+name = "grok-4-fast-reasoning"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.2
+output = 0.5

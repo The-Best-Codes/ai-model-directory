@@ -1,0 +1,12 @@
+id = "grok-vision-beta"
+name = "grok-vision-beta"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 5.6
+output = 16.8

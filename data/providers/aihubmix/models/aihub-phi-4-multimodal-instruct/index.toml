@@ -1,0 +1,15 @@
+id = "aihub-Phi-4-multimodal-instruct"
+name = "aihub-Phi-4-multimodal-instruct"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "audio", "image", "text" ]
+
+[pricing]
+input = 0.12
+output = 0.48

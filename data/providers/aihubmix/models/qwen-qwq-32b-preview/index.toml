@@ -1,0 +1,6 @@
+id = "Qwen/QwQ-32B-Preview"
+name = "Qwen/QwQ-32B-Preview"
+
+[pricing]
+input = 0.16
+output = 0.16

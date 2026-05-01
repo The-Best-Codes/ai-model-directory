@@ -1,0 +1,6 @@
+id = "aihubmix-Llama-3-2-11B-Vision"
+name = "aihubmix-Llama-3-2-11B-Vision"
+
+[pricing]
+input = 0.4
+output = 0.4

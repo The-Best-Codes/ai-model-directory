@@ -1,0 +1,6 @@
+id = "chutesai/Mistral-Small-3.1-24B-Instruct-2503"
+name = "chutesai/Mistral-Small-3.1-24B-Instruct-2503"
+
+[pricing]
+input = 0.2
+output = 0.8

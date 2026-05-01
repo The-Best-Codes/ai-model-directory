@@ -1,0 +1,6 @@
+id = "Baichuan4"
+name = "Baichuan4"
+
+[pricing]
+input = 16
+output = 16

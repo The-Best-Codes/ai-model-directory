@@ -1,0 +1,6 @@
+id = "deepseek-r1-distill-qianfan-llama-8b"
+name = "deepseek-r1-distill-qianfan-llama-8b"
+
+[pricing]
+input = 0.137
+output = 0.548

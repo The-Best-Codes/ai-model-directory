@@ -1,0 +1,6 @@
+id = "Doubao-1.5-vision-pro-32k"
+name = "Doubao-1.5-vision-pro-32k"
+
+[pricing]
+input = 0.46
+output = 1.38

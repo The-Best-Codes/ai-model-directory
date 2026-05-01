@@ -1,0 +1,6 @@
+id = "qwen2.5-coder-7b-instruct"
+name = "qwen2.5-coder-7b-instruct"
+
+[pricing]
+input = 0.2
+output = 0.4

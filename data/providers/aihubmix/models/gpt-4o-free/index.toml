@@ -1,0 +1,18 @@
+id = "gpt-4o-free"
+name = "gpt-4o-free"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1047576
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

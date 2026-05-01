@@ -1,0 +1,12 @@
+id = "Qwen2-VL-7B-Instruct"
+name = "Qwen2-VL-7B-Instruct"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.28
+output = 0.7

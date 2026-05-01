@@ -1,0 +1,7 @@
+id = "gpt-4o-mini-global"
+name = "gpt-4o-mini-global"
+
+[pricing]
+cache_read = 0.075
+input = 0.15
+output = 0.6

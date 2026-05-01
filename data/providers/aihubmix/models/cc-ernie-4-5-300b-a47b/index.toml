@@ -1,0 +1,15 @@
+id = "cc-ernie-4.5-300b-a47b"
+name = "cc-ernie-4.5-300b-a47b"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.32
+output = 1.28

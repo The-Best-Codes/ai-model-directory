@@ -1,0 +1,6 @@
+id = "Doubao-1.5-pro-256k"
+name = "Doubao-1.5-pro-256k"
+
+[pricing]
+input = 0.8
+output = 1.44

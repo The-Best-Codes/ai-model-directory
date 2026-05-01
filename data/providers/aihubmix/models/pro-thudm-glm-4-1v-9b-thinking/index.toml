@@ -1,0 +1,7 @@
+id = "Pro/THUDM/GLM-4.1V-9B-Thinking"
+name = "Pro/THUDM/GLM-4.1V-9B-Thinking"
+
+[pricing]
+cache_read = 0
+input = 0.04
+output = 0.16

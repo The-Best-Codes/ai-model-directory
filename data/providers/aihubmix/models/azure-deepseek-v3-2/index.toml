@@ -1,0 +1,6 @@
+id = "azure-deepseek-v3.2"
+name = "azure-deepseek-v3.2"
+
+[pricing]
+input = 0.58
+output = 1.680028

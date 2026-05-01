@@ -1,0 +1,6 @@
+id = "gemini-pro-vision"
+name = "gemini-pro-vision"
+
+[pricing]
+input = 1
+output = 1

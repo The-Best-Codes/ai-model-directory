@@ -1,0 +1,6 @@
+id = "AiHubmix-mistral-medium"
+name = "AiHubmix-mistral-medium"
+
+[pricing]
+input = 0.4
+output = 2

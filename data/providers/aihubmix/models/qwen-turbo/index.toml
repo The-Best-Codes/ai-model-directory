@@ -1,0 +1,10 @@
+id = "qwen-turbo"
+name = "qwen-turbo"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.0092
+input = 0.046
+output = 0.092

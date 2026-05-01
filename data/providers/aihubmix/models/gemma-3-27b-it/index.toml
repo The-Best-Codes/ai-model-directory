@@ -1,0 +1,7 @@
+id = "gemma-3-27b-it"
+name = "gemma-3-27b-it"
+
+[pricing]
+cache_read = 0
+input = 0.2
+output = 0.2

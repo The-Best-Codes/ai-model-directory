@@ -1,0 +1,6 @@
+id = "llama3-groq-70b-8192-tool-use-preview"
+name = "llama3-groq-70b-8192-tool-use-preview"
+
+[pricing]
+input = 0.00089
+output = 0.00089

@@ -1,0 +1,17 @@
+id = "o3-mini"
+name = "o3-mini"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.55
+input = 1.1
+output = 4.4

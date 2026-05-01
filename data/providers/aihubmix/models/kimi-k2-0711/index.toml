@@ -1,0 +1,16 @@
+id = "kimi-k2-0711"
+name = "kimi-k2-0711"
+
+[features]
+structured_output = true
+tool_call = true
+
+[limit]
+context = 131000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.54
+output = 2.16

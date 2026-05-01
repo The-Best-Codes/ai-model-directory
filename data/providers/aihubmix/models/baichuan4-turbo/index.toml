@@ -1,0 +1,6 @@
+id = "Baichuan4-Turbo"
+name = "Baichuan4-Turbo"
+
+[pricing]
+input = 2.4
+output = 2.4

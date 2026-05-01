@@ -1,0 +1,6 @@
+id = "meta-llama/llama-3.2-11b-vision-instruct:free"
+name = "meta-llama/llama-3.2-11b-vision-instruct:free"
+
+[pricing]
+input = 0.02
+output = 0.02

@@ -1,0 +1,19 @@
+id = "qwen3.6-flash"
+name = "qwen3.6-flash"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 991000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.0169
+input = 0.169
+output = 1.014

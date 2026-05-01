@@ -1,0 +1,6 @@
+id = "yi-large"
+name = "yi-large"
+
+[pricing]
+input = 3
+output = 3

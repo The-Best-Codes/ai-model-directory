@@ -1,0 +1,16 @@
+id = "qwen3-coder-next"
+name = "qwen3-coder-next"
+
+[features]
+structured_output = true
+tool_call = true
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.137
+output = 0.548

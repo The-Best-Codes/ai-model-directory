@@ -1,0 +1,10 @@
+id = "jina-embeddings-v3"
+name = "jina-embeddings-v3"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.05
+output = 0.05

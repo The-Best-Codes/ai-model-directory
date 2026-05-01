@@ -1,0 +1,12 @@
+id = "gemini-embedding-2-preview"
+name = "gemini-embedding-2-preview"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.2
+output = 0.2

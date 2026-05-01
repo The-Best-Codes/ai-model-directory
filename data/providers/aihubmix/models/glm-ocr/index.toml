@@ -1,0 +1,15 @@
+id = "glm-ocr"
+name = "glm-ocr"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image" ]
+
+[pricing]
+input = 0.0282
+output = 0.0282

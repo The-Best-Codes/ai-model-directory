@@ -1,0 +1,15 @@
+id = "glm-4.5v"
+name = "glm-4.5v"
+
+[features]
+attachment = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.274
+output = 0.822

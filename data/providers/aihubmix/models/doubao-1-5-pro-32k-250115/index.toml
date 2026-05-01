@@ -1,0 +1,6 @@
+id = "doubao-1-5-pro-32k-250115"
+name = "doubao-1-5-pro-32k-250115"
+
+[pricing]
+input = 0.108
+output = 0.27

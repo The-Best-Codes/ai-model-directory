@@ -1,0 +1,14 @@
+id = "o1-preview"
+name = "o1-preview"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 7.5
+input = 15
+output = 60

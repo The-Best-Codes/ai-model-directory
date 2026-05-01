@@ -1,0 +1,9 @@
+id = "MiniMax-Text-01"
+name = "MiniMax-Text-01"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 1.12

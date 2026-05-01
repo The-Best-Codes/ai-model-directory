@@ -1,0 +1,13 @@
+id = "Qwen/Qwen2.5-VL-72B-Instruct"
+name = "Qwen/Qwen2.5-VL-72B-Instruct"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0
+input = 0.5
+output = 0.5

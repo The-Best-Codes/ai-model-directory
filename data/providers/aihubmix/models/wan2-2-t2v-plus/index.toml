@@ -1,0 +1,5 @@
+id = "wan2.2-t2v-plus"
+name = "wan2.2-t2v-plus"
+
+[modalities]
+input = [ "text" ]

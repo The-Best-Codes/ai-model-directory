@@ -1,0 +1,6 @@
+id = "gemini-exp-1206"
+name = "gemini-exp-1206"
+
+[pricing]
+input = 1.25
+output = 5

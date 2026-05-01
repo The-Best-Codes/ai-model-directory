@@ -1,0 +1,12 @@
+id = "gemini-2.0-flash-exp"
+name = "gemini-2.0-flash-exp"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.02
+output = 0.08

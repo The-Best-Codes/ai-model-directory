@@ -1,0 +1,14 @@
+id = "inclusionAI/Ring-flash-2.0"
+name = "inclusionAI/Ring-flash-2.0"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.136
+output = 0.544

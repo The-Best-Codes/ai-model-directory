@@ -1,0 +1,12 @@
+id = "aihub-Phi-4"
+name = "aihub-Phi-4"
+
+[limit]
+context = 16400
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.12
+output = 0.48

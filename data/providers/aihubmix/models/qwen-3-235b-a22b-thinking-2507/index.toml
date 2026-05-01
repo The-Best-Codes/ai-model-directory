@@ -1,0 +1,6 @@
+id = "qwen-3-235b-a22b-thinking-2507"
+name = "qwen-3-235b-a22b-thinking-2507"
+
+[pricing]
+input = 0.28
+output = 2.8

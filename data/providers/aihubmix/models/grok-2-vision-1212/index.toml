@@ -1,0 +1,12 @@
+id = "grok-2-vision-1212"
+name = "grok-2-vision-1212"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 1.8
+output = 9

@@ -1,0 +1,12 @@
+id = "ahm-Phi-3-5-vision-instruct"
+name = "ahm-Phi-3-5-vision-instruct"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.4
+output = 1.6

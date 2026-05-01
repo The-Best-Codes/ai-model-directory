@@ -1,0 +1,12 @@
+id = "gpt-4o-mini-audio-preview"
+name = "gpt-4o-mini-audio-preview"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

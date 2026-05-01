@@ -1,0 +1,7 @@
+id = "o3-global"
+name = "o3-global"
+
+[pricing]
+cache_read = 0.5
+input = 2
+output = 8

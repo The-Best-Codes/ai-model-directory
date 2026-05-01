@@ -1,0 +1,15 @@
+id = "step-3.5-flash-free"
+name = "step-3.5-flash-free"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

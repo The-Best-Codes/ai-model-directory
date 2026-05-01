@@ -1,0 +1,6 @@
+id = "ahm-Phi-3-medium-4k"
+name = "ahm-Phi-3-medium-4k"
+
+[pricing]
+input = 1
+output = 3

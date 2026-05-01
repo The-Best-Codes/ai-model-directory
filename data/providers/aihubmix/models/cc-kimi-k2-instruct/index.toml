@@ -1,0 +1,13 @@
+id = "cc-kimi-k2-instruct"
+name = "cc-kimi-k2-instruct"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 1.1
+output = 3.3

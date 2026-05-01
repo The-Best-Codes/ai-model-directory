@@ -1,0 +1,6 @@
+id = "deepseek-ai/DeepSeek-Prover-V2-671B"
+name = "deepseek-ai/DeepSeek-Prover-V2-671B"
+
+[pricing]
+input = 0.1
+output = 0.1

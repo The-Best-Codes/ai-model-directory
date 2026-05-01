@@ -1,0 +1,9 @@
+id = "doubao-embedding-large-text-240915"
+name = "doubao-embedding-large-text-240915"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

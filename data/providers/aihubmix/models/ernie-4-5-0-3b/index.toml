@@ -1,0 +1,14 @@
+id = "ernie-4.5-0.3b"
+name = "ernie-4.5-0.3b"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.0136
+output = 0.0544

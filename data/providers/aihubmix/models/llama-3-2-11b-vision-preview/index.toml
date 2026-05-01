@@ -1,0 +1,6 @@
+id = "llama-3.2-11b-vision-preview"
+name = "llama-3.2-11b-vision-preview"
+
+[pricing]
+input = 0.2
+output = 0.2

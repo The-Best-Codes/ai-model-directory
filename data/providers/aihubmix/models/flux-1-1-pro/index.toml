@@ -1,0 +1,8 @@
+id = "FLUX-1.1-pro"
+name = "FLUX-1.1-pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

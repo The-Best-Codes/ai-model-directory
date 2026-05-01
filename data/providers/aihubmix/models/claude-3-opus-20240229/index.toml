@@ -1,0 +1,6 @@
+id = "claude-3-opus-20240229"
+name = "claude-3-opus-20240229"
+
+[pricing]
+input = 16.5
+output = 82.5

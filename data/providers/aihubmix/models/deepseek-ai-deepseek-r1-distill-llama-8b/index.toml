@@ -1,0 +1,6 @@
+id = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+name = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+
+[pricing]
+input = 0.01
+output = 0.01

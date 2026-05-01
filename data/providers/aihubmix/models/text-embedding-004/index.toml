@@ -1,0 +1,6 @@
+id = "text-embedding-004"
+name = "text-embedding-004"
+
+[pricing]
+input = 0.02
+output = 0.02

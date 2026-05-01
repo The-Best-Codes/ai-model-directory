@@ -1,0 +1,12 @@
+id = "gemini-2.0-flash-lite"
+name = "gemini-2.0-flash-lite"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.076
+output = 0.304

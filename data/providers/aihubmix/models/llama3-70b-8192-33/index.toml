@@ -1,0 +1,6 @@
+id = "llama3-70b-8192(33)"
+name = "llama3-70b-8192(33)"
+
+[pricing]
+input = 2.65
+output = 2.65

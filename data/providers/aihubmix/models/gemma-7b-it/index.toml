@@ -1,0 +1,6 @@
+id = "gemma-7b-it"
+name = "gemma-7b-it"
+
+[pricing]
+input = 0.1
+output = 0.1

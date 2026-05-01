@@ -1,0 +1,12 @@
+id = "o1-pro"
+name = "o1-pro"
+
+[features]
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 170
+output = 680

@@ -1,0 +1,6 @@
+id = "omni-moderation-latest"
+name = "omni-moderation-latest"
+
+[pricing]
+input = 0.02
+output = 0.02

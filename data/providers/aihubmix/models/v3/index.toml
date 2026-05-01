@@ -1,0 +1,8 @@
+id = "V3"
+name = "V3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

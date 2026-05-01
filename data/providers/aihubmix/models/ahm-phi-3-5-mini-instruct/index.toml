@@ -1,0 +1,6 @@
+id = "ahm-Phi-3-5-mini-instruct"
+name = "ahm-Phi-3-5-mini-instruct"
+
+[pricing]
+input = 1
+output = 3

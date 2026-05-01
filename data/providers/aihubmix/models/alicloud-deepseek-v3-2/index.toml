@@ -1,0 +1,7 @@
+id = "alicloud-deepseek-v3.2"
+name = "alicloud-deepseek-v3.2"
+
+[pricing]
+cache_read = 0.0548
+input = 0.274
+output = 0.411

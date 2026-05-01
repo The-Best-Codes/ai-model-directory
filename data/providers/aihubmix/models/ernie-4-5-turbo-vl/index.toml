@@ -1,0 +1,17 @@
+id = "ernie-4.5-turbo-vl"
+name = "ernie-4.5-turbo-vl"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 139000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.4
+output = 1.2

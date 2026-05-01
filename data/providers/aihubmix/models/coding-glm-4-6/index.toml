@@ -1,0 +1,15 @@
+id = "coding-glm-4.6"
+name = "coding-glm-4.6"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.010998
+input = 0.06
+output = 0.21999996

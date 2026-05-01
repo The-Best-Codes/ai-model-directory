@@ -1,0 +1,8 @@
+id = "UPSCALE"
+name = "UPSCALE"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

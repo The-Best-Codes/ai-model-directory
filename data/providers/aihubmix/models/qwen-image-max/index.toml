@@ -1,0 +1,8 @@
+id = "qwen-image-max"
+name = "qwen-image-max"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

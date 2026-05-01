@@ -1,0 +1,7 @@
+id = "alicloud-glm-5"
+name = "alicloud-glm-5"
+
+[pricing]
+cache_read = 0.11268
+input = 0.5634
+output = 2.5353

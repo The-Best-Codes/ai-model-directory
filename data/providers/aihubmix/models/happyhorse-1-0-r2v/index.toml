@@ -1,0 +1,5 @@
+id = "happyhorse-1.0-r2v"
+name = "happyhorse-1.0-r2v"
+
+[modalities]
+input = [ "text" ]

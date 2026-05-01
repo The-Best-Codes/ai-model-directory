@@ -1,0 +1,12 @@
+id = "cohere-rerank-v4.0-pro"
+name = "cohere-rerank-v4.0-pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.068
+output = 0.068

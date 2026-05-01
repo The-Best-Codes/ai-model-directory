@@ -1,0 +1,6 @@
+id = "cc-deepseek-v3"
+name = "cc-deepseek-v3"
+
+[pricing]
+input = 0.3
+output = 0.3

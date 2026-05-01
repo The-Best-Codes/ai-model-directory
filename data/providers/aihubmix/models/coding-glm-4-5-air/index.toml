@@ -1,0 +1,9 @@
+id = "coding-glm-4.5-air"
+name = "coding-glm-4.5-air"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.014
+output = 0.084

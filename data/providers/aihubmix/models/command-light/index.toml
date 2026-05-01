@@ -1,0 +1,6 @@
+id = "command-light"
+name = "command-light"
+
+[pricing]
+input = 1
+output = 2

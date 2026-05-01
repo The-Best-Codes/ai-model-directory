@@ -1,0 +1,6 @@
+id = "deepseek-ai/DeepSeek-R1-Zero"
+name = "deepseek-ai/DeepSeek-R1-Zero"
+
+[pricing]
+input = 2.2
+output = 2.2

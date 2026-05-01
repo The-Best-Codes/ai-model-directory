@@ -1,0 +1,9 @@
+id = "jina-embeddings-v2-base-code"
+name = "jina-embeddings-v2-base-code"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

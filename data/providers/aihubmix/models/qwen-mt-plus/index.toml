@@ -1,0 +1,12 @@
+id = "qwen-mt-plus"
+name = "qwen-mt-plus"
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.492
+output = 1.476

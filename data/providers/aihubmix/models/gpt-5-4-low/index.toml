@@ -1,0 +1,19 @@
+id = "gpt-5.4-low"
+name = "gpt-5.4-low"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 2.5
+output = 15

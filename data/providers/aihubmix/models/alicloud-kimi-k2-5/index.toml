@@ -1,0 +1,10 @@
+id = "alicloud-kimi-k2.5"
+name = "alicloud-kimi-k2.5"
+
+[limit]
+context = 256000
+
+[pricing]
+cache_read = 0.0959
+input = 0.548
+output = 2.877

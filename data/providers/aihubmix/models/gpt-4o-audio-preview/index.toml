@@ -1,0 +1,15 @@
+id = "gpt-4o-audio-preview"
+name = "gpt-4o-audio-preview"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "audio", "text" ]
+
+[pricing]
+input = 2.5
+output = 10
