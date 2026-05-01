@@ -1,0 +1,7 @@
+name = "AIHubMix"
+website = "https://aihubmix.com/"
+apiBaseUrl = "https://api.aihubmix.com/v1"
+
+[aiSdk]
+npmPackage = "@aihubmix/ai-sdk-provider"
+defaultApiKeyEnv = ["AIHUBMIX_API_KEY"]
