@@ -1,6 +1,6 @@
 id = "Qwen/Qwen2.5-VL-32B-Instruct"
 name = "Qwen/Qwen2.5-VL-32B-Instruct"
-release_date = "1777665742"
+release_date = "1777666335"
 
 [features]
 attachment = true

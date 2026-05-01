@@ -2,7 +2,7 @@ import { z } from "zod";
 
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import { nonNegativeInteger, pricePerMillion } from "../lib/model.ts";
+import { integerGreaterThanZero, pricePerMillion } from "../lib/model.ts";
 import { filterModalities, hasAttachmentSource } from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
@@ -54,8 +54,8 @@ export const abacusProvider: ProviderDefinition = {
           cache_read: pricePerMillion(model.cached_input_token_rate),
         }),
         limit: compactObject({
-          context: nonNegativeInteger(model.context_length),
-          output: nonNegativeInteger(model.max_completion_tokens),
+          context: integerGreaterThanZero(model.context_length),
+          output: integerGreaterThanZero(model.max_completion_tokens),
         }),
         modalities: compactObject({ input, output }),
       });

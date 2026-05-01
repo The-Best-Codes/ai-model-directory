@@ -2,7 +2,10 @@ import { z } from "zod";
 
 import { fetchJson } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import { nonNegativeInteger, timestampFromDateInput } from "../lib/model.ts";
+import {
+  integerGreaterThanZero,
+  timestampFromDateInput,
+} from "../lib/model.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const capabilitySchema = z.object({ supported: z.boolean() });
@@ -88,8 +91,8 @@ export const anthropicProvider: ProviderDefinition = {
             model.capabilities.structured_outputs?.supported === true,
         },
         limit: compactObject({
-          context: nonNegativeInteger(model.max_input_tokens),
-          output: nonNegativeInteger(model.max_tokens),
+          context: integerGreaterThanZero(model.max_input_tokens),
+          output: integerGreaterThanZero(model.max_tokens),
         }),
         modalities: {
           input: [

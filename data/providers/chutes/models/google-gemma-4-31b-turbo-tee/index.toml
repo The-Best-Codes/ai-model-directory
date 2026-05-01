@@ -1,6 +1,6 @@
 id = "google/gemma-4-31B-turbo-TEE"
 name = "google/gemma-4-31B-turbo-TEE"
-release_date = "1777665741"
+release_date = "1777666335"
 
 [features]
 attachment = true

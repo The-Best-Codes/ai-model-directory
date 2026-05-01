@@ -3,7 +3,7 @@ import { z } from "zod";
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import {
-  nonNegativeInteger,
+  integerGreaterThanZero,
   nonNegativeNumber,
   timestampFromUnixSeconds,
 } from "../lib/model.ts";
@@ -75,8 +75,8 @@ export const deepinfraProvider: ProviderDefinition = {
           ),
         }),
         limit: compactObject({
-          context: nonNegativeInteger(model.metadata?.context_length),
-          output: nonNegativeInteger(model.metadata?.max_tokens),
+          context: integerGreaterThanZero(model.metadata?.context_length),
+          output: integerGreaterThanZero(model.metadata?.max_tokens),
         }),
       });
     });

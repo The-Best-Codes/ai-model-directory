@@ -3,7 +3,7 @@ import { z } from "zod";
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import {
-  nonNegativeInteger,
+  integerGreaterThanZero,
   pricePerMillion,
   timestampFromUnixSeconds,
 } from "../lib/model.ts";
@@ -87,8 +87,8 @@ export const inceptionProvider: ProviderDefinition = {
           cache_write: pricePerMillion(model.pricing?.input_cache_writes),
         }),
         limit: compactObject({
-          context: nonNegativeInteger(model.context_length),
-          output: nonNegativeInteger(model.max_output_length),
+          context: integerGreaterThanZero(model.context_length),
+          output: integerGreaterThanZero(model.max_output_length),
         }),
         modalities: compactObject({ input, output }),
       });

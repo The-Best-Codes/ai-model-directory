@@ -6,9 +6,6 @@ reasoning = false
 structured_output = false
 tool_call = false
 
-[limit]
-context = 0
-
 [pricing]
 input = 0.076
 output = 0.304
