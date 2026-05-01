@@ -1,0 +1,6 @@
+id = "google/gemini-exp-1114"
+name = "google/gemini-exp-1114"
+
+[pricing]
+input = 1.25
+output = 5

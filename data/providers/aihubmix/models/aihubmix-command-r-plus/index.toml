@@ -1,0 +1,9 @@
+id = "aihubmix-command-r-plus"
+name = "aihubmix-command-r-plus"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 3.84
+output = 19.2

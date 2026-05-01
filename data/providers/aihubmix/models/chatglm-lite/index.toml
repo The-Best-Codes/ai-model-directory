@@ -1,0 +1,6 @@
+id = "chatglm_lite"
+name = "chatglm_lite"
+
+[pricing]
+input = 0.2858
+output = 0.2858

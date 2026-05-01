@@ -1,0 +1,6 @@
+id = "qwen-flash"
+name = "qwen-flash"
+
+[pricing]
+input = 0.02
+output = 0.2

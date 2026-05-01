@@ -1,0 +1,6 @@
+id = "Baichuan4-Air"
+name = "Baichuan4-Air"
+
+[pricing]
+input = 0.16
+output = 0.16

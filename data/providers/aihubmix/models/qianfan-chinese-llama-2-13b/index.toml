@@ -1,0 +1,6 @@
+id = "qianfan-chinese-llama-2-13b"
+name = "qianfan-chinese-llama-2-13b"
+
+[pricing]
+input = 0.822
+output = 0.822

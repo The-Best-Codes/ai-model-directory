@@ -1,0 +1,7 @@
+id = "cc-kimi-for-coding"
+name = "cc-kimi-for-coding"
+
+[pricing]
+cache_read = 0.02
+input = 0.2
+output = 0.2

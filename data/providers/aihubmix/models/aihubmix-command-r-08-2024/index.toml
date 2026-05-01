@@ -1,0 +1,9 @@
+id = "aihubmix-command-r-08-2024"
+name = "aihubmix-command-r-08-2024"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.8

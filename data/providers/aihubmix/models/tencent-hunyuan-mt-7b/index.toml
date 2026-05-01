@@ -1,0 +1,6 @@
+id = "tencent/Hunyuan-MT-7B"
+name = "tencent/Hunyuan-MT-7B"
+
+[pricing]
+input = 0.2
+output = 0.2

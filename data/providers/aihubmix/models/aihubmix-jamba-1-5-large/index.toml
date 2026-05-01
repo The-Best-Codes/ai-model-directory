@@ -1,0 +1,6 @@
+id = "aihubmix-Jamba-1-5-Large"
+name = "aihubmix-Jamba-1-5-Large"
+
+[pricing]
+input = 2.2
+output = 8.8

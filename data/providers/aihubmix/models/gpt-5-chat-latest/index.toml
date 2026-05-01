@@ -1,0 +1,16 @@
+id = "gpt-5-chat-latest"
+name = "gpt-5-chat-latest"
+
+[features]
+attachment = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.125
+input = 1.25
+output = 10

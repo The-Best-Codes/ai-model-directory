@@ -1,0 +1,6 @@
+id = "qwen-plus-2025-07-28"
+name = "qwen-plus-2025-07-28"
+
+[pricing]
+input = 0.11
+output = 0.275

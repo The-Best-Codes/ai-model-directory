@@ -1,0 +1,16 @@
+id = "glm-5v-turbo"
+name = "glm-5v-turbo"
+
+[features]
+attachment = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.169008
+input = 0.7042
+output = 3.09848

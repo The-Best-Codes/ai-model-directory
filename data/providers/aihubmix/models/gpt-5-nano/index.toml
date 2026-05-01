@@ -1,0 +1,19 @@
+id = "gpt-5-nano"
+name = "gpt-5-nano"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.005
+input = 0.05
+output = 0.4

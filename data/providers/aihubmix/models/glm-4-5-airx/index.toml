@@ -1,0 +1,10 @@
+id = "glm-4.5-airx"
+name = "glm-4.5-airx"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.22
+input = 1.1
+output = 4.51

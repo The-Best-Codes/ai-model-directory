@@ -1,0 +1,7 @@
+id = "unsloth/gemma-3-12b-it"
+name = "unsloth/gemma-3-12b-it"
+
+[pricing]
+cache_read = 0
+input = 0.2
+output = 0.8

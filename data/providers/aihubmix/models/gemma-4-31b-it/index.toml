@@ -1,0 +1,10 @@
+id = "gemma-4-31b-it"
+name = "gemma-4-31b-it"
+
+[limit]
+context = 262100
+
+[pricing]
+cache_read = 0
+input = 0.14
+output = 0.39998

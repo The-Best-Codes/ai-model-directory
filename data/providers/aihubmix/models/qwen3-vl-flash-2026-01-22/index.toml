@@ -1,0 +1,17 @@
+id = "qwen3-vl-flash-2026-01-22"
+name = "qwen3-vl-flash-2026-01-22"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 254000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.0206
+output = 0.206

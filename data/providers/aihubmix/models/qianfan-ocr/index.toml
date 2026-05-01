@@ -1,0 +1,15 @@
+id = "qianfan-ocr"
+name = "qianfan-ocr"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.062
+output = 0.248

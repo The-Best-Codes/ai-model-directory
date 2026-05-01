@@ -1,0 +1,14 @@
+id = "coding-glm-5-turbo-free"
+name = "coding-glm-5-turbo-free"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

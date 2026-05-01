@@ -1,0 +1,6 @@
+id = "qwen-max"
+name = "qwen-max"
+
+[pricing]
+input = 0.38
+output = 1.52

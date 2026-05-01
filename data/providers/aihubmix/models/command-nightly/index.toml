@@ -1,0 +1,6 @@
+id = "command-nightly"
+name = "command-nightly"
+
+[pricing]
+input = 1
+output = 2

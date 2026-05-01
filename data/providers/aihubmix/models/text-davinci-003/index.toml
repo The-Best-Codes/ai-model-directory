@@ -1,0 +1,6 @@
+id = "text-davinci-003"
+name = "text-davinci-003"
+
+[pricing]
+input = 20
+output = 20

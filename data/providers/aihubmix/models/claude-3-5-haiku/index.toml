@@ -1,0 +1,17 @@
+id = "claude-3-5-haiku"
+name = "claude-3-5-haiku"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 1.1
+output = 5.5

@@ -1,0 +1,6 @@
+id = "gpt-4-turbo-preview"
+name = "gpt-4-turbo-preview"
+
+[pricing]
+input = 10
+output = 30

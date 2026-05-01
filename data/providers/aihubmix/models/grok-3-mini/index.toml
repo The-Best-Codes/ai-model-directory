@@ -1,0 +1,7 @@
+id = "grok-3-mini"
+name = "grok-3-mini"
+
+[pricing]
+cache_read = 0
+input = 0.3
+output = 0.501

@@ -1,0 +1,8 @@
+id = "whisper-1"
+name = "whisper-1"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]

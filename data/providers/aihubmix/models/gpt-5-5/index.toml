@@ -1,0 +1,19 @@
+id = "gpt-5.5"
+name = "gpt-5.5"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 5
+output = 30

@@ -1,0 +1,12 @@
+id = "jina-embeddings-v5-text-small"
+name = "jina-embeddings-v5-text-small"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

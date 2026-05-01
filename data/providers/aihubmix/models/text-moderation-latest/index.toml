@@ -1,0 +1,6 @@
+id = "text-moderation-latest"
+name = "text-moderation-latest"
+
+[pricing]
+input = 0.2
+output = 0.2

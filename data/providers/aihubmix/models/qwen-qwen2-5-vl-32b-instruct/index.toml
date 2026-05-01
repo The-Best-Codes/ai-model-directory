@@ -1,0 +1,14 @@
+id = "Qwen/Qwen2.5-VL-32B-Instruct"
+name = "Qwen/Qwen2.5-VL-32B-Instruct"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.24
+output = 0.24

@@ -1,0 +1,10 @@
+id = "cohere-command-a"
+name = "cohere-command-a"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 2.5
+output = 10

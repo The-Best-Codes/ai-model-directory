@@ -1,0 +1,9 @@
+id = "qwen-turbo-2024-11-01"
+name = "qwen-turbo-2024-11-01"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.046
+output = 0.092

@@ -1,0 +1,13 @@
+id = "gpt-4o-mini-2024-07-18"
+name = "gpt-4o-mini-2024-07-18"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.15
+output = 0.6

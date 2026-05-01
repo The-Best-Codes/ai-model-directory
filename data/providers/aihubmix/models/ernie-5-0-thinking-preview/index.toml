@@ -1,0 +1,17 @@
+id = "ernie-5.0-thinking-preview"
+name = "ernie-5.0-thinking-preview"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 183000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.822
+output = 3.288

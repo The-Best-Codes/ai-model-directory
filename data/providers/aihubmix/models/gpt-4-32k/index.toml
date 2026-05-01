@@ -1,0 +1,6 @@
+id = "gpt-4-32k"
+name = "gpt-4-32k"
+
+[pricing]
+input = 60
+output = 120

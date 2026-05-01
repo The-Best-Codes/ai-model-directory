@@ -1,0 +1,5 @@
+id = "gemini-2.5-flash-preview-tts"
+name = "gemini-2.5-flash-preview-tts"
+
+[modalities]
+input = [ "text" ]

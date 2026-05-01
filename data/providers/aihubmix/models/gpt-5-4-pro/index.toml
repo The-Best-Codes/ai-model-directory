@@ -1,0 +1,18 @@
+id = "gpt-5.4-pro"
+name = "gpt-5.4-pro"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 30
+output = 180

@@ -1,0 +1,12 @@
+id = "gemini-2.0-pro-exp-02-05"
+name = "gemini-2.0-pro-exp-02-05"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 1.25
+output = 5

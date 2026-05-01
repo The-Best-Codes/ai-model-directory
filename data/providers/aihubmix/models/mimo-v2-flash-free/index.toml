@@ -1,0 +1,12 @@
+id = "mimo-v2-flash-free"
+name = "mimo-v2-flash-free"
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

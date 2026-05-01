@@ -1,0 +1,10 @@
+id = "glm-4.5-x"
+name = "glm-4.5-x"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.44
+input = 2.2
+output = 8.91

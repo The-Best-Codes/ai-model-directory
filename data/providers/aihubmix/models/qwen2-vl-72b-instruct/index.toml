@@ -1,0 +1,12 @@
+id = "Qwen2-VL-72B-Instruct"
+name = "Qwen2-VL-72B-Instruct"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 2.18
+output = 6.54

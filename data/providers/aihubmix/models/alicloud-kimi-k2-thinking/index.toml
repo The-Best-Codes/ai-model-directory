@@ -1,0 +1,6 @@
+id = "alicloud-kimi-k2-thinking"
+name = "alicloud-kimi-k2-thinking"
+
+[pricing]
+input = 0.548
+output = 2.192

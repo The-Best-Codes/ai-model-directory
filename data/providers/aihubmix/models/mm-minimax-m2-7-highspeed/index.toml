@@ -1,0 +1,13 @@
+id = "mm-minimax-m2.7-highspeed"
+name = "mm-minimax-m2.7-highspeed"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

@@ -1,0 +1,16 @@
+id = "xiaomi-mimo-v2.5"
+name = "xiaomi-mimo-v2.5"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.088
+input = 0.44
+output = 2.2

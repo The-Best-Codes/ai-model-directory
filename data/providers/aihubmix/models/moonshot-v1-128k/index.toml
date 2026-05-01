@@ -1,0 +1,6 @@
+id = "moonshot-v1-128k"
+name = "moonshot-v1-128k"
+
+[pricing]
+input = 10
+output = 10

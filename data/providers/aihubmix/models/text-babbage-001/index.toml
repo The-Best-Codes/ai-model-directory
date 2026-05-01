@@ -1,0 +1,6 @@
+id = "text-babbage-001"
+name = "text-babbage-001"
+
+[pricing]
+input = 0.5
+output = 0.5

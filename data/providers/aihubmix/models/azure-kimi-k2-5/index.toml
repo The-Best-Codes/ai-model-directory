@@ -1,0 +1,9 @@
+id = "azure-kimi-k2.5"
+name = "azure-kimi-k2.5"
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.6
+output = 3

@@ -1,0 +1,12 @@
+id = "jina-clip-v2"
+name = "jina-clip-v2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

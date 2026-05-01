@@ -1,0 +1,6 @@
+id = "qwen-long"
+name = "qwen-long"
+
+[pricing]
+input = 0.1
+output = 0.4

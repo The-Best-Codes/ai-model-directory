@@ -1,0 +1,6 @@
+id = "qwen-plus"
+name = "qwen-plus"
+
+[pricing]
+input = 0.7
+output = 2.1

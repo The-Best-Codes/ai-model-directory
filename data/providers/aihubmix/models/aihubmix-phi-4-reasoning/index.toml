@@ -1,0 +1,15 @@
+id = "AiHubmix-Phi-4-reasoning"
+name = "AiHubmix-Phi-4-reasoning"
+
+[features]
+reasoning = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

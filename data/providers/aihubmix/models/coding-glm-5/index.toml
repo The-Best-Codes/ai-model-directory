@@ -1,0 +1,14 @@
+id = "coding-glm-5"
+name = "coding-glm-5"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.21999996

@@ -1,0 +1,14 @@
+id = "gemini-2.0-flash-exp-search"
+name = "gemini-2.0-flash-exp-search"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.1
+output = 0.4

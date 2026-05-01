@@ -1,0 +1,11 @@
+id = "gemini-2.5-flash-image"
+name = "gemini-2.5-flash-image"
+
+[features]
+attachment = true
+
+[limit]
+context = 32800
+
+[modalities]
+input = [ "image", "text" ]

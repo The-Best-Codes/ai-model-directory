@@ -1,0 +1,7 @@
+id = "deepinfra-llama-4-scout-17b-16e-instruct"
+name = "deepinfra-llama-4-scout-17b-16e-instruct"
+
+[pricing]
+cache_read = 0
+input = 0.088
+output = 0.33

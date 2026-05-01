@@ -1,0 +1,6 @@
+id = "deepinfra-llama-4-maverick-17b-128e-instruct"
+name = "deepinfra-llama-4-maverick-17b-128e-instruct"
+
+[pricing]
+input = 1.65
+output = 6.6

@@ -1,0 +1,18 @@
+id = "kimi-k2-thinking"
+name = "kimi-k2-thinking"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.137
+input = 0.548
+output = 2.192

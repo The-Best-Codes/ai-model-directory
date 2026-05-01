@@ -1,0 +1,8 @@
+id = "wan2.7-i2v"
+name = "wan2.7-i2v"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

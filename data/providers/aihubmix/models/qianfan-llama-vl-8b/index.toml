@@ -1,0 +1,6 @@
+id = "qianfan-llama-vl-8b"
+name = "qianfan-llama-vl-8b"
+
+[pricing]
+input = 0.274
+output = 0.685

@@ -1,0 +1,6 @@
+id = "aihubmix-Mistral-large"
+name = "aihubmix-Mistral-large"
+
+[pricing]
+input = 4
+output = 12

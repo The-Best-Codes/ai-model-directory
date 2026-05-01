@@ -1,0 +1,7 @@
+id = "cc-k2.6-code-preview"
+name = "cc-k2.6-code-preview"
+
+[pricing]
+cache_read = 0.02
+input = 0.2
+output = 0.2

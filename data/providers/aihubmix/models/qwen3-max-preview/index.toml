@@ -1,0 +1,14 @@
+id = "qwen3-max-preview"
+name = "qwen3-max-preview"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.822
+output = 3.288

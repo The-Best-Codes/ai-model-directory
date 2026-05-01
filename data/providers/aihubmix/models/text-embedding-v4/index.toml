@@ -1,0 +1,9 @@
+id = "text-embedding-v4"
+name = "text-embedding-v4"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.08

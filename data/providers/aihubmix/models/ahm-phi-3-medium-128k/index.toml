@@ -1,0 +1,6 @@
+id = "ahm-Phi-3-medium-128k"
+name = "ahm-Phi-3-medium-128k"
+
+[pricing]
+input = 6
+output = 18

@@ -1,0 +1,6 @@
+id = "o3-pro-global"
+name = "o3-pro-global"
+
+[pricing]
+input = 20
+output = 80

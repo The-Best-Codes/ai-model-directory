@@ -1,0 +1,12 @@
+id = "jina-reranker-m0"
+name = "jina-reranker-m0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

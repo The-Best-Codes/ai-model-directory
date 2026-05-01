@@ -1,0 +1,8 @@
+id = "doubao-seedream-5.0-lite"
+name = "doubao-seedream-5.0-lite"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

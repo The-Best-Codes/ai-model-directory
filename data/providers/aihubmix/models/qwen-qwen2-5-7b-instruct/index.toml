@@ -1,0 +1,6 @@
+id = "Qwen/Qwen2.5-7B-Instruct"
+name = "Qwen/Qwen2.5-7B-Instruct"
+
+[pricing]
+input = 0.4
+output = 0.4

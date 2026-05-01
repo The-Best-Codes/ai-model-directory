@@ -1,0 +1,12 @@
+id = "embedding-3"
+name = "embedding-3"
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0686
+output = 0.0686

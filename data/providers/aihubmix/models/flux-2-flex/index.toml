@@ -1,0 +1,8 @@
+id = "flux-2-flex"
+name = "flux-2-flex"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

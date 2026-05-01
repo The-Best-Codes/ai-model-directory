@@ -1,0 +1,14 @@
+id = "o1-2024-12-17"
+name = "o1-2024-12-17"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 7.5
+input = 15
+output = 60

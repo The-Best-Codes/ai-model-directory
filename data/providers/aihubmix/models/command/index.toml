@@ -1,0 +1,9 @@
+id = "command"
+name = "command"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 1
+output = 2

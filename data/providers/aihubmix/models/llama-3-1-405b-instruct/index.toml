@@ -1,0 +1,6 @@
+id = "llama-3.1-405b-instruct"
+name = "llama-3.1-405b-instruct"
+
+[pricing]
+input = 4
+output = 4

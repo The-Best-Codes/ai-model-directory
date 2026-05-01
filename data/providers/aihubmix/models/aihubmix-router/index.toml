@@ -1,0 +1,13 @@
+id = "aihubmix-router"
+name = "aihubmix-router"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.4
+output = 1.6

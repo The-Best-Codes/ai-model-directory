@@ -1,0 +1,6 @@
+id = "groq-llama-3.3-70b-versatile"
+name = "groq-llama-3.3-70b-versatile"
+
+[pricing]
+input = 0.649
+output = 0.869011

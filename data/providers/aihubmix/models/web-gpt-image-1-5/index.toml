@@ -1,0 +1,8 @@
+id = "web-gpt-image-1.5"
+name = "web-gpt-image-1.5"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

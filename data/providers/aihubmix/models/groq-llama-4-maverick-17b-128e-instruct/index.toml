@@ -1,0 +1,6 @@
+id = "groq-llama-4-maverick-17b-128e-instruct"
+name = "groq-llama-4-maverick-17b-128e-instruct"
+
+[pricing]
+input = 0.22
+output = 0.66

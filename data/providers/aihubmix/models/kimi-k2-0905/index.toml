@@ -1,0 +1,16 @@
+id = "Kimi-K2-0905"
+name = "Kimi-K2-0905"
+
+[features]
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.548
+output = 2.192

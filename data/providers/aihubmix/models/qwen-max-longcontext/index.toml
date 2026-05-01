@@ -1,0 +1,6 @@
+id = "qwen-max-longcontext"
+name = "qwen-max-longcontext"
+
+[pricing]
+input = 7
+output = 21

@@ -1,0 +1,16 @@
+id = "qwen3-coder-plus-2025-07-22"
+name = "qwen3-coder-plus-2025-07-22"
+
+[features]
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.54
+output = 2.16

@@ -1,0 +1,12 @@
+id = "jina-embeddings-v4"
+name = "jina-embeddings-v4"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

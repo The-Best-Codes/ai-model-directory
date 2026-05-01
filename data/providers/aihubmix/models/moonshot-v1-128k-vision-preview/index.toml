@@ -1,0 +1,6 @@
+id = "moonshot-v1-128k-vision-preview"
+name = "moonshot-v1-128k-vision-preview"
+
+[pricing]
+input = 10
+output = 10

@@ -1,0 +1,17 @@
+id = "mistral-large-3"
+name = "mistral-large-3"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.5
+output = 1.5

@@ -1,0 +1,6 @@
+id = "meta-llama/Llama-3.2-90B-Vision-Instruct"
+name = "meta-llama/Llama-3.2-90B-Vision-Instruct"
+
+[pricing]
+input = 0.5
+output = 0.5

@@ -1,0 +1,8 @@
+id = "DESCRIBE"
+name = "DESCRIBE"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

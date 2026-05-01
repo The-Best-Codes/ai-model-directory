@@ -1,0 +1,13 @@
+id = "gemini-2.0-flash-thinking-exp-01-21"
+name = "gemini-2.0-flash-thinking-exp-01-21"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.076
+output = 0.304

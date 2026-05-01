@@ -1,0 +1,9 @@
+id = "gemini-embedding-001"
+name = "gemini-embedding-001"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.15

@@ -1,0 +1,8 @@
+id = "veo-3"
+name = "veo-3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]

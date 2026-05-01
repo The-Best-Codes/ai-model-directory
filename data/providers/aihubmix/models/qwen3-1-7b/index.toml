@@ -1,0 +1,7 @@
+id = "qwen3-1.7b"
+name = "qwen3-1.7b"
+
+[pricing]
+cache_read = 0
+input = 0.046
+output = 0.46

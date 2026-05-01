@@ -1,0 +1,6 @@
+id = "step-2-16k"
+name = "step-2-16k"
+
+[pricing]
+input = 2
+output = 2

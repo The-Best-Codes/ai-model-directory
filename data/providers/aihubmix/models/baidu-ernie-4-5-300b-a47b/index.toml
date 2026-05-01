@@ -1,0 +1,15 @@
+id = "baidu/ERNIE-4.5-300B-A47B"
+name = "baidu/ERNIE-4.5-300B-A47B"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.32
+output = 1.28

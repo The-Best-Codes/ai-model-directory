@@ -1,0 +1,9 @@
+id = "command-r-plus"
+name = "command-r-plus"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 3.84
+output = 19.2

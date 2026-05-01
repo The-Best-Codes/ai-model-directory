@@ -1,0 +1,7 @@
+id = "qwen-plus-2025-04-28"
+name = "qwen-plus-2025-04-28"
+
+[pricing]
+cache_read = 0
+input = 0.13
+output = 2.6

@@ -1,0 +1,8 @@
+id = "doubao-seedance-1-5-pro-251215"
+name = "doubao-seedance-1-5-pro-251215"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

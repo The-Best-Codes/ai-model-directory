@@ -1,0 +1,8 @@
+id = "wan2.5-i2v-preview"
+name = "wan2.5-i2v-preview"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

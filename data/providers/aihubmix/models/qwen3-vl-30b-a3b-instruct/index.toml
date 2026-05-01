@@ -1,0 +1,17 @@
+id = "qwen3-vl-30b-a3b-instruct"
+name = "qwen3-vl-30b-a3b-instruct"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.1028
+output = 0.4112

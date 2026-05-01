@@ -1,0 +1,15 @@
+id = "qianfan-ocr-fast"
+name = "qianfan-ocr-fast"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.664
+output = 2.738336

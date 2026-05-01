@@ -1,0 +1,6 @@
+id = "Qwen/Qwen3-8B"
+name = "Qwen/Qwen3-8B"
+
+[pricing]
+input = 0.2
+output = 0.2

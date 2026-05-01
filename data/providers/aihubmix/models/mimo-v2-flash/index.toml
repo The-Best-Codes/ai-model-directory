@@ -1,0 +1,10 @@
+id = "mimo-v2-flash"
+name = "mimo-v2-flash"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.03836
+input = 0.1918
+output = 0.5754

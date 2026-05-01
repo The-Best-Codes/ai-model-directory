@@ -1,0 +1,19 @@
+id = "qwen3.5-plus"
+name = "qwen3.5-plus"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 991000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.01096
+input = 0.1096
+output = 0.6576

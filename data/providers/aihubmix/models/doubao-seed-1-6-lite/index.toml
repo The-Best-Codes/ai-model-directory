@@ -1,0 +1,17 @@
+id = "doubao-seed-1-6-lite"
+name = "doubao-seed-1-6-lite"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.082
+output = 0.656

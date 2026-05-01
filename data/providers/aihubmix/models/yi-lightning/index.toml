@@ -1,0 +1,6 @@
+id = "yi-lightning"
+name = "yi-lightning"
+
+[pricing]
+input = 0.2
+output = 0.2

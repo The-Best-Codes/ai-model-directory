@@ -1,0 +1,12 @@
+id = "gme-qwen2-vl-2b-instruct"
+name = "gme-qwen2-vl-2b-instruct"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.138
+output = 0.138

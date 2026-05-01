@@ -1,0 +1,6 @@
+id = "deepseek-ai/DeepSeek-Coder-V2-Instruct"
+name = "deepseek-ai/DeepSeek-Coder-V2-Instruct"
+
+[pricing]
+input = 0.16
+output = 0.32

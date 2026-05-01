@@ -1,0 +1,6 @@
+id = "chatglm_turbo"
+name = "chatglm_turbo"
+
+[pricing]
+input = 0.7144
+output = 0.7144

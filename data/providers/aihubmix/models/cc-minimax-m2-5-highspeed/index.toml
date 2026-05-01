@@ -1,0 +1,13 @@
+id = "cc-minimax-m2.5-highspeed"
+name = "cc-minimax-m2.5-highspeed"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

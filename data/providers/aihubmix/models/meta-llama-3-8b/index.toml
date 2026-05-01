@@ -1,0 +1,6 @@
+id = "meta-llama-3-8b"
+name = "meta-llama-3-8b"
+
+[pricing]
+input = 0.548
+output = 0.548

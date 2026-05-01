@@ -1,0 +1,6 @@
+id = "THUDM/GLM-Z1-32B-0414"
+name = "THUDM/GLM-Z1-32B-0414"
+
+[pricing]
+input = 0.08
+output = 0.08

@@ -1,0 +1,5 @@
+id = "wan2.5-t2v-preview"
+name = "wan2.5-t2v-preview"
+
+[modalities]
+input = [ "text" ]

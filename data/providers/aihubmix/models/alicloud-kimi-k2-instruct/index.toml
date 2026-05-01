@@ -1,0 +1,6 @@
+id = "alicloud-kimi-k2-instruct"
+name = "alicloud-kimi-k2-instruct"
+
+[pricing]
+input = 0.548
+output = 2.192

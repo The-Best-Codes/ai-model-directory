@@ -1,0 +1,6 @@
+id = "nvidia-llama-3.1-nemotron-70b-instruct"
+name = "nvidia-llama-3.1-nemotron-70b-instruct"
+
+[pricing]
+input = 1.32
+output = 1.32

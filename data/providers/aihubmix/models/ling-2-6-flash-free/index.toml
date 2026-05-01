@@ -1,0 +1,12 @@
+id = "ling-2.6-flash-free"
+name = "ling-2.6-flash-free"
+
+[limit]
+context = 262100
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

@@ -1,0 +1,8 @@
+id = "Stable-Diffusion-3-5-Large"
+name = "Stable-Diffusion-3-5-Large"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

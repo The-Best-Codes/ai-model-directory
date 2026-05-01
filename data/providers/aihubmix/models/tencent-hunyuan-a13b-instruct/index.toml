@@ -1,0 +1,6 @@
+id = "tencent/Hunyuan-A13B-Instruct"
+name = "tencent/Hunyuan-A13B-Instruct"
+
+[pricing]
+input = 0.14
+output = 0.56

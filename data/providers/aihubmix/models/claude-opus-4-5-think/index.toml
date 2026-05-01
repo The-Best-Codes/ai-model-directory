@@ -1,0 +1,19 @@
+id = "claude-opus-4-5-think"
+name = "claude-opus-4-5-think"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 5
+output = 25

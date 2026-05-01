@@ -1,0 +1,12 @@
+id = "gpt-4o-zh"
+name = "gpt-4o-zh"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 2.5
+output = 10

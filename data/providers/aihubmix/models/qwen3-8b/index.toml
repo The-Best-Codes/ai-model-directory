@@ -1,0 +1,7 @@
+id = "qwen3-8b"
+name = "qwen3-8b"
+
+[pricing]
+cache_read = 0
+input = 0.08
+output = 0.8

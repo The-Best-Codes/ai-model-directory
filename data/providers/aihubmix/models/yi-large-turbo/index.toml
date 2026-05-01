@@ -1,0 +1,6 @@
+id = "yi-large-turbo"
+name = "yi-large-turbo"
+
+[pricing]
+input = 1.8
+output = 1.8

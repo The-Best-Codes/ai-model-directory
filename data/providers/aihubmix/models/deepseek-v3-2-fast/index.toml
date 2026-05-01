@@ -1,0 +1,17 @@
+id = "deepseek-v3.2-fast"
+name = "deepseek-v3.2-fast"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 1.096
+output = 3.288

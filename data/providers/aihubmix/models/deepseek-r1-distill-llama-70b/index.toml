@@ -1,0 +1,12 @@
+id = "deepseek-r1-distill-llama-70b"
+name = "deepseek-r1-distill-llama-70b"
+
+[features]
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 1.6

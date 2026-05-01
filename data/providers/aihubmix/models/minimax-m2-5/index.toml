@@ -1,0 +1,17 @@
+id = "minimax-m2.5"
+name = "minimax-m2.5"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.288
+output = 1.152

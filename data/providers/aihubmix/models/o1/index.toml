@@ -1,0 +1,13 @@
+id = "o1"
+name = "o1"
+
+[features]
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 7.5
+input = 15
+output = 60

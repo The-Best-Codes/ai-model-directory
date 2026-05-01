@@ -1,0 +1,15 @@
+id = "qwen3.6-plus-preview-free"
+name = "qwen3.6-plus-preview-free"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

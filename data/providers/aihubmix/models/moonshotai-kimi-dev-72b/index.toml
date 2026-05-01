@@ -1,0 +1,7 @@
+id = "moonshotai/Kimi-Dev-72B"
+name = "moonshotai/Kimi-Dev-72B"
+
+[pricing]
+cache_read = 0
+input = 0.32
+output = 1.28

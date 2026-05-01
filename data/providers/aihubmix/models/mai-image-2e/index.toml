@@ -1,0 +1,10 @@
+id = "mai-image-2e"
+name = "mai-image-2e"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 5
+output = 19.5

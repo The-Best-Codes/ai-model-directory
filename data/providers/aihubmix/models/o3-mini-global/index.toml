@@ -1,0 +1,7 @@
+id = "o3-mini-global"
+name = "o3-mini-global"
+
+[pricing]
+cache_read = 0.55
+input = 1.1
+output = 4.4

@@ -1,0 +1,9 @@
+id = "command-r-plus-08-2024"
+name = "command-r-plus-08-2024"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 2.8
+output = 11.2

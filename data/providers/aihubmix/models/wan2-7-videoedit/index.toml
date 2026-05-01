@@ -1,0 +1,8 @@
+id = "wan2.7-videoedit"
+name = "wan2.7-videoedit"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]

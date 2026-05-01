@@ -1,0 +1,6 @@
+id = "codestral-latest"
+name = "codestral-latest"
+
+[pricing]
+input = 0.4
+output = 1.2

@@ -1,0 +1,6 @@
+id = "gemini-pro"
+name = "gemini-pro"
+
+[pricing]
+input = 0.2
+output = 0.6

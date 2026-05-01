@@ -1,0 +1,16 @@
+id = "gpt-4o-2024-11-20"
+name = "gpt-4o-2024-11-20"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 1.25
+input = 2.5
+output = 10

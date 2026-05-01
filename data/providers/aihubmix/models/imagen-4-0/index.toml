@@ -1,0 +1,8 @@
+id = "imagen-4.0"
+name = "imagen-4.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

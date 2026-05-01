@@ -1,0 +1,8 @@
+id = "doubao-seedream-4-5"
+name = "doubao-seedream-4-5"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

@@ -1,0 +1,13 @@
+id = "cc-deepseek-v3.1"
+name = "cc-deepseek-v3.1"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.56
+output = 1.68

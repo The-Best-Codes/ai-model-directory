@@ -1,0 +1,6 @@
+id = "aihubmix-Llama-3-1-405B-Instruct"
+name = "aihubmix-Llama-3-1-405B-Instruct"
+
+[pricing]
+input = 5
+output = 15

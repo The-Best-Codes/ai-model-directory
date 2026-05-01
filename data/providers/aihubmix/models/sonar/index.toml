@@ -1,0 +1,6 @@
+id = "sonar"
+name = "sonar"
+
+[pricing]
+input = 1.6
+output = 1.6

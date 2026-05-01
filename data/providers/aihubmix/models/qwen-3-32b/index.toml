@@ -1,0 +1,6 @@
+id = "qwen-3-32b"
+name = "qwen-3-32b"
+
+[pricing]
+input = 0.4
+output = 1.6

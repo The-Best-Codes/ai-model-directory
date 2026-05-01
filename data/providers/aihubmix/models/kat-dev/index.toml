@@ -1,0 +1,15 @@
+id = "kat-dev"
+name = "kat-dev"
+
+[features]
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.137
+output = 0.548

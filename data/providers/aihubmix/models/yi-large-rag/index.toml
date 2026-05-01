@@ -1,0 +1,6 @@
+id = "yi-large-rag"
+name = "yi-large-rag"
+
+[pricing]
+input = 4
+output = 4

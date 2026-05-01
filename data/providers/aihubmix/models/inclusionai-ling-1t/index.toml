@@ -1,0 +1,13 @@
+id = "inclusionAI/Ling-1T"
+name = "inclusionAI/Ling-1T"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.548
+output = 2.192

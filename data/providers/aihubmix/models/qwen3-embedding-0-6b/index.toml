@@ -1,0 +1,9 @@
+id = "qwen3-embedding-0.6b"
+name = "qwen3-embedding-0.6b"
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.068
+output = 0.068

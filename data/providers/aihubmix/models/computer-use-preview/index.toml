@@ -1,0 +1,6 @@
+id = "computer-use-preview"
+name = "computer-use-preview"
+
+[pricing]
+input = 3
+output = 12

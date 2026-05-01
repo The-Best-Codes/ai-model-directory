@@ -1,0 +1,6 @@
+id = "learnlm-1.5-pro-experimental"
+name = "learnlm-1.5-pro-experimental"
+
+[pricing]
+input = 1.25
+output = 5

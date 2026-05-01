@@ -1,0 +1,7 @@
+id = "o3-deep-research"
+name = "o3-deep-research"
+
+[pricing]
+cache_read = 2.5
+input = 10
+output = 40

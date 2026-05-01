@@ -1,0 +1,12 @@
+id = "claude-3-sonnet-20240229"
+name = "claude-3-sonnet-20240229"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 3.3
+output = 16.5
