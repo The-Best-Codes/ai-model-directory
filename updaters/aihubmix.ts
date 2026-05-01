@@ -218,9 +218,10 @@ export async function fetchModels(
   progress?.tick(`aihubmix.com/v1/models (${basics.length})`, true);
 
   // Phase 2: walk the pagination endpoint to collect detailed metadata.
+  // `p` is a zero-based page index.
   // The first request tells us the grand total so we can size the bar.
   const detailsByModel = new Map<string, PaginationModel>();
-  const firstPage = await fetchPaginationPage(1);
+  const firstPage = await fetchPaginationPage(0);
   const total = Math.max(
     firstPage.total ?? firstPage.data.length,
     firstPage.data.length,
@@ -232,12 +233,12 @@ export async function fetchModels(
   for (const m of firstPage.data) detailsByModel.set(m.model, m);
   progress?.tick(`page 1/${numPages} (${firstPage.data.length})`, true);
 
-  for (let p = 2; p <= numPages; p++) {
+  for (let page = 1; page < numPages; page++) {
     let ok = true;
     let added = 0;
 
     try {
-      const body = await fetchPaginationPage(p);
+      const body = await fetchPaginationPage(page);
 
       for (const m of body.data) detailsByModel.set(m.model, m);
       added = body.data.length;
@@ -245,7 +246,7 @@ export async function fetchModels(
       ok = false;
     }
 
-    progress?.tick(`page ${p}/${numPages} (${added})`, ok);
+    progress?.tick(`page ${page + 1}/${numPages} (${added})`, ok);
   }
 
   // Merge: every model from /v1/models, plus any pagination-only entries.
