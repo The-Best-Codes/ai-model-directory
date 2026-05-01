@@ -1,0 +1,21 @@
+id = "NousResearch/Hermes-4-14B"
+name = "NousResearch/Hermes-4-14B"
+release_date = "2026-05-01"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 40960
+output = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0068
+input = 0.0136
+output = 0.0543

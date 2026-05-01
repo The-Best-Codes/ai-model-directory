@@ -1,0 +1,21 @@
+id = "MiniMaxAI/MiniMax-M2.5-TEE"
+name = "MiniMaxAI/MiniMax-M2.5-TEE"
+release_date = "2026-05-01"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 196608
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.15
+output = 1.2

@@ -1,0 +1,21 @@
+id = "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+name = "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+release_date = "2026-05-01"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0136
+input = 0.0272
+output = 0.1087
