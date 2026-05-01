@@ -1,5 +1,5 @@
-id = "cc-minimax-m2"
-name = "cc-minimax-m2"
+id = "cc-MiniMax-M2"
+name = "cc-MiniMax-M2"
 
 [features]
 attachment = false

@@ -1,5 +1,5 @@
-id = "claude-3-opus-20240229"
-name = "claude-3-opus-20240229"
+id = "claude-3-opus@20240229"
+name = "claude-3-opus@20240229"
 
 [features]
 reasoning = false

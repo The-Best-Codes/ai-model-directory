@@ -1,17 +1,10 @@
-id = "ERNIE-X1.1-Preview"
-name = "ERNIE-X1.1-Preview"
+id = "ernie-x1.1-preview"
+name = "ernie-x1.1-preview"
 
 [features]
-attachment = false
-reasoning = true
-structured_output = true
-tool_call = true
-
-[limit]
-context = 119000
-
-[modalities]
-input = [ "text" ]
+reasoning = false
+structured_output = false
+tool_call = false
 
 [pricing]
 input = 0.136
