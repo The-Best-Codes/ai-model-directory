@@ -1,0 +1,7 @@
+name = "OpenAI"
+website = "https://openai.com"
+apiBaseUrl = "https://api.openai.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai"
+defaultApiKeyEnv = ["OPENAI_API_KEY"]
