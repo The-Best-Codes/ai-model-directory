@@ -1,0 +1,15 @@
+id = "mistral-7b-instruct-v0.2"
+name = "mistral-7b-instruct-v0.2"
+release_date = "2025-05-26"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.143
+output = 0.197

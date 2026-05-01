@@ -1,0 +1,15 @@
+id = "hermes-4-70b"
+name = "hermes-4-70b"
+release_date = "2025-08-13"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.116
+output = 0.358

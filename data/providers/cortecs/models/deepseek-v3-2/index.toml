@@ -1,0 +1,15 @@
+id = "deepseek-v3.2"
+name = "deepseek-v3.2"
+release_date = "2026-03-18"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 163840
+
+[pricing]
+input = 0.266
+output = 0.444

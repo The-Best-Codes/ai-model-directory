@@ -1,0 +1,16 @@
+id = "kimi-k2.6"
+name = "kimi-k2.6"
+release_date = "2026-04-23"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+cache_read = 0.173
+input = 0.694
+output = 3.034

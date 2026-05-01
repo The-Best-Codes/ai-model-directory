@@ -1,0 +1,15 @@
+id = "minimax-m2"
+name = "minimax-m2"
+release_date = "2026-02-06"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 196608
+
+[pricing]
+input = 0.222
+output = 0.887

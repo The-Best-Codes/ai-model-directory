@@ -1,0 +1,15 @@
+id = "mixtral-8x7B-instruct-v0.1"
+name = "mixtral-8x7B-instruct-v0.1"
+release_date = "2023-12-11"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.438
+output = 0.68

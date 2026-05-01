@@ -1,0 +1,15 @@
+id = "minimax-m2.1"
+name = "minimax-m2.1"
+release_date = "2026-02-04"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 196000
+
+[pricing]
+input = 0.322
+output = 1.288

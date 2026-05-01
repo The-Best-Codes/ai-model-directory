@@ -1,0 +1,15 @@
+id = "qwen3-vl-235b-a22b"
+name = "qwen3-vl-235b-a22b"
+release_date = "2026-01-13"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131000
+
+[pricing]
+input = 0.186
+output = 1.686

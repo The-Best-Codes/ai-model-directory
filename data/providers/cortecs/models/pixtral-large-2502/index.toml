@@ -1,0 +1,15 @@
+id = "pixtral-large-2502"
+name = "pixtral-large-2502"
+release_date = "2025-05-26"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 1.789
+output = 5.366

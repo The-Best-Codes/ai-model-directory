@@ -1,0 +1,15 @@
+id = "qwen3guard-gen-0.6b"
+name = "qwen3guard-gen-0.6b"
+release_date = "2026-02-04"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,15 @@
+id = "nvidia-nemotron-3-nano-30b-a3b"
+name = "nvidia-nemotron-3-nano-30b-a3b"
+release_date = "2026-01-12"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.054
+output = 0.215

@@ -1,0 +1,7 @@
+name = "Cortecs"
+website = "https://cortecs.ai"
+apiBaseUrl = "https://api.cortecs.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["CORTECS_API_KEY"]

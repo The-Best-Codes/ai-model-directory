@@ -1,0 +1,15 @@
+id = "qwen3-next-80b-a3b-thinking"
+name = "qwen3-next-80b-a3b-thinking"
+release_date = "2025-12-10"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.134
+output = 1.073

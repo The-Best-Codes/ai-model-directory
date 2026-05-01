@@ -1,0 +1,15 @@
+id = "gpt-oss-safeguard-120b"
+name = "gpt-oss-safeguard-120b"
+release_date = "2025-12-04"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.161
+output = 0.626

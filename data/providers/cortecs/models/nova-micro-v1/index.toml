@@ -1,0 +1,15 @@
+id = "nova-micro-v1"
+name = "nova-micro-v1"
+release_date = "2025-04-14"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.036
+output = 0.143

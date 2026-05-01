@@ -1,0 +1,15 @@
+id = "qwen2.5-vl-72b-instruct"
+name = "qwen2.5-vl-72b-instruct"
+release_date = "2025-01-27"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.224
+output = 0.671

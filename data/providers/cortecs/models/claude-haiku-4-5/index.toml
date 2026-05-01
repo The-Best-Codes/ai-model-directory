@@ -1,0 +1,16 @@
+id = "claude-haiku-4-5"
+name = "claude-haiku-4-5"
+release_date = "2025-10-15"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[pricing]
+cache_read = 0.089
+input = 0.894
+output = 4.472
