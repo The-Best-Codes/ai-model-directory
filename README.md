@@ -9,7 +9,7 @@ I was frustrated with the existing options:
 
 - Models.dev is not comprehensive (it's opinionated), and it often takes anywhere from a few days to weeks for frontier models to be added across all providers
 - LiteLLM is much more comprehensive, but the data is fragmented and harder to work with
-- Other catalogs are often developed with a certain product or service in mind, so they wind up being non-agnostic, comprehensive, or always up-to-date
+- Other catalogs are often developed with a certain product or service in mind, so they wind up being non-agnostic, not comprehensive, or not always up-to-date
 
 The AI model registry aims to be easy to use (like Models.dev), truly comprehensive across all providers it includes, and [securely](#security) automatically updated.
 
