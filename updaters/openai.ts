@@ -1,45 +1,10 @@
 import * as cheerio from "cheerio";
 
+import type { Modality, ProviderModel } from "../schema.ts";
 import type { ProgressReporter } from "../progress.ts";
+import { compact, isoDateFromUnix, mapWithConcurrency } from "./_lib.ts";
 
 export const outputDirectory = "data/providers/openai/models";
-
-export type Modality = "audio" | "file" | "image" | "text" | "video";
-
-// Intermediate format (subset of the shared schema; only what OpenAI's
-// API and developer docs actually expose).
-export type ProviderModel = {
-  // Required
-  id: string;
-  name: string;
-
-  // Optional scalars
-  knowledge_cutoff?: string; // yyyy-mm-dd
-  release_date?: string; // yyyy-mm-dd
-
-  features?: {
-    attachment?: boolean;
-    reasoning?: boolean;
-    tool_call?: boolean;
-    structured_output?: boolean;
-  };
-
-  pricing?: {
-    input?: number; // USD per million tokens
-    output?: number;
-    cache_read?: number;
-  };
-
-  limit?: {
-    context?: number;
-    output?: number;
-  };
-
-  modalities?: {
-    input?: Modality[];
-    output?: Modality[];
-  };
-};
 
 // OpenAI /v1/models types
 type ApiModel = {
@@ -54,17 +19,7 @@ type ApiResponse = {
   data: ApiModel[];
 };
 
-// Helpers
-function isoDate(unixSeconds: number): string {
-  return new Date(unixSeconds * 1000).toISOString().slice(0, 10);
-}
-
-function compact<T extends object>(obj: T): T {
-  return Object.fromEntries(
-    Object.entries(obj).filter(([, v]) => v !== undefined),
-  ) as T;
-}
-
+// Scraping helpers (specific to the developer-docs HTML format)
 function parseLooseDate(s: string): string | undefined {
   const d = new Date(s);
   if (Number.isNaN(d.getTime())) return undefined;
@@ -215,31 +170,6 @@ async function fetchModelDetails(
   return parseDetailsHtml(html);
 }
 
-// Run an async function over items with bounded concurrency.
-async function mapWithConcurrency<T, R>(
-  items: T[],
-  limit: number,
-  fn: (item: T, index: number) => Promise<R>,
-): Promise<R[]> {
-  const results = new Array<R>(items.length);
-  let cursor = 0;
-  const workerCount = Math.max(1, Math.min(limit, items.length));
-
-  async function worker() {
-    while (true) {
-      const i = cursor++;
-
-      if (i >= items.length) return;
-
-      results[i] = await fn(items[i]!, i);
-    }
-  }
-
-  await Promise.all(Array.from({ length: workerCount }, () => worker()));
-
-  return results;
-}
-
 export async function fetchModels(
   progress?: ProgressReporter,
 ): Promise<ProviderModel[]> {
@@ -270,7 +200,7 @@ export async function fetchModels(
   const basics: ProviderModel[] = data.map((m) => ({
     id: m.id,
     name: m.id,
-    release_date: isoDate(m.created),
+    release_date: isoDateFromUnix(m.created),
   }));
 
   // Phase 2: scrape developer docs for richer metadata. Many model snapshots

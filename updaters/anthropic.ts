@@ -1,35 +1,8 @@
+import type { Modality, ProviderModel } from "../schema.ts";
 import type { ProgressReporter } from "../progress.ts";
+import { compact, isoDateFromString } from "./_lib.ts";
 
 export const outputDirectory = "data/providers/anthropic/models";
-
-export type Modality = "audio" | "file" | "image" | "text" | "video";
-
-// Intermediate format (subset of the shared schema; only what Anthropic's
-// /v1/models endpoint actually exposes).
-export type ProviderModel = {
-  // Required
-  id: string;
-  name: string;
-
-  // Optional scalars
-  release_date?: string; // yyyy-mm-dd
-
-  features?: {
-    attachment?: boolean;
-    reasoning?: boolean;
-    structured_output?: boolean;
-  };
-
-  limit?: {
-    context?: number;
-    output?: number;
-  };
-
-  modalities?: {
-    input?: Modality[];
-    output?: Modality[];
-  };
-};
 
 // Anthropic /v1/models types (just what we use)
 type CapabilitySupport = { supported: boolean };
@@ -55,23 +28,6 @@ type ApiResponse = {
   last_id: string | null;
 };
 
-// Helpers
-function compact<T extends object>(obj: T): T {
-  return Object.fromEntries(
-    Object.entries(obj).filter(([, v]) => v !== undefined),
-  ) as T;
-}
-
-function isoDate(rfc3339: string): string | undefined {
-  const d = new Date(rfc3339);
-
-  if (Number.isNaN(d.getTime())) return undefined;
-  // Treat epoch (or near-epoch) as "release date unknown"
-  if (d.getTime() <= 0) return undefined;
-
-  return d.toISOString().slice(0, 10);
-}
-
 function convert(model: ApiModel): ProviderModel {
   const caps = model.capabilities ?? {};
   const imageInput = caps.image_input?.supported === true;
@@ -86,7 +42,7 @@ function convert(model: ApiModel): ProviderModel {
   return compact({
     id: model.id,
     name: model.display_name || model.id,
-    release_date: isoDate(model.created_at),
+    release_date: isoDateFromString(model.created_at, { rejectEpoch: true }),
 
     features: compact({
       attachment: imageInput || pdfInput || undefined,
