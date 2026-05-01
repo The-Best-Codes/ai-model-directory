@@ -7,9 +7,9 @@ reasoning = true
 temperature = true
 
 [pricing]
-input = 0.7999999999999999
-output = 1.5999999999999999
-cache_read = 0.19999999999999998
+input = 0.8
+output = 1.6
+cache_read = 0.2
 
 [limit]
 context = 131072

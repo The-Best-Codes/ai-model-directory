@@ -8,7 +8,7 @@ temperature = true
 
 [pricing]
 input = 0.051
-output = 0.33999999999999997
+output = 0.34
 
 [limit]
 context = 80000

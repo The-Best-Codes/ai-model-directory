@@ -9,7 +9,7 @@ tool_call = true
 temperature = true
 
 [pricing]
-input = 0.39999999999999997
+input = 0.4
 output = 2.2
 
 [limit]

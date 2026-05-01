@@ -11,7 +11,7 @@ temperature = true
 [pricing]
 input = 0.0325
 output = 0.13
-cache_read = 0.006500000000000001
+cache_read = 0.0065
 
 [limit]
 context = 131072

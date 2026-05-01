@@ -6,7 +6,7 @@ release_date = "2025-07-07"
 temperature = true
 
 [pricing]
-input = 0.8999999999999999
+input = 0.9
 output = 1.9
 
 [limit]

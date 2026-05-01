@@ -10,7 +10,7 @@ structured_output = true
 temperature = true
 
 [pricing]
-input = 0.14950000000000002
+input = 0.1495
 output = 1.495
 
 [limit]

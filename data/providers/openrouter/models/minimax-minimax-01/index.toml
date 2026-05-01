@@ -8,7 +8,7 @@ attachment = true
 temperature = true
 
 [pricing]
-input = 0.19999999999999998
+input = 0.2
 output = 1.1
 
 [limit]
