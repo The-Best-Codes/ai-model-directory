@@ -1,3 +1,12 @@
 id = "omni-moderation-latest"
-name = "omni-moderation-latest"
+name = "omni-moderation"
 release_date = "2024-11-15"
+
+[features]
+attachment = true
+tool_call = false
+structured_output = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

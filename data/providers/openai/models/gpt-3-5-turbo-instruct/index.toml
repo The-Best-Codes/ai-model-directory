@@ -1,3 +1,16 @@
 id = "gpt-3.5-turbo-instruct"
 name = "gpt-3.5-turbo-instruct"
 release_date = "2023-08-24"
+knowledge_cutoff = "2021-09-01"
+
+[pricing]
+input = 1.5
+output = 2
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,3 +1,10 @@
 id = "sora-2"
-name = "sora-2"
+name = "Sora 2"
 release_date = "2025-10-05"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "audio", "video" ]

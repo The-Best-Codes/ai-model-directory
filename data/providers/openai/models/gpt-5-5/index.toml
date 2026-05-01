@@ -1,3 +1,23 @@
 id = "gpt-5.5"
-name = "gpt-5.5"
+name = "GPT-5.5"
 release_date = "2026-04-22"
+knowledge_cutoff = "2025-12-01"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+
+[pricing]
+input = 5
+output = 30
+cache_read = 0.5
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

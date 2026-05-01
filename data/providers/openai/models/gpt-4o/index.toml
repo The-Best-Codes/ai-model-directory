@@ -1,3 +1,22 @@
 id = "gpt-4o"
-name = "gpt-4o"
+name = "GPT-4o"
 release_date = "2024-05-10"
+knowledge_cutoff = "2023-10-01"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+
+[pricing]
+input = 2.5
+output = 10
+cache_read = 1.25
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

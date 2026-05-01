@@ -1,3 +1,20 @@
 id = "gpt-audio-1.5"
 name = "gpt-audio-1.5"
 release_date = "2026-02-20"
+knowledge_cutoff = "2024-09-30"
+
+[features]
+tool_call = true
+structured_output = false
+
+[pricing]
+input = 32
+output = 64
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]

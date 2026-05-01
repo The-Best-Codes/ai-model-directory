@@ -1,3 +1,19 @@
 id = "davinci-002"
 name = "davinci-002"
 release_date = "2023-08-21"
+knowledge_cutoff = "2021-09-01"
+
+[features]
+tool_call = false
+structured_output = false
+
+[pricing]
+input = 2
+output = 2
+
+[limit]
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

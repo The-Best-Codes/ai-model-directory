@@ -1,3 +1,17 @@
 id = "gpt-image-1.5"
-name = "gpt-image-1.5"
+name = "GPT Image 1.5"
 release_date = "2025-11-25"
+
+[features]
+attachment = true
+tool_call = false
+structured_output = false
+
+[pricing]
+input = 8
+output = 32
+cache_read = 2
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]

@@ -1,3 +1,17 @@
 id = "chatgpt-image-latest"
 name = "chatgpt-image-latest"
 release_date = "2025-12-16"
+
+[features]
+attachment = true
+tool_call = false
+structured_output = false
+
+[pricing]
+input = 8
+output = 32
+cache_read = 2
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
