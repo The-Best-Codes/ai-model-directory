@@ -26,6 +26,10 @@ import {
   outputDirectory as anthropicOutputDirectory,
 } from "./updaters/anthropic.ts";
 import {
+  fetchModels as fetchChutesModels,
+  outputDirectory as chutesOutputDirectory,
+} from "./updaters/chutes.ts";
+import {
   fetchModels as fetchOpenAIModels,
   outputDirectory as openAIOutputDirectory,
 } from "./updaters/openai.ts";
@@ -340,6 +344,10 @@ const UPDATERS: Updater[] = [
   {
     fetchModels: fetchAIHubMixModels,
     outputDirectory: aihubmixOutputDirectory,
+  },
+  {
+    fetchModels: fetchChutesModels,
+    outputDirectory: chutesOutputDirectory,
   },
 ];
 

@@ -1,0 +1,7 @@
+name = "Chutes"
+website = "https://chutes.ai"
+apiBaseUrl = "https://llm.chutes.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["CHUTES_API_KEY"]
