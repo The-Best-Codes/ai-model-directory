@@ -1,0 +1,21 @@
+id = "minimax/minimax-m1"
+name = "MiniMax: MiniMax M1"
+knowledge_cutoff = "2024-06-30"
+release_date = "2025-06-17"
+
+[features]
+reasoning = true
+tool_call = true
+temperature = true
+
+[pricing]
+input = 0.39999999999999997
+output = 2.2
+
+[limit]
+context = 1000000
+output = 40000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

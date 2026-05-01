@@ -1,0 +1,22 @@
+id = "openai/gpt-5.1-codex"
+name = "OpenAI: GPT-5.1-Codex"
+release_date = "2025-11-13"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+
+[pricing]
+input = 1.25
+output = 10
+cache_read = 0.125
+
+[limit]
+context = 400000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

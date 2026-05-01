@@ -1,0 +1,20 @@
+id = "tencent/hy3-preview:free"
+name = "Tencent: Hy3 preview (free)"
+release_date = "2026-04-22"
+
+[features]
+reasoning = true
+tool_call = true
+temperature = true
+
+[pricing]
+input = 0
+output = 0
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

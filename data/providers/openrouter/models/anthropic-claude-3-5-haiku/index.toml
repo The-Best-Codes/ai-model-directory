@@ -1,0 +1,23 @@
+id = "anthropic/claude-3.5-haiku"
+name = "Anthropic: Claude 3.5 Haiku"
+knowledge_cutoff = "2024-07-31"
+release_date = "2024-11-04"
+
+[features]
+attachment = true
+tool_call = true
+temperature = true
+
+[pricing]
+input = 0.7999999999999999
+output = 4
+cache_read = 0.08
+cache_write = 1
+
+[limit]
+context = 200000
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,22 @@
+id = "openai/gpt-oss-safeguard-20b"
+name = "OpenAI: gpt-oss-safeguard-20b"
+release_date = "2025-10-29"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.075
+output = 0.3
+cache_read = 0.037
+
+[limit]
+context = 131072
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

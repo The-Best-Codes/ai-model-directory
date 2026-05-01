@@ -1,0 +1,21 @@
+id = "amazon/nova-premier-v1"
+name = "Amazon: Nova Premier 1.0"
+release_date = "2025-10-31"
+
+[features]
+attachment = true
+tool_call = true
+temperature = true
+
+[pricing]
+input = 2.5
+output = 12.5
+cache_read = 0.625
+
+[limit]
+context = 1000000
+output = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

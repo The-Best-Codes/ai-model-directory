@@ -1,0 +1,21 @@
+id = "deepseek/deepseek-v3.2-speciale"
+name = "DeepSeek: DeepSeek V3.2 Speciale"
+release_date = "2025-12-01"
+
+[features]
+reasoning = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.39999999999999997
+output = 1.2
+cache_read = 0.19999999999999998
+
+[limit]
+context = 163840
+output = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

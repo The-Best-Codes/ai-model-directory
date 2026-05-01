@@ -1,0 +1,20 @@
+id = "moonshotai/kimi-k2"
+name = "MoonshotAI: Kimi K2 0711"
+knowledge_cutoff = "2024-12-31"
+release_date = "2025-07-11"
+
+[features]
+tool_call = true
+temperature = true
+
+[pricing]
+input = 0.5700000000000001
+output = 2.3
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

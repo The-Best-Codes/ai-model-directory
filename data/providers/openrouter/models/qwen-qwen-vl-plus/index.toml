@@ -1,0 +1,22 @@
+id = "qwen/qwen-vl-plus"
+name = "Qwen: Qwen VL Plus"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-02-05"
+
+[features]
+attachment = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.1365
+output = 0.40950000000000003
+cache_read = 0.027299999999999998
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

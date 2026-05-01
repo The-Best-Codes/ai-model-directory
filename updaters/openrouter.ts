@@ -2,7 +2,6 @@ export const outputDirectory = "data/providers/openrouter/models";
 
 // Intermediate format
 export type Modality = "audio" | "file" | "image" | "text" | "video";
-
 export type ProviderModel = {
   // Required fields: if these are absent the model will be skipped entirely
   id: string;

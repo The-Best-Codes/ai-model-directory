@@ -1,0 +1,22 @@
+id = "~openai/gpt-latest"
+name = "OpenAI GPT Latest"
+release_date = "2026-04-27"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+
+[pricing]
+input = 5
+output = 30
+cache_read = 0.5
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

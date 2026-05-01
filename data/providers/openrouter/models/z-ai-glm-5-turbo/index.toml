@@ -1,0 +1,22 @@
+id = "z-ai/glm-5-turbo"
+name = "Z.ai: GLM 5 Turbo"
+release_date = "2026-03-15"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 1.2
+output = 4
+cache_read = 0.24
+
+[limit]
+context = 202752
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

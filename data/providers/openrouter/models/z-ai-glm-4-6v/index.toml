@@ -1,0 +1,22 @@
+id = "z-ai/glm-4.6v"
+name = "Z.ai: GLM 4.6V"
+release_date = "2025-12-08"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+temperature = true
+
+[pricing]
+input = 0.3
+output = 0.8999999999999999
+cache_read = 0.049999999999999996
+
+[limit]
+context = 131072
+output = 24000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

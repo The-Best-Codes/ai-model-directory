@@ -1,0 +1,21 @@
+id = "mistralai/devstral-small"
+name = "Mistral: Devstral Small 1.1"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-07-10"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.09999999999999999
+output = 0.3
+cache_read = 0.01
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,20 @@
+id = "google/gemma-3n-e2b-it:free"
+name = "Google: Gemma 3n 2B (free)"
+knowledge_cutoff = "2024-08-31"
+release_date = "2025-07-09"
+
+[features]
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0
+output = 0
+
+[limit]
+context = 8192
+output = 2048
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

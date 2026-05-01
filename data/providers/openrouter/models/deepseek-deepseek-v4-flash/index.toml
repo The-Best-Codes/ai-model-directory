@@ -1,0 +1,22 @@
+id = "deepseek/deepseek-v4-flash"
+name = "DeepSeek: DeepSeek V4 Flash"
+release_date = "2026-04-24"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.14
+output = 0.28
+cache_read = 0.0028
+
+[limit]
+context = 1048576
+output = 384000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,23 @@
+id = "qwen/qwen3-max"
+name = "Qwen: Qwen3 Max"
+knowledge_cutoff = "2025-06-30"
+release_date = "2025-09-23"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.78
+output = 3.9
+cache_read = 0.156
+cache_write = 0.975
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

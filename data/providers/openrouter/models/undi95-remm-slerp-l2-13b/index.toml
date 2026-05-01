@@ -1,0 +1,20 @@
+id = "undi95/remm-slerp-l2-13b"
+name = "ReMM SLERP 13B"
+knowledge_cutoff = "2023-06-30"
+release_date = "2023-07-22"
+
+[features]
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.44999999999999996
+output = 0.65
+
+[limit]
+context = 6144
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,23 @@
+id = "qwen/qwen3-8b"
+name = "Qwen: Qwen3 8B"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-04-28"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.049999999999999996
+output = 0.39999999999999997
+cache_read = 0.049999999999999996
+
+[limit]
+context = 40960
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,22 @@
+id = "qwen/qwen-max"
+name = "Qwen: Qwen-Max "
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-02-01"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 1.04
+output = 4.16
+cache_read = 0.20800000000000002
+
+[limit]
+context = 32768
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

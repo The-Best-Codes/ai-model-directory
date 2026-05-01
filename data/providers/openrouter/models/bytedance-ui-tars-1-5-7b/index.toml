@@ -1,0 +1,21 @@
+id = "bytedance/ui-tars-1.5-7b"
+name = "ByteDance: UI-TARS 7B "
+knowledge_cutoff = "2025-01-31"
+release_date = "2025-07-22"
+
+[features]
+attachment = true
+temperature = true
+
+[pricing]
+input = 0.09999999999999999
+output = 0.19999999999999998
+cache_read = 0.09999999999999999
+
+[limit]
+context = 128000
+output = 2048
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

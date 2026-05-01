@@ -1,0 +1,21 @@
+id = "openai/gpt-3.5-turbo"
+name = "OpenAI: GPT-3.5 Turbo"
+knowledge_cutoff = "2021-09-30"
+release_date = "2023-05-28"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.5
+output = 1.5
+
+[limit]
+context = 16385
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

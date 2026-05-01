@@ -1,0 +1,22 @@
+id = "meta-llama/llama-4-scout"
+name = "Meta: Llama 4 Scout"
+knowledge_cutoff = "2024-08-31"
+release_date = "2025-04-05"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.08
+output = 0.3
+
+[limit]
+context = 327680
+output = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,25 @@
+id = "anthropic/claude-sonnet-4.5"
+name = "Anthropic: Claude Sonnet 4.5"
+knowledge_cutoff = "2025-01-31"
+release_date = "2025-09-29"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 3
+output = 15
+cache_read = 0.3
+cache_write = 3.75
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

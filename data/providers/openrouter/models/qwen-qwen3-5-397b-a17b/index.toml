@@ -1,0 +1,23 @@
+id = "qwen/qwen3.5-397b-a17b"
+name = "Qwen: Qwen3.5 397B A17B"
+release_date = "2026-02-16"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.39
+output = 2.34
+cache_read = 0.195
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

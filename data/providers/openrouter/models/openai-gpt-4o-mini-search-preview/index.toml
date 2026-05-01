@@ -1,0 +1,19 @@
+id = "openai/gpt-4o-mini-search-preview"
+name = "OpenAI: GPT-4o-mini Search Preview"
+knowledge_cutoff = "2023-10-31"
+release_date = "2025-03-12"
+
+[features]
+structured_output = true
+
+[pricing]
+input = 0.15
+output = 0.6
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

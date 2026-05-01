@@ -1,0 +1,23 @@
+id = "openai/o3-mini"
+name = "OpenAI: o3 Mini"
+knowledge_cutoff = "2023-10-31"
+release_date = "2025-01-31"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+
+[pricing]
+input = 1.1
+output = 4.4
+cache_read = 0.55
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

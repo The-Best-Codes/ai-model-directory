@@ -1,0 +1,23 @@
+id = "alibaba/tongyi-deepresearch-30b-a3b"
+name = "Tongyi DeepResearch 30B A3B"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-09-18"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.09
+output = 0.44999999999999996
+cache_read = 0.09
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

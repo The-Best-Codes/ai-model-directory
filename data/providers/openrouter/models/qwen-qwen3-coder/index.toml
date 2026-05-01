@@ -1,0 +1,21 @@
+id = "qwen/qwen3-coder"
+name = "Qwen: Qwen3 Coder 480B A35B"
+knowledge_cutoff = "2025-06-30"
+release_date = "2025-07-23"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.22
+output = 1.7999999999999998
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

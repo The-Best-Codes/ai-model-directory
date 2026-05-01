@@ -1,0 +1,24 @@
+id = "anthropic/claude-3.7-sonnet"
+name = "Anthropic: Claude 3.7 Sonnet"
+knowledge_cutoff = "2024-10-31"
+release_date = "2025-02-24"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+temperature = true
+
+[pricing]
+input = 3
+output = 15
+cache_read = 0.3
+cache_write = 3.75
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

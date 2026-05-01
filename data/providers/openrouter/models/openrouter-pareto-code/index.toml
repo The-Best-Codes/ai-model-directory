@@ -1,0 +1,10 @@
+id = "openrouter/pareto-code"
+name = "Pareto Code Router"
+release_date = "2026-04-21"
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

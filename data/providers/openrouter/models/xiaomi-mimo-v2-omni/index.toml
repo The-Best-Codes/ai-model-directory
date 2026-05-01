@@ -1,0 +1,23 @@
+id = "xiaomi/mimo-v2-omni"
+name = "Xiaomi: MiMo-V2-Omni"
+release_date = "2026-03-18"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.39999999999999997
+output = 2
+cache_read = 0.08
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]

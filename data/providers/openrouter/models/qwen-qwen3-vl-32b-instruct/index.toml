@@ -1,0 +1,21 @@
+id = "qwen/qwen3-vl-32b-instruct"
+name = "Qwen: Qwen3 VL 32B Instruct"
+release_date = "2025-10-23"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.10400000000000001
+output = 0.41600000000000004
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,22 @@
+id = "qwen/qwen3-next-80b-a3b-thinking"
+name = "Qwen: Qwen3 Next 80B A3B Thinking"
+knowledge_cutoff = "2025-09-30"
+release_date = "2025-09-11"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.0975
+output = 0.78
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

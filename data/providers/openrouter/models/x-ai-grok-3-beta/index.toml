@@ -1,0 +1,21 @@
+id = "x-ai/grok-3-beta"
+name = "xAI: Grok 3 Beta"
+knowledge_cutoff = "2025-02-28"
+release_date = "2025-04-09"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 3
+output = 15
+cache_read = 0.75
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

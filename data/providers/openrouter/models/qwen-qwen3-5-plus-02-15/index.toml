@@ -1,0 +1,23 @@
+id = "qwen/qwen3.5-plus-02-15"
+name = "Qwen: Qwen3.5 Plus 2026-02-15"
+release_date = "2026-02-16"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.26
+output = 1.56
+cache_write = 0.325
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

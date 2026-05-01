@@ -1,0 +1,23 @@
+id = "qwen/qwen3-32b"
+name = "Qwen: Qwen3 32B"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-04-28"
+
+[features]
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.08
+output = 0.24
+cache_read = 0.04
+
+[limit]
+context = 40960
+output = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,23 @@
+id = "qwen/qwen3-vl-30b-a3b-thinking"
+name = "Qwen: Qwen3 VL 30B A3B Thinking"
+knowledge_cutoff = "2025-03-31"
+release_date = "2025-10-06"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.13
+output = 1.56
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

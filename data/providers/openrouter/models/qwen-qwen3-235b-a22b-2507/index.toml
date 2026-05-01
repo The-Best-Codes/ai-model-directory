@@ -1,0 +1,21 @@
+id = "qwen/qwen3-235b-a22b-2507"
+name = "Qwen: Qwen3 235B A22B Instruct 2507"
+knowledge_cutoff = "2025-06-30"
+release_date = "2025-07-21"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.071
+output = 0.09999999999999999
+
+[limit]
+context = 262144
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

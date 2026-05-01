@@ -1,0 +1,22 @@
+id = "openai/gpt-audio-mini"
+name = "OpenAI: GPT Audio Mini"
+release_date = "2026-01-19"
+
+[features]
+attachment = true
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.6
+output = 2.4
+input_audio = 0.6
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]

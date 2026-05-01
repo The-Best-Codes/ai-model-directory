@@ -1,0 +1,21 @@
+id = "qwen/qwen3-coder-30b-a3b-instruct"
+name = "Qwen: Qwen3 Coder 30B A3B Instruct"
+knowledge_cutoff = "2025-06-30"
+release_date = "2025-07-31"
+
+[features]
+tool_call = true
+structured_output = true
+temperature = true
+
+[pricing]
+input = 0.07
+output = 0.27
+
+[limit]
+context = 160000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
