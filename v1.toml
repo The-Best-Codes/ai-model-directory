@@ -22,10 +22,10 @@ input_audio = 1.00
 output_audio = 10.00
 
 [limit] # limits, omit if not sure for each limit category
-context = 400_000
-input = 272_000
-output = 8_192
+context = 400_000 # max context window size
+input = 272_000 # max input tokens per request
+output = 8_192 # max output tokens per response
 
 [modalities] # modalities, omit if not sure for each modality category
-input = ["text", "image"]
-output = ["text"]
+input = ["text", "image"] # could be text, image, audio, video
+output = ["text"] # could be text, image, audio, video
