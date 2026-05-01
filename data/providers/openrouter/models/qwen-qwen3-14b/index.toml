@@ -1,7 +1,7 @@
 id = "qwen/qwen3-14b"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Qwen: Qwen3 14B"
-release_date = "2025-04-28"
+release_date = "1745876478"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "mistral-nemo-instruct-2407"
 name = "mistral-nemo-instruct-2407"
-release_date = "2024-08-07"
+release_date = "1723020793"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "qwen/qwen3.5-397b-a17b"
 name = "Qwen: Qwen3.5 397B A17B"
-release_date = "2026-02-16"
+release_date = "1771223018"
 
 [features]
 attachment = true

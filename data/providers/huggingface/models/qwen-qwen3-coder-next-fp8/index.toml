@@ -1,6 +1,6 @@
 id = "Qwen/Qwen3-Coder-Next-FP8"
 name = "Qwen/Qwen3-Coder-Next-FP8"
-release_date = "2026-02-01"
+release_date = "1769948561"
 
 [features]
 attachment = false

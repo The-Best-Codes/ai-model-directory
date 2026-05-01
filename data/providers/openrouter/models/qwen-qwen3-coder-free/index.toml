@@ -1,7 +1,7 @@
 id = "qwen/qwen3-coder:free"
-knowledge_cutoff = "2025-06-30"
+knowledge_cutoff = "1751241600"
 name = "Qwen: Qwen3 Coder 480B A35B (free)"
-release_date = "2025-07-23"
+release_date = "1753230546"
 
 [features]
 attachment = false

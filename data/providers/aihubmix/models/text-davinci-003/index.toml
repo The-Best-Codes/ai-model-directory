@@ -2,10 +2,12 @@ id = "text-davinci-003"
 name = "text-davinci-003"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 20

@@ -1,6 +1,6 @@
 id = "meta-llama/llama-3.1-8b-instant"
 name = "Meta: LLaMA 3.1 8B Instant"
-release_date = "2025-02-12"
+release_date = "1739401240"
 
 [features]
 attachment = false

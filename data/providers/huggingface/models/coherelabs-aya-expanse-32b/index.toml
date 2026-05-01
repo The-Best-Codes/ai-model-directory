@@ -1,6 +1,6 @@
 id = "CohereLabs/aya-expanse-32b"
 name = "CohereLabs/aya-expanse-32b"
-release_date = "2024-10-23"
+release_date = "1729665764"
 
 [features]
 attachment = false

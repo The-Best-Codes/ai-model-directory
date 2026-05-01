@@ -1,7 +1,7 @@
 id = "moonshotai/kimi-k2-0905"
-knowledge_cutoff = "2024-12-31"
+knowledge_cutoff = "1735603200"
 name = "MoonshotAI: Kimi K2 0905"
-release_date = "2025-09-04"
+release_date = "1757021147"
 
 [features]
 attachment = false

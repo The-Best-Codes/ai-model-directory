@@ -1,6 +1,6 @@
 id = "x-ai/grok-3-mini-beta"
 name = "xAI: Grok 3 Mini Beta"
-release_date = "2025-04-09"
+release_date = "1744240195"
 
 [features]
 attachment = false

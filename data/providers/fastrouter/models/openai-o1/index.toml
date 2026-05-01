@@ -1,9 +1,9 @@
 id = "openai/o1"
 name = "OpenAI: o1"
-release_date = "2024-12-17"
+release_date = "1734459999"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = false

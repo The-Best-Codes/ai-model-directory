@@ -1,6 +1,6 @@
 id = "LGAI-EXAONE/K-EXAONE-236B-A23B"
 name = "LGAI-EXAONE/K-EXAONE-236B-A23B"
-release_date = "2025-12-31"
+release_date = "1767166200"
 
 [features]
 structured_output = true

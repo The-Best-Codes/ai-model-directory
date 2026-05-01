@@ -1,9 +1,9 @@
 id = "google/veo3-fast"
 name = "Google: Google Veo 3 Fast"
-release_date = "2025-02-12"
+release_date = "1739403003"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = false

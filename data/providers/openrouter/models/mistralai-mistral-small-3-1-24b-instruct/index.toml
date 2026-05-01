@@ -1,10 +1,10 @@
 id = "mistralai/mistral-small-3.1-24b-instruct"
-knowledge_cutoff = "2023-10-31"
+knowledge_cutoff = "1698710400"
 name = "Mistral: Mistral Small 3.1 24B"
-release_date = "2025-03-17"
+release_date = "1742238937"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 temperature = true

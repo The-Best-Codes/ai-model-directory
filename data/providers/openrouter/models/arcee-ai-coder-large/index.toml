@@ -1,7 +1,7 @@
 id = "arcee-ai/coder-large"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Arcee AI: Coder Large"
-release_date = "2025-05-05"
+release_date = "1746478663"
 
 [features]
 attachment = false

@@ -2,10 +2,12 @@ id = "yi-vl-plus"
 name = "yi-vl-plus"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.000852

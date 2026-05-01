@@ -1,7 +1,7 @@
 id = "openai/gpt-5.4-nano"
-knowledge_cutoff = "2025-08-31"
+knowledge_cutoff = "1756598400"
 name = "OpenAI: GPT-5.4 Nano"
-release_date = "2026-03-17"
+release_date = "1773748187"
 
 [features]
 attachment = true

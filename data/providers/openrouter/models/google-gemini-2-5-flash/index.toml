@@ -1,7 +1,7 @@
 id = "google/gemini-2.5-flash"
-knowledge_cutoff = "2025-01-31"
+knowledge_cutoff = "1738281600"
 name = "Google: Gemini 2.5 Flash"
-release_date = "2025-06-17"
+release_date = "1750172488"
 
 [features]
 attachment = true

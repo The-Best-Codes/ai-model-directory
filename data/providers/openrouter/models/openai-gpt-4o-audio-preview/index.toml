@@ -1,10 +1,10 @@
 id = "openai/gpt-4o-audio-preview"
-knowledge_cutoff = "2023-10-31"
+knowledge_cutoff = "1698710400"
 name = "OpenAI: GPT-4o Audio"
-release_date = "2025-08-15"
+release_date = "1755233061"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

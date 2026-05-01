@@ -1,6 +1,6 @@
 id = "gpt-oss-120b"
 name = "gpt-oss-120b"
-release_date = "2025-08-05"
+release_date = "1754393882"
 
 [features]
 attachment = false

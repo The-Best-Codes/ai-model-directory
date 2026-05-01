@@ -1,6 +1,6 @@
 id = "openai/o4-mini-deep-research"
 name = "OpenAI: o4 Mini Deep Research"
-release_date = "2025-10-10"
+release_date = "1760129642"
 
 [features]
 attachment = true

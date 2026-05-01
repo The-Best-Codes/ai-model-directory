@@ -1,6 +1,6 @@
 id = "meta-llama/Llama-4-Scout-17B-16E-Instruct"
 name = "meta-llama/Llama-4-Scout-17B-16E-Instruct"
-release_date = "2025-04-02"
+release_date = "1743600857"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "utter-project/EuroLLM-22B-Instruct-2512"
 name = "utter-project/EuroLLM-22B-Instruct-2512"
-release_date = "2025-12-05"
+release_date = "1764902017"
 
 [features]
 attachment = false

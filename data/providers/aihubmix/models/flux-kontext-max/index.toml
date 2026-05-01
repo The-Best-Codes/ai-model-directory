@@ -2,7 +2,9 @@ id = "flux-kontext-max"
 name = "flux-kontext-max"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0

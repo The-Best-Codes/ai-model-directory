@@ -1,9 +1,9 @@
 id = "openai/sora-2-pro"
 name = "OpenAI: Sora 2 Pro"
-release_date = "2025-10-01"
+release_date = "1759304819"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = false

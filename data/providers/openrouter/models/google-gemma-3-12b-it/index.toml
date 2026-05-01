@@ -1,10 +1,10 @@
 id = "google/gemma-3-12b-it"
-knowledge_cutoff = "2024-08-31"
+knowledge_cutoff = "1725062400"
 name = "Google: Gemma 3 12B"
-release_date = "2025-03-13"
+release_date = "1741902625"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

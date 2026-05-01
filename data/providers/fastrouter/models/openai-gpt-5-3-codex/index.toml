@@ -1,9 +1,9 @@
 id = "openai/gpt-5.3-codex"
 name = "OpenAI: GPT-5.3-Codex"
-release_date = "2026-02-24"
+release_date = "1771959164"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = false

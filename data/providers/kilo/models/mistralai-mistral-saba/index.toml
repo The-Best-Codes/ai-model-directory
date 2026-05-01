@@ -1,6 +1,6 @@
 id = "mistralai/mistral-saba"
 name = "Mistral: Saba"
-release_date = "2025-02-17"
+release_date = "1739803239"
 
 [features]
 attachment = false

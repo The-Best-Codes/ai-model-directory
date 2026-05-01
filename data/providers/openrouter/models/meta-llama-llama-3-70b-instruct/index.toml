@@ -1,7 +1,7 @@
 id = "meta-llama/llama-3-70b-instruct"
-knowledge_cutoff = "2023-12-31"
+knowledge_cutoff = "1703980800"
 name = "Meta: Llama 3 70B Instruct"
-release_date = "2024-04-18"
+release_date = "1713398400"
 
 [features]
 attachment = false

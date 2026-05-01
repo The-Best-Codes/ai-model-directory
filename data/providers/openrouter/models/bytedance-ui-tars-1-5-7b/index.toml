@@ -1,10 +1,10 @@
 id = "bytedance/ui-tars-1.5-7b"
-knowledge_cutoff = "2025-01-31"
+knowledge_cutoff = "1738281600"
 name = "ByteDance: UI-TARS 7B "
-release_date = "2025-07-22"
+release_date = "1753205056"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 temperature = true

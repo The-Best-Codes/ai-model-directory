@@ -1,6 +1,6 @@
 id = "meta-llama/llama-4-scout"
 name = "Meta: Llama 4 Scout"
-release_date = "2025-04-05"
+release_date = "1743881519"
 
 [features]
 attachment = true

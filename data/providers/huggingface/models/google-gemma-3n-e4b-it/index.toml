@@ -1,6 +1,6 @@
 id = "google/gemma-3n-E4B-it"
 name = "google/gemma-3n-E4B-it"
-release_date = "2025-06-03"
+release_date = "1748974627"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "x-ai/grok-4.20-multi-agent"
 name = "xAI: Grok 4.20 Multi-Agent"
-release_date = "2026-03-31"
+release_date = "1774979158"
 
 [features]
 attachment = true

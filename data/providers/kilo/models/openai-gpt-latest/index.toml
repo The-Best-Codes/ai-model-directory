@@ -1,6 +1,6 @@
 id = "~openai/gpt-latest"
 name = "OpenAI GPT Latest"
-release_date = "2026-04-27"
+release_date = "1777318334"
 
 [features]
 attachment = true

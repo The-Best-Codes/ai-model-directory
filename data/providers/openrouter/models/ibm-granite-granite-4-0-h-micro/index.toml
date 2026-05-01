@@ -1,6 +1,6 @@
 id = "ibm-granite/granite-4.0-h-micro"
 name = "IBM: Granite 4.0 Micro"
-release_date = "2025-10-20"
+release_date = "1760927695"
 
 [features]
 attachment = false

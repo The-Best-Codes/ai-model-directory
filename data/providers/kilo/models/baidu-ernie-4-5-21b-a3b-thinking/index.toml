@@ -1,6 +1,6 @@
 id = "baidu/ernie-4.5-21b-a3b-thinking"
 name = "Baidu: ERNIE 4.5 21B A3B Thinking"
-release_date = "2025-10-09"
+release_date = "1760048887"
 
 [features]
 attachment = false

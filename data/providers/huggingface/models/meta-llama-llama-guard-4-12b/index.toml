@@ -1,6 +1,6 @@
 id = "meta-llama/Llama-Guard-4-12B"
 name = "meta-llama/Llama-Guard-4-12B"
-release_date = "2025-04-23"
+release_date = "1745407825"
 
 [features]
 attachment = true

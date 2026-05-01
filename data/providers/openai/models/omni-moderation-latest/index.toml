@@ -1,6 +1,6 @@
 id = "omni-moderation-latest"
 name = "omni-moderation"
-release_date = "2024-11-15"
+release_date = "1731689265"
 
 [features]
 attachment = true

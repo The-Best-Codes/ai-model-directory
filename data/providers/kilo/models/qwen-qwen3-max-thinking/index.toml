@@ -1,6 +1,6 @@
 id = "qwen/qwen3-max-thinking"
 name = "Qwen: Qwen3 Max Thinking"
-release_date = "2026-02-09"
+release_date = "1770671901"
 
 [features]
 attachment = false

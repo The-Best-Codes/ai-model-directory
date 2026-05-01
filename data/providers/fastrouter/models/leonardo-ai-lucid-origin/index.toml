@@ -1,6 +1,6 @@
 id = "leonardo-ai/lucid-origin"
 name = "Leonardo.AI: Lucid Origin"
-release_date = "2025-08-05"
+release_date = "1754393109"
 
 [features]
 attachment = false

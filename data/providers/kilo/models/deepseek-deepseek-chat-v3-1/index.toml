@@ -1,6 +1,6 @@
 id = "deepseek/deepseek-chat-v3.1"
 name = "DeepSeek: DeepSeek V3.1"
-release_date = "2025-08-21"
+release_date = "1755779628"
 
 [features]
 attachment = false

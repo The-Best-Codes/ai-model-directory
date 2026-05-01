@@ -1,9 +1,9 @@
 id = "kling-ai/kling-video-o1"
 name = "Kling AI: Kling Video O1"
-release_date = "2025-12-01"
+release_date = "1764569103"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = false

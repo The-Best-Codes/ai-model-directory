@@ -1,9 +1,9 @@
 id = "openai/gpt-4o-realtime-preview-2025-06-03"
 name = "GPT-4o Realtime Preview (2025-06-03)"
-release_date = "2025-06-03"
+release_date = "1748908800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 temperature = true

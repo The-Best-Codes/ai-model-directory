@@ -1,6 +1,6 @@
 id = "perplexity/sonar-deep-research"
 name = "Perplexity: Sonar Deep Research"
-release_date = "2025-03-07"
+release_date = "1741311246"
 
 [features]
 attachment = false

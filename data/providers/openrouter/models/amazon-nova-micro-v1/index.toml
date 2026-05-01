@@ -1,7 +1,7 @@
 id = "amazon/nova-micro-v1"
-knowledge_cutoff = "2024-10-31"
+knowledge_cutoff = "1730332800"
 name = "Amazon: Nova Micro 1.0"
-release_date = "2024-12-05"
+release_date = "1733437237"
 
 [features]
 attachment = false

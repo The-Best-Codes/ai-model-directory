@@ -1,6 +1,6 @@
 id = "mistralai/mistral-large"
 name = "Mistral Large"
-release_date = "2024-02-26"
+release_date = "1708905600"
 
 [features]
 attachment = false

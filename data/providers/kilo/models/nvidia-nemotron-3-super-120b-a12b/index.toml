@@ -1,6 +1,6 @@
 id = "nvidia/nemotron-3-super-120b-a12b"
 name = "NVIDIA: Nemotron 3 Super"
-release_date = "2026-03-11"
+release_date = "1773245239"
 
 [features]
 attachment = false

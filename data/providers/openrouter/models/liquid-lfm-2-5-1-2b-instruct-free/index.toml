@@ -1,6 +1,6 @@
 id = "liquid/lfm-2.5-1.2b-instruct:free"
 name = "LiquidAI: LFM2.5-1.2B-Instruct (free)"
-release_date = "2026-01-20"
+release_date = "1768927521"
 
 [features]
 attachment = false

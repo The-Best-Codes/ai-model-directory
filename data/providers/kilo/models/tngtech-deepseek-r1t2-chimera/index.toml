@@ -1,6 +1,6 @@
 id = "tngtech/deepseek-r1t2-chimera"
 name = "TNG: DeepSeek R1T2 Chimera"
-release_date = "2025-07-08"
+release_date = "1751986985"
 
 [features]
 attachment = false

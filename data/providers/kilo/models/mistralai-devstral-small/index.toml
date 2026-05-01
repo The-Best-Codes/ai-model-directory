@@ -1,6 +1,6 @@
 id = "mistralai/devstral-small"
 name = "Mistral: Devstral Small 1.1"
-release_date = "2025-07-10"
+release_date = "1752160751"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "mancer/weaver"
 name = "Mancer: Weaver (alpha)"
-release_date = "2023-08-02"
+release_date = "1690934400"
 
 [features]
 attachment = false

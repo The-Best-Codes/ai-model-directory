@@ -1,9 +1,9 @@
 id = "google/veo2"
 name = "Google: Google Veo 2"
-release_date = "2025-02-12"
+release_date = "1739403111"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = false

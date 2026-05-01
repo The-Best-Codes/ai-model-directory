@@ -1,7 +1,7 @@
 id = "qwen/qwen-plus-2025-07-28:thinking"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Qwen: Qwen Plus 0728 (thinking)"
-release_date = "2025-09-08"
+release_date = "1757347599"
 
 [features]
 attachment = false

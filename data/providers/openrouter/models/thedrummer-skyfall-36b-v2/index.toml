@@ -1,7 +1,7 @@
 id = "thedrummer/skyfall-36b-v2"
-knowledge_cutoff = "2024-06-30"
+knowledge_cutoff = "1719705600"
 name = "TheDrummer: Skyfall 36B V2"
-release_date = "2025-03-10"
+release_date = "1741636566"
 
 [features]
 attachment = false

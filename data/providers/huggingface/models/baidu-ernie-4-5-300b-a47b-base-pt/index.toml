@@ -1,6 +1,6 @@
 id = "baidu/ERNIE-4.5-300B-A47B-Base-PT"
 name = "baidu/ERNIE-4.5-300B-A47B-Base-PT"
-release_date = "2025-06-28"
+release_date = "1751089026"
 
 [features]
 attachment = false

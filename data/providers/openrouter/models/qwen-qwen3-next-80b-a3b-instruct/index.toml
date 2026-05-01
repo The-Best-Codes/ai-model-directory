@@ -1,7 +1,7 @@
 id = "qwen/qwen3-next-80b-a3b-instruct"
-knowledge_cutoff = "2025-09-30"
+knowledge_cutoff = "1759190400"
 name = "Qwen: Qwen3 Next 80B A3B Instruct"
-release_date = "2025-09-11"
+release_date = "1757612213"
 
 [features]
 attachment = false

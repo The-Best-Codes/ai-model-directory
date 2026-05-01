@@ -1,9 +1,9 @@
 id = "openai/gpt-realtime"
 name = "GPT Realtime"
-release_date = "2025-08-28"
+release_date = "1756339200"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 temperature = true

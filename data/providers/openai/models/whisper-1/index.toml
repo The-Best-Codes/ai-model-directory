@@ -1,9 +1,9 @@
 id = "whisper-1"
 name = "Whisper"
-release_date = "2023-02-27"
+release_date = "1677532384"
 
 [features]
-attachment = false
+attachment = true
 
 [modalities]
 input = [ "audio" ]

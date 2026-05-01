@@ -1,10 +1,10 @@
 id = "meta-llama/llama-guard-4-12b"
-knowledge_cutoff = "2024-08-31"
+knowledge_cutoff = "1725062400"
 name = "Meta: Llama Guard 4 12B"
-release_date = "2025-04-30"
+release_date = "1745975193"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

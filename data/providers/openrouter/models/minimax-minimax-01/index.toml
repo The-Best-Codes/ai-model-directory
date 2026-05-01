@@ -1,10 +1,10 @@
 id = "minimax/minimax-01"
-knowledge_cutoff = "2024-03-31"
+knowledge_cutoff = "1711843200"
 name = "MiniMax: MiniMax-01"
-release_date = "2025-01-15"
+release_date = "1736915462"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 temperature = true

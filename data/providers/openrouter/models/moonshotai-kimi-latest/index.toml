@@ -1,9 +1,9 @@
 id = "~moonshotai/kimi-latest"
 name = "MoonshotAI Kimi Latest"
-release_date = "2026-04-27"
+release_date = "1777318428"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

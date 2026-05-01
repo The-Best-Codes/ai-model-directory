@@ -1,9 +1,9 @@
 id = "baidu/qianfan-ocr-fast:free"
 name = "Baidu: Qianfan-OCR-Fast (free)"
-release_date = "2026-04-20"
+release_date = "1776707472"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = true

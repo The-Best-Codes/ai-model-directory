@@ -1,9 +1,9 @@
 id = "anthropic/claude-opus-4.6-fast"
 name = "Anthropic: Claude Opus 4.6 (Fast)"
-release_date = "2026-04-07"
+release_date = "1775592472"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

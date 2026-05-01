@@ -1,6 +1,6 @@
 id = "tencent/hunyuan-a13b-instruct"
 name = "Tencent: Hunyuan A13B Instruct"
-release_date = "2025-07-08"
+release_date = "1751987664"
 
 [features]
 attachment = false

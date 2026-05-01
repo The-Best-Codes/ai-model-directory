@@ -1,6 +1,6 @@
 id = "nova-2-lite"
 name = "nova-2-lite"
-release_date = "2025-12-04"
+release_date = "1764848282"
 
 [features]
 attachment = true

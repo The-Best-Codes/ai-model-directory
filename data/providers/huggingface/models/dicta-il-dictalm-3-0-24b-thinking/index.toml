@@ -1,6 +1,6 @@
 id = "dicta-il/DictaLM-3.0-24B-Thinking"
 name = "dicta-il/DictaLM-3.0-24B-Thinking"
-release_date = "2025-12-01"
+release_date = "1764618951"
 
 [features]
 attachment = false

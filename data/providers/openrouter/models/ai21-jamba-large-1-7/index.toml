@@ -1,7 +1,7 @@
 id = "ai21/jamba-large-1.7"
-knowledge_cutoff = "2024-08-31"
+knowledge_cutoff = "1725062400"
 name = "AI21: Jamba Large 1.7"
-release_date = "2025-08-08"
+release_date = "1754669020"
 
 [features]
 attachment = false

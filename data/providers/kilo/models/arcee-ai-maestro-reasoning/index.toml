@@ -1,6 +1,6 @@
 id = "arcee-ai/maestro-reasoning"
 name = "Arcee AI: Maestro Reasoning"
-release_date = "2025-05-05"
+release_date = "1746481269"
 
 [features]
 attachment = false

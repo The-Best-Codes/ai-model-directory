@@ -1,6 +1,6 @@
 id = "deepseek-ai/DeepSeek-Prover-V2-671B"
 name = "DeepSeek: DeepSeek Prover V2"
-release_date = "2025-04-30"
+release_date = "1746013094"
 
 [features]
 attachment = false

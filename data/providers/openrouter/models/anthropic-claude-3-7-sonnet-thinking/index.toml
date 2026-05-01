@@ -1,7 +1,7 @@
 id = "anthropic/claude-3.7-sonnet:thinking"
-knowledge_cutoff = "2024-10-31"
+knowledge_cutoff = "1730332800"
 name = "Anthropic: Claude 3.7 Sonnet (thinking)"
-release_date = "2025-02-24"
+release_date = "1740422110"
 
 [features]
 attachment = true

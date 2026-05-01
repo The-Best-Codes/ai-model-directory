@@ -1,7 +1,7 @@
 id = "deepseek/deepseek-r1-0528"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "DeepSeek: R1 0528"
-release_date = "2025-05-28"
+release_date = "1748455170"
 
 [features]
 attachment = false

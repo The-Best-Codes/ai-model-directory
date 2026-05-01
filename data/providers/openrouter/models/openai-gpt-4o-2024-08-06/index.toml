@@ -1,7 +1,7 @@
 id = "openai/gpt-4o-2024-08-06"
-knowledge_cutoff = "2023-10-31"
+knowledge_cutoff = "1698710400"
 name = "OpenAI: GPT-4o (2024-08-06)"
-release_date = "2024-08-06"
+release_date = "1722902400"
 
 [features]
 attachment = true

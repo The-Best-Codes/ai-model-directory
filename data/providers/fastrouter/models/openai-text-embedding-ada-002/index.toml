@@ -1,6 +1,6 @@
 id = "openai/text-embedding-ada-002"
 name = "OpenAI: text-embedding-ada-002"
-release_date = "2024-01-25"
+release_date = "1706140800"
 
 [features]
 attachment = false

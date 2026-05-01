@@ -1,6 +1,6 @@
 id = "deepinfra/intfloat-e5-base-v2"
 name = "DeepInfra: intfloat/e5-base-v2"
-release_date = "2024-01-10"
+release_date = "1704902400"
 
 [features]
 attachment = false

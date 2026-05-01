@@ -1,6 +1,6 @@
 id = "meta-llama/llama-3.3-70b-versatile"
 name = "Meta: LLaMA 3.3 70B Versatile"
-release_date = "2025-02-12"
+release_date = "1739401255"
 
 [features]
 attachment = false

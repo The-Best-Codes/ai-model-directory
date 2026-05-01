@@ -1,6 +1,6 @@
 id = "openai/gpt-5.1-codex-mini"
 name = "OpenAI: GPT-5.1-Codex-Mini"
-release_date = "2025-11-13"
+release_date = "1763057820"
 
 [features]
 attachment = true

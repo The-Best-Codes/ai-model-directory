@@ -1,6 +1,6 @@
 id = "bytedance/ui-tars-1.5-7b"
 name = "ByteDance: UI-TARS 7B "
-release_date = "2025-07-22"
+release_date = "1753205056"
 
 [features]
 attachment = true

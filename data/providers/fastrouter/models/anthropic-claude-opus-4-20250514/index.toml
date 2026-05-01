@@ -1,9 +1,9 @@
 id = "anthropic/claude-opus-4-20250514"
 name = "Anthropic: Claude Opus 4"
-release_date = "2025-05-22"
+release_date = "1747931245"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = true

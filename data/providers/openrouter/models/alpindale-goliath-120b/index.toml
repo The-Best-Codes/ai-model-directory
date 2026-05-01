@@ -1,7 +1,7 @@
 id = "alpindale/goliath-120b"
-knowledge_cutoff = "2023-12-31"
+knowledge_cutoff = "1703980800"
 name = "Goliath 120B"
-release_date = "2023-11-10"
+release_date = "1699574400"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "qwen/qwen3-coder"
 name = "Qwen: Qwen3 Coder "
-release_date = "2025-07-23"
+release_date = "1753230546"
 
 [features]
 attachment = false

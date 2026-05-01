@@ -1,7 +1,7 @@
 id = "openai/o4-mini-high"
-knowledge_cutoff = "2024-06-30"
+knowledge_cutoff = "1719705600"
 name = "OpenAI: o4 Mini High"
-release_date = "2025-04-16"
+release_date = "1744824212"
 
 [features]
 attachment = true

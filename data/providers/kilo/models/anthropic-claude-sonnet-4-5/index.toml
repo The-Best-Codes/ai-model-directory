@@ -1,6 +1,6 @@
 id = "anthropic/claude-sonnet-4.5"
 name = "Anthropic: Claude Sonnet 4.5"
-release_date = "2025-09-29"
+release_date = "1759161676"
 
 [features]
 attachment = true

@@ -1,7 +1,7 @@
 id = "arcee-ai/virtuoso-large"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Arcee AI: Virtuoso Large"
-release_date = "2025-05-05"
+release_date = "1746478885"
 
 [features]
 attachment = false

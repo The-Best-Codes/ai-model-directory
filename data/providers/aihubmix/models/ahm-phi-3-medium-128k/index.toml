@@ -2,10 +2,12 @@ id = "ahm-Phi-3-medium-128k"
 name = "ahm-Phi-3-medium-128k"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 6

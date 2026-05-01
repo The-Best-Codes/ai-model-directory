@@ -1,6 +1,6 @@
 id = "openai/o3-mini"
 name = "OpenAI: o3 Mini"
-release_date = "2025-01-31"
+release_date = "1738351721"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "deepseek-ai/DeepSeek-V4-Pro"
 name = "deepseek-ai/DeepSeek-V4-Pro"
-release_date = "2026-04-22"
+release_date = "1776837885"
 
 [features]
 attachment = false

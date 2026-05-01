@@ -1,10 +1,10 @@
 id = "qwen/qwen3-vl-235b-a22b-thinking"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Qwen: Qwen3 VL 235B A22B Thinking"
-release_date = "2025-09-23"
+release_date = "1758668690"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

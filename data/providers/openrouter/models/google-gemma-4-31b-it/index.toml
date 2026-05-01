@@ -1,9 +1,9 @@
 id = "google/gemma-4-31b-it"
 name = "Google: Gemma 4 31B"
-release_date = "2026-04-02"
+release_date = "1775148486"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

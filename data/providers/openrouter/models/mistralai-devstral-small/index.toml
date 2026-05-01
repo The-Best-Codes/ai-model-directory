@@ -1,7 +1,7 @@
 id = "mistralai/devstral-small"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Mistral: Devstral Small 1.1"
-release_date = "2025-07-10"
+release_date = "1752160751"
 
 [features]
 attachment = false

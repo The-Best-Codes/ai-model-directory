@@ -1,7 +1,7 @@
 id = "aion-labs/aion-rp-llama-3.1-8b"
-knowledge_cutoff = "2023-12-31"
+knowledge_cutoff = "1703980800"
 name = "AionLabs: Aion-RP 1.0 (8B)"
-release_date = "2025-02-04"
+release_date = "1738696718"
 
 [features]
 attachment = false

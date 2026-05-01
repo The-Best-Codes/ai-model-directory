@@ -1,6 +1,6 @@
 id = "microsoft/phi-4"
 name = "Microsoft: Phi 4"
-release_date = "2025-01-10"
+release_date = "1736489872"
 
 [features]
 attachment = false

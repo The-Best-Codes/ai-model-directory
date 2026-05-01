@@ -1,9 +1,9 @@
 id = "x-ai/grok-4.20-beta"
 name = "xAI: Grok 4.20 Beta"
-release_date = "2026-03-12"
+release_date = "1773325354"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

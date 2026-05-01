@@ -1,6 +1,6 @@
 id = "mistralai/mistral-medium-3"
 name = "Mistral: Mistral Medium 3"
-release_date = "2025-05-07"
+release_date = "1746627341"
 
 [features]
 attachment = true

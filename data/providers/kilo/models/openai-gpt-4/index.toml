@@ -1,9 +1,9 @@
 id = "openai/gpt-4"
 name = "OpenAI: GPT-4 ($$$$)"
-release_date = "2023-05-28"
+release_date = "1685232000"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

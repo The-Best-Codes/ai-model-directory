@@ -1,6 +1,6 @@
 id = "meta-llama/llama-4-maverick"
 name = "Meta: Llama 4 Maverick"
-release_date = "2025-04-05"
+release_date = "1743881822"
 
 [features]
 attachment = true

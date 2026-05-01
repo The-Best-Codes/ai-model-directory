@@ -2,10 +2,12 @@ id = "qwen2.5-14b-instruct"
 name = "qwen2.5-14b-instruct"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.4

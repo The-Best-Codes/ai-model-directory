@@ -1,7 +1,7 @@
 id = "openai/o3"
-knowledge_cutoff = "2024-06-30"
+knowledge_cutoff = "1719705600"
 name = "OpenAI: o3"
-release_date = "2025-04-16"
+release_date = "1744823457"
 
 [features]
 attachment = true

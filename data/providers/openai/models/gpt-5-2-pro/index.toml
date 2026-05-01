@@ -1,7 +1,7 @@
 id = "gpt-5.2-pro"
-knowledge_cutoff = "2025-08-31"
+knowledge_cutoff = "1756616400"
 name = "GPT-5.2 pro"
-release_date = "2025-12-10"
+release_date = "1765343983"
 
 [features]
 attachment = true

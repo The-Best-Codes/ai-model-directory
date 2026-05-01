@@ -1,9 +1,9 @@
 id = "openai/gpt-image-2"
 name = "OpenAI: GPT Image 2"
-release_date = "2026-04-21"
+release_date = "1776797528"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = false

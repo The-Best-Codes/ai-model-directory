@@ -1,6 +1,6 @@
 id = "black-forest-labs/flux-dev"
 name = "Black Forest Labs: FLUX Dev"
-release_date = "2024-08-21"
+release_date = "1724239509"
 
 [features]
 attachment = false

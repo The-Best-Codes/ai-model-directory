@@ -1,7 +1,7 @@
 id = "openai/gpt-4-1106-preview"
-knowledge_cutoff = "2023-04-30"
+knowledge_cutoff = "1682812800"
 name = "OpenAI: GPT-4 Turbo (older v1106)"
-release_date = "2023-11-06"
+release_date = "1699228800"
 
 [features]
 attachment = false

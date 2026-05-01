@@ -1,7 +1,7 @@
 id = "sao10k/l3-euryale-70b"
-knowledge_cutoff = "2023-12-31"
+knowledge_cutoff = "1703980800"
 name = "Sao10k: Llama 3 Euryale 70B v2.1"
-release_date = "2024-06-18"
+release_date = "1718668800"
 
 [features]
 attachment = false

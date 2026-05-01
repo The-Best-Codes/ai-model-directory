@@ -1,9 +1,9 @@
 id = "openai/gpt-4o-search-preview"
 name = "OpenAI: GPT-4o Search Preview"
-release_date = "2025-03-12"
+release_date = "1741817949"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = false

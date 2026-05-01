@@ -1,9 +1,9 @@
 id = "openai/o4-mini"
 name = "OpenAI: o4 Mini"
-release_date = "2025-04-16"
+release_date = "1744820942"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = false

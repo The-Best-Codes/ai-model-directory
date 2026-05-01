@@ -1,6 +1,6 @@
 id = "switchpoint/router"
 name = "Switchpoint Router"
-release_date = "2025-07-11"
+release_date = "1752272899"
 
 [features]
 attachment = false

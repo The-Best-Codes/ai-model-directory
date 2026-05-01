@@ -1,6 +1,6 @@
 id = "mistral-7b-instruct-v0.3"
 name = "mistral-7b-instruct-v0.3"
-release_date = "2025-05-26"
+release_date = "1748252162"
 
 [features]
 attachment = false

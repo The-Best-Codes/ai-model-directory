@@ -1,6 +1,6 @@
 id = "unsloth/Llama-3.2-3B-Instruct"
 name = "unsloth/Llama-3.2-3B-Instruct"
-release_date = "2026-05-01"
+release_date = "1777665742"
 
 [limit]
 context = 16384

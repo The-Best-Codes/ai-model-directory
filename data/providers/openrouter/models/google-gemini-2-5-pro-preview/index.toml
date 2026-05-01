@@ -1,7 +1,7 @@
 id = "google/gemini-2.5-pro-preview"
-knowledge_cutoff = "2025-01-31"
+knowledge_cutoff = "1738281600"
 name = "Google: Gemini 2.5 Pro Preview 06-05"
-release_date = "2025-06-05"
+release_date = "1749137257"
 
 [features]
 attachment = true

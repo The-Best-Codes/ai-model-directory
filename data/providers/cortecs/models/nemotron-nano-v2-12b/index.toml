@@ -1,6 +1,6 @@
 id = "nemotron-nano-v2-12b"
 name = "nemotron-nano-v2-12b"
-release_date = "2025-10-31"
+release_date = "1761910682"
 
 [features]
 attachment = true

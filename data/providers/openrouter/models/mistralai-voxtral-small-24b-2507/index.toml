@@ -1,9 +1,9 @@
 id = "mistralai/voxtral-small-24b-2507"
 name = "Mistral: Voxtral Small 24B 2507"
-release_date = "2025-10-30"
+release_date = "1761835144"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

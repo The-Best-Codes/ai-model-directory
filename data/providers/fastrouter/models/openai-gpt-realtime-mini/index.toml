@@ -1,9 +1,9 @@
 id = "openai/gpt-realtime-mini"
 name = "GPT Realtime Mini"
-release_date = "2025-10-06"
+release_date = "1759708800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 temperature = true

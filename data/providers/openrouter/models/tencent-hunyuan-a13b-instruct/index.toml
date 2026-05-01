@@ -1,7 +1,7 @@
 id = "tencent/hunyuan-a13b-instruct"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Tencent: Hunyuan A13B Instruct"
-release_date = "2025-07-08"
+release_date = "1751987664"
 
 [features]
 attachment = false

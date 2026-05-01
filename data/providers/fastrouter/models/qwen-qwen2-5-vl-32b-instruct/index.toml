@@ -1,9 +1,9 @@
 id = "qwen/qwen2.5-vl-32b-instruct"
 name = "Qwen: Qwen2.5 VL 32B Instruct"
-release_date = "2025-03-24"
+release_date = "1742839838"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

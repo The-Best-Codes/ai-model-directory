@@ -1,7 +1,7 @@
 id = "mistralai/codestral-2508"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Mistral: Codestral 2508"
-release_date = "2025-08-01"
+release_date = "1754079630"
 
 [features]
 attachment = false

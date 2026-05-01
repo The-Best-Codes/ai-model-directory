@@ -1,6 +1,6 @@
 id = "allenai/Olmo-3-7B-Instruct"
 name = "allenai/Olmo-3-7B-Instruct"
-release_date = "2025-11-19"
+release_date = "1763585393"
 
 [features]
 attachment = false

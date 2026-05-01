@@ -1,7 +1,7 @@
 id = "deepseek/deepseek-chat"
-knowledge_cutoff = "2024-07-31"
+knowledge_cutoff = "1722384000"
 name = "DeepSeek: DeepSeek V3"
-release_date = "2024-12-26"
+release_date = "1735241320"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "black-forest-labs/flux-kontext-pro"
 name = "Black Forest Labs: FLUX Kontext Pro"
-release_date = "2025-05-29"
+release_date = "1748517909"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "Qwen/Qwen3Guard-Gen-0.6B"
 name = "Qwen/Qwen3Guard-Gen-0.6B"
-release_date = "2026-05-01"
+release_date = "1777665741"
 
 [limit]
 context = 32768

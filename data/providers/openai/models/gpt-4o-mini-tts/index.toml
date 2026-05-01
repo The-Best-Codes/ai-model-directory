@@ -1,6 +1,6 @@
 id = "gpt-4o-mini-tts"
 name = "GPT-4o mini TTS"
-release_date = "2025-03-19"
+release_date = "1742403959"
 
 [features]
 attachment = false

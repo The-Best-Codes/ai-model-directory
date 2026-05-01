@@ -1,9 +1,9 @@
 id = "vidu/vidu-v2-0"
 name = "Vidu: Vidu V2.0"
-release_date = "2025-02-12"
+release_date = "1739403114"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = false

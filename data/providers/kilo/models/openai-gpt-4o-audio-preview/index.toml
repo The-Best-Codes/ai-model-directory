@@ -1,6 +1,6 @@
 id = "openai/gpt-4o-audio-preview"
 name = "OpenAI: GPT-4o Audio"
-release_date = "2025-08-15"
+release_date = "1755233061"
 
 [features]
 attachment = true

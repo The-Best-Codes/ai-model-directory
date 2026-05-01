@@ -1,7 +1,7 @@
 id = "nousresearch/hermes-4-405b"
-knowledge_cutoff = "2024-08-31"
+knowledge_cutoff = "1725062400"
 name = "Nous: Hermes 4 405B"
-release_date = "2025-08-26"
+release_date = "1756235463"
 
 [features]
 attachment = false

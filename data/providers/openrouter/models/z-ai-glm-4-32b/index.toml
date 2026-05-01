@@ -1,7 +1,7 @@
 id = "z-ai/glm-4-32b"
-knowledge_cutoff = "2024-06-30"
+knowledge_cutoff = "1719705600"
 name = "Z.ai: GLM 4 32B "
-release_date = "2025-07-24"
+release_date = "1753376617"
 
 [features]
 attachment = false

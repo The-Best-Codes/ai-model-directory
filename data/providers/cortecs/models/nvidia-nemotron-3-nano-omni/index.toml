@@ -1,6 +1,6 @@
 id = "nvidia-nemotron-3-nano-omni"
 name = "nvidia-nemotron-3-nano-omni"
-release_date = "2026-04-29"
+release_date = "1777477082"
 
 [features]
 attachment = false

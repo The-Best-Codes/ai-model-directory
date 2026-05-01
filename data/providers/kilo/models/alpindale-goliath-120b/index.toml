@@ -1,6 +1,6 @@
 id = "alpindale/goliath-120b"
 name = "Goliath 120B"
-release_date = "2023-11-10"
+release_date = "1699574400"
 
 [features]
 attachment = false

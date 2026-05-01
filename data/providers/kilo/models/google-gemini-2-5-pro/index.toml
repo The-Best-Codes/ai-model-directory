@@ -1,6 +1,6 @@
 id = "google/gemini-2.5-pro"
 name = "Google: Gemini 2.5 Pro"
-release_date = "2025-06-17"
+release_date = "1750169544"
 
 [features]
 attachment = true

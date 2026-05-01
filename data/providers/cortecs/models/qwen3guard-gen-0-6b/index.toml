@@ -1,6 +1,6 @@
 id = "qwen3guard-gen-0.6b"
 name = "qwen3guard-gen-0.6b"
-release_date = "2026-02-04"
+release_date = "1770204002"
 
 [features]
 attachment = false

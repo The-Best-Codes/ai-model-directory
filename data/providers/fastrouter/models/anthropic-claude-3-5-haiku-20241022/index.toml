@@ -1,9 +1,9 @@
 id = "anthropic/claude-3-5-haiku-20241022"
 name = "Anthropic: Claude 3.5 Haiku"
-release_date = "2024-11-04"
+release_date = "1730678400"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = true

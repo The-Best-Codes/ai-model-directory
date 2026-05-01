@@ -1,10 +1,10 @@
 id = "qwen/qwen-vl-max"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Qwen: Qwen VL Max"
-release_date = "2025-02-01"
+release_date = "1738434304"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true

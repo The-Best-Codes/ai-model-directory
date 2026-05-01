@@ -1,6 +1,6 @@
 id = "mistralai/devstral-2512"
 name = "Mistral: Devstral 2 2512"
-release_date = "2025-12-09"
+release_date = "1765285419"
 
 [features]
 attachment = false

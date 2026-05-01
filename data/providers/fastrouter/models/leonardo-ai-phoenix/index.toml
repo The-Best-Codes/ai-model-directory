@@ -1,6 +1,6 @@
 id = "leonardo-ai/phoenix"
 name = "Leonardo.AI: Phoenix"
-release_date = "2024-06-14"
+release_date = "1718364309"
 
 [features]
 attachment = false

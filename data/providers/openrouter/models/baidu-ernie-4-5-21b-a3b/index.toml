@@ -1,7 +1,7 @@
 id = "baidu/ernie-4.5-21b-a3b"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Baidu: ERNIE 4.5 21B A3B"
-release_date = "2025-08-12"
+release_date = "1755034167"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "alpindale/WizardLM-2-8x22B"
 name = "alpindale/WizardLM-2-8x22B"
-release_date = "2024-04-16"
+release_date = "1713235019"
 
 [features]
 attachment = false

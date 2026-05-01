@@ -1,7 +1,7 @@
 id = "sao10k/l3.1-70b-hanami-x1"
-knowledge_cutoff = "2023-12-31"
+knowledge_cutoff = "1703980800"
 name = "Sao10K: Llama 3.1 70B Hanami x1"
-release_date = "2025-01-08"
+release_date = "1736302854"
 
 [features]
 attachment = false

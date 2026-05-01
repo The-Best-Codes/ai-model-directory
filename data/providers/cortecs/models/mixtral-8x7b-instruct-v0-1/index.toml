@@ -1,6 +1,6 @@
 id = "mixtral-8x7B-instruct-v0.1"
 name = "mixtral-8x7B-instruct-v0.1"
-release_date = "2023-12-11"
+release_date = "1702294682"
 
 [features]
 attachment = false

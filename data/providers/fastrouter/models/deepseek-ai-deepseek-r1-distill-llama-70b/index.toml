@@ -1,6 +1,6 @@
 id = "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
 name = "DeepSeek: R1 Distill Llama 70B"
-release_date = "2025-01-23"
+release_date = "1737663169"
 
 [features]
 attachment = false

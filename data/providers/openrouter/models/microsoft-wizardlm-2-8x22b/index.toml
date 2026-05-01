@@ -1,7 +1,7 @@
 id = "microsoft/wizardlm-2-8x22b"
-knowledge_cutoff = "2024-04-30"
+knowledge_cutoff = "1714435200"
 name = "WizardLM-2 8x22B"
-release_date = "2024-04-16"
+release_date = "1713225600"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "meta-llama/Llama-4-Maverick-17B-128E-Instruct"
 name = "meta-llama/Llama-4-Maverick-17B-128E-Instruct"
-release_date = "2025-04-01"
+release_date = "1743545840"
 
 [features]
 attachment = true

@@ -1,9 +1,9 @@
 id = "xiaomi/mimo-v2.5"
 name = "Xiaomi: MiMo-V2.5"
-release_date = "2026-04-22"
+release_date = "1776874269"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

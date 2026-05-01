@@ -1,9 +1,9 @@
 id = "perplexity/sonar-pro-search"
 name = "Perplexity: Sonar Pro Search"
-release_date = "2025-10-30"
+release_date = "1761854366"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

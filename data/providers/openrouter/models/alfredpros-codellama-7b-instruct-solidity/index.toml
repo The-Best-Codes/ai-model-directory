@@ -1,7 +1,7 @@
 id = "alfredpros/codellama-7b-instruct-solidity"
-knowledge_cutoff = "2023-06-30"
+knowledge_cutoff = "1688083200"
 name = "AlfredPros: CodeLLaMa 7B Instruct Solidity"
-release_date = "2025-04-14"
+release_date = "1744641874"
 
 [features]
 attachment = false

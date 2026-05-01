@@ -1,6 +1,6 @@
 id = "ace-step/prompt-to-audio"
 name = "ACE Step: Prompt-to-Audio"
-release_date = "2025-02-12"
+release_date = "1739402400"
 
 [features]
 attachment = false

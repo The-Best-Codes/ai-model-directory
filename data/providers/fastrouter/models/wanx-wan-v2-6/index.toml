@@ -1,9 +1,9 @@
 id = "wanx/wan-v2-6"
 name = "Alibaba: Wan 2.6 "
-release_date = "2025-12-15"
+release_date = "1765823400"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = false

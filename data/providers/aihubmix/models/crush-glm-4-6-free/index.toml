@@ -2,10 +2,12 @@ id = "crush-glm-4.6-free"
 name = "crush-glm-4.6-free"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0

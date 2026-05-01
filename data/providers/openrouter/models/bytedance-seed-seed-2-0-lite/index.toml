@@ -1,9 +1,9 @@
 id = "bytedance-seed/seed-2.0-lite"
 name = "ByteDance Seed: Seed-2.0-Lite"
-release_date = "2026-03-10"
+release_date = "1773157231"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true

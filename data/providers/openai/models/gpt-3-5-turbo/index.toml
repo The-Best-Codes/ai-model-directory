@@ -1,7 +1,7 @@
 id = "gpt-3.5-turbo"
-knowledge_cutoff = "2021-09-01"
+knowledge_cutoff = "1630472400"
 name = "GPT-3.5 Turbo"
-release_date = "2023-02-28"
+release_date = "1677610602"
 
 [features]
 attachment = false

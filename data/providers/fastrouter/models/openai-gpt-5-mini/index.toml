@@ -1,9 +1,9 @@
 id = "openai/gpt-5-mini"
 name = "OpenAI: GPT-5-Mini"
-release_date = "2025-08-07"
+release_date = "1754587407"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = false

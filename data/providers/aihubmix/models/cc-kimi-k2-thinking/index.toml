@@ -2,10 +2,12 @@ id = "cc-kimi-k2-thinking"
 name = "cc-kimi-k2-thinking"
 
 [features]
-attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 0
 
 [pricing]
 input = 0.548

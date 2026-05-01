@@ -1,10 +1,10 @@
 id = "baidu/ernie-4.5-vl-424b-a47b"
-knowledge_cutoff = "2025-03-31"
+knowledge_cutoff = "1743379200"
 name = "Baidu: ERNIE 4.5 VL 424B A47B "
-release_date = "2025-06-30"
+release_date = "1751300903"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = true

@@ -1,6 +1,6 @@
 id = "allenai/olmo-3-32b-think"
 name = "AllenAI: Olmo 3 32B Think"
-release_date = "2025-11-21"
+release_date = "1763758276"
 
 [features]
 attachment = false

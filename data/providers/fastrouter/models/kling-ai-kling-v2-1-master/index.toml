@@ -1,9 +1,9 @@
 id = "kling-ai/kling-v2-1-master"
 name = "Kling AI: Kling V2.1 Master"
-release_date = "2025-02-12"
+release_date = "1739403001"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = false

@@ -1,9 +1,9 @@
 id = "perplexity/sonar-reasoning-pro"
 name = "Perplexity: Sonar Reasoning Pro"
-release_date = "2025-03-07"
+release_date = "1741313308"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = true

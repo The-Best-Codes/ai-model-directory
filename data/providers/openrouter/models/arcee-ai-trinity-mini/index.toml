@@ -1,6 +1,6 @@
 id = "arcee-ai/trinity-mini"
 name = "Arcee AI: Trinity Mini"
-release_date = "2025-12-01"
+release_date = "1764601720"
 
 [features]
 attachment = false

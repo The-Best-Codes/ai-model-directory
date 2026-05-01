@@ -1,10 +1,10 @@
 id = "gpt-audio-mini"
-knowledge_cutoff = "2023-10-01"
+knowledge_cutoff = "1696136400"
 name = "gpt-audio-mini"
-release_date = "2025-10-03"
+release_date = "1759512027"
 
 [features]
-attachment = false
+attachment = true
 structured_output = false
 tool_call = true
 
