@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { parse, stringify } from "smol-toml";
 import { z } from "zod";
 
+import { ProgressBar, type ProgressReporter } from "./progress.ts";
 import {
   fetchModels as fetchOpenRouterModels,
   outputDirectory as openRouterOutputDirectory,
@@ -226,15 +227,18 @@ function mergeModel(
 
 // Provider runner
 type Updater = {
-  fetchModels: () => Promise<ProviderModel[]>;
+  fetchModels: (progress?: ProgressReporter) => Promise<ProviderModel[]>;
   outputDirectory: string;
 };
+
+type RunResult = { written: number; errors: number };
 
 async function runUpdater(
   rootDirectory: string,
   updater: Updater,
-): Promise<number> {
-  const models = await updater.fetchModels();
+  progress: ProgressBar,
+): Promise<RunResult> {
+  const models = await updater.fetchModels(progress);
   const absOutputDir = join(rootDirectory, updater.outputDirectory);
 
   await mkdir(absOutputDir, { recursive: true });
@@ -249,7 +253,7 @@ async function runUpdater(
     const prev = seen.get(dir);
 
     if (prev !== undefined && prev !== model.id) {
-      console.warn(
+      progress.log(
         `⚠ Directory collision: "${prev}" and "${model.id}" -> "${dir}" (skipping latter)`,
       );
       continue;
@@ -258,44 +262,57 @@ async function runUpdater(
     seen.set(dir, model.id);
   }
 
+  // Materialize the writable subset so we know the phase total upfront
+  const toWrite = models.filter(
+    (m) => m.id && seen.get(normalizeDirectoryName(m.id)) === m.id,
+  );
+
+  progress.beginPhase("writing", toWrite.length);
+
   let written = 0;
+  let errors = 0;
 
-  for (const model of models) {
-    if (!model.id) continue;
-
+  for (const model of toWrite) {
     const dir = normalizeDirectoryName(model.id);
-
-    // Skip the colliding duplicate
-    if (seen.get(dir) !== model.id) continue;
-
     const modelDir = join(absOutputDir, dir);
     const modelFile = join(modelDir, "index.toml");
 
-    await mkdir(modelDir, { recursive: true });
+    try {
+      await mkdir(modelDir, { recursive: true });
 
-    // Read existing TOML if present
-    const existingFile = Bun.file(modelFile);
-    let existing: ModelToml | null = null;
+      // Read existing TOML if present
+      const existingFile = Bun.file(modelFile);
+      let existing: ModelToml | null = null;
 
-    if (await existingFile.exists()) {
-      existing = parseExistingToml(await existingFile.text());
-    }
+      if (await existingFile.exists()) {
+        existing = parseExistingToml(await existingFile.text());
+      }
 
-    // Merge and validate
-    const merged = mergeModel(existing, model);
+      // Merge and validate
+      const merged = mergeModel(existing, model);
 
-    if (merged === null) {
-      console.warn(
-        `⚠ Skipping "${model.id}": failed required field validation`,
+      if (merged === null) {
+        errors++;
+        progress.log(
+          `⚠ Skipping "${model.id}": failed required field validation`,
+        );
+        progress.tick(model.id, false);
+        continue;
+      }
+
+      await Bun.write(modelFile, stringify(merged as Record<string, unknown>));
+      written++;
+      progress.tick(model.id, true);
+    } catch (error) {
+      errors++;
+      progress.log(
+        `⚠ Error writing "${model.id}": ${error instanceof Error ? error.message : String(error)}`,
       );
-      continue;
+      progress.tick(model.id, false);
     }
-
-    await Bun.write(modelFile, stringify(merged as Record<string, unknown>));
-    written++;
   }
 
-  return written;
+  return { written, errors };
 }
 
 // Main
@@ -308,16 +325,40 @@ const UPDATERS: Updater[] = [
 
 async function main() {
   const rootDirectory = import.meta.dir;
+  const progress = new ProgressBar();
+  const summaries: string[] = [];
 
-  for (const updater of UPDATERS) {
-    const providerName =
-      updater.outputDirectory.split("/").at(-2) ?? updater.outputDirectory;
+  try {
+    for (let i = 0; i < UPDATERS.length; i++) {
+      const updater = UPDATERS[i]!;
+      const providerName =
+        updater.outputDirectory.split("/").at(-2) ?? updater.outputDirectory;
 
-    console.log(`Updating ${providerName}...`);
+      progress.beginProvider(i + 1, UPDATERS.length, providerName);
 
-    const written = await runUpdater(rootDirectory, updater);
+      try {
+        const { written, errors } = await runUpdater(
+          rootDirectory,
+          updater,
+          progress,
+        );
 
-    console.log(`✓ Wrote ${written} models to ${updater.outputDirectory}`);
+        summaries.push(
+          `✓ ${providerName}: wrote ${written} models to ${updater.outputDirectory}` +
+            (errors > 0 ? ` (${errors} errors)` : ""),
+        );
+      } catch (error) {
+        summaries.push(
+          `✗ ${providerName}: ${error instanceof Error ? error.message : String(error)}`,
+        );
+      }
+    }
+  } finally {
+    progress.stop();
+  }
+
+  for (const line of summaries) {
+    console.log(line);
   }
 }
 
