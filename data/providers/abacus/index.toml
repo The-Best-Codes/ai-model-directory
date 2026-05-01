@@ -1,0 +1,7 @@
+name = "Abacus"
+website = "https://abacus.ai/"
+apiBaseUrl = "https://routellm.abacus.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ABACUS_API_KEY"]
