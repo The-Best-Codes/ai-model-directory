@@ -2,6 +2,9 @@ id = "dall-e-3"
 name = "DALL·E 3"
 release_date = "2023-10-31"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "image" ]

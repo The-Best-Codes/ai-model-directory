@@ -1,6 +1,12 @@
 id = "deepinfra-llama-4-maverick-17b-128e-instruct"
 name = "deepinfra-llama-4-maverick-17b-128e-instruct"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 1.65
 output = 6.6

@@ -1,6 +1,9 @@
 id = "deepseek-ai/DeepSeek-V3.2"
 name = "Deepseek V3.2"
 
+[features]
+attachment = false
+
 [limit]
 context = 131072
 output = 32768

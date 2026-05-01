@@ -1,6 +1,9 @@
 id = "zai-org/glm-4.7"
 name = "GLM 4.7"
 
+[features]
+attachment = false
+
 [limit]
 context = 204800
 output = 131072

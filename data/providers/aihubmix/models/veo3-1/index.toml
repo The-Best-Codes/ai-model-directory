@@ -1,2 +1,8 @@
 id = "veo3.1"
 name = "veo3.1"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false

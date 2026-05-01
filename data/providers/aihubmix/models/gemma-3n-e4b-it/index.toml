@@ -1,6 +1,12 @@
 id = "gemma-3n-e4b-it"
 name = "gemma-3n-e4b-it"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 0
 input = 0.2

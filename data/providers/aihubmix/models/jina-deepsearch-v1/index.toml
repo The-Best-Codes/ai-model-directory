@@ -4,6 +4,8 @@ name = "jina-deepsearch-v1"
 [features]
 attachment = true
 reasoning = true
+structured_output = false
+tool_call = false
 
 [limit]
 context = 1000000

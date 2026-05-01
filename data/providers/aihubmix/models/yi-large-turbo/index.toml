@@ -1,6 +1,12 @@
 id = "yi-large-turbo"
 name = "yi-large-turbo"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 1.8
 output = 1.8

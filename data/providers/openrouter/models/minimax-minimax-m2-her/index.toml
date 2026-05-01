@@ -3,7 +3,11 @@ name = "MiniMax: MiniMax M2-her"
 release_date = "2026-01-23"
 
 [features]
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 65536

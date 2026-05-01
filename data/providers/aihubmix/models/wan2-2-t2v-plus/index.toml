@@ -1,5 +1,11 @@
 id = "wan2.2-t2v-plus"
 name = "wan2.2-t2v-plus"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [modalities]
 input = [ "text" ]

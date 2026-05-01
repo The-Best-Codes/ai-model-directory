@@ -2,6 +2,9 @@ id = "whisper-1"
 name = "Whisper"
 release_date = "2023-02-27"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "audio" ]
 output = [ "text" ]

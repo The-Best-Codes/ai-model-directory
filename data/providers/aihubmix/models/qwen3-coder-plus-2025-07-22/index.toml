@@ -2,6 +2,8 @@ id = "qwen3-coder-plus-2025-07-22"
 name = "qwen3-coder-plus-2025-07-22"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

@@ -3,7 +3,7 @@ name = "Z.ai: GLM 5V Turbo"
 release_date = "2026-04-01"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

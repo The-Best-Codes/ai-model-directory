@@ -4,7 +4,9 @@ name = "MiniMax: MiniMax M1"
 release_date = "2025-06-17"
 
 [features]
+attachment = false
 reasoning = true
+structured_output = false
 temperature = true
 tool_call = true
 

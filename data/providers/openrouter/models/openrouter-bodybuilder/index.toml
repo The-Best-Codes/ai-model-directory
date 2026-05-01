@@ -2,6 +2,13 @@ id = "openrouter/bodybuilder"
 name = "Body Builder (beta)"
 release_date = "2025-12-05"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
 [limit]
 context = 128000
 

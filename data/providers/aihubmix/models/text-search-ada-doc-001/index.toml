@@ -1,6 +1,12 @@
 id = "text-search-ada-doc-001"
 name = "text-search-ada-doc-001"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 20
 output = 20

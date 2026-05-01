@@ -3,6 +3,7 @@ name = "MoonshotAI: Kimi K2 Thinking"
 release_date = "2025-11-06"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

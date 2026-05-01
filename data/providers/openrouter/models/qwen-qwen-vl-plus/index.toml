@@ -4,9 +4,11 @@ name = "Qwen: Qwen VL Plus"
 release_date = "2025-02-05"
 
 [features]
-attachment = true
+attachment = false
+reasoning = false
 structured_output = true
 temperature = true
+tool_call = false
 
 [limit]
 context = 131072

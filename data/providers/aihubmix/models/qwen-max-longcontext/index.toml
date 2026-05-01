@@ -1,6 +1,12 @@
 id = "qwen-max-longcontext"
 name = "qwen-max-longcontext"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 7
 output = 21

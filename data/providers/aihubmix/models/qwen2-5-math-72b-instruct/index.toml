@@ -1,6 +1,12 @@
 id = "qwen2.5-math-72b-instruct"
 name = "qwen2.5-math-72b-instruct"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.8
 output = 2.4

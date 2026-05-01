@@ -1,6 +1,12 @@
 id = "learnlm-1.5-pro-experimental"
 name = "learnlm-1.5-pro-experimental"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 1.25
 output = 5

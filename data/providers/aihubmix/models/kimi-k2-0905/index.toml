@@ -2,6 +2,8 @@ id = "Kimi-K2-0905"
 name = "Kimi-K2-0905"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

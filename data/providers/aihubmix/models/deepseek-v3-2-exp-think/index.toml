@@ -2,6 +2,7 @@ id = "DeepSeek-V3.2-Exp-Think"
 name = "DeepSeek-V3.2-Exp-Think"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

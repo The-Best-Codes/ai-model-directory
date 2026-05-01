@@ -3,6 +3,7 @@ name = "gemini-2.5-flash-preview-05-20-search"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

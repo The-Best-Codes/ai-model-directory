@@ -43,19 +43,22 @@ function filterModalities(input: unknown): Modality[] | undefined {
 function convert(model: ApiModel): ProviderModel {
   const inputMods = filterModalities(model.input_modalities);
   const outputMods = filterModalities(model.output_modalities);
+  // Only emit attachment when we actually have modality info; otherwise
+  // we don't know whether the feature is supported.
   const hasAttachment =
-    inputMods !== undefined &&
-    (inputMods.includes("image") ||
-      inputMods.includes("file") ||
-      inputMods.includes("audio") ||
-      inputMods.includes("video"));
+    inputMods !== undefined
+      ? inputMods.includes("image") ||
+        inputMods.includes("file") ||
+        inputMods.includes("audio") ||
+        inputMods.includes("video")
+      : undefined;
 
   return compact({
     id: model.id,
     name: model.display_name || model.name || model.id,
 
     features: compact({
-      attachment: hasAttachment || undefined,
+      attachment: hasAttachment,
     }),
 
     pricing: compact({

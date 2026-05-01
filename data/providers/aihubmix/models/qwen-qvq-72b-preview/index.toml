@@ -1,6 +1,12 @@
 id = "Qwen/QVQ-72B-Preview"
 name = "Qwen/QVQ-72B-Preview"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 1.2
 output = 1.2

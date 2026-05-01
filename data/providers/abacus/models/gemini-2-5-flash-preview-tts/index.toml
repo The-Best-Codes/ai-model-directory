@@ -1,6 +1,9 @@
 id = "gemini-2.5-flash-preview-tts"
 name = "Gemini 2.5 Flash TTS"
 
+[features]
+attachment = false
+
 [limit]
 context = 1048576
 output = 65536

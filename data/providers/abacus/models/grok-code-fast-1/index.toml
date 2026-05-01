@@ -1,6 +1,9 @@
 id = "grok-code-fast-1"
 name = "Grok Code Fast"
 
+[features]
+attachment = false
+
 [limit]
 context = 262144
 output = 32768

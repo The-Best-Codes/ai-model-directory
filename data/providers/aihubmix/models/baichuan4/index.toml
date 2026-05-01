@@ -1,6 +1,12 @@
 id = "Baichuan4"
 name = "Baichuan4"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 16
 output = 16

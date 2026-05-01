@@ -1,6 +1,12 @@
 id = "o3-deep-research"
 name = "o3-deep-research"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 2.5
 input = 10

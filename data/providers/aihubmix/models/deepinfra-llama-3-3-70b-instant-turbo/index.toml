@@ -1,6 +1,12 @@
 id = "deepinfra-llama-3.3-70b-instant-turbo"
 name = "deepinfra-llama-3.3-70b-instant-turbo"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.11
 output = 0.352

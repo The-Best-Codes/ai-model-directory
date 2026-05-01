@@ -1,6 +1,12 @@
 id = "chatglm_lite"
 name = "chatglm_lite"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.2858
 output = 0.2858

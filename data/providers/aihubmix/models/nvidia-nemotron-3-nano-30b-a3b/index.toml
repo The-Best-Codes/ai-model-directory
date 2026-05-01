@@ -1,6 +1,12 @@
 id = "nvidia-nemotron-3-nano-30b-a3b"
 name = "nvidia-nemotron-3-nano-30b-a3b"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.066
 output = 0.264

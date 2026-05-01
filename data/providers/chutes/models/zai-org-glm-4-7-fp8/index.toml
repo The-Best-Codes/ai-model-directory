@@ -3,6 +3,7 @@ name = "zai-org/GLM-4.7-FP8"
 release_date = "2026-05-01"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

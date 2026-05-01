@@ -2,6 +2,8 @@ id = "inclusionAI/Ling-flash-2.0"
 name = "inclusionAI/Ling-flash-2.0"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

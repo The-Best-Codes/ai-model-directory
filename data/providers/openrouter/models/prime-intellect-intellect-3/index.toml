@@ -3,6 +3,7 @@ name = "Prime Intellect: INTELLECT-3"
 release_date = "2025-11-27"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

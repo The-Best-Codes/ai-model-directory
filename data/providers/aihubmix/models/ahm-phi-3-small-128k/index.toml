@@ -1,6 +1,12 @@
 id = "ahm-Phi-3-small-128k"
 name = "ahm-Phi-3-small-128k"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 1
 output = 3

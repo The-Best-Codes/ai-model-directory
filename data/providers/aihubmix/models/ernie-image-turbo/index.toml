@@ -1,2 +1,8 @@
 id = "ernie-image-turbo"
 name = "ernie-image-turbo"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false

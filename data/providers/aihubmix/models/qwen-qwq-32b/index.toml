@@ -2,6 +2,8 @@ id = "Qwen/QwQ-32B"
 name = "Qwen/QwQ-32B"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

@@ -2,6 +2,7 @@ id = "deepseek-v3.2-think"
 name = "deepseek-v3.2-think"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

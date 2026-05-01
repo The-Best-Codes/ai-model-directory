@@ -1,6 +1,12 @@
 id = "AiHubmix-Phi-4-mini-reasoning"
 name = "AiHubmix-Phi-4-mini-reasoning"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [limit]
 context = 128000
 

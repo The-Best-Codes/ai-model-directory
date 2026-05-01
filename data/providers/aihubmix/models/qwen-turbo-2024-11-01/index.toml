@@ -1,6 +1,12 @@
 id = "qwen-turbo-2024-11-01"
 name = "qwen-turbo-2024-11-01"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [modalities]
 input = [ "text" ]
 

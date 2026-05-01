@@ -2,6 +2,7 @@ id = "ERNIE-X1.1-Preview"
 name = "ERNIE-X1.1-Preview"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

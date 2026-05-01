@@ -1,6 +1,9 @@
 id = "deepseek/deepseek-v3.1"
 name = "Deepseek Chat"
 
+[features]
+attachment = false
+
 [limit]
 context = 131072
 output = 8192

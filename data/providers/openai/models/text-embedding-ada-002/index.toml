@@ -2,6 +2,9 @@ id = "text-embedding-ada-002"
 name = "text-embedding-ada-002"
 release_date = "2022-12-16"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

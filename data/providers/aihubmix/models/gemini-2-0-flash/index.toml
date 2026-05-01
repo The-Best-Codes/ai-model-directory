@@ -3,6 +3,7 @@ name = "gemini-2.0-flash"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

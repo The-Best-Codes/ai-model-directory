@@ -3,6 +3,9 @@ name = "imagen-3.0-generate-002"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "image", "text" ]

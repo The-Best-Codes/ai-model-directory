@@ -4,6 +4,8 @@ name = "ernie-5.0-thinking-exp"
 [features]
 attachment = true
 reasoning = true
+structured_output = false
+tool_call = false
 
 [limit]
 context = 119000

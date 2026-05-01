@@ -4,6 +4,7 @@ name = "GPT-4o Search Preview"
 release_date = "2026-02-24"
 
 [features]
+attachment = false
 structured_output = true
 tool_call = false
 

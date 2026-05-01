@@ -4,6 +4,7 @@ name = "o3-mini"
 release_date = "2025-01-17"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

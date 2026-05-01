@@ -3,10 +3,11 @@ name = "Perplexity: Sonar Pro Search"
 release_date = "2025-10-30"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true
+tool_call = false
 
 [limit]
 context = 200000

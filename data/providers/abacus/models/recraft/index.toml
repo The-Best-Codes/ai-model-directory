@@ -1,6 +1,9 @@
 id = "recraft"
 name = "Recraft"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "image" ]

@@ -1,6 +1,12 @@
 id = "moonshot-v1-32k"
 name = "moonshot-v1-32k"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 4
 output = 4

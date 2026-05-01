@@ -3,6 +3,9 @@ name = "qwen3-reranker-0.6b"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [limit]
 context = 16000

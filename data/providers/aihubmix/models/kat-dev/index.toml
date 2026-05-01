@@ -2,6 +2,9 @@ id = "kat-dev"
 name = "kat-dev"
 
 [features]
+attachment = false
+reasoning = false
+structured_output = false
 tool_call = true
 
 [limit]

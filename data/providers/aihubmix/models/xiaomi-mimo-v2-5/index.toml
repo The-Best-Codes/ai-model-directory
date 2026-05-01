@@ -3,6 +3,9 @@ name = "xiaomi-mimo-v2.5"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [limit]
 context = 256000

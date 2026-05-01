@@ -1,6 +1,12 @@
 id = "llama2-7b-2048"
 name = "llama2-7b-2048"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.1
 output = 0.1

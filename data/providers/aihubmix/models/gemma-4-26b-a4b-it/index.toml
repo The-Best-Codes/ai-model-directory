@@ -1,6 +1,12 @@
 id = "gemma-4-26b-a4b-it"
 name = "gemma-4-26b-a4b-it"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [limit]
 context = 262100
 

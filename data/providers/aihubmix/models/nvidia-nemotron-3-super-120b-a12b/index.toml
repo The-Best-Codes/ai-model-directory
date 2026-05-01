@@ -2,6 +2,7 @@ id = "nvidia-nemotron-3-super-120b-a12b"
 name = "nvidia-nemotron-3-super-120b-a12b"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

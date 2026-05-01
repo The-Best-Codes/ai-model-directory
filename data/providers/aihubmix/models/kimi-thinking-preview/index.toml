@@ -1,6 +1,12 @@
 id = "kimi-thinking-preview"
 name = "kimi-thinking-preview"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 30
 output = 30

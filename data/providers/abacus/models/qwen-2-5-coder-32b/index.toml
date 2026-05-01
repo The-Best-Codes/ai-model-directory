@@ -1,6 +1,9 @@
 id = "qwen-2.5-coder-32b"
 name = "Qwen 2.5 Coder 32B"
 
+[features]
+attachment = false
+
 [limit]
 context = 131072
 output = 8192

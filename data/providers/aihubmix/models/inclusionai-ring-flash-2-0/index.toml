@@ -2,6 +2,7 @@ id = "inclusionAI/Ring-flash-2.0"
 name = "inclusionAI/Ring-flash-2.0"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

@@ -4,6 +4,9 @@ name = "Sao10k: Llama 3 Euryale 70B v2.1"
 release_date = "2024-06-18"
 
 [features]
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
 tool_call = true
 

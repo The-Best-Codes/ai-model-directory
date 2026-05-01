@@ -1,6 +1,12 @@
 id = "gemini-embedding-001"
 name = "gemini-embedding-001"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [modalities]
 input = [ "text" ]
 

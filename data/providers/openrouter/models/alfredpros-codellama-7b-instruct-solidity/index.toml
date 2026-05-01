@@ -4,7 +4,11 @@ name = "AlfredPros: CodeLLaMa 7B Instruct Solidity"
 release_date = "2025-04-14"
 
 [features]
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 4096

@@ -4,7 +4,7 @@ name = "Qwen: Qwen3 VL 30B A3B Thinking"
 release_date = "2025-10-06"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

@@ -1,6 +1,12 @@
 id = "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
 name = "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.6
 output = 0.6

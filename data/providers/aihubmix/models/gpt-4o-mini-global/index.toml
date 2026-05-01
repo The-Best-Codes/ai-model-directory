@@ -1,6 +1,12 @@
 id = "gpt-4o-mini-global"
 name = "gpt-4o-mini-global"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 0.075
 input = 0.15

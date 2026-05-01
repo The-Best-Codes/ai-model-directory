@@ -1,5 +1,11 @@
 id = "gemini-2.5-flash-preview-tts"
 name = "gemini-2.5-flash-preview-tts"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [modalities]
 input = [ "text" ]

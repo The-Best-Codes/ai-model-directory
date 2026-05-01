@@ -1,6 +1,9 @@
 id = "llama-3.3-70b-versatile"
 name = "Llama 3.3 70B"
 
+[features]
+attachment = false
+
 [limit]
 context = 131072
 output = 8192

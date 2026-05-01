@@ -2,6 +2,9 @@ id = "tts-1"
 name = "TTS-1"
 release_date = "2023-04-19"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "audio" ]

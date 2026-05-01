@@ -1,6 +1,12 @@
 id = "aihubmix-Mistral-large"
 name = "aihubmix-Mistral-large"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 4
 output = 12

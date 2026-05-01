@@ -49,15 +49,22 @@ function nonNegativeNumber(n: number | undefined): number | undefined {
 function convert(model: ApiModel): ProviderModel {
   const inputMods = filterModalities(model.input_modalities);
   const outputMods = filterModalities(model.output_modalities);
-  const features = new Set(
+
+  // If `supported_features` is provided (even empty), absence of an entry
+  // means the model definitively does not support it. If undefined, we
+  // don't know and leave the feature unset.
+  const featuresProvided = Array.isArray(model.supported_features);
+  const featureSet = new Set(
     (model.supported_features ?? []).map((f) => f.toLowerCase()),
   );
 
   const hasAttachment =
-    inputMods !== undefined &&
-    inputMods.some(
-      (m) => m === "image" || m === "file" || m === "audio" || m === "video",
-    );
+    inputMods !== undefined
+      ? inputMods.some(
+          (m) =>
+            m === "image" || m === "file" || m === "audio" || m === "video",
+        )
+      : undefined;
 
   const context = nonNegativeNumber(
     model.context_length ?? model.max_model_len,
@@ -70,10 +77,12 @@ function convert(model: ApiModel): ProviderModel {
     release_date: isoDateFromUnix(model.created),
 
     features: compact({
-      attachment: hasAttachment || undefined,
-      reasoning: features.has("reasoning") || undefined,
-      tool_call: features.has("tools") || undefined,
-      structured_output: features.has("structured_outputs") || undefined,
+      attachment: hasAttachment,
+      reasoning: featuresProvided ? featureSet.has("reasoning") : undefined,
+      tool_call: featuresProvided ? featureSet.has("tools") : undefined,
+      structured_output: featuresProvided
+        ? featureSet.has("structured_outputs")
+        : undefined,
     }),
 
     pricing: compact({

@@ -1,6 +1,12 @@
 id = "gpt-4-turbo-2024-04-09"
 name = "gpt-4-turbo-2024-04-09"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 10
 output = 30

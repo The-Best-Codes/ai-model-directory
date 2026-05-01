@@ -3,9 +3,10 @@ name = "OpenAI: GPT-5.1-Codex"
 release_date = "2025-11-13"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
+temperature = false
 tool_call = true
 
 [limit]

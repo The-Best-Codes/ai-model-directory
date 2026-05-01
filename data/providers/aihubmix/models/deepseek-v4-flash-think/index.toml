@@ -2,6 +2,7 @@ id = "deepseek-v4-flash-think"
 name = "deepseek-v4-flash-think"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

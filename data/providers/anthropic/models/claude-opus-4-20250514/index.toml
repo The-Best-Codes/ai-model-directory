@@ -5,6 +5,7 @@ release_date = "2025-05-22"
 [features]
 attachment = true
 reasoning = true
+structured_output = false
 
 [limit]
 context = 200000

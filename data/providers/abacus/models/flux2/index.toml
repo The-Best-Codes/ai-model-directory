@@ -1,6 +1,9 @@
 id = "flux2"
 name = "FLUX.2"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "image" ]

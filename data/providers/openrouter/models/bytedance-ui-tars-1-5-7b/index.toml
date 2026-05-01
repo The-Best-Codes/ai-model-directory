@@ -4,8 +4,11 @@ name = "ByteDance: UI-TARS 7B "
 release_date = "2025-07-22"
 
 [features]
-attachment = true
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 128000

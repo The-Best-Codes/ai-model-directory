@@ -1,6 +1,12 @@
 id = "o3-global"
 name = "o3-global"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 0.5
 input = 2

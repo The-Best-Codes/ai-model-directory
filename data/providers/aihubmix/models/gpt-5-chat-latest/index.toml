@@ -3,6 +3,9 @@ name = "gpt-5-chat-latest"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [limit]
 context = 400000

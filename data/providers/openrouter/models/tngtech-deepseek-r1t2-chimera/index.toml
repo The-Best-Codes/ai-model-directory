@@ -4,6 +4,7 @@ name = "TNG: DeepSeek R1T2 Chimera"
 release_date = "2025-07-08"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

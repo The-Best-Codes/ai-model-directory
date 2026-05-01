@@ -1,6 +1,9 @@
 id = "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo"
 name = "Llama 3.1 405B"
 
+[features]
+attachment = false
+
 [limit]
 context = 131072
 output = 8192

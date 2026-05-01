@@ -4,6 +4,7 @@ name = "Tongyi DeepResearch 30B A3B"
 release_date = "2025-09-18"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

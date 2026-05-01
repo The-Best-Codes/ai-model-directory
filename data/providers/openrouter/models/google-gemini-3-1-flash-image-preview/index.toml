@@ -3,10 +3,11 @@ name = "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)"
 release_date = "2026-02-26"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true
+tool_call = false
 
 [limit]
 context = 65536

@@ -2,7 +2,10 @@ id = "deepseek-r1-distill-llama-70b"
 name = "deepseek-r1-distill-llama-70b"
 
 [features]
+attachment = false
 reasoning = true
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "text" ]

@@ -1,6 +1,9 @@
 id = "deepseek-v4-pro"
 name = "Deepseek V4 Pro"
 
+[features]
+attachment = false
+
 [limit]
 context = 1000000
 output = 32768

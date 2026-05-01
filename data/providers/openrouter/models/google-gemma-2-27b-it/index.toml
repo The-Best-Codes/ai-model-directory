@@ -4,8 +4,11 @@ name = "Google: Gemma 2 27B"
 release_date = "2024-07-13"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 temperature = true
+tool_call = false
 
 [limit]
 context = 8192

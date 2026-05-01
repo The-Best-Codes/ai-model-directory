@@ -1,6 +1,12 @@
 id = "meta/llama3-8B-chat"
 name = "meta/llama3-8B-chat"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.3
 output = 0.3

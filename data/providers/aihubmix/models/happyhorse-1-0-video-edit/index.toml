@@ -1,5 +1,11 @@
 id = "happyhorse-1.0-video-edit"
 name = "happyhorse-1.0-video-edit"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [modalities]
 input = [ "text" ]

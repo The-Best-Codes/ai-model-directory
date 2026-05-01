@@ -1,6 +1,12 @@
 id = "Pro/THUDM/GLM-4.1V-9B-Thinking"
 name = "Pro/THUDM/GLM-4.1V-9B-Thinking"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 0
 input = 0.04

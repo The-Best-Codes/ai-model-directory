@@ -3,6 +3,9 @@ name = "distil-whisper-large-v3-en"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "audio" ]

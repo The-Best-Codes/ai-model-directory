@@ -1,6 +1,12 @@
 id = "aistudio_gemini-2.0-flash"
 name = "aistudio_gemini-2.0-flash"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.1
 output = 0.4

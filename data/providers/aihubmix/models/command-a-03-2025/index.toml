@@ -1,6 +1,12 @@
 id = "command-a-03-2025"
 name = "command-a-03-2025"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [modalities]
 input = [ "text" ]
 

@@ -4,6 +4,8 @@ name = "o3-mini"
 [features]
 attachment = true
 reasoning = true
+structured_output = false
+tool_call = false
 
 [limit]
 context = 200000

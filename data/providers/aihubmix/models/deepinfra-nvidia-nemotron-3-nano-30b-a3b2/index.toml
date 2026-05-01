@@ -1,6 +1,12 @@
 id = "deepinfra-nvidia-nemotron-3-nano-30b-a3b2"
 name = "deepinfra-nvidia-nemotron-3-nano-30b-a3b2"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.066
 output = 0.264

@@ -3,6 +3,9 @@ name = "gemini-3.1-flash-image-preview-free"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "image", "text" ]

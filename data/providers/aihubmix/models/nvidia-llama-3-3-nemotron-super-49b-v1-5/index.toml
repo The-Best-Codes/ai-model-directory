@@ -1,6 +1,12 @@
 id = "nvidia-llama-3.3-nemotron-super-49b-v1.5"
 name = "nvidia-llama-3.3-nemotron-super-49b-v1.5"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.11
 output = 0.44

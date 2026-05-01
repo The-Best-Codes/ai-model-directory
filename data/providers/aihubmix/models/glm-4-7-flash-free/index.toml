@@ -2,6 +2,7 @@ id = "glm-4.7-flash-free"
 name = "glm-4.7-flash-free"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

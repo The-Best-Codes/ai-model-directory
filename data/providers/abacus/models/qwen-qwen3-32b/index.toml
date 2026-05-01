@@ -1,6 +1,9 @@
 id = "Qwen/Qwen3-32B"
 name = "Qwen3 32B"
 
+[features]
+attachment = false
+
 [limit]
 context = 131072
 output = 8192

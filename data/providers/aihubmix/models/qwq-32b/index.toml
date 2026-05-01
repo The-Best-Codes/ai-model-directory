@@ -1,6 +1,12 @@
 id = "QwQ-32B"
 name = "QwQ-32B"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.28
 output = 0.84

@@ -4,7 +4,11 @@ name = "TheDrummer: Skyfall 36B V2"
 release_date = "2025-03-10"
 
 [features]
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 32768

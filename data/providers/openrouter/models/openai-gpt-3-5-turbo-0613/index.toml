@@ -4,6 +4,8 @@ name = "OpenAI: GPT-3.5 Turbo (older v0613)"
 release_date = "2024-01-25"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 temperature = true
 tool_call = true

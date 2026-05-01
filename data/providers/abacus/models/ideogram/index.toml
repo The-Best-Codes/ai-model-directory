@@ -1,6 +1,9 @@
 id = "ideogram"
 name = "Ideogram 3.0"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "image" ]

@@ -2,6 +2,7 @@ id = "qwen3-max-2026-01-23"
 name = "qwen3-max-2026-01-23"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

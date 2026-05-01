@@ -1,6 +1,9 @@
 id = "elevenlabs"
 name = "elevenlabs"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "audio" ]

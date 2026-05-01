@@ -3,6 +3,7 @@ name = "Xiaomi: MiMo-V2-Flash"
 release_date = "2025-12-14"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

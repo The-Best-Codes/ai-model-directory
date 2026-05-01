@@ -3,6 +3,7 @@ name = "Qwen: Qwen3 Max Thinking"
 release_date = "2026-02-09"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

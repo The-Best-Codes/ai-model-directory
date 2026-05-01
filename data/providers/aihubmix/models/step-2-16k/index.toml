@@ -1,6 +1,12 @@
 id = "step-2-16k"
 name = "step-2-16k"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 2
 output = 2

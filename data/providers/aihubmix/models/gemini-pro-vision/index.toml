@@ -1,6 +1,12 @@
 id = "gemini-pro-vision"
 name = "gemini-pro-vision"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 1
 output = 1

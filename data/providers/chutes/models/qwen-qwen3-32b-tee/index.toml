@@ -3,6 +3,7 @@ name = "Qwen/Qwen3-32B-TEE"
 release_date = "2026-05-01"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

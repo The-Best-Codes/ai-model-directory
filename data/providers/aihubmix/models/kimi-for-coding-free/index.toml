@@ -2,6 +2,7 @@ id = "kimi-for-coding-free"
 name = "kimi-for-coding-free"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

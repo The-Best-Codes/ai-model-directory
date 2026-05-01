@@ -1,6 +1,12 @@
 id = "qwen3-embedding-0.6b"
 name = "qwen3-embedding-0.6b"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [modalities]
 input = [ "text" ]
 

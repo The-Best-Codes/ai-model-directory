@@ -4,7 +4,11 @@ name = "Mistral: Mistral 7B Instruct v0.1"
 release_date = "2023-09-28"
 
 [features]
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 2824

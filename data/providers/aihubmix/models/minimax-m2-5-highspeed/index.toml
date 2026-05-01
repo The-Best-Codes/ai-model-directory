@@ -2,6 +2,7 @@ id = "minimax-m2.5-highspeed"
 name = "minimax-m2.5-highspeed"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

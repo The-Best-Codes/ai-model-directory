@@ -1,6 +1,12 @@
 id = "aihub-Phi-4"
 name = "aihub-Phi-4"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [limit]
 context = 16400
 

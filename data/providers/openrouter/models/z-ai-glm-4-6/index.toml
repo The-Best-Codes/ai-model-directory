@@ -4,6 +4,7 @@ name = "Z.ai: GLM 4.6"
 release_date = "2025-09-30"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

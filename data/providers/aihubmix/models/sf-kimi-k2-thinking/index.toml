@@ -1,6 +1,12 @@
 id = "sf-kimi-k2-thinking"
 name = "sf-kimi-k2-thinking"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.548
 output = 2.192

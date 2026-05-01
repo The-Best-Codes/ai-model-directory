@@ -1,6 +1,12 @@
 id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
 name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.01
 output = 0.01

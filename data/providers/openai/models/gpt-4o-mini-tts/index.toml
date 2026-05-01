@@ -2,6 +2,9 @@ id = "gpt-4o-mini-tts"
 name = "GPT-4o mini TTS"
 release_date = "2025-03-19"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "audio" ]

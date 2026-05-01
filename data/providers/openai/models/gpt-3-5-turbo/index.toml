@@ -4,6 +4,7 @@ name = "GPT-3.5 Turbo"
 release_date = "2023-02-28"
 
 [features]
+attachment = false
 structured_output = false
 tool_call = false
 

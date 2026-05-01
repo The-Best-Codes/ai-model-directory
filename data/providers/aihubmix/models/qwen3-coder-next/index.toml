@@ -2,6 +2,8 @@ id = "qwen3-coder-next"
 name = "qwen3-coder-next"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

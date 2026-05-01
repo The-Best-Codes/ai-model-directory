@@ -1,6 +1,12 @@
 id = "cbs-glm-4.7"
 name = "cbs-glm-4.7"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 2.25
 output = 2.749995

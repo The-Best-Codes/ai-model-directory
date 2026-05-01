@@ -2,6 +2,7 @@ id = "crush-glm-5.1-free"
 name = "crush-glm-5.1-free"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

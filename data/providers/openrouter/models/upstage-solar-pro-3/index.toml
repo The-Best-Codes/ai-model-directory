@@ -3,6 +3,7 @@ name = "Upstage: Solar Pro 3"
 release_date = "2026-01-27"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

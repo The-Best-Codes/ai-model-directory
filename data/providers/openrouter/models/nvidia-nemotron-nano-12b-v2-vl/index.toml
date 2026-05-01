@@ -3,10 +3,11 @@ name = "NVIDIA: Nemotron Nano 12B 2 VL"
 release_date = "2025-10-28"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true
+tool_call = false
 
 [limit]
 context = 131072

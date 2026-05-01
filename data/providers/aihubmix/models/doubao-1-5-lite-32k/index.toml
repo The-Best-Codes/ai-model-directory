@@ -1,6 +1,12 @@
 id = "Doubao-1.5-lite-32k"
 name = "Doubao-1.5-lite-32k"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.05
 output = 0.1

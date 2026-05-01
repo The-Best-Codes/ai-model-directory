@@ -2,6 +2,7 @@ id = "gpt-oss-120b"
 name = "gpt-oss-120b"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

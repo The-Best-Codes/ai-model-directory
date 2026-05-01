@@ -3,6 +3,7 @@ name = "qwen3-vl-flash-2026-01-22"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

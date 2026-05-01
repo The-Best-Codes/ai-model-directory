@@ -4,6 +4,7 @@ name = "Qwen: Qwen3 235B A22B Thinking 2507"
 release_date = "2025-07-25"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

@@ -1,6 +1,12 @@
 id = "gemini-2.0-flash-lite-preview-02-05"
 name = "gemini-2.0-flash-lite-preview-02-05"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.075
 output = 0.3

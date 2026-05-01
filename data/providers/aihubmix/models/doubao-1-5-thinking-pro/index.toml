@@ -1,6 +1,12 @@
 id = "Doubao-1.5-thinking-pro"
 name = "Doubao-1.5-thinking-pro"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.62
 output = 2.48

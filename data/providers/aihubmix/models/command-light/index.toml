@@ -1,6 +1,12 @@
 id = "command-light"
 name = "command-light"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 1
 output = 2

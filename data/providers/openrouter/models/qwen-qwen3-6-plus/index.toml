@@ -3,7 +3,7 @@ name = "Qwen: Qwen3.6 Plus"
 release_date = "2026-04-02"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true
