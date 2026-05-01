@@ -5,6 +5,15 @@ import { z } from "zod";
 
 import { ProgressBar, type ProgressReporter } from "./progress.ts";
 import {
+  FeaturesSchema,
+  LimitSchema,
+  ModalitiesSchema,
+  OptionalScalars,
+  PricingSchema,
+  type ProviderModel,
+  RequiredFields,
+} from "./schema.ts";
+import {
   fetchModels as fetchAbacusModels,
   outputDirectory as abacusOutputDirectory,
 } from "./updaters/abacus.ts";
@@ -19,75 +28,7 @@ import {
 import {
   fetchModels as fetchOpenRouterModels,
   outputDirectory as openRouterOutputDirectory,
-  type ProviderModel,
 } from "./updaters/openrouter.ts";
-
-// Required fields: the model is skipped entirely if they fail validation.
-// Optional fields: if invalid or absent, the key is simply omitted/preserved.
-
-const IsoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "must be yyyy-mm-dd");
-const Price = z.number().nonnegative();
-const Modality = z.enum(["audio", "file", "image", "text", "video"]);
-
-// Required top-level scalars
-const RequiredFields = z.object({
-  id: z.string().min(1),
-  name: z.string().min(1),
-});
-
-// Optional top-level scalars
-const OptionalScalars = z.object({
-  knowledge_cutoff: IsoDate.optional(),
-  release_date: IsoDate.optional(),
-  last_updated: IsoDate.optional(),
-  open_weights: z.boolean().optional(),
-});
-
-// Optional tables
-const FeaturesSchema = z.object({
-  attachment: z.boolean().optional(),
-  reasoning: z.boolean().optional(),
-  tool_call: z.boolean().optional(),
-  structured_output: z.boolean().optional(),
-  temperature: z.boolean().optional(),
-});
-
-const PricingSchema = z.object({
-  input: Price.optional(),
-  output: Price.optional(),
-  reasoning: Price.optional(),
-  cache_read: Price.optional(),
-  cache_write: Price.optional(),
-  input_audio: Price.optional(),
-  output_audio: Price.optional(),
-});
-
-const LimitSchema = z.object({
-  context: z.number().int().nonnegative().optional(),
-  input: z.number().int().nonnegative().optional(),
-  output: z.number().int().nonnegative().optional(),
-});
-
-const ModalitiesSchema = z.object({
-  input: z.array(Modality).optional(),
-  output: z.array(Modality).optional(),
-});
-
-// Derived types
-type RequiredFields = z.infer<typeof RequiredFields>;
-type OptionalScalars = z.infer<typeof OptionalScalars>;
-type FeaturesTable = z.infer<typeof FeaturesSchema>;
-type PricingTable = z.infer<typeof PricingSchema>;
-type LimitTable = z.infer<typeof LimitSchema>;
-type ModalitiesTable = z.infer<typeof ModalitiesSchema>;
-
-type ModelToml = RequiredFields &
-  OptionalScalars & {
-    features?: FeaturesTable;
-    pricing?: PricingTable;
-    limit?: LimitTable;
-    modalities?: ModalitiesTable;
-  };
 
 // Helpers
 function normalizeDirectoryName(modelId: string): string {
@@ -195,10 +136,10 @@ function validateTable<S extends z.ZodObject<z.ZodRawShape>>(
 }
 
 /**
- * Parse an existing TOML file into a ModelToml.
+ * Parse an existing TOML file into a ProviderModel.
  * Fields that don't match the schema are silently dropped.
  */
-function parseExistingToml(raw: string): ModelToml | null {
+function parseExistingToml(raw: string): ProviderModel | null {
   let parsed: unknown;
 
   try {
@@ -228,11 +169,11 @@ function parseExistingToml(raw: string): ModelToml | null {
     pricing: validateTable(PricingSchema, record.pricing, undefined),
     limit: validateTable(LimitSchema, record.limit, undefined),
     modalities: validateTable(ModalitiesSchema, record.modalities, undefined),
-  }) as ModelToml;
+  }) as ProviderModel;
 }
 
 /**
- * Merge a ProviderModel (incoming from updater) into an existing ModelToml.
+ * Merge a ProviderModel (incoming from updater) into an existing ProviderModel.
  *
  * Rules:
  *   - Required fields are always taken from the incoming model (validated).
@@ -240,9 +181,9 @@ function parseExistingToml(raw: string): ModelToml | null {
  *   - Table fields: merge field-by-field using the same rule.
  */
 function mergeModel(
-  existing: ModelToml | null,
+  existing: ProviderModel | null,
   incoming: ProviderModel,
-): ModelToml | null {
+): ProviderModel | null {
   // Validate required fields first, bail out entirely if they fail
   const required = RequiredFields.safeParse(incoming);
 
@@ -278,7 +219,7 @@ function mergeModel(
       incoming.modalities,
       existing?.modalities,
     ),
-  }) as ModelToml;
+  }) as ProviderModel;
 }
 
 // Provider runner
@@ -338,7 +279,7 @@ async function runUpdater(
 
       // Read existing TOML if present
       const existingFile = Bun.file(modelFile);
-      let existing: ModelToml | null = null;
+      let existing: ProviderModel | null = null;
 
       if (await existingFile.exists()) {
         existing = parseExistingToml(await existingFile.text());

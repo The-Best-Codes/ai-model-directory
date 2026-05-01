@@ -1,38 +1,8 @@
-import Decimal from "decimal.js";
-
+import type { Modality, ProviderModel } from "../schema.ts";
 import type { ProgressReporter } from "../progress.ts";
+import { compact, pricePerMillion } from "./_lib.ts";
 
 export const outputDirectory = "data/providers/abacus/models";
-
-export type Modality = "audio" | "file" | "image" | "text" | "video";
-
-// Intermediate format (subset of the shared schema; only what Abacus's
-// /v1/models endpoint actually exposes).
-export type ProviderModel = {
-  // Required
-  id: string;
-  name: string;
-
-  features?: {
-    attachment?: boolean;
-  };
-
-  pricing?: {
-    input?: number; // USD per million tokens
-    output?: number;
-    cache_read?: number;
-  };
-
-  limit?: {
-    context?: number;
-    output?: number;
-  };
-
-  modalities?: {
-    input?: Modality[];
-    output?: Modality[];
-  };
-};
 
 // Abacus /v1/models types (just what we use)
 type ApiModel = {
@@ -53,22 +23,6 @@ type ApiModel = {
 type ApiResponse = {
   data: ApiModel[];
 };
-
-// Helpers
-function compact<T extends object>(obj: T): T {
-  return Object.fromEntries(
-    Object.entries(obj).filter(([, v]) => v !== undefined),
-  ) as T;
-}
-
-function pricePerMillion(raw: string | undefined): number | undefined {
-  if (raw === undefined) return undefined;
-  try {
-    return new Decimal(raw).mul(1_000_000).toNumber();
-  } catch {
-    return undefined;
-  }
-}
 
 const VALID_MODALITIES: ReadonlySet<Modality> = new Set([
   "audio",

@@ -1,49 +1,8 @@
-import Decimal from "decimal.js";
-
+import type { Modality, ProviderModel } from "../schema.ts";
 import type { ProgressReporter } from "../progress.ts";
+import { compact, isoDateFromUnix, pricePerMillion } from "./_lib.ts";
 
 export const outputDirectory = "data/providers/openrouter/models";
-
-// Intermediate format
-export type Modality = "audio" | "file" | "image" | "text" | "video";
-export type ProviderModel = {
-  // Required fields: if these are absent the model will be skipped entirely
-  id: string;
-  name: string;
-
-  // Optional fields: if invalid/absent they are simply omitted
-  knowledge_cutoff?: string; // yyyy-mm-dd
-  release_date?: string; // yyyy-mm-dd
-
-  features?: {
-    attachment?: boolean;
-    reasoning?: boolean;
-    tool_call?: boolean;
-    structured_output?: boolean;
-    temperature?: boolean;
-  };
-
-  pricing?: {
-    input?: number; // USD per million tokens
-    output?: number;
-    reasoning?: number;
-    cache_read?: number;
-    cache_write?: number;
-    input_audio?: number;
-    output_audio?: number;
-  };
-
-  limit?: {
-    context?: number;
-    input?: number;
-    output?: number;
-  };
-
-  modalities?: {
-    input?: Modality[];
-    output?: Modality[];
-  };
-};
 
 // OpenRouter API types (just what we need)
 type ApiModel = {
@@ -75,28 +34,8 @@ type ApiResponse = {
   data: ApiModel[];
 };
 
-// Conversion helpers
-function pricePerMillion(raw: string | undefined): number | undefined {
-  if (raw === undefined) return undefined;
-  try {
-    return new Decimal(raw).mul(1_000_000).toNumber();
-  } catch {
-    return undefined;
-  }
-}
-
-function isoDate(unixSeconds: number): string {
-  return new Date(unixSeconds * 1000).toISOString().slice(0, 10);
-}
-
 function hasParam(params: string[], ...names: string[]): boolean {
   return names.some((name) => params.includes(name));
-}
-
-function compact<T extends object>(obj: T): T {
-  return Object.fromEntries(
-    Object.entries(obj).filter(([, v]) => v !== undefined),
-  ) as T;
 }
 
 function convert(model: ApiModel): ProviderModel {
@@ -108,7 +47,7 @@ function convert(model: ApiModel): ProviderModel {
     id: model.id,
     name: model.name,
     knowledge_cutoff: model.knowledge_cutoff ?? undefined,
-    release_date: isoDate(model.created),
+    release_date: isoDateFromUnix(model.created),
 
     features: compact({
       attachment: inputMods.includes("file") || undefined,
