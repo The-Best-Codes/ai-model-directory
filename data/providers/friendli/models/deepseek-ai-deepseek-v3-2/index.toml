@@ -1,0 +1,16 @@
+id = "deepseek-ai/DeepSeek-V3.2"
+name = "deepseek-ai/DeepSeek-V3.2"
+release_date = "2026-09-09"
+
+[features]
+structured_output = true
+tool_call = true
+
+[limit]
+context = 163840
+output = 163840
+
+[pricing]
+cache_read = 0.25
+input = 0.5
+output = 1.5

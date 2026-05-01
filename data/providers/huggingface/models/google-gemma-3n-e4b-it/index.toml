@@ -1,0 +1,19 @@
+id = "google/gemma-3n-E4B-it"
+name = "google/gemma-3n-E4B-it"
+release_date = "2025-06-03"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.060000000000000005
+output = 0.12000000000000001

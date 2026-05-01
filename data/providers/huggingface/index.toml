@@ -1,0 +1,7 @@
+name = "Hugging Face"
+website = "https://huggingface.co"
+apiBaseUrl = "https://router.huggingface.co/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["HF_TOKEN"]

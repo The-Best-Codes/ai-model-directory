@@ -45,6 +45,15 @@ export function pricePerMillion(raw: string | undefined): number | undefined {
   }
 }
 
+/** Keep only finite, non-negative numeric values. */
+export function nonNegativeNumber(
+  value: number | undefined,
+): number | undefined {
+  return value !== undefined && Number.isFinite(value) && value >= 0
+    ? value
+    : undefined;
+}
+
 /** Run an async function over `items` with bounded concurrency. */
 export async function mapWithConcurrency<T, R>(
   items: T[],

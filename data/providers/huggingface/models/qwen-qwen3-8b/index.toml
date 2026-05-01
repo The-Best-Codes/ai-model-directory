@@ -1,0 +1,19 @@
+id = "Qwen/Qwen3-8B"
+name = "Qwen/Qwen3-8B"
+release_date = "2025-04-27"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.07
+output = 0.18

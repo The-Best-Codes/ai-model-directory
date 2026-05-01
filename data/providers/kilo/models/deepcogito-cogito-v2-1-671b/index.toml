@@ -1,0 +1,21 @@
+id = "deepcogito/cogito-v2.1-671b"
+name = "Deep Cogito: Cogito v2.1 671B"
+release_date = "2025-11-13"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 1.25

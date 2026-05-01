@@ -1,0 +1,19 @@
+id = "MiniMaxAI/MiniMax-M2.5"
+name = "MiniMaxAI/MiniMax-M2.5"
+release_date = "2026-02-12"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

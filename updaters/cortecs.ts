@@ -1,6 +1,6 @@
 import type { ProviderModel } from "../schema.ts";
 import type { ProgressReporter } from "../progress.ts";
-import { compact, isoDateFromUnix } from "./_lib.ts";
+import { compact, isoDateFromUnix, nonNegativeNumber } from "./_lib.ts";
 
 export const outputDirectory = "data/providers/cortecs/models";
 
@@ -30,12 +30,6 @@ type ApiResponse = {
 function hasTag(tags: string[] | undefined, name: string): boolean | undefined {
   if (!Array.isArray(tags)) return undefined;
   return tags.some((tag) => tag.toLowerCase() === name);
-}
-
-function nonNegativeNumber(value: number | undefined): number | undefined {
-  return value !== undefined && Number.isFinite(value) && value >= 0
-    ? value
-    : undefined;
 }
 
 function convert(model: ApiModel): ProviderModel {

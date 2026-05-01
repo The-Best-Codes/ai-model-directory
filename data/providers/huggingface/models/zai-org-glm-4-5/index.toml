@@ -1,0 +1,12 @@
+id = "zai-org/GLM-4.5"
+name = "zai-org/GLM-4.5"
+release_date = "2025-07-20"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

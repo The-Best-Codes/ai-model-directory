@@ -1,0 +1,19 @@
+id = "inclusionAI/Ling-2.6-1T"
+name = "inclusionAI/Ling-2.6-1T"
+release_date = "2026-04-29"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

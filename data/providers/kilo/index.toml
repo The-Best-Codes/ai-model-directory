@@ -1,0 +1,7 @@
+name = "Kilo Gateway"
+website = "https://kilo.ai"
+apiBaseUrl = "https://api.kilo.ai/api/gateway"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["KILO_API_KEY"]

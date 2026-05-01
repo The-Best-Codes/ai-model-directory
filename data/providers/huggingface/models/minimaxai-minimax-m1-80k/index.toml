@@ -1,0 +1,19 @@
+id = "MiniMaxAI/MiniMax-M1-80k"
+name = "MiniMaxAI/MiniMax-M1-80k"
+release_date = "2025-06-13"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.55
+output = 2.2

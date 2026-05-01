@@ -1,0 +1,19 @@
+id = "zai-org/GLM-4-32B-0414"
+name = "zai-org/GLM-4-32B-0414"
+release_date = "2025-04-07"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.55
+output = 1.66

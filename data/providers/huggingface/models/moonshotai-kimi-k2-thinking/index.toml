@@ -1,0 +1,19 @@
+id = "moonshotai/Kimi-K2-Thinking"
+name = "moonshotai/Kimi-K2-Thinking"
+release_date = "2025-11-04"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.5

@@ -1,0 +1,12 @@
+id = "zai-org/GLM-4.7-Flash"
+name = "zai-org/GLM-4.7-Flash"
+release_date = "2026-01-19"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

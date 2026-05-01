@@ -1,6 +1,6 @@
 import type { ProviderModel } from "../schema.ts";
 import type { ProgressReporter } from "../progress.ts";
-import { compact } from "./_lib.ts";
+import { compact, nonNegativeNumber } from "./_lib.ts";
 
 export const outputDirectory = "data/providers/deepinfra/models";
 
@@ -32,12 +32,6 @@ type ApiResponse = {
   object: string;
   data: ApiModel[];
 };
-
-function nonNegativeNumber(value: number | undefined): number | undefined {
-  return value !== undefined && Number.isFinite(value) && value >= 0
-    ? value
-    : undefined;
-}
 
 function isoDateFromUnixIfKnown(unixSeconds: number): string | undefined {
   return unixSeconds > 0

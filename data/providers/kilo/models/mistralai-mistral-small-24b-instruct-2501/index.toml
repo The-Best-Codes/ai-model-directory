@@ -1,0 +1,22 @@
+id = "mistralai/mistral-small-24b-instruct-2501"
+name = "Mistral: Mistral Small 3"
+release_date = "2025-01-30"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 32768
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.08

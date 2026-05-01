@@ -1,0 +1,21 @@
+id = "arcee-ai/trinity-large-preview"
+name = "Arcee AI: Trinity Large Preview"
+release_date = "2026-01-27"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 131000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.45

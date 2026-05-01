@@ -1,0 +1,19 @@
+id = "alpindale/WizardLM-2-8x22B"
+name = "alpindale/WizardLM-2-8x22B"
+release_date = "2024-04-16"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.62
+output = 0.62

@@ -1,0 +1,19 @@
+id = "Sao10K/L3-70B-Euryale-v2.1"
+name = "Sao10K/L3-70B-Euryale-v2.1"
+release_date = "2024-06-11"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.48
+output = 1.48

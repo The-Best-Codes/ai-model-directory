@@ -1,0 +1,12 @@
+id = "CohereLabs/tiny-aya-global"
+name = "CohereLabs/tiny-aya-global"
+release_date = "2026-02-13"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

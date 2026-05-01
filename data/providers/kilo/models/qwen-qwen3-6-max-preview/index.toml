@@ -1,0 +1,25 @@
+id = "qwen/qwen3.6-max-preview"
+name = "Qwen: Qwen3.6 Max Preview"
+release_date = "2025-08-26"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0845
+cache_write = 1.05625
+input = 0.845
+output = 5.07
+reasoning = 0

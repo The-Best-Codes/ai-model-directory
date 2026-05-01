@@ -1,0 +1,7 @@
+name = "Friendli"
+website = "https://friendli.ai"
+apiBaseUrl = "https://api.friendli.ai/serverless/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["FRIENDLI_TOKEN"]

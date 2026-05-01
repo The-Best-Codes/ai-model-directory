@@ -1,0 +1,16 @@
+id = "swiss-ai/Apertus-70B-Instruct-2509"
+name = "swiss-ai/Apertus-70B-Instruct-2509"
+release_date = "2025-09-01"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.82
+output = 2.92

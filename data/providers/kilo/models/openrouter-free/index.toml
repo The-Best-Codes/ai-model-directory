@@ -1,0 +1,18 @@
+id = "openrouter/free"
+name = "Free Models Router"
+release_date = "2026-02-01"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

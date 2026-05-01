@@ -1,0 +1,22 @@
+id = "meta-llama/llama-4-maverick"
+name = "Meta: Llama 4 Maverick"
+release_date = "2025-04-05"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 1048576
+output = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

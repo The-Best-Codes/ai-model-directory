@@ -1,0 +1,22 @@
+id = "mistralai/voxtral-small-24b-2507"
+name = "Mistral: Voxtral Small 24B 2507"
+release_date = "2025-10-30"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.1
+output = 0.3

@@ -1,0 +1,22 @@
+id = "nousresearch/hermes-2-pro-llama-3-8b"
+name = "NousResearch: Hermes 2 Pro - Llama-3 8B"
+release_date = "2024-05-27"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.14

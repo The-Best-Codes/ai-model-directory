@@ -1,0 +1,12 @@
+id = "zai-org/GLM-4.6V-Flash"
+name = "zai-org/GLM-4.6V-Flash"
+release_date = "2025-12-07"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

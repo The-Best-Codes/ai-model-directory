@@ -1,0 +1,22 @@
+id = "mistralai/mixtral-8x7b-instruct"
+name = "Mistral: Mixtral 8x7B Instruct"
+release_date = "2023-12-10"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 32768
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.54
+output = 0.54

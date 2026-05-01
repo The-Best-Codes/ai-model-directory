@@ -1,0 +1,22 @@
+id = "minimax/minimax-01"
+name = "MiniMax: MiniMax-01"
+release_date = "2025-01-15"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 1000192
+output = 1000192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 1.1
