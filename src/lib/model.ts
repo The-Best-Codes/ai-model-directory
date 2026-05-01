@@ -122,14 +122,14 @@ export function nonNegativeNumber(
   return Number.isFinite(value) && value >= 0 ? value : undefined;
 }
 
-export function nonNegativeInteger(
+export function integerGreaterThanZero(
   value: number | null | undefined,
 ): number | undefined {
   if (value === null || value === undefined) {
     return undefined;
   }
 
-  return Number.isInteger(value) && value >= 0 ? value : undefined;
+  return Number.isInteger(value) && value > 0 ? value : undefined;
 }
 
 export function pricePerMillion(

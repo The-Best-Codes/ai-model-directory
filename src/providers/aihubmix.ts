@@ -3,7 +3,7 @@ import { z } from "zod";
 
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import { nonNegativeInteger } from "../lib/model.ts";
+import { integerGreaterThanZero } from "../lib/model.ts";
 import {
   allModalities,
   hasAttachmentSource,
@@ -203,7 +203,7 @@ export const aihubmixProvider: ProviderDefinition = {
               : priceFromRatio(details.model_ratio, details.cache_ratio),
         }),
         limit: compactObject({
-          context: nonNegativeInteger(details?.context_window),
+          context: integerGreaterThanZero(details?.context_window),
         }),
         modalities: compactObject({
           input,

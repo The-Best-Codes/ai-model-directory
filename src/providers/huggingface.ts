@@ -3,7 +3,7 @@ import { z } from "zod";
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import {
-  nonNegativeInteger,
+  integerGreaterThanZero,
   nonNegativeNumber,
   timestampFromUnixSeconds,
 } from "../lib/model.ts";
@@ -94,7 +94,7 @@ export const huggingfaceProvider: ProviderDefinition = {
           output: nonNegativeNumber(provider?.pricing?.output),
         }),
         limit: compactObject({
-          context: nonNegativeInteger(provider?.context_length),
+          context: integerGreaterThanZero(provider?.context_length),
         }),
         modalities: compactObject({ input, output }),
       });

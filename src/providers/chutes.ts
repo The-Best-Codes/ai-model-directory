@@ -3,7 +3,7 @@ import { z } from "zod";
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import {
-  nonNegativeInteger,
+  integerGreaterThanZero,
   nonNegativeNumber,
   timestampFromUnixSeconds,
 } from "../lib/model.ts";
@@ -72,10 +72,10 @@ export const chutesProvider: ProviderDefinition = {
           cache_read: nonNegativeNumber(model.pricing?.input_cache_read),
         }),
         limit: compactObject({
-          context: nonNegativeInteger(
+          context: integerGreaterThanZero(
             model.context_length ?? model.max_model_len,
           ),
-          output: nonNegativeInteger(model.max_output_length),
+          output: integerGreaterThanZero(model.max_output_length),
         }),
         modalities: compactObject({ input, output }),
       });

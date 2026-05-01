@@ -3,7 +3,7 @@ import { z } from "zod";
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import {
-  nonNegativeInteger,
+  integerGreaterThanZero,
   nonNegativeNumber,
   timestampFromUnixSeconds,
 } from "../lib/model.ts";
@@ -65,7 +65,7 @@ export const cortecsProvider: ProviderDefinition = {
           cache_read: nonNegativeNumber(model.pricing?.cache_read_cost),
         }),
         limit: compactObject({
-          context: nonNegativeInteger(model.context_size),
+          context: integerGreaterThanZero(model.context_size),
         }),
       }),
     );

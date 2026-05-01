@@ -7,9 +7,6 @@ reasoning = true
 structured_output = true
 tool_call = true
 
-[limit]
-context = 0
-
 [modalities]
 input = [ "image", "text" ]
 
