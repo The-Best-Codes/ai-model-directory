@@ -3,9 +3,11 @@ name = "AllenAI: Olmo 3 32B Think"
 release_date = "2025-11-21"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true
+tool_call = false
 
 [limit]
 context = 65536

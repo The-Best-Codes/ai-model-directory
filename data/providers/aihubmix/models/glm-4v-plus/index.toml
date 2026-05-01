@@ -1,6 +1,12 @@
 id = "glm-4v-plus"
 name = "glm-4v-plus"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 2
 output = 2

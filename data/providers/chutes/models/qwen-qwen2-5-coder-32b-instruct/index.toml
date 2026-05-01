@@ -3,7 +3,10 @@ name = "Qwen/Qwen2.5-Coder-32B-Instruct"
 release_date = "2026-05-01"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
+tool_call = false
 
 [limit]
 context = 32768

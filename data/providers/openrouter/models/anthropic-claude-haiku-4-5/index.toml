@@ -3,7 +3,7 @@ name = "Anthropic: Claude Haiku 4.5"
 release_date = "2025-10-15"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

@@ -1,6 +1,12 @@
 id = "deepseek-ai/DeepSeek-V2-Chat"
 name = "deepseek-ai/DeepSeek-V2-Chat"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.16
 output = 0.32

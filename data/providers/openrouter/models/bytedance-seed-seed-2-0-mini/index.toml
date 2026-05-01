@@ -3,7 +3,7 @@ name = "ByteDance Seed: Seed-2.0-Mini"
 release_date = "2026-02-26"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

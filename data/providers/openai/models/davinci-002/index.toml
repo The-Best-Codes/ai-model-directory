@@ -4,6 +4,7 @@ name = "davinci-002"
 release_date = "2023-08-21"
 
 [features]
+attachment = false
 structured_output = false
 tool_call = false
 

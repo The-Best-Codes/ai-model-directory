@@ -4,6 +4,7 @@ name = "NVIDIA: Nemotron Nano 9B V2 (free)"
 release_date = "2025-09-05"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

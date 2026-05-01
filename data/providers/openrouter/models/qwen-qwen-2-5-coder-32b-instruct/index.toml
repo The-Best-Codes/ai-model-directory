@@ -4,7 +4,11 @@ name = "Qwen2.5 Coder 32B Instruct"
 release_date = "2024-11-11"
 
 [features]
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 32768

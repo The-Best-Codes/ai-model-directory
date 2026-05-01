@@ -1,6 +1,12 @@
 id = "qianfan-chinese-llama-2-13b"
 name = "qianfan-chinese-llama-2-13b"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.822
 output = 0.822

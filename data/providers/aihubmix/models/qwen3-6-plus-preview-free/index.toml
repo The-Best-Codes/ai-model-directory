@@ -2,7 +2,10 @@ id = "qwen3.6-plus-preview-free"
 name = "qwen3.6-plus-preview-free"
 
 [features]
+attachment = false
 reasoning = true
+structured_output = false
+tool_call = false
 
 [limit]
 context = 1000000

@@ -2,6 +2,8 @@ id = "inclusionAI/Ling-1T"
 name = "inclusionAI/Ling-1T"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

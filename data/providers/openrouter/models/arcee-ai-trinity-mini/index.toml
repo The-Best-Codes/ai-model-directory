@@ -3,6 +3,7 @@ name = "Arcee AI: Trinity Mini"
 release_date = "2025-12-01"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

@@ -4,6 +4,8 @@ name = "xAI: Grok 3 Beta"
 release_date = "2025-04-09"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 temperature = true
 tool_call = true

@@ -3,6 +3,7 @@ name = "qwen3-vl-plus"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

@@ -1,6 +1,12 @@
 id = "tngtech/DeepSeek-R1T-Chimera"
 name = "tngtech/DeepSeek-R1T-Chimera"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.02
 output = 0.02

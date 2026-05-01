@@ -3,6 +3,9 @@ name = "wan2.7-r2v"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "text", "video" ]

@@ -4,6 +4,7 @@ name = "gpt-audio-1.5"
 release_date = "2026-02-20"
 
 [features]
+attachment = false
 structured_output = false
 tool_call = true
 

@@ -1,6 +1,9 @@
 id = "grok-3-mini"
 name = "Grok 3 Mini"
 
+[features]
+attachment = false
+
 [limit]
 context = 131072
 output = 32768

@@ -1,6 +1,12 @@
 id = "groq-llama-3.3-70b-versatile"
 name = "groq-llama-3.3-70b-versatile"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.649
 output = 0.869011

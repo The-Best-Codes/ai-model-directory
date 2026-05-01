@@ -4,10 +4,11 @@ name = "Google: Nano Banana (Gemini 2.5 Flash Image)"
 release_date = "2025-10-07"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true
+tool_call = false
 
 [limit]
 context = 32768

@@ -1,6 +1,9 @@
 id = "deepseek-ai/DeepSeek-R1"
 name = "Deepseek Reasoner"
 
+[features]
+attachment = false
+
 [limit]
 context = 131072
 output = 32768

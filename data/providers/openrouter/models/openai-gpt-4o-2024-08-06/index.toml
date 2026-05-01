@@ -5,6 +5,7 @@ release_date = "2024-08-06"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 temperature = true
 tool_call = true

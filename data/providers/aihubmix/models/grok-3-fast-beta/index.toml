@@ -1,6 +1,12 @@
 id = "grok-3-fast-beta"
 name = "grok-3-fast-beta"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 0
 input = 5.5

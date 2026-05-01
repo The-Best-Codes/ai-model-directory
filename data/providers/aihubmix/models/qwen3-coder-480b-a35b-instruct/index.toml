@@ -2,6 +2,8 @@ id = "qwen3-coder-480b-a35b-instruct"
 name = "qwen3-coder-480b-a35b-instruct"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

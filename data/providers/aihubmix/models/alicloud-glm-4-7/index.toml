@@ -1,6 +1,12 @@
 id = "alicloud-glm-4.7"
 name = "alicloud-glm-4.7"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.41096
 output = 1.917785936

@@ -1,6 +1,12 @@
 id = "tao-8k"
 name = "tao-8k"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.068
 output = 0.068

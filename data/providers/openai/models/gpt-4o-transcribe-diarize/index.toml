@@ -3,6 +3,9 @@ knowledge_cutoff = "2024-06-01"
 name = "GPT-4o Transcribe Diarize"
 release_date = "2025-06-24"
 
+[features]
+attachment = false
+
 [limit]
 context = 16000
 output = 2000

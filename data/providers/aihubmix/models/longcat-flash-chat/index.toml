@@ -1,6 +1,12 @@
 id = "LongCat-Flash-Chat"
 name = "LongCat-Flash-Chat"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.14
 output = 0.7

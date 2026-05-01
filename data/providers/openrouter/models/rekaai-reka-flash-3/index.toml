@@ -4,8 +4,11 @@ name = "Reka Flash 3"
 release_date = "2025-03-12"
 
 [features]
+attachment = false
 reasoning = true
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 65536

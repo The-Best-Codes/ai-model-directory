@@ -4,6 +4,8 @@ name = "o1-2024-12-17"
 [features]
 attachment = true
 reasoning = true
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "image", "text" ]

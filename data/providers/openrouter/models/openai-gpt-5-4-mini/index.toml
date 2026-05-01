@@ -7,6 +7,7 @@ release_date = "2026-03-17"
 attachment = true
 reasoning = true
 structured_output = true
+temperature = false
 tool_call = true
 
 [limit]

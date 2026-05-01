@@ -3,6 +3,9 @@ name = "glm-4.6v"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [limit]
 context = 128000

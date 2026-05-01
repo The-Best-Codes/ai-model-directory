@@ -4,7 +4,8 @@ name = "Mistral: Pixtral Large 2411"
 release_date = "2024-11-19"
 
 [features]
-attachment = true
+attachment = false
+reasoning = false
 structured_output = true
 temperature = true
 tool_call = true

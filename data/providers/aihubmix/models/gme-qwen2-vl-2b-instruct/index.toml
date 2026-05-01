@@ -3,6 +3,9 @@ name = "gme-qwen2-vl-2b-instruct"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "image", "text", "video" ]

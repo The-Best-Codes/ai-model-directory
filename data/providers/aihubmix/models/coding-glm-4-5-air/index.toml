@@ -1,6 +1,12 @@
 id = "coding-glm-4.5-air"
 name = "coding-glm-4.5-air"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [modalities]
 input = [ "text" ]
 

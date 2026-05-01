@@ -3,6 +3,7 @@ name = "DALL·E 2"
 release_date = "2023-11-01"
 
 [features]
+attachment = false
 structured_output = false
 tool_call = false
 

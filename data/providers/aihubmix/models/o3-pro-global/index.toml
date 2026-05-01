@@ -1,6 +1,12 @@
 id = "o3-pro-global"
 name = "o3-pro-global"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 20
 output = 80

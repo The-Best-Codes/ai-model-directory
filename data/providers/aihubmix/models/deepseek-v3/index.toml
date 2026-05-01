@@ -2,6 +2,8 @@ id = "DeepSeek-V3"
 name = "DeepSeek-V3"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

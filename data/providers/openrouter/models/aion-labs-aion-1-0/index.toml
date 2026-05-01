@@ -3,8 +3,11 @@ name = "AionLabs: Aion-1.0"
 release_date = "2025-02-04"
 
 [features]
+attachment = false
 reasoning = true
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 131072

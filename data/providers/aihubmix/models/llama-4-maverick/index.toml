@@ -3,6 +3,7 @@ name = "llama-4-maverick"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

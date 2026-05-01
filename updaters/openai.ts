@@ -138,9 +138,10 @@ function parseDetailsHtml(html: string): ScrapedDetails | undefined {
     }
   });
 
-  // Derive attachment support from input modalities
-  if (inputMods.has("image") || inputMods.has("file")) {
-    features.attachment = true;
+  // Derive attachment support from input modalities. Only emit the value
+  // when we actually scraped modality info; otherwise we don't know.
+  if (inputMods.size > 0 || outputMods.size > 0) {
+    features.attachment = inputMods.has("image") || inputMods.has("file");
   }
 
   if (Object.keys(features).length > 0) result.features = compact(features);

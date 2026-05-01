@@ -1,6 +1,9 @@
 id = "o3-mini"
 name = "o3 Mini"
 
+[features]
+attachment = false
+
 [limit]
 context = 200000
 output = 100000

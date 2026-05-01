@@ -44,11 +44,13 @@ function convert(model: ApiModel): ProviderModel {
     name: model.display_name || model.id,
     release_date: isoDateFromString(model.created_at, { rejectEpoch: true }),
 
-    features: compact({
-      attachment: imageInput || pdfInput || undefined,
-      reasoning: reasoning || undefined,
-      structured_output: structured || undefined,
-    }),
+    // The capabilities object returns explicit booleans, so we always
+    // know each value — write false when not supported.
+    features: {
+      attachment: imageInput || pdfInput,
+      reasoning,
+      structured_output: structured,
+    },
 
     limit: compact({
       context: model.max_input_tokens > 0 ? model.max_input_tokens : undefined,

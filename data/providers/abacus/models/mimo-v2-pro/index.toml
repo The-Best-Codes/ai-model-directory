@@ -1,6 +1,9 @@
 id = "mimo-v2-pro"
 name = "MiMo V2 Pro"
 
+[features]
+attachment = false
+
 [limit]
 context = 1048576
 output = 131072

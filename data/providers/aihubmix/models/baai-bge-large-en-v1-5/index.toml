@@ -3,6 +3,7 @@ name = "BAAI/bge-large-en-v1.5"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

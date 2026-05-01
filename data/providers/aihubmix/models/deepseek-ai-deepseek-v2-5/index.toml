@@ -1,6 +1,12 @@
 id = "deepseek-ai/DeepSeek-V2.5"
 name = "deepseek-ai/DeepSeek-V2.5"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.16
 output = 0.32

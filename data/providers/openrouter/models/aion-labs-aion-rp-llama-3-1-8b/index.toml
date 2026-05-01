@@ -4,7 +4,11 @@ name = "AionLabs: Aion-RP 1.0 (8B)"
 release_date = "2025-02-04"
 
 [features]
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 32768

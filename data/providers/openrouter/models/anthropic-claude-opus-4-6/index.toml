@@ -3,7 +3,7 @@ name = "Anthropic: Claude Opus 4.6"
 release_date = "2026-02-04"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

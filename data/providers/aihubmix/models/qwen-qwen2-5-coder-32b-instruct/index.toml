@@ -1,6 +1,12 @@
 id = "Qwen/Qwen2.5-Coder-32B-Instruct"
 name = "Qwen/Qwen2.5-Coder-32B-Instruct"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.16
 output = 0.16

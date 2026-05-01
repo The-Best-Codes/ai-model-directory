@@ -2,6 +2,13 @@ id = "openrouter/pareto-code"
 name = "Pareto Code Router"
 release_date = "2026-04-21"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
 [limit]
 context = 200000
 

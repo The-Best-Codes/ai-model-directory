@@ -4,6 +4,7 @@ name = "DeepSeek: DeepSeek V3.1"
 release_date = "2025-08-21"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

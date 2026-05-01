@@ -1,6 +1,12 @@
 id = "cc-glm-4.7"
 name = "cc-glm-4.7"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.06
 output = 0.21999996

@@ -2,7 +2,10 @@ id = "o1"
 name = "o1"
 
 [features]
+attachment = false
 reasoning = true
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "text" ]

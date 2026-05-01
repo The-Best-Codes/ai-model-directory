@@ -3,6 +3,9 @@ name = "qwen-image-2.0-pro"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "image", "text" ]

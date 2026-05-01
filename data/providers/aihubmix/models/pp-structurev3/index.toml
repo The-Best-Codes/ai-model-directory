@@ -1,2 +1,8 @@
 id = "pp-structurev3"
 name = "pp-structurev3"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false

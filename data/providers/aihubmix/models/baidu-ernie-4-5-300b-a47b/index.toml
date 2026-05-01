@@ -3,6 +3,7 @@ name = "baidu/ERNIE-4.5-300B-A47B"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

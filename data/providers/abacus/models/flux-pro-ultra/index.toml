@@ -1,6 +1,9 @@
 id = "flux_pro_ultra"
 name = "FLUX 1.1 [pro] Ultra"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "image" ]

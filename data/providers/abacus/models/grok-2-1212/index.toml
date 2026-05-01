@@ -1,6 +1,9 @@
 id = "grok-2-1212"
 name = "Grok"
 
+[features]
+attachment = false
+
 [limit]
 context = 131072
 output = 8192

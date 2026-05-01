@@ -2,6 +2,8 @@ id = "kimi-k2-turbo-preview"
 name = "kimi-k2-turbo-preview"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

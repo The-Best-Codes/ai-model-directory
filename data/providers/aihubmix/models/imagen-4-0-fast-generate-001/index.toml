@@ -3,6 +3,9 @@ name = "imagen-4.0-fast-generate-001"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "image", "text" ]

@@ -1,6 +1,12 @@
 id = "gemini-2.0-flash-exp-image-generation"
 name = "gemini-2.0-flash-exp-image-generation"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.1
 output = 0.4

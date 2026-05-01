@@ -1,6 +1,12 @@
 id = "qwen-3-235b-a22b-thinking-2507"
 name = "qwen-3-235b-a22b-thinking-2507"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.28
 output = 2.8

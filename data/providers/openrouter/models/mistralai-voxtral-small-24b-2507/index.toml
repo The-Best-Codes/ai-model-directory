@@ -3,7 +3,8 @@ name = "Mistral: Voxtral Small 24B 2507"
 release_date = "2025-10-30"
 
 [features]
-attachment = true
+attachment = false
+reasoning = false
 structured_output = true
 temperature = true
 tool_call = true

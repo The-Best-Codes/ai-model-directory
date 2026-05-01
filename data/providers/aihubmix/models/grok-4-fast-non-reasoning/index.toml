@@ -3,6 +3,7 @@ name = "grok-4-fast-non-reasoning"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

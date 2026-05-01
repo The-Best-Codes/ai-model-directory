@@ -3,6 +3,7 @@ name = "cc-ernie-4.5-300b-a47b"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

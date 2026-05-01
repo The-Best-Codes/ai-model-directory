@@ -4,6 +4,7 @@ name = "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5"
 release_date = "2025-10-10"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

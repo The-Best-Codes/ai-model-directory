@@ -3,6 +3,7 @@ name = "StepFun: Step 3.5 Flash"
 release_date = "2026-01-29"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

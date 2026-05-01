@@ -3,6 +3,9 @@ name = "gpt-4o-2024-11-20"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [limit]
 context = 128000

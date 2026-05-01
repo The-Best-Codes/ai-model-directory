@@ -4,6 +4,7 @@ name = "Qwen: Qwen Plus 0728 (thinking)"
 release_date = "2025-09-08"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

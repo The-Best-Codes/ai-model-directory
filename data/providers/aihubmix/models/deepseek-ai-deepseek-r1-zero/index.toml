@@ -1,6 +1,12 @@
 id = "deepseek-ai/DeepSeek-R1-Zero"
 name = "deepseek-ai/DeepSeek-R1-Zero"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 2.2
 output = 2.2

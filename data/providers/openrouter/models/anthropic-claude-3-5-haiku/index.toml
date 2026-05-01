@@ -4,7 +4,9 @@ name = "Anthropic: Claude 3.5 Haiku"
 release_date = "2024-11-04"
 
 [features]
-attachment = true
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
 tool_call = true
 

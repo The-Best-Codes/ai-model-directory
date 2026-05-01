@@ -4,6 +4,7 @@ name = "GPT-4o mini Realtime"
 release_date = "2024-12-16"
 
 [features]
+attachment = false
 structured_output = false
 tool_call = true
 

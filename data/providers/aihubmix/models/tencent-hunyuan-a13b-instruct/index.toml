@@ -1,6 +1,12 @@
 id = "tencent/Hunyuan-A13B-Instruct"
 name = "tencent/Hunyuan-A13B-Instruct"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.14
 output = 0.56

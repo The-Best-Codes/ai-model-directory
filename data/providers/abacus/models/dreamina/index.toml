@@ -1,6 +1,9 @@
 id = "dreamina"
 name = "Dreamina"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "image" ]

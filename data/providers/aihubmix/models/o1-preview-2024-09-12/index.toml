@@ -1,6 +1,12 @@
 id = "o1-preview-2024-09-12"
 name = "o1-preview-2024-09-12"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 7.5
 input = 15

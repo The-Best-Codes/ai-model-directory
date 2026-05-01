@@ -4,6 +4,7 @@ name = "gpt-audio-mini"
 release_date = "2025-10-03"
 
 [features]
+attachment = false
 structured_output = false
 tool_call = true
 

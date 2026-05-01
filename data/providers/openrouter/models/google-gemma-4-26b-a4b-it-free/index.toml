@@ -3,7 +3,7 @@ name = "Google: Gemma 4 26B A4B  (free)"
 release_date = "2026-04-03"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

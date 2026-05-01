@@ -2,6 +2,8 @@ id = "cc-kimi-k2-instruct"
 name = "cc-kimi-k2-instruct"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

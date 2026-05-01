@@ -3,6 +3,9 @@ knowledge_cutoff = "2021-09-01"
 name = "gpt-3.5-turbo-instruct"
 release_date = "2023-08-24"
 
+[features]
+attachment = false
+
 [limit]
 context = 4096
 output = 4096

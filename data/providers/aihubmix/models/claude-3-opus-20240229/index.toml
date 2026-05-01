@@ -1,6 +1,12 @@
 id = "claude-3-opus-20240229"
 name = "claude-3-opus-20240229"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 16.5
 output = 82.5

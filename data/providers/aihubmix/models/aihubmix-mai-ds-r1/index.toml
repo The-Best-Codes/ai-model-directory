@@ -1,6 +1,12 @@
 id = "Aihubmix-MAI-DS-R1"
 name = "Aihubmix-MAI-DS-R1"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.6
 output = 1.8

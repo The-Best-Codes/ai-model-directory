@@ -49,24 +49,31 @@ function convert(model: ApiModel): ProviderModel {
     knowledge_cutoff: model.knowledge_cutoff ?? undefined,
     release_date: isoDateFromUnix(model.created),
 
-    features: compact({
-      attachment: inputMods.includes("file") || undefined,
+    // OpenRouter always returns `architecture.input_modalities` and
+    // `supported_parameters`, so absence of a capability means the model
+    // does not support it — write the explicit boolean either way.
+    features: {
+      attachment: inputMods.includes("file"),
       reasoning:
         hasParam(
           params,
           "reasoning",
           "reasoning_effort",
           "include_reasoning",
-        ) ||
-        pricePerMillion(model.pricing.internal_reasoning) !== undefined ||
-        undefined,
-      tool_call:
-        hasParam(params, "tools", "tool_choice", "parallel_tool_calls") ||
-        undefined,
-      structured_output:
-        hasParam(params, "structured_outputs", "response_format") || undefined,
-      temperature: hasParam(params, "temperature") || undefined,
-    }),
+        ) || pricePerMillion(model.pricing.internal_reasoning) !== undefined,
+      tool_call: hasParam(
+        params,
+        "tools",
+        "tool_choice",
+        "parallel_tool_calls",
+      ),
+      structured_output: hasParam(
+        params,
+        "structured_outputs",
+        "response_format",
+      ),
+      temperature: hasParam(params, "temperature"),
+    },
 
     pricing: compact({
       input: pricePerMillion(model.pricing.prompt),

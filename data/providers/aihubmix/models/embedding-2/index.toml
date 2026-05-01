@@ -1,6 +1,12 @@
 id = "embedding-2"
 name = "embedding-2"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [limit]
 context = 8000
 

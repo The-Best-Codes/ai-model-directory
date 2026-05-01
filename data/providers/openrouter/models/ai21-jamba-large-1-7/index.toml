@@ -4,6 +4,8 @@ name = "AI21: Jamba Large 1.7"
 release_date = "2025-08-08"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 temperature = true
 tool_call = true

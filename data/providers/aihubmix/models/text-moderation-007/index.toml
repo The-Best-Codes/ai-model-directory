@@ -1,6 +1,12 @@
 id = "text-moderation-007"
 name = "text-moderation-007"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.2
 output = 0.2

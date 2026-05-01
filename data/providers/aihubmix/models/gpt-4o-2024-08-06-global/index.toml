@@ -1,6 +1,12 @@
 id = "gpt-4o-2024-08-06-global"
 name = "gpt-4o-2024-08-06-global"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 1.25
 input = 2.5

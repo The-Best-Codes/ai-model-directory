@@ -3,6 +3,9 @@ name = "qianfan-ocr-fast"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [limit]
 context = 32000

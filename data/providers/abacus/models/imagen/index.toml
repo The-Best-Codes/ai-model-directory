@@ -1,6 +1,9 @@
 id = "imagen"
 name = "Imagen 4"
 
+[features]
+attachment = false
+
 [modalities]
 input = [ "text" ]
 output = [ "image" ]

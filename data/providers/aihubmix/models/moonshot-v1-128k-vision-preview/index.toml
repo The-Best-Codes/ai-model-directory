@@ -1,6 +1,12 @@
 id = "moonshot-v1-128k-vision-preview"
 name = "moonshot-v1-128k-vision-preview"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 10
 output = 10

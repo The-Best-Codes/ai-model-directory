@@ -1,6 +1,12 @@
 id = "qwen-turbo-latest"
 name = "qwen-turbo-latest"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 0.0092
 input = 0.046

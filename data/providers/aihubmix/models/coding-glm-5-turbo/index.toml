@@ -2,6 +2,7 @@ id = "coding-glm-5-turbo"
 name = "coding-glm-5-turbo"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

@@ -4,6 +4,7 @@ name = "Qwen: Qwen3 8B"
 release_date = "2025-04-28"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

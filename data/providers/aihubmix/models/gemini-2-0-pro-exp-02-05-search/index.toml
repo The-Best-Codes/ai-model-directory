@@ -3,6 +3,9 @@ name = "gemini-2.0-pro-exp-02-05-search"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "audio", "image", "text", "video" ]

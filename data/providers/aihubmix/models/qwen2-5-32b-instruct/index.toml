@@ -1,6 +1,12 @@
 id = "qwen2.5-32b-instruct"
 name = "qwen2.5-32b-instruct"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.6
 output = 1.2

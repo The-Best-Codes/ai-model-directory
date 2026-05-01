@@ -1,6 +1,12 @@
 id = "glm-4.5-airx"
 name = "glm-4.5-airx"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [modalities]
 input = [ "text" ]
 

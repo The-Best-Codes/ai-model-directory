@@ -1,6 +1,12 @@
 id = "ling-2.6-flash-free"
 name = "ling-2.6-flash-free"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [limit]
 context = 262100
 

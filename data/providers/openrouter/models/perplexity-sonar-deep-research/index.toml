@@ -3,8 +3,11 @@ name = "Perplexity: Sonar Deep Research"
 release_date = "2025-03-07"
 
 [features]
+attachment = false
 reasoning = true
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 128000

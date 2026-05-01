@@ -3,7 +3,7 @@ name = "Xiaomi: MiMo-V2.5"
 release_date = "2026-04-22"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

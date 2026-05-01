@@ -4,6 +4,7 @@ name = "OpenAI: gpt-oss-120b"
 release_date = "2025-08-05"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

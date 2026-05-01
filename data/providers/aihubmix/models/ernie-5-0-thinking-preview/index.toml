@@ -2,6 +2,7 @@ id = "ernie-5.0-thinking-preview"
 name = "ernie-5.0-thinking-preview"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

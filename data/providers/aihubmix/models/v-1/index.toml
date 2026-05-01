@@ -3,6 +3,9 @@ name = "V_1"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "image", "text" ]

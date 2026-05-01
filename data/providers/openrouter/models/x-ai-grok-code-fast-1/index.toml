@@ -4,6 +4,7 @@ name = "xAI: Grok Code Fast 1"
 release_date = "2025-08-26"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true

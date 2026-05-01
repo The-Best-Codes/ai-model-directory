@@ -3,6 +3,7 @@ name = "gemini-2.5-flash-lite-preview-09-2025-nothink"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

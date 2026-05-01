@@ -3,6 +3,7 @@ name = "ernie-4.5"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

@@ -3,8 +3,11 @@ name = "LiquidAI: LFM2.5-1.2B-Thinking (free)"
 release_date = "2026-01-20"
 
 [features]
+attachment = false
 reasoning = true
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 32768

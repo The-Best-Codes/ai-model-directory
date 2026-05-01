@@ -2,6 +2,7 @@ id = "minimax-m2"
 name = "minimax-m2"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

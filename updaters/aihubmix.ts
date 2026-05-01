@@ -109,6 +109,11 @@ function convert(
   basic: ApiModel | undefined,
   details: PaginationModel | undefined,
 ): ProviderModel {
+  // We only know the boolean answer to a feature when the source field is
+  // actually present on the pagination row. Absence == unknown, not false.
+  const featuresProvided = details?.features !== undefined;
+  const modalitiesProvided = details?.modalities !== undefined;
+
   const features = parseFeatures(details?.features);
   const inputMods = parseModalities(details?.modalities);
 
@@ -116,11 +121,11 @@ function convert(
   // outputs. Treat all listed modalities as inputs and leave outputs unset
   // since we can't reliably distinguish (e.g. veo generates video, gemini
   // generates text).
-  const hasAttachment =
-    inputMods !== undefined &&
-    inputMods.some(
-      (m) => m === "image" || m === "file" || m === "audio" || m === "video",
-    );
+  const hasAttachment = modalitiesProvided
+    ? (inputMods?.some(
+        (m) => m === "image" || m === "file" || m === "audio" || m === "video",
+      ) ?? false)
+    : undefined;
 
   // Skip token-based pricing for models priced per-second/per-image so we
   // don't publish nonsense numbers (model_ratio is meaningless for them).
@@ -153,11 +158,14 @@ function convert(
     name: basic?.id ?? id,
 
     features: compact({
-      attachment: hasAttachment || undefined,
-      reasoning: features.has("thinking") || undefined,
-      tool_call:
-        features.has("tools") || features.has("function_calling") || undefined,
-      structured_output: features.has("structured_outputs") || undefined,
+      attachment: hasAttachment,
+      reasoning: featuresProvided ? features.has("thinking") : undefined,
+      tool_call: featuresProvided
+        ? features.has("tools") || features.has("function_calling")
+        : undefined,
+      structured_output: featuresProvided
+        ? features.has("structured_outputs")
+        : undefined,
     }),
 
     pricing: compact({

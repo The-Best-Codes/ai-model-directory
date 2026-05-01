@@ -1,6 +1,12 @@
 id = "Doubao-pro-256k"
 name = "Doubao-pro-256k"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.8
 output = 1.44

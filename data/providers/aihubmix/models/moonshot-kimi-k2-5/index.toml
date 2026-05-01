@@ -1,6 +1,12 @@
 id = "moonshot-kimi-k2.5"
 name = "moonshot-kimi-k2.5"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 0.105
 input = 0.6

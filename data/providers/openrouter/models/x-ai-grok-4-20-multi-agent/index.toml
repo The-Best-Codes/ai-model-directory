@@ -8,6 +8,7 @@ attachment = true
 reasoning = true
 structured_output = true
 temperature = true
+tool_call = false
 
 [limit]
 context = 2000000

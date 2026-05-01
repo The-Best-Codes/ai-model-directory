@@ -3,6 +3,7 @@ name = "tngtech/DeepSeek-TNG-R1T2-Chimera-TEE"
 release_date = "2026-05-01"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true

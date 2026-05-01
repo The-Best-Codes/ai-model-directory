@@ -3,6 +3,8 @@ name = "Arcee AI: Trinity Large Preview"
 release_date = "2026-01-27"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 temperature = true
 tool_call = true

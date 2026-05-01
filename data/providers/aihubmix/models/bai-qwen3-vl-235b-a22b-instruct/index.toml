@@ -1,6 +1,12 @@
 id = "bai-qwen3-vl-235b-a22b-instruct"
 name = "bai-qwen3-vl-235b-a22b-instruct"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.274
 output = 1.096

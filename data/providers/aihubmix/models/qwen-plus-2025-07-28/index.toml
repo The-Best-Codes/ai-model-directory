@@ -1,6 +1,12 @@
 id = "qwen-plus-2025-07-28"
 name = "qwen-plus-2025-07-28"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.11
 output = 0.275

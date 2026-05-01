@@ -1,6 +1,12 @@
 id = "llama3.1-8b"
 name = "llama3.1-8b"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.3
 output = 0.6

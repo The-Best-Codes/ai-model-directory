@@ -1,6 +1,12 @@
 id = "qwen-mt-turbo"
 name = "qwen-mt-turbo"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [limit]
 context = 16000
 

@@ -3,8 +3,11 @@ name = "Perplexity: Sonar"
 release_date = "2025-01-27"
 
 [features]
-attachment = true
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 127072

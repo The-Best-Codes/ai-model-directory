@@ -4,7 +4,11 @@ name = "Arcee AI: Coder Large"
 release_date = "2025-05-05"
 
 [features]
+attachment = false
+reasoning = false
+structured_output = false
 temperature = true
+tool_call = false
 
 [limit]
 context = 32768

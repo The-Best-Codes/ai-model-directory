@@ -3,6 +3,8 @@ name = "XiaomiMiMo/MiMo-V2-Flash-TEE"
 release_date = "2026-05-01"
 
 [features]
+attachment = false
+reasoning = false
 structured_output = true
 tool_call = true
 

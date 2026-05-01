@@ -1,6 +1,12 @@
 id = "deepseek-ai/Janus-Pro-7B"
 name = "deepseek-ai/Janus-Pro-7B"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 2
 output = 2

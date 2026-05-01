@@ -3,6 +3,9 @@ name = "ahm-Phi-3-5-vision-instruct"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
 
 [modalities]
 input = [ "image", "text" ]

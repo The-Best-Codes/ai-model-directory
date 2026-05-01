@@ -3,6 +3,7 @@ name = "gpt-4.1-mini"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 

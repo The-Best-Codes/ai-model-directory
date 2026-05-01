@@ -1,6 +1,12 @@
 id = "qwen3-1.7b"
 name = "qwen3-1.7b"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 cache_read = 0
 input = 0.046

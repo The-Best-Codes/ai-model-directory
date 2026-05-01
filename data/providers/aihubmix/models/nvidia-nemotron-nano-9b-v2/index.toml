@@ -1,6 +1,12 @@
 id = "nvidia-nemotron-nano-9b-v2"
 name = "nvidia-nemotron-nano-9b-v2"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 0.044
 output = 0.176

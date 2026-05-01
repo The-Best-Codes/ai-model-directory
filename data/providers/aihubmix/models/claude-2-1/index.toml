@@ -1,6 +1,12 @@
 id = "claude-2.1"
 name = "claude-2.1"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
 [pricing]
 input = 8.8
 output = 39.6

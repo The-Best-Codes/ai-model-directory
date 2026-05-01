@@ -3,6 +3,7 @@ name = "mistral-large-3"
 
 [features]
 attachment = true
+reasoning = false
 structured_output = true
 tool_call = true
 
