@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> This project is currently in alpha. Nothing you see here is finished yet, so don't use this in production!
+> This project is currently in alpha. To get involved, [join us on Discord](https://www.agent-one.dev/discord), open an issue, or submit a PR.
 
 # The AI Model Directory
 
