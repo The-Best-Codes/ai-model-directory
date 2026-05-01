@@ -1,0 +1,14 @@
+id = "Qwen/Qwen3-Next-80B-A3B-Instruct"
+name = "Qwen/Qwen3-Next-80B-A3B-Instruct"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+input = 0.09
+output = 1.1

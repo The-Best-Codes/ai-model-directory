@@ -1,0 +1,7 @@
+name = "deepinfra"
+website = "https://deepinfra.com"
+apiBaseUrl = "https://api.deepinfra.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/deepinfra"
+defaultApiKeyEnv = ["DEEPINFRA_API_KEY"]

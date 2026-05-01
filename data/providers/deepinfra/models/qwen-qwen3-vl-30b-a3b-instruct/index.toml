@@ -1,0 +1,14 @@
+id = "Qwen/Qwen3-VL-30B-A3B-Instruct"
+name = "Qwen/Qwen3-VL-30B-A3B-Instruct"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+input = 0.15
+output = 0.6

@@ -1,0 +1,14 @@
+id = "microsoft/phi-4"
+name = "microsoft/phi-4"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 16384
+output = 16384
+
+[pricing]
+input = 0.07
+output = 0.14

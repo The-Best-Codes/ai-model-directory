@@ -1,0 +1,14 @@
+id = "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+name = "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 327680
+output = 327680
+
+[pricing]
+input = 0.08
+output = 0.3

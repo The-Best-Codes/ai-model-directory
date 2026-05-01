@@ -1,0 +1,14 @@
+id = "nvidia/Llama-3.3-Nemotron-Super-49B-v1.5"
+name = "nvidia/Llama-3.3-Nemotron-Super-49B-v1.5"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+input = 0.1
+output = 0.4

@@ -1,0 +1,14 @@
+id = "anthropic/claude-4-opus"
+name = "anthropic/claude-4-opus"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+output = 200000
+
+[pricing]
+input = 16.5
+output = 82.5

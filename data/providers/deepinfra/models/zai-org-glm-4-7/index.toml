@@ -1,0 +1,15 @@
+id = "zai-org/GLM-4.7"
+name = "zai-org/GLM-4.7"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 202752
+output = 202752
+
+[pricing]
+cache_read = 0.08000000000000002
+input = 0.4
+output = 1.75

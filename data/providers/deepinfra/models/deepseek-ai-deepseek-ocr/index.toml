@@ -1,0 +1,14 @@
+id = "deepseek-ai/DeepSeek-OCR"
+name = "deepseek-ai/DeepSeek-OCR"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 8192
+output = 8192
+
+[pricing]
+input = 0.030000000000000002
+output = 0.1

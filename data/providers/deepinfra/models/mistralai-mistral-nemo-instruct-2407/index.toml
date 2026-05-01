@@ -1,0 +1,14 @@
+id = "mistralai/Mistral-Nemo-Instruct-2407"
+name = "mistralai/Mistral-Nemo-Instruct-2407"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+input = 0.02
+output = 0.04

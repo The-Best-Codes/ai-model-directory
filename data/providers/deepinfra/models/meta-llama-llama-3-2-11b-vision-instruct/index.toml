@@ -1,0 +1,14 @@
+id = "meta-llama/Llama-3.2-11B-Vision-Instruct"
+name = "meta-llama/Llama-3.2-11B-Vision-Instruct"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+input = 0.245
+output = 0.245

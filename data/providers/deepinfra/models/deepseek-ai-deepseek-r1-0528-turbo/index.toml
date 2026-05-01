@@ -1,0 +1,14 @@
+id = "deepseek-ai/DeepSeek-R1-0528-Turbo"
+name = "deepseek-ai/DeepSeek-R1-0528-Turbo"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 32768
+output = 32768
+
+[pricing]
+input = 1
+output = 2.9999999999999996

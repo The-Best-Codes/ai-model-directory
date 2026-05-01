@@ -1,0 +1,14 @@
+id = "google/gemini-2.5-flash"
+name = "google/gemini-2.5-flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 1000000
+
+[pricing]
+input = 0.3
+output = 2.5
