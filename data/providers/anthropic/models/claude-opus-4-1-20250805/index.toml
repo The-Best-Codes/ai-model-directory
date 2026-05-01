@@ -1,0 +1,16 @@
+release_date = "2025-08-05"
+id = "claude-opus-4-1-20250805"
+name = "Claude Opus 4.1"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+
+[limit]
+context = 200000
+output = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

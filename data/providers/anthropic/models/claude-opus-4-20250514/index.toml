@@ -1,0 +1,15 @@
+release_date = "2025-05-22"
+id = "claude-opus-4-20250514"
+name = "Claude Opus 4"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+output = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

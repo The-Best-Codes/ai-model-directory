@@ -5,6 +5,10 @@ import { z } from "zod";
 
 import { ProgressBar, type ProgressReporter } from "./progress.ts";
 import {
+  fetchModels as fetchAnthropicModels,
+  outputDirectory as anthropicOutputDirectory,
+} from "./updaters/anthropic.ts";
+import {
   fetchModels as fetchOpenAIModels,
   outputDirectory as openAIOutputDirectory,
 } from "./updaters/openai.ts";
@@ -328,6 +332,10 @@ const UPDATERS: Updater[] = [
   {
     fetchModels: fetchOpenAIModels,
     outputDirectory: openAIOutputDirectory,
+  },
+  {
+    fetchModels: fetchAnthropicModels,
+    outputDirectory: anthropicOutputDirectory,
   },
 ];
 

@@ -1,0 +1,16 @@
+release_date = "2025-10-15"
+id = "claude-haiku-4-5-20251001"
+name = "Claude Haiku 4.5"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+
+[limit]
+context = 200000
+output = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

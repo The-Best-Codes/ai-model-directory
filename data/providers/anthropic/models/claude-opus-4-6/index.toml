@@ -1,0 +1,16 @@
+release_date = "2026-02-04"
+id = "claude-opus-4-6"
+name = "Claude Opus 4.6"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
