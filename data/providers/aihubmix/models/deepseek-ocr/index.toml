@@ -1,5 +1,5 @@
-id = "DeepSeek-OCR"
-name = "DeepSeek-OCR"
+id = "deepseek-ocr"
+name = "deepseek-ocr"
 
 [features]
 attachment = true

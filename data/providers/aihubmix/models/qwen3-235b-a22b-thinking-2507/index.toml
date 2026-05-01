@@ -1,17 +1,10 @@
-id = "qwen3-235b-a22b-thinking-2507"
-name = "qwen3-235b-a22b-thinking-2507"
+id = "Qwen3-235B-A22B-Thinking-2507"
+name = "Qwen3-235B-A22B-Thinking-2507"
 
 [features]
-attachment = true
-reasoning = true
-structured_output = true
-tool_call = true
-
-[limit]
-context = 262144
-
-[modalities]
-input = [ "image", "text" ]
+reasoning = false
+structured_output = false
+tool_call = false
 
 [pricing]
 input = 0.28

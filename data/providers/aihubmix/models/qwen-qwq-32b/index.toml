@@ -1,11 +1,11 @@
-id = "Qwen/QwQ-32B"
-name = "Qwen/QwQ-32B"
+id = "qwen-qwq-32b"
+name = "qwen-qwq-32b"
 
 [features]
 reasoning = false
-structured_output = true
-tool_call = true
+structured_output = false
+tool_call = false
 
 [pricing]
-input = 0.14
-output = 0.56
+input = 0.4
+output = 0.8

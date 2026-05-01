@@ -1,6 +1,6 @@
 id = "unsloth/Mistral-Nemo-Instruct-2407"
 name = "unsloth/Mistral-Nemo-Instruct-2407"
-release_date = "1777666335"
+release_date = "1777671735"
 
 [features]
 attachment = false
