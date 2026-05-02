@@ -16,7 +16,20 @@ const responseSchema = z.object({
   data: z.array(apiModelSchema),
 });
 
-type PricingInfo = { input: number; output: number; cache_hit: number };
+type PricingInfo = { input?: number; output?: number; cache_hit?: number };
+type FeatureInfo = {
+  tool_call?: boolean;
+  structured_output?: boolean;
+  reasoning?: boolean;
+};
+type LimitInfo = { context?: number; output?: number };
+type ModelInfo = {
+  pricing?: PricingInfo;
+  features?: FeatureInfo;
+  limits?: LimitInfo;
+};
+
+const KNOWN_MODELS = ["deepseek-v4-flash", "deepseek-v4-pro"] as const;
 
 function parsePrice(value: string): number | undefined {
   const match = value.match(/\$([0-9.]+)/);
@@ -25,101 +38,150 @@ function parsePrice(value: string): number | undefined {
   return Number.isFinite(parsed) && parsed >= 0 ? parsed : undefined;
 }
 
-function parsePricingTable(html: string): Map<string, PricingInfo> {
+function parseTokenSize(value: string): number | undefined {
+  const match = value.match(/([0-9]+(?:\.[0-9]+)?)\s*([KMB])/i);
+  if (!match) return undefined;
+  const num = Number(match[1]);
+  if (!Number.isFinite(num)) return undefined;
+  const unit = match[2]!.toUpperCase();
+  const multiplier =
+    unit === "K" ? 1_000 : unit === "M" ? 1_000_000 : 1_000_000_000;
+  return Math.round(num * multiplier);
+}
+
+function cleanText(
+  $: cheerio.CheerioAPI,
+  el: cheerio.BasicAcceptedElems<any>,
+): string {
+  const $cell = $(el).clone();
+  $cell.find("sup").remove();
+  $cell.find("del").remove();
+  return $cell.text().trim();
+}
+
+function mapFeatureLabel(label: string): keyof FeatureInfo | null {
+  const normalized = label.toLowerCase();
+  if (normalized === "json output") return "structured_output";
+  if (normalized === "tool calls") return "tool_call";
+  return null;
+}
+
+function parseDocsTable(html: string): Map<string, ModelInfo> {
   const $ = cheerio.load(html);
-  const result = new Map<string, PricingInfo>();
+  const result = new Map<string, ModelInfo>();
 
-  const tables = $("table").toArray();
-  outer: for (const table of tables) {
+  for (const table of $("table").toArray()) {
     const rows = $(table).find("tr").toArray();
-    const modelNames: string[] = [];
+    if (rows.length === 0) continue;
 
-    const headerRow = rows[0];
-    if (headerRow) {
-      const headers = $(headerRow).find("td").toArray();
-      for (let i = 1; i < headers.length; i++) {
-        const $cell = $(headers[i]);
-        $cell.find("sup").remove();
-        const text = $cell.text().trim();
-        if (text === "deepseek-v4-flash" || text === "deepseek-v4-pro") {
-          modelNames.push(text);
-        }
+    const modelNames: string[] = [];
+    const headerCells = $(rows[0]!).find("td").toArray();
+    for (let i = 1; i < headerCells.length; i++) {
+      const text = cleanText($, headerCells[i]!);
+      if ((KNOWN_MODELS as readonly string[]).includes(text)) {
+        modelNames.push(text);
       }
     }
     if (modelNames.length === 0) continue;
 
-    for (const row of rows) {
-      const cells = $(row).find("td").toArray();
-      if (cells.length < 3) continue;
+    for (const name of modelNames) {
+      if (!result.has(name)) result.set(name, {});
+    }
 
-      const $firstCell = $(cells[0]);
-      $firstCell.find("sup").remove();
-      const firstCellText = $firstCell.text().trim();
+    let section: "features" | "pricing" | null = null;
 
-      const prices: number[] = [];
-      let label = "";
+    for (let r = 1; r < rows.length; r++) {
+      const cells = $(rows[r]!).find("td").toArray();
+      if (cells.length === 0) continue;
 
-      if (firstCellText === "PRICING") {
-        const labelCell = $(cells[1]);
-        labelCell.find("sup").remove();
-        label = labelCell.text().trim();
-        for (let i = 2; i < cells.length; i++) {
-          const $cell = $(cells[i]);
-          $cell.find("sup").remove();
-          $cell.find("del").remove();
-          const price = parsePrice($cell.text().trim());
-          if (price !== undefined) prices.push(price);
-        }
+      const firstCellText = cleanText($, cells[0]!);
+      let dataCells = cells;
+      let label = firstCellText;
+
+      if (firstCellText === "FEATURES") {
+        section = "features";
+        dataCells = cells.slice(1);
+        label = dataCells[0] ? cleanText($, dataCells[0]!) : "";
+      } else if (firstCellText === "PRICING") {
+        section = "pricing";
+        dataCells = cells.slice(1);
+        label = dataCells[0] ? cleanText($, dataCells[0]!) : "";
       } else if (
-        firstCellText.includes("1M INPUT TOKENS") ||
-        firstCellText.includes("1M OUTPUT TOKENS")
+        firstCellText === "CONTEXT LENGTH" ||
+        firstCellText === "MAX OUTPUT" ||
+        firstCellText === "THINKING MODE" ||
+        firstCellText === "MODEL VERSION" ||
+        firstCellText.startsWith("BASE URL")
       ) {
-        label = firstCellText;
-        for (let i = 1; i < cells.length; i++) {
-          const $cell = $(cells[i]);
-          $cell.find("sup").remove();
-          $cell.find("del").remove();
-          const price = parsePrice($cell.text().trim());
-          if (price !== undefined) prices.push(price);
-        }
+        section = null;
       }
 
-      if (prices.length !== modelNames.length || prices.length === 0) continue;
+      if (firstCellText === "CONTEXT LENGTH") {
+        const value = parseTokenSize(cells[1] ? cleanText($, cells[1]!) : "");
+        if (value !== undefined) {
+          for (const name of modelNames) {
+            const info = result.get(name)!;
+            info.limits = { ...(info.limits ?? {}), context: value };
+          }
+        }
+        continue;
+      }
 
-      if (label.includes("1M INPUT TOKENS (CACHE HIT)")) {
-        for (let i = 0; i < modelNames.length; i++) {
-          const name = modelNames[i]!;
-          const entry = result.get(name);
-          if (!entry)
-            result.set(name, { input: 0, output: 0, cache_hit: prices[i]! });
-          else entry.cache_hit = prices[i]!;
+      if (firstCellText === "MAX OUTPUT") {
+        const value = parseTokenSize(cells[1] ? cleanText($, cells[1]!) : "");
+        if (value !== undefined) {
+          for (const name of modelNames) {
+            const info = result.get(name)!;
+            info.limits = { ...(info.limits ?? {}), output: value };
+          }
         }
-      } else if (label.includes("1M INPUT TOKENS (CACHE MISS)")) {
-        for (let i = 0; i < modelNames.length; i++) {
-          const name = modelNames[i]!;
-          const entry = result.get(name);
-          if (!entry)
-            result.set(name, { input: prices[i]!, output: 0, cache_hit: 0 });
-          else entry.input = prices[i]!;
+        continue;
+      }
+
+      if (firstCellText === "THINKING MODE") {
+        const value = cells[1] ? cleanText($, cells[1]!) : "";
+        if (/thinking/i.test(value)) {
+          for (const name of modelNames) {
+            const info = result.get(name)!;
+            info.features = { ...(info.features ?? {}), reasoning: true };
+          }
         }
-      } else if (label.includes("1M OUTPUT TOKENS")) {
+        continue;
+      }
+
+      if (section === "features" && dataCells.length >= 1 + modelNames.length) {
+        const featureKey = mapFeatureLabel(label);
+        if (!featureKey) continue;
         for (let i = 0; i < modelNames.length; i++) {
-          const name = modelNames[i]!;
-          const entry = result.get(name);
-          if (!entry)
-            result.set(name, { input: 0, output: prices[i]!, cache_hit: 0 });
-          else entry.output = prices[i]!;
+          const supported = cleanText($, dataCells[i + 1]!) === "✓";
+          if (!supported) continue;
+          const info = result.get(modelNames[i]!)!;
+          info.features = { ...(info.features ?? {}), [featureKey]: true };
         }
+        continue;
+      }
+
+      if (section === "pricing" && dataCells.length >= 1 + modelNames.length) {
+        for (let i = 0; i < modelNames.length; i++) {
+          const price = parsePrice(cleanText($, dataCells[i + 1]!));
+          if (price === undefined) continue;
+          const info = result.get(modelNames[i]!)!;
+          const pricing = (info.pricing ??= {});
+          if (label.includes("CACHE HIT")) pricing.cache_hit = price;
+          else if (label.includes("CACHE MISS")) pricing.input = price;
+          else if (label.includes("OUTPUT TOKENS")) pricing.output = price;
+        }
+        continue;
       }
     }
 
-    if (modelNames.length > 0 && result.size > 0) break outer;
+    if (result.size > 0) break;
   }
 
   return result;
 }
 
-async function fetchPricing(): Promise<Map<string, PricingInfo>> {
+async function fetchDocs(): Promise<Map<string, ModelInfo>> {
   try {
     const html = await fetchText(
       "https://api-docs.deepseek.com/quick_start/pricing",
@@ -127,7 +189,7 @@ async function fetchPricing(): Promise<Map<string, PricingInfo>> {
         label: "DeepSeek pricing page error",
       },
     );
-    return parsePricingTable(html);
+    return parseDocsTable(html);
   } catch {
     return new Map();
   }
@@ -153,23 +215,31 @@ export const deepseekProvider: ProviderDefinition = {
       true,
     );
 
-    const pricingMap = await fetchPricing();
-    progress?.tick("fetched pricing data", true);
+    const docsMap = await fetchDocs();
+    progress?.tick("fetched docs data", true);
 
     return response.data.map((model) => {
-      const pricing = pricingMap.get(model.id);
+      const info = docsMap.get(model.id);
+      const pricing = info?.pricing;
+      const features = info?.features;
+      const limits = info?.limits;
 
       return compactObject({
         id: model.id,
         name: model.id,
-        limit: compactObject({
-          context: 1_000_000,
-          output: 384_000,
-        }),
-        features: compactObject({
-          tool_call: true,
-          structured_output: true,
-        }),
+        limit: limits
+          ? compactObject({
+              context: limits.context,
+              output: limits.output,
+            })
+          : undefined,
+        features: features
+          ? compactObject({
+              tool_call: features.tool_call,
+              structured_output: features.structured_output,
+              reasoning: features.reasoning,
+            })
+          : undefined,
         modalities: {
           input: ["text"],
           output: ["text"],
