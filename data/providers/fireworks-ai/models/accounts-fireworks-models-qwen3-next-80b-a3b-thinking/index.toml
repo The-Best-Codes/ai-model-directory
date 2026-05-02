@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/qwen3-next-80b-a3b-thinking"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Qwen3 Next 80B A3B Thinking"
 open_weights = true
 release_date = "1757990510"

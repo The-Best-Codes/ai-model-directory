@@ -2,7 +2,7 @@ id = "Qwen/Qwen3.5-35B-A3B"
 name = "Qwen/Qwen3.5-35B-A3B"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 
 [limit]

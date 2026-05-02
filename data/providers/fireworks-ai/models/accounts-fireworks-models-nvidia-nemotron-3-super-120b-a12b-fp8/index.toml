@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/nvidia-nemotron-3-super-120b-a12b-fp8"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "NVIDIA Nemotron 3 Super 120B A12B FP8"
 open_weights = true
 release_date = "1773236165"

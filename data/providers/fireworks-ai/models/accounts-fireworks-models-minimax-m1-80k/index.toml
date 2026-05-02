@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/minimax-m1-80k"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "MiniMax-M1-80k"
 open_weights = true
 release_date = "1750351160"

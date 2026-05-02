@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/qwen1p5-72b-chat"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Qwen1.5 72B Chat"
 open_weights = true
 release_date = "1708999011"

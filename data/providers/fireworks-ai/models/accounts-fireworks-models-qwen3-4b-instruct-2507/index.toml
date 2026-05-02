@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/qwen3-4b-instruct-2507"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Qwen 3 4B Instruct 2507"
 open_weights = true
 release_date = "1760573775"

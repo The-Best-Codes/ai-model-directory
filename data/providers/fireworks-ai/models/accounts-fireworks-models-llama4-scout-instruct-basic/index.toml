@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/llama4-scout-instruct-basic"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Llama 4 Scout Instruct (Basic)"
 open_weights = true
 release_date = "1743878279"

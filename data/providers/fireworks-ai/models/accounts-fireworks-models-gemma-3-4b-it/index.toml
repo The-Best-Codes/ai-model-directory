@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/gemma-3-4b-it"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Gemma 3 4B Instruct"
 open_weights = true
 release_date = "1766020350"

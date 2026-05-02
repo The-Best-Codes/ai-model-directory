@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/cogito-v1-preview-llama-70b"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Cogito v1 Preview Llama 70B"
 open_weights = true
 release_date = "1744062923"

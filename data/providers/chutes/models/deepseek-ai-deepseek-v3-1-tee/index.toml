@@ -1,6 +1,6 @@
 id = "deepseek-ai/DeepSeek-V3.1-TEE"
 name = "deepseek-ai/DeepSeek-V3.1-TEE"
-release_date = "1777682531"
+release_date = "1777758753"
 
 [features]
 attachment = false

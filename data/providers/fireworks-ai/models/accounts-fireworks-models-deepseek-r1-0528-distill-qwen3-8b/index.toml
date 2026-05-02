@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/deepseek-r1-0528-distill-qwen3-8b"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "DeepSeek R1 0528 Distill Qwen3 8B"
 open_weights = true
 release_date = "1748970304"

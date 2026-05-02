@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/code-llama-70b-python"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Code Llama 70B Python"
 open_weights = true
 release_date = "1709326851"

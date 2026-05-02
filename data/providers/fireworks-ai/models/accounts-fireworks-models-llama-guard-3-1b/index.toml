@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/llama-guard-3-1b"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Llama Guard v3 1B"
 open_weights = true
 release_date = "1727280239"

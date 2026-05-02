@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/mixtral-8x22b-instruct"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Mixtral MoE 8x22B Instruct"
 open_weights = true
 release_date = "1713375508"

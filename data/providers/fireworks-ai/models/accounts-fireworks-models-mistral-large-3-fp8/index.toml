@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/mistral-large-3-fp8"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Mistral Large 3 675B Instruct 2512"
 open_weights = true
 release_date = "1764647033"

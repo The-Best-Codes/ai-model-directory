@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/mistral-nemo-instruct-2407"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Mistral Nemo Instruct 2407"
 open_weights = true
 release_date = "1721606827"

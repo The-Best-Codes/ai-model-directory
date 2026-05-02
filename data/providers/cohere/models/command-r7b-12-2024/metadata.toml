@@ -1,3 +1,6 @@
 [manual_data.pricing]
 input = 0.0375
 output = 0.15
+
+[manual_data.limit]
+output = 4000

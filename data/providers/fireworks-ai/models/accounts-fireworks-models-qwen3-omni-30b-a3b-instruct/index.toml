@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/qwen3-omni-30b-a3b-instruct"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Qwen3 Omni 30B A3B Instruct"
 open_weights = true
 release_date = "1766164828"
