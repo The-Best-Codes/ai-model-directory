@@ -1,0 +1,7 @@
+name = "Perplexity"
+website = "https://perplexity.ai"
+apiBaseUrl = "https://api.perplexity.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/perplexity"
+defaultApiKeyEnv = ["PERPLEXITY_API_KEY"]

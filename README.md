@@ -1,9 +1,9 @@
 > [!IMPORTANT]
-> This project is currently in alpha. To get involved, [join us on Discord](https://www.agent-one.dev/discord), open an issue, or submit a PR.
+> This project is currently in beta. To get involved, [join us on Discord](https://www.agent-one.dev/discord), open an issue, or submit a PR.
 
 # The AI Model Directory
 
-The AI model directory is the most comprehensive, automatically updated directory of AI models.
+The AI model directory is the most comprehensive, automatically updated directory of AI models. Data is stored in `data/all.json` (for all data) and `data/providers/` (for each provider and its models). We're working on the docs!
 
 ## Why Does This Exist?
 
