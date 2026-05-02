@@ -1,0 +1,7 @@
+name = "Abliteration.ai"
+website = "https://abliteration.ai"
+apiBaseUrl = "https://api.abliteration.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ABLIT_KEY"]
