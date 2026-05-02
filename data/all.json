@@ -37507,6 +37507,392 @@
       }
     }
   },
+  "baseten": {
+    "id": "baseten",
+    "name": "Basten",
+    "website": "https://baseten.co",
+    "apiBaseUrl": "https://inference.baseten.co/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "BASETEN_API_KEY"
+      ]
+    },
+    "models": {
+      "deepseek-ai/DeepSeek-V3.1": {
+        "id": "deepseek-ai/DeepSeek-V3.1",
+        "name": "DeepSeek V3.1",
+        "release_date": "1755822380",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": false,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 1.5
+        },
+        "limit": {
+          "context": 163840,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "deepseek-ai/DeepSeek-V4-Pro": {
+        "id": "deepseek-ai/DeepSeek-V4-Pro",
+        "name": "Deepseek V4 Pro",
+        "release_date": "1777158262",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.74,
+          "output": 3.48
+        },
+        "limit": {
+          "context": 131000,
+          "output": 131000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "MiniMaxAI/MiniMax-M2.5": {
+        "id": "MiniMaxAI/MiniMax-M2.5",
+        "name": "Minimax M2.5",
+        "release_date": "1771086448",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 1.2
+        },
+        "limit": {
+          "context": 204000,
+          "output": 204000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "moonshotai/Kimi-K2.5": {
+        "id": "moonshotai/Kimi-K2.5",
+        "name": "Kimi K2.5",
+        "release_date": "1769551067",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 3
+        },
+        "limit": {
+          "context": 262000,
+          "output": 262000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "moonshotai/Kimi-K2.6": {
+        "id": "moonshotai/Kimi-K2.6",
+        "name": "Kimi K2.6",
+        "release_date": "1776647514",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.95,
+          "output": 4
+        },
+        "limit": {
+          "context": 262000,
+          "output": 262000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "nvidia/Nemotron-120B-A12B": {
+        "id": "nvidia/Nemotron-120B-A12B",
+        "name": "Nemotron Super",
+        "release_date": "1773244822",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.06,
+          "output": 0.75
+        },
+        "limit": {
+          "context": 202800,
+          "output": 202800
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-oss-120b": {
+        "id": "openai/gpt-oss-120b",
+        "name": "OpenAI GPT 120B",
+        "release_date": "1754410981",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.5
+        },
+        "limit": {
+          "context": 128072,
+          "output": 128072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "zai-org/GLM-4.7": {
+        "id": "zai-org/GLM-4.7",
+        "name": "GLM 4.7",
+        "release_date": "1766509343",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 2.2
+        },
+        "limit": {
+          "context": 200000,
+          "output": 200000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "zai-org/GLM-5": {
+        "id": "zai-org/GLM-5",
+        "name": "GLM 5",
+        "release_date": "1771197112",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.95,
+          "output": 3.15
+        },
+        "limit": {
+          "context": 202800,
+          "output": 202800
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      }
+    }
+  },
+  "cerebras": {
+    "id": "cerebras",
+    "name": "Cerebras",
+    "website": "https://cerebras.ai",
+    "apiBaseUrl": "https://api.cerebras.ai/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/cerebras",
+      "defaultApiKeyEnv": [
+        "CEREBRAS_API_KEY"
+      ]
+    },
+    "models": {
+      "gpt-oss-120b": {
+        "id": "gpt-oss-120b",
+        "name": "GPT OSS 120b",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.35,
+          "output": 0.75
+        },
+        "limit": {
+          "context": 131072,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "llama3.1-8b": {
+        "id": "llama3.1-8b",
+        "name": "Llama 3.1 8B",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.1
+        },
+        "limit": {
+          "context": 32000,
+          "output": 8000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-3-235b-a22b-instruct-2507": {
+        "id": "qwen-3-235b-a22b-instruct-2507",
+        "name": "Qwen3 235B A22B Instruct 2507",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.6,
+          "output": 1.2
+        },
+        "limit": {
+          "context": 131000,
+          "output": 32000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "zai-glm-4.7": {
+        "id": "zai-glm-4.7",
+        "name": "Z.ai: GLM 4.7",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 2.25,
+          "output": 2.75
+        },
+        "limit": {
+          "context": 131072,
+          "output": 40000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      }
+    }
+  },
   "chutes": {
     "id": "chutes",
     "name": "Chutes",
@@ -38264,6 +38650,430 @@
             "text"
           ],
           "output": [
+            "text"
+          ]
+        }
+      }
+    }
+  },
+  "cohere": {
+    "id": "cohere",
+    "name": "Cohere",
+    "website": "https://cohere.com",
+    "apiBaseUrl": "https://api.cohere.com/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/cohere",
+      "defaultApiKeyEnv": [
+        "COHERE_API_KEY"
+      ]
+    },
+    "models": {
+      "c4ai-aya-expanse-32b": {
+        "id": "c4ai-aya-expanse-32b",
+        "name": "c4ai-aya-expanse-32b",
+        "features": {
+          "attachment": false,
+          "temperature": false
+        },
+        "limit": {
+          "context": 128000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "c4ai-aya-vision-32b": {
+        "id": "c4ai-aya-vision-32b",
+        "name": "c4ai-aya-vision-32b",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": false,
+          "structured_output": false,
+          "temperature": false
+        },
+        "limit": {
+          "context": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "cohere-transcribe-03-2026": {
+        "id": "cohere-transcribe-03-2026",
+        "name": "cohere-transcribe-03-2026",
+        "features": {
+          "attachment": true,
+          "temperature": false
+        },
+        "limit": {
+          "context": 32768
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "command-a-03-2025": {
+        "id": "command-a-03-2025",
+        "name": "command-a-03-2025",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10
+        },
+        "limit": {
+          "context": 256000,
+          "output": 8000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "command-a-reasoning-08-2025": {
+        "id": "command-a-reasoning-08-2025",
+        "name": "command-a-reasoning-08-2025",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10
+        },
+        "limit": {
+          "context": 256000,
+          "output": 8000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "command-a-translate-08-2025": {
+        "id": "command-a-translate-08-2025",
+        "name": "command-a-translate-08-2025",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10
+        },
+        "limit": {
+          "context": 256000,
+          "output": 8000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "command-a-vision-07-2025": {
+        "id": "command-a-vision-07-2025",
+        "name": "command-a-vision-07-2025",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 10
+        },
+        "limit": {
+          "context": 256000,
+          "output": 8000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "command-r-08-2024": {
+        "id": "command-r-08-2024",
+        "name": "command-r-08-2024",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "limit": {
+          "context": 128000,
+          "output": 4000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "command-r-plus-08-2024": {
+        "id": "command-r-plus-08-2024",
+        "name": "command-r-plus-08-2024",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "limit": {
+          "context": 128000,
+          "output": 4000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "command-r7b-12-2024": {
+        "id": "command-r7b-12-2024",
+        "name": "command-r7b-12-2024",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 0.0375,
+          "output": 0.15
+        },
+        "limit": {
+          "context": 128000,
+          "output": 4000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "command-r7b-arabic-02-2025": {
+        "id": "command-r7b-arabic-02-2025",
+        "name": "command-r7b-arabic-02-2025",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 0.0375,
+          "output": 0.15
+        },
+        "limit": {
+          "context": 128000,
+          "output": 4000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "embed-english-light-v3.0": {
+        "id": "embed-english-light-v3.0",
+        "name": "embed-english-light-v3.0",
+        "features": {
+          "attachment": false,
+          "temperature": false
+        },
+        "limit": {
+          "context": 512
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "embed-english-light-v3.0-image": {
+        "id": "embed-english-light-v3.0-image",
+        "name": "embed-english-light-v3.0-image",
+        "features": {
+          "attachment": true,
+          "temperature": false
+        },
+        "modalities": {
+          "input": [
+            "image"
+          ]
+        }
+      },
+      "embed-english-v3.0": {
+        "id": "embed-english-v3.0",
+        "name": "embed-english-v3.0",
+        "features": {
+          "attachment": false,
+          "temperature": false
+        },
+        "limit": {
+          "context": 512
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "embed-english-v3.0-image": {
+        "id": "embed-english-v3.0-image",
+        "name": "embed-english-v3.0-image",
+        "features": {
+          "attachment": true,
+          "temperature": false
+        },
+        "modalities": {
+          "input": [
+            "image"
+          ]
+        }
+      },
+      "embed-multilingual-light-v3.0": {
+        "id": "embed-multilingual-light-v3.0",
+        "name": "embed-multilingual-light-v3.0",
+        "features": {
+          "attachment": false,
+          "temperature": false
+        },
+        "limit": {
+          "context": 512
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "embed-multilingual-light-v3.0-image": {
+        "id": "embed-multilingual-light-v3.0-image",
+        "name": "embed-multilingual-light-v3.0-image",
+        "features": {
+          "attachment": true,
+          "temperature": false
+        },
+        "modalities": {
+          "input": [
+            "image"
+          ]
+        }
+      },
+      "embed-multilingual-v3.0": {
+        "id": "embed-multilingual-v3.0",
+        "name": "embed-multilingual-v3.0",
+        "features": {
+          "attachment": false,
+          "temperature": false
+        },
+        "limit": {
+          "context": 512
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "embed-multilingual-v3.0-image": {
+        "id": "embed-multilingual-v3.0-image",
+        "name": "embed-multilingual-v3.0-image",
+        "features": {
+          "attachment": true,
+          "temperature": false
+        },
+        "modalities": {
+          "input": [
+            "image"
+          ]
+        }
+      },
+      "embed-v4.0": {
+        "id": "embed-v4.0",
+        "name": "embed-v4.0",
+        "features": {
+          "attachment": false,
+          "temperature": false
+        },
+        "limit": {
+          "context": 8192
+        },
+        "modalities": {
+          "input": [
             "text"
           ]
         }
