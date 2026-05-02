@@ -5,6 +5,7 @@ import { alibabaCnProvider } from "./alibaba-cn.ts";
 import { aihubmixProvider } from "./aihubmix.ts";
 import { anthropicProvider } from "./anthropic.ts";
 import { basetenProvider } from "./baseten.ts";
+import { cerebrasProvider } from "./cerebras.ts";
 import { chutesProvider } from "./chutes.ts";
 import { cortecsProvider } from "./cortecs.ts";
 import { deepinfraProvider } from "./deepinfra.ts";
@@ -25,6 +26,7 @@ export const providers: ProviderDefinition[] = [
   alibabaCnProvider,
   aihubmixProvider,
   basetenProvider,
+  cerebrasProvider,
   chutesProvider,
   cortecsProvider,
   deepinfraProvider,
