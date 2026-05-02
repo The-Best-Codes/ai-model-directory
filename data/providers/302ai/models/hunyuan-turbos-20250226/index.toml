@@ -1,0 +1,21 @@
+id = "hunyuan-turbos-20250226"
+last_updated = "1761903610"
+name = "hunyuan-turbos-20250226"
+release_date = "1740654137"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 24000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.12
+output = 0.3

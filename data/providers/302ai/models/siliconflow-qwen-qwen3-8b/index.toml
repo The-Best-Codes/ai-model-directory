@@ -1,0 +1,21 @@
+id = "siliconflow-qwen-qwen3-8b"
+last_updated = "1762164734"
+name = "Qwen/Qwen3-8B"
+release_date = "1750145148"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

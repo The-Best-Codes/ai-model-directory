@@ -1,0 +1,21 @@
+id = "stepfun-step-1v-8k"
+last_updated = "1761902504"
+name = "step-1v-8k"
+release_date = "1709251200"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.72
+output = 2.86

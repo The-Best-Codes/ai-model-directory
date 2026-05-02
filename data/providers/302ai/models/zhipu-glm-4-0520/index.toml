@@ -1,0 +1,21 @@
+id = "zhipu-glm-4-0520"
+last_updated = "1767602259"
+name = "glm-4-0520"
+release_date = "1716163200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 14
+output = 14

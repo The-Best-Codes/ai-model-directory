@@ -1,0 +1,21 @@
+id = "expert-model-zzkj-genetics"
+last_updated = "1767519606"
+name = "zzkj-genetics"
+release_date = "1739821914"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 22
+output = 86

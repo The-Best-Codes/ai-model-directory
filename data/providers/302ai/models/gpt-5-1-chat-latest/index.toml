@@ -1,0 +1,21 @@
+id = "gpt-5-1-chat-latest"
+last_updated = "1764575054"
+name = "gpt-5.1-chat-latest"
+release_date = "1763112870"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 1.25
+output = 10

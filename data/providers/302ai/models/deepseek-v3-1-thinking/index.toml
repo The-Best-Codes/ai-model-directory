@@ -1,0 +1,21 @@
+id = "deepseek-v3-1-thinking"
+last_updated = "1765536157"
+name = "deepseek-v3.1-thinking"
+release_date = "1756018405"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.286
+output = 1.15

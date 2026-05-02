@@ -1,0 +1,21 @@
+id = "siliconflow-deepseek-ai-deepseek-v2-5"
+last_updated = "1762163822"
+name = "deepseek-ai/DeepSeek-V2.5"
+release_date = "1725494400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.3

@@ -1,0 +1,21 @@
+id = "anthropic-claude-opus-4-1-20250805-Code"
+last_updated = "1764557342"
+name = "claude-opus-4-1-20250805（Claude Code）"
+release_date = "1760033093"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 15
+output = 75

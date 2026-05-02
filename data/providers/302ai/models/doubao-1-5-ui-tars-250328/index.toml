@@ -1,0 +1,21 @@
+id = "doubao-1-5-ui-tars-250328"
+last_updated = "1761900241"
+name = "doubao-1.5-ui-tars-250328"
+release_date = "1746555655"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.5
+output = 1.7

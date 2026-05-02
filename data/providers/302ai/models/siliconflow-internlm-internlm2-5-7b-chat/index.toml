@@ -1,0 +1,21 @@
+id = "siliconflow-internlm-internlm2-5-7b-chat"
+last_updated = "1762164218"
+name = "internlm/internlm2_5-7b-chat"
+release_date = "1721779200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

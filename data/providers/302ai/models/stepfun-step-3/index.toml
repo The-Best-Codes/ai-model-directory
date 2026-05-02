@@ -1,0 +1,21 @@
+id = "stepfun-step-3"
+last_updated = "1761902199"
+name = "step-3"
+release_date = "1753973234"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.2142
+output = 0.5715

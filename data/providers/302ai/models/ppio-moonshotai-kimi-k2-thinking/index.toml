@@ -1,0 +1,21 @@
+id = "ppio-moonshotai-kimi-k2-thinking"
+last_updated = "1767955643"
+name = "moonshotai/kimi-k2-thinking"
+release_date = "1767856216"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.572
+output = 2.286

@@ -1,0 +1,21 @@
+id = "ppio-qwen-qwen3-coder-480b-a35b-instruct"
+last_updated = "1766484854"
+name = "qwen/qwen3-coder-480b-a35b-instruct"
+release_date = "1753262232"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.14
+output = 2.14

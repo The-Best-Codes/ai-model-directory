@@ -1,0 +1,21 @@
+id = "sophnet-qwen3-235b-A22b-thinking-2507"
+last_updated = "1766649357"
+name = "sophnet/Qwen3-235B-A22B-Thinking-2507"
+release_date = "1759140190"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 80000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.286
+output = 2.86

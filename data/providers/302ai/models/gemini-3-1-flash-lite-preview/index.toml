@@ -1,0 +1,21 @@
+id = "gemini-3.1-flash-lite-preview"
+last_updated = "1774601353"
+name = "gemini-3.1-flash-lite-preview"
+release_date = "1772574228"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.25
+output = 1.5

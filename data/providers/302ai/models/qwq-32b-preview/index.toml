@@ -1,0 +1,21 @@
+id = "qwq-32b-preview"
+last_updated = "1767505893"
+name = "qwq-32b-preview"
+release_date = "1732665600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29
+output = 0.86

@@ -1,0 +1,21 @@
+id = "qwen2-5-omni-7b"
+last_updated = "1766029025"
+name = "qwen2.5-omni-7b"
+release_date = "1743011241"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 30720
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2.3
+output = 6.9

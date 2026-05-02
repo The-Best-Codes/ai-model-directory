@@ -1,0 +1,21 @@
+id = "microsoftPhi-phi-4-mini-reasoning"
+last_updated = "1766215749"
+name = "Phi-4-mini-reasoning"
+release_date = "1746636771"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.5

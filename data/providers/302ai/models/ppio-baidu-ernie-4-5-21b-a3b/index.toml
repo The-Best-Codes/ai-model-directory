@@ -1,0 +1,21 @@
+id = "ppio-baidu-ernie-4-5-21B-a3b"
+last_updated = "1765876765"
+name = "baidu/ernie-4.5-21B-a3b"
+release_date = "1754292858"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 120000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0715
+output = 0.286

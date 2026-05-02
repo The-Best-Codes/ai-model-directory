@@ -1,0 +1,21 @@
+id = "mistral-large-2512"
+last_updated = "1766215307"
+name = "mistral-large-2512"
+release_date = "1765940483"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 1
+output = 3

@@ -1,4 +1,5 @@
 import type { ProviderDefinition } from "./types.ts";
+import { ai302Provider } from "./302ai.ts";
 import { abacusProvider } from "./abacus.ts";
 import { aihubmixProvider } from "./aihubmix.ts";
 import { anthropicProvider } from "./anthropic.ts";
@@ -14,6 +15,7 @@ import { openaiProvider } from "./openai.ts";
 import { openrouterProvider } from "./openrouter.ts";
 
 export const providers: ProviderDefinition[] = [
+  ai302Provider,
   openrouterProvider,
   openaiProvider,
   anthropicProvider,

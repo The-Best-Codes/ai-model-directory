@@ -1,0 +1,21 @@
+id = "unifuncs-u1-pro"
+last_updated = "1767513842"
+name = "u1-pro"
+release_date = "1755769245"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.2
+output = 1.2

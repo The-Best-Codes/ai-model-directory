@@ -1,0 +1,21 @@
+id = "hunyuan-vision"
+last_updated = "1764124197"
+name = "hunyuan-vision"
+release_date = "1713916800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 4000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 26
+output = 26

@@ -1,0 +1,21 @@
+id = "gemini-2-5-flash"
+last_updated = "1765185944"
+name = "gemini-2.5-flash"
+release_date = "1750188784"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.3
+output = 2.5

@@ -1,0 +1,21 @@
+id = "perplexity-sonar-reasoning-pro"
+last_updated = "1766644108"
+name = "sonar-reasoning-pro"
+release_date = "1737540716"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 127000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 8

@@ -1,0 +1,21 @@
+id = "openai-gpt-oss-20b"
+last_updated = "1764572573"
+name = "gpt-oss-20b"
+release_date = "1754415998"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.5

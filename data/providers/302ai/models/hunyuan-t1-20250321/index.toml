@@ -1,0 +1,21 @@
+id = "hunyuan-t1-20250321"
+last_updated = "1770371927"
+name = "hunyuan-t1-20250321"
+release_date = "1742654680"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

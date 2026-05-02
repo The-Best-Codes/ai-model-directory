@@ -1,0 +1,21 @@
+id = "sophnet-glm-5"
+last_updated = "1771122424"
+name = "sophnet/GLM-5"
+release_date = "1771122341"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 202000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.572
+output = 2.286

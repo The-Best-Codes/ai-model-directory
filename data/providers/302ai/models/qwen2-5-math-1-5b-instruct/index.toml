@@ -1,0 +1,21 @@
+id = "qwen2-5-math-1-5b-instruct"
+last_updated = "1767775505"
+name = "qwen2.5-math-1.5b-instruct"
+release_date = "1767148643"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.143
+output = 0.286

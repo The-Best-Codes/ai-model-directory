@@ -1,0 +1,21 @@
+id = "qwen3-vl-flash"
+last_updated = "1767774749"
+name = "qwen3-vl-flash"
+release_date = "1767093279"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.022
+output = 0.22

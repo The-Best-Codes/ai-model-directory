@@ -1,0 +1,21 @@
+id = "sophnet-glm-4.5v"
+last_updated = "1766646617"
+name = "sophnet/GLM-4.5V"
+release_date = "1759140700"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 66000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.286
+output = 0.8572

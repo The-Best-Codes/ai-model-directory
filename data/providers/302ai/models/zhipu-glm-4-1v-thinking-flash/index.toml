@@ -1,0 +1,21 @@
+id = "zhipu-glm-4-1v-thinking-flash"
+last_updated = "1767524076"
+name = "glm-4.1v-thinking-flash"
+release_date = "1751939527"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0
+output = 0

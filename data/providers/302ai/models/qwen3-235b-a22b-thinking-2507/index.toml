@@ -1,0 +1,21 @@
+id = "qwen3-235b-a22b-thinking-2507"
+last_updated = "1766742996"
+name = "qwen3-235b-a22b-thinking-2507"
+release_date = "1753905311"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.286
+output = 2.86

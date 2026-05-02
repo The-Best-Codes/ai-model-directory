@@ -1,0 +1,21 @@
+id = "openai-gpt-4o-plus"
+last_updated = "1769677643"
+name = "gpt-4o-plus"
+release_date = "1732060800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 5
+output = 15

@@ -1,0 +1,21 @@
+id = "perplexity-sonar"
+last_updated = "1766569152"
+name = "sonar"
+release_date = "1737541516"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 1

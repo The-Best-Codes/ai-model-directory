@@ -1,0 +1,21 @@
+id = "deepseek-chat"
+last_updated = "1765452079"
+name = "deepseek-chat"
+release_date = "1732838400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

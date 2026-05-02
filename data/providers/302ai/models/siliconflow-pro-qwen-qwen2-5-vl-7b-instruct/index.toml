@@ -1,0 +1,21 @@
+id = "siliconflow-pro-qwen-qwen2-5-vl-7b-instruct"
+last_updated = "1767507252"
+name = "Pro/Qwen/Qwen2.5-VL-7B-Instruct"
+release_date = "1750145882"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

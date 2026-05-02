@@ -1,0 +1,21 @@
+id = "baidu-ernie-4-5-turbo-vl-32k"
+last_updated = "1763464042"
+name = "ernie-4.5-turbo-vl-32k"
+release_date = "1746646000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.45
+output = 1.3

@@ -1,0 +1,21 @@
+id = "baichuan-m3"
+last_updated = "1769160742"
+name = "Baichuan-M3"
+release_date = "1768990655"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.43
+output = 4.29

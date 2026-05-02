@@ -1,0 +1,21 @@
+id = "siliconflow-Pro-zai-org-GLM-4-7"
+last_updated = "1767960748"
+name = "Pro/zai-org/GLM-4.7"
+release_date = "1767955434"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 198000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.572
+output = 2.286

@@ -1,0 +1,21 @@
+id = "sophnet-kimi-k2"
+last_updated = "1767603056"
+name = "sophnet/Kimi-K2"
+release_date = "1752658107"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.57
+output = 2.29

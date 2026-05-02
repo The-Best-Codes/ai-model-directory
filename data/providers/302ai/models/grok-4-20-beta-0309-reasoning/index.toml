@@ -1,0 +1,21 @@
+id = "grok-4.20-beta-0309-reasoning"
+last_updated = "1774506495"
+name = "grok-4.20-beta-0309-reasoning"
+release_date = "1773655518"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2
+output = 6

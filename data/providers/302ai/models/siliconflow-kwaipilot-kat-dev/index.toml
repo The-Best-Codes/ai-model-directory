@@ -1,0 +1,21 @@
+id = "siliconflow-Kwaipilot-KAT-Dev"
+last_updated = "1767960475"
+name = "Kwaipilot/KAT-Dev"
+release_date = "1767959007"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.143
+output = 0.572

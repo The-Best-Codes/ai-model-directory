@@ -1,0 +1,21 @@
+id = "meta-llama-4-maverick"
+last_updated = "1766215651"
+name = "llama-4-maverick"
+release_date = "1746602438"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 1

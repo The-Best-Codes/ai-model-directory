@@ -1,0 +1,21 @@
+id = "stepfun-step-r1-v-mini"
+last_updated = "1761902131"
+name = "step-r1-v-mini"
+release_date = "1744122722"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 100000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2.2
+output = 10

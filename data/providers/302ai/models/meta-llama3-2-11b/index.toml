@@ -1,0 +1,21 @@
+id = "meta-llama3-2-11b"
+last_updated = "1766215625"
+name = "llama3.2-11b"
+release_date = "1727222400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.5
+output = 0.5

@@ -1,0 +1,21 @@
+id = "mistral-small-latest"
+last_updated = "1766472314"
+name = "mistral-small-latest"
+release_date = "1742315020"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.5
+output = 0.5

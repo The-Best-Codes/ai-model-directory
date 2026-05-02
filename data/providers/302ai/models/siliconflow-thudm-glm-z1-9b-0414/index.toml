@@ -1,0 +1,21 @@
+id = "siliconflow-thudm-glm-z1-9b-0414"
+last_updated = "1762496451"
+name = "THUDM/GLM-Z1-9B-0414"
+release_date = "1744736712"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

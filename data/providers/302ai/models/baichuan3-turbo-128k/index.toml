@@ -1,0 +1,21 @@
+id = "baichuan3-turbo-128k"
+last_updated = "1767607614"
+name = "Baichuan3-Turbo-128k"
+release_date = "1754636539"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.4
+output = 3.4

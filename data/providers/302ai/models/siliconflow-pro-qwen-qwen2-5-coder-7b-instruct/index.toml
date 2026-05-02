@@ -1,0 +1,21 @@
+id = "siliconflow-pro-qwen-qwen2-5-coder-7b-instruct"
+last_updated = "1762164375"
+name = "Pro/Qwen/Qwen2.5-Coder-7B-Instruct"
+release_date = "1726704000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

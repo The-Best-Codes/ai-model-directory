@@ -1,0 +1,21 @@
+id = "openai-o3"
+last_updated = "1769681289"
+name = "o3"
+release_date = "1744833798"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2
+output = 8

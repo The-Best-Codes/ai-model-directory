@@ -1,0 +1,21 @@
+id = "sophnet-LongCat-Flash-Thinking"
+last_updated = "1767764374"
+name = "sophnet/LongCat-Flash-Thinking"
+release_date = "1767686507"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.143
+output = 1.429

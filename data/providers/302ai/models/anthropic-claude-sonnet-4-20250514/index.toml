@@ -1,0 +1,21 @@
+id = "anthropic-claude-sonnet-4-20250514"
+last_updated = "1767764828"
+name = "claude-sonnet-4-20250514"
+release_date = "1747938749"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 3
+output = 15

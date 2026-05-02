@@ -1,0 +1,21 @@
+id = "expert-model-zzkj-think"
+last_updated = "1767519411"
+name = "zzkj-think"
+release_date = "1739821647"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 22
+output = 86

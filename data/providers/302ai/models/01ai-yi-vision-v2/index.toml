@@ -1,0 +1,21 @@
+id = "01ai-yi-vision-v2"
+last_updated = "1762159188"
+name = "yi-vision-v2"
+release_date = "1715558400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.86
+output = 0.86

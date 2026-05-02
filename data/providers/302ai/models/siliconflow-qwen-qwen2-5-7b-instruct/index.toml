@@ -1,0 +1,21 @@
+id = "siliconflow-qwen-qwen2-5-7b-instruct"
+last_updated = "1767509179"
+name = "Qwen/Qwen2.5-7B-Instruct"
+release_date = "1726704000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

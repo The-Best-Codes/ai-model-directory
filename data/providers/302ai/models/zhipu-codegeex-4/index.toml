@@ -1,0 +1,21 @@
+id = "zhipu-codegeex-4"
+last_updated = "1767581342"
+name = "codegeex-4"
+release_date = "1720137600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.014
+output = 0.014

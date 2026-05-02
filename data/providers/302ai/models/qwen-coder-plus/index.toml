@@ -1,0 +1,21 @@
+id = "qwen-coder-plus"
+last_updated = "1767774397"
+name = "qwen-coder-plus"
+release_date = "1767087366"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 1

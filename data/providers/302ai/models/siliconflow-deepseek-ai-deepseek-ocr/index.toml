@@ -1,0 +1,21 @@
+id = "siliconflow-deepseek-ai-deepseek-ocr"
+last_updated = "1762197672"
+name = "deepseek-ai/DeepSeek-OCR"
+release_date = "1762197672"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,21 @@
+id = "baichuan-m2-plus"
+last_updated = "1767605297"
+name = "Baichuan-M2-Plus"
+release_date = "1761415743"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.43
+output = 4.29

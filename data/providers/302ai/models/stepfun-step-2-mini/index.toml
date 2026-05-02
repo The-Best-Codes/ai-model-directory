@@ -1,0 +1,21 @@
+id = "stepfun-step-2-mini"
+last_updated = "1761902713"
+name = "step-2-mini"
+release_date = "1737017518"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.143
+output = 0.29

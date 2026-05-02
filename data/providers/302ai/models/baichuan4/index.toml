@@ -1,0 +1,21 @@
+id = "baichuan4"
+last_updated = "1767607621"
+name = "Baichuan4"
+release_date = "1706745600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 14.3
+output = 14.3

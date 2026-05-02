@@ -1,0 +1,21 @@
+id = "mistral-small-2503"
+last_updated = "1766473699"
+name = "mistral-small-2503"
+release_date = "1742315159"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 0.5

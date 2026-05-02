@@ -1,0 +1,21 @@
+id = "qwen-coder-turbo-latest"
+last_updated = "1767774466"
+name = "qwen-coder-turbo-latest"
+release_date = "1767088203"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.286
+output = 0.86

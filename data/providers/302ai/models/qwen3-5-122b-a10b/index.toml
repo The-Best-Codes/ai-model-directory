@@ -1,0 +1,21 @@
+id = "qwen3.5-122b-a10b"
+last_updated = "1772788826"
+name = "qwen3.5-122b-a10b"
+release_date = "1772044368"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 992000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.12
+output = 0.92

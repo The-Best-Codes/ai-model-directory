@@ -1,0 +1,21 @@
+id = "moonshot-kimi-k2-0905-preview"
+last_updated = "1767608069"
+name = "kimi-k2-0905-preview"
+release_date = "1757052127"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5714
+output = 2.286

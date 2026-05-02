@@ -1,0 +1,21 @@
+id = "qwen-vl-ocr"
+last_updated = "1767153017"
+name = "qwen-vl-ocr"
+release_date = "1730073600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 34000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.72
+output = 0.72

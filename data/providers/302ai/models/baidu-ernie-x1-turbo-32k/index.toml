@@ -1,0 +1,21 @@
+id = "baidu-ernie-x1-turbo-32k"
+last_updated = "1763464024"
+name = "ernie-x1-turbo-32k"
+release_date = "1746645816"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

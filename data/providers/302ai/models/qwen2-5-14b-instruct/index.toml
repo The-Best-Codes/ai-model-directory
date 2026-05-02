@@ -1,0 +1,21 @@
+id = "qwen2-5-14b-instruct"
+last_updated = "1766741788"
+name = "qwen2.5-14b-instruct"
+release_date = "1754472350"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.143
+output = 0.43

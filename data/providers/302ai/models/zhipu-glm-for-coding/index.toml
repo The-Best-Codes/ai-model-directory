@@ -1,0 +1,21 @@
+id = "zhipu-glm-for-coding"
+last_updated = "1766086485"
+name = "glm-for-coding"
+release_date = "1766084719"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.286
+output = 1.142

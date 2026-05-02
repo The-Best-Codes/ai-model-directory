@@ -1,0 +1,21 @@
+id = "qwen3-235b-a22b"
+last_updated = "1766742281"
+name = "qwen3-235b-a22b"
+release_date = "1745912534"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29
+output = 2.86

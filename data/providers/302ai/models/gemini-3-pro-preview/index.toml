@@ -1,0 +1,21 @@
+id = "gemini-3-pro-preview"
+last_updated = "1765433004"
+name = "gemini-3-pro-preview"
+release_date = "1763489145"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2
+output = 12

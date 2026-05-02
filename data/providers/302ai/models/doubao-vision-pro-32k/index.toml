@@ -1,0 +1,21 @@
+id = "doubao-vision-pro-32k"
+last_updated = "1761901879"
+name = "Doubao-vision-pro-32k"
+release_date = "1734048000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 3
+output = 3

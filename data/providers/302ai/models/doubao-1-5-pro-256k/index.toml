@@ -1,0 +1,21 @@
+id = "doubao-1-5-pro-256k"
+last_updated = "1761902115"
+name = "Doubao-1.5-pro-256k"
+release_date = "1737539116"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 1.3

@@ -1,0 +1,21 @@
+id = "sophnet-deepseek-v3-1-fast"
+last_updated = "1766655041"
+name = "sophnet/DeepSeek-V3.1-Fast"
+release_date = "1757407676"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 163000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.143
+output = 3.4286
