@@ -1,0 +1,19 @@
+name = "GPT OSS 120b"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = ["text"]
+output = ["text"]
+
+[limit]
+context = 131072
+output = 32768
+
+[pricing]
+input = 0.35
+output = 0.75
