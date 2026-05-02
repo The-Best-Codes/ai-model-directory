@@ -1,0 +1,7 @@
+id = "canopylabs/orpheus-v1-english"
+name = "Canopy Labs Orpheus V1 English"
+release_date = "1766186316"
+
+[limit]
+context = 4000
+output = 50000

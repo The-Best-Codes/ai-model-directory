@@ -1,0 +1,7 @@
+id = "whisper-large-v3-turbo"
+name = "Whisper Large V3 Turbo"
+release_date = "1728413088"
+
+[limit]
+context = 448
+output = 448

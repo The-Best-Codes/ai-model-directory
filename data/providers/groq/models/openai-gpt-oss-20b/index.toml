@@ -1,0 +1,11 @@
+id = "openai/gpt-oss-20b"
+name = "GPT OSS 20B"
+release_date = "1754407957"
+
+[limit]
+context = 131072
+output = 65536
+
+[pricing]
+input = 0.075
+output = 0.3

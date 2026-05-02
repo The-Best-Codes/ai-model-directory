@@ -1,0 +1,11 @@
+id = "meta-llama/llama-4-scout-17b-16e-instruct"
+name = "Llama 4 Scout 17B 16E"
+release_date = "1743874824"
+
+[limit]
+context = 131072
+output = 8192
+
+[pricing]
+input = 0.11
+output = 0.34

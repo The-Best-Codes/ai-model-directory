@@ -1,0 +1,11 @@
+id = "openai/gpt-oss-safeguard-20b"
+name = "Safety GPT OSS 20B"
+release_date = "1761708789"
+
+[limit]
+context = 131072
+output = 65536
+
+[pricing]
+input = 0.075
+output = 0.3

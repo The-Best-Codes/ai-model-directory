@@ -1,0 +1,7 @@
+id = "groq/compound"
+name = "Compound"
+release_date = "1756949530"
+
+[limit]
+context = 131072
+output = 8192
