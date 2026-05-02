@@ -1,0 +1,9 @@
+id = "embed-english-light-v3.0-image"
+name = "embed-english-light-v3.0-image"
+
+[features]
+attachment = true
+temperature = false
+
+[modalities]
+input = [ "image" ]

@@ -1,0 +1,12 @@
+id = "embed-multilingual-light-v3.0"
+name = "embed-multilingual-light-v3.0"
+
+[features]
+attachment = false
+temperature = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]

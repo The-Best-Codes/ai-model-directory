@@ -1,0 +1,21 @@
+id = "command-r-08-2024"
+name = "command-r-08-2024"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

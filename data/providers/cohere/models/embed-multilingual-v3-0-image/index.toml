@@ -1,0 +1,9 @@
+id = "embed-multilingual-v3.0-image"
+name = "embed-multilingual-v3.0-image"
+
+[features]
+attachment = true
+temperature = false
+
+[modalities]
+input = [ "image" ]

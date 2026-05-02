@@ -1,0 +1,13 @@
+id = "c4ai-aya-expanse-32b"
+name = "c4ai-aya-expanse-32b"
+
+[features]
+attachment = false
+temperature = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

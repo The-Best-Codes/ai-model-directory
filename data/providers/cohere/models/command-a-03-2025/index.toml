@@ -1,0 +1,21 @@
+id = "command-a-03-2025"
+name = "command-a-03-2025"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 256000
+output = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10
