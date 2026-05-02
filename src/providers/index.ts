@@ -10,6 +10,7 @@ import { chutesProvider } from "./chutes.ts";
 import { cohereProvider } from "./cohere.ts";
 import { cortecsProvider } from "./cortecs.ts";
 import { deepinfraProvider } from "./deepinfra.ts";
+import { deepseekProvider } from "./deepseek.ts";
 import { fastrouterProvider } from "./fastrouter.ts";
 import { friendliProvider } from "./friendli.ts";
 import { huggingfaceProvider } from "./huggingface.ts";
@@ -20,21 +21,22 @@ import { openrouterProvider } from "./openrouter.ts";
 
 export const providers: ProviderDefinition[] = [
   ai302Provider,
-  openrouterProvider,
-  openaiProvider,
-  anthropicProvider,
   abacusProvider,
   alibabaCnProvider,
   aihubmixProvider,
+  anthropicProvider,
   basetenProvider,
   cerebrasProvider,
   chutesProvider,
   cohereProvider,
   cortecsProvider,
   deepinfraProvider,
-  friendliProvider,
+  deepseekProvider,
   fastrouterProvider,
+  friendliProvider,
   huggingfaceProvider,
   inceptionProvider,
   kiloProvider,
+  openaiProvider,
+  openrouterProvider,
 ];
