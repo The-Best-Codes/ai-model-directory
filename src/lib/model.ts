@@ -4,11 +4,15 @@ import { ZodError } from "zod";
 
 import { compactObject, hasOwnValue } from "./object.ts";
 import {
+  type MetadataRecord,
+  type MetadataSource,
   type ModelModality,
   type ModelOverride,
   type ModelRecord,
+  defaultMetadataPriorities,
   featuresSchema,
   limitSchema,
+  metadataSchema,
   modelOverrideSchema,
   modelSchema,
   modalitiesSchema,
@@ -163,6 +167,19 @@ export function parseModelOverrideToml(text: string): ModelOverride {
   return normalizeModelOverride(modelOverrideSchema.parse(parse(text)));
 }
 
+export function parseMetadataToml(text: string): MetadataRecord {
+  const parsed = metadataSchema.parse(parse(text));
+
+  return compactObject({
+    preserve: parsed.preserve,
+    priorities: parsed.priorities,
+    extends: parsed.extends,
+    manual_data: parsed.manual_data
+      ? normalizeModelOverride(parsed.manual_data)
+      : undefined,
+  }) as MetadataRecord;
+}
+
 export function formatZodError(error: ZodError): string {
   return error.issues
     .map((issue) => `${issue.path.join(".") || "root"}: ${issue.message}`)
@@ -294,6 +311,104 @@ export function applyModelOverride(
   }) as ModelRecord;
 
   return normalizeModel(merged);
+}
+
+type ModelLike = ModelRecord | ModelOverride | null | undefined;
+
+const scalarFields = [
+  "id",
+  "name",
+  "knowledge_cutoff",
+  "release_date",
+  "last_updated",
+  "open_weights",
+] as const;
+
+const nestedFields = ["features", "pricing", "limit", "modalities"] as const;
+
+function pickScalar<K extends (typeof scalarFields)[number]>(
+  sources: ReadonlyArray<{ source: MetadataSource; value: ModelLike }>,
+  field: K,
+): ModelRecord[K] | undefined {
+  for (const { value } of sources) {
+    if (value && hasOwnValue(value, field)) {
+      const entry = (value as Record<string, unknown>)[field];
+
+      if (entry !== undefined) {
+        return entry as ModelRecord[K];
+      }
+    }
+  }
+
+  return undefined;
+}
+
+function pickNested<K extends (typeof nestedFields)[number]>(
+  sources: ReadonlyArray<{ source: MetadataSource; value: ModelLike }>,
+  field: K,
+): Record<string, unknown> | undefined {
+  const merged: Record<string, unknown> = {};
+
+  for (const { value } of [...sources].reverse()) {
+    if (!value) {
+      continue;
+    }
+
+    const entry = (value as Record<string, unknown>)[field] as
+      | Record<string, unknown>
+      | undefined;
+
+    if (!entry) {
+      continue;
+    }
+
+    for (const [key, item] of Object.entries(entry)) {
+      if (item !== undefined) {
+        merged[key] = item;
+      }
+    }
+  }
+
+  return Object.keys(merged).length > 0 ? merged : undefined;
+}
+
+export function mergeModelSources(input: {
+  api: ModelRecord | null;
+  manual_data?: ModelOverride | null;
+  extends?: ModelRecord | null;
+  priorities?: readonly MetadataSource[];
+}): ModelRecord {
+  const priorities = input.priorities ?? defaultMetadataPriorities;
+  const sourceMap: Record<MetadataSource, ModelLike> = {
+    manual_data: input.manual_data ?? null,
+    api: input.api,
+    extends: input.extends ?? null,
+  };
+
+  const ordered = priorities.map((source) => ({
+    source,
+    value: sourceMap[source],
+  }));
+
+  const merged: Record<string, unknown> = {};
+
+  for (const field of scalarFields) {
+    const value = pickScalar(ordered, field);
+
+    if (value !== undefined) {
+      merged[field] = value;
+    }
+  }
+
+  for (const field of nestedFields) {
+    const value = pickNested(ordered, field);
+
+    if (value !== undefined) {
+      merged[field] = value;
+    }
+  }
+
+  return normalizeModel(merged as ModelRecord);
 }
 
 function orderEntries<T extends object, K extends readonly (keyof T)[]>(

@@ -1,19 +1,20 @@
+[manual_data]
 name = "Z.ai: GLM 4.7"
 
-[features]
+[manual_data.features]
 attachment = false
 reasoning = true
 structured_output = true
 tool_call = true
 
-[modalities]
-input = ["text"]
-output = ["text"]
+[manual_data.modalities]
+input = [ "text" ]
+output = [ "text" ]
 
-[limit]
+[manual_data.limit]
 context = 131072
 output = 40000
 
-[pricing]
+[manual_data.pricing]
 input = 2.25
 output = 2.75

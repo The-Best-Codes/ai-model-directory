@@ -1,19 +1,20 @@
+[manual_data]
 name = "GPT OSS 120b"
 
-[features]
+[manual_data.features]
 attachment = false
 reasoning = true
 structured_output = true
 tool_call = true
 
-[modalities]
-input = ["text"]
-output = ["text"]
+[manual_data.modalities]
+input = [ "text" ]
+output = [ "text" ]
 
-[limit]
+[manual_data.limit]
 context = 131072
 output = 32768
 
-[pricing]
+[manual_data.pricing]
 input = 0.35
 output = 0.75
