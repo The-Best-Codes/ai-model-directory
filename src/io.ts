@@ -3,32 +3,36 @@ import { join } from "node:path";
 import { ZodError } from "zod";
 
 import {
-  applyModelOverride,
   formatZodError,
   normalizeModel,
   normalizeModelId,
-  parseModelOverrideToml,
+  parseMetadataToml,
   serializeModelToml,
 } from "./lib/model.ts";
 import type { ProgressBar } from "./progress.ts";
 import type { ProviderDefinition } from "./providers/types.ts";
-import type { ModelOverride, ModelRecord } from "./schema.ts";
+import type { ModelRecord } from "./schema.ts";
 
 export type ProviderRunResult = {
   written: number;
   errors: number;
 };
 
-async function readOverrideFile(
+async function shouldPreserveDirectory(
   modelDirectory: string,
-): Promise<ModelOverride | null> {
-  const overrideFile = Bun.file(join(modelDirectory, "overrides.toml"));
+): Promise<boolean> {
+  const metadataFile = Bun.file(join(modelDirectory, "metadata.toml"));
 
-  if (!(await overrideFile.exists())) {
-    return null;
+  if (!(await metadataFile.exists())) {
+    return false;
   }
 
-  return parseModelOverrideToml(await overrideFile.text());
+  try {
+    const metadata = parseMetadataToml(await metadataFile.text());
+    return metadata.preserve === true;
+  } catch {
+    return false;
+  }
 }
 
 function detectCollisions(models: ModelRecord[]): Map<string, string[]> {
@@ -64,9 +68,8 @@ async function removeStaleModelDirectories(
     }
 
     const directoryPath = join(outputDirectory, entry.name);
-    const keepFile = Bun.file(join(directoryPath, ".keep"));
 
-    if (await keepFile.exists()) {
+    if (await shouldPreserveDirectory(directoryPath)) {
       continue;
     }
 
@@ -122,10 +125,8 @@ export async function writeProviderModels(
       await mkdir(modelDirectory, { recursive: true });
 
       const normalized = normalizeModel(model);
-      const override = await readOverrideFile(modelDirectory);
-      const finalModel = applyModelOverride(normalized, override);
 
-      await Bun.write(outputFile, serializeModelToml(finalModel));
+      await Bun.write(outputFile, serializeModelToml(normalized));
       written += 1;
       progress.tick(model.id, true);
     } catch (error) {

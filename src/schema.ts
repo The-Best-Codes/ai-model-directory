@@ -100,6 +100,40 @@ export const modelOverrideSchema = z
 export type ModelRecord = z.infer<typeof modelSchema>;
 export type ModelOverride = z.infer<typeof modelOverrideSchema>;
 
+export const metadataSourceSchema = z.enum(["manual_data", "api", "extends"]);
+export type MetadataSource = z.infer<typeof metadataSourceSchema>;
+
+export const defaultMetadataPriorities: readonly MetadataSource[] = [
+  "manual_data",
+  "api",
+  "extends",
+];
+
+const extendsPathPattern = /^[a-z0-9][a-z0-9-]*\/[a-z0-9][a-z0-9-]*$/;
+
+export const metadataExtendsSchema = z
+  .object({
+    path: z
+      .string()
+      .min(1)
+      .refine((value) => extendsPathPattern.test(value), {
+        message:
+          "must be in the form '<provider>/<model>' using lowercase letters, digits, or '-'",
+      }),
+  })
+  .strict();
+
+export const metadataSchema = z
+  .object({
+    preserve: z.boolean().optional(),
+    priorities: z.array(metadataSourceSchema).min(1).optional(),
+    extends: metadataExtendsSchema.optional(),
+    manual_data: modelOverrideSchema.optional(),
+  })
+  .strict();
+
+export type MetadataRecord = z.infer<typeof metadataSchema>;
+
 // For build-all.ts
 export const providerInfoSchema = z
   .object({
