@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/deepseek-r1-0528"
+last_updated = "1777695317"
+name = "Deepseek R1 05/28"
+open_weights = true
+release_date = "1748456377"
+
+[features]
+tool_call = true
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.675
+input = 1.35
+output = 5.4

@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/deepseek-coder-1b-base"
+last_updated = "1777695317"
+name = "DeepSeek Coder 1.3B Base"
+open_weights = true
+release_date = "1718745548"
+
+[features]
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1

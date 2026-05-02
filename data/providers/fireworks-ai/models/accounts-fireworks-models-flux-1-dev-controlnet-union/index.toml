@@ -1,0 +1,13 @@
+id = "accounts/fireworks/models/flux-1-dev-controlnet-union"
+last_updated = "1777695317"
+name = "FLUX.1 [dev] ControlNet"
+open_weights = true
+release_date = "1727890928"
+
+[features]
+attachment = true
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

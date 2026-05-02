@@ -1,0 +1,17 @@
+id = "accounts/fireworks/models/llama-v3p1-70b-instruct-1b"
+last_updated = "1777695317"
+name = "Llama 3.1 70B Instruct 1B"
+open_weights = true
+release_date = "1727910900"
+
+[features]
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1

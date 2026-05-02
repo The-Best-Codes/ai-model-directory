@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/minimax-m2p1"
+last_updated = "1777695317"
+name = "MiniMax-M2.1"
+open_weights = true
+release_date = "1766524881"
+
+[features]
+tool_call = true
+
+[limit]
+context = 196608
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.029
+input = 0.3
+output = 1.2

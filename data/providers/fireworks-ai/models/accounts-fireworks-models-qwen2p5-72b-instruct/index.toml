@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/qwen2p5-72b-instruct"
+last_updated = "1777695317"
+name = "Qwen2.5 72B Instruct"
+open_weights = true
+release_date = "1727827284"
+
+[features]
+tool_call = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+input = 0.9
+output = 0.9

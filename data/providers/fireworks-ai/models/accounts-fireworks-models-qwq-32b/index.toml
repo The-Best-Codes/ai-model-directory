@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/qwq-32b"
+last_updated = "1777695317"
+name = "QWQ 32B"
+open_weights = true
+release_date = "1741204251"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+input = 0.9
+output = 0.9

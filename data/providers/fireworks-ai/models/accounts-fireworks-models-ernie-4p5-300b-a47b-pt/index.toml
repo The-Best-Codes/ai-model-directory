@@ -1,0 +1,17 @@
+id = "accounts/fireworks/models/ernie-4p5-300b-a47b-pt"
+last_updated = "1777695317"
+name = "ERNIE-4.5-300B-A47B-PT"
+open_weights = true
+release_date = "1751665769"
+
+[features]
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+input = 0.9
+output = 0.9

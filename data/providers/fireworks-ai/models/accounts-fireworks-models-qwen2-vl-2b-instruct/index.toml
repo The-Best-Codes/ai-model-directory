@@ -1,0 +1,21 @@
+id = "accounts/fireworks/models/qwen2-vl-2b-instruct"
+last_updated = "1777695317"
+name = "Qwen2-VL 2B Instruct"
+open_weights = true
+release_date = "1733169182"
+
+[features]
+attachment = true
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1

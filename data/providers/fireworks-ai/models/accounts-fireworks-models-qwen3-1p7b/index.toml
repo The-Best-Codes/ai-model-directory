@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/qwen3-1p7b"
+last_updated = "1777695317"
+name = "Qwen3 1.7B"
+open_weights = true
+release_date = "1745902394"
+
+[features]
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1

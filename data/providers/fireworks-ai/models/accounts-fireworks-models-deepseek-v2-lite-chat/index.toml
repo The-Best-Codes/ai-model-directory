@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/deepseek-v2-lite-chat"
+last_updated = "1777695317"
+name = "DeepSeek V2 Lite Chat"
+open_weights = true
+release_date = "1729611920"
+
+[features]
+tool_call = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.5
+output = 0.5

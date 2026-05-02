@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/qwen3-30b-a3b"
+last_updated = "1777695317"
+name = "Qwen3 30B-A3B"
+open_weights = true
+release_date = "1745878133"
+
+[features]
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.15
+output = 0.6

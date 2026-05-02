@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/openchat-3p5-0106-7b"
+last_updated = "1777695317"
+name = "OpenChat 3.5 0106"
+open_weights = true
+release_date = "1709440955"
+
+[features]
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.2
+output = 0.2

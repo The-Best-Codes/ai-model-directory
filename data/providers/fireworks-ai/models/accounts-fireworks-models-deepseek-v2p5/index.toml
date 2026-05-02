@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/deepseek-v2p5"
+last_updated = "1777695317"
+name = "DeepSeek V2.5"
+open_weights = true
+release_date = "1725647009"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.6
+input = 1.2
+output = 1.2

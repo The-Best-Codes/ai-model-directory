@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/qwen3-4b-instruct-2507"
+last_updated = "1777695317"
+name = "Qwen 3 4B Instruct 2507"
+open_weights = true
+release_date = "1760573775"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.2
+output = 0.2
