@@ -1,0 +1,10 @@
+id = "google/gemini-3-pro-image"
+name = "Gemini 3 (Nano Banana Pro)"
+release_date = "1763662095"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,17 @@
+id = "zai-org/GLM-4.6"
+name = "GLM 4.6 Fp8"
+release_date = "1761236990"
+
+[features]
+attachment = false
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.2

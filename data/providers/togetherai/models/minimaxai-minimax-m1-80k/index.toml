@@ -1,0 +1,17 @@
+id = "MiniMaxAI/MiniMax-M1-80k"
+name = "Minimax M1 80K"
+release_date = "1751078602"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,17 @@
+id = "nim/nvidia/llama-3.3-nemotron-super-49b-v1"
+name = "nim/nvidia/llama-3.3-nemotron-super-49b-v1"
+release_date = "1742324726"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,17 @@
+id = "google/gemma-3-270m-it"
+name = "Gemma 3 270M It"
+release_date = "1759265684"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,14 @@
+id = "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8"
+name = "Qwen3 Next 80B A3b Instruct Fp8"
+release_date = "1758748745"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

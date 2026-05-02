@@ -1,0 +1,17 @@
+id = "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
+name = "Nous Hermes 2 Mixtral 8X7B Dpo"
+release_date = "1705292440"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 0.6

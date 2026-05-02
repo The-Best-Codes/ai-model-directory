@@ -1,0 +1,17 @@
+id = "meta-llama/Meta-Llama-3-8B-Instruct"
+name = "Meta Llama 3 8B Instruct"
+release_date = "1713420479"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

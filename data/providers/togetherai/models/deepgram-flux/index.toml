@@ -1,0 +1,13 @@
+id = "deepgram/flux"
+name = "Deepgram Flux"
+release_date = "1771449125"
+
+[features]
+attachment = true
+
+[limit]
+context = 448
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

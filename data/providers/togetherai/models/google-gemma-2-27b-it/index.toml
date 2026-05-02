@@ -1,0 +1,17 @@
+id = "google/gemma-2-27b-it"
+name = "Gemma-2 Instruct (27B)"
+release_date = "1708648606"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 0.8

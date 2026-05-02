@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8"
+name = "Qwen3-VL-235B-A22B-Instruct-FP8"
+release_date = "1762450858"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

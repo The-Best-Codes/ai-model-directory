@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-4B-Instruct-2507"
+name = "Qwen3 4B Instruct 2507"
+release_date = "1754614031"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

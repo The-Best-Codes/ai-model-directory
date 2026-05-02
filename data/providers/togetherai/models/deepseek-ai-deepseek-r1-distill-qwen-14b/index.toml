@@ -1,0 +1,17 @@
+id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+name = "DeepSeek R1 Distill Qwen 14B"
+release_date = "1738182549"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.6
+output = 1.6

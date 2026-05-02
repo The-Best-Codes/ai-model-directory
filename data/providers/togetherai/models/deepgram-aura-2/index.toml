@@ -1,0 +1,17 @@
+id = "deepgram/aura-2"
+name = "Deepgram Aura 2"
+release_date = "1773282872"
+
+[features]
+attachment = false
+
+[limit]
+context = 448
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0

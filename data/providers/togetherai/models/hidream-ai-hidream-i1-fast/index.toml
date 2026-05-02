@@ -1,0 +1,10 @@
+id = "HiDream-ai/HiDream-I1-Fast"
+name = "HiDream-I1-Fast"
+release_date = "1759884851"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

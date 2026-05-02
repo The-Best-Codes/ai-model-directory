@@ -1,0 +1,17 @@
+id = "deepcogito/cogito-v1-preview-llama-70B"
+name = "Cogito V1 Preview Llama 70B"
+release_date = "1744128722"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

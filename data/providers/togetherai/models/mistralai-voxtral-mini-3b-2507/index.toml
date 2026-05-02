@@ -1,0 +1,14 @@
+id = "mistralai/Voxtral-Mini-3B-2507"
+name = "Voxtral Mini 3B 2507"
+release_date = "1757712332"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.27
+output = 0.85

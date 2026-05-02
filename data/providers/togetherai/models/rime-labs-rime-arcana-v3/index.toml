@@ -1,0 +1,13 @@
+id = "rime-labs/rime-arcana-v3"
+name = "Rime Labs Arcana v3"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0

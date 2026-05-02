@@ -1,0 +1,17 @@
+id = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+name = "Meta Llama 3.3 70B Instruct Turbo"
+release_date = "1733466629"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.88
+output = 0.88

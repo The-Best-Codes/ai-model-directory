@@ -1,0 +1,17 @@
+id = "Qwen/Qwen2.5-Coder-32B-Instruct"
+name = "Qwen 2.5 Coder 32B Instruct"
+release_date = "1731556615"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 0.8

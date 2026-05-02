@@ -1,0 +1,10 @@
+id = "Qwen/Qwen-Image-2.0-Pro"
+name = "Qwen Image 2.0 Pro"
+release_date = "1773318281"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

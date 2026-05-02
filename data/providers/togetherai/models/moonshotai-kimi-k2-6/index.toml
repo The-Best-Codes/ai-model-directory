@@ -1,0 +1,18 @@
+id = "moonshotai/Kimi-K2.6"
+name = "Kimi K2.6 Fp4"
+release_date = "1777696884"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 1.2
+output = 4.5

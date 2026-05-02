@@ -1,0 +1,17 @@
+id = "mistralai/Mistral-7B-Instruct-v0.1"
+name = "Mistral (7B) Instruct v0.1"
+release_date = "1695860851"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

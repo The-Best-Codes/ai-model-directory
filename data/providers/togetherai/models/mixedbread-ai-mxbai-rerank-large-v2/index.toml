@@ -1,0 +1,16 @@
+id = "mixedbread-ai/mxbai-rerank-large-v2"
+name = "Mxbai Rerank Large V2"
+release_date = "1761254818"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

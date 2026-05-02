@@ -1,0 +1,17 @@
+id = "zai-org/GLM-4.5-Air-FP8"
+name = "Glm 4.5 Air Fp8"
+release_date = "1753840897"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 1.1

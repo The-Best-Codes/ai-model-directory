@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"
+name = "Qwen3 Coder 480B A35B Instruct Fp8"
+release_date = "1753233591"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 2

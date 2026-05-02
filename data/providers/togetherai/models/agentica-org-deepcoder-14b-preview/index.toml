@@ -1,0 +1,17 @@
+id = "agentica-org/DeepCoder-14B-Preview"
+name = "Deepcoder 14B Preview"
+release_date = "1746765219"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,10 @@
+id = "Qwen/Qwen-Image"
+name = "Qwen Image"
+release_date = "1759884857"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

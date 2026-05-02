@@ -1,0 +1,17 @@
+id = "meta-llama/Meta-Llama-3.1-70B"
+name = "Llama 3.1 70B"
+release_date = "1744695371"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

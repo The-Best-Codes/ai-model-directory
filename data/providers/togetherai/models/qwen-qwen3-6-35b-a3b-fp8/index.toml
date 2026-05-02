@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3.6-35B-A3B-FP8"
+name = "Qwen3.6 35B A3b Fp8"
+release_date = "1776874155"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

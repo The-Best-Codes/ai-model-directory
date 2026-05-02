@@ -1,0 +1,14 @@
+id = "google/gemma-3-27b-pt"
+name = "Gemma 3 27B Pt"
+release_date = "1770376600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

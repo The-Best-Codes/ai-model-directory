@@ -1,0 +1,17 @@
+id = "nim/mistralai/mixtral-8x22b-instruct-v01"
+name = "nim/mistralai/mixtral-8x22b-instruct-v01"
+release_date = "1741634368"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

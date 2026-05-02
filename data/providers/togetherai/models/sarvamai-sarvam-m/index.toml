@@ -1,0 +1,17 @@
+id = "sarvamai/sarvam-m"
+name = "Sarvam M"
+release_date = "1752174718"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-14B-Base"
+name = "Qwen3 14B Base"
+release_date = "1749059231"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

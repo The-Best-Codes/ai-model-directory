@@ -1,0 +1,17 @@
+id = "Qwen/QwQ-32B"
+name = "Qwen QwQ-32B"
+release_date = "1741207789"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.2
+output = 1.2

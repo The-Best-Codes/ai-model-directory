@@ -1,0 +1,17 @@
+id = "Qwen/Qwen2-72B"
+name = "Qwen 2 (72B)"
+release_date = "1717792561"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

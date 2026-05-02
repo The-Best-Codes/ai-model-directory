@@ -1,0 +1,16 @@
+id = "Salesforce/Llama-Rank-V1"
+name = "Salesforce Llama Rank V1 (8B)"
+release_date = "1723745254"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

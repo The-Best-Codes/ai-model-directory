@@ -1,0 +1,17 @@
+id = "deepcogito/cogito-v2-1-671b"
+name = "Cogito v2.1 671B"
+release_date = "1776977431"
+
+[features]
+attachment = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 1.25

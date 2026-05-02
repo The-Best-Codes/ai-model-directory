@@ -1,0 +1,10 @@
+id = "ByteDance-Seed/Seedream-4.0"
+name = "ByteDance Seedream 4.0"
+release_date = "1759884757"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

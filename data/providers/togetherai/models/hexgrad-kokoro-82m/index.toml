@@ -1,0 +1,14 @@
+id = "hexgrad/Kokoro-82M"
+name = "Kokoro 82M"
+release_date = "1773163054"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 4
+output = 0

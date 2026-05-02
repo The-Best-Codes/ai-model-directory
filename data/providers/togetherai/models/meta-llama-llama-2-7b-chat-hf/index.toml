@@ -1,0 +1,17 @@
+id = "meta-llama/Llama-2-7b-chat-hf"
+name = "meta-llama/Llama-2-7b-chat-hf"
+release_date = "1743496513"
+
+[features]
+attachment = false
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

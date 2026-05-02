@@ -1,0 +1,17 @@
+id = "deepcogito/cogito-v1-preview-llama-8B"
+name = "Cogito V1 Preview Llama 8B"
+release_date = "1744128601"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

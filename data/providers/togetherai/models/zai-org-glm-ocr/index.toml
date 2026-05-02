@@ -1,0 +1,17 @@
+id = "zai-org/GLM-OCR"
+name = "GLM OCR"
+release_date = "1773697388"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

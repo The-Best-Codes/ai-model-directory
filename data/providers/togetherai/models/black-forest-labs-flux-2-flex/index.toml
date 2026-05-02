@@ -1,0 +1,10 @@
+id = "black-forest-labs/FLUX.2-flex"
+name = "FLUX.2 [flex]"
+release_date = "1764090764"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

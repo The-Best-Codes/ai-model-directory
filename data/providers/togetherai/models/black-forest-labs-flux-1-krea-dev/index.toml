@@ -1,0 +1,14 @@
+id = "black-forest-labs/FLUX.1-krea-dev"
+name = "FLUX.1 Krea [dev]"
+release_date = "1753940366"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

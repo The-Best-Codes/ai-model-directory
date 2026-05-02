@@ -1,0 +1,17 @@
+id = "nim/meta/llama-3.2-90b-vision-instruct"
+name = "nim/meta/llama-3.2-90b-vision-instruct"
+release_date = "1741634194"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

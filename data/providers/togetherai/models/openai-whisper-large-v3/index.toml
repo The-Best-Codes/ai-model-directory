@@ -1,0 +1,16 @@
+id = "openai/whisper-large-v3"
+name = "Whisper large-v3"
+
+[features]
+attachment = true
+
+[limit]
+context = 1
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.27
+output = 0.85

@@ -1,0 +1,17 @@
+id = "meta-llama/Llama-4-Scout-17B-16E"
+name = "Llama 4 Scout (17Bx16E)"
+release_date = "1749624034"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

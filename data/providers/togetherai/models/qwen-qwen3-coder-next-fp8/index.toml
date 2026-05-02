@@ -1,0 +1,16 @@
+id = "Qwen/Qwen3-Coder-Next-FP8"
+name = "Qwen3 Coder Next Fp8"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 1.2

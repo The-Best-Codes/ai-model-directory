@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-30B-A3B"
+name = "Qwen3 30B A3b"
+release_date = "1749059233"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
