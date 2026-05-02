@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/deepseek-r1-distill-llama-8b"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "DeepSeek R1 Distill Llama 8B"
 open_weights = true
 release_date = "1737567117"

@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/deepseek-v4-pro"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "DeepSeek-V4-Pro"
 open_weights = true
 release_date = "1777003717"

@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/nemotron-nano-v2-12b-vl"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "NVIDIA Nemotron Nano 2 VL"
 open_weights = true
 release_date = "1761180485"

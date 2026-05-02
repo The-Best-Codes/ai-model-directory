@@ -2,7 +2,7 @@ id = "Qwen/Qwen3.6-35B-A3B"
 name = "Qwen/Qwen3.6-35B-A3B"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 
 [limit]
@@ -10,5 +10,5 @@ context = 262144
 output = 262144
 
 [pricing]
-input = 0.19
-output = 1
+input = 0.15
+output = 0.95

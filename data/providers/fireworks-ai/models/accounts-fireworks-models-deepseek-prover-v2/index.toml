@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/deepseek-prover-v2"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "DeepSeek Prover V2"
 open_weights = true
 release_date = "1746070005"

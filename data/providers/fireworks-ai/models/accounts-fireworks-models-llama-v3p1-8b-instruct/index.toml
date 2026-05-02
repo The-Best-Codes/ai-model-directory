@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/llama-v3p1-8b-instruct"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "Llama 3.1 8B Instruct"
 open_weights = true
 release_date = "1721692808"

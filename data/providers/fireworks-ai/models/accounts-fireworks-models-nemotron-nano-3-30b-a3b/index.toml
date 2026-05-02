@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/nemotron-nano-3-30b-a3b"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "NVIDIA Nemotron Nano 3 30B A3B"
 open_weights = true
 release_date = "1764914755"

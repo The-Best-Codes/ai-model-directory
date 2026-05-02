@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/codegemma-2b"
-last_updated = "1777695317"
+last_updated = "1777759115"
 name = "CodeGemma 2B"
 open_weights = true
 release_date = "1718839247"
