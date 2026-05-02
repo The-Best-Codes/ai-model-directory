@@ -1,0 +1,7 @@
+name = "Fireworks AI"
+website = "https://fireworks.ai"
+apiBaseUrl = "https://api.fireworks.ai/inference/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/fireworks"
+defaultApiKeyEnv = ["FIREWORKS_API_KEY"]
