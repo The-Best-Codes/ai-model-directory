@@ -1,0 +1,23 @@
+id = "qwen-flash-2025-07-28"
+last_updated = "1754034003"
+name = "Qwen-Flash-2025-07-28"
+open_weights = false
+release_date = "1754034003"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+
+[limit]
+context = 1000000
+input = 995904
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.022
+output = 0.216

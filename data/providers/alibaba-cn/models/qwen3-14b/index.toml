@@ -1,0 +1,23 @@
+id = "qwen3-14b"
+last_updated = "1747022107"
+name = "Qwen3-14B"
+open_weights = true
+release_date = "1747022107"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+
+[limit]
+context = 131072
+input = 98304
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.144
+output = 0.574

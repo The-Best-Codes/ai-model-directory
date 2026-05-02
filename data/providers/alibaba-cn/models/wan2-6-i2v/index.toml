@@ -1,0 +1,12 @@
+id = "wan2.6-i2v"
+last_updated = "1764766981"
+name = "Wan2.6-I2V"
+open_weights = false
+release_date = "1764766981"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "audio", "video" ]

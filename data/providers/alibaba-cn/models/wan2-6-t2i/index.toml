@@ -1,0 +1,12 @@
+id = "wan2.6-t2i"
+last_updated = "1765785915"
+name = "Wan2.6-T2I"
+open_weights = false
+release_date = "1765785915"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

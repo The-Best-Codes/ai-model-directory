@@ -1,0 +1,12 @@
+id = "wan2.6-r2v"
+last_updated = "1765814929"
+name = "Wan2.6-R2V"
+open_weights = false
+release_date = "1765814929"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text", "video" ]
+output = [ "audio", "video" ]

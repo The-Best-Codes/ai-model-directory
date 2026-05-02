@@ -1,0 +1,18 @@
+id = "qwen3-next-80b-a3b-thinking"
+last_updated = "1757600095"
+name = "Qwen3-Next-80B-A3B-Thinking"
+open_weights = true
+release_date = "1757600095"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 131072
+input = 126976
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

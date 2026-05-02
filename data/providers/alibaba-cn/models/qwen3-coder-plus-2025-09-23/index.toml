@@ -1,0 +1,22 @@
+id = "qwen3-coder-plus-2025-09-23"
+last_updated = "1758635614"
+name = "Qwen3-Coder-Plus-2025-09-23"
+open_weights = false
+release_date = "1758635614"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 1000000
+input = 997952
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.574
+output = 2.294

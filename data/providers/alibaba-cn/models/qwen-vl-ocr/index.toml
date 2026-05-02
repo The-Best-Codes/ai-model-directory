@@ -1,0 +1,21 @@
+id = "qwen-vl-ocr"
+last_updated = "1751894034"
+name = "Qwen-VL-OCR"
+open_weights = false
+release_date = "1751894034"
+
+[features]
+attachment = true
+
+[limit]
+context = 38192
+input = 30000
+output = 8192
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.043
+output = 0.072

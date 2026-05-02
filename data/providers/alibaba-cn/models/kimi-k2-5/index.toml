@@ -1,0 +1,25 @@
+id = "kimi-k2.5"
+last_updated = "1777392000"
+name = "Kimi-K2.5"
+open_weights = true
+release_date = "1777392000"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+input = 229376
+output = 16384
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.057
+cache_write = 0.718
+input = 0.574
+output = 3.011

@@ -1,0 +1,23 @@
+id = "qwen3-30b-a3b"
+last_updated = "1746979200"
+name = "Qwen3-30B-A3B"
+open_weights = true
+release_date = "1746979200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+
+[limit]
+context = 131072
+input = 98304
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.108
+output = 0.431

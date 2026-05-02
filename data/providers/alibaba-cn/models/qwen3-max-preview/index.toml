@@ -1,0 +1,17 @@
+id = "qwen3-max-preview"
+last_updated = "1757074317"
+name = "Qwen3-Max-Preview"
+open_weights = false
+release_date = "1757074317"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.173
+input = 0.861
+output = 3.441
