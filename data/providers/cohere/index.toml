@@ -1,0 +1,7 @@
+name = "Cohere"
+website = "https://cohere.com"
+apiBaseUrl = "https://api.cohere.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/cohere"
+defaultApiKeyEnv = ["COHERE_API_KEY"]
