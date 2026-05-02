@@ -1,0 +1,7 @@
+name = "xAI"
+website = "https://x.ai"
+apiBaseUrl = "https://api.x.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/xai"
+defaultApiKeyEnv = ["XAI_API_KEY"]
