@@ -1,0 +1,13 @@
+id = "cohere-transcribe-03-2026"
+name = "cohere-transcribe-03-2026"
+
+[features]
+attachment = true
+temperature = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

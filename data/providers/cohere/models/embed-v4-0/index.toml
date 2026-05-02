@@ -1,0 +1,12 @@
+id = "embed-v4.0"
+name = "embed-v4.0"
+
+[features]
+attachment = false
+temperature = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]

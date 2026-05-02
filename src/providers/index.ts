@@ -7,6 +7,7 @@ import { anthropicProvider } from "./anthropic.ts";
 import { basetenProvider } from "./baseten.ts";
 import { cerebrasProvider } from "./cerebras.ts";
 import { chutesProvider } from "./chutes.ts";
+import { cohereProvider } from "./cohere.ts";
 import { cortecsProvider } from "./cortecs.ts";
 import { deepinfraProvider } from "./deepinfra.ts";
 import { fastrouterProvider } from "./fastrouter.ts";
@@ -28,6 +29,7 @@ export const providers: ProviderDefinition[] = [
   basetenProvider,
   cerebrasProvider,
   chutesProvider,
+  cohereProvider,
   cortecsProvider,
   deepinfraProvider,
   friendliProvider,
