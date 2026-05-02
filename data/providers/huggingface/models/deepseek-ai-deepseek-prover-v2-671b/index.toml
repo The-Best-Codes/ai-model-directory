@@ -1,0 +1,19 @@
+id = "deepseek-ai/DeepSeek-Prover-V2-671B"
+name = "deepseek-ai/DeepSeek-Prover-V2-671B"
+release_date = "1745993675"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 160000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 2.5
