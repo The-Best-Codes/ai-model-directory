@@ -14,6 +14,7 @@ import { deepseekProvider } from "./deepseek.ts";
 import { fastrouterProvider } from "./fastrouter.ts";
 import { fireworksAiProvider } from "./fireworks-ai.ts";
 import { friendliProvider } from "./friendli.ts";
+import { googleProvider } from "./google.ts";
 import { huggingfaceProvider } from "./huggingface.ts";
 import { inceptionProvider } from "./inception.ts";
 import { kiloProvider } from "./kilo.ts";
@@ -36,6 +37,7 @@ export const providers: ProviderDefinition[] = [
   fastrouterProvider,
   fireworksAiProvider,
   friendliProvider,
+  googleProvider,
   huggingfaceProvider,
   inceptionProvider,
   kiloProvider,

@@ -1,0 +1,7 @@
+id = "gemini-3.1-pro-preview-customtools"
+name = "Gemini 3.1 Pro Preview Custom Tools"
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 12

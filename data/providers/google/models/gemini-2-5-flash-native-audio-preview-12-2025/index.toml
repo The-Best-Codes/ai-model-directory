@@ -1,0 +1,22 @@
+id = "gemini-2.5-flash-native-audio-preview-12-2025"
+knowledge_cutoff = "1735711200"
+name = "Gemini 2.5 Flash Native Audio Preview 12-2025"
+release_date = "1756702800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "audio", "text", "video" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 0.5
+output = 2

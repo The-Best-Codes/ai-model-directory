@@ -1,0 +1,16 @@
+id = "lyria-3-pro-preview"
+name = "Lyria 3 Pro Preview"
+release_date = "1772344800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "audio", "text" ]

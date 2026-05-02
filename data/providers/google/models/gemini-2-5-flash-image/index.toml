@@ -1,0 +1,22 @@
+id = "gemini-2.5-flash-image"
+knowledge_cutoff = "1748754000"
+name = "Nano Banana"
+release_date = "1759294800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 65536
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.3
+output = 0.039

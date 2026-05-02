@@ -1,0 +1,23 @@
+id = "gemini-3.1-flash-lite-preview"
+knowledge_cutoff = "1735711200"
+name = "Gemini 3.1 Flash Lite Preview"
+release_date = "1772344800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.025
+input = 0.25
+output = 1.5

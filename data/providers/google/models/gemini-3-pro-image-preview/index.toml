@@ -1,0 +1,22 @@
+id = "gemini-3-pro-image-preview"
+knowledge_cutoff = "1735711200"
+name = "Nano Banana Pro"
+release_date = "1761973200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 65536
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2
+output = 12

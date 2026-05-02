@@ -1,0 +1,22 @@
+id = "gemini-3.1-flash-live-preview"
+knowledge_cutoff = "1735711200"
+name = "Gemini 3.1 Flash Live Preview"
+release_date = "1772344800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 131072
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 0.75
+output = 4.5

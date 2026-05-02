@@ -1,0 +1,6 @@
+id = "lyria-realtime-exp"
+name = "Lyria Realtime Experimental"
+release_date = "1746075600"
+
+[modalities]
+output = [ "audio" ]

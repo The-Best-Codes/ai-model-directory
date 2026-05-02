@@ -1,0 +1,23 @@
+id = "gemini-3.1-pro-preview"
+knowledge_cutoff = "1735711200"
+name = "Gemini 3.1 Pro Preview"
+release_date = "1769925600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 12
