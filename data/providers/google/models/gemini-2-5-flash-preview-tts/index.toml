@@ -1,0 +1,21 @@
+id = "gemini-2.5-flash-preview-tts"
+name = "Gemini 2.5 Flash Preview TTS"
+release_date = "1764568800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0.5
+output = 10

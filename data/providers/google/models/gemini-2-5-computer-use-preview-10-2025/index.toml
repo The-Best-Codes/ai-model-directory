@@ -1,0 +1,14 @@
+id = "gemini-2.5-computer-use-preview-10-2025"
+name = "Gemini 2.5 Computer Use Preview 10-2025"
+release_date = "1759294800"
+
+[limit]
+context = 128000
+output = 64000
+
+[modalities]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 10

@@ -1,0 +1,9 @@
+id = "gemini-embedding-2-preview"
+name = "Gemini Embedding 2 Preview"
+release_date = "1772344800"
+
+[limit]
+context = 8192
+
+[modalities]
+output = [ "text" ]

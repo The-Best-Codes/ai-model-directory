@@ -1,0 +1,22 @@
+id = "gemini-2.5-flash-lite"
+knowledge_cutoff = "1735711200"
+name = "Gemini 2.5 Flash-Lite"
+release_date = "1751346000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+output = 0.4
