@@ -1,0 +1,18 @@
+id = "mistral-moderation-2603"
+name = "Mistral Moderation"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1

@@ -1,0 +1,15 @@
+id = "mistral-moderation-2411"
+name = "mistral-moderation-2411"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
