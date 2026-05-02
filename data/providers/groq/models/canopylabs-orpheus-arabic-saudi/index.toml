@@ -1,0 +1,7 @@
+id = "canopylabs/orpheus-arabic-saudi"
+name = "Canopy Labs Orpheus Arabic Saudi"
+release_date = "1765926439"
+
+[limit]
+context = 4000
+output = 50000

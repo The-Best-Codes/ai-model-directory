@@ -1,0 +1,11 @@
+id = "llama-3.3-70b-versatile"
+name = "Llama 3.3 70B"
+release_date = "1733447754"
+
+[limit]
+context = 131072
+output = 32768
+
+[pricing]
+input = 0.59
+output = 0.79

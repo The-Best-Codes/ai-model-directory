@@ -1,0 +1,11 @@
+id = "llama-3.1-8b-instant"
+name = "Llama 3.1 8B"
+release_date = "1693721698"
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+input = 0.05
+output = 0.08

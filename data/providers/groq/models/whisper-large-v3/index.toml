@@ -1,0 +1,7 @@
+id = "whisper-large-v3"
+name = "Whisper"
+release_date = "1693721698"
+
+[limit]
+context = 448
+output = 448

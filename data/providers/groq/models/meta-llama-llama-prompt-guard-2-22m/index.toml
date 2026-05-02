@@ -1,0 +1,11 @@
+id = "meta-llama/llama-prompt-guard-2-22m"
+name = "Llama Prompt Guard 2 22M"
+release_date = "1748632101"
+
+[limit]
+context = 512
+output = 512
+
+[pricing]
+input = 0.03
+output = 0.03

@@ -1,0 +1,11 @@
+id = "qwen/qwen3-32b"
+name = "Qwen3-32B"
+release_date = "1748396646"
+
+[limit]
+context = 131072
+output = 40960
+
+[pricing]
+input = 0.29
+output = 0.59
