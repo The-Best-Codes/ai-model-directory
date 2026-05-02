@@ -1,6 +1,6 @@
 id = "rednote-hilab/dots.ocr"
 name = "rednote-hilab/dots.ocr"
-release_date = "1777671733"
+release_date = "1777682530"
 
 [features]
 attachment = true
