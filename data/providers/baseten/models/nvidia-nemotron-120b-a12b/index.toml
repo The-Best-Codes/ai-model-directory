@@ -1,0 +1,22 @@
+id = "nvidia/Nemotron-120B-A12B"
+name = "Nemotron Super"
+release_date = "1773244822"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 202800
+output = 202800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.75
