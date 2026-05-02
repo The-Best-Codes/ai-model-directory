@@ -1,0 +1,24 @@
+id = "qwen3.5-35b-a3b"
+last_updated = "1771850073"
+name = "Qwen3.5-35B-A3B"
+open_weights = true
+release_date = "1771850073"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+input = 260096
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.057
+output = 0.459

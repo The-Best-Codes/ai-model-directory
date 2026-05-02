@@ -1,0 +1,18 @@
+id = "qwen3-30b-a3b-thinking-2507"
+last_updated = "1753866332"
+name = "Qwen3-30B-A3B-Thinking-2507"
+open_weights = true
+release_date = "1753866332"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 81920
+input = 126976
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

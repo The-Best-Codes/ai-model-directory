@@ -1,0 +1,21 @@
+id = "qwen3-next-80b-a3b-instruct"
+last_updated = "1757599022"
+name = "Qwen3-Next-80B-A3B-Instruct"
+open_weights = true
+release_date = "1757599022"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+input = 129024
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.144
+output = 0.574

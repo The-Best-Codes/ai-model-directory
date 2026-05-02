@@ -1,0 +1,21 @@
+id = "qwen-mt-lite"
+last_updated = "1763552994"
+name = "Qwen-MT-Lite"
+open_weights = false
+release_date = "1763552994"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+input = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.086
+output = 0.229

@@ -1,0 +1,26 @@
+id = "qwen3.5-plus"
+last_updated = "1771146931"
+name = "Qwen3.5-Plus"
+open_weights = false
+release_date = "1771146931"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+input = 991808
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.012
+cache_write = 0.143
+input = 0.115
+output = 0.688

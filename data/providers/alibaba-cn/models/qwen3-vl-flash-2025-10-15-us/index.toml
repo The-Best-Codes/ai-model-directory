@@ -1,0 +1,22 @@
+id = "qwen3-vl-flash-2025-10-15-us"
+last_updated = "1760531631"
+name = "Qwen3-VL-Flash-2025-10-15-US"
+open_weights = false
+release_date = "1760531631"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 262144
+input = 258048
+output = 32768
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.4

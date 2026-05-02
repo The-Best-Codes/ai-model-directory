@@ -1,0 +1,19 @@
+id = "qwen3-vl-30b-a3b-thinking"
+last_updated = "1759474329"
+name = "Qwen3-VL-30B-A3B-Thinking"
+open_weights = true
+release_date = "1759474329"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+
+[limit]
+context = 131072
+input = 126976
+output = 32768
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

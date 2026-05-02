@@ -1,0 +1,24 @@
+id = "qwen3-max"
+last_updated = "1758643382"
+name = "Qwen3-Max"
+open_weights = false
+release_date = "1758643382"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 262144
+input = 258048
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.036
+cache_write = 0.448
+input = 0.359
+output = 1.434

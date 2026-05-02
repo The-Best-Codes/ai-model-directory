@@ -35052,6 +35052,2231 @@
       }
     }
   },
+  "alibaba-cn": {
+    "id": "alibaba-cn",
+    "name": "Alibaba (China)",
+    "website": "https://www.alibabacloud.com/help/en/model-studio/",
+    "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "DASHSCOPE_API_KEY"
+      ]
+    },
+    "models": {
+      "deepseek-v4-flash": {
+        "id": "deepseek-v4-flash",
+        "name": "DeepSeek-V4-Flash",
+        "release_date": "1777030958",
+        "last_updated": "1777030958",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "pricing": {
+          "input": 0.138,
+          "output": 0.275,
+          "cache_read": 0.028
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 1000000,
+          "output": 393216
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "deepseek-v4-pro": {
+        "id": "deepseek-v4-pro",
+        "name": "DeepSeek-V4-Pro",
+        "release_date": "1777030957",
+        "last_updated": "1777030957",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "pricing": {
+          "input": 1.65,
+          "output": 3.301,
+          "cache_read": 0.138
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 1000000,
+          "output": 393216
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "kimi-k2.5": {
+        "id": "kimi-k2.5",
+        "name": "Kimi-K2.5",
+        "release_date": "1777392000",
+        "last_updated": "1777392000",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "pricing": {
+          "input": 0.574,
+          "output": 3.011,
+          "cache_read": 0.057,
+          "cache_write": 0.718
+        },
+        "limit": {
+          "context": 262144,
+          "input": 229376,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-flash": {
+        "id": "qwen-flash",
+        "name": "Qwen-Flash",
+        "release_date": "1754026691",
+        "last_updated": "1754026691",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.022,
+          "output": 0.216,
+          "cache_read": 0.005
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 995904,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-flash-2025-07-28": {
+        "id": "qwen-flash-2025-07-28",
+        "name": "Qwen-Flash-2025-07-28",
+        "release_date": "1754034003",
+        "last_updated": "1754034003",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.022,
+          "output": 0.216
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 995904,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-flash-2025-07-28-us": {
+        "id": "qwen-flash-2025-07-28-us",
+        "name": "Qwen-Flash-2025-07-28-US",
+        "release_date": "1754034003",
+        "last_updated": "1754034003",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.4
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 995904,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-flash-us": {
+        "id": "qwen-flash-us",
+        "name": "Qwen-Flash-US",
+        "release_date": "1754026691",
+        "last_updated": "1754026691",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.4,
+          "cache_read": 0.01
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 995904,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-mt-flash": {
+        "id": "qwen-mt-flash",
+        "name": "Qwen-MT-Flash",
+        "release_date": "1762825126",
+        "last_updated": "1762825126",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.101,
+          "output": 0.28
+        },
+        "limit": {
+          "context": 16384,
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-mt-lite": {
+        "id": "qwen-mt-lite",
+        "name": "Qwen-MT-Lite",
+        "release_date": "1763552994",
+        "last_updated": "1763552994",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.086,
+          "output": 0.229
+        },
+        "limit": {
+          "context": 16384,
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-mt-lite-us": {
+        "id": "qwen-mt-lite-us",
+        "name": "Qwen-MT-Lite-US",
+        "release_date": "1774800000",
+        "last_updated": "1774800000",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0.36
+        },
+        "limit": {
+          "context": 16384,
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-mt-plus": {
+        "id": "qwen-mt-plus",
+        "name": "Qwen-MT-Plus",
+        "release_date": "1753353921",
+        "last_updated": "1753353921",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.259,
+          "output": 0.775
+        },
+        "limit": {
+          "context": 4096,
+          "input": 2048,
+          "output": 2048
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-plus": {
+        "id": "qwen-plus",
+        "name": "Qwen-Plus",
+        "release_date": "1757952000",
+        "last_updated": "1757952000",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.115,
+          "output": 0.287,
+          "cache_read": 0.012,
+          "cache_write": 0.144
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 995904,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-plus-2025-04-28": {
+        "id": "qwen-plus-2025-04-28",
+        "name": "Qwen-Plus-2025-04-28",
+        "release_date": "1745895653",
+        "last_updated": "1745895653",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "limit": {
+          "context": 131072,
+          "input": 98304,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-plus-2025-07-14": {
+        "id": "qwen-plus-2025-07-14",
+        "name": "Qwen-Plus-2025-07-14",
+        "release_date": "1753207138",
+        "last_updated": "1753207138",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true
+        },
+        "limit": {
+          "context": 131072,
+          "input": 98304,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-plus-2025-07-28": {
+        "id": "qwen-plus-2025-07-28",
+        "name": "Qwen-Plus-2025-07-28",
+        "release_date": "1753782155",
+        "last_updated": "1753782155",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.115,
+          "output": 0.287
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 995904,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-plus-2025-09-11": {
+        "id": "qwen-plus-2025-09-11",
+        "name": "Qwen-Plus-2025-09-11",
+        "release_date": "1757599079",
+        "last_updated": "1757599079",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.115,
+          "output": 0.287
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 995904,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-plus-2025-12-01": {
+        "id": "qwen-plus-2025-12-01",
+        "name": "Qwen-Plus-2025-12-01",
+        "release_date": "1764556320",
+        "last_updated": "1764556320",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.115,
+          "output": 0.287
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 997952,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-plus-2025-12-01-us": {
+        "id": "qwen-plus-2025-12-01-us",
+        "name": "Qwen-Plus-2025-12-01-US",
+        "release_date": "1764556320",
+        "last_updated": "1764556320",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 1.2
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 997952,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-plus-us": {
+        "id": "qwen-plus-us",
+        "name": "Qwen-Plus-US",
+        "release_date": "1757952000",
+        "last_updated": "1757952000",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 1.2,
+          "cache_read": 0.08
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 995904,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-vl-ocr": {
+        "id": "qwen-vl-ocr",
+        "name": "Qwen-VL-OCR",
+        "release_date": "1751894034",
+        "last_updated": "1751894034",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "pricing": {
+          "input": 0.043,
+          "output": 0.072
+        },
+        "limit": {
+          "context": 38192,
+          "input": 30000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen-vl-ocr-2025-11-20": {
+        "id": "qwen-vl-ocr-2025-11-20",
+        "name": "Qwen-VL-OCR-2025-11-20",
+        "release_date": "1763721059",
+        "last_updated": "1763721059",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "pricing": {
+          "input": 0.043,
+          "output": 0.072
+        },
+        "limit": {
+          "context": 38192,
+          "input": 30000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-14b": {
+        "id": "qwen3-14b",
+        "name": "Qwen3-14B",
+        "release_date": "1747022107",
+        "last_updated": "1747022107",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.144,
+          "output": 0.574
+        },
+        "limit": {
+          "context": 131072,
+          "input": 98304,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-235b-a22b": {
+        "id": "qwen3-235b-a22b",
+        "name": "Qwen3-235B-A22B",
+        "release_date": "1746979200",
+        "last_updated": "1746979200",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.287,
+          "output": 1.147
+        },
+        "limit": {
+          "context": 131072,
+          "input": 98304,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-235b-a22b-instruct-2507": {
+        "id": "qwen3-235b-a22b-instruct-2507",
+        "name": "Qwen3-235B-A22B-Instruct-2507",
+        "release_date": "1753207064",
+        "last_updated": "1753207064",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.23,
+          "output": 0.92
+        },
+        "limit": {
+          "context": 131072,
+          "input": 129024,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-235b-a22b-thinking-2507": {
+        "id": "qwen3-235b-a22b-thinking-2507",
+        "name": "Qwen3-235B-A22B-Thinking-2507",
+        "release_date": "1753437855",
+        "last_updated": "1753437855",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true
+        },
+        "limit": {
+          "context": 81920,
+          "input": 126976,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-30b-a3b": {
+        "id": "qwen3-30b-a3b",
+        "name": "Qwen3-30B-A3B",
+        "release_date": "1746979200",
+        "last_updated": "1746979200",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.108,
+          "output": 0.431
+        },
+        "limit": {
+          "context": 131072,
+          "input": 98304,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-30b-a3b-instruct-2507": {
+        "id": "qwen3-30b-a3b-instruct-2507",
+        "name": "Qwen3-30B-A3B-Instruct-2507",
+        "release_date": "1753798724",
+        "last_updated": "1753798724",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.108,
+          "output": 0.431
+        },
+        "limit": {
+          "context": 131072,
+          "input": 129024,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-30b-a3b-thinking-2507": {
+        "id": "qwen3-30b-a3b-thinking-2507",
+        "name": "Qwen3-30B-A3B-Thinking-2507",
+        "release_date": "1753866332",
+        "last_updated": "1753866332",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true
+        },
+        "limit": {
+          "context": 81920,
+          "input": 126976,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-32b": {
+        "id": "qwen3-32b",
+        "name": "Qwen3-32B",
+        "release_date": "1746979200",
+        "last_updated": "1746979200",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.16,
+          "output": 0.64
+        },
+        "limit": {
+          "context": 131072,
+          "input": 98304,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.5-122b-a10b": {
+        "id": "qwen3.5-122b-a10b",
+        "name": "Qwen3.5-122B-A10B",
+        "release_date": "1771850059",
+        "last_updated": "1771850059",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.115,
+          "output": 0.917
+        },
+        "limit": {
+          "context": 262144,
+          "input": 260096,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.5-27b": {
+        "id": "qwen3.5-27b",
+        "name": "Qwen3.5-27B",
+        "release_date": "1771850082",
+        "last_updated": "1771850082",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.086,
+          "output": 0.688
+        },
+        "limit": {
+          "context": 262144,
+          "input": 260096,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.5-35b-a3b": {
+        "id": "qwen3.5-35b-a3b",
+        "name": "Qwen3.5-35B-A3B",
+        "release_date": "1771850073",
+        "last_updated": "1771850073",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.057,
+          "output": 0.459
+        },
+        "limit": {
+          "context": 262144,
+          "input": 260096,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.5-397b-a17b": {
+        "id": "qwen3.5-397b-a17b",
+        "name": "Qwen3.5-397B-A17B",
+        "release_date": "1771147102",
+        "last_updated": "1771147102",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.172,
+          "output": 1.032
+        },
+        "limit": {
+          "context": 262144,
+          "input": 260096,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.5-flash": {
+        "id": "qwen3.5-flash",
+        "name": "Qwen3.5-Flash",
+        "release_date": "1771850048",
+        "last_updated": "1771850048",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.029,
+          "output": 0.287,
+          "cache_read": 0.003,
+          "cache_write": 0.036
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 991808,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.5-flash-2026-02-23": {
+        "id": "qwen3.5-flash-2026-02-23",
+        "name": "Qwen3.5-Flash-2026-02-23",
+        "release_date": "1771850039",
+        "last_updated": "1771850039",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.029,
+          "output": 0.287
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 991808,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.5-plus": {
+        "id": "qwen3.5-plus",
+        "name": "Qwen3.5-Plus",
+        "release_date": "1771146931",
+        "last_updated": "1771146931",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.115,
+          "output": 0.688,
+          "cache_read": 0.012,
+          "cache_write": 0.143
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 991808,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.5-plus-2026-02-15": {
+        "id": "qwen3.5-plus-2026-02-15",
+        "name": "Qwen3.5-Plus-2026-02-15",
+        "release_date": "1771147036",
+        "last_updated": "1771147036",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.115,
+          "output": 0.688
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 991808,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.6-35b-a3b": {
+        "id": "qwen3.6-35b-a3b",
+        "name": "Qwen3.6-35B-A3B",
+        "release_date": "1776393533",
+        "last_updated": "1776393533",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.248,
+          "output": 1.485
+        },
+        "limit": {
+          "context": 262144,
+          "input": 260096,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.6-flash": {
+        "id": "qwen3.6-flash",
+        "name": "Qwen3.6-Flash",
+        "release_date": "1776393542",
+        "last_updated": "1776393542",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.165,
+          "output": 0.99,
+          "cache_read": 0.017,
+          "cache_write": 0.206
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 991808,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.6-flash-2026-04-16": {
+        "id": "qwen3.6-flash-2026-04-16",
+        "name": "Qwen3.6-Flash-2026-04-16",
+        "release_date": "1776393515",
+        "last_updated": "1776393515",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.165,
+          "output": 0.99
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 991808,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.6-plus": {
+        "id": "qwen3.6-plus",
+        "name": "Qwen3.6-Plus",
+        "release_date": "1775044534",
+        "last_updated": "1775044534",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.276,
+          "output": 1.651,
+          "cache_read": 0.028,
+          "cache_write": 0.344
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 991808,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.6-plus-2026-04-02": {
+        "id": "qwen3.6-plus-2026-04-02",
+        "name": "Qwen3.6-Plus-2026-04-02",
+        "release_date": "1775044571",
+        "last_updated": "1775044571",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.276,
+          "output": 1.651
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 991808,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-8b": {
+        "id": "qwen3-8b",
+        "name": "Qwen3-8B",
+        "release_date": "1746979200",
+        "last_updated": "1746979200",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.072,
+          "output": 0.287
+        },
+        "limit": {
+          "context": 131072,
+          "input": 98304,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-asr-flash-2025-09-08-us": {
+        "id": "qwen3-asr-flash-2025-09-08-us",
+        "name": "Qwen3-ASR-Flash-2025-09-08-US",
+        "release_date": "1758019640",
+        "last_updated": "1758019640",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-asr-flash-us": {
+        "id": "qwen3-asr-flash-us",
+        "name": "Qwen3-ASR-Flash-US",
+        "release_date": "1758019620",
+        "last_updated": "1758019620",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-coder-30b-a3b-instruct": {
+        "id": "qwen3-coder-30b-a3b-instruct",
+        "name": "Qwen3-Coder-30B-A3B-Instruct",
+        "release_date": "1753965979",
+        "last_updated": "1753965979",
+        "open_weights": true,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.216,
+          "output": 0.861
+        },
+        "limit": {
+          "context": 262144,
+          "input": 204800,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-coder-480b-a35b-instruct": {
+        "id": "qwen3-coder-480b-a35b-instruct",
+        "name": "Qwen3-Coder-480B-A35B-Instruct",
+        "release_date": "1753207092",
+        "last_updated": "1753207092",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.861,
+          "output": 3.441
+        },
+        "limit": {
+          "context": 262144,
+          "input": 204800,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-coder-flash": {
+        "id": "qwen3-coder-flash",
+        "name": "Qwen3-Coder-Flash",
+        "release_date": "1753778593",
+        "last_updated": "1753778593",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.144,
+          "output": 0.574,
+          "cache_read": 0.014,
+          "cache_write": 0.18
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 997952,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-coder-flash-2025-07-28": {
+        "id": "qwen3-coder-flash-2025-07-28",
+        "name": "Qwen3-Coder-Flash-2025-07-28",
+        "release_date": "1753778569",
+        "last_updated": "1753778569",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.144,
+          "output": 0.574
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 997952,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-coder-plus": {
+        "id": "qwen3-coder-plus",
+        "name": "Qwen3-Coder-Plus",
+        "release_date": "1753207119",
+        "last_updated": "1753207119",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.574,
+          "output": 2.294,
+          "cache_read": 0.115
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 1000000,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-coder-plus-2025-07-22": {
+        "id": "qwen3-coder-plus-2025-07-22",
+        "name": "Qwen3-Coder-Plus-2025-07-22",
+        "release_date": "1753207105",
+        "last_updated": "1753207105",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.574,
+          "output": 2.294
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 1000000,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-coder-plus-2025-09-23": {
+        "id": "qwen3-coder-plus-2025-09-23",
+        "name": "Qwen3-Coder-Plus-2025-09-23",
+        "release_date": "1758635614",
+        "last_updated": "1758635614",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.574,
+          "output": 2.294
+        },
+        "limit": {
+          "context": 1000000,
+          "input": 997952,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-max": {
+        "id": "qwen3-max",
+        "name": "Qwen3-Max",
+        "release_date": "1758643382",
+        "last_updated": "1758643382",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.359,
+          "output": 1.434,
+          "cache_read": 0.036,
+          "cache_write": 0.448
+        },
+        "limit": {
+          "context": 262144,
+          "input": 258048,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-max-2025-09-23": {
+        "id": "qwen3-max-2025-09-23",
+        "name": "Qwen3-Max-2025-09-23",
+        "release_date": "1758643399",
+        "last_updated": "1758643399",
+        "open_weights": false,
+        "features": {
+          "attachment": false,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.861,
+          "output": 3.441
+        },
+        "limit": {
+          "context": 262144,
+          "input": 258048,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-max-preview": {
+        "id": "qwen3-max-preview",
+        "name": "Qwen3-Max-Preview",
+        "release_date": "1757074317",
+        "last_updated": "1757074317",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.861,
+          "output": 3.441,
+          "cache_read": 0.173
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-next-80b-a3b-instruct": {
+        "id": "qwen3-next-80b-a3b-instruct",
+        "name": "Qwen3-Next-80B-A3B-Instruct",
+        "release_date": "1757599022",
+        "last_updated": "1757599022",
+        "open_weights": true,
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.144,
+          "output": 0.574
+        },
+        "limit": {
+          "context": 131072,
+          "input": 129024,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-next-80b-a3b-thinking": {
+        "id": "qwen3-next-80b-a3b-thinking",
+        "name": "Qwen3-Next-80B-A3B-Thinking",
+        "release_date": "1757600095",
+        "last_updated": "1757600095",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true
+        },
+        "limit": {
+          "context": 131072,
+          "input": 126976,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-235b-a22b-instruct": {
+        "id": "qwen3-vl-235b-a22b-instruct",
+        "name": "Qwen3-VL-235B-A22B-Instruct",
+        "release_date": "1758641037",
+        "last_updated": "1758641037",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.287,
+          "output": 1.147
+        },
+        "limit": {
+          "context": 131072,
+          "input": 129024,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-235b-a22b-thinking": {
+        "id": "qwen3-vl-235b-a22b-thinking",
+        "name": "Qwen3-VL-235B-A22B-Thinking",
+        "release_date": "1758641048",
+        "last_updated": "1758641048",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "limit": {
+          "context": 131072,
+          "input": 126976,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-30b-a3b-instruct": {
+        "id": "qwen3-vl-30b-a3b-instruct",
+        "name": "Qwen3-VL-30B-A3B-Instruct",
+        "release_date": "1759493202",
+        "last_updated": "1759493202",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.108,
+          "output": 0.431
+        },
+        "limit": {
+          "context": 131072,
+          "input": 129024,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-30b-a3b-thinking": {
+        "id": "qwen3-vl-30b-a3b-thinking",
+        "name": "Qwen3-VL-30B-A3B-Thinking",
+        "release_date": "1759474329",
+        "last_updated": "1759474329",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "limit": {
+          "context": 131072,
+          "input": 126976,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-32b-instruct": {
+        "id": "qwen3-vl-32b-instruct",
+        "name": "Qwen3-VL-32B-Instruct",
+        "release_date": "1761057165",
+        "last_updated": "1761057165",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.16,
+          "output": 0.64
+        },
+        "limit": {
+          "context": 131072,
+          "input": 129024,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-32b-thinking": {
+        "id": "qwen3-vl-32b-thinking",
+        "name": "Qwen3-VL-32B-Thinking",
+        "release_date": "1761057158",
+        "last_updated": "1761057158",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "limit": {
+          "context": 131072,
+          "input": 126976,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-8b-instruct": {
+        "id": "qwen3-vl-8b-instruct",
+        "name": "Qwen3-VL-8B-Instruct",
+        "release_date": "1759237308",
+        "last_updated": "1759237308",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.072,
+          "output": 0.287
+        },
+        "limit": {
+          "context": 131072,
+          "input": 129024,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-8b-thinking": {
+        "id": "qwen3-vl-8b-thinking",
+        "name": "Qwen3-VL-8B-Thinking",
+        "release_date": "1759237274",
+        "last_updated": "1759237274",
+        "open_weights": true,
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "structured_output": true
+        },
+        "limit": {
+          "context": 131072,
+          "input": 126976,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-flash": {
+        "id": "qwen3-vl-flash",
+        "name": "Qwen3-VL-Flash",
+        "release_date": "1760531748",
+        "last_updated": "1760531748",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.022,
+          "output": 0.215,
+          "cache_read": 0.005
+        },
+        "limit": {
+          "context": 262144,
+          "input": 258048,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-flash-2025-10-15": {
+        "id": "qwen3-vl-flash-2025-10-15",
+        "name": "Qwen3-VL-Flash-2025-10-15",
+        "release_date": "1760531631",
+        "last_updated": "1760531631",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.022,
+          "output": 0.215
+        },
+        "limit": {
+          "context": 262144,
+          "input": 258048,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-flash-2025-10-15-us": {
+        "id": "qwen3-vl-flash-2025-10-15-us",
+        "name": "Qwen3-VL-Flash-2025-10-15-US",
+        "release_date": "1760531631",
+        "last_updated": "1760531631",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.4
+        },
+        "limit": {
+          "context": 262144,
+          "input": 258048,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-flash-2026-01-22-us": {
+        "id": "qwen3-vl-flash-2026-01-22-us",
+        "name": "Qwen3-VL-Flash-2026-01-22-US",
+        "release_date": "1773417600",
+        "last_updated": "1773417600",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.4
+        },
+        "limit": {
+          "context": 262144,
+          "input": 260096,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-flash-us": {
+        "id": "qwen3-vl-flash-us",
+        "name": "Qwen3-VL-Flash-US",
+        "release_date": "1760531748",
+        "last_updated": "1760531748",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.4,
+          "cache_read": 0.01
+        },
+        "limit": {
+          "context": 262144,
+          "input": 258048,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-plus": {
+        "id": "qwen3-vl-plus",
+        "name": "Qwen3-VL-Plus",
+        "release_date": "1758641115",
+        "last_updated": "1758641115",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.144,
+          "output": 1.434,
+          "cache_read": 0.014,
+          "cache_write": 0.18
+        },
+        "limit": {
+          "context": 262144,
+          "input": 258048,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3-vl-plus-2025-09-23": {
+        "id": "qwen3-vl-plus-2025-09-23",
+        "name": "Qwen3-VL-Plus-2025-09-23",
+        "release_date": "1758641091",
+        "last_updated": "1758641091",
+        "open_weights": false,
+        "features": {
+          "attachment": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.144,
+          "output": 1.434
+        },
+        "limit": {
+          "context": 262144,
+          "input": 258048,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "wan2.6-i2v": {
+        "id": "wan2.6-i2v",
+        "name": "Wan2.6-I2V",
+        "release_date": "1764766981",
+        "last_updated": "1764766981",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text"
+          ],
+          "output": [
+            "audio",
+            "video"
+          ]
+        }
+      },
+      "wan2.6-i2v-us": {
+        "id": "wan2.6-i2v-us",
+        "name": "Wan2.6-I2V-US",
+        "release_date": "1764766981",
+        "last_updated": "1764766981",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text"
+          ],
+          "output": [
+            "audio",
+            "video"
+          ]
+        }
+      },
+      "wan2.6-image": {
+        "id": "wan2.6-image",
+        "name": "Wan2.6-Image",
+        "release_date": "1765799732",
+        "last_updated": "1765799732",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "image",
+            "text"
+          ]
+        }
+      },
+      "wan2.6-r2v": {
+        "id": "wan2.6-r2v",
+        "name": "Wan2.6-R2V",
+        "release_date": "1765814929",
+        "last_updated": "1765814929",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "text",
+            "video"
+          ],
+          "output": [
+            "audio",
+            "video"
+          ]
+        }
+      },
+      "wan2.6-t2i": {
+        "id": "wan2.6-t2i",
+        "name": "Wan2.6-T2I",
+        "release_date": "1765785915",
+        "last_updated": "1765785915",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        }
+      },
+      "wan2.6-t2v": {
+        "id": "wan2.6-t2v",
+        "name": "Wan2.6-T2V",
+        "release_date": "1764766999",
+        "last_updated": "1764766999",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "audio",
+            "video"
+          ]
+        }
+      },
+      "wan2.6-t2v-us": {
+        "id": "wan2.6-t2v-us",
+        "name": "Wan2.6-T2V-US",
+        "release_date": "1764766999",
+        "last_updated": "1764766999",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "audio",
+            "video"
+          ]
+        }
+      }
+    }
+  },
   "anthropic": {
     "id": "anthropic",
     "name": "Anthropic",

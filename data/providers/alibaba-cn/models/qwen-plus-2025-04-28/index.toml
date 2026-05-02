@@ -1,0 +1,19 @@
+id = "qwen-plus-2025-04-28"
+last_updated = "1745895653"
+name = "Qwen-Plus-2025-04-28"
+open_weights = false
+release_date = "1745895653"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+
+[limit]
+context = 131072
+input = 98304
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

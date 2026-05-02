@@ -1,0 +1,24 @@
+id = "qwen-plus-us"
+last_updated = "1757952000"
+name = "Qwen-Plus-US"
+open_weights = false
+release_date = "1757952000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+
+[limit]
+context = 1000000
+input = 995904
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+input = 0.4
+output = 1.2
