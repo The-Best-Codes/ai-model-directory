@@ -1,0 +1,20 @@
+id = "voxtral-mini-latest"
+name = "Voxtral Mini Transcribe 2"
+open_weights = true
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.001
+output = 0.04

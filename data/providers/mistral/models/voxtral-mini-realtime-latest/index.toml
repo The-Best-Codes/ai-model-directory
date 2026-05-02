@@ -1,0 +1,15 @@
+id = "voxtral-mini-realtime-latest"
+name = "voxtral-mini-transcribe-realtime-2602"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

@@ -1,0 +1,17 @@
+id = "codestral-embed"
+name = "Codestral Embed"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15

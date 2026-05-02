@@ -19,6 +19,7 @@ import { groqProvider } from "./groq.ts";
 import { huggingfaceProvider } from "./huggingface.ts";
 import { inceptionProvider } from "./inception.ts";
 import { kiloProvider } from "./kilo.ts";
+import { mistralProvider } from "./mistral.ts";
 import { openaiProvider } from "./openai.ts";
 import { openrouterProvider } from "./openrouter.ts";
 
@@ -43,6 +44,7 @@ export const providers: ProviderDefinition[] = [
   huggingfaceProvider,
   inceptionProvider,
   kiloProvider,
+  mistralProvider,
   openaiProvider,
   openrouterProvider,
 ];
