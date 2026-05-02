@@ -2,9 +2,19 @@ id = "qwen/qwen3-32b"
 name = "Qwen3-32B"
 release_date = "1748396646"
 
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
 [limit]
 context = 131072
 output = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 input = 0.29

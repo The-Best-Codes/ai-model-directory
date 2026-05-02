@@ -1,7 +1,15 @@
 id = "allam-2-7b"
-name = "allam-2-7b"
+name = "ALLaM-2-7b"
 release_date = "1737672203"
+
+[features]
+attachment = false
+structured_output = true
 
 [limit]
 context = 4096
 output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

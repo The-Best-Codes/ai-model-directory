@@ -1,11 +1,23 @@
 id = "openai/gpt-oss-20b"
 name = "GPT OSS 20B"
+open_weights = true
 release_date = "1754407957"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
 
 [limit]
 context = 131072
 output = 65536
 
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
 [pricing]
+cache_read = 0.037
 input = 0.075
 output = 0.3
