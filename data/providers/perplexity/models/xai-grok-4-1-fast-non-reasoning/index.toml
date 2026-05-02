@@ -1,0 +1,6 @@
+id = "xai/grok-4-1-fast-non-reasoning"
+
+[pricing]
+cache_read = 0.05
+input = 0.2
+output = 0.5
