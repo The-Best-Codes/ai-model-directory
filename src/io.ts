@@ -4,35 +4,59 @@ import { ZodError } from "zod";
 
 import {
   formatZodError,
+  mergeModelSources,
   normalizeModel,
   normalizeModelId,
   parseMetadataToml,
+  parseModelToml,
   serializeModelToml,
 } from "./lib/model.ts";
 import type { ProgressBar } from "./progress.ts";
 import type { ProviderDefinition } from "./providers/types.ts";
-import type { ModelRecord } from "./schema.ts";
+import type { MetadataRecord, ModelRecord } from "./schema.ts";
 
 export type ProviderRunResult = {
   written: number;
   errors: number;
 };
 
-async function shouldPreserveDirectory(
+async function readMetadata(
   modelDirectory: string,
-): Promise<boolean> {
-  const metadataFile = Bun.file(join(modelDirectory, "metadata.toml"));
+): Promise<MetadataRecord | null> {
+  const file = Bun.file(join(modelDirectory, "metadata.toml"));
 
-  if (!(await metadataFile.exists())) {
-    return false;
+  if (!(await file.exists())) {
+    return null;
   }
 
-  try {
-    const metadata = parseMetadataToml(await metadataFile.text());
-    return metadata.preserve === true;
-  } catch {
-    return false;
+  return parseMetadataToml(await file.text());
+}
+
+async function readExtendsTarget(
+  rootDirectory: string,
+  metadata: MetadataRecord | null,
+): Promise<ModelRecord | null> {
+  if (!metadata?.extends) {
+    return null;
   }
+
+  const targetFile = Bun.file(
+    join(
+      rootDirectory,
+      "data",
+      "providers",
+      metadata.extends.path,
+      "index.toml",
+    ),
+  );
+
+  if (!(await targetFile.exists())) {
+    throw new Error(
+      `extends.path '${metadata.extends.path}' does not exist on disk`,
+    );
+  }
+
+  return parseModelToml(await targetFile.text());
 }
 
 function detectCollisions(models: ModelRecord[]): Map<string, string[]> {
@@ -68,8 +92,9 @@ async function removeStaleModelDirectories(
     }
 
     const directoryPath = join(outputDirectory, entry.name);
+    const metadata = await readMetadata(directoryPath).catch(() => null);
 
-    if (await shouldPreserveDirectory(directoryPath)) {
+    if (metadata?.preserve === true) {
       continue;
     }
 
@@ -125,8 +150,17 @@ export async function writeProviderModels(
       await mkdir(modelDirectory, { recursive: true });
 
       const normalized = normalizeModel(model);
+      const metadata = await readMetadata(modelDirectory);
+      const extendsTarget = await readExtendsTarget(rootDirectory, metadata);
 
-      await Bun.write(outputFile, serializeModelToml(normalized));
+      const finalModel = mergeModelSources({
+        api: normalized,
+        manual_data: metadata?.manual_data ?? null,
+        extends: extendsTarget,
+        priorities: metadata?.priorities,
+      });
+
+      await Bun.write(outputFile, serializeModelToml(finalModel));
       written += 1;
       progress.tick(model.id, true);
     } catch (error) {
