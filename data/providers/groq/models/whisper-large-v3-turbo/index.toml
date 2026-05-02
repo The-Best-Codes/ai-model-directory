@@ -2,6 +2,13 @@ id = "whisper-large-v3-turbo"
 name = "Whisper Large V3 Turbo"
 release_date = "1728413088"
 
+[features]
+attachment = true
+
 [limit]
 context = 448
 output = 448
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

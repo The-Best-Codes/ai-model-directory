@@ -2,6 +2,15 @@ id = "groq/compound"
 name = "Compound"
 release_date = "1756949530"
 
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
 [limit]
 context = 131072
 output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

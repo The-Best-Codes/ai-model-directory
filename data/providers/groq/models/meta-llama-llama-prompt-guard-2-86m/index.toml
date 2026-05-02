@@ -2,9 +2,17 @@ id = "meta-llama/llama-prompt-guard-2-86m"
 name = "Prompt Guard 2 86M"
 release_date = "1748632165"
 
+[features]
+attachment = false
+structured_output = true
+
 [limit]
 context = 512
 output = 512
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 input = 0.04
