@@ -2,6 +2,7 @@ id = "deepseek-v4-flash"
 name = "deepseek-v4-flash"
 
 [features]
+reasoning = true
 structured_output = true
 tool_call = true
 
