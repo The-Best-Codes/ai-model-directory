@@ -1,0 +1,7 @@
+name = "Groq"
+website = "https://groq.com"
+apiBaseUrl = "https://api.groq.com/openai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/groq"
+defaultApiKeyEnv = ["GROQ_API_KEY"]
