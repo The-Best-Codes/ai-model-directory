@@ -1,0 +1,7 @@
+name = "Google"
+website = "https://ai.google.dev"
+apiBaseUrl = "https://generativelanguage.googleapis.com/v1beta/openai/v1/"
+
+[aiSdk]
+npmPackage = "@ai-sdk/google"
+defaultApiKeyEnv = ["GOOGLE_GENERATIVE_AI_API_KEY"]
