@@ -1,0 +1,7 @@
+name = "Mistral"
+website = "https://mistral.ai"
+apiBaseUrl = "https://api.mistral.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/mistral"
+defaultApiKeyEnv = ["MISTRAL_API_KEY"]
