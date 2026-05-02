@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/deepseek-r1"
+last_updated = "1777695317"
+name = "DeepSeek R1 (Fast)"
+open_weights = true
+release_date = "1737397673"
+
+[features]
+tool_call = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.675
+input = 1.35
+output = 5.4

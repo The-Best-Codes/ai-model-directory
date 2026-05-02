@@ -1,0 +1,17 @@
+id = "accounts/fireworks/models/qwen3-reranker-8b"
+last_updated = "1777695317"
+name = "Qwen3 Reranker 8B"
+open_weights = true
+release_date = "1759865045"
+
+[features]
+tool_call = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.2

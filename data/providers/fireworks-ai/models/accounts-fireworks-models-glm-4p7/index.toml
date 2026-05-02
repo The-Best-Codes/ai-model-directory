@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/glm-4p7"
+last_updated = "1777695317"
+name = "GLM-4.7"
+open_weights = true
+release_date = "1766430878"
+
+[features]
+tool_call = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 0.6
+output = 2.2

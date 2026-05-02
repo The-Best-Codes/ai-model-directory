@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/chronos-hermes-13b-v2"
+last_updated = "1777695317"
+name = "Chronos Hermes 13B v2"
+open_weights = true
+release_date = "1709185958"
+
+[features]
+tool_call = false
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.2
+output = 0.2

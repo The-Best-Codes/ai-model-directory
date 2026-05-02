@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/qwen2p5-72b"
+last_updated = "1777695317"
+name = "Qwen2.5 72B"
+open_weights = true
+release_date = "1727827885"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+input = 0.9
+output = 0.9

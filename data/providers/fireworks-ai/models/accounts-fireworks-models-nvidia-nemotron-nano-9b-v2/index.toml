@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/nvidia-nemotron-nano-9b-v2"
+last_updated = "1777695317"
+name = "NVIDIA Nemotron Nano 9B v2"
+open_weights = true
+release_date = "1760565981"
+
+[features]
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.2
+output = 0.2

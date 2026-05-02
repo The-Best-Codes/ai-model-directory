@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/qwen3p5-35b-a3b"
+last_updated = "1777695317"
+name = "Qwen 3.5 35B A3B"
+open_weights = true
+release_date = "1772177161"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.5
+output = 0.5

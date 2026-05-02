@@ -1,0 +1,17 @@
+id = "accounts/fireworks/models/nemotron-nano-3-30b-a3b"
+last_updated = "1777695317"
+name = "NVIDIA Nemotron Nano 3 30B A3B"
+open_weights = true
+release_date = "1764914755"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.5
+output = 0.5

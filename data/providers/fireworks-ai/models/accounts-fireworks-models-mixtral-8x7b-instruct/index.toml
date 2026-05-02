@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/mixtral-8x7b-instruct"
+last_updated = "1777695317"
+name = "Mixtral MoE 8x7B Instruct"
+open_weights = true
+release_date = "1702326791"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.5
+output = 0.5

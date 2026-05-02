@@ -1,0 +1,18 @@
+id = "accounts/fireworks/models/devstral-small-2-24b-instruct-2512"
+last_updated = "1777695317"
+name = "Devstral Small 2 24B Instruct 2512"
+open_weights = true
+release_date = "1765250523"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+input = 0.9
+output = 0.9

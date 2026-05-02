@@ -1,0 +1,17 @@
+id = "accounts/fireworks/models/minimax-m1-80k"
+last_updated = "1777695317"
+name = "MiniMax-M1-80k"
+open_weights = true
+release_date = "1750351160"
+
+[features]
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1

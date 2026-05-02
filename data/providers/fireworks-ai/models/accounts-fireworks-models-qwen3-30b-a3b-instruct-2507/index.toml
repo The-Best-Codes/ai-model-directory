@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/qwen3-30b-a3b-instruct-2507"
+last_updated = "1777695317"
+name = "Qwen3 30B A3B Instruct 2507"
+open_weights = true
+release_date = "1753808388"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.5
+output = 0.5

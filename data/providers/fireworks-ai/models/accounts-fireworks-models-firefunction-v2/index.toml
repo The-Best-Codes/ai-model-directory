@@ -1,0 +1,13 @@
+id = "accounts/fireworks/models/firefunction-v2"
+last_updated = "1777695317"
+name = "FireFunction V2"
+open_weights = true
+release_date = "1723619509"
+
+[features]
+tool_call = true
+
+[pricing]
+cache_read = 0.45
+input = 0.9
+output = 0.9

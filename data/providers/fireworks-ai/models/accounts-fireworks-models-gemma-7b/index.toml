@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/gemma-7b"
+last_updated = "1777695317"
+name = "Gemma 7B"
+open_weights = true
+release_date = "1709330170"
+
+[features]
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.2
+output = 0.2

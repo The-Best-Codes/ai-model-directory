@@ -1,0 +1,17 @@
+id = "accounts/fireworks/models/llama-v3p1-405b-instruct-long"
+last_updated = "1777695317"
+name = "Llama 3.1 405B Instruct Long"
+open_weights = true
+release_date = "1723679065"
+
+[features]
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1

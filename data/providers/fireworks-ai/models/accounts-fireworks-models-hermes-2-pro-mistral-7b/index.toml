@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/hermes-2-pro-mistral-7b"
+last_updated = "1777695317"
+name = "Hermes 2 Pro Mistral 7B"
+open_weights = true
+release_date = "1710366613"
+
+[features]
+tool_call = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.2
+output = 0.2

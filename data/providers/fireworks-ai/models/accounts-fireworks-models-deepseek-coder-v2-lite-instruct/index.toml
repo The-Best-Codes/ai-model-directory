@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/deepseek-coder-v2-lite-instruct"
+last_updated = "1777695317"
+name = "DeepSeek Coder V2 Lite Instruct"
+open_weights = true
+release_date = "1720117206"
+
+[features]
+tool_call = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.5
+output = 0.5

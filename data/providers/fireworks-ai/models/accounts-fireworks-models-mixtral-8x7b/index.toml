@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/mixtral-8x7b"
+last_updated = "1777695317"
+name = "Mixtral 8x7B v0.1"
+open_weights = true
+release_date = "1702083359"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.5
+output = 0.5

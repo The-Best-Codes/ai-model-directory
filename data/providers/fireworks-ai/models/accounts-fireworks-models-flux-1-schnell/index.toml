@@ -1,0 +1,18 @@
+id = "accounts/fireworks/models/flux-1-schnell"
+last_updated = "1777695317"
+name = "FLUX.1 [schnell]"
+open_weights = true
+release_date = "1729569995"
+
+[features]
+attachment = true
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1

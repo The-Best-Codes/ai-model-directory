@@ -1,0 +1,18 @@
+id = "accounts/fireworks/models/qwen3-vl-32b-instruct"
+last_updated = "1777695317"
+name = "Qwen3 VL 32B Instruct"
+open_weights = true
+release_date = "1764719248"
+
+[features]
+attachment = true
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+input = 0.9
+output = 0.9

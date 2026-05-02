@@ -1,0 +1,20 @@
+id = "accounts/fireworks/models/deepseek-r1-distill-qwen-32b"
+last_updated = "1777695317"
+name = "DeepSeek R1 Distill Qwen 32B"
+open_weights = true
+release_date = "1737504661"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+input = 0.9
+output = 0.9

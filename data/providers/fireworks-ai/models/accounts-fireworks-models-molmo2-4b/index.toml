@@ -1,0 +1,21 @@
+id = "accounts/fireworks/models/molmo2-4b"
+last_updated = "1777695317"
+name = "Molmo2-4B"
+open_weights = true
+release_date = "1767044762"
+
+[features]
+attachment = true
+tool_call = false
+
+[limit]
+context = 36864
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1

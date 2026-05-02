@@ -1,0 +1,17 @@
+id = "accounts/fireworks/models/qwen3-embedding-0p6b"
+last_updated = "1777695317"
+name = "Qwen3 Embedding 0.6B"
+open_weights = true
+release_date = "1759866227"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.016

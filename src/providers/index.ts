@@ -12,6 +12,7 @@ import { cortecsProvider } from "./cortecs.ts";
 import { deepinfraProvider } from "./deepinfra.ts";
 import { deepseekProvider } from "./deepseek.ts";
 import { fastrouterProvider } from "./fastrouter.ts";
+import { fireworksAiProvider } from "./fireworks-ai.ts";
 import { friendliProvider } from "./friendli.ts";
 import { huggingfaceProvider } from "./huggingface.ts";
 import { inceptionProvider } from "./inception.ts";
@@ -33,6 +34,7 @@ export const providers: ProviderDefinition[] = [
   deepinfraProvider,
   deepseekProvider,
   fastrouterProvider,
+  fireworksAiProvider,
   friendliProvider,
   huggingfaceProvider,
   inceptionProvider,

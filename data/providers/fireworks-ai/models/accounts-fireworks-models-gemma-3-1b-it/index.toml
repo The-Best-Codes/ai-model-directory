@@ -1,0 +1,17 @@
+id = "accounts/fireworks/models/gemma-3-1b-it"
+last_updated = "1777695317"
+name = "Gemma 3 1B Instruct"
+open_weights = true
+release_date = "1772842256"
+
+[features]
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1

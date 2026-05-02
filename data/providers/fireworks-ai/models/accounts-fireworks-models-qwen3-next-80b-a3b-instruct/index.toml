@@ -1,0 +1,17 @@
+id = "accounts/fireworks/models/qwen3-next-80b-a3b-instruct"
+last_updated = "1777695317"
+name = "Qwen3 Next 80B A3B Instruct"
+open_weights = true
+release_date = "1757987485"
+
+[features]
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+input = 0.9
+output = 0.9
