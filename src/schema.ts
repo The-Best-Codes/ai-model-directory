@@ -109,7 +109,7 @@ export const defaultMetadataPriorities: readonly MetadataSource[] = [
   "extends",
 ];
 
-const extendsPathPattern = /^[a-z0-9][a-z0-9-]*\/[a-z0-9][a-z0-9-]*$/;
+const extendsPathPattern = /^[a-z0-9][a-z0-9-]*(?:\/[a-z0-9][a-z0-9-]*)+$/;
 
 export const metadataExtendsSchema = z
   .object({
@@ -118,7 +118,7 @@ export const metadataExtendsSchema = z
       .min(1)
       .refine((value) => extendsPathPattern.test(value), {
         message:
-          "must be in the form '<provider>/<model>' using lowercase letters, digits, or '-'",
+          "must be a slash-separated path using lowercase letters, digits, or '-'",
       }),
   })
   .strict();
