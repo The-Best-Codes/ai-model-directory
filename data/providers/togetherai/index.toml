@@ -1,0 +1,7 @@
+name = "Together AI"
+website = "https://together.ai"
+apiBaseUrl = "https://api.together.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/together"
+defaultApiKeyEnv = ["TOGETHER_API_KEY"]
