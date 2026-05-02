@@ -1,0 +1,17 @@
+id = "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+name = "Meta Llama 3.1 8B Instruct Turbo"
+release_date = "1741298134"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.18000000000000002
+output = 0.18000000000000002

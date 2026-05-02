@@ -1,0 +1,17 @@
+id = "google/gemma-2b-it"
+name = "Gemma 2B It"
+release_date = "1749442258"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

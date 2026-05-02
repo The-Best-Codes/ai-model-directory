@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3.6-Plus"
+name = "Qwen3.6 Plus"
+release_date = "1777340375"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 3

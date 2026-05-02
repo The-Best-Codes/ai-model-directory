@@ -1,0 +1,17 @@
+id = "nim/meta/llama-3.1-70b-instruct"
+name = "nim/meta/llama-3.1-70b-instruct"
+release_date = "1741933887"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

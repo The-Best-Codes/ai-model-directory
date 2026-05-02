@@ -1,0 +1,16 @@
+id = "google/gemma-4-31B-it"
+name = "Gemma 4 31B-it FP8"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.5

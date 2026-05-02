@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-235B-A22B-Thinking-2507"
+name = "Qwen3 235B A22B Thinking 2507 FP8"
+release_date = "1753459407"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.65
+output = 3

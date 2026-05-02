@@ -1,0 +1,17 @@
+id = "Qwen/Qwen2.5-14B-Instruct"
+name = "Qwen 2.5 14B Instruct"
+release_date = "1733873086"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 0.8

@@ -1,0 +1,17 @@
+id = "meta-llama/Llama-3.2-3B"
+name = "Meta Llama 3.2 3B"
+release_date = "1740523679"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

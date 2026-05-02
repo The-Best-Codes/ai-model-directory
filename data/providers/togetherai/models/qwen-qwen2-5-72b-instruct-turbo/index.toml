@@ -1,0 +1,17 @@
+id = "Qwen/Qwen2.5-72B-Instruct-Turbo"
+name = "Qwen2.5 72B Instruct Turbo"
+release_date = "1728633510"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.2
+output = 1.2

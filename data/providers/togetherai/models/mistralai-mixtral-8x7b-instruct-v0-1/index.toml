@@ -1,0 +1,17 @@
+id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
+name = "Mixtral-8x7B Instruct v0.1"
+release_date = "1702342468"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 0.6

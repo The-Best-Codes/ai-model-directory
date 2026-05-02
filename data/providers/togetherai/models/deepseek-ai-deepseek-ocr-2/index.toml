@@ -1,0 +1,17 @@
+id = "deepseek-ai/DeepSeek-OCR-2"
+name = "Deepseek OCR 2"
+release_date = "1773431742"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

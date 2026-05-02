@@ -1,0 +1,17 @@
+id = "zai-org/GLM-5.1"
+name = "GLM 5.1 FP4"
+release_date = "1777673990"
+
+[features]
+attachment = false
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.4
+output = 4.4

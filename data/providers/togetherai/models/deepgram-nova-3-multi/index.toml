@@ -1,0 +1,13 @@
+id = "deepgram/nova-3-multi"
+name = "Deepgram Nova 3 Multilingual"
+release_date = "1773282436"
+
+[features]
+attachment = true
+
+[limit]
+context = 448
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

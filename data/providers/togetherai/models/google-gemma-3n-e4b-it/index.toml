@@ -1,0 +1,17 @@
+id = "google/gemma-3n-E4B-it"
+name = "Gemma 3N E4B Instruct"
+release_date = "1750955040"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.060000000000000005
+output = 0.12000000000000001

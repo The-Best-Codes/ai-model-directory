@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-1.7B-Base"
+name = "Qwen3 1.7B Base"
+release_date = "1749059223"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

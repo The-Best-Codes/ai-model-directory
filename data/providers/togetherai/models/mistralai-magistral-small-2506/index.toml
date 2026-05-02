@@ -1,0 +1,17 @@
+id = "mistralai/Magistral-Small-2506"
+name = "Magistral Small 2506"
+release_date = "1749674059"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

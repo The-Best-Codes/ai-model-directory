@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-Coder-30B-A3B-Instruct"
+name = "Qwen3 Coder 30B A3b Instruct"
+release_date = "1754023367"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,16 @@
+id = "zai-org/GLM-4.7"
+name = "GLM 4.7 Fp8"
+
+[features]
+attachment = false
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.45
+output = 2

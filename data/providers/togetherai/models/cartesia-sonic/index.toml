@@ -1,0 +1,14 @@
+id = "cartesia/sonic"
+name = "Cartesia Sonic"
+release_date = "1773696454"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 65
+output = 0

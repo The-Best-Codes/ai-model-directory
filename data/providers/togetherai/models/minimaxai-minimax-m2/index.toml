@@ -1,0 +1,17 @@
+id = "MiniMaxAI/MiniMax-M2"
+name = "MiniMax M2"
+release_date = "1761687398"
+
+[features]
+attachment = false
+
+[limit]
+context = 196608
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

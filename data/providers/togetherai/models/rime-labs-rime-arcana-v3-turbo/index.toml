@@ -1,0 +1,17 @@
+id = "rime-labs/rime-arcana-v3-turbo"
+name = "Rime Labs Arcana v3 Turbo"
+release_date = "1770061507"
+
+[features]
+attachment = false
+
+[limit]
+context = 448
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0

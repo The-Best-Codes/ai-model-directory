@@ -1,0 +1,17 @@
+id = "facebook/cwm"
+name = "Facebook CWM"
+release_date = "1760032935"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

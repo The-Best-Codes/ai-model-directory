@@ -1,0 +1,17 @@
+id = "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
+name = "Nvidia Nemotron 3 Nano 30B A3b Bf16"
+release_date = "1765923022"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

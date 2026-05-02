@@ -1,0 +1,16 @@
+id = "essentialai/rnj-1-instruct"
+name = "EssentialAI Rnj-1 Instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.15

@@ -1,0 +1,17 @@
+id = "togethercomputer/EssentialAI-RNJ-1-Instruct"
+name = "EssentialAI Rnj-1 Instruct"
+release_date = "1764918345"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-30B-A3B-Instruct-2507-Lora"
+name = "Qwen3 30B A3B Instruct 2507 Lora"
+release_date = "1774476587"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

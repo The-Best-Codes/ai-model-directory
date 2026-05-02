@@ -1,0 +1,10 @@
+id = "google/imagen-4.0-preview"
+name = "Google Imagen 4.0 Preview"
+release_date = "1759884778"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,17 @@
+id = "deepseek-ai/DeepSeek-R1"
+name = "DeepSeek R1-0528"
+release_date = "1737396322"
+
+[features]
+attachment = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 7

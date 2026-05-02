@@ -1,0 +1,17 @@
+id = "google/gemma-4-26B-A4B-it"
+name = "Gemma 4 26B A4b It"
+release_date = "1776343034"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

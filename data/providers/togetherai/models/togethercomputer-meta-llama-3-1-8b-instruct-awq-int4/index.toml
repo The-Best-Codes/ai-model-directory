@@ -1,0 +1,17 @@
+id = "togethercomputer/meta-llama-3.1-8B-Instruct-AWQ-INT4"
+name = "Meta Llama 3.1 8B Instruct Awq Int4"
+release_date = "1752128301"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

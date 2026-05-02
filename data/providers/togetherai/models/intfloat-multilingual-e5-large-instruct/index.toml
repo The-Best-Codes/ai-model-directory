@@ -1,0 +1,16 @@
+id = "intfloat/multilingual-e5-large-instruct"
+name = "Multilingual E5 Large Instruct"
+release_date = "1745513588"
+
+[features]
+attachment = false
+
+[limit]
+context = 514
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02
+output = 0.02

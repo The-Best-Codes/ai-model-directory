@@ -1,0 +1,17 @@
+id = "MiniMaxAI/MiniMax-M2.7"
+name = "MiniMax M2.7 FP4"
+
+[features]
+attachment = false
+
+[limit]
+context = 196608
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.060000000000000005
+input = 0.3
+output = 1.2

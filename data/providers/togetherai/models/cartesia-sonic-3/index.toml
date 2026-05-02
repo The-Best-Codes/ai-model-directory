@@ -1,0 +1,17 @@
+id = "cartesia/sonic-3"
+name = "Cartesia Sonic 3"
+release_date = "1774464715"
+
+[features]
+attachment = false
+
+[limit]
+context = 448
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 65
+output = 0

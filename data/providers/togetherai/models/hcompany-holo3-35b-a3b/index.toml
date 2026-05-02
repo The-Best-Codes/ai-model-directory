@@ -1,0 +1,17 @@
+id = "Hcompany/Holo3-35B-A3B"
+name = "Holo3 35B A3b"
+release_date = "1774986932"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

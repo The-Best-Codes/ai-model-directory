@@ -1,0 +1,16 @@
+id = "meta-llama/Meta-Llama-3-8B-Instruct-Lite"
+name = "Meta Llama 3 8B Instruct Lite"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

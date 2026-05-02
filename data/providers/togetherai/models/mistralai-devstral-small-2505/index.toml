@@ -1,0 +1,17 @@
+id = "mistralai/Devstral-Small-2505"
+name = "Devstral Small 2505"
+release_date = "1747804209"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

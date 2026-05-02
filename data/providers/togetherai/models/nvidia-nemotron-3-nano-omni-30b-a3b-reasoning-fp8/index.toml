@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-fp8"
+name = "Nemotron 3 Nano Omni 30B A3b Reasoning Fp8"
+release_date = "1777391713"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,10 @@
+id = "stabilityai/stable-diffusion-3-medium"
+name = "Stable Diffusion 3"
+release_date = "1759884829"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-VL-32B-Instruct"
+name = "Qwen3-VL-32B-Instruct"
+release_date = "1761433877"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 1.5

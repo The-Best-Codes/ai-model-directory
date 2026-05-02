@@ -1,0 +1,16 @@
+id = "meta-llama/Meta-Llama-3-70B-Instruct-Turbo"
+name = "Meta Llama 3 70B Instruct Turbo"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.88
+output = 0.88

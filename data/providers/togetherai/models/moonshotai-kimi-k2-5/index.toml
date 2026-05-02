@@ -1,0 +1,17 @@
+id = "moonshotai/Kimi-K2.5"
+name = "Kimi K2.5"
+release_date = "1777577994"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 2.8

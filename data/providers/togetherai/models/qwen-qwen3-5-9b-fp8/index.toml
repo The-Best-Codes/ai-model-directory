@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3.5-9B-FP8"
+name = "Qwen3.5 9B Fp8"
+release_date = "1772735269"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

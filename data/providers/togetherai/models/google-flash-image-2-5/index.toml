@@ -1,0 +1,10 @@
+id = "google/flash-image-2.5"
+name = "Gemini Flash Image 2.5 (Nano Banana)"
+release_date = "1759884801"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

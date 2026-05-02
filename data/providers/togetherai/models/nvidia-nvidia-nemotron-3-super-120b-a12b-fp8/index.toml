@@ -1,0 +1,17 @@
+id = "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
+name = "Nvidia Nemotron 3 Super 120B A12b Fp8"
+release_date = "1773245220"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

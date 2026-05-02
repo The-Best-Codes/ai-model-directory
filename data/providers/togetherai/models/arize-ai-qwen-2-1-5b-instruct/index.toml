@@ -1,0 +1,17 @@
+id = "arize-ai/qwen-2-1.5b-instruct"
+name = "Arize AI Qwen 2 1.5B Instruct"
+release_date = "1745522693"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

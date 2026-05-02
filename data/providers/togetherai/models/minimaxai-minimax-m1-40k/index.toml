@@ -1,0 +1,17 @@
+id = "MiniMaxAI/MiniMax-M1-40k"
+name = "Minimax M1 40K"
+release_date = "1750710988"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,12 @@
+id = "deepgram/nova-3-en"
+name = "Deepgram Nova 3"
+
+[features]
+attachment = true
+
+[limit]
+context = 448
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

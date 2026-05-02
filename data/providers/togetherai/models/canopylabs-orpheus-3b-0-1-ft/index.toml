@@ -1,0 +1,14 @@
+id = "canopylabs/orpheus-3b-0.1-ft"
+name = "Orpheus 3B 0.1 FT"
+release_date = "1755731205"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 15
+output = 0

@@ -1,0 +1,17 @@
+id = "mistralai/Mistral-7B-v0.1"
+name = "Mistral 7B v0.1"
+release_date = "1747775387"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

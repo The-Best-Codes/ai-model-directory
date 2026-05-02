@@ -1,0 +1,17 @@
+id = "mistralai/Ministral-3-14B-Instruct-2512"
+name = "Ministral 3 14B Instruct 2512"
+release_date = "1764641096"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

@@ -1,0 +1,16 @@
+id = "Qwen/Qwen3-Next-80B-A3B-Instruct"
+name = "Qwen3 Next 80B A3b Instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 1.5

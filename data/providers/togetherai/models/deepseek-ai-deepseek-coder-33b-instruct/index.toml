@@ -1,0 +1,17 @@
+id = "deepseek-ai/deepseek-coder-33b-instruct"
+name = "Deepseek Coder 33B Instruct"
+release_date = "1707283326"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 0.8

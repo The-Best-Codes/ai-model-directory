@@ -1,0 +1,10 @@
+id = "Rundiffusion/Juggernaut-Lightning-Flux"
+name = "Juggernaut Lightning Flux by RunDiffusion"
+release_date = "1759884814"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

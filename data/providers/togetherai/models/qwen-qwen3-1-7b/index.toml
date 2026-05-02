@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-1.7B"
+name = "Qwen3 1.7B"
+release_date = "1749059220"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,17 @@
+id = "google/gemma-3-1b-it"
+name = "Gemma 3 1b it"
+release_date = "1743632409"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

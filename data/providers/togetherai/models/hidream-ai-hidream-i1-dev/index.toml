@@ -1,0 +1,10 @@
+id = "HiDream-ai/HiDream-I1-Dev"
+name = "HiDream-I1-Dev"
+release_date = "1759884844"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,17 @@
+id = "Qwen/Qwen2.5-1.5B"
+name = "Qwen2.5 1.5B"
+release_date = "1744695368"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,17 @@
+id = "Qwen/Qwen2.5-7B-Instruct"
+name = "Qwen2.5 7B Instruct"
+release_date = "1744695400"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

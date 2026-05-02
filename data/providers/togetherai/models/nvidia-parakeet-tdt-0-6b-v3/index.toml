@@ -1,0 +1,12 @@
+id = "nvidia/parakeet-tdt-0.6b-v3"
+name = "Nvidia Parakeet TDT 0.6B V3"
+
+[features]
+attachment = true
+
+[limit]
+context = 448
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

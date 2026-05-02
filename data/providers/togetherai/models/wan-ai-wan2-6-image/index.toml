@@ -1,0 +1,10 @@
+id = "Wan-AI/Wan2.6-image"
+name = "Wan 2.6 Image"
+release_date = "1769618722"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
