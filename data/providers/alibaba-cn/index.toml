@@ -1,0 +1,7 @@
+name = "Alibaba (China)"
+website = "https://www.alibabacloud.com/help/en/model-studio/"
+apiBaseUrl = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["DASHSCOPE_API_KEY"]
