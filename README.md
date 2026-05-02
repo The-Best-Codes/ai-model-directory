@@ -28,6 +28,8 @@ A GitHub Actions workflow runs every 24 hours and re-fetches model metadata from
 
 Every model gets its own folder under `data/providers/<provider>/<model-id>/index.toml`, so the directory is just a tree of TOML files. This makes it easy to read, easy to diff, and easy to consume from any language. If a provider's data is wrong or missing something, you can drop an `overrides.toml` next to the generated file and the next refresh will merge your overrides on top of the fetched data instead of clobbering them.
 
+To provide an experience similar to `models.dev/api.json`, a `data/all.json` file is automatically generated as well.
+
 ## Security
 
 Because the directory is updated automatically based on JSON fetched from third-party providers, the data here is only as trustworthy as the providers it comes from. If you're using this to make billing or routing decisions, treat it as a strong default and not as gospel. We have several measures in place to mitigate major vulnerabilities:
