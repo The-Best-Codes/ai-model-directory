@@ -1,0 +1,7 @@
+name = "DeepSeek"
+website = "https://deepseek.com"
+apiBaseUrl = "https://api.deepseek.com/"
+
+[aiSdk]
+npmPackage = "@ai-sdk/deepseek"
+defaultApiKeyEnv = ["DEEPSEEK_API_KEY"]
