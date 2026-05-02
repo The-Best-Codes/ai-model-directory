@@ -1,6 +1,6 @@
 id = "XiaomiMiMo/MiMo-V2-Flash-TEE"
 name = "XiaomiMiMo/MiMo-V2-Flash-TEE"
-release_date = "1777671734"
+release_date = "1777682533"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "tngtech/DeepSeek-TNG-R1T2-Chimera-TEE"
 name = "tngtech/DeepSeek-TNG-R1T2-Chimera-TEE"
-release_date = "1777671735"
+release_date = "1777682531"
 
 [features]
 attachment = false
