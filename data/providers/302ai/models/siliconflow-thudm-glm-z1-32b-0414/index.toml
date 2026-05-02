@@ -1,0 +1,21 @@
+id = "siliconflow-thudm-glm-z1-32b-0414"
+last_updated = "1762164593"
+name = "THUDM/GLM-Z1-32B-0414"
+release_date = "1744735824"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06999999999999999
+output = 0.06999999999999999

@@ -1,0 +1,21 @@
+id = "grok-3"
+last_updated = "1765535626"
+name = "grok-3"
+release_date = "1740132810"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 15

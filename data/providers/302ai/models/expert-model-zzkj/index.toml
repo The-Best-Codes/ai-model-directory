@@ -1,0 +1,21 @@
+id = "expert-model-zzkj"
+last_updated = "1767519526"
+name = "zzkj"
+release_date = "1739820329"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 17
+output = 69

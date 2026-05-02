@@ -1,0 +1,21 @@
+id = "siliconflow-THUDM-GLM-4.1V-9B-Thinking"
+last_updated = "1767960511"
+name = "THUDM/GLM-4.1V-9B-Thinking"
+release_date = "1767957371"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0
+output = 0

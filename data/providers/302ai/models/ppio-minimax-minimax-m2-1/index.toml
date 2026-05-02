@@ -1,0 +1,21 @@
+id = "ppio-minimax-minimax-m2-1"
+last_updated = "1768558774"
+name = "minimax/minimax-m2.1"
+release_date = "1767855123"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

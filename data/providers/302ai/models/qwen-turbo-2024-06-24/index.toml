@@ -1,0 +1,21 @@
+id = "qwen-turbo-2024-06-24"
+last_updated = "1767775789"
+name = "qwen-turbo-2024-06-24"
+release_date = "1767151540"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29
+output = 0.86

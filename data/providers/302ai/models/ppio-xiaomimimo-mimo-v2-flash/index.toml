@@ -1,0 +1,21 @@
+id = "ppio-xiaomimimo-mimo-v2-flash"
+last_updated = "1767955436"
+name = "xiaomimimo/mimo-v2-flash"
+release_date = "1767855570"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.3

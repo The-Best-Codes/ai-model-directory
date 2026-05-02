@@ -1,0 +1,18 @@
+id = "01ai-yi-lightning"
+last_updated = "1762159200"
+name = "yi-lightning"
+release_date = "1729036800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.15

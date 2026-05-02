@@ -1,0 +1,21 @@
+id = "openai-chatgpt-4o-latest"
+last_updated = "1769676565"
+name = "chatgpt-4o-latest"
+release_date = "1723075200"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 5
+output = 15

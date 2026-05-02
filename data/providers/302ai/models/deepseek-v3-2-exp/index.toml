@@ -1,0 +1,21 @@
+id = "deepseek-v3.2-exp"
+last_updated = "1765534436"
+name = "deepseek-v3.2-exp"
+release_date = "1759142080"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29
+output = 0.43

@@ -1,0 +1,21 @@
+id = "sense-nova-v6-turbo"
+last_updated = "1767517017"
+name = "SenseNova-V6-Turbo"
+release_date = "1746638902"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.25
+output = 0.65

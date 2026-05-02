@@ -1,0 +1,21 @@
+id = "siliconflow-qwen-qwen2-5-coder-32b-instruct"
+last_updated = "1762163945"
+name = "Qwen/Qwen2.5-Coder-32B-Instruct"
+release_date = "1726704000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.18
+output = 0.18

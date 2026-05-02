@@ -1,0 +1,21 @@
+id = "siliconflow-Pro-thudm-glm-4-9b-chat"
+last_updated = "1762164445"
+name = "Pro/THUDM/glm-4-9b-chat"
+release_date = "1718668800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.086
+output = 0.086

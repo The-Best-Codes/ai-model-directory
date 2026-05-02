@@ -1,0 +1,21 @@
+id = "stepfun-step-1o-vision-32k"
+last_updated = "1761902757"
+name = "step-1o-vision-32k"
+release_date = "1737542400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2.2
+output = 10

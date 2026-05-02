@@ -1,0 +1,21 @@
+id = "baidu-ernie-5-0-thinking-preview"
+last_updated = "1763464673"
+name = "ernie-5.0-thinking-preview"
+release_date = "1763462419"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.86
+output = 1.43

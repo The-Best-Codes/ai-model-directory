@@ -1,0 +1,21 @@
+id = "doubao-1-5-lite-32k"
+last_updated = "1761902060"
+name = "Doubao-1.5-lite-32k"
+release_date = "1737539053"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.09

@@ -1,0 +1,21 @@
+id = "qwen-math-plus"
+last_updated = "1766744054"
+name = "qwen-math-plus"
+release_date = "1726704000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.572
+output = 1.72

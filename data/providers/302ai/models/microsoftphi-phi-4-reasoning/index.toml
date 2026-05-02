@@ -1,0 +1,21 @@
+id = "microsoftPhi-phi-4-reasoning"
+last_updated = "1766215753"
+name = "Phi-4-reasoning"
+release_date = "1746638408"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 2

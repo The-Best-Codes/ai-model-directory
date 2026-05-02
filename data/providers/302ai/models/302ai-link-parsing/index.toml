@@ -1,0 +1,18 @@
+id = "302ai-link-parsing"
+last_updated = "1763085514"
+name = "Link Parsing"
+release_date = "1754646576"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

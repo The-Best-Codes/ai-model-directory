@@ -1,0 +1,21 @@
+id = "anthropic-claude-3-5-haiku-20241022-Code"
+last_updated = "1764323912"
+name = "claude-3-5-haiku-20241022（Claude Code）"
+release_date = "1757908939"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.8
+output = 4

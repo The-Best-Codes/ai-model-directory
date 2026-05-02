@@ -1,0 +1,21 @@
+id = "ppio-zai-org-glm-4-5v"
+last_updated = "1766482391"
+name = "zai-org/glm-4.5v"
+release_date = "1756092084"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.643
+output = 1.86

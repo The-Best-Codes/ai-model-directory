@@ -1,0 +1,21 @@
+id = "moonshot-v1-8k-vision-preview"
+last_updated = "1761897668"
+name = "moonshot-v1-8k-vision-preview"
+release_date = "1754636540"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 1.9
+output = 1.9

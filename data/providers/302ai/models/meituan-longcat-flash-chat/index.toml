@@ -1,0 +1,21 @@
+id = "meituan-longcat-flash-chat"
+last_updated = "1766651958"
+name = "LongCat-Flash-Chat"
+release_date = "1756957855"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 1

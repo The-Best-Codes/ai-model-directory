@@ -1,0 +1,21 @@
+id = "doubao-1-5-thinking-pro-250415"
+last_updated = "1764125816"
+name = "doubao-1-5-thinking-pro-250415"
+release_date = "1744881320"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 96000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.3

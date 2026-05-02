@@ -1,0 +1,21 @@
+id = "qwen-omni-turbo"
+last_updated = "1766028566"
+name = "qwen-omni-turbo"
+release_date = "1740136065"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 30720
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2.3
+output = 6.9

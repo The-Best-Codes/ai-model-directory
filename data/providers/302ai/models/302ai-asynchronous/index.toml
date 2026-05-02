@@ -1,0 +1,18 @@
+id = "302ai-asynchronous"
+last_updated = "1763085447"
+name = "Asynchronous"
+release_date = "1754647726"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

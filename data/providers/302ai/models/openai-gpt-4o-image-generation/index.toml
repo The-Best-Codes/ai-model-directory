@@ -1,0 +1,21 @@
+id = "openai-gpt-4o-image-generation"
+last_updated = "1769678648"
+name = "gpt-4o-image-generation"
+release_date = "1743669753"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0
+output = 0.03

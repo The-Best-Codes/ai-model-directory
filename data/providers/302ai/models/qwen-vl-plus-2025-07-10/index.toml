@@ -1,0 +1,21 @@
+id = "qwen-vl-plus-2025-07-10"
+last_updated = "1767775556"
+name = "qwen-vl-plus-2025-07-10"
+release_date = "1767149450"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.022
+output = 0.22

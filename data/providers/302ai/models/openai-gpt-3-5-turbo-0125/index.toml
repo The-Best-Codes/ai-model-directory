@@ -1,0 +1,21 @@
+id = "openai-gpt-3-5-turbo-0125"
+last_updated = "1769674319"
+name = "gpt-3.5-turbo-0125"
+release_date = "1706745600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 1.5

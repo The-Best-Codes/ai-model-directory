@@ -1,0 +1,21 @@
+id = "baidu-ernie-4-5-turbo-128k"
+last_updated = "1763464054"
+name = "ernie-4.5-turbo-128k"
+release_date = "1746646176"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.12
+output = 0.5

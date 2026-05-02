@@ -1,0 +1,21 @@
+id = "gemini-3-flash-preview"
+last_updated = "1766030112"
+name = "gemini-3-flash-preview"
+release_date = "1765997141"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.5
+output = 3

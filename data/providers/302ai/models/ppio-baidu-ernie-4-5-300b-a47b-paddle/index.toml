@@ -1,0 +1,21 @@
+id = "ppio-baidu-ernie-4-5-300b-a47b-paddle"
+last_updated = "1766483354"
+name = "baidu/ernie-4.5-300b-a47b-paddle"
+release_date = "1759139641"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 123000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.28600000000000003
+output = 1

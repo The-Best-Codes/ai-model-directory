@@ -1,0 +1,21 @@
+id = "stepfun-step-2-16k"
+last_updated = "1761902551"
+name = "step-2-16k"
+release_date = "1719792000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 5.5
+output = 17

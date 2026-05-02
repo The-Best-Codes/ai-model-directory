@@ -1,0 +1,21 @@
+id = "doubao-1-5-thinking-pro-vision-250415"
+last_updated = "1764125823"
+name = "doubao-1-5-thinking-pro-vision-250415"
+release_date = "1744881372"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 96000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.6
+output = 2.3

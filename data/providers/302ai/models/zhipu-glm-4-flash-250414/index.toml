@@ -1,0 +1,21 @@
+id = "zhipu-glm-4-flash-250414"
+last_updated = "1767598463"
+name = "glm-4-flash-250414"
+release_date = "1744655091"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0014
+output = 0.0014

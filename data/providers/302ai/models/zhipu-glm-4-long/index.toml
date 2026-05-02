@@ -1,0 +1,21 @@
+id = "zhipu-glm-4-long"
+last_updated = "1767526047"
+name = "glm-4-long"
+release_date = "1723248000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.14

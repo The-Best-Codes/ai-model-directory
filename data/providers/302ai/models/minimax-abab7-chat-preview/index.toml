@@ -1,0 +1,21 @@
+id = "minimax-abab7-chat-preview"
+last_updated = "1766395647"
+name = "abab7-chat-preview"
+release_date = "1743811200"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 245000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 1.4
+output = 1.4

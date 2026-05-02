@@ -1,0 +1,21 @@
+id = "qwen3-1-7b"
+last_updated = "1766030200"
+name = "qwen3-1.7b"
+release_date = "1745912832"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 28672
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.5

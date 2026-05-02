@@ -1,0 +1,21 @@
+id = "openai-o3-pro-2025-06-10"
+last_updated = "1769682469"
+name = "o3-pro-2025-06-10"
+release_date = "1749628509"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 20
+output = 80

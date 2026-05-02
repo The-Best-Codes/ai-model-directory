@@ -1,0 +1,21 @@
+id = "siliconflow-qwen-qwen3-vl-30b-a3b-thinking"
+last_updated = "1762165616"
+name = "Qwen/Qwen3-VL-30B-A3B-Thinking"
+release_date = "1760327452"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.1
+output = 0.4

@@ -1,0 +1,21 @@
+id = "qwen-mt-flash"
+last_updated = "1767774502"
+name = "qwen-mt-flash"
+release_date = "1767089224"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.28

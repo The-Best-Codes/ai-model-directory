@@ -1,0 +1,21 @@
+id = "anthropic-claude-sonnet-4-5-20250929-Code"
+last_updated = "1764557406"
+name = "claude-sonnet-4-5-20250929（Claude Code）"
+release_date = "1760033145"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 3
+output = 15

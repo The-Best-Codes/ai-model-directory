@@ -1,0 +1,21 @@
+id = "gemini-2-flash-lite"
+last_updated = "1765165077"
+name = "gemini-2.0-flash-lite"
+release_date = "1750063402"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.075
+output = 0.3

@@ -1,0 +1,21 @@
+id = "ppio-zai-org-glm-4-7"
+last_updated = "1767955264"
+name = "zai-org/glm-4.7"
+release_date = "1767855400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 2048000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.572
+output = 2.286

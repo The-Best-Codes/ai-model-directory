@@ -1,0 +1,21 @@
+id = "gemini-2-5-pro-search"
+last_updated = "1765246484"
+name = "gemini-2.5-pro-search"
+release_date = "1752652784"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 1.25
+output = 10

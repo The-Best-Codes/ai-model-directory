@@ -1,0 +1,21 @@
+id = "siliconflow-Qwen-Qwen3-VL-32B-Instruct"
+last_updated = "1767960545"
+name = "Qwen/Qwen3-VL-32B-Instruct"
+release_date = "1767956375"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.143
+output = 0.572

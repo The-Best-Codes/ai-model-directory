@@ -1,0 +1,21 @@
+id = "qwen2-vl-2b-instruct"
+last_updated = "1767774071"
+name = "qwen2-vl-2b-instruct"
+release_date = "1767079152"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0
+output = 0

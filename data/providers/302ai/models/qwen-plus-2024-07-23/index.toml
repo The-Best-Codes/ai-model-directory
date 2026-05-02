@@ -1,0 +1,21 @@
+id = "qwen-plus-2024-07-23"
+last_updated = "1767775180"
+name = "qwen-plus-2024-07-23"
+release_date = "1767094676"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.572
+output = 1.72

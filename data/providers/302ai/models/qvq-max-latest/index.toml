@@ -1,0 +1,21 @@
+id = "qvq-max-latest"
+last_updated = "1767773841"
+name = "qvq-max-latest"
+release_date = "1767075033"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "image", "text", "video" ]
+
+[pricing]
+input = 1.15
+output = 4.58

@@ -1,0 +1,21 @@
+id = "ppio-deepseek-deepseek-ocr-2"
+last_updated = "1770199382"
+name = "deepseek/deepseek-ocr-2"
+release_date = "1770197132"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.031
+output = 0.031

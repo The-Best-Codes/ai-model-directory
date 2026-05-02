@@ -1,0 +1,21 @@
+id = "sophnet-longcat-flash-chat"
+last_updated = "1766651766"
+name = "sophnet/LongCat-Flash-Chat"
+release_date = "1757410319"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.143
+output = 0.714

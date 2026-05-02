@@ -1,0 +1,21 @@
+id = "doubao-1.5-vision-pro-250328"
+last_updated = "1761901263"
+name = "doubao-1.5-vision-pro-250328"
+release_date = "1751527332"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.43
+output = 1.29

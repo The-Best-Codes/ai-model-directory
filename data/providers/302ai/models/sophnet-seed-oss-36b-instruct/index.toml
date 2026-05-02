@@ -1,0 +1,21 @@
+id = "sophnet-seed-oss-36b-instruct"
+last_updated = "1766653296"
+name = "sophnet/Seed-OSS-36B-Instruct"
+release_date = "1757408969"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 512000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.172
+output = 1.715

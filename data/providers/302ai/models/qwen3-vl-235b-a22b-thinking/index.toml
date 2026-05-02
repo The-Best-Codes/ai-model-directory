@@ -1,0 +1,21 @@
+id = "qwen3-vl-235b-a22b-thinking"
+last_updated = "1766543708"
+name = "qwen3-vl-235b-a22b-thinking"
+release_date = "1758694460"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 126976
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.286
+output = 2.86

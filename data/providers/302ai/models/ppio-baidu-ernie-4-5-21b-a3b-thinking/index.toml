@@ -1,0 +1,21 @@
+id = "ppio-baidu-ernie-4.5-21b-a3b-thinking"
+last_updated = "1767955864"
+name = "baidu/ernie-4.5-21b-a3b-thinking"
+release_date = "1767868135"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.072
+output = 0.286

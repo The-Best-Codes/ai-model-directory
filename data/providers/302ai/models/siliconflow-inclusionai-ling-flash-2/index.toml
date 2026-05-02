@@ -1,0 +1,21 @@
+id = "siliconflow-inclusionai-ling-flash-2"
+last_updated = "1767852942"
+name = "inclusionAI/Ling-flash-2.0"
+release_date = "1759225955"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.143
+output = 0.572

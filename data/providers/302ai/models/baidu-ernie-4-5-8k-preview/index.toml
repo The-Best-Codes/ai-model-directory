@@ -1,0 +1,21 @@
+id = "baidu-ernie-4-5-8k-preview"
+last_updated = "1761897683"
+name = "ernie-4.5-8k-preview"
+release_date = "1742927155"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.6
+output = 2.3

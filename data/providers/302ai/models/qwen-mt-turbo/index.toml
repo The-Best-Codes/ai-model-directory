@@ -1,0 +1,21 @@
+id = "qwen-mt-turbo"
+last_updated = "1767089594"
+name = "qwen-mt-turbo"
+release_date = "1753439717"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.279

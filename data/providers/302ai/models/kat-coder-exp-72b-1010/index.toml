@@ -1,0 +1,21 @@
+id = "kat-coder-exp-72b-1010"
+last_updated = "1767513864"
+name = "KAT-Coder-Exp-72B-1010"
+release_date = "1761536810"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

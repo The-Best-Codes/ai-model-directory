@@ -1,0 +1,21 @@
+id = "zhipu-glm-4-plus"
+last_updated = "1767525054"
+name = "glm-4-plus"
+release_date = "1724889600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 7
+output = 7

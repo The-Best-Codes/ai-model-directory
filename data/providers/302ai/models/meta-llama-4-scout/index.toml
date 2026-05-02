@@ -1,0 +1,21 @@
+id = "meta-llama-4-scout"
+last_updated = "1766215645"
+name = "llama-4-scout"
+release_date = "1746602362"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 0.5

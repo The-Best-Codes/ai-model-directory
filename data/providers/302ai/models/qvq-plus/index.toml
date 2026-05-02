@@ -1,0 +1,21 @@
+id = "qvq-plus"
+last_updated = "1767773925"
+name = "qvq-plus"
+release_date = "1767076424"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.29
+output = 0.72

@@ -1,0 +1,21 @@
+id = "mistral-large-latest"
+last_updated = "1766474470"
+name = "mistral-large-latest"
+release_date = "1742315038"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 6

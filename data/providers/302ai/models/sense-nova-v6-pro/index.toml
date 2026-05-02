@@ -1,0 +1,21 @@
+id = "sense-nova-v6-pro"
+last_updated = "1767517037"
+name = "SenseNova-V6-Pro"
+release_date = "1746638858"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.5
+output = 1.3

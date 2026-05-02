@@ -1,0 +1,21 @@
+id = "siliconflow-bytedance-seed-seed-oss-36b-Instruct"
+last_updated = "1762163793"
+name = "ByteDance-Seed/Seed-OSS-36B-Instruct"
+release_date = "1757054609"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2143
+output = 0.5715

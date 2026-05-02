@@ -1,0 +1,18 @@
+id = "openai-gpt-4o-mini"
+last_updated = "1769675886"
+name = "gpt-4o-mini"
+release_date = "1721260800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

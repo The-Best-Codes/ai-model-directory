@@ -1,0 +1,21 @@
+id = "farui-plus"
+last_updated = "1761821886"
+name = "farui-plus"
+release_date = "1722902400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 12000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.9
+output = 2.9

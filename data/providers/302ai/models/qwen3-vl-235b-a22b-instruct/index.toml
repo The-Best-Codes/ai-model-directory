@@ -1,0 +1,21 @@
+id = "qwen3-vl-235b-a22b-instruct"
+last_updated = "1766489494"
+name = "qwen3-vl-235b-a22b-instruct "
+release_date = "1758695467"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 126976
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.286
+output = 1.143

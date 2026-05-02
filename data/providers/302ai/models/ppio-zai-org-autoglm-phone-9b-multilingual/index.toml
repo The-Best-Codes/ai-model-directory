@@ -1,0 +1,21 @@
+id = "ppio-zai-org-autoglm-phone-9b-multilingual"
+last_updated = "1767955513"
+name = "zai-org/autoglm-phone-9b-multilingual"
+release_date = "1767862927"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.036
+output = 0.143

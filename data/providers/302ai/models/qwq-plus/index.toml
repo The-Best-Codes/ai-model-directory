@@ -1,0 +1,21 @@
+id = "qwq-plus"
+last_updated = "1767074508"
+name = "qwq-plus"
+release_date = "1741251485"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.23
+output = 0.58

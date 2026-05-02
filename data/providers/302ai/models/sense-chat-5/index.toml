@@ -1,0 +1,21 @@
+id = "sense-chat-5"
+last_updated = "1767519006"
+name = "SenseChat-5"
+release_date = "1713830400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 6
+output = 14

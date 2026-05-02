@@ -1,0 +1,21 @@
+id = "sophnet-MiniMax-M2-1"
+last_updated = "1768558783"
+name = "sophnet/MiniMax-M2.1"
+release_date = "1767689935"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 196000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2
