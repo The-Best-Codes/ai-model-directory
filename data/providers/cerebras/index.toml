@@ -1,0 +1,7 @@
+name = "Cerebras"
+website = "https://cerebras.ai"
+apiBaseUrl = "https://api.cerebras.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/cerebras"
+defaultApiKeyEnv = ["CEREBRAS_API_KEY"]
