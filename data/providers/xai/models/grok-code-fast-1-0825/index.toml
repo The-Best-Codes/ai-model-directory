@@ -1,0 +1,16 @@
+id = "grok-code-fast-1-0825"
+name = "grok-code-fast-1-0825"
+release_date = "1755993600"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.2
+output = 1.5

@@ -23,7 +23,7 @@ function tokenPriceToMillion(
   value: number | null | undefined,
 ): number | undefined {
   const normalized = nonNegativeNumber(value);
-  return normalized === undefined ? undefined : normalized / 1000;
+  return normalized === undefined ? undefined : normalized / 10000;
 }
 
 export const xaiProvider: ProviderDefinition = {
