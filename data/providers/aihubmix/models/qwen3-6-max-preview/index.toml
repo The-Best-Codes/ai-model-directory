@@ -2,7 +2,7 @@ id = "qwen3.6-max-preview"
 name = "qwen3.6-max-preview"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true
@@ -11,7 +11,7 @@ tool_call = true
 context = 240000
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "text" ]
 
 [pricing]
 cache_read = 0.1268
