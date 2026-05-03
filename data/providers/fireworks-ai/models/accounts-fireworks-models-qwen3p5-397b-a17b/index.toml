@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/qwen3p5-397b-a17b"
-last_updated = "1777759115"
 name = "Qwen3.5 397B A17B"
 open_weights = true
-release_date = "1771388254"
 
 [features]
 attachment = true

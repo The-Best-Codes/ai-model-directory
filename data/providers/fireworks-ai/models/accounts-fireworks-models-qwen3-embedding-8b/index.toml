@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/qwen3-embedding-8b"
-last_updated = "1777759115"
 name = "Qwen3 Embedding 8B"
 open_weights = true
-release_date = "1755707090"
 
 [features]
 tool_call = false

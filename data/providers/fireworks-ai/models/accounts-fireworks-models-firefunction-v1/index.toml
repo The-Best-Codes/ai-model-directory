@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/firefunction-v1"
-last_updated = "1777759317"
 name = "FireFunction V1"
 open_weights = true
-release_date = "1708130966"
 
 [features]
 tool_call = true

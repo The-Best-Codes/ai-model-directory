@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/phind-code-llama-34b-v2"
-last_updated = "1777759115"
 name = "Phind CodeLlama 34B v2"
 open_weights = true
-release_date = "1709348801"
 
 [features]
 tool_call = false

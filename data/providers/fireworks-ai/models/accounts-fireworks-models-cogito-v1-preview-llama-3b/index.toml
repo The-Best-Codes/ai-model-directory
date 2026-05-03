@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/cogito-v1-preview-llama-3b"
-last_updated = "1777759115"
 name = "Cogito v1 Preview Llama 3B"
 open_weights = true
-release_date = "1744056204"
 
 [features]
 tool_call = true

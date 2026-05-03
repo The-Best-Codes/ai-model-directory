@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/qwen-v2p5-14b-instruct"
-last_updated = "1777759115"
 name = "Qwen2.5 14B Instruct"
 open_weights = true
-release_date = "1726790188"
 
 [features]
 tool_call = false

@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/nous-capybara-7b-v1p9"
-last_updated = "1777759115"
 name = "Nous Capybara 7B V1.9"
 open_weights = true
-release_date = "1709327623"
 
 [features]
 tool_call = false

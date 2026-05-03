@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/glm-4p5v"
-last_updated = "1777759115"
 name = "GLM-4.5V"
 open_weights = true
-release_date = "1754943215"
 
 [features]
 attachment = true

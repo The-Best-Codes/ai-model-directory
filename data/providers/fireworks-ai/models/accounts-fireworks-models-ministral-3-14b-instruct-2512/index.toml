@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/ministral-3-14b-instruct-2512"
-last_updated = "1777759115"
 name = "Ministral 3 14B Instruct 2512"
 open_weights = true
-release_date = "1764634390"
 
 [features]
 attachment = true

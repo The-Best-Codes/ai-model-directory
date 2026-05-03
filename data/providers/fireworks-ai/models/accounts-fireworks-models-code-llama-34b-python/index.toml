@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/code-llama-34b-python"
-last_updated = "1777759115"
 name = "Code Llama 34B Python"
 open_weights = true
-release_date = "1709272108"
 
 [features]
 tool_call = false

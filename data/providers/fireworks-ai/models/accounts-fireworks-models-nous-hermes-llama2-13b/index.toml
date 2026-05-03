@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/nous-hermes-llama2-13b"
-last_updated = "1777759115"
 name = "Nous Hermes Llama2 13B"
 open_weights = true
-release_date = "1709186410"
 
 [features]
 tool_call = false

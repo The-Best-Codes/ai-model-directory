@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/cogito-v1-preview-qwen-14b"
-last_updated = "1777759115"
 name = "Cogito v1 Preview Qwen 14B"
 open_weights = true
-release_date = "1744056462"
 
 [features]
 tool_call = true

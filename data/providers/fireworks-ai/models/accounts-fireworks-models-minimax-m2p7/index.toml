@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/minimax-m2p7"
-last_updated = "1777759115"
 name = "MiniMax M2.7"
 open_weights = true
-release_date = "1775867225"
 
 [features]
 tool_call = true

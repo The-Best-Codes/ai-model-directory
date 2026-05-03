@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/kimi-k2-thinking"
-last_updated = "1777759115"
 name = "Kimi K2 Thinking"
 open_weights = true
-release_date = "1762458100"
 
 [features]
 tool_call = true

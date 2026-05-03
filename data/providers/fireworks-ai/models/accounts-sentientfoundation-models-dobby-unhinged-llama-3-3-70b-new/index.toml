@@ -1,8 +1,6 @@
 id = "accounts/sentientfoundation/models/dobby-unhinged-llama-3-3-70b-new"
-last_updated = "1777759115"
 name = "Dobby-Unhinged-Llama-3.3-70B"
 open_weights = true
-release_date = "1739563474"
 
 [features]
 tool_call = false

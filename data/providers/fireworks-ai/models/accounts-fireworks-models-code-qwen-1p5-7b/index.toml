@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/code-qwen-1p5-7b"
-last_updated = "1777759115"
 name = "CodeQwen 1.5 7B"
 open_weights = true
-release_date = "1718756529"
 
 [features]
 tool_call = false

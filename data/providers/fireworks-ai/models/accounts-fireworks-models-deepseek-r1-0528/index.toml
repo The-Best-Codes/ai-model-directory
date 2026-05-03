@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/deepseek-r1-0528"
-last_updated = "1777759115"
 name = "Deepseek R1 05/28"
 open_weights = true
-release_date = "1748456377"
 
 [features]
 tool_call = true

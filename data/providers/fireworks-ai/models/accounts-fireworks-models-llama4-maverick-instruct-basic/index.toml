@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/llama4-maverick-instruct-basic"
-last_updated = "1777759115"
 name = "Llama 4 Maverick Instruct (Basic)"
 open_weights = true
-release_date = "1743878495"
 
 [features]
 attachment = true

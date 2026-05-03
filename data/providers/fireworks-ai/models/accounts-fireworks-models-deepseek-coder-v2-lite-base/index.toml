@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/deepseek-coder-v2-lite-base"
-last_updated = "1777759115"
 name = "DeepSeek Coder V2 Lite Base"
 open_weights = true
-release_date = "1720281869"
 
 [features]
 tool_call = false

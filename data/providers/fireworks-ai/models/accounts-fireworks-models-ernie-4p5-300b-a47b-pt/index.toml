@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/ernie-4p5-300b-a47b-pt"
-last_updated = "1777759115"
 name = "ERNIE-4.5-300B-A47B-PT"
 open_weights = true
-release_date = "1751665769"
 
 [features]
 tool_call = false

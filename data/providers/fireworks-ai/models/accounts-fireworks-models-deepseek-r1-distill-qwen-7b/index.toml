@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/deepseek-r1-distill-qwen-7b"
-last_updated = "1777759115"
 name = "DeepSeek R1 Distill Qwen 7B"
 open_weights = true
-release_date = "1737566351"
 
 [features]
 tool_call = false

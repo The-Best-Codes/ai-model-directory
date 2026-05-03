@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/deepseek-v2-lite-chat"
-last_updated = "1777759115"
 name = "DeepSeek V2 Lite Chat"
 open_weights = true
-release_date = "1729611920"
 
 [features]
 tool_call = false

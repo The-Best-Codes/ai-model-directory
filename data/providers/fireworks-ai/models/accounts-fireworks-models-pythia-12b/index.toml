@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/pythia-12b"
-last_updated = "1777759115"
 name = "Pythia 12B"
 open_weights = true
-release_date = "1709355067"
 
 [features]
 tool_call = false

@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/qwen3-reranker-4b"
-last_updated = "1777759115"
 name = "Qwen3 Reranker 4B"
 open_weights = true
-release_date = "1759865574"
 
 [features]
 tool_call = false

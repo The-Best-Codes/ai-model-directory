@@ -57,7 +57,7 @@ export const chutesProvider: ProviderDefinition = {
       return compactObject({
         id: model.id,
         name: model.id,
-        release_date: timestampFromUnixSeconds(model.created),
+        // release_date: timestampFromUnixSeconds(model.created), // Omitted for now, as API returns current date
         features: compactObject({
           attachment: hasAttachmentSource(model.input_modalities),
           reasoning: featuresProvided ? features.has("reasoning") : undefined,

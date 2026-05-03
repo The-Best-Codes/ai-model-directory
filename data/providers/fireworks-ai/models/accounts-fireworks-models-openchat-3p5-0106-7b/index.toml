@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/openchat-3p5-0106-7b"
-last_updated = "1777759115"
 name = "OpenChat 3.5 0106"
 open_weights = true
-release_date = "1709440955"
 
 [features]
 tool_call = false

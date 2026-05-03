@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/rolm-ocr"
-last_updated = "1777759115"
 name = "Rolm OCR"
 open_weights = true
-release_date = "1749487198"
 
 [features]
 attachment = true

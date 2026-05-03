@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/gemma-4-26b-a4b-it"
-last_updated = "1777759115"
 name = "Gemma 4 26B A4B IT"
 open_weights = true
-release_date = "1775108784"
 
 [features]
 attachment = true

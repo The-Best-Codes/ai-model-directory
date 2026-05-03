@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/deepseek-r1-distill-llama-70b"
-last_updated = "1777759115"
 name = "DeepSeek R1 Distill Llama 70B"
 open_weights = true
-release_date = "1737499460"
 
 [features]
 tool_call = false

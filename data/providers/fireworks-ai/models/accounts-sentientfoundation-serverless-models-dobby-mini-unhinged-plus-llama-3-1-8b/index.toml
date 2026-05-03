@@ -1,8 +1,6 @@
 id = "accounts/sentientfoundation-serverless/models/dobby-mini-unhinged-plus-llama-3-1-8b"
-last_updated = "1777759115"
 name = "Dobby Mini Unhinged Plus Llama 3.1 8B"
 open_weights = true
-release_date = "1748467427"
 
 [features]
 tool_call = false

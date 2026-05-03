@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/mistral-small-24b-instruct-2501"
-last_updated = "1777759115"
 name = "Mistral Small 24B Instruct 2501"
 open_weights = true
-release_date = "1738241944"
 
 [features]
 tool_call = false

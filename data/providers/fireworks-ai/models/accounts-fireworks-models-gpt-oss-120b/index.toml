@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/gpt-oss-120b"
-last_updated = "1777759115"
 name = "OpenAI gpt-oss-120b"
 open_weights = true
-release_date = "1754345600"
 
 [features]
 tool_call = true

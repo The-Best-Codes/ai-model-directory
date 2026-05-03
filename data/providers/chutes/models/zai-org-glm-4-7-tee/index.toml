@@ -1,6 +1,5 @@
 id = "zai-org/GLM-4.7-TEE"
 name = "zai-org/GLM-4.7-TEE"
-release_date = "1777758753"
 
 [features]
 attachment = false

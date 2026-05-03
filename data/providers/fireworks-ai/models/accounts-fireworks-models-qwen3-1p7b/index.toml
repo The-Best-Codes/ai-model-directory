@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/qwen3-1p7b"
-last_updated = "1777759115"
 name = "Qwen3 1.7B"
 open_weights = true
-release_date = "1745902394"
 
 [features]
 tool_call = true
