@@ -1,0 +1,15 @@
+id = "gpt-4o-mini"
+name = "GPT-4o mini"
+
+[features]
+reasoning = false
+tool_call = true
+
+[limit]
+context = 128000
+input = 64000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,15 @@
+id = "gpt-4"
+name = "GPT 4"
+
+[features]
+reasoning = false
+tool_call = true
+
+[limit]
+context = 32768
+input = 32768
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
