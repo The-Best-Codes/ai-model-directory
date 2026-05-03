@@ -1,0 +1,7 @@
+name = "GitHub Copilot"
+website = "https://copilot.github.com"
+apiBaseUrl = "https://api.githubcopilot.com"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["GITHUB_TOKEN"]
