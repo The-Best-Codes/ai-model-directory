@@ -1,0 +1,16 @@
+id = "openai/gpt-4o"
+name = "OpenAI GPT-4o"
+release_date = "1732060800"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[limit]
+input = 131072
+output = 16384
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]

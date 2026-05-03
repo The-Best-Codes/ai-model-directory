@@ -1,0 +1,15 @@
+id = "microsoft/phi-4-multimodal-instruct"
+name = "Phi-4-multimodal-instruct"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+input = 128000
+output = 4096
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]

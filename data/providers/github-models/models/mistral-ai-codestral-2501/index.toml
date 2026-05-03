@@ -1,0 +1,15 @@
+id = "mistral-ai/codestral-2501"
+name = "Codestral 25.01"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+input = 256000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

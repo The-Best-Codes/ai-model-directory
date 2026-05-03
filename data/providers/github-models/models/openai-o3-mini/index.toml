@@ -1,0 +1,16 @@
+id = "openai/o3-mini"
+name = "OpenAI o3-mini"
+release_date = "1738281600"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+input = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

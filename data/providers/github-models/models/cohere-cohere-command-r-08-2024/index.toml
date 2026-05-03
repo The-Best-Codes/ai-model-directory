@@ -1,0 +1,15 @@
+id = "cohere/cohere-command-r-08-2024"
+name = "Cohere Command R 08-2024"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+input = 131072
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

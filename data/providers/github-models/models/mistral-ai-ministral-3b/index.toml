@@ -1,0 +1,15 @@
+id = "mistral-ai/ministral-3b"
+name = "Ministral 3B"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+input = 131072
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

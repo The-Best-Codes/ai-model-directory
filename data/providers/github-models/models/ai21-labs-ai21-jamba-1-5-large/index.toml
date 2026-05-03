@@ -1,0 +1,15 @@
+id = "ai21-labs/ai21-jamba-1.5-large"
+name = "AI21 Jamba 1.5 Large"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+input = 262144
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

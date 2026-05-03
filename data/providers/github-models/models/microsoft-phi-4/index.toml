@@ -1,0 +1,15 @@
+id = "microsoft/phi-4"
+name = "Phi-4"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+input = 16384
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
