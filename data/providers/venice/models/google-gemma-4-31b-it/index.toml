@@ -1,0 +1,21 @@
+id = "google-gemma-4-31b-it"
+name = "Google Gemma 4 31B Instruct"
+release_date = "1775174400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 8192
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.175
+output = 0.5

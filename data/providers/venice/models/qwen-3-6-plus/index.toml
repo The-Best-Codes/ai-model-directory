@@ -1,0 +1,24 @@
+id = "qwen-3-6-plus"
+name = "Qwen 3.6 Plus Uncensored"
+release_date = "1775433600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0625
+cache_write = 0.78
+input = 0.625
+output = 3.75

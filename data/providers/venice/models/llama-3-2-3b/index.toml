@@ -1,0 +1,21 @@
+id = "llama-3.2-3b"
+name = "Llama 3.2 3B"
+release_date = "1727966436"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

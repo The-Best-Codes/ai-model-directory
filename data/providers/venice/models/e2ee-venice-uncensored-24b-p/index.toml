@@ -1,0 +1,21 @@
+id = "e2ee-venice-uncensored-24b-p"
+name = "Venice Uncensored 1.1"
+release_date = "1773792000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25
+output = 1.15

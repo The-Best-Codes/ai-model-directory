@@ -1,0 +1,21 @@
+id = "e2ee-gemma-3-27b-p"
+name = "Gemma 3 27B"
+release_date = "1773792000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 40000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.5

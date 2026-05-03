@@ -1,0 +1,21 @@
+id = "nvidia-nemotron-cascade-2-30b-a3b"
+name = "Nemotron Cascade 2 30B A3B"
+release_date = "1774310400"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.8

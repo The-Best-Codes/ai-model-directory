@@ -1,0 +1,21 @@
+id = "venice-uncensored"
+name = "Venice Uncensored 1.1"
+release_date = "1742262554"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 32000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.9

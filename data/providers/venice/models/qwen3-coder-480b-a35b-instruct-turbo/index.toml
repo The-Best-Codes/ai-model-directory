@@ -1,0 +1,22 @@
+id = "qwen3-coder-480b-a35b-instruct-turbo"
+name = "Qwen 3 Coder 480B Turbo"
+release_date = "1769472000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+input = 0.35
+output = 1.5
