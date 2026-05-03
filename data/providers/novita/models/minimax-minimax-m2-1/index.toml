@@ -1,0 +1,21 @@
+id = "minimax/minimax-m2.1"
+name = "Minimax M2.1"
+release_date = "1766485136"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 204800
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

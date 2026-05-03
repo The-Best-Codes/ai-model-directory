@@ -1,0 +1,21 @@
+id = "qwen/qwen3-vl-8b-instruct"
+name = "qwen/qwen3-vl-8b-instruct"
+release_date = "1760687842"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.5

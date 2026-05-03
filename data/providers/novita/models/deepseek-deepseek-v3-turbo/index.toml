@@ -1,0 +1,21 @@
+id = "deepseek/deepseek-v3-turbo"
+name = "DeepSeek V3 (Turbo)"
+release_date = "1741174512"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 64000
+output = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 1.3

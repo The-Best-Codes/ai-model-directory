@@ -1,0 +1,21 @@
+id = "moonshotai/kimi-k2.6"
+name = "Kimi K2.6"
+release_date = "1776654459"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.95
+output = 4

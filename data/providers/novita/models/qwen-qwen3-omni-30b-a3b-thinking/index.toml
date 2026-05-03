@@ -1,0 +1,21 @@
+id = "qwen/qwen3-omni-30b-a3b-thinking"
+name = "Qwen3 Omni 30B A3B Thinking"
+release_date = "1758695093"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 65536
+output = 16384
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

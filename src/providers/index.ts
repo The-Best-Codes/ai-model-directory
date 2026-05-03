@@ -20,6 +20,7 @@ import { huggingfaceProvider } from "./huggingface.ts";
 import { inceptionProvider } from "./inception.ts";
 import { kiloProvider } from "./kilo.ts";
 import { mistralProvider } from "./mistral.ts";
+import { novitaProvider } from "./novita.ts";
 import { openaiProvider } from "./openai.ts";
 import { ovhcloudProvider } from "./ovhcloud.ts";
 import { perplexityProvider } from "./perplexity.ts";
@@ -51,6 +52,7 @@ export const providers: ProviderDefinition[] = [
   inceptionProvider,
   kiloProvider,
   mistralProvider,
+  novitaProvider,
   openaiProvider,
   ovhcloudProvider,
   perplexityProvider,

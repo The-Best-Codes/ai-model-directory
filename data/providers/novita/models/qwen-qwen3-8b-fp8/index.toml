@@ -1,0 +1,21 @@
+id = "qwen/qwen3-8b-fp8"
+name = "Qwen3 8B"
+release_date = "1745901633"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 20000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.035
+output = 0.138

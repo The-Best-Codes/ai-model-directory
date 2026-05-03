@@ -1,0 +1,21 @@
+id = "sao10k/l3-70b-euryale-v2.1"
+name = "L3 70B Euryale V2.1"
+release_date = "1718699128"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.48
+output = 1.48
