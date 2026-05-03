@@ -1,0 +1,7 @@
+name = "Tetrate Agent Router Service"
+website = "https://tetrate.ai/"
+apiBaseUrl = "https://api.router.tetrate.ai/v1/"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["TARS_API_KEY"]
