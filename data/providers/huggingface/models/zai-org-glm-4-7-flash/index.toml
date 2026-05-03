@@ -1,0 +1,19 @@
+id = "zai-org/GLM-4.7-Flash"
+name = "zai-org/GLM-4.7-Flash"
+release_date = "1768804090"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.07
+output = 0.4
