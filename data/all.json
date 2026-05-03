@@ -57731,6 +57731,31 @@
           ]
         }
       },
+      "XiaomiMiMo/MiMo-V2-Flash": {
+        "id": "XiaomiMiMo/MiMo-V2-Flash",
+        "name": "XiaomiMiMo/MiMo-V2-Flash",
+        "release_date": "1765874822",
+        "features": {
+          "attachment": false,
+          "tool_call": true,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3
+        },
+        "limit": {
+          "context": 262144
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "zai-org/AutoGLM-Phone-9B-Multilingual": {
         "id": "zai-org/AutoGLM-Phone-9B-Multilingual",
         "name": "zai-org/AutoGLM-Phone-9B-Multilingual",
@@ -57957,6 +57982,31 @@
           "attachment": false,
           "tool_call": true,
           "structured_output": false
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "zai-org/GLM-4.7-Flash": {
+        "id": "zai-org/GLM-4.7-Flash",
+        "name": "zai-org/GLM-4.7-Flash",
+        "release_date": "1768804090",
+        "features": {
+          "attachment": false,
+          "tool_call": true,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.07,
+          "output": 0.4
+        },
+        "limit": {
+          "context": 200000
         },
         "modalities": {
           "input": [
