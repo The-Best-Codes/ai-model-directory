@@ -1,0 +1,21 @@
+id = "deepseek/deepseek-prover-v2-671b"
+name = "Deepseek Prover V2 671B"
+release_date = "1746010994"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 160000
+output = 160000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 2.5

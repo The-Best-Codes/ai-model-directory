@@ -1,0 +1,21 @@
+id = "qwen/qwen3-vl-235b-a22b-instruct"
+name = "Qwen3 VL 235B A22B Instruct"
+release_date = "1758695214"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.5

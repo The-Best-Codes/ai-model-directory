@@ -1,0 +1,21 @@
+id = "gryphe/mythomax-l2-13b"
+name = "Mythomax L2 13B"
+release_date = "1714024873"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 3200
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09
+output = 0.09

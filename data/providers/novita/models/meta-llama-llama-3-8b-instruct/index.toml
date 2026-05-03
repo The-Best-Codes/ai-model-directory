@@ -1,0 +1,21 @@
+id = "meta-llama/llama-3-8b-instruct"
+name = "Llama 3 8B Instruct"
+release_date = "1714024874"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0.04

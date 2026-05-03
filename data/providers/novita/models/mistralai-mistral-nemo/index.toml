@@ -1,0 +1,21 @@
+id = "mistralai/mistral-nemo"
+name = "Mistral Nemo"
+release_date = "1722337858"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 60288
+output = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0.17

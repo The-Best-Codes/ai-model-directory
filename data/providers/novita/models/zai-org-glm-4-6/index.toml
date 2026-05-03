@@ -1,0 +1,21 @@
+id = "zai-org/glm-4.6"
+name = "GLM 4.6"
+release_date = "1759220284"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 204800
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.55
+output = 2.2

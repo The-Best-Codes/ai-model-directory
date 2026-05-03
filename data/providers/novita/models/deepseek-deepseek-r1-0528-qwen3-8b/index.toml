@@ -1,0 +1,21 @@
+id = "deepseek/deepseek-r1-0528-qwen3-8b"
+name = "DeepSeek R1 0528 Qwen3 8B"
+release_date = "1748526709"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.09

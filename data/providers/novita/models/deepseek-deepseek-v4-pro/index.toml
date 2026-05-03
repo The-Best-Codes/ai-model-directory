@@ -1,0 +1,21 @@
+id = "deepseek/deepseek-v4-pro"
+name = "Deepseek V4 Pro"
+release_date = "1777000931"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 393216
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.74
+output = 3.48

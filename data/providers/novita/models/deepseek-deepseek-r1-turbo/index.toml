@@ -1,0 +1,21 @@
+id = "deepseek/deepseek-r1-turbo"
+name = "DeepSeek R1 (Turbo)"
+release_date = "1741174465"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 64000
+output = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 2.5

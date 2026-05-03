@@ -1,0 +1,21 @@
+id = "qwen/qwen3-235b-a22b-thinking-2507"
+name = "Qwen3 235B A22b Thinking 2507"
+release_date = "1753443150"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 3
