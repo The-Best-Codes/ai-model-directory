@@ -1,0 +1,13 @@
+id = "Mistral-Nemo-Instruct-2407"
+name = "Mistral-Nemo-Instruct-2407"
+release_date = "1732101359"
+
+[limit]
+context = 65536
+output = 65536
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.14
+output = 0.14

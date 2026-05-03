@@ -1,0 +1,13 @@
+id = "Llama-3.1-8B-Instruct"
+name = "Llama-3.1-8B-Instruct"
+release_date = "1749631370"
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.11
+output = 0.11

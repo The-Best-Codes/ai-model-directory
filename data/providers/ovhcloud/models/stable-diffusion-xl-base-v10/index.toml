@@ -1,0 +1,9 @@
+id = "stable-diffusion-xl-base-v10"
+name = "stable-diffusion-xl-base-v10"
+release_date = "1730297598"
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

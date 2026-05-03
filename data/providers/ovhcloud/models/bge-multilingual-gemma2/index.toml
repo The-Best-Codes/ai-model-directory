@@ -1,0 +1,12 @@
+id = "bge-multilingual-gemma2"
+name = "bge-multilingual-gemma2"
+release_date = "1742826442"
+
+[limit]
+context = 8192
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.01
+output = 0

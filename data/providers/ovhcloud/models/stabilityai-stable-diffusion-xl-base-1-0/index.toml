@@ -1,0 +1,9 @@
+id = "stabilityai/stable-diffusion-xl-base-1.0"
+name = "stabilityai/stable-diffusion-xl-base-1.0"
+release_date = "1700000000"
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

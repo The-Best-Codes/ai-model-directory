@@ -1,0 +1,13 @@
+id = "Mistral-7B-Instruct-v0.3"
+name = "Mistral-7B-Instruct-v0.3"
+release_date = "1743520231"
+
+[limit]
+context = 65536
+output = 65536
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.11
+output = 0.11

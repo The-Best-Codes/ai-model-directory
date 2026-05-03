@@ -1,0 +1,7 @@
+name = "OVHcloud AI Endpoints"
+website = "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/"
+apiBaseUrl = "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["OVHCLOUD_API_KEY"]
