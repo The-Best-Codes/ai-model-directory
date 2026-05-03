@@ -1,0 +1,19 @@
+id = "deepinfra/Qwen/Qwen3-Embedding-0.6B"
+name = "deepinfra/Qwen/Qwen3-Embedding-0.6B"
+release_date = "1759326332"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.01
+output = 0.01

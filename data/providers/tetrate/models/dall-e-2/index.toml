@@ -1,0 +1,16 @@
+id = "dall-e-2"
+name = "dall-e-2"
+release_date = "1777315809"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

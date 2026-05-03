@@ -1,0 +1,19 @@
+id = "deepinfra/microsoft/WizardLM-2-8x22B"
+name = "deepinfra/microsoft/WizardLM-2-8x22B"
+release_date = "1777752255"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.48
+output = 0.48

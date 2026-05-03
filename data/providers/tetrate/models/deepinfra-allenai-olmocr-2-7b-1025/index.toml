@@ -1,0 +1,19 @@
+id = "deepinfra/allenai/olmOCR-2-7B-1025"
+name = "deepinfra/allenai/olmOCR-2-7B-1025"
+release_date = "1763161499"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.09
+output = 0.19

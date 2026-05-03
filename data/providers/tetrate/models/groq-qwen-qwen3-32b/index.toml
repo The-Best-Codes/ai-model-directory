@@ -1,0 +1,20 @@
+id = "groq/qwen/qwen3-32b"
+name = "groq/qwen/qwen3-32b"
+release_date = "1777752255"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 40960
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.29
+output = 0.59

@@ -1,0 +1,19 @@
+id = "deepinfra/sentence-transformers/all-MiniLM-L12-v2"
+name = "deepinfra/sentence-transformers/all-MiniLM-L12-v2"
+release_date = "1759326332"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.005
+output = 0.005

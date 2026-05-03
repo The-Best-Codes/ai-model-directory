@@ -1,0 +1,20 @@
+id = "deepinfra/anthropic/claude-4-opus"
+name = "deepinfra/anthropic/claude-4-opus"
+release_date = "1777752255"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 32000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 16.5
+output = 82.5

@@ -1,0 +1,16 @@
+id = "gpt-image-1-mini"
+name = "gpt-image-1-mini"
+release_date = "1773136443"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 0

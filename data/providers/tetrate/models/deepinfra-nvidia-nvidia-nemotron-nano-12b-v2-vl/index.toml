@@ -1,0 +1,19 @@
+id = "deepinfra/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL"
+name = "deepinfra/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL"
+release_date = "1763161499"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.2
+output = 0.6

@@ -1,0 +1,19 @@
+id = "deepinfra/intfloat/multilingual-e5-large-instruct"
+name = "deepinfra/intfloat/multilingual-e5-large-instruct"
+release_date = "1759326332"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.0005
+output = 0.0005

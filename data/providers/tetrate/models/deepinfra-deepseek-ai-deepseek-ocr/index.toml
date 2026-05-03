@@ -1,0 +1,19 @@
+id = "deepinfra/deepseek-ai/DeepSeek-OCR"
+name = "deepinfra/deepseek-ai/DeepSeek-OCR"
+release_date = "1763161499"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.03
+output = 0.1

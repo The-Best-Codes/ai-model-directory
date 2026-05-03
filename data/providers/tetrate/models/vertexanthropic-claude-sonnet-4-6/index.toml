@@ -1,0 +1,21 @@
+id = "vertexanthropic/claude-sonnet-4-6"
+name = "vertexanthropic/claude-sonnet-4-6"
+release_date = "1773193964"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.3
+cache_write = 3.75
+input = 3
+output = 15

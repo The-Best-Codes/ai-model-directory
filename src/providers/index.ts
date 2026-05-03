@@ -23,6 +23,7 @@ import { mistralProvider } from "./mistral.ts";
 import { openaiProvider } from "./openai.ts";
 import { perplexityProvider } from "./perplexity.ts";
 import { openrouterProvider } from "./openrouter.ts";
+import { tetrateProvider } from "./tetrate.ts";
 import { togetheraiProvider } from "./togetherai.ts";
 import { veniceProvider } from "./venice.ts";
 import { xaiProvider } from "./xai.ts";
@@ -52,6 +53,7 @@ export const providers: ProviderDefinition[] = [
   openaiProvider,
   perplexityProvider,
   openrouterProvider,
+  tetrateProvider,
   togetheraiProvider,
   veniceProvider,
   xaiProvider,

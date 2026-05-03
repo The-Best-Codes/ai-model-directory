@@ -1,0 +1,19 @@
+id = "deepinfra/google/gemini-2.0-flash-001"
+name = "deepinfra/google/gemini-2.0-flash-001"
+release_date = "1777752255"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.1
+output = 0.4

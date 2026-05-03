@@ -1,0 +1,19 @@
+id = "xai/grok-4.20-0309-non-reasoning"
+name = "xai/grok-4.20-0309-non-reasoning"
+release_date = "1776446704"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 6

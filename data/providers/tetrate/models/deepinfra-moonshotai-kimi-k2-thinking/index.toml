@@ -1,0 +1,19 @@
+id = "deepinfra/moonshotai/Kimi-K2-Thinking"
+name = "deepinfra/moonshotai/Kimi-K2-Thinking"
+release_date = "1763161499"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.141
+input = 0.47
+output = 2

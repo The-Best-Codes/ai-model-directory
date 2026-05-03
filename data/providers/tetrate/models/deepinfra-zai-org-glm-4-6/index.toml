@@ -1,0 +1,19 @@
+id = "deepinfra/zai-org/GLM-4.6"
+name = "deepinfra/zai-org/GLM-4.6"
+release_date = "1759326332"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+input = 0.43
+output = 1.75

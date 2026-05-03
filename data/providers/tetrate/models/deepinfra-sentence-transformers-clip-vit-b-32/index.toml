@@ -1,0 +1,19 @@
+id = "deepinfra/sentence-transformers/clip-ViT-B-32"
+name = "deepinfra/sentence-transformers/clip-ViT-B-32"
+release_date = "1759326332"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 77
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.005
+output = 0.005

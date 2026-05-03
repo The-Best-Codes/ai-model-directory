@@ -1,0 +1,19 @@
+id = "deepinfra/deepseek-ai/DeepSeek-V3-0324"
+name = "deepinfra/deepseek-ai/DeepSeek-V3-0324"
+release_date = "1777752255"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.106
+input = 0.2
+output = 0.88

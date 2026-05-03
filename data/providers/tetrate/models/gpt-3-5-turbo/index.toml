@@ -1,0 +1,20 @@
+id = "gpt-3.5-turbo"
+name = "gpt-3.5-turbo"
+release_date = "1706140800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 16385
+output = 4096
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.5
+output = 1.5

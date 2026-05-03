@@ -1,0 +1,19 @@
+id = "deepinfra/mistralai/Mistral-Small-24B-Instruct-2501"
+name = "deepinfra/mistralai/Mistral-Small-24B-Instruct-2501"
+release_date = "1777752255"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.05
+output = 0.08

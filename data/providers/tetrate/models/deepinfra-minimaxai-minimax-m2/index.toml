@@ -1,0 +1,19 @@
+id = "deepinfra/MiniMaxAI/MiniMax-M2"
+name = "deepinfra/MiniMaxAI/MiniMax-M2"
+release_date = "1763161499"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.127
+input = 0.254
+output = 1.02

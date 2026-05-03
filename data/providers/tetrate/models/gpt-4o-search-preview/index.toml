@@ -1,0 +1,20 @@
+id = "gpt-4o-search-preview"
+name = "gpt-4o-search-preview"
+release_date = "1741737600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 2.5
+output = 10
