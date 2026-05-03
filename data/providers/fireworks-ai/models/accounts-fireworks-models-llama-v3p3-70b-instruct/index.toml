@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/llama-v3p3-70b-instruct"
-last_updated = "1777759115"
 name = "Llama 3.3 70B Instruct"
 open_weights = true
-release_date = "1733442103"
 
 [features]
 tool_call = false

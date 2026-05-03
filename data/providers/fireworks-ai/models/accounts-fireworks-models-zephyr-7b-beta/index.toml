@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/zephyr-7b-beta"
-last_updated = "1777759115"
 name = "Zephyr 7B Beta"
 open_weights = true
-release_date = "1698882913"
 
 [features]
 tool_call = false

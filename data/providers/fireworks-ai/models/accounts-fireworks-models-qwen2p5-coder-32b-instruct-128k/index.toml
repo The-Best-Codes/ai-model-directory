@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/qwen2p5-coder-32b-instruct-128k"
-last_updated = "1777759115"
 name = "Qwen2.5-Coder 32B Instruct 128K"
 open_weights = true
-release_date = "1731373788"
 
 [features]
 tool_call = false

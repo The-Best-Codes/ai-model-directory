@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/toppy-m-7b"
-last_updated = "1777759115"
 name = "Toppy M 7B"
 open_weights = true
-release_date = "1709225657"
 
 [features]
 tool_call = false

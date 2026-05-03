@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/mythomax-l2-13b"
-last_updated = "1777759115"
 name = "MythoMax L2 13B"
 open_weights = true
-release_date = "1707860632"
 
 [features]
 tool_call = false

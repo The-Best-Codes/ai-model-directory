@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/openorca-7b"
-last_updated = "1777759115"
 name = "Mistral 7B OpenOrca"
 open_weights = true
-release_date = "1708995021"
 
 [features]
 tool_call = false

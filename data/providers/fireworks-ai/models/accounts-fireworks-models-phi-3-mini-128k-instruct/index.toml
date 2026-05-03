@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/phi-3-mini-128k-instruct"
-last_updated = "1777759115"
 name = "Phi-3 Mini 128k Instruct"
 open_weights = true
-release_date = "1716512530"
 
 [features]
 tool_call = false

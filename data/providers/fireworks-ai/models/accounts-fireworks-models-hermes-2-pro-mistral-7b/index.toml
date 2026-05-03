@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/hermes-2-pro-mistral-7b"
-last_updated = "1777759115"
 name = "Hermes 2 Pro Mistral 7B"
 open_weights = true
-release_date = "1710366613"
 
 [features]
 tool_call = true

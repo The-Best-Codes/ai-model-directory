@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/qwen2p5-math-72b-instruct"
-last_updated = "1777759115"
 name = "Qwen2.5-Math 72B Instruct"
 open_weights = true
-release_date = "1728331071"
 
 [features]
 tool_call = false

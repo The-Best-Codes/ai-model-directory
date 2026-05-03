@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/llama-v2-13b"
-last_updated = "1777759115"
 name = "Llama 2 13B"
 open_weights = true
-release_date = "1691869247"
 
 [features]
 tool_call = false

@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/deepseek-coder-7b-instruct-v1p5"
-last_updated = "1777759115"
 name = "DeepSeek Coder 7B Instruct v1.5"
 open_weights = true
-release_date = "1709072352"
 
 [features]
 tool_call = false

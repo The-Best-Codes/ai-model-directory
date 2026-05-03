@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/dolphin-2p6-mixtral-8x7b"
-last_updated = "1777759115"
 name = "Dolphin 2.6 Mixtral 8x7b"
 open_weights = true
-release_date = "1709229379"
 
 [features]
 tool_call = false

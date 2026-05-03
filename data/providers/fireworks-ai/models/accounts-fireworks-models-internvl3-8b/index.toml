@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/internvl3-8b"
-last_updated = "1777759115"
 name = "InternVL3 8B"
 open_weights = true
-release_date = "1749482126"
 
 [features]
 attachment = true

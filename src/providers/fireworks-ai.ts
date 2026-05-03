@@ -255,8 +255,8 @@ function toModelRecord(model: FireworksModel): ModelRecord {
   return compactObject({
     id: model.name,
     name: model.displayName ?? model.name,
-    release_date: timestampFromFireworks(model.createTime?.seconds),
-    last_updated: timestampFromFireworks(model.updateTime?.seconds),
+    // release_date: timestampFromFireworks(model.createTime?.seconds), // Omitted for now, as it changes too often
+    // last_updated: timestampFromFireworks(model.updateTime?.seconds), // Omitted for now, as it changes too often
     open_weights:
       model.closedSourceModel === undefined
         ? undefined

@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/qwen3-vl-30b-a3b-thinking"
-last_updated = "1777759115"
 name = "Qwen3 VL 30B A3B Thinking"
 open_weights = true
-release_date = "1759960063"
 
 [features]
 attachment = true

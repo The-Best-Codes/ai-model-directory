@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/glm-5p1"
-last_updated = "1777759115"
 name = "GLM 5.1"
 open_weights = true
-release_date = "1774639291"
 
 [features]
 tool_call = true

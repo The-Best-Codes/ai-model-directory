@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/mistral-7b-instruct-v0p2"
-last_updated = "1777759115"
 name = "Mistral 7B Instruct v0.2"
 open_weights = true
-release_date = "1709188248"
 
 [features]
 tool_call = false

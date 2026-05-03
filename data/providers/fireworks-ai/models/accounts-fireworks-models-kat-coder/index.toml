@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/kat-coder"
-last_updated = "1777759115"
 name = "KAT Coder"
 open_weights = true
-release_date = "1764072168"
 
 [features]
 tool_call = false

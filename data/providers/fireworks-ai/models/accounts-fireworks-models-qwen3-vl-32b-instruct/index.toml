@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/qwen3-vl-32b-instruct"
-last_updated = "1777759115"
 name = "Qwen3 VL 32B Instruct"
 open_weights = true
-release_date = "1764719248"
 
 [features]
 attachment = true

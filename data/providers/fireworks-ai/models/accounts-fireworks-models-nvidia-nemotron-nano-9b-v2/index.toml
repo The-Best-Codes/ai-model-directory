@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/nvidia-nemotron-nano-9b-v2"
-last_updated = "1777759115"
 name = "NVIDIA Nemotron Nano 9B v2"
 open_weights = true
-release_date = "1760565981"
 
 [features]
 tool_call = true

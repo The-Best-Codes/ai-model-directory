@@ -1,8 +1,6 @@
 id = "accounts/fireworks/models/phi-3-vision-128k-instruct"
-last_updated = "1777759115"
 name = "Phi-3.5 Vision Instruct"
 open_weights = true
-release_date = "1716976879"
 
 [features]
 attachment = true
