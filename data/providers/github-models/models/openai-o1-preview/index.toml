@@ -1,0 +1,15 @@
+id = "openai/o1-preview"
+name = "OpenAI o1-preview"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+input = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

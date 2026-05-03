@@ -1,0 +1,7 @@
+name = "GitHub Models"
+website = "https://models.github.ai"
+apiBaseUrl = "https://models.github.ai/inference"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["GITHUB_TOKEN"]

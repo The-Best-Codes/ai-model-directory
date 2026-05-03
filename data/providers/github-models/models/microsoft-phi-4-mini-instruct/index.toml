@@ -1,0 +1,15 @@
+id = "microsoft/phi-4-mini-instruct"
+name = "Phi-4-mini-instruct"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+input = 128000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,13 @@
+id = "openai/text-embedding-3-large"
+name = "OpenAI Text Embedding 3 (large)"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+input = 8191
+
+[modalities]
+input = [ "text" ]

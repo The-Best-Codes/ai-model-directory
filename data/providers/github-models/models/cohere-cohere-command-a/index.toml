@@ -1,0 +1,15 @@
+id = "cohere/cohere-command-a"
+name = "Cohere Command A"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+input = 131072
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

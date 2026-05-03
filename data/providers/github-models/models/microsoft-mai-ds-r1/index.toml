@@ -1,0 +1,15 @@
+id = "microsoft/mai-ds-r1"
+name = "MAI-DS-R1"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+input = 128000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

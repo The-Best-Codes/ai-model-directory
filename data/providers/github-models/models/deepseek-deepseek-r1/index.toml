@@ -1,0 +1,15 @@
+id = "deepseek/deepseek-r1"
+name = "DeepSeek-R1"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+input = 128000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

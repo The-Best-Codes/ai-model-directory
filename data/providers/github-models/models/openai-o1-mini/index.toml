@@ -1,0 +1,16 @@
+id = "openai/o1-mini"
+name = "OpenAI o1-mini"
+release_date = "1726099200"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+input = 128000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

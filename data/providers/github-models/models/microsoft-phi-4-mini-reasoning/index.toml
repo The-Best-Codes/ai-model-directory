@@ -1,0 +1,15 @@
+id = "microsoft/phi-4-mini-reasoning"
+name = "Phi-4-mini-reasoning"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+input = 128000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
