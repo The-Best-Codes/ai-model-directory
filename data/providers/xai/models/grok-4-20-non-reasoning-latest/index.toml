@@ -1,0 +1,16 @@
+id = "grok-4.20-non-reasoning-latest"
+name = "grok-4.20-non-reasoning-latest"
+release_date = "1773014400"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 1.25
+output = 2.5
