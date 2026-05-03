@@ -1,0 +1,13 @@
+id = "Meta-Llama-3_3-70B-Instruct"
+name = "Meta-Llama-3_3-70B-Instruct"
+release_date = "1743520231"
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.74
+output = 0.74

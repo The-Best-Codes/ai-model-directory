@@ -21,6 +21,7 @@ import { inceptionProvider } from "./inception.ts";
 import { kiloProvider } from "./kilo.ts";
 import { mistralProvider } from "./mistral.ts";
 import { openaiProvider } from "./openai.ts";
+import { ovhcloudProvider } from "./ovhcloud.ts";
 import { perplexityProvider } from "./perplexity.ts";
 import { openrouterProvider } from "./openrouter.ts";
 import { tetrateProvider } from "./tetrate.ts";
@@ -51,6 +52,7 @@ export const providers: ProviderDefinition[] = [
   kiloProvider,
   mistralProvider,
   openaiProvider,
+  ovhcloudProvider,
   perplexityProvider,
   openrouterProvider,
   tetrateProvider,

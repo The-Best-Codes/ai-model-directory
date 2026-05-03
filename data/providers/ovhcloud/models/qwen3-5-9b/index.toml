@@ -1,0 +1,13 @@
+id = "Qwen3.5-9B"
+name = "Qwen3.5-9B"
+release_date = "1776853448"
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.12
+output = 0.18

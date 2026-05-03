@@ -1,0 +1,13 @@
+id = "Qwen3-32B"
+name = "Qwen3-32B"
+release_date = "1752655628"
+
+[limit]
+context = 32768
+output = 32768
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.09
+output = 0.25

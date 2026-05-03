@@ -1,0 +1,13 @@
+id = "Qwen3Guard-Gen-8B"
+name = "Qwen3Guard-Gen-8B"
+release_date = "1769078773"
+
+[limit]
+context = 32768
+output = 16384
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

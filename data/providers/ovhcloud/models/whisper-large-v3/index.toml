@@ -1,0 +1,9 @@
+id = "whisper-large-v3"
+name = "whisper-large-v3"
+release_date = "1754992184"
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

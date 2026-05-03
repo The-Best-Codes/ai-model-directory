@@ -1,0 +1,13 @@
+id = "gpt-oss-20b"
+name = "gpt-oss-20b"
+release_date = "1756386145"
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.05
+output = 0.18

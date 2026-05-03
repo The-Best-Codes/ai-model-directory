@@ -1,0 +1,12 @@
+id = "bge-m3"
+name = "bge-m3"
+release_date = "1731944050"
+
+[limit]
+context = 8192
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.01
+output = 0
