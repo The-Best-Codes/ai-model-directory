@@ -1,0 +1,19 @@
+id = "deepinfra/openai/gpt-oss-120b"
+name = "deepinfra/openai/gpt-oss-120b"
+release_date = "1777752255"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.039
+output = 0.19

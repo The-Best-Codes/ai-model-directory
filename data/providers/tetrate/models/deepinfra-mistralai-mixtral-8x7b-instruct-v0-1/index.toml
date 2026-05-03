@@ -1,0 +1,19 @@
+id = "deepinfra/mistralai/Mixtral-8x7B-Instruct-v0.1"
+name = "deepinfra/mistralai/Mixtral-8x7B-Instruct-v0.1"
+release_date = "1738865908"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.54
+output = 0.54

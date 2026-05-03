@@ -1,0 +1,19 @@
+id = "deepinfra/microsoft/phi-4"
+name = "deepinfra/microsoft/phi-4"
+release_date = "1777752255"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.07
+output = 0.14

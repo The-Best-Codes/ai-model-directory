@@ -1,0 +1,19 @@
+id = "deepinfra/Qwen/Qwen3-Next-80B-A3B-Instruct"
+name = "deepinfra/Qwen/Qwen3-Next-80B-A3B-Instruct"
+release_date = "1759326332"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.09
+output = 1.1

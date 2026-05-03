@@ -1,0 +1,19 @@
+id = "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+name = "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+release_date = "1777752255"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.15
+output = 0.6

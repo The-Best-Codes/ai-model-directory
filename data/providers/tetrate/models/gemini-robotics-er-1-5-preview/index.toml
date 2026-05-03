@@ -1,0 +1,16 @@
+id = "gemini-robotics-er-1.5-preview"
+name = "gemini-robotics-er-1.5-preview"
+release_date = "1763137660"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.3
+output = 2.5

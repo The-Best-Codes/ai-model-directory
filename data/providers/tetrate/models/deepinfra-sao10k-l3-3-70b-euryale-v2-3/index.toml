@@ -1,0 +1,19 @@
+id = "deepinfra/Sao10K/L3.3-70B-Euryale-v2.3"
+name = "deepinfra/Sao10K/L3.3-70B-Euryale-v2.3"
+release_date = "1777752255"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.85
+output = 0.85

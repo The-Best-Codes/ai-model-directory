@@ -1,0 +1,19 @@
+id = "deepinfra/PaddlePaddle/PaddleOCR-VL-0.9B"
+name = "deepinfra/PaddlePaddle/PaddleOCR-VL-0.9B"
+release_date = "1763161499"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.14
+output = 0.8

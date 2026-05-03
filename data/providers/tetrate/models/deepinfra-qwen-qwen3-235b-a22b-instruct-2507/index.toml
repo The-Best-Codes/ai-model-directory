@@ -1,0 +1,19 @@
+id = "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507"
+name = "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507"
+release_date = "1777752255"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.071
+output = 0.463

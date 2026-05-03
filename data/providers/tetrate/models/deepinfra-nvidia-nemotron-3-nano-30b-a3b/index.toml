@@ -1,0 +1,19 @@
+id = "deepinfra/nvidia/Nemotron-3-Nano-30B-A3B"
+name = "deepinfra/nvidia/Nemotron-3-Nano-30B-A3B"
+release_date = "1765972221"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.06
+output = 0.24

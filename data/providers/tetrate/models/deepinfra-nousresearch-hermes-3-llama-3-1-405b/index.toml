@@ -1,0 +1,19 @@
+id = "deepinfra/NousResearch/Hermes-3-Llama-3.1-405B"
+name = "deepinfra/NousResearch/Hermes-3-Llama-3.1-405B"
+release_date = "1777752255"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 1
+output = 1

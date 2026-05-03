@@ -1,0 +1,19 @@
+id = "deepinfra/google/embeddinggemma-300m"
+name = "deepinfra/google/embeddinggemma-300m"
+release_date = "1759326332"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 2048
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.002
+output = 0.002

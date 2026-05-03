@@ -1,0 +1,19 @@
+id = "deepinfra/BAAI/bge-large-en-v1.5"
+name = "deepinfra/BAAI/bge-large-en-v1.5"
+release_date = "1759326332"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.01
+output = 0.01

@@ -1,0 +1,19 @@
+id = "deepinfra/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+name = "deepinfra/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+release_date = "1777752255"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 327680
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.08
+output = 0.3

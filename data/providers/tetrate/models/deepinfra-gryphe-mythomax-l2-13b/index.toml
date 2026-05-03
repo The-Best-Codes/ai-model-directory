@@ -1,0 +1,19 @@
+id = "deepinfra/Gryphe/MythoMax-L2-13b"
+name = "deepinfra/Gryphe/MythoMax-L2-13b"
+release_date = "1741278220"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.08
+output = 0.08

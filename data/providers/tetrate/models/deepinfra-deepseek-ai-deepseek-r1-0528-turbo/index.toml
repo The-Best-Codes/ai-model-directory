@@ -1,0 +1,19 @@
+id = "deepinfra/deepseek-ai/DeepSeek-R1-0528-Turbo"
+name = "deepinfra/deepseek-ai/DeepSeek-R1-0528-Turbo"
+release_date = "1777752255"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 1
+output = 3

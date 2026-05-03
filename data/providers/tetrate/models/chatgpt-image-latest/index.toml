@@ -1,0 +1,16 @@
+id = "chatgpt-image-latest"
+name = "chatgpt-image-latest"
+release_date = "1773136443"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 1.25
+input = 5
+output = 10

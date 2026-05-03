@@ -1,0 +1,21 @@
+id = "vertexanthropic/claude-opus-4-6"
+name = "vertexanthropic/claude-opus-4-6"
+release_date = "1773193964"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 6.25
+input = 5
+output = 25
