@@ -1,0 +1,21 @@
+id = "e2ee-gpt-oss-120b-p"
+name = "GPT OSS 120B"
+release_date = "1773792000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.13
+output = 0.65

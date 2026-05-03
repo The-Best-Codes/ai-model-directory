@@ -1,0 +1,22 @@
+id = "z-ai-glm-5-turbo"
+name = "GLM 5 Turbo"
+release_date = "1773532800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.24
+input = 1.2
+output = 4

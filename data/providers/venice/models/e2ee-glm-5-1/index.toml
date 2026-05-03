@@ -1,0 +1,21 @@
+id = "e2ee-glm-5-1"
+name = "GLM 5.1"
+release_date = "1776988800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 200000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.1
+output = 4.15

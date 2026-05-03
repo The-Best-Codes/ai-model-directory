@@ -1,0 +1,21 @@
+id = "mistral-small-3-2-24b-instruct"
+name = "Mistral Small 3.2 24B Instruct"
+release_date = "1768435200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09375
+output = 0.25

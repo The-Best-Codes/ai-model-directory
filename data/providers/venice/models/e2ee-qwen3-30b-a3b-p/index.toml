@@ -1,0 +1,21 @@
+id = "e2ee-qwen3-30b-a3b-p"
+name = "Qwen3 30B A3B"
+release_date = "1773792000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 256000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.19
+output = 0.69

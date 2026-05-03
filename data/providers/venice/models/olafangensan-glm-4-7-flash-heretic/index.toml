@@ -1,0 +1,21 @@
+id = "olafangensan-glm-4.7-flash-heretic"
+name = "GLM 4.7 Flash Heretic"
+release_date = "1770163200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 24000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.8

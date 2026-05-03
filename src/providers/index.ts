@@ -24,6 +24,7 @@ import { openaiProvider } from "./openai.ts";
 import { perplexityProvider } from "./perplexity.ts";
 import { openrouterProvider } from "./openrouter.ts";
 import { togetheraiProvider } from "./togetherai.ts";
+import { veniceProvider } from "./venice.ts";
 import { xaiProvider } from "./xai.ts";
 
 export const providers: ProviderDefinition[] = [
@@ -52,5 +53,6 @@ export const providers: ProviderDefinition[] = [
   perplexityProvider,
   openrouterProvider,
   togetheraiProvider,
+  veniceProvider,
   xaiProvider,
 ];

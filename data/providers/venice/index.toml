@@ -1,0 +1,7 @@
+name = "Venice AI"
+website = "https://venice.ai"
+apiBaseUrl = "https://api.venice.ai/api/v1"
+
+[aiSdk]
+npmPackage = "venice-ai-sdk-provider"
+defaultApiKeyEnv = ["VENICE_API_KEY"]

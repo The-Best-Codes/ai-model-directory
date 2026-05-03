@@ -1,0 +1,22 @@
+id = "arcee-trinity-large-thinking"
+name = "Trinity Large Thinking"
+release_date = "1775088000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.3125
+output = 1.125
