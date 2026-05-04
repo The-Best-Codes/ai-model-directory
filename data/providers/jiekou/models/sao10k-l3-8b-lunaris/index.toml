@@ -1,0 +1,21 @@
+id = "sao10k/l3-8b-lunaris"
+name = "Sao10k L3 8B Lunaris"
+release_date = "1732791714"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

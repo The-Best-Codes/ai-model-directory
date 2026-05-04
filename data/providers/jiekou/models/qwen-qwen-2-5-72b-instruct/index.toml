@@ -1,0 +1,21 @@
+id = "qwen/qwen-2.5-72b-instruct"
+name = "Qwen 2.5 72B Instruct"
+release_date = "1728962258"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 32000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.38
+output = 0.4

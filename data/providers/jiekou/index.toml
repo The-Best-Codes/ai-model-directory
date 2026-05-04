@@ -1,0 +1,7 @@
+name = "Jiekou.AI"
+website = "https://jiekou.ai"
+apiBaseUrl = "https://api.jiekou.ai/openai"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["JIEKOU_API_KEY"]
