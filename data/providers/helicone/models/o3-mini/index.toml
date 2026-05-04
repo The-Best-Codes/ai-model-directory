@@ -1,0 +1,23 @@
+id = "o3-mini"
+knowledge_cutoff = "1696118400"
+name = "OpenAI o3 Mini"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.55
+input = 1.1
+output = 4.4

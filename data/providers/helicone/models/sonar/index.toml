@@ -1,0 +1,22 @@
+id = "sonar"
+knowledge_cutoff = "1737936000"
+name = "Perplexity Sonar"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 127000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 1

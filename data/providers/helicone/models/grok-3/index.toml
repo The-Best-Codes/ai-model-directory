@@ -1,0 +1,23 @@
+id = "grok-3"
+knowledge_cutoff = "1717200000"
+name = "xAI Grok 3"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.75
+input = 3
+output = 15

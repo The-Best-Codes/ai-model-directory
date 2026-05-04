@@ -1,0 +1,22 @@
+id = "gemini-3-flash-preview"
+knowledge_cutoff = "1765951200"
+name = "Google Gemini 3 Flash Preview"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 3
