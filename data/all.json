@@ -37487,6 +37487,148 @@
       }
     }
   },
+  "avian": {
+    "id": "avian",
+    "name": "avian",
+    "website": "https://avian.io/",
+    "apiBaseUrl": "https://api.avian.io/v1/",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "AVIAN_API_KEY"
+      ]
+    },
+    "models": {
+      "deepseek/deepseek-v3.2": {
+        "id": "deepseek/deepseek-v3.2",
+        "name": "DeepSeek V3.2",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.23,
+          "output": 0.33,
+          "cache_read": 0.012
+        },
+        "limit": {
+          "context": 163840,
+          "output": 65536
+        }
+      },
+      "deepseek/deepseek-v4-flash": {
+        "id": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.105,
+          "output": 0.21,
+          "cache_read": 0.021
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 393216
+        }
+      },
+      "deepseek/deepseek-v4-pro": {
+        "id": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 1.305,
+          "output": 2.61,
+          "cache_read": 0.10875
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 393216
+        }
+      },
+      "minimax/minimax-m2.5": {
+        "id": "minimax/minimax-m2.5",
+        "name": "MiniMax M2.5",
+        "features": {
+          "reasoning": false
+        },
+        "pricing": {
+          "input": 0.27,
+          "output": 1.08,
+          "cache_read": 0.15
+        },
+        "limit": {
+          "context": 196608,
+          "output": 131072
+        }
+      },
+      "moonshotai/kimi-k2.5": {
+        "id": "moonshotai/kimi-k2.5",
+        "name": "Kimi K2.5",
+        "features": {
+          "reasoning": false
+        },
+        "pricing": {
+          "input": 0.45,
+          "output": 2.2,
+          "cache_read": 0.225
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        }
+      },
+      "moonshotai/kimi-k2.6": {
+        "id": "moonshotai/kimi-k2.6",
+        "name": "Kimi K2.6",
+        "features": {
+          "reasoning": false
+        },
+        "pricing": {
+          "input": 0.95,
+          "output": 4,
+          "cache_read": 0.16
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        }
+      },
+      "z-ai/glm-5": {
+        "id": "z-ai/glm-5",
+        "name": "GLM-5",
+        "features": {
+          "reasoning": false
+        },
+        "pricing": {
+          "input": 0.95,
+          "output": 2.55,
+          "cache_read": 0.2
+        },
+        "limit": {
+          "context": 204800,
+          "output": 131072
+        }
+      },
+      "z-ai/glm-5.1": {
+        "id": "z-ai/glm-5.1",
+        "name": "GLM-5.1",
+        "features": {
+          "reasoning": false
+        },
+        "pricing": {
+          "input": 1,
+          "output": 3.2,
+          "cache_read": 0.2
+        },
+        "limit": {
+          "context": 202752,
+          "output": 202752
+        }
+      }
+    }
+  },
   "baseten": {
     "id": "baseten",
     "name": "Basten",
@@ -54500,6 +54642,953 @@
       }
     }
   },
+  "github-models": {
+    "id": "github-models",
+    "name": "GitHub Models",
+    "website": "https://models.github.ai",
+    "apiBaseUrl": "https://models.github.ai/inference",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "GITHUB_TOKEN"
+      ]
+    },
+    "models": {
+      "ai21-labs/ai21-jamba-1.5-large": {
+        "id": "ai21-labs/ai21-jamba-1.5-large",
+        "name": "AI21 Jamba 1.5 Large",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 262144,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "cohere/cohere-command-a": {
+        "id": "cohere/cohere-command-a",
+        "name": "Cohere Command A",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 131072,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "cohere/cohere-command-r-08-2024": {
+        "id": "cohere/cohere-command-r-08-2024",
+        "name": "Cohere Command R 08-2024",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 131072,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "cohere/cohere-command-r-plus-08-2024": {
+        "id": "cohere/cohere-command-r-plus-08-2024",
+        "name": "Cohere Command R+ 08-2024",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 131072,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "deepseek/deepseek-r1": {
+        "id": "deepseek/deepseek-r1",
+        "name": "DeepSeek-R1",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "deepseek/deepseek-r1-0528": {
+        "id": "deepseek/deepseek-r1-0528",
+        "name": "DeepSeek-R1-0528",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "deepseek/deepseek-v3-0324": {
+        "id": "deepseek/deepseek-v3-0324",
+        "name": "DeepSeek-V3-0324",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "meta/llama-3.2-11b-vision-instruct": {
+        "id": "meta/llama-3.2-11b-vision-instruct",
+        "name": "Llama-3.2-11B-Vision-Instruct",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "meta/llama-3.2-90b-vision-instruct": {
+        "id": "meta/llama-3.2-90b-vision-instruct",
+        "name": "Llama-3.2-90B-Vision-Instruct",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "meta/llama-3.3-70b-instruct": {
+        "id": "meta/llama-3.3-70b-instruct",
+        "name": "Llama-3.3-70B-Instruct",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "meta/llama-4-maverick-17b-128e-instruct-fp8": {
+        "id": "meta/llama-4-maverick-17b-128e-instruct-fp8",
+        "name": "Llama 4 Maverick 17B 128E Instruct FP8",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 1000000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "meta/llama-4-scout-17b-16e-instruct": {
+        "id": "meta/llama-4-scout-17b-16e-instruct",
+        "name": "Llama 4 Scout 17B 16E Instruct",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 10000000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "meta/meta-llama-3.1-405b-instruct": {
+        "id": "meta/meta-llama-3.1-405b-instruct",
+        "name": "Meta-Llama-3.1-405B-Instruct",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 131072,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "meta/meta-llama-3.1-8b-instruct": {
+        "id": "meta/meta-llama-3.1-8b-instruct",
+        "name": "Meta-Llama-3.1-8B-Instruct",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 131072,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "microsoft/mai-ds-r1": {
+        "id": "microsoft/mai-ds-r1",
+        "name": "MAI-DS-R1",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "microsoft/phi-4": {
+        "id": "microsoft/phi-4",
+        "name": "Phi-4",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 16384,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "microsoft/phi-4-mini-instruct": {
+        "id": "microsoft/phi-4-mini-instruct",
+        "name": "Phi-4-mini-instruct",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "microsoft/phi-4-mini-reasoning": {
+        "id": "microsoft/phi-4-mini-reasoning",
+        "name": "Phi-4-mini-reasoning",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "microsoft/phi-4-multimodal-instruct": {
+        "id": "microsoft/phi-4-multimodal-instruct",
+        "name": "Phi-4-multimodal-instruct",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "microsoft/phi-4-reasoning": {
+        "id": "microsoft/phi-4-reasoning",
+        "name": "Phi-4-reasoning",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 32768,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "mistral-ai/codestral-2501": {
+        "id": "mistral-ai/codestral-2501",
+        "name": "Codestral 25.01",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 256000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "mistral-ai/ministral-3b": {
+        "id": "mistral-ai/ministral-3b",
+        "name": "Ministral 3B",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 131072,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "mistral-ai/mistral-medium-2505": {
+        "id": "mistral-ai/mistral-medium-2505",
+        "name": "Mistral Medium 3 (25.05)",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "mistral-ai/mistral-small-2503": {
+        "id": "mistral-ai/mistral-small-2503",
+        "name": "Mistral Small 3.1",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 128000,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-4.1": {
+        "id": "openai/gpt-4.1",
+        "name": "OpenAI GPT-4.1",
+        "release_date": "1744588800",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 1048576,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-4.1-mini": {
+        "id": "openai/gpt-4.1-mini",
+        "name": "OpenAI GPT-4.1-mini",
+        "release_date": "1744588800",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 1048576,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-4.1-nano": {
+        "id": "openai/gpt-4.1-nano",
+        "name": "OpenAI GPT-4.1-nano",
+        "release_date": "1744588800",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 1048576,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-4o": {
+        "id": "openai/gpt-4o",
+        "name": "OpenAI GPT-4o",
+        "release_date": "1732060800",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 131072,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-4o-mini": {
+        "id": "openai/gpt-4o-mini",
+        "name": "OpenAI GPT-4o mini",
+        "release_date": "1721260800",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 131072,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5": {
+        "id": "openai/gpt-5",
+        "name": "OpenAI gpt-5",
+        "release_date": "1754524800",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 200000,
+          "output": 100000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5-chat": {
+        "id": "openai/gpt-5-chat",
+        "name": "OpenAI gpt-5-chat (preview)",
+        "release_date": "1759449600",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 200000,
+          "output": 100000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5-mini": {
+        "id": "openai/gpt-5-mini",
+        "name": "OpenAI gpt-5-mini",
+        "release_date": "1754524800",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 200000,
+          "output": 100000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5-nano": {
+        "id": "openai/gpt-5-nano",
+        "name": "OpenAI gpt-5-nano",
+        "release_date": "1754524800",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 200000,
+          "output": 100000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/o1": {
+        "id": "openai/o1",
+        "name": "OpenAI o1",
+        "release_date": "1734393600",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 200000,
+          "output": 100000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/o1-mini": {
+        "id": "openai/o1-mini",
+        "name": "OpenAI o1-mini",
+        "release_date": "1726099200",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 128000,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/o1-preview": {
+        "id": "openai/o1-preview",
+        "name": "OpenAI o1-preview",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 128000,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/o3": {
+        "id": "openai/o3",
+        "name": "OpenAI o3",
+        "release_date": "1744761600",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 200000,
+          "output": 100000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/o3-mini": {
+        "id": "openai/o3-mini",
+        "name": "OpenAI o3-mini",
+        "release_date": "1738281600",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 200000,
+          "output": 100000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/o4-mini": {
+        "id": "openai/o4-mini",
+        "name": "OpenAI o4-mini",
+        "release_date": "1744761600",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "input": 200000,
+          "output": 100000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/text-embedding-3-large": {
+        "id": "openai/text-embedding-3-large",
+        "name": "OpenAI Text Embedding 3 (large)",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 8191
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "openai/text-embedding-3-small": {
+        "id": "openai/text-embedding-3-small",
+        "name": "OpenAI Text Embedding 3 (small)",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 8191
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "xai/grok-3": {
+        "id": "xai/grok-3",
+        "name": "Grok 3",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 131072,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "xai/grok-3-mini": {
+        "id": "xai/grok-3-mini",
+        "name": "Grok 3 Mini",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false
+        },
+        "limit": {
+          "input": 131072,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      }
+    }
+  },
   "google": {
     "id": "google",
     "name": "Google",
@@ -55506,11 +56595,28 @@
       },
       "llama-3.3-70b-versatile": {
         "id": "llama-3.3-70b-versatile",
-        "name": "llama-3.3-70b-versatile",
+        "name": "Llama 3.3 70B",
         "release_date": "1733447754",
+        "features": {
+          "attachment": false,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.59,
+          "output": 0.79
+        },
         "limit": {
           "context": 131072,
           "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
         }
       },
       "meta-llama/llama-4-scout-17b-16e-instruct": {
@@ -55960,7 +57066,7 @@
         "release_date": "1724053211",
         "features": {
           "attachment": false,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false
         },
         "modalities": {
@@ -56037,6 +57143,25 @@
         },
         "modalities": {
           "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "CohereLabs/command-a-vision-07-2025": {
+        "id": "CohereLabs/command-a-vision-07-2025",
+        "name": "CohereLabs/command-a-vision-07-2025",
+        "release_date": "1753689307",
+        "features": {
+          "attachment": true,
+          "tool_call": false,
+          "structured_output": false
+        },
+        "modalities": {
+          "input": [
+            "image",
             "text"
           ],
           "output": [
@@ -56348,7 +57473,7 @@
         "features": {
           "attachment": false,
           "tool_call": false,
-          "structured_output": true
+          "structured_output": false
         },
         "pricing": {
           "input": 0.3,
@@ -57267,6 +58392,31 @@
           ]
         }
       },
+      "NousResearch/Hermes-2-Pro-Llama-3-8B": {
+        "id": "NousResearch/Hermes-2-Pro-Llama-3-8B",
+        "name": "NousResearch/Hermes-2-Pro-Llama-3-8B",
+        "release_date": "1714436178",
+        "features": {
+          "attachment": false,
+          "tool_call": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.14
+        },
+        "limit": {
+          "context": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "openai/gpt-oss-120b": {
         "id": "openai/gpt-oss-120b",
         "name": "openai/gpt-oss-120b",
@@ -57643,31 +58793,6 @@
         "id": "Qwen/Qwen3-4B-Instruct-2507",
         "name": "Qwen/Qwen3-4B-Instruct-2507",
         "release_date": "1754391483",
-        "features": {
-          "attachment": false,
-          "tool_call": true,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.01,
-          "output": 0.03
-        },
-        "limit": {
-          "context": 262144
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "Qwen/Qwen3-4B-Thinking-2507": {
-        "id": "Qwen/Qwen3-4B-Thinking-2507",
-        "name": "Qwen/Qwen3-4B-Thinking-2507",
-        "release_date": "1754391747",
         "features": {
           "attachment": false,
           "tool_call": true,
@@ -58559,15 +59684,8 @@
         "release_date": "1765089004",
         "features": {
           "attachment": true,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false
-        },
-        "pricing": {
-          "input": 0.3,
-          "output": 0.9
-        },
-        "limit": {
-          "context": 131072
         },
         "modalities": {
           "input": [
@@ -60950,7 +62068,7 @@
           "cache_write": 0.08333333333333334
         },
         "limit": {
-          "context": 1048576,
+          "context": 1000000,
           "output": 8192
         },
         "modalities": {
@@ -77893,7 +79011,7 @@
           "input_audio": 0.7
         },
         "limit": {
-          "context": 1048576,
+          "context": 1000000,
           "output": 8192
         },
         "modalities": {

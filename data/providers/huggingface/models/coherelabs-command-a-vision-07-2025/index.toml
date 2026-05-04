@@ -1,6 +1,6 @@
-id = "zai-org/GLM-4.6V-Flash"
-name = "zai-org/GLM-4.6V-Flash"
-release_date = "1765089004"
+id = "CohereLabs/command-a-vision-07-2025"
+name = "CohereLabs/command-a-vision-07-2025"
+release_date = "1753689307"
 
 [features]
 attachment = true
