@@ -10,3 +10,8 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.022
+input = 0.22
+output = 1.8

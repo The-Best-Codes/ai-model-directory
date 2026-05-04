@@ -5,3 +5,7 @@ release_date = "1774396800"
 
 [features]
 attachment = true
+
+[limit]
+context = 64
+output = 184

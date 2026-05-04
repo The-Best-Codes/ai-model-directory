@@ -8,6 +8,9 @@ release_date = "1704412800"
 attachment = false
 temperature = true
 
+[limit]
+output = 20
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

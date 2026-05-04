@@ -11,3 +11,8 @@ reasoning = true
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 1
+output = 3.2

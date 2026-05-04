@@ -11,5 +11,9 @@ temperature = true
 tool_call = true
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "audio", "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

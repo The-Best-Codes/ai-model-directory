@@ -10,6 +10,9 @@ reasoning = true
 temperature = true
 tool_call = true
 
+[limit]
+output = 1
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
@@ -17,4 +20,4 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.056
 input = 0.56
-output = 1.68
+output = 1.6800000000000002

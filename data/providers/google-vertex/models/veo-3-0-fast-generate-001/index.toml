@@ -8,4 +8,4 @@ attachment = true
 
 [modalities]
 input = [ "image", "text", "video" ]
-output = [ "image", "text", "video" ]
+output = [ "audio", "image", "text", "video" ]

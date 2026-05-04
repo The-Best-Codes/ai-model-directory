@@ -5,4 +5,8 @@ open_weights = true
 release_date = "1742256000"
 
 [features]
-attachment = false
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

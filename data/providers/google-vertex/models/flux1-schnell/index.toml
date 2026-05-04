@@ -7,6 +7,10 @@ release_date = "1724404655"
 [features]
 attachment = true
 
+[limit]
+context = 1
+output = 1
+
 [modalities]
 input = [ "image" ]
 output = [ "image", "text" ]

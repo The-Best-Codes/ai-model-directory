@@ -18,3 +18,4 @@ output = [ "image", "text" ]
 
 [pricing]
 input = 0.5
+output = 3

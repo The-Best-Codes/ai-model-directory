@@ -6,6 +6,10 @@ release_date = "1743984000"
 [features]
 attachment = true
 
+[limit]
+context = 64
+output = 64
+
 [modalities]
 input = [ "audio" ]
 output = [ "audio" ]

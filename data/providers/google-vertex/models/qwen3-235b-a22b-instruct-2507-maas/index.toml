@@ -11,3 +11,7 @@ reasoning = true
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.22
+output = 0.88

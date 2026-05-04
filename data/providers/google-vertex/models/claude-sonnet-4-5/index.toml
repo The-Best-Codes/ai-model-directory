@@ -8,12 +8,16 @@ attachment = true
 reasoning = true
 tool_call = true
 
+[limit]
+context = 200000
+output = 64000
+
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.3
-cache_write = 3.75
-input = 3
-output = 15
+cache_read = 0.33
+cache_write = 4.13
+input = 3.3
+output = 16.5

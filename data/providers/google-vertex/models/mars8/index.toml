@@ -7,6 +7,10 @@ release_date = "1764828000"
 attachment = true
 temperature = true
 
+[limit]
+context = 64
+output = 8
+
 [modalities]
 input = [ "audio", "text" ]
 output = [ "audio" ]

@@ -8,6 +8,10 @@ release_date = "1750896000"
 attachment = true
 reasoning = true
 
+[limit]
+context = 256
+output = 32000
+
 [modalities]
-input = [ "image", "text" ]
+input = [ "audio", "image", "text" ]
 output = [ "text" ]

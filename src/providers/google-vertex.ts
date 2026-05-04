@@ -13,6 +13,8 @@ import type { ProviderDefinition } from "./types.ts";
 
 const apiKey = process.env.GOOGLE_VERTEX_TOKEN;
 
+const billingHeaders = { referer: "https://console.cloud.google.com" };
+
 const foundationModelsUrl = `https://cloudconsole-pa.clients6.google.com/v3/entityServices/AiplatformEntityService/schemas/AIPLATFORM_GRAPHQL:batchGraphql?key=${apiKey}`;
 const pricingUrl =
   "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing";
@@ -67,6 +69,59 @@ const foundationModelsResponseSchema = z.array(
 
 type ApiModel = z.infer<typeof apiModelSchema>;
 
+const serviceSchema = z.object({
+  serviceId: z.string(),
+  displayName: z.string(),
+});
+
+const servicesResponseSchema = z.object({
+  services: z.array(serviceSchema).optional(),
+  nextPageToken: z.string().optional(),
+});
+
+const skuSchema = z.object({
+  skuId: z.string(),
+  displayName: z.string(),
+});
+
+const skusResponseSchema = z.object({
+  skus: z.array(skuSchema).optional(),
+  nextPageToken: z.string().optional(),
+});
+
+const priceSchema = z.object({
+  rate: z
+    .object({
+      tiers: z.array(
+        z.object({
+          listPrice: z
+            .object({
+              units: z.string().optional(),
+              nanos: z.number().optional(),
+            })
+            .optional(),
+        }),
+      ),
+      unitInfo: z
+        .object({
+          unitQuantity: z.object({ value: z.string() }),
+        })
+        .optional(),
+    })
+    .optional(),
+});
+
+type SkuInfo = z.infer<typeof skuSchema>;
+
+type PricingField =
+  | "input"
+  | "output"
+  | "reasoning"
+  | "cache_read"
+  | "cache_write"
+  | "input_audio"
+  | "output_audio";
+
 const allModalities: readonly ModelModality[] = [
   "text",
   "image",
@@ -74,6 +129,72 @@ const allModalities: readonly ModelModality[] = [
   "video",
   "file",
 ];
+
+const skuPatterns: ReadonlyArray<{ pattern: RegExp; field: PricingField }> = [
+  {
+    pattern:
+      /^(.+?)\s+Thinking\s+Text\s+Output(?:\s+\([^)]*\))?\s+-\s+Predictions$/i,
+    field: "reasoning",
+  },
+  {
+    pattern:
+      /^(.+?)\s+Reasoning\s+Text\s+Output(?:\s+\([^)]*\))?\s+-\s+Predictions$/i,
+    field: "reasoning",
+  },
+  {
+    pattern: /^(.+?)\s+Text\s+Input\s+-\s+Predictions$/i,
+    field: "input",
+  },
+  {
+    pattern: /^(.+?)\s+Text\s+Output(?:\s+\([^)]*\))?\s+-\s+Predictions$/i,
+    field: "output",
+  },
+  {
+    pattern: /^(.+?)\s+Input\s+Text\s+Caching$/i,
+    field: "cache_read",
+  },
+  {
+    pattern: /^(.+?)\s+Cached\s+Text\s+Input\s+Tokens?$/i,
+    field: "cache_read",
+  },
+  {
+    pattern: /^(.+?)\s+Input\s+Text\s+Caching\s+Storage$/i,
+    field: "cache_write",
+  },
+  {
+    pattern: /^(.+?)\s+Text\s+Input\s+Cache\s+Storage\s+-\s+Predictions$/i,
+    field: "cache_write",
+  },
+  {
+    pattern:
+      /^(.+?)\s+(?:Text|Image|Audio|Video)\s+Input\s+Cach(?:e|ing)\s+Storage(?:\s+-\s+Predictions)?$/i,
+    field: "cache_write",
+  },
+  {
+    pattern:
+      /^(.+?)\s+Input\s+(?:Text|Image|Audio|Video)\s+Cach(?:e|ing)\s+Storage$/i,
+    field: "cache_write",
+  },
+  {
+    pattern: /^(.+?)\s+Audio\s+Input\s+-\s+Predictions$/i,
+    field: "input_audio",
+  },
+  {
+    pattern: /^(.+?)\s+Audio\s+Output\s+-\s+Predictions$/i,
+    field: "output_audio",
+  },
+  {
+    pattern: /^(.+?)\s+Input\s+Tokens?$/i,
+    field: "input",
+  },
+  {
+    pattern: /^(.+?)\s+Output\s+Tokens?$/i,
+    field: "output",
+  },
+];
+
+const maasPrefix =
+  /^Cloud\s+Vertex\s+AI\s+Model\s+Garden\s+Model\s+as\s+a\s+Service\s+/i;
 
 function normalizeWhitespace(value: string): string {
   return value.replace(/\s+/g, " ").trim();
@@ -109,6 +230,10 @@ function normalizePriceName(value: string): string {
     .trim();
 }
 
+function modelIdFromName(name: string): string {
+  return name.split("/").at(-1) ?? name;
+}
+
 function idToDisplayName(id: string): string {
   return id
     .replace(/-maas$/i, " MaaS")
@@ -122,10 +247,6 @@ function idToDisplayName(id: string): string {
     .replace(/\bmaas\b/g, "MaaS")
     .replace(/\b([a-z])/g, (match) => match.toUpperCase())
     .trim();
-}
-
-function modelIdFromName(name: string): string {
-  return name.split("/").at(-1) ?? name;
 }
 
 function parseCurrency(value: string): number | undefined {
@@ -231,7 +352,7 @@ function parseModalities(
   return orderedModalities(result);
 }
 
-function coarseModalitiesFromTypes(
+function modalitiesFromTypes(
   values: string[] | null | undefined,
 ): ModelModality[] | undefined {
   if (!values || values.length === 0) {
@@ -241,26 +362,26 @@ function coarseModalitiesFromTypes(
   const result = new Set<ModelModality>();
 
   for (const value of values) {
-    const normalized = value.toUpperCase();
-
-    if (normalized === "LANGUAGE") {
-      result.add("text");
-    }
-
-    if (normalized === "VISION") {
-      result.add("image");
-    }
-
-    if (normalized === "VIDEO") {
-      result.add("video");
-    }
-
-    if (normalized === "DOCS") {
-      result.add("file");
-    }
-
-    if (normalized === "DIALOGUE") {
-      result.add("audio");
+    switch (value.toUpperCase()) {
+      case "LANGUAGE":
+      case "TEXT":
+        result.add("text");
+        break;
+      case "VISION":
+      case "IMAGE":
+        result.add("image");
+        break;
+      case "VIDEO":
+        result.add("video");
+        break;
+      case "DOCS":
+      case "FILE":
+        result.add("file");
+        break;
+      case "DIALOGUE":
+      case "AUDIO":
+        result.add("audio");
+        break;
     }
   }
 
@@ -325,12 +446,12 @@ function refineModalities(
   return { input, output: refinedOutput };
 }
 
-function hasExplicitTokenLimitSource(text: string | undefined): boolean {
+function hasTokenLimitSource(text: string | undefined): boolean {
   if (!text) {
     return false;
   }
 
-  return /maximum input tokens|input token limit|context length|maximum output tokens|output token limit|max output/i.test(
+  return /maximum input tokens|input token limit|context length|maximum output tokens|output token limit|max output|\binputs?:\s*\d|\boutputs?:\s*\d/i.test(
     text,
   );
 }
@@ -429,22 +550,16 @@ function parseDocsPageSection(
     supportedInputsOutputs?.match(/Inputs:\s*(.+?)(?=\s*-\s*Outputs:|$)/i)?.[1],
   );
   const outputModalities = parseModalities(
-    supportedInputsOutputs?.match(/Outputs:\s*(.+)$/i)?.[1],
+    supportedInputsOutputs?.match(/Outputs?:\s*(.+)$/i)?.[1],
   );
-  const context = integerGreaterThanZero(
-    parseInteger(
-      tokenLimits?.match(
-        /(?:Maximum input tokens|Context length):\s*([^|]+)/i,
-      )?.[1] ?? "",
-    ),
-  );
-  const output = integerGreaterThanZero(
-    parseInteger(
-      tokenLimits?.match(
-        /(?:Maximum output tokens|Max output):\s*([^|]+)/i,
-      )?.[1] ?? "",
-    ),
-  );
+  const context = extractTokenLimit(tokenLimits, [
+    /(?:Maximum input tokens|Input token limit|Context length):\s*([^|]+)/i,
+    /Inputs?:\s*([^|]+)/i,
+  ]);
+  const output = extractTokenLimit(tokenLimits, [
+    /(?:Maximum output tokens|Max output|Output token limit):\s*([^|]+)/i,
+    /Outputs?:\s*([^|]+)/i,
+  ]);
   const releaseDate = text.match(
     /Release date:\s*([A-Za-z]+\s+\d{1,2},\s+\d{4})/i,
   )?.[1];
@@ -466,11 +581,12 @@ function parseDocsPageSection(
       )
         ? true
         : undefined,
-      tool_call: /\bfunction calling\b|\btool use\b|\bcomputer use\b/i.test(
-        supportedCapabilities,
-      )
-        ? true
-        : undefined,
+      tool_call:
+        /\bfunction calling\b|\btool use\b|\bcomputer use\b|\btool orchestration\b/i.test(
+          supportedCapabilities,
+        )
+          ? true
+          : undefined,
       structured_output: /\bstructured output\b/i.test(supportedCapabilities)
         ? true
         : undefined,
@@ -574,6 +690,7 @@ function extractReleaseDateFromDocumentations(
     id,
     model.versionExternalName,
     model.versionExternalName?.split("/").at(-1),
+    model.versionExternalName?.split("@").at(0),
   ].filter((value): value is string => Boolean(value));
 
   for (const documentation of model.documentations ?? []) {
@@ -622,7 +739,7 @@ function extractInlinePrices(
       "cache_read",
       /(?:Cache Hit|Cache Read|cached input)\s*:\s*(\$\s*\d+(?:\.\d+)?)/i,
     ],
-    ["cache_write", /Cache Write\s*:\s*(\$\s*\d+(?:\.\d+)?)/i],
+    ["cache_write", /(?:5m\s+)?Cache Write\s*:\s*(\$\s*\d+(?:\.\d+)?)/i],
     ["input_audio", /Input audio\s*:\s*(\$\s*\d+(?:\.\d+)?)/i],
     ["output_audio", /Output audio\s*:\s*(\$\s*\d+(?:\.\d+)?)/i],
     ["input", /(?:^|\b)Input\s*:\s*(\$\s*\d+(?:\.\d+)?)/i],
@@ -732,7 +849,7 @@ function parsePricingRows(html: string): Map<string, ModelRecord["pricing"]> {
     const compact = compactObject(existing) as ModelRecord["pricing"];
     const modelKey = normalizePriceKey(currentModelName);
 
-    if (Object.keys(compact ?? {}).length > 0 && !result.has(modelKey)) {
+    if (Object.keys(compact ?? {}).length > 0) {
       result.set(modelKey, compact);
     }
   });
@@ -740,18 +857,83 @@ function parsePricingRows(html: string): Map<string, ModelRecord["pricing"]> {
   return result;
 }
 
+function normalizeKey(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/\bga\b/g, " ")
+    .replace(/\b(global|regional)\b/g, " ")
+    .replace(/\b(openai)\b/g, " ")
+    .replace(/(\d+)\.0\b/g, "$1")
+    .replace(/[^a-z0-9]+/g, "")
+    .trim();
+}
+
+function modelKeys(model: ApiModel): string[] {
+  const id = modelIdFromName(model.name);
+  const stripped = id
+    .replace(/-maas$/i, "")
+    .replace(/-preview(?:-.*)?$/i, "")
+    .replace(/-experimental$/i, "");
+  const versionExternalName = model.versionExternalName
+    ?.split("/")
+    .at(-1)
+    ?.replace(/@.*$/, "");
+
+  const candidates = new Set<string>([
+    stripped,
+    stripped.replace(/-instruct$/i, ""),
+    stripped.replace(/-it$/i, ""),
+    idToDisplayName(stripped),
+  ]);
+
+  if (model.displayName) {
+    candidates.add(model.displayName);
+  }
+
+  if (versionExternalName) {
+    candidates.add(versionExternalName);
+  }
+
+  return [...candidates].map(normalizeKey).filter((entry) => entry.length > 0);
+}
+
+function classifySku(sku: SkuInfo):
+  | {
+      field: PricingField;
+      key: string;
+    }
+  | undefined {
+  const cleaned = sku.displayName.trim().replace(maasPrefix, "");
+
+  for (const { pattern, field } of skuPatterns) {
+    const match = cleaned.match(pattern);
+
+    if (match?.[1]) {
+      return { field, key: normalizeKey(match[1]) };
+    }
+  }
+
+  return undefined;
+}
+
 function buildPricingAliases(
   model: ApiModel,
   resolvedId: string,
   name: string,
 ): string[] {
+  const versionExternalName =
+    model.versionExternalName?.split("/").at(-1) ?? "";
+  const versionAlias = versionExternalName.replace(/@.*$/, "");
   const aliases = new Set<string>([
     name,
     model.displayName ?? "",
     resolvedId,
+    resolvedId.replace(/-maas$/i, ""),
     idToDisplayName(resolvedId),
+    idToDisplayName(resolvedId.replace(/-maas$/i, "")),
     model.versionExternalName ?? "",
-    model.versionExternalName?.split("/").at(-1) ?? "",
+    versionExternalName,
+    versionAlias,
   ]);
 
   if (/flash-lite/i.test(name) || /flash-lite/i.test(resolvedId)) {
@@ -762,12 +944,14 @@ function buildPricingAliases(
     aliases.add("Gemini 2.5 Flash Live API");
   }
 
-  if (/^gemini-embedding-2/i.test(resolvedId)) {
+  if (/^gemini-embedding-2/.test(resolvedId)) {
     aliases.add("Gemini Embedding 2");
     aliases.add("Gemini Embedding 2 Preview");
   }
 
   if (/gpt-oss/i.test(resolvedId)) {
+    aliases.add("gpt-oss-120b");
+    aliases.add("gpt-oss-20b");
     aliases.add("OpenAI gpt-oss 120B");
     aliases.add("OpenAI gpt-oss 20B");
   }
@@ -866,7 +1050,114 @@ async function fetchFoundationModels(): Promise<ApiModel[]> {
   );
 }
 
-async function fetchPricing(): Promise<Map<string, ModelRecord["pricing"]>> {
+async function fetchVertexServiceId(): Promise<string> {
+  let pageToken: string | undefined;
+
+  while (true) {
+    const url = new URL("https://cloudbilling.googleapis.com/v2beta/services");
+    url.searchParams.set("key", apiKey ?? "");
+    url.searchParams.set("pageSize", "100");
+
+    if (pageToken) {
+      url.searchParams.set("pageToken", pageToken);
+    }
+
+    const response = await fetchJson(url, {
+      schema: servicesResponseSchema,
+      headers: billingHeaders,
+      label: "Google Vertex billing services error",
+    });
+
+    const match = response.services?.find(
+      (service) => service.displayName === "Vertex AI",
+    );
+
+    if (match) {
+      return match.serviceId;
+    }
+
+    if (!response.nextPageToken) {
+      throw new Error("Vertex AI service not found in Cloud Billing catalog");
+    }
+
+    pageToken = response.nextPageToken;
+  }
+}
+
+async function fetchVertexSkus(serviceId: string): Promise<SkuInfo[]> {
+  const result: SkuInfo[] = [];
+  let pageToken: string | undefined;
+
+  while (true) {
+    const url = new URL("https://cloudbilling.googleapis.com/v2beta/skus");
+    url.searchParams.set("key", apiKey ?? "");
+    url.searchParams.set("pageSize", "5000");
+    url.searchParams.set("filter", `service="services/${serviceId}"`);
+
+    if (pageToken) {
+      url.searchParams.set("pageToken", pageToken);
+    }
+
+    const response = await fetchJson(url, {
+      schema: skusResponseSchema,
+      headers: billingHeaders,
+      label: "Google Vertex billing skus error",
+    });
+
+    if (response.skus) {
+      result.push(...response.skus);
+    }
+
+    if (!response.nextPageToken) {
+      return result;
+    }
+
+    pageToken = response.nextPageToken;
+  }
+}
+
+async function fetchSkuPricePerMillion(
+  skuId: string,
+): Promise<number | undefined> {
+  const url = `https://cloudbilling.googleapis.com/v1beta/skus/${skuId}/price?key=${apiKey}&currencyCode=USD`;
+
+  try {
+    const response = await fetchJson(url, {
+      schema: priceSchema,
+      headers: billingHeaders,
+      label: "Google Vertex sku price error",
+    });
+
+    const tier = response.rate?.tiers[0]?.listPrice;
+    const quantityValue = response.rate?.unitInfo?.unitQuantity?.value;
+
+    if (!tier || !quantityValue) {
+      return undefined;
+    }
+
+    const dollars = Number(tier.units ?? "0") + (tier.nanos ?? 0) / 1e9;
+    const quantity = Number(quantityValue);
+
+    if (
+      !Number.isFinite(dollars) ||
+      !Number.isFinite(quantity) ||
+      quantity <= 0
+    ) {
+      return undefined;
+    }
+
+    const perMillion = (dollars / quantity) * 1_000_000;
+    return Number.isFinite(perMillion) && perMillion >= 0
+      ? perMillion
+      : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+async function fetchPricingFallback(): Promise<
+  Map<string, ModelRecord["pricing"]>
+> {
   try {
     const html = await fetchText(pricingUrl, {
       init: { redirect: "follow" },
@@ -919,6 +1210,51 @@ async function fetchDocsPageModel(
   }
 }
 
+function indexSkus(skus: SkuInfo[]): Map<string, Map<PricingField, string>> {
+  const index = new Map<string, Map<PricingField, string>>();
+
+  for (const sku of skus) {
+    const classified = classifySku(sku);
+
+    if (!classified) {
+      continue;
+    }
+
+    const fieldsForKey =
+      index.get(classified.key) ?? new Map<PricingField, string>();
+
+    if (!fieldsForKey.has(classified.field)) {
+      fieldsForKey.set(classified.field, sku.skuId);
+      index.set(classified.key, fieldsForKey);
+    }
+  }
+
+  return index;
+}
+
+function lookupSkuIdsForModel(
+  model: ApiModel,
+  index: Map<string, Map<PricingField, string>>,
+): Map<PricingField, string> {
+  const result = new Map<PricingField, string>();
+
+  for (const key of modelKeys(model)) {
+    const fields = index.get(key);
+
+    if (!fields) {
+      continue;
+    }
+
+    for (const [field, skuId] of fields) {
+      if (!result.has(field)) {
+        result.set(field, skuId);
+      }
+    }
+  }
+
+  return result;
+}
+
 function deriveApiModel(model: ApiModel): ModelRecord {
   const id = modelIdFromName(model.name);
   const propertyMap = collectPropertyMap(model.documentations);
@@ -941,21 +1277,24 @@ function deriveApiModel(model: ApiModel): ModelRecord {
       supportedDataTypes?.match(
         /Inputs?:\s*(.+?)(?=Output:|Outputs?:|$)/i,
       )?.[1],
-    ) ?? coarseModalitiesFromTypes(model.inputTypes);
+    ) ?? modalitiesFromTypes(model.inputTypes);
   const output =
     parseModalities(supportedDataTypes?.match(/Outputs?:\s*(.+)$/i)?.[1]) ??
-    coarseModalitiesFromTypes(model.outputTypes);
+    modalitiesFromTypes(model.outputTypes);
   const modalities = refineModalities(model, supportedDataTypes, input, output);
-  const tokenLimitSource = hasExplicitTokenLimitSource(tokenLimits)
+  const tokenLimitSource = hasTokenLimitSource(tokenLimits)
     ? tokenLimits
-    : hasExplicitTokenLimitSource(documentationText)
+    : hasTokenLimitSource(documentationText)
       ? documentationText
-      : undefined;
+      : (tokenLimits ?? documentationText);
   const context = extractTokenLimit(tokenLimitSource, [
     /(?:Maximum input tokens|Input token limit|Context length):\s*([^|\n]+)/i,
+    /Inputs?:\s*([^|\n]+)/i,
   ]);
   const maxOutput = extractTokenLimit(tokenLimitSource, [
     /(?:Maximum output tokens|Output token limit|Max output):\s*([^|\n]+)/i,
+    /Outputs?:\s*([^|\n]+)/i,
+    /Output:\s*([^|\n]+)/i,
   ]);
   const releaseDate = extractReleaseDateFromDocumentations(model, id);
   const knowledgeCutoff =
@@ -1019,27 +1358,82 @@ export const googleVertexProvider: ProviderDefinition = {
   name: "google-vertex",
   outputDirectory: "data/providers/google-vertex/models",
   async fetchModels(progress) {
-    progress?.beginPhase("fetching", 2);
+    if (!apiKey) {
+      throw new Error("GOOGLE_VERTEX_TOKEN is not set");
+    }
 
-    const [apiModels, pricing] = await Promise.all([
-      fetchFoundationModels(),
-      fetchPricing(),
-    ]);
+    progress?.beginPhase("fetching", 3);
 
-    progress?.tick(`${foundationModelsUrl} (${apiModels.length})`, true);
-    progress?.tick(`${pricingUrl} (${pricing.size})`, true);
+    const apiModels = await fetchFoundationModels();
+    progress?.tick(`foundation models (${apiModels.length})`, true);
+
+    const serviceId = await fetchVertexServiceId();
+    progress?.tick(`vertex service ${serviceId}`, true);
+
+    const skus = await fetchVertexSkus(serviceId);
+    progress?.tick(`vertex skus (${skus.length})`, true);
+
+    const skuIndex = indexSkus(skus);
+    const modelSkuIds: Array<Map<PricingField, string>> = apiModels.map(
+      (model) => lookupSkuIdsForModel(model, skuIndex),
+    );
+    const uniqueSkuIds = [
+      ...new Set(modelSkuIds.flatMap((skuIds) => [...skuIds.values()])),
+    ];
+
+    progress?.beginPhase("pricing", uniqueSkuIds.length);
+
+    const priceMap = new Map<string, number>();
+
+    await mapWithConcurrency(uniqueSkuIds, 8, async (skuId) => {
+      const price = await fetchSkuPricePerMillion(skuId);
+
+      if (price !== undefined) {
+        priceMap.set(skuId, price);
+      }
+
+      progress?.tick(skuId, price !== undefined);
+    });
+
+    let pricingFallbackPromise:
+      | Promise<Map<string, ModelRecord["pricing"]>>
+      | undefined;
 
     progress?.beginPhase("enriching", apiModels.length);
 
-    const models = await mapWithConcurrency(apiModels, 8, async (apiModel) => {
+    return mapWithConcurrency(apiModels, 8, async (apiModel, index) => {
       const id = modelIdFromName(apiModel.name);
       const apiRecord = deriveApiModel(apiModel);
       const docsRecord = await fetchDocsPageModel(id);
       const name =
         apiRecord.name ?? apiModel.displayName ?? docsRecord?.name ?? id;
-      const pricingRecord = buildPricingAliases(apiModel, id, name)
-        .map((alias) => pricing.get(normalizePriceKey(alias)))
-        .find((value) => value !== undefined);
+      const skuIds = modelSkuIds[index] ?? new Map<PricingField, string>();
+      const billingPricing = {} as Partial<NonNullable<ModelRecord["pricing"]>>;
+
+      for (const [field, skuId] of skuIds) {
+        const price = priceMap.get(skuId);
+
+        if (price !== undefined) {
+          billingPricing[field] = price;
+        }
+      }
+
+      const needsPricingFallback =
+        Object.keys(billingPricing).length === 0 ||
+        billingPricing.cache_write === undefined;
+
+      const pricingFallback = needsPricingFallback
+        ? await (pricingFallbackPromise ??= fetchPricingFallback())
+        : undefined;
+      const fallbackPricing = pricingFallback
+        ? buildPricingAliases(apiModel, id, name)
+            .map((alias) => pricingFallback.get(normalizePriceKey(alias)))
+            .find((value) => value !== undefined)
+        : undefined;
+      const pricing = compactObject({
+        ...(fallbackPricing ?? {}),
+        ...billingPricing,
+      }) as ModelRecord["pricing"] | undefined;
 
       progress?.tick(id, true);
 
@@ -1064,10 +1458,8 @@ export const googleVertexProvider: ProviderDefinition = {
           output:
             apiRecord.modalities?.output ?? docsRecord?.modalities?.output,
         }),
-        pricing: pricingRecord,
+        pricing,
       }) as ModelRecord;
     });
-
-    return models;
   },
 };
