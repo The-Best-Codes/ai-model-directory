@@ -1,0 +1,7 @@
+name = "LLM Gateway"
+website = "https://llmgateway.io"
+apiBaseUrl = "https://api.llmgateway.io/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["LLMGATEWAY_API_KEY"]
