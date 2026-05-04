@@ -113,7 +113,10 @@ export async function buildAll(rootDirectory: string): Promise<{
   }
 
   const outputFile = join(rootDirectory, "data", "all.json");
+  const minOutputFile = join(rootDirectory, "data", "all.min.json");
+
   await Bun.write(outputFile, `${JSON.stringify(result, null, 2)}\n`);
+  await Bun.write(minOutputFile, JSON.stringify(result));
 
   return {
     outputFile,
