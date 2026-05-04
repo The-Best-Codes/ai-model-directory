@@ -1,0 +1,14 @@
+id = "phi4"
+last_updated = "1770078790"
+name = "Phi-4"
+open_weights = true
+release_date = "1737576063"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

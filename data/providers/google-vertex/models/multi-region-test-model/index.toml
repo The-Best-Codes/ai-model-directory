@@ -1,0 +1,11 @@
+id = "multi-region-test-model"
+last_updated = "1777424551"
+name = "Multi Region Test Model"
+release_date = "1712963019"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,12 @@
+id = "lmsys-vicuna-7b"
+last_updated = "1769794684"
+name = "Vicuna"
+open_weights = true
+release_date = "1698019200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

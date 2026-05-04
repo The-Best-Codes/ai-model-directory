@@ -1,0 +1,14 @@
+id = "text-embedding-005"
+last_updated = "1770671645"
+name = "Embeddings for Text"
+release_date = "1713830400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.000025

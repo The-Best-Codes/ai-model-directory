@@ -1,0 +1,12 @@
+id = "csm"
+last_updated = "1742491260"
+name = "Sesame CSM"
+open_weights = true
+release_date = "1742256000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

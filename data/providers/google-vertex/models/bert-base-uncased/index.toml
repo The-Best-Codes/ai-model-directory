@@ -1,0 +1,12 @@
+id = "bert-base-uncased"
+last_updated = "1776864310"
+name = "BERT (PEFT)"
+open_weights = true
+release_date = "1689199212"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

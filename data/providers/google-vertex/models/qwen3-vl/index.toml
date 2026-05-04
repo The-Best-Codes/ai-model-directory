@@ -1,0 +1,13 @@
+id = "qwen3-vl"
+last_updated = "1769794636"
+name = "Qwen3-VL"
+open_weights = true
+release_date = "1754589323"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+
+[modalities]
+output = [ "text" ]

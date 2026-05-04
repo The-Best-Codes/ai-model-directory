@@ -1,0 +1,14 @@
+id = "mistral-large-3"
+last_updated = "1769102692"
+name = "Mistral Large 3"
+open_weights = true
+release_date = "1764835200"
+
+[features]
+attachment = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

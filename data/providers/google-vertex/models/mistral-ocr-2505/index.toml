@@ -1,0 +1,16 @@
+id = "mistral-ocr-2505"
+last_updated = "1770240610"
+name = "Mistral OCR (25.05)"
+release_date = "1747958400"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.0005
+output = 0.0005

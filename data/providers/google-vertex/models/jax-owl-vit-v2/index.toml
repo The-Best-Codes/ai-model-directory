@@ -1,0 +1,12 @@
+id = "jax-owl-vit-v2"
+last_updated = "1728323469"
+name = "OWL-ViT v2"
+open_weights = true
+release_date = "1698019200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]

@@ -1,0 +1,12 @@
+id = "derm-foundation"
+last_updated = "1770682821"
+name = "Derm Foundation"
+open_weights = true
+release_date = "1732147200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

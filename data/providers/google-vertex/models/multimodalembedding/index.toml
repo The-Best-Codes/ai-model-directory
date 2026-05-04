@@ -1,0 +1,11 @@
+id = "multimodalembedding"
+last_updated = "1770682739"
+name = "Embeddings for Multimodal"
+release_date = "1707264000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]

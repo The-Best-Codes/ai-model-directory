@@ -1,0 +1,13 @@
+id = "t5gemma"
+last_updated = "1766081783"
+name = "T5Gemma"
+open_weights = true
+release_date = "1766016000"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

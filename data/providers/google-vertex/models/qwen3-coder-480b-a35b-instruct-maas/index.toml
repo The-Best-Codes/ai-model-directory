@@ -1,0 +1,12 @@
+id = "qwen3-coder-480b-a35b-instruct-maas"
+last_updated = "1769794668"
+name = "Qwen3 Coder API Service"
+open_weights = true
+release_date = "1753918209"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

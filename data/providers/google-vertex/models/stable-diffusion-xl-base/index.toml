@@ -1,0 +1,12 @@
+id = "stable-diffusion-xl-base"
+last_updated = "1770227315"
+name = "Stable Diffusion XL"
+open_weights = true
+release_date = "1691712000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

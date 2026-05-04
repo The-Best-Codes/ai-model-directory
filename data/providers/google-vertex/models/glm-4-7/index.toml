@@ -1,0 +1,18 @@
+id = "glm-4.7"
+last_updated = "1770397952"
+name = "GLM 4.7"
+open_weights = true
+release_date = "1769530815"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.2

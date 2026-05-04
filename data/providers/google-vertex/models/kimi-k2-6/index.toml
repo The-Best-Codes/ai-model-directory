@@ -1,0 +1,15 @@
+id = "kimi-k2-6"
+last_updated = "1777473051"
+name = "Kimi-K2.6"
+open_weights = true
+release_date = "1777473051"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

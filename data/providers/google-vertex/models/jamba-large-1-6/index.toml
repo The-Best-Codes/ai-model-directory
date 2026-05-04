@@ -1,0 +1,12 @@
+id = "jamba-large-1.6"
+last_updated = "1776865709"
+name = "Jamba Large 1.6"
+release_date = "1740787200"
+
+[features]
+attachment = true
+temperature = true
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

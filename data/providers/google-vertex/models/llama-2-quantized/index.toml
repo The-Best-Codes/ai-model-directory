@@ -1,0 +1,13 @@
+id = "llama-2-quantized"
+last_updated = "1770078726"
+name = "Llama 2 (Quantized)"
+open_weights = true
+release_date = "1691098530"
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

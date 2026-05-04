@@ -1,0 +1,13 @@
+id = "prompt-guard"
+last_updated = "1770078714"
+name = "Prompt Guard"
+open_weights = true
+release_date = "1745884800"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

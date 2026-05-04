@@ -1,0 +1,12 @@
+id = "path-foundation"
+last_updated = "1770671654"
+name = "Path Foundation"
+open_weights = true
+release_date = "1732147200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

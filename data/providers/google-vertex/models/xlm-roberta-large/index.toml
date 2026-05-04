@@ -1,0 +1,12 @@
+id = "xlm-roberta-large"
+last_updated = "1770078790"
+name = "XLM-RoBERTa-large (PEFT)"
+open_weights = true
+release_date = "1711929600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

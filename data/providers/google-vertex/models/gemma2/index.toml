@@ -1,0 +1,13 @@
+id = "gemma2"
+last_updated = "1777853603"
+name = "Gemma 2"
+open_weights = true
+release_date = "1719446400"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

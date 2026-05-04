@@ -1,0 +1,15 @@
+id = "functiongemma"
+last_updated = "1768938834"
+name = "FunctionGemma"
+open_weights = true
+release_date = "1766016000"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

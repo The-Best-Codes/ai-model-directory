@@ -1,0 +1,13 @@
+id = "llama4"
+last_updated = "1775679503"
+name = "Llama 4"
+open_weights = true
+release_date = "1743873007"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

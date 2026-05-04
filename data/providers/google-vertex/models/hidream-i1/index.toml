@@ -1,0 +1,12 @@
+id = "hidream-i1"
+last_updated = "1770227274"
+name = "HiDream-I1"
+open_weights = true
+release_date = "1745193600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

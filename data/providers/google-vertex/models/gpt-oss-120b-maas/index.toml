@@ -1,0 +1,15 @@
+id = "gpt-oss-120b-maas"
+last_updated = "1770078798"
+name = "GPT OSS API Service"
+open_weights = true
+release_date = "1754530545"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

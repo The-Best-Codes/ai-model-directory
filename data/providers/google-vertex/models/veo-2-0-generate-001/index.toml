@@ -1,0 +1,11 @@
+id = "veo-2.0-generate-001"
+last_updated = "1776865420"
+name = "Veo 2 for Generation"
+release_date = "1739404800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

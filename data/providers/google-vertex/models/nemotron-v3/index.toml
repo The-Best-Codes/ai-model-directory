@@ -1,0 +1,16 @@
+id = "nemotron-v3"
+last_updated = "1769102692"
+name = "NVIDIA Nemotron V3"
+open_weights = true
+release_date = "1767432603"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,12 @@
+id = "flux1-schnell"
+last_updated = "1776865738"
+name = "Flux"
+open_weights = true
+release_date = "1724404655"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image", "text" ]

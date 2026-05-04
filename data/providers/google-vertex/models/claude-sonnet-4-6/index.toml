@@ -1,0 +1,19 @@
+id = "claude-sonnet-4-6"
+last_updated = "1776865731"
+name = "Claude Sonnet 4.6"
+release_date = "1768955233"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+cache_write = 3.75
+input = 3
+output = 15

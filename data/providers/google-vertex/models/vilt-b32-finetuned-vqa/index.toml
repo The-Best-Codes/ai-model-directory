@@ -1,0 +1,12 @@
+id = "vilt-b32-finetuned-vqa"
+last_updated = "1776865760"
+name = "ViLT VQA"
+open_weights = true
+release_date = "1682899200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]

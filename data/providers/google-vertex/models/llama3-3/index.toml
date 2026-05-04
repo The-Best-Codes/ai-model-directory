@@ -1,0 +1,14 @@
+id = "llama3-3"
+last_updated = "1777319513"
+name = "Llama 3.3"
+open_weights = true
+release_date = "1733443200"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

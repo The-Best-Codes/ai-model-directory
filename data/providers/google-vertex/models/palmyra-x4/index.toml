@@ -1,0 +1,13 @@
+id = "palmyra-x4"
+last_updated = "1770401839"
+name = "Palmyra X4 (Self-Deploy)"
+release_date = "1759467600"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

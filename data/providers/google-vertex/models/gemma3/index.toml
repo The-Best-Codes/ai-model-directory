@@ -1,0 +1,13 @@
+id = "gemma3"
+last_updated = "1777319513"
+name = "Gemma 3"
+open_weights = true
+release_date = "1741737600"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,13 @@
+id = "dia-1.6b"
+last_updated = "1770078808"
+name = "Dia-1.6B"
+open_weights = true
+release_date = "1744934400"
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

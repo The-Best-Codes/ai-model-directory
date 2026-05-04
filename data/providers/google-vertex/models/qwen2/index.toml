@@ -1,0 +1,13 @@
+id = "qwen2"
+last_updated = "1769794689"
+name = "Qwen2 & Qwen2.5"
+open_weights = true
+release_date = "1727672400"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

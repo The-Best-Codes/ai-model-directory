@@ -1,0 +1,12 @@
+id = "openclip"
+last_updated = "1720616569"
+name = "OpenCLIP"
+open_weights = true
+release_date = "1691543045"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]

@@ -1,0 +1,13 @@
+id = "codestral-2501-self-deploy"
+last_updated = "1770227274"
+name = "Codestral (25.01) (Self-Deploy)"
+release_date = "1743444990"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

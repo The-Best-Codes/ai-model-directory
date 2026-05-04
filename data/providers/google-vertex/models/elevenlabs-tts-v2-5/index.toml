@@ -1,0 +1,11 @@
+id = "elevenlabs-tts-v2-5"
+last_updated = "1777401440"
+name = "ElevenLabs TTS V2.5"
+release_date = "1771610544"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

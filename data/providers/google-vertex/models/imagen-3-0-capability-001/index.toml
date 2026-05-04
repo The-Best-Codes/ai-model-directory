@@ -1,0 +1,11 @@
+id = "imagen-3.0-capability-001"
+last_updated = "1770671654"
+name = "Imagen for Editing and Customization"
+release_date = "1733788800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

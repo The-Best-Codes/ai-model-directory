@@ -1,0 +1,17 @@
+id = "codestral-2"
+last_updated = "1771440587"
+name = "Codestral 2"
+release_date = "1760572800"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.9

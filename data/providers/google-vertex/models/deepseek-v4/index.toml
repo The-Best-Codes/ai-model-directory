@@ -1,0 +1,14 @@
+id = "deepseek-v4"
+last_updated = "1777484258"
+name = "DeepSeek-V4"
+open_weights = true
+release_date = "1777005378"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

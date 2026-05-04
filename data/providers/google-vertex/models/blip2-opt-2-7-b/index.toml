@@ -1,0 +1,12 @@
+id = "blip2-opt-2.7-b"
+last_updated = "1769794749"
+name = "BLIP2"
+open_weights = true
+release_date = "1711929600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,12 @@
+id = "blip-vqa-base"
+last_updated = "1769794719"
+name = "BLIP VQA"
+open_weights = true
+release_date = "1680893346"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]

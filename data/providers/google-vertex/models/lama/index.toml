@@ -1,0 +1,12 @@
+id = "lama"
+last_updated = "1776865709"
+name = "LaMa (Large Mask Inpainting)"
+open_weights = true
+release_date = "1707264000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

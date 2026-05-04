@@ -1,0 +1,7 @@
+name = "Google Vertex"
+website = "https://cloud.google.com/vertex-ai"
+apiBaseUrl = "https://aiplatform.googleapis.com"
+
+[aiSdk]
+npmPackage = "@ai-sdk/google-vertex"
+defaultApiKeyEnv = ["GOOGLE_VERTEX_PROJECT", "GOOGLE_VERTEX_LOCATION", "GOOGLE_APPLICATION_CREDENTIALS"]

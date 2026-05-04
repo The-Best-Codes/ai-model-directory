@@ -1,0 +1,11 @@
+id = "imagen-3.0-generate-002"
+last_updated = "1770401717"
+name = "Imagen for Generation"
+release_date = "1737590400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

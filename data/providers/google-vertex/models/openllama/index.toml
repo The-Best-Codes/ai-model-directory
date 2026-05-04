@@ -1,0 +1,12 @@
+id = "openllama"
+last_updated = "1770227299"
+name = "OpenLLaMA (PEFT)"
+open_weights = true
+release_date = "1687912552"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

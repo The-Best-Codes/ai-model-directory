@@ -1,0 +1,11 @@
+id = "earth-ai-imagery-mammut-eap-10-2025"
+last_updated = "1776865162"
+name = "Imagery - Classification and Retrieval for Remote Sensing"
+release_date = "1760986679"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
