@@ -1,0 +1,7 @@
+name = "Helicone"
+website = "https://helicone.ai"
+apiBaseUrl = "https://ai-gateway.helicone.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["HELICONE_API_KEY"]
