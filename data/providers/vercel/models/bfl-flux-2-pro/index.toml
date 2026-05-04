@@ -13,3 +13,4 @@ output = 67300
 
 [modalities]
 input = [ "text" ]
+output = [ "image" ]

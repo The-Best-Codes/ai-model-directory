@@ -9,3 +9,4 @@ tool_call = false
 
 [modalities]
 input = [ "image", "text" ]
+output = [ "video" ]

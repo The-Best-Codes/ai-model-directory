@@ -12,3 +12,4 @@ context = 480
 
 [modalities]
 input = [ "text" ]
+output = [ "image" ]
