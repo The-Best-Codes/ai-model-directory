@@ -1,0 +1,21 @@
+id = "inception/mercury-2"
+name = "Mercury 2"
+release_date = "1771891200"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.025
+input = 0.25
+output = 0.75

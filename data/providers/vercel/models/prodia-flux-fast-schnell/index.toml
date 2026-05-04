@@ -1,0 +1,14 @@
+id = "prodia/flux-fast-schnell"
+name = "Flux Schnell"
+release_date = "1755815280"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]

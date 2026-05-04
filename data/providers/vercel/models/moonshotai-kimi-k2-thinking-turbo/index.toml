@@ -1,0 +1,21 @@
+id = "moonshotai/kimi-k2-thinking-turbo"
+name = "Kimi K2 Thinking Turbo"
+release_date = "1762387200"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262114
+output = 262114
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 1.15
+output = 8

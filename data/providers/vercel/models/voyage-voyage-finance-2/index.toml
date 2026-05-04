@@ -1,0 +1,6 @@
+id = "voyage/voyage-finance-2"
+name = "Voyage Finance 2"
+release_date = "1709251200"
+
+[pricing]
+input = 0.12

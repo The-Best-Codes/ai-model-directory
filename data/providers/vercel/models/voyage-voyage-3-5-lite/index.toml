@@ -1,0 +1,6 @@
+id = "voyage/voyage-3.5-lite"
+name = "Voyage 3.5 Lite"
+release_date = "1747699200"
+
+[pricing]
+input = 0.02

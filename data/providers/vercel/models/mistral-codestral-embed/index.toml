@@ -1,0 +1,6 @@
+id = "mistral/codestral-embed"
+name = "Codestral Embed"
+release_date = "1748390400"
+
+[pricing]
+input = 0.15

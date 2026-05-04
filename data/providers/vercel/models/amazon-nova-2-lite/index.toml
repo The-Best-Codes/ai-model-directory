@@ -1,0 +1,21 @@
+id = "amazon/nova-2-lite"
+name = "Nova 2 Lite"
+release_date = "1733011200"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 1000000
+output = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.3
+output = 2.5

@@ -1,0 +1,20 @@
+id = "arcee-ai/trinity-mini"
+name = "Trinity Mini"
+release_date = "1764547200"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.045
+output = 0.15

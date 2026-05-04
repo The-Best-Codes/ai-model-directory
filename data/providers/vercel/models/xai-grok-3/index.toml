@@ -1,0 +1,21 @@
+id = "xai/grok-3"
+name = "Grok 3 Beta"
+release_date = "1739750400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.75
+input = 3
+output = 15

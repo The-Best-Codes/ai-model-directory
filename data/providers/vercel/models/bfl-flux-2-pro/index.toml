@@ -1,0 +1,15 @@
+id = "bfl/flux-2-pro"
+name = "FLUX.2 [pro]"
+release_date = "1755815280"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 67300
+output = 67300
+
+[modalities]
+input = [ "text" ]

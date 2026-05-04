@@ -1,0 +1,22 @@
+id = "anthropic/claude-sonnet-4"
+name = "Claude Sonnet 4"
+release_date = "1747872000"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+cache_write = 3.75
+input = 3
+output = 15

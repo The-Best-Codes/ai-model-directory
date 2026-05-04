@@ -1,0 +1,22 @@
+id = "anthropic/claude-3.5-haiku"
+name = "Claude 3.5 Haiku"
+release_date = "1699228800"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[limit]
+context = 200000
+output = 8192
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+cache_write = 1
+input = 0.8
+output = 4

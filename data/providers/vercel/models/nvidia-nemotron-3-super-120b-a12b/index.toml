@@ -1,0 +1,20 @@
+id = "nvidia/nemotron-3-super-120b-a12b"
+name = "NVIDIA Nemotron 3 Super 120B A12B"
+release_date = "1773792000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.65

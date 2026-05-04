@@ -1,0 +1,21 @@
+id = "google/gemini-2.5-flash-image"
+name = "Nano Banana (Gemini 2.5 Flash Image)"
+release_date = "1742428800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.3
+output = 2.5

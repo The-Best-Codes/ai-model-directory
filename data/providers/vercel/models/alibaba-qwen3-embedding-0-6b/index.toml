@@ -1,0 +1,18 @@
+id = "alibaba/qwen3-embedding-0.6b"
+name = "Qwen3 Embedding 0.6B"
+release_date = "1763078400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.01

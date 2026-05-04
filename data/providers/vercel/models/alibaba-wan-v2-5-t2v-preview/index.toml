@@ -1,0 +1,11 @@
+id = "alibaba/wan-v2.5-t2v-preview"
+name = "Wan v2.5 Text-to-Video Preview"
+release_date = "1758672000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

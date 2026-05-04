@@ -1,0 +1,14 @@
+id = "amazon/nova-lite"
+name = "Nova Lite"
+release_date = "1733184000"
+
+[limit]
+context = 300000
+output = 8192
+
+[modalities]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.24

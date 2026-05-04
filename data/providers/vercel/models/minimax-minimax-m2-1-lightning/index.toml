@@ -1,0 +1,22 @@
+id = "minimax/minimax-m2.1-lightning"
+name = "MiniMax M2.1 Lightning"
+release_date = "1761523200"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 204800
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.375
+input = 0.3
+output = 2.4

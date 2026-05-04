@@ -1,0 +1,14 @@
+id = "alibaba/qwen3-next-80b-a3b-thinking"
+name = "Qwen3 Next 80B A3B Thinking"
+release_date = "1757635200"
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 1.2

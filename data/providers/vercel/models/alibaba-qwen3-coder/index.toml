@@ -1,0 +1,21 @@
+id = "alibaba/qwen3-coder"
+name = "Qwen3 Coder 480B A35B Instruct"
+release_date = "1743465600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 1.5
+output = 7.5

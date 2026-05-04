@@ -1,0 +1,16 @@
+id = "zai/glm-4.6v-flash"
+name = "GLM-4.6V-Flash"
+release_date = "1759190400"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 24000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

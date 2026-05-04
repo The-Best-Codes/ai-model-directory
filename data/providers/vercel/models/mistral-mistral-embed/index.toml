@@ -1,0 +1,6 @@
+id = "mistral/mistral-embed"
+name = "Mistral Embed"
+release_date = "1702252800"
+
+[pricing]
+input = 0.1

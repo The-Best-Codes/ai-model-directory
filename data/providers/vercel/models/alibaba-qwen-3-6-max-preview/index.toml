@@ -1,0 +1,22 @@
+id = "alibaba/qwen-3.6-max-preview"
+name = "Qwen 3.6 Max Preview"
+release_date = "1776643200"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 240000
+output = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.26
+cache_write = 1.625
+input = 1.3
+output = 7.8

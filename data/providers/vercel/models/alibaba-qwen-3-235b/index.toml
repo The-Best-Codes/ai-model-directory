@@ -1,0 +1,21 @@
+id = "alibaba/qwen-3-235b"
+name = "Qwen3 235B A22b Instruct 2507"
+release_date = "1743465600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131000
+output = 40000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.6
+input = 0.6
+output = 1.2

@@ -1,0 +1,21 @@
+id = "zai/glm-4.7-flashx"
+name = "GLM 4.7 FlashX"
+release_date = "1735689600"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.06
+output = 0.4

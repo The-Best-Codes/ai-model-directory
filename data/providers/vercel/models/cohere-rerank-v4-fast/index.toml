@@ -1,0 +1,15 @@
+id = "cohere/rerank-v4-fast"
+name = "Cohere Rerank 4 Fast"
+release_date = "1765411200"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 32000
+
+[modalities]
+input = [ "text" ]

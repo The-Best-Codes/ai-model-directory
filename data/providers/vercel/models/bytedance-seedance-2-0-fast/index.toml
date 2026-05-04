@@ -1,0 +1,11 @@
+id = "bytedance/seedance-2.0-fast"
+name = "Seedance 2.0 Fast"
+release_date = "1776124800"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]

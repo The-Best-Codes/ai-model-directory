@@ -1,0 +1,14 @@
+id = "bfl/flux-kontext-pro"
+name = "FLUX.1 Kontext Pro"
+release_date = "1748736000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]

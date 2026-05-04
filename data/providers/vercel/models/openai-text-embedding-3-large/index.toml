@@ -1,0 +1,6 @@
+id = "openai/text-embedding-3-large"
+name = "text-embedding-3-large"
+release_date = "1706140800"
+
+[pricing]
+input = 0.13

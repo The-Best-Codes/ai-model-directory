@@ -1,0 +1,6 @@
+id = "cohere/embed-v4.0"
+name = "Embed v4.0"
+release_date = "1744675200"
+
+[pricing]
+input = 0.12
