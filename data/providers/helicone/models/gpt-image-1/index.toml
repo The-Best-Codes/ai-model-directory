@@ -1,0 +1,22 @@
+id = "gpt-image-1"
+knowledge_cutoff = "1743465600"
+name = "OpenAI GPT Image 1"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 6.25
+output = 12.5

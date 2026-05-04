@@ -1,0 +1,22 @@
+id = "qwen3-235b-a22b-thinking"
+knowledge_cutoff = "1753401600"
+name = "Qwen3 235B A22B Thinking"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 262144
+output = 81920
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 2.9000000000000004

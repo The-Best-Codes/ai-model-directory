@@ -1,0 +1,22 @@
+id = "gemini-3-pro-image-preview"
+knowledge_cutoff = "1763618400"
+name = "Google Gemini 3 Pro Image Preview"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 65536
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2
+output = 12

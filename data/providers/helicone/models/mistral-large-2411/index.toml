@@ -1,0 +1,22 @@
+id = "mistral-large-2411"
+knowledge_cutoff = "1721779200"
+name = "Mistral-Large"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 6

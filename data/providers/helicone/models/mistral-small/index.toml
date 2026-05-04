@@ -1,0 +1,22 @@
+id = "mistral-small"
+knowledge_cutoff = "1708905600"
+name = "Mistral Small"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 75
+output = 200

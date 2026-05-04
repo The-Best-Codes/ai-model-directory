@@ -1,0 +1,23 @@
+id = "deepseek-v3.1-terminus"
+knowledge_cutoff = "1758499200"
+name = "DeepSeek V3.1 Terminus"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.21600000000000003
+input = 0.27
+output = 1
