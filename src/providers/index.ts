@@ -31,6 +31,7 @@ import { openrouterProvider } from "./openrouter.ts";
 import { tetrateProvider } from "./tetrate.ts";
 import { togetheraiProvider } from "./togetherai.ts";
 import { veniceProvider } from "./venice.ts";
+import { wandbProvider } from "./wandb.ts";
 import { xaiProvider } from "./xai.ts";
 
 export const providers: ProviderDefinition[] = [
@@ -66,5 +67,6 @@ export const providers: ProviderDefinition[] = [
   tetrateProvider,
   togetheraiProvider,
   veniceProvider,
+  wandbProvider,
   xaiProvider,
 ];

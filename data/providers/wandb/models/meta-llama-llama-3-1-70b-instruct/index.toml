@@ -1,0 +1,23 @@
+id = "meta-llama/Llama-3.1-70B-Instruct"
+name = "Meta: Llama 3.1 70B"
+release_date = "1721725200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.8
+input = 0.8
+output = 0.8

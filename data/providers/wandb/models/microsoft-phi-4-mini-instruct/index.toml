@@ -1,0 +1,23 @@
+id = "microsoft/Phi-4-mini-instruct"
+name = "Microsoft: Phi 4 Mini 3.8B"
+release_date = "1738400400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+input = 0.08
+output = 0.35
