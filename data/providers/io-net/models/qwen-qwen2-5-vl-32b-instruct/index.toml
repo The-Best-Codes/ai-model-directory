@@ -1,0 +1,16 @@
+id = "Qwen/Qwen2.5-VL-32B-Instruct"
+name = "Qwen: Qwen2.5 VL 32B Instruct"
+release_date = "1749659467"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05
+output = 0.22

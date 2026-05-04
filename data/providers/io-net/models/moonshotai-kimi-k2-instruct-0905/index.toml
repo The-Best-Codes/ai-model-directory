@@ -1,0 +1,18 @@
+id = "moonshotai/Kimi-K2-Instruct-0905"
+name = "MoonshotAI: Kimi K2 Instruct 0905"
+release_date = "1761910119"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.195
+cache_write = 0.78
+input = 0.39
+output = 1.9

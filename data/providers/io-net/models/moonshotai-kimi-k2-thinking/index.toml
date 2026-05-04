@@ -1,0 +1,18 @@
+id = "moonshotai/Kimi-K2-Thinking"
+name = "MoonshotAI: Kimi K2 Thinking"
+release_date = "1763054555"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.16
+cache_write = 0.64
+input = 0.32
+output = 0.48

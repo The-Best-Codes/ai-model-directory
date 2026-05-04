@@ -1,0 +1,18 @@
+id = "deepseek-ai/DeepSeek-V3.2"
+name = "DeepSeek: DeepSeek V3.2"
+release_date = "1764613751"
+
+[features]
+attachment = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.125
+cache_write = 0.5
+input = 0.25
+output = 0.38

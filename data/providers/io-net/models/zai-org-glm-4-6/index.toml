@@ -1,0 +1,18 @@
+id = "zai-org/GLM-4.6"
+name = "Z.ai: GLM 4.6"
+release_date = "1761910868"
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.175
+cache_write = 0.7
+input = 0.35
+output = 1.5
