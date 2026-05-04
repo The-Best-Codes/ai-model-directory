@@ -1,0 +1,13 @@
+id = "gemma-4-26b-a4b-it-maas"
+last_updated = "1777326856"
+name = "Gemma 4 26B A4B IT API Service"
+release_date = "1775196037"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

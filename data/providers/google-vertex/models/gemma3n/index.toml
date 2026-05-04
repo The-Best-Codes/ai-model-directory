@@ -1,0 +1,13 @@
+id = "gemma3n"
+last_updated = "1772124938"
+name = "Gemma 3n"
+open_weights = true
+release_date = "1750896000"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

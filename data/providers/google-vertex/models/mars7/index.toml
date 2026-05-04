@@ -1,0 +1,11 @@
+id = "mars7"
+last_updated = "1776865772"
+name = "MARS7"
+release_date = "1743984000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

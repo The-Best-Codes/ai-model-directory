@@ -1,0 +1,12 @@
+id = "mars8"
+last_updated = "1776865818"
+name = "MARS8"
+release_date = "1764828000"
+
+[features]
+attachment = true
+temperature = true
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio" ]

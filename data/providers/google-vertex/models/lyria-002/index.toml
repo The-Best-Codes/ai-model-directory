@@ -1,0 +1,10 @@
+id = "lyria-002"
+last_updated = "1776865122"
+name = "Lyria 2 for Music Generation"
+release_date = "1747699200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

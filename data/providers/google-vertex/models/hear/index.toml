@@ -1,0 +1,8 @@
+id = "hear"
+last_updated = "1770671645"
+name = "HeAR"
+open_weights = true
+release_date = "1742256000"
+
+[features]
+attachment = false

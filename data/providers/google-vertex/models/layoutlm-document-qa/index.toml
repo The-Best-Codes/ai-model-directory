@@ -1,0 +1,12 @@
+id = "layoutlm-document-qa"
+last_updated = "1770078712"
+name = "LayoutLM for VQA"
+open_weights = true
+release_date = "1682899200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]

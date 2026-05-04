@@ -1,0 +1,7 @@
+id = "timesfm"
+last_updated = "1772824044"
+name = "TimesFM"
+release_date = "1772582400"
+
+[features]
+attachment = true

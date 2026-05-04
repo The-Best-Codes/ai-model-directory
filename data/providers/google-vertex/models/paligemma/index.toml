@@ -1,0 +1,9 @@
+id = "paligemma"
+last_updated = "1770682829"
+name = "PaliGemma 1 & 2"
+open_weights = true
+release_date = "1733356800"
+
+[features]
+attachment = true
+reasoning = true

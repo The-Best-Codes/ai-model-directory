@@ -1,0 +1,12 @@
+id = "glm-image"
+last_updated = "1770234182"
+name = "GLM-Image"
+open_weights = true
+release_date = "1770181258"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

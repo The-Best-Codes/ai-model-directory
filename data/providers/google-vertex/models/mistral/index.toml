@@ -1,0 +1,13 @@
+id = "mistral"
+last_updated = "1763502300"
+name = "Mistral Self-host (7B & Nemo)"
+open_weights = true
+release_date = "1698019200"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,12 @@
+id = "embeddinggemma"
+last_updated = "1764792015"
+name = "EmbeddingGemma"
+open_weights = true
+release_date = "1756944000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

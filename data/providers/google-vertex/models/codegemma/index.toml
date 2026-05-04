@@ -1,0 +1,12 @@
+id = "codegemma"
+last_updated = "1770401680"
+name = "CodeGemma"
+open_weights = true
+release_date = "1712620800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

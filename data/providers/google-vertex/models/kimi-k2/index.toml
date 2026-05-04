@@ -1,0 +1,14 @@
+id = "kimi-k2"
+last_updated = "1770397925"
+name = "Kimi-K2"
+open_weights = true
+release_date = "1753459463"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

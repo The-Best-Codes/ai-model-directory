@@ -1,0 +1,12 @@
+id = "t5-1.1"
+last_updated = "1682554759"
+name = "T5-1.1"
+open_weights = true
+release_date = "1683676800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

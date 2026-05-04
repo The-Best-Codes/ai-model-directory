@@ -1,0 +1,20 @@
+id = "deepseek-v3-2"
+last_updated = "1776865404"
+name = "DeepSeek-V3.2"
+open_weights = true
+release_date = "1759171898"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.056
+input = 0.56
+output = 1.68

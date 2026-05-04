@@ -1,0 +1,15 @@
+id = "kimi-k2-thinking-maas"
+last_updated = "1770401840"
+name = "Kimi K2 Thinking API Service"
+open_weights = true
+release_date = "1762565503"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,14 @@
+id = "llama-guard"
+last_updated = "1770078760"
+name = "Llama Guard"
+open_weights = true
+release_date = "1721692800"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

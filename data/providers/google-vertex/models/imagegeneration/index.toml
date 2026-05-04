@@ -1,0 +1,11 @@
+id = "imagegeneration"
+last_updated = "1770682779"
+name = "Imagen 2 for Generation and Editing"
+release_date = "1712620800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

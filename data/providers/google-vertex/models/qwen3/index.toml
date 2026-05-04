@@ -1,0 +1,18 @@
+id = "qwen3"
+last_updated = "1777319513"
+name = "Qwen3"
+open_weights = true
+release_date = "1753160400"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.22
+output = 0.88

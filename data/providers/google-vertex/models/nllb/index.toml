@@ -1,0 +1,12 @@
+id = "nllb"
+last_updated = "1770078798"
+name = "NLLB"
+open_weights = true
+release_date = "1696723200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

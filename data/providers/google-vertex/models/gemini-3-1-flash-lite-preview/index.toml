@@ -1,0 +1,22 @@
+id = "gemini-3.1-flash-lite-preview"
+last_updated = "1776864151"
+name = "Gemini 3.1 Flash Lite Preview"
+release_date = "1772496000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65535
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25

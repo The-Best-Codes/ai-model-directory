@@ -1,0 +1,13 @@
+id = "qwen3-next"
+last_updated = "1771616169"
+name = "Qwen3-Next"
+open_weights = true
+release_date = "1757635200"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

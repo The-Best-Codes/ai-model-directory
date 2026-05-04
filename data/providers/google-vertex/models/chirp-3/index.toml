@@ -1,0 +1,11 @@
+id = "chirp-3"
+last_updated = "1770222804"
+name = "Chirp 3"
+release_date = "1747839906"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

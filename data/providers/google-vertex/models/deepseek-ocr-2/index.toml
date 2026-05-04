@@ -1,0 +1,14 @@
+id = "deepseek-ocr-2"
+last_updated = "1776865404"
+name = "DeepSeek-OCR-2"
+open_weights = true
+release_date = "1761201861"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,18 @@
+id = "claude-opus-4-5"
+last_updated = "1776865793"
+name = "Claude Opus 4.5"
+release_date = "1763964000"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 6.25
+input = 5
+output = 25

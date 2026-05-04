@@ -1,0 +1,12 @@
+id = "stable-diffusion-2-1"
+last_updated = "1770227297"
+name = "Stable Diffusion v2.1"
+open_weights = true
+release_date = "1711929600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

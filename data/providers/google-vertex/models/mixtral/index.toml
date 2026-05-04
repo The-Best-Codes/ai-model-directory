@@ -1,0 +1,13 @@
+id = "mixtral"
+last_updated = "1769794684"
+name = "Mixtral"
+open_weights = true
+release_date = "1704412800"
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -17,6 +17,7 @@ import { friendliProvider } from "./friendli.ts";
 import { githubCopilotProvider } from "./github-copilot.ts";
 import { githubModelsProvider } from "./github-models.ts";
 import { googleProvider } from "./google.ts";
+import { googleVertexProvider } from "./google-vertex.ts";
 import { groqProvider } from "./groq.ts";
 import { huggingfaceProvider } from "./huggingface.ts";
 import { inceptionProvider } from "./inception.ts";
@@ -51,6 +52,7 @@ export const providers: ProviderDefinition[] = [
   githubCopilotProvider,
   githubModelsProvider,
   googleProvider,
+  googleVertexProvider,
   groqProvider,
   huggingfaceProvider,
   inceptionProvider,

@@ -1,0 +1,11 @@
+id = "veo-3.1-lite-generate-001"
+last_updated = "1776864366"
+name = "Veo 3.1 Lite for Video Generation"
+release_date = "1774396800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "image", "text", "video" ]

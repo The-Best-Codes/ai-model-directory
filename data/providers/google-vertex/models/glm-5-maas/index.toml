@@ -1,0 +1,13 @@
+id = "glm-5-maas"
+last_updated = "1770917023"
+name = "GLM 5 API Service"
+open_weights = true
+release_date = "1770710964"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,13 @@
+id = "txgemma"
+last_updated = "1770316232"
+name = "TxGemma"
+open_weights = true
+release_date = "1742860800"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,13 @@
+id = "deepseek-v3.2-maas"
+last_updated = "1776865415"
+name = "DeepSeek V3.2 API Service"
+open_weights = true
+release_date = "1764797026"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

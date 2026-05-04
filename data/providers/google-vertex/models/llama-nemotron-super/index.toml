@@ -1,0 +1,14 @@
+id = "llama-nemotron-super"
+last_updated = "1770078798"
+name = "NVIDIA Llama Nemotron Super 49B v1.5"
+open_weights = true
+release_date = "1761084167"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

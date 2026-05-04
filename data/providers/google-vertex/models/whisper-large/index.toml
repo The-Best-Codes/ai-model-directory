@@ -1,0 +1,11 @@
+id = "whisper-large"
+last_updated = "1774937333"
+name = "Whisper Large"
+open_weights = true
+release_date = "1728604800"
+
+[features]
+attachment = false
+
+[modalities]
+output = [ "text" ]

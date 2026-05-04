@@ -1,0 +1,12 @@
+id = "jina-embeddings-v3"
+last_updated = "1773968456"
+name = "Jina Embeddings v3"
+open_weights = true
+release_date = "1726617600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

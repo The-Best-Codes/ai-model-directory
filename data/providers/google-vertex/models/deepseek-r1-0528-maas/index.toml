@@ -1,0 +1,13 @@
+id = "deepseek-r1-0528-maas"
+last_updated = "1776865414"
+name = "DeepSeek R1 0528 API Service"
+open_weights = true
+release_date = "1749582423"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
