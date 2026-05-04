@@ -1,0 +1,22 @@
+id = "llama-3.1-8b-instant"
+knowledge_cutoff = "1719792000"
+name = "Meta Llama 3.1 8B Instant"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 32678
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.049999999999999996
+output = 0.08

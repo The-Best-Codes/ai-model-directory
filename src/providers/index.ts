@@ -19,6 +19,7 @@ import { githubCopilotProvider } from "./github-copilot.ts";
 import { githubModelsProvider } from "./github-models.ts";
 import { googleProvider } from "./google.ts";
 import { groqProvider } from "./groq.ts";
+import { heliconeProvider } from "./helicone.ts";
 import { huggingfaceProvider } from "./huggingface.ts";
 import { inceptionProvider } from "./inception.ts";
 import { kiloProvider } from "./kilo.ts";
@@ -56,6 +57,7 @@ export const providers: ProviderDefinition[] = [
   githubModelsProvider,
   googleProvider,
   groqProvider,
+  heliconeProvider,
   huggingfaceProvider,
   inceptionProvider,
   kiloProvider,

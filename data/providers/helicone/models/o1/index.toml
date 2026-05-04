@@ -1,0 +1,23 @@
+id = "o1"
+knowledge_cutoff = "1735689600"
+name = "OpenAI: o1"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 7.5
+input = 15
+output = 60
