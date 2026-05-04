@@ -8,6 +8,9 @@ attachment = true
 reasoning = true
 tool_call = true
 
+[limit]
+output = 32000
+
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]

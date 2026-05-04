@@ -12,3 +12,7 @@ tool_call = true
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.72
+output = 0.72

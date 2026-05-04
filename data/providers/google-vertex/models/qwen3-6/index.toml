@@ -11,6 +11,7 @@ temperature = true
 
 [limit]
 context = 262144
+output = 248320
 
 [modalities]
 input = [ "text" ]

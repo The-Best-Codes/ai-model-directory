@@ -7,6 +7,10 @@ release_date = "1760986679"
 attachment = true
 temperature = true
 
+[limit]
+context = 1008
+output = 500
+
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]

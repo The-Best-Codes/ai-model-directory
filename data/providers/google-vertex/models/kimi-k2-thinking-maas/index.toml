@@ -13,3 +13,8 @@ tool_call = true
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.6
+output = 2.5

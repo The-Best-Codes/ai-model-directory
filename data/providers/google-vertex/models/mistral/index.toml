@@ -8,6 +8,9 @@ release_date = "1698019200"
 attachment = false
 reasoning = true
 
+[limit]
+output = 7
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

@@ -7,12 +7,16 @@ release_date = "1763964000"
 attachment = true
 tool_call = true
 
+[limit]
+context = 200000
+output = 64000
+
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.5
-cache_write = 6.25
-input = 5
-output = 25
+cache_read = 0.55
+cache_write = 6.875
+input = 5.5
+output = 27.5

@@ -10,3 +10,7 @@ attachment = true
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

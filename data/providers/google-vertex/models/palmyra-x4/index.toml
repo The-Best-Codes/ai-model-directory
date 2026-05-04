@@ -8,6 +8,10 @@ attachment = true
 reasoning = true
 temperature = true
 
+[limit]
+context = 4
+output = 4
+
 [modalities]
 input = [ "file", "text" ]
 output = [ "text" ]

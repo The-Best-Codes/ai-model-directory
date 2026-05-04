@@ -7,6 +7,9 @@ release_date = "1683676800"
 [features]
 attachment = false
 
+[limit]
+context = 1
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

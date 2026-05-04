@@ -7,6 +7,9 @@ release_date = "1682899200"
 [features]
 attachment = true
 
+[limit]
+context = 2023
+
 [modalities]
 input = [ "image" ]
 output = [ "text" ]

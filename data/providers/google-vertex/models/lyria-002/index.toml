@@ -8,3 +8,4 @@ attachment = false
 
 [modalities]
 input = [ "text" ]
+output = [ "audio" ]

@@ -10,3 +10,6 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.025
