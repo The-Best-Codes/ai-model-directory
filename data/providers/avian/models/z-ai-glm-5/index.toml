@@ -1,0 +1,14 @@
+id = "z-ai/glm-5"
+name = "GLM-5"
+
+[features]
+reasoning = false
+
+[limit]
+context = 204800
+output = 131072
+
+[pricing]
+cache_read = 0.2
+input = 0.95
+output = 2.55

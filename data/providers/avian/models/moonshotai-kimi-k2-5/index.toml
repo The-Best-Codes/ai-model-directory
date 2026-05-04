@@ -1,0 +1,14 @@
+id = "moonshotai/kimi-k2.5"
+name = "Kimi K2.5"
+
+[features]
+reasoning = false
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.225
+input = 0.45
+output = 2.2
