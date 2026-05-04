@@ -1,0 +1,14 @@
+id = "minimax/minimax-m2.5"
+name = "MiniMax M2.5"
+
+[features]
+reasoning = false
+
+[limit]
+context = 196608
+output = 131072
+
+[pricing]
+cache_read = 0.15
+input = 0.27
+output = 1.08

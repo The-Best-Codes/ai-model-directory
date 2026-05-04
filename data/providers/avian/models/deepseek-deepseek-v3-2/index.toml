@@ -1,0 +1,14 @@
+id = "deepseek/deepseek-v3.2"
+name = "DeepSeek V3.2"
+
+[features]
+reasoning = true
+
+[limit]
+context = 163840
+output = 65536
+
+[pricing]
+cache_read = 0.012
+input = 0.23
+output = 0.33
