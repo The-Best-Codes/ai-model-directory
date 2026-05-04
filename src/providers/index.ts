@@ -23,6 +23,7 @@ import { heliconeProvider } from "./helicone.ts";
 import { huggingfaceProvider } from "./huggingface.ts";
 import { inceptionProvider } from "./inception.ts";
 import { ioNetProvider } from "./io-net.ts";
+import { jiekouProvider } from "./jiekou.ts";
 import { kiloProvider } from "./kilo.ts";
 import { mistralProvider } from "./mistral.ts";
 import { novitaProvider } from "./novita.ts";
@@ -62,6 +63,7 @@ export const providers: ProviderDefinition[] = [
   huggingfaceProvider,
   inceptionProvider,
   ioNetProvider,
+  jiekouProvider,
   kiloProvider,
   mistralProvider,
   novitaProvider,
