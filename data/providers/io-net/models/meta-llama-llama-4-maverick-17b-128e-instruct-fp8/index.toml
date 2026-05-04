@@ -1,0 +1,16 @@
+id = "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+name = "Meta-Llama: Llama 4 Maverick 17B 128E Instruct FP8"
+release_date = "1744194232"
+
+[features]
+attachment = true
+
+[limit]
+context = 430000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

@@ -1,0 +1,18 @@
+id = "MiniMaxAI/MiniMax-M2.7"
+name = "MiniMax: MiniMax M2.7"
+release_date = "1777885549"
+
+[features]
+attachment = false
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+cache_write = 0
+input = 0.3
+output = 1.2

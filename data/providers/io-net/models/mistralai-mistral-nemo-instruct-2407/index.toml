@@ -1,0 +1,16 @@
+id = "mistralai/Mistral-Nemo-Instruct-2407"
+name = "Mistral: Mistral Nemo Instruct 2407"
+release_date = "1755108289"
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02
+output = 0.04

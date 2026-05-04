@@ -1,0 +1,18 @@
+id = "moonshotai/Kimi-K2.6"
+name = "MoonshotAI: Kimi K2.6"
+release_date = "1776779041"
+
+[features]
+attachment = true
+
+[limit]
+context = 262142
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.14
+cache_write = 0
+input = 0.74
+output = 3.49

@@ -1,0 +1,16 @@
+id = "mistralai/Mistral-Large-Instruct-2411"
+name = "Mistral: Mistral Large Instruct 2411"
+release_date = "1737040331"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 2
+output = 6

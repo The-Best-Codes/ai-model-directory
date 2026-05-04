@@ -1,0 +1,18 @@
+id = "zai-org/GLM-4.7-Flash"
+name = "Z.ai: GLM 4.7 Flash"
+release_date = "1769105042"
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.035
+cache_write = 0.14
+input = 0.07
+output = 0.4

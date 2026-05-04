@@ -1,0 +1,18 @@
+id = "openai/gpt-oss-120b"
+name = "OpenAI: gpt-oss-120b"
+release_date = "1754421604"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+cache_write = 0.04
+input = 0.1
+output = 0.4

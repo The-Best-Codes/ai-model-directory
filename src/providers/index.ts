@@ -22,6 +22,7 @@ import { groqProvider } from "./groq.ts";
 import { heliconeProvider } from "./helicone.ts";
 import { huggingfaceProvider } from "./huggingface.ts";
 import { inceptionProvider } from "./inception.ts";
+import { ioNetProvider } from "./io-net.ts";
 import { kiloProvider } from "./kilo.ts";
 import { mistralProvider } from "./mistral.ts";
 import { novitaProvider } from "./novita.ts";
@@ -60,6 +61,7 @@ export const providers: ProviderDefinition[] = [
   heliconeProvider,
   huggingfaceProvider,
   inceptionProvider,
+  ioNetProvider,
   kiloProvider,
   mistralProvider,
   novitaProvider,

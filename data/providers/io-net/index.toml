@@ -1,0 +1,7 @@
+name = "IO.NET"
+website = "https://io.net"
+apiBaseUrl = "https://api.intelligence.io.solutions/api/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["IOINTELLIGENCE_API_KEY"]
