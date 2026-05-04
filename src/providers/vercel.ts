@@ -80,7 +80,13 @@ export const vercelProvider: ProviderDefinition = {
       const inputSources = getInputModalities(model.tags);
       const input = filterModalities(inputSources);
       const output: ModelModality[] | undefined =
-        model.type === "language" ? ["text"] : undefined;
+        model.type === "language"
+          ? ["text"]
+          : model.type === "image"
+            ? ["image"]
+            : model.type === "video"
+              ? ["video"]
+              : undefined;
       const hasAttachment = input
         ? input.some((modality) => modality !== "text")
         : undefined;

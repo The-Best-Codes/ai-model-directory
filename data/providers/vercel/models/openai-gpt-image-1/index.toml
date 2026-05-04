@@ -9,6 +9,7 @@ tool_call = false
 
 [modalities]
 input = [ "text" ]
+output = [ "image" ]
 
 [pricing]
 cache_read = 1.25
