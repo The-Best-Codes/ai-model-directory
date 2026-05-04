@@ -1,0 +1,7 @@
+name = "Weights & Biases"
+website = "https://wandb.ai"
+apiBaseUrl = "https://api.inference.wandb.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["WANDB_API_KEY"]
