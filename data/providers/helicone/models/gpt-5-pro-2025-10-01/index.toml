@@ -1,0 +1,22 @@
+id = "gpt-5-pro-2025-10-01"
+knowledge_cutoff = "1759276800"
+name = "OpenAI: GPT-5 Pro"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 15
+output = 120

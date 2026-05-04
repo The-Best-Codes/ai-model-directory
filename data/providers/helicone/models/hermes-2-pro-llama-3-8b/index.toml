@@ -1,0 +1,22 @@
+id = "hermes-2-pro-llama-3-8b"
+knowledge_cutoff = "1716768000"
+name = "Hermes 2 Pro Llama 3 8B"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.14

@@ -1,0 +1,22 @@
+id = "kimi-k2-0711"
+knowledge_cutoff = "1735689600"
+name = "Kimi K2 (07/11)"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5700000000000001
+output = 2.3
