@@ -1,0 +1,24 @@
+id = "hermes-2-pro-llama-3-8b"
+name = "Hermes 2 Pro Llama 3 8B"
+release_date = "1777937587"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.14
+output = 0.14
+reasoning = 0
