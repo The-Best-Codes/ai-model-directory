@@ -1,0 +1,7 @@
+name = "Vercel AI Gateway"
+website = "https://vercel.com/ai-gateway"
+apiBaseUrl = "https://ai-gateway.vercel.sh/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/gateway"
+defaultApiKeyEnv = ["AI_GATEWAY_API_KEY"]
