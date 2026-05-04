@@ -1,0 +1,21 @@
+id = "google/gemini-3-pro-preview"
+name = "Gemini 3 Pro Preview"
+release_date = "1763424000"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 12

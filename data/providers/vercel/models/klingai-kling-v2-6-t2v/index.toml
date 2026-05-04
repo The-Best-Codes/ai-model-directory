@@ -1,0 +1,11 @@
+id = "klingai/kling-v2.6-t2v"
+name = "Kling v2.6 Text-to-Video"
+release_date = "1766275200"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

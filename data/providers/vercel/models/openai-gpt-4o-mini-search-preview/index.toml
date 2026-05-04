@@ -1,0 +1,20 @@
+id = "openai/gpt-4o-mini-search-preview"
+name = "GPT 4o Mini Search Preview"
+release_date = "1741737600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

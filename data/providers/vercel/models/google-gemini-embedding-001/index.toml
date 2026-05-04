@@ -1,0 +1,6 @@
+id = "google/gemini-embedding-001"
+name = "Gemini Embedding 001"
+release_date = "1747699200"
+
+[pricing]
+input = 0.15

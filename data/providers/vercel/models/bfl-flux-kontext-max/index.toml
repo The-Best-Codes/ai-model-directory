@@ -1,0 +1,14 @@
+id = "bfl/flux-kontext-max"
+name = "FLUX.1 Kontext Max"
+release_date = "1748736000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]

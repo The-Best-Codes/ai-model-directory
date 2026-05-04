@@ -1,0 +1,11 @@
+id = "klingai/kling-v2.6-motion-control"
+name = "Kling v2.6 Motion Control"
+release_date = "1766275200"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

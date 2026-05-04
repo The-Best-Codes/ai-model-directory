@@ -1,0 +1,14 @@
+id = "mistral/mixtral-8x22b-instruct"
+name = "Mixtral MoE 8x22B Instruct"
+release_date = "1713312000"
+
+[limit]
+context = 65536
+output = 2048
+
+[modalities]
+output = [ "text" ]
+
+[pricing]
+input = 1.2
+output = 1.2

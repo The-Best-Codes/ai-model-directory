@@ -1,0 +1,11 @@
+id = "google/veo-3.0-fast-generate-001"
+name = "Veo 3.0 Fast Generate"
+release_date = "1755815280"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

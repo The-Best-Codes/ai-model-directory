@@ -1,0 +1,20 @@
+id = "meta/llama-3.2-11b"
+name = "Llama 3.2 11B Vision Instruct"
+release_date = "1727222400"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.16
+output = 0.16

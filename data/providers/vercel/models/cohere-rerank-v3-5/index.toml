@@ -1,0 +1,15 @@
+id = "cohere/rerank-v3.5"
+name = "Cohere Rerank 3.5"
+release_date = "1733097600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "text" ]

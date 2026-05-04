@@ -1,0 +1,14 @@
+id = "amazon/nova-micro"
+name = "Nova Micro"
+release_date = "1755815280"
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+output = [ "text" ]
+
+[pricing]
+input = 0.035
+output = 0.14

@@ -1,0 +1,21 @@
+id = "google/gemini-2.0-flash-lite"
+name = "Gemini 2.0 Flash Lite"
+release_date = "1733875200"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[limit]
+context = 1048576
+output = 8192
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.075
+output = 0.3

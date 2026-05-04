@@ -1,0 +1,17 @@
+id = "voyage/voyage-4-lite"
+name = "Voyage 4 Lite"
+release_date = "1755815280"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02

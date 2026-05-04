@@ -1,0 +1,20 @@
+id = "mistral/ministral-14b"
+name = "Ministral 14B"
+release_date = "1764547200"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 256000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

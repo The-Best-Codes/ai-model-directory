@@ -1,0 +1,20 @@
+id = "mistral/mistral-large-3"
+name = "Mistral Large 3"
+release_date = "1764633600"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 1.5

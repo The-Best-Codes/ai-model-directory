@@ -1,0 +1,14 @@
+id = "google/imagen-4.0-fast-generate-001"
+name = "Imagen 4 Fast"
+release_date = "1748736000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 480
+
+[modalities]
+input = [ "text" ]

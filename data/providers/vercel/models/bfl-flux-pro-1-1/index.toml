@@ -1,0 +1,11 @@
+id = "bfl/flux-pro-1.1"
+name = "FLUX1.1 [pro]"
+release_date = "1727740800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

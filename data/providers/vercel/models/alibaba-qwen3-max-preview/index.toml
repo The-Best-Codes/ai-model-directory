@@ -1,0 +1,21 @@
+id = "alibaba/qwen3-max-preview"
+name = "Qwen3 Max Preview"
+release_date = "1758585600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.24
+input = 1.2
+output = 6

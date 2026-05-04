@@ -1,0 +1,21 @@
+id = "openai/gpt-oss-safeguard-20b"
+name = "GPT OSS Safeguard 20B"
+release_date = "1733011200"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.037
+input = 0.075
+output = 0.3

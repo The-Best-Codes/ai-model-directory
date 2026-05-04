@@ -1,0 +1,16 @@
+id = "meituan/longcat-flash-thinking-2601"
+name = "LongCat Flash Thinking 2601"
+release_date = "1755815280"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,11 @@
+id = "alibaba/wan-v2.6-i2v-flash"
+name = "Wan v2.6 Image-to-Video Flash"
+release_date = "1765843200"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

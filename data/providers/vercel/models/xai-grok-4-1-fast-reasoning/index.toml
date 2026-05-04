@@ -1,0 +1,21 @@
+id = "xai/grok-4.1-fast-reasoning"
+name = "Grok 4.1 Fast Reasoning"
+release_date = "1752019200"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 2000000
+output = 30000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.2
+output = 0.5

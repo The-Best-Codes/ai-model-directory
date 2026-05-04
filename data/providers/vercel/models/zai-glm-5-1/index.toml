@@ -1,0 +1,21 @@
+id = "zai/glm-5.1"
+name = "GLM 5.1"
+release_date = "1775520000"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 202800
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.26
+input = 1.4
+output = 4.4

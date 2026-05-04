@@ -1,0 +1,21 @@
+id = "moonshotai/kimi-k2-0905"
+name = "Kimi K2 0905"
+release_date = "1757030400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 256000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 0.6
+output = 2.5

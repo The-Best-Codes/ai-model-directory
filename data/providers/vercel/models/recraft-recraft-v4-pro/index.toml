@@ -1,0 +1,11 @@
+id = "recraft/recraft-v4-pro"
+name = "Recraft V4 Pro"
+release_date = "1771286400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

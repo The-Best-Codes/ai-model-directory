@@ -1,0 +1,18 @@
+id = "voyage/rerank-2.5-lite"
+name = "Voyage Rerank 2.5 Lite"
+release_date = "1754870400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02

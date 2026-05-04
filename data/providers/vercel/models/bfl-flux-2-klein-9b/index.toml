@@ -1,0 +1,11 @@
+id = "bfl/flux-2-klein-9b"
+name = "FLUX.2 [klein] 9B"
+release_date = "1755815280"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

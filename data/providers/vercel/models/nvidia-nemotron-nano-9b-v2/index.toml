@@ -1,0 +1,20 @@
+id = "nvidia/nemotron-nano-9b-v2"
+name = "Nvidia Nemotron Nano 9B V2"
+release_date = "1755475200"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.23

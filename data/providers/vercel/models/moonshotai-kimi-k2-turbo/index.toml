@@ -1,0 +1,21 @@
+id = "moonshotai/kimi-k2-turbo"
+name = "Kimi K2 Turbo"
+release_date = "1757030400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 256000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 1.15
+output = 8

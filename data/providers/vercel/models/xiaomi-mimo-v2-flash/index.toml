@@ -1,0 +1,21 @@
+id = "xiaomi/mimo-v2-flash"
+name = "MiMo V2 Flash"
+release_date = "1765929600"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.1
+output = 0.3

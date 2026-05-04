@@ -1,0 +1,6 @@
+id = "openai/text-embedding-ada-002"
+name = "text-embedding-ada-002"
+release_date = "1671062400"
+
+[pricing]
+input = 0.1

@@ -1,0 +1,11 @@
+id = "klingai/kling-v2.5-turbo-t2v"
+name = "Kling v2.5 Turbo Text-to-Video"
+release_date = "1758585600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

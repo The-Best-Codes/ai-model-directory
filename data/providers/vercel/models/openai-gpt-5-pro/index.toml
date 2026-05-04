@@ -1,0 +1,20 @@
+id = "openai/gpt-5-pro"
+name = "GPT-5 pro"
+release_date = "1755815280"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 400000
+output = 272000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 15
+output = 120

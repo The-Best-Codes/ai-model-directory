@@ -1,0 +1,21 @@
+id = "xai/grok-4.20-reasoning"
+name = "Grok 4.20 Reasoning"
+release_date = "1773014400"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 2000000
+output = 2000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 6

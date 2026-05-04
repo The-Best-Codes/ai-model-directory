@@ -1,0 +1,6 @@
+id = "google/text-embedding-005"
+name = "Text Embedding 005"
+release_date = "1722470400"
+
+[pricing]
+input = 0.025
