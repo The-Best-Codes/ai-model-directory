@@ -1,0 +1,24 @@
+id = "qwq-plus"
+name = "QwQ Plus"
+release_date = "1777937587"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.8000000000000002
+output = 2.4
+reasoning = 0

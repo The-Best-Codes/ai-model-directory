@@ -1,0 +1,24 @@
+id = "o3-mini"
+name = "o3 Mini"
+release_date = "1777937587"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.55
+cache_write = 0
+input = 1.1
+output = 4.4
+reasoning = 0

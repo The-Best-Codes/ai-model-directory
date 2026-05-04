@@ -1,0 +1,24 @@
+id = "mistral-small-2506"
+name = "Mistral Small 3.2"
+release_date = "1777937587"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.1
+output = 0.3
+reasoning = 0

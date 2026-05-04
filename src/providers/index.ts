@@ -25,6 +25,7 @@ import { inceptionProvider } from "./inception.ts";
 import { ioNetProvider } from "./io-net.ts";
 import { jiekouProvider } from "./jiekou.ts";
 import { kiloProvider } from "./kilo.ts";
+import { llmgatewayProvider } from "./llmgateway.ts";
 import { mistralProvider } from "./mistral.ts";
 import { novitaProvider } from "./novita.ts";
 import { openaiProvider } from "./openai.ts";
@@ -65,6 +66,7 @@ export const providers: ProviderDefinition[] = [
   ioNetProvider,
   jiekouProvider,
   kiloProvider,
+  llmgatewayProvider,
   mistralProvider,
   novitaProvider,
   openaiProvider,
