@@ -1,0 +1,21 @@
+id = "meganova-ai/manta-mini-1.0"
+name = "Manta Mini 1.0"
+release_date = "1758326400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.02
+output = 0.16

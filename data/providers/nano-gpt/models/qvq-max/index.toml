@@ -1,0 +1,21 @@
+id = "qvq-max"
+name = "Qwen: QvQ Max"
+release_date = "1743120000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.26
+output = 4.77

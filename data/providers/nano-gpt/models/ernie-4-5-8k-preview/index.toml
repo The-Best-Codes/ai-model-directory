@@ -1,0 +1,21 @@
+id = "ernie-4.5-8k-preview"
+name = "Ernie 4.5 8k Preview"
+release_date = "1742860800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.66
+output = 2.6

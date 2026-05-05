@@ -1,0 +1,21 @@
+id = "THUDM/GLM-Z1-Rumination-32B-0414"
+name = "GLM Z1 Rumination 32B 0414"
+release_date = "1744675200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

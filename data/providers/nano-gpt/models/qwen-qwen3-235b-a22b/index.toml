@@ -1,0 +1,21 @@
+id = "qwen/qwen3-235b-a22b"
+name = "Qwen 3 235b A22B"
+release_date = "1745884800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 41000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.5

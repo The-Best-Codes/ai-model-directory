@@ -1,0 +1,21 @@
+id = "nex-agi/deepseek-v3.1-nex-n1"
+name = "DeepSeek V3.1 Nex N1"
+release_date = "1765324800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.27999999999999997
+output = 0.42000000000000004

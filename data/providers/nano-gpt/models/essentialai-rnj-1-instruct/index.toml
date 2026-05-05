@@ -1,0 +1,21 @@
+id = "essentialai/rnj-1-instruct"
+name = "RNJ-1 Instruct 8B"
+release_date = "1765584000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.15

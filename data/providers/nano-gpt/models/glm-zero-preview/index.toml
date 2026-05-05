@@ -1,0 +1,21 @@
+id = "glm-zero-preview"
+name = "GLM Zero Preview"
+release_date = "1734652800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.8019999999999998
+output = 1.8019999999999998

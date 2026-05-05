@@ -1,0 +1,21 @@
+id = "mistralai/mistral-large-3-675b-instruct-2512"
+name = "Mistral Large 3 675B"
+release_date = "1766620800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+output = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 3

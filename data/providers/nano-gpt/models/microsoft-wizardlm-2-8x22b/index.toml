@@ -1,0 +1,21 @@
+id = "microsoft/wizardlm-2-8x22b"
+name = "WizardLM-2 8x22B"
+release_date = "1744675200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 65536
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.49299999999999994
+output = 0.49299999999999994

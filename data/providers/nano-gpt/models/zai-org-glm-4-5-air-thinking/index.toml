@@ -1,0 +1,21 @@
+id = "zai-org/GLM-4.5-Air:thinking"
+name = "GLM 4.5 Air (Thinking)"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 98304
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.12000000000000001
+output = 0.8

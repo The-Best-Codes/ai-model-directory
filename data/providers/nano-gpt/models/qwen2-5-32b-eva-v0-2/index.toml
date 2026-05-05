@@ -1,0 +1,21 @@
+id = "Qwen2.5-32B-EVA-v0.2"
+name = "Qwen 2.5 32b EVA"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 24576
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.49299999999999994
+output = 0.49299999999999994

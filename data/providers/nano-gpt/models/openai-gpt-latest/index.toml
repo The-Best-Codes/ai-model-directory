@@ -1,0 +1,21 @@
+id = "openai/gpt-latest"
+name = "GPT Latest"
+release_date = "1774742400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5
+output = 30

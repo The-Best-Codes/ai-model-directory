@@ -1,0 +1,21 @@
+id = "soob3123/GrayLine-Qwen3-8B"
+name = "Grayline Qwen3 8B"
+release_date = "1758758400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.3

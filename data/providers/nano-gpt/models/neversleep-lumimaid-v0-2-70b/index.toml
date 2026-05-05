@@ -1,0 +1,21 @@
+id = "NeverSleep/Lumimaid-v0.2-70B"
+name = "Lumimaid v0.2"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 1.5

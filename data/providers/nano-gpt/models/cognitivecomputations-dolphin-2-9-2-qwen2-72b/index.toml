@@ -1,0 +1,21 @@
+id = "cognitivecomputations/dolphin-2.9.2-qwen2-72b"
+name = "Dolphin 72b"
+release_date = "1740614400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.306
+output = 0.306

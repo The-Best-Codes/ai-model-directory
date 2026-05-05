@@ -1,0 +1,21 @@
+id = "aion-labs/aion-1.0-mini"
+name = "Aion 1.0 mini (DeepSeek)"
+release_date = "1740009600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7989999999999999
+output = 1.394

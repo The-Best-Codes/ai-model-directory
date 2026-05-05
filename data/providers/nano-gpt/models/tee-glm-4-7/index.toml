@@ -1,0 +1,21 @@
+id = "TEE/glm-4.7"
+name = "GLM 4.7 TEE"
+release_date = "1769644800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131000
+output = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.85
+output = 3.3

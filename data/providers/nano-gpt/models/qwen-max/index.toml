@@ -1,0 +1,21 @@
+id = "qwen-max"
+name = "Qwen 2.5 Max"
+release_date = "1727740800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.43973
+output = 5.7528

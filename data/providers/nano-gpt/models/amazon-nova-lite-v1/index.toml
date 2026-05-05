@@ -1,0 +1,21 @@
+id = "amazon/nova-lite-v1"
+name = "Amazon Nova Lite 1.0"
+release_date = "1733184000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 300000
+output = 5120
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0595
+output = 0.238

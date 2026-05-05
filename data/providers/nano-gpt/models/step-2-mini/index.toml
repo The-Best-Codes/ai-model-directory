@@ -1,0 +1,21 @@
+id = "step-2-mini"
+name = "Step-2 Mini"
+release_date = "1728950400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2006
+output = 0.408

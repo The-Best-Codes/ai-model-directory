@@ -1,0 +1,21 @@
+id = "NousResearch/DeepHermes-3-Mistral-24B-Preview"
+name = "DeepHermes-3 Mistral 24B (Preview)"
+release_date = "1746835200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.3

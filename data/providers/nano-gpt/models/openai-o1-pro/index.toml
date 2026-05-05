@@ -1,0 +1,21 @@
+id = "openai/o1-pro"
+name = "OpenAI o1 Pro"
+release_date = "1737763200"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 150
+output = 600

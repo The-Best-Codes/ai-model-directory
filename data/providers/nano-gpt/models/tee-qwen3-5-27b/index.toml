@@ -1,0 +1,21 @@
+id = "TEE/qwen3.5-27b"
+name = "Qwen3.5 27B TEE"
+release_date = "1773360000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 2.4

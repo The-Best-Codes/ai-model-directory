@@ -1,0 +1,21 @@
+id = "shisa-ai/shisa-v2.1-llama3.3-70b"
+name = "Shisa V2.1 Llama 3.3 70B"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 0.5

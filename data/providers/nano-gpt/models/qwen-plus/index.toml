@@ -1,0 +1,21 @@
+id = "qwen-plus"
+name = "Qwen Plus"
+release_date = "1713139200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 995904
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.35955
+output = 1.08018

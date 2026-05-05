@@ -1,0 +1,21 @@
+id = "baseten/Kimi-K2-Instruct-FP4"
+name = "Kimi K2 0711 Instruct FP4"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 1.7999999999999998

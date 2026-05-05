@@ -1,0 +1,20 @@
+id = "Qwen3.5-27B-Musica-v1"
+name = "Qwen3.5 27B Musica v1"
+release_date = "1774569600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.306
+output = 0.306

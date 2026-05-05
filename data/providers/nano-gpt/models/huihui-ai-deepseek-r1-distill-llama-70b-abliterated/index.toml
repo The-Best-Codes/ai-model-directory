@@ -1,0 +1,21 @@
+id = "huihui-ai/DeepSeek-R1-Distill-Llama-70B-abliterated"
+name = "DeepSeek R1 Llama 70B Abliterated"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 0.7

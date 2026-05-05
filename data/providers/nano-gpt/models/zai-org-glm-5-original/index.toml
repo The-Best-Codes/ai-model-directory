@@ -1,0 +1,21 @@
+id = "zai-org/glm-5-original"
+name = "GLM 5 Original"
+release_date = "1770768000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 3.2

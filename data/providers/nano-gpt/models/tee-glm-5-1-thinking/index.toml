@@ -1,0 +1,21 @@
+id = "TEE/glm-5.1-thinking"
+name = "GLM 5.1 Thinking TEE"
+release_date = "1776643200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 202752
+output = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.5
+output = 5.25

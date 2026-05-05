@@ -1,0 +1,21 @@
+id = "ernie-x1-32k-preview"
+name = "Ernie X1 32k"
+release_date = "1743638400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.33
+output = 1.32

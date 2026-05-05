@@ -1,0 +1,21 @@
+id = "doubao-1-5-thinking-pro-250415"
+name = "Doubao 1.5 Thinking Pro"
+release_date = "1744848000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.4

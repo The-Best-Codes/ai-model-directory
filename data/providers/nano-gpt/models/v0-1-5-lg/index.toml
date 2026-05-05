@@ -1,0 +1,21 @@
+id = "v0-1.5-lg"
+name = "v0 1.5 LG"
+release_date = "1751587200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 15
+output = 75

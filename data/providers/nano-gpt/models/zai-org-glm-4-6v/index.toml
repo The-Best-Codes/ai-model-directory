@@ -1,0 +1,21 @@
+id = "zai-org/glm-4.6v"
+name = "GLM 4.6V"
+release_date = "1765411200"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 24000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.8999999999999999

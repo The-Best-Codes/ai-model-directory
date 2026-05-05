@@ -1,0 +1,21 @@
+id = "hunyuan-turbos-20250226"
+name = "Hunyuan Turbo S"
+release_date = "1740614400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 24000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.187
+output = 0.374

@@ -1,0 +1,21 @@
+id = "TEE/glm-4.7-flash"
+name = "GLM 4.7 Flash TEE"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 203000
+output = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.5

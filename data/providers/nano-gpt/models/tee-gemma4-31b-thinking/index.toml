@@ -1,0 +1,21 @@
+id = "TEE/gemma4-31b:thinking"
+name = "Gemma 4 31B Thinking TEE"
+release_date = "1777680000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.12000000000000001
+output = 0.37

@@ -1,0 +1,21 @@
+id = "learnlm-1.5-pro-experimental"
+name = "Gemini LearnLM Experimental"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32767
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.5020000000000002
+output = 10.506

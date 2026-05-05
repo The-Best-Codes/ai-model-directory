@@ -1,0 +1,21 @@
+id = "doubao-seed-1-8-251215"
+name = "Doubao Seed 1.8"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.612
+output = 6.119999999999999

@@ -1,0 +1,21 @@
+id = "qwen3-max-2026-01-23"
+name = "Qwen3 Max 2026-01-23"
+release_date = "1769385600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.08018
+output = 5.4009

@@ -1,0 +1,21 @@
+id = "qwen-long"
+name = "Qwen Long 10M"
+release_date = "1722470400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 10000000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1003
+output = 0.408

@@ -1,0 +1,21 @@
+id = "LLM360/K2-Think"
+name = "K2-Think"
+release_date = "1753488000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.17
+output = 0.68

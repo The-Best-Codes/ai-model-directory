@@ -1,0 +1,21 @@
+id = "mistralai/ministral-14b-2512"
+name = "Ministral 14B"
+release_date = "1764806400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

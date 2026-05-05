@@ -1,0 +1,21 @@
+id = "mistralai/mistral-saba"
+name = "Mistral Saba"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1989
+output = 0.595

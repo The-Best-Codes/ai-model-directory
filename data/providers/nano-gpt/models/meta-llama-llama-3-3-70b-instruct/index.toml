@@ -1,0 +1,21 @@
+id = "meta-llama/llama-3.3-70b-instruct"
+name = "Llama 3.3 70b Instruct"
+release_date = "1740614400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.23

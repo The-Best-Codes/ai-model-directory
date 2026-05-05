@@ -1,0 +1,17 @@
+id = "qwen3.5-omni-flash"
+name = "Qwen3.5 Omni Flash"
+release_date = "1774828800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 49152
+output = 16384
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]

@@ -1,0 +1,21 @@
+id = "moonshotai/kimi-k2-instruct-0711"
+name = "Kimi K2 0711"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 1.7999999999999998

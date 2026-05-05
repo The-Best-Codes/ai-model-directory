@@ -1,0 +1,21 @@
+id = "mistral-small-31-24b-instruct"
+name = "Mistral Small 31 24b Instruct"
+release_date = "1744675200"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.3

@@ -1,0 +1,21 @@
+id = "deepseek-ai/deepseek-v3.2-exp"
+name = "DeepSeek V3.2 Exp"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 163840
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.27999999999999997
+output = 0.42000000000000004

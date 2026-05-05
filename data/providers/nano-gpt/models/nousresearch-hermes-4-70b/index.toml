@@ -1,0 +1,21 @@
+id = "nousresearch/hermes-4-70b"
+name = "Hermes 4 Medium"
+release_date = "1751500800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2006
+output = 0.39949999999999997

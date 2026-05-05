@@ -1,0 +1,21 @@
+id = "moonshotai/kimi-k2-thinking-original"
+name = "Kimi K2 Thinking Original"
+release_date = "1762387200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.5

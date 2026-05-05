@@ -1,0 +1,21 @@
+id = "openai/gpt-4.1-mini"
+name = "GPT 4.1 Mini"
+release_date = "1757462400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1047576
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 1.6
