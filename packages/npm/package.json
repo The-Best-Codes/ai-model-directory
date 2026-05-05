@@ -4,7 +4,7 @@
   "description": "Bundled AI model directory dataset with a compact typed payload",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/the-best-codes/ai-model-directory.git"
+    "url": "git+https://github.com/The-Best-Codes/ai-model-directory.git"
   },
   "type": "module",
   "sideEffects": false,
