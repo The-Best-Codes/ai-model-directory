@@ -14,3 +14,4 @@ Format: `bunx prettier . -w`.
 - Don't add comments to code, it should be self-documenting and written in a way that makes it easy to understand.
 - Don't modify things that don't need to be modified, but be comprehensive. Use surgical edits.
 - Don't use a subagent unless the user explicitly permits it.
+- Add `agent-made:` to the start of your PR title to fast-track getting your PRs reviewed and merged.
