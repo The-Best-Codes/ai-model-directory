@@ -1,3 +1,4 @@
+import Decimal from "decimal.js";
 import { z } from "zod";
 
 import { fetchJson, withBearerToken } from "../lib/http.ts";
@@ -35,7 +36,9 @@ function sanitizeName(value: string | null | undefined): string | undefined {
 
 function novitaPrice(value: number | null | undefined): number | undefined {
   const normalized = nonNegativeNumber(value);
-  return normalized === undefined ? undefined : normalized / 10_000;
+  return normalized === undefined
+    ? undefined
+    : new Decimal(normalized).div(10_000).toNumber();
 }
 
 export const novitaProvider: ProviderDefinition = {

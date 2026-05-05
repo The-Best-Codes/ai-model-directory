@@ -1,3 +1,4 @@
+import Decimal from "decimal.js";
 import { z } from "zod";
 
 import { fetchJson, withBearerToken } from "../lib/http.ts";
@@ -23,7 +24,9 @@ function tokenPriceToMillion(
   value: number | null | undefined,
 ): number | undefined {
   const normalized = nonNegativeNumber(value);
-  return normalized === undefined ? undefined : normalized / 10000;
+  return normalized === undefined
+    ? undefined
+    : new Decimal(normalized).div(10000).toNumber();
 }
 
 export const xaiProvider: ProviderDefinition = {
