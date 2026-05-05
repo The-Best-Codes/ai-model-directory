@@ -1,0 +1,7 @@
+name = "Poe"
+website = "https://poe.com"
+apiBaseUrl = "https://api.poe.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["POE_API_KEY"]
