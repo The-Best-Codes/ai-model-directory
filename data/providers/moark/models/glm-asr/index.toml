@@ -1,0 +1,11 @@
+id = "GLM-ASR"
+last_updated = "1766128305"
+name = "GLM-ASR"
+release_date = "1765354272"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

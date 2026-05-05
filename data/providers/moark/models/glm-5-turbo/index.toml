@@ -1,0 +1,19 @@
+id = "GLM-5-Turbo"
+last_updated = "1773631868"
+name = "GLM-5-Turbo"
+release_date = "1773631868"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.02515273
+output = 3.80771014

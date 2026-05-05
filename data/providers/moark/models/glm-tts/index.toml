@@ -1,0 +1,11 @@
+id = "GLM-TTS"
+last_updated = "1766128269"
+name = "GLM-TTS"
+release_date = "1765866139"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

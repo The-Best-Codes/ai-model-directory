@@ -1,0 +1,11 @@
+id = "LTX-2"
+last_updated = "1769416433"
+name = "LTX-2"
+release_date = "1769413396"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

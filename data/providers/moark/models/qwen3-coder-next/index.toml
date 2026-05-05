@@ -1,0 +1,18 @@
+id = "Qwen3-Coder-Next"
+last_updated = "1770370389"
+name = "Qwen3-Coder-Next"
+release_date = "1770370367"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.58580156
+output = 0.58580156

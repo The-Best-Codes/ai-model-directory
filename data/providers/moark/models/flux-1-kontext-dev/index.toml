@@ -1,0 +1,11 @@
+id = "FLUX.1-Kontext-dev"
+last_updated = "1760090469"
+name = "FLUX.1-Kontext-dev"
+release_date = "1751614294"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

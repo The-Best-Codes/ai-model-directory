@@ -1,0 +1,11 @@
+id = "Hunyuan3D-2"
+last_updated = "1750935520"
+name = "Hunyuan3D-2"
+release_date = "1743593183"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "VajraV1"
+last_updated = "1767839891"
+name = "VajraV1"
+release_date = "1767777522"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]

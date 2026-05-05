@@ -1,0 +1,11 @@
+id = "nonescape-v0"
+last_updated = "1754906630"
+name = "nonescape-v0"
+release_date = "1754905469"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

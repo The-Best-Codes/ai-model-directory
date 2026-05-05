@@ -1,0 +1,11 @@
+id = "HunyuanOCR"
+last_updated = "1764730939"
+name = "HunyuanOCR"
+release_date = "1764730868"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

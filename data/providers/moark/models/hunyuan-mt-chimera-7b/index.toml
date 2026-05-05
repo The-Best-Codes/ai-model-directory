@@ -1,0 +1,10 @@
+id = "Hunyuan-MT-Chimera-7B"
+last_updated = "1767871756"
+name = "Hunyuan-MT-Chimera-7B"
+release_date = "1756898358"
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.043935117

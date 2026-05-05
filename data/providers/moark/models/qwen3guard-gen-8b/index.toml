@@ -1,0 +1,14 @@
+id = "Qwen3Guard-Gen-8B"
+last_updated = "1760603571"
+name = "Qwen3Guard-Gen-8B"
+release_date = "1760600888"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

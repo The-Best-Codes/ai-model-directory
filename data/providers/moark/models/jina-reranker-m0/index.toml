@@ -1,0 +1,16 @@
+id = "jina-reranker-m0"
+last_updated = "1744686309"
+name = "jina-reranker-m0"
+release_date = "1744377484"
+
+[features]
+attachment = false
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

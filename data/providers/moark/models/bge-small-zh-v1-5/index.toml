@@ -1,0 +1,16 @@
+id = "bge-small-zh-v1.5"
+last_updated = "1741323989"
+name = "bge-small-zh-v1.5"
+release_date = "1718358459"
+
+[features]
+attachment = false
+
+[limit]
+context = 500
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

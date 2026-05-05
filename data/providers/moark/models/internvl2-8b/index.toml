@@ -1,0 +1,18 @@
+id = "InternVL2-8B"
+last_updated = "1751453705"
+name = "InternVL2-8B"
+release_date = "1733483628"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

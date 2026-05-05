@@ -1,0 +1,19 @@
+id = "GLM-4_5"
+last_updated = "1770958352"
+name = "GLM-4_5"
+release_date = "1753788178"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.512576365
+output = 2.05030546

@@ -1,0 +1,11 @@
+id = "Wan2.1-I2V-14B-720P"
+last_updated = "1751440801"
+name = "Wan2.1-I2V-14B-720P"
+release_date = "1741688248"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "Qwen-Image-Edit-2511"
+last_updated = "1769215256"
+name = "Qwen-Image-Edit-2511"
+release_date = "1766744767"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "InstantCharacter"
+last_updated = "1749459334"
+name = "InstantCharacter"
+release_date = "1749458560"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

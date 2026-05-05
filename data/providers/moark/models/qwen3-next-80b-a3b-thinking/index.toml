@@ -1,0 +1,18 @@
+id = "Qwen3-Next-80B-A3B-Thinking"
+name = "Qwen3-Next-80B-A3B-Thinking"
+release_date = "1757734883"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14645039
+output = 1.4645039

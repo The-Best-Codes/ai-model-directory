@@ -1,0 +1,16 @@
+id = "jina-embeddings-v4"
+last_updated = "1755514836"
+name = "jina-embeddings-v4"
+release_date = "1751282676"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0

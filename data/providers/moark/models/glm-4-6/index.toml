@@ -1,0 +1,19 @@
+id = "GLM-4.6"
+last_updated = "1770958284"
+name = "GLM-4.6"
+release_date = "1759218536"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.512576365
+output = 2.05030546

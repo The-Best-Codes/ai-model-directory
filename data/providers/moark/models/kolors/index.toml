@@ -1,0 +1,11 @@
+id = "Kolors"
+last_updated = "1765264683"
+name = "Kolors"
+release_date = "1721177231"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

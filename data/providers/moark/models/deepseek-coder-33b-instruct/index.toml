@@ -1,0 +1,18 @@
+id = "deepseek-coder-33B-instruct"
+last_updated = "1750934871"
+name = "deepseek-coder-33B-instruct"
+release_date = "1720398836"
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

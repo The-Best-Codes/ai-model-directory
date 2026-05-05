@@ -1,0 +1,18 @@
+id = "Align-DS-V"
+last_updated = "1751509080"
+name = "Align-DS-V"
+release_date = "1739366663"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

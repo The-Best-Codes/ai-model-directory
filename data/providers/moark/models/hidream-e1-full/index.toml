@@ -1,0 +1,11 @@
+id = "HiDream-E1-Full"
+last_updated = "1765264642"
+name = "HiDream-E1-Full"
+release_date = "1746687862"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

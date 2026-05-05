@@ -1,0 +1,16 @@
+id = "bge-reranker-v2-m3"
+last_updated = "1741324001"
+name = "bge-reranker-v2-m3"
+release_date = "1723546823"
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

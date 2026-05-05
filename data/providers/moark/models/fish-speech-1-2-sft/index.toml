@@ -1,0 +1,11 @@
+id = "fish-speech-1.2-sft"
+last_updated = "1735288723"
+name = "fish-speech-1.2-sft"
+release_date = "1722925568"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

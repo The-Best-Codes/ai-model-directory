@@ -1,0 +1,18 @@
+id = "Qwen2-7B-Instruct"
+last_updated = "1750934891"
+name = "Qwen2-7B-Instruct"
+release_date = "1719375020"
+
+[features]
+attachment = false
+
+[limit]
+output = 24000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

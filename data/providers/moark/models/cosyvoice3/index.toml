@@ -1,0 +1,11 @@
+id = "CosyVoice3"
+last_updated = "1767607210"
+name = "CosyVoice3"
+release_date = "1767597381"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

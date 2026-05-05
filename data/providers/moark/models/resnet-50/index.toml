@@ -1,0 +1,11 @@
+id = "resnet-50"
+last_updated = "1751887594"
+name = "resnet-50"
+release_date = "1751887048"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]

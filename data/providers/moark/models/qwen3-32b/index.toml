@@ -1,0 +1,18 @@
+id = "Qwen3-32B"
+last_updated = "1750934643"
+name = "Qwen3-32B"
+release_date = "1745895473"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14645039
+output = 0.58580156

@@ -1,0 +1,15 @@
+id = "Qwen2.5-Coder-32B-Instruct"
+last_updated = "1760502328"
+name = "Qwen2.5-Coder-32B-Instruct"
+release_date = "1732167169"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

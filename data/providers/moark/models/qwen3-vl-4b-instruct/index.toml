@@ -1,0 +1,19 @@
+id = "Qwen3-VL-4B-Instruct"
+last_updated = "1760513017"
+name = "Qwen3-VL-4B-Instruct"
+release_date = "1760512469"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.02562881825
+output = 0.102515273

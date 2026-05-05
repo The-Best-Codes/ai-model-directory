@@ -1,0 +1,18 @@
+id = "Qwen3-30B-A3B-Instruct-2507"
+last_updated = "1754033509"
+name = "Qwen3-30B-A3B-Instruct-2507"
+release_date = "1754033369"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.102515273
+output = 0.410061092
