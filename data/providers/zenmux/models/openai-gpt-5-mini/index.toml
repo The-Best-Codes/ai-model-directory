@@ -1,0 +1,19 @@
+id = "openai/gpt-5-mini"
+name = "OpenAI: GPT-5 Mini"
+release_date = "1755080585"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.025
+input = 0.25
+output = 2

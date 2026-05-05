@@ -1,0 +1,19 @@
+id = "z-ai/glm-4.6v-flash-free"
+name = "Z.AI: GLM 4.6V Flash (Free)"
+release_date = "1767078394"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

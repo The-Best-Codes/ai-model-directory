@@ -1,0 +1,19 @@
+id = "mistral/devstral-small-latest"
+name = "mistral/devstral-small-latest"
+release_date = "1736964224"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.3

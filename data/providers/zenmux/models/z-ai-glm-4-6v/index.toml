@@ -1,0 +1,19 @@
+id = "z-ai/glm-4.6v"
+name = "Z.AI: GLM 4.6V"
+release_date = "1765195111"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0291
+input = 0.1456
+output = 0.4367

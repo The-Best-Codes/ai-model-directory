@@ -1,0 +1,19 @@
+id = "z-ai/glm-4.7-flash-free"
+name = "Z.AI: GLM 4.7 Flash (Free)"
+release_date = "1768877763"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

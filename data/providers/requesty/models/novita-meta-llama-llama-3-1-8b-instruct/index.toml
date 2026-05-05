@@ -1,0 +1,19 @@
+id = "novita/meta-llama/llama-3.1-8b-instruct"
+name = "novita/meta-llama/llama-3.1-8b-instruct"
+release_date = "1738865908"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

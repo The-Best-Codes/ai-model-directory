@@ -1,0 +1,19 @@
+id = "deepinfra/meta-llama/Meta-Llama-3.1-405B-Instruct"
+name = "deepinfra/meta-llama/Meta-Llama-3.1-405B-Instruct"
+release_date = "1738865908"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 130815
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 0.8

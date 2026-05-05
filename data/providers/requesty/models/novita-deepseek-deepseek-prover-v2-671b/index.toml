@@ -1,0 +1,19 @@
+id = "novita/deepseek/deepseek-prover-v2-671b"
+name = "novita/deepseek/deepseek-prover-v2-671b"
+release_date = "1738263837"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 160000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 2.5

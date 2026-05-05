@@ -1,0 +1,19 @@
+id = "moonshotai/kimi-k2-0905"
+name = "MoonshotAI: Kimi K2 0905"
+release_date = "1757400810"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 262100
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 0.58
+output = 2.33

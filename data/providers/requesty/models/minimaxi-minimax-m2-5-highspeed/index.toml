@@ -1,0 +1,22 @@
+id = "minimaxi/MiniMax-M2.5-highspeed"
+name = "minimaxi/MiniMax-M2.5-highspeed"
+release_date = "1770891388"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+cache_write = 2.4
+input = 0.6
+output = 2.4

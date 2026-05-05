@@ -1,0 +1,22 @@
+id = "hf:Qwen/Qwen3-235B-A22B-Thinking-2507"
+name = "Qwen/Qwen3-235B-A22B-Thinking-2507"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.65
+cache_write = 0
+input = 0.65
+output = 3

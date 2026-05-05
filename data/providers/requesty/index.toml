@@ -1,0 +1,7 @@
+name = "Requesty"
+website = "https://requesty.ai"
+apiBaseUrl = "https://router.requesty.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["REQUESTY_API_KEY"]

@@ -1,0 +1,19 @@
+id = "qwen/qwen3-235b-a22b-2507"
+name = "Qwen: Qwen3 235B A22B Instruct 2507"
+release_date = "1755489358"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.056
+input = 0.28
+output = 1.11

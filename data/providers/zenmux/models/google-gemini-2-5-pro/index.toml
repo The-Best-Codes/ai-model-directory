@@ -1,0 +1,20 @@
+id = "google/gemini-2.5-pro"
+name = "Google: Gemini 2.5 Pro"
+release_date = "1755485300"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.13
+cache_write = 4.5
+input = 1.25
+output = 10

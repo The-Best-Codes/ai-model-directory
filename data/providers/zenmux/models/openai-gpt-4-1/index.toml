@@ -1,0 +1,19 @@
+id = "openai/gpt-4.1"
+name = "OpenAI: GPT-4.1"
+release_date = "1755176979"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1047576
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 2
+output = 8

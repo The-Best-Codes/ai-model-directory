@@ -1,0 +1,20 @@
+id = "bytedance/doubao-seed-1.8"
+name = "ByteDance: Doubao-Seed-1.8"
+release_date = "1775530581"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.023
+cache_write = 0.0024
+input = 0.11
+output = 0.28

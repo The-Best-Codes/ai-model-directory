@@ -1,0 +1,22 @@
+id = "hf:meta-llama/Llama-3.3-70B-Instruct"
+name = "meta-llama/Llama-3.3-70B-Instruct"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.88
+cache_write = 0
+input = 0.88
+output = 0.88

@@ -1,0 +1,20 @@
+id = "parasail/parasail-gemma3-27b-it"
+name = "parasail/parasail-gemma3-27b-it"
+release_date = "1741963556"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.5

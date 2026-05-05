@@ -1,0 +1,19 @@
+id = "z-ai/glm-5"
+name = "Z.AI: GLM 5"
+release_date = "1770816906"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.14
+input = 0.58
+output = 2.6

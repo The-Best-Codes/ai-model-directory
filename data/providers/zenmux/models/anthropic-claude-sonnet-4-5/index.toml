@@ -1,0 +1,20 @@
+id = "anthropic/claude-sonnet-4.5"
+name = "Anthropic: Claude Sonnet 4.5"
+release_date = "1759196009"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+cache_write = 3.75
+input = 3
+output = 15

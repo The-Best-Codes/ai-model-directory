@@ -1,0 +1,7 @@
+name = "ZenMux"
+website = "https://zenmux.ai"
+apiBaseUrl = "https://zenmux.ai/api/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ZENMUX_API_KEY"]

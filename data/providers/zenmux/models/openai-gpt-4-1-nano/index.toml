@@ -1,0 +1,19 @@
+id = "openai/gpt-4.1-nano"
+name = "OpenAI: GPT-4.1 Nano"
+release_date = "1755177072"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1047576
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.025
+input = 0.1
+output = 0.4

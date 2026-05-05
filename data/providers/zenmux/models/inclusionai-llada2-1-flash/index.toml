@@ -1,0 +1,19 @@
+id = "inclusionai/llada2.1-flash"
+name = "inclusionAI: LLaDA2.1-flash"
+release_date = "1773648925"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.057
+input = 0.28
+output = 2.85

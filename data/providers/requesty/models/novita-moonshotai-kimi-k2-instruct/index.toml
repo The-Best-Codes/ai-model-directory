@@ -1,0 +1,19 @@
+id = "novita/moonshotai/kimi-k2-instruct"
+name = "novita/moonshotai/kimi-k2-instruct"
+release_date = "1752257908"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.57
+output = 2.3

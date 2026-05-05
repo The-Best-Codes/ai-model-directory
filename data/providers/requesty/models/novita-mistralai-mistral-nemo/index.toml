@@ -1,0 +1,19 @@
+id = "novita/mistralai/mistral-nemo"
+name = "novita/mistralai/mistral-nemo"
+release_date = "1718037161"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.17
+output = 0.17

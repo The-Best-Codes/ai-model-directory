@@ -1,0 +1,19 @@
+id = "x-ai/grok-4.3"
+name = "xAI: Grok 4.3"
+release_date = "1777645558"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 1.25
+output = 2.5

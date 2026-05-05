@@ -1,0 +1,19 @@
+id = "openai/gpt-4.1-mini"
+name = "OpenAI: GPT-4.1 Mini"
+release_date = "1755177025"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1047576
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.4
+output = 1.6

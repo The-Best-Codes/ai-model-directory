@@ -1,0 +1,22 @@
+id = "hf:Qwen/Qwen3-Coder-480B-A35B-Instruct"
+name = "Qwen/Qwen3-Coder-480B-A35B-Instruct"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 2
+cache_write = 0
+input = 2
+output = 2

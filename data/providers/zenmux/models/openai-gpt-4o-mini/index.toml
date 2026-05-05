@@ -1,0 +1,19 @@
+id = "openai/gpt-4o-mini"
+name = "OpenAI: GPT-4o-mini"
+release_date = "1755767303"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.15
+output = 0.6

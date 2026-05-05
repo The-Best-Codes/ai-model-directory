@@ -1,0 +1,22 @@
+id = "hf:Qwen/Qwen3.5-397B-A17B"
+name = "Qwen/Qwen3.5-397B-A17B"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.6
+cache_write = 0
+input = 0.6
+output = 3.6

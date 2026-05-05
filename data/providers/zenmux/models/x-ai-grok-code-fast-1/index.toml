@@ -1,0 +1,19 @@
+id = "x-ai/grok-code-fast-1"
+name = "xAI: Grok Code Fast 1"
+release_date = "1758264099"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.2
+output = 1.5

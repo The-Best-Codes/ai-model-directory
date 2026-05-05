@@ -1,0 +1,19 @@
+id = "z-ai/glm-4.7-flashx"
+name = "Z.AI: GLM 4.7 FlashX"
+release_date = "1768881083"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0146
+input = 0.0728
+output = 0.4367

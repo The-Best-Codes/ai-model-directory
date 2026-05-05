@@ -1,0 +1,19 @@
+id = "inclusionai/ling-flash-2.0"
+name = "inclusionAI: Ling-flash-2.0"
+release_date = "1758179150"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.056
+input = 0.28
+output = 2.8

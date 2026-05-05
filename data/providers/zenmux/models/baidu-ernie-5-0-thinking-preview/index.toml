@@ -1,0 +1,18 @@
+id = "baidu/ernie-5.0-thinking-preview"
+name = "Baidu: ERNIE 5.0"
+release_date = "1763014410"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.84
+output = 3.37

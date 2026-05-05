@@ -1,0 +1,19 @@
+id = "together/meta-llama/Meta-Llama-3-8B-Instruct-Lite"
+name = "together/meta-llama/Meta-Llama-3-8B-Instruct-Lite"
+release_date = "1738263837"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

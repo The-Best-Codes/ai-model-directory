@@ -37,12 +37,15 @@ import { ovhcloudProvider } from "./ovhcloud.ts";
 import { perplexityProvider } from "./perplexity.ts";
 import { poeProvider } from "./poe.ts";
 import { openrouterProvider } from "./openrouter.ts";
+import { requestyProvider } from "./requesty.ts";
+import { syntheticProvider } from "./synthetic.ts";
 import { tetrateProvider } from "./tetrate.ts";
 import { togetheraiProvider } from "./togetherai.ts";
 import { veniceProvider } from "./venice.ts";
 import { vercelProvider } from "./vercel.ts";
 import { wandbProvider } from "./wandb.ts";
 import { xaiProvider } from "./xai.ts";
+import { zenmuxProvider } from "./zenmux.ts";
 
 export const providers: ProviderDefinition[] = [
   ai302Provider,
@@ -83,10 +86,13 @@ export const providers: ProviderDefinition[] = [
   perplexityProvider,
   poeProvider,
   openrouterProvider,
+  requestyProvider,
+  syntheticProvider,
   tetrateProvider,
   togetheraiProvider,
   veniceProvider,
   vercelProvider,
   wandbProvider,
   xaiProvider,
+  zenmuxProvider,
 ];

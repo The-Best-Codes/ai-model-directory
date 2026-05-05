@@ -1,0 +1,18 @@
+id = "stepfun/step-3"
+name = "StepFun: Step-3"
+release_date = "1766045895"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 0.57

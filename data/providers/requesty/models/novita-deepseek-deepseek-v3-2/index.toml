@@ -1,0 +1,22 @@
+id = "novita/deepseek/deepseek-v3.2"
+name = "novita/deepseek/deepseek-v3.2"
+release_date = "1772283132"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 163840
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1345
+cache_write = 0.269
+input = 0.269
+output = 0.4

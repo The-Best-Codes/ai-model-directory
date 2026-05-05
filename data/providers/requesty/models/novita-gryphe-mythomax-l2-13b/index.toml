@@ -1,0 +1,19 @@
+id = "novita/gryphe/mythomax-l2-13b"
+name = "novita/gryphe/mythomax-l2-13b"
+release_date = "1688259600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09
+output = 0.09

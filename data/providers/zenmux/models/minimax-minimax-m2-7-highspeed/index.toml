@@ -1,0 +1,20 @@
+id = "minimax/minimax-m2.7-highspeed"
+name = "MiniMax: MiniMax M2.7 highspeed"
+release_date = "1773815758"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0611
+cache_write = 0.3819
+input = 0.611
+output = 2.4439

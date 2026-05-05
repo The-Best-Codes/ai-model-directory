@@ -1,0 +1,18 @@
+id = "sapiens-ai/agnes-1.5-lite"
+name = "Sapiens AI: Agnes-1.5-Lite"
+release_date = "1774504306"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.07
+output = 0.15

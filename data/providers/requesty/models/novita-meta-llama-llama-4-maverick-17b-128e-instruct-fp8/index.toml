@@ -1,0 +1,20 @@
+id = "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8"
+name = "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8"
+release_date = "1738263837"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 1048576
+output = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.85

@@ -1,0 +1,19 @@
+id = "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct"
+name = "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct"
+release_date = "1753454294"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 1.6

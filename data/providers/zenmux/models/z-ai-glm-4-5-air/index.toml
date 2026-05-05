@@ -1,0 +1,19 @@
+id = "z-ai/glm-4.5-air"
+name = "Z.AI: GLM 4.5 Air"
+release_date = "1757422433"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0233
+input = 0.1165
+output = 0.2911

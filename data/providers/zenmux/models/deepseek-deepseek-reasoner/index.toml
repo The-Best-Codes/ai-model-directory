@@ -1,0 +1,19 @@
+id = "deepseek/deepseek-reasoner"
+name = "DeepSeek: DeepSeek-V3.2 (Thinking Mode)"
+release_date = "1761214900"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.028
+input = 0.14
+output = 0.28

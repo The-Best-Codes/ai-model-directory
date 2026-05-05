@@ -1,0 +1,22 @@
+id = "deepseek/deepseek-v4-pro"
+name = "deepseek/deepseek-v4-pro"
+release_date = "1777029550"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 1000000
+output = 384000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.145
+cache_write = 1.74
+input = 1.74
+output = 3.48
