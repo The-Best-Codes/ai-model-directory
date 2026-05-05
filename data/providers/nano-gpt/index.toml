@@ -1,0 +1,7 @@
+name = "NanoGPT"
+website = "https://nano-gpt.com"
+apiBaseUrl = "https://nano-gpt.com/api/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["NANO_GPT_API_KEY"]
