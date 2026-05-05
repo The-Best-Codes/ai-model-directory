@@ -1,3 +1,4 @@
+import Decimal from "decimal.js";
 import { fetchText } from "../lib/http.ts";
 import {
   integerGreaterThanZero,
@@ -71,9 +72,9 @@ function priceFromMoney(
   }
 
   const unitsValue = amount.units?.replace(/^\$n/, "") ?? "0";
-  const whole = Number(unitsValue);
-  const nanos = (amount.nanos ?? 0) / 1_000_000_000;
-  const total = whole + nanos;
+  const total = new Decimal(unitsValue)
+    .plus(new Decimal(amount.nanos ?? 0).div(1_000_000_000))
+    .toNumber();
 
   return Number.isFinite(total) && total >= 0 ? total : undefined;
 }

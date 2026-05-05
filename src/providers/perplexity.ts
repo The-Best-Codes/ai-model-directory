@@ -1,3 +1,4 @@
+import Decimal from "decimal.js";
 import { z } from "zod";
 
 import { fetchJson, fetchText, withBearerToken } from "../lib/http.ts";
@@ -20,8 +21,8 @@ function parsePriceCell(value: string): number | undefined {
     return undefined;
   }
 
-  const parsed = Number(match[1]);
-  return Number.isFinite(parsed) && parsed >= 0 ? parsed : undefined;
+  const parsed = new Decimal(match[1]);
+  return parsed.isFinite() && parsed.gte(0) ? parsed.toNumber() : undefined;
 }
 
 function parseCacheReadPrice(
@@ -44,13 +45,15 @@ function parseCacheReadPrice(
     return undefined;
   }
 
-  const discount = Number(discountMatch[1]);
+  const discount = new Decimal(discountMatch[1]);
 
-  if (!Number.isFinite(discount) || discount < 0 || discount > 100) {
+  if (!discount.isFinite() || discount.lt(0) || discount.gt(100)) {
     return undefined;
   }
 
-  return inputPrice * ((100 - discount) / 100);
+  return new Decimal(inputPrice)
+    .mul(new Decimal(100).minus(discount).div(100))
+    .toNumber();
 }
 
 function parsePricing(
