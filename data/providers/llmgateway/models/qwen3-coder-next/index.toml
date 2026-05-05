@@ -1,6 +1,6 @@
 id = "qwen3-coder-next"
 name = "Qwen3 Coder Next"
-release_date = "1777943866"
+release_date = "1777955839"
 
 [features]
 attachment = false
