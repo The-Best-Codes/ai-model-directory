@@ -1,0 +1,10 @@
+id = "Qwen-Image-Edit"
+name = "Qwen-Image-Edit"
+release_date = "1755690336"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

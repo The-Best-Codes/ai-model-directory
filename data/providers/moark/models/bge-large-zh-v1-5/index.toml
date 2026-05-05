@@ -1,0 +1,16 @@
+id = "bge-large-zh-v1.5"
+last_updated = "1760502373"
+name = "bge-large-zh-v1.5"
+release_date = "1718356952"
+
+[features]
+attachment = false
+
+[limit]
+context = 500
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

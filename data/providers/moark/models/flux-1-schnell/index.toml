@@ -1,0 +1,11 @@
+id = "flux-1-schnell"
+last_updated = "1765264665"
+name = "flux-1-schnell"
+release_date = "1725354000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

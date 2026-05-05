@@ -1,0 +1,18 @@
+id = "ERNIE-4.5-Turbo-VL"
+last_updated = "1750934966"
+name = "ERNIE-4.5-Turbo-VL"
+release_date = "1750152020"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.43935117
+output = 1.31805351

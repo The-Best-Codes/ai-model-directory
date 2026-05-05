@@ -1,0 +1,18 @@
+id = "internlm3-8b-instruct"
+last_updated = "1751453645"
+name = "internlm3-8b-instruct"
+release_date = "1742354841"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

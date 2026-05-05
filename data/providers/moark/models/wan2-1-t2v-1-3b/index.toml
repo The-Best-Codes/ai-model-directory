@@ -1,0 +1,11 @@
+id = "Wan2.1-T2V-1.3B"
+last_updated = "1741688062"
+name = "Wan2.1-T2V-1.3B"
+release_date = "1740575639"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

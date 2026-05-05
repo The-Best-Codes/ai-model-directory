@@ -1,0 +1,11 @@
+id = "whisper-base"
+last_updated = "1735288656"
+name = "whisper-base"
+release_date = "1718318862"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

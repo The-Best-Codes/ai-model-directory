@@ -1,0 +1,11 @@
+id = "Qwen3-ASR-1.7B"
+last_updated = "1770950338"
+name = "Qwen3-ASR-1.7B"
+release_date = "1770950156"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

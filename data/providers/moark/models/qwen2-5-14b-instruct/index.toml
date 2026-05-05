@@ -1,0 +1,15 @@
+id = "Qwen2.5-14B-Instruct"
+last_updated = "1751336240"
+name = "Qwen2.5-14B-Instruct"
+release_date = "1733218442"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

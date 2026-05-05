@@ -1,0 +1,11 @@
+id = "AudioFly"
+last_updated = "1760665266"
+name = "AudioFly"
+release_date = "1760610592"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

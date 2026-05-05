@@ -1,0 +1,16 @@
+id = "jina-clip-v1"
+last_updated = "1741323914"
+name = "jina-clip-v1"
+release_date = "1730707523"
+
+[features]
+attachment = true
+
+[limit]
+context = 500
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0

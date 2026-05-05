@@ -1,0 +1,19 @@
+id = "GLM-4_5-Air"
+last_updated = "1766128330"
+name = "GLM-4_5-Air"
+release_date = "1753788267"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14645039
+output = 0.87870234

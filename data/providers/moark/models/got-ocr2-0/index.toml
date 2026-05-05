@@ -1,0 +1,11 @@
+id = "GOT-OCR2_0"
+last_updated = "1751440706"
+name = "GOT-OCR2_0"
+release_date = "1735902755"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

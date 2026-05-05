@@ -1,0 +1,11 @@
+id = "DeepSeek-OCR"
+last_updated = "1764745660"
+name = "DeepSeek-OCR"
+release_date = "1761128296"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

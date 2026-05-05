@@ -1,0 +1,16 @@
+id = "bge-m3"
+last_updated = "1741323996"
+name = "bge-m3"
+release_date = "1723546832"
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

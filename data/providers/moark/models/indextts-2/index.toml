@@ -1,0 +1,11 @@
+id = "IndexTTS-2"
+last_updated = "1772262029"
+name = "IndexTTS-2"
+release_date = "1757675146"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,18 @@
+id = "InternVL2.5-78B"
+last_updated = "1751453716"
+name = "InternVL2.5-78B"
+release_date = "1735887956"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

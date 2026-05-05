@@ -1,0 +1,16 @@
+id = "Youtu-Embedding"
+last_updated = "1760513001"
+name = "Youtu-Embedding"
+release_date = "1760511904"
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

@@ -1,0 +1,11 @@
+id = "Qwen-Image-Layered"
+last_updated = "1769598612"
+name = "Qwen-Image-Layered"
+release_date = "1769500617"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

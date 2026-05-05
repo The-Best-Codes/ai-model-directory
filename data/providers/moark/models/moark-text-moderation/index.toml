@@ -1,0 +1,11 @@
+id = "moark-text-moderation"
+last_updated = "1748940582"
+name = "moark-text-moderation"
+release_date = "1744097442"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

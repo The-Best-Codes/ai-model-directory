@@ -1,0 +1,19 @@
+id = "DeepSeek-V3_1-Terminus"
+last_updated = "1758853755"
+name = "DeepSeek-V3_1-Terminus"
+release_date = "1758674857"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.58580156
+output = 1.75740468

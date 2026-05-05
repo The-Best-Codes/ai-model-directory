@@ -1,0 +1,11 @@
+id = "ChatTTS"
+last_updated = "1735288696"
+name = "ChatTTS"
+release_date = "1719374941"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

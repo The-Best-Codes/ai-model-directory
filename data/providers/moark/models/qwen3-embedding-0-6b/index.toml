@@ -1,0 +1,16 @@
+id = "Qwen3-Embedding-0.6B"
+last_updated = "1750934902"
+name = "Qwen3-Embedding-0.6B"
+release_date = "1749203295"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

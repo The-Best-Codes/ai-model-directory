@@ -1,0 +1,11 @@
+id = "RMBG-2.0"
+last_updated = "1735289168"
+name = "RMBG-2.0"
+release_date = "1734598369"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

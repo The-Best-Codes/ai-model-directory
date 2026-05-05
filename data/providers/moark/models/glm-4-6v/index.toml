@@ -1,0 +1,18 @@
+id = "GLM-4.6V"
+last_updated = "1766128311"
+name = "GLM-4.6V"
+release_date = "1765203268"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29290078
+output = 0.87870234

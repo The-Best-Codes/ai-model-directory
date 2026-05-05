@@ -1,0 +1,16 @@
+id = "Qwen3-VL-Embedding-8B"
+last_updated = "1768890101"
+name = "Qwen3-VL-Embedding-8B"
+release_date = "1768890052"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0512576365

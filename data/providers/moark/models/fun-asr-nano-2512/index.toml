@@ -1,0 +1,11 @@
+id = "Fun-ASR-Nano-2512"
+last_updated = "1766996831"
+name = "Fun-ASR-Nano-2512"
+release_date = "1766991599"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

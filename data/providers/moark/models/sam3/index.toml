@@ -1,0 +1,11 @@
+id = "sam3"
+last_updated = "1767485237"
+name = "sam3"
+release_date = "1767000755"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]

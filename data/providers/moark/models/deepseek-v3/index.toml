@@ -1,0 +1,19 @@
+id = "DeepSeek-V3"
+last_updated = "1765264997"
+name = "DeepSeek-V3"
+release_date = "1738677185"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29290078
+output = 1.17160312

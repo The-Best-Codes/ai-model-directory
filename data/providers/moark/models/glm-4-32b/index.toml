@@ -1,0 +1,18 @@
+id = "GLM-4-32B"
+last_updated = "1766128339"
+name = "GLM-4-32B"
+release_date = "1745012234"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2767912371
+output = 0.2767912371

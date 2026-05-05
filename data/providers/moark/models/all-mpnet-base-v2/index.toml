@@ -1,0 +1,12 @@
+id = "all-mpnet-base-v2"
+name = "all-mpnet-base-v2"
+release_date = "1745575405"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

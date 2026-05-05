@@ -1,0 +1,18 @@
+id = "Qwen2-Audio-7B-Instruct"
+last_updated = "1750934670"
+name = "Qwen2-Audio-7B-Instruct"
+release_date = "1741692639"
+
+[features]
+attachment = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 0
+output = 0

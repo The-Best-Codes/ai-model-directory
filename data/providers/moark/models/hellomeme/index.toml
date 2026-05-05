@@ -1,0 +1,11 @@
+id = "HelloMeme"
+last_updated = "1750377430"
+name = "HelloMeme"
+release_date = "1749723982"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image", "video" ]

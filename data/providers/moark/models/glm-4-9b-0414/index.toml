@@ -1,0 +1,18 @@
+id = "GLM-4-9B-0414"
+last_updated = "1766128335"
+name = "GLM-4-9B-0414"
+release_date = "1747120170"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

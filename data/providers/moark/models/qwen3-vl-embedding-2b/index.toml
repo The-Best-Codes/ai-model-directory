@@ -1,0 +1,13 @@
+id = "Qwen3-VL-Embedding-2B"
+last_updated = "1769411558"
+name = "Qwen3-VL-Embedding-2B"
+release_date = "1769411304"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.0131805351

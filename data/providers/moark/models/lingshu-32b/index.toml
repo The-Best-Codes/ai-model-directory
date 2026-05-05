@@ -1,0 +1,7 @@
+id = "Lingshu-32B"
+last_updated = "1773295069"
+name = "Lingshu-32B"
+release_date = "1749727599"
+
+[limit]
+context = 32000
