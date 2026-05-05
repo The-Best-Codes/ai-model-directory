@@ -1,6 +1,6 @@
 id = "pixtral-large-latest"
 name = "Pixtral Large Latest"
-release_date = "1777941341"
+release_date = "1777943866"
 
 [features]
 attachment = true

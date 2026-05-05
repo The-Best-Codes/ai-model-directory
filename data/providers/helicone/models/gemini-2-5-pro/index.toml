@@ -1,5 +1,5 @@
 id = "gemini-2.5-pro"
-knowledge_cutoff = "1750144344"
+knowledge_cutoff = "1750162344"
 name = "Google Gemini 2.5 Pro"
 
 [features]

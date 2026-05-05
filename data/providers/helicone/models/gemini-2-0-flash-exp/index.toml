@@ -1,5 +1,5 @@
 id = "gemini-2.0-flash-exp"
-knowledge_cutoff = "1733875200"
+knowledge_cutoff = "1733896800"
 name = "Google Gemini 2.0 Flash Experimental"
 
 [features]

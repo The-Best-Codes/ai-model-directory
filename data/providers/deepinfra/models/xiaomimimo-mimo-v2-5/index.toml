@@ -1,0 +1,15 @@
+id = "XiaomiMiMo/MiMo-V2.5"
+name = "XiaomiMiMo/MiMo-V2.5"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.08000000000000002
+input = 0.4
+output = 2
