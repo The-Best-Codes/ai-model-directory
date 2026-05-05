@@ -1,6 +1,6 @@
 id = "minimax-m2.7-highspeed"
 name = "MiniMax M2.7 Highspeed"
-release_date = "1777994993"
+release_date = "1778009453"
 
 [features]
 attachment = false

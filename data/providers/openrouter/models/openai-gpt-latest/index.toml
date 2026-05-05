@@ -1,4 +1,5 @@
 id = "~openai/gpt-latest"
+knowledge_cutoff = "1764547200"
 name = "OpenAI GPT Latest"
 release_date = "1777318334"
 
