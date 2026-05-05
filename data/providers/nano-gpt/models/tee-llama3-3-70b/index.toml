@@ -1,0 +1,21 @@
+id = "TEE/llama3-3-70b"
+name = "Llama 3.3 70B"
+release_date = "1751500800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 2

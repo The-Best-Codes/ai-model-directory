@@ -1,0 +1,21 @@
+id = "openai/gpt-4o"
+name = "GPT-4o"
+release_date = "1747094400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.499
+output = 9.996

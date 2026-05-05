@@ -1,0 +1,21 @@
+id = "step-2-16k-exp"
+name = "Step-2 16k Exp"
+release_date = "1728950400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 7.0040000000000004
+output = 19.992

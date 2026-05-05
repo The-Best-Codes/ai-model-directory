@@ -1,0 +1,21 @@
+id = "Sao10K/L3.1-70B-Euryale-v2.2"
+name = "Llama 3.1 70B Euryale"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 20480
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.306
+output = 0.357

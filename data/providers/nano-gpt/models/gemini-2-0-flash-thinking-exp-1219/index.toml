@@ -1,0 +1,21 @@
+id = "gemini-2.0-flash-thinking-exp-1219"
+name = "Gemini 2.0 Flash Thinking 1219"
+release_date = "1734566400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32767
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1003
+output = 0.408

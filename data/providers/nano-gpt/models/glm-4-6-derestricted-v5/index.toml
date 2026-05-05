@@ -1,0 +1,20 @@
+id = "GLM-4.6-Derestricted-v5"
+name = "GLM 4.6 Derestricted v5"
+release_date = "1766448000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 1.5

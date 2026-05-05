@@ -1,0 +1,21 @@
+id = "yi-lightning"
+name = "Yi Lightning"
+release_date = "1749945600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 12000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2006
+output = 0.2006

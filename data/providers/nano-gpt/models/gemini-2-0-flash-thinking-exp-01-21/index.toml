@@ -1,0 +1,21 @@
+id = "gemini-2.0-flash-thinking-exp-01-21"
+name = "Gemini 2.0 Flash Thinking 0121"
+release_date = "1737417600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.306
+output = 1.003

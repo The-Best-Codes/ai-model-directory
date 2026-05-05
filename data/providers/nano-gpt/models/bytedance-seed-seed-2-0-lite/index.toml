@@ -1,0 +1,21 @@
+id = "bytedance-seed/seed-2.0-lite"
+name = "ByteDance Seed 2.0 Lite"
+release_date = "1773100800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25
+output = 2

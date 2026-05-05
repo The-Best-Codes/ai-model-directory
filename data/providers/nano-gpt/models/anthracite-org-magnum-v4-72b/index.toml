@@ -1,0 +1,21 @@
+id = "anthracite-org/magnum-v4-72b"
+name = "Magnum v4 72B"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.006
+output = 2.992

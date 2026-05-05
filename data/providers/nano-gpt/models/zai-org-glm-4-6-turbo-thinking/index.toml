@@ -1,0 +1,21 @@
+id = "zai-org/GLM-4.6-turbo:thinking"
+name = "GLM 4.6 Turbo (Thinking)"
+release_date = "1759363200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 200000
+output = 204800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 3

@@ -1,0 +1,21 @@
+id = "Qwen/Qwen3-Next-80B-A3B-Instruct"
+name = "Qwen3 Next 80B A3B (Instruct)"
+release_date = "1757548800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.65

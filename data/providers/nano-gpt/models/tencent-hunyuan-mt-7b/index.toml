@@ -1,0 +1,21 @@
+id = "tencent/Hunyuan-MT-7B"
+name = "Hunyuan MT 7B"
+release_date = "1755216000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 10
+output = 20

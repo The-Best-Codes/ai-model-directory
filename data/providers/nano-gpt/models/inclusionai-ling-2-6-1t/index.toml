@@ -1,0 +1,21 @@
+id = "inclusionai/ling-2.6-1t"
+name = "Ling 2.6 1T"
+release_date = "1776902400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 3

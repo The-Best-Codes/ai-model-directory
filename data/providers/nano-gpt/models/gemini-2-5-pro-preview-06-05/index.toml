@@ -1,0 +1,21 @@
+id = "gemini-2.5-pro-preview-06-05"
+name = "Gemini 2.5 Pro Preview 0605"
+release_date = "1749081600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1048756
+output = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10

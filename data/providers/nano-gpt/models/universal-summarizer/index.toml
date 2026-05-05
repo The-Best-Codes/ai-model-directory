@@ -1,0 +1,20 @@
+id = "universal-summarizer"
+name = "Universal Summarizer"
+release_date = "1766448000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 30
+output = 30

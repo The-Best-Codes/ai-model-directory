@@ -1,0 +1,21 @@
+id = "amazon/nova-micro-v1"
+name = "Amazon Nova Micro 1.0"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 5120
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0357
+output = 0.1394

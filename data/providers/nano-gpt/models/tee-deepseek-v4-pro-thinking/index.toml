@@ -1,0 +1,21 @@
+id = "TEE/deepseek-v4-pro:thinking"
+name = "DeepSeek V4 Pro Thinking TEE"
+release_date = "1777420800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 800000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.5
+output = 5.25

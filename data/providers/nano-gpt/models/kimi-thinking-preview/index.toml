@@ -1,0 +1,21 @@
+id = "kimi-thinking-preview"
+name = "Kimi Thinking Preview"
+release_date = "1746576000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 31.46
+output = 31.46

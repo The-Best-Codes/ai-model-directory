@@ -1,0 +1,21 @@
+id = "ReadyArt/MS3.2-The-Omega-Directive-24B-Unslop-v2.0"
+name = "Omega Directive 24B Unslop v2.0"
+release_date = "1765152000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 0.5

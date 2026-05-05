@@ -1,0 +1,21 @@
+id = "x-ai/grok-4.20"
+name = "Grok 4.20"
+release_date = "1774915200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 2000000
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 6

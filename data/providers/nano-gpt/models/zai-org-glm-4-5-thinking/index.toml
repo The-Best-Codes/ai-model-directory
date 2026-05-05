@@ -1,0 +1,21 @@
+id = "zai-org/GLM-4.5:thinking"
+name = "GLM 4.5 (Thinking)"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.3

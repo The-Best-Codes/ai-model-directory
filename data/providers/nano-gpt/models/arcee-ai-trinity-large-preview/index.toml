@@ -1,0 +1,21 @@
+id = "arcee-ai/trinity-large-preview"
+name = "Trinity Large Preview"
+release_date = "1776816000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 80000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25
+output = 1

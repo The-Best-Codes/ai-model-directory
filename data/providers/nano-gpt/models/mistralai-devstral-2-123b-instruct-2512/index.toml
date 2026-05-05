@@ -1,0 +1,21 @@
+id = "mistralai/devstral-2-123b-instruct-2512"
+name = "Devstral 2 123B"
+release_date = "1765238400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 1.4

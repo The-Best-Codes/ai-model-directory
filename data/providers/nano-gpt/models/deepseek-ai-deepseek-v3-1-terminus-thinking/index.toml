@@ -1,0 +1,21 @@
+id = "deepseek-ai/DeepSeek-V3.1-Terminus:thinking"
+name = "DeepSeek V3.1 Terminus (Thinking)"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25
+output = 0.7

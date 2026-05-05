@@ -1,0 +1,21 @@
+id = "TEE/kimi-k2-thinking"
+name = "Kimi K2 Thinking TEE"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 2

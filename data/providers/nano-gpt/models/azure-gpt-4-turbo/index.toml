@@ -1,0 +1,21 @@
+id = "azure-gpt-4-turbo"
+name = "Azure gpt-4-turbo"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 9.996
+output = 30.004999999999995

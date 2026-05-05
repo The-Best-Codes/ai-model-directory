@@ -1,0 +1,21 @@
+id = "zai-org/glm-4.7-flash-original:thinking"
+name = "GLM 4.7 Flash Original Thinking"
+release_date = "1768780800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06999999999999999
+output = 0.4

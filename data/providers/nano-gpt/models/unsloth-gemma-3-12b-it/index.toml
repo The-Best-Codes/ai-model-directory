@@ -1,0 +1,21 @@
+id = "unsloth/gemma-3-12b-it"
+name = "Gemma 3 12B IT"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.272
+output = 0.272

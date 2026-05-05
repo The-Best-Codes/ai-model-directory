@@ -1,0 +1,21 @@
+id = "huihui-ai/Qwen2.5-32B-Instruct-abliterated"
+name = "Qwen 2.5 32B Abliterated"
+release_date = "1736121600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 0.7

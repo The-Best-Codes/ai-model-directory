@@ -1,0 +1,20 @@
+id = "TheDrummer/Skyfall-31B-v4.2"
+name = "TheDrummer Skyfall 31B v4.2"
+release_date = "1774483200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.55
+output = 0.8

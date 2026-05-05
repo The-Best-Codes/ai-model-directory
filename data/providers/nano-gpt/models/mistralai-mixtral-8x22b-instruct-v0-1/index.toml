@@ -1,0 +1,21 @@
+id = "mistralai/mixtral-8x22b-instruct-v0.1"
+name = "Mixtral 8x22B"
+release_date = "1765411200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 65536
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8999999999999999
+output = 0.8999999999999999

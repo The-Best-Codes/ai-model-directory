@@ -1,0 +1,20 @@
+id = "exa-research"
+name = "Exa (Research)"
+release_date = "1766448000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 2.5

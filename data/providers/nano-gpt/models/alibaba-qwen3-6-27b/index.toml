@@ -1,0 +1,21 @@
+id = "alibaba/qwen3.6-27b"
+name = "Qwen3.6 27B"
+release_date = "1776902400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 260096
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 3.5999999999999996

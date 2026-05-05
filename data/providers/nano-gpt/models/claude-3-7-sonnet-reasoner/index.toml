@@ -1,0 +1,21 @@
+id = "claude-3-7-sonnet-reasoner"
+name = "Claude 3.7 Sonnet Reasoner"
+release_date = "1743206400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 15

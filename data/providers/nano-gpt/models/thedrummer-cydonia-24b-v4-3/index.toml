@@ -1,0 +1,21 @@
+id = "TheDrummer/Cydonia-24B-v4.3"
+name = "The Drummer Cydonia 24B v4.3"
+release_date = "1766620800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1003
+output = 0.1207

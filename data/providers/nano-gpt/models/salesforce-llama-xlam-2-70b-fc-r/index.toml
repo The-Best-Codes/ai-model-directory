@@ -1,0 +1,21 @@
+id = "Salesforce/Llama-xLAM-2-70b-fc-r"
+name = "Llama-xLAM-2 70B fc-r"
+release_date = "1744502400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 2.5

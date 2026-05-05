@@ -1,0 +1,21 @@
+id = "sonar-pro"
+name = "Perplexity Pro"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.992
+output = 14.993999999999998

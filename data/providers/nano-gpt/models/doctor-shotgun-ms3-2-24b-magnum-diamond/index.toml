@@ -1,0 +1,21 @@
+id = "Doctor-Shotgun/MS3.2-24B-Magnum-Diamond"
+name = "MS3.2 24B Magnum Diamond"
+release_date = "1763942400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.49299999999999994
+output = 0.49299999999999994

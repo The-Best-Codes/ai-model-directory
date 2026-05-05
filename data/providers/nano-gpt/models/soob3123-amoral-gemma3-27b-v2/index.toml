@@ -1,0 +1,21 @@
+id = "soob3123/amoral-gemma3-27B-v2"
+name = "Amoral Gemma3 27B v2"
+release_date = "1747958400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.3

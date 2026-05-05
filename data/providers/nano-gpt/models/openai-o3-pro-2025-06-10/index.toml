@@ -1,0 +1,21 @@
+id = "openai/o3-pro-2025-06-10"
+name = "OpenAI o3-pro (2025-06-10)"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 22.000000000000004
+output = 88.00000000000001

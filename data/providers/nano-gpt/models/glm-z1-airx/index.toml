@@ -1,0 +1,21 @@
+id = "glm-z1-airx"
+name = "GLM Z1 AirX"
+release_date = "1744675200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 32000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 0.7

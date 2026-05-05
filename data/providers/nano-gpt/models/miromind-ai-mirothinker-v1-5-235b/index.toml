@@ -1,0 +1,21 @@
+id = "miromind-ai/mirothinker-v1.5-235b"
+name = "MiroThinker v1.5 235B"
+release_date = "1767744000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

@@ -1,0 +1,21 @@
+id = "zai-org/glm-4.6v-flash-original"
+name = "GLM 4.6V Flash"
+release_date = "1765152000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 24000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.4

@@ -1,0 +1,21 @@
+id = "deepseek-math-v2"
+name = "DeepSeek Math V2"
+release_date = "1764720000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.2

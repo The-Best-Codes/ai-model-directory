@@ -1,0 +1,21 @@
+id = "openai/o1-preview"
+name = "OpenAI o1-preview"
+release_date = "1704067200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 14.993999999999998
+output = 59.993

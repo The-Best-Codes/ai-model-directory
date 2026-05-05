@@ -1,0 +1,21 @@
+id = "MiniMax-M2"
+name = "MiniMax M2"
+release_date = "1736640000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 200000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.17
+output = 1.5299999999999998

@@ -1,0 +1,21 @@
+id = "openai/o3-mini-low"
+name = "OpenAI o3-mini (Low)"
+release_date = "1769817600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.088
+output = 4.3996

@@ -1,0 +1,21 @@
+id = "jamba-large-1.7"
+name = "Jamba Large 1.7"
+release_date = "1752019200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.9889999999999999
+output = 7.99

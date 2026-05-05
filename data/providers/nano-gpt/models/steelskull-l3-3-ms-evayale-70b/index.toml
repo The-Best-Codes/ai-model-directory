@@ -1,0 +1,21 @@
+id = "Steelskull/L3.3-MS-Evayale-70B"
+name = "Evayale 70b "
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.49299999999999994
+output = 0.49299999999999994

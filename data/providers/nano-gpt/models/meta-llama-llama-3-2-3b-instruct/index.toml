@@ -1,0 +1,21 @@
+id = "meta-llama/llama-3.2-3b-instruct"
+name = "Llama 3.2 3b Instruct"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0306
+output = 0.0493

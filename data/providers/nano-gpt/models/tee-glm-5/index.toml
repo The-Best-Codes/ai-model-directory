@@ -1,0 +1,21 @@
+id = "TEE/glm-5"
+name = "GLM 5 TEE"
+release_date = "1770768000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 203000
+output = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.2
+output = 3.5

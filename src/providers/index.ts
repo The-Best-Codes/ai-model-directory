@@ -29,6 +29,7 @@ import { llmgatewayProvider } from "./llmgateway.ts";
 import { mistralProvider } from "./mistral.ts";
 import { modelscopeProvider } from "./modelscope.ts";
 import { moarkProvider } from "./moark.ts";
+import { nanoGptProvider } from "./nano-gpt.ts";
 import { novitaProvider } from "./novita.ts";
 import { openaiProvider } from "./openai.ts";
 import { ovhcloudProvider } from "./ovhcloud.ts";
@@ -72,6 +73,7 @@ export const providers: ProviderDefinition[] = [
   mistralProvider,
   modelscopeProvider,
   moarkProvider,
+  nanoGptProvider,
   novitaProvider,
   openaiProvider,
   ovhcloudProvider,

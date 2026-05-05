@@ -1,0 +1,21 @@
+id = "yi-large"
+name = "Yi Large"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.1959999999999997
+output = 3.1959999999999997

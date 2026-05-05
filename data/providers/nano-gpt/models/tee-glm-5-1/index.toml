@@ -1,0 +1,21 @@
+id = "TEE/glm-5.1"
+name = "GLM 5.1 TEE"
+release_date = "1776643200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 202752
+output = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.5
+output = 5.25

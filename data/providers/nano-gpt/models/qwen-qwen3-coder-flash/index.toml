@@ -1,0 +1,21 @@
+id = "qwen/qwen3-coder-flash"
+name = "Qwen3 Coder Flash"
+release_date = "1758067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.5

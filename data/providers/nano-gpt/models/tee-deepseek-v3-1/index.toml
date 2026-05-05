@@ -1,0 +1,21 @@
+id = "TEE/deepseek-v3.1"
+name = "DeepSeek V3.1 TEE"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 164000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 2.5

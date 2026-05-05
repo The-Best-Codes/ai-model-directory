@@ -1,0 +1,21 @@
+id = "meta-llama/llama-4-scout"
+name = "Llama 4 Scout"
+release_date = "1757030400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 328000
+output = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.085
+output = 0.46

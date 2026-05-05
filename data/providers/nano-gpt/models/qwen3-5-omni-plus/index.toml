@@ -1,0 +1,17 @@
+id = "qwen3.5-omni-plus"
+name = "Qwen3.5 Omni Plus"
+release_date = "1774828800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 983616
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]

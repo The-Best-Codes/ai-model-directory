@@ -1,0 +1,21 @@
+id = "chutesai/Mistral-Small-3.2-24B-Instruct-2506"
+name = "Mistral Small 3.2 24b Instruct"
+release_date = "1744675200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.4

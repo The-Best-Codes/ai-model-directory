@@ -1,0 +1,21 @@
+id = "huihui-ai/Llama-3.3-70B-Instruct-abliterated"
+name = "Llama 3.3 70B Instruct abliterated"
+release_date = "1754611200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 0.7

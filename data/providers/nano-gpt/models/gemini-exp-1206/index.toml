@@ -1,0 +1,21 @@
+id = "gemini-exp-1206"
+name = "Gemini 2.0 Pro 1206"
+release_date = "1733443200"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 2097152
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.258
+output = 4.998

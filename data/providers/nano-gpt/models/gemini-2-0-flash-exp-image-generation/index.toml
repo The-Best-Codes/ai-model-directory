@@ -1,0 +1,21 @@
+id = "gemini-2.0-flash-exp-image-generation"
+name = "Gemini Text + Image"
+release_date = "1739923200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32767
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.8

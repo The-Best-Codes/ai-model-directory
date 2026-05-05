@@ -1,0 +1,21 @@
+id = "qwen/qwen3-coder"
+name = "Qwen 3 Coder 480B"
+release_date = "1773705600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.12999999999999998
+output = 0.5

@@ -1,0 +1,21 @@
+id = "inclusionai/ling-2.6-flash"
+name = "Ling 2.6 Flash"
+release_date = "1776729600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.24000000000000002

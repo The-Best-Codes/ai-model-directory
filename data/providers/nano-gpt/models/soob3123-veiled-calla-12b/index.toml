@@ -1,0 +1,21 @@
+id = "soob3123/Veiled-Calla-12B"
+name = "Veiled Calla 12B"
+release_date = "1744502400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.3

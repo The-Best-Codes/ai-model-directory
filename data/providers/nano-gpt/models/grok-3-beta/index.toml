@@ -1,0 +1,21 @@
+id = "grok-3-beta"
+name = "Grok 3 Beta"
+release_date = "1759104000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 15

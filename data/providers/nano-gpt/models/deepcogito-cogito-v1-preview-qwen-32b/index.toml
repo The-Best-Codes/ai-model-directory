@@ -1,0 +1,21 @@
+id = "deepcogito/cogito-v1-preview-qwen-32B"
+name = "Cogito v1 Preview Qwen 32B"
+release_date = "1746835200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.7999999999999998
+output = 1.7999999999999998

@@ -1,0 +1,21 @@
+id = "z-ai/glm-4.6:thinking"
+name = "GLM 4.6 Thinking"
+release_date = "1759104000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.35
+output = 1.4

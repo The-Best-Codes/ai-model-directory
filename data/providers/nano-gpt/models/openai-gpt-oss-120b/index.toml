@@ -1,0 +1,21 @@
+id = "openai/gpt-oss-120b"
+name = "GPT OSS 120B"
+release_date = "1770076800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.25

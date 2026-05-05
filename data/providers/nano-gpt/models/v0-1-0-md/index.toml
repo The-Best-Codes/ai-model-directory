@@ -1,0 +1,21 @@
+id = "v0-1.0-md"
+name = "v0 1.0 MD"
+release_date = "1751587200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 200000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 15

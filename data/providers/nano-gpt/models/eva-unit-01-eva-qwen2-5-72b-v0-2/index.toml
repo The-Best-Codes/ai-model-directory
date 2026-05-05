@@ -1,0 +1,21 @@
+id = "EVA-UNIT-01/EVA-Qwen2.5-72B-v0.2"
+name = "EVA-Qwen2.5-72B-v0.2"
+release_date = "1758758400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7989999999999999
+output = 0.7989999999999999

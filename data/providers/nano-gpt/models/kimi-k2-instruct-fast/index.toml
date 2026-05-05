@@ -1,0 +1,21 @@
+id = "kimi-k2-instruct-fast"
+name = "Kimi K2 0711 Fast"
+release_date = "1765756800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 1.7999999999999998

@@ -1,0 +1,20 @@
+id = "brave"
+name = "Brave (Answers)"
+release_date = "1770940800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5
+output = 5

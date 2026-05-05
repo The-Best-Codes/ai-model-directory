@@ -1,0 +1,21 @@
+id = "qwen-turbo"
+name = "Qwen Turbo"
+release_date = "1713139200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.044981999999999994
+output = 0.18054

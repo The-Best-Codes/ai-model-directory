@@ -1,0 +1,21 @@
+id = "doubao-1.5-pro-32k"
+name = "Doubao 1.5 Pro 32k"
+release_date = "1732060800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.13429999999999997
+output = 0.3349

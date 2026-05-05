@@ -1,0 +1,21 @@
+id = "TheDrummer/Anubis-70B-v1.1"
+name = "Anubis 70B v1.1"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.31
+output = 0.31

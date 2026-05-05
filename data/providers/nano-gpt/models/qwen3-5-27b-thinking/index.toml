@@ -1,0 +1,21 @@
+id = "qwen3.5-27b:thinking"
+name = "Qwen3.5 27B Thinking"
+release_date = "1771891200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 260096
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.27
+output = 2.16

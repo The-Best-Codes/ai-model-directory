@@ -1,0 +1,21 @@
+id = "asi1-mini"
+name = "ASI1 Mini"
+release_date = "1742860800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 1

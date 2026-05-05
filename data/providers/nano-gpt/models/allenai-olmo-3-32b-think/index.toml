@@ -1,0 +1,21 @@
+id = "allenai/olmo-3-32b-think"
+name = "Olmo 3 32B Think"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.44999999999999996

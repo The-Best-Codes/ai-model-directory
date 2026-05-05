@@ -1,0 +1,21 @@
+id = "Baichuan4-Air"
+name = "Baichuan 4 Air"
+release_date = "1755561600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.157
+output = 0.157

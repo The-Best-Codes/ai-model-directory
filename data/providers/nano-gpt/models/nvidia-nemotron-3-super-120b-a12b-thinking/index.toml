@@ -1,0 +1,21 @@
+id = "nvidia/nemotron-3-super-120b-a12b:thinking"
+name = "Nvidia Nemotron 3 Super 120B Thinking"
+release_date = "1772323200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.25

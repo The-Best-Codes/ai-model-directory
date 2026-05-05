@@ -1,0 +1,21 @@
+id = "TEE/qwen3-30b-a3b-instruct-2507"
+name = "Qwen3 30B A3B Instruct 2507 TEE"
+release_date = "1704067200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.44999999999999996

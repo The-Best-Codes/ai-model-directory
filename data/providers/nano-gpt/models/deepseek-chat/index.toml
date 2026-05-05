@@ -1,0 +1,21 @@
+id = "deepseek-chat"
+name = "DeepSeek V3/Deepseek Chat"
+release_date = "1740614400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.425

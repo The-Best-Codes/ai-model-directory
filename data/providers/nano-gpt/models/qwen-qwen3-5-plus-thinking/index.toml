@@ -1,0 +1,21 @@
+id = "qwen/qwen3.5-plus-thinking"
+name = "Qwen3.5 Plus Thinking"
+release_date = "1771200000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 983616
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 2.4
