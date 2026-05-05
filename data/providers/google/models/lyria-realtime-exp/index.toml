@@ -1,6 +1,6 @@
 id = "lyria-realtime-exp"
 name = "Lyria Realtime Experimental"
-release_date = "1746075600"
+release_date = "1746057600"
 
 [modalities]
 output = [ "audio" ]

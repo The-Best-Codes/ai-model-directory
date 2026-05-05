@@ -1,6 +1,6 @@
 id = "lyria-3-clip-preview"
 name = "Lyria 3 Clip Preview"
-release_date = "1772344800"
+release_date = "1772323200"
 
 [features]
 attachment = true

@@ -1,7 +1,7 @@
 id = "gemini-2.0-flash-lite"
-knowledge_cutoff = "1722488400"
+knowledge_cutoff = "1722470400"
 name = "Gemini 2.0 Flash-Lite"
-release_date = "1738389600"
+release_date = "1738368000"
 
 [features]
 attachment = true

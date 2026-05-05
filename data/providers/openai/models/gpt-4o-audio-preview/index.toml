@@ -1,5 +1,5 @@
 id = "gpt-4o-audio-preview"
-knowledge_cutoff = "1696136400"
+knowledge_cutoff = "1696118400"
 name = "GPT-4o Audio"
 release_date = "1727460443"
 

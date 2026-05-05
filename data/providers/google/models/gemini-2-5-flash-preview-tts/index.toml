@@ -1,6 +1,6 @@
 id = "gemini-2.5-flash-preview-tts"
 name = "Gemini 2.5 Flash Preview TTS"
-release_date = "1764568800"
+release_date = "1764547200"
 
 [features]
 attachment = false

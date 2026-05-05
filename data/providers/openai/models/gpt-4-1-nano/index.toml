@@ -1,5 +1,5 @@
 id = "gpt-4.1-nano"
-knowledge_cutoff = "1717218000"
+knowledge_cutoff = "1717200000"
 name = "GPT-4.1 nano"
 release_date = "1744321707"
 

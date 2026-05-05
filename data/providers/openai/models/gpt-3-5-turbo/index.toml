@@ -1,5 +1,5 @@
 id = "gpt-3.5-turbo"
-knowledge_cutoff = "1630472400"
+knowledge_cutoff = "1630454400"
 name = "GPT-3.5 Turbo"
 release_date = "1677610602"
 

@@ -1,7 +1,7 @@
 id = "gemini-3.1-flash-tts-preview"
-knowledge_cutoff = "1735711200"
+knowledge_cutoff = "1735689600"
 name = "Gemini 3.1 Flash TTS Preview"
-release_date = "1775019600"
+release_date = "1775001600"
 
 [features]
 attachment = false

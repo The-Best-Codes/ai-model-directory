@@ -1,5 +1,5 @@
 id = "gpt-5"
-knowledge_cutoff = "1727672400"
+knowledge_cutoff = "1727654400"
 name = "GPT-5"
 release_date = "1754425777"
 

@@ -1,5 +1,5 @@
 id = "meta-llama/llama-4-scout-17b-16e-instruct"
-knowledge_cutoff = "1722488400"
+knowledge_cutoff = "1722470400"
 name = "Llama 4 Scout 17B 16E"
 release_date = "1743874824"
 
