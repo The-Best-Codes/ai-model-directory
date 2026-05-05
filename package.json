@@ -1,7 +1,10 @@
 {
-  "name": "ai-model-directory",
+  "name": "ai-model-directory-repo",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "type": "module",
   "module": "src/index.ts",
   "devDependencies": {

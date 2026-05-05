@@ -1,1 +1,3 @@
 data/*
+packages/npm/dist/*
+packages/npm/src/generated-data.ts
