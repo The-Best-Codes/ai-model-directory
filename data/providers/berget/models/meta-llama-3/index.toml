@@ -1,0 +1,16 @@
+id = "meta/llama-3"
+name = "meta/llama-3"
+open_weights = true
+release_date = "1745366400"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2345188
+output = 0.2345188

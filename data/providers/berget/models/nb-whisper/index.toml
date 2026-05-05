@@ -1,0 +1,13 @@
+id = "nb-whisper"
+name = "nb-whisper"
+open_weights = true
+release_date = "1777939200"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

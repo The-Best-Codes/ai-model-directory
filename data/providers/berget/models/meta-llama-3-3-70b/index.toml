@@ -1,0 +1,16 @@
+id = "meta/llama-3.3-70b"
+name = "meta/llama-3.3-70b"
+open_weights = true
+release_date = "1777939200"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.0553346
+output = 1.0553346
