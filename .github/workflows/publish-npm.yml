@@ -1,0 +1,63 @@
+name: Publish npm package
+
+on:
+  workflow_run:
+    workflows: ["Update Model Lists"]
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  publish:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+        with:
+          bun-version: latest
+
+      - name: Setup Node.js
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Bump patch version
+        working-directory: packages/npm
+        run: npm version patch --no-git-tag-version
+
+      - name: Build package
+        working-directory: packages/npm
+        run: bun run build
+
+      - name: Commit version bump
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add packages/npm/package.json
+          if git diff --staged --quiet; then
+            echo "No version change to commit"
+          else
+            VERSION=$(node -p "require('./packages/npm/package.json').version")
+            git commit -m "chore(bot): release ai-model-directory v${VERSION}"
+            git push
+          fi
+
+      - name: Publish to npm
+        working-directory: packages/npm
+        run: npm publish --access public
