@@ -1,6 +1,6 @@
 id = "o3-mini"
 name = "o3 Mini"
-release_date = "1777941341"
+release_date = "1777943866"
 
 [features]
 attachment = false

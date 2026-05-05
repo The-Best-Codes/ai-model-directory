@@ -1,6 +1,6 @@
 id = "deepinfra/meta-llama/Llama-4-Scout-17B-16E-Instruct"
 name = "deepinfra/meta-llama/Llama-4-Scout-17B-16E-Instruct"
-release_date = "1777752255"
+release_date = "1777886354"
 
 [features]
 attachment = true
