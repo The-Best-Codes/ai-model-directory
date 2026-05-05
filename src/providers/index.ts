@@ -6,6 +6,7 @@ import { aihubmixProvider } from "./aihubmix.ts";
 import { anthropicProvider } from "./anthropic.ts";
 import { avianProvider } from "./avian.ts";
 import { basetenProvider } from "./baseten.ts";
+import { bergetProvider } from "./berget.ts";
 import { cerebrasProvider } from "./cerebras.ts";
 import { chutesProvider } from "./chutes.ts";
 import { cohereProvider } from "./cohere.ts";
@@ -51,6 +52,7 @@ export const providers: ProviderDefinition[] = [
   anthropicProvider,
   avianProvider,
   basetenProvider,
+  bergetProvider,
   cerebrasProvider,
   chutesProvider,
   cohereProvider,

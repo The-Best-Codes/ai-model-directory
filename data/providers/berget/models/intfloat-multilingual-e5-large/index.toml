@@ -1,0 +1,15 @@
+id = "intfloat/multilingual-e5-large"
+name = "multilingual-e5-large"
+open_weights = true
+release_date = "1757548800"
+
+[features]
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.03517782
+output = 0

@@ -1,0 +1,16 @@
+id = "gemma4-31b"
+name = "gemma4-31b"
+open_weights = true
+release_date = "1775088000"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2931485
+output = 0.586297

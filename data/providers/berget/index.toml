@@ -1,0 +1,7 @@
+name = "Berget.AI"
+website = "https://berget.ai"
+apiBaseUrl = "https://api.berget.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["BERGET_API_KEY"]

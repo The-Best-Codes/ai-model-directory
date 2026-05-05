@@ -1,0 +1,16 @@
+id = "glm-4.7"
+name = "glm-4.7"
+open_weights = true
+release_date = "1768780800"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8208158
+output = 2.931485

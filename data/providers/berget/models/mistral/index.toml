@@ -1,0 +1,17 @@
+id = "mistral"
+name = "mistral"
+open_weights = true
+release_date = "1759276800"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3517782
+output = 0.3517782

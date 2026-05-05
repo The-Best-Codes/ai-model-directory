@@ -1,0 +1,17 @@
+id = "gpt-oss-120b"
+name = "gpt-oss-120b"
+open_weights = true
+release_date = "1754352000"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2345188
+output = 0.8794455
