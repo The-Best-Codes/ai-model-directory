@@ -1,0 +1,13 @@
+id = "qwen3.5-plus"
+name = "Qwen3.5-Plus"
+release_date = "1771229977"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

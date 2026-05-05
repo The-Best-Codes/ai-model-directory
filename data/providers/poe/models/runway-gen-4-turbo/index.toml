@@ -1,0 +1,16 @@
+id = "runway-gen-4-turbo"
+name = "Runway-Gen-4-Turbo"
+release_date = "1746825004"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 256
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

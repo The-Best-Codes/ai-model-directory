@@ -1,0 +1,13 @@
+id = "deepseek-r1-n"
+name = "DeepSeek-R1-N"
+release_date = "1754049641"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

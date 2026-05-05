@@ -1,0 +1,21 @@
+id = "gpt-3.5-turbo-raw"
+name = "GPT-3.5-Turbo-Raw"
+release_date = "1695849978"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 4524
+output = 2048
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4545
+output = 1.3636

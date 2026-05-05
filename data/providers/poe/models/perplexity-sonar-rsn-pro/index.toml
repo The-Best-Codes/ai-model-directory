@@ -1,0 +1,16 @@
+id = "perplexity-sonar-rsn-pro"
+name = "Perplexity-Sonar-Rsn-Pro"
+release_date = "1739997380"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

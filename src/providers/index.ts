@@ -34,6 +34,7 @@ import { novitaProvider } from "./novita.ts";
 import { openaiProvider } from "./openai.ts";
 import { ovhcloudProvider } from "./ovhcloud.ts";
 import { perplexityProvider } from "./perplexity.ts";
+import { poeProvider } from "./poe.ts";
 import { openrouterProvider } from "./openrouter.ts";
 import { tetrateProvider } from "./tetrate.ts";
 import { togetheraiProvider } from "./togetherai.ts";
@@ -78,6 +79,7 @@ export const providers: ProviderDefinition[] = [
   openaiProvider,
   ovhcloudProvider,
   perplexityProvider,
+  poeProvider,
   openrouterProvider,
   tetrateProvider,
   togetheraiProvider,

@@ -1,0 +1,13 @@
+id = "qwen3-next-80b"
+name = "Qwen3-Next-80B"
+release_date = "1757556042"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

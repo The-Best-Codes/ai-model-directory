@@ -1,0 +1,16 @@
+id = "topazlabs"
+name = "TopazLabs"
+release_date = "1733266151"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 204
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,13 @@
+id = "interpreter"
+name = "Interpreter"
+release_date = "1715753807"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]

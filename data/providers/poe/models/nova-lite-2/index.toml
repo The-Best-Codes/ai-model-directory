@@ -1,0 +1,18 @@
+id = "nova-lite-2"
+name = "Nova-Lite-2"
+release_date = "1764827272"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2111
+input = 0.3838
+output = 3.1919

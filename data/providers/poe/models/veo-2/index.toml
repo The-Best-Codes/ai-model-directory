@@ -1,0 +1,16 @@
+id = "veo-2"
+name = "Veo-2"
+release_date = "1733117805"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 480
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

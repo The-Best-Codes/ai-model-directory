@@ -1,0 +1,21 @@
+id = "gpt-4o-mini-search"
+name = "GPT-4o-mini-Search"
+release_date = "1741724009"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1364
+output = 0.5455

@@ -1,0 +1,16 @@
+id = "perplexity-deep-research"
+name = "Perplexity-Deep-Research"
+release_date = "1740542141"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

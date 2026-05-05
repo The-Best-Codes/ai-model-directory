@@ -1,0 +1,16 @@
+id = "sora-2-pro"
+name = "Sora-2-Pro"
+release_date = "1759779974"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 480
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

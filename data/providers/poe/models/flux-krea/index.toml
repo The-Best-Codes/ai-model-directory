@@ -1,0 +1,13 @@
+id = "flux-krea"
+name = "FLUX-Krea"
+release_date = "1753991501"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

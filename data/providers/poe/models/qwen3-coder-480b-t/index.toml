@@ -1,0 +1,13 @@
+id = "qwen3-coder-480b-t"
+name = "Qwen3-Coder-480B-T"
+release_date = "1753465729"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

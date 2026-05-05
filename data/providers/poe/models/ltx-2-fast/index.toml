@@ -1,0 +1,13 @@
+id = "ltx-2-fast"
+name = "LTX-2-Fast"
+release_date = "1761343254"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

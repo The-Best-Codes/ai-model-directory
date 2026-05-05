@@ -1,0 +1,13 @@
+id = "deepseek-prover-v2"
+name = "DeepSeek-Prover-V2"
+release_date = "1747979752"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

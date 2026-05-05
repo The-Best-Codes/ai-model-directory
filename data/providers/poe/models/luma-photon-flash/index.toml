@@ -1,0 +1,13 @@
+id = "luma-photon-flash"
+name = "Luma-Photon-Flash"
+release_date = "1733181412"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

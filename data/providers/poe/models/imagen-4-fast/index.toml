@@ -1,0 +1,16 @@
+id = "imagen-4-fast"
+name = "Imagen-4-Fast"
+release_date = "1750875079"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 480
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

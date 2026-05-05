@@ -1,0 +1,16 @@
+id = "reka-flash"
+name = "Reka-Flash"
+release_date = "1707892216"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,18 @@
+id = "nova-premier-1.0"
+name = "Nova-Premier-1.0"
+release_date = "1757959733"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.6667
+input = 3.0303
+output = 15.1515

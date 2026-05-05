@@ -1,0 +1,16 @@
+id = "ideogram-v2a-turbo"
+name = "Ideogram-v2a-Turbo"
+release_date = "1740678577"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 150
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

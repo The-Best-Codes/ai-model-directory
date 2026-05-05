@@ -1,0 +1,13 @@
+id = "deepseek-v3.1-tm"
+name = "DeepSeek-V3.1-TM"
+release_date = "1758553230"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

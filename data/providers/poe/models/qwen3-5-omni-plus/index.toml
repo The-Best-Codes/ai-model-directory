@@ -1,0 +1,13 @@
+id = "qwen3.5-omni-plus"
+name = "Qwen3.5-Omni-Plus"
+release_date = "1774889310"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "text", "video" ]
+output = [ "text" ]

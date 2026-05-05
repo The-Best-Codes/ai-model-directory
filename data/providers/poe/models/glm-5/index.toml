@@ -1,0 +1,18 @@
+id = "glm-5"
+name = "GLM-5"
+release_date = "1770830055"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.202
+input = 1.0101
+output = 3.2323

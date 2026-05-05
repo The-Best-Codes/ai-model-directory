@@ -1,0 +1,16 @@
+id = "llama-3.1-8b-di"
+name = "Llama-3.1-8B-DI"
+release_date = "1740488781"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

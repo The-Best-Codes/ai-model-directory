@@ -1,0 +1,17 @@
+id = "deepseek-v4-flash-el"
+name = "DeepSeek-V4-Flash-EL"
+release_date = "1777471073"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1394
+output = 0.2778

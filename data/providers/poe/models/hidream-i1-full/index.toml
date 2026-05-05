@@ -1,0 +1,13 @@
+id = "hidream-i1-full"
+name = "Hidream-I1-full"
+release_date = "1747144375"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

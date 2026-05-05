@@ -1,0 +1,13 @@
+id = "gpt-audio-1.5"
+name = "GPT-Audio-1.5"
+release_date = "1772683680"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,13 @@
+id = "seededit-3.0"
+name = "SeedEdit-3.0"
+release_date = "1754502655"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

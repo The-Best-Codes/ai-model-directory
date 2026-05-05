@@ -1,0 +1,17 @@
+id = "qwen3.6-max-preview"
+name = "Qwen3.6-Max-Preview"
+release_date = "1776702599"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.3131
+output = 7.8788

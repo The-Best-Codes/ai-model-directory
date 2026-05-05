@@ -1,0 +1,13 @@
+id = "restyler"
+name = "Restyler"
+release_date = "1739302186"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

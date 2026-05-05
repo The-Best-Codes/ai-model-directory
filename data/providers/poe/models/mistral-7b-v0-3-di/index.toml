@@ -1,0 +1,16 @@
+id = "mistral-7b-v0.3-di"
+name = "Mistral-7B-v0.3-DI"
+release_date = "1740490886"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,16 @@
+id = "grok-imagine-video"
+name = "Grok-Imagine-Video"
+release_date = "1769805671"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 256
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

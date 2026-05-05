@@ -1,0 +1,16 @@
+id = "qwen3-235b-a22b-di"
+name = "Qwen3-235B-A22B-DI"
+release_date = "1746004656"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

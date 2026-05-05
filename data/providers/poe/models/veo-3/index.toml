@@ -1,0 +1,16 @@
+id = "veo-3"
+name = "Veo-3"
+release_date = "1747796700"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 480
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

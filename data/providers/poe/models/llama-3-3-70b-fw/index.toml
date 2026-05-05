@@ -1,0 +1,16 @@
+id = "llama-3.3-70b-fw"
+name = "Llama-3.3-70B-FW"
+release_date = "1733508651"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

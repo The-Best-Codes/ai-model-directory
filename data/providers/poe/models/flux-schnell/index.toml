@@ -1,0 +1,16 @@
+id = "flux-schnell"
+name = "FLUX-schnell"
+release_date = "1722523149"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 256
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

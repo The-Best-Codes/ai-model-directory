@@ -1,0 +1,18 @@
+id = "kimi-k2.6"
+name = "Kimi-K2.6"
+release_date = "1776700251"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1616
+input = 0.9596
+output = 4.0404

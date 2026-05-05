@@ -1,0 +1,13 @@
+id = "deepseek-v3.2-exp"
+name = "DeepSeek-V3.2-Exp"
+release_date = "1759164328"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

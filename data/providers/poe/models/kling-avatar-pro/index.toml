@@ -1,0 +1,13 @@
+id = "kling-avatar-pro"
+name = "Kling-Avatar-Pro"
+release_date = "1758919888"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "video" ]

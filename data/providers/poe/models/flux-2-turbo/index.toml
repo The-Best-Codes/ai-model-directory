@@ -1,0 +1,16 @@
+id = "flux-2-turbo"
+name = "Flux-2-Turbo"
+release_date = "1767812200"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 256
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

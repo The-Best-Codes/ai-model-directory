@@ -1,0 +1,16 @@
+id = "reka-core"
+name = "Reka-Core"
+release_date = "1713038207"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

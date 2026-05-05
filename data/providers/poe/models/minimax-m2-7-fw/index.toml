@@ -1,0 +1,13 @@
+id = "minimax-m2.7-fw"
+name = "Minimax-M2.7-FW"
+release_date = "1776304104"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,17 @@
+id = "gpt-4o"
+name = "GPT-4o"
+release_date = "1715641234"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

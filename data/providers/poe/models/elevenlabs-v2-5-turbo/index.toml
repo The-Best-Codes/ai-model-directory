@@ -1,0 +1,16 @@
+id = "elevenlabs-v2.5-turbo"
+name = "ElevenLabs-v2.5-Turbo"
+release_date = "1730153913"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

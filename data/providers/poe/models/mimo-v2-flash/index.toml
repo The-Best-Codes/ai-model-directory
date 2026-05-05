@@ -1,0 +1,18 @@
+id = "mimo-v2-flash"
+name = "MiMo-V2-Flash"
+release_date = "1773985456"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0202
+input = 0.101
+output = 0.303

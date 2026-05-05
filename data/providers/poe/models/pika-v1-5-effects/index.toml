@@ -1,0 +1,13 @@
+id = "pika-v1.5-effects"
+name = "Pika-v1.5-Effects"
+release_date = "1765555623"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,23 @@
+id = "claude-haiku-3.5"
+name = "Claude-Haiku-3.5"
+release_date = "1727818578"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 189096
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0687
+cache_write = 0.8586
+input = 0.6869
+output = 3.4343

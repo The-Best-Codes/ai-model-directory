@@ -1,0 +1,16 @@
+id = "imagen-3"
+name = "Imagen-3"
+release_date = "1729023417"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 480
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,13 @@
+id = "gpt-researcher"
+name = "GPT-Researcher"
+release_date = "1735901906"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

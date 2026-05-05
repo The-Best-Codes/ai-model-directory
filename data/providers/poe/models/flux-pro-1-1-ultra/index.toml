@@ -1,0 +1,16 @@
+id = "flux-pro-1.1-ultra"
+name = "FLUX-pro-1.1-ultra"
+release_date = "1731696606"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 250
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

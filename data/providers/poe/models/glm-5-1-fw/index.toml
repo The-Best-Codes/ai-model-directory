@@ -1,0 +1,13 @@
+id = "glm-5.1-fw"
+name = "GLM-5.1-FW"
+release_date = "1775595828"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

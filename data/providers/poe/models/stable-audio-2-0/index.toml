@@ -1,0 +1,13 @@
+id = "stable-audio-2.0"
+name = "Stable-Audio-2.0"
+release_date = "1756880177"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio" ]

@@ -1,0 +1,22 @@
+id = "gemini-3-flash"
+name = "Gemini-3-Flash"
+release_date = "1759803302"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0404
+input = 0.404
+output = 2.4242
