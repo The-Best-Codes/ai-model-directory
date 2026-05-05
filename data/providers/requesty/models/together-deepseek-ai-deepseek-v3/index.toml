@@ -1,0 +1,19 @@
+id = "together/deepseek-ai/DeepSeek-V3"
+name = "together/deepseek-ai/DeepSeek-V3"
+release_date = "1748631837"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 1.25

@@ -1,0 +1,19 @@
+id = "moonshotai/kimi-k2.5"
+name = "MoonshotAI: Kimi K2.5"
+release_date = "1769493282"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.58
+output = 3.02

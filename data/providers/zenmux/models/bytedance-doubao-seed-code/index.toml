@@ -1,0 +1,19 @@
+id = "bytedance/doubao-seed-code"
+name = "ByteDance: Doubao-Seed-Code"
+release_date = "1775529007"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.034
+input = 0.17
+output = 1.12

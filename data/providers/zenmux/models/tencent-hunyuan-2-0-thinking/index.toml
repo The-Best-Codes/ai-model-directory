@@ -1,0 +1,18 @@
+id = "tencent/hunyuan-2.0-thinking"
+name = "Tencent: HY 2.0 Think"
+release_date = "1770283383"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.57
+output = 2.29

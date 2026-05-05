@@ -1,0 +1,19 @@
+id = "novita/deepseek/deepseek-r1-distill-llama-70b"
+name = "novita/deepseek/deepseek-r1-distill-llama-70b"
+release_date = "1738263837"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 0.8

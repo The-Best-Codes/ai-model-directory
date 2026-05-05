@@ -1,0 +1,19 @@
+id = "xai/grok-3-mini:high"
+name = "xai/grok-3-mini:high"
+release_date = "1760609788"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.5

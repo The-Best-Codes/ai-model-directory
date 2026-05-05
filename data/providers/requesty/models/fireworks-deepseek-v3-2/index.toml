@@ -1,0 +1,21 @@
+id = "fireworks/deepseek-v3.2"
+name = "fireworks/deepseek-v3.2"
+release_date = "1775122792"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 163840
+output = 20480
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.28
+input = 0.56
+output = 1.68

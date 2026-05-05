@@ -1,0 +1,21 @@
+id = "novita/GLM-5"
+name = "novita/GLM-5"
+release_date = "1774005451"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 202800
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 1
+output = 3.2

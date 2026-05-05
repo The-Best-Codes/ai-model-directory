@@ -1,0 +1,19 @@
+id = "openai/gpt-4o"
+name = "OpenAI: GPT-4o"
+release_date = "1755155057"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.25
+input = 2.5
+output = 10

@@ -1,0 +1,22 @@
+id = "openai/o4-mini"
+name = "openai/o4-mini"
+release_date = "1744824542"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.275
+cache_write = 1.1
+input = 1.1
+output = 4.4

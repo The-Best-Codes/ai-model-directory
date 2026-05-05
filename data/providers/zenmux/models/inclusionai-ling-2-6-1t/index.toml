@@ -1,0 +1,19 @@
+id = "inclusionai/ling-2.6-1t"
+name = "inclusionAI: Ling-2.6-1T"
+release_date = "1774580060"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

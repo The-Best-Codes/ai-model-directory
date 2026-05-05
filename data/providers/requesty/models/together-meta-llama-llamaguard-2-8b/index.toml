@@ -1,0 +1,19 @@
+id = "together/meta-llama/LlamaGuard-2-8b"
+name = "together/meta-llama/LlamaGuard-2-8b"
+release_date = "1738263837"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

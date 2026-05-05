@@ -1,0 +1,19 @@
+id = "novita/deepseek/deepseek-r1"
+name = "novita/deepseek/deepseek-r1"
+release_date = "1738263837"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 4
+output = 4

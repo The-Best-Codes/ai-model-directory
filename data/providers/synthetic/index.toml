@@ -1,0 +1,7 @@
+name = "Synthetic"
+website = "https://synthetic.new"
+apiBaseUrl = "https://api.synthetic.new/openai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["SYNTHETIC_API_KEY"]

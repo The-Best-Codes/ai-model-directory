@@ -1,0 +1,18 @@
+id = "meta/llama-4-scout-17b-16e-instruct"
+name = "Meta: Llama 4 Scout Instruct"
+release_date = "1764732046"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.4

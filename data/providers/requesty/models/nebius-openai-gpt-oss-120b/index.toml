@@ -1,0 +1,20 @@
+id = "nebius/openai/gpt-oss-120b"
+name = "nebius/openai/gpt-oss-120b"
+release_date = "1772444580"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

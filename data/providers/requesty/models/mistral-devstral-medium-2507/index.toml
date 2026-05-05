@@ -1,0 +1,19 @@
+id = "mistral/devstral-medium-2507"
+name = "mistral/devstral-medium-2507"
+release_date = "1723480361"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 2

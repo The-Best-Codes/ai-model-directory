@@ -1,0 +1,19 @@
+id = "novita/meta-llama/llama-3-70b-instruct"
+name = "novita/meta-llama/llama-3-70b-instruct"
+release_date = "1738865908"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.51
+output = 0.74

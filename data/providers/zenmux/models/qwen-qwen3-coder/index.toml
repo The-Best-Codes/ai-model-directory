@@ -1,0 +1,19 @@
+id = "qwen/qwen3-coder"
+name = "Qwen: Qwen3-Coder"
+release_date = "1755506104"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 1.25
+output = 5.01

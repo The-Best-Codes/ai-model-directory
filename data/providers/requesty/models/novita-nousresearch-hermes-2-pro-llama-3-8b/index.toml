@@ -1,0 +1,19 @@
+id = "novita/nousresearch/hermes-2-pro-llama-3-8b"
+name = "novita/nousresearch/hermes-2-pro-llama-3-8b"
+release_date = "1738865908"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.14

@@ -1,0 +1,19 @@
+id = "xiaomi/mimo-v2-omni"
+name = "Xiaomi: MiMo-V2-Omni"
+release_date = "1773885633"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 265000
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+input = 0.4
+output = 2

@@ -1,0 +1,19 @@
+id = "novita/qwen/qwen2.5-vl-72b-instruct"
+name = "novita/qwen/qwen2.5-vl-72b-instruct"
+release_date = "1745882204"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 96000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 0.8

@@ -1,0 +1,18 @@
+id = "mistralai/mistral-large-2512"
+name = "Mistral: Mistral Large 3"
+release_date = "1764832449"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 1.5

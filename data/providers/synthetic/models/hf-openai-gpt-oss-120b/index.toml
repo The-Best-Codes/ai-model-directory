@@ -1,0 +1,22 @@
+id = "hf:openai/gpt-oss-120b"
+name = "openai/gpt-oss-120b"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+cache_write = 0
+input = 0.1
+output = 0.1

@@ -1,0 +1,22 @@
+id = "azure/gpt-5-nano"
+name = "azure/gpt-5-nano"
+release_date = "1744824542"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.005
+cache_write = 0.05
+input = 0.05
+output = 0.4

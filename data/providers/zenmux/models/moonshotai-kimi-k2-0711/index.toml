@@ -1,0 +1,13 @@
+id = "moonshotai/kimi-k2-0711"
+name = "MoonshotAI: Kimi K2 0711"
+release_date = "1757334050"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

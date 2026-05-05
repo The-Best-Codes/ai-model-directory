@@ -1,0 +1,19 @@
+id = "inclusionai/ring-flash-2.0"
+name = "inclusionAI: Ring-flash-2.0"
+release_date = "1758179091"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.056
+input = 0.28
+output = 2.8

@@ -1,0 +1,21 @@
+id = "inceptron/minimax-m2.5"
+name = "inceptron/minimax-m2.5"
+release_date = "1777477859"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 196608
+output = 196608
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.28
+output = 1.1

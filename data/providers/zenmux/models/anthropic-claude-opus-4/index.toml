@@ -1,0 +1,20 @@
+id = "anthropic/claude-opus-4"
+name = "Anthropic: Claude Opus 4"
+release_date = "1755152674"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.5
+cache_write = 18.75
+input = 15
+output = 75

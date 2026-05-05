@@ -1,0 +1,19 @@
+id = "inclusionai/ling-mini-2.0"
+name = "inclusionAI: Ling-mini-2.0"
+release_date = "1757492846"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.014
+input = 0.07
+output = 0.28

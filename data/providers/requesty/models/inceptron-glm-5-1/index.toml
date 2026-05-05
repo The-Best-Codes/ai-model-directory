@@ -1,0 +1,20 @@
+id = "inceptron/glm-5.1"
+name = "inceptron/glm-5.1"
+release_date = "1777476141"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 202752
+output = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.4
+output = 4.4

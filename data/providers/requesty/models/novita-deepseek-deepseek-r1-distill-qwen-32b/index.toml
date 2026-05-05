@@ -1,0 +1,19 @@
+id = "novita/deepseek/deepseek-r1-distill-qwen-32b"
+name = "novita/deepseek/deepseek-r1-distill-qwen-32b"
+release_date = "1738263837"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 12800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.3

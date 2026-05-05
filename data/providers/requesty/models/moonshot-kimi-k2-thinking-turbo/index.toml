@@ -1,0 +1,19 @@
+id = "moonshot/kimi-k2-thinking-turbo"
+name = "moonshot/kimi-k2-thinking-turbo"
+release_date = "1754522204"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.5

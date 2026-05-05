@@ -1,0 +1,19 @@
+id = "qwen/qwen3-14b"
+name = "Qwen: Qwen3-14B"
+release_date = "1762832198"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.028
+input = 0.14
+output = 1.4

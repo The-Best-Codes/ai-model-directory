@@ -1,0 +1,19 @@
+id = "novita/microsoft/wizardlm-2-8x22b"
+name = "novita/microsoft/wizardlm-2-8x22b"
+release_date = "1738865908"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.62
+output = 0.62

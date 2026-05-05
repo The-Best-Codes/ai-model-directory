@@ -1,0 +1,19 @@
+id = "xiaomi/mimo-v2-flash"
+name = "Xiaomi: MiMo-V2-Flash"
+release_date = "1765943626"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.1
+output = 0.3

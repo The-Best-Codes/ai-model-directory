@@ -1,0 +1,19 @@
+id = "z-ai/glm-4.6v-flash"
+name = "Z.AI: GLM 4.6V FlashX"
+release_date = "1765198370"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0044
+input = 0.0218
+output = 0.2184

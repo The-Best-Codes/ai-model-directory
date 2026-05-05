@@ -1,0 +1,18 @@
+id = "openai/gpt-5.5-pro"
+name = "OpenAI: GPT-5.5 Pro"
+release_date = "1777081202"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 30
+output = 180

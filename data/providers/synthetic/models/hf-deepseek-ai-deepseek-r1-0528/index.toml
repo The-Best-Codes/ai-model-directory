@@ -1,0 +1,22 @@
+id = "hf:deepseek-ai/DeepSeek-R1-0528"
+name = "deepseek-ai/DeepSeek-R1-0528"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 3
+cache_write = 0
+input = 3
+output = 8

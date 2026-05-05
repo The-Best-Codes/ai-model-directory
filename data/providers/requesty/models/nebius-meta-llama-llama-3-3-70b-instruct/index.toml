@@ -1,0 +1,19 @@
+id = "nebius/meta-llama/Llama-3.3-70B-Instruct"
+name = "nebius/meta-llama/Llama-3.3-70B-Instruct"
+release_date = "1715697754"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.13
+output = 0.4

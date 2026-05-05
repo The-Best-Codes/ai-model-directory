@@ -1,0 +1,21 @@
+id = "fireworks/deepseek-v4-pro"
+name = "fireworks/deepseek-v4-pro"
+release_date = "1777470408"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 1.74
+output = 3.48

@@ -1,0 +1,13 @@
+id = "deepseek/deepseek-chat-v3.1"
+name = "DeepSeek: DeepSeek V3.1"
+release_date = "1755841312"
+
+[features]
+attachment = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

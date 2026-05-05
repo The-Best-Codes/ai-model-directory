@@ -1,0 +1,20 @@
+id = "bytedance/doubao-seed-2.0-lite"
+name = "ByteDance: Doubao-Seed-2.0-lite"
+release_date = "1775530696"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+cache_write = 0.0024
+input = 0.09
+output = 0.51
