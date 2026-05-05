@@ -1,6 +1,6 @@
 id = "gemini-3-flash-preview"
 name = "Gemini 3 Flash (Preview)"
-release_date = "1777937587"
+release_date = "1777941341"
 
 [features]
 attachment = true

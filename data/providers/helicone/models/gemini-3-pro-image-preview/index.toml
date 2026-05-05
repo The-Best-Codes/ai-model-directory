@@ -1,5 +1,5 @@
 id = "gemini-3-pro-image-preview"
-knowledge_cutoff = "1763618400"
+knowledge_cutoff = "1763596800"
 name = "Google Gemini 3 Pro Image Preview"
 
 [features]
