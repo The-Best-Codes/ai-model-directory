@@ -1,0 +1,11 @@
+id = "stable-diffusion-xl-base-1.0"
+last_updated = "1761123187"
+name = "stable-diffusion-xl-base-1.0"
+release_date = "1718241079"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

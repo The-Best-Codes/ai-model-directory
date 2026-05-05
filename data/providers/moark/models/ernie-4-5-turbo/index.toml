@@ -1,0 +1,19 @@
+id = "ERNIE-4.5-Turbo"
+last_updated = "1752656641"
+name = "ERNIE-4.5-Turbo"
+release_date = "1750152807"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.117160312
+output = 0.468641248

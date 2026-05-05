@@ -1,0 +1,18 @@
+id = "Qwen2-VL-72B"
+last_updated = "1765265056"
+name = "Qwen2-VL-72B"
+release_date = "1734511939"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

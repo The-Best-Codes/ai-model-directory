@@ -1,0 +1,18 @@
+id = "DeepSeek-R1-Distill-Qwen-32B"
+last_updated = "1750935439"
+name = "DeepSeek-R1-Distill-Qwen-32B"
+release_date = "1738060201"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1845274914
+output = 0.1845274914

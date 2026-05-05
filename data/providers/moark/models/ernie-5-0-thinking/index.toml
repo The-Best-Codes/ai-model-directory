@@ -1,0 +1,20 @@
+id = "ERNIE-5.0-Thinking"
+last_updated = "1764579609"
+name = "ERNIE-5.0-Thinking"
+release_date = "1764578549"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.58580156
+output = 2.34320624

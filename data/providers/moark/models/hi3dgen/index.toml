@@ -1,0 +1,11 @@
+id = "Hi3DGen"
+last_updated = "1746586670"
+name = "Hi3DGen"
+release_date = "1746584244"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

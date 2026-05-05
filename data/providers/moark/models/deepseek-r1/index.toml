@@ -1,0 +1,19 @@
+id = "DeepSeek-R1"
+last_updated = "1765265004"
+name = "DeepSeek-R1"
+release_date = "1738827170"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.58580156
+output = 2.34320624

@@ -1,0 +1,18 @@
+id = "InternVL3-38B"
+last_updated = "1751453679"
+name = "InternVL3-38B"
+release_date = "1745569718"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

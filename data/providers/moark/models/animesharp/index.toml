@@ -1,0 +1,11 @@
+id = "AnimeSharp"
+last_updated = "1758614243"
+name = "AnimeSharp"
+release_date = "1750325982"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

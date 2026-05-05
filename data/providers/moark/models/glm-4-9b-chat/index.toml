@@ -1,0 +1,18 @@
+id = "glm-4-9b-chat"
+last_updated = "1766128344"
+name = "glm-4-9b-chat"
+release_date = "1722924390"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

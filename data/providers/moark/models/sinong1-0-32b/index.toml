@@ -1,0 +1,10 @@
+id = "Sinong1.0-32B"
+last_updated = "1773295591"
+name = "Sinong1.0-32B"
+release_date = "1768446528"
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.29290078

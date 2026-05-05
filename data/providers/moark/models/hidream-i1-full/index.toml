@@ -1,0 +1,10 @@
+id = "HiDream-I1-Full"
+name = "HiDream-I1-Full"
+release_date = "1746063247"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

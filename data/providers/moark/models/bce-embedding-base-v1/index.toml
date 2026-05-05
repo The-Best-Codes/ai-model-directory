@@ -1,0 +1,16 @@
+id = "bce-embedding-base_v1"
+last_updated = "1741324033"
+name = "bce-embedding-base_v1"
+release_date = "1737543126"
+
+[features]
+attachment = false
+
+[limit]
+context = 500
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

@@ -1,0 +1,11 @@
+id = "Duix.Heygem"
+last_updated = "1770959319"
+name = "Duix.Heygem"
+release_date = "1750325687"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

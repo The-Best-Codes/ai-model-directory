@@ -1,0 +1,11 @@
+id = "stable-diffusion-3.5-large-turbo"
+last_updated = "1735288484"
+name = "stable-diffusion-3.5-large-turbo"
+release_date = "1732699966"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

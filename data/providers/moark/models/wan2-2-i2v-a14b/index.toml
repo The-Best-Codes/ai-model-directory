@@ -1,0 +1,10 @@
+id = "Wan2_2-I2V-A14B"
+name = "Wan2_2-I2V-A14B"
+release_date = "1754019280"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

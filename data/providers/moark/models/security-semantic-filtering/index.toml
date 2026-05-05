@@ -1,0 +1,14 @@
+id = "Security-semantic-filtering"
+last_updated = "1754895850"
+name = "Security-semantic-filtering"
+release_date = "1736840792"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,19 @@
+id = "Qwen3.5-35B-A3B"
+last_updated = "1772796699"
+name = "Qwen3.5-35B-A3B"
+release_date = "1772014985"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+output = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.058580156
+output = 0.468641248

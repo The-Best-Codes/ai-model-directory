@@ -1,0 +1,14 @@
+id = "Yi-34B-Chat"
+last_updated = "1735288319"
+name = "Yi-34B-Chat"
+release_date = "1722494264"
+
+[features]
+attachment = false
+
+[limit]
+context = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

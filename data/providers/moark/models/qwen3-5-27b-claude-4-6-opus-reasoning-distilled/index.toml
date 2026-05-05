@@ -1,0 +1,19 @@
+id = "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
+last_updated = "1777449568"
+name = "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
+release_date = "1775127410"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.087870234
+output = 0.702961872

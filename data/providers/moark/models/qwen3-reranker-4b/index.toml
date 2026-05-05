@@ -1,0 +1,16 @@
+id = "Qwen3-Reranker-4B"
+last_updated = "1762937380"
+name = "Qwen3-Reranker-4B"
+release_date = "1749206532"
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

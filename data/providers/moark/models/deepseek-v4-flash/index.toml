@@ -1,0 +1,16 @@
+id = "DeepSeek-V4-Flash"
+last_updated = "1777028607"
+name = "DeepSeek-V4-Flash"
+release_date = "1777028607"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14645039
+output = 0.29290078

@@ -1,0 +1,11 @@
+id = "CosyVoice2"
+last_updated = "1767607221"
+name = "CosyVoice2"
+release_date = "1735280012"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

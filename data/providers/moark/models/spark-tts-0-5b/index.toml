@@ -1,0 +1,11 @@
+id = "Spark-TTS-0.5B"
+last_updated = "1750379923"
+name = "Spark-TTS-0.5B"
+release_date = "1744801437"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

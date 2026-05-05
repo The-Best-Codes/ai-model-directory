@@ -1,0 +1,14 @@
+id = "PaddleOCR-VL-1.5"
+last_updated = "1770013017"
+name = "PaddleOCR-VL-1.5"
+release_date = "1769771788"
+
+[features]
+attachment = true
+
+[limit]
+output = 16000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
