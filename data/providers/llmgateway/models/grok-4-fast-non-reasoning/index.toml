@@ -1,6 +1,6 @@
 id = "grok-4-fast-non-reasoning"
 name = "Grok 4 Fast Non-Reasoning"
-release_date = "1777937587"
+release_date = "1777941341"
 
 [features]
 attachment = true

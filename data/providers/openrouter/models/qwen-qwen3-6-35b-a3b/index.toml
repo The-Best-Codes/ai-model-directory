@@ -7,17 +7,17 @@ attachment = true
 reasoning = true
 structured_output = true
 temperature = true
-tool_call = false
+tool_call = true
 
 [limit]
 context = 262144
-output = 65536
+output = 262144
 
 [modalities]
 input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.1612
-input = 0.1612
-output = 0.96525
+cache_read = 0.05
+input = 0.15
+output = 1
