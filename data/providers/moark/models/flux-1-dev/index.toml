@@ -1,0 +1,11 @@
+id = "FLUX.1-dev"
+last_updated = "1760090450"
+name = "FLUX.1-dev"
+release_date = "1747289116"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

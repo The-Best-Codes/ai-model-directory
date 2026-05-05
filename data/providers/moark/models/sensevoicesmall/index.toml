@@ -1,0 +1,10 @@
+id = "SenseVoiceSmall"
+name = "SenseVoiceSmall"
+release_date = "1736508378"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

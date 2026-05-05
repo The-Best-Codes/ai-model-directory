@@ -1,0 +1,7 @@
+name = "Moark"
+website = "https://moark.com"
+apiBaseUrl = "https://moark.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["MOARK_API_KEY"]

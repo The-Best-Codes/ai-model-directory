@@ -1,0 +1,13 @@
+id = "Qwen3-VL-Reranker-2B"
+last_updated = "1769425779"
+name = "Qwen3-VL-Reranker-2B"
+release_date = "1769425743"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.0131805351

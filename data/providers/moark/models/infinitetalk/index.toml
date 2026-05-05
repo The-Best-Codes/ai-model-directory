@@ -1,0 +1,11 @@
+id = "InfiniteTalk"
+last_updated = "1765798473"
+name = "InfiniteTalk"
+release_date = "1765787330"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

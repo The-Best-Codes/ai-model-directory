@@ -1,0 +1,16 @@
+id = "Qwen3-Embedding-8B"
+last_updated = "1750934743"
+name = "Qwen3-Embedding-8B"
+release_date = "1749203891"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

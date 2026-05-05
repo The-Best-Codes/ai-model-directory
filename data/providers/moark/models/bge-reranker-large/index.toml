@@ -1,0 +1,9 @@
+id = "bge-reranker-large"
+name = "bge-reranker-large"
+release_date = "1752200442"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

@@ -1,0 +1,16 @@
+id = "DeepSeek-V4-Pro"
+last_updated = "1777027997"
+name = "DeepSeek-V4-Pro"
+release_date = "1777027997"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.75740468
+output = 3.51480936

@@ -1,0 +1,11 @@
+id = "whisper-large-v3"
+last_updated = "1743480355"
+name = "whisper-large-v3"
+release_date = "1742550625"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

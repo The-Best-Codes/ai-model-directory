@@ -1,0 +1,18 @@
+id = "PaddleOCR-VL"
+last_updated = "1761792120"
+name = "PaddleOCR-VL"
+release_date = "1761034186"
+
+[features]
+attachment = true
+
+[limit]
+output = 16000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

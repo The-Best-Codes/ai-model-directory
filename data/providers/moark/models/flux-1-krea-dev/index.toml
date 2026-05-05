@@ -1,0 +1,11 @@
+id = "FLUX_1-Krea-dev"
+last_updated = "1754033408"
+name = "FLUX_1-Krea-dev"
+release_date = "1754032099"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

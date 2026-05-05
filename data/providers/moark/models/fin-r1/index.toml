@@ -1,0 +1,19 @@
+id = "Fin-R1"
+last_updated = "1747295469"
+name = "Fin-R1"
+release_date = "1742553762"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29290078
+output = 1.17160312

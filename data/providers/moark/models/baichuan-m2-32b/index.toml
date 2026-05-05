@@ -1,0 +1,7 @@
+id = "Baichuan-M2-32B"
+last_updated = "1773295531"
+name = "Baichuan-M2-32B"
+release_date = "1755654863"
+
+[limit]
+output = 64000

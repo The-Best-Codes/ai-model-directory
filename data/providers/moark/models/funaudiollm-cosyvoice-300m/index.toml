@@ -1,0 +1,11 @@
+id = "FunAudioLLM-CosyVoice-300M"
+last_updated = "1735288746"
+name = "FunAudioLLM-CosyVoice-300M"
+release_date = "1722338431"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

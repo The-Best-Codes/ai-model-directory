@@ -1,0 +1,18 @@
+id = "DeepSeek-OCR-2"
+last_updated = "1770085806"
+name = "DeepSeek-OCR-2"
+release_date = "1770085131"
+
+[features]
+attachment = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.410061092
+output = 0.410061092

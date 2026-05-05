@@ -1,0 +1,11 @@
+id = "Z-Image"
+last_updated = "1770364283"
+name = "Z-Image"
+release_date = "1770364239"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

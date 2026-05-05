@@ -1,0 +1,11 @@
+id = "CogVideoX-5b"
+last_updated = "1766128372"
+name = "CogVideoX-5b"
+release_date = "1751337548"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

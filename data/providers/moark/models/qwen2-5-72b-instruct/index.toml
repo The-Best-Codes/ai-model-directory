@@ -1,0 +1,19 @@
+id = "Qwen2.5-72B-Instruct"
+last_updated = "1755675663"
+name = "Qwen2.5-72B-Instruct"
+release_date = "1731311682"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.58580156
+output = 0.58580156

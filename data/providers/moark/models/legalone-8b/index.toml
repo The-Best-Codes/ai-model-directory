@@ -1,0 +1,10 @@
+id = "LegalOne-8B"
+last_updated = "1770204857"
+name = "LegalOne-8B"
+release_date = "1770107461"
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.29290078

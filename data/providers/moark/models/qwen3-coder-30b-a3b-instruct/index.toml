@@ -1,0 +1,18 @@
+id = "Qwen3-Coder-30B-A3B-Instruct"
+last_updated = "1765539579"
+name = "Qwen3-Coder-30B-A3B-Instruct"
+release_date = "1764499242"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14645039
+output = 0.58580156

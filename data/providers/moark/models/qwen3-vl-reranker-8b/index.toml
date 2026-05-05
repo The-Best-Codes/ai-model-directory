@@ -1,0 +1,13 @@
+id = "Qwen3-VL-Reranker-8B"
+last_updated = "1768896022"
+name = "Qwen3-VL-Reranker-8B"
+release_date = "1768895312"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0512576365

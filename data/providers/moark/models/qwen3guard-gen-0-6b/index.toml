@@ -1,0 +1,14 @@
+id = "Qwen3Guard-Gen-0.6B"
+last_updated = "1760603580"
+name = "Qwen3Guard-Gen-0.6B"
+release_date = "1760601889"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

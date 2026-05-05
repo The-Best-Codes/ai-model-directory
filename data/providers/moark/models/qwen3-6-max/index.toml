@@ -1,0 +1,19 @@
+id = "Qwen3.6-Max"
+last_updated = "1776842962"
+name = "Qwen3.6-Max"
+release_date = "1776842962"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.19675585
+output = 13.1805351

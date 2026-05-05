@@ -1,0 +1,16 @@
+id = "nomic-embed-code"
+last_updated = "1744962054"
+name = "nomic-embed-code"
+release_date = "1744889627"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

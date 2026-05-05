@@ -1,0 +1,11 @@
+id = "HunyuanVideo-1.5"
+last_updated = "1764647293"
+name = "HunyuanVideo-1.5"
+release_date = "1764322204"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

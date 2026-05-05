@@ -1,0 +1,10 @@
+id = "stable-diffusion-3.5-large"
+name = "stable-diffusion-3.5-large"
+release_date = "1751351433"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

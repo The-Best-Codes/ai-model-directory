@@ -1,0 +1,10 @@
+id = "clip-vit"
+last_updated = "1751887473"
+name = "clip-vit"
+release_date = "1751887336"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

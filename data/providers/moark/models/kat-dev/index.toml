@@ -1,0 +1,18 @@
+id = "KAT-Dev"
+last_updated = "1765529949"
+name = "KAT-Dev"
+release_date = "1765528055"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14645039
+output = 0.58580156

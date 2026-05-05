@@ -1,0 +1,10 @@
+id = "Real-ESRGAN"
+name = "Real-ESRGAN"
+release_date = "1748921009"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

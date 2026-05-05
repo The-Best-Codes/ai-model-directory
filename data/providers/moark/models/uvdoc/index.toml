@@ -1,0 +1,11 @@
+id = "UVDoc"
+last_updated = "1750380871"
+name = "UVDoc"
+release_date = "1735647006"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
