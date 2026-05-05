@@ -1,5 +1,18 @@
 # Changelog
 
+## Run at 1777996689
+
+### cerebras
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### Summary
+
+- Providers updated: 1
+- Total models added: 0
+- Total models removed: 0
+
 ## Run at 1777995021
 
 ### 302ai
@@ -101,34 +114,34 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `knowledge_cutoff` | 0 | 0 | 17 |
-| `release_date` | 0 | 0 | 29 |
+| Field              | Lost | Gained | Changed |
+| ------------------ | ---: | -----: | ------: |
+| `knowledge_cutoff` |    0 |      0 |      17 |
+| `release_date`     |    0 |      0 |      29 |
 
 ### groq
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `knowledge_cutoff` | 0 | 0 | 1 |
+| Field              | Lost | Gained | Changed |
+| ------------------ | ---: | -----: | ------: |
+| `knowledge_cutoff` |    0 |      0 |       1 |
 
 ### helicone
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `knowledge_cutoff` | 0 | 0 | 9 |
+| Field              | Lost | Gained | Changed |
+| ------------------ | ---: | -----: | ------: |
+| `knowledge_cutoff` |    0 |      0 |       9 |
 
 ### huggingface
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 1 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       1 |
 
 ### inception
 
@@ -161,9 +174,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 194 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     194 |
 
 ### mistral
 
@@ -194,9 +207,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `knowledge_cutoff` | 0 | 0 | 54 |
+| Field              | Lost | Gained | Changed |
+| ------------------ | ---: | -----: | ------: |
+| `knowledge_cutoff` |    0 |      0 |      54 |
 
 ### ovhcloud
 
@@ -269,11 +282,11 @@
 - Total models added: 1
 - Total models removed: 0
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `knowledge_cutoff` | 0 | 0 | 81 |
-| `release_date` | 0 | 0 | 223 |
-| `features.structured_output` | 0 | 0 | 1 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `knowledge_cutoff`           |    0 |      0 |      81 |
+| `release_date`               |    0 |      0 |     223 |
+| `features.structured_output` |    0 |      0 |       1 |
 
 ## Run at 1777994888
 
