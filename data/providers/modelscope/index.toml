@@ -1,0 +1,7 @@
+name = "ModelScope"
+website = "https://modelscope.cn"
+apiBaseUrl = "https://api-inference.modelscope.cn/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["MODELSCOPE_API_KEY"]
