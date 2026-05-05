@@ -1,5 +1,44 @@
 # Changelog
 
+## Run at 1778012967
+
+### anthropic
+
+- 0 models added, 0 models removed
+
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `pricing.input`       |    0 |      9 |       0 |
+| `pricing.output`      |    0 |      9 |       0 |
+| `pricing.cache_read`  |    0 |      9 |       0 |
+| `pricing.cache_write` |    0 |      9 |       0 |
+
+### Summary
+
+- Providers updated: 1
+- Total models added: 0
+- Total models removed: 0
+
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `pricing.input`       |    0 |      9 |       0 |
+| `pricing.output`      |    0 |      9 |       0 |
+| `pricing.cache_read`  |    0 |      9 |       0 |
+| `pricing.cache_write` |    0 |      9 |       0 |
+
+## Run at 1778012316
+
+### anthropic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### Summary
+
+- Providers updated: 1
+- Total models added: 0
+- Total models removed: 0
+
 ## Run at 1778009471
 
 ### 302ai

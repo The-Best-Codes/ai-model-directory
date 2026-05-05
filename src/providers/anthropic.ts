@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { fetchJson } from "../lib/http.ts";
+import { fetchJson, fetchText } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import {
   integerGreaterThanZero,
@@ -29,6 +29,95 @@ const responseSchema = z.object({
   has_more: z.boolean(),
   last_id: z.string().nullable(),
 });
+
+type PricingInfo = {
+  input?: number;
+  output?: number;
+  cache_read?: number;
+  cache_write?: number;
+};
+
+function parsePrice(value: string): number | undefined {
+  const match = value.match(/\$\s*([0-9]+(?:\.[0-9]+)?)/);
+
+  if (!match) {
+    return undefined;
+  }
+
+  const parsed = Number(match[1]);
+  return Number.isFinite(parsed) && parsed >= 0 ? parsed : undefined;
+}
+
+function normalizeModelName(value: string): string {
+  return value
+    .replace(/\(deprecated\)/gi, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function parsePricingMarkdown(markdown: string): Map<string, PricingInfo> {
+  const result = new Map<string, PricingInfo>();
+  const sectionMatch = markdown.match(
+    /##\s+Model pricing[\s\S]*?(?=\n##\s+|$)/,
+  );
+
+  if (!sectionMatch) {
+    return result;
+  }
+
+  const lines = sectionMatch[0].split("\n");
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+
+    if (!trimmed.startsWith("|") || !trimmed.includes("$")) {
+      continue;
+    }
+
+    const cells = trimmed
+      .split("|")
+      .slice(1, -1)
+      .map((cell) => cell.trim());
+
+    if (cells.length < 6) {
+      continue;
+    }
+
+    const name = cells[0];
+
+    if (!name) {
+      continue;
+    }
+
+    const pricing = compactObject({
+      input: parsePrice(cells[1] ?? ""),
+      cache_write: parsePrice(cells[2] ?? ""),
+      cache_read: parsePrice(cells[4] ?? ""),
+      output: parsePrice(cells[5] ?? ""),
+    }) as PricingInfo;
+
+    if (Object.keys(pricing).length === 0) {
+      continue;
+    }
+
+    result.set(normalizeModelName(name), pricing);
+  }
+
+  return result;
+}
+
+async function fetchPricing(): Promise<Map<string, PricingInfo>> {
+  try {
+    const markdown = await fetchText(
+      "https://platform.claude.com/docs/en/about-claude/pricing.md",
+      { label: "Anthropic pricing page error" },
+    );
+    return parsePricingMarkdown(markdown);
+  } catch {
+    return new Map();
+  }
+}
 
 export const anthropicProvider: ProviderDefinition = {
   name: "anthropic",
@@ -74,9 +163,13 @@ export const anthropicProvider: ProviderDefinition = {
       afterId = response.last_id;
     }
 
+    const pricingMap = await fetchPricing();
+    progress?.tick("fetched pricing data", true);
+
     return models.map((model) => {
       const imageInput = model.capabilities.image_input?.supported === true;
       const pdfInput = model.capabilities.pdf_input?.supported === true;
+      const pricing = pricingMap.get(normalizeModelName(model.display_name));
 
       return compactObject({
         id: model.id,
@@ -102,6 +195,14 @@ export const anthropicProvider: ProviderDefinition = {
           ],
           output: ["text"],
         },
+        pricing: pricing
+          ? compactObject({
+              input: pricing.input,
+              output: pricing.output,
+              cache_read: pricing.cache_read,
+              cache_write: pricing.cache_write,
+            })
+          : undefined,
       });
     });
   },
