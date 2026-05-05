@@ -21162,6 +21162,10 @@
           "tool_call": true,
           "structured_output": false
         },
+        "pricing": {
+          "input": 3,
+          "output": 3
+        },
         "limit": {
           "context": 150000,
           "output": 8192
