@@ -41,10 +41,10 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 55 |
-| `pricing.output` | 0 | 0 | 52 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      55 |
+| `pricing.output` |    0 |      0 |      52 |
 
 ### cerebras
 
@@ -120,13 +120,13 @@
 
 - 1 models added, 2 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 1 | 0 | 2 |
-| `features.tool_call` | 1 | 0 | 4 |
-| `pricing.input` | 1 | 0 | 1 |
-| `pricing.output` | 1 | 0 | 1 |
-| `limit.context` | 1 | 0 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    1 |      0 |       2 |
+| `features.tool_call`         |    1 |      0 |       4 |
+| `pricing.input`              |    1 |      0 |       1 |
+| `pricing.output`             |    1 |      0 |       1 |
+| `limit.context`              |    1 |      0 |       0 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -174,9 +174,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 194 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     194 |
 
 ### mistral
 
@@ -192,10 +192,10 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 73 |
-| `pricing.output` | 0 | 0 | 65 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      73 |
+| `pricing.output` |    0 |      0 |      65 |
 
 ### nano-gpt
 
@@ -238,9 +238,9 @@
 
 - 1 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `knowledge_cutoff` | 0 | 3 | 0 |
+| Field              | Lost | Gained | Changed |
+| ------------------ | ---: | -----: | ------: |
+| `knowledge_cutoff` |    0 |      3 |       0 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -300,15 +300,15 @@
 - Total models added: 4
 - Total models removed: 2
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `knowledge_cutoff` | 0 | 3 | 0 |
-| `release_date` | 0 | 0 | 194 |
-| `features.structured_output` | 1 | 0 | 2 |
-| `features.tool_call` | 1 | 0 | 4 |
-| `pricing.input` | 1 | 0 | 129 |
-| `pricing.output` | 1 | 0 | 118 |
-| `limit.context` | 1 | 0 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `knowledge_cutoff`           |    0 |      3 |       0 |
+| `release_date`               |    0 |      0 |     194 |
+| `features.structured_output` |    1 |      0 |       2 |
+| `features.tool_call`         |    1 |      0 |       4 |
+| `pricing.input`              |    1 |      0 |     129 |
+| `pricing.output`             |    1 |      0 |     118 |
+| `limit.context`              |    1 |      0 |       0 |
 
 ## Run at 1777996689
 

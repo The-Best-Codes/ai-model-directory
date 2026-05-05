@@ -2,6 +2,10 @@
   "name": "ai-model-directory",
   "version": "0.1.3",
   "description": "Bundled AI model directory dataset with a compact typed payload",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-best-codes/ai-model-directory.git"
+  },
   "type": "module",
   "sideEffects": false,
   "files": [
