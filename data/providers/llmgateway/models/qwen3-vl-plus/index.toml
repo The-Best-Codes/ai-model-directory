@@ -1,6 +1,6 @@
 id = "qwen3-vl-plus"
 name = "Qwen3 VL Plus"
-release_date = "1777955839"
+release_date = "1777994993"
 
 [features]
 attachment = true

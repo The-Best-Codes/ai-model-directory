@@ -1,6 +1,6 @@
 id = "veo-2.0-generate-001"
 name = "Veo 2"
-release_date = "1743483600"
+release_date = "1743465600"
 
 [modalities]
 output = [ "video" ]

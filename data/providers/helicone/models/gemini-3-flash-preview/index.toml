@@ -1,5 +1,5 @@
 id = "gemini-3-flash-preview"
-knowledge_cutoff = "1765951200"
+knowledge_cutoff = "1765929600"
 name = "Google Gemini 3 Flash Preview"
 
 [features]

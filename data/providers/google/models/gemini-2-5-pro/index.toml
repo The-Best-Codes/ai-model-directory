@@ -1,7 +1,7 @@
 id = "gemini-2.5-pro"
-knowledge_cutoff = "1735711200"
+knowledge_cutoff = "1735689600"
 name = "Gemini 2.5 Pro"
-release_date = "1748754000"
+release_date = "1748736000"
 
 [features]
 attachment = true

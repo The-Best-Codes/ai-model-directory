@@ -1,7 +1,7 @@
 id = "gemini-2.5-flash-image"
-knowledge_cutoff = "1748754000"
+knowledge_cutoff = "1748736000"
 name = "Nano Banana"
-release_date = "1759294800"
+release_date = "1759276800"
 
 [features]
 attachment = true

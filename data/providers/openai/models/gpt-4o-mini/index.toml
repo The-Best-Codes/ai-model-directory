@@ -1,5 +1,5 @@
 id = "gpt-4o-mini"
-knowledge_cutoff = "1696136400"
+knowledge_cutoff = "1696118400"
 name = "GPT-4o mini"
 release_date = "1721172741"
 

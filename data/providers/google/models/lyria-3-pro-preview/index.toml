@@ -1,6 +1,6 @@
 id = "lyria-3-pro-preview"
 name = "Lyria 3 Pro Preview"
-release_date = "1772344800"
+release_date = "1772323200"
 
 [features]
 attachment = true

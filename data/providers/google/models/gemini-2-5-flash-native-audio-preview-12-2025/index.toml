@@ -1,7 +1,7 @@
 id = "gemini-2.5-flash-native-audio-preview-12-2025"
-knowledge_cutoff = "1735711200"
+knowledge_cutoff = "1735689600"
 name = "Gemini 2.5 Flash Native Audio Preview 12-2025"
-release_date = "1756702800"
+release_date = "1756684800"
 
 [features]
 attachment = true

@@ -1,5 +1,5 @@
 id = "gpt-4o-transcribe-diarize"
-knowledge_cutoff = "1717218000"
+knowledge_cutoff = "1717200000"
 name = "GPT-4o Transcribe Diarize"
 release_date = "1750798887"
 

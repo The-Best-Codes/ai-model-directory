@@ -1,7 +1,7 @@
 id = "gemini-robotics-er-1.5-preview"
-knowledge_cutoff = "1735711200"
+knowledge_cutoff = "1735689600"
 name = "Gemini Robotics-ER 1.5 Preview"
-release_date = "1756702800"
+release_date = "1756684800"
 
 [features]
 attachment = true
