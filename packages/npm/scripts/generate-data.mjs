@@ -153,20 +153,39 @@ const providerExportFile = resolve(
   "src/generated-provider-exports.ts",
 );
 
-function isIdentifier(value) {
+function toIdentifier(value) {
+  let identifier = value.replace(/-+([^-])/g, (_, char) => char.toUpperCase());
+  identifier = identifier.replace(/-/g, "");
+
+  if (/^[0-9]/.test(identifier)) {
+    identifier = `_${identifier}`;
+  }
+
+  return identifier;
+}
+
+function isValidIdentifier(value) {
   return /^[$A-Z_a-z][$\w]*$/.test(value);
 }
 
 const providerIds = Object.keys(source);
-const namedProviderIds = providerIds.filter((providerId) =>
-  isIdentifier(providerId),
-);
-const providerExports = `import { getModelDirectory } from "./store.js";\n\nconst modelDirectory = getModelDirectory();\n\nexport const providers = modelDirectory;\n${namedProviderIds
-  .map(
-    (providerId) =>
-      `export const ${providerId} = modelDirectory[${JSON.stringify(providerId)}]!;`,
-  )
-  .join("\n")}\n`;
+const seenIdentifiers = new Set();
+const providerExportLines = [];
+
+for (const providerId of providerIds) {
+  const identifier = toIdentifier(providerId);
+
+  if (!isValidIdentifier(identifier) || seenIdentifiers.has(identifier)) {
+    continue;
+  }
+
+  seenIdentifiers.add(identifier);
+  providerExportLines.push(
+    `export const ${identifier} = modelDirectory[${JSON.stringify(providerId)}]!;`,
+  );
+}
+
+const providerExports = `import { getModelDirectory } from "./store.js";\n\nconst modelDirectory = getModelDirectory();\n\nexport const providers = modelDirectory;\n${providerExportLines.join("\n")}\n`;
 
 await writeFile(outputFile, fileContents);
 await writeFile(providerExportFile, providerExports);
