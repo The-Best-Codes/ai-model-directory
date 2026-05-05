@@ -4,6 +4,7 @@ import { ZodError } from "zod";
 
 import { compactObject, hasOwnValue } from "./object.ts";
 import {
+  type ExtendsOmitField,
   type MetadataRecord,
   type MetadataSource,
   type ModelModality,
@@ -370,6 +371,40 @@ function pickNested<K extends (typeof nestedFields)[number]>(
   }
 
   return Object.keys(merged).length > 0 ? merged : undefined;
+}
+
+export function applyExtendsOmit(
+  model: ModelRecord,
+  omit: readonly ExtendsOmitField[] | undefined,
+): ModelRecord {
+  if (!omit || omit.length === 0) {
+    return model;
+  }
+
+  const next: Record<string, unknown> = { ...model };
+
+  for (const field of omit) {
+    const [parent, child] = field.split(".") as [string, string | undefined];
+
+    if (!child) {
+      if (parent === "id") {
+        continue;
+      }
+
+      delete next[parent];
+      continue;
+    }
+
+    const nested = next[parent];
+
+    if (nested && typeof nested === "object") {
+      const clone = { ...(nested as Record<string, unknown>) };
+      delete clone[child];
+      next[parent] = clone;
+    }
+  }
+
+  return normalizeModel(next as ModelRecord);
 }
 
 export function mergeModelSources(input: {

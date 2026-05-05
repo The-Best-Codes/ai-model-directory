@@ -111,6 +111,36 @@ export const defaultMetadataPriorities: readonly MetadataSource[] = [
 
 const extendsPathPattern = /^[a-z0-9][a-z0-9-]*(?:\/[a-z0-9][a-z0-9-]*)+$/;
 
+export const extendsOmitFieldSchema = z.enum([
+  "name",
+  "knowledge_cutoff",
+  "release_date",
+  "last_updated",
+  "open_weights",
+  "features",
+  "features.attachment",
+  "features.reasoning",
+  "features.tool_call",
+  "features.structured_output",
+  "features.temperature",
+  "pricing",
+  "pricing.input",
+  "pricing.output",
+  "pricing.reasoning",
+  "pricing.cache_read",
+  "pricing.cache_write",
+  "pricing.input_audio",
+  "pricing.output_audio",
+  "limit",
+  "limit.context",
+  "limit.input",
+  "limit.output",
+  "modalities",
+  "modalities.input",
+  "modalities.output",
+]);
+export type ExtendsOmitField = z.infer<typeof extendsOmitFieldSchema>;
+
 export const metadataExtendsSchema = z
   .object({
     path: z
@@ -120,6 +150,7 @@ export const metadataExtendsSchema = z
         message:
           "must be a slash-separated path using lowercase letters, digits, or '-'",
       }),
+    omit: z.array(extendsOmitFieldSchema).min(1).optional(),
   })
   .strict();
 

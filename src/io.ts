@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { ZodError } from "zod";
 
 import {
+  applyExtendsOmit,
   formatZodError,
   mergeModelSources,
   normalizeModel,
@@ -56,7 +57,9 @@ async function readExtendsTarget(
     );
   }
 
-  return parseModelToml(await targetFile.text());
+  const target = parseModelToml(await targetFile.text());
+
+  return applyExtendsOmit(target, metadata.extends.omit);
 }
 
 function detectCollisions(models: ModelRecord[]): Map<string, string[]> {
