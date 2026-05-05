@@ -39,7 +39,10 @@ jobs:
 
       - name: Bump patch version
         working-directory: packages/npm
-        run: npm version patch --no-git-tag-version
+        run: |
+          NEW_VERSION=$(node -e "const p=require('./package.json');const v=p.version.split('.').map(Number);console.log(v[0]+'.'+v[1]+'.'+(v[2]+1))")
+          npm pkg set version="$NEW_VERSION"
+          echo "Bumped to $NEW_VERSION"
 
       - name: Build package
         working-directory: packages/npm
