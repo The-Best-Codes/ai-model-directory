@@ -1,0 +1,16 @@
+id = "imagen-3-fast"
+name = "Imagen-3-Fast"
+release_date = "1729127959"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 480
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

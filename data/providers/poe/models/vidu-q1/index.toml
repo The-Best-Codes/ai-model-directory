@@ -1,0 +1,13 @@
+id = "vidu-q1"
+name = "Vidu-Q1"
+release_date = "1755797522"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

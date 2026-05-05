@@ -1,0 +1,13 @@
+id = "seedance-1.0-pro-fast"
+name = "Seedance-1.0-Pro-Fast"
+release_date = "1761334162"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

@@ -1,0 +1,16 @@
+id = "runway-gen-4.5"
+name = "Runway-Gen-4.5"
+release_date = "1769636825"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 256
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

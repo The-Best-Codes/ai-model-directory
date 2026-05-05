@@ -1,0 +1,18 @@
+id = "kimi-k2-thinking"
+name = "Kimi-K2-Thinking"
+release_date = "1762485029"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1515
+input = 0.6061
+output = 2.5253

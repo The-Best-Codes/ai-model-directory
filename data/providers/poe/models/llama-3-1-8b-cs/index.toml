@@ -1,0 +1,20 @@
+id = "llama-3.1-8b-cs"
+name = "Llama-3.1-8B-CS"
+release_date = "1747179273"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.101
+output = 0.101

@@ -1,0 +1,13 @@
+id = "claude-code"
+name = "Claude-Code"
+release_date = "1764280744"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,13 @@
+id = "glm-5-t"
+name = "GLM-5-T"
+release_date = "1775504271"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

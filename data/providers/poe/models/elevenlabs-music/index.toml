@@ -1,0 +1,16 @@
+id = "elevenlabs-music"
+name = "ElevenLabs-Music"
+release_date = "1756499655"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 2000
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

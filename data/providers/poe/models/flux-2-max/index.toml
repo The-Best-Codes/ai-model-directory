@@ -1,0 +1,13 @@
+id = "flux-2-max"
+name = "Flux-2-Max"
+release_date = "1765899203"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

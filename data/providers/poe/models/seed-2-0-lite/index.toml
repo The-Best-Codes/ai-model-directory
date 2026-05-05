@@ -1,0 +1,17 @@
+id = "seed-2.0-lite"
+name = "Seed-2.0-Lite"
+release_date = "1772817225"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3157
+output = 2.5253

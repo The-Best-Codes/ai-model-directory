@@ -1,0 +1,13 @@
+id = "web-search"
+name = "Web-Search"
+release_date = "1694131444"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

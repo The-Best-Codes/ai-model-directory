@@ -1,0 +1,21 @@
+id = "nano-banana-pro"
+name = "Nano-Banana-Pro"
+release_date = "1763518946"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 0.202
+input = 2.0202
+output = 12.1212

@@ -1,0 +1,13 @@
+id = "ltx-2-pro"
+name = "LTX-2-Pro"
+release_date = "1761343366"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

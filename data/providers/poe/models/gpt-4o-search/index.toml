@@ -1,0 +1,21 @@
+id = "gpt-4o-search"
+name = "GPT-4o-Search"
+release_date = "1741720622"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.2727
+output = 9.0909

@@ -1,0 +1,16 @@
+id = "dall-e-3"
+name = "DALL-E-3"
+release_date = "1699306131"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 800
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

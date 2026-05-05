@@ -1,0 +1,16 @@
+id = "recraft-v3"
+name = "Recraft-V3"
+release_date = "1730322043"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 256
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

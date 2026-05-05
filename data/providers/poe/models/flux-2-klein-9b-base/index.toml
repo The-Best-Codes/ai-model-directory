@@ -1,0 +1,13 @@
+id = "flux-2-klein-9b-base"
+name = "Flux-2-Klein-9B-Base"
+release_date = "1768505118"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

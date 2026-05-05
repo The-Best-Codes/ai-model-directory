@@ -1,0 +1,16 @@
+id = "deepseek-r1-di"
+name = "DeepSeek-R1-DI"
+release_date = "1740487208"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,21 @@
+id = "kimi-k2.5"
+name = "Kimi-K2.5"
+release_date = "1769511157"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.101
+input = 0.6061
+output = 3.0303

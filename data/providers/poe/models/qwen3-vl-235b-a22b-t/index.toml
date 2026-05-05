@@ -1,0 +1,13 @@
+id = "qwen3-vl-235b-a22b-t"
+name = "Qwen3-VL-235B-A22B-T"
+release_date = "1758695878"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

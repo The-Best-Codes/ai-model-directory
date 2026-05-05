@@ -1,0 +1,18 @@
+id = "glm-4.7-flash"
+name = "GLM-4.7-Flash"
+release_date = "1768838511"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0101
+input = 0.0707
+output = 0.404

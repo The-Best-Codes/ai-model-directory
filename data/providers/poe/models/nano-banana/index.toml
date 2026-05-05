@@ -1,0 +1,21 @@
+id = "nano-banana"
+name = "Nano-Banana"
+release_date = "1755817420"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 0.0212
+input = 0.2121
+output = 1.7677

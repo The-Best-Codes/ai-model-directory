@@ -1,0 +1,16 @@
+id = "flux-schnell-di"
+name = "FLUX-schnell-DI"
+release_date = "1750333477"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 256
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

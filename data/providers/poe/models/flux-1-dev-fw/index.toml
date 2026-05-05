@@ -1,0 +1,16 @@
+id = "flux-1-dev-fw"
+name = "Flux-1-Dev-FW"
+release_date = "1729618505"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 256
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

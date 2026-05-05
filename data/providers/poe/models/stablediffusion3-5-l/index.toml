@@ -1,0 +1,13 @@
+id = "stablediffusion3.5-l"
+name = "StableDiffusion3.5-L"
+release_date = "1729613306"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

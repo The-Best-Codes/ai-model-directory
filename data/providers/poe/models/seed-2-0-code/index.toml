@@ -1,0 +1,17 @@
+id = "seed-2.0-code"
+name = "Seed-2.0-Code"
+release_date = "1776829691"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6313
+output = 3.7879

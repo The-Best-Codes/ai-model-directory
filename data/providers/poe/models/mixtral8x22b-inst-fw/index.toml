@@ -1,0 +1,16 @@
+id = "mixtral8x22b-inst-fw"
+name = "Mixtral8x22b-Inst-FW"
+release_date = "1712949013"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

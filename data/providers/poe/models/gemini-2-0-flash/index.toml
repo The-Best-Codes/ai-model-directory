@@ -1,0 +1,21 @@
+id = "gemini-2.0-flash"
+name = "Gemini-2.0-Flash"
+release_date = "1733958136"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 990000
+output = 8192
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1061
+output = 0.4242

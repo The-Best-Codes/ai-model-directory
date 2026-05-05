@@ -1,0 +1,13 @@
+id = "seedance-2.0"
+name = "Seedance-2.0"
+release_date = "1775769075"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

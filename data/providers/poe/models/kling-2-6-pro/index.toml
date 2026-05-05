@@ -1,0 +1,16 @@
+id = "kling-2.6-pro"
+name = "Kling-2.6-Pro"
+release_date = "1764786565"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 256
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

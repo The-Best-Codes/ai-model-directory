@@ -1,0 +1,13 @@
+id = "glm-4.5"
+name = "GLM-4.5"
+release_date = "1753966903"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

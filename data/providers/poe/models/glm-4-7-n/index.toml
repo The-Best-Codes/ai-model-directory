@@ -1,0 +1,17 @@
+id = "glm-4.7-n"
+name = "GLM-4.7-N"
+release_date = "1766425366"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6061
+output = 2.2222

@@ -1,0 +1,17 @@
+id = "qwen3.5-flash"
+name = "Qwen3.5-Flash"
+release_date = "1771963175"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0909
+output = 0.3717

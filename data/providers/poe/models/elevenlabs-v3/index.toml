@@ -1,0 +1,16 @@
+id = "elevenlabs-v3"
+name = "ElevenLabs-v3"
+release_date = "1749151405"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

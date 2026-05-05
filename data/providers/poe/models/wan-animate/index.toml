@@ -1,0 +1,13 @@
+id = "wan-animate"
+name = "Wan-Animate"
+release_date = "1758552514"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

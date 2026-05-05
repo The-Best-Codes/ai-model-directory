@@ -1,0 +1,16 @@
+id = "phi-4-di"
+name = "Phi-4-DI"
+release_date = "1740490334"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

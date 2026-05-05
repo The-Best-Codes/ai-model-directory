@@ -1,0 +1,13 @@
+id = "gpt-oss-20b"
+name = "GPT-OSS-20B"
+release_date = "1754470883"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

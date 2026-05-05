@@ -1,0 +1,16 @@
+id = "deepseek-v3-turbo-di"
+name = "DeepSeek-V3-Turbo-DI"
+release_date = "1741250579"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

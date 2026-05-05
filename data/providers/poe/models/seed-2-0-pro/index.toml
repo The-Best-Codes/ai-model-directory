@@ -1,0 +1,17 @@
+id = "seed-2.0-pro"
+name = "Seed-2.0-Pro"
+release_date = "1774508584"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6313
+output = 3.7879

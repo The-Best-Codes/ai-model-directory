@@ -1,0 +1,17 @@
+id = "qwen3-max-preview"
+name = "Qwen3-Max-Preview"
+release_date = "1763943732"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.0909
+output = 4.8485

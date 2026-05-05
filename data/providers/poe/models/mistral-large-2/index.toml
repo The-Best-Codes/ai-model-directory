@@ -1,0 +1,21 @@
+id = "mistral-large-2"
+name = "Mistral-Large-2"
+release_date = "1708971504"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.0303
+output = 9.0909

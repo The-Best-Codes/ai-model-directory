@@ -1,0 +1,16 @@
+id = "veo-3-fast"
+name = "Veo-3-Fast"
+release_date = "1760335513"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 480
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,13 @@
+id = "kling-v3-motion-ctrl"
+name = "Kling-v3-Motion-Ctrl"
+release_date = "1773103662"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

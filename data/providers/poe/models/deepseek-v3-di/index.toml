@@ -1,0 +1,16 @@
+id = "deepseek-v3-di"
+name = "DeepSeek-V3-DI"
+release_date = "1739797458"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,13 @@
+id = "qwen3-max-thinking"
+name = "Qwen3-Max-Thinking"
+release_date = "1769457283"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

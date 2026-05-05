@@ -1,0 +1,22 @@
+id = "o4-mini-deep-research"
+name = "o4-mini-deep-research"
+release_date = "1750982713"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.4545
+input = 1.8182
+output = 7.2727

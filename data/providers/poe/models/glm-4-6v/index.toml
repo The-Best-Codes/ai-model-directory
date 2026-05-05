@@ -1,0 +1,18 @@
+id = "glm-4.6v"
+name = "GLM-4.6V"
+release_date = "1765278260"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0556
+input = 0.303
+output = 0.9091

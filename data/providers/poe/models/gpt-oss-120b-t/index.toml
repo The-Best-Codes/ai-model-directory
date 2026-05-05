@@ -1,0 +1,16 @@
+id = "gpt-oss-120b-t"
+name = "GPT-OSS-120B-T"
+release_date = "1754415494"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

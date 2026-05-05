@@ -1,0 +1,22 @@
+id = "gemini-3.1-pro"
+name = "Gemini-3.1-Pro"
+release_date = "1771460884"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.202
+input = 2.0202
+output = 12.1212

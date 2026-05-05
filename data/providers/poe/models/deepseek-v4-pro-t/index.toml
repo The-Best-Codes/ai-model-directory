@@ -1,0 +1,13 @@
+id = "deepseek-v4-pro-t"
+name = "DeepSeek-V4-Pro-T"
+release_date = "1777056434"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
