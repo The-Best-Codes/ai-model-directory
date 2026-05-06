@@ -1,5 +1,354 @@
 # Changelog
 
+## Run at 1778027733
+
+### 302ai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### abacus
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `chat-latest`
+
+</details>
+
+### alibaba-cn
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### aihubmix
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### anthropic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### avian
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### baseten
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### berget
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 14 |
+
+### cerebras
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### chutes
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cohere
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cortecs
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### deepinfra
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### deepseek
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fastrouter
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fireworks-ai
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `accounts/fireworks/models/voyage-4-nano`
+
+</details>
+
+### friendli
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-copilot
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-models
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### google
+
+- 0 models added, 6 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (6)</summary>
+
+- `gemma-3-12b-it`
+- `gemma-3-1b-it`
+- `gemma-3-27b-it`
+- `gemma-3-4b-it`
+- `gemma-3n-e2b-it`
+- `gemma-3n-e4b-it`
+
+</details>
+
+### groq
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### helicone
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### huggingface
+
+- 1 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 5 |
+| `features.tool_call` | 0 | 0 | 7 |
+| `pricing.input` | 1 | 1 | 1 |
+| `pricing.output` | 1 | 1 | 1 |
+| `limit.context` | 1 | 1 | 0 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `google/gemma-4-31B-it`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `CohereLabs/command-a-translate-08-2025`
+
+</details>
+
+### inception
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### io-net
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### jiekou
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### kilo
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.output` | 0 | 0 | 1 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 1 | 0 | 0 |
+
+### llmgateway
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 194 |
+
+### mistral
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### modelscope
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### moark
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### nano-gpt
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### novita
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### openai
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 0 | 0 | 1 |
+
+### ovhcloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### perplexity
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `knowledge_cutoff` | 0 | 1 | 0 |
+
+### poe
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `qwen3.6-plus-t`
+
+</details>
+
+### openrouter
+
+- 0 models added, 5 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.output` | 0 | 0 | 1 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 1 | 0 | 0 |
+
+<details>
+<summary>Removed models (5)</summary>
+
+- `google/gemma-3-12b-it:free`
+- `google/gemma-3-27b-it:free`
+- `google/gemma-3-4b-it:free`
+- `google/gemma-3n-e2b-it:free`
+- `google/gemma-3n-e4b-it:free`
+
+</details>
+
+### requesty
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### synthetic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### tetrate
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### togetherai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### venice
+
+- 0 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `kimi-k2-thinking`
+
+</details>
+
+### vercel
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### wandb
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### xai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### zenmux
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### Summary
+
+- Providers updated: 47
+- Total models added: 4
+- Total models removed: 13
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `knowledge_cutoff` | 0 | 1 | 0 |
+| `release_date` | 0 | 0 | 208 |
+| `features.structured_output` | 0 | 0 | 5 |
+| `features.tool_call` | 0 | 0 | 7 |
+| `pricing.input` | 1 | 1 | 1 |
+| `pricing.output` | 1 | 1 | 3 |
+| `limit.context` | 1 | 1 | 3 |
+| `limit.output` | 2 | 0 | 1 |
+
 ## Run at 1778012967
 
 ### anthropic

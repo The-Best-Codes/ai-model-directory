@@ -1,6 +1,6 @@
 id = "qwen3-4b-fp8"
 name = "Qwen3 4B FP8"
-release_date = "1778009453"
+release_date = "1778027712"
 
 [features]
 attachment = false
