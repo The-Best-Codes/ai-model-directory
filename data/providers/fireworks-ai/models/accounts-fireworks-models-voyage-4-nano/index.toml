@@ -1,0 +1,15 @@
+id = "accounts/fireworks/models/voyage-4-nano"
+name = "Voyage 4 Nano"
+open_weights = true
+
+[features]
+tool_call = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.016

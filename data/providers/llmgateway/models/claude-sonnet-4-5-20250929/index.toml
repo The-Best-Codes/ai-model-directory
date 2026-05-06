@@ -1,6 +1,6 @@
 id = "claude-sonnet-4-5-20250929"
 name = "Claude Sonnet 4.5 (2025-09-29)"
-release_date = "1778009453"
+release_date = "1778027712"
 
 [features]
 attachment = false
