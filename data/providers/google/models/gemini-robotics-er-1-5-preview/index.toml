@@ -16,7 +16,3 @@ output = 65536
 [modalities]
 input = [ "audio", "image", "text", "video" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.3
-output = 2.5

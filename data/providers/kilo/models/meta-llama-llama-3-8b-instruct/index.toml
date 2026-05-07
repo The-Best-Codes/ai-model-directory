@@ -5,18 +5,18 @@ release_date = "1713398400"
 [features]
 attachment = false
 reasoning = false
-structured_output = true
+structured_output = false
 temperature = true
-tool_call = true
+tool_call = false
 
 [limit]
 context = 8192
-output = 16384
+output = 8192
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.03
+input = 0.04
 output = 0.04

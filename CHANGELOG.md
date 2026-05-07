@@ -1,5 +1,474 @@
 # Changelog
 
+## Run at 1778114236
+
+### 302ai
+
+- 1 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `last_updated` | 0 | 0 | 1 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `openai-chat-latest`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `minimax-m2-5`
+
+</details>
+
+### abacus
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### alibaba-cn
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### aihubmix
+
+- 6 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 7 |
+| `pricing.output` | 0 | 0 | 7 |
+| `pricing.cache_read` | 0 | 5 | 1 |
+
+<details>
+<summary>Added models (6)</summary>
+
+- `coding-xiaomi-mimo-v2-omni`
+- `coding-xiaomi-mimo-v2-pro`
+- `coding-xiaomi-mimo-v2.5`
+- `coding-xiaomi-mimo-v2.5-pro`
+- `gpt-5.5-free`
+- `gpt-image-2-free`
+
+</details>
+
+### anthropic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### avian
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### baseten
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### berget
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 14 |
+| `pricing.input` | 0 | 0 | 55 |
+| `pricing.output` | 0 | 0 | 52 |
+
+### cerebras
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### chutes
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cohere
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cortecs
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### deepinfra
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### deepseek
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fastrouter
+
+- 0 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `fastrouter/auto2-beta`
+
+</details>
+
+### fireworks-ai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### friendli
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-copilot
+
+- 0 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `claude-sonnet-4`
+
+</details>
+
+### github-models
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### google
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 1 | 0 | 0 |
+| `pricing.output` | 1 | 0 | 0 |
+| `limit.context` | 0 | 0 | 1 |
+
+### groq
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### helicone
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### huggingface
+
+- 1 models added, 2 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 3 |
+| `features.tool_call` | 0 | 0 | 9 |
+| `pricing.input` | 1 | 1 | 0 |
+| `pricing.output` | 1 | 1 | 0 |
+| `limit.context` | 1 | 1 | 0 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `CohereLabs/command-a-translate-08-2025`
+
+</details>
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `Qwen/Qwen3-235B-A22B`
+- `deepseek-ai/DeepSeek-Prover-V2-671B`
+
+</details>
+
+### inception
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### io-net
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 1 |
+| `pricing.output` | 0 | 0 | 1 |
+| `pricing.cache_read` | 0 | 0 | 1 |
+
+### jiekou
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### kilo
+
+- 1 models added, 2 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 1 |
+| `features.tool_call` | 0 | 0 | 1 |
+| `pricing.input` | 0 | 0 | 5 |
+| `pricing.output` | 0 | 0 | 3 |
+| `pricing.cache_read` | 0 | 0 | 3 |
+| `limit.context` | 0 | 0 | 3 |
+| `limit.output` | 0 | 0 | 3 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `baidu/cobuddy:free`
+
+</details>
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `allenai/olmo-3.1-32b-instruct`
+- `nvidia/nemotron-nano-12b-v2-vl`
+
+</details>
+
+### llmgateway
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 194 |
+
+### mistral
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### modelscope
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### moark
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 73 |
+| `pricing.output` | 0 | 0 | 65 |
+
+### nano-gpt
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.reasoning` | 0 | 0 | 1 |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 2 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 0 | 0 | 1 |
+
+### novita
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### openai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### ovhcloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### perplexity
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### poe
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `deepseek-r1`
+
+</details>
+
+### openrouter
+
+- 1 models added, 2 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 1 |
+| `features.tool_call` | 0 | 0 | 1 |
+| `pricing.input` | 0 | 0 | 5 |
+| `pricing.output` | 0 | 0 | 3 |
+| `pricing.cache_read` | 0 | 0 | 3 |
+| `limit.context` | 0 | 0 | 3 |
+| `limit.output` | 0 | 0 | 3 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `baidu/cobuddy:free`
+
+</details>
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `allenai/olmo-3.1-32b-instruct`
+- `nvidia/nemotron-nano-12b-v2-vl`
+
+</details>
+
+### requesty
+
+- 12 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (12)</summary>
+
+- `vertex/claude-opus-4-7`
+- `vertex/claude-opus-4-7@europe-west1`
+- `vertex/claude-opus-4-7@europe-west2`
+- `vertex/claude-opus-4-7@europe-west3`
+- `vertex/claude-opus-4-7@europe-west4`
+- `vertex/claude-opus-4-7@europe-west6`
+- `vertex/claude-opus-4-7@us-central-1`
+- `vertex/claude-opus-4-7@us-east1`
+- `vertex/claude-opus-4-7@us-west-1`
+- `vertex/claude-sonnet-4-6`
+- `vertex/claude-sonnet-4-6@europe-west1`
+- `vertex/claude-sonnet-4-6@us-east5`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `azure/o4-mini`
+
+</details>
+
+### synthetic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### tetrate
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### togetherai
+
+- 3 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 1 | 0 | 0 |
+
+<details>
+<summary>Added models (3)</summary>
+
+- `ByteDance/Seedance-2.0`
+- `alibaba/happyhorse-1.0-t2v`
+- `meta-llama/Llama-3.3-70B-Instruct-FP8-Lora`
+
+</details>
+
+### venice
+
+- 0 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 2 |
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `e2ee-glm-5`
+
+</details>
+
+### vercel
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 6 |
+| `pricing.output` | 0 | 0 | 6 |
+
+### wandb
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### xai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### zenmux
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `openai/chat-latest`
+
+</details>
+
+### Summary
+
+- Providers updated: 47
+- Total models added: 27
+- Total models removed: 11
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 1 | 0 | 208 |
+| `last_updated` | 0 | 0 | 1 |
+| `features.reasoning` | 0 | 0 | 1 |
+| `features.structured_output` | 0 | 0 | 5 |
+| `features.tool_call` | 0 | 0 | 11 |
+| `pricing.input` | 2 | 1 | 156 |
+| `pricing.output` | 2 | 1 | 141 |
+| `pricing.cache_read` | 0 | 5 | 8 |
+| `limit.context` | 1 | 1 | 8 |
+| `limit.output` | 0 | 0 | 7 |
+
 ## Run at 1778027733
 
 ### 302ai

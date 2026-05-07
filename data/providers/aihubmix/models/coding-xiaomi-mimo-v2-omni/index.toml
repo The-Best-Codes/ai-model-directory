@@ -1,0 +1,16 @@
+id = "coding-xiaomi-mimo-v2-omni"
+name = "coding-xiaomi-mimo-v2-omni"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.008
+input = 0.04
+output = 0.2

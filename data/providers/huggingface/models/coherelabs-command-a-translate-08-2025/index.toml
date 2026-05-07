@@ -1,0 +1,12 @@
+id = "CohereLabs/command-a-translate-08-2025"
+name = "CohereLabs/command-a-translate-08-2025"
+release_date = "1756300537"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

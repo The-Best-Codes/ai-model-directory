@@ -1,6 +1,5 @@
 id = "deepcogito/cogito-v2-1-671b"
 name = "Cogito v2.1 671B"
-release_date = "1776977431"
 
 [features]
 attachment = false
