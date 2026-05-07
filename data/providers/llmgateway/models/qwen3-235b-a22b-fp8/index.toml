@@ -1,6 +1,6 @@
 id = "qwen3-235b-a22b-fp8"
 name = "Qwen3 235B A22B FP8"
-release_date = "1778027712"
+release_date = "1778114219"
 
 [features]
 attachment = false

@@ -11,5 +11,5 @@ tool_call = true
 input = [ "image", "text" ]
 
 [pricing]
-input = 0.822
-output = 3.288
+input = 0.846
+output = 3.384

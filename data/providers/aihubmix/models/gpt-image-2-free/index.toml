@@ -1,0 +1,15 @@
+id = "gpt-image-2-free"
+name = "gpt-image-2-free"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0
+output = 0

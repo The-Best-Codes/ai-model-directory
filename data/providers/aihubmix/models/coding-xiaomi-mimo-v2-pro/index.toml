@@ -1,0 +1,16 @@
+id = "coding-xiaomi-mimo-v2-pro"
+name = "coding-xiaomi-mimo-v2-pro"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.1
+output = 0.3

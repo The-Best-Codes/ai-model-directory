@@ -1,0 +1,19 @@
+id = "openai/chat-latest"
+name = "OpenAI: Chat Latest (GPT-5.5 Instant)"
+release_date = "1778037688"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 5
+output = 30
