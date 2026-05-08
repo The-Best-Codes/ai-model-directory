@@ -4810,6 +4810,33 @@
           ]
         }
       },
+      "minimax-m2-5": {
+        "id": "minimax-m2-5",
+        "name": "MiniMax-M2.5",
+        "release_date": "1770979795",
+        "last_updated": "1772099269",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 1.2
+        },
+        "limit": {
+          "context": 204800
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "minimax-m2-5-highspeed": {
         "id": "minimax-m2-5-highspeed",
         "name": "MiniMax-M2.5-highspeed",
@@ -22045,8 +22072,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.068,
-          "output": 0.068
+          "input": 0.068
         },
         "modalities": {
           "input": [
@@ -23741,8 +23767,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.068,
-          "output": 0.068
+          "input": 0.068
         },
         "modalities": {
           "input": [
@@ -23761,8 +23786,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.068,
-          "output": 0.068
+          "input": 0.068
         },
         "modalities": {
           "input": [
@@ -23936,76 +23960,6 @@
         "pricing": {
           "input": 3,
           "output": 12
-        }
-      },
-      "crush-glm-4.6-free": {
-        "id": "crush-glm-4.6-free",
-        "name": "crush-glm-4.6-free",
-        "features": {
-          "reasoning": false,
-          "tool_call": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0,
-          "output": 0
-        }
-      },
-      "crush-glm-5.1-free": {
-        "id": "crush-glm-5.1-free",
-        "name": "crush-glm-5.1-free",
-        "features": {
-          "attachment": false,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0,
-          "output": 0
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ]
-        }
-      },
-      "crush-glm-5-turbo": {
-        "id": "crush-glm-5-turbo",
-        "name": "crush-glm-5-turbo",
-        "features": {
-          "attachment": false,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0,
-          "output": 0
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ]
-        }
-      },
-      "crush-glm-5-turbo-free": {
-        "id": "crush-glm-5-turbo-free",
-        "name": "crush-glm-5-turbo-free",
-        "features": {
-          "attachment": false,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0,
-          "output": 0
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ]
         }
       },
       "dall-e-2": {
@@ -25429,8 +25383,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.12,
-          "output": 0.12
+          "input": 0.12
         },
         "limit": {
           "context": 128000
@@ -25496,8 +25449,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.068,
-          "output": 0.068
+          "input": 0.068
         },
         "modalities": {
           "input": [
@@ -26869,8 +26821,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.2,
-          "output": 0.2
+          "input": 0.2
         },
         "modalities": {
           "input": [
@@ -28966,6 +28917,30 @@
           ]
         }
       },
+      "gpt-chat-latest": {
+        "id": "gpt-chat-latest",
+        "name": "gpt-chat-latest",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cache_read": 0.5
+        },
+        "limit": {
+          "context": 1050000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ]
+        }
+      },
       "gpt-image-1": {
         "id": "gpt-image-1",
         "name": "gpt-image-1",
@@ -30075,8 +30050,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.05,
-          "output": 0.05
+          "input": 0.05
         },
         "modalities": {
           "input": [
@@ -30095,8 +30069,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.05,
-          "output": 0.05
+          "input": 0.05
         },
         "modalities": {
           "input": [
@@ -30397,28 +30370,6 @@
         "pricing": {
           "input": 1.25,
           "output": 5
-        }
-      },
-      "ling-2.6-flash-free": {
-        "id": "ling-2.6-flash-free",
-        "name": "ling-2.6-flash-free",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "tool_call": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0,
-          "cache_read": 0
-        },
-        "limit": {
-          "context": 262100
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ]
         }
       },
       "llama-3.1-405b-instruct": {
@@ -33316,8 +33267,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.068,
-          "output": 0.068
+          "input": 0.068
         },
         "modalities": {
           "input": [
@@ -33354,8 +33304,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.068,
-          "output": 0.068
+          "input": 0.068
         },
         "modalities": {
           "input": [
@@ -35214,6 +35163,81 @@
           ],
           "output": [
             "text"
+          ]
+        }
+      },
+      "happyhorse-1.0-i2v": {
+        "id": "happyhorse-1.0-i2v",
+        "name": "HappyHorse-1.0-I2V",
+        "release_date": "1776791219",
+        "last_updated": "1776791219",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        }
+      },
+      "happyhorse-1.0-r2v": {
+        "id": "happyhorse-1.0-r2v",
+        "name": "HappyHorse-1.0-R2V",
+        "release_date": "1777190020",
+        "last_updated": "1777190020",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        }
+      },
+      "happyhorse-1.0-t2v": {
+        "id": "happyhorse-1.0-t2v",
+        "name": "HappyHorse-1.0-T2V",
+        "release_date": "1776791239",
+        "last_updated": "1776791239",
+        "open_weights": false,
+        "features": {
+          "attachment": false
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        }
+      },
+      "happyhorse-1.0-video-edit": {
+        "id": "happyhorse-1.0-video-edit",
+        "name": "HappyHorse-1.0-Video-Edit",
+        "release_date": "1777204466",
+        "last_updated": "1777204466",
+        "open_weights": false,
+        "features": {
+          "attachment": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "video"
+          ],
+          "output": [
+            "video"
           ]
         }
       },
@@ -38086,8 +38110,8 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.1172072,
-          "output": 0.1172072
+          "input": 0.1175647,
+          "output": 0.1175647
         },
         "modalities": {
           "input": [
@@ -38105,8 +38129,8 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.1172072,
-          "output": 0.1172072
+          "input": 0.1175647,
+          "output": 0.1175647
         },
         "modalities": {
           "input": [
@@ -38124,8 +38148,8 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.1172072,
-          "output": 0.1172072
+          "input": 0.1175647,
+          "output": 0.1175647
         },
         "modalities": {
           "input": [
@@ -38143,8 +38167,8 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.1172072,
-          "output": 0.1172072
+          "input": 0.1175647,
+          "output": 0.1175647
         },
         "modalities": {
           "input": [
@@ -38162,8 +38186,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -38184,7 +38208,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.03516216,
+          "input": 0.03526941,
           "output": 0
         },
         "modalities": {
@@ -38203,8 +38227,8 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.03516216,
-          "output": 0.02344144
+          "input": 0.03526941,
+          "output": 0.02351294
         },
         "modalities": {
           "input": [
@@ -38222,7 +38246,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.03516216,
+          "input": 0.03526941,
           "output": 0
         },
         "modalities": {
@@ -38241,8 +38265,8 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.03516216,
-          "output": 0.02344144
+          "input": 0.03526941,
+          "output": 0.02351294
         },
         "modalities": {
           "input": [
@@ -38260,8 +38284,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.293018,
-          "output": 0.586036
+          "input": 0.29391175,
+          "output": 0.5878235
         },
         "modalities": {
           "input": [
@@ -38282,8 +38306,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.293018,
-          "output": 0.586036
+          "input": 0.29391175,
+          "output": 0.5878235
         },
         "modalities": {
           "input": [
@@ -38304,8 +38328,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.293018,
-          "output": 0.586036
+          "input": 0.29391175,
+          "output": 0.5878235
         },
         "modalities": {
           "input": [
@@ -38326,8 +38350,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.293018,
-          "output": 0.586036
+          "input": 0.29391175,
+          "output": 0.5878235
         },
         "modalities": {
           "input": [
@@ -38348,8 +38372,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.293018,
-          "output": 0.586036
+          "input": 0.29391175,
+          "output": 0.5878235
         },
         "modalities": {
           "input": [
@@ -38370,8 +38394,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -38392,8 +38416,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -38414,8 +38438,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -38436,8 +38460,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -38458,8 +38482,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -38480,8 +38504,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.293018,
-          "output": 0.586036
+          "input": 0.29391175,
+          "output": 0.5878235
         },
         "modalities": {
           "input": [
@@ -38502,8 +38526,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.293018,
-          "output": 0.586036
+          "input": 0.29391175,
+          "output": 0.5878235
         },
         "modalities": {
           "input": [
@@ -38524,8 +38548,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.293018,
-          "output": 0.586036
+          "input": 0.29391175,
+          "output": 0.5878235
         },
         "modalities": {
           "input": [
@@ -38547,8 +38571,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.879054
+          "input": 0.2351294,
+          "output": 0.88173525
         },
         "modalities": {
           "input": [
@@ -38571,8 +38595,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.879054
+          "input": 0.2351294,
+          "output": 0.88173525
         },
         "modalities": {
           "input": [
@@ -38594,7 +38618,7 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.03516216,
+          "input": 0.03526941,
           "output": 0
         },
         "modalities": {
@@ -38613,8 +38637,8 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.03516216,
-          "output": 0.02344144
+          "input": 0.03526941,
+          "output": 0.02351294
         },
         "modalities": {
           "input": [
@@ -38670,8 +38694,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.2344144
+          "input": 0.2351294,
+          "output": 0.2351294
         },
         "modalities": {
           "input": [
@@ -38692,8 +38716,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.2344144
+          "input": 0.2351294,
+          "output": 0.2351294
         },
         "modalities": {
           "input": [
@@ -38714,8 +38738,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.2344144
+          "input": 0.2351294,
+          "output": 0.2351294
         },
         "modalities": {
           "input": [
@@ -38729,15 +38753,15 @@
       "llama-3.3": {
         "id": "llama-3.3",
         "name": "llama-3.3",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "tool_call": true,
           "structured_output": true
         },
         "pricing": {
-          "input": 1.0548648,
-          "output": 1.0548648
+          "input": 1.0580823,
+          "output": 1.0580823
         },
         "modalities": {
           "input": [
@@ -38751,15 +38775,15 @@
       "llama-3.3-70b": {
         "id": "llama-3.3-70b",
         "name": "llama-3.3-70b",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "tool_call": true,
           "structured_output": true
         },
         "pricing": {
-          "input": 1.0548648,
-          "output": 1.0548648
+          "input": 1.0580823,
+          "output": 1.0580823
         },
         "modalities": {
           "input": [
@@ -38780,8 +38804,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.2344144
+          "input": 0.2351294,
+          "output": 0.2351294
         },
         "modalities": {
           "input": [
@@ -38802,8 +38826,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.2344144
+          "input": 0.2351294,
+          "output": 0.2351294
         },
         "modalities": {
           "input": [
@@ -38824,8 +38848,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.2344144
+          "input": 0.2351294,
+          "output": 0.2351294
         },
         "modalities": {
           "input": [
@@ -38839,15 +38863,15 @@
       "meta/llama-3.3": {
         "id": "meta/llama-3.3",
         "name": "meta/llama-3.3",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "tool_call": true,
           "structured_output": true
         },
         "pricing": {
-          "input": 1.0548648,
-          "output": 1.0548648
+          "input": 1.0580823,
+          "output": 1.0580823
         },
         "modalities": {
           "input": [
@@ -38861,15 +38885,15 @@
       "meta/llama-3.3-70b": {
         "id": "meta/llama-3.3-70b",
         "name": "meta/llama-3.3-70b",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "tool_call": true,
           "structured_output": true
         },
         "pricing": {
-          "input": 1.0548648,
-          "output": 1.0548648
+          "input": 1.0580823,
+          "output": 1.0580823
         },
         "modalities": {
           "input": [
@@ -38890,8 +38914,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.2344144
+          "input": 0.2351294,
+          "output": 0.2351294
         },
         "modalities": {
           "input": [
@@ -38905,15 +38929,15 @@
       "meta-llama/Llama-3.3-70B-Instruct": {
         "id": "meta-llama/Llama-3.3-70B-Instruct",
         "name": "Llama-3.3-70B-Instruct",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "tool_call": true,
           "structured_output": true
         },
         "pricing": {
-          "input": 1.0548648,
-          "output": 1.0548648
+          "input": 1.0580823,
+          "output": 1.0580823
         },
         "modalities": {
           "input": [
@@ -38935,8 +38959,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.3516216,
-          "output": 0.3516216
+          "input": 0.3526941,
+          "output": 0.3526941
         },
         "modalities": {
           "input": [
@@ -38959,8 +38983,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 1.758108,
-          "output": 5.86036
+          "input": 1.7634705,
+          "output": 5.878235
         },
         "modalities": {
           "input": [
@@ -38983,8 +39007,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 1.758108,
-          "output": 5.86036
+          "input": 1.7634705,
+          "output": 5.878235
         },
         "modalities": {
           "input": [
@@ -39007,8 +39031,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 1.758108,
-          "output": 5.86036
+          "input": 1.7634705,
+          "output": 5.878235
         },
         "modalities": {
           "input": [
@@ -39031,8 +39055,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.3516216,
-          "output": 0.3516216
+          "input": 0.3526941,
+          "output": 0.3526941
         },
         "modalities": {
           "input": [
@@ -39055,8 +39079,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 1.758108,
-          "output": 5.86036
+          "input": 1.7634705,
+          "output": 5.878235
         },
         "modalities": {
           "input": [
@@ -39079,8 +39103,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.3516216,
-          "output": 0.3516216
+          "input": 0.3526941,
+          "output": 0.3526941
         },
         "modalities": {
           "input": [
@@ -39103,8 +39127,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.3516216,
-          "output": 0.3516216
+          "input": 0.3526941,
+          "output": 0.3526941
         },
         "modalities": {
           "input": [
@@ -39119,7 +39143,7 @@
       "nb-whisper": {
         "id": "nb-whisper",
         "name": "nb-whisper",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "attachment": true,
@@ -39138,7 +39162,7 @@
       "NbAiLab/nb-whisper-large": {
         "id": "NbAiLab/nb-whisper-large",
         "name": "nb-whisper-large",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "attachment": true,
@@ -39157,7 +39181,7 @@
       "norwegian/whisper": {
         "id": "norwegian/whisper",
         "name": "norwegian/whisper",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "attachment": true,
@@ -39184,8 +39208,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.879054
+          "input": 0.2351294,
+          "output": 0.88173525
         },
         "modalities": {
           "input": [
@@ -39208,8 +39232,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.879054
+          "input": 0.2351294,
+          "output": 0.88173525
         },
         "modalities": {
           "input": [
@@ -39232,8 +39256,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.2344144,
-          "output": 0.879054
+          "input": 0.2351294,
+          "output": 0.88173525
         },
         "modalities": {
           "input": [
@@ -39248,7 +39272,7 @@
       "openai/whisper": {
         "id": "openai/whisper",
         "name": "openai/whisper",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "attachment": true,
@@ -39267,7 +39291,7 @@
       "openai/whisper-large": {
         "id": "openai/whisper-large",
         "name": "openai/whisper-large",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "attachment": true,
@@ -39286,7 +39310,7 @@
       "openai/whisper-large-v3": {
         "id": "openai/whisper-large-v3",
         "name": "openai/whisper-large-v3",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "attachment": true,
@@ -39312,8 +39336,8 @@
           "structured_output": false
         },
         "pricing": {
-          "input": 0.1172072,
-          "output": 0.1172072
+          "input": 0.1175647,
+          "output": 0.1175647
         },
         "modalities": {
           "input": [
@@ -39324,7 +39348,7 @@
       "Systran/faster-whisper-large-v3": {
         "id": "Systran/faster-whisper-large-v3",
         "name": "faster-whisper-large-v3",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "attachment": true,
@@ -39350,8 +39374,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -39384,7 +39408,7 @@
       "whisper-large": {
         "id": "whisper-large",
         "name": "whisper-large",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "attachment": true,
@@ -39403,7 +39427,7 @@
       "whisper/v3": {
         "id": "whisper/v3",
         "name": "whisper/v3",
-        "release_date": "1778112000",
+        "release_date": "1778198400",
         "open_weights": true,
         "features": {
           "attachment": true,
@@ -39429,8 +39453,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -39451,8 +39475,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -39473,8 +39497,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -39495,8 +39519,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.8204504,
-          "output": 2.93018
+          "input": 0.8229529,
+          "output": 2.9391175
         },
         "modalities": {
           "input": [
@@ -41219,6 +41243,23 @@
           "context": 131000
         }
       },
+      "gemma-4-26b-a4b-it": {
+        "id": "gemma-4-26b-a4b-it",
+        "name": "gemma-4-26b-a4b-it",
+        "release_date": "1778153882",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 0.5
+        },
+        "limit": {
+          "context": 256000
+        }
+      },
       "glm-4.6": {
         "id": "glm-4.6",
         "name": "glm-4.6",
@@ -41614,11 +41655,10 @@
         },
         "pricing": {
           "input": 0.444,
-          "output": 2.13,
-          "cache_read": 0.106
+          "output": 2.485
         },
         "limit": {
-          "context": 256000
+          "context": 262144
         }
       },
       "kimi-k2.6": {
@@ -42818,22 +42858,6 @@
         "id": "ClarityAI/flux",
         "name": "ClarityAI/flux"
       },
-      "deepseek-ai/DeepSeek-OCR": {
-        "id": "deepseek-ai/DeepSeek-OCR",
-        "name": "deepseek-ai/DeepSeek-OCR",
-        "features": {
-          "attachment": true,
-          "reasoning": false
-        },
-        "pricing": {
-          "input": 0.030000000000000002,
-          "output": 0.1
-        },
-        "limit": {
-          "context": 8192,
-          "output": 8192
-        }
-      },
       "deepseek-ai/DeepSeek-R1-0528": {
         "id": "deepseek-ai/DeepSeek-R1-0528",
         "name": "deepseek-ai/DeepSeek-R1-0528",
@@ -43801,8 +43825,9 @@
           "reasoning": true
         },
         "pricing": {
-          "input": 0.18,
-          "output": 1
+          "input": 0.14,
+          "output": 1,
+          "cache_read": 0.05000000040000001
         },
         "limit": {
           "context": 262144,
@@ -43817,8 +43842,9 @@
           "reasoning": true
         },
         "pricing": {
-          "input": 0.54,
-          "output": 3.4
+          "input": 0.49,
+          "output": 3.6,
+          "cache_read": 0.30000000099999996
         },
         "limit": {
           "context": 262144,
@@ -45152,9 +45178,9 @@
           ]
         }
       },
-      "fastrouter/auto3-beta": {
-        "id": "fastrouter/auto3-beta",
-        "name": "FastRouter: Auto (Beta 3)",
+      "fastrouter/autoV0": {
+        "id": "fastrouter/autoV0",
+        "name": "FastRouter: Auto V0",
         "release_date": "1767260074",
         "features": {
           "attachment": true,
@@ -45162,6 +45188,10 @@
           "tool_call": false,
           "structured_output": false,
           "temperature": false
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
         },
         "limit": {
           "context": 1000000,
@@ -48752,6 +48782,89 @@
           ],
           "output": [
             "audio"
+          ]
+        }
+      },
+      "sarvam/saaras:v3": {
+        "id": "sarvam/saaras:v3",
+        "name": "Sarvam: Saaras V3",
+        "release_date": "1770794385",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": false,
+          "structured_output": false,
+          "temperature": false
+        },
+        "pricing": {
+          "input_audio": 88
+        },
+        "limit": {
+          "context": 2046,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "sarvam/sarvam-105b": {
+        "id": "sarvam/sarvam-105b",
+        "name": "Sarvam: Sarvam 105B",
+        "release_date": "1771399185",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": false,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "limit": {
+          "context": 128000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "sarvam/sarvam-30b": {
+        "id": "sarvam/sarvam-30b",
+        "name": "Sarvam: Sarvam 30B",
+        "release_date": "1771399185",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": false,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "limit": {
+          "context": 128000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
           ]
         }
       },
@@ -57603,6 +57716,39 @@
           ]
         }
       },
+      "gemini-3.1-flash-lite": {
+        "id": "gemini-3.1-flash-lite",
+        "name": "Gemini 3.1 Flash Lite",
+        "knowledge_cutoff": "1735689600",
+        "release_date": "1777593600",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "cache_read": 0.025
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "gemini-3.1-flash-lite-preview": {
         "id": "gemini-3.1-flash-lite-preview",
         "name": "Gemini 3.1 Flash Lite Preview",
@@ -61971,7 +62117,7 @@
         "release_date": "1724053211",
         "features": {
           "attachment": false,
-          "tool_call": false,
+          "tool_call": true,
           "structured_output": false
         },
         "modalities": {
@@ -62196,6 +62342,31 @@
           ]
         }
       },
+      "deepseek-ai/DeepSeek-Prover-V2-671B": {
+        "id": "deepseek-ai/DeepSeek-Prover-V2-671B",
+        "name": "deepseek-ai/DeepSeek-Prover-V2-671B",
+        "release_date": "1745993675",
+        "features": {
+          "attachment": false,
+          "tool_call": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.7,
+          "output": 2.5
+        },
+        "limit": {
+          "context": 160000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "deepseek-ai/DeepSeek-R1": {
         "id": "deepseek-ai/DeepSeek-R1",
         "name": "deepseek-ai/DeepSeek-R1",
@@ -62227,7 +62398,7 @@
         "release_date": "1748425602",
         "features": {
           "attachment": false,
-          "tool_call": false,
+          "tool_call": true,
           "structured_output": false
         },
         "pricing": {
@@ -62302,7 +62473,7 @@
         "release_date": "1742808502",
         "features": {
           "attachment": false,
-          "tool_call": false,
+          "tool_call": true,
           "structured_output": true
         },
         "pricing": {
@@ -62427,7 +62598,7 @@
         "release_date": "1776837860",
         "features": {
           "attachment": false,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false
         },
         "pricing": {
@@ -62623,8 +62794,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0,
-          "output": 0
+          "input": 0.3,
+          "output": 2.5
         },
         "limit": {
           "context": 262144
@@ -63335,6 +63506,31 @@
           ]
         }
       },
+      "Qwen/Qwen3-235B-A22B": {
+        "id": "Qwen/Qwen3-235B-A22B",
+        "name": "Qwen/Qwen3-235B-A22B",
+        "release_date": "1745726026",
+        "features": {
+          "attachment": false,
+          "tool_call": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 0.8
+        },
+        "limit": {
+          "context": 40960
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "Qwen/Qwen3-235B-A22B-Instruct-2507": {
         "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
         "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
@@ -63644,7 +63840,7 @@
         "features": {
           "attachment": false,
           "tool_call": true,
-          "structured_output": true
+          "structured_output": false
         },
         "pricing": {
           "input": 0.3,
@@ -64220,7 +64416,7 @@
         "release_date": "1754833284",
         "features": {
           "attachment": true,
-          "tool_call": false,
+          "tool_call": true,
           "structured_output": false
         },
         "modalities": {
@@ -64239,7 +64435,7 @@
         "release_date": "1759170171",
         "features": {
           "attachment": false,
-          "tool_call": false,
+          "tool_call": true,
           "structured_output": false
         },
         "modalities": {
@@ -64339,7 +64535,7 @@
         "release_date": "1766389552",
         "features": {
           "attachment": false,
-          "tool_call": false,
+          "tool_call": true,
           "structured_output": false
         },
         "modalities": {
@@ -64360,6 +64556,13 @@
           "tool_call": true,
           "structured_output": false
         },
+        "pricing": {
+          "input": 0.07,
+          "output": 0.4
+        },
+        "limit": {
+          "context": 200000
+        },
         "modalities": {
           "input": [
             "text"
@@ -64375,7 +64578,7 @@
         "release_date": "1766410902",
         "features": {
           "attachment": false,
-          "tool_call": true,
+          "tool_call": false,
           "structured_output": false
         },
         "modalities": {
@@ -64393,7 +64596,7 @@
         "release_date": "1770785746",
         "features": {
           "attachment": false,
-          "tool_call": false,
+          "tool_call": true,
           "structured_output": false
         },
         "modalities": {
@@ -64715,7 +64918,7 @@
           "cache_write": 0
         },
         "limit": {
-          "context": 262144
+          "context": 32768
         },
         "modalities": {
           "input": [
@@ -67128,6 +67331,62 @@
         "pricing": {
           "input": 0.19,
           "output": 0.475
+        },
+        "limit": {
+          "context": 2000000,
+          "output": 2000000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "grok-4.20-0309-non-reasoning": {
+        "id": "grok-4.20-0309-non-reasoning",
+        "name": "grok-4.20-0309-non-reasoning",
+        "release_date": "1774424773",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 1.9,
+          "output": 5.7
+        },
+        "limit": {
+          "context": 2000000,
+          "output": 2000000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "grok-4.20-0309-reasoning": {
+        "id": "grok-4.20-0309-reasoning",
+        "name": "grok-4.20-0309-reasoning",
+        "release_date": "1774425026",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 1.9,
+          "output": 5.7
         },
         "limit": {
           "context": 2000000,
@@ -70885,6 +71144,41 @@
           ]
         }
       },
+      "google/gemini-3.1-flash-lite": {
+        "id": "google/gemini-3.1-flash-lite",
+        "name": "Google: Gemini 3.1 Flash Lite",
+        "release_date": "1778168828",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "reasoning": 1.5,
+          "cache_read": 0.025,
+          "cache_write": 0.08333333333333334
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "google/gemini-3.1-flash-lite-preview": {
         "id": "google/gemini-3.1-flash-lite-preview",
         "name": "Google: Gemini 3.1 Flash Lite Preview",
@@ -71502,9 +71796,9 @@
           ]
         }
       },
-      "inclusionai/ling-2.6-1t:free": {
-        "id": "inclusionai/ling-2.6-1t:free",
-        "name": "inclusionAI: Ling-2.6-1T (free)",
+      "inclusionai/ling-2.6-1t": {
+        "id": "inclusionai/ling-2.6-1t",
+        "name": "inclusionAI: Ling-2.6-1T",
         "release_date": "1776948238",
         "features": {
           "attachment": false,
@@ -71514,8 +71808,9 @@
           "temperature": true
         },
         "pricing": {
-          "input": 0,
-          "output": 0
+          "input": 0.3,
+          "output": 2.5,
+          "cache_read": 0.06
         },
         "limit": {
           "context": 262144,
@@ -73066,34 +73361,6 @@
           ]
         }
       },
-      "mistralai/mixtral-8x7b-instruct": {
-        "id": "mistralai/mixtral-8x7b-instruct",
-        "name": "Mistral: Mixtral 8x7B Instruct",
-        "release_date": "1702166400",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "tool_call": true,
-          "structured_output": true,
-          "temperature": true
-        },
-        "pricing": {
-          "input": 0.54,
-          "output": 0.54
-        },
-        "limit": {
-          "context": 32768,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
       "mistralai/pixtral-large-2411": {
         "id": "mistralai/pixtral-large-2411",
         "name": "Mistral: Pixtral Large 2411",
@@ -73539,34 +73806,6 @@
         },
         "limit": {
           "context": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "nvidia/llama-3.1-nemotron-70b-instruct": {
-        "id": "nvidia/llama-3.1-nemotron-70b-instruct",
-        "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
-        "release_date": "1728950400",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "tool_call": true,
-          "structured_output": true,
-          "temperature": true
-        },
-        "pricing": {
-          "input": 1.2,
-          "output": 1.2
-        },
-        "limit": {
-          "context": 131072,
-          "output": 16384
         },
         "modalities": {
           "input": [
@@ -76661,13 +76900,13 @@
           "temperature": true
         },
         "pricing": {
-          "input": 0.15,
+          "input": 0.14,
           "output": 1,
           "cache_read": 0.05
         },
         "limit": {
           "context": 262144,
-          "output": 262144
+          "output": 81920
         },
         "modalities": {
           "input": [
@@ -76723,11 +76962,12 @@
           "temperature": true
         },
         "pricing": {
-          "input": 0.1,
+          "input": 0.04,
           "output": 0.15
         },
         "limit": {
-          "context": 262144
+          "context": 262144,
+          "output": 81920
         },
         "modalities": {
           "input": [
@@ -78969,7 +79209,7 @@
       "auto": {
         "id": "auto",
         "name": "Auto Route",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -78997,7 +79237,7 @@
       "claude-3-7-sonnet": {
         "id": "claude-3-7-sonnet",
         "name": "Claude 3.7 Sonnet",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -79010,7 +79250,7 @@
           "output": 15,
           "reasoning": 0,
           "cache_read": 0.3,
-          "cache_write": 0
+          "cache_write": 3.75
         },
         "limit": {
           "context": 200000
@@ -79027,7 +79267,7 @@
       "claude-3-7-sonnet-20250219": {
         "id": "claude-3-7-sonnet-20250219",
         "name": "Claude 3.7 Sonnet (2025-02-19)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -79040,7 +79280,7 @@
           "output": 15,
           "reasoning": 0,
           "cache_read": 0.3,
-          "cache_write": 0
+          "cache_write": 3.75
         },
         "limit": {
           "context": 200000
@@ -79057,7 +79297,7 @@
       "claude-3-opus": {
         "id": "claude-3-opus",
         "name": "Claude 3 Opus",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -79070,7 +79310,7 @@
           "output": 75,
           "reasoning": 0,
           "cache_read": 1.5,
-          "cache_write": 0
+          "cache_write": 18.75
         },
         "limit": {
           "context": 200000
@@ -79088,7 +79328,7 @@
       "claude-haiku-4-5": {
         "id": "claude-haiku-4-5",
         "name": "Claude Haiku 4.5",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -79101,7 +79341,7 @@
           "output": 5,
           "reasoning": 0,
           "cache_read": 0.1,
-          "cache_write": 0
+          "cache_write": 1.25
         },
         "limit": {
           "context": 200000
@@ -79118,7 +79358,7 @@
       "claude-haiku-4-5-20251001": {
         "id": "claude-haiku-4-5-20251001",
         "name": "Claude Haiku 4.5 (2025-10-01)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -79131,7 +79371,7 @@
           "output": 5,
           "reasoning": 0,
           "cache_read": 0.1,
-          "cache_write": 0
+          "cache_write": 1.25
         },
         "limit": {
           "context": 200000
@@ -79148,7 +79388,7 @@
       "claude-opus-4-1-20250805": {
         "id": "claude-opus-4-1-20250805",
         "name": "Claude Opus 4.1",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -79161,7 +79401,7 @@
           "output": 75,
           "reasoning": 0,
           "cache_read": 1.5,
-          "cache_write": 0
+          "cache_write": 18.75
         },
         "limit": {
           "context": 200000
@@ -79179,7 +79419,7 @@
       "claude-opus-4-20250514": {
         "id": "claude-opus-4-20250514",
         "name": "Claude Opus 4 (2025-05-14)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -79192,7 +79432,7 @@
           "output": 75,
           "reasoning": 0,
           "cache_read": 1.5,
-          "cache_write": 0
+          "cache_write": 18.75
         },
         "limit": {
           "context": 200000
@@ -79209,7 +79449,7 @@
       "claude-opus-4-5-20251101": {
         "id": "claude-opus-4-5-20251101",
         "name": "Claude Opus 4.5",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -79222,7 +79462,7 @@
           "output": 25,
           "reasoning": 0,
           "cache_read": 0.5,
-          "cache_write": 0
+          "cache_write": 6.25
         },
         "limit": {
           "context": 200000
@@ -79240,7 +79480,7 @@
       "claude-opus-4-6": {
         "id": "claude-opus-4-6",
         "name": "Claude Opus 4.6",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -79253,7 +79493,7 @@
           "output": 25,
           "reasoning": 0,
           "cache_read": 0.5,
-          "cache_write": 0
+          "cache_write": 6.25
         },
         "limit": {
           "context": 1000000
@@ -79271,7 +79511,7 @@
       "claude-opus-4-7": {
         "id": "claude-opus-4-7",
         "name": "Claude Opus 4.7",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -79284,7 +79524,7 @@
           "output": 25,
           "reasoning": 0,
           "cache_read": 0.5,
-          "cache_write": 0
+          "cache_write": 6.25
         },
         "limit": {
           "context": 1000000
@@ -79302,7 +79542,7 @@
       "claude-sonnet-4-20250514": {
         "id": "claude-sonnet-4-20250514",
         "name": "Claude Sonnet 4 (2025-05-14)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -79315,7 +79555,7 @@
           "output": 15,
           "reasoning": 0,
           "cache_read": 0.3,
-          "cache_write": 0
+          "cache_write": 3.75
         },
         "limit": {
           "context": 200000
@@ -79332,7 +79572,7 @@
       "claude-sonnet-4-5": {
         "id": "claude-sonnet-4-5",
         "name": "Claude Sonnet 4.5",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -79345,7 +79585,7 @@
           "output": 15,
           "reasoning": 0,
           "cache_read": 0.3,
-          "cache_write": 0
+          "cache_write": 3.75
         },
         "limit": {
           "context": 200000
@@ -79362,7 +79602,7 @@
       "claude-sonnet-4-5-20250929": {
         "id": "claude-sonnet-4-5-20250929",
         "name": "Claude Sonnet 4.5 (2025-09-29)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -79375,7 +79615,7 @@
           "output": 15,
           "reasoning": 0,
           "cache_read": 0.3,
-          "cache_write": 0
+          "cache_write": 3.75
         },
         "limit": {
           "context": 200000
@@ -79392,7 +79632,7 @@
       "claude-sonnet-4-6": {
         "id": "claude-sonnet-4-6",
         "name": "Claude Sonnet 4.6",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -79405,7 +79645,7 @@
           "output": 15,
           "reasoning": 0,
           "cache_read": 0.3,
-          "cache_write": 0
+          "cache_write": 3.75
         },
         "limit": {
           "context": 200000
@@ -79423,7 +79663,7 @@
       "codestral-2508": {
         "id": "codestral-2508",
         "name": "Codestral",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -79453,7 +79693,7 @@
       "cogview-4": {
         "id": "cogview-4",
         "name": "CogView-4",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -79484,7 +79724,7 @@
       "custom": {
         "id": "custom",
         "name": "Custom Model",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -79512,7 +79752,7 @@
       "deepseek-v3.1": {
         "id": "deepseek-v3.1",
         "name": "DeepSeek V3.1",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -79542,7 +79782,7 @@
       "deepseek-v3.2": {
         "id": "deepseek-v3.2",
         "name": "DeepSeek V3.2",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -79572,7 +79812,7 @@
       "deepseek-v4-flash": {
         "id": "deepseek-v4-flash",
         "name": "DeepSeek V4 Flash",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -79602,7 +79842,7 @@
       "deepseek-v4-pro": {
         "id": "deepseek-v4-pro",
         "name": "DeepSeek V4 Pro",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -79632,7 +79872,7 @@
       "devstral-2512": {
         "id": "devstral-2512",
         "name": "Devstral 2",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -79662,7 +79902,7 @@
       "devstral-small-2507": {
         "id": "devstral-small-2507",
         "name": "Devstral Small 1.1",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -79692,7 +79932,7 @@
       "gemini-2.0-flash": {
         "id": "gemini-2.0-flash",
         "name": "Gemini 2.0 Flash",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -79722,7 +79962,7 @@
       "gemini-2.0-flash-lite": {
         "id": "gemini-2.0-flash-lite",
         "name": "Gemini 2.0 Flash Lite",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -79752,7 +79992,7 @@
       "gemini-2.5-flash": {
         "id": "gemini-2.5-flash",
         "name": "Gemini 2.5 Flash",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -79783,7 +80023,7 @@
       "gemini-2.5-flash-image": {
         "id": "gemini-2.5-flash-image",
         "name": "Gemini 2.5 Flash Image",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -79815,7 +80055,7 @@
       "gemini-2.5-flash-lite": {
         "id": "gemini-2.5-flash-lite",
         "name": "Gemini 2.5 Flash Lite",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -79846,7 +80086,7 @@
       "gemini-2.5-flash-lite-preview-09-2025": {
         "id": "gemini-2.5-flash-lite-preview-09-2025",
         "name": "Gemini 2.5 Flash Lite Preview (09-2025)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -79877,7 +80117,7 @@
       "gemini-2.5-pro": {
         "id": "gemini-2.5-pro",
         "name": "Gemini 2.5 Pro",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -79908,7 +80148,7 @@
       "gemini-3.1-flash-image-preview": {
         "id": "gemini-3.1-flash-image-preview",
         "name": "Gemini 3.1 Flash Image (Preview)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -79937,13 +80177,44 @@
           ]
         }
       },
+      "gemini-3.1-flash-lite": {
+        "id": "gemini-3.1-flash-lite",
+        "name": "Gemini 3.1 Flash Lite",
+        "release_date": "1778200659",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "reasoning": 0,
+          "cache_read": 0.025,
+          "cache_write": 0.08333
+        },
+        "limit": {
+          "context": 1048576
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "gemini-3.1-flash-lite-preview": {
         "id": "gemini-3.1-flash-lite-preview",
         "name": "Gemini 3.1 Flash Lite (Preview)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
-          "reasoning": false,
+          "reasoning": true,
           "tool_call": true,
           "structured_output": true,
           "temperature": true
@@ -79971,7 +80242,7 @@
       "gemini-3.1-pro-preview": {
         "id": "gemini-3.1-pro-preview",
         "name": "Gemini 3.1 Pro (Preview)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -80002,7 +80273,7 @@
       "gemini-3-flash-preview": {
         "id": "gemini-3-flash-preview",
         "name": "Gemini 3 Flash (Preview)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -80033,7 +80304,7 @@
       "gemini-3-pro-image-preview": {
         "id": "gemini-3-pro-image-preview",
         "name": "Gemini 3 Pro Image (Preview)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -80065,7 +80336,7 @@
       "gemini-pro-latest": {
         "id": "gemini-pro-latest",
         "name": "Gemini Pro Latest",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -80096,7 +80367,7 @@
       "glm-4-32b-0414-128k": {
         "id": "glm-4-32b-0414-128k",
         "name": "GLM-4 32B (0414-128k)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -80126,7 +80397,7 @@
       "glm-4.5": {
         "id": "glm-4.5",
         "name": "GLM-4.5",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -80156,7 +80427,7 @@
       "glm-4.5-air": {
         "id": "glm-4.5-air",
         "name": "GLM-4.5 Air",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -80186,7 +80457,7 @@
       "glm-4.5-airx": {
         "id": "glm-4.5-airx",
         "name": "GLM-4.5 AirX",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -80216,7 +80487,7 @@
       "glm-4.5-flash": {
         "id": "glm-4.5-flash",
         "name": "GLM-4.5 Flash",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -80246,7 +80517,7 @@
       "glm-4.5-x": {
         "id": "glm-4.5-x",
         "name": "GLM-4.5 X",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -80276,7 +80547,7 @@
       "glm-4.5v": {
         "id": "glm-4.5v",
         "name": "GLM-4.5V",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -80307,7 +80578,7 @@
       "glm-4.6": {
         "id": "glm-4.6",
         "name": "GLM-4.6",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -80337,7 +80608,7 @@
       "glm-4.6v": {
         "id": "glm-4.6v",
         "name": "GLM-4.6V",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -80368,7 +80639,7 @@
       "glm-4.6v-flash": {
         "id": "glm-4.6v-flash",
         "name": "GLM-4.6V Flash",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -80399,7 +80670,7 @@
       "glm-4.6v-flashx": {
         "id": "glm-4.6v-flashx",
         "name": "GLM-4.6V FlashX",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -80430,7 +80701,7 @@
       "glm-4.7": {
         "id": "glm-4.7",
         "name": "GLM-4.7",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -80460,7 +80731,7 @@
       "glm-4.7-flash": {
         "id": "glm-4.7-flash",
         "name": "GLM-4.7 Flash",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -80490,7 +80761,7 @@
       "glm-4.7-flashx": {
         "id": "glm-4.7-flashx",
         "name": "GLM-4.7 FlashX",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -80520,7 +80791,7 @@
       "glm-5": {
         "id": "glm-5",
         "name": "GLM-5",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -80550,7 +80821,7 @@
       "glm-5.1": {
         "id": "glm-5.1",
         "name": "GLM-5.1",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -80580,7 +80851,7 @@
       "glm-image": {
         "id": "glm-image",
         "name": "GLM-Image",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -80611,7 +80882,7 @@
       "gpt-3.5-turbo": {
         "id": "gpt-3.5-turbo",
         "name": "GPT-3.5 Turbo",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -80641,7 +80912,7 @@
       "gpt-4": {
         "id": "gpt-4",
         "name": "GPT-4",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -80671,7 +80942,7 @@
       "gpt-4.1": {
         "id": "gpt-4.1",
         "name": "GPT-4.1",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -80702,7 +80973,7 @@
       "gpt-4.1-mini": {
         "id": "gpt-4.1-mini",
         "name": "GPT-4.1 Mini",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -80733,7 +81004,7 @@
       "gpt-4.1-nano": {
         "id": "gpt-4.1-nano",
         "name": "GPT-4.1 Nano",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -80764,7 +81035,7 @@
       "gpt-4-turbo": {
         "id": "gpt-4-turbo",
         "name": "GPT-4 Turbo",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -80795,7 +81066,7 @@
       "gpt-4o": {
         "id": "gpt-4o",
         "name": "GPT-4o",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -80826,7 +81097,7 @@
       "gpt-4o-mini": {
         "id": "gpt-4o-mini",
         "name": "GPT-4o Mini",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -80856,7 +81127,7 @@
       "gpt-4o-mini-search-preview": {
         "id": "gpt-4o-mini-search-preview",
         "name": "GPT-4o Mini Search Preview",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -80887,7 +81158,7 @@
       "gpt-4o-search-preview": {
         "id": "gpt-4o-search-preview",
         "name": "GPT-4o Search Preview",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -80918,7 +81189,7 @@
       "gpt-5": {
         "id": "gpt-5",
         "name": "GPT-5",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -80949,7 +81220,7 @@
       "gpt-5.1": {
         "id": "gpt-5.1",
         "name": "GPT-5.1",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -80980,7 +81251,7 @@
       "gpt-5.1-codex": {
         "id": "gpt-5.1-codex",
         "name": "GPT-5.1 Codex",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81011,7 +81282,7 @@
       "gpt-5.1-codex-mini": {
         "id": "gpt-5.1-codex-mini",
         "name": "GPT-5.1 Codex mini",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81042,7 +81313,7 @@
       "gpt-5.2": {
         "id": "gpt-5.2",
         "name": "GPT-5.2",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81073,7 +81344,7 @@
       "gpt-5.2-chat-latest": {
         "id": "gpt-5.2-chat-latest",
         "name": "GPT-5.2 Chat",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81104,7 +81375,7 @@
       "gpt-5.2-codex": {
         "id": "gpt-5.2-codex",
         "name": "GPT-5.2 Codex",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81135,7 +81406,7 @@
       "gpt-5.2-pro": {
         "id": "gpt-5.2-pro",
         "name": "GPT-5.2 Pro",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81166,7 +81437,7 @@
       "gpt-5.3-chat-latest": {
         "id": "gpt-5.3-chat-latest",
         "name": "GPT-5.3 Chat",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81197,7 +81468,7 @@
       "gpt-5.3-codex": {
         "id": "gpt-5.3-codex",
         "name": "GPT-5.3 Codex",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81228,7 +81499,7 @@
       "gpt-5.4": {
         "id": "gpt-5.4",
         "name": "GPT-5.4",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81259,7 +81530,7 @@
       "gpt-5.4-mini": {
         "id": "gpt-5.4-mini",
         "name": "GPT-5.4 Mini",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81290,7 +81561,7 @@
       "gpt-5.4-nano": {
         "id": "gpt-5.4-nano",
         "name": "GPT-5.4 Nano",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81321,7 +81592,7 @@
       "gpt-5.4-pro": {
         "id": "gpt-5.4-pro",
         "name": "GPT-5.4 Pro",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81352,7 +81623,7 @@
       "gpt-5.5": {
         "id": "gpt-5.5",
         "name": "GPT-5.5",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81383,7 +81654,7 @@
       "gpt-5.5-pro": {
         "id": "gpt-5.5-pro",
         "name": "GPT-5.5 Pro",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81414,7 +81685,7 @@
       "gpt-5-chat-latest": {
         "id": "gpt-5-chat-latest",
         "name": "GPT-5 Chat Latest",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -81445,7 +81716,7 @@
       "gpt-5-mini": {
         "id": "gpt-5-mini",
         "name": "GPT-5 Mini",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81476,7 +81747,7 @@
       "gpt-5-nano": {
         "id": "gpt-5-nano",
         "name": "GPT-5 Nano",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -81506,7 +81777,7 @@
       "gpt-5-pro": {
         "id": "gpt-5-pro",
         "name": "GPT-5 Pro",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81537,7 +81808,7 @@
       "gpt-image-2": {
         "id": "gpt-image-2",
         "name": "GPT Image 2",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -81546,10 +81817,10 @@
           "temperature": true
         },
         "pricing": {
-          "input": 8,
-          "output": 15,
+          "input": 5,
+          "output": 0,
           "reasoning": 0,
-          "cache_read": 2,
+          "cache_read": 1.25,
           "cache_write": 0
         },
         "limit": {
@@ -81568,7 +81839,7 @@
       "gpt-oss-120b": {
         "id": "gpt-oss-120b",
         "name": "GPT OSS 120B",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -81598,7 +81869,7 @@
       "gpt-oss-20b": {
         "id": "gpt-oss-20b",
         "name": "GPT OSS 20B",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -81628,7 +81899,7 @@
       "grok-3": {
         "id": "grok-3",
         "name": "Grok-3",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -81658,7 +81929,7 @@
       "grok-4": {
         "id": "grok-4",
         "name": "Grok 4",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -81689,7 +81960,7 @@
       "grok-4-0709": {
         "id": "grok-4-0709",
         "name": "Grok 4 (0709)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -81719,7 +81990,7 @@
       "grok-4-1-fast": {
         "id": "grok-4-1-fast",
         "name": "Grok 4.1 Fast",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81750,7 +82021,7 @@
       "grok-4-1-fast-non-reasoning": {
         "id": "grok-4-1-fast-non-reasoning",
         "name": "Grok 4.1 Fast Non-Reasoning",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -81781,7 +82052,7 @@
       "grok-4-1-fast-reasoning": {
         "id": "grok-4-1-fast-reasoning",
         "name": "Grok 4.1 Fast Reasoning",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81812,7 +82083,7 @@
       "grok-4-20-beta-0309-non-reasoning": {
         "id": "grok-4-20-beta-0309-non-reasoning",
         "name": "Grok 4.20 Beta Non-Reasoning (0309)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -81843,7 +82114,7 @@
       "grok-4-20-beta-0309-reasoning": {
         "id": "grok-4-20-beta-0309-reasoning",
         "name": "Grok 4.20 Beta Reasoning (0309)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81874,7 +82145,7 @@
       "grok-4-3": {
         "id": "grok-4-3",
         "name": "Grok 4.3",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81905,7 +82176,7 @@
       "grok-4-fast": {
         "id": "grok-4-fast",
         "name": "Grok 4 Fast",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81936,7 +82207,7 @@
       "grok-4-fast-non-reasoning": {
         "id": "grok-4-fast-non-reasoning",
         "name": "Grok 4 Fast Non-Reasoning",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -81967,7 +82238,7 @@
       "grok-4-fast-reasoning": {
         "id": "grok-4-fast-reasoning",
         "name": "Grok 4 Fast Reasoning",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -81998,7 +82269,7 @@
       "grok-code-fast-1": {
         "id": "grok-code-fast-1",
         "name": "Grok Code Fast 1",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82028,7 +82299,7 @@
       "grok-imagine-image": {
         "id": "grok-imagine-image",
         "name": "Grok Imagine Image",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -82059,7 +82330,7 @@
       "grok-imagine-image-pro": {
         "id": "grok-imagine-image-pro",
         "name": "Grok Imagine Image Pro",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -82090,7 +82361,7 @@
       "hermes-2-pro-llama-3-8b": {
         "id": "hermes-2-pro-llama-3-8b",
         "name": "Hermes 2 Pro Llama 3 8B",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82120,7 +82391,7 @@
       "kimi-k2": {
         "id": "kimi-k2",
         "name": "Kimi K2",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82150,7 +82421,7 @@
       "kimi-k2.5": {
         "id": "kimi-k2.5",
         "name": "Kimi K2.5",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -82181,7 +82452,7 @@
       "kimi-k2.6": {
         "id": "kimi-k2.6",
         "name": "Kimi K2.6",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -82212,7 +82483,7 @@
       "kimi-k2-thinking": {
         "id": "kimi-k2-thinking",
         "name": "Kimi K2 Thinking",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -82242,7 +82513,7 @@
       "kimi-k2-thinking-turbo": {
         "id": "kimi-k2-thinking-turbo",
         "name": "Kimi K2 Thinking Turbo",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -82272,7 +82543,7 @@
       "llama-3.1-70b-instruct": {
         "id": "llama-3.1-70b-instruct",
         "name": "Llama 3.1 70B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82302,7 +82573,7 @@
       "llama-3.1-nemotron-ultra-253b": {
         "id": "llama-3.1-nemotron-ultra-253b",
         "name": "Llama 3.1 Nemotron Ultra 253B",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82332,7 +82603,7 @@
       "llama-3.2-11b-instruct": {
         "id": "llama-3.2-11b-instruct",
         "name": "Llama 3.2 11B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82362,7 +82633,7 @@
       "llama-3.2-3b-instruct": {
         "id": "llama-3.2-3b-instruct",
         "name": "Llama 3.2 3B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82392,7 +82663,7 @@
       "llama-3.3-70b-instruct": {
         "id": "llama-3.3-70b-instruct",
         "name": "Llama 3.3 70B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82422,7 +82693,7 @@
       "llama-3-70b-instruct": {
         "id": "llama-3-70b-instruct",
         "name": "Llama 3 70B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82452,7 +82723,7 @@
       "llama-3-8b-instruct": {
         "id": "llama-3-8b-instruct",
         "name": "Llama 3 8B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82482,7 +82753,7 @@
       "llama-4-maverick-17b-instruct": {
         "id": "llama-4-maverick-17b-instruct",
         "name": "Llama 4 Maverick 17B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -82513,7 +82784,7 @@
       "llama-4-scout-17b-instruct": {
         "id": "llama-4-scout-17b-instruct",
         "name": "Llama 4 Scout 17B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -82541,10 +82812,162 @@
           ]
         }
       },
+      "mimo-v2.5": {
+        "id": "mimo-v2.5",
+        "name": "MiMo V2.5",
+        "release_date": "1778200659",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 2,
+          "reasoning": 0,
+          "cache_read": 0.08,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 1000000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "mimo-v2.5-pro": {
+        "id": "mimo-v2.5-pro",
+        "name": "MiMo V2.5 Pro",
+        "release_date": "1778200659",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 3,
+          "reasoning": 0,
+          "cache_read": 0.2,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 1000000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "mimo-v2-flash": {
+        "id": "mimo-v2-flash",
+        "name": "MiMo V2 Flash",
+        "release_date": "1778200659",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3,
+          "reasoning": 0,
+          "cache_read": 0.01,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 256000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "mimo-v2-omni": {
+        "id": "mimo-v2-omni",
+        "name": "MiMo V2 Omni",
+        "release_date": "1778200659",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 2,
+          "reasoning": 0,
+          "cache_read": 0.08,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 256000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "mimo-v2-pro": {
+        "id": "mimo-v2-pro",
+        "name": "MiMo V2 Pro",
+        "release_date": "1778200659",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 3,
+          "reasoning": 0,
+          "cache_read": 0.2,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 1000000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "minimax-m2": {
         "id": "minimax-m2",
         "name": "MiniMax M2",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -82574,7 +82997,7 @@
       "minimax-m2.1": {
         "id": "minimax-m2.1",
         "name": "MiniMax M2.1",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -82604,7 +83027,7 @@
       "minimax-m2.1-lightning": {
         "id": "minimax-m2.1-lightning",
         "name": "MiniMax M2.1 Lightning",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -82634,7 +83057,7 @@
       "minimax-m2.5": {
         "id": "minimax-m2.5",
         "name": "MiniMax M2.5",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -82664,7 +83087,7 @@
       "minimax-m2.5-highspeed": {
         "id": "minimax-m2.5-highspeed",
         "name": "MiniMax M2.5 Highspeed",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -82694,7 +83117,7 @@
       "minimax-m2.7": {
         "id": "minimax-m2.7",
         "name": "MiniMax M2.7",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -82724,7 +83147,7 @@
       "minimax-m2.7-highspeed": {
         "id": "minimax-m2.7-highspeed",
         "name": "MiniMax M2.7 Highspeed",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -82754,7 +83177,7 @@
       "minimax-text-01": {
         "id": "minimax-text-01",
         "name": "MiniMax Text 01",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -82784,7 +83207,7 @@
       "ministral-14b-2512": {
         "id": "ministral-14b-2512",
         "name": "Ministral 14B",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -82815,7 +83238,7 @@
       "ministral-3b-2512": {
         "id": "ministral-3b-2512",
         "name": "Ministral 3B",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -82846,7 +83269,7 @@
       "ministral-8b-2512": {
         "id": "ministral-8b-2512",
         "name": "Ministral 8B",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -82877,7 +83300,7 @@
       "mistral-large-2512": {
         "id": "mistral-large-2512",
         "name": "Mistral Large 3",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -82908,7 +83331,7 @@
       "mistral-large-latest": {
         "id": "mistral-large-latest",
         "name": "Mistral Large Latest",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -82938,7 +83361,7 @@
       "mistral-small-2506": {
         "id": "mistral-small-2506",
         "name": "Mistral Small 3.2",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -82969,7 +83392,7 @@
       "o1": {
         "id": "o1",
         "name": "o1",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -83000,7 +83423,7 @@
       "o3": {
         "id": "o3",
         "name": "o3",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83031,7 +83454,7 @@
       "o3-mini": {
         "id": "o3-mini",
         "name": "o3 Mini",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83061,7 +83484,7 @@
       "o4-mini": {
         "id": "o4-mini",
         "name": "o4 Mini",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -83092,7 +83515,7 @@
       "pixtral-large-latest": {
         "id": "pixtral-large-latest",
         "name": "Pixtral Large Latest",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83123,7 +83546,7 @@
       "qwen-coder-plus": {
         "id": "qwen-coder-plus",
         "name": "Qwen Coder Plus",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83153,7 +83576,7 @@
       "qwen-flash": {
         "id": "qwen-flash",
         "name": "Qwen Flash",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83183,7 +83606,7 @@
       "qwen-image": {
         "id": "qwen-image",
         "name": "Qwen Image",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83214,7 +83637,7 @@
       "qwen-image-edit-max": {
         "id": "qwen-image-edit-max",
         "name": "Qwen Image Edit Max",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83246,7 +83669,7 @@
       "qwen-image-edit-plus": {
         "id": "qwen-image-edit-plus",
         "name": "Qwen Image Edit Plus",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83278,7 +83701,7 @@
       "qwen-image-max": {
         "id": "qwen-image-max",
         "name": "Qwen Image Max",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83309,7 +83732,7 @@
       "qwen-image-max-2025-12-30": {
         "id": "qwen-image-max-2025-12-30",
         "name": "Qwen Image Max 2025-12-30",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83340,7 +83763,7 @@
       "qwen-image-plus": {
         "id": "qwen-image-plus",
         "name": "Qwen Image Plus",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83371,7 +83794,7 @@
       "qwen-max": {
         "id": "qwen-max",
         "name": "Qwen Max",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83402,7 +83825,7 @@
       "qwen-max-latest": {
         "id": "qwen-max-latest",
         "name": "Qwen Max Latest",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83433,7 +83856,7 @@
       "qwen-omni-turbo": {
         "id": "qwen-omni-turbo",
         "name": "Qwen Omni Turbo",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83464,7 +83887,7 @@
       "qwen-plus": {
         "id": "qwen-plus",
         "name": "Qwen Plus",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83494,7 +83917,7 @@
       "qwen-plus-latest": {
         "id": "qwen-plus-latest",
         "name": "Qwen Plus Latest",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83524,7 +83947,7 @@
       "qwen-turbo": {
         "id": "qwen-turbo",
         "name": "Qwen Turbo",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83554,7 +83977,7 @@
       "qwen-vl-max": {
         "id": "qwen-vl-max",
         "name": "Qwen VL Max",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83585,7 +84008,7 @@
       "qwen-vl-plus": {
         "id": "qwen-vl-plus",
         "name": "Qwen VL Plus",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83616,7 +84039,7 @@
       "qwen2-5-vl-32b-instruct": {
         "id": "qwen2-5-vl-32b-instruct",
         "name": "Qwen2.5 VL 32B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83647,7 +84070,7 @@
       "qwen2-5-vl-72b-instruct": {
         "id": "qwen2-5-vl-72b-instruct",
         "name": "Qwen2.5 VL 72B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -83678,7 +84101,7 @@
       "qwen3-235b-a22b-fp8": {
         "id": "qwen3-235b-a22b-fp8",
         "name": "Qwen3 235B A22B FP8",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83708,7 +84131,7 @@
       "qwen3-235b-a22b-instruct-2507": {
         "id": "qwen3-235b-a22b-instruct-2507",
         "name": "Qwen3 235B A22B Instruct 2507",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83738,7 +84161,7 @@
       "qwen3-235b-a22b-thinking-2507": {
         "id": "qwen3-235b-a22b-thinking-2507",
         "name": "Qwen3 235B A22B Thinking 2507",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -83768,7 +84191,7 @@
       "qwen3-30b-a3b-fp8": {
         "id": "qwen3-30b-a3b-fp8",
         "name": "Qwen3 30B A3B FP8",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83798,7 +84221,7 @@
       "qwen3-30b-a3b-instruct-2507": {
         "id": "qwen3-30b-a3b-instruct-2507",
         "name": "Qwen3 30B A3B Instruct 2507",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83828,7 +84251,7 @@
       "qwen3-32b": {
         "id": "qwen3-32b",
         "name": "Qwen3 32B",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83858,7 +84281,7 @@
       "qwen3-32b-fp8": {
         "id": "qwen3-32b-fp8",
         "name": "Qwen3 32B FP8",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83888,7 +84311,7 @@
       "qwen3-4b-fp8": {
         "id": "qwen3-4b-fp8",
         "name": "Qwen3 4B FP8",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -83918,7 +84341,7 @@
       "qwen3.6-35b-a3b": {
         "id": "qwen3.6-35b-a3b",
         "name": "Qwen3.6 35B A3B",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -83949,7 +84372,7 @@
       "qwen3.6-max-preview": {
         "id": "qwen3.6-max-preview",
         "name": "Qwen3.6 Max Preview",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -83979,7 +84402,7 @@
       "qwen3.6-plus": {
         "id": "qwen3.6-plus",
         "name": "Qwen3.6 Plus",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -84010,7 +84433,7 @@
       "qwen3-coder-30b-a3b-instruct": {
         "id": "qwen3-coder-30b-a3b-instruct",
         "name": "Qwen3 Coder 30B A3B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84040,7 +84463,7 @@
       "qwen3-coder-480b-a35b-instruct": {
         "id": "qwen3-coder-480b-a35b-instruct",
         "name": "Qwen3 Coder 480B A35B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84070,7 +84493,7 @@
       "qwen3-coder-flash": {
         "id": "qwen3-coder-flash",
         "name": "Qwen3 Coder Flash",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84100,7 +84523,7 @@
       "qwen3-coder-next": {
         "id": "qwen3-coder-next",
         "name": "Qwen3 Coder Next",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84130,7 +84553,7 @@
       "qwen3-coder-plus": {
         "id": "qwen3-coder-plus",
         "name": "Qwen3 Coder Plus",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84160,7 +84583,7 @@
       "qwen3-max": {
         "id": "qwen3-max",
         "name": "Qwen3 Max",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -84191,7 +84614,7 @@
       "qwen3-max-2026-01-23": {
         "id": "qwen3-max-2026-01-23",
         "name": "Qwen3 Max 2026-01-23",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -84222,7 +84645,7 @@
       "qwen3-next-80b-a3b-instruct": {
         "id": "qwen3-next-80b-a3b-instruct",
         "name": "Qwen3 Next 80B A3B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84252,7 +84675,7 @@
       "qwen3-next-80b-a3b-thinking": {
         "id": "qwen3-next-80b-a3b-thinking",
         "name": "Qwen3 Next 80B A3B Thinking",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -84282,7 +84705,7 @@
       "qwen3-vl-235b-a22b-instruct": {
         "id": "qwen3-vl-235b-a22b-instruct",
         "name": "Qwen3 VL 235B A22B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -84313,7 +84736,7 @@
       "qwen3-vl-235b-a22b-thinking": {
         "id": "qwen3-vl-235b-a22b-thinking",
         "name": "Qwen3 VL 235B A22B Thinking",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -84344,7 +84767,7 @@
       "qwen3-vl-30b-a3b-instruct": {
         "id": "qwen3-vl-30b-a3b-instruct",
         "name": "Qwen3 VL 30B A3B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -84375,7 +84798,7 @@
       "qwen3-vl-30b-a3b-thinking": {
         "id": "qwen3-vl-30b-a3b-thinking",
         "name": "Qwen3 VL 30B A3B Thinking",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -84406,7 +84829,7 @@
       "qwen3-vl-8b-instruct": {
         "id": "qwen3-vl-8b-instruct",
         "name": "Qwen3 VL 8B Instruct",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -84437,7 +84860,7 @@
       "qwen3-vl-flash": {
         "id": "qwen3-vl-flash",
         "name": "Qwen3 VL Flash",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -84468,7 +84891,7 @@
       "qwen3-vl-plus": {
         "id": "qwen3-vl-plus",
         "name": "Qwen3 VL Plus",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": false,
@@ -84499,7 +84922,7 @@
       "qwen35-397b-a17b": {
         "id": "qwen35-397b-a17b",
         "name": "Qwen3.5 397B A17B",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -84530,7 +84953,7 @@
       "qwq-plus": {
         "id": "qwq-plus",
         "name": "QwQ Plus",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -84560,7 +84983,7 @@
       "seed-1-6-250615": {
         "id": "seed-1-6-250615",
         "name": "Seed 1.6 (250615)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -84591,7 +85014,7 @@
       "seed-1-6-250915": {
         "id": "seed-1-6-250915",
         "name": "Seed 1.6 (250915)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -84622,7 +85045,7 @@
       "seed-1-6-flash-250715": {
         "id": "seed-1-6-flash-250715",
         "name": "Seed 1.6 Flash (250715)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -84653,7 +85076,7 @@
       "seed-1-8-251228": {
         "id": "seed-1-8-251228",
         "name": "Seed 1.8 (251228)",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -84684,7 +85107,7 @@
       "seedream-4-0": {
         "id": "seedream-4-0",
         "name": "Seedream 4.0",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84715,7 +85138,7 @@
       "seedream-4-5": {
         "id": "seedream-4-5",
         "name": "Seedream 4.5",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84746,7 +85169,7 @@
       "sonar": {
         "id": "sonar",
         "name": "Sonar",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84776,7 +85199,7 @@
       "sonar-pro": {
         "id": "sonar-pro",
         "name": "Sonar Pro",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84806,7 +85229,7 @@
       "sonar-reasoning-pro": {
         "id": "sonar-reasoning-pro",
         "name": "Sonar Reasoning Pro",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84836,7 +85259,7 @@
       "veo-3.1-fast-generate-preview": {
         "id": "veo-3.1-fast-generate-preview",
         "name": "Veo 3.1 Fast",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -84866,7 +85289,7 @@
       "veo-3.1-generate-preview": {
         "id": "veo-3.1-generate-preview",
         "name": "Veo 3.1",
-        "release_date": "1778114219",
+        "release_date": "1778200659",
         "features": {
           "attachment": false,
           "reasoning": false,
@@ -86524,8 +86947,8 @@
           "attachment": true
         },
         "pricing": {
-          "input": 0.0512418725,
-          "output": 0.20496749
+          "input": 0.051385593,
+          "output": 0.205542372
         },
         "limit": {
           "context": 32000
@@ -86854,8 +87277,8 @@
           "attachment": true
         },
         "pricing": {
-          "input": 0.40993498,
-          "output": 0.40993498
+          "input": 0.411084744,
+          "output": 0.411084744
         },
         "limit": {
           "context": 8000
@@ -86886,8 +87309,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 2.3424856
+          "input": 0.58726392,
+          "output": 2.34905568
         },
         "limit": {
           "output": 64000
@@ -86958,8 +87381,8 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.184470741,
-          "output": 0.184470741
+          "input": 0.1849881348,
+          "output": 0.1849881348
         },
         "limit": {
           "context": 32000
@@ -87007,8 +87430,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.2928107,
-          "output": 1.1712428
+          "input": 0.29363196,
+          "output": 1.17452784
         },
         "limit": {
           "context": 32000
@@ -87032,8 +87455,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 1.7568642
+          "input": 0.58726392,
+          "output": 1.76179176
         },
         "limit": {
           "context": 128000,
@@ -87058,8 +87481,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 1.7568642
+          "input": 0.58726392,
+          "output": 1.76179176
         },
         "limit": {
           "context": 128000
@@ -87083,8 +87506,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.2928107,
-          "output": 0.43921605
+          "input": 0.29363196,
+          "output": 0.44044794
         },
         "limit": {
           "context": 128000,
@@ -87108,8 +87531,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.2928107,
-          "output": 0.43921605
+          "input": 0.29363196,
+          "output": 0.44044794
         },
         "limit": {
           "context": 128000,
@@ -87134,8 +87557,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.14640535,
-          "output": 0.2928107
+          "input": 0.14681598,
+          "output": 0.29363196
         },
         "modalities": {
           "input": [
@@ -87156,8 +87579,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 1.7568642,
-          "output": 3.5137284
+          "input": 1.76179176,
+          "output": 3.52358352
         },
         "modalities": {
           "input": [
@@ -87178,8 +87601,8 @@
           "reasoning": true
         },
         "pricing": {
-          "input": 0.2928107,
-          "output": 1.1712428
+          "input": 0.29363196,
+          "output": 1.17452784
         },
         "limit": {
           "context": 32000
@@ -87237,8 +87660,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.11712428,
-          "output": 0.46849712
+          "input": 0.117452784,
+          "output": 0.469811136
         },
         "limit": {
           "context": 32000
@@ -87261,8 +87684,8 @@
           "attachment": true
         },
         "pricing": {
-          "input": 0.43921605,
-          "output": 1.31764815
+          "input": 0.44044794,
+          "output": 1.32134382
         },
         "limit": {
           "context": 32000
@@ -87287,8 +87710,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 2.3424856
+          "input": 0.58726392,
+          "output": 2.34905568
         },
         "limit": {
           "context": 128000,
@@ -87314,8 +87737,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.14640535,
-          "output": 0.5856214
+          "input": 0.14681598,
+          "output": 0.58726392
         },
         "limit": {
           "context": 32000
@@ -87344,8 +87767,8 @@
           "reasoning": true
         },
         "pricing": {
-          "input": 0.2928107,
-          "output": 1.1712428
+          "input": 0.29363196,
+          "output": 1.17452784
         },
         "limit": {
           "context": 32000
@@ -87580,8 +88003,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.512418725,
-          "output": 0.512418725
+          "input": 0.51385593,
+          "output": 0.51385593
         },
         "limit": {
           "context": 128000
@@ -87605,8 +88028,8 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.2767061115,
-          "output": 0.2767061115
+          "input": 0.2774822022,
+          "output": 0.2774822022
         },
         "limit": {
           "context": 32000
@@ -87630,8 +88053,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.512418725,
-          "output": 2.0496749
+          "input": 0.51385593,
+          "output": 2.05542372
         },
         "limit": {
           "context": 128000
@@ -87655,8 +88078,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.14640535,
-          "output": 0.8784321
+          "input": 0.14681598,
+          "output": 0.88089588
         },
         "limit": {
           "context": 128000
@@ -87679,8 +88102,8 @@
           "attachment": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 1.7568642
+          "input": 0.58726392,
+          "output": 1.76179176
         },
         "limit": {
           "output": 64000
@@ -87705,8 +88128,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.512418725,
-          "output": 2.0496749
+          "input": 0.51385593,
+          "output": 2.05542372
         },
         "limit": {
           "context": 200000
@@ -87729,8 +88152,8 @@
           "attachment": true
         },
         "pricing": {
-          "input": 0.2928107,
-          "output": 0.8784321
+          "input": 0.29363196,
+          "output": 0.88089588
         },
         "limit": {
           "context": 128000
@@ -87780,8 +88203,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.512418725,
-          "output": 2.0496749
+          "input": 0.51385593,
+          "output": 2.05542372
         },
         "limit": {
           "context": 200000
@@ -87879,8 +88302,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 2.6352963
+          "input": 0.58726392,
+          "output": 2.64268764
         },
         "limit": {
           "context": 200000
@@ -87904,8 +88327,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 1.1712428,
-          "output": 4.0993498
+          "input": 1.17452784,
+          "output": 4.11084744
         },
         "limit": {
           "context": 200000
@@ -87929,8 +88352,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 1.02483745,
-          "output": 3.8065391
+          "input": 1.02771186,
+          "output": 3.81721548
         },
         "limit": {
           "context": 200000
@@ -87954,8 +88377,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 1.02483745,
-          "output": 3.8065391
+          "input": 1.02771186,
+          "output": 3.81721548
         },
         "limit": {
           "context": 128000
@@ -88049,8 +88472,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.11712428,
-          "output": 0.46849712
+          "input": 0.117452784,
+          "output": 0.469811136
         },
         "limit": {
           "context": 128000,
@@ -88069,6 +88492,23 @@
         "id": "gpt-oss-20b",
         "name": "gpt-oss-20b",
         "release_date": "1754912641"
+      },
+      "HappyHorse-1.0": {
+        "id": "HappyHorse-1.0",
+        "name": "HappyHorse-1.0",
+        "release_date": "1778155468",
+        "last_updated": "1778156045",
+        "features": {
+          "attachment": false
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        }
       },
       "HealthGPT-L14": {
         "id": "HealthGPT-L14",
@@ -88183,7 +88623,7 @@
         "release_date": "1756898358",
         "last_updated": "1767871756",
         "pricing": {
-          "input": 0.043921605
+          "input": 0.044044794
         },
         "limit": {
           "context": 32000
@@ -88264,7 +88704,7 @@
         "release_date": "1767871848",
         "last_updated": "1767928783",
         "pricing": {
-          "input": 0.043921605
+          "input": 0.044044794
         },
         "limit": {
           "context": 32000
@@ -88579,8 +89019,8 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.14640535,
-          "output": 0.5856214
+          "input": 0.14681598,
+          "output": 0.58726392
         },
         "limit": {
           "context": 32000
@@ -88604,8 +89044,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 3.07451235
+          "input": 0.58726392,
+          "output": 3.08313558
         },
         "limit": {
           "context": 256000
@@ -88630,8 +89070,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.951634775,
-          "output": 3.95294445
+          "input": 0.95430387,
+          "output": 3.96403146
         },
         "modalities": {
           "input": [
@@ -88653,8 +89093,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 2.3424856
+          "input": 0.58726392,
+          "output": 2.34905568
         },
         "limit": {
           "context": 256000
@@ -88678,8 +89118,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 2.3424856
+          "input": 0.58726392,
+          "output": 2.34905568
         },
         "limit": {
           "context": 256000
@@ -88717,7 +89157,7 @@
         "release_date": "1770107461",
         "last_updated": "1770204857",
         "pricing": {
-          "input": 0.2928107
+          "input": 0.29363196
         },
         "limit": {
           "context": 32000
@@ -88797,8 +89237,8 @@
           "attachment": true
         },
         "pricing": {
-          "input": 0.20496749,
-          "output": 0.20496749
+          "input": 0.205542372,
+          "output": 0.205542372
         },
         "limit": {
           "context": 32000
@@ -88887,8 +89327,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.307451235,
-          "output": 1.22980494
+          "input": 0.308313558,
+          "output": 1.233254232
         },
         "limit": {
           "context": 200000
@@ -88912,8 +89352,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.307451235,
-          "output": 1.22980494
+          "input": 0.308313558,
+          "output": 1.233254232
         },
         "limit": {
           "context": 200000
@@ -88937,8 +89377,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.307451235,
-          "output": 1.22980494
+          "input": 0.308313558,
+          "output": 1.233254232
         },
         "limit": {
           "context": 200000
@@ -89231,8 +89671,8 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.184470741,
-          "output": 0.184470741
+          "input": 0.1849881348,
+          "output": 0.1849881348
         },
         "limit": {
           "context": 32000
@@ -89256,8 +89696,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 0.5856214
+          "input": 0.58726392,
+          "output": 0.58726392
         },
         "limit": {
           "context": 32000
@@ -89357,8 +89797,8 @@
           "attachment": true
         },
         "pricing": {
-          "input": 0.02562093625,
-          "output": 0.102483745
+          "input": 0.0256927965,
+          "output": 0.102771186
         },
         "modalities": {
           "input": [
@@ -89504,8 +89944,8 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.73202675,
-          "output": 0.73202675
+          "input": 0.7340799,
+          "output": 0.7340799
         },
         "limit": {
           "context": 32000
@@ -89529,8 +89969,8 @@
           "reasoning": true
         },
         "pricing": {
-          "input": 0.366013375,
-          "output": 1.4640535
+          "input": 0.36703995,
+          "output": 1.4681598
         },
         "limit": {
           "context": 128000
@@ -89554,8 +89994,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.366013375,
-          "output": 1.4640535
+          "input": 0.36703995,
+          "output": 1.4681598
         },
         "limit": {
           "context": 256000
@@ -89583,8 +90023,8 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.102483745,
-          "output": 0.40993498
+          "input": 0.102771186,
+          "output": 0.411084744
         },
         "limit": {
           "context": 32000
@@ -89607,8 +90047,8 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.14640535,
-          "output": 0.5856214
+          "input": 0.14681598,
+          "output": 0.58726392
         },
         "limit": {
           "context": 32000
@@ -89657,8 +90097,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.20496749,
-          "output": 1.4640535
+          "input": 0.205542372,
+          "output": 1.4681598
         },
         "limit": {
           "context": 256000
@@ -89683,8 +90123,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.08784321,
-          "output": 0.70274568
+          "input": 0.088089588,
+          "output": 0.704716704
         },
         "limit": {
           "output": 64000
@@ -89709,8 +90149,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.08784321,
-          "output": 0.70274568
+          "input": 0.088089588,
+          "output": 0.704716704
         },
         "limit": {
           "context": 128000
@@ -89734,8 +90174,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.05856214,
-          "output": 0.46849712
+          "input": 0.058726392,
+          "output": 0.469811136
         },
         "limit": {
           "output": 64000
@@ -89760,8 +90200,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.02928107,
-          "output": 0.23424856
+          "input": 0.029363196,
+          "output": 0.234905568
         },
         "limit": {
           "output": 64000
@@ -89786,8 +90226,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.08784321,
-          "output": 0.70274568
+          "input": 0.088089588,
+          "output": 0.704716704
         },
         "limit": {
           "output": 64000
@@ -89812,8 +90252,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.05856214,
-          "output": 0.46849712
+          "input": 0.058726392,
+          "output": 0.469811136
         },
         "limit": {
           "output": 64000
@@ -89838,8 +90278,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 2.19608025,
-          "output": 13.1764815
+          "input": 2.2022397,
+          "output": 13.2134382
         },
         "limit": {
           "output": 64000
@@ -89863,8 +90303,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 1.1712428,
-          "output": 7.0274568
+          "input": 1.17452784,
+          "output": 7.04716704
         },
         "limit": {
           "output": 64000
@@ -89930,8 +90370,8 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.14640535,
-          "output": 0.5856214
+          "input": 0.14681598,
+          "output": 0.58726392
         },
         "limit": {
           "context": 32000
@@ -89955,8 +90395,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 2.3424856
+          "input": 0.58726392,
+          "output": 2.34905568
         },
         "limit": {
           "context": 256000,
@@ -89980,8 +90420,8 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.5856214,
-          "output": 0.5856214
+          "input": 0.58726392,
+          "output": 0.58726392
         },
         "limit": {
           "context": 32000
@@ -90064,8 +90504,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.14640535,
-          "output": 0.5856214
+          "input": 0.14681598,
+          "output": 0.58726392
         },
         "limit": {
           "context": 128000
@@ -90088,8 +90528,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.14640535,
-          "output": 1.4640535
+          "input": 0.14681598,
+          "output": 1.4681598
         },
         "limit": {
           "context": 128000
@@ -90190,8 +90630,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.102483745,
-          "output": 0.40993498
+          "input": 0.102771186,
+          "output": 0.411084744
         },
         "limit": {
           "context": 32000
@@ -90216,8 +90656,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.02562093625,
-          "output": 0.102483745
+          "input": 0.0256927965,
+          "output": 0.102771186
         },
         "limit": {
           "context": 32000
@@ -90242,8 +90682,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.0512418725,
-          "output": 0.20496749
+          "input": 0.051385593,
+          "output": 0.205542372
         },
         "limit": {
           "context": 32000
@@ -90267,7 +90707,7 @@
           "attachment": true
         },
         "pricing": {
-          "input": 0.0131764815
+          "input": 0.0132134382
         },
         "modalities": {
           "input": [
@@ -90285,7 +90725,7 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.0512418725
+          "input": 0.051385593
         },
         "limit": {
           "context": 32000
@@ -90305,7 +90745,7 @@
           "attachment": true
         },
         "pricing": {
-          "input": 0.0131764815
+          "input": 0.0132134382
         },
         "modalities": {
           "input": [
@@ -90323,7 +90763,7 @@
           "attachment": false
         },
         "pricing": {
-          "input": 0.0512418725
+          "input": 0.051385593
         },
         "modalities": {
           "input": [
@@ -90405,8 +90845,8 @@
           "tool_call": true
         },
         "pricing": {
-          "input": 0.14640535,
-          "output": 0.5856214
+          "input": 0.14681598,
+          "output": 0.58726392
         },
         "limit": {
           "context": 32000
@@ -90568,7 +91008,7 @@
         "release_date": "1768446528",
         "last_updated": "1773295591",
         "pricing": {
-          "input": 0.2928107
+          "input": 0.29363196
         },
         "limit": {
           "context": 32000
@@ -91565,33 +92005,6 @@
             "image",
             "text",
             "video"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "allenai/olmo-3.1-32b-instruct": {
-        "id": "allenai/olmo-3.1-32b-instruct",
-        "name": "Olmo 3.1 32B Instruct",
-        "release_date": "1769299200",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "tool_call": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 0.6
-        },
-        "limit": {
-          "context": 65536,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
           ],
           "output": [
             "text"
@@ -96692,9 +97105,9 @@
           ]
         }
       },
-      "google/gemini-3.1-flash-lite-preview": {
-        "id": "google/gemini-3.1-flash-lite-preview",
-        "name": "Gemini 3.1 Flash Lite Preview",
+      "google/gemini-3.1-flash-lite": {
+        "id": "google/gemini-3.1-flash-lite",
+        "name": "Gemini 3.1 Flash Lite",
         "release_date": "1772496000",
         "features": {
           "attachment": true,
@@ -107207,7 +107620,7 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.15,
+          "input": 0.2,
           "output": 0.8
         },
         "limit": {
@@ -107396,7 +107809,7 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.15,
+          "input": 0.2,
           "output": 0.8
         },
         "limit": {
@@ -108446,8 +108859,8 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0,
-          "output": 0
+          "input": 0.3,
+          "output": 2.5
         },
         "limit": {
           "context": 262144,
@@ -110054,6 +110467,33 @@
         "limit": {
           "context": 8192,
           "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "xiaomimimo/mimo-v2.5-pro": {
+        "id": "xiaomimimo/mimo-v2.5-pro",
+        "name": "XiaomiMiMo/MiMo-V2.5-Pro",
+        "release_date": "1778060944",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 131072
         },
         "modalities": {
           "input": [
@@ -112183,6 +112623,38 @@
           ]
         }
       },
+      "gpt-realtime-2": {
+        "id": "gpt-realtime-2",
+        "name": "gpt-realtime-2",
+        "knowledge_cutoff": "1727654400",
+        "release_date": "1778006032",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 5,
+          "output": 64,
+          "cache_read": 0.5
+        },
+        "limit": {
+          "context": 128000,
+          "output": 32000
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text"
+          ],
+          "output": [
+            "audio",
+            "text"
+          ]
+        }
+      },
       "gpt-realtime-2025-08-28": {
         "id": "gpt-realtime-2025-08-28",
         "name": "gpt-realtime-2025-08-28",
@@ -112228,6 +112700,54 @@
         "id": "gpt-realtime-mini-2025-12-15",
         "name": "gpt-realtime-mini-2025-12-15",
         "release_date": "1765612007"
+      },
+      "gpt-realtime-translate": {
+        "id": "gpt-realtime-translate",
+        "name": "gpt-realtime-translate",
+        "knowledge_cutoff": "1727654400",
+        "release_date": "1777950216",
+        "features": {
+          "attachment": true,
+          "tool_call": false,
+          "structured_output": false
+        },
+        "limit": {
+          "context": 16000,
+          "output": 2000
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "audio",
+            "text"
+          ]
+        }
+      },
+      "gpt-realtime-whisper": {
+        "id": "gpt-realtime-whisper",
+        "name": "gpt-realtime-whisper",
+        "knowledge_cutoff": "1727654400",
+        "release_date": "1778012060",
+        "features": {
+          "attachment": true,
+          "tool_call": false,
+          "structured_output": false
+        },
+        "limit": {
+          "context": 16000,
+          "output": 2000
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
       },
       "o1": {
         "id": "o1",
@@ -115053,6 +115573,42 @@
           ]
         }
       },
+      "google/gemini-3.1-flash-lite": {
+        "id": "google/gemini-3.1-flash-lite",
+        "name": "Google: Gemini 3.1 Flash Lite",
+        "release_date": "1778168828",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "reasoning": 1.5,
+          "cache_read": 0.025,
+          "cache_write": 0.08333333333333334,
+          "input_audio": 0.5
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "google/gemini-3.1-flash-lite-preview": {
         "id": "google/gemini-3.1-flash-lite-preview",
         "name": "Google: Gemini 3.1 Flash Lite Preview",
@@ -115743,9 +116299,9 @@
           ]
         }
       },
-      "inclusionai/ling-2.6-1t:free": {
-        "id": "inclusionai/ling-2.6-1t:free",
-        "name": "inclusionAI: Ling-2.6-1T (free)",
+      "inclusionai/ling-2.6-1t": {
+        "id": "inclusionai/ling-2.6-1t",
+        "name": "inclusionAI: Ling-2.6-1T",
         "release_date": "1776948238",
         "features": {
           "attachment": false,
@@ -115755,8 +116311,9 @@
           "temperature": true
         },
         "pricing": {
-          "input": 0,
-          "output": 0
+          "input": 0.3,
+          "output": 2.5,
+          "cache_read": 0.06
         },
         "limit": {
           "context": 262144,
@@ -117357,35 +117914,6 @@
           ]
         }
       },
-      "mistralai/mixtral-8x7b-instruct": {
-        "id": "mistralai/mixtral-8x7b-instruct",
-        "name": "Mistral: Mixtral 8x7B Instruct",
-        "knowledge_cutoff": "1703980800",
-        "release_date": "1702166400",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "tool_call": true,
-          "structured_output": true,
-          "temperature": true
-        },
-        "pricing": {
-          "input": 0.54,
-          "output": 0.54
-        },
-        "limit": {
-          "context": 32768,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
       "mistralai/pixtral-large-2411": {
         "id": "mistralai/pixtral-large-2411",
         "name": "Mistral: Pixtral Large 2411",
@@ -117868,35 +118396,6 @@
         },
         "limit": {
           "context": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "nvidia/llama-3.1-nemotron-70b-instruct": {
-        "id": "nvidia/llama-3.1-nemotron-70b-instruct",
-        "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
-        "knowledge_cutoff": "1703980800",
-        "release_date": "1728950400",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "tool_call": true,
-          "structured_output": true,
-          "temperature": true
-        },
-        "pricing": {
-          "input": 1.2,
-          "output": 1.2
-        },
-        "limit": {
-          "context": 131072,
-          "output": 16384
         },
         "modalities": {
           "input": [
@@ -121213,13 +121712,13 @@
           "temperature": true
         },
         "pricing": {
-          "input": 0.15,
+          "input": 0.14,
           "output": 1,
           "cache_read": 0.05
         },
         "limit": {
           "context": 262144,
-          "output": 262144
+          "output": 81920
         },
         "modalities": {
           "input": [
@@ -121275,11 +121774,12 @@
           "temperature": true
         },
         "pricing": {
-          "input": 0.1,
+          "input": 0.04,
           "output": 0.15
         },
         "limit": {
-          "context": 262144
+          "context": 262144,
+          "output": 81920
         },
         "modalities": {
           "input": [
@@ -124465,8 +124965,8 @@
       "xai/grok-4.20-reasoning": {
         "id": "xai/grok-4.20-reasoning",
         "pricing": {
-          "input": 2,
-          "output": 6,
+          "input": 1.25,
+          "output": 2.5,
           "cache_read": 0.2
         }
       }
@@ -145641,6 +146141,35 @@
           ]
         }
       },
+      "vertex/gemini-3.1-flash-lite": {
+        "id": "vertex/gemini-3.1-flash-lite",
+        "name": "vertex/gemini-3.1-flash-lite",
+        "release_date": "1778175883",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "cache_read": 0.025,
+          "cache_write": 0.08333
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65535
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
       "vertex/gemini-3.1-flash-lite-preview": {
         "id": "vertex/gemini-3.1-flash-lite-preview",
         "name": "vertex/gemini-3.1-flash-lite-preview",
@@ -151631,6 +152160,7 @@
       "black-forest-labs/FLUX.1-schnell": {
         "id": "black-forest-labs/FLUX.1-schnell",
         "name": "FLUX.1 Schnell",
+        "release_date": "1778115148",
         "features": {
           "attachment": false
         },
@@ -152250,7 +152780,6 @@
       "deepseek-ai/DeepSeek-V4-Pro": {
         "id": "deepseek-ai/DeepSeek-V4-Pro",
         "name": "Deepseek V4 Pro",
-        "release_date": "1777690700",
         "features": {
           "attachment": false
         },
@@ -152460,6 +152989,29 @@
         "id": "google/gemma-3-270m-it",
         "name": "Gemma 3 270M It",
         "release_date": "1759265684",
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "limit": {
+          "context": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "google/gemma-3-270m-it-lora": {
+        "id": "google/gemma-3-270m-it-lora",
+        "name": "Gemma 3 270M It Lora",
+        "release_date": "1778127957",
         "features": {
           "attachment": false
         },
@@ -153027,6 +153579,29 @@
         "id": "meta-llama/Llama-3.2-3B",
         "name": "Meta Llama 3.2 3B",
         "release_date": "1740523679",
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "limit": {
+          "context": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "meta-llama/Llama-3.3-70B-Instruct": {
+        "id": "meta-llama/Llama-3.3-70B-Instruct",
+        "name": "meta-llama/Llama-3.3-70B-Instruct",
+        "release_date": "1744545240",
         "features": {
           "attachment": false
         },
@@ -153708,6 +154283,29 @@
         "pricing": {
           "input": 0.6,
           "output": 0.6
+        },
+        "limit": {
+          "context": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "mistralai/Mixtral-8x7B-Instruct-v0.1-FP8-Lora": {
+        "id": "mistralai/Mixtral-8x7B-Instruct-v0.1-FP8-Lora",
+        "name": "Mixtral 8x7B Instruct V0.1 FP8 Lora",
+        "release_date": "1778113354",
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
         },
         "limit": {
           "context": 32768
@@ -154959,29 +155557,6 @@
         "pricing": {
           "input": 0.2,
           "output": 0.6
-        },
-        "limit": {
-          "context": 262144
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "Qwen/Qwen3-235B-A22B-Thinking-2507": {
-        "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
-        "name": "Qwen3 235B A22B Thinking 2507 FP8",
-        "release_date": "1753459407",
-        "features": {
-          "attachment": false
-        },
-        "pricing": {
-          "input": 0.65,
-          "output": 3
         },
         "limit": {
           "context": 262144
@@ -160398,6 +160973,35 @@
         },
         "modalities": {
           "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "google/gemini-3.1-flash-lite": {
+        "id": "google/gemini-3.1-flash-lite",
+        "name": "Gemini 3.1 Flash Lite",
+        "release_date": "1778112000",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "cache_read": 0.03
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 65000
+        },
+        "modalities": {
+          "input": [
+            "file",
             "image",
             "text"
           ],
@@ -167906,9 +168510,9 @@
           "reasoning": false
         },
         "pricing": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0
+          "input": 0.3,
+          "output": 2.5,
+          "cache_read": 0.06
         },
         "limit": {
           "context": 262144

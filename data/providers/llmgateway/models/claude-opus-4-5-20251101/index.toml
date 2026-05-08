@@ -1,6 +1,6 @@
 id = "claude-opus-4-5-20251101"
 name = "Claude Opus 4.5"
-release_date = "1778114219"
+release_date = "1778200659"
 
 [features]
 attachment = true
@@ -18,7 +18,7 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.5
-cache_write = 0
+cache_write = 6.25
 input = 5
 output = 25
 reasoning = 0

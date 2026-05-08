@@ -1,6 +1,6 @@
 id = "claude-haiku-4-5"
 name = "Claude Haiku 4.5"
-release_date = "1778114219"
+release_date = "1778200659"
 
 [features]
 attachment = false
@@ -18,7 +18,7 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.1
-cache_write = 0
+cache_write = 1.25
 input = 1
 output = 5
 reasoning = 0

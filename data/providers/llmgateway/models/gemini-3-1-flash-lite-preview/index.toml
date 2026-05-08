@@ -1,10 +1,10 @@
 id = "gemini-3.1-flash-lite-preview"
 name = "Gemini 3.1 Flash Lite (Preview)"
-release_date = "1778114219"
+release_date = "1778200659"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 structured_output = true
 temperature = true
 tool_call = true

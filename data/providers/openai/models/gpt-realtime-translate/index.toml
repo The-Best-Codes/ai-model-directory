@@ -1,0 +1,17 @@
+id = "gpt-realtime-translate"
+knowledge_cutoff = "1727654400"
+name = "gpt-realtime-translate"
+release_date = "1777950216"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16000
+output = 2000
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio", "text" ]

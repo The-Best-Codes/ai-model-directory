@@ -1,0 +1,12 @@
+id = "happyhorse-1.0-i2v"
+last_updated = "1776791219"
+name = "HappyHorse-1.0-I2V"
+open_weights = false
+release_date = "1776791219"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
