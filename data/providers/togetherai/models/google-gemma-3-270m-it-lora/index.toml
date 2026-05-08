@@ -1,0 +1,17 @@
+id = "google/gemma-3-270m-it-lora"
+name = "Gemma 3 270M It Lora"
+release_date = "1778127957"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

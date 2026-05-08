@@ -1,0 +1,21 @@
+id = "sarvam/saaras:v3"
+name = "Sarvam: Saaras V3"
+release_date = "1770794385"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 2046
+output = 0
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input_audio = 88

@@ -1,0 +1,15 @@
+id = "gemma-4-26b-a4b-it"
+name = "gemma-4-26b-a4b-it"
+release_date = "1778153882"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.25
+output = 0.5

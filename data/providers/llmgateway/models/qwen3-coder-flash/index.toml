@@ -1,6 +1,6 @@
 id = "qwen3-coder-flash"
 name = "Qwen3 Coder Flash"
-release_date = "1778114219"
+release_date = "1778200659"
 
 [features]
 attachment = false

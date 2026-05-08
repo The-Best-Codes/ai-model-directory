@@ -1,0 +1,17 @@
+id = "gpt-realtime-whisper"
+knowledge_cutoff = "1727654400"
+name = "gpt-realtime-whisper"
+release_date = "1778012060"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16000
+output = 2000
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]

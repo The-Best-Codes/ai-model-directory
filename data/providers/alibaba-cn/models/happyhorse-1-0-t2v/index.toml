@@ -1,0 +1,12 @@
+id = "happyhorse-1.0-t2v"
+last_updated = "1776791239"
+name = "HappyHorse-1.0-T2V"
+open_weights = false
+release_date = "1776791239"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

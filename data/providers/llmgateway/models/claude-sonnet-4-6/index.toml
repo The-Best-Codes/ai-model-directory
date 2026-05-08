@@ -1,6 +1,6 @@
 id = "claude-sonnet-4-6"
 name = "Claude Sonnet 4.6"
-release_date = "1778114219"
+release_date = "1778200659"
 
 [features]
 attachment = true
@@ -18,7 +18,7 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.3
-cache_write = 0
+cache_write = 3.75
 input = 3
 output = 15
 reasoning = 0

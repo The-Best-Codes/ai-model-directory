@@ -1,0 +1,17 @@
+id = "mistralai/Mixtral-8x7B-Instruct-v0.1-FP8-Lora"
+name = "Mixtral 8x7B Instruct V0.1 FP8 Lora"
+release_date = "1778113354"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

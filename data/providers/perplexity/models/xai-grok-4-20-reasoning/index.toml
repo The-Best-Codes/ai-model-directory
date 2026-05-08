@@ -2,5 +2,5 @@ id = "xai/grok-4.20-reasoning"
 
 [pricing]
 cache_read = 0.2
-input = 2
-output = 6
+input = 1.25
+output = 2.5

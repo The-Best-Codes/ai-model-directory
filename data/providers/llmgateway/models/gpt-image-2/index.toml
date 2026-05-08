@@ -1,6 +1,6 @@
 id = "gpt-image-2"
 name = "GPT Image 2"
-release_date = "1778114219"
+release_date = "1778200659"
 
 [features]
 attachment = true
@@ -17,8 +17,8 @@ input = [ "image", "text" ]
 output = [ "image" ]
 
 [pricing]
-cache_read = 2
+cache_read = 1.25
 cache_write = 0
-input = 8
-output = 15
+input = 5
+output = 0
 reasoning = 0

@@ -1,6 +1,6 @@
 id = "deepseek-v4-flash"
 name = "DeepSeek V4 Flash"
-release_date = "1778114219"
+release_date = "1778200659"
 
 [features]
 attachment = false
