@@ -5,3 +5,6 @@ release_date = "1755654863"
 
 [limit]
 output = 64000
+
+[pricing]
+input = 0.426354433

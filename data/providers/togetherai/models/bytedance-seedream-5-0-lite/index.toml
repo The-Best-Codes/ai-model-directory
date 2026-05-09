@@ -1,0 +1,10 @@
+id = "ByteDance/Seedream-5.0-lite"
+name = "ByteDance Seedream 5.0 Lite"
+release_date = "1778252567"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

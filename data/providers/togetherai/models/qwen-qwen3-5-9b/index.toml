@@ -1,5 +1,6 @@
 id = "Qwen/Qwen3.5-9B"
 name = "Qwen3.5 9B FP8"
+release_date = "1778274767"
 
 [features]
 attachment = false

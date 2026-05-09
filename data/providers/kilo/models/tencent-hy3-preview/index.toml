@@ -1,5 +1,5 @@
-id = "tencent/hy3-preview:free"
-name = "Tencent: Hy3 preview (free)"
+id = "tencent/hy3-preview"
+name = "Tencent: Hy3 preview"
 release_date = "1776878150"
 
 [features]
@@ -18,5 +18,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0
-output = 0
+cache_read = 0.029
+input = 0.066
+output = 0.26
