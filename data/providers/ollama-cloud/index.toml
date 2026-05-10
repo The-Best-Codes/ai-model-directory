@@ -1,0 +1,7 @@
+name = "Ollama Cloud"
+website = "https://ollama.com"
+apiBaseUrl = "https://ollama.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["OLLAMA_API_KEY"]
