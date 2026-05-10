@@ -1,0 +1,14 @@
+id = "qwen3-coder:480b"
+last_updated = "1753142400"
+name = "qwen3-coder:480b"
+release_date = "1753142400"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

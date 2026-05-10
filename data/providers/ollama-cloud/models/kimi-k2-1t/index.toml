@@ -1,0 +1,14 @@
+id = "kimi-k2:1t"
+last_updated = "1757030400"
+name = "kimi-k2:1t"
+release_date = "1757030400"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,14 @@
+id = "qwen3-coder-next"
+last_updated = "1738627200"
+name = "qwen3-coder-next"
+release_date = "1738627200"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

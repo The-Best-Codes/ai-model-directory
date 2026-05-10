@@ -1,0 +1,15 @@
+id = "gpt-oss:20b"
+last_updated = "1754352000"
+name = "gpt-oss:20b"
+release_date = "1754352000"
+
+[features]
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

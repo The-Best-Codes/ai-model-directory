@@ -1,0 +1,15 @@
+id = "glm-4.7"
+last_updated = "1766361600"
+name = "glm-4.7"
+release_date = "1766361600"
+
+[features]
+reasoning = true
+tool_call = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

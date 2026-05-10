@@ -1,0 +1,15 @@
+id = "nemotron-3-super"
+last_updated = "1773187200"
+name = "nemotron-3-super"
+release_date = "1773187200"
+
+[features]
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
