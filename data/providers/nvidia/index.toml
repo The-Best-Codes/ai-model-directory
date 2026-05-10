@@ -1,0 +1,7 @@
+name = "Nvidia"
+website = "https://nvidia.com"
+apiBaseUrl = "https://integrate.api.nvidia.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["NVIDIA_API_KEY"]
