@@ -1,0 +1,5 @@
+id = "meta/llama-3.3-70b-instruct"
+name = "meta/llama-3.3-70b-instruct"
+
+[features]
+tool_call = true

@@ -1,0 +1,12 @@
+id = "moonshotai/kimi-k2-thinking"
+name = "Kimi-K2-Thinking"
+
+[features]
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]

@@ -1,0 +1,6 @@
+id = "qwen/qwen2.5-coder-32b-instruct"
+name = "qwen/qwen2.5-coder-32b-instruct"
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

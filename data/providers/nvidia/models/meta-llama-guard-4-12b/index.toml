@@ -1,0 +1,9 @@
+id = "meta/llama-guard-4-12b"
+name = "Llama-Guard-4-12B Overview"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

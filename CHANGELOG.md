@@ -41,11 +41,11 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 55 |
-| `pricing.output` | 0 | 0 | 52 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      55 |
+| `pricing.output` |    0 |      0 |      52 |
 
 ### cerebras
 
@@ -71,9 +71,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.attachment` | 0 | 0 | 2 |
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `features.attachment` |    0 |      0 |       2 |
 
 ### deepseek
 
@@ -124,10 +124,10 @@
 
 - 0 models added, 1 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 4 |
-| `features.tool_call` | 0 | 0 | 2 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       4 |
+| `features.tool_call`         |    0 |      0 |       2 |
 
 <details>
 <summary>Removed models (1)</summary>
@@ -155,18 +155,18 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.cache_read` | 1 | 0 | 0 |
-| `limit.output` | 0 | 0 | 2 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.cache_read` |    1 |      0 |       0 |
+| `limit.output`       |    0 |      0 |       2 |
 
 ### llmgateway
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 200 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     200 |
 
 ### mistral
 
@@ -182,19 +182,19 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 74 |
-| `pricing.output` | 0 | 0 | 65 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      74 |
+| `pricing.output` |    0 |      0 |      65 |
 
 ### nano-gpt
 
 - 1 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 2 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       2 |
+| `pricing.output` |    0 |      0 |       2 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -207,9 +207,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `limit.output` | 0 | 0 | 1 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `limit.output` |    0 |      0 |       1 |
 
 ### openai
 
@@ -235,11 +235,11 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.cache_read` | 1 | 0 | 0 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 0 | 2 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.cache_read` |    1 |      0 |       0 |
+| `limit.context`      |    0 |      0 |       1 |
+| `limit.output`       |    0 |      0 |       2 |
 
 ### requesty
 
@@ -255,9 +255,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 59 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |      59 |
 
 ### togetherai
 
@@ -310,17 +310,17 @@
 - Total models added: 4
 - Total models removed: 1
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 273 |
-| `features.attachment` | 0 | 0 | 2 |
-| `features.structured_output` | 0 | 0 | 4 |
-| `features.tool_call` | 0 | 0 | 2 |
-| `pricing.input` | 0 | 0 | 131 |
-| `pricing.output` | 0 | 0 | 119 |
-| `pricing.cache_read` | 2 | 0 | 0 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 0 | 5 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `release_date`               |    0 |      0 |     273 |
+| `features.attachment`        |    0 |      0 |       2 |
+| `features.structured_output` |    0 |      0 |       4 |
+| `features.tool_call`         |    0 |      0 |       2 |
+| `pricing.input`              |    0 |      0 |     131 |
+| `pricing.output`             |    0 |      0 |     119 |
+| `pricing.cache_read`         |    2 |      0 |       0 |
+| `limit.context`              |    0 |      0 |       1 |
+| `limit.output`               |    0 |      0 |       5 |
 
 ## Run at 1778287134
 
@@ -328,9 +328,9 @@
 
 - 1 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `last_updated` | 0 | 0 | 1 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `last_updated` |    0 |      0 |       1 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -390,11 +390,11 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 55 |
-| `pricing.output` | 0 | 0 | 52 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      55 |
+| `pricing.output` |    0 |      0 |      52 |
 
 ### cerebras
 
@@ -477,13 +477,13 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 5 |
-| `features.tool_call` | 0 | 0 | 3 |
-| `pricing.input` | 2 | 0 | 1 |
-| `pricing.output` | 2 | 0 | 1 |
-| `limit.context` | 2 | 0 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       5 |
+| `features.tool_call`         |    0 |      0 |       3 |
+| `pricing.input`              |    2 |      0 |       1 |
+| `pricing.output`             |    2 |      0 |       1 |
+| `limit.context`              |    2 |      0 |       0 |
 
 ### inception
 
@@ -515,14 +515,14 @@
 
 - 2 models added, 2 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 1 |
-| `pricing.input` | 0 | 0 | 3 |
-| `pricing.output` | 0 | 0 | 3 |
-| `pricing.cache_read` | 2 | 1 | 1 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 2 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `name`               |    0 |      0 |       1 |
+| `pricing.input`      |    0 |      0 |       3 |
+| `pricing.output`     |    0 |      0 |       3 |
+| `pricing.cache_read` |    2 |      1 |       1 |
+| `limit.context`      |    0 |      0 |       1 |
+| `limit.output`       |    0 |      2 |       1 |
 
 <details>
 <summary>Added models (2)</summary>
@@ -544,9 +544,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 200 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     200 |
 
 ### mistral
 
@@ -562,10 +562,10 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 1 | 73 |
-| `pricing.output` | 0 | 0 | 65 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      1 |      73 |
+| `pricing.output` |    0 |      0 |      65 |
 
 ### nano-gpt
 
@@ -576,10 +576,10 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       1 |
+| `pricing.output` |    0 |      0 |       1 |
 
 ### openai
 
@@ -622,13 +622,13 @@
 
 - 2 models added, 2 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 3 |
-| `pricing.output` | 0 | 0 | 3 |
-| `pricing.cache_read` | 2 | 1 | 1 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 2 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       3 |
+| `pricing.output`     |    0 |      0 |       3 |
+| `pricing.cache_read` |    2 |      1 |       1 |
+| `limit.context`      |    0 |      0 |       1 |
+| `limit.output`       |    0 |      2 |       1 |
 
 <details>
 <summary>Added models (2)</summary>
@@ -665,9 +665,9 @@
 
 - 1 models added, 1 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 1 | 0 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      1 |       0 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -687,9 +687,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.reasoning` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `features.reasoning` |    0 |      0 |       1 |
 
 ### vercel
 
@@ -717,19 +717,19 @@
 - Total models added: 18
 - Total models removed: 9
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 1 |
-| `release_date` | 0 | 1 | 214 |
-| `last_updated` | 0 | 0 | 1 |
-| `features.reasoning` | 0 | 0 | 1 |
-| `features.structured_output` | 0 | 0 | 5 |
-| `features.tool_call` | 0 | 0 | 3 |
-| `pricing.input` | 2 | 1 | 136 |
-| `pricing.output` | 2 | 0 | 125 |
-| `pricing.cache_read` | 4 | 2 | 2 |
-| `limit.context` | 2 | 0 | 2 |
-| `limit.output` | 0 | 4 | 2 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `name`                       |    0 |      0 |       1 |
+| `release_date`               |    0 |      1 |     214 |
+| `last_updated`               |    0 |      0 |       1 |
+| `features.reasoning`         |    0 |      0 |       1 |
+| `features.structured_output` |    0 |      0 |       5 |
+| `features.tool_call`         |    0 |      0 |       3 |
+| `pricing.input`              |    2 |      1 |     136 |
+| `pricing.output`             |    2 |      0 |     125 |
+| `pricing.cache_read`         |    4 |      2 |       2 |
+| `limit.context`              |    2 |      0 |       2 |
+| `limit.output`               |    0 |      4 |       2 |
 
 ## Run at 1778200677
 
@@ -769,9 +769,9 @@
 
 - 1 models added, 5 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.output` | 10 | 0 | 0 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.output` |   10 |      0 |       0 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -810,11 +810,11 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 55 |
-| `pricing.output` | 0 | 0 | 52 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      55 |
+| `pricing.output` |    0 |      0 |      52 |
 
 ### cerebras
 
@@ -835,11 +835,11 @@
 
 - 1 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 1 | 0 | 0 |
-| `limit.context` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    1 |      0 |       0 |
+| `limit.context`      |    0 |      0 |       1 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -852,11 +852,11 @@
 
 - 0 models added, 1 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 2 | 0 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    0 |      2 |       0 |
 
 <details>
 <summary>Removed models (1)</summary>
@@ -938,13 +938,13 @@
 
 - 2 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 1 |
-| `features.tool_call` | 0 | 0 | 9 |
-| `pricing.input` | 0 | 1 | 1 |
-| `pricing.output` | 0 | 1 | 1 |
-| `limit.context` | 0 | 1 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       1 |
+| `features.tool_call`         |    0 |      0 |       9 |
+| `pricing.input`              |    0 |      1 |       1 |
+| `pricing.output`             |    0 |      1 |       1 |
+| `limit.context`              |    0 |      1 |       0 |
 
 <details>
 <summary>Added models (2)</summary>
@@ -963,9 +963,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `limit.context` | 0 | 0 | 1 |
+| Field           | Lost | Gained | Changed |
+| --------------- | ---: | -----: | ------: |
+| `limit.context` |    0 |      0 |       1 |
 
 ### jiekou
 
@@ -984,10 +984,10 @@
 
 - 2 models added, 3 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `limit.output` | 0 | 1 | 1 |
+| Field           | Lost | Gained | Changed |
+| --------------- | ---: | -----: | ------: |
+| `pricing.input` |    0 |      0 |       2 |
+| `limit.output`  |    0 |      1 |       1 |
 
 <details>
 <summary>Added models (2)</summary>
@@ -1010,14 +1010,14 @@
 
 - 6 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 194 |
-| `features.reasoning` | 0 | 0 | 1 |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 0 | 1 |
-| `pricing.cache_write` | 0 | 0 | 14 |
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `release_date`        |    0 |      0 |     194 |
+| `features.reasoning`  |    0 |      0 |       1 |
+| `pricing.input`       |    0 |      0 |       1 |
+| `pricing.output`      |    0 |      0 |       1 |
+| `pricing.cache_read`  |    0 |      0 |       1 |
+| `pricing.cache_write` |    0 |      0 |      14 |
 
 <details>
 <summary>Added models (6)</summary>
@@ -1045,10 +1045,10 @@
 
 - 1 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 73 |
-| `pricing.output` | 0 | 0 | 65 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      73 |
+| `pricing.output` |    0 |      0 |      65 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -1061,9 +1061,9 @@
 
 - 1 models added, 2 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
+| Field           | Lost | Gained | Changed |
+| --------------- | ---: | -----: | ------: |
+| `pricing.input` |    0 |      0 |       2 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -1084,10 +1084,10 @@
 
 - 1 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       1 |
+| `pricing.output` |    0 |      0 |       1 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -1119,10 +1119,10 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       1 |
+| `pricing.output` |    0 |      0 |       1 |
 
 ### poe
 
@@ -1133,10 +1133,10 @@
 
 - 2 models added, 3 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `limit.output` | 0 | 1 | 1 |
+| Field           | Lost | Gained | Changed |
+| --------------- | ---: | -----: | ------: |
+| `pricing.input` |    0 |      0 |       2 |
+| `limit.output`  |    0 |      1 |       1 |
 
 <details>
 <summary>Added models (2)</summary>
@@ -1181,9 +1181,9 @@
 
 - 3 models added, 1 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 1 | 1 | 0 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    1 |      1 |       0 |
 
 <details>
 <summary>Added models (3)</summary>
@@ -1232,11 +1232,11 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       1 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    0 |      0 |       1 |
 
 ### Summary
 
@@ -1244,18 +1244,18 @@
 - Total models added: 37
 - Total models removed: 16
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 1 | 1 | 208 |
-| `features.reasoning` | 0 | 0 | 1 |
-| `features.structured_output` | 0 | 0 | 1 |
-| `features.tool_call` | 0 | 0 | 9 |
-| `pricing.input` | 0 | 1 | 141 |
-| `pricing.output` | 10 | 1 | 124 |
-| `pricing.cache_read` | 1 | 2 | 2 |
-| `pricing.cache_write` | 0 | 0 | 14 |
-| `limit.context` | 0 | 1 | 2 |
-| `limit.output` | 0 | 2 | 2 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `release_date`               |    1 |      1 |     208 |
+| `features.reasoning`         |    0 |      0 |       1 |
+| `features.structured_output` |    0 |      0 |       1 |
+| `features.tool_call`         |    0 |      0 |       9 |
+| `pricing.input`              |    0 |      1 |     141 |
+| `pricing.output`             |   10 |      1 |     124 |
+| `pricing.cache_read`         |    1 |      2 |       2 |
+| `pricing.cache_write`        |    0 |      0 |      14 |
+| `limit.context`              |    0 |      1 |       2 |
+| `limit.output`               |    0 |      2 |       2 |
 
 ## Run at 1778114236
 
@@ -1263,9 +1263,9 @@
 
 - 1 models added, 1 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `last_updated` | 0 | 0 | 1 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `last_updated` |    0 |      0 |       1 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -1295,11 +1295,11 @@
 
 - 6 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 7 |
-| `pricing.output` | 0 | 0 | 7 |
-| `pricing.cache_read` | 0 | 5 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       7 |
+| `pricing.output`     |    0 |      0 |       7 |
+| `pricing.cache_read` |    0 |      5 |       1 |
 
 <details>
 <summary>Added models (6)</summary>
@@ -1332,11 +1332,11 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 55 |
-| `pricing.output` | 0 | 0 | 52 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      55 |
+| `pricing.output` |    0 |      0 |      52 |
 
 ### cerebras
 
@@ -1411,11 +1411,11 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 1 | 0 | 0 |
-| `pricing.output` | 1 | 0 | 0 |
-| `limit.context` | 0 | 0 | 1 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    1 |      0 |       0 |
+| `pricing.output` |    1 |      0 |       0 |
+| `limit.context`  |    0 |      0 |       1 |
 
 ### groq
 
@@ -1431,13 +1431,13 @@
 
 - 1 models added, 2 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 3 |
-| `features.tool_call` | 0 | 0 | 9 |
-| `pricing.input` | 1 | 1 | 0 |
-| `pricing.output` | 1 | 1 | 0 |
-| `limit.context` | 1 | 1 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       3 |
+| `features.tool_call`         |    0 |      0 |       9 |
+| `pricing.input`              |    1 |      1 |       0 |
+| `pricing.output`             |    1 |      1 |       0 |
+| `limit.context`              |    1 |      1 |       0 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -1463,11 +1463,11 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       1 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    0 |      0 |       1 |
 
 ### jiekou
 
@@ -1478,15 +1478,15 @@
 
 - 1 models added, 2 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 1 |
-| `features.tool_call` | 0 | 0 | 1 |
-| `pricing.input` | 0 | 0 | 5 |
-| `pricing.output` | 0 | 0 | 3 |
-| `pricing.cache_read` | 0 | 0 | 3 |
-| `limit.context` | 0 | 0 | 3 |
-| `limit.output` | 0 | 0 | 3 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       1 |
+| `features.tool_call`         |    0 |      0 |       1 |
+| `pricing.input`              |    0 |      0 |       5 |
+| `pricing.output`             |    0 |      0 |       3 |
+| `pricing.cache_read`         |    0 |      0 |       3 |
+| `limit.context`              |    0 |      0 |       3 |
+| `limit.output`               |    0 |      0 |       3 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -1507,9 +1507,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 194 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     194 |
 
 ### mistral
 
@@ -1525,22 +1525,22 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 73 |
-| `pricing.output` | 0 | 0 | 65 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      73 |
+| `pricing.output` |    0 |      0 |      65 |
 
 ### nano-gpt
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.reasoning` | 0 | 0 | 1 |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 2 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `features.reasoning` |    0 |      0 |       1 |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       2 |
+| `limit.context`      |    0 |      0 |       1 |
+| `limit.output`       |    0 |      0 |       1 |
 
 ### novita
 
@@ -1578,15 +1578,15 @@
 
 - 1 models added, 2 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 1 |
-| `features.tool_call` | 0 | 0 | 1 |
-| `pricing.input` | 0 | 0 | 5 |
-| `pricing.output` | 0 | 0 | 3 |
-| `pricing.cache_read` | 0 | 0 | 3 |
-| `limit.context` | 0 | 0 | 3 |
-| `limit.output` | 0 | 0 | 3 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       1 |
+| `features.tool_call`         |    0 |      0 |       1 |
+| `pricing.input`              |    0 |      0 |       5 |
+| `pricing.output`             |    0 |      0 |       3 |
+| `pricing.cache_read`         |    0 |      0 |       3 |
+| `limit.context`              |    0 |      0 |       3 |
+| `limit.output`               |    0 |      0 |       3 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -1647,9 +1647,9 @@
 
 - 3 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 1 | 0 | 0 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    1 |      0 |       0 |
 
 <details>
 <summary>Added models (3)</summary>
@@ -1664,10 +1664,10 @@
 
 - 0 models added, 1 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 2 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       2 |
+| `pricing.output` |    0 |      0 |       2 |
 
 <details>
 <summary>Removed models (1)</summary>
@@ -1680,10 +1680,10 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 6 |
-| `pricing.output` | 0 | 0 | 6 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       6 |
+| `pricing.output` |    0 |      0 |       6 |
 
 ### wandb
 
@@ -1713,18 +1713,18 @@
 - Total models added: 27
 - Total models removed: 11
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 1 | 0 | 208 |
-| `last_updated` | 0 | 0 | 1 |
-| `features.reasoning` | 0 | 0 | 1 |
-| `features.structured_output` | 0 | 0 | 5 |
-| `features.tool_call` | 0 | 0 | 11 |
-| `pricing.input` | 2 | 1 | 156 |
-| `pricing.output` | 2 | 1 | 141 |
-| `pricing.cache_read` | 0 | 5 | 8 |
-| `limit.context` | 1 | 1 | 8 |
-| `limit.output` | 0 | 0 | 7 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `release_date`               |    1 |      0 |     208 |
+| `last_updated`               |    0 |      0 |       1 |
+| `features.reasoning`         |    0 |      0 |       1 |
+| `features.structured_output` |    0 |      0 |       5 |
+| `features.tool_call`         |    0 |      0 |      11 |
+| `pricing.input`              |    2 |      1 |     156 |
+| `pricing.output`             |    2 |      1 |     141 |
+| `pricing.cache_read`         |    0 |      5 |       8 |
+| `limit.context`              |    1 |      1 |       8 |
+| `limit.output`               |    0 |      0 |       7 |
 
 ## Run at 1778027733
 
@@ -1774,9 +1774,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |      14 |
 
 ### cerebras
 
@@ -1871,13 +1871,13 @@
 
 - 1 models added, 1 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 5 |
-| `features.tool_call` | 0 | 0 | 7 |
-| `pricing.input` | 1 | 1 | 1 |
-| `pricing.output` | 1 | 1 | 1 |
-| `limit.context` | 1 | 1 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       5 |
+| `features.tool_call`         |    0 |      0 |       7 |
+| `pricing.input`              |    1 |      1 |       1 |
+| `pricing.output`             |    1 |      1 |       1 |
+| `limit.context`              |    1 |      1 |       0 |
 
 <details>
 <summary>Added models (1)</summary>
@@ -1912,19 +1912,19 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.output` | 0 | 0 | 1 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 1 | 0 | 0 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.output` |    0 |      0 |       1 |
+| `limit.context`  |    0 |      0 |       1 |
+| `limit.output`   |    1 |      0 |       0 |
 
 ### llmgateway
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 194 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     194 |
 
 ### mistral
 
@@ -1955,10 +1955,10 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 0 | 1 |
+| Field           | Lost | Gained | Changed |
+| --------------- | ---: | -----: | ------: |
+| `limit.context` |    0 |      0 |       1 |
+| `limit.output`  |    0 |      0 |       1 |
 
 ### ovhcloud
 
@@ -1969,9 +1969,9 @@
 
 - 0 models added, 0 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `knowledge_cutoff` | 0 | 1 | 0 |
+| Field              | Lost | Gained | Changed |
+| ------------------ | ---: | -----: | ------: |
+| `knowledge_cutoff` |    0 |      1 |       0 |
 
 ### poe
 
@@ -1989,11 +1989,11 @@
 
 - 0 models added, 5 models removed
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.output` | 0 | 0 | 1 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 1 | 0 | 0 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.output` |    0 |      0 |       1 |
+| `limit.context`  |    0 |      0 |       1 |
+| `limit.output`   |    1 |      0 |       0 |
 
 <details>
 <summary>Removed models (5)</summary>
@@ -2064,16 +2064,16 @@
 - Total models added: 4
 - Total models removed: 13
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `knowledge_cutoff` | 0 | 1 | 0 |
-| `release_date` | 0 | 0 | 208 |
-| `features.structured_output` | 0 | 0 | 5 |
-| `features.tool_call` | 0 | 0 | 7 |
-| `pricing.input` | 1 | 1 | 1 |
-| `pricing.output` | 1 | 1 | 3 |
-| `limit.context` | 1 | 1 | 3 |
-| `limit.output` | 2 | 0 | 1 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `knowledge_cutoff`           |    0 |      1 |       0 |
+| `release_date`               |    0 |      0 |     208 |
+| `features.structured_output` |    0 |      0 |       5 |
+| `features.tool_call`         |    0 |      0 |       7 |
+| `pricing.input`              |    1 |      1 |       1 |
+| `pricing.output`             |    1 |      1 |       3 |
+| `limit.context`              |    1 |      1 |       3 |
+| `limit.output`               |    2 |      0 |       1 |
 
 ## Run at 1778012967
 

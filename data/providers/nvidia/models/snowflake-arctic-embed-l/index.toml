@@ -1,0 +1,5 @@
+id = "snowflake/arctic-embed-l"
+name = "Inference:"
+
+[modalities]
+input = [ "text" ]

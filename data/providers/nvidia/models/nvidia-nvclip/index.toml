@@ -1,0 +1,8 @@
+id = "nvidia/nvclip"
+name = "NV-CLIP (Commercial Foundation Model)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]

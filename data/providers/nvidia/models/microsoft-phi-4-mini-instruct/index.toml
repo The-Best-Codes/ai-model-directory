@@ -1,0 +1,13 @@
+id = "microsoft/phi-4-mini-instruct"
+knowledge_cutoff = "1717218000"
+name = "microsoft/phi-4-mini-instruct"
+
+[features]
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

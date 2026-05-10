@@ -1,0 +1,12 @@
+id = "nvidia/nemotron-content-safety-reasoning-4b"
+name = "NVIDIA-Nemotron-Content-Safety-Reasoning-4B Overview"
+
+[features]
+reasoning = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

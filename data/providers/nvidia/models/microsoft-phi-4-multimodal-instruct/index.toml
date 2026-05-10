@@ -1,0 +1,14 @@
+id = "microsoft/phi-4-multimodal-instruct"
+knowledge_cutoff = "1717218000"
+name = "microsoft/phi-4-multimodal-instruct"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]

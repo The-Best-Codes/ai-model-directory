@@ -1,0 +1,9 @@
+id = "stepfun-ai/step-3.5-flash"
+name = "Step 3.5 Flash"
+
+[limit]
+context = 256
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

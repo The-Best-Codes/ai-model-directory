@@ -1,0 +1,12 @@
+id = "qwen/qwen3-next-80b-a3b-instruct"
+name = "**Qwen3-Next-80B-A3B-Instruct**"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

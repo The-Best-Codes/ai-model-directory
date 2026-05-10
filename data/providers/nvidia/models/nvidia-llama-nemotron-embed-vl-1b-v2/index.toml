@@ -1,0 +1,8 @@
+id = "nvidia/llama-nemotron-embed-vl-1b-v2"
+name = "Llama-Nemotron-Embed-VL-1B-v2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

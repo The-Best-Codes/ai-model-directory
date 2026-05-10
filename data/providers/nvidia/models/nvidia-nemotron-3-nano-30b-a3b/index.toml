@@ -1,0 +1,11 @@
+id = "nvidia/nemotron-3-nano-30b-a3b"
+knowledge_cutoff = "1764309600"
+name = "Load tokenizer and model"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

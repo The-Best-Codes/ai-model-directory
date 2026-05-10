@@ -1,0 +1,10 @@
+id = "openai/gpt-oss-120b"
+name = "GPT OSS 120B Overview"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

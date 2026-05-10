@@ -1,0 +1,5 @@
+id = "sarvamai/sarvam-m"
+name = "Sarvam-m  Overview"
+
+[modalities]
+input = [ "text" ]

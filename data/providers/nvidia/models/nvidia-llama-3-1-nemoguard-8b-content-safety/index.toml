@@ -1,0 +1,6 @@
+id = "nvidia/llama-3.1-nemoguard-8b-content-safety"
+name = "Training & Evaluation"
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

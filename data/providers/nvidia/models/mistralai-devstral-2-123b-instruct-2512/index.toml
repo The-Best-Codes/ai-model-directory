@@ -1,0 +1,9 @@
+id = "mistralai/devstral-2-123b-instruct-2512"
+name = "Devstral 2 123B Instruct 2512"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

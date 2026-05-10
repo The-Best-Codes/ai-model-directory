@@ -1,0 +1,11 @@
+id = "nvidia/nemotron-3-super-120b-a12b"
+knowledge_cutoff = "1769925600"
+name = "NVIDIA-Nemotron-3-Super-120B-A12B"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

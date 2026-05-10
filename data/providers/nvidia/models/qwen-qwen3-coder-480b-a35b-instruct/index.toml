@@ -1,0 +1,5 @@
+id = "qwen/qwen3-coder-480b-a35b-instruct"
+name = "Qwen3-Coder-480B-A35B-Instruct"
+
+[features]
+tool_call = true

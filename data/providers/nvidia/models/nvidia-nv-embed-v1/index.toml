@@ -1,0 +1,8 @@
+id = "nvidia/nv-embed-v1"
+name = "nvidia/nv-embed-v1"
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
