@@ -1,0 +1,15 @@
+id = "kimi-k2-thinking"
+last_updated = "1762387200"
+name = "kimi-k2-thinking"
+release_date = "1762387200"
+
+[features]
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,15 @@
+id = "qwen3-next:80b"
+last_updated = "1757462400"
+name = "qwen3-next:80b"
+release_date = "1757462400"
+
+[features]
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

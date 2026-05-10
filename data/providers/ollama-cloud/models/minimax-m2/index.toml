@@ -1,0 +1,14 @@
+id = "minimax-m2"
+last_updated = "1761523200"
+name = "minimax-m2"
+release_date = "1761523200"
+
+[features]
+tool_call = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

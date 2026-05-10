@@ -1,0 +1,11 @@
+id = "gemma3:27b"
+last_updated = "1741737600"
+name = "gemma3:27b"
+release_date = "1741737600"
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

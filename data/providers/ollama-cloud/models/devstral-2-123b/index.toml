@@ -1,0 +1,14 @@
+id = "devstral-2:123b"
+last_updated = "1765152000"
+name = "devstral-2:123b"
+release_date = "1765152000"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

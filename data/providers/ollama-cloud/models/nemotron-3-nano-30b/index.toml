@@ -1,0 +1,15 @@
+id = "nemotron-3-nano:30b"
+last_updated = "1765756800"
+name = "nemotron-3-nano:30b"
+release_date = "1765756800"
+
+[features]
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

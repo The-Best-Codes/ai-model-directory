@@ -1,0 +1,14 @@
+id = "rnj-1:8b"
+last_updated = "1765238400"
+name = "rnj-1:8b"
+release_date = "1765238400"
+
+[features]
+tool_call = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
