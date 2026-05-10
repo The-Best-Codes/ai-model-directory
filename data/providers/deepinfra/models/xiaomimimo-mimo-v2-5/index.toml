@@ -2,7 +2,7 @@ id = "XiaomiMiMo/MiMo-V2.5"
 name = "XiaomiMiMo/MiMo-V2.5"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 
 [limit]
