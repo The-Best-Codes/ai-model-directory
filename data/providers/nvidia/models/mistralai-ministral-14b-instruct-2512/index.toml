@@ -1,0 +1,13 @@
+id = "mistralai/ministral-14b-instruct-2512"
+name = "Ministral 3 14B Instruct 2512"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 262
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

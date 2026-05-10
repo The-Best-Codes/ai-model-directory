@@ -1,0 +1,6 @@
+id = "nvidia/riva-translate-4b-instruct-v1.1"
+name = "Training & Evaluation:"
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,5 @@
+id = "nvidia/nv-embedqa-e5-v5"
+name = "nvidia/nv-embedqa-e5-v5"
+
+[modalities]
+input = [ "text" ]

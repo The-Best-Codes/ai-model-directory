@@ -1,0 +1,13 @@
+id = "bytedance/seed-oss-36b-instruct"
+knowledge_cutoff = "1719810000"
+name = "Seed-OSS-36B-Instruct"
+
+[features]
+tool_call = true
+
+[limit]
+context = 512000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

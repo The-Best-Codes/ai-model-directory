@@ -1,0 +1,9 @@
+id = "nvidia/ising-calibration-1-35b-a3b"
+name = "nvidia/ising-calibration-1-35b-a3b"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

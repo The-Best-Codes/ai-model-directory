@@ -1,0 +1,5 @@
+id = "mistralai/mistral-nemotron"
+name = "Mistral-Nemotron Overview"
+
+[features]
+tool_call = true

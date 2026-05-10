@@ -1,0 +1,9 @@
+id = "google/gemma-3n-e2b-it"
+name = "Gemma 3n e2b-it Overview"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,9 @@
+id = "nvidia/llama-3.1-nemotron-nano-8b-v1"
+name = "Llama-3.1-Nemotron-Nano-8B-v1"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

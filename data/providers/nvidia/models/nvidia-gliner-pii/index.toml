@@ -1,0 +1,6 @@
+id = "nvidia/gliner-pii"
+name = "Inference:"
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

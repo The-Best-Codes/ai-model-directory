@@ -1,0 +1,9 @@
+id = "nvidia/llama-3.1-nemotron-ultra-253b-v1"
+name = "Llama-3.1-Nemotron-Ultra-253B-v1"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

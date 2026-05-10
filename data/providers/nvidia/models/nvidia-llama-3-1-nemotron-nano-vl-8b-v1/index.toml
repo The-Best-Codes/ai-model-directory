@@ -1,0 +1,5 @@
+id = "nvidia/llama-3.1-nemotron-nano-vl-8b-v1"
+name = "Inference:"
+
+[features]
+tool_call = true

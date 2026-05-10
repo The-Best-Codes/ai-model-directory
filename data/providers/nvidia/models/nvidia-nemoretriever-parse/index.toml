@@ -1,0 +1,9 @@
+id = "nvidia/nemoretriever-parse"
+name = "nemoretriever-parse Overview"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]

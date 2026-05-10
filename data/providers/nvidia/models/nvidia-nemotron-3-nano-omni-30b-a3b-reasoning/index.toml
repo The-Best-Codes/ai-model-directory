@@ -1,0 +1,11 @@
+id = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+name = "Log in once; the token is cached at ~/.cache/huggingface/token"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]

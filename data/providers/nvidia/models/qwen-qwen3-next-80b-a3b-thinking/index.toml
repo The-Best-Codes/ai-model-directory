@@ -1,0 +1,10 @@
+id = "qwen/qwen3-next-80b-a3b-thinking"
+name = "Qwen3-Next-80B-A3B-Thinking"
+
+[features]
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
