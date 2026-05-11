@@ -1,6 +1,0 @@
-id = "mistralai/mistral-medium-3-instruct"
-name = "Mistral Medium 3 Overview"
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]

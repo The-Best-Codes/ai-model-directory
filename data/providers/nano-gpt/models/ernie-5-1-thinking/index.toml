@@ -1,0 +1,21 @@
+id = "ernie-5.1:thinking"
+name = "ERNIE 5.1 Thinking"
+release_date = "1778371200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 119000
+output = 64000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.75
+output = 3

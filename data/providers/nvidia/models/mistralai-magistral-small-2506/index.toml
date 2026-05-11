@@ -1,8 +1,0 @@
-id = "mistralai/magistral-small-2506"
-name = "Magistral-Small-2506 Overview"
-
-[limit]
-context = 128000
-
-[modalities]
-input = [ "text" ]

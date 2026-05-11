@@ -1,0 +1,18 @@
+id = "ernie-5.1"
+name = "ernie-5.1"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 119000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.5634
+output = 2.5353
