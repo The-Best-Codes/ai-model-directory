@@ -1,5 +1,5 @@
 id = "google/gemma-4-31b-it"
-knowledge_cutoff = "1735711200"
+knowledge_cutoff = "1735689600"
 name = "Gemma 4 31B IT"
 
 [features]

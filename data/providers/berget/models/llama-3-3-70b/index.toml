@@ -1,7 +1,7 @@
 id = "llama-3.3-70b"
 name = "llama-3.3-70b"
 open_weights = true
-release_date = "1778371200"
+release_date = "1778457600"
 
 [features]
 structured_output = true

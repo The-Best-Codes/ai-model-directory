@@ -1,6 +1,6 @@
 id = "gpt-5-pro"
 name = "GPT-5 Pro"
-release_date = "1778373532"
+release_date = "1778459984"
 
 [features]
 attachment = true

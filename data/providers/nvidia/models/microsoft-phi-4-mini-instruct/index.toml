@@ -1,5 +1,5 @@
 id = "microsoft/phi-4-mini-instruct"
-knowledge_cutoff = "1717218000"
+knowledge_cutoff = "1717200000"
 name = "microsoft/phi-4-mini-instruct"
 
 [features]

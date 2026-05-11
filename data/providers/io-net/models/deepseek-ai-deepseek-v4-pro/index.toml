@@ -6,8 +6,8 @@ release_date = "1777012816"
 attachment = false
 
 [limit]
-context = 600000
-output = 131072
+context = 1048576
+output = 600000
 
 [modalities]
 input = [ "text" ]

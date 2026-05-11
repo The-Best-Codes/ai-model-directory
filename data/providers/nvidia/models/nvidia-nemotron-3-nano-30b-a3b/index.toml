@@ -1,5 +1,5 @@
 id = "nvidia/nemotron-3-nano-30b-a3b"
-knowledge_cutoff = "1764309600"
+knowledge_cutoff = "1764288000"
 name = "Load tokenizer and model"
 
 [features]
