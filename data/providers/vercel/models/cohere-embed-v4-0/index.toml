@@ -2,5 +2,14 @@ id = "cohere/embed-v4.0"
 name = "Embed v4.0"
 release_date = "1744675200"
 
+
+
+
+[modalities]
+input = [ "text" ]
+[features]
+attachment = false
+[limit]
+context = 8192
 [pricing]
 input = 0.12

@@ -1,3 +1,22 @@
 id = "gpt-realtime-mini-2025-12-15"
+knowledge_cutoff = "1696118400"
 name = "gpt-realtime-mini-2025-12-15"
 release_date = "1765612007"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32000
+output = 4096
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.6
+output = 2.4

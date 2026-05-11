@@ -1,0 +1,1 @@
+extends = { path = "deepinfra/models/qwen-qwen3-32b" }

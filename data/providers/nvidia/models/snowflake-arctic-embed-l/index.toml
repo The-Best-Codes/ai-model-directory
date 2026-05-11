@@ -1,5 +1,8 @@
 id = "snowflake/arctic-embed-l"
 name = "Inference:"
 
+
+[features]
+attachment = false
 [modalities]
 input = [ "text" ]

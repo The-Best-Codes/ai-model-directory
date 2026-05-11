@@ -5,9 +5,13 @@ release_date = "1777275059"
 [features]
 attachment = true
 reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
 
 [limit]
 context = 1000000
+output = 65536
 
 [modalities]
 input = [ "image", "text", "video" ]

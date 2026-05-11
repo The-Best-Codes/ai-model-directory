@@ -1,5 +1,8 @@
 id = "nvidia/nv-embedcode-7b-v1"
 name = "Training Dataset & Evalution:"
 
+
+[features]
+attachment = false
 [modalities]
 input = [ "text" ]

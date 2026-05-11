@@ -5,6 +5,7 @@ name = "GLM-4.7"
 structured_output = true
 tool_call = true
 
+attachment = false
 [limit]
 context = 131
 

@@ -1,13 +1,18 @@
 id = "openai/gpt-5-chat"
+knowledge_cutoff = "1727654400"
 name = "OpenAI: GPT-5 Chat"
 release_date = "1755080903"
 
 [features]
 attachment = true
 reasoning = false
+structured_output = true
+temperature = false
+tool_call = false
 
 [limit]
 context = 128000
+output = 16384
 
 [modalities]
 input = [ "file", "image", "text" ]

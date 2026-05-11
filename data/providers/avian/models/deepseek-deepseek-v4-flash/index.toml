@@ -1,12 +1,21 @@
 id = "deepseek/deepseek-v4-flash"
 name = "DeepSeek V4 Flash"
+release_date = "1777000666"
 
 [features]
+attachment = false
 reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
 
 [limit]
 context = 1000000
 output = 393216
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 cache_read = 0.021

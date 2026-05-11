@@ -4,9 +4,14 @@ release_date = "1761433877"
 
 [features]
 attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
 
 [limit]
 context = 262144
+output = 32768
 
 [modalities]
 input = [ "text" ]

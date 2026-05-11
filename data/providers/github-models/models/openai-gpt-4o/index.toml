@@ -1,16 +1,24 @@
 id = "openai/gpt-4o"
+knowledge_cutoff = "1698710400"
 name = "OpenAI GPT-4o"
 release_date = "1732060800"
 
 [features]
 attachment = true
 reasoning = false
+structured_output = true
+temperature = true
 tool_call = true
 
 [limit]
+context = 128000
 input = 131072
 output = 16384
 
 [modalities]
 input = [ "audio", "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10

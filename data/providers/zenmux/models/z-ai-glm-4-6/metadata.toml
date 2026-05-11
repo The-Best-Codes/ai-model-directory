@@ -1,0 +1,1 @@
+extends = { path = "openrouter/models/z-ai-glm-4-6" }

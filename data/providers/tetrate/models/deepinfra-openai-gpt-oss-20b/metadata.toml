@@ -1,0 +1,1 @@
+extends = { path = "deepinfra/models/openai-gpt-oss-20b" }

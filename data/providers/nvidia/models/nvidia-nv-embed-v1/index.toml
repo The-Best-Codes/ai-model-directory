@@ -1,6 +1,9 @@
 id = "nvidia/nv-embed-v1"
 name = "nvidia/nv-embed-v1"
 
+
+[features]
+attachment = false
 [limit]
 context = 32000
 

@@ -1,6 +1,9 @@
 id = "abacusai/dracarys-llama-3.1-70b-instruct"
 name = "Dracarys-Llama-3.1-70B-Instruct"
 
+
+[features]
+attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

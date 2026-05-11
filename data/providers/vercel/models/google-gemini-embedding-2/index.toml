@@ -2,6 +2,9 @@ id = "google/gemini-embedding-2"
 name = "Gemini Embedding 2"
 release_date = "1773100800"
 
+
+[limit]
+context = 8192
 [features]
 attachment = false
 reasoning = false
@@ -10,5 +13,6 @@ tool_call = false
 [modalities]
 input = [ "text" ]
 
+output = [ "text" ]
 [pricing]
 input = 0.2

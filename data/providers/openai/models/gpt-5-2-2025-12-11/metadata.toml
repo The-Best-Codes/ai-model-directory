@@ -1,0 +1,1 @@
+extends = { path = "openai/models/gpt-5-2" }

@@ -7,6 +7,7 @@ release_date = "1778457600"
 structured_output = true
 tool_call = true
 
+attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

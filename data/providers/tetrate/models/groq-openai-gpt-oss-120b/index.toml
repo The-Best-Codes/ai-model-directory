@@ -1,10 +1,12 @@
 id = "groq/openai/gpt-oss-120b"
 name = "groq/openai/gpt-oss-120b"
+open_weights = true
 release_date = "1778354618"
 
 [features]
 attachment = false
 reasoning = true
+structured_output = true
 tool_call = true
 
 [limit]
@@ -13,6 +15,7 @@ output = 65536
 
 [modalities]
 input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 cache_read = 0.075

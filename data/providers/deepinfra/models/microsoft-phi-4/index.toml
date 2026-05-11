@@ -1,13 +1,22 @@
 id = "microsoft/phi-4"
+knowledge_cutoff = "1719705600"
 name = "microsoft/phi-4"
+release_date = "1736489872"
 
 [features]
 attachment = false
 reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
 
 [limit]
 context = 16384
 output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 input = 0.07

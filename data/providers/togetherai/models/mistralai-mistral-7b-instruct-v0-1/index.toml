@@ -1,9 +1,14 @@
 id = "mistralai/Mistral-7B-Instruct-v0.1"
+knowledge_cutoff = "1696032000"
 name = "Mistral (7B) Instruct v0.1"
 release_date = "1695860851"
 
 [features]
 attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
 
 [limit]
 context = 32768

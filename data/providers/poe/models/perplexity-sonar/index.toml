@@ -5,6 +5,7 @@ release_date = "1737790362"
 [features]
 attachment = false
 reasoning = false
+structured_output = false
 temperature = false
 tool_call = false
 
@@ -14,3 +15,7 @@ context = 127000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 1
+output = 1

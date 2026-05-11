@@ -2,5 +2,15 @@ id = "mistral/mistral-embed"
 name = "Mistral Embed"
 release_date = "1702252800"
 
+
+
+
+[modalities]
+input = [ "text" ]
+[features]
+attachment = false
+tool_call = false
+[limit]
+context = 8192
 [pricing]
 input = 0.1

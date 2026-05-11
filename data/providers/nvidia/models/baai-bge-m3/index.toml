@@ -1,5 +1,8 @@
 id = "baai/bge-m3"
 name = "Inference:"
 
+
+[features]
+attachment = false
 [modalities]
 input = [ "text" ]

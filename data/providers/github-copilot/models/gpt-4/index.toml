@@ -5,6 +5,7 @@ name = "GPT 4"
 reasoning = false
 tool_call = true
 
+attachment = false
 [limit]
 context = 32768
 input = 32768

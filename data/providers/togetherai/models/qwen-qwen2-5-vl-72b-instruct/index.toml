@@ -1,9 +1,14 @@
 id = "Qwen/Qwen2.5-VL-72B-Instruct"
+knowledge_cutoff = "1719705600"
 name = "Qwen2.5-VL (72B) Instruct"
 release_date = "1742408085"
 
 [features]
 attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
 
 [limit]
 context = 32768

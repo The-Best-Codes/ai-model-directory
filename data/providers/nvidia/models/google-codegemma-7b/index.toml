@@ -1,5 +1,8 @@
 id = "google/codegemma-7b"
 name = "CodeGemma Model card"
 
+
+[features]
+attachment = false
 [modalities]
 input = [ "text" ]

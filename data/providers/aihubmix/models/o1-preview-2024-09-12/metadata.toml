@@ -1,0 +1,1 @@
+extends = { path = "aihubmix/models/o1-preview" }

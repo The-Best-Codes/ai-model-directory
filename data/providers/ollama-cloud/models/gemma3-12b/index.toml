@@ -3,6 +3,9 @@ last_updated = "1741737600"
 name = "gemma3:12b"
 release_date = "1741737600"
 
+
+[features]
+attachment = true
 [limit]
 context = 131072
 

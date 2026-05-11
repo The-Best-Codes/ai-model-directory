@@ -1,6 +1,9 @@
 id = "nvidia/llama-3.1-nemoguard-8b-topic-control"
 name = "Training, Testing, and Evaluation Datasets:"
 
+
+[features]
+attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

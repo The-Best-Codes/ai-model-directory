@@ -1,0 +1,1 @@
+extends = { path = "cohere/models/embed-v4-0" }

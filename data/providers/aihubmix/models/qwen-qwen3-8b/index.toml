@@ -1,11 +1,24 @@
 id = "Qwen/Qwen3-8B"
+knowledge_cutoff = "1743379200"
 name = "Qwen/Qwen3-8B"
+release_date = "1745876632"
 
 [features]
+attachment = false
 reasoning = false
 structured_output = false
+temperature = true
 tool_call = false
 
+[limit]
+context = 40960
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
 [pricing]
+cache_read = 0.05
 input = 0.2
 output = 0.2

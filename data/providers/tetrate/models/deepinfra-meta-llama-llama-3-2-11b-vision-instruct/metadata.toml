@@ -1,0 +1,1 @@
+extends = { path = "deepinfra/models/meta-llama-llama-3-2-11b-vision-instruct" }

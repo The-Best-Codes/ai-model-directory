@@ -1,5 +1,8 @@
 id = "nvidia/llama-nemotron-embed-1b-v2"
 name = "Inference:"
 
+
+[features]
+attachment = false
 [modalities]
 input = [ "text" ]

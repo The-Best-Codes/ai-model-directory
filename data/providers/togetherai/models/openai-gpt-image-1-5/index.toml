@@ -2,9 +2,14 @@ id = "openai/gpt-image-1.5"
 name = "GPT Image 1.5"
 release_date = "1765980893"
 
+
+[pricing]
+input = 8
+output = 32
 [features]
 attachment = false
 
+tool_call = false
 [modalities]
 input = [ "text" ]
 output = [ "image" ]

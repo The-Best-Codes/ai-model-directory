@@ -1,13 +1,18 @@
 id = "anthropic/claude-3.5-haiku"
+knowledge_cutoff = "1722384000"
 name = "Anthropic: Claude 3.5 Haiku"
 release_date = "1755152798"
 
 [features]
 attachment = true
 reasoning = false
+structured_output = false
+temperature = true
+tool_call = true
 
 [limit]
 context = 200000
+output = 8192
 
 [modalities]
 input = [ "image", "text" ]

@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-05-11T17:39:20.3046171+02:00",
+  "source_dataset": "data/all.min.json",
+  "issue_basis": "GitHub issue #5: Ensure all providers have ALL data for models that the schema permits before exiting beta",
+  "total_providers": 50,
+  "total_models": 7226,
+  "required_fields": [
+    {
+      "key": "name",
+      "label": "name"
+    },
+    {
+      "key": "limit.context",
+      "label": "context window limit"
+    },
+    {
+      "key": "pricing.input",
+      "label": "input token pricing"
+    },
+    {
+      "key": "pricing.output",
+      "label": "output token pricing"
+    },
+    {
+      "key": "features.attachment",
+      "label": "attachments support flag"
+    },
+    {
+      "key": "features.tool_call",
+      "label": "tool calling support flag"
+    },
+    {
+      "key": "modalities.input",
+      "label": "input modalities"
+    },
+    {
+      "key": "modalities.output",
+      "label": "output modalities"
+    }
+  ],
+  "missing_counts": {
+    "name": 5,
+    "limit.context": 1730,
+    "pricing.input": 1283,
+    "pricing.output": 1372,
+    "features.attachment": 1113,
+    "features.tool_call": 1368,
+    "modalities.input": 956,
+    "modalities.output": 1700
+  },
+  "models_with_any_missing": 3434
+}

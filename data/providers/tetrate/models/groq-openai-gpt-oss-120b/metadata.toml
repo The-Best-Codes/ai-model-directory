@@ -1,0 +1,1 @@
+extends = { path = "groq/models/openai-gpt-oss-120b" }

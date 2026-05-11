@@ -2,6 +2,9 @@ id = "openrouter/auto"
 name = "Auto Router"
 release_date = "1699401600"
 
+
+[limit]
+context = 2000000
 [features]
 attachment = true
 reasoning = true

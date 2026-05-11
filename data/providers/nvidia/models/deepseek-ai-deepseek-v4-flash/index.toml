@@ -4,6 +4,7 @@ name = "DeepSeek-V4-Flash Overview"
 [features]
 tool_call = true
 
+attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

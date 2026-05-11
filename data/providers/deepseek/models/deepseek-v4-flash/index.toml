@@ -6,6 +6,7 @@ reasoning = true
 structured_output = true
 tool_call = true
 
+attachment = false
 [limit]
 context = 1000000
 output = 384000

@@ -1,9 +1,14 @@
 id = "google/gemma-3n-E4B-it"
+knowledge_cutoff = "1725062400"
 name = "Gemma 3N E4B Instruct"
 release_date = "1750955040"
 
 [features]
 attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
 
 [limit]
 context = 32768

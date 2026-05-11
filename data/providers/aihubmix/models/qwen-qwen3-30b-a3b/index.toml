@@ -1,10 +1,22 @@
 id = "Qwen/Qwen3-30B-A3B"
+knowledge_cutoff = "1743379200"
 name = "Qwen/Qwen3-30B-A3B"
+release_date = "1745878604"
 
 [features]
+attachment = false
 reasoning = false
 structured_output = false
+temperature = true
 tool_call = false
+
+[limit]
+context = 40960
+output = 20000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 input = 1

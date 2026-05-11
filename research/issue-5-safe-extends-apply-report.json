@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-05-11T16:48:20.342Z",
+  "totalCandidates": 290,
+  "byType": {
+    "openrouter-complete": 277,
+    "prefix-partial-xai": 5,
+    "prefix-complete": 8
+  },
+  "byProvider": {
+    "302ai": 1,
+    "abacus": 3,
+    "aihubmix": 20,
+    "avian": 8,
+    "berget": 4,
+    "cortecs": 1,
+    "deepinfra": 36,
+    "github-models": 17,
+    "huggingface": 5,
+    "io-net": 8,
+    "kilo": 1,
+    "modelscope": 20,
+    "nvidia": 19,
+    "perplexity": 5,
+    "poe": 4,
+    "tetrate": 7,
+    "togetherai": 28,
+    "vercel": 7,
+    "zenmux": 96
+  },
+  "writtenMetadataFiles": 290,
+  "updatedIndexFiles": 290,
+  "unchangedIndexFiles": 0
+}

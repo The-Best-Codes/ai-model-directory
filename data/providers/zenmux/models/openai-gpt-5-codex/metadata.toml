@@ -1,0 +1,1 @@
+extends = { path = "openrouter/models/openai-gpt-5-codex" }

@@ -1,14 +1,22 @@
 id = "cohere-command-a"
+knowledge_cutoff = "1725062400"
 name = "cohere-command-a"
+release_date = "1741894342"
 
 [features]
 attachment = false
 reasoning = false
 structured_output = false
+temperature = true
 tool_call = false
+
+[limit]
+context = 256000
+output = 8192
 
 [modalities]
 input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 cache_read = 0

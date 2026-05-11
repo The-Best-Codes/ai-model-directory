@@ -16,6 +16,7 @@ output = 1
 [modalities]
 input = [ "text" ]
 
+output = [ "text" ]
 [pricing]
 input = 0
 output = 0

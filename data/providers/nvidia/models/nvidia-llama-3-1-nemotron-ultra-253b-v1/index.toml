@@ -4,6 +4,7 @@ name = "Llama-3.1-Nemotron-Ultra-253B-v1"
 [features]
 tool_call = true
 
+attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

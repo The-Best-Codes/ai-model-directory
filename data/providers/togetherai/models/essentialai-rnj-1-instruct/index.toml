@@ -1,8 +1,13 @@
 id = "essentialai/rnj-1-instruct"
 name = "EssentialAI Rnj-1 Instruct"
+release_date = "1765094847"
 
 [features]
 attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
 
 [limit]
 context = 32768

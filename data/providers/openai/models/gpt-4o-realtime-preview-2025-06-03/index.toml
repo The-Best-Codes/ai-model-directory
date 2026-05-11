@@ -1,3 +1,22 @@
 id = "gpt-4o-realtime-preview-2025-06-03"
+knowledge_cutoff = "1696118400"
 name = "gpt-4o-realtime-preview-2025-06-03"
 release_date = "1748907838"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32000
+output = 4096
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 2.5
+input = 40
+output = 80

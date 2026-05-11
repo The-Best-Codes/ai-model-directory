@@ -1,3 +1,21 @@
 id = "gpt-audio-mini-2025-10-06"
+knowledge_cutoff = "1696118400"
 name = "gpt-audio-mini-2025-10-06"
 release_date = "1759512137"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 0.6
+output = 2.4

@@ -1,8 +1,13 @@
 id = "deepcogito/cogito-v2-1-671b"
 name = "Cogito v2.1 671B"
+release_date = "1763071233"
 
 [features]
 attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
 
 [limit]
 context = 163840

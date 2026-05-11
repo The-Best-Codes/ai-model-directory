@@ -5,6 +5,7 @@ open_weights = true
 [features]
 tool_call = true
 
+attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

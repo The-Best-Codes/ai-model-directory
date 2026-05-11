@@ -1,15 +1,24 @@
 id = "deepseek/deepseek-r1"
+knowledge_cutoff = "1722384000"
 name = "DeepSeek-R1"
+release_date = "1737381095"
 
 [features]
 attachment = false
 reasoning = true
+structured_output = false
+temperature = true
 tool_call = true
 
 [limit]
+context = 64000
 input = 128000
 output = 4096
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 2.5

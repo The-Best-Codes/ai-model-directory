@@ -1,0 +1,55 @@
+{
+  "run": "issue-5-remaining-best-opportunities",
+  "method": "apply metadata extends for best-gain residual opportunities",
+  "notes": [
+    "Used research/issue-5-remaining-best-opportunities.tsv generated from current dataset",
+    "Wrote 63 metadata.toml files for candidates that were still metadata-free",
+    "Applied offline index updates and repaired TOML section/type placement where needed"
+  ],
+  "applied": {
+    "candidate_rows": 64,
+    "written_metadata_files": 63,
+    "updated_index_files": 63
+  },
+  "baseline": {
+    "total_models": 7226,
+    "models_with_any_missing": 2911,
+    "missing_counts": {
+      "name": 0,
+      "limit.context": 1616,
+      "pricing.input": 1174,
+      "pricing.output": 1263,
+      "features.attachment": 673,
+      "features.tool_call": 1117,
+      "modalities.input": 823,
+      "modalities.output": 1549
+    }
+  },
+  "after": {
+    "total_models": 7226,
+    "models_with_any_missing": 2878,
+    "missing_counts": {
+      "name": 0,
+      "limit.context": 1604,
+      "pricing.input": 1165,
+      "pricing.output": 1254,
+      "features.attachment": 656,
+      "features.tool_call": 1112,
+      "modalities.input": 805,
+      "modalities.output": 1502
+    }
+  },
+  "delta": {
+    "models_with_any_missing": -33,
+    "missing_counts": {
+      "name": 0,
+      "limit.context": -12,
+      "pricing.input": -9,
+      "pricing.output": -9,
+      "features.attachment": -17,
+      "features.tool_call": -5,
+      "modalities.input": -18,
+      "modalities.output": -47
+    }
+  }
+}

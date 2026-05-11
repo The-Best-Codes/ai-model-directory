@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-05-11T17:41:28.5531497+02:00",
+  "repository": "The-Best-Codes/ai-model-directory",
+  "open_issue_count": 1,
+  "issues": [
+    {
+      "number": 5,
+      "title": "Ensure all providers have ALL data for models that the schema permits before exiting beta",
+      "url": "https://github.com/The-Best-Codes/ai-model-directory/issues/5",
+      "labels": ["enhancement"],
+      "state": "OPEN",
+      "created_at": "2026-05-05T19:01:28Z",
+      "updated_at": "2026-05-05T19:01:28Z",
+      "model_mentions_raw": [],
+      "model_mentions_recognized": []
+    }
+  ]
+}

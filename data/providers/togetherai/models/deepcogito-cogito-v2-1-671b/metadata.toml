@@ -1,0 +1,1 @@
+extends = { path = "openrouter/models/deepcogito-cogito-v2-1-671b" }

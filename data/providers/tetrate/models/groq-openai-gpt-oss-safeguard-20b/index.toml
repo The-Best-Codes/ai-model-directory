@@ -5,6 +5,7 @@ release_date = "1776446750"
 [features]
 attachment = false
 reasoning = true
+structured_output = true
 tool_call = true
 
 [limit]
@@ -13,6 +14,7 @@ output = 65536
 
 [modalities]
 input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 cache_read = 0.037

@@ -1,0 +1,1 @@
+extends = { path = "openrouter/models/perplexity-sonar-reasoning-pro" }

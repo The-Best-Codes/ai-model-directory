@@ -2,11 +2,19 @@ id = "morph/morph-v3-large"
 name = "Morph V3 Large"
 release_date = "1723680000"
 
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
 [limit]
 context = 81920
 output = 16384
 
 [modalities]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

@@ -1,3 +1,11 @@
 id = "gpt-image-2-2026-04-21"
 name = "gpt-image-2-2026-04-21"
 release_date = "1776399994"
+
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+[features]
+attachment = true
+tool_call = false

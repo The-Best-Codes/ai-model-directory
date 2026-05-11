@@ -1,13 +1,22 @@
 id = "NousResearch/Hermes-3-Llama-3.1-70B"
+knowledge_cutoff = "1703980800"
 name = "NousResearch/Hermes-3-Llama-3.1-70B"
+release_date = "1723939200"
 
 [features]
 attachment = false
 reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
 
 [limit]
 context = 131072
 output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 input = 0.3

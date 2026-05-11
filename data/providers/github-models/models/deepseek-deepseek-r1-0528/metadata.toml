@@ -1,0 +1,1 @@
+extends = { path = "openrouter/models/deepseek-deepseek-r1-0528" }

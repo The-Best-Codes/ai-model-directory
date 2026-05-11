@@ -1,2 +1,23 @@
 id = "mistralai/mistral-large"
+knowledge_cutoff = "1732924800"
 name = "mistralai/mistral-large"
+release_date = "1708905600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 6

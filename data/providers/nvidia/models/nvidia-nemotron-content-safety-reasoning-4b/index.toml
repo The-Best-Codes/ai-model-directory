@@ -4,6 +4,7 @@ name = "NVIDIA-Nemotron-Content-Safety-Reasoning-4B Overview"
 [features]
 reasoning = true
 
+attachment = false
 [limit]
 context = 128000
 

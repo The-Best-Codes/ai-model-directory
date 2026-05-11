@@ -5,6 +5,7 @@ name = "GPT 3.5 Turbo"
 reasoning = false
 tool_call = true
 
+attachment = false
 [limit]
 context = 16384
 input = 16384

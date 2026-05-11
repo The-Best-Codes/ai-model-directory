@@ -1,3 +1,23 @@
 id = "Qwen/Qwen3.5-397B-A17B"
 name = "Qwen/Qwen3.5-397B-A17B"
 release_date = "1771262526"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.195
+input = 0.39
+output = 2.34

@@ -1,11 +1,18 @@
 id = "gpt-4o-2024-08-06"
 name = "gpt-4o-2024-08-06"
 
+
+
+[modalities]
+input = [ "image", "text" ]
+[limit]
+context = 128000
 [features]
 reasoning = false
 structured_output = false
 tool_call = false
 
+attachment = true
 [pricing]
 cache_read = 1.25
 input = 2.5

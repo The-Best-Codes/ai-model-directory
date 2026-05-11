@@ -1,0 +1,1 @@
+extends = { path = "google/models/gemini-embedding-2" }

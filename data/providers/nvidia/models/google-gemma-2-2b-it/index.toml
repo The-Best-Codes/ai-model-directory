@@ -1,6 +1,9 @@
 id = "google/gemma-2-2b-it"
 name = "Gemma 2 Model Card"
 
+
+[features]
+attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

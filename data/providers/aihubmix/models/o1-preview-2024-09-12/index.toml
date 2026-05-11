@@ -1,11 +1,15 @@
 id = "o1-preview-2024-09-12"
 name = "o1-preview-2024-09-12"
 
+
+[modalities]
+input = [ "image", "text" ]
 [features]
 reasoning = false
 structured_output = false
 tool_call = false
 
+attachment = true
 [pricing]
 cache_read = 7.5
 input = 15

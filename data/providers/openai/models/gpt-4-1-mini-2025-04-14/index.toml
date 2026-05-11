@@ -1,3 +1,22 @@
 id = "gpt-4.1-mini-2025-04-14"
+knowledge_cutoff = "1717200000"
 name = "gpt-4.1-mini-2025-04-14"
 release_date = "1744317547"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1047576
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.4
+output = 1.6

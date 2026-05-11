@@ -2,5 +2,12 @@ id = "openai/text-embedding-ada-002"
 name = "text-embedding-ada-002"
 release_date = "1671062400"
 
+
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+[features]
+attachment = false
 [pricing]
 input = 0.1

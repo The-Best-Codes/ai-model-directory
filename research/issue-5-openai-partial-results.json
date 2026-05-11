@@ -1,0 +1,50 @@
+{
+  "run": "openai-date-suffix-extends-partial",
+  "method": "offline metadata apply + build-all",
+  "notes": [
+    "No OPENAI_API_KEY available in current shell",
+    "Applied metadata merge logic directly to existing OpenAI index.toml files using src/lib/model.ts functions",
+    "Then rebuilt data/all.json and data/all.min.json"
+  ],
+  "baseline": {
+    "total_models": 7226,
+    "models_with_any_missing": 3434,
+    "missing_counts": {
+      "name": 5,
+      "limit.context": 1730,
+      "pricing.input": 1283,
+      "pricing.output": 1372,
+      "features.attachment": 1113,
+      "features.tool_call": 1368,
+      "modalities.input": 956,
+      "modalities.output": 1700
+    }
+  },
+  "after": {
+    "total_models": 7226,
+    "models_with_any_missing": 3394,
+    "missing_counts": {
+      "name": 5,
+      "limit.context": 1690,
+      "pricing.input": 1243,
+      "pricing.output": 1332,
+      "features.attachment": 1073,
+      "features.tool_call": 1328,
+      "modalities.input": 916,
+      "modalities.output": 1660
+    }
+  },
+  "delta": {
+    "models_with_any_missing": -40,
+    "missing_counts": {
+      "name": 0,
+      "limit.context": -40,
+      "pricing.input": -40,
+      "pricing.output": -40,
+      "features.attachment": -40,
+      "features.tool_call": -40,
+      "modalities.input": -40,
+      "modalities.output": -40
+    }
+  }
+}

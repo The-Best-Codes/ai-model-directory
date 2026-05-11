@@ -1,12 +1,18 @@
 id = "meta-llama/Llama-Guard-4-12B"
+knowledge_cutoff = "1725062400"
 name = "Llama Guard 4 12B"
 release_date = "1746038486"
 
 [features]
 attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
 
 [limit]
 context = 1048576
+output = 16384
 
 [modalities]
 input = [ "text" ]

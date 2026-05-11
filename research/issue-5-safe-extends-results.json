@@ -1,0 +1,61 @@
+{
+  "run": "issue-5-safe-extends-full-no-key-rollout",
+  "method": "metadata extends generation + offline merge apply + build-all",
+  "notes": [
+    "No provider API keys required for this rollout",
+    "Candidates generated from fully complete source models only, plus targeted xai->perplexity partial name fix",
+    "OpenAI date-suffix partial fix from prior step is included in baseline"
+  ],
+  "applied": {
+    "total_candidates": 290,
+    "by_type": {
+      "openrouter-complete": 277,
+      "prefix-complete": 8,
+      "prefix-partial-xai": 5
+    },
+    "written_metadata_files": 290,
+    "updated_index_files": 290,
+    "unchanged_index_files": 0
+  },
+  "baseline": {
+    "total_models": 7226,
+    "models_with_any_missing": 3394,
+    "missing_counts": {
+      "name": 5,
+      "limit.context": 1690,
+      "pricing.input": 1243,
+      "pricing.output": 1332,
+      "features.attachment": 1073,
+      "features.tool_call": 1328,
+      "modalities.input": 916,
+      "modalities.output": 1660
+    }
+  },
+  "after": {
+    "total_models": 7226,
+    "models_with_any_missing": 3109,
+    "missing_counts": {
+      "name": 0,
+      "limit.context": 1616,
+      "pricing.input": 1174,
+      "pricing.output": 1263,
+      "features.attachment": 1005,
+      "features.tool_call": 1117,
+      "modalities.input": 823,
+      "modalities.output": 1549
+    }
+  },
+  "delta": {
+    "models_with_any_missing": -285,
+    "missing_counts": {
+      "name": -5,
+      "limit.context": -74,
+      "pricing.input": -69,
+      "pricing.output": -69,
+      "features.attachment": -68,
+      "features.tool_call": -211,
+      "modalities.input": -93,
+      "modalities.output": -111
+    }
+  }
+}

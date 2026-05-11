@@ -5,6 +5,7 @@ name = "Seed-OSS-36B-Instruct"
 [features]
 tool_call = true
 
+attachment = false
 [limit]
 context = 512000
 

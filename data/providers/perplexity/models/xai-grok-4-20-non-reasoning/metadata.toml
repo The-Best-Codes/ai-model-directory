@@ -1,0 +1,1 @@
+extends = { path = "xai/models/grok-4-20-non-reasoning" }

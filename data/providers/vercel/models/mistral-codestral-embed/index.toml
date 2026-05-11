@@ -2,5 +2,15 @@ id = "mistral/codestral-embed"
 name = "Codestral Embed"
 release_date = "1748390400"
 
+
+
+
+[modalities]
+input = [ "text" ]
+[features]
+attachment = false
+tool_call = false
+[limit]
+context = 8192
 [pricing]
 input = 0.15

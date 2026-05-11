@@ -1,10 +1,21 @@
 id = "meta-llama/llama-3.2-3b-instruct:free"
+knowledge_cutoff = "1703980800"
 name = "meta-llama/llama-3.2-3b-instruct:free"
+release_date = "1727222400"
 
 [features]
+attachment = false
 reasoning = false
 structured_output = false
+temperature = true
 tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 input = 0.02

@@ -1,10 +1,12 @@
 id = "openai-gpt-oss-120b"
+knowledge_cutoff = "1719705600"
 name = "OpenAI-GPT-OSS-120B"
 release_date = "1754416223"
 
 [features]
 attachment = true
 reasoning = false
+structured_output = true
 temperature = false
 tool_call = false
 
@@ -14,3 +16,7 @@ context = 128000
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.039
+output = 0.18

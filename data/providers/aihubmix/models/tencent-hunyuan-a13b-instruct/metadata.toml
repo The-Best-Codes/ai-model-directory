@@ -1,0 +1,1 @@
+extends = { path = "openrouter/models/tencent-hunyuan-a13b-instruct" }

@@ -1,12 +1,18 @@
 id = "mistralai/Mistral-Small-24B-Instruct-2501"
+knowledge_cutoff = "1698710400"
 name = "Mistral Small (24B) Instruct 25.01"
 release_date = "1738246136"
 
 [features]
 attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
 
 [limit]
 context = 32768
+output = 16384
 
 [modalities]
 input = [ "text" ]

@@ -1,12 +1,18 @@
 id = "google/gemma-3-4b-it"
+knowledge_cutoff = "1725062400"
 name = "Gemma 3 4b it"
 release_date = "1743646985"
 
 [features]
 attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
 
 [limit]
 context = 65536
+output = 16384
 
 [modalities]
 input = [ "text" ]

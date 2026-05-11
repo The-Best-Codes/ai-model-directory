@@ -16,6 +16,7 @@ output = 0
 [modalities]
 input = [ "text" ]
 
+output = [ "text" ]
 [pricing]
 cache_read = 0
 cache_write = 0

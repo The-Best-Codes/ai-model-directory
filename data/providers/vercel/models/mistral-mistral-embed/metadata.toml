@@ -1,0 +1,1 @@
+extends = { path = "mistral/models/mistral-embed" }

@@ -7,6 +7,7 @@ release_date = "1773187200"
 reasoning = true
 tool_call = true
 
+attachment = false
 [limit]
 context = 262144
 

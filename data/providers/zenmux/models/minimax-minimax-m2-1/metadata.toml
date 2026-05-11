@@ -1,0 +1,1 @@
+extends = { path = "openrouter/models/minimax-minimax-m2-1" }

@@ -11,3 +11,4 @@ input = 8191
 
 [modalities]
 input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,1 @@
+extends = { path = "deepinfra/models/google-gemini-2-5-pro" }

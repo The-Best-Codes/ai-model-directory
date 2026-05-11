@@ -1,17 +1,21 @@
 id = "xiaomi-mimo-v2.5-pro"
 name = "xiaomi-mimo-v2.5-pro"
+release_date = "1776874273"
 
 [features]
 attachment = false
 reasoning = false
 structured_output = false
+temperature = true
 tool_call = false
 
 [limit]
 context = 1000000
+output = 16384
 
 [modalities]
 input = [ "text" ]
+output = [ "text" ]
 
 [pricing]
 cache_read = 0.22

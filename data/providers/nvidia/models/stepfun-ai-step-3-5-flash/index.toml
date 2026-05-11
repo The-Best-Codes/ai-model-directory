@@ -1,6 +1,9 @@
 id = "stepfun-ai/step-3.5-flash"
 name = "Step 3.5 Flash"
 
+
+[features]
+attachment = false
 [limit]
 context = 256
 

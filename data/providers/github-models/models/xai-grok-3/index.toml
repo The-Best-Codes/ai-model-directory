@@ -1,6 +1,10 @@
 id = "xai/grok-3"
 name = "Grok 3"
 
+
+[pricing]
+input = 3
+output = 15
 [features]
 attachment = false
 reasoning = false

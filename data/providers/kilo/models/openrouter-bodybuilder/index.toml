@@ -2,6 +2,9 @@ id = "openrouter/bodybuilder"
 name = "Body Builder (beta)"
 release_date = "1764903653"
 
+
+[limit]
+context = 128000
 [features]
 attachment = false
 reasoning = false

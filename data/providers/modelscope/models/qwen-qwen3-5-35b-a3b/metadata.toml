@@ -1,0 +1,1 @@
+extends = { path = "openrouter/models/qwen-qwen3-5-35b-a3b" }

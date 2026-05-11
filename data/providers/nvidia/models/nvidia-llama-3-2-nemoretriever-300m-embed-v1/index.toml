@@ -1,6 +1,9 @@
 id = "nvidia/llama-3.2-nemoretriever-300m-embed-v1"
 name = "nvidia/llama-3.2-nemoretriever-300m-embed-v1"
 
+
+[features]
+attachment = false
 [limit]
 context = 128000
 

@@ -1,0 +1,1 @@
+extends = { path = "deepinfra/models/gryphe-mythomax-l2-13b" }

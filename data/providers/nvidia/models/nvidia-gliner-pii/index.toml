@@ -1,6 +1,9 @@
 id = "nvidia/gliner-pii"
 name = "Inference:"
 
+
+[features]
+attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

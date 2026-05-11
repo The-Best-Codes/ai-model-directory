@@ -1,0 +1,1 @@
+extends = { path = "openrouter/models/x-ai-grok-4-1-fast" }

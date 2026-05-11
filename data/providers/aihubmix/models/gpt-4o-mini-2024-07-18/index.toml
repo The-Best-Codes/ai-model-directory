@@ -1,6 +1,9 @@
 id = "gpt-4o-mini-2024-07-18"
 name = "gpt-4o-mini-2024-07-18"
 
+
+[limit]
+context = 128000
 [features]
 attachment = true
 reasoning = false

@@ -1,3 +1,23 @@
 id = "o4-mini-2025-04-16"
+knowledge_cutoff = "1717200000"
 name = "o4-mini-2025-04-16"
 release_date = "1744133506"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.275
+input = 1.1
+output = 4.4

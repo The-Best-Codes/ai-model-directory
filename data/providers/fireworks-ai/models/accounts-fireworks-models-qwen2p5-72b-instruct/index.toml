@@ -5,6 +5,7 @@ open_weights = true
 [features]
 tool_call = true
 
+attachment = false
 [limit]
 context = 32768
 

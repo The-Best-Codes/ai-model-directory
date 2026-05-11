@@ -1,0 +1,1 @@
+extends = { path = "openrouter/models/anthropic-claude-3-5-haiku" }

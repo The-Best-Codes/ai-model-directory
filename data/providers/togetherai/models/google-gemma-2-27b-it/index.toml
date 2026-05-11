@@ -1,12 +1,18 @@
 id = "google/gemma-2-27b-it"
+knowledge_cutoff = "1719705600"
 name = "Gemma-2 Instruct (27B)"
 release_date = "1708648606"
 
 [features]
 attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
 
 [limit]
 context = 8192
+output = 2048
 
 [modalities]
 input = [ "text" ]

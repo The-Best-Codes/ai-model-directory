@@ -1,16 +1,25 @@
 id = "openai/gpt-5-nano"
+knowledge_cutoff = "1717113600"
 name = "OpenAI gpt-5-nano"
 release_date = "1754524800"
 
 [features]
 attachment = true
 reasoning = true
+structured_output = true
+temperature = false
 tool_call = true
 
 [limit]
+context = 400000
 input = 200000
 output = 100000
 
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.05
+output = 0.4

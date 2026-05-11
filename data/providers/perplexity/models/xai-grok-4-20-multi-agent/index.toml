@@ -1,4 +1,14 @@
 id = "xai/grok-4.20-multi-agent"
+name = "grok-4.20-multi-agent"
+release_date = "1773014400"
+
+[features]
+attachment = true
+reasoning = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
 
 [pricing]
 cache_read = 0.2
