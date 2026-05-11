@@ -23,9 +23,9 @@ Generated artifacts:
 - `issue-5-safe-extends-apply-report.json`: machine-readable apply report for generated metadata + index updates.
 - `issue-5-safe-extends-results.json`: measured baseline vs after metrics for full safe rollout.
 - `issue-5-safe-attachment-from-modalities-candidates.tsv`: models eligible for deterministic attachment inference.
-- `issue-5-safe-attachment-results.json`: measured impact of attachment inference rollout.
+- `issue-5-safe-attachment-results.json`: measured impact of attachment inference rollout (immediate post-attachment snapshot).
 - `issue-5-remaining-best-opportunities.tsv`: residual best-gain opportunities after major safe passes.
-- `issue-5-remaining-opportunities-results.json`: measured impact of applying residual best-gain opportunities.
+- `issue-5-remaining-opportunities-results.json`: measured impact of applying residual best-gain opportunities from the post-attachment baseline.
 - `scripts/apply-safe-extends.ts`: reproducible script for generating/applying no-key safe extends.
 
 Data source used for missing-field analysis:

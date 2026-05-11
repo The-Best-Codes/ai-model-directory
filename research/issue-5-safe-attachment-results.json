@@ -4,7 +4,8 @@
   "notes": [
     "Only models with missing features.attachment and non-empty modalities.input were targeted",
     "Inference rule: attachment = true if any input modality is not text, else false",
-    "Applied via metadata.toml and offline index update, no provider API keys needed"
+    "Applied via metadata.toml and offline index update, no provider API keys needed",
+    "This report captures the immediate post-attachment state before the residual best-opportunity pass"
   ],
   "applied": {
     "candidate_models": 332,
@@ -35,29 +36,29 @@
   },
   "after": {
     "total_models": 7226,
-    "models_with_any_missing": 2878,
+    "models_with_any_missing": 2911,
     "missing_counts": {
       "name": 0,
-      "limit.context": 1604,
-      "pricing.input": 1165,
-      "pricing.output": 1254,
-      "features.attachment": 656,
-      "features.tool_call": 1112,
-      "modalities.input": 805,
-      "modalities.output": 1502
+      "limit.context": 1616,
+      "pricing.input": 1174,
+      "pricing.output": 1263,
+      "features.attachment": 673,
+      "features.tool_call": 1117,
+      "modalities.input": 823,
+      "modalities.output": 1549
     }
   },
   "delta": {
-    "models_with_any_missing": -231,
+    "models_with_any_missing": -198,
     "missing_counts": {
       "name": 0,
-      "limit.context": -12,
-      "pricing.input": -9,
-      "pricing.output": -9,
-      "features.attachment": -349,
-      "features.tool_call": -5,
-      "modalities.input": -18,
-      "modalities.output": -47
+      "limit.context": 0,
+      "pricing.input": 0,
+      "pricing.output": 0,
+      "features.attachment": -332,
+      "features.tool_call": 0,
+      "modalities.input": 0,
+      "modalities.output": 0
     }
   }
 }

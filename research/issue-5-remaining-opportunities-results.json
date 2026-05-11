@@ -4,7 +4,8 @@
   "notes": [
     "Used research/issue-5-remaining-best-opportunities.tsv generated from current dataset",
     "Wrote 63 metadata.toml files for candidates that were still metadata-free",
-    "Applied offline index updates and repaired TOML section/type placement where needed"
+    "Applied offline index updates and repaired TOML section/type placement where needed",
+    "Baseline corresponds to the immediate post-attachment snapshot"
   ],
   "applied": {
     "candidate_rows": 64,
