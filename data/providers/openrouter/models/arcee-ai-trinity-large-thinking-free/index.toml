@@ -1,0 +1,22 @@
+id = "arcee-ai/trinity-large-thinking:free"
+name = "Arcee AI: Trinity Large Thinking (free)"
+release_date = "1775058318"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 80000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,6 +1,6 @@
 id = "deepinfra/openai/gpt-oss-120b"
 name = "deepinfra/openai/gpt-oss-120b"
-release_date = "1778354618"
+release_date = "1778535581"
 
 [features]
 attachment = false

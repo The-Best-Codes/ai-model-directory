@@ -1,6 +1,6 @@
 id = "qwen-image-max-2025-12-30"
 name = "Qwen Image Max 2025-12-30"
-release_date = "1778459984"
+release_date = "1778546269"
 
 [features]
 attachment = false

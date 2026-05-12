@@ -1,6 +1,6 @@
 id = "deepinfra/deepseek-ai/DeepSeek-R1-0528-Turbo"
 name = "deepinfra/deepseek-ai/DeepSeek-R1-0528-Turbo"
-release_date = "1778354618"
+release_date = "1778535581"
 
 [features]
 attachment = false

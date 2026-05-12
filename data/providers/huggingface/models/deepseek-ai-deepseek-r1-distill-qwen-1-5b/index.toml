@@ -1,0 +1,19 @@
+id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+release_date = "1737363858"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1
