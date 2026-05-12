@@ -1,6 +1,6 @@
 id = "glm-4-32b-0414-128k"
 name = "GLM-4 32B (0414-128k)"
-release_date = "1778459984"
+release_date = "1778546269"
 
 [features]
 attachment = false

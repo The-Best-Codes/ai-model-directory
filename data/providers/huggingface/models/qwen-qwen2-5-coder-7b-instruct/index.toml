@@ -1,0 +1,19 @@
+id = "Qwen/Qwen2.5-Coder-7B-Instruct"
+name = "Qwen/Qwen2.5-Coder-7B-Instruct"
+release_date = "1726580329"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01
+output = 0.03

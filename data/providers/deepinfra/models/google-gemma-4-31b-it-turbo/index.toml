@@ -1,0 +1,14 @@
+id = "google/gemma-4-31B-it-turbo"
+name = "google/gemma-4-31B-it-turbo"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+input = 0.12000000000000001
+output = 0.37
