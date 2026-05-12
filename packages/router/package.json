@@ -1,0 +1,18 @@
+{
+  "name": "ai-model-directory-router",
+  "version": "0.1.0",
+  "description": "Model routing, cost calculation, fallback chains, and context management for the AI Model Directory",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "decimal.js": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.13",
+    "typescript": "^6.0.3"
+  }
+}
