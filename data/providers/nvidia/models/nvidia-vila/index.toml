@@ -1,9 +1,0 @@
-id = "nvidia/vila"
-name = "Vila Model Card"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text", "video" ]
-output = [ "text" ]

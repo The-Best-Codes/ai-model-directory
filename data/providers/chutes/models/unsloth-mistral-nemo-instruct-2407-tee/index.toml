@@ -1,0 +1,10 @@
+id = "unsloth/Mistral-Nemo-Instruct-2407-TEE"
+name = "unsloth/Mistral-Nemo-Instruct-2407-TEE"
+
+[limit]
+context = 131072
+
+[pricing]
+cache_read = 0.01225
+input = 0.0245
+output = 0.0978

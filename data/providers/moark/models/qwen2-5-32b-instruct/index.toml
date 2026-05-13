@@ -12,7 +12,3 @@ context = 32000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.1852736508
-output = 0.1852736508

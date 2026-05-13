@@ -1,5 +1,512 @@
 # Changelog
 
+## Run at 1778632890
+
+### 302ai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### abacus
+
+- 1 models added, 5 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `Qwen/Qwen3.6-27B`
+
+</details>
+
+<details>
+<summary>Removed models (5)</summary>
+
+- `grok-3`
+- `grok-4-0709`
+- `grok-4-1-fast-non-reasoning`
+- `grok-4-fast-non-reasoning`
+- `grok-code-fast-1`
+
+</details>
+
+### alibaba-cn
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### aihubmix
+
+- 0 models added, 2 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `deepseek-math-v2`
+- `deepseek-v3.2-speciale`
+
+</details>
+
+### anthropic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### avian
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### baseten
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### berget
+
+- 6 models added, 15 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 14 |
+| `pricing.input` | 0 | 0 | 40 |
+| `pricing.output` | 0 | 0 | 37 |
+
+<details>
+<summary>Added models (6)</summary>
+
+- `kimi-k2-6`
+- `kimi/2.6`
+- `kimi2.6`
+- `moonshot/kimi-2.6`
+- `moonshotai/Kimi-K2`
+- `moonshotai/Kimi-K2.6`
+
+</details>
+
+<details>
+<summary>Removed models (15)</summary>
+
+- `deepseek-r1`
+- `glm`
+- `glm-4.6`
+- `glm-4.7`
+- `glm4.6`
+- `glm4.7`
+- `mistral-medium`
+- `mistral-medium-3.5`
+- `mistral/3.5`
+- `mistralai/Mistral-Medium-3.5-128B`
+- `unsloth/MAI-DS-R1-GGUF`
+- `zai-org/GLM-4.7`
+- `zai-org/GLM-4.7-FP8`
+- `zai/glm-4.6`
+- `zai/glm-4.7`
+
+</details>
+
+### cerebras
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### chutes
+
+- 2 models added, 6 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 2 |
+| `pricing.cache_read` | 0 | 0 | 2 |
+
+<details>
+<summary>Added models (2)</summary>
+
+- `Qwen/Qwen3-Next-80B-A3B-Instruct-TEE`
+- `unsloth/Mistral-Nemo-Instruct-2407-TEE`
+
+</details>
+
+<details>
+<summary>Removed models (6)</summary>
+
+- `NousResearch/Hermes-4-14B`
+- `Qwen/Qwen3Guard-Gen-0.6B`
+- `rednote-hilab/dots.ocr`
+- `unsloth/Llama-3.2-1B-Instruct`
+- `unsloth/Llama-3.2-3B-Instruct`
+- `zai-org/GLM-4.6V`
+
+</details>
+
+### cohere
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cortecs
+
+- 2 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (2)</summary>
+
+- `glm-5-turbo`
+- `glm-5v-turbo`
+
+</details>
+
+### deepinfra
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### deepseek
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fastrouter
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fireworks-ai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### friendli
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-copilot
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-models
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### google
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### groq
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### helicone
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### huggingface
+
+- 3 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 6 |
+| `features.tool_call` | 0 | 0 | 8 |
+| `pricing.input` | 0 | 0 | 1 |
+| `pricing.output` | 0 | 0 | 1 |
+
+<details>
+<summary>Added models (3)</summary>
+
+- `CohereLabs/command-a-vision-07-2025`
+- `katanemo/Arch-Router-1.5B`
+- `zai-org/GLM-4.7-Flash`
+
+</details>
+
+### inception
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### io-net
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `limit.context` | 0 | 0 | 1 |
+
+### jiekou
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### kilo
+
+- 2 models added, 4 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 2 |
+| `pricing.cache_read` | 1 | 0 | 2 |
+| `limit.context` | 0 | 0 | 2 |
+| `limit.output` | 1 | 1 | 2 |
+| `modalities.input` | 0 | 0 | 8 |
+
+<details>
+<summary>Added models (2)</summary>
+
+- `anthropic/claude-opus-4.7-fast`
+- `perceptron/perceptron-mk1`
+
+</details>
+
+<details>
+<summary>Removed models (4)</summary>
+
+- `qwen/qwen-max`
+- `qwen/qwen-turbo`
+- `qwen/qwen-vl-max`
+- `qwen/qwen-vl-plus`
+
+</details>
+
+### llmgateway
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 200 |
+
+### mistral
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### modelscope
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### moark
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 1 | 0 | 73 |
+| `pricing.output` | 1 | 0 | 64 |
+
+### nano-gpt
+
+- 21 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (21)</summary>
+
+- `Gemma-4-31B-Claude-4.6-Opus-Reasoning-Distilled`
+- `Gemma-4-31B-Cognitive-Unshackled`
+- `Gemma-4-31B-DarkIdol`
+- `Gemma-4-31B-GarnetV2`
+- `Gemma-4-31B-Gemopus`
+- `Gemma-4-31B-Musica-v1`
+- `Gemma-4-31B-Queen`
+- `Gemma-4-31B-it`
+- `Qwen3.5-27B-Omega-Evolution-v2.2-Derestricted`
+- `Qwen3.5-27B-Omega-Evolution-v2.2-Derestricted-Lite`
+- `gemma-4-31B-Fabled`
+- `gemma-4-31B-Garnet`
+- `gemma-4-31B-K1-v5`
+- `gemma-4-31B-Larkspur-v0.5`
+- `gemma-4-31B-MeroMero`
+- `mirothinker-1-7-deepresearch`
+- `mirothinker-1-7-deepresearch-mini`
+- `perceptron/perceptron-mk1`
+- `sarvam-105b`
+- `sarvam-30b`
+- `stepfun-ai/step-3.6`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `unsloth/gemma-3-1b-it`
+
+</details>
+
+### novita
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 1 |
+| `pricing.output` | 0 | 0 | 1 |
+
+### ollama-cloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### nvidia
+
+- 0 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `nvidia/vila`
+
+</details>
+
+### openai
+
+- 0 models added, 2 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `dall-e-2`
+- `dall-e-3`
+
+</details>
+
+### ovhcloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### perplexity
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### poe
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.attachment` | 0 | 0 | 6 |
+| `features.tool_call` | 0 | 0 | 11 |
+| `pricing.input` | 0 | 7 | 0 |
+| `pricing.output` | 0 | 7 | 0 |
+| `modalities.input` | 0 | 0 | 7 |
+
+### openrouter
+
+- 2 models added, 4 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 2 |
+| `pricing.cache_read` | 1 | 0 | 2 |
+| `limit.context` | 0 | 0 | 2 |
+| `limit.output` | 1 | 1 | 2 |
+| `modalities.input` | 0 | 0 | 8 |
+
+<details>
+<summary>Added models (2)</summary>
+
+- `anthropic/claude-opus-4.7-fast`
+- `perceptron/perceptron-mk1`
+
+</details>
+
+<details>
+<summary>Removed models (4)</summary>
+
+- `qwen/qwen-max`
+- `qwen/qwen-turbo`
+- `qwen/qwen-vl-max`
+- `qwen/qwen-vl-plus`
+
+</details>
+
+### requesty
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### synthetic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### tetrate
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### togetherai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### venice
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### vercel
+
+- 0 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `anthropic/claude-3.7-sonnet`
+
+</details>
+
+### wandb
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### xai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### zenmux
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### Summary
+
+- Providers updated: 49
+- Total models added: 39
+- Total models removed: 41
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 214 |
+| `features.attachment` | 0 | 0 | 6 |
+| `features.structured_output` | 0 | 0 | 6 |
+| `features.tool_call` | 0 | 0 | 19 |
+| `pricing.input` | 1 | 7 | 121 |
+| `pricing.output` | 1 | 7 | 109 |
+| `pricing.cache_read` | 2 | 0 | 6 |
+| `limit.context` | 0 | 0 | 5 |
+| `limit.output` | 2 | 2 | 4 |
+| `modalities.input` | 0 | 0 | 23 |
+
 ## Run at 1778546302
 
 ### 302ai

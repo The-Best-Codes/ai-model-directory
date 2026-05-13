@@ -1,0 +1,21 @@
+id = "sarvam-30b"
+name = "Sarvam 30B"
+release_date = "1778544000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 65536
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.027999999999999997
+output = 0.11100000000000002

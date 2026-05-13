@@ -6,8 +6,12 @@ release_date = "1775107805"
 attachment = true
 reasoning = true
 temperature = false
-tool_call = false
+tool_call = true
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.5051
+output = 3.0303

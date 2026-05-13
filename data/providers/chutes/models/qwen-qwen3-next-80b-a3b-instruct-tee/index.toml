@@ -1,0 +1,10 @@
+id = "Qwen/Qwen3-Next-80B-A3B-Instruct-TEE"
+name = "Qwen/Qwen3-Next-80B-A3B-Instruct-TEE"
+
+[limit]
+context = 262144
+
+[pricing]
+cache_read = 0.14945
+input = 0.2989
+output = 1.1957

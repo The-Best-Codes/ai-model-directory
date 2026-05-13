@@ -1,6 +1,6 @@
 id = "glm-4.5-airx"
 name = "GLM-4.5 AirX"
-release_date = "1778546269"
+release_date = "1778632857"
 
 [features]
 attachment = false

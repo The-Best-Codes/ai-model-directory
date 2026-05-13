@@ -1,0 +1,20 @@
+id = "Gemma-4-31B-it"
+name = "Gemma 4 31B IT"
+release_date = "1775692800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.306
+output = 0.306
