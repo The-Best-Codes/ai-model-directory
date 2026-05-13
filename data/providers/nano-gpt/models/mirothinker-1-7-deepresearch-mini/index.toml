@@ -1,0 +1,21 @@
+id = "mirothinker-1-7-deepresearch-mini"
+name = "MiroThinker 1.7 Deep Research Mini"
+release_date = "1778457600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 10

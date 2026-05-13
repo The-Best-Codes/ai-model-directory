@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3.6-27B"
+name = "Qwen3.6 27B"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.32
+output = 3.2

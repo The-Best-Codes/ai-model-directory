@@ -1,0 +1,16 @@
+id = "moonshotai/Kimi-K2.6"
+name = "Kimi-K2.6"
+open_weights = true
+release_date = "1778112000"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.881852415
+output = 4.11531127

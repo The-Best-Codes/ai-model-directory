@@ -1,0 +1,21 @@
+id = "sarvam-105b"
+name = "Sarvam 105B"
+release_date = "1778544000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 131072
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.045000000000000005
+output = 0.177

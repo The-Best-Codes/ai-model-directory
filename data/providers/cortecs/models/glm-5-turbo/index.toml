@@ -1,0 +1,15 @@
+id = "glm-5-turbo"
+name = "glm-5-turbo"
+release_date = "1778579882"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 202752
+
+[pricing]
+input = 1.065
+output = 3.55

@@ -3,11 +3,15 @@ name = "Qwen3.5-Plus"
 release_date = "1771229977"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 temperature = false
-tool_call = false
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.3636
+output = 2.2303

@@ -1,6 +1,6 @@
 id = "gemini-2.5-pro"
 name = "Gemini 2.5 Pro"
-release_date = "1778546269"
+release_date = "1778632857"
 
 [features]
 attachment = true
