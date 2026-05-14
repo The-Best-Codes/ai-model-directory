@@ -1,0 +1,14 @@
+id = "google/gemini-3.1-flash-lite"
+name = "google/gemini-3.1-flash-lite"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 1000000
+
+[pricing]
+input = 0.25
+output = 1.4999999999999998

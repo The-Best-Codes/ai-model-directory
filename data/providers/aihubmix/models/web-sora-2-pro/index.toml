@@ -1,7 +1,0 @@
-id = "web-sora-2-pro"
-name = "web-sora-2-pro"
-
-[features]
-reasoning = false
-structured_output = false
-tool_call = false

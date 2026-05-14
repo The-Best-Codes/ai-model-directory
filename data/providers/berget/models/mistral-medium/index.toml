@@ -1,0 +1,17 @@
+id = "mistral-medium"
+name = "mistral-medium"
+open_weights = true
+release_date = "1777420800"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.7604015
+output = 5.868005

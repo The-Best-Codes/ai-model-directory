@@ -1,6 +1,6 @@
 id = "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
 name = "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
-release_date = "1778535581"
+release_date = "1778662455"
 
 [features]
 attachment = true

@@ -3,14 +3,14 @@ name = "Baidu: ERNIE 5.1"
 release_date = "1778308496"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 
 [limit]
 context = 128000
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

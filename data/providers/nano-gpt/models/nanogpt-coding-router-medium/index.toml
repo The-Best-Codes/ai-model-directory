@@ -1,0 +1,21 @@
+id = "nanogpt/coding-router:medium"
+name = "Coding Router Medium"
+release_date = "1778544000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.13999999999999999
+output = 0.27999999999999997

@@ -1,7 +1,7 @@
 id = "norwegian/whisper"
 name = "norwegian/whisper"
 open_weights = true
-release_date = "1778630400"
+release_date = "1778716800"
 
 [features]
 attachment = true

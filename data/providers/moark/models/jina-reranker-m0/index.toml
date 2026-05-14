@@ -11,6 +11,3 @@ context = 10000
 
 [modalities]
 input = [ "text" ]
-
-[pricing]
-input = 0

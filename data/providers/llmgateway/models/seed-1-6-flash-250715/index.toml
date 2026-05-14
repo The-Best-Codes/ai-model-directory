@@ -1,6 +1,6 @@
 id = "seed-1-6-flash-250715"
 name = "Seed 1.6 Flash (250715)"
-release_date = "1778632857"
+release_date = "1778719365"
 
 [features]
 attachment = true
@@ -17,8 +17,8 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.015000000000000001
+cache_read = 0.015
 cache_write = 0
-input = 0.06999999999999999
+input = 0.07
 output = 0.3
 reasoning = 0

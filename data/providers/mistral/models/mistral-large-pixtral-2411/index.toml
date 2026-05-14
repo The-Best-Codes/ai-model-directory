@@ -1,6 +1,5 @@
 id = "mistral-large-pixtral-2411"
-name = "Pixtral Large"
-open_weights = true
+name = "pixtral-large-2411"
 
 [features]
 attachment = true
@@ -14,7 +13,3 @@ context = 131072
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 2
-output = 6
