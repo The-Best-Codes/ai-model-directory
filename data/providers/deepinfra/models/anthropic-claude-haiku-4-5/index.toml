@@ -1,0 +1,14 @@
+id = "anthropic/claude-haiku-4-5"
+name = "anthropic/claude-haiku-4-5"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+output = 200000
+
+[pricing]
+input = 1
+output = 5

@@ -1,0 +1,21 @@
+id = "gpt-5.5-light"
+name = "gpt-5.5-light"
+release_date = "1778582191"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25
+output = 1.5

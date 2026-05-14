@@ -1,6 +1,6 @@
 id = "codestral-2508"
 name = "Codestral"
-release_date = "1778632857"
+release_date = "1778719365"
 
 [features]
 attachment = false
@@ -20,5 +20,5 @@ output = [ "text" ]
 cache_read = 0
 cache_write = 0
 input = 0.3
-output = 0.9000000000000001
+output = 0.9
 reasoning = 0

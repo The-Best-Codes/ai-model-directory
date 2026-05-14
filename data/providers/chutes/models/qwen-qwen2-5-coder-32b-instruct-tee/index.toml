@@ -1,0 +1,10 @@
+id = "Qwen/Qwen2.5-Coder-32B-Instruct-TEE"
+name = "Qwen/Qwen2.5-Coder-32B-Instruct-TEE"
+
+[limit]
+context = 32768
+
+[pricing]
+cache_read = 0.01225
+input = 0.0245
+output = 0.0978

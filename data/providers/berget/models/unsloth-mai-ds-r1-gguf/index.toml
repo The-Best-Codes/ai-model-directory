@@ -1,0 +1,16 @@
+id = "unsloth/MAI-DS-R1-GGUF"
+name = "unsloth/MAI-DS-R1-GGUF"
+open_weights = true
+release_date = "1768780800"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8215207
+output = 2.9340025

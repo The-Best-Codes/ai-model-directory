@@ -1,0 +1,17 @@
+id = "deepseek-v4-pro-e"
+name = "DeepSeek-V4-Pro-E"
+release_date = "1778631800"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.4242
+output = 4.8485

@@ -1,0 +1,22 @@
+id = "deepseek/deepseek-v4-flash:free"
+name = "DeepSeek: DeepSeek V4 Flash (free)"
+release_date = "1777000666"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 256000
+output = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

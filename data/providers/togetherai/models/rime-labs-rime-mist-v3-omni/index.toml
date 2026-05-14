@@ -1,0 +1,17 @@
+id = "rime-labs/rime-mist-v3-omni"
+name = "Rime Labs Mist v3 Omni"
+release_date = "1778112000"
+
+[features]
+attachment = false
+
+[limit]
+context = 448
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0
