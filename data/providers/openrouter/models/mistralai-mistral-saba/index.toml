@@ -4,7 +4,7 @@ name = "Mistral: Saba"
 release_date = "1739803239"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true
@@ -14,7 +14,7 @@ tool_call = true
 context = 32768
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]

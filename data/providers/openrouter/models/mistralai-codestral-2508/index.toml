@@ -4,7 +4,7 @@ name = "Mistral: Codestral 2508"
 release_date = "1754079630"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true
@@ -14,7 +14,7 @@ tool_call = true
 context = 256000
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]

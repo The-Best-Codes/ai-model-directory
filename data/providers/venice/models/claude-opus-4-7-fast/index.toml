@@ -1,0 +1,23 @@
+id = "claude-opus-4-7-fast"
+name = "Claude Opus 4.7 Fast"
+release_date = "1778716800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 3.6
+cache_write = 45
+input = 36
+output = 180
