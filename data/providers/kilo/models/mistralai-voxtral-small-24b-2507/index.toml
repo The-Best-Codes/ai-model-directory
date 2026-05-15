@@ -13,7 +13,7 @@ tool_call = true
 context = 32000
 
 [modalities]
-input = [ "audio", "text" ]
+input = [ "audio", "file", "text" ]
 output = [ "text" ]
 
 [pricing]

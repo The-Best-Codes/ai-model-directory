@@ -1,6 +1,6 @@
 id = "gpt-4o-mini-search-preview"
 name = "gpt-4o-mini-search-preview"
-release_date = "1778662455"
+release_date = "1778736825"
 
 [features]
 attachment = false

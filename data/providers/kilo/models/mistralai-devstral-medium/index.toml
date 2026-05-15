@@ -3,7 +3,7 @@ name = "Mistral: Devstral Medium"
 release_date = "1752161321"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true
@@ -13,7 +13,7 @@ tool_call = true
 context = 131072
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]

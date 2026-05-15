@@ -1,5 +1,616 @@
 # Changelog
 
+## Run at 1778814838
+
+### 302ai
+
+- 0 models added, 144 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (144)</summary>
+
+- `QVQ-72B-Preview`
+- `anthropic-claude-3-haiku-20240307`
+- `anthropic-claude-haiku-4-5-20251001`
+- `anthropic-claude-sonnet-4-20250514-Code`
+- `anthropic-claude-sonnet-4-5-20250929-Code`
+- `baichuan-m2-plus`
+- `beta-long-term memory`
+- `deepseek-chat`
+- `deepseek-r1-0528`
+- `deepseek-r1-baidu`
+- `deepseek-r1-huoshan`
+- `deepseek-r1-huoshan-0528`
+- `deepseek-v3`
+- `deepseek-v3-302`
+- `deepseek-v3-aliyun`
+- `deepseek-v3-baidu`
+- `deepseek-v3-huoshan`
+- `doubao-1.5-vision-lite-250315`
+- `doubao-1.5-vision-pro-250328`
+- `doubao-Vision-Lite-32k`
+- `doubao-seed-1-6-vision-250815`
+- `doubao-vision-pro-32k`
+- `gemini-2-5-flash-deepsearch`
+- `gemini-2-5-pro-deepsearch`
+- `gemini-2-flash`
+- `gemini-2-flash-search`
+- `grok-2-vision-1212`
+- `grok-4-fast-non-reasoning`
+- `grok-4-fast-reasoning`
+- `hunyuan-code`
+- `hunyuan-functioncall`
+- `hunyuan-lite`
+- `hunyuan-pro`
+- `hunyuan-role`
+- `hunyuan-standard`
+- `hunyuan-standard-256K`
+- `hunyuan-vision`
+- `meta-llama3-3-70b`
+- `minimax-abab6-5s-chat`
+- `minimax-text-01`
+- `openai-gpt-4-turbo`
+- `openai-gpt-4-turbo-2024-04-09`
+- `openai-gpt-5-codex`
+- `openai-gpt-5-pro`
+- `openai-gpt-5-pro-2025-10-06`
+- `openai-o1`
+- `openai-o1-2024-12-17`
+- `openai-o1-plus`
+- `openai-o3-mini`
+- `openai-o3-mini-2025-01-31`
+- `openai-o3-pro`
+- `openai-o4-mini-deep-research`
+- `openai-o4-mini-deep-research-2025-06-26`
+- `perplexity-sonar-reasoning`
+- `ppio-baidu-ernie-4.5-21b-a3b-thinking`
+- `ppio-deepseek-deepseek-prover-v2-671b`
+- `ppio-deepseek-deepseek-r1-0528`
+- `ppio-deepseek-deepseek-r1-community`
+- `ppio-deepseek-deepseek-r1-turbo`
+- `ppio-deepseek-deepseek-v3-0324`
+- `ppio-deepseek-deepseek-v3-community`
+- `ppio-deepseek-deepseek-v3-turbo`
+- `ppio-deepseek-v3-1-terminus`
+- `ppio-deepseek-v3-2-exp`
+- `ppio-qwen-qwen-2-5-72b-instruct`
+- `ppio-qwen-qwen3-235b-a22b-fp8`
+- `ppio-qwen-qwen3-30b-a3b-fp8`
+- `ppio-qwen-qwen3-32b-fp8`
+- `ppio-qwen-qwen3-4b-fp8`
+- `ppio-qwen-qwen3-vl-8b-instruct`
+- `ppio-zai-org-glm-4-6`
+- `qvq-plus-latest`
+- `qwen-long`
+- `qwen-max-2024-04-03`
+- `qwen-max-2024-04-28`
+- `qwen-plus-2024-11-27`
+- `qwen-plus-2024-12-20`
+- `qwen-plus-2025-01-12`
+- `qwen-plus-2025-09-11`
+- `qwen-vl-max-2024-12-30`
+- `qwen-vl-max-2025-01-25`
+- `qwen-vl-plus-2025-01-02`
+- `qwen-vl-plus-2025-01-25`
+- `qwen2-5-14b-instruct-1m`
+- `qwen2-5-7b-instruct-1m`
+- `qwen2-7b-instruct`
+- `qwen3-coder-plus-2025-09-23`
+- `qwen3-next-80b-a3b-instruct`
+- `qwen3-vl-30b-a3b-instruct`
+- `qwen3-vl-30b-a3b-thinking`
+- `qwen3-vl-32b-instruct`
+- `qwen3-vl-32b-thinking`
+- `qwen3-vl-flash`
+- `qwen3-vl-flash-2025-10-15`
+- `sense-chat-5`
+- `sense-chat-turbo`
+- `siliconflow-Qwen-Qwen3-VL-32B-Instruct`
+- `siliconflow-Qwen-Qwen3-VL-32B-Thinking`
+- `siliconflow-Qwen-Qwen3-VL-8B-Thinking`
+- `siliconflow-ascend-tribe-pangu-pro-moe`
+- `siliconflow-baidu-ernie-4-5-300B-a47b`
+- `siliconflow-deepseek-ai-DeepSeek-R1-0528-Qwen3-8B`
+- `siliconflow-deepseek-ai-deepseek-r1-distill-qwen-14b`
+- `siliconflow-deepseek-ai-deepseek-r1-distill-qwen-32b`
+- `siliconflow-deepseek-ai-deepseek-r1-distill-qwen-7b`
+- `siliconflow-deepseek-ai-deepseek-v3`
+- `siliconflow-deepseek-v-3-1-terminus`
+- `siliconflow-inclusion-ai-ling-mini-2`
+- `siliconflow-inclusionai-ling-flash-2`
+- `siliconflow-inclusionai-ring-flash-2`
+- `siliconflow-pro-deepseek-ai-deepseek-r1`
+- `siliconflow-pro-deepseek-ai-deepseek-v3`
+- `siliconflow-qwen-qwen2-7b-instruct`
+- `siliconflow-qwen-qwen3-Omni-30b-a3b-thinking`
+- `siliconflow-qwen-qwen3-next-80b-a3b-thinking-2507`
+- `siliconflow-qwen-qwen3-omni-30b-a3b-instruct`
+- `siliconflow-qwen-qwen3-vl-30b-a3b-instruct`
+- `siliconflow-qwen-qwen3-vl-30b-a3b-thinking`
+- `siliconflow-qwen3-next-80b-A3b-instruct`
+- `siliconflow-qwen3-omni-a30b- a3b-captioner`
+- `siliconflow-tencent-hunyuan-a13b-instruct`
+- `sophnet-MiMo-V2-Flash`
+- `sophnet-MiniMax-M2-1`
+- `sophnet-deepseek-r1`
+- `sophnet-deepseek-r1-0528`
+- `sophnet-deepseek-r1-distill-qwen-32b`
+- `sophnet-deepseek-r1-distill-qwen-7b`
+- `sophnet-deepseek-v3`
+- `sophnet-deepseek-v3-fast`
+- `sophnet-glm-4-6`
+- `sophnet-glm-4-7`
+- `sophnet-qwen2-5-7b-Instruct`
+- `sophnet-qwen2-5-vl-72b-instruct`
+- `sophnet-qwen3-14b`
+- `sophnet-qwen3-235b-a22b`
+- `sophnet-qwen3-next-80b-a3b-instruct`
+- `sophnet-qwq-32b`
+- `sophnet-qwq2-5-32b-instruct`
+- `sophnet-qwq2-5-72b-instruct`
+- `stepfun-step-1v-32k`
+- `tongyi-intent-detect-v3`
+- `zhipu-glm-4-6`
+- `zhipu-glm-for-coding`
+- `zhipu-glm-zero-preview`
+
+</details>
+
+### abacus
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### alibaba-cn
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### aihubmix
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### anthropic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### avian
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### baseten
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### berget
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 14 |
+| `pricing.input` | 0 | 0 | 61 |
+| `pricing.output` | 0 | 0 | 58 |
+
+### cerebras
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### chutes
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 1 |
+| `pricing.cache_read` | 0 | 0 | 2 |
+
+### cohere
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cortecs
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.cache_read` | 0 | 25 | 0 |
+| `limit.context` | 0 | 0 | 1 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `qwen3.6-35b-a3b`
+
+</details>
+
+### deepinfra
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### deepseek
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fastrouter
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fireworks-ai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### friendli
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-copilot
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-models
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### google
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### groq
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### huggingface
+
+- 0 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 7 |
+| `features.tool_call` | 0 | 0 | 6 |
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `Qwen/Qwen3-Coder-Next-FP8`
+
+</details>
+
+### inception
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### io-net
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### jiekou
+
+- 0 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `grok-4.3`
+
+</details>
+
+### kilo
+
+- 1 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.attachment` | 0 | 0 | 9 |
+| `pricing.input` | 0 | 0 | 7 |
+| `pricing.output` | 0 | 0 | 5 |
+| `pricing.cache_read` | 0 | 1 | 2 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 1 | 1 | 1 |
+| `modalities.input` | 0 | 0 | 15 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `baidu/qianfan-ocr-fast`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `baidu/qianfan-ocr-fast:free`
+
+</details>
+
+### llmgateway
+
+- 0 models added, 7 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 193 |
+
+<details>
+<summary>Removed models (7)</summary>
+
+- `grok-3`
+- `grok-4-0709`
+- `grok-4-fast`
+- `grok-4-fast-non-reasoning`
+- `grok-4-fast-reasoning`
+- `grok-code-fast-1`
+- `grok-imagine-image-pro`
+
+</details>
+
+### mistral
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### modelscope
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### moark
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `last_updated` | 0 | 0 | 1 |
+| `pricing.input` | 0 | 0 | 73 |
+| `pricing.output` | 0 | 0 | 64 |
+
+### nano-gpt
+
+- 0 models added, 8 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (8)</summary>
+
+- `TEE/mimo-v2-flash`
+- `claude-3-7-sonnet-20250219`
+- `claude-3-7-sonnet-reasoner`
+- `claude-3-7-sonnet-thinking`
+- `claude-3-7-sonnet-thinking:1024`
+- `claude-3-7-sonnet-thinking:128000`
+- `claude-3-7-sonnet-thinking:32768`
+- `claude-3-7-sonnet-thinking:8192`
+
+</details>
+
+### novita
+
+- 2 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (2)</summary>
+
+- `qwen/qwen3.6-27b`
+- `qwen/qwen3.6-35b-a3b`
+
+</details>
+
+### ollama-cloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### nvidia
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### openai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### ovhcloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### perplexity
+
+- 0 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `xai/grok-4-1-fast-non-reasoning`
+
+</details>
+
+### poe
+
+- 0 models added, 6 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (6)</summary>
+
+- `claude-haiku-3`
+- `deepseek-r1`
+- `deepseek-v3.1-t`
+- `gpt-4o-mini-search`
+- `hunyuan-image-2.1`
+- `qwen-3-coder-next-t`
+
+</details>
+
+### openrouter
+
+- 1 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.attachment` | 0 | 0 | 9 |
+| `pricing.input` | 0 | 0 | 8 |
+| `pricing.output` | 0 | 0 | 6 |
+| `pricing.cache_read` | 0 | 1 | 2 |
+| `pricing.cache_write` | 0 | 0 | 1 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 1 | 1 | 1 |
+| `modalities.input` | 0 | 0 | 15 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `baidu/qianfan-ocr-fast`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `baidu/qianfan-ocr-fast:free`
+
+</details>
+
+### requesty
+
+- 2 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (2)</summary>
+
+- `vertex/gemini-3-flash-preview:flex`
+- `vertex/gemini-3.1-pro-preview:flex`
+
+</details>
+
+### synthetic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### tetrate
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 59 |
+
+### togetherai
+
+- 0 models added, 2 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 1 | 0 | 0 |
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `deepseek-ai/DeepSeek-R1`
+- `deepseek-ai/DeepSeek-V3.1`
+
+</details>
+
+### venice
+
+- 1 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `claude-opus-4-7-fast`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `grok-41-fast`
+
+</details>
+
+### vercel
+
+- 4 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 1 |
+
+<details>
+<summary>Added models (4)</summary>
+
+- `recraft/recraft-v4.1`
+- `recraft/recraft-v4.1-pro`
+- `recraft/recraft-v4.1-utility`
+- `recraft/recraft-v4.1-utility-pro`
+
+</details>
+
+### wandb
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### xai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### zenmux
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### Summary
+
+- Providers updated: 48
+- Total models added: 12
+- Total models removed: 173
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 1 |
+| `release_date` | 1 | 0 | 266 |
+| `last_updated` | 0 | 0 | 1 |
+| `features.attachment` | 0 | 0 | 18 |
+| `features.structured_output` | 0 | 0 | 7 |
+| `features.tool_call` | 0 | 0 | 6 |
+| `pricing.input` | 0 | 0 | 151 |
+| `pricing.output` | 0 | 0 | 134 |
+| `pricing.cache_read` | 0 | 27 | 6 |
+| `pricing.cache_write` | 0 | 0 | 1 |
+| `limit.context` | 0 | 0 | 3 |
+| `limit.output` | 2 | 2 | 2 |
+| `modalities.input` | 0 | 0 | 30 |
+
 ## Run at 1778719399
 
 ### 302ai

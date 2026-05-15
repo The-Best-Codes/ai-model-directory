@@ -1,6 +1,6 @@
 id = "gemini-2.5-flash-lite"
 name = "gemini-2.5-flash-lite"
-release_date = "1778662455"
+release_date = "1778736825"
 
 [features]
 attachment = true

@@ -1,6 +1,5 @@
 id = "moonshotai/Kimi-K2.6"
 name = "Kimi K2.6 Fp4"
-release_date = "1777696884"
 
 [features]
 attachment = false

@@ -1,0 +1,15 @@
+id = "qwen3.6-35b-a3b"
+name = "qwen3.6-35b-a3b"
+release_date = "1778755082"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262000
+
+[pricing]
+input = 0.25
+output = 1.5
