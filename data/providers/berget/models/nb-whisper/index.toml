@@ -1,7 +1,7 @@
 id = "nb-whisper"
 name = "nb-whisper"
 open_weights = true
-release_date = "1778803200"
+release_date = "1778889600"
 
 [features]
 attachment = true

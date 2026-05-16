@@ -1,0 +1,17 @@
+id = "allenai/Molmo-7B-D-0924"
+name = "Molmo 7B D 0924"
+release_date = "1748451330"
+
+[features]
+attachment = false
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,17 @@
+id = "google/medgemma-27b-text-it"
+name = "Medgemma 27B Text It"
+release_date = "1761265247"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

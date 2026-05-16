@@ -1,0 +1,21 @@
+id = "gemini-2-5-flash-deepsearch"
+last_updated = "1765163270"
+name = "gemini-2.5-flash-deepsearch"
+release_date = "1749412281"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 5
+output = 25

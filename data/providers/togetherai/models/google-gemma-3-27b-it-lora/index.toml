@@ -1,0 +1,14 @@
+id = "google/gemma-3-27b-it-lora"
+name = "Gemma 3 27B It Lora"
+release_date = "1778887487"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

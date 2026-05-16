@@ -1,6 +1,6 @@
 id = "grok-4-20-beta-0309-reasoning"
 name = "Grok 4.20 Beta Reasoning (0309)"
-release_date = "1778814807"
+release_date = "1778891861"
 
 [features]
 attachment = true

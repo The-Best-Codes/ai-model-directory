@@ -6,7 +6,7 @@ release_date = "1751300139"
 [features]
 attachment = false
 reasoning = false
-structured_output = false
+structured_output = true
 temperature = true
 tool_call = false
 

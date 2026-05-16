@@ -1,0 +1,16 @@
+id = "grok-3-mini-high"
+name = "grok-3-mini-high"
+release_date = "1776384000"
+
+[features]
+attachment = true
+reasoning = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 1.25
+output = 2.5

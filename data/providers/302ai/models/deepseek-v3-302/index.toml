@@ -1,0 +1,21 @@
+id = "deepseek-v3-302"
+last_updated = "1765444408"
+name = "deepseek-r1-aliyun"
+release_date = "1738736247"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.3

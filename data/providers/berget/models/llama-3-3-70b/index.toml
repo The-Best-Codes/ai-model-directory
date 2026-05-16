@@ -1,7 +1,7 @@
 id = "llama-3.3-70b"
 name = "llama-3.3-70b"
 open_weights = true
-release_date = "1778803200"
+release_date = "1778889600"
 
 [features]
 structured_output = true
@@ -12,5 +12,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.054280745
-output = 1.054280745
+input = 1.0486701
+output = 1.0486701

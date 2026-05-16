@@ -1,16 +1,16 @@
 id = "grok-3-latest"
 name = "grok-3-latest"
-release_date = "1743724800"
+release_date = "1776384000"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.75
-input = 3
-output = 15
+cache_read = 0.2
+input = 1.25
+output = 2.5

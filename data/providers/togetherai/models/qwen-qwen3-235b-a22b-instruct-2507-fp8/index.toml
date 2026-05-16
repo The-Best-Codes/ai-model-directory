@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8"
+name = "Qwen3 235B A22b Instruct 2507 Fp8"
+release_date = "1753813799"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

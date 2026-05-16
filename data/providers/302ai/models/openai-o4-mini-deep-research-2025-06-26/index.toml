@@ -1,0 +1,21 @@
+id = "openai-o4-mini-deep-research-2025-06-26"
+last_updated = "1764570089"
+name = "o4-mini-deep-research-2025-06-26"
+release_date = "1751274668"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2
+output = 8

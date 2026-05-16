@@ -1,0 +1,23 @@
+id = "inclusionai/ring-2.6-1t"
+name = "inclusionAI: Ring-2.6-1T"
+release_date = "1778247440"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.075
+output = 0.625

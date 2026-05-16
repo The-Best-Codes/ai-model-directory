@@ -1,5 +1,693 @@
 # Changelog
 
+## Run at 1778891893
+
+### 302ai
+
+- 144 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (144)</summary>
+
+- `QVQ-72B-Preview`
+- `anthropic-claude-3-haiku-20240307`
+- `anthropic-claude-haiku-4-5-20251001`
+- `anthropic-claude-sonnet-4-20250514-Code`
+- `anthropic-claude-sonnet-4-5-20250929-Code`
+- `baichuan-m2-plus`
+- `beta-long-term memory`
+- `deepseek-chat`
+- `deepseek-r1-0528`
+- `deepseek-r1-baidu`
+- `deepseek-r1-huoshan`
+- `deepseek-r1-huoshan-0528`
+- `deepseek-v3`
+- `deepseek-v3-302`
+- `deepseek-v3-aliyun`
+- `deepseek-v3-baidu`
+- `deepseek-v3-huoshan`
+- `doubao-1.5-vision-lite-250315`
+- `doubao-1.5-vision-pro-250328`
+- `doubao-Vision-Lite-32k`
+- `doubao-seed-1-6-vision-250815`
+- `doubao-vision-pro-32k`
+- `gemini-2-5-flash-deepsearch`
+- `gemini-2-5-pro-deepsearch`
+- `gemini-2-flash`
+- `gemini-2-flash-search`
+- `grok-2-vision-1212`
+- `grok-4-fast-non-reasoning`
+- `grok-4-fast-reasoning`
+- `hunyuan-code`
+- `hunyuan-functioncall`
+- `hunyuan-lite`
+- `hunyuan-pro`
+- `hunyuan-role`
+- `hunyuan-standard`
+- `hunyuan-standard-256K`
+- `hunyuan-vision`
+- `meta-llama3-3-70b`
+- `minimax-abab6-5s-chat`
+- `minimax-text-01`
+- `openai-gpt-4-turbo`
+- `openai-gpt-4-turbo-2024-04-09`
+- `openai-gpt-5-codex`
+- `openai-gpt-5-pro`
+- `openai-gpt-5-pro-2025-10-06`
+- `openai-o1`
+- `openai-o1-2024-12-17`
+- `openai-o1-plus`
+- `openai-o3-mini`
+- `openai-o3-mini-2025-01-31`
+- `openai-o3-pro`
+- `openai-o4-mini-deep-research`
+- `openai-o4-mini-deep-research-2025-06-26`
+- `perplexity-sonar-reasoning`
+- `ppio-baidu-ernie-4.5-21b-a3b-thinking`
+- `ppio-deepseek-deepseek-prover-v2-671b`
+- `ppio-deepseek-deepseek-r1-0528`
+- `ppio-deepseek-deepseek-r1-community`
+- `ppio-deepseek-deepseek-r1-turbo`
+- `ppio-deepseek-deepseek-v3-0324`
+- `ppio-deepseek-deepseek-v3-community`
+- `ppio-deepseek-deepseek-v3-turbo`
+- `ppio-deepseek-v3-1-terminus`
+- `ppio-deepseek-v3-2-exp`
+- `ppio-qwen-qwen-2-5-72b-instruct`
+- `ppio-qwen-qwen3-235b-a22b-fp8`
+- `ppio-qwen-qwen3-30b-a3b-fp8`
+- `ppio-qwen-qwen3-32b-fp8`
+- `ppio-qwen-qwen3-4b-fp8`
+- `ppio-qwen-qwen3-vl-8b-instruct`
+- `ppio-zai-org-glm-4-6`
+- `qvq-plus-latest`
+- `qwen-long`
+- `qwen-max-2024-04-03`
+- `qwen-max-2024-04-28`
+- `qwen-plus-2024-11-27`
+- `qwen-plus-2024-12-20`
+- `qwen-plus-2025-01-12`
+- `qwen-plus-2025-09-11`
+- `qwen-vl-max-2024-12-30`
+- `qwen-vl-max-2025-01-25`
+- `qwen-vl-plus-2025-01-02`
+- `qwen-vl-plus-2025-01-25`
+- `qwen2-5-14b-instruct-1m`
+- `qwen2-5-7b-instruct-1m`
+- `qwen2-7b-instruct`
+- `qwen3-coder-plus-2025-09-23`
+- `qwen3-next-80b-a3b-instruct`
+- `qwen3-vl-30b-a3b-instruct`
+- `qwen3-vl-30b-a3b-thinking`
+- `qwen3-vl-32b-instruct`
+- `qwen3-vl-32b-thinking`
+- `qwen3-vl-flash`
+- `qwen3-vl-flash-2025-10-15`
+- `sense-chat-5`
+- `sense-chat-turbo`
+- `siliconflow-Qwen-Qwen3-VL-32B-Instruct`
+- `siliconflow-Qwen-Qwen3-VL-32B-Thinking`
+- `siliconflow-Qwen-Qwen3-VL-8B-Thinking`
+- `siliconflow-ascend-tribe-pangu-pro-moe`
+- `siliconflow-baidu-ernie-4-5-300B-a47b`
+- `siliconflow-deepseek-ai-DeepSeek-R1-0528-Qwen3-8B`
+- `siliconflow-deepseek-ai-deepseek-r1-distill-qwen-14b`
+- `siliconflow-deepseek-ai-deepseek-r1-distill-qwen-32b`
+- `siliconflow-deepseek-ai-deepseek-r1-distill-qwen-7b`
+- `siliconflow-deepseek-ai-deepseek-v3`
+- `siliconflow-deepseek-v-3-1-terminus`
+- `siliconflow-inclusion-ai-ling-mini-2`
+- `siliconflow-inclusionai-ling-flash-2`
+- `siliconflow-inclusionai-ring-flash-2`
+- `siliconflow-pro-deepseek-ai-deepseek-r1`
+- `siliconflow-pro-deepseek-ai-deepseek-v3`
+- `siliconflow-qwen-qwen2-7b-instruct`
+- `siliconflow-qwen-qwen3-Omni-30b-a3b-thinking`
+- `siliconflow-qwen-qwen3-next-80b-a3b-thinking-2507`
+- `siliconflow-qwen-qwen3-omni-30b-a3b-instruct`
+- `siliconflow-qwen-qwen3-vl-30b-a3b-instruct`
+- `siliconflow-qwen-qwen3-vl-30b-a3b-thinking`
+- `siliconflow-qwen3-next-80b-A3b-instruct`
+- `siliconflow-qwen3-omni-a30b- a3b-captioner`
+- `siliconflow-tencent-hunyuan-a13b-instruct`
+- `sophnet-MiMo-V2-Flash`
+- `sophnet-MiniMax-M2-1`
+- `sophnet-deepseek-r1`
+- `sophnet-deepseek-r1-0528`
+- `sophnet-deepseek-r1-distill-qwen-32b`
+- `sophnet-deepseek-r1-distill-qwen-7b`
+- `sophnet-deepseek-v3`
+- `sophnet-deepseek-v3-fast`
+- `sophnet-glm-4-6`
+- `sophnet-glm-4-7`
+- `sophnet-qwen2-5-7b-Instruct`
+- `sophnet-qwen2-5-vl-72b-instruct`
+- `sophnet-qwen3-14b`
+- `sophnet-qwen3-235b-a22b`
+- `sophnet-qwen3-next-80b-a3b-instruct`
+- `sophnet-qwq-32b`
+- `sophnet-qwq2-5-32b-instruct`
+- `sophnet-qwq2-5-72b-instruct`
+- `stepfun-step-1v-32k`
+- `tongyi-intent-detect-v3`
+- `zhipu-glm-4-6`
+- `zhipu-glm-for-coding`
+- `zhipu-glm-zero-preview`
+
+</details>
+
+### abacus
+
+- 1 models added, 2 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `gemini-3.1-flash-lite`
+
+</details>
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `gemini-3.1-flash-lite-preview`
+- `qwen-2.5-coder-32b`
+
+</details>
+
+### alibaba-cn
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### aihubmix
+
+- 0 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `DeepSeek-V3.1-Fast`
+
+</details>
+
+### anthropic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### avian
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### baseten
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### berget
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 14 |
+| `pricing.input` | 0 | 0 | 61 |
+| `pricing.output` | 0 | 0 | 58 |
+
+### cerebras
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### chutes
+
+- 0 models added, 7 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (7)</summary>
+
+- `Qwen/Qwen3-Next-80B-A3B-Instruct-TEE`
+- `XiaomiMiMo/MiMo-V2-Flash-TEE`
+- `deepseek-ai/DeepSeek-R1-0528-TEE`
+- `deepseek-ai/DeepSeek-V3-0324-TEE`
+- `deepseek-ai/DeepSeek-V3.1-TEE`
+- `tngtech/DeepSeek-TNG-R1T2-Chimera-TEE`
+- `zai-org/GLM-4.7-TEE`
+
+</details>
+
+### cohere
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cortecs
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### deepinfra
+
+- 9 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (9)</summary>
+
+- `Qwen/Qwen3-TTS-VoiceDesign`
+- `ResembleAI/chatterbox-multilingual`
+- `ResembleAI/chatterbox-turbo`
+- `XiaomiMiMo/MiMo-V2.5-tts-voicedesign`
+- `mistralai/Voxtral-Mini-3B-2507`
+- `mistralai/Voxtral-Small-24B-2507`
+- `openai/whisper-large-v3`
+- `openai/whisper-large-v3-turbo`
+- `sesame/csm-1b`
+
+</details>
+
+### deepseek
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fastrouter
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fireworks-ai
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `accounts/fireworks/models/mirothinker-1p7`
+
+</details>
+
+### friendli
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-copilot
+
+- 0 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `grok-code-fast-1`
+
+</details>
+
+### github-models
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### google
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### groq
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### huggingface
+
+- 1 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 6 |
+| `features.tool_call` | 0 | 0 | 8 |
+| `pricing.input` | 1 | 0 | 0 |
+| `pricing.output` | 1 | 0 | 0 |
+| `limit.context` | 1 | 0 | 0 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `pearl-ai/Gemma-4-31B-it-pearl`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `CohereLabs/command-a-vision-07-2025`
+
+</details>
+
+### inception
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### io-net
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.cache_write` | 16 | 0 | 0 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 0 | 0 | 1 |
+
+### jiekou
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### kilo
+
+- 1 models added, 9 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 6 |
+| `pricing.input` | 0 | 0 | 4 |
+| `pricing.output` | 0 | 0 | 5 |
+| `pricing.cache_read` | 1 | 0 | 1 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 1 | 0 | 0 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `inclusionai/ring-2.6-1t`
+
+</details>
+
+<details>
+<summary>Removed models (9)</summary>
+
+- `inclusionai/ring-2.6-1t:free`
+- `x-ai/grok-3`
+- `x-ai/grok-3-beta`
+- `x-ai/grok-3-mini`
+- `x-ai/grok-3-mini-beta`
+- `x-ai/grok-4`
+- `x-ai/grok-4-fast`
+- `x-ai/grok-4.1-fast`
+- `x-ai/grok-code-fast-1`
+
+</details>
+
+### llmgateway
+
+- 3 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 192 |
+
+<details>
+<summary>Added models (3)</summary>
+
+- `text-embedding-3-large`
+- `text-embedding-3-small`
+- `text-embedding-ada-002`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `grok-4-1-fast`
+
+</details>
+
+### mistral
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### modelscope
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `Shanghai_AI_Laboratory/Intern-S2-Preview`
+
+</details>
+
+### moark
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 1 | 0 | 73 |
+| `pricing.output` | 1 | 0 | 64 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `Wan2.7`
+
+</details>
+
+### nano-gpt
+
+- 0 models added, 2 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 1 |
+| `pricing.output` | 0 | 0 | 1 |
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `miromind-ai/mirothinker-v1.5-235b`
+- `tngtech/DeepSeek-TNG-R1T2-Chimera`
+
+</details>
+
+### novita
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 1 |
+| `pricing.output` | 0 | 0 | 1 |
+
+### ollama-cloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### nvidia
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### openai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### ovhcloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### perplexity
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### poe
+
+- 0 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `deepseek-v3.1`
+
+</details>
+
+### openrouter
+
+- 1 models added, 9 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 6 |
+| `pricing.input` | 0 | 0 | 4 |
+| `pricing.output` | 0 | 0 | 5 |
+| `pricing.cache_read` | 1 | 0 | 1 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 1 | 0 | 0 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `inclusionai/ring-2.6-1t`
+
+</details>
+
+<details>
+<summary>Removed models (9)</summary>
+
+- `inclusionai/ring-2.6-1t:free`
+- `x-ai/grok-3`
+- `x-ai/grok-3-beta`
+- `x-ai/grok-3-mini`
+- `x-ai/grok-3-mini-beta`
+- `x-ai/grok-4`
+- `x-ai/grok-4-fast`
+- `x-ai/grok-4.1-fast`
+- `x-ai/grok-code-fast-1`
+
+</details>
+
+### requesty
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### synthetic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### tetrate
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### togetherai
+
+- 13 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 1 | 1 | 0 |
+
+<details>
+<summary>Added models (13)</summary>
+
+- `BAAI/bge-base-en-v1.5`
+- `Qwen/Qwen2-72B-Instruct`
+- `Qwen/Qwen2.5-32B-Instruct`
+- `Qwen/Qwen3-14B`
+- `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`
+- `Qwen/Qwen3-32B`
+- `allenai/Molmo-7B-D-0924`
+- `arcee-ai/trinity-mini`
+- `google/gemma-3-1b-pt`
+- `google/gemma-3-27b-it-lora`
+- `google/medgemma-27b-text-it`
+- `meta-llama/Llama-3.2-3B-Instruct`
+- `pearl-ai/gemma-4-31b-it`
+
+</details>
+
+### venice
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### vercel
+
+- 0 models added, 9 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `limit.context` | 0 | 0 | 2 |
+| `limit.output` | 0 | 0 | 2 |
+
+<details>
+<summary>Removed models (9)</summary>
+
+- `xai/grok-3`
+- `xai/grok-3-fast`
+- `xai/grok-3-mini`
+- `xai/grok-3-mini-fast`
+- `xai/grok-4`
+- `xai/grok-4-fast-non-reasoning`
+- `xai/grok-4-fast-reasoning`
+- `xai/grok-code-fast-1`
+- `xai/grok-imagine-image-pro`
+
+</details>
+
+### wandb
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### xai
+
+- 4 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 28 |
+| `features.attachment` | 0 | 0 | 15 |
+| `features.reasoning` | 0 | 0 | 10 |
+| `pricing.input` | 0 | 0 | 28 |
+| `pricing.output` | 0 | 0 | 28 |
+| `pricing.cache_read` | 0 | 0 | 28 |
+| `modalities.input` | 0 | 0 | 15 |
+
+<details>
+<summary>Added models (4)</summary>
+
+- `grok-3-mini-fast-high`
+- `grok-3-mini-fast-high-beta`
+- `grok-3-mini-high`
+- `grok-3-mini-high-beta`
+
+</details>
+
+### zenmux
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### Summary
+
+- Providers updated: 48
+- Total models added: 180
+- Total models removed: 43
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 1 | 1 | 234 |
+| `features.attachment` | 0 | 0 | 15 |
+| `features.reasoning` | 0 | 0 | 10 |
+| `features.structured_output` | 0 | 0 | 18 |
+| `features.tool_call` | 0 | 0 | 8 |
+| `pricing.input` | 2 | 0 | 172 |
+| `pricing.output` | 2 | 0 | 162 |
+| `pricing.cache_read` | 2 | 0 | 30 |
+| `pricing.cache_write` | 16 | 0 | 0 |
+| `limit.context` | 1 | 0 | 5 |
+| `limit.output` | 2 | 0 | 3 |
+| `modalities.input` | 0 | 0 | 15 |
+
 ## Run at 1778814838
 
 ### 302ai

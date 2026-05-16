@@ -1,0 +1,21 @@
+id = "sophnet-deepseek-r1"
+last_updated = "1767506010"
+name = "sophnet/DeepSeek-R1"
+release_date = "1751972357"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.57
+output = 2.29
