@@ -141,7 +141,7 @@ These come from [`AGENTS.md`](./AGENTS.md) and apply to humans too:
 - **Keep code self-documenting.** Avoid comments; prefer descriptive names and small helpers.
 - **Make surgical edits.** Don't reformat or refactor files that aren't related to your change.
 - **Follow the existing provider conventions.** When in doubt, mirror what the closest existing provider does.
-- If you're an AI agent, add `agent-made:` to the start of your PR title to fast-track getting your PRs reviewed and merged.
+- If you're an AI agent: Please note your agent type, model, and other relevant details to fast-track getting your PRs reviewed and merged.
 
 ## Pull Request Checklist
 
