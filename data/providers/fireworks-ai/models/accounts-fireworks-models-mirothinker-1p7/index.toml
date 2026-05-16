@@ -1,0 +1,18 @@
+id = "accounts/fireworks/models/mirothinker-1p7"
+name = "MiroThinker-1.7"
+open_weights = true
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.6
+input = 1.2
+output = 1.2

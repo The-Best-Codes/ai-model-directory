@@ -1,16 +1,16 @@
 id = "grok-3-mini"
 name = "grok-3-mini"
-release_date = "1743724800"
+release_date = "1776384000"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.075
-input = 0.3
-output = 0.5
+cache_read = 0.2
+input = 1.25
+output = 2.5

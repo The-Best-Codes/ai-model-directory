@@ -1,0 +1,21 @@
+id = "zhipu-glm-zero-preview"
+last_updated = "1767609263"
+name = "glm-zero-preview"
+release_date = "1735603200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.5
+output = 1.5

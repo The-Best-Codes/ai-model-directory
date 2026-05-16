@@ -1,0 +1,21 @@
+id = "sophnet-MiMo-V2-Flash"
+last_updated = "1767766139"
+name = "sophnet/MiMo-V2-Flash"
+release_date = "1767690626"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.3

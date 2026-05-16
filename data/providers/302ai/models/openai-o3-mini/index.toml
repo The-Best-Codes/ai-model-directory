@@ -1,0 +1,21 @@
+id = "openai-o3-mini"
+last_updated = "1769678298"
+name = "o3-mini"
+release_date = "1738281600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.1
+output = 4.4

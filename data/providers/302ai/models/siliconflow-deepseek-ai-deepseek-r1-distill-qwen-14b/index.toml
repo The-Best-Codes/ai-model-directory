@@ -1,0 +1,21 @@
+id = "siliconflow-deepseek-ai-deepseek-r1-distill-qwen-14b"
+last_updated = "1766565774"
+name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+release_date = "1738693035"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

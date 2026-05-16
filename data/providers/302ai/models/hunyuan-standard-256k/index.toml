@@ -1,0 +1,21 @@
+id = "hunyuan-standard-256K"
+last_updated = "1764124101"
+name = "hunyuan-standard-256K"
+release_date = "1754636539"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 250000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.2
+output = 8.6

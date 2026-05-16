@@ -1,0 +1,21 @@
+id = "hunyuan-standard"
+last_updated = "1764124093"
+name = "hunyuan-standard"
+release_date = "1713916800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 30000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.64
+output = 0.72

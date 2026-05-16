@@ -1,0 +1,16 @@
+id = "BAAI/bge-base-en-v1.5"
+name = "BAAI-Bge-Base-1.5"
+release_date = "1749601524"
+
+[features]
+attachment = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.008
+output = 0.008

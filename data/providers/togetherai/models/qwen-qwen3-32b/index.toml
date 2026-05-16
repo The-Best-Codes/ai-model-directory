@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-32B"
+name = "Qwen3 32B"
+release_date = "1752778157"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

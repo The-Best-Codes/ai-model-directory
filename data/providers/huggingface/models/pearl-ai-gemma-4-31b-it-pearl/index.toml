@@ -1,0 +1,19 @@
+id = "pearl-ai/Gemma-4-31B-it-pearl"
+name = "pearl-ai/Gemma-4-31B-it-pearl"
+release_date = "1777442055"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.27999999999999997
+output = 0.86

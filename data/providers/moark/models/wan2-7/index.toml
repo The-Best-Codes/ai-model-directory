@@ -1,0 +1,11 @@
+id = "Wan2.7"
+last_updated = "1778831006"
+name = "Wan2.7"
+release_date = "1778828897"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

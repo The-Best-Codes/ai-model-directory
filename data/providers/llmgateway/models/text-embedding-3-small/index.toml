@@ -1,0 +1,23 @@
+id = "text-embedding-3-small"
+name = "Text Embedding 3 Small"
+release_date = "1778891861"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.02
+output = 0
+reasoning = 0

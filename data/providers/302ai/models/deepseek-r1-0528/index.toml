@@ -1,0 +1,21 @@
+id = "deepseek-r1-0528"
+last_updated = "1765450071"
+name = "DeepSeek-R1-0528"
+release_date = "1748503124"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.3

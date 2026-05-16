@@ -1,6 +1,6 @@
 id = "mimo-v2-pro"
 name = "MiMo V2 Pro"
-release_date = "1778814807"
+release_date = "1778891861"
 
 [features]
 attachment = false

@@ -1,0 +1,21 @@
+id = "siliconflow-ascend-tribe-pangu-pro-moe"
+last_updated = "1767958971"
+name = "ascend-tribe/pangu-pro-moe"
+release_date = "1767958419"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.143
+output = 0.572
