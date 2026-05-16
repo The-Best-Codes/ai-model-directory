@@ -1,6 +1,6 @@
 {
   "name": "ai-model-directory-repo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -8,7 +8,7 @@
   "type": "module",
   "module": "src/index.ts",
   "devDependencies": {
-    "@types/bun": "^1.3.13",
+    "@types/bun": "^1.3.14",
     "@types/cli-progress": "^3.11.6"
   },
   "peerDependencies": {
@@ -20,6 +20,6 @@
     "decimal.js": "^10.6.0",
     "dotenv": "^17.4.2",
     "smol-toml": "^1.6.1",
-    "zod": "^4.4.1"
+    "zod": "^4.4.3"
   }
 }
