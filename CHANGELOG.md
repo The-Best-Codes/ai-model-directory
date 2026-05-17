@@ -1,5 +1,348 @@
 # Changelog
 
+## Run at 1778978467
+
+### 302ai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### abacus
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### alibaba-cn
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### aihubmix
+
+- 1 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `qwen2.5-vl-72b-instruct`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `Qwen2.5-VL-72B-Instruct`
+
+</details>
+
+### anthropic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### avian
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### baseten
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### berget
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 14 |
+| `pricing.input` | 0 | 0 | 61 |
+| `pricing.output` | 0 | 0 | 58 |
+
+### cerebras
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### chutes
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cohere
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cortecs
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### deepinfra
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### deepseek
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fastrouter
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fireworks-ai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### friendli
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-copilot
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-models
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### google
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### groq
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### huggingface
+
+- 0 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 8 |
+| `features.tool_call` | 0 | 0 | 10 |
+| `pricing.input` | 0 | 1 | 0 |
+| `pricing.output` | 0 | 1 | 0 |
+| `limit.context` | 0 | 1 | 0 |
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `CohereLabs/command-a-translate-08-2025`
+
+</details>
+
+### inception
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### io-net
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### jiekou
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### kilo
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 4 |
+| `limit.output` | 0 | 4 | 0 |
+
+### llmgateway
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 195 |
+
+### mistral
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### modelscope
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### moark
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 73 |
+| `pricing.output` | 0 | 0 | 64 |
+
+### nano-gpt
+
+- 0 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 1 |
+| `pricing.output` | 0 | 0 | 1 |
+| `limit.output` | 0 | 0 | 1 |
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `mistralai/mistral-tiny`
+
+</details>
+
+### novita
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### ollama-cloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### nvidia
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### openai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### ovhcloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### perplexity
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### poe
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### openrouter
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 4 |
+| `limit.output` | 0 | 4 | 0 |
+
+### requesty
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### synthetic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### tetrate
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### togetherai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### venice
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### vercel
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `klingai/kling-v3.0-motion-control`
+
+</details>
+
+### wandb
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### xai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### zenmux
+
+- 0 models added, 10 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (10)</summary>
+
+- `inclusionai/ling-flash-2.0`
+- `inclusionai/ling-mini-2.0`
+- `inclusionai/ring-flash-2.0`
+- `inclusionai/ring-mini-2.0`
+- `x-ai/grok-4`
+- `x-ai/grok-4-fast`
+- `x-ai/grok-4-fast-non-reasoning`
+- `x-ai/grok-4.1-fast`
+- `x-ai/grok-4.1-fast-non-reasoning`
+- `x-ai/grok-code-fast-1`
+
+</details>
+
+### Summary
+
+- Providers updated: 48
+- Total models added: 2
+- Total models removed: 13
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 209 |
+| `features.structured_output` | 0 | 0 | 8 |
+| `features.tool_call` | 0 | 0 | 10 |
+| `pricing.input` | 0 | 1 | 139 |
+| `pricing.output` | 0 | 1 | 131 |
+| `limit.context` | 0 | 1 | 0 |
+| `limit.output` | 0 | 8 | 1 |
+
 ## Run at 1778891893
 
 ### 302ai

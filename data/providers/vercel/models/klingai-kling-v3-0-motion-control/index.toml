@@ -1,0 +1,12 @@
+id = "klingai/kling-v3.0-motion-control"
+name = "Kling v3.0 Motion Control"
+release_date = "1772582400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]
