@@ -1,7 +1,7 @@
 id = "whisper/v3"
 name = "whisper/v3"
 open_weights = true
-release_date = "1778889600"
+release_date = "1778976000"
 
 [features]
 attachment = true

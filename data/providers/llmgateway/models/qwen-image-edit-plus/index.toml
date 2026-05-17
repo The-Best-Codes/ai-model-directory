@@ -1,6 +1,6 @@
 id = "qwen-image-edit-plus"
 name = "Qwen Image Edit Plus"
-release_date = "1778891861"
+release_date = "1778978434"
 
 [features]
 attachment = true
