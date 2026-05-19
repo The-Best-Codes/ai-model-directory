@@ -1,6 +1,6 @@
 id = "qwen3-coder-flash"
 name = "Qwen3 Coder Flash"
-release_date = "1779064901"
+release_date = "1779151412"
 
 [features]
 attachment = false
@@ -18,7 +18,7 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.06
-cache_write = 0
+cache_write = 0.375
 input = 0.3
 output = 1.5
 reasoning = 0

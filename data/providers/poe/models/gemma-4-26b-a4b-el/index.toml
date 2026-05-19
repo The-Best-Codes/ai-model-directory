@@ -1,0 +1,13 @@
+id = "gemma-4-26b-a4b-el"
+name = "Gemma-4-26B-A4B-EL"
+release_date = "1778987222"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
