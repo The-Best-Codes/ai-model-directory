@@ -1,0 +1,17 @@
+id = "minimax/speech-2.8-turbo"
+name = "Minimax Speech 2.8 Turbo"
+release_date = "1777593600"
+
+[features]
+attachment = false
+
+[limit]
+context = 448
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0

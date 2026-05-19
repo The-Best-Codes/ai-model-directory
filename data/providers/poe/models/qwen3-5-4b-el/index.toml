@@ -1,0 +1,13 @@
+id = "qwen3.5-4b-el"
+name = "Qwen3.5-4B-EL"
+release_date = "1778987225"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

@@ -1,6 +1,6 @@
 id = "mimo-v2-omni"
 name = "MiMo V2 Omni"
-release_date = "1779064901"
+release_date = "1779151412"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "qwen-flash"
 name = "Qwen Flash"
-release_date = "1779064901"
+release_date = "1779151412"
 
 [features]
 attachment = false
@@ -18,7 +18,7 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-cache_write = 0
+cache_write = 0.0625
 input = 0.05
 output = 0.4
 reasoning = 0

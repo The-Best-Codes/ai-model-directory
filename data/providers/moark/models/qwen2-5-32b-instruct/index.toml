@@ -1,14 +1,3 @@
 id = "Qwen2.5-32B-Instruct"
-last_updated = "1751336291"
 name = "Qwen2.5-32B-Instruct"
 release_date = "1733218020"
-
-[features]
-attachment = false
-
-[limit]
-context = 32000
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]

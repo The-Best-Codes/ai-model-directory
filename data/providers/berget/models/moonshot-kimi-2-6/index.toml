@@ -4,13 +4,14 @@ open_weights = true
 release_date = "1778112000"
 
 [features]
+attachment = true
 structured_output = true
 tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.871870755
-output = 4.06873019
+input = 0.8714745
+output = 4.066881
