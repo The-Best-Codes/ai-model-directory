@@ -1,0 +1,16 @@
+id = "gemini-3.1-flash-lite"
+name = "gemini-3.1-flash-lite"
+release_date = "1779107882"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+cache_read = 0.022
+input = 0.244
+output = 1.464

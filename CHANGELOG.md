@@ -1,5 +1,515 @@
 # Changelog
 
+## Run at 1779237932
+
+### 302ai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### alibaba-cn
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### aihubmix
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 1 |
+| `pricing.output` | 0 | 0 | 1 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `gemini-3.5-flash`
+
+</details>
+
+### anthropic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### avian
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### baseten
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `zai-org/GLM-5.1`
+
+</details>
+
+### berget
+
+- 0 models added, 11 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 14 |
+| `pricing.input` | 0 | 0 | 50 |
+| `pricing.output` | 0 | 0 | 47 |
+
+<details>
+<summary>Removed models (11)</summary>
+
+- `deepseek-r1`
+- `glm`
+- `glm-4.6`
+- `glm-4.7`
+- `glm4.6`
+- `glm4.7`
+- `unsloth/MAI-DS-R1-GGUF`
+- `zai-org/GLM-4.7`
+- `zai-org/GLM-4.7-FP8`
+- `zai/glm-4.6`
+- `zai/glm-4.7`
+
+</details>
+
+### cerebras
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### chutes
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cohere
+
+- 1 models added, 1 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `command-a-plus-05-2026`
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `embed-v4.0`
+
+</details>
+
+### cortecs
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `gemini-3.1-flash-lite`
+
+</details>
+
+### deepinfra
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.attachment` | 0 | 0 | 1 |
+| `features.reasoning` | 0 | 0 | 1 |
+
+### deepseek
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fastrouter
+
+- 0 models added, 4 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (4)</summary>
+
+- `deepseek-ai/DeepSeek-V3-0324`
+- `openai/dall-e-2`
+- `openai/dall-e-3`
+- `x-ai/grok-2-vision-1212`
+
+</details>
+
+### fireworks-ai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### friendli
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-copilot
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `gemini-3.5-flash`
+
+</details>
+
+### github-models
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### google
+
+- 2 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (2)</summary>
+
+- `antigravity-preview-05-2026`
+- `gemini-3.5-flash`
+
+</details>
+
+### groq
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### helicone
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### huggingface
+
+- 0 models added, 2 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 6 |
+| `features.tool_call` | 0 | 0 | 11 |
+| `pricing.input` | 1 | 0 | 0 |
+| `pricing.output` | 1 | 0 | 0 |
+| `limit.context` | 1 | 0 | 0 |
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `CohereLabs/command-a-vision-07-2025`
+- `Qwen/Qwen2.5-VL-7B-Instruct`
+
+</details>
+
+### inception
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### io-net
+
+- 2 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 19 |
+| `pricing.output` | 0 | 0 | 19 |
+| `pricing.cache_read` | 0 | 0 | 12 |
+
+<details>
+<summary>Added models (2)</summary>
+
+- `Qwen/Qwen3.6-27B`
+- `baidu/cobuddy`
+
+</details>
+
+### jiekou
+
+- 14 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (14)</summary>
+
+- `deepseek/deepseek-v4-flash`
+- `deepseek/deepseek-v4-pro`
+- `grok-4.3`
+- `minimax/minimax-m2.5-highspeed`
+- `minimax/minimax-m2.7`
+- `minimax/minimax-m2.7-highspeed`
+- `qwen/qwen3.5-122b-a10b`
+- `qwen/qwen3.5-27b`
+- `qwen/qwen3.5-35b-a3b`
+- `qwen/qwen3.5-397b-a17b`
+- `qwen/qwen3.5-plus`
+- `zai-org/glm-5-turbo`
+- `zai-org/glm-5.1`
+- `zai-org/glm-5v-turbo`
+
+</details>
+
+### kilo
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 3 |
+| `pricing.output` | 0 | 0 | 2 |
+| `pricing.reasoning` | 0 | 0 | 1 |
+| `pricing.cache_read` | 2 | 0 | 1 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 1 | 1 | 0 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `google/gemini-3.5-flash`
+
+</details>
+
+### llmgateway
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 202 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `gemini-3.5-flash`
+
+</details>
+
+### mistral
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 1 |
+
+### modelscope
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### moark
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 73 |
+| `pricing.output` | 0 | 0 | 64 |
+
+### nano-gpt
+
+- 2 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (2)</summary>
+
+- `google/gemini-3.5-flash`
+- `google/gemini-3.5-flash-thinking`
+
+</details>
+
+### novita
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### ollama-cloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### nvidia
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### openai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### ovhcloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### perplexity
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 6 | 0 | 2 |
+| `pricing.output` | 6 | 0 | 2 |
+| `pricing.cache_read` | 7 | 0 | 3 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `google/gemini-3.5-flash`
+
+</details>
+
+### poe
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `gemini-3.5-flash`
+
+</details>
+
+### openrouter
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `knowledge_cutoff` | 0 | 1 | 0 |
+| `pricing.input` | 0 | 0 | 3 |
+| `pricing.output` | 0 | 0 | 2 |
+| `pricing.reasoning` | 0 | 0 | 1 |
+| `pricing.cache_read` | 2 | 0 | 1 |
+| `pricing.input_audio` | 0 | 0 | 1 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 1 | 1 | 0 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `google/gemini-3.5-flash`
+
+</details>
+
+### requesty
+
+- 3 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (3)</summary>
+
+- `vertex/gemini-3.5-flash`
+- `vertex/gemini-3.5-flash@eu`
+- `vertex/gemini-3.5-flash@us`
+
+</details>
+
+### synthetic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### tetrate
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### togetherai
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora`
+
+</details>
+
+### venice
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### vercel
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `google/gemini-3.5-flash`
+
+</details>
+
+### wandb
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### xai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### zenmux
+
+- 2 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (2)</summary>
+
+- `google/gemini-3.5-flash`
+- `google/gemini-3.5-flash-free`
+
+</details>
+
+### Summary
+
+- Providers updated: 48
+- Total models added: 37
+- Total models removed: 18
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 1 |
+| `knowledge_cutoff` | 0 | 1 | 0 |
+| `release_date` | 0 | 0 | 216 |
+| `features.attachment` | 0 | 0 | 1 |
+| `features.reasoning` | 0 | 0 | 1 |
+| `features.structured_output` | 0 | 0 | 6 |
+| `features.tool_call` | 0 | 0 | 11 |
+| `pricing.input` | 7 | 0 | 151 |
+| `pricing.output` | 7 | 0 | 137 |
+| `pricing.reasoning` | 0 | 0 | 2 |
+| `pricing.cache_read` | 11 | 0 | 17 |
+| `pricing.input_audio` | 0 | 0 | 1 |
+| `limit.context` | 1 | 0 | 2 |
+| `limit.output` | 2 | 2 | 0 |
+
 ## Run at 1779151442
 
 ### 302ai

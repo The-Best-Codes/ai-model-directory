@@ -1,5 +1,5 @@
 id = "mistral-vibe-cli-latest"
-name = "mistral-medium-3-5"
+name = "mistral-vibe-cli-latest"
 
 [features]
 attachment = true
