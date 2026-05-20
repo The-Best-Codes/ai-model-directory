@@ -1,4 +1,5 @@
 id = "~google/gemini-flash-latest"
+knowledge_cutoff = "1735689600"
 name = "Google Gemini Flash Latest"
 release_date = "1777318398"
 
@@ -18,9 +19,9 @@ input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.05
+cache_read = 0.15
 cache_write = 0.08333333333333334
-input = 0.5
-input_audio = 1
-output = 3
-reasoning = 3
+input = 1.5
+input_audio = 3
+output = 9
+reasoning = 9

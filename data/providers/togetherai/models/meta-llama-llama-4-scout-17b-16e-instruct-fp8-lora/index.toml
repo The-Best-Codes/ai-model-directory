@@ -1,0 +1,17 @@
+id = "meta-llama/Llama-4-Scout-17B-16E-Instruct-FP8-Lora"
+name = "Llama 4 Scout 17B 16E Instruct Fp8 Lora"
+release_date = "1779220285"
+
+[features]
+attachment = false
+
+[limit]
+context = 10485760
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

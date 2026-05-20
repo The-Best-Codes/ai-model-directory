@@ -3,7 +3,7 @@ name = "deepseek-ai/DeepSeek-V4-Flash"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1048576
