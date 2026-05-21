@@ -106,13 +106,49 @@ async function removeStaleModelDirectories(
   }
 }
 
+async function countExistingModelDirectories(
+  outputDirectory: string,
+): Promise<number> {
+  try {
+    const entries = await readdir(outputDirectory, { withFileTypes: true });
+    return entries.filter((entry) => entry.isDirectory()).length;
+  } catch (error) {
+    if (
+      error &&
+      typeof error === "object" &&
+      "code" in error &&
+      (error as { code: string }).code === "ENOENT"
+    ) {
+      return 0;
+    }
+
+    throw error;
+  }
+}
+
 export async function writeProviderModels(
   rootDirectory: string,
   provider: ProviderDefinition,
   progress: ProgressBar,
 ): Promise<ProviderRunResult> {
-  const apiModels = await provider.fetchModels(progress);
   const outputDirectory = join(rootDirectory, provider.outputDirectory);
+  const existingCount = await countExistingModelDirectories(outputDirectory);
+  const apiModels = await provider.fetchModels(progress);
+
+  if (apiModels.length === 0 && existingCount > 0) {
+    throw new Error(
+      `Refusing to wipe ${existingCount} existing model(s): fetch returned 0 models`,
+    );
+  }
+
+  if (
+    existingCount >= 10 &&
+    apiModels.length < Math.ceil(existingCount * 0.5)
+  ) {
+    throw new Error(
+      `Refusing to overwrite ${existingCount} existing model(s) with only ${apiModels.length} fetched (drop > 50%); likely a partial/failed fetch`,
+    );
+  }
 
   await mkdir(outputDirectory, { recursive: true });
 
