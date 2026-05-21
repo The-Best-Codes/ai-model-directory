@@ -21,6 +21,7 @@ export type ProviderDiff = {
 export type ProviderChangelogEntry = {
   name: string;
   diff: ProviderDiff;
+  total?: number;
 };
 
 const trackedFields: readonly string[] = [
@@ -193,11 +194,7 @@ function renderModelList(title: string, ids: string[]): string {
 }
 
 function renderProviderSection(entry: ProviderChangelogEntry): string {
-  const { name, diff } = entry;
-  const headline = `${diff.added.length} added, ${diff.removed.length} removed`;
-  const bodyLines: string[] = [
-    `- ${diff.added.length} models added, ${diff.removed.length} models removed`,
-  ];
+  const { name, diff, total } = entry;
 
   const fieldRows = trackedFields
     .map((field) => ({
@@ -209,7 +206,38 @@ function renderProviderSection(entry: ProviderChangelogEntry): string {
         fieldDiff.lost > 0 || fieldDiff.gained > 0 || fieldDiff.changed > 0,
     );
 
+  const fieldChangeCount = fieldRows.reduce(
+    (sum, { diff: fieldDiff }) =>
+      sum + fieldDiff.lost + fieldDiff.gained + fieldDiff.changed,
+    0,
+  );
+
+  const headlineParts: string[] = [
+    `${diff.added.length} added`,
+    `${diff.removed.length} removed`,
+    `${fieldChangeCount} field changes`,
+  ];
+
+  if (typeof total === "number") {
+    headlineParts.unshift(`${total} models`);
+  }
+
+  const headline = headlineParts.join(", ");
+
+  const bodyLines: string[] = ["#### Summary", ""];
+
+  if (typeof total === "number") {
+    bodyLines.push(`- Models currently tracked: ${total}`);
+  }
+
+  bodyLines.push(`- Models added: ${diff.added.length}`);
+  bodyLines.push(`- Models removed: ${diff.removed.length}`);
+  bodyLines.push(`- Total field changes: ${fieldChangeCount}`);
+
   if (fieldRows.length > 0) {
+    bodyLines.push("");
+    bodyLines.push("<details>");
+    bodyLines.push("<summary>Changed fields</summary>");
     bodyLines.push("");
     bodyLines.push("| Field | Lost | Gained | Changed |");
     bodyLines.push("| --- | ---: | ---: | ---: |");
@@ -219,8 +247,12 @@ function renderProviderSection(entry: ProviderChangelogEntry): string {
         `| \`${field}\` | ${fieldDiff.lost} | ${fieldDiff.gained} | ${fieldDiff.changed} |`,
       );
     }
+
+    bodyLines.push("");
+    bodyLines.push("</details>");
   } else {
-    bodyLines.push("- No field-level changes among existing models");
+    bodyLines.push("");
+    bodyLines.push("_No field-level changes among existing models._");
   }
 
   const addedBlock = renderModelList("Added models", diff.added);
@@ -239,7 +271,15 @@ function renderProviderSection(entry: ProviderChangelogEntry): string {
   return `<details>\n<summary><strong>${name}</strong> — ${headline}</summary>\n\n${bodyLines.join("\n")}\n\n</details>`;
 }
 
-function renderSummarySection(entries: ProviderChangelogEntry[]): string {
+export type RunTotals = {
+  totalModels?: number;
+  totalProviders?: number;
+};
+
+function renderSummarySection(
+  entries: ProviderChangelogEntry[],
+  totals: RunTotals,
+): string {
   const totalAdded = entries.reduce(
     (total, entry) => total + entry.diff.added.length,
     0,
@@ -271,13 +311,28 @@ function renderSummarySection(entries: ProviderChangelogEntry[]): string {
     }
   }
 
-  const lines: string[] = [
-    "### Summary",
-    "",
-    `- Providers updated: ${entries.length}`,
-    `- Total models added: ${totalAdded}`,
-    `- Total models removed: ${totalRemoved}`,
-  ];
+  const totalFieldChanges = [...totalsByField.values()].reduce(
+    (sum, fieldDiff) =>
+      sum + fieldDiff.lost + fieldDiff.gained + fieldDiff.changed,
+    0,
+  );
+
+  const lines: string[] = ["### Summary", ""];
+
+  if (typeof totals.totalModels === "number") {
+    const providerSuffix =
+      typeof totals.totalProviders === "number"
+        ? ` across ${totals.totalProviders} providers`
+        : "";
+    lines.push(
+      `- **Total models currently tracked: ${totals.totalModels}**${providerSuffix}`,
+    );
+  }
+
+  lines.push(`- Providers with changes this run: ${entries.length}`);
+  lines.push(`- Total models added: ${totalAdded}`);
+  lines.push(`- Total models removed: ${totalRemoved}`);
+  lines.push(`- Total field changes: ${totalFieldChanges}`);
 
   const fieldRows = trackedFields
     .map((field) => ({
@@ -304,15 +359,18 @@ function renderSummarySection(entries: ProviderChangelogEntry[]): string {
 export function renderChangelogSection(
   timestamp: number,
   entries: ProviderChangelogEntry[],
+  totals: RunTotals = {},
 ): string {
   const sections: string[] = [`## Run at ${timestamp}`, ""];
 
   if (entries.length === 0) {
-    sections.push("No providers were processed.");
+    sections.push(renderSummarySection(entries, totals));
+    sections.push("");
+    sections.push("_No providers reported model changes this run._");
     return `${sections.join("\n")}\n`;
   }
 
-  sections.push(renderSummarySection(entries));
+  sections.push(renderSummarySection(entries, totals));
   sections.push("");
   sections.push("<details>");
   sections.push("<summary><strong>Full details</strong></summary>");

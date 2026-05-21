@@ -1,6 +1,8 @@
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { readdir } from "node:fs/promises";
+
 import {
   diffProviderModels,
   prependChangelog,
@@ -108,6 +110,52 @@ process.on("uncaughtException", (error) => {
 
 const providerTimeoutMs = 10 * 60 * 1000;
 
+async function countModelDirectories(directory: string): Promise<number> {
+  try {
+    const entries = await readdir(directory, { withFileTypes: true });
+    return entries.filter((entry) => entry.isDirectory()).length;
+  } catch (error) {
+    if (
+      error &&
+      typeof error === "object" &&
+      "code" in error &&
+      (error as { code: string }).code === "ENOENT"
+    ) {
+      return 0;
+    }
+
+    throw error;
+  }
+}
+
+async function computeGrandTotals(
+  rootDirectory: string,
+  allProviders: ProviderDefinition[],
+): Promise<{ totalModels: number; totalProviders: number }> {
+  let totalModels = 0;
+  let totalProviders = 0;
+
+  for (const provider of allProviders) {
+    try {
+      const count = await countModelDirectories(
+        join(rootDirectory, provider.outputDirectory),
+      );
+
+      if (count > 0) {
+        totalProviders += 1;
+      }
+
+      totalModels += count;
+    } catch (error) {
+      console.error(
+        `Failed to count models for ${provider.name}: ${error instanceof Error ? error.message : String(error)}`,
+      );
+    }
+  }
+
+  return { totalModels, totalProviders };
+}
+
 function withTimeout<T>(
   promise: Promise<T>,
   timeoutMs: number,
@@ -193,6 +241,7 @@ export async function main(): Promise<void> {
             changelogEntries.push({
               name: provider.name,
               diff: diffProviderModels(before, after),
+              total: after.size,
             });
           } catch (error) {
             progress.log(
@@ -221,10 +270,15 @@ export async function main(): Promise<void> {
     console.log(sanitizeTerminalText(summary));
   }
 
-  if (options.changelog && changelogEntries.length > 0) {
+  if (options.changelog) {
     try {
+      const totals = await computeGrandTotals(rootDirectory, providers);
       const timestamp = Math.floor(Date.now() / 1000);
-      const section = renderChangelogSection(timestamp, changelogEntries);
+      const section = renderChangelogSection(
+        timestamp,
+        changelogEntries,
+        totals,
+      );
       const changelogPath = join(rootDirectory, "CHANGELOG.md");
 
       await prependChangelog(changelogPath, section);
