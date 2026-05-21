@@ -1,5 +1,582 @@
 # Changelog
 
+## Run at 1779324330
+
+### 302ai
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 4 |
+| `last_updated` | 0 | 0 | 4 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `gemini-3.5-flash`
+
+</details>
+
+### alibaba-cn
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### aihubmix
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### anthropic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### avian
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### baseten
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### berget
+
+- 11 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 14 |
+| `pricing.input` | 0 | 0 | 50 |
+| `pricing.output` | 0 | 0 | 47 |
+
+<details>
+<summary>Added models (11)</summary>
+
+- `deepseek-r1`
+- `glm`
+- `glm-4.6`
+- `glm-4.7`
+- `glm4.6`
+- `glm4.7`
+- `unsloth/MAI-DS-R1-GGUF`
+- `zai-org/GLM-4.7`
+- `zai-org/GLM-4.7-FP8`
+- `zai/glm-4.6`
+- `zai/glm-4.7`
+
+</details>
+
+### cerebras
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### chutes
+
+- 0 models added, 1 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 3 |
+| `pricing.output` | 0 | 0 | 3 |
+| `pricing.cache_read` | 0 | 0 | 3 |
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `zai-org/GLM-5-Turbo`
+
+</details>
+
+### cohere
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### cortecs
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `gemini-3.5-flash`
+
+</details>
+
+### deepinfra
+
+- 0 models added, 23 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.attachment` | 0 | 53 | 1 |
+| `features.reasoning` | 0 | 53 | 0 |
+| `pricing.input` | 0 | 27 | 1 |
+| `pricing.cache_read` | 0 | 0 | 1 |
+| `limit.context` | 0 | 27 | 0 |
+| `limit.output` | 0 | 27 | 0 |
+
+<details>
+<summary>Removed models (23)</summary>
+
+- `Bria/blur_background`
+- `Bria/enhance`
+- `Bria/erase`
+- `Bria/erase_foreground`
+- `Bria/expand`
+- `Bria/fibo_edit`
+- `Bria/gen_fill`
+- `Bria/remove_background`
+- `Bria/replace_background`
+- `ByteDance/Seedream-4.5`
+- `ClarityAI/creative`
+- `ClarityAI/crystal`
+- `ClarityAI/flux`
+- `PrunaAI/p-image-Edit`
+- `Qwen/Qwen-Image-Edit`
+- `Qwen/Qwen-Image-Edit-Max`
+- `Wan-AI/Wan2.6-Image-Edit`
+- `Wan-AI/Wan2.7-Image-Edit`
+- `black-forest-labs/FLUX-1-Redux-dev`
+- `black-forest-labs/FLUX-pro`
+- `black-forest-labs/FLUX.1-Kontext-dev`
+- `deepseek-ai/Janus-Pro-1B`
+- `deepseek-ai/Janus-Pro-7B`
+
+</details>
+
+### deepseek
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### fastrouter
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `bytedance/seedream-4.5`
+
+</details>
+
+### fireworks-ai
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `accounts/fireworks/models/gemma-4-e4b`
+
+</details>
+
+### friendli
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-copilot
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### github-models
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### google
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### groq
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### helicone
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### huggingface
+
+- 3 models added, 2 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 8 |
+| `features.tool_call` | 0 | 0 | 7 |
+| `pricing.input` | 0 | 0 | 1 |
+
+<details>
+<summary>Added models (3)</summary>
+
+- `CohereLabs/command-a-plus-05-2026-bf16`
+- `CohereLabs/command-a-plus-05-2026-fp8`
+- `CohereLabs/command-a-plus-05-2026-w4a4`
+
+</details>
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8`
+- `zai-org/GLM-4.7-Flash`
+
+</details>
+
+### inception
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### io-net
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 16 |
+| `pricing.output` | 0 | 0 | 15 |
+| `pricing.cache_read` | 0 | 0 | 11 |
+
+### jiekou
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `gemini-3.5-flash`
+
+</details>
+
+### kilo
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 1 |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 1 |
+| `pricing.cache_read` | 2 | 0 | 1 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 1 | 0 | 0 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `x-ai/grok-build-0.1`
+
+</details>
+
+### llmgateway
+
+- 3 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 203 |
+
+<details>
+<summary>Added models (3)</summary>
+
+- `text-embedding-004`
+- `text-embedding-005`
+- `text-multilingual-embedding-002`
+
+</details>
+
+### mistral
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### modelscope
+
+- 1 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (1)</summary>
+
+- `deepseek-ai/DeepSeek-V4-Pro`
+
+</details>
+
+### moark
+
+- 4 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `last_updated` | 0 | 0 | 1 |
+| `pricing.input` | 0 | 0 | 73 |
+| `pricing.output` | 0 | 0 | 64 |
+
+<details>
+<summary>Added models (4)</summary>
+
+- `ViduQ2-Pro`
+- `ViduQ2-Turbo`
+- `ViduQ3-Pro`
+- `ViduQ3-Turbo`
+
+</details>
+
+### nano-gpt
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 1 |
+| `pricing.output` | 0 | 0 | 1 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `x-ai/grok-build-0.1`
+
+</details>
+
+### novita
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 1 |
+
+### ollama-cloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### nvidia
+
+- 0 models added, 2 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `mistralai/mixtral-8x22b-instruct-v0.1`
+- `qwen/qwen3-next-80b-a3b-thinking`
+
+</details>
+
+### openai
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### ovhcloud
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### perplexity
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### poe
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### openrouter
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 1 |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 1 |
+| `pricing.cache_read` | 2 | 0 | 1 |
+| `limit.context` | 0 | 0 | 1 |
+| `limit.output` | 1 | 0 | 0 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `x-ai/grok-build-0.1`
+
+</details>
+
+### requesty
+
+- 4 models added, 40 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (4)</summary>
+
+- `mistral/mistral-medium-3-5`
+- `nebius/nousresearch/hermes-4-405b`
+- `nebius/nvidia/nemotron-3-nano-omni`
+- `nebius/zai-org/glm-5.1`
+
+</details>
+
+<details>
+<summary>Removed models (40)</summary>
+
+- `alibaba/qwen3.5`
+- `azure/gpt-4.1-mini`
+- `azure/gpt-5.2`
+- `azure/o4-mini@uksouth`
+- `azure/openai-responses/gpt-4.1-mini`
+- `bedrock/claude-3-7-sonnet`
+- `bedrock/claude-3-7-sonnet@eu-central-1`
+- `bedrock/claude-3-7-sonnet@eu-north-1`
+- `bedrock/claude-3-7-sonnet@eu-west-1`
+- `bedrock/claude-3-7-sonnet@eu-west-3`
+- `bedrock/claude-3-7-sonnet@us-east-1`
+- `bedrock/claude-3-7-sonnet@us-east-2`
+- `bedrock/claude-3-7-sonnet@us-west-2`
+- `fireworks/deepseek-v3.2`
+- `fireworks/glm-5`
+- `google/gemini-3.1-flash-image-preview@europe-central2`
+- `google/gemini-3.1-flash-image-preview@europe-north1`
+- `google/gemini-3.1-flash-image-preview@europe-west1`
+- `google/gemini-3.1-flash-image-preview@europe-west4`
+- `google/gemini-3.1-flash-image-preview@europe-west8`
+- `google/gemini-3.1-flash-image-preview@us-central1`
+- `google/gemini-3.1-flash-image-preview@us-east1`
+- `google/gemini-3.1-flash-image-preview@us-east5`
+- `google/gemini-3.1-flash-image-preview@us-south1`
+- `google/gemini-3.1-flash-image-preview@us-west1`
+- `openai/chatgpt-4o`
+- `parasail/parasail-kimi-k2-instruct`
+- `together/Qwen/Qwen2.5-72B-Instruct-Turbo`
+- `together/deepseek-ai/DeepSeek-R1`
+- `together/deepseek-ai/DeepSeek-V3`
+- `together/meta-llama/Llama-3.2-3B-Instruct-Turbo`
+- `together/meta-llama/LlamaGuard-2-8b`
+- `together/meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo`
+- `together/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo`
+- `vertex/claude-3-7-sonnet`
+- `vertex/claude-3-7-sonnet@europe-west1`
+- `vertex/claude-3-7-sonnet@us-east5`
+- `vertex/claude-opus-4-1@europe-west1`
+- `vertex/claude-opus-4@europe-west1`
+- `xai/grok-2-1212`
+
+</details>
+
+### synthetic
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### tetrate
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 59 |
+
+### togetherai
+
+- 0 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 1 | 0 |
+
+### venice
+
+- 3 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (3)</summary>
+
+- `e2ee-gemma-4-31b`
+- `e2ee-qwen3-6-35b-a3b`
+- `grok-build-0-1`
+
+</details>
+
+### vercel
+
+- 2 models added, 0 models removed
+- No field-level changes among existing models
+
+<details>
+<summary>Added models (2)</summary>
+
+- `mistral/mistral-medium-3.5`
+- `xai/grok-build-0.1`
+
+</details>
+
+### wandb
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### xai
+
+- 1 models added, 0 models removed
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 3 |
+| `pricing.input` | 0 | 0 | 3 |
+| `pricing.output` | 0 | 0 | 3 |
+
+<details>
+<summary>Added models (1)</summary>
+
+- `grok-build-0.1`
+
+</details>
+
+### zenmux
+
+- 0 models added, 0 models removed
+- No field-level changes among existing models
+
+### Summary
+
+- Providers updated: 48
+- Total models added: 40
+- Total models removed: 68
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 4 |
+| `release_date` | 0 | 1 | 279 |
+| `last_updated` | 0 | 0 | 5 |
+| `features.attachment` | 0 | 53 | 1 |
+| `features.reasoning` | 0 | 53 | 0 |
+| `features.structured_output` | 0 | 0 | 10 |
+| `features.tool_call` | 0 | 0 | 7 |
+| `pricing.input` | 0 | 27 | 153 |
+| `pricing.output` | 0 | 0 | 135 |
+| `pricing.cache_read` | 4 | 0 | 17 |
+| `limit.context` | 0 | 27 | 2 |
+| `limit.output` | 2 | 27 | 0 |
+
 ## Run at 1779237932
 
 ### 302ai

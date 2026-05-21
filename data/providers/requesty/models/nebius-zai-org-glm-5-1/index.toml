@@ -1,0 +1,19 @@
+id = "nebius/zai-org/glm-5.1"
+name = "nebius/zai-org/glm-5.1"
+release_date = "1779285239"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.4
+output = 4.4

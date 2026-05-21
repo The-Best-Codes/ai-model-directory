@@ -1,2 +1,6 @@
 id = "sesame/csm-1b"
 name = "sesame/csm-1b"
+
+[features]
+attachment = false
+reasoning = false

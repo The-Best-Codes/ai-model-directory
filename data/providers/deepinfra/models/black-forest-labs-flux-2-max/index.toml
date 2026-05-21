@@ -1,2 +1,6 @@
 id = "black-forest-labs/FLUX-2-max"
 name = "black-forest-labs/FLUX-2-max"
+
+[features]
+attachment = false
+reasoning = false

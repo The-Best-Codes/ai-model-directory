@@ -1,2 +1,13 @@
 id = "thenlper/gte-large"
 name = "thenlper/gte-large"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 512
+output = 512
+
+[pricing]
+input = 0.01

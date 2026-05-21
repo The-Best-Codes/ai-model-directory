@@ -1,0 +1,16 @@
+id = "gemini-3.5-flash"
+name = "gemini-3.5-flash"
+release_date = "1779259082"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+cache_read = 0.133
+input = 1.331
+output = 7.987

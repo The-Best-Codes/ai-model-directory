@@ -1,2 +1,6 @@
 id = "mistralai/Voxtral-Mini-3B-2507"
 name = "mistralai/Voxtral-Mini-3B-2507"
+
+[features]
+attachment = false
+reasoning = false

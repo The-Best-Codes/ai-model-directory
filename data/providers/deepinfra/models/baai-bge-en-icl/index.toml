@@ -1,2 +1,13 @@
 id = "BAAI/bge-en-icl"
 name = "BAAI/bge-en-icl"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 8192
+output = 8192
+
+[pricing]
+input = 0.01

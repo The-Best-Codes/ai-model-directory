@@ -1,2 +1,13 @@
 id = "sentence-transformers/clip-ViT-B-32-multilingual-v1"
 name = "sentence-transformers/clip-ViT-B-32-multilingual-v1"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 512
+output = 512
+
+[pricing]
+input = 0.005

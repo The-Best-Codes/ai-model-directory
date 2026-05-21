@@ -1,2 +1,6 @@
 id = "stabilityai/sdxl-turbo"
 name = "stabilityai/sdxl-turbo"
+
+[features]
+attachment = false
+reasoning = false

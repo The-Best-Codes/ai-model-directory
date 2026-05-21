@@ -1,2 +1,6 @@
 id = "ResembleAI/chatterbox-turbo"
 name = "ResembleAI/chatterbox-turbo"
+
+[features]
+attachment = false
+reasoning = false

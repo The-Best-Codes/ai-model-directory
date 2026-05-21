@@ -1,0 +1,23 @@
+id = "text-embedding-005"
+name = "Text Embedding 005"
+release_date = "1779324301"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 2048
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.025
+output = 0
+reasoning = 0

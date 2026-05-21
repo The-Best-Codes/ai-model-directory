@@ -1,2 +1,6 @@
 id = "Qwen/Qwen-Image-Max"
 name = "Qwen/Qwen-Image-Max"
+
+[features]
+attachment = false
+reasoning = false

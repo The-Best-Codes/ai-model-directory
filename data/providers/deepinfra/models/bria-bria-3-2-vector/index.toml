@@ -1,2 +1,6 @@
 id = "Bria/Bria-3.2-vector"
 name = "Bria/Bria-3.2-vector"
+
+[features]
+attachment = false
+reasoning = false

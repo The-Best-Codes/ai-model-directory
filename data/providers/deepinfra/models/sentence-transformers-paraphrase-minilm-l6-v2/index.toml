@@ -1,2 +1,13 @@
 id = "sentence-transformers/paraphrase-MiniLM-L6-v2"
 name = "sentence-transformers/paraphrase-MiniLM-L6-v2"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 512
+output = 512
+
+[pricing]
+input = 0.005

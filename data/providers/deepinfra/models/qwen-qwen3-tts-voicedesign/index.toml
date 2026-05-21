@@ -1,2 +1,6 @@
 id = "Qwen/Qwen3-TTS-VoiceDesign"
 name = "Qwen/Qwen3-TTS-VoiceDesign"
+
+[features]
+attachment = false
+reasoning = false

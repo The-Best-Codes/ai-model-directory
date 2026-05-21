@@ -1,0 +1,11 @@
+id = "ViduQ2-Pro"
+last_updated = "1779278393"
+name = "ViduQ2-Pro"
+release_date = "1779277968"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

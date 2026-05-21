@@ -1,2 +1,13 @@
 id = "BAAI/bge-base-en-v1.5"
 name = "BAAI/bge-base-en-v1.5"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 512
+output = 512
+
+[pricing]
+input = 0.005

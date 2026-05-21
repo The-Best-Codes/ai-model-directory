@@ -1,0 +1,11 @@
+id = "ViduQ2-Turbo"
+last_updated = "1779277906"
+name = "ViduQ2-Turbo"
+release_date = "1779277906"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]
