@@ -90,6 +90,47 @@ function selectProviders(
   return allProviders.filter((provider) => filter.has(provider.name));
 }
 
+process.on("unhandledRejection", (reason) => {
+  console.error(
+    "[unhandledRejection]",
+    reason instanceof Error
+      ? `${reason.message}\n${reason.stack ?? ""}`
+      : reason,
+  );
+});
+
+process.on("uncaughtException", (error) => {
+  console.error(
+    "[uncaughtException]",
+    error instanceof Error ? `${error.message}\n${error.stack ?? ""}` : error,
+  );
+});
+
+const providerTimeoutMs = 10 * 60 * 1000;
+
+function withTimeout<T>(
+  promise: Promise<T>,
+  timeoutMs: number,
+  label: string,
+): Promise<T> {
+  return new Promise<T>((resolve, reject) => {
+    const timer = setTimeout(() => {
+      reject(new Error(`${label} timed out after ${timeoutMs}ms`));
+    }, timeoutMs);
+
+    promise.then(
+      (value) => {
+        clearTimeout(timer);
+        resolve(value);
+      },
+      (error) => {
+        clearTimeout(timer);
+        reject(error);
+      },
+    );
+  });
+}
+
 export async function main(): Promise<void> {
   const rootDirectory = fileURLToPath(new URL("..", import.meta.url));
   const progress = new ProgressBar();
@@ -104,41 +145,76 @@ export async function main(): Promise<void> {
   }
 
   const changelogEntries: ProviderChangelogEntry[] = [];
+  let totalWritten = 0;
+  let providersWithWrites = 0;
+  let providersFailed = 0;
 
   try {
     for (const [index, provider] of selected.entries()) {
-      progress.beginProvider(index + 1, selected.length, provider.name);
+      try {
+        progress.beginProvider(index + 1, selected.length, provider.name);
+      } catch (error) {
+        console.error(
+          `[${provider.name}] failed to begin progress: ${error instanceof Error ? error.message : String(error)}`,
+        );
+      }
 
       const outputDirectory = join(rootDirectory, provider.outputDirectory);
-      const before = options.changelog
-        ? await snapshotProviderModels(outputDirectory)
-        : null;
+      let before = null;
+
+      if (options.changelog) {
+        try {
+          before = await snapshotProviderModels(outputDirectory);
+        } catch (error) {
+          progress.log(
+            `${provider.name}: failed to snapshot existing models: ${error instanceof Error ? error.message : String(error)}`,
+          );
+        }
+      }
 
       try {
-        const result = await writeProviderModels(
-          rootDirectory,
-          provider,
-          progress,
+        const result = await withTimeout(
+          writeProviderModels(rootDirectory, provider, progress),
+          providerTimeoutMs,
+          provider.name,
         );
         summaries.push(
           `${provider.name}: wrote ${result.written} model files to ${provider.outputDirectory}${result.errors > 0 ? ` (${result.errors} errors)` : ""}`,
         );
 
+        if (result.written > 0) {
+          providersWithWrites += 1;
+          totalWritten += result.written;
+        }
+
         if (options.changelog && before) {
-          const after = await snapshotProviderModels(outputDirectory);
-          changelogEntries.push({
-            name: provider.name,
-            diff: diffProviderModels(before, after),
-          });
+          try {
+            const after = await snapshotProviderModels(outputDirectory);
+            changelogEntries.push({
+              name: provider.name,
+              diff: diffProviderModels(before, after),
+            });
+          } catch (error) {
+            progress.log(
+              `${provider.name}: failed to compute changelog diff: ${error instanceof Error ? error.message : String(error)}`,
+            );
+          }
         }
       } catch (error) {
+        providersFailed += 1;
         summaries.push(
           `${provider.name}: ${error instanceof Error ? error.message : String(error)}`,
         );
       }
     }
   } finally {
-    progress.stop();
+    try {
+      progress.stop();
+    } catch (error) {
+      console.error(
+        `Failed to stop progress bar: ${error instanceof Error ? error.message : String(error)}`,
+      );
+    }
   }
 
   for (const summary of summaries) {
@@ -146,13 +222,36 @@ export async function main(): Promise<void> {
   }
 
   if (options.changelog && changelogEntries.length > 0) {
-    const timestamp = Math.floor(Date.now() / 1000);
-    const section = renderChangelogSection(timestamp, changelogEntries);
-    const changelogPath = join(rootDirectory, "CHANGELOG.md");
+    try {
+      const timestamp = Math.floor(Date.now() / 1000);
+      const section = renderChangelogSection(timestamp, changelogEntries);
+      const changelogPath = join(rootDirectory, "CHANGELOG.md");
 
-    await prependChangelog(changelogPath, section);
-    console.log(`Updated ${changelogPath}`);
+      await prependChangelog(changelogPath, section);
+      console.log(`Updated ${changelogPath}`);
+    } catch (error) {
+      console.error(
+        `Failed to write changelog: ${error instanceof Error ? error.message : String(error)}`,
+      );
+    }
+  }
+
+  console.log(
+    `Run summary: ${providersWithWrites}/${selected.length} providers wrote models (${totalWritten} files total), ${providersFailed} failed.`,
+  );
+
+  if (totalWritten > 0 || providersFailed < selected.length) {
+    process.exitCode = 0;
+  } else {
+    process.exitCode = 1;
   }
 }
 
-await main();
+try {
+  await main();
+} catch (error) {
+  console.error(
+    `Fatal error in main: ${error instanceof Error ? `${error.message}\n${error.stack ?? ""}` : String(error)}`,
+  );
+  process.exitCode = 1;
+}

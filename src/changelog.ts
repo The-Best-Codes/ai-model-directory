@@ -194,8 +194,10 @@ function renderModelList(title: string, ids: string[]): string {
 
 function renderProviderSection(entry: ProviderChangelogEntry): string {
   const { name, diff } = entry;
-  const headline = `${diff.added.length} models added, ${diff.removed.length} models removed`;
-  const lines: string[] = [`### ${name}`, "", `- ${headline}`];
+  const headline = `${diff.added.length} added, ${diff.removed.length} removed`;
+  const bodyLines: string[] = [
+    `- ${diff.added.length} models added, ${diff.removed.length} models removed`,
+  ];
 
   const fieldRows = trackedFields
     .map((field) => ({
@@ -208,33 +210,33 @@ function renderProviderSection(entry: ProviderChangelogEntry): string {
     );
 
   if (fieldRows.length > 0) {
-    lines.push("");
-    lines.push("| Field | Lost | Gained | Changed |");
-    lines.push("| --- | ---: | ---: | ---: |");
+    bodyLines.push("");
+    bodyLines.push("| Field | Lost | Gained | Changed |");
+    bodyLines.push("| --- | ---: | ---: | ---: |");
 
     for (const { field, diff: fieldDiff } of fieldRows) {
-      lines.push(
+      bodyLines.push(
         `| \`${field}\` | ${fieldDiff.lost} | ${fieldDiff.gained} | ${fieldDiff.changed} |`,
       );
     }
   } else {
-    lines.push("- No field-level changes among existing models");
+    bodyLines.push("- No field-level changes among existing models");
   }
 
   const addedBlock = renderModelList("Added models", diff.added);
   const removedBlock = renderModelList("Removed models", diff.removed);
 
   if (addedBlock) {
-    lines.push("");
-    lines.push(addedBlock.trimEnd());
+    bodyLines.push("");
+    bodyLines.push(addedBlock.trimEnd());
   }
 
   if (removedBlock) {
-    lines.push("");
-    lines.push(removedBlock.trimEnd());
+    bodyLines.push("");
+    bodyLines.push(removedBlock.trimEnd());
   }
 
-  return lines.join("\n");
+  return `<details>\n<summary><strong>${name}</strong> — ${headline}</summary>\n\n${bodyLines.join("\n")}\n\n</details>`;
 }
 
 function renderSummarySection(entries: ProviderChangelogEntry[]): string {
@@ -310,12 +312,18 @@ export function renderChangelogSection(
     return `${sections.join("\n")}\n`;
   }
 
+  sections.push(renderSummarySection(entries));
+  sections.push("");
+  sections.push("<details>");
+  sections.push("<summary><strong>Full details</strong></summary>");
+  sections.push("");
+
   for (const entry of entries) {
     sections.push(renderProviderSection(entry));
     sections.push("");
   }
 
-  sections.push(renderSummarySection(entries));
+  sections.push("</details>");
 
   return `${sections.join("\n")}\n`;
 }
