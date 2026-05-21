@@ -1,0 +1,22 @@
+id = "e2ee-gemma-4-31b"
+name = "Gemma 4 31B Instruct"
+release_date = "1779235200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0325
+input = 0.1625
+output = 0.5

@@ -1,0 +1,16 @@
+id = "grok-build-0.1"
+name = "grok-build-0.1"
+release_date = "1776297600"
+
+[features]
+attachment = true
+reasoning = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 1
+output = 2

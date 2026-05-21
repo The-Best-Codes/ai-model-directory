@@ -1,2 +1,13 @@
 id = "Qwen/Qwen3-Embedding-4B"
 name = "Qwen/Qwen3-Embedding-4B"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 32768
+output = 32768
+
+[pricing]
+input = 0.02

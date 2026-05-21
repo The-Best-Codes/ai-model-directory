@@ -1,0 +1,12 @@
+id = "CohereLabs/command-a-plus-05-2026-w4a4"
+name = "CohereLabs/command-a-plus-05-2026-w4a4"
+release_date = "1779079876"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

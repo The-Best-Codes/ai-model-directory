@@ -1,2 +1,6 @@
 id = "PrunaAI/p-image"
 name = "PrunaAI/p-image"
+
+[features]
+attachment = false
+reasoning = false

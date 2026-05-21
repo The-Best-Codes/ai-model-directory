@@ -1,2 +1,13 @@
 id = "google/embeddinggemma-300m"
 name = "google/embeddinggemma-300m"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 2048
+output = 2048
+
+[pricing]
+input = 0.0019999999999999996

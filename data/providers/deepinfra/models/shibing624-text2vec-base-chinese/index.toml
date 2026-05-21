@@ -1,2 +1,13 @@
 id = "shibing624/text2vec-base-chinese"
 name = "shibing624/text2vec-base-chinese"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 512
+output = 512
+
+[pricing]
+input = 0.005

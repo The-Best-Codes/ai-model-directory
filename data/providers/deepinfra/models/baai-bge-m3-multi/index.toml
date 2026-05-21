@@ -1,2 +1,13 @@
 id = "BAAI/bge-m3-multi"
 name = "BAAI/bge-m3-multi"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 8192
+output = 8192
+
+[pricing]
+input = 0.01

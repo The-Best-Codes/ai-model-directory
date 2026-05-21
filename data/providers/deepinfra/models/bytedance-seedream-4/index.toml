@@ -1,2 +1,6 @@
 id = "ByteDance/Seedream-4"
 name = "ByteDance/Seedream-4"
+
+[features]
+attachment = false
+reasoning = false

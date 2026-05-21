@@ -1,2 +1,6 @@
 id = "Bria/fibo"
 name = "Bria/fibo"
+
+[features]
+attachment = false
+reasoning = false

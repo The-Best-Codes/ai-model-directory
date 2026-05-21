@@ -1,2 +1,6 @@
 id = "openai/whisper-large-v3-turbo"
 name = "openai/whisper-large-v3-turbo"
+
+[features]
+attachment = false
+reasoning = false

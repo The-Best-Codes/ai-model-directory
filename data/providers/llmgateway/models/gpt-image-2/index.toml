@@ -1,6 +1,6 @@
 id = "gpt-image-2"
 name = "GPT Image 2"
-release_date = "1779237899"
+release_date = "1779324301"
 
 [features]
 attachment = true

@@ -1,2 +1,6 @@
 id = "ResembleAI/chatterbox-multilingual"
 name = "ResembleAI/chatterbox-multilingual"
+
+[features]
+attachment = false
+reasoning = false

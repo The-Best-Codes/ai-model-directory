@@ -1,2 +1,6 @@
 id = "Bria/Bria-3.2"
 name = "Bria/Bria-3.2"
+
+[features]
+attachment = false
+reasoning = false

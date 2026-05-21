@@ -1,2 +1,13 @@
 id = "nvidia/llama-nemotron-embed-vl-1b-v2"
 name = "nvidia/llama-nemotron-embed-vl-1b-v2"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 10240
+output = 10240
+
+[pricing]
+input = 0.01
