@@ -1,0 +1,25 @@
+id = "glm-5.1"
+last_updated = "1776166499"
+name = "GLM-5.1"
+open_weights = true
+release_date = "1776166499"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 202745
+input = 202745
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.083
+cache_write = 1.031
+input = 0.825
+output = 3.301

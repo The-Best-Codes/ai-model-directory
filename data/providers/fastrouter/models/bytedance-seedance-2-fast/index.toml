@@ -1,0 +1,21 @@
+id = "bytedance/seedance-2-fast"
+name = "ByteDance: Seedance 2 Fast"
+release_date = "1770768000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+reasoning = 0
