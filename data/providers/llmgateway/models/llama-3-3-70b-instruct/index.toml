@@ -1,6 +1,6 @@
 id = "llama-3.3-70b-instruct"
 name = "Llama 3.3 70B Instruct"
-release_date = "1779395771"
+release_date = "1779410582"
 
 [features]
 attachment = false

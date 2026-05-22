@@ -5,7 +5,7 @@ release_date = "1741684205"
 [features]
 attachment = false
 structured_output = false
-tool_call = true
+tool_call = false
 
 [modalities]
 input = [ "text" ]
