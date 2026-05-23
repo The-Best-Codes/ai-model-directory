@@ -1,0 +1,21 @@
+id = "command-a-plus-05-2026"
+name = "Cohere Command A+ (05/2026)"
+release_date = "1779408000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10
