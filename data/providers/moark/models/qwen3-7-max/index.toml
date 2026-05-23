@@ -1,0 +1,19 @@
+id = "Qwen3.7-Max"
+last_updated = "1779449561"
+name = "Qwen3.7-Max"
+release_date = "1779448877"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.76485356
+output = 5.29456068

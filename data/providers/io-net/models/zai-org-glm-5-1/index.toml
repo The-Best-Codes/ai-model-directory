@@ -7,12 +7,12 @@ attachment = false
 
 [limit]
 context = 202750
-output = 16384
+output = 32768
 
 [modalities]
 input = [ "text" ]
 
 [pricing]
-cache_read = 0.665
-input = 1.33
-output = 4.22
+cache_read = 0.655
+input = 1.31
+output = 4.2

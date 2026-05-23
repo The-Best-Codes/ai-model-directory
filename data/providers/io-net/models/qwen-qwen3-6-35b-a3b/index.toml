@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3.6-35B-A3B"
+name = "Qwen: Qwen3.6 35B A3B"
+release_date = "1779451322"
+
+[features]
+attachment = false
+
+[limit]
+context = 262140
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.09312
+input = 0.18624
+output = 1.20305
