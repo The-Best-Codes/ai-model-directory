@@ -12,6 +12,6 @@ context = 262140
 input = [ "text" ]
 
 [pricing]
-cache_read = 0.2188
-input = 0.4376
-output = 3.02
+cache_read = 0.2093
+input = 0.4186
+output = 2.71

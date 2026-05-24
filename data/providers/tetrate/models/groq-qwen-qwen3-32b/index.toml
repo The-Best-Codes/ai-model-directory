@@ -1,6 +1,6 @@
 id = "groq/qwen/qwen3-32b"
 name = "groq/qwen/qwen3-32b"
-release_date = "1779248995"
+release_date = "1779560791"
 
 [features]
 attachment = false
