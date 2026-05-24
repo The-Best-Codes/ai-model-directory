@@ -1,6 +1,6 @@
 id = "deepinfra/deepseek-ai/DeepSeek-V3"
 name = "deepinfra/deepseek-ai/DeepSeek-V3"
-release_date = "1779248995"
+release_date = "1779560791"
 
 [features]
 attachment = false
