@@ -1,0 +1,21 @@
+id = "e2ee-qwen3-6-35b-a3b-uncensored-p"
+name = "Qwen3.6 35B A3B Uncensored"
+release_date = "1779580800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.38
+output = 1.88

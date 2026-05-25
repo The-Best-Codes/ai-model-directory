@@ -1,0 +1,21 @@
+id = "e2ee-gemma-4-26b-a4b-uncensored-p"
+name = "Gemma 4 26B A4B Uncensored"
+release_date = "1779580800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 64000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.19
+output = 0.88
