@@ -1,0 +1,21 @@
+id = "openchat/openchat-7b"
+name = "OpenChat 7B"
+release_date = "1721992172"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.06

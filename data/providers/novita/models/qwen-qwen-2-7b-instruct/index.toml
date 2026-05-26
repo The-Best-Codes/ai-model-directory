@@ -1,0 +1,21 @@
+id = "qwen/qwen-2-7b-instruct"
+name = "Qwen 2 7B Instruct"
+release_date = "1726661307"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.054
+output = 0.054

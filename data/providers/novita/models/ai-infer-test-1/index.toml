@@ -1,0 +1,21 @@
+id = "ai_infer_test_1"
+name = "ai_infer_test_1"
+release_date = "1763728046"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

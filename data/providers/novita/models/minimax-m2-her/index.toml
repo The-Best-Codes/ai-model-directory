@@ -1,0 +1,20 @@
+id = "minimax/m2-her"
+name = "M2-her"
+release_date = "1769050364"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

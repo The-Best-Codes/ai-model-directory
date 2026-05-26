@@ -1,0 +1,21 @@
+id = "nousresearch/nous-hermes-llama2-13b"
+name = "Nous Hermes Llama2 13B"
+release_date = "1714024873"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.17
+output = 0.17

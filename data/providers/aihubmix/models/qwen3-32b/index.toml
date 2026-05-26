@@ -7,6 +7,5 @@ structured_output = false
 tool_call = false
 
 [pricing]
-cache_read = 0
-input = 0.32
-output = 3.2
+input = 0.28
+output = 2.8

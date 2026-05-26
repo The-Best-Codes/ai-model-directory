@@ -1,0 +1,12 @@
+id = "zai-org/GLM-4.5-Air"
+name = "Z.ai: GLM-4.5-Air"
+release_date = "1779713364"
+
+[features]
+attachment = false
+
+[limit]
+context = 131070
+
+[modalities]
+input = [ "text" ]

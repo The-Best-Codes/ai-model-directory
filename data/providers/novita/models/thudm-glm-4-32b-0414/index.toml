@@ -1,0 +1,21 @@
+id = "thudm/glm-4-32b-0414"
+name = "GLM-4-32B-0414"
+release_date = "1744798076"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 32000
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.55
+output = 1.66
