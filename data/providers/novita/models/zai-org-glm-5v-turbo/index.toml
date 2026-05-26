@@ -1,0 +1,21 @@
+id = "zai-org/glm-5v-turbo"
+name = "GLM-5V-Turbo"
+release_date = "1775118243"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 204800
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.2
+output = 4

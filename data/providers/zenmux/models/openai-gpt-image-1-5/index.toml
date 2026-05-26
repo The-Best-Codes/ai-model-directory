@@ -1,0 +1,19 @@
+id = "openai/gpt-image-1.5"
+name = "OpenAI: GPT-Image-1.5"
+release_date = "1767689330"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+cache_read = 1.25
+input = 5
+output = 10

@@ -1,0 +1,21 @@
+id = "teknium/openhermes-2.5-mistral-7b"
+name = "Openhermes2.5 Mistral 7B"
+release_date = "1713938473"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.17
+output = 0.17

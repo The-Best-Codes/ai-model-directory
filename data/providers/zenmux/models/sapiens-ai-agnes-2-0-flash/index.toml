@@ -1,0 +1,18 @@
+id = "sapiens-ai/agnes-2.0-flash"
+name = "Sapiens AI: Agnes-2.0-Flash"
+release_date = "1779357254"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.2

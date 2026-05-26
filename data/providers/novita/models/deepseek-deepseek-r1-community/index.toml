@@ -1,0 +1,21 @@
+id = "deepseek/deepseek-r1/community"
+name = "DeepSeek R1"
+release_date = "1739525865"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 64000
+output = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 4
+output = 4
