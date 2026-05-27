@@ -1,6 +1,6 @@
 id = "grok-imagine-image"
 name = "Grok Imagine Image"
-release_date = "1779756166"
+release_date = "1779842640"
 
 [features]
 attachment = true

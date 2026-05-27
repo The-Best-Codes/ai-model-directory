@@ -1,0 +1,21 @@
+id = "TEE/qwen3.5-122b-a10b"
+name = "Qwen3.5 122B A10B TEE"
+release_date = "1779753600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.46
+output = 3.68

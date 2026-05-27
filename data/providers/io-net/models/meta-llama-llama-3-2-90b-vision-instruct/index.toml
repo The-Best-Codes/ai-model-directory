@@ -3,13 +3,13 @@ name = "Meta-Llama: Llama 3.2 90B Vision Instruct"
 release_date = "1739118983"
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 16000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 
 [pricing]
 input = 0.245

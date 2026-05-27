@@ -3,13 +3,13 @@ name = "Meta-Llama: Llama 4 Maverick 17B 128E Instruct FP8"
 release_date = "1744194232"
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 430000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 
 [pricing]
 input = 0.35
