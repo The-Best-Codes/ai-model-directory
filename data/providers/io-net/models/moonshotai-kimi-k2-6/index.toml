@@ -3,15 +3,15 @@ name = "MoonshotAI: Kimi K2.6"
 release_date = "1776779041"
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 262142
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 
 [pricing]
-cache_read = 0.489
-input = 0.978
-output = 4.12
+cache_read = 0.48
+input = 0.96
+output = 4
