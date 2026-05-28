@@ -1,5 +1,6 @@
 id = "google/gemma-4-31B-it"
 name = "Gemma 4 31B-it FP8"
+release_date = "1779861041"
 
 [features]
 attachment = false

@@ -1,0 +1,19 @@
+id = "novita/baichuan/baichuan-m2-32b"
+name = "novita/baichuan/baichuan-m2-32b"
+release_date = "1779873202"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.07
+output = 0.07

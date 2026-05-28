@@ -1,0 +1,10 @@
+id = "HY-MT2-7B"
+last_updated = "1779862647"
+name = "HY-MT2-7B"
+release_date = "1779862647"
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.044237688

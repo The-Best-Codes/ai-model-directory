@@ -1,6 +1,6 @@
 id = "mimo-v2-flash"
 name = "MiMo V2 Flash"
-release_date = "1779842640"
+release_date = "1779928814"
 
 [features]
 attachment = false
@@ -17,7 +17,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01
+cache_read = 0.02
 cache_write = 0
 input = 0.1
 output = 0.3

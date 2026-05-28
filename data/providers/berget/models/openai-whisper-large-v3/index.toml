@@ -1,7 +1,7 @@
 id = "openai/whisper-large-v3"
 name = "openai/whisper-large-v3"
 open_weights = true
-release_date = "1779840000"
+release_date = "1779926400"
 
 [features]
 attachment = true
