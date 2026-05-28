@@ -1,0 +1,20 @@
+id = "deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507"
+name = "deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507"
+release_date = "1779873116"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 0.23
+output = 2.3

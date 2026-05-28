@@ -1,0 +1,19 @@
+id = "novita/inclusionai/ling-2.6-1t"
+name = "novita/inclusionai/ling-2.6-1t"
+release_date = "1779873226"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 2.5

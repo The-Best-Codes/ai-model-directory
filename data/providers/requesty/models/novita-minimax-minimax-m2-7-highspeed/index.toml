@@ -1,0 +1,19 @@
+id = "novita/minimax/minimax-m2.7-highspeed"
+name = "novita/minimax/minimax-m2.7-highspeed"
+release_date = "1779873246"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.4

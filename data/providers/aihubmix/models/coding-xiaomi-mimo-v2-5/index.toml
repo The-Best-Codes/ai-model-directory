@@ -11,6 +11,6 @@ tool_call = true
 input = [ "text" ]
 
 [pricing]
-cache_read = 0.016
+cache_read = 0.0016
 input = 0.08
-output = 0.4
+output = 0.16
