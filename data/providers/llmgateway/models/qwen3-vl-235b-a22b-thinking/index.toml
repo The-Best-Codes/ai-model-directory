@@ -1,6 +1,6 @@
 id = "qwen3-vl-235b-a22b-thinking"
 name = "Qwen3 VL 235B A22B Thinking"
-release_date = "1779928814"
+release_date = "1780015596"
 
 [features]
 attachment = true

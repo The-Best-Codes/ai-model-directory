@@ -1,6 +1,5 @@
 id = "mistral-large-latest"
-name = "Mistral Large 3"
-open_weights = true
+name = "mistral-large-2512"
 
 [features]
 attachment = true
@@ -14,7 +13,3 @@ context = 262144
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.5
-output = 1.5

@@ -1,5 +1,5 @@
 id = "codestral-embed-2505"
-name = "Codestral Embed"
+name = "codestral-embed"
 
 [features]
 attachment = false
@@ -12,6 +12,3 @@ context = 8192
 
 [modalities]
 input = [ "text" ]
-
-[pricing]
-input = 0.15

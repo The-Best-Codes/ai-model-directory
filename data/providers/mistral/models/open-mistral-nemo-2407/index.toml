@@ -1,6 +1,5 @@
 id = "open-mistral-nemo-2407"
-name = "Mistral NeMo"
-open_weights = true
+name = "open-mistral-nemo"
 
 [features]
 attachment = false
@@ -14,7 +13,3 @@ context = 131072
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.15
-output = 0.15

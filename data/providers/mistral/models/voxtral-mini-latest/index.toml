@@ -1,6 +1,5 @@
 id = "voxtral-mini-latest"
-name = "Voxtral Mini Transcribe 2"
-open_weights = true
+name = "voxtral-mini-2602"
 
 [features]
 attachment = true
@@ -14,7 +13,3 @@ context = 16384
 [modalities]
 input = [ "audio" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.001
-output = 0.04

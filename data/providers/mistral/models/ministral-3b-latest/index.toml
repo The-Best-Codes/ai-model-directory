@@ -1,6 +1,5 @@
 id = "ministral-3b-latest"
-name = "Ministral 3 - 3B"
-open_weights = true
+name = "ministral-3b-2512"
 
 [features]
 attachment = true
@@ -14,7 +13,3 @@ context = 131072
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.1
-output = 0.1

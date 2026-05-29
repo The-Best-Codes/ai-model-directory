@@ -16,7 +16,3 @@ output = 32768
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "image", "text" ]
-
-[pricing]
-input = 0.5
-output = 3

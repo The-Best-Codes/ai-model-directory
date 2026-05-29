@@ -1,6 +1,6 @@
 id = "hermes-2-pro-llama-3-8b"
 name = "Hermes 2 Pro Llama 3 8B"
-release_date = "1779928814"
+release_date = "1780015596"
 
 [features]
 attachment = false

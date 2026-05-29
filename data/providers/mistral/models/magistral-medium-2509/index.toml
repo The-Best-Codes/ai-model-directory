@@ -1,5 +1,5 @@
 id = "magistral-medium-2509"
-name = "Magistral Medium"
+name = "magistral-medium-2509"
 
 [features]
 attachment = true
@@ -13,7 +13,3 @@ context = 131072
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 2
-output = 5
