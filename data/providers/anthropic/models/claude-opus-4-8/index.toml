@@ -1,0 +1,16 @@
+id = "claude-opus-4-8"
+name = "Claude Opus 4.8"
+release_date = "1779926400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

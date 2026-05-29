@@ -1,5 +1,5 @@
 id = "mistral-moderation-2603"
-name = "Mistral Moderation"
+name = "mistral-moderation-2603"
 
 [features]
 attachment = false
@@ -13,6 +13,3 @@ context = 131072
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.1

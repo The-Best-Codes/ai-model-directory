@@ -1,5 +1,5 @@
 id = "mistral-ocr-2512"
-name = "OCR 3"
+name = "mistral-ocr-2512"
 
 [features]
 attachment = true

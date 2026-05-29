@@ -1,6 +1,5 @@
 id = "voxtral-mini-tts-2603"
-name = "Voxtral TTS"
-open_weights = true
+name = "voxtral-mini-tts-2603"
 
 [features]
 attachment = false

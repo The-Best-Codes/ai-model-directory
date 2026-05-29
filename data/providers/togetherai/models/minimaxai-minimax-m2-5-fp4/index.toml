@@ -1,0 +1,17 @@
+id = "MiniMaxAI/MiniMax-M2.5-FP4"
+name = "MiniMax M2.5 FP4"
+release_date = "1771122164"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

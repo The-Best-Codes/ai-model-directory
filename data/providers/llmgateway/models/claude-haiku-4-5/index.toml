@@ -1,6 +1,6 @@
 id = "claude-haiku-4-5"
 name = "Claude Haiku 4.5"
-release_date = "1779928814"
+release_date = "1780015596"
 
 [features]
 attachment = false

@@ -1,0 +1,17 @@
+id = "moonshotai/Kimi-K2.5-fp4"
+name = "Kimi K2.5 FP4"
+release_date = "1779999077"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 2.8

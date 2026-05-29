@@ -1,5 +1,5 @@
 id = "mistral-embed"
-name = "Mistral Embed"
+name = "mistral-embed-2312"
 
 [features]
 attachment = false
@@ -12,6 +12,3 @@ context = 8192
 
 [modalities]
 input = [ "text" ]
-
-[pricing]
-input = 0.1

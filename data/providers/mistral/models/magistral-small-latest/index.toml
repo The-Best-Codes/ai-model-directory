@@ -1,5 +1,5 @@
 id = "magistral-small-latest"
-name = "Magistral Small"
+name = "mistral-small-2603"
 
 [features]
 attachment = true
@@ -13,7 +13,3 @@ context = 262144
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.5
-output = 1.5

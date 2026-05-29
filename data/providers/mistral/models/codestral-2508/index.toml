@@ -1,5 +1,5 @@
 id = "codestral-2508"
-name = "Codestral"
+name = "codestral-2508"
 
 [features]
 attachment = false
@@ -13,7 +13,3 @@ context = 256000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.3
-output = 0.9

@@ -1,6 +1,6 @@
 id = "syn:small:vision"
 name = "syn:small:vision"
-release_date = "1776643200"
+release_date = "1776729600"
 
 [features]
 attachment = true
@@ -18,7 +18,7 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.95
+cache_read = 0.45
 cache_write = 0
-input = 0.95
-output = 4
+input = 0.45
+output = 3.6

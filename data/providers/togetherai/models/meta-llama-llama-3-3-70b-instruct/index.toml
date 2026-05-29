@@ -1,5 +1,5 @@
 id = "meta-llama/Llama-3.3-70B-Instruct"
-name = "meta-llama/Llama-3.3-70B-Instruct"
+name = "Meta Llama 3.3 70B Instruct"
 release_date = "1744545240"
 
 [features]

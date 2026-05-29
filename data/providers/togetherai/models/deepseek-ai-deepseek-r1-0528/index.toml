@@ -1,0 +1,17 @@
+id = "deepseek-ai/DeepSeek-R1-0528"
+name = "DeepSeek R1 0528 NVFP4"
+release_date = "1752475276"
+
+[features]
+attachment = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 7
