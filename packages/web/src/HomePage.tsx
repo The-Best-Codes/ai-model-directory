@@ -1,12 +1,8 @@
-import { createFileRoute } from "@tanstack/react-router";
-
 import { Button } from "#/components/ui/button";
 import { IconExternalLink } from "@tabler/icons-react";
-import { Link } from "@tanstack/react-router";
+import { Link } from "react-router";
 
-export const Route = createFileRoute("/")({ component: App });
-
-function App() {
+export function HomePage() {
 	return (
 		<main className="mx-auto flex min-h-screen w-full max-w-2xl flex-col justify-center gap-6 px-6 py-16">
 			<div className="space-y-4">
