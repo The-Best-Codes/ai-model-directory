@@ -1,4 +1,4 @@
 data/*
 packages/npm/dist/*
 packages/npm/src/generated-data.ts
-packages/models.agent-one.dev/**
+packages/web/**
