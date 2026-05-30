@@ -1,8 +1,31 @@
+import * as React from "react";
 import { Button } from "#/components/ui/button";
-import { Link } from "react-router";
-import DocsIndex from "./docs/index.mdx";
+import { Link, useParams } from "react-router";
+import { NotFoundPage } from "./NotFoundPage";
+
+type MdxModule = {
+	default: React.ComponentType;
+};
+
+const docModules = import.meta.glob<MdxModule>("./docs/**/*.mdx", {
+	eager: true,
+});
+const docs = Object.fromEntries(
+	Object.entries(docModules).map(([path, module]) => [
+		toDocSlug(path),
+		module.default,
+	]),
+);
 
 export function DocsPage() {
+	const params = useParams();
+	const slug = params["*"] ?? "";
+	const Doc = docs[slug];
+
+	if (!Doc) {
+		return <NotFoundPage />;
+	}
+
 	return (
 		<main className="mx-auto flex min-h-screen w-full max-w-3xl flex-col gap-8 px-6 py-16">
 			<nav className="flex items-center justify-between gap-4">
@@ -14,8 +37,15 @@ export function DocsPage() {
 				</Button>
 			</nav>
 			<article className="prose prose-neutral max-w-none dark:prose-invert">
-				<DocsIndex />
+				<Doc />
 			</article>
 		</main>
 	);
+}
+
+function toDocSlug(path: string) {
+	return path
+		.replace(/^\.\/docs\//, "")
+		.replace(/\.mdx$/, "")
+		.replace(/(^|\/)index$/, "");
 }

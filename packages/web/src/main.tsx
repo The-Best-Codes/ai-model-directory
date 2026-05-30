@@ -1,6 +1,10 @@
 import * as React from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router";
+import {
+	createBrowserRouter,
+	RouterProvider,
+	type RouteObject,
+} from "react-router";
 
 import { TooltipProvider } from "#/components/ui/tooltip";
 import { DocsPage } from "./DocsPage";
@@ -9,7 +13,7 @@ import { ListPage, listLoader } from "./ListPage";
 import { NotFoundPage } from "./NotFoundPage";
 import "./styles.css";
 
-const router = createBrowserRouter([
+const routeObjects = [
 	{
 		path: "/",
 		element: <HomePage />,
@@ -20,14 +24,16 @@ const router = createBrowserRouter([
 		element: <ListPage />,
 	},
 	{
-		path: "/docs",
+		path: "/docs/*",
 		element: <DocsPage />,
 	},
 	{
 		path: "*",
 		element: <NotFoundPage />,
 	},
-]);
+] satisfies RouteObject[];
+
+const router = createBrowserRouter(routeObjects);
 
 createRoot(document.getElementById("root")!).render(
 	<React.StrictMode>

@@ -4,9 +4,9 @@
 		<loc>https://models.agent-one.dev/</loc>
 	</url>
 	<url>
-		<loc>https://models.agent-one.dev/list</loc>
+		<loc>https://models.agent-one.dev/docs</loc>
 	</url>
 	<url>
-		<loc>https://models.agent-one.dev/docs</loc>
+		<loc>https://models.agent-one.dev/list</loc>
 	</url>
 </urlset>
