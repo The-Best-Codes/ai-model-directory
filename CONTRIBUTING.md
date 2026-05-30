@@ -42,6 +42,13 @@ Most providers can be refreshed without an API key (they expose public catalog e
 | `bunx --bun tsc -b`                    | Typecheck the project.                                                  |
 | `bunx prettier . -w`                   | Format the project.                                                     |
 
+## Repository Layout
+
+- `src/`: updater code and provider adapters
+- `data/`: generated model data (`providers/` TOML tree + `all.json`)
+- `packages/npm`: published package containing the generated dataset
+- `packages/models.agent-one.dev`: website (model browser + `/docs`)
+
 ## Refreshing The Data Locally
 
 After making changes to a provider adapter or to a `metadata.toml` file, regenerate the affected model files:

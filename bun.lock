@@ -22,7 +22,7 @@
     },
     "packages/npm": {
       "name": "ai-model-directory",
-      "version": "0.1.15",
+      "version": "0.1.31",
     },
   },
   "packages": {

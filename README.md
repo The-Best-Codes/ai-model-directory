@@ -43,6 +43,11 @@ data/
         <model-id>/
           index.toml # generated: normalized model metadata
           metadata.toml # optional: hand-authored manual_data, extends, priorities, preserve
+packages/
+  models.agent-one.dev/ # website (list UI + /docs)
+  npm/ # published package containing the generated dataset
+src/
+  providers/ # provider adapters
 ```
 
 Each `models/<model-id>/index.toml` is fully managed by the updater; it gets re-written every refresh. To customize, add a sibling `metadata.toml` (see [CONTRIBUTING.md](./CONTRIBUTING.md) for the full schema).
