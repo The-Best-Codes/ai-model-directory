@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="456 156 288 288">
+  <style>
+    path {
+      fill: #000000;
+    }
+    @media (prefers-color-scheme: dark) {
+      path {
+        fill: #FFFFFF;
+      }
+    }
+  </style>
+  <path d="M 480 180 L 660 180 L 720 240 L 720 420 L 660 420 L 600 360 L 540 360 L 480 420 L 480 180 Z M 600 360 L 660 360 L 660 240 L 540 240 L 540 300 L 600 300 L 600 360 Z" fill-rule="evenodd" stroke="none" />
+</svg>

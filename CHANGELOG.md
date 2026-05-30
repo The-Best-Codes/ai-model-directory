@@ -10,24 +10,24 @@
 - Total models removed: 13
 - Total field changes: 894
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 74 |
-| `knowledge_cutoff` | 5 | 0 | 0 |
-| `release_date` | 1 | 0 | 280 |
-| `last_updated` | 0 | 0 | 1 |
-| `features.attachment` | 19 | 0 | 0 |
-| `features.reasoning` | 2 | 0 | 0 |
-| `features.structured_output` | 5 | 0 | 6 |
-| `features.tool_call` | 31 | 0 | 6 |
-| `pricing.input` | 1 | 0 | 169 |
-| `pricing.output` | 1 | 0 | 153 |
-| `pricing.cache_read` | 1 | 2 | 18 |
-| `pricing.cache_write` | 0 | 1 | 0 |
-| `limit.context` | 16 | 0 | 7 |
-| `limit.output` | 0 | 0 | 7 |
-| `modalities.input` | 50 | 0 | 0 |
-| `modalities.output` | 38 | 0 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `name`                       |    0 |      0 |      74 |
+| `knowledge_cutoff`           |    5 |      0 |       0 |
+| `release_date`               |    1 |      0 |     280 |
+| `last_updated`               |    0 |      0 |       1 |
+| `features.attachment`        |   19 |      0 |       0 |
+| `features.reasoning`         |    2 |      0 |       0 |
+| `features.structured_output` |    5 |      0 |       6 |
+| `features.tool_call`         |   31 |      0 |       6 |
+| `pricing.input`              |    1 |      0 |     169 |
+| `pricing.output`             |    1 |      0 |     153 |
+| `pricing.cache_read`         |    1 |      2 |      18 |
+| `pricing.cache_write`        |    0 |      1 |       0 |
+| `limit.context`              |   16 |      0 |       7 |
+| `limit.output`               |    0 |      0 |       7 |
+| `modalities.input`           |   50 |      0 |       0 |
+| `modalities.output`          |   38 |      0 |       0 |
 
 <details>
 <summary><strong>Full details</strong></summary>
@@ -45,9 +45,9 @@
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `last_updated` | 0 | 0 | 1 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `last_updated` |    0 |      0 |       1 |
 
 </details>
 
@@ -144,11 +144,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 61 |
-| `pricing.output` | 0 | 0 | 58 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      61 |
+| `pricing.output` |    0 |      0 |      58 |
 
 </details>
 
@@ -209,11 +209,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       1 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    0 |      0 |       1 |
 
 </details>
 
@@ -388,13 +388,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 6 |
-| `features.tool_call` | 0 | 0 | 6 |
-| `pricing.input` | 1 | 0 | 1 |
-| `pricing.output` | 1 | 0 | 1 |
-| `limit.context` | 1 | 0 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       6 |
+| `features.tool_call`         |    0 |      0 |       6 |
+| `pricing.input`              |    1 |      0 |       1 |
+| `pricing.output`             |    1 |      0 |       1 |
+| `limit.context`              |    1 |      0 |       0 |
 
 </details>
 
@@ -434,11 +434,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 15 |
-| `pricing.output` | 0 | 0 | 13 |
-| `pricing.cache_read` | 0 | 0 | 12 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |      15 |
+| `pricing.output`     |    0 |      0 |      13 |
+| `pricing.cache_read` |    0 |      0 |      12 |
 
 </details>
 
@@ -478,14 +478,14 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 21 |
-| `pricing.input` | 0 | 0 | 3 |
-| `pricing.output` | 0 | 0 | 3 |
-| `pricing.cache_read` | 0 | 1 | 2 |
-| `limit.context` | 0 | 0 | 3 |
-| `limit.output` | 0 | 0 | 3 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `name`               |    0 |      0 |      21 |
+| `pricing.input`      |    0 |      0 |       3 |
+| `pricing.output`     |    0 |      0 |       3 |
+| `pricing.cache_read` |    0 |      1 |       2 |
+| `limit.context`      |    0 |      0 |       3 |
+| `limit.output`       |    0 |      0 |       3 |
 
 </details>
 
@@ -521,9 +521,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 207 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     207 |
 
 </details>
 
@@ -577,10 +577,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 76 |
-| `pricing.output` | 0 | 0 | 65 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      76 |
+| `pricing.output` |    0 |      0 |      65 |
 
 </details>
 
@@ -599,10 +599,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 4 |
-| `pricing.output` | 0 | 0 | 4 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       4 |
+| `pricing.output` |    0 |      0 |       4 |
 
 </details>
 
@@ -637,10 +637,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       1 |
+| `pricing.output` |    0 |      0 |       1 |
 
 </details>
 
@@ -680,17 +680,17 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 50 |
-| `knowledge_cutoff` | 5 | 0 | 0 |
-| `features.attachment` | 19 | 0 | 0 |
-| `features.reasoning` | 2 | 0 | 0 |
-| `features.structured_output` | 5 | 0 | 0 |
-| `features.tool_call` | 31 | 0 | 0 |
-| `limit.context` | 15 | 0 | 0 |
-| `modalities.input` | 50 | 0 | 0 |
-| `modalities.output` | 38 | 0 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `name`                       |    0 |      0 |      50 |
+| `knowledge_cutoff`           |    5 |      0 |       0 |
+| `features.attachment`        |   19 |      0 |       0 |
+| `features.reasoning`         |    2 |      0 |       0 |
+| `features.structured_output` |    5 |      0 |       0 |
+| `features.tool_call`         |   31 |      0 |       0 |
+| `limit.context`              |   15 |      0 |       0 |
+| `modalities.input`           |   50 |      0 |       0 |
+| `modalities.output`          |   38 |      0 |       0 |
 
 </details>
 
@@ -751,10 +751,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.cache_read` | 0 | 1 | 0 |
-| `pricing.cache_write` | 0 | 1 | 0 |
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `pricing.cache_read`  |    0 |      1 |       0 |
+| `pricing.cache_write` |    0 |      1 |       0 |
 
 </details>
 
@@ -787,13 +787,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 3 |
-| `pricing.output` | 0 | 0 | 3 |
-| `pricing.cache_read` | 0 | 0 | 3 |
-| `limit.context` | 0 | 0 | 3 |
-| `limit.output` | 0 | 0 | 3 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       3 |
+| `pricing.output`     |    0 |      0 |       3 |
+| `pricing.cache_read` |    0 |      0 |       3 |
+| `limit.context`      |    0 |      0 |       3 |
+| `limit.output`       |    0 |      0 |       3 |
 
 </details>
 
@@ -866,9 +866,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 59 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |      59 |
 
 </details>
 
@@ -887,12 +887,12 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 2 |
-| `release_date` | 1 | 0 | 0 |
-| `pricing.input` | 0 | 0 | 3 |
-| `pricing.output` | 0 | 0 | 3 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `name`           |    0 |      0 |       2 |
+| `release_date`   |    1 |      0 |       0 |
+| `pricing.input`  |    0 |      0 |       3 |
+| `pricing.output` |    0 |      0 |       3 |
 
 </details>
 
@@ -925,14 +925,14 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 1 |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 1 | 0 | 0 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `name`               |    0 |      0 |       1 |
+| `pricing.input`      |    0 |      0 |       1 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    1 |      0 |       0 |
+| `limit.context`      |    0 |      0 |       1 |
+| `limit.output`       |    0 |      0 |       1 |
 
 </details>
 
@@ -1007,20 +1007,20 @@ _No field-level changes among existing models._
 - Total models removed: 6
 - Total field changes: 616
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 41 |
-| `release_date` | 1 | 2 | 280 |
-| `last_updated` | 0 | 0 | 1 |
-| `open_weights` | 24 | 0 | 0 |
-| `features.structured_output` | 0 | 0 | 9 |
-| `features.tool_call` | 0 | 0 | 7 |
-| `pricing.input` | 34 | 1 | 84 |
-| `pricing.output` | 29 | 1 | 80 |
-| `pricing.cache_read` | 0 | 3 | 14 |
-| `limit.context` | 0 | 1 | 1 |
-| `limit.output` | 2 | 0 | 0 |
-| `modalities.input` | 0 | 0 | 1 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `name`                       |    0 |      0 |      41 |
+| `release_date`               |    1 |      2 |     280 |
+| `last_updated`               |    0 |      0 |       1 |
+| `open_weights`               |   24 |      0 |       0 |
+| `features.structured_output` |    0 |      0 |       9 |
+| `features.tool_call`         |    0 |      0 |       7 |
+| `pricing.input`              |   34 |      1 |      84 |
+| `pricing.output`             |   29 |      1 |      80 |
+| `pricing.cache_read`         |    0 |      3 |      14 |
+| `limit.context`              |    0 |      1 |       1 |
+| `limit.output`               |    2 |      0 |       0 |
+| `modalities.input`           |    0 |      0 |       1 |
 
 <details>
 <summary><strong>Full details</strong></summary>
@@ -1153,11 +1153,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 61 |
-| `pricing.output` | 0 | 0 | 58 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      61 |
+| `pricing.output` |    0 |      0 |      58 |
 
 </details>
 
@@ -1218,9 +1218,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.cache_read` | 0 | 2 | 0 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.cache_read` |    0 |      2 |       0 |
 
 </details>
 
@@ -1363,10 +1363,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 2 | 0 | 0 |
-| `pricing.output` | 2 | 0 | 0 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    2 |      0 |       0 |
+| `pricing.output` |    2 |      0 |       0 |
 
 </details>
 
@@ -1421,13 +1421,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 9 |
-| `features.tool_call` | 0 | 0 | 7 |
-| `pricing.input` | 0 | 1 | 1 |
-| `pricing.output` | 0 | 1 | 1 |
-| `limit.context` | 0 | 1 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       9 |
+| `features.tool_call`         |    0 |      0 |       7 |
+| `pricing.input`              |    0 |      1 |       1 |
+| `pricing.output`             |    0 |      1 |       1 |
+| `limit.context`              |    0 |      1 |       0 |
 
 </details>
 
@@ -1467,11 +1467,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 14 |
-| `pricing.output` | 0 | 0 | 12 |
-| `pricing.cache_read` | 0 | 0 | 11 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |      14 |
+| `pricing.output`     |    0 |      0 |      12 |
+| `pricing.cache_read` |    0 |      0 |      11 |
 
 </details>
 
@@ -1504,12 +1504,12 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 0 | 1 |
-| `limit.output` | 1 | 0 | 0 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    0 |      0 |       1 |
+| `limit.output`       |    1 |      0 |       0 |
 
 </details>
 
@@ -1546,9 +1546,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 206 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     206 |
 
 </details>
 
@@ -1574,12 +1574,12 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 37 |
-| `open_weights` | 24 | 0 | 0 |
-| `pricing.input` | 32 | 0 | 0 |
-| `pricing.output` | 27 | 0 | 0 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `name`           |    0 |      0 |      37 |
+| `open_weights`   |   24 |      0 |       0 |
+| `pricing.input`  |   32 |      0 |       0 |
+| `pricing.output` |   27 |      0 |       0 |
 
 </details>
 
@@ -1612,9 +1612,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `last_updated` | 0 | 0 | 1 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `last_updated` |    0 |      0 |       1 |
 
 </details>
 
@@ -1633,10 +1633,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 4 |
-| `pricing.output` | 0 | 0 | 4 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       4 |
+| `pricing.output` |    0 |      0 |       4 |
 
 </details>
 
@@ -1663,9 +1663,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.output` | 0 | 0 | 1 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.output` |    0 |      0 |       1 |
 
 </details>
 
@@ -1761,9 +1761,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `modalities.input` | 0 | 0 | 1 |
+| Field              | Lost | Gained | Changed |
+| ------------------ | ---: | -----: | ------: |
+| `modalities.input` |    0 |      0 |       1 |
 
 </details>
 
@@ -1789,13 +1789,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 2 |
-| `pricing.cache_read` | 0 | 1 | 1 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 1 | 0 | 0 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       1 |
+| `pricing.output`     |    0 |      0 |       2 |
+| `pricing.cache_read` |    0 |      1 |       1 |
+| `limit.context`      |    0 |      0 |       1 |
+| `limit.output`       |    1 |      0 |       0 |
 
 </details>
 
@@ -1855,12 +1855,12 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 1 |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `release_date`       |    0 |      0 |       1 |
+| `pricing.input`      |    0 |      0 |       1 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    0 |      0 |       1 |
 
 </details>
 
@@ -1886,9 +1886,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 59 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |      59 |
 
 </details>
 
@@ -1914,10 +1914,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 4 |
-| `release_date` | 1 | 2 | 0 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `name`         |    0 |      0 |       4 |
+| `release_date` |    1 |      2 |       0 |
 
 </details>
 
@@ -2044,20 +2044,20 @@ _No field-level changes among existing models._
 - Total models removed: 16
 - Total field changes: 753
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 1 |
-| `release_date` | 0 | 1 | 220 |
-| `features.structured_output` | 0 | 0 | 5 |
-| `features.tool_call` | 0 | 0 | 5 |
-| `pricing.input` | 2 | 0 | 168 |
-| `pricing.output` | 2 | 0 | 155 |
-| `pricing.cache_read` | 4 | 0 | 31 |
-| `pricing.cache_write` | 137 | 0 | 0 |
-| `limit.context` | 1 | 0 | 7 |
-| `limit.input` | 0 | 0 | 1 |
-| `limit.output` | 0 | 0 | 11 |
-| `modalities.input` | 0 | 0 | 2 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `name`                       |    0 |      0 |       1 |
+| `release_date`               |    0 |      1 |     220 |
+| `features.structured_output` |    0 |      0 |       5 |
+| `features.tool_call`         |    0 |      0 |       5 |
+| `pricing.input`              |    2 |      0 |     168 |
+| `pricing.output`             |    2 |      0 |     155 |
+| `pricing.cache_read`         |    4 |      0 |      31 |
+| `pricing.cache_write`        |  137 |      0 |       0 |
+| `limit.context`              |    1 |      0 |       7 |
+| `limit.input`                |    0 |      0 |       1 |
+| `limit.output`               |    0 |      0 |      11 |
+| `modalities.input`           |    0 |      0 |       2 |
 
 <details>
 <summary><strong>Full details</strong></summary>
@@ -2103,11 +2103,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 4 |
-| `pricing.cache_read` | 0 | 0 | 4 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       4 |
+| `pricing.cache_read` |    0 |      0 |       4 |
 
 </details>
 
@@ -2168,11 +2168,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 61 |
-| `pricing.output` | 0 | 0 | 58 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      61 |
+| `pricing.output` |    0 |      0 |      58 |
 
 </details>
 
@@ -2333,10 +2333,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.input` | 0 | 0 | 1 |
+| Field           | Lost | Gained | Changed |
+| --------------- | ---: | -----: | ------: |
+| `limit.context` |    0 |      0 |       1 |
+| `limit.input`   |    0 |      0 |       1 |
 
 </details>
 
@@ -2369,11 +2369,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 1 | 0 | 0 |
-| `pricing.output` | 1 | 0 | 0 |
-| `pricing.cache_read` | 1 | 0 | 0 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    1 |      0 |       0 |
+| `pricing.output`     |    1 |      0 |       0 |
+| `pricing.cache_read` |    1 |      0 |       0 |
 
 </details>
 
@@ -2420,13 +2420,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 5 |
-| `features.tool_call` | 0 | 0 | 5 |
-| `pricing.input` | 1 | 0 | 0 |
-| `pricing.output` | 1 | 0 | 0 |
-| `limit.context` | 1 | 0 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       5 |
+| `features.tool_call`         |    0 |      0 |       5 |
+| `pricing.input`              |    1 |      0 |       0 |
+| `pricing.output`             |    1 |      0 |       0 |
+| `limit.context`              |    1 |      0 |       0 |
 
 </details>
 
@@ -2480,11 +2480,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 16 |
-| `pricing.output` | 0 | 0 | 15 |
-| `pricing.cache_read` | 0 | 0 | 14 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |      16 |
+| `pricing.output`     |    0 |      0 |      15 |
+| `pricing.cache_read` |    0 |      0 |      14 |
 
 </details>
 
@@ -2524,12 +2524,12 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.cache_read` | 1 | 0 | 3 |
-| `limit.context` | 0 | 0 | 2 |
-| `limit.output` | 0 | 0 | 5 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       1 |
+| `pricing.cache_read` |    1 |      0 |       3 |
+| `limit.context`      |    0 |      0 |       2 |
+| `limit.output`       |    0 |      0 |       5 |
 
 </details>
 
@@ -2562,12 +2562,12 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 206 |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 2 |
-| `pricing.cache_read` | 0 | 0 | 3 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `release_date`       |    0 |      0 |     206 |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       2 |
+| `pricing.cache_read` |    0 |      0 |       3 |
 
 </details>
 
@@ -2586,9 +2586,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 1 |
+| Field  | Lost | Gained | Changed |
+| ------ | ---: | -----: | ------: |
+| `name` |    0 |      0 |       1 |
 
 </details>
 
@@ -2621,10 +2621,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 74 |
-| `pricing.output` | 0 | 0 | 65 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      74 |
+| `pricing.output` |    0 |      0 |      65 |
 
 </details>
 
@@ -2651,10 +2651,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 6 |
-| `pricing.output` | 0 | 0 | 6 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       6 |
+| `pricing.output` |    0 |      0 |       6 |
 
 </details>
 
@@ -2778,13 +2778,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 2 | 0 | 3 |
-| `limit.context` | 0 | 0 | 4 |
-| `limit.output` | 0 | 0 | 6 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    2 |      0 |       3 |
+| `limit.context`      |    0 |      0 |       4 |
+| `limit.output`       |    0 |      0 |       6 |
 
 </details>
 
@@ -2817,9 +2817,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.cache_write` | 137 | 0 | 0 |
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `pricing.cache_write` |  137 |      0 |       0 |
 
 </details>
 
@@ -2929,9 +2929,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 1 | 0 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      1 |       0 |
 
 </details>
 
@@ -2971,11 +2971,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 2 |
-| `pricing.cache_read` | 0 | 0 | 2 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       2 |
+| `pricing.cache_read` |    0 |      0 |       2 |
 
 </details>
 
@@ -3022,12 +3022,12 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 2 |
-| `pricing.cache_read` | 0 | 0 | 2 |
-| `modalities.input` | 0 | 0 | 2 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       2 |
+| `pricing.cache_read` |    0 |      0 |       2 |
+| `modalities.input`   |    0 |      0 |       2 |
 
 </details>
 
@@ -3052,20 +3052,20 @@ _No field-level changes among existing models._
 - Total models removed: 25
 - Total field changes: 534
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 220 |
-| `last_updated` | 0 | 0 | 2 |
-| `features.attachment` | 0 | 0 | 5 |
-| `features.structured_output` | 0 | 0 | 7 |
-| `features.tool_call` | 0 | 0 | 4 |
-| `pricing.input` | 0 | 2 | 113 |
-| `pricing.output` | 0 | 2 | 105 |
-| `pricing.cache_read` | 2 | 11 | 29 |
-| `pricing.cache_write` | 6 | 3 | 1 |
-| `limit.context` | 0 | 1 | 7 |
-| `limit.output` | 0 | 0 | 9 |
-| `modalities.input` | 0 | 0 | 5 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `release_date`               |    0 |      0 |     220 |
+| `last_updated`               |    0 |      0 |       2 |
+| `features.attachment`        |    0 |      0 |       5 |
+| `features.structured_output` |    0 |      0 |       7 |
+| `features.tool_call`         |    0 |      0 |       4 |
+| `pricing.input`              |    0 |      2 |     113 |
+| `pricing.output`             |    0 |      2 |     105 |
+| `pricing.cache_read`         |    2 |     11 |      29 |
+| `pricing.cache_write`        |    6 |      3 |       1 |
+| `limit.context`              |    0 |      1 |       7 |
+| `limit.output`               |    0 |      0 |       9 |
+| `modalities.input`           |    0 |      0 |       5 |
 
 <details>
 <summary><strong>Full details</strong></summary>
@@ -3083,9 +3083,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `last_updated` | 0 | 0 | 2 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `last_updated` |    0 |      0 |       2 |
 
 </details>
 
@@ -3174,11 +3174,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 61 |
-| `pricing.output` | 0 | 0 | 58 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      61 |
+| `pricing.output` |    0 |      0 |      58 |
 
 </details>
 
@@ -3211,11 +3211,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 0 | 2 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    0 |      0 |       2 |
 
 </details>
 
@@ -3290,11 +3290,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 3 |
-| `pricing.output` | 0 | 0 | 2 |
-| `pricing.cache_read` | 0 | 2 | 0 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       3 |
+| `pricing.output`     |    0 |      0 |       2 |
+| `pricing.cache_read` |    0 |      2 |       0 |
 
 </details>
 
@@ -3419,13 +3419,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 7 |
-| `features.tool_call` | 0 | 0 | 4 |
-| `pricing.input` | 0 | 1 | 0 |
-| `pricing.output` | 0 | 1 | 0 |
-| `limit.context` | 0 | 1 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       7 |
+| `features.tool_call`         |    0 |      0 |       4 |
+| `pricing.input`              |    0 |      1 |       0 |
+| `pricing.output`             |    0 |      1 |       0 |
+| `limit.context`              |    0 |      1 |       0 |
 
 </details>
 
@@ -3487,13 +3487,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.attachment` | 0 | 0 | 5 |
-| `pricing.input` | 0 | 1 | 15 |
-| `pricing.output` | 0 | 1 | 15 |
-| `pricing.cache_read` | 0 | 1 | 13 |
-| `modalities.input` | 0 | 0 | 5 |
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `features.attachment` |    0 |      0 |       5 |
+| `pricing.input`       |    0 |      1 |      15 |
+| `pricing.output`      |    0 |      1 |      15 |
+| `pricing.cache_read`  |    0 |      1 |      13 |
+| `modalities.input`    |    0 |      0 |       5 |
 
 </details>
 
@@ -3526,14 +3526,14 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 18 |
-| `pricing.output` | 0 | 0 | 16 |
-| `pricing.cache_read` | 1 | 5 | 12 |
-| `pricing.cache_write` | 3 | 2 | 0 |
-| `limit.context` | 0 | 0 | 3 |
-| `limit.output` | 0 | 0 | 4 |
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `pricing.input`       |    0 |      0 |      18 |
+| `pricing.output`      |    0 |      0 |      16 |
+| `pricing.cache_read`  |    1 |      5 |      12 |
+| `pricing.cache_write` |    3 |      2 |       0 |
+| `limit.context`       |    0 |      0 |       3 |
+| `limit.output`        |    0 |      0 |       4 |
 
 </details>
 
@@ -3568,9 +3568,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 206 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     206 |
 
 </details>
 
@@ -3631,10 +3631,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 10 |
-| `pricing.output` | 0 | 0 | 8 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      10 |
+| `pricing.output` |    0 |      0 |       8 |
 
 </details>
 
@@ -3777,14 +3777,14 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 4 |
-| `pricing.output` | 0 | 0 | 5 |
-| `pricing.cache_read` | 1 | 3 | 2 |
-| `pricing.cache_write` | 3 | 1 | 1 |
-| `limit.context` | 0 | 0 | 3 |
-| `limit.output` | 0 | 0 | 5 |
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `pricing.input`       |    0 |      0 |       4 |
+| `pricing.output`      |    0 |      0 |       5 |
+| `pricing.cache_read`  |    1 |      3 |       2 |
+| `pricing.cache_write` |    3 |      1 |       1 |
+| `limit.context`       |    0 |      0 |       3 |
+| `limit.output`        |    0 |      0 |       5 |
 
 </details>
 
@@ -3939,9 +3939,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `limit.context` | 0 | 0 | 1 |
+| Field           | Lost | Gained | Changed |
+| --------------- | ---: | -----: | ------: |
+| `limit.context` |    0 |      0 |       1 |
 
 </details>
 
@@ -3966,18 +3966,18 @@ _No field-level changes among existing models._
 - Total models removed: 9
 - Total field changes: 562
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 1 | 220 |
-| `features.structured_output` | 0 | 0 | 14 |
-| `features.tool_call` | 0 | 0 | 9 |
-| `pricing.input` | 0 | 0 | 157 |
-| `pricing.output` | 0 | 0 | 142 |
-| `pricing.reasoning` | 0 | 1 | 0 |
-| `pricing.cache_read` | 1 | 1 | 11 |
-| `pricing.cache_write` | 0 | 0 | 1 |
-| `limit.context` | 0 | 0 | 2 |
-| `limit.output` | 0 | 0 | 2 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `release_date`               |    0 |      1 |     220 |
+| `features.structured_output` |    0 |      0 |      14 |
+| `features.tool_call`         |    0 |      0 |       9 |
+| `pricing.input`              |    0 |      0 |     157 |
+| `pricing.output`             |    0 |      0 |     142 |
+| `pricing.reasoning`          |    0 |      1 |       0 |
+| `pricing.cache_read`         |    1 |      1 |      11 |
+| `pricing.cache_write`        |    0 |      0 |       1 |
+| `limit.context`              |    0 |      0 |       2 |
+| `limit.output`               |    0 |      0 |       2 |
 
 <details>
 <summary><strong>Full details</strong></summary>
@@ -4031,11 +4031,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 1 | 0 | 0 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       1 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    1 |      0 |       0 |
 
 </details>
 
@@ -4096,11 +4096,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 61 |
-| `pricing.output` | 0 | 0 | 58 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      61 |
+| `pricing.output` |    0 |      0 |      58 |
 
 </details>
 
@@ -4315,11 +4315,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 11 |
-| `features.tool_call` | 0 | 0 | 9 |
-| `pricing.input` | 0 | 0 | 1 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |      11 |
+| `features.tool_call`         |    0 |      0 |       9 |
+| `pricing.input`              |    0 |      0 |       1 |
 
 </details>
 
@@ -4361,11 +4361,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 16 |
-| `pricing.output` | 0 | 0 | 15 |
-| `pricing.cache_read` | 0 | 0 | 11 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |      16 |
+| `pricing.output`     |    0 |      0 |      15 |
+| `pricing.cache_read` |    0 |      0 |      11 |
 
 </details>
 
@@ -4405,17 +4405,17 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 1 |
-| `features.structured_output` | 0 | 0 | 2 |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 2 |
-| `pricing.reasoning` | 0 | 1 | 0 |
-| `pricing.cache_read` | 0 | 1 | 0 |
-| `pricing.cache_write` | 0 | 0 | 1 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 0 | 1 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `release_date`               |    0 |      0 |       1 |
+| `features.structured_output` |    0 |      0 |       2 |
+| `pricing.input`              |    0 |      0 |       2 |
+| `pricing.output`             |    0 |      0 |       2 |
+| `pricing.reasoning`          |    0 |      1 |       0 |
+| `pricing.cache_read`         |    0 |      1 |       0 |
+| `pricing.cache_write`        |    0 |      0 |       1 |
+| `limit.context`              |    0 |      0 |       1 |
+| `limit.output`               |    0 |      0 |       1 |
 
 </details>
 
@@ -4441,9 +4441,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 205 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     205 |
 
 </details>
 
@@ -4497,10 +4497,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 74 |
-| `pricing.output` | 0 | 0 | 65 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      74 |
+| `pricing.output` |    0 |      0 |      65 |
 
 </details>
 
@@ -4533,9 +4533,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
+| Field           | Lost | Gained | Changed |
+| --------------- | ---: | -----: | ------: |
+| `pricing.input` |    0 |      0 |       1 |
 
 </details>
 
@@ -4671,13 +4671,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 1 |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 0 | 1 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       1 |
+| `pricing.input`              |    0 |      0 |       1 |
+| `pricing.output`             |    0 |      0 |       1 |
+| `limit.context`              |    0 |      0 |       1 |
+| `limit.output`               |    0 |      0 |       1 |
 
 </details>
 
@@ -4754,9 +4754,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 1 | 0 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      1 |       0 |
 
 </details>
 
@@ -4865,17 +4865,17 @@ _No field-level changes among existing models._
 - Total models removed: 8
 - Total field changes: 529
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 218 |
-| `features.reasoning` | 0 | 0 | 1 |
-| `features.structured_output` | 0 | 0 | 6 |
-| `features.tool_call` | 0 | 0 | 6 |
-| `pricing.input` | 1 | 0 | 149 |
-| `pricing.output` | 1 | 0 | 135 |
-| `pricing.cache_read` | 0 | 0 | 10 |
-| `limit.context` | 1 | 0 | 0 |
-| `limit.output` | 0 | 0 | 1 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `release_date`               |    0 |      0 |     218 |
+| `features.reasoning`         |    0 |      0 |       1 |
+| `features.structured_output` |    0 |      0 |       6 |
+| `features.tool_call`         |    0 |      0 |       6 |
+| `pricing.input`              |    1 |      0 |     149 |
+| `pricing.output`             |    1 |      0 |     135 |
+| `pricing.cache_read`         |    0 |      0 |      10 |
+| `limit.context`              |    1 |      0 |       0 |
+| `limit.output`               |    0 |      0 |       1 |
 
 <details>
 <summary><strong>Full details</strong></summary>
@@ -4994,11 +4994,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 61 |
-| `pricing.output` | 0 | 0 | 58 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      61 |
+| `pricing.output` |    0 |      0 |      58 |
 
 </details>
 
@@ -5213,13 +5213,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 6 |
-| `features.tool_call` | 0 | 0 | 6 |
-| `pricing.input` | 1 | 0 | 1 |
-| `pricing.output` | 1 | 0 | 1 |
-| `limit.context` | 1 | 0 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       6 |
+| `features.tool_call`         |    0 |      0 |       6 |
+| `pricing.input`              |    1 |      0 |       1 |
+| `pricing.output`             |    1 |      0 |       1 |
+| `limit.context`              |    1 |      0 |       0 |
 
 </details>
 
@@ -5252,11 +5252,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 12 |
-| `pricing.output` | 0 | 0 | 10 |
-| `pricing.cache_read` | 0 | 0 | 9 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |      12 |
+| `pricing.output`     |    0 |      0 |      10 |
+| `pricing.cache_read` |    0 |      0 |       9 |
 
 </details>
 
@@ -5328,9 +5328,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 204 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     204 |
 
 </details>
 
@@ -5393,10 +5393,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 74 |
-| `pricing.output` | 0 | 0 | 65 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      74 |
+| `pricing.output` |    0 |      0 |      65 |
 
 </details>
 
@@ -5415,9 +5415,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.reasoning` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `features.reasoning` |    0 |      0 |       1 |
 
 </details>
 
@@ -5598,11 +5598,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       1 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    0 |      0 |       1 |
 
 </details>
 
@@ -5621,9 +5621,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `limit.output` | 0 | 0 | 1 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `limit.output` |    0 |      0 |       1 |
 
 </details>
 
@@ -5705,17 +5705,17 @@ _No field-level changes among existing models._
 - Total models removed: 2
 - Total field changes: 609
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 1 |
-| `release_date` | 0 | 0 | 280 |
-| `features.structured_output` | 0 | 0 | 9 |
-| `features.tool_call` | 0 | 0 | 6 |
-| `pricing.input` | 0 | 1 | 152 |
-| `pricing.output` | 0 | 1 | 140 |
-| `pricing.cache_read` | 0 | 0 | 14 |
-| `pricing.cache_write` | 0 | 0 | 4 |
-| `limit.context` | 0 | 1 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `name`                       |    0 |      0 |       1 |
+| `release_date`               |    0 |      0 |     280 |
+| `features.structured_output` |    0 |      0 |       9 |
+| `features.tool_call`         |    0 |      0 |       6 |
+| `pricing.input`              |    0 |      1 |     152 |
+| `pricing.output`             |    0 |      1 |     140 |
+| `pricing.cache_read`         |    0 |      0 |      14 |
+| `pricing.cache_write`        |    0 |      0 |       4 |
+| `limit.context`              |    0 |      1 |       0 |
 
 <details>
 <summary><strong>Full details</strong></summary>
@@ -5817,11 +5817,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 61 |
-| `pricing.output` | 0 | 0 | 58 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      61 |
+| `pricing.output` |    0 |      0 |      58 |
 
 </details>
 
@@ -6036,13 +6036,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 9 |
-| `features.tool_call` | 0 | 0 | 6 |
-| `pricing.input` | 0 | 1 | 1 |
-| `pricing.output` | 0 | 1 | 1 |
-| `limit.context` | 0 | 1 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       9 |
+| `features.tool_call`         |    0 |      0 |       6 |
+| `pricing.input`              |    0 |      1 |       1 |
+| `pricing.output`             |    0 |      1 |       1 |
+| `limit.context`              |    0 |      1 |       0 |
 
 </details>
 
@@ -6082,11 +6082,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 9 |
-| `pricing.output` | 0 | 0 | 9 |
-| `pricing.cache_read` | 0 | 0 | 7 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       9 |
+| `pricing.output`     |    0 |      0 |       9 |
+| `pricing.cache_read` |    0 |      0 |       7 |
 
 </details>
 
@@ -6133,9 +6133,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 207 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     207 |
 
 </details>
 
@@ -6182,10 +6182,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 74 |
-| `pricing.output` | 0 | 0 | 65 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      74 |
+| `pricing.output` |    0 |      0 |      65 |
 
 </details>
 
@@ -6338,12 +6338,12 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 0 | 2 |
-| `pricing.cache_write` | 0 | 0 | 1 |
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `pricing.input`       |    0 |      0 |       1 |
+| `pricing.output`      |    0 |      0 |       1 |
+| `pricing.cache_read`  |    0 |      0 |       2 |
+| `pricing.cache_write` |    0 |      0 |       1 |
 
 </details>
 
@@ -6383,9 +6383,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 59 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |      59 |
 
 </details>
 
@@ -6418,12 +6418,12 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 5 |
-| `pricing.output` | 0 | 0 | 5 |
-| `pricing.cache_read` | 0 | 0 | 4 |
-| `pricing.cache_write` | 0 | 0 | 2 |
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `pricing.input`       |    0 |      0 |       5 |
+| `pricing.output`      |    0 |      0 |       5 |
+| `pricing.cache_read`  |    0 |      0 |       4 |
+| `pricing.cache_write` |    0 |      0 |       2 |
 
 </details>
 
@@ -6442,13 +6442,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `name` | 0 | 0 | 1 |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 0 | 0 | 1 |
-| `pricing.cache_write` | 0 | 0 | 1 |
+| Field                 | Lost | Gained | Changed |
+| --------------------- | ---: | -----: | ------: |
+| `name`                |    0 |      0 |       1 |
+| `pricing.input`       |    0 |      0 |       1 |
+| `pricing.output`      |    0 |      0 |       1 |
+| `pricing.cache_read`  |    0 |      0 |       1 |
+| `pricing.cache_write` |    0 |      0 |       1 |
 
 </details>
 
@@ -6508,16 +6508,16 @@ _No field-level changes among existing models._
 - Total models removed: 6
 - Total field changes: 574
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 221 |
-| `features.structured_output` | 0 | 0 | 9 |
-| `features.tool_call` | 0 | 0 | 8 |
-| `pricing.input` | 0 | 0 | 157 |
-| `pricing.output` | 0 | 0 | 144 |
-| `pricing.cache_read` | 2 | 1 | 16 |
-| `limit.context` | 0 | 0 | 7 |
-| `limit.output` | 0 | 2 | 7 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `release_date`               |    0 |      0 |     221 |
+| `features.structured_output` |    0 |      0 |       9 |
+| `features.tool_call`         |    0 |      0 |       8 |
+| `pricing.input`              |    0 |      0 |     157 |
+| `pricing.output`             |    0 |      0 |     144 |
+| `pricing.cache_read`         |    2 |      1 |      16 |
+| `limit.context`              |    0 |      0 |       7 |
+| `limit.output`               |    0 |      2 |       7 |
 
 <details>
 <summary><strong>Full details</strong></summary>
@@ -6612,10 +6612,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       1 |
+| `pricing.output` |    0 |      0 |       1 |
 
 </details>
 
@@ -6634,11 +6634,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
-| `pricing.input` | 0 | 0 | 61 |
-| `pricing.output` | 0 | 0 | 58 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |      14 |
+| `pricing.input`  |    0 |      0 |      61 |
+| `pricing.output` |    0 |      0 |      58 |
 
 </details>
 
@@ -6720,13 +6720,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 2 |
-| `pricing.cache_read` | 0 | 0 | 2 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       2 |
+| `pricing.cache_read` |    0 |      0 |       2 |
+| `limit.context`      |    0 |      0 |       1 |
+| `limit.output`       |    0 |      0 |       1 |
 
 </details>
 
@@ -6878,10 +6878,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 9 |
-| `features.tool_call` | 0 | 0 | 8 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       9 |
+| `features.tool_call`         |    0 |      0 |       8 |
 
 </details>
 
@@ -6914,13 +6914,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 16 |
-| `pricing.output` | 0 | 0 | 16 |
-| `pricing.cache_read` | 0 | 0 | 12 |
-| `limit.context` | 0 | 0 | 1 |
-| `limit.output` | 0 | 0 | 1 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |      16 |
+| `pricing.output`     |    0 |      0 |      16 |
+| `pricing.cache_read` |    0 |      0 |      12 |
+| `limit.context`      |    0 |      0 |       1 |
+| `limit.output`       |    0 |      0 |       1 |
 
 </details>
 
@@ -6960,13 +6960,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 1 | 0 | 1 |
-| `limit.context` | 0 | 0 | 2 |
-| `limit.output` | 0 | 1 | 2 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       1 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    1 |      0 |       1 |
+| `limit.context`      |    0 |      0 |       2 |
+| `limit.output`       |    0 |      1 |       2 |
 
 </details>
 
@@ -6985,9 +6985,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 207 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     207 |
 
 </details>
 
@@ -7034,10 +7034,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 73 |
-| `pricing.output` | 0 | 0 | 64 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      73 |
+| `pricing.output` |    0 |      0 |      64 |
 
 </details>
 
@@ -7084,10 +7084,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       1 |
+| `pricing.output` |    0 |      0 |       1 |
 
 </details>
 
@@ -7197,13 +7197,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 1 |
-| `pricing.cache_read` | 1 | 0 | 1 |
-| `limit.context` | 0 | 0 | 3 |
-| `limit.output` | 0 | 1 | 3 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |       2 |
+| `pricing.output`     |    0 |      0 |       1 |
+| `pricing.cache_read` |    1 |      0 |       1 |
+| `limit.context`      |    0 |      0 |       3 |
+| `limit.output`       |    0 |      1 |       3 |
 
 </details>
 
@@ -7275,9 +7275,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.cache_read` | 0 | 1 | 0 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.cache_read` |    0 |      1 |       0 |
 
 </details>
 
@@ -7380,15 +7380,15 @@ _No field-level changes among existing models._
 - Total models removed: 4
 - Total field changes: 418
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 221 |
-| `features.structured_output` | 0 | 0 | 9 |
-| `features.tool_call` | 0 | 0 | 6 |
-| `pricing.input` | 1 | 0 | 89 |
-| `pricing.output` | 1 | 0 | 80 |
-| `pricing.cache_read` | 0 | 0 | 9 |
-| `limit.context` | 1 | 0 | 1 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `release_date`               |    0 |      0 |     221 |
+| `features.structured_output` |    0 |      0 |       9 |
+| `features.tool_call`         |    0 |      0 |       6 |
+| `pricing.input`              |    1 |      0 |      89 |
+| `pricing.output`             |    1 |      0 |      80 |
+| `pricing.cache_read`         |    0 |      0 |       9 |
+| `limit.context`              |    1 |      0 |       1 |
 
 <details>
 <summary><strong>Full details</strong></summary>
@@ -7490,9 +7490,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 14 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |      14 |
 
 </details>
 
@@ -7714,13 +7714,13 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `features.structured_output` | 0 | 0 | 9 |
-| `features.tool_call` | 0 | 0 | 6 |
-| `pricing.input` | 1 | 0 | 1 |
-| `pricing.output` | 1 | 0 | 1 |
-| `limit.context` | 1 | 0 | 0 |
+| Field                        | Lost | Gained | Changed |
+| ---------------------------- | ---: | -----: | ------: |
+| `features.structured_output` |    0 |      0 |       9 |
+| `features.tool_call`         |    0 |      0 |       6 |
+| `pricing.input`              |    1 |      0 |       1 |
+| `pricing.output`             |    1 |      0 |       1 |
+| `limit.context`              |    1 |      0 |       0 |
 
 </details>
 
@@ -7753,11 +7753,11 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 12 |
-| `pricing.output` | 0 | 0 | 12 |
-| `pricing.cache_read` | 0 | 0 | 9 |
+| Field                | Lost | Gained | Changed |
+| -------------------- | ---: | -----: | ------: |
+| `pricing.input`      |    0 |      0 |      12 |
+| `pricing.output`     |    0 |      0 |      12 |
+| `pricing.cache_read` |    0 |      0 |       9 |
 
 </details>
 
@@ -7804,10 +7804,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 207 |
-| `limit.context` | 0 | 0 | 1 |
+| Field           | Lost | Gained | Changed |
+| --------------- | ---: | -----: | ------: |
+| `release_date`  |    0 |      0 |     207 |
+| `limit.context` |    0 |      0 |       1 |
 
 </details>
 
@@ -7854,10 +7854,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 73 |
-| `pricing.output` | 0 | 0 | 64 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      73 |
+| `pricing.output` |    0 |      0 |      64 |
 
 </details>
 
@@ -7876,10 +7876,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 2 |
-| `pricing.output` | 0 | 0 | 2 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       2 |
+| `pricing.output` |    0 |      0 |       2 |
 
 </details>
 
@@ -8059,10 +8059,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 1 |
-| `pricing.output` | 0 | 0 | 1 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |       1 |
+| `pricing.output` |    0 |      0 |       1 |
 
 </details>
 
@@ -8165,11 +8165,11 @@ _No field-level changes among existing models._
 - Total models removed: 0
 - Total field changes: 344
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 207 |
-| `pricing.input` | 0 | 0 | 73 |
-| `pricing.output` | 0 | 0 | 64 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `release_date`   |    0 |      0 |     207 |
+| `pricing.input`  |    0 |      0 |      73 |
+| `pricing.output` |    0 |      0 |      64 |
 
 <details>
 <summary><strong>Full details</strong></summary>
@@ -8568,9 +8568,9 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `release_date` | 0 | 0 | 207 |
+| Field          | Lost | Gained | Changed |
+| -------------- | ---: | -----: | ------: |
+| `release_date` |    0 |      0 |     207 |
 
 </details>
 
@@ -8617,10 +8617,10 @@ _No field-level changes among existing models._
 <details>
 <summary>Changed fields</summary>
 
-| Field | Lost | Gained | Changed |
-| --- | ---: | ---: | ---: |
-| `pricing.input` | 0 | 0 | 73 |
-| `pricing.output` | 0 | 0 | 64 |
+| Field            | Lost | Gained | Changed |
+| ---------------- | ---: | -----: | ------: |
+| `pricing.input`  |    0 |      0 |      73 |
+| `pricing.output` |    0 |      0 |      64 |
 
 </details>
 

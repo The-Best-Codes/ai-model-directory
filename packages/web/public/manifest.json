@@ -1,0 +1,25 @@
+{
+  "short_name": "AI Models",
+  "name": "AI Model Directory",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "logo150.png",
+      "type": "image/png",
+      "sizes": "150x150"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
