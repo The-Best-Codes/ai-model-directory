@@ -1,0 +1,9 @@
+id = "text-embedding-3-small-inference"
+name = "Embedding V3 small (Inference)"
+
+[features]
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

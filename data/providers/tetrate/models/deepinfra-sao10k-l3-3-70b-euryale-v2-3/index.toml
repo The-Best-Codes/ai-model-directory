@@ -1,6 +1,6 @@
 id = "deepinfra/Sao10K/L3.3-70B-Euryale-v2.3"
 name = "deepinfra/Sao10K/L3.3-70B-Euryale-v2.3"
-release_date = "1780011332"
+release_date = "1780041920"
 
 [features]
 attachment = false

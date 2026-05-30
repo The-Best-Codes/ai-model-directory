@@ -1,5 +1,2 @@
 id = "snowflake/arctic-embed-l"
-name = "Inference:"
-
-[modalities]
-input = [ "text" ]
+name = "snowflake/arctic-embed-l"

@@ -1,5 +1,5 @@
 id = "nousresearch/hermes-2-pro-llama-3-8b"
-name = "NousResearch: Hermes 2 Pro - Llama-3 8B"
+name = "NousResearch: Hermes 2 Pro - Llama-3 8B (retires Jun 5)"
 release_date = "1716768000"
 
 [features]

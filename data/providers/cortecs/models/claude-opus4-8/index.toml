@@ -1,0 +1,16 @@
+id = "claude-opus4-8"
+name = "claude-opus4-8"
+release_date = "1780036200"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[pricing]
+cache_read = 0.488
+input = 4.881
+output = 24.404

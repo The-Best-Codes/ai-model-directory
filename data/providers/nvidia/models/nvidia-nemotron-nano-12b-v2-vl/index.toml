@@ -1,10 +1,2 @@
 id = "nvidia/nemotron-nano-12b-v2-vl"
-name = "Model Architecture:"
-
-[features]
-attachment = true
-tool_call = true
-
-[modalities]
-input = [ "image", "text", "video" ]
-output = [ "text" ]
+name = "nvidia/nemotron-nano-12b-v2-vl"

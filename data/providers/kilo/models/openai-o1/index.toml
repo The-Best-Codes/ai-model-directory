@@ -1,5 +1,5 @@
 id = "openai/o1"
-name = "OpenAI: o1"
+name = "OpenAI: o1 ($$$$)"
 release_date = "1734459999"
 
 [features]

@@ -1,6 +1,2 @@
 id = "nvidia/gliner-pii"
-name = "Inference:"
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
+name = "nvidia/gliner-pii"

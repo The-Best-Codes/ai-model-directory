@@ -1,6 +1,6 @@
 id = "deepinfra/nvidia/Llama-3.1-Nemotron-70B-Instruct"
 name = "deepinfra/nvidia/Llama-3.1-Nemotron-70B-Instruct"
-release_date = "1780011332"
+release_date = "1780041920"
 
 [features]
 attachment = false

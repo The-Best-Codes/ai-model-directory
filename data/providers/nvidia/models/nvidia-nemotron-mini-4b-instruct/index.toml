@@ -1,9 +1,2 @@
 id = "nvidia/nemotron-mini-4b-instruct"
-name = "Training & Evaluation:"
-
-[features]
-tool_call = true
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
+name = "nvidia/nemotron-mini-4b-instruct"

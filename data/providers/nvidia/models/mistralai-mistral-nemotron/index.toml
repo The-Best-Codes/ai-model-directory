@@ -1,5 +1,2 @@
 id = "mistralai/mistral-nemotron"
-name = "Mistral-Nemotron Overview"
-
-[features]
-tool_call = true
+name = "mistralai/mistral-nemotron"
