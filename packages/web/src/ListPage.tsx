@@ -1,5 +1,5 @@
 import * as React from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { Link, useLoaderData } from "react-router";
 import {
 	type ColumnDef,
 	type HeaderContext,
@@ -37,21 +37,18 @@ import {
 	TooltipTrigger,
 } from "#/components/ui/tooltip";
 
-export const Route = createFileRoute("/list")({
-	loader: async () => {
-		const response = await fetch(
-			"https://raw.githubusercontent.com/The-Best-Codes/ai-model-directory/main/data/all.min.json",
-			{ headers: { accept: "application/json" } },
-		);
+export async function listLoader() {
+	const response = await fetch(
+		"https://raw.githubusercontent.com/The-Best-Codes/ai-model-directory/main/data/all.min.json",
+		{ headers: { accept: "application/json" } },
+	);
 
-		if (!response.ok) {
-			throw new Error(`Failed to load model directory: ${response.status}`);
-		}
+	if (!response.ok) {
+		throw new Error(`Failed to load model directory: ${response.status}`);
+	}
 
-		return response.json() as Promise<DirectoryData>;
-	},
-	component: ListPage,
-});
+	return response.json() as Promise<DirectoryData>;
+}
 
 const ROW_HEIGHT = 56;
 const OVERSCAN = 10;
@@ -374,8 +371,8 @@ const columns: ColumnDef<ModelRow>[] = [
 	},
 ];
 
-function ListPage() {
-	const directory = Route.useLoaderData();
+export function ListPage() {
+	const directory = useLoaderData() as DirectoryData;
 	const { modelRows, modelCount, providerCount } = React.useMemo(
 		() => buildRows(directory),
 		[directory],
