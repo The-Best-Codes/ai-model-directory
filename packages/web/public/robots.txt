@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# *
 User-agent: *
-Disallow:
+Allow: /
+
+# Host
+Host: https://models.agent-one.dev
+
+# Sitemaps
+Sitemap: https://models.agent-one.dev/sitemap.xml
