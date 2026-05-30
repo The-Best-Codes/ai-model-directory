@@ -1,15 +1,45 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
 import { Button } from "#/components/ui/button";
-import Doc from "#/docs/index.mdx";
+import { getDocPath, getDocSlugs } from "#/lib/docs";
 
 export const metadata: Metadata = {
   title: "Docs | AI Model Directory",
   description: "Documentation for AI Model Directory.",
 };
 
-export default function Page() {
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
+type PageProps = {
+  params: Promise<{ slug?: string[] }>;
+};
+
+type MdxModule = {
+  default: React.ComponentType;
+};
+
+export function generateStaticParams() {
+  return getDocSlugs().map((slug) => ({
+    slug: slug ? slug.split("/") : undefined,
+  }));
+}
+
+export default async function Page({ params }: PageProps) {
+  const { slug: slugArray } = await params;
+  const slug = slugArray?.join("/") ?? "";
+  const docPath = getDocPath(slug);
+
+  if (!docPath) {
+    notFound();
+  }
+
+  const { default: Doc } = (await import(
+    `../../../docs/${docPath}`
+  )) as MdxModule;
+
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-3xl flex-col gap-8 px-6 py-16">
       <nav className="flex items-center justify-between gap-4">
