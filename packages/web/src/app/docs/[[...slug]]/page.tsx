@@ -3,12 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { Button } from "#/components/ui/button";
-import { getDocPath, getDocSlugs } from "#/lib/docs";
-
-export const metadata: Metadata = {
-  title: "Docs | AI Model Directory",
-  description: "Documentation for AI Model Directory.",
-};
+import { getDocMetadata, getDocPath, getDocSlugs } from "#/lib/docs";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -25,6 +20,23 @@ export function generateStaticParams() {
   return getDocSlugs().map((slug) => ({
     slug: slug ? slug.split("/") : undefined,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { slug: slugArray } = await params;
+  const slug = slugArray?.join("/") ?? "";
+  const docPath = getDocPath(slug);
+
+  if (!docPath) {
+    return {
+      title: "Docs | AI Model Directory",
+      description: "Documentation for AI Model Directory.",
+    };
+  }
+
+  return getDocMetadata(docPath);
 }
 
 export default async function Page({ params }: PageProps) {

@@ -2,6 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 
 const docsDirectory = path.join(process.cwd(), "src/docs");
+const defaultTitle = "Docs | AI Model Directory";
+const defaultDescription = "Documentation for AI Model Directory.";
+
+type DocFrontmatter = {
+  title?: string;
+  description?: string;
+};
 
 export function getDocSlugs(directory = docsDirectory, prefix = ""): string[] {
   const slugs: string[] = [];
@@ -32,4 +39,52 @@ export function getDocPath(slug: string) {
   if (fs.existsSync(indexPath)) {
     return `${slug}/index.mdx`;
   }
+}
+
+export function getDocMetadata(docPath: string) {
+  const frontmatter = readFrontmatter(
+    fs.readFileSync(path.join(docsDirectory, docPath), "utf8"),
+  );
+
+  return {
+    title: frontmatter.title
+      ? `${frontmatter.title} | AI Model Directory`
+      : defaultTitle,
+    description: frontmatter.description ?? defaultDescription,
+  };
+}
+
+function readFrontmatter(source: string): DocFrontmatter {
+  if (!source.startsWith("---\n")) {
+    return {};
+  }
+
+  const end = source.indexOf("\n---", 4);
+
+  if (end === -1) {
+    return {};
+  }
+
+  return source
+    .slice(4, end)
+    .split("\n")
+    .reduce<DocFrontmatter>((metadata, line) => {
+      const separator = line.indexOf(":");
+
+      if (separator === -1) {
+        return metadata;
+      }
+
+      const key = line.slice(0, separator).trim();
+      const value = line
+        .slice(separator + 1)
+        .trim()
+        .replace(/^['\"]|['\"]$/g, "");
+
+      if ((key === "title" || key === "description") && value) {
+        metadata[key] = value;
+      }
+
+      return metadata;
+    }, {});
 }
