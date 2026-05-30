@@ -3,8 +3,10 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router";
 
 import { TooltipProvider } from "#/components/ui/tooltip";
+import { DocsPage } from "./DocsPage";
 import { HomePage } from "./HomePage";
 import { ListPage, listLoader } from "./ListPage";
+import { NotFoundPage } from "./NotFoundPage";
 import "./styles.css";
 
 const router = createBrowserRouter([
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
 		path: "/list",
 		loader: listLoader,
 		element: <ListPage />,
+	},
+	{
+		path: "/docs",
+		element: <DocsPage />,
+	},
+	{
+		path: "*",
+		element: <NotFoundPage />,
 	},
 ]);
 

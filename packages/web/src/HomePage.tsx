@@ -19,6 +19,9 @@ export function HomePage() {
 					<Link to="/list">Browse all models</Link>
 				</Button>
 				<Button asChild size="lg" variant="secondary">
+					<Link to="/docs">Docs</Link>
+				</Button>
+				<Button asChild size="lg" variant="secondary">
 					<a
 						href="https://github.com/The-Best-Codes/ai-model-directory"
 						target="_blank"
