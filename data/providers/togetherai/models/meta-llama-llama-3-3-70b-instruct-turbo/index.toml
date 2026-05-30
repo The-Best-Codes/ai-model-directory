@@ -1,5 +1,5 @@
 id = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
-name = "Meta Llama 3.3 70B Instruct (FP8)"
+name = "Meta Llama 3.3 70B Instruct Turbo"
 release_date = "1733466629"
 
 [features]
@@ -13,5 +13,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.88
-output = 0.88
+input = 1.0399999999999998
+output = 1.0399999999999998

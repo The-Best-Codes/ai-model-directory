@@ -1,5 +1,2 @@
 id = "nvidia/nv-embedcode-7b-v1"
-name = "Training Dataset & Evalution:"
-
-[modalities]
-input = [ "text" ]
+name = "nvidia/nv-embedcode-7b-v1"

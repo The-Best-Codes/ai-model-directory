@@ -1,0 +1,9 @@
+id = "text-embedding-ada-002"
+name = "Embedding V2 Ada"
+
+[features]
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

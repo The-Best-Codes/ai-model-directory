@@ -1,5 +1,5 @@
 id = "openai/gpt-5-image"
-name = "OpenAI: GPT-5 Image"
+name = "OpenAI: GPT-5 Image ($$$$)"
 release_date = "1760447986"
 
 [features]

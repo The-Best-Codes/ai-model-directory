@@ -1,6 +1,6 @@
 id = "deepinfra/NousResearch/Hermes-3-Llama-3.1-405B"
 name = "deepinfra/NousResearch/Hermes-3-Llama-3.1-405B"
-release_date = "1780011332"
+release_date = "1780041920"
 
 [features]
 attachment = false

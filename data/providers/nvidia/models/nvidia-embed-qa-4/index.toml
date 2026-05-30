@@ -1,5 +1,2 @@
 id = "nvidia/embed-qa-4"
 name = "nvidia/embed-qa-4"
-
-[modalities]
-input = [ "text" ]

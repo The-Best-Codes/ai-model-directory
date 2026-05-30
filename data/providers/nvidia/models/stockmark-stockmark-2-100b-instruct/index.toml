@@ -1,9 +1,2 @@
 id = "stockmark/stockmark-2-100b-instruct"
-name = "Stockmark-2-100B-Instruct"
-
-[limit]
-context = 32
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
+name = "stockmark/stockmark-2-100b-instruct"
