@@ -1,6 +1,2 @@
 id = "abacusai/dracarys-llama-3.1-70b-instruct"
-name = "Dracarys-Llama-3.1-70B-Instruct"
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
+name = "abacusai/dracarys-llama-3.1-70b-instruct"
