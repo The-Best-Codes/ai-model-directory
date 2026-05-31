@@ -6,7 +6,55 @@ order: 2
 
 # Data layout
 
-The source data lives under `data/providers`. Each provider has an `index.toml` file plus optional logo files and a `models` folder.
+The generated public dataset is `data/all.json`. It is a JSON object keyed by provider ID.
+
+```json
+{
+  "openai": {
+    "id": "openai",
+    "name": "OpenAI",
+    "website": "https://openai.com",
+    "apiBaseUrl": "https://api.openai.com/v1",
+    "models": {
+      "gpt-5.5": {
+        "id": "gpt-5.5",
+        "pricing": { "input": 1.25, "output": 10 },
+        "limit": { "context": 128000 },
+        "features": { "tool_call": true }
+      }
+    }
+  }
+}
+```
+
+There is also `data/all.min.json`, which has the same shape but is minified.
+
+## Provider entries
+
+Each provider has:
+
+- `id`: stable provider ID.
+- `name`: display name.
+- `website`: provider website when known.
+- `apiBaseUrl`: API base URL when known.
+- `aiSdk`: optional Vercel AI SDK package/env metadata.
+- `models`: object keyed by model ID.
+
+## Model entries
+
+Each model has an `id` and may include:
+
+- `name`
+- `pricing`: per-million token pricing fields like `input`, `output`, `reasoning`, `cache_read`, and audio pricing.
+- `limit`: `context`, `input`, and `output` token limits.
+- `modalities`: supported input and output modalities.
+- `features`: booleans for attachments, reasoning, tool calls, structured output, and temperature.
+- `knowledge_cutoff`, `release_date`, `last_updated`: Unix timestamp strings.
+- `open_weights`: whether the model weights are open.
+
+## Source files
+
+The updater stores source data as TOML under `data/providers`, then generates `all.json` from it.
 
 ```txt
 data/providers/
@@ -17,18 +65,7 @@ data/providers/
     models/
       gpt-5-5/
         index.toml
+        metadata.toml
 ```
 
-## Provider files
-
-A provider file describes the company or API endpoint. It includes things like the provider ID, display name, website, base URL, and metadata used by the website and package.
-
-## Model files
-
-A model file describes one model for that provider. Common fields include the model ID, display name, context window, supported features, and pricing.
-
-Pricing is stored in machine-readable fields so apps can compare models without scraping provider websites.
-
-## Generated package data
-
-The npm package contains generated TypeScript data from these TOML files. Most apps should consume the package instead of reading the raw files directly.
+Do not read the raw TOML files in applications. Use `all.json`, `all.min.json`, or the npm package.

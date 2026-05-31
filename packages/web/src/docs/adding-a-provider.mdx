@@ -6,21 +6,22 @@ order: 5
 
 # Adding a provider
 
-Add providers by copying the shape of existing providers and keeping the change small.
+Before adding a provider, read a few existing adapters so the new one follows the same conventions. Good examples are `openai`, `anthropic`, `openrouter`, and `aihubmix`.
 
 ## Steps
 
-1. Create `data/providers/provider-id/index.toml`.
-2. Add provider metadata such as name, website, API base URL, and docs links.
-3. Add model files under `data/providers/provider-id/models/model-id/index.toml`.
-4. Include pricing, context limits, and features only when you can verify them from provider docs.
-5. Run the repository checks before opening a pull request.
+1. Create `src/providers/<provider>.ts` exporting a `ProviderDefinition` with `name`, `outputDirectory`, and `fetchModels`.
+2. Use `fetchJson` from `src/lib/http.ts` for HTTP calls.
+3. Use helpers from `src/providers/helpers.ts` and `src/lib/pricing.ts` for normalized fields and price math.
+4. Add the provider to `src/providers/index.ts`.
+5. Create `data/providers/<provider>/index.toml` with provider metadata.
+6. If the provider needs a credential, add it to `.env.example` and the update workflow.
+7. Run `bun src/index.ts -p <provider>` and inspect the generated model TOML.
+8. Run `bun src/build-all.ts` so `data/all.json` and `data/all.min.json` are updated.
+9. Run `bunx --bun tsc -b` and `bunx prettier . -w`.
 
-## Tips
+## Metadata fixes
 
-- Prefer official provider docs over third-party posts.
-- Keep model IDs exactly as the provider expects them in API requests.
-- Use existing providers as examples for field names and formatting.
-- If a value is unknown, leave it out instead of guessing.
+Generated `index.toml` files are rewritten by the updater. To override or preserve model data, add `metadata.toml` next to the generated model file.
 
-Provider data changes quickly, so small accurate updates are better than large guessed ones.
+`metadata.toml` supports `manual_data`, `extends`, `priorities`, and `preserve`. Use it for provider API gaps, friendly names, inherited metadata, or models that should stay even if they disappear upstream.
