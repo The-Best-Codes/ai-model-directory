@@ -1,6 +1,6 @@
 {
   "name": "models.agent-one.dev",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "private": true,
   "type": "module",
   "scripts": {
