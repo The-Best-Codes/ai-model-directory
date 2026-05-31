@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "#/components/ui/button";
-import { IconExternalLink } from "@tabler/icons-react";
+import { IconBook, IconExternalLink } from "@tabler/icons-react";
 
 export const metadata: Metadata = {
   title: "AI Model Directory",
@@ -26,7 +26,10 @@ export default function Page() {
           <Link href="/list">Browse all models</Link>
         </Button>
         <Button asChild size="lg" variant="secondary">
-          <Link href="/docs">Docs</Link>
+          <Link href="/docs">
+            <IconBook />
+            Docs
+          </Link>
         </Button>
         <Button asChild size="lg" variant="secondary">
           <a

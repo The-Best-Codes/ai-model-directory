@@ -3,6 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { IconMenu2 } from "@tabler/icons-react";
+import type { RehypeShikiCoreOptions } from "@shikijs/rehype/core";
+import rehypeShikiFromHighlighter from "@shikijs/rehype/core";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import rehypeSlug from "rehype-slug";
+import remarkGfm from "remark-gfm";
 
 import { Button } from "#/components/ui/button";
 import { DocsSidebar } from "#/components/docs/docs-sidebar";
@@ -22,6 +27,7 @@ import {
   getDocPath,
   getDocSlugs,
 } from "#/lib/docs";
+import shikiHighlighter from "#/lib/shiki";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -63,6 +69,7 @@ export default async function Page({ params }: PageProps) {
   }
 
   const pages = getDocPages();
+  const highlighter = await shikiHighlighter;
 
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-6 py-6 lg:py-10">
@@ -105,7 +112,28 @@ export default async function Page({ params }: PageProps) {
           </div>
         </aside>
         <article className="prose prose-neutral max-w-none pb-16 dark:prose-invert prose-headings:scroll-mt-24 prose-a:text-primary prose-pre:rounded-lg">
-          <MDXRemote source={doc.content} />
+          <MDXRemote
+            source={doc.content}
+            options={{
+              mdxOptions: {
+                remarkPlugins: [remarkGfm],
+                rehypePlugins: [
+                  rehypeSlug,
+                  [rehypeAutolinkHeadings, { behavior: "wrap" }],
+                  [
+                    rehypeShikiFromHighlighter,
+                    highlighter,
+                    {
+                      themes: {
+                        light: "light-plus",
+                        dark: "dark-plus",
+                      },
+                    } as RehypeShikiCoreOptions,
+                  ],
+                ],
+              },
+            }}
+          />
         </article>
       </div>
     </main>
