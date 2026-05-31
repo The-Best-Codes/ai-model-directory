@@ -6,18 +6,27 @@ order: 4
 
 # Security model
 
-AI Model Directory is data, not a proxy. It does not hold your provider API keys and it does not send requests to model providers for you.
+AI Model Directory is provider-supplied metadata. It is useful for model selection, defaults, and comparison, but it should not be treated as a billing authority or a guarantee that a provider is telling the truth.
 
-## Trust boundaries
+## What the updater protects
 
-- Treat directory data as public metadata.
-- Keep API keys in your own backend or secret store.
-- Validate provider URLs and model IDs before using them in sensitive workflows.
-- Do not treat pricing data as a billing source of truth.
+- Provider endpoints are hardcoded in source.
+- Fetched data is validated against a strict Zod schema before writing files.
+- Model IDs are normalized into safe directory names.
+- Conflicting normalized model directories are resolved deterministically.
+- Terminal output is sanitized before logging.
+- Network fetches have a 60 second timeout.
+- IDs and names are length-limited and reject raw control characters.
+- Removed upstream models are deleted unless `metadata.toml` sets `preserve = true`.
+- `extends` paths are restricted to paths inside `data/providers`.
+- Provider-supplied code, shell commands, and HTML are not executed.
 
-## Updates
+## What your app should still do
 
-The repository tries to keep model details accurate, but providers can change names, prices, limits, and availability at any time. Your app should handle missing models and changed prices gracefully.
+- Treat prices and capabilities as a strong default, not a source of truth.
+- Keep provider API keys in your own backend or secret store.
+- Handle missing models and changed limits gracefully.
+- Check provider billing pages for critical cost decisions.
 
 ## Reporting issues
 
