@@ -1,0 +1,26 @@
+---
+title: Adding a provider
+description: The short version of adding a provider to AI Model Directory.
+order: 5
+---
+
+# Adding a provider
+
+Add providers by copying the shape of existing providers and keeping the change small.
+
+## Steps
+
+1. Create `data/providers/provider-id/index.toml`.
+2. Add provider metadata such as name, website, API base URL, and docs links.
+3. Add model files under `data/providers/provider-id/models/model-id/index.toml`.
+4. Include pricing, context limits, and features only when you can verify them from provider docs.
+5. Run the repository checks before opening a pull request.
+
+## Tips
+
+- Prefer official provider docs over third-party posts.
+- Keep model IDs exactly as the provider expects them in API requests.
+- Use existing providers as examples for field names and formatting.
+- If a value is unknown, leave it out instead of guessing.
+
+Provider data changes quickly, so small accurate updates are better than large guessed ones.

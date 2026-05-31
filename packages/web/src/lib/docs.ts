@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import matter from "gray-matter";
 
 const docsDirectory = path.join(process.cwd(), "src/docs");
 const defaultTitle = "Docs | AI Model Directory";
@@ -8,6 +9,17 @@ const defaultDescription = "Documentation for AI Model Directory.";
 type DocFrontmatter = {
   title?: string;
   description?: string;
+  order?: number;
+};
+
+export type DocPage = DocFrontmatter & {
+  slug: string;
+  href: string;
+  title: string;
+};
+
+export type Doc = DocPage & {
+  content: string;
 };
 
 export function getDocSlugs(directory = docsDirectory, prefix = ""): string[] {
@@ -42,9 +54,7 @@ export function getDocPath(slug: string) {
 }
 
 export function getDocMetadata(docPath: string) {
-  const frontmatter = readFrontmatter(
-    fs.readFileSync(path.join(docsDirectory, docPath), "utf8"),
-  );
+  const frontmatter = readDocFile(docPath).data;
 
   return {
     title: frontmatter.title
@@ -54,37 +64,82 @@ export function getDocMetadata(docPath: string) {
   };
 }
 
-function readFrontmatter(source: string): DocFrontmatter {
-  if (!source.startsWith("---\n")) {
-    return {};
-  }
+export function getDocPages(): DocPage[] {
+  return getDocSlugs()
+    .map((slug) => {
+      const docPath = getDocPath(slug);
 
-  const end = source.indexOf("\n---", 4);
-
-  if (end === -1) {
-    return {};
-  }
-
-  return source
-    .slice(4, end)
-    .split("\n")
-    .reduce<DocFrontmatter>((metadata, line) => {
-      const separator = line.indexOf(":");
-
-      if (separator === -1) {
-        return metadata;
+      if (!docPath) {
+        return null;
       }
 
-      const key = line.slice(0, separator).trim();
-      const value = line
-        .slice(separator + 1)
-        .trim()
-        .replace(/^['\"]|['\"]$/g, "");
+      const frontmatter = readDocFile(docPath).data;
 
-      if ((key === "title" || key === "description") && value) {
-        metadata[key] = value;
+      return {
+        slug,
+        href: slug ? `/docs/${slug}` : "/docs",
+        title: frontmatter.title ?? titleFromSlug(slug),
+        description: frontmatter.description,
+        order: frontmatter.order,
+      };
+    })
+    .filter((page) => page !== null)
+    .sort((a, b) => {
+      const orderA = a.order ?? Number.MAX_SAFE_INTEGER;
+      const orderB = b.order ?? Number.MAX_SAFE_INTEGER;
+
+      if (orderA !== orderB) {
+        return orderA - orderB;
       }
 
-      return metadata;
-    }, {});
+      return a.slug.localeCompare(b.slug);
+    });
+}
+
+export function getDoc(slug: string): Doc | undefined {
+  const docPath = getDocPath(slug);
+
+  if (!docPath) {
+    return undefined;
+  }
+
+  const { data, content } = readDocFile(docPath);
+
+  return {
+    slug,
+    href: slug ? `/docs/${slug}` : "/docs",
+    title: data.title ?? titleFromSlug(slug),
+    description: data.description,
+    order: data.order,
+    content,
+  };
+}
+
+function readDocFile(docPath: string) {
+  const { data, content } = matter(
+    fs.readFileSync(path.join(docsDirectory, docPath), "utf8"),
+  );
+
+  return {
+    data: {
+      title: typeof data.title === "string" ? data.title : undefined,
+      description:
+        typeof data.description === "string" ? data.description : undefined,
+      order: typeof data.order === "number" ? data.order : undefined,
+    } satisfies DocFrontmatter,
+    content,
+  };
+}
+
+function titleFromSlug(slug: string) {
+  if (!slug) {
+    return "Overview";
+  }
+
+  return slug
+    .split("/")
+    .at(-1)!
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }

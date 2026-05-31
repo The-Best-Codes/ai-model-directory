@@ -1,0 +1,31 @@
+---
+title: Consuming data
+description: Use AI Model Directory data in your application.
+order: 3
+---
+
+# Consuming data
+
+Install the package in your app, then import the generated data you need.
+
+```sh
+bun add @agent-one/ai-model-directory
+```
+
+```ts
+import { providers } from "@agent-one/ai-model-directory";
+
+for (const provider of providers) {
+  console.log(provider.name, provider.models.length);
+}
+```
+
+Use the data as a local snapshot. It is good for model pickers, pricing tables, provider comparisons, and simple routing to provider APIs.
+
+## Keep it updated
+
+Provider pricing and model lists change often. Update the package regularly and avoid assuming a model or price will never change.
+
+## Raw data
+
+If you need the raw source format, read the TOML files from the repository. For most applications, the npm package is easier because it has already normalized the files into typed data.

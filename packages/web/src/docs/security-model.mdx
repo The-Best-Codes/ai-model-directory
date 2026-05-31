@@ -1,0 +1,24 @@
+---
+title: Security model
+description: What AI Model Directory does and does not trust.
+order: 4
+---
+
+# Security model
+
+AI Model Directory is data, not a proxy. It does not hold your provider API keys and it does not send requests to model providers for you.
+
+## Trust boundaries
+
+- Treat directory data as public metadata.
+- Keep API keys in your own backend or secret store.
+- Validate provider URLs and model IDs before using them in sensitive workflows.
+- Do not treat pricing data as a billing source of truth.
+
+## Updates
+
+The repository tries to keep model details accurate, but providers can change names, prices, limits, and availability at any time. Your app should handle missing models and changed prices gracefully.
+
+## Reporting issues
+
+If a provider entry looks suspicious or incorrect, open an issue or pull request with a link to the provider's official docs.

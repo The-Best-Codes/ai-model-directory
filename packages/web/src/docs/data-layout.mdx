@@ -1,0 +1,34 @@
+---
+title: Data layout
+description: How providers and models are represented in the directory.
+order: 2
+---
+
+# Data layout
+
+The source data lives under `data/providers`. Each provider has an `index.toml` file plus optional logo files and a `models` folder.
+
+```txt
+data/providers/
+  openai/
+    index.toml
+    logo-black.svg
+    logo-raw.svg
+    models/
+      gpt-4-1/
+        index.toml
+```
+
+## Provider files
+
+A provider file describes the company or API endpoint. It includes things like the provider ID, display name, website, base URL, and metadata used by the website and package.
+
+## Model files
+
+A model file describes one model for that provider. Common fields include the model ID, display name, context window, supported features, and pricing.
+
+Pricing is stored in machine-readable fields so apps can compare models without scraping provider websites.
+
+## Generated package data
+
+The npm package contains generated TypeScript data from these TOML files. Most apps should consume the package instead of reading the raw files directly.
