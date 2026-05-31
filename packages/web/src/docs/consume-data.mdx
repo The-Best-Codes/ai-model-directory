@@ -9,11 +9,11 @@ order: 3
 Install the package in your app, then import the generated data you need.
 
 ```sh
-bun add @agent-one/ai-model-directory
+bun add ai-model-directory
 ```
 
 ```ts
-import { providers } from "@agent-one/ai-model-directory";
+import { providers } from "ai-model-directory";
 
 for (const provider of providers) {
   console.log(provider.name, provider.models.length);
