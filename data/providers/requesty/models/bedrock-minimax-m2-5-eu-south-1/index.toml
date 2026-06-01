@@ -1,0 +1,20 @@
+id = "bedrock/minimax-m2.5@eu-south-1"
+name = "bedrock/minimax-m2.5@eu-south-1"
+release_date = "1780206136"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.36
+output = 1.44

@@ -4,8 +4,6 @@ release_date = "1721146066"
 
 [features]
 attachment = false
-structured_output = true
-tool_call = true
 
 [modalities]
 input = [ "text" ]

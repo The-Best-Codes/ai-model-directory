@@ -1,6 +1,6 @@
 id = "qwen-image-edit-max"
 name = "Qwen Image Edit Max"
-release_date = "1780188350"
+release_date = "1780274924"
 
 [features]
 attachment = true

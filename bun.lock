@@ -26,7 +26,7 @@
     },
     "packages/web": {
       "name": "models.agent-one.dev",
-      "version": "0.0.12",
+      "version": "0.0.13",
       "dependencies": {
         "@fontsource-variable/space-grotesk": "^5.2.10",
         "@mdx-js/loader": "^3.1.1",
