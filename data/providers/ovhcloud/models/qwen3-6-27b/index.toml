@@ -1,0 +1,13 @@
+id = "Qwen3.6-27B"
+name = "Qwen3.6-27B"
+release_date = "1780302734"
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.47
+output = 3.19

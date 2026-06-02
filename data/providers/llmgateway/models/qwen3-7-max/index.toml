@@ -1,11 +1,11 @@
 id = "qwen3.7-max"
 name = "Qwen3.7 Max"
-release_date = "1780274924"
+release_date = "1780361368"
 
 [features]
 attachment = false
 reasoning = true
-structured_output = false
+structured_output = true
 temperature = true
 tool_call = true
 

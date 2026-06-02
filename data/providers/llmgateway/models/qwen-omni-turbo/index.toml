@@ -1,6 +1,6 @@
 id = "qwen-omni-turbo"
 name = "Qwen Omni Turbo"
-release_date = "1780274924"
+release_date = "1780361368"
 
 [features]
 attachment = true

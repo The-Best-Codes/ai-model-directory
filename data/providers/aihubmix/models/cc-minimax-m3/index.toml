@@ -1,0 +1,15 @@
+id = "cc-minimax-m3"
+name = "cc-minimax-m3"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

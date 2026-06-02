@@ -1,0 +1,18 @@
+id = "coding-step-3.7-flash-free"
+name = "coding-step-3.7-flash-free"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

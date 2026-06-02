@@ -1,0 +1,18 @@
+id = "coding-step-3.5-flash"
+name = "coding-step-3.5-flash"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.03
+output = 0.09

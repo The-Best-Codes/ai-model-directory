@@ -1,7 +1,7 @@
 id = "whisper-large"
 name = "whisper-large"
 open_weights = true
-release_date = "1780272000"
+release_date = "1780358400"
 
 [features]
 attachment = true

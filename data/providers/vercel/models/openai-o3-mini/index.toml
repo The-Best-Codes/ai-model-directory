@@ -3,7 +3,7 @@ name = "o3-mini"
 release_date = "1734652800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 200000
 output = 100000
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]

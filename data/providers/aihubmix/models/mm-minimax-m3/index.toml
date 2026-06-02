@@ -1,0 +1,11 @@
+id = "mm-minimax-m3"
+name = "mm-minimax-m3"
+
+[features]
+reasoning = false
+structured_output = false
+tool_call = false
+
+[pricing]
+input = 0.288
+output = 1.152
