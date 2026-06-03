@@ -1,0 +1,15 @@
+id = "cosmos3-super-reasoner"
+name = "cosmos3-super-reasoner"
+release_date = "1780389482"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.089
+output = 0.266

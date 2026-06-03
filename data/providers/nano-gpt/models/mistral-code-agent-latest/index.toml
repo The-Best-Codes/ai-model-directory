@@ -1,0 +1,21 @@
+id = "mistral-code-agent-latest"
+name = "Mistral Code Agent Latest"
+release_date = "1780358400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 2

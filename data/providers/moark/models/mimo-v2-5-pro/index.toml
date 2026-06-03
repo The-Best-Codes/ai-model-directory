@@ -1,0 +1,16 @@
+id = "MiMo-V2.5-Pro"
+last_updated = "1780400196"
+name = "MiMo-V2.5-Pro"
+release_date = "1780399311"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.03516273
+output = 3.10548819

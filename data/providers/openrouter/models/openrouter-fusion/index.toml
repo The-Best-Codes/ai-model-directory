@@ -1,0 +1,17 @@
+id = "openrouter/fusion"
+name = "OpenRouter: Fusion"
+release_date = "1778603606"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

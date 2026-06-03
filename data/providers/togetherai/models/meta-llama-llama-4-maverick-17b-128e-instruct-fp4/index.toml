@@ -1,0 +1,17 @@
+id = "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP4"
+name = "Llama 4 Maverick 17B 128E Instruct Nvfp4"
+release_date = "1780433820"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

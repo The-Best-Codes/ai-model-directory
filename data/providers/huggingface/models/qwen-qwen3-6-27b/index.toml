@@ -1,0 +1,10 @@
+id = "Qwen/Qwen3.6-27B"
+name = "Qwen/Qwen3.6-27B"
+release_date = "1776757843"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

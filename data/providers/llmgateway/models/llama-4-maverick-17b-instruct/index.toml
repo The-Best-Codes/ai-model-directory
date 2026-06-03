@@ -1,6 +1,6 @@
 id = "llama-4-maverick-17b-instruct"
 name = "Llama 4 Maverick 17B Instruct"
-release_date = "1780361368"
+release_date = "1780448072"
 
 [features]
 attachment = true

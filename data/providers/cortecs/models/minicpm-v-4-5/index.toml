@@ -1,0 +1,15 @@
+id = "minicpm-v-4.5"
+name = "minicpm-v-4.5"
+release_date = "1780385882"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.584
+output = 0.985

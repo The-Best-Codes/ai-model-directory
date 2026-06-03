@@ -1,0 +1,15 @@
+id = "qwen3.6-27b"
+name = "qwen3.6-27b"
+release_date = "1780392962"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262000
+
+[pricing]
+input = 0.4
+output = 2.7

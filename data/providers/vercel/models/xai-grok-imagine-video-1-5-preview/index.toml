@@ -1,0 +1,6 @@
+id = "xai/grok-imagine-video-1.5-preview"
+name = "Grok Imagine Video 1.5 Preview"
+release_date = "1780099200"
+
+[modalities]
+output = [ "video" ]

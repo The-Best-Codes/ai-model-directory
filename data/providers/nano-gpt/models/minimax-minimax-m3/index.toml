@@ -4,7 +4,7 @@ release_date = "1780272000"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 structured_output = true
 tool_call = true
 
@@ -17,5 +17,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.315
-output = 1.26
+input = 0.3
+output = 1.2

@@ -1,9 +1,9 @@
 id = "qwen3.7-plus"
 name = "Qwen3.7 Plus"
-release_date = "1780361368"
+release_date = "1780448072"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true
@@ -13,7 +13,7 @@ tool_call = true
 context = 1000000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

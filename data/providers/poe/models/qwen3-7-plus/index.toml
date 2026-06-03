@@ -1,0 +1,17 @@
+id = "qwen3.7-plus"
+name = "Qwen3.7-Plus"
+release_date = "1780352270"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.404
+output = 1.6162

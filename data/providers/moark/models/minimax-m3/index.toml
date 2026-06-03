@@ -1,0 +1,16 @@
+id = "MiniMax-M3"
+last_updated = "1780367844"
+name = "MiniMax-M3"
+release_date = "1780367844"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.310548819
+output = 1.242195276

@@ -1,5 +1,5 @@
 id = "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
-name = "NVIDIA Nemotron 3 Super 120B"
+name = "NVIDIA: Nemotron 3 Super"
 release_date = "1773219600"
 
 [features]
