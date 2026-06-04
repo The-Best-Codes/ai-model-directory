@@ -1,6 +1,6 @@
 id = "sonar-reasoning-pro"
 name = "Sonar Reasoning Pro"
-release_date = "1780448072"
+release_date = "1780534473"
 
 [features]
 attachment = false

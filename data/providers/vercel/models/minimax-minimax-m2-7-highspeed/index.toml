@@ -3,7 +3,7 @@ name = "MiniMax M2.7 High Speed"
 release_date = "1773792000"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 204800
 output = 131100
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

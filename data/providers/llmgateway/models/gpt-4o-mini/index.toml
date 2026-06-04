@@ -1,6 +1,6 @@
 id = "gpt-4o-mini"
 name = "GPT-4o Mini"
-release_date = "1780448072"
+release_date = "1780534473"
 
 [features]
 attachment = false

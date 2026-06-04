@@ -1,6 +1,6 @@
 id = "chat-latest"
 knowledge_cutoff = "1756598400"
-name = "chat-latest"
+name = "Chat Latest"
 release_date = "1777704602"
 
 [features]

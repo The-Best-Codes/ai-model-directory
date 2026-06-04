@@ -1,6 +1,5 @@
 id = "openai/whisper-large-v3"
 name = "Whisper large-v3"
-release_date = "1780436042"
 
 [features]
 attachment = true
