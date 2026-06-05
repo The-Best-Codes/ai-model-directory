@@ -1,0 +1,14 @@
+id = "nvidia/Nemotron-Content-Safety-3.5"
+name = "nvidia/Nemotron-Content-Safety-3.5"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+input = 0.2
+output = 0.2

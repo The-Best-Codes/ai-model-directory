@@ -1,0 +1,15 @@
+id = "nemotron-3-ultra"
+last_updated = "1780531200"
+name = "nemotron-3-ultra"
+release_date = "1780531200"
+
+[features]
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

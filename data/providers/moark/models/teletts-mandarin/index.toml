@@ -1,0 +1,11 @@
+id = "TeleTTS-Mandarin"
+last_updated = "1780558413"
+name = "TeleTTS-Mandarin"
+release_date = "1780555616"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

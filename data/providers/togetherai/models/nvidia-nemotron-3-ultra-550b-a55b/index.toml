@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3-ultra-550b-a55b"
+name = "NVIDIA Nemotron 3 Ultra 550B A55B NVFP4"
+
+[features]
+attachment = false
+
+[limit]
+context = 512288
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 0.6
+output = 3.6

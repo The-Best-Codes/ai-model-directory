@@ -1,0 +1,13 @@
+id = "nvidia/nemotron-3.5-asr-streaming-0.6b"
+name = "Nvidia Nemotron 3.5 ASR Streaming 0.6B"
+release_date = "1780598678"
+
+[features]
+attachment = true
+
+[limit]
+context = 448
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

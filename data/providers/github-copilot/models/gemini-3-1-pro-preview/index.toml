@@ -7,8 +7,8 @@ reasoning = true
 tool_call = true
 
 [limit]
-context = 128000
-input = 128000
+context = 264000
+input = 200000
 output = 64000
 
 [modalities]

@@ -1,0 +1,22 @@
+id = "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B"
+name = "Nemotron Ultra"
+release_date = "1780594202"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 202800
+output = 202800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.4

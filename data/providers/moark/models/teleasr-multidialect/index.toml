@@ -1,0 +1,11 @@
+id = "TeleASR-MultiDialect"
+last_updated = "1780558400"
+name = "TeleASR-MultiDialect"
+release_date = "1780555616"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

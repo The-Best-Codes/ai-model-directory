@@ -1,0 +1,6 @@
+id = "nvidia/Nemotron-3.5-ASR-Streaming-Multilingual-0.6b"
+name = "nvidia/Nemotron-3.5-ASR-Streaming-Multilingual-0.6b"
+
+[features]
+attachment = false
+reasoning = false

@@ -1,5 +1,5 @@
 id = "stepfun-step-3-7-flash"
-last_updated = "1780156148"
+last_updated = "1780588676"
 name = "step-3.7-flash"
 release_date = "1780136085"
 
@@ -13,9 +13,9 @@ tool_call = true
 context = 256000
 
 [modalities]
-input = [ "file", "image", "text" ]
-output = [ "text" ]
+input = [ "file", "image", "text", "video" ]
+output = [ "image", "text", "video" ]
 
 [pricing]
 input = 0.2
-output = 1.2
+output = 1.15
