@@ -1,7 +1,0 @@
-id = "veo3.1"
-name = "veo3.1"
-
-[features]
-reasoning = false
-structured_output = false
-tool_call = false

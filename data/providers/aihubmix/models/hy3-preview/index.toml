@@ -1,0 +1,19 @@
+id = "hy3-preview"
+name = "hy3-preview"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.051
+input = 0.17
+output = 0.566661

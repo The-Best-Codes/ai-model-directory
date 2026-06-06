@@ -22,7 +22,7 @@
     },
     "packages/npm": {
       "name": "ai-model-directory",
-      "version": "0.1.36",
+      "version": "0.1.37",
     },
     "packages/web": {
       "name": "models.agent-one.dev",

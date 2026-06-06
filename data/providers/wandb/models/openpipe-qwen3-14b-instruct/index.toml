@@ -1,5 +1,5 @@
 id = "OpenPipe/Qwen3-14B-Instruct"
-name = "OpenPipe Qwen3 14B Instruct"
+name = "OpenPipe: Qwen3 14B Instruct"
 release_date = "1745917200"
 
 [features]
