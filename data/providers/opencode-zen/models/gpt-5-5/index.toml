@@ -1,0 +1,7 @@
+id = "gpt-5.5"
+name = "gpt-5.5"
+
+[pricing]
+cache_read = 0.5
+input = 5
+output = 30

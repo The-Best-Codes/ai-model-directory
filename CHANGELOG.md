@@ -1,5 +1,86 @@
 # Changelog
 
+## Run at 1780710703
+
+### Summary
+
+- **Total models currently tracked: 7361** across 50 providers
+- Providers with changes this run: 1
+- Total models added: 46
+- Total models removed: 0
+- Total field changes: 0
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>opencode-zen</strong> — 46 models, 46 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 46
+- Models added: 46
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (46)</summary>
+
+- `big-pickle`
+- `claude-haiku-4-5`
+- `claude-opus-4-1`
+- `claude-opus-4-5`
+- `claude-opus-4-6`
+- `claude-opus-4-7`
+- `claude-opus-4-8`
+- `claude-sonnet-4`
+- `claude-sonnet-4-5`
+- `claude-sonnet-4-6`
+- `deepseek-v4-flash`
+- `deepseek-v4-flash-free`
+- `gemini-3-flash`
+- `gemini-3.1-pro`
+- `gemini-3.5-flash`
+- `glm-5`
+- `glm-5.1`
+- `gpt-5`
+- `gpt-5-codex`
+- `gpt-5-nano`
+- `gpt-5.1`
+- `gpt-5.1-codex`
+- `gpt-5.1-codex-max`
+- `gpt-5.1-codex-mini`
+- `gpt-5.2`
+- `gpt-5.2-codex`
+- `gpt-5.3-codex`
+- `gpt-5.3-codex-spark`
+- `gpt-5.4`
+- `gpt-5.4-mini`
+- `gpt-5.4-nano`
+- `gpt-5.4-pro`
+- `gpt-5.5`
+- `gpt-5.5-pro`
+- `grok-build-0.1`
+- `kimi-k2.5`
+- `kimi-k2.6`
+- `mimo-v2.5-free`
+- `minimax-m2.5`
+- `minimax-m2.7`
+- `minimax-m3-free`
+- `nemotron-3-super-free`
+- `nemotron-3-ultra-free`
+- `qwen3.5-plus`
+- `qwen3.6-plus`
+- `qwen3.6-plus-free`
+
+</details>
+
+</details>
+
+</details>
+
 ## Run at 1780706706
 
 ### Summary

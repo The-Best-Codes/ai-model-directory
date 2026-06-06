@@ -1,0 +1,26 @@
+id = "claude-opus-4-5"
+knowledge_cutoff = "1743379200"
+last_updated = "1763942400"
+name = "Claude Opus 4.5"
+open_weights = false
+release_date = "1763942400"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 6.25
+input = 5
+output = 25

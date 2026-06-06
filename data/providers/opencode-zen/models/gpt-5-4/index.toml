@@ -1,0 +1,7 @@
+id = "gpt-5.4"
+name = "gpt-5.4"
+
+[pricing]
+cache_read = 0.25
+input = 2.5
+output = 15

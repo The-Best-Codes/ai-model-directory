@@ -1,0 +1,7 @@
+id = "deepseek-v4-flash"
+name = "deepseek-v4-flash"
+
+[pricing]
+cache_read = 0.03
+input = 0.14
+output = 0.28

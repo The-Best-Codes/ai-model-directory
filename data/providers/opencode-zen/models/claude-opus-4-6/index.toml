@@ -1,0 +1,8 @@
+id = "claude-opus-4-6"
+name = "claude-opus-4-6"
+
+[pricing]
+cache_read = 0.5
+cache_write = 6.25
+input = 5
+output = 25
