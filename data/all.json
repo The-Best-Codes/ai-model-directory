@@ -116812,7 +116812,7 @@
     "id": "opencode-zen",
     "name": "OpenCode Zen",
     "website": "https://opencode.ai",
-    "apiBaseUrl": "https://api.opencode.ai/zen/v1",
+    "apiBaseUrl": "https://opencode.ai/zen/v1",
     "aiSdk": {
       "npmPackage": "@ai-sdk/openai-compatible",
       "defaultApiKeyEnv": [
