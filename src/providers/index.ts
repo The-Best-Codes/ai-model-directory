@@ -53,6 +53,7 @@ import { tetrateProvider } from "./tetrate.ts";
 import { togetheraiProvider } from "./togetherai.ts";
 import { veniceProvider } from "./venice.ts";
 import { vercelProvider } from "./vercel.ts";
+import { waferAiProvider } from "./wafer-ai.ts";
 import { wandbProvider } from "./wandb.ts";
 import { xaiProvider } from "./xai.ts";
 import { xpersonaProvider } from "./xpersona.ts";
@@ -113,6 +114,7 @@ export const providers: ProviderDefinition[] = [
   togetheraiProvider,
   veniceProvider,
   vercelProvider,
+  waferAiProvider,
   wandbProvider,
   xaiProvider,
   xpersonaProvider,
