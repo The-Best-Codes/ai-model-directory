@@ -1,0 +1,7 @@
+name = "CrofAI"
+website = "https://crof.ai"
+apiBaseUrl = "https://crof.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["CROF_API_KEY"]
