@@ -37457,6 +37457,288 @@
       }
     }
   },
+  "ambient": {
+    "id": "ambient",
+    "name": "Ambient",
+    "website": "https://ambient.xyz",
+    "apiBaseUrl": "https://api.ambient.xyz/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "AMBIENT_API_KEY"
+      ]
+    },
+    "models": {
+      "ambient/large": {
+        "id": "ambient/large",
+        "name": "GLM 5.1",
+        "release_date": "1775520000",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 202752,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "google/gemma-4-31b-it": {
+        "id": "google/gemma-4-31b-it",
+        "name": "Gemma 4 31B",
+        "release_date": "1775148486",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 0.8,
+          "cache_read": 0.065,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 65536,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "nvidia/nemotron-3-nano-30b-a3b": {
+        "id": "nvidia/nemotron-3-nano-30b-a3b",
+        "name": "Nemotron 3 Nano 30B A3B",
+        "release_date": "1765731275",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.2,
+          "cache_read": 0.01,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 262144,
+          "output": 228000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-oss-120b": {
+        "id": "openai/gpt-oss-120b",
+        "name": "gpt-oss-120b",
+        "release_date": "1754414231",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.6,
+          "cache_read": 0.075,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 131072,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen/qwen3.5-35b-a3b": {
+        "id": "qwen/qwen3.5-35b-a3b",
+        "name": "Qwen3.5 35B A3B",
+        "release_date": "1771977600",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 1,
+          "cache_read": 0.05,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen/qwen3.6-27b": {
+        "id": "qwen/qwen3.6-27b",
+        "name": "Qwen3.6 27B",
+        "release_date": "1777248000",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.32,
+          "output": 3.2,
+          "cache_read": 0.16,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 262144,
+          "output": 81920
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen/qwen3.6-35b-a3b": {
+        "id": "qwen/qwen3.6-35b-a3b",
+        "name": "Qwen3.6 35B A3B",
+        "release_date": "1777260255",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 1,
+          "cache_read": 0.05,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen/qwen3-coder-30b-a3b-instruct": {
+        "id": "qwen/qwen3-coder-30b-a3b-instruct",
+        "name": "Qwen3 Coder 30B A3B Instruct",
+        "release_date": "1753972379",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 0.07,
+          "output": 0.27,
+          "cache_read": 0,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 160000,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "zai-org/GLM-5.1-FP8": {
+        "id": "zai-org/GLM-5.1-FP8",
+        "name": "GLM 5.1",
+        "release_date": "1775520000",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 202752,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      }
+    }
+  },
   "anthropic": {
     "id": "anthropic",
     "name": "Anthropic",
@@ -42454,6 +42736,344 @@
         },
         "limit": {
           "context": 32000
+        }
+      }
+    }
+  },
+  "crof": {
+    "id": "crof",
+    "name": "CrofAI",
+    "website": "https://crof.ai",
+    "apiBaseUrl": "https://crof.ai/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "CROF_API_KEY"
+      ]
+    },
+    "models": {
+      "deepseek-v3.2": {
+        "id": "deepseek-v3.2",
+        "name": "DeepSeek: DeepSeek V3.2",
+        "release_date": "1755799640",
+        "pricing": {
+          "input": 0.18,
+          "output": 0.35,
+          "cache_read": 0.04
+        },
+        "limit": {
+          "context": 163840,
+          "output": 163840
+        }
+      },
+      "deepseek-v4-flash": {
+        "id": "deepseek-v4-flash",
+        "name": "DeepSeek: DeepSeek V4 Flash",
+        "release_date": "1777097940",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0.21,
+          "cache_read": 0.003
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        }
+      },
+      "deepseek-v4-pro": {
+        "id": "deepseek-v4-pro",
+        "name": "DeepSeek: DeepSeek V4 Pro",
+        "release_date": "1777097940",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.35,
+          "output": 0.8,
+          "cache_read": 0.003
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        }
+      },
+      "deepseek-v4-pro-lightning": {
+        "id": "deepseek-v4-pro-lightning",
+        "name": "DeepSeek: DeepSeek V4 Pro (Lightning)",
+        "release_date": "1777097940",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.8,
+          "output": 1.6,
+          "cache_read": 0.02
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        }
+      },
+      "gemma-4-31b-it": {
+        "id": "gemma-4-31b-it",
+        "name": "Google: Gemma 4 31B",
+        "release_date": "1775177766",
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3,
+          "cache_read": 0.02
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        }
+      },
+      "glm-4.7": {
+        "id": "glm-4.7",
+        "name": "Z.AI: GLM 4.7",
+        "release_date": "1769031670",
+        "pricing": {
+          "input": 0.25,
+          "output": 1.1,
+          "cache_read": 0.05
+        },
+        "limit": {
+          "context": 202752,
+          "output": 202752
+        }
+      },
+      "glm-4.7-flash": {
+        "id": "glm-4.7-flash",
+        "name": "Z.AI: GLM 4.7 Flash",
+        "release_date": "1769031670",
+        "pricing": {
+          "input": 0.04,
+          "output": 0.3,
+          "cache_read": 0.008
+        },
+        "limit": {
+          "context": 202752,
+          "output": 131072
+        }
+      },
+      "glm-5": {
+        "id": "glm-5",
+        "name": "Z.ai: GLM 5",
+        "release_date": "1770833442",
+        "pricing": {
+          "input": 0.48,
+          "output": 1.9,
+          "cache_read": 0.1
+        },
+        "limit": {
+          "context": 202752,
+          "output": 202752
+        }
+      },
+      "glm-5.1": {
+        "id": "glm-5.1",
+        "name": "Z.ai: GLM 5.1",
+        "release_date": "1775593889",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.45,
+          "output": 2.15,
+          "cache_read": 0.08
+        },
+        "limit": {
+          "context": 202752,
+          "output": 202752
+        }
+      },
+      "greg-1": {
+        "id": "greg-1",
+        "name": "Crof: Greg 1 Normal",
+        "release_date": "1769539850",
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3,
+          "cache_read": 0.02
+        },
+        "limit": {
+          "context": 229376,
+          "output": 229376
+        }
+      },
+      "greg-1-mini": {
+        "id": "greg-1-mini",
+        "name": "Crof: Greg 1 Mini",
+        "release_date": "1769539850",
+        "pricing": {
+          "input": 0.07,
+          "output": 0.15,
+          "cache_read": 0.01
+        },
+        "limit": {
+          "context": 229376,
+          "output": 229376
+        }
+      },
+      "greg-1-super": {
+        "id": "greg-1-super",
+        "name": "Crof: Greg 1 Super",
+        "release_date": "1769539850",
+        "pricing": {
+          "input": 1,
+          "output": 5,
+          "cache_read": 0.2
+        },
+        "limit": {
+          "context": 229376,
+          "output": 229376
+        }
+      },
+      "greg-rp": {
+        "id": "greg-rp",
+        "name": "Crof: Greg (Roleplay)",
+        "release_date": "1779927667",
+        "pricing": {
+          "input": 0.1,
+          "output": 0.3,
+          "cache_read": 0.02
+        },
+        "limit": {
+          "context": 229376,
+          "output": 229376
+        }
+      },
+      "kimi-k2.5": {
+        "id": "kimi-k2.5",
+        "name": "MoonshotAI: Kimi K2.5",
+        "release_date": "1769539850",
+        "pricing": {
+          "input": 0.35,
+          "output": 1.7,
+          "cache_read": 0.07
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        }
+      },
+      "kimi-k2.5-lightning": {
+        "id": "kimi-k2.5-lightning",
+        "name": "MoonshotAI: Kimi K2.5 (Lightning)",
+        "release_date": "1770168675",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 3,
+          "cache_read": 0.2
+        },
+        "limit": {
+          "context": 131072,
+          "output": 32768
+        }
+      },
+      "kimi-k2.6": {
+        "id": "kimi-k2.6",
+        "name": "MoonshotAI: Kimi K2.6",
+        "release_date": "1776737314",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 1.99,
+          "cache_read": 0.05
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        }
+      },
+      "mimo-v2.5-pro": {
+        "id": "mimo-v2.5-pro",
+        "name": "Xiaomi: MiMo-V2.5-Pro",
+        "release_date": "1778551283",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 0.8,
+          "cache_read": 0.003
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        }
+      },
+      "minimax-m2.5": {
+        "id": "minimax-m2.5",
+        "name": "MiniMax: MiniMax M2.5",
+        "release_date": "1766794658",
+        "pricing": {
+          "input": 0.11,
+          "output": 0.95,
+          "cache_read": 0.02
+        },
+        "limit": {
+          "context": 204800,
+          "output": 131072
+        }
+      },
+      "qwen3.5-397b-a17b": {
+        "id": "qwen3.5-397b-a17b",
+        "name": "Qwen: Qwen3.5 397B A17B",
+        "release_date": "1771526845",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.35,
+          "output": 1.75,
+          "cache_read": 0.07
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        }
+      },
+      "qwen3.5-9b": {
+        "id": "qwen3.5-9b",
+        "name": "Qwen: Qwen3.5 9B",
+        "release_date": "1775621724",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.04,
+          "output": 0.15,
+          "cache_read": 0.008
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        }
+      },
+      "qwen3.6-27b": {
+        "id": "qwen3.6-27b",
+        "name": "Qwen: Qwen3.6 27B",
+        "release_date": "1777097940",
+        "features": {
+          "reasoning": true
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 1.5,
+          "cache_read": 0.04
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
         }
       }
     }
@@ -64978,6 +65598,137 @@
         "limit": {
           "context": 128000,
           "output": 50000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      }
+    }
+  },
+  "inceptron": {
+    "id": "inceptron",
+    "name": "Inceptron",
+    "website": "https://inceptron.io",
+    "apiBaseUrl": "https://api.inceptron.io/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "INCEPTRON_API_KEY"
+      ]
+    },
+    "models": {
+      "MiniMaxAI/MiniMax-M2.5": {
+        "id": "MiniMaxAI/MiniMax-M2.5",
+        "name": "MiniMax M2.5",
+        "release_date": "1780698308",
+        "features": {
+          "attachment": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.24,
+          "output": 0.9,
+          "cache_read": 0.03,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 196608,
+          "output": 196608
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "moonshotai/Kimi-K2.6": {
+        "id": "moonshotai/Kimi-K2.6",
+        "name": "Kimi K2.6",
+        "release_date": "1780698308",
+        "features": {
+          "attachment": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.73,
+          "output": 3.5,
+          "cache_read": 0.25,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "nvidia/llama-3.3-70b-instruct-fp8": {
+        "id": "nvidia/llama-3.3-70b-instruct-fp8",
+        "name": "Llama 3.3 70B Instruct",
+        "release_date": "1780698308",
+        "features": {
+          "attachment": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.12,
+          "output": 0.38,
+          "cache_read": 0,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 131072,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "zai-org/GLM-5.1-FP8": {
+        "id": "zai-org/GLM-5.1-FP8",
+        "name": "GLM 5.1",
+        "release_date": "1780698308",
+        "features": {
+          "attachment": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.26,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 202752,
+          "output": 202752
         },
         "modalities": {
           "input": [
@@ -109600,6 +110351,1222 @@
         "limit": {
           "context": 200000,
           "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      }
+    }
+  },
+  "nearai": {
+    "id": "nearai",
+    "name": "NEAR AI Cloud",
+    "website": "https://near.ai",
+    "apiBaseUrl": "https://cloud-api.near.ai/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "NEARAI_API_KEY"
+      ]
+    },
+    "models": {
+      "anthropic/claude-haiku-4-5": {
+        "id": "anthropic/claude-haiku-4-5",
+        "name": "Claude Haiku 4.5",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 5,
+          "cache_read": 0.1
+        },
+        "limit": {
+          "context": 200000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "anthropic/claude-opus-4-6": {
+        "id": "anthropic/claude-opus-4-6",
+        "name": "Claude Opus 4.6",
+        "release_date": "1770414679",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 200000,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "anthropic/claude-opus-4-7": {
+        "id": "anthropic/claude-opus-4-7",
+        "name": "Claude Opus 4.7",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "anthropic/claude-sonnet-4-5": {
+        "id": "anthropic/claude-sonnet-4-5",
+        "name": "Claude Sonnet 4.5",
+        "release_date": "1769639067",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15.5,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 200000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "anthropic/claude-sonnet-4-6": {
+        "id": "anthropic/claude-sonnet-4-6",
+        "name": "Claude Sonnet 4.6",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.3
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "black-forest-labs/FLUX.2-klein-4B": {
+        "id": "black-forest-labs/FLUX.2-klein-4B",
+        "name": "FLUX.2-klein-4B",
+        "release_date": "1769640850",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false,
+          "structured_output": false,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 1,
+          "output": 1,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 128000,
+          "output": 1
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        }
+      },
+      "deepseek-ai/DeepSeek-V4-Flash": {
+        "id": "deepseek-ai/DeepSeek-V4-Flash",
+        "name": "DeepSeek V4 Flash",
+        "release_date": "1780561470",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": false,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.17,
+          "output": 0.35,
+          "cache_read": 0.035
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "google/gemini-2.5-flash": {
+        "id": "google/gemini-2.5-flash",
+        "name": "Gemini 2.5 Flash",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "google/gemini-2.5-flash-lite": {
+        "id": "google/gemini-2.5-flash-lite",
+        "name": "Gemini 2.5 Flash Lite",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.4,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "google/gemini-2.5-pro": {
+        "id": "google/gemini-2.5-pro",
+        "name": "Gemini 2.5 Pro",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "google/gemini-3.1-flash-lite": {
+        "id": "google/gemini-3.1-flash-lite",
+        "name": "Gemini 3.1 Flash Lite",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "google/gemini-3.5-flash": {
+        "id": "google/gemini-3.5-flash",
+        "name": "Gemini 3.5 Flash",
+        "release_date": "1779214705",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 9,
+          "cache_read": 0.15
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "google/gemma-4-31B-it": {
+        "id": "google/gemma-4-31B-it",
+        "name": "Gemma 4 31B Instruct",
+        "release_date": "1778743163",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": false,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.13,
+          "output": 0.4,
+          "cache_read": 0.026
+        },
+        "limit": {
+          "context": 262144,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "moonshotai/kimi-k2.6": {
+        "id": "moonshotai/kimi-k2.6",
+        "name": "Kimi K2.6",
+        "release_date": "1779449813",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.8,
+          "output": 3.5,
+          "cache_read": 0.3
+        },
+        "limit": {
+          "context": 262144,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-4.1": {
+        "id": "openai/gpt-4.1",
+        "name": "OpenAI GPT-4.1",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 8,
+          "cache_read": 0.5
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-4.1-mini": {
+        "id": "openai/gpt-4.1-mini",
+        "name": "OpenAI GPT-4.1 Mini",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 1.6,
+          "cache_read": 0.1
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-4.1-nano": {
+        "id": "openai/gpt-4.1-nano",
+        "name": "OpenAI GPT-4.1 Nano",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.4,
+          "cache_read": 0.025
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5": {
+        "id": "openai/gpt-5",
+        "name": "OpenAI GPT-5",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0.125
+        },
+        "limit": {
+          "context": 400000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5.1": {
+        "id": "openai/gpt-5.1",
+        "name": "GPT-5.1",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 400000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5.2": {
+        "id": "openai/gpt-5.2",
+        "name": "OpenAI GPT-5.2",
+        "release_date": "1769638083",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.8,
+          "output": 15.5,
+          "cache_read": 0.18
+        },
+        "limit": {
+          "context": 400000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5.4": {
+        "id": "openai/gpt-5.4",
+        "name": "GPT-5.4",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 15,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1050000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5.4-mini": {
+        "id": "openai/gpt-5.4-mini",
+        "name": "GPT-5.4 Mini",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 4.5,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 400000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5.4-nano": {
+        "id": "openai/gpt-5.4-nano",
+        "name": "GPT-5.4 Nano",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 1.25,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 400000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5.5": {
+        "id": "openai/gpt-5.5",
+        "name": "GPT-5.5",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1050000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5-mini": {
+        "id": "openai/gpt-5-mini",
+        "name": "GPT-5 Mini",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 2,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 400000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5-nano": {
+        "id": "openai/gpt-5-nano",
+        "name": "GPT-5 Nano",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.05,
+          "output": 0.4,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 400000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-oss-120b": {
+        "id": "openai/gpt-oss-120b",
+        "name": "GPT OSS 120B",
+        "release_date": "1761354458",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.55,
+          "cache_read": 0.03
+        },
+        "limit": {
+          "context": 131000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/o3": {
+        "id": "openai/o3",
+        "name": "OpenAI o3",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 2,
+          "output": 8,
+          "cache_read": 1
+        },
+        "limit": {
+          "context": 200000,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/o3-mini": {
+        "id": "openai/o3-mini",
+        "name": "o3 Mini",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 1.1,
+          "output": 4.4,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 200000,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/o4-mini": {
+        "id": "openai/o4-mini",
+        "name": "OpenAI o4 Mini",
+        "release_date": "1778671374",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 1.1,
+          "output": 4.4,
+          "cache_read": 0.55
+        },
+        "limit": {
+          "context": 200000,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/privacy-filter": {
+        "id": "openai/privacy-filter",
+        "name": "Privacy Filter",
+        "release_date": "1779129892",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false,
+          "structured_output": false,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 0.01,
+          "output": 0,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 512,
+          "output": 1024
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/whisper-large-v3": {
+        "id": "openai/whisper-large-v3",
+        "name": "Whisper Large v3",
+        "release_date": "1774015272",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": false,
+          "structured_output": false,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.01,
+          "output": 0.01,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 448,
+          "output": 1024
+        },
+        "modalities": {
+          "input": [
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "Qwen/Qwen3-30B-A3B-Instruct-2507": {
+        "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "name": "Qwen3 30B A3B Instruct 2507",
+        "release_date": "1761354458",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.55,
+          "cache_read": 0.03
+        },
+        "limit": {
+          "context": 262144,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "Qwen/Qwen3.5-122B-A10B": {
+        "id": "Qwen/Qwen3.5-122B-A10B",
+        "name": "Qwen3.5 122B A10B",
+        "release_date": "1772549671",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.4,
+          "output": 3.2,
+          "cache_read": 0.08
+        },
+        "limit": {
+          "context": 131072,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "Qwen/Qwen3.6-27B-FP8": {
+        "id": "Qwen/Qwen3.6-27B-FP8",
+        "name": "Qwen 3.6 27B FP8",
+        "release_date": "1780589812",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.325,
+          "output": 3.25,
+          "cache_read": 0.16
+        },
+        "limit": {
+          "context": 262144,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "Qwen/Qwen3.6-35B-A3B-FP8": {
+        "id": "Qwen/Qwen3.6-35B-A3B-FP8",
+        "name": "Qwen 3.6 35B A3B FP8",
+        "release_date": "1778743164",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.17,
+          "output": 1.1,
+          "cache_read": 0.056
+        },
+        "limit": {
+          "context": 262144,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen/qwen3.7-max": {
+        "id": "qwen/qwen3.7-max",
+        "name": "Qwen3.7 Max",
+        "release_date": "1779449813",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 2.8,
+          "output": 7.5,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "Qwen/Qwen3-Embedding-0.6B": {
+        "id": "Qwen/Qwen3-Embedding-0.6B",
+        "name": "Qwen3-Embedding-0.6B",
+        "release_date": "1774015272",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false,
+          "structured_output": false,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 0.01,
+          "output": 0.01,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 40960,
+          "output": 1024
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "Qwen/Qwen3-Reranker-0.6B": {
+        "id": "Qwen/Qwen3-Reranker-0.6B",
+        "name": "Qwen3-Reranker-0.6B",
+        "release_date": "1774015272",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "tool_call": false,
+          "structured_output": false,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 0.01,
+          "output": 0.01,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 40960,
+          "output": 1024
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "Qwen/Qwen3-VL-30B-A3B-Instruct": {
+        "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+        "name": "Qwen3-VL-30B-A3B-Instruct",
+        "release_date": "1774015272",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.55,
+          "cache_read": 0.03
+        },
+        "limit": {
+          "context": 256000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "zai-org/GLM-5.1-FP8": {
+        "id": "zai-org/GLM-5.1-FP8",
+        "name": "GLM 5.1",
+        "release_date": "1776190834",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.85,
+          "output": 3.3,
+          "cache_read": 0.17
+        },
+        "limit": {
+          "context": 202752,
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -173279,6 +175246,62 @@
         "modalities": {
           "input": [
             "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      }
+    }
+  },
+  "xpersona": {
+    "id": "xpersona",
+    "name": "Xpersona",
+    "website": "https://www.xpersona.co/",
+    "apiBaseUrl": "https://www.xpersona.co/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "XPERSONA_API_KEY"
+      ]
+    },
+    "models": {
+      "xpersona-a-better-you": {
+        "id": "xpersona-a-better-you",
+        "name": "xpersona-a-better-you",
+        "release_date": "1777593600",
+        "pricing": {
+          "input": 3,
+          "output": 18
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "xpersona-frieren-coder": {
+        "id": "xpersona-frieren-coder",
+        "name": "xpersona-frieren-coder",
+        "release_date": "1777593600",
+        "pricing": {
+          "input": 1.5,
+          "output": 6
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 384000
+        },
+        "modalities": {
+          "input": [
             "text"
           ],
           "output": [
