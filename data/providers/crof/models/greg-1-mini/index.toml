@@ -1,0 +1,12 @@
+id = "greg-1-mini"
+name = "Crof: Greg 1 Mini"
+release_date = "1769539850"
+
+[limit]
+context = 229376
+output = 229376
+
+[pricing]
+cache_read = 0.01
+input = 0.07
+output = 0.15

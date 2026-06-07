@@ -1,0 +1,15 @@
+id = "kimi-k2.5-lightning"
+name = "MoonshotAI: Kimi K2.5 (Lightning)"
+release_date = "1770168675"
+
+[features]
+reasoning = true
+
+[limit]
+context = 131072
+output = 32768
+
+[pricing]
+cache_read = 0.2
+input = 1
+output = 3

@@ -1,0 +1,15 @@
+id = "mimo-v2.5-pro"
+name = "Xiaomi: MiMo-V2.5-Pro"
+release_date = "1778551283"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[pricing]
+cache_read = 0.003
+input = 0.4
+output = 0.8

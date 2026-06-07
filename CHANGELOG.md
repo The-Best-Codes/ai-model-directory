@@ -1,5 +1,61 @@
 # Changelog
 
+## Run at 1780860876
+
+### Summary
+
+- **Total models currently tracked: 7391** across 53 providers
+- Providers with changes this run: 1
+- Total models added: 21
+- Total models removed: 0
+- Total field changes: 0
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>crof</strong> — 21 models, 21 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 21
+- Models added: 21
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (21)</summary>
+
+- `deepseek-v3.2`
+- `deepseek-v4-flash`
+- `deepseek-v4-pro`
+- `deepseek-v4-pro-lightning`
+- `gemma-4-31b-it`
+- `glm-4.7`
+- `glm-4.7-flash`
+- `glm-5`
+- `glm-5.1`
+- `greg-1`
+- `greg-1-mini`
+- `greg-1-super`
+- `greg-rp`
+- `kimi-k2.5`
+- `kimi-k2.5-lightning`
+- `kimi-k2.6`
+- `mimo-v2.5-pro`
+- `minimax-m2.5`
+- `qwen3.5-397b-a17b`
+- `qwen3.5-9b`
+- `qwen3.6-27b`
+
+</details>
+
+</details>
+
+</details>
+
 ## Run at 1780858068
 
 ### Summary

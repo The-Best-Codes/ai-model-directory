@@ -1,0 +1,15 @@
+id = "deepseek-v4-pro-lightning"
+name = "DeepSeek: DeepSeek V4 Pro (Lightning)"
+release_date = "1777097940"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[pricing]
+cache_read = 0.02
+input = 0.8
+output = 1.6

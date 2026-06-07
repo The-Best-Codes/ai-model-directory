@@ -1,0 +1,15 @@
+id = "glm-5.1"
+name = "Z.ai: GLM 5.1"
+release_date = "1775593889"
+
+[features]
+reasoning = true
+
+[limit]
+context = 202752
+output = 202752
+
+[pricing]
+cache_read = 0.08
+input = 0.45
+output = 2.15

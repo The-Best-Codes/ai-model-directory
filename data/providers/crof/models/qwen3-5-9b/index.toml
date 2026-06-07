@@ -1,0 +1,15 @@
+id = "qwen3.5-9b"
+name = "Qwen: Qwen3.5 9B"
+release_date = "1775621724"
+
+[features]
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.008
+input = 0.04
+output = 0.15

@@ -1,0 +1,12 @@
+id = "greg-rp"
+name = "Crof: Greg (Roleplay)"
+release_date = "1779927667"
+
+[limit]
+context = 229376
+output = 229376
+
+[pricing]
+cache_read = 0.02
+input = 0.1
+output = 0.3

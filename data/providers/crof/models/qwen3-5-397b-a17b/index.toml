@@ -1,0 +1,15 @@
+id = "qwen3.5-397b-a17b"
+name = "Qwen: Qwen3.5 397B A17B"
+release_date = "1771526845"
+
+[features]
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.07
+input = 0.35
+output = 1.75

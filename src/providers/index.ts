@@ -12,6 +12,7 @@ import { cerebrasProvider } from "./cerebras.ts";
 import { chutesProvider } from "./chutes.ts";
 import { cohereProvider } from "./cohere.ts";
 import { cortecsProvider } from "./cortecs.ts";
+import { crofProvider } from "./crof.ts";
 import { deepinfraProvider } from "./deepinfra.ts";
 import { deepseekProvider } from "./deepseek.ts";
 import { fastrouterProvider } from "./fastrouter.ts";
@@ -66,6 +67,7 @@ export const providers: ProviderDefinition[] = [
   chutesProvider,
   cohereProvider,
   cortecsProvider,
+  crofProvider,
   deepinfraProvider,
   deepseekProvider,
   fastrouterProvider,
