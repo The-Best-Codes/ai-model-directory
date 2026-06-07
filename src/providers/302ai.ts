@@ -75,23 +75,9 @@ async function fetch302Json(page: number) {
   url.searchParams.set("tag", "LLM");
   url.searchParams.set("type", "new");
 
-  const previousTlsSetting = process.env.NODE_TLS_REJECT_UNAUTHORIZED;
-
-  process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-
-  let response: Response;
-
-  try {
-    response = await fetch(url, {
-      signal: AbortSignal.timeout(60_000),
-    });
-  } finally {
-    if (previousTlsSetting === undefined) {
-      delete process.env.NODE_TLS_REJECT_UNAUTHORIZED;
-    } else {
-      process.env.NODE_TLS_REJECT_UNAUTHORIZED = previousTlsSetting;
-    }
-  }
+  const response = await fetch(url, {
+    signal: AbortSignal.timeout(60_000),
+  });
 
   if (!response.ok) {
     throw new Error(
