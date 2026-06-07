@@ -1,0 +1,7 @@
+name = "Wafer"
+website = "https://wafer.ai"
+apiBaseUrl = "https://pass.wafer.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["WAFER_API_KEY"]
