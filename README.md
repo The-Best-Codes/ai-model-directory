@@ -3,7 +3,7 @@
 
 # The AI Model Directory
 
-The AI model directory is the most comprehensive, automatically updated list of AI models and their metadata like pricing, context windows, supported features, and more. It currently lists over 7000 models from over 60 providers. Data is stored as a tree of TOML files under `data/providers/`, and a flattened `data/all.json` (and minified `data/all.min.json`) is generated on every refresh. We're working on the docs!
+The AI model directory is the most comprehensive, automatically updated list of AI models and their metadata like pricing, context windows, supported features, and more. It currently lists over 7500 models from over 60 providers. Data is stored as a tree of TOML files under `data/providers/`, and a flattened `data/all.json` (and minified `data/all.min.json`) is generated on every refresh. We're working on the docs!
 
 ## Why Does This Exist?
 
