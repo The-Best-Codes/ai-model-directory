@@ -1,5 +1,49 @@
 # Changelog
 
+## Run at 1780858068
+
+### Summary
+
+- **Total models currently tracked: 7370** across 52 providers
+- Providers with changes this run: 1
+- Total models added: 9
+- Total models removed: 0
+- Total field changes: 0
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>ambient</strong> — 9 models, 9 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 9
+- Models added: 9
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (9)</summary>
+
+- `ambient/large`
+- `google/gemma-4-31b-it`
+- `nvidia/nemotron-3-nano-30b-a3b`
+- `openai/gpt-oss-120b`
+- `qwen/qwen3-coder-30b-a3b-instruct`
+- `qwen/qwen3.5-35b-a3b`
+- `qwen/qwen3.6-27b`
+- `qwen/qwen3.6-35b-a3b`
+- `zai-org/GLM-5.1-FP8`
+
+</details>
+
+</details>
+
+</details>
+
 ## Run at 1780808628
 
 ### Summary
