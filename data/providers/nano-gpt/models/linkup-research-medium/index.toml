@@ -1,0 +1,20 @@
+id = "linkup-research-medium"
+name = "Linkup Research Medium"
+release_date = "1780617600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 262.5
+output = 262.5

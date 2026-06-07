@@ -1,0 +1,20 @@
+id = "linkup-research-high"
+name = "Linkup Research High"
+release_date = "1780617600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 787.5
+output = 787.5
