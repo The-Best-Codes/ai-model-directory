@@ -1,0 +1,7 @@
+name = "routing.run"
+website = "https://routing.run"
+apiBaseUrl = "https://ai.routing.sh/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ROUTING_RUN_API_KEY"]
