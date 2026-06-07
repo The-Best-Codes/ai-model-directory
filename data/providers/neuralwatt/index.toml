@@ -1,0 +1,7 @@
+name = "Neuralwatt"
+website = "https://neuralwatt.com"
+apiBaseUrl = "https://api.neuralwatt.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["NEURALWATT_API_KEY"]
