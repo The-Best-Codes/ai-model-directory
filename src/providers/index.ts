@@ -35,6 +35,7 @@ import { modelscopeProvider } from "./modelscope.ts";
 import { moarkProvider } from "./moark.ts";
 import { nearaiProvider } from "./nearai.ts";
 import { nanoGptProvider } from "./nano-gpt.ts";
+import { neuralwattProvider } from "./neuralwatt.ts";
 import { novitaProvider } from "./novita.ts";
 import { ollamaCloudProvider } from "./ollama-cloud.ts";
 import { nvidiaProvider } from "./nvidia.ts";
@@ -92,6 +93,7 @@ export const providers: ProviderDefinition[] = [
   moarkProvider,
   nearaiProvider,
   nanoGptProvider,
+  neuralwattProvider,
   novitaProvider,
   ollamaCloudProvider,
   nvidiaProvider,

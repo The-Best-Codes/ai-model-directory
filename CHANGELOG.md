@@ -1,5 +1,54 @@
 # Changelog
 
+## Run at 1780867793
+
+### Summary
+
+- **Total models currently tracked: 7450** across 56 providers
+- Providers with changes this run: 1
+- Total models added: 14
+- Total models removed: 0
+- Total field changes: 0
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>neuralwatt</strong> — 14 models, 14 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 14
+- Models added: 14
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (14)</summary>
+
+- `MiniMaxAI/MiniMax-M2.5`
+- `Qwen/Qwen3.5-397B-A17B-FP8`
+- `Qwen/Qwen3.6-35B-A3B`
+- `glm-5-fast`
+- `glm-5.1-fast`
+- `kimi-k2.5-fast`
+- `kimi-k2.6-fast`
+- `mistralai/Devstral-Small-2-24B-Instruct-2512`
+- `moonshotai/Kimi-K2.5`
+- `moonshotai/Kimi-K2.6`
+- `openai/gpt-oss-20b`
+- `qwen3.5-397b-fast`
+- `qwen3.6-35b-fast`
+- `zai-org/GLM-5.1-FP8`
+
+</details>
+
+</details>
+
+</details>
+
 ## Run at 1780866418
 
 ### Summary

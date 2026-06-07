@@ -1,0 +1,16 @@
+id = "zai-org/GLM-5.1-FP8"
+name = "GLM-5.1"
+release_date = "1780867792"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 202736
+
+[pricing]
+input = 1.1
+output = 3.6
