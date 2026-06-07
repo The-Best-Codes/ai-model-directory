@@ -22,6 +22,14 @@ export type Doc = DocPage & {
   content: string;
 };
 
+const docPathBySlug = new Map(
+  getDocSlugs().flatMap((slug) => {
+    const docPath = findDocPath(slug);
+
+    return docPath ? [[slug, docPath]] : [];
+  }),
+);
+
 export function getDocSlugs(directory = docsDirectory, prefix = ""): string[] {
   const slugs: string[] = [];
 
@@ -41,20 +49,7 @@ export function getDocSlugs(directory = docsDirectory, prefix = ""): string[] {
 }
 
 export function getDocPath(slug: string) {
-  const filePath = path.join(docsDirectory, `${slug || "index"}.mdx`);
-  const indexPath = path.join(docsDirectory, slug, "index.mdx");
-
-  if (!isPathInside(filePath, docsDirectory) || !isPathInside(indexPath, docsDirectory)) {
-    return undefined;
-  }
-
-  if (fs.existsSync(filePath)) {
-    return `${slug || "index"}.mdx`;
-  }
-
-  if (fs.existsSync(indexPath)) {
-    return `${slug}/index.mdx`;
-  }
+  return docPathBySlug.get(slug);
 }
 
 export function getDocMetadata(docPath: string) {
@@ -137,6 +132,23 @@ function readDocFile(docPath: string) {
     } satisfies DocFrontmatter,
     content,
   };
+}
+
+function findDocPath(slug: string) {
+  const filePath = path.join(docsDirectory, `${slug || "index"}.mdx`);
+  const indexPath = path.join(docsDirectory, slug, "index.mdx");
+
+  if (!isPathInside(filePath, docsDirectory) || !isPathInside(indexPath, docsDirectory)) {
+    return undefined;
+  }
+
+  if (fs.existsSync(filePath)) {
+    return `${slug || "index"}.mdx`;
+  }
+
+  if (fs.existsSync(indexPath)) {
+    return `${slug}/index.mdx`;
+  }
 }
 
 function titleFromSlug(slug: string) {
