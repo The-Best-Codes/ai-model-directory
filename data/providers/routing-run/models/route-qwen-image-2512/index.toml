@@ -1,0 +1,10 @@
+id = "route/qwen-image-2512"
+name = "route/qwen-image-2512"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

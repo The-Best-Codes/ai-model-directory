@@ -1,0 +1,17 @@
+id = "route/deepseek-v4-flash"
+name = "route/deepseek-v4-flash"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,13 @@
+id = "route/minimax-m2.5-highspeed"
+name = "route/minimax-m2.5-highspeed"
+
+[limit]
+context = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

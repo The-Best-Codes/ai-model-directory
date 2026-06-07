@@ -1,0 +1,13 @@
+id = "route/minimax-m3"
+name = "route/minimax-m3"
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

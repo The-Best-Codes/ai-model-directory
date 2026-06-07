@@ -1,0 +1,10 @@
+id = "route/hunyuan-image-3"
+name = "route/hunyuan-image-3"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

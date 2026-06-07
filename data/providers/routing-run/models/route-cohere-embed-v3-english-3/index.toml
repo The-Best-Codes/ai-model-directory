@@ -1,0 +1,12 @@
+id = "route/cohere-embed-v3-english-3"
+name = "route/cohere-embed-v3-english-3"
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

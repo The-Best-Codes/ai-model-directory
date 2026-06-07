@@ -1,0 +1,14 @@
+id = "route/mistral-large-3"
+name = "route/mistral-large-3"
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

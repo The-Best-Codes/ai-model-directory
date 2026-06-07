@@ -47,6 +47,7 @@ import { poeProvider } from "./poe.ts";
 import { openrouterProvider } from "./openrouter.ts";
 import { orcarouterProvider } from "./orcarouter.ts";
 import { requestyProvider } from "./requesty.ts";
+import { routingRunProvider } from "./routing-run.ts";
 import { syntheticProvider } from "./synthetic.ts";
 import { tetrateProvider } from "./tetrate.ts";
 import { togetheraiProvider } from "./togetherai.ts";
@@ -106,6 +107,7 @@ export const providers: ProviderDefinition[] = [
   openrouterProvider,
   orcarouterProvider,
   requestyProvider,
+  routingRunProvider,
   syntheticProvider,
   tetrateProvider,
   togetheraiProvider,

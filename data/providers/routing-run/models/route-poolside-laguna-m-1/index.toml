@@ -1,0 +1,14 @@
+id = "route/poolside-laguna-m.1"
+name = "route/poolside-laguna-m.1"
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,14 @@
+id = "route/llama3.1-8b"
+name = "route/llama3.1-8b"
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

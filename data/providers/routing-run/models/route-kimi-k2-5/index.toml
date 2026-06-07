@@ -1,0 +1,17 @@
+id = "route/kimi-k2.5"
+name = "route/kimi-k2.5"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

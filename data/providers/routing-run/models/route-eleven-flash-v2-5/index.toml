@@ -1,0 +1,13 @@
+id = "route/eleven-flash-v2.5"
+name = "route/eleven-flash-v2.5"
+
+[limit]
+context = 40000
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0

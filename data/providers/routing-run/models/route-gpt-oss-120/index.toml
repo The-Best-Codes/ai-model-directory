@@ -1,0 +1,14 @@
+id = "route/gpt-oss-120"
+name = "route/gpt-oss-120"
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
