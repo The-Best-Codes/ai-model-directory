@@ -22,5 +22,9 @@
     "generate": "bun ./scripts/generate-data.mjs",
     "build": "bun run generate && tsc -p ./tsconfig.build.json",
     "prepack": "bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "typescript": "^6.0.3"
   }
 }

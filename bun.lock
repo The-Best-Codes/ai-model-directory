@@ -22,7 +22,11 @@
     },
     "packages/npm": {
       "name": "ai-model-directory",
-      "version": "0.1.41",
+      "version": "0.1.42",
+      "devDependencies": {
+        "@types/bun": "^1.3.14",
+        "typescript": "^6.0.3",
+      },
     },
     "packages/web": {
       "name": "models.agent-one.dev",
@@ -37,6 +41,7 @@
         "@tailwindcss/typography": "^0.5.19",
         "@tanstack/react-table": "^8.21.3",
         "@types/mdx": "^2.0.13",
+        "ai-model-directory": "workspace:*",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "gray-matter": "^4.0.3",
