@@ -1,0 +1,7 @@
+name = "Ambient"
+website = "https://ambient.xyz"
+apiBaseUrl = "https://api.ambient.xyz/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["AMBIENT_API_KEY"]
