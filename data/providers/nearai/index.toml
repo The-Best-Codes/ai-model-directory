@@ -1,0 +1,7 @@
+name = "NEAR AI Cloud"
+website = "https://near.ai"
+apiBaseUrl = "https://cloud-api.near.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["NEARAI_API_KEY"]
