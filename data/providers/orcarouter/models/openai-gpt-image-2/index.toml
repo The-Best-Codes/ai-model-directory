@@ -1,0 +1,5 @@
+id = "openai/gpt-image-2"
+
+[pricing]
+input = 8
+output = 30

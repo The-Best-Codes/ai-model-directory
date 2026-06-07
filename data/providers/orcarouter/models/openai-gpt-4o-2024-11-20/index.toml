@@ -1,0 +1,17 @@
+id = "openai/gpt-4o-2024-11-20"
+name = "OpenAI: GPT-4o (2024-11-20)"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10

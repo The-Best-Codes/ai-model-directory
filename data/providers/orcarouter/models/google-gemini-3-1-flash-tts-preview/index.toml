@@ -1,0 +1,11 @@
+id = "google/gemini-3.1-flash-tts-preview"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 1
+output = 20

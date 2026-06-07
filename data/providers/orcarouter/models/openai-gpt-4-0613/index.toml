@@ -1,0 +1,14 @@
+id = "openai/gpt-4-0613"
+
+[features]
+attachment = false
+
+[limit]
+output = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 30
+output = 60

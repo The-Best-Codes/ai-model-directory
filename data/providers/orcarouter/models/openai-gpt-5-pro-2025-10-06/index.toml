@@ -1,0 +1,16 @@
+id = "openai/gpt-5-pro-2025-10-06"
+
+[features]
+attachment = true
+
+[limit]
+context = 400000
+output = 272000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 15
+output = 120

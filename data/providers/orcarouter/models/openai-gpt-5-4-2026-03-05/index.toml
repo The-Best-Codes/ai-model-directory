@@ -1,0 +1,16 @@
+id = "openai/gpt-5.4-2026-03-05"
+
+[features]
+attachment = true
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5
+output = 22.5

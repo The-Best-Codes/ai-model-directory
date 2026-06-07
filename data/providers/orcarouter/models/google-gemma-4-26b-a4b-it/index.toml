@@ -1,0 +1,16 @@
+id = "google/gemma-4-26b-a4b-it"
+name = "Google: Gemma 4 26B A4B "
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.33

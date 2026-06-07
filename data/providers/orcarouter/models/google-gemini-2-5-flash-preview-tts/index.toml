@@ -1,0 +1,11 @@
+id = "google/gemini-2.5-flash-preview-tts"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 10

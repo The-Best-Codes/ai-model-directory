@@ -1,0 +1,16 @@
+id = "kimi/kimi-k2.6"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.95
+output = 4

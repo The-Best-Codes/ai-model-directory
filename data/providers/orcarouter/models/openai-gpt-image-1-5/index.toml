@@ -1,0 +1,11 @@
+id = "openai/gpt-image-1.5"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 8
+output = 32

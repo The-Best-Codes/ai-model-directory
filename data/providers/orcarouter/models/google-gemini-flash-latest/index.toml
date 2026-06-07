@@ -1,0 +1,14 @@
+id = "google/gemini-flash-latest"
+
+[features]
+attachment = true
+
+[limit]
+output = 65536
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+
+[pricing]
+input = 0.5
+output = 3

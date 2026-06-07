@@ -1,0 +1,17 @@
+id = "minimax/minimax-m2.5-highspeed"
+name = "MiniMax M2.5 highspeed"
+
+[features]
+attachment = false
+
+[limit]
+context = 204800
+output = 2048
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.4

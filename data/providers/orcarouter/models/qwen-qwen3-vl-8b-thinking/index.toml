@@ -1,0 +1,17 @@
+id = "qwen/qwen3-vl-8b-thinking"
+name = "Qwen: Qwen3 VL 8B Thinking"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+output = 40960
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.18
+output = 2.1

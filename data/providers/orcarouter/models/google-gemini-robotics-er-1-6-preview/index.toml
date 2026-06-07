@@ -1,0 +1,14 @@
+id = "google/gemini-robotics-er-1.6-preview"
+
+[features]
+attachment = true
+
+[limit]
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 1
+output = 5

@@ -1,0 +1,17 @@
+id = "openai/gpt-4o-search-preview"
+name = "OpenAI: GPT-4o Search Preview"
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10

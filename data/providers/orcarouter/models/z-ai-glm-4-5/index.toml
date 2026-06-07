@@ -1,0 +1,17 @@
+id = "z-ai/glm-4.5"
+name = "Z.ai: GLM 4.5"
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+output = 96000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.2

@@ -1,0 +1,6 @@
+id = "qwen/qwen3-vl-235b-a22b-instruct"
+name = "Qwen: Qwen3 VL 235B A22B Instruct"
+
+[pricing]
+input = 0.4
+output = 1.6
