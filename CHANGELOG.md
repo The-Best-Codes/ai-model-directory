@@ -1,5 +1,44 @@
 # Changelog
 
+## Run at 1780862000
+
+### Summary
+
+- **Total models currently tracked: 7395** across 54 providers
+- Providers with changes this run: 1
+- Total models added: 4
+- Total models removed: 0
+- Total field changes: 0
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>inceptron</strong> — 4 models, 4 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 4
+- Models added: 4
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (4)</summary>
+
+- `MiniMaxAI/MiniMax-M2.5`
+- `moonshotai/Kimi-K2.6`
+- `nvidia/llama-3.3-70b-instruct-fp8`
+- `zai-org/GLM-5.1-FP8`
+
+</details>
+
+</details>
+
+</details>
+
 ## Run at 1780860876
 
 ### Summary
