@@ -1,0 +1,7 @@
+name = "Inceptron"
+website = "https://inceptron.io"
+apiBaseUrl = "https://api.inceptron.io/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["INCEPTRON_API_KEY"]
