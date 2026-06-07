@@ -44,6 +44,10 @@ export function getDocPath(slug: string) {
   const filePath = path.join(docsDirectory, `${slug || "index"}.mdx`);
   const indexPath = path.join(docsDirectory, slug, "index.mdx");
 
+  if (!isPathInside(filePath, docsDirectory) || !isPathInside(indexPath, docsDirectory)) {
+    return undefined;
+  }
+
   if (fs.existsSync(filePath)) {
     return `${slug || "index"}.mdx`;
   }
@@ -116,9 +120,13 @@ export function getDoc(slug: string): Doc | undefined {
 }
 
 function readDocFile(docPath: string) {
-  const { data, content } = matter(
-    fs.readFileSync(path.join(docsDirectory, docPath), "utf8"),
-  );
+  const filePath = path.join(docsDirectory, docPath);
+
+  if (!isPathInside(filePath, docsDirectory)) {
+    throw new Error(`Invalid doc path: ${docPath}`);
+  }
+
+  const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
 
   return {
     data: {
@@ -142,4 +150,13 @@ function titleFromSlug(slug: string) {
     .split("-")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
+}
+
+function isPathInside(filePath: string, directory: string) {
+  const relativePath = path.relative(
+    path.resolve(directory),
+    path.resolve(filePath),
+  );
+
+  return relativePath !== "" && !relativePath.startsWith("..") && !path.isAbsolute(relativePath);
 }
