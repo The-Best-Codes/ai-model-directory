@@ -1,0 +1,15 @@
+id = "xpersona-frieren-coder"
+name = "xpersona-frieren-coder"
+release_date = "1777593600"
+
+[limit]
+context = 1000000
+output = 384000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.5
+output = 6

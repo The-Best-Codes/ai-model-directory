@@ -48,6 +48,7 @@ import { veniceProvider } from "./venice.ts";
 import { vercelProvider } from "./vercel.ts";
 import { wandbProvider } from "./wandb.ts";
 import { xaiProvider } from "./xai.ts";
+import { xpersonaProvider } from "./xpersona.ts";
 import { zenmuxProvider } from "./zenmux.ts";
 
 export const providers: ProviderDefinition[] = [
@@ -100,5 +101,6 @@ export const providers: ProviderDefinition[] = [
   vercelProvider,
   wandbProvider,
   xaiProvider,
+  xpersonaProvider,
   zenmuxProvider,
 ];

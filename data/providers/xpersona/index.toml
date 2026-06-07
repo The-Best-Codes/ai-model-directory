@@ -1,0 +1,7 @@
+name = "Xpersona"
+website = "https://www.xpersona.co/"
+apiBaseUrl = "https://www.xpersona.co/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["XPERSONA_API_KEY"]
