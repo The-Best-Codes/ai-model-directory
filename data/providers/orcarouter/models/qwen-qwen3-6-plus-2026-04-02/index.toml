@@ -1,0 +1,16 @@
+id = "qwen/qwen3.6-plus-2026-04-02"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.276
+output = 1.651

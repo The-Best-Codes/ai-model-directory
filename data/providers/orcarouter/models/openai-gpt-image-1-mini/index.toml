@@ -1,0 +1,11 @@
+id = "openai/gpt-image-1-mini"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 2
+output = 8

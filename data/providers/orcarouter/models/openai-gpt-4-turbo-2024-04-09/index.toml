@@ -1,0 +1,16 @@
+id = "openai/gpt-4-turbo-2024-04-09"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 10
+output = 30

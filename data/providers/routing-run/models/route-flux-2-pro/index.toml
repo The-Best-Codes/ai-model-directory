@@ -1,0 +1,10 @@
+id = "route/FLUX.2-pro"
+name = "route/FLUX.2-pro"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

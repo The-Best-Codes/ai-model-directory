@@ -1,0 +1,11 @@
+id = "openai/tts-1"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 15
+output = 15

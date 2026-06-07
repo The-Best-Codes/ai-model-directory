@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-chat"
+name = "DeepSeek: DeepSeek V3"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+output = 384000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.28

@@ -1,0 +1,17 @@
+id = "qwen/qwen3.7-plus"
+name = "Qwen: Qwen3.7 Plus"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.35
+output = 1.42

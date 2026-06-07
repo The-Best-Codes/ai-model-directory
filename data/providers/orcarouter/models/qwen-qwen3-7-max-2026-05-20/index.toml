@@ -1,0 +1,17 @@
+id = "qwen/qwen3.7-max-2026-05-20"
+name = "Qwen3.7 Max (2026-05-20)"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 3.75

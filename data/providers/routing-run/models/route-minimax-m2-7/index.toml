@@ -1,0 +1,16 @@
+id = "route/minimax-m2.7"
+name = "route/minimax-m2.7"
+
+[features]
+reasoning = true
+
+[limit]
+context = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.33
+output = 1.32

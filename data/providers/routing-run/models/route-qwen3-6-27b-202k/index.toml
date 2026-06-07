@@ -1,0 +1,14 @@
+id = "route/qwen3.6-27b-202k"
+name = "route/qwen3.6-27b-202k"
+
+[limit]
+context = 202000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

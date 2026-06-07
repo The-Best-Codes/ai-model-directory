@@ -1,0 +1,16 @@
+id = "route/gemma-4-31b-it"
+name = "route/gemma-4-31b-it"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

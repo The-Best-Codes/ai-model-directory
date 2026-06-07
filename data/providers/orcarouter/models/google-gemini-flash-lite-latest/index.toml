@@ -1,0 +1,14 @@
+id = "google/gemini-flash-lite-latest"
+
+[features]
+attachment = true
+
+[limit]
+output = 65536
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+
+[pricing]
+input = 0.25
+output = 1.5

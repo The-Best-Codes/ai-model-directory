@@ -45,12 +45,15 @@ import { ovhcloudProvider } from "./ovhcloud.ts";
 import { perplexityProvider } from "./perplexity.ts";
 import { poeProvider } from "./poe.ts";
 import { openrouterProvider } from "./openrouter.ts";
+import { orcarouterProvider } from "./orcarouter.ts";
 import { requestyProvider } from "./requesty.ts";
+import { routingRunProvider } from "./routing-run.ts";
 import { syntheticProvider } from "./synthetic.ts";
 import { tetrateProvider } from "./tetrate.ts";
 import { togetheraiProvider } from "./togetherai.ts";
 import { veniceProvider } from "./venice.ts";
 import { vercelProvider } from "./vercel.ts";
+import { waferAiProvider } from "./wafer-ai.ts";
 import { wandbProvider } from "./wandb.ts";
 import { xaiProvider } from "./xai.ts";
 import { xpersonaProvider } from "./xpersona.ts";
@@ -103,12 +106,15 @@ export const providers: ProviderDefinition[] = [
   perplexityProvider,
   poeProvider,
   openrouterProvider,
+  orcarouterProvider,
   requestyProvider,
+  routingRunProvider,
   syntheticProvider,
   tetrateProvider,
   togetheraiProvider,
   veniceProvider,
   vercelProvider,
+  waferAiProvider,
   wandbProvider,
   xaiProvider,
   xpersonaProvider,

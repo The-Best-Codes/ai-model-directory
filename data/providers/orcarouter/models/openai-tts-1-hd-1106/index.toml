@@ -1,0 +1,11 @@
+id = "openai/tts-1-hd-1106"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 30
+output = 30

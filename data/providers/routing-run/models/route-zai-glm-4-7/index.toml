@@ -1,0 +1,14 @@
+id = "route/zai-glm-4.7"
+name = "route/zai-glm-4.7"
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

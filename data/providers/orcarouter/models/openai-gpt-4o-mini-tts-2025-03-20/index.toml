@@ -1,0 +1,11 @@
+id = "openai/gpt-4o-mini-tts-2025-03-20"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 12

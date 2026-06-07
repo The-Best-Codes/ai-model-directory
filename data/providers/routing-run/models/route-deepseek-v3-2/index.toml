@@ -1,0 +1,18 @@
+id = "route/deepseek-v3.2"
+name = "route/deepseek-v3.2"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 163840
+output = 163840
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

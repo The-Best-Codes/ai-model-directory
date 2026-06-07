@@ -1,0 +1,17 @@
+id = "route/gemma-4-31b"
+name = "route/gemma-4-31b"
+
+[features]
+reasoning = true
+
+[limit]
+context = 202000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

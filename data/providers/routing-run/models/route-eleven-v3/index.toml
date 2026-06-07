@@ -1,0 +1,13 @@
+id = "route/eleven-v3"
+name = "route/eleven-v3"
+
+[limit]
+context = 5000
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0

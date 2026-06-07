@@ -1,0 +1,17 @@
+id = "qwen/qwen3-max"
+name = "Qwen: Qwen3 Max"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.359
+output = 1.434

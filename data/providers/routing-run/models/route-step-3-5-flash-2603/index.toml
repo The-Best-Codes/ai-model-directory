@@ -1,0 +1,17 @@
+id = "route/step-3.5-flash-2603"
+name = "route/step-3.5-flash-2603"
+
+[features]
+reasoning = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

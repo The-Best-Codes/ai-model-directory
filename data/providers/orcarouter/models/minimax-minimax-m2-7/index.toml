@@ -1,0 +1,17 @@
+id = "minimax/minimax-m2.7"
+name = "MiniMax: MiniMax M2.7"
+
+[features]
+attachment = false
+
+[limit]
+context = 204800
+output = 2048
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

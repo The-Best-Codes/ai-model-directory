@@ -1,0 +1,18 @@
+id = "route/mimo-v2.5"
+name = "route/mimo-v2.5"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

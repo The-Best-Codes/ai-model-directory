@@ -1,0 +1,10 @@
+id = "route/flux-1-schnell"
+name = "route/flux-1-schnell"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

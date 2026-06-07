@@ -1,0 +1,14 @@
+id = "openai/gpt-3.5-turbo-0125"
+
+[features]
+attachment = false
+
+[limit]
+output = 4096
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 1.5

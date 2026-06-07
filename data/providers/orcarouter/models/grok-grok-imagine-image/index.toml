@@ -1,0 +1,7 @@
+id = "grok/grok-imagine-image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

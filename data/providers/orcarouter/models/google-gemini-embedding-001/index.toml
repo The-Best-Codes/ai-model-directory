@@ -1,0 +1,11 @@
+id = "google/gemini-embedding-001"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0

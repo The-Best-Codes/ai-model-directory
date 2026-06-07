@@ -1,0 +1,14 @@
+id = "openai/gpt-5.5-pro-2026-04-23"
+
+[features]
+attachment = true
+
+[limit]
+output = 100000
+
+[modalities]
+input = [ "file", "image", "text" ]
+
+[pricing]
+input = 60
+output = 270

@@ -1,0 +1,16 @@
+id = "deepseek/deepseek-v4-pro"
+name = "DeepSeek: DeepSeek V4 Pro"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+output = 384000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.435
+output = 0.87

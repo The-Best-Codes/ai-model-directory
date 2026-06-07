@@ -1,0 +1,17 @@
+id = "z-ai/glm-4.5-air"
+name = "Z.ai: GLM 4.5 Air"
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+output = 96000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 1.1

@@ -1,0 +1,7 @@
+name = "OrcaRouter"
+website = "https://orcarouter.ai"
+apiBaseUrl = "https://api.orcarouter.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ORCAROUTER_API_KEY"]

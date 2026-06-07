@@ -1,0 +1,13 @@
+id = "route/eleven-multilingual-v2"
+name = "route/eleven-multilingual-v2"
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0

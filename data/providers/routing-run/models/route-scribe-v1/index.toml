@@ -1,0 +1,10 @@
+id = "route/scribe-v1"
+name = "route/scribe-v1"
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
