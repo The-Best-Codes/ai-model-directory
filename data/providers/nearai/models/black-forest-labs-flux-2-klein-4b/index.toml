@@ -1,0 +1,23 @@
+id = "black-forest-labs/FLUX.2-klein-4B"
+name = "FLUX.2-klein-4B"
+release_date = "1769640850"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 1
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 0
+input = 1
+output = 1

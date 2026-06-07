@@ -1,0 +1,23 @@
+id = "openai/whisper-large-v3"
+name = "Whisper Large v3"
+release_date = "1774015272"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 448
+output = 1024
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.01
+output = 0.01

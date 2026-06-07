@@ -1,5 +1,81 @@
 # Changelog
 
+## Run at 1780866418
+
+### Summary
+
+- **Total models currently tracked: 7436** across 55 providers
+- Providers with changes this run: 1
+- Total models added: 41
+- Total models removed: 0
+- Total field changes: 0
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>nearai</strong> — 41 models, 41 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 41
+- Models added: 41
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (41)</summary>
+
+- `Qwen/Qwen3-30B-A3B-Instruct-2507`
+- `Qwen/Qwen3-Embedding-0.6B`
+- `Qwen/Qwen3-Reranker-0.6B`
+- `Qwen/Qwen3-VL-30B-A3B-Instruct`
+- `Qwen/Qwen3.5-122B-A10B`
+- `Qwen/Qwen3.6-27B-FP8`
+- `Qwen/Qwen3.6-35B-A3B-FP8`
+- `anthropic/claude-haiku-4-5`
+- `anthropic/claude-opus-4-6`
+- `anthropic/claude-opus-4-7`
+- `anthropic/claude-sonnet-4-5`
+- `anthropic/claude-sonnet-4-6`
+- `black-forest-labs/FLUX.2-klein-4B`
+- `deepseek-ai/DeepSeek-V4-Flash`
+- `google/gemini-2.5-flash`
+- `google/gemini-2.5-flash-lite`
+- `google/gemini-2.5-pro`
+- `google/gemini-3.1-flash-lite`
+- `google/gemini-3.5-flash`
+- `google/gemma-4-31B-it`
+- `moonshotai/kimi-k2.6`
+- `openai/gpt-4.1`
+- `openai/gpt-4.1-mini`
+- `openai/gpt-4.1-nano`
+- `openai/gpt-5`
+- `openai/gpt-5-mini`
+- `openai/gpt-5-nano`
+- `openai/gpt-5.1`
+- `openai/gpt-5.2`
+- `openai/gpt-5.4`
+- `openai/gpt-5.4-mini`
+- `openai/gpt-5.4-nano`
+- `openai/gpt-5.5`
+- `openai/gpt-oss-120b`
+- `openai/o3`
+- `openai/o3-mini`
+- `openai/o4-mini`
+- `openai/privacy-filter`
+- `openai/whisper-large-v3`
+- `qwen/qwen3.7-max`
+- `zai-org/GLM-5.1-FP8`
+
+</details>
+
+</details>
+
+</details>
+
 ## Run at 1780862000
 
 ### Summary
