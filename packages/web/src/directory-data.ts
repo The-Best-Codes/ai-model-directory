@@ -1,4 +1,7 @@
-import { getModelDirectory, type ModelDirectory } from "ai-model-directory";
+import {
+  getModelDirectory,
+  type ModelDirectory,
+} from "../../npm/dist/src/index.js";
 
 export type DirectoryData = Record<string, ProviderRecord>;
 

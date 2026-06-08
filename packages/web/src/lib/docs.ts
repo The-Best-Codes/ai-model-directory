@@ -138,7 +138,10 @@ function findDocPath(slug: string) {
   const filePath = path.join(docsDirectory, `${slug || "index"}.mdx`);
   const indexPath = path.join(docsDirectory, slug, "index.mdx");
 
-  if (!isPathInside(filePath, docsDirectory) || !isPathInside(indexPath, docsDirectory)) {
+  if (
+    !isPathInside(filePath, docsDirectory) ||
+    !isPathInside(indexPath, docsDirectory)
+  ) {
     return undefined;
   }
 
@@ -170,5 +173,9 @@ function isPathInside(filePath: string, directory: string) {
     path.resolve(filePath),
   );
 
-  return relativePath !== "" && !relativePath.startsWith("..") && !path.isAbsolute(relativePath);
+  return (
+    relativePath !== "" &&
+    !relativePath.startsWith("..") &&
+    !path.isAbsolute(relativePath)
+  );
 }
