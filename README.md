@@ -64,7 +64,7 @@ Each `models/<model-id>/index.toml` is fully managed by the updater; it gets re-
 Example: a Perplexity-hosted model that should inherit most of its metadata from the OpenRouter version but ignore that source's pricing and context limit:
 
 ```toml
-extends = { path = "openrouter/models/openai-gpt-5", omit = ["pricing", "limit.context"] }
+extends = { path = "openrouter/models/openai-gpt-5.5", omit = ["pricing", "limit.context"] }
 ```
 
 To provide an experience similar to `models.dev/api.json`, the build also generates `data/all.json` (pretty) and `data/all.min.json` (minified) by reading the TOML tree.
