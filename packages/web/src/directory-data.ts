@@ -1,3 +1,5 @@
+import { getModelDirectory, type ModelDirectory } from "ai-model-directory";
+
 export type DirectoryData = Record<string, ProviderRecord>;
 
 type ProviderRecord = {
@@ -47,14 +49,5 @@ type ModelRecord = {
 };
 
 export async function loadDirectoryData() {
-  const response = await fetch(
-    "https://raw.githubusercontent.com/The-Best-Codes/ai-model-directory/main/data/all.min.json",
-    { headers: { accept: "application/json" }, next: { revalidate: 3600 } },
-  );
-
-  if (!response.ok) {
-    throw new Error(`Failed to load model directory: ${response.status}`);
-  }
-
-  return response.json() as Promise<DirectoryData>;
+  return getModelDirectory() as ModelDirectory as DirectoryData;
 }
