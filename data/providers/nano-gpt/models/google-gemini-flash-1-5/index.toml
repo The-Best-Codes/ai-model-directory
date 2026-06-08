@@ -3,7 +3,7 @@ name = "Gemini 1.5 Flash"
 release_date = "1704067200"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 tool_call = false
@@ -13,7 +13,7 @@ context = 2000000
 output = 8192
 
 [modalities]
-input = [ "text" ]
+input = [ "audio", "text" ]
 output = [ "text" ]
 
 [pricing]

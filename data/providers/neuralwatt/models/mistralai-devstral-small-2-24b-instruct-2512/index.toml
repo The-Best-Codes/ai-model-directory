@@ -1,6 +1,6 @@
 id = "mistralai/Devstral-Small-2-24B-Instruct-2512"
 name = "Devstral-Small-2-24B-Instruct-2512"
-release_date = "1780867802"
+release_date = "1780879747"
 
 [features]
 attachment = true
