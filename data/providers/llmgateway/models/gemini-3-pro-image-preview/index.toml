@@ -1,6 +1,6 @@
 id = "gemini-3-pro-image-preview"
 name = "Gemini 3 Pro Image (Preview)"
-release_date = "1780879734"
+release_date = "1780965767"
 
 [features]
 attachment = true

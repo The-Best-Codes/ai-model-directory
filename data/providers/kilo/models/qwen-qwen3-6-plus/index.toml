@@ -1,11 +1,11 @@
 id = "qwen/qwen3.6-plus"
 name = "Qwen: Qwen3.6 Plus"
-release_date = "1756238927"
+release_date = "1775133557"
 
 [features]
 attachment = true
 reasoning = true
-structured_output = false
+structured_output = true
 temperature = true
 tool_call = true
 
@@ -14,12 +14,10 @@ context = 1000000
 output = 65536
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.05
 cache_write = 0.625
 input = 0.5
 output = 3
-reasoning = 0

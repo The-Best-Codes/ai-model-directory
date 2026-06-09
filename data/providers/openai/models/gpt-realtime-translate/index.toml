@@ -1,6 +1,6 @@
 id = "gpt-realtime-translate"
 knowledge_cutoff = "1727654400"
-name = "gpt-realtime-translate"
+name = "GPT-Realtime-Translate"
 release_date = "1777950216"
 
 [features]

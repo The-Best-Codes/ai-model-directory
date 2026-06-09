@@ -1,0 +1,22 @@
+id = "tencent-hy3-preview"
+name = "Hy3 Preview"
+release_date = "1780876800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.021
+input = 0.063
+output = 0.21

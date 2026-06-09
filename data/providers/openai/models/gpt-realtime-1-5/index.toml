@@ -1,6 +1,6 @@
 id = "gpt-realtime-1.5"
 knowledge_cutoff = "1727654400"
-name = "gpt-realtime-1.5"
+name = "GPT-Realtime-1.5"
 release_date = "1771461469"
 
 [features]

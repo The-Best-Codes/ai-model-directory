@@ -1,6 +1,6 @@
 id = "gpt-realtime-whisper"
 knowledge_cutoff = "1727654400"
-name = "gpt-realtime-whisper"
+name = "GPT-Realtime-Whisper"
 release_date = "1778012060"
 
 [features]

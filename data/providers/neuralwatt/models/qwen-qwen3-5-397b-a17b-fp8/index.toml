@@ -1,6 +1,6 @@
 id = "Qwen/Qwen3.5-397B-A17B-FP8"
 name = "Qwen3.5 397B"
-release_date = "1780879707"
+release_date = "1780965741"
 
 [features]
 attachment = false

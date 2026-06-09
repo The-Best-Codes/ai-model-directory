@@ -1,0 +1,24 @@
+id = "gemini-2.5-pro-preview-tts"
+name = "Gemini 2.5 Pro Preview TTS"
+release_date = "1780965767"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 1
+output = 20
+reasoning = 0

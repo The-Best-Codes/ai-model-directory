@@ -20,5 +20,6 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.05
 input = 0.5
+input_audio = 1
 output = 3
 reasoning = 0

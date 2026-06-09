@@ -1,10 +1,10 @@
 id = "glm-4.7-flash"
 name = "GLM-4.7 Flash"
-release_date = "1780879734"
+release_date = "1780965767"
 
 [features]
 attachment = false
-reasoning = true
+reasoning = false
 structured_output = true
 temperature = true
 tool_call = true
@@ -17,8 +17,8 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0
+cache_read = 0.01
 cache_write = 0
-input = 0
-output = 0
+input = 0.06
+output = 0.4
 reasoning = 0

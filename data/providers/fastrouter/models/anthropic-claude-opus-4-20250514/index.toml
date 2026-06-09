@@ -22,4 +22,3 @@ cache_read = 1.5
 cache_write = 18.75
 input = 15
 output = 75
-reasoning = 0
