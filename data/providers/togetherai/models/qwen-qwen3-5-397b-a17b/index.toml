@@ -1,6 +1,5 @@
 id = "Qwen/Qwen3.5-397B-A17B"
-name = "Qwen3.5 397B A17b FP4"
-release_date = "1775023673"
+name = "Qwen3.5 397B A17b"
 
 [features]
 attachment = false
@@ -13,5 +12,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
+cache_read = 0.35
 input = 0.6
 output = 3.6

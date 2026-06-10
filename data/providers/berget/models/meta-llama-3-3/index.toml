@@ -1,7 +1,7 @@
 id = "meta/llama-3.3"
 name = "meta/llama-3.3"
 open_weights = true
-release_date = "1780963200"
+release_date = "1781049600"
 
 [features]
 structured_output = true
@@ -12,5 +12,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.037900889
-output = 1.037900889
+input = 1.038404475
+output = 1.038404475

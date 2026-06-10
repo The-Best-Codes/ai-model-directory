@@ -1,0 +1,8 @@
+id = "claude-fable-5"
+name = "claude-fable-5"
+
+[pricing]
+cache_read = 1
+cache_write = 12.5
+input = 10
+output = 50

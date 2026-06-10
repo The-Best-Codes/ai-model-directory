@@ -1,0 +1,19 @@
+id = "poolside/laguna-m.1"
+name = "poolside/laguna-m.1"
+release_date = "1781014014"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

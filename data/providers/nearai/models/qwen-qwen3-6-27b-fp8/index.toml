@@ -3,7 +3,7 @@ name = "Qwen 3.6 27B FP8"
 release_date = "1780589812"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true
@@ -14,7 +14,7 @@ context = 262144
 output = 8192
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

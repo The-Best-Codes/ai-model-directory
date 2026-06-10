@@ -1,0 +1,22 @@
+id = "gemini-3.5-live-translate-preview"
+knowledge_cutoff = "1735689600"
+name = "Gemini 3.5 Live Translate Preview"
+release_date = "1780272000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 65536
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 3.5
+output = 21

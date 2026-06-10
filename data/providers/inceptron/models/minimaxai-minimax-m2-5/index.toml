@@ -1,6 +1,6 @@
 id = "MiniMaxAI/MiniMax-M2.5"
 name = "MiniMax M2.5"
-release_date = "1780950800"
+release_date = "1781048045"
 
 [features]
 attachment = false
@@ -17,7 +17,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.03
+cache_read = 0.05
 cache_write = 0
-input = 0.24
+input = 0.15
 output = 0.9

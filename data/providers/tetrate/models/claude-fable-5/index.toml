@@ -1,0 +1,21 @@
+id = "claude-fable-5"
+name = "claude-fable-5"
+release_date = "1781033749"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 1
+cache_write = 12.5
+input = 10
+output = 50

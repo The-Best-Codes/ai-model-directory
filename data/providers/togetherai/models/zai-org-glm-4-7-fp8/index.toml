@@ -1,0 +1,17 @@
+id = "zai-org/GLM-4.7-FP8"
+name = "Glm 4.7 Fp8"
+release_date = "1772499990"
+
+[features]
+attachment = false
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

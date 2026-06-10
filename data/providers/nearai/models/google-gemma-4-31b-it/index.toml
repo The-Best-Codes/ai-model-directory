@@ -3,9 +3,9 @@ name = "Gemma 4 31B Instruct"
 release_date = "1778743163"
 
 [features]
-attachment = false
-reasoning = false
-structured_output = false
+attachment = true
+reasoning = true
+structured_output = true
 temperature = true
 tool_call = true
 
@@ -14,7 +14,7 @@ context = 262144
 output = 8192
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

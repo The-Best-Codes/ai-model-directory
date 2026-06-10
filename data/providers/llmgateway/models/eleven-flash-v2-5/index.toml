@@ -1,0 +1,24 @@
+id = "eleven-flash-v2-5"
+name = "Eleven Flash v2.5"
+release_date = "1781052525"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 40000
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0
+reasoning = 0
