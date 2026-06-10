@@ -1,5 +1,5 @@
 id = "mistral-medium-3"
-name = "mistral-medium-3-5"
+name = "mistral-medium-latest"
 
 [features]
 attachment = true

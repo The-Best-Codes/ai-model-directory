@@ -1,6 +1,5 @@
 id = "nvidia/nemotron-3-asr-streaming-0.6b"
 name = "Nvidia Nemotron 3 ASR Streaming 0.6B"
-release_date = "1780598800"
 
 [features]
 attachment = true

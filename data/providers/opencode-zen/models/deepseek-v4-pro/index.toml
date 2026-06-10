@@ -1,0 +1,7 @@
+id = "deepseek-v4-pro"
+name = "deepseek-v4-pro"
+
+[pricing]
+cache_read = 0.145
+input = 1.74
+output = 3.84

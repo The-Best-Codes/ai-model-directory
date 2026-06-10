@@ -1,0 +1,11 @@
+id = "gemini-3-pro-image"
+name = "gemini-3-pro-image"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
