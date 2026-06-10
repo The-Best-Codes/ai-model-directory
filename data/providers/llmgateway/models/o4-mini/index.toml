@@ -1,6 +1,6 @@
 id = "o4-mini"
 name = "o4 Mini"
-release_date = "1781110828"
+release_date = "1781114811"
 
 [features]
 attachment = true
