@@ -18,7 +18,7 @@ The AI model directory aims to be easy to use (like Models.dev), truly comprehen
 
 ## How Does It Work?
 
-A GitHub Actions workflow runs every 24 hours and re-fetches model metadata from every supported provider (OpenRouter, OpenAI, Anthropic, etc.). Each provider has its own small adapter in `src/providers/` that knows how to talk to that provider's API or read its docs, and normalizes the response into a single shared schema covering things like:
+A GitHub Actions workflow runs every hour and re-fetches model metadata from every supported provider (OpenRouter, OpenAI, Anthropic, etc.). Each provider has its own small adapter in `src/providers/` that knows how to talk to that provider's API or read its docs, and normalizes the response into a single shared schema covering things like:
 
 - Pricing (input, output, reasoning, cache read/write, audio in/out)
 - Context, input, and output token limits
