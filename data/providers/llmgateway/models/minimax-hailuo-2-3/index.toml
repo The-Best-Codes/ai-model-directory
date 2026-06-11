@@ -1,6 +1,6 @@
 id = "minimax-hailuo-2-3"
 name = "MiniMax Hailuo 2.3"
-release_date = "1781114811"
+release_date = "1781140269"
 
 [features]
 attachment = true

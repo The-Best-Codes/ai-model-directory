@@ -1,0 +1,10 @@
+id = "openai/gpt-image-2"
+name = "GPT Image 2"
+release_date = "1776938977"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

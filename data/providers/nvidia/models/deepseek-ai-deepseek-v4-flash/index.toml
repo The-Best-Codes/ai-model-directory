@@ -1,9 +1,2 @@
 id = "deepseek-ai/deepseek-v4-flash"
-name = "DeepSeek-V4-Flash Overview"
-
-[features]
-tool_call = true
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
+name = "deepseek-ai/deepseek-v4-flash"
