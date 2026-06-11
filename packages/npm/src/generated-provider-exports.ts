@@ -56,6 +56,7 @@ export const routingRun = modelDirectory["routing-run"]!;
 export const synthetic = modelDirectory["synthetic"]!;
 export const tetrate = modelDirectory["tetrate"]!;
 export const togetherai = modelDirectory["togetherai"]!;
+export const tokenrouter = modelDirectory["tokenrouter"]!;
 export const venice = modelDirectory["venice"]!;
 export const vercel = modelDirectory["vercel"]!;
 export const waferAi = modelDirectory["wafer-ai"]!;
