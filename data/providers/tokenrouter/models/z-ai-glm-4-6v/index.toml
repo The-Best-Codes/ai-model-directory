@@ -1,0 +1,17 @@
+id = "z-ai/glm-4.6v"
+name = "z-ai/glm-4.6v"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+cache_write = 0.3
+input = 0.3
+input_audio = 0.3
+output = 0.9
+output_audio = 0.3

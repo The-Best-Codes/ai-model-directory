@@ -1,0 +1,17 @@
+id = "tencent/hy3-preview"
+name = "tencent/hy3-preview"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.029000003999999996
+cache_write = 0.066
+input = 0.066
+input_audio = 0.066
+output = 0.260000004
+output_audio = 0.066

@@ -1,0 +1,17 @@
+id = "seed-2-0-pro-260328"
+name = "seed-2-0-pro-260328"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 0.008333
+input = 1
+input_audio = 1
+output = 6
+output_audio = 1

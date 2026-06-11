@@ -1,0 +1,17 @@
+id = "openai/gpt-5.3-codex"
+name = "openai/gpt-5.3-codex"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.175
+cache_write = 1.75
+input = 1.75
+input_audio = 1.75
+output = 14
+output_audio = 1.75

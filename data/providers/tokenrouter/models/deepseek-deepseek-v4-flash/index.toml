@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-v4-flash"
+name = "deepseek/deepseek-v4-flash"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0027999999999999995
+cache_write = 0.14
+input = 0.14
+input_audio = 0.14
+output = 0.28
+output_audio = 0.14

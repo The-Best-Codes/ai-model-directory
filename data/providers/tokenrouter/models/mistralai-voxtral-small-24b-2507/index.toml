@@ -1,0 +1,17 @@
+id = "mistralai/voxtral-small-24b-2507"
+name = "mistralai/voxtral-small-24b-2507"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.009999999999999998
+cache_write = 0.1
+input = 0.1
+input_audio = 0.006
+output = 0.29999999999999993
+output_audio = 0.1

@@ -1,0 +1,17 @@
+id = "MiniMax-M3"
+name = "MiniMax-M3"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+input_audio = 0
+output = 0
+output_audio = 0

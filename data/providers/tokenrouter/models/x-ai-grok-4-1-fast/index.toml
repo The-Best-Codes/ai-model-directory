@@ -1,0 +1,17 @@
+id = "x-ai/grok-4.1-fast"
+name = "x-ai/grok-4.1-fast"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 0.2
+input = 0.2
+input_audio = 0.2
+output = 0.5
+output_audio = 0.2

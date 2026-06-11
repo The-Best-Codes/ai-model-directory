@@ -1,0 +1,17 @@
+id = "z-ai/glm-5"
+name = "z-ai/glm-5"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 1
+input = 1
+input_audio = 1
+output = 3.2
+output_audio = 1

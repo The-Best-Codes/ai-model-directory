@@ -1,0 +1,17 @@
+id = "miromind/mirothinker-1-7-deepresearch"
+name = "miromind/mirothinker-1-7-deepresearch"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 4
+cache_write = 4
+input = 4
+input_audio = 4
+output = 25
+output_audio = 4

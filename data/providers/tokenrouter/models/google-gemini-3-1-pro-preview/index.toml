@@ -1,0 +1,17 @@
+id = "google/gemini-3.1-pro-preview"
+name = "google/gemini-3.1-pro-preview"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 0.375
+input = 2
+input_audio = 4
+output = 12
+output_audio = 2

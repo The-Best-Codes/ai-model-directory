@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-v3.2"
+name = "deepseek/deepseek-v3.2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.13
+cache_write = 0.26
+input = 0.26
+input_audio = 0.26
+output = 0.37999988
+output_audio = 0.26

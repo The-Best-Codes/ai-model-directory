@@ -1,0 +1,17 @@
+id = "seed-2-0-mini-260428"
+name = "seed-2-0-mini-260428"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.039999999999999994
+cache_write = 0.00833
+input = 0.2
+input_audio = 3
+output = 0.8
+output_audio = 0.039999999999999994

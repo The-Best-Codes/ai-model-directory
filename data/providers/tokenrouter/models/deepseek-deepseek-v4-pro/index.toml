@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-v4-pro"
+name = "deepseek/deepseek-v4-pro"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0036249999999999998
+cache_write = 0.435
+input = 0.435
+input_audio = 0.435
+output = 0.87
+output_audio = 0.435

@@ -1,0 +1,17 @@
+id = "qwen/qwen3.5-flash"
+name = "qwen/qwen3.5-flash"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1048
+cache_write = 0.1048
+input = 0.1048
+input_audio = 0.1048
+output = 0.4194
+output_audio = 0.1048

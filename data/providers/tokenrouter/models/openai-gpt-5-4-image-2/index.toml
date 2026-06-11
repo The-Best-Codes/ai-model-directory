@@ -1,0 +1,17 @@
+id = "openai/gpt-5.4-image-2"
+name = "openai/gpt-5.4-image-2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 2
+cache_write = 8
+input = 8
+input_audio = 8
+output = 30
+output_audio = 8

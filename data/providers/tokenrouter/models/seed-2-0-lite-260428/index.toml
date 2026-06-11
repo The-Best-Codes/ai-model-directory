@@ -1,0 +1,17 @@
+id = "seed-2-0-lite-260428"
+name = "seed-2-0-lite-260428"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+cache_write = 0.008333
+input = 0.5
+input_audio = 7.5
+output = 4
+output_audio = 0.1

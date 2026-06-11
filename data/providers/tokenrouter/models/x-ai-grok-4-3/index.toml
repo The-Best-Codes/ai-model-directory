@@ -1,0 +1,17 @@
+id = "x-ai/grok-4.3"
+name = "x-ai/grok-4.3"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 1.25
+input = 1.25
+input_audio = 1.25
+output = 2.5
+output_audio = 1.25

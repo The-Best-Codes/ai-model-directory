@@ -1,0 +1,17 @@
+id = "google/gemini-2.5-flash-image"
+name = "google/gemini-2.5-flash-image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.08333
+input = 0.3
+input_audio = 1
+output = 2.4999999
+output_audio = 0.3

@@ -1,0 +1,17 @@
+id = "moonshotai/kimi-k2.5"
+name = "moonshotai/kimi-k2.5"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.10000000000000002
+cache_write = 0.6
+input = 0.6
+input_audio = 0.6
+output = 3
+output_audio = 0.6

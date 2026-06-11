@@ -1,0 +1,17 @@
+id = "openai/gpt-audio"
+name = "openai/gpt-audio"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 2.5
+cache_write = 2.5
+input = 2.5
+input_audio = 32
+output = 10
+output_audio = 5

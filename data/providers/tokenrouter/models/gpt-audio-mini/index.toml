@@ -1,0 +1,17 @@
+id = "gpt-audio-mini"
+name = "gpt-audio-mini"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 75
+cache_write = 75
+input = 75
+input_audio = 75
+output = 150
+output_audio = 75

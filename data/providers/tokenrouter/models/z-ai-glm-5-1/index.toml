@@ -1,0 +1,17 @@
+id = "z-ai/glm-5.1"
+name = "z-ai/glm-5.1"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.525
+cache_write = 1.05
+input = 1.05
+input_audio = 1.05
+output = 3.49999965
+output_audio = 1.05

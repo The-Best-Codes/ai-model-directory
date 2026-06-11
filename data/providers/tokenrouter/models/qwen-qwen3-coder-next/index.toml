@@ -1,0 +1,17 @@
+id = "qwen/qwen3-coder-next"
+name = "qwen/qwen3-coder-next"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+cache_write = 0.12
+input = 0.12
+input_audio = 0.12
+output = 0.75
+output_audio = 0.12

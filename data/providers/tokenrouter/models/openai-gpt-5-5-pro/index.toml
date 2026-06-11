@@ -1,0 +1,17 @@
+id = "openai/gpt-5.5-pro"
+name = "openai/gpt-5.5-pro"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 30
+cache_write = 30
+input = 30
+input_audio = 30
+output = 180
+output_audio = 30

@@ -1,0 +1,17 @@
+id = "mistralai/devstral-2512"
+name = "mistralai/devstral-2512"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.039999999999999994
+cache_write = 0.4
+input = 0.4
+input_audio = 0.4
+output = 2
+output_audio = 0.4

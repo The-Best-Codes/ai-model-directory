@@ -1,0 +1,16 @@
+id = "kling-v3"
+name = "kling-v3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input_audio = 0
+output = 3.36
+output_audio = 0

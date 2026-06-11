@@ -1,0 +1,16 @@
+id = "happyhorse-1.0-i2v"
+name = "happyhorse-1.0-i2v"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input_audio = 0
+output = 7.2
+output_audio = 0

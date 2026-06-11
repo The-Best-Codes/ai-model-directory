@@ -1,0 +1,17 @@
+id = "qwen/qwen3.7-plus"
+name = "qwen/qwen3.7-plus"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.07999999999999999
+cache_write = 0.4
+input = 0.4
+input_audio = 0.4
+output = 1.6
+output_audio = 0.4

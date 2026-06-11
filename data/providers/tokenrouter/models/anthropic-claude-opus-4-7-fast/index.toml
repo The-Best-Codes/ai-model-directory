@@ -1,0 +1,17 @@
+id = "anthropic/claude-opus-4.7-fast"
+name = "anthropic/claude-opus-4.7-fast"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 3
+cache_write = 30
+input = 30
+input_audio = 30
+output = 150
+output_audio = 30

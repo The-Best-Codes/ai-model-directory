@@ -1,0 +1,17 @@
+id = "google/gemma-4-26b-a4b-it"
+name = "google/gemma-4-26b-a4b-it"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+cache_write = 0.06
+input = 0.06
+input_audio = 0.06
+output = 0.33000000000000007
+output_audio = 0.06

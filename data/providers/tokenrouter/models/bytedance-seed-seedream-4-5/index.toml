@@ -1,0 +1,17 @@
+id = "bytedance-seed/seedream-4.5"
+name = "bytedance-seed/seedream-4.5"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 1e-7
+cache_write = 1e-7
+input = 1e-7
+input_audio = 1e-7
+output = 9.581
+output_audio = 1e-7

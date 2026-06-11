@@ -1,0 +1,17 @@
+id = "x-ai/grok-build-0.1"
+name = "x-ai/grok-build-0.1"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 1
+input = 1
+input_audio = 1
+output = 2
+output_audio = 1

@@ -50,6 +50,7 @@ import { requestyProvider } from "./requesty.ts";
 import { routingRunProvider } from "./routing-run.ts";
 import { syntheticProvider } from "./synthetic.ts";
 import { tetrateProvider } from "./tetrate.ts";
+import { tokenrouterProvider } from "./tokenrouter.ts";
 import { togetheraiProvider } from "./togetherai.ts";
 import { veniceProvider } from "./venice.ts";
 import { vercelProvider } from "./vercel.ts";
@@ -111,6 +112,7 @@ export const providers: ProviderDefinition[] = [
   routingRunProvider,
   syntheticProvider,
   tetrateProvider,
+  tokenrouterProvider,
   togetheraiProvider,
   veniceProvider,
   vercelProvider,

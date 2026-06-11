@@ -1,0 +1,17 @@
+id = "z-ai/glm-5-turbo"
+name = "z-ai/glm-5-turbo"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.24
+cache_write = 1.2
+input = 1.2
+input_audio = 1.2
+output = 4
+output_audio = 1.2

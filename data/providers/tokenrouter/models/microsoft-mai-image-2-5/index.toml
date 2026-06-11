@@ -1,0 +1,17 @@
+id = "microsoft/mai-image-2.5"
+name = "microsoft/mai-image-2.5"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 5
+cache_write = 5
+input = 5
+input_audio = 5
+output = 47
+output_audio = 5

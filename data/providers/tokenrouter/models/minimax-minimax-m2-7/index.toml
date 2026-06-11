@@ -1,0 +1,17 @@
+id = "minimax/minimax-m2.7"
+name = "minimax/minimax-m2.7"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.15
+input = 0.15
+input_audio = 0.15
+output = 0.6
+output_audio = 0.15
