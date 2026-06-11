@@ -1,0 +1,7 @@
+name = "TokenRouter"
+website = "https://tokenrouter.com"
+apiBaseUrl = "https://api.tokenrouter.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["TOKENROUTER_API_KEY"]
