@@ -1,6 +1,6 @@
 id = "llama-4-scout-17b-instruct"
 name = "Llama 4 Scout 17B Instruct"
-release_date = "1781140269"
+release_date = "1781197757"
 
 [features]
 attachment = true

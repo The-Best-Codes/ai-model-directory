@@ -1,11 +1,11 @@
 id = "qwen/qwen3.7-plus"
-name = "Qwen: Qwen3.7 Plus"
-release_date = "1756238927"
+name = "Qwen: Qwen3.7 Plus (20% off)"
+release_date = "1780491783"
 
 [features]
 attachment = true
 reasoning = true
-structured_output = false
+structured_output = true
 temperature = true
 tool_call = true
 
@@ -22,4 +22,3 @@ cache_read = 0.032
 cache_write = 0.4
 input = 0.32
 output = 1.28
-reasoning = 0

@@ -1,0 +1,22 @@
+id = "xiaomi-mimo-v2-5"
+name = "MiMo-V2.5"
+release_date = "1781136000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0625
+input = 0.175
+output = 0.35
