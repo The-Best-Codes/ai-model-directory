@@ -1,6 +1,6 @@
 id = "llama-3.1-nemotron-ultra-253b"
 name = "Llama 3.1 Nemotron Ultra 253B"
-release_date = "1781197757"
+release_date = "1781226825"
 
 [features]
 attachment = false

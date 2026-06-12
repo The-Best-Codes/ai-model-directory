@@ -1,14 +1,7 @@
 id = "canopylabs/orpheus-arabic-saudi"
-name = "Canopy Labs Orpheus Arabic Saudi"
+name = "canopylabs/orpheus-arabic-saudi"
 release_date = "1765926439"
-
-[features]
-attachment = false
 
 [limit]
 context = 4000
 output = 50000
-
-[modalities]
-input = [ "text" ]
-output = [ "audio" ]

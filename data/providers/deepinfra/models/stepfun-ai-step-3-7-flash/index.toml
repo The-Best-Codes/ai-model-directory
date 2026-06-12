@@ -1,0 +1,15 @@
+id = "stepfun-ai/Step-3.7-Flash"
+name = "stepfun-ai/Step-3.7-Flash"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.04000000000000001
+input = 0.2
+output = 1.15
