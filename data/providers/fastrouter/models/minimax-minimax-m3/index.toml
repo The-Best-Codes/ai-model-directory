@@ -1,0 +1,23 @@
+id = "minimax/minimax-m3"
+name = "MiniMax: MiniMax M3"
+release_date = "1780245374"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 512000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.3
+output = 1.2

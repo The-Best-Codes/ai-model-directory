@@ -1,6 +1,6 @@
 id = "accounts/fireworks/models/qwen3p6-plus"
 name = "Qwen3.6 Plus"
-open_weights = false
+open_weights = true
 
 [features]
 attachment = true

@@ -1,0 +1,12 @@
+id = "MiniMaxAI/MiniMax-M3"
+name = "MiniMaxAI/MiniMax-M3"
+release_date = "1780386571"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

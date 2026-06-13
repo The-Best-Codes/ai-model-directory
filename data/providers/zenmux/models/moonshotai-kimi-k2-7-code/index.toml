@@ -1,0 +1,19 @@
+id = "moonshotai/kimi-k2.7-code"
+name = "MoonshotAI: Kimi K2.7 Code"
+release_date = "1781262337"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.19
+input = 0.95
+output = 4

@@ -1,0 +1,11 @@
+id = "TeleTTS-MultiDialect"
+last_updated = "1781266532"
+name = "TeleTTS-MultiDialect"
+release_date = "1781264122"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

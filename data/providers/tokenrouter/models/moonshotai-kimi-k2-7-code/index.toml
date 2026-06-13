@@ -1,0 +1,17 @@
+id = "moonshotai/kimi-k2.7-code"
+name = "moonshotai/kimi-k2.7-code"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1857
+cache_write = 0.9286
+input = 0.9286
+input_audio = 0.9286
+output = 3.8570999999999995
+output_audio = 0.9286

@@ -1,0 +1,17 @@
+id = "kimi/kimi-k2.7-code"
+name = "MoonshotAI: Kimi K2.7 Code"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.95
+output = 4

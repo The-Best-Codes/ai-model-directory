@@ -1,0 +1,18 @@
+id = "minimax-m3-n"
+name = "Minimax-M3-N"
+release_date = "1781273544"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0606
+input = 0.303
+output = 1.2121

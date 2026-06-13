@@ -1,0 +1,18 @@
+id = "kimi-k2.7-code"
+name = "Kimi-K2.7-Code"
+release_date = "1781275041"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1919
+input = 0.9596
+output = 4.0404

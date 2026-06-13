@@ -1,0 +1,11 @@
+id = "TeleTTS-Bidirectional-Mandarin"
+last_updated = "1781265931"
+name = "TeleTTS-Bidirectional-Mandarin"
+release_date = "1781264122"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
