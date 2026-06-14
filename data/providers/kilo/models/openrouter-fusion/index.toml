@@ -1,6 +1,6 @@
 id = "openrouter/fusion"
 name = "OpenRouter: Fusion"
-release_date = "1778603606"
+release_date = "1781371647"
 
 [features]
 attachment = false

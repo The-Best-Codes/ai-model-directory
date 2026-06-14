@@ -1,6 +1,6 @@
 id = "deepinfra/Qwen/Qwen3-32B"
 name = "deepinfra/Qwen/Qwen3-32B"
-release_date = "1781033749"
+release_date = "1781319385"
 
 [features]
 attachment = false

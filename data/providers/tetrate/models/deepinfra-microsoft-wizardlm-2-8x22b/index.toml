@@ -1,6 +1,6 @@
 id = "deepinfra/microsoft/WizardLM-2-8x22B"
 name = "deepinfra/microsoft/WizardLM-2-8x22B"
-release_date = "1781033749"
+release_date = "1781319385"
 
 [features]
 attachment = false
