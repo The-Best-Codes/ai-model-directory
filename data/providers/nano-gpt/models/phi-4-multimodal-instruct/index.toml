@@ -3,7 +3,7 @@ name = "Phi 4 Multimodal"
 release_date = "1753488000"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
@@ -13,7 +13,7 @@ context = 128000
 output = 16384
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

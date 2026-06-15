@@ -3,7 +3,7 @@ name = "OpenAI o1-preview"
 release_date = "1704067200"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = false
 tool_call = false
@@ -13,7 +13,7 @@ context = 128000
 output = 32768
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

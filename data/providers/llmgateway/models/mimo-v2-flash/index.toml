@@ -1,6 +1,6 @@
 id = "mimo-v2-flash"
 name = "MiMo V2 Flash"
-release_date = "1781399608"
+release_date = "1781486177"
 
 [features]
 attachment = false

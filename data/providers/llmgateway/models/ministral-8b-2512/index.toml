@@ -1,6 +1,6 @@
 id = "ministral-8b-2512"
 name = "Ministral 8B"
-release_date = "1781399608"
+release_date = "1781486177"
 
 [features]
 attachment = true

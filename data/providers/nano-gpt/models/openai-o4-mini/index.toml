@@ -3,7 +3,7 @@ name = "OpenAI o4-mini"
 release_date = "1744761600"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true
@@ -13,7 +13,7 @@ context = 200000
 output = 100000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

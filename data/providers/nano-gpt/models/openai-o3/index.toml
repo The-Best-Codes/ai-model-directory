@@ -3,7 +3,7 @@ name = "OpenAI o3"
 release_date = "1744761600"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
@@ -13,7 +13,7 @@ context = 200000
 output = 100000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

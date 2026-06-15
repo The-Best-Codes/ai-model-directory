@@ -3,7 +3,7 @@ name = "GPT-5 Codex"
 release_date = "1704067200"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
@@ -13,7 +13,7 @@ context = 256000
 output = 32768
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
