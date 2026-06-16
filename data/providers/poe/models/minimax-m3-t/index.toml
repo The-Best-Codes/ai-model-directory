@@ -1,0 +1,13 @@
+id = "minimax-m3-t"
+name = "MiniMax-M3-T"
+release_date = "1781327730"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

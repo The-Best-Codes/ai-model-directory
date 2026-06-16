@@ -1,0 +1,20 @@
+id = "nvidia/nemotron-3.5-content-safety"
+name = "nvidia/nemotron-3.5-content-safety"
+release_date = "1781510650"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

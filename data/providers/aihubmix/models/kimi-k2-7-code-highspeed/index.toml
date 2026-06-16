@@ -1,0 +1,19 @@
+id = "kimi-k2.7-code-highspeed"
+name = "kimi-k2.7-code-highspeed"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.32167
+input = 1.9
+output = 7.999

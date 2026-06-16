@@ -4,6 +4,7 @@ release_date = "1781036493"
 
 [features]
 attachment = true
+reasoning = true
 
 [limit]
 context = 1000000
@@ -11,3 +12,9 @@ context = 1000000
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 1
+cache_write = 12.5
+input = 10
+output = 50

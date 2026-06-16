@@ -12,5 +12,5 @@ output = 384000
 input = [ "text" ]
 
 [pricing]
-input = 0.435
-output = 0.87
+input = 0.456
+output = 0.91

@@ -1,0 +1,15 @@
+id = "MiniMaxAI/MiniMax-M2.7-Turbo"
+name = "MiniMaxAI/MiniMax-M2.7-Turbo"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 196608
+output = 196608
+
+[pricing]
+cache_read = 0.4
+input = 0.4
+output = 2

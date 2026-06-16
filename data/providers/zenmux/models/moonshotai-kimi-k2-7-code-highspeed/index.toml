@@ -1,0 +1,19 @@
+id = "moonshotai/kimi-k2.7-code-highspeed"
+name = "MoonshotAI: Kimi K2.7 Code HighSpeed"
+release_date = "1781525697"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.38
+input = 1.9
+output = 8

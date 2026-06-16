@@ -1,0 +1,14 @@
+id = "qwen/qwen3-asr-flash"
+name = "Qwen: Qwen3 ASR Flash"
+release_date = "1781165922"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

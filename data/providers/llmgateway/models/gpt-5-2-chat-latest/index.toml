@@ -1,6 +1,6 @@
 id = "gpt-5.2-chat-latest"
 name = "GPT-5.2 Chat"
-release_date = "1781486177"
+release_date = "1781572721"
 
 [features]
 attachment = true
