@@ -1,6 +1,6 @@
 id = "azure/gpt-5@uksouth"
 name = "azure/gpt-5@uksouth"
-release_date = "1744824542"
+release_date = "1754524800"
 
 [features]
 attachment = true

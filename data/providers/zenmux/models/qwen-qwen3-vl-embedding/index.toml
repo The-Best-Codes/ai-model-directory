@@ -1,0 +1,17 @@
+id = "qwen/qwen3-vl-embedding"
+name = "Qwen: Qwen3 VL Embedding"
+release_date = "1781608477"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0

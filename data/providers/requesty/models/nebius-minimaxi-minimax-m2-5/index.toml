@@ -1,0 +1,19 @@
+id = "nebius/minimaxi/minimax-m2.5"
+name = "nebius/minimaxi/minimax-m2.5"
+release_date = "1781598847"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

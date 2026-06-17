@@ -1,6 +1,6 @@
 id = "azure/o4-mini@swedencentral"
 name = "azure/o4-mini@swedencentral"
-release_date = "1744824542"
+release_date = "1745452800"
 
 [features]
 attachment = false

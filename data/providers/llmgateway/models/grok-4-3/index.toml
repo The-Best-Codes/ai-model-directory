@@ -1,6 +1,6 @@
 id = "grok-4-3"
 name = "Grok 4.3"
-release_date = "1781572721"
+release_date = "1781658830"
 
 [features]
 attachment = true

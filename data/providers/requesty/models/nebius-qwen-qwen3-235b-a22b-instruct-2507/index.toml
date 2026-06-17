@@ -1,0 +1,19 @@
+id = "nebius/qwen/qwen3-235b-a22b-instruct-2507"
+name = "nebius/qwen/qwen3-235b-a22b-instruct-2507"
+release_date = "1781598853"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.6

@@ -1,6 +1,6 @@
 id = "azure/gpt-5-nano"
 name = "azure/gpt-5-nano"
-release_date = "1744824542"
+release_date = "1754524800"
 
 [features]
 attachment = false

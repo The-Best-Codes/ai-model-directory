@@ -1,6 +1,6 @@
 id = "azure/gpt-4.1-mini@francecentral"
 name = "azure/gpt-4.1-mini@francecentral"
-release_date = "1744654981"
+release_date = "1744655100"
 
 [features]
 attachment = true

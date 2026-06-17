@@ -1,6 +1,6 @@
 id = "text-embedding-005"
 name = "Text Embedding 005"
-release_date = "1781572721"
+release_date = "1781658830"
 
 [features]
 attachment = false

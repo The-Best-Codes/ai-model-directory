@@ -1,0 +1,7 @@
+id = "qwen/qwen3.6-27b"
+name = "404 - Page Not Found"
+release_date = "1778288776"
+
+[limit]
+context = 131072
+output = 32768

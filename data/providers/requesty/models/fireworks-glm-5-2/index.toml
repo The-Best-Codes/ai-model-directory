@@ -1,0 +1,21 @@
+id = "fireworks/glm-5.2"
+name = "fireworks/glm-5.2"
+release_date = "1781645882"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.26
+input = 1.4
+output = 4.4

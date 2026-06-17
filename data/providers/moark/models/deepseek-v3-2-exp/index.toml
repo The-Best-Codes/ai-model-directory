@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.29589486
-output = 0.44384229
+input = 0.29582532
+output = 0.44373798

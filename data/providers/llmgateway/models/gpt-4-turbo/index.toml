@@ -1,6 +1,6 @@
 id = "gpt-4-turbo"
 name = "GPT-4 Turbo"
-release_date = "1781572721"
+release_date = "1781658830"
 
 [features]
 attachment = true

@@ -1,0 +1,19 @@
+id = "nebius/nvidia/nemotron-3-super-120b-a12b"
+name = "nebius/nvidia/nemotron-3-super-120b-a12b"
+release_date = "1781598844"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.9
