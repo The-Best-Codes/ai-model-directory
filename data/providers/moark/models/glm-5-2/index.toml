@@ -1,0 +1,18 @@
+id = "GLM-5.2"
+last_updated = "1781664713"
+name = "GLM-5.2"
+release_date = "1781663758"
+
+[features]
+attachment = false
+
+[limit]
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.18411144
+output = 4.14439004

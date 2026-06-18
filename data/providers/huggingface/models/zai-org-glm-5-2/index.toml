@@ -1,0 +1,12 @@
+id = "zai-org/GLM-5.2"
+name = "zai-org/GLM-5.2"
+release_date = "1781595560"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

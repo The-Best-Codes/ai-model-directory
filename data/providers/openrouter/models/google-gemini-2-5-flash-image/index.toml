@@ -12,7 +12,7 @@ tool_call = false
 
 [limit]
 context = 32768
-output = 32768
+output = 8192
 
 [modalities]
 input = [ "image", "text" ]

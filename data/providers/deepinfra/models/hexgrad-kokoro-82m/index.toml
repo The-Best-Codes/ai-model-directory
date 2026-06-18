@@ -1,0 +1,6 @@
+id = "hexgrad/Kokoro-82M"
+name = "hexgrad/Kokoro-82M"
+
+[features]
+attachment = false
+reasoning = false

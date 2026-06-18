@@ -1,0 +1,12 @@
+id = "zai-org/GLM-5.2-FP8"
+name = "zai-org/GLM-5.2-FP8"
+release_date = "1781594433"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

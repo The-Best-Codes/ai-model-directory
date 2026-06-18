@@ -1,6 +1,6 @@
 id = "glm-4.5-air"
 name = "GLM-4.5 Air"
-release_date = "1781658830"
+release_date = "1781745146"
 
 [features]
 attachment = false

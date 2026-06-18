@@ -1,0 +1,6 @@
+id = "bosonai/HiggsAudioV2.5"
+name = "bosonai/HiggsAudioV2.5"
+
+[features]
+attachment = false
+reasoning = false

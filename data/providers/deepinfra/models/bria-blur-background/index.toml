@@ -1,0 +1,6 @@
+id = "Bria/blur_background"
+name = "Bria/blur_background"
+
+[features]
+attachment = false
+reasoning = false

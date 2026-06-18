@@ -1,0 +1,6 @@
+id = "Qwen/Qwen-Image-Edit"
+name = "Qwen/Qwen-Image-Edit"
+
+[features]
+attachment = false
+reasoning = false

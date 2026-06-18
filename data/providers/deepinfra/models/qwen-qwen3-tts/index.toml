@@ -1,0 +1,6 @@
+id = "Qwen/Qwen3-TTS"
+name = "Qwen/Qwen3-TTS"
+
+[features]
+attachment = false
+reasoning = false

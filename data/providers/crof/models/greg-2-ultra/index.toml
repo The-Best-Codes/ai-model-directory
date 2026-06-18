@@ -1,0 +1,12 @@
+id = "greg-2-ultra"
+name = "Crof: Greg 2 Ultra"
+release_date = "1781408469"
+
+[limit]
+context = 229376
+output = 229376
+
+[pricing]
+cache_read = 0.5
+input = 3
+output = 10

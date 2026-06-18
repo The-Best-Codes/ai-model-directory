@@ -1,0 +1,6 @@
+id = "Pixverse/Pixverse-T2V-HD"
+name = "Pixverse/Pixverse-T2V-HD"
+
+[features]
+attachment = false
+reasoning = false

@@ -1,0 +1,15 @@
+id = "accounts/fireworks/models/voyage-rerank-2-5"
+name = "Voyage ReRank 2.5"
+open_weights = true
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.016

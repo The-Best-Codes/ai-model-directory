@@ -1,0 +1,7 @@
+id = "kling-v3-omni"
+name = "kling-v3-omni"
+
+[features]
+reasoning = false
+structured_output = false
+tool_call = false

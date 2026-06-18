@@ -1,0 +1,6 @@
+id = "google/veo-3.1-fast"
+name = "google/veo-3.1-fast"
+
+[features]
+attachment = false
+reasoning = false

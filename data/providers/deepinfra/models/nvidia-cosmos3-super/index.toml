@@ -1,0 +1,6 @@
+id = "nvidia/Cosmos3-Super"
+name = "nvidia/Cosmos3-Super"
+
+[features]
+attachment = false
+reasoning = false

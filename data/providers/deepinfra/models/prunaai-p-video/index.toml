@@ -1,0 +1,6 @@
+id = "PrunaAI/p-video"
+name = "PrunaAI/p-video"
+
+[features]
+attachment = false
+reasoning = false

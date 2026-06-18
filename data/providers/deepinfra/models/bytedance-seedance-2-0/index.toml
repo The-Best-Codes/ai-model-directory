@@ -1,0 +1,6 @@
+id = "ByteDance/Seedance-2.0"
+name = "ByteDance/Seedance-2.0"
+
+[features]
+attachment = false
+reasoning = false

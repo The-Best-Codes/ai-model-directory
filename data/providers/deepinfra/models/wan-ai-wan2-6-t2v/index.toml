@@ -1,0 +1,6 @@
+id = "Wan-AI/Wan2.6-T2V"
+name = "Wan-AI/Wan2.6-T2V"
+
+[features]
+attachment = false
+reasoning = false

@@ -1,0 +1,6 @@
+id = "Bria/erase_foreground"
+name = "Bria/erase_foreground"
+
+[features]
+attachment = false
+reasoning = false

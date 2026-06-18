@@ -1,0 +1,6 @@
+id = "inworld-ai/realtime-tts-1.5-max"
+name = "inworld-ai/realtime-tts-1.5-max"
+
+[features]
+attachment = false
+reasoning = false

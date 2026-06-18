@@ -1,5 +1,5 @@
 id = "zhipu-glm-5-1"
-last_updated = "1776248062"
+last_updated = "1781675937"
 name = "glm-5.1"
 release_date = "1775814616"
 
@@ -10,12 +10,12 @@ structured_output = false
 tool_call = true
 
 [limit]
-context = 200000
+context = 1000000
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.86
-output = 3.5
+input = 1.4
+output = 4.4

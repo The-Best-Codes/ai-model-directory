@@ -1,0 +1,15 @@
+id = "accounts/fireworks/models/qwen3p7-max"
+name = "Qwen3.7 Max"
+open_weights = true
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1

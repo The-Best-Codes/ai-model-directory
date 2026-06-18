@@ -1,0 +1,16 @@
+id = "accounts/fireworks/models/voyage-multimodal-3-5"
+name = "Voyage Multimodal 3.5"
+open_weights = true
+
+[features]
+attachment = true
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.016
