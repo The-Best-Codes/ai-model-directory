@@ -1,0 +1,21 @@
+id = "grok-3-mini"
+last_updated = "1765535292"
+name = "grok-3-mini"
+release_date = "1762083998"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.5

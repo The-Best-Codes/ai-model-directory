@@ -6,7 +6,7 @@ release_date = "1761752836"
 attachment = false
 reasoning = true
 structured_output = true
-temperature = true
+temperature = false
 tool_call = true
 
 [limit]
@@ -18,6 +18,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.037
+cache_read = 0.0375
 input = 0.075
 output = 0.3

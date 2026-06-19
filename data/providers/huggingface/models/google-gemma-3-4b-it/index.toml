@@ -1,0 +1,10 @@
+id = "google/gemma-3-4b-it"
+name = "google/gemma-3-4b-it"
+release_date = "1740086407"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

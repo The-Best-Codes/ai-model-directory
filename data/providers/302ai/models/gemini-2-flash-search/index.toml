@@ -1,0 +1,21 @@
+id = "gemini-2-flash-search"
+last_updated = "1765159719"
+name = "gemini-2.0-flash-search"
+release_date = "1739000103"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.2
+output = 0.6

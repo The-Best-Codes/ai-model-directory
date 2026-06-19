@@ -1,0 +1,12 @@
+id = "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
+name = "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
+release_date = "1780498204"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

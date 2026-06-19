@@ -1,0 +1,21 @@
+id = "meta-llama3-1-8b"
+last_updated = "1766215609"
+name = "llama3.1-8b"
+release_date = "1721692800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 0.5

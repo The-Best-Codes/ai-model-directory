@@ -1,0 +1,21 @@
+id = "zhipu-glm-4-6v"
+last_updated = "1765535794"
+name = "glm-4.6v"
+release_date = "1765198459"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.145
+output = 0.43

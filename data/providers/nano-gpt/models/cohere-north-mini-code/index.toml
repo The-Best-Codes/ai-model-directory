@@ -1,0 +1,21 @@
+id = "cohere/north-mini-code"
+name = "Cohere North Mini Code 1.0"
+release_date = "1781740800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.8

@@ -1,6 +1,6 @@
 id = "syn:large:text"
 name = "syn:large:text"
-release_date = "1775520000"
+release_date = "1781568000"
 
 [features]
 attachment = false
@@ -10,7 +10,7 @@ temperature = true
 tool_call = true
 
 [limit]
-context = 196608
+context = 524288
 output = 65536
 
 [modalities]
@@ -18,7 +18,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 1
+cache_read = 1.4
 cache_write = 0
-input = 1
-output = 3
+input = 1.4
+output = 4.4

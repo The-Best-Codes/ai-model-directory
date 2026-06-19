@@ -1,6 +1,6 @@
 id = "sonar-pro"
 name = "Sonar Pro"
-release_date = "1781745146"
+release_date = "1781831913"
 
 [features]
 attachment = false
