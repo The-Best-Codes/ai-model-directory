@@ -1,6 +1,6 @@
 id = "glm-4.7-flash"
 name = "GLM-4.7 Flash"
-release_date = "1781831913"
+release_date = "1781917697"
 
 [features]
 attachment = false

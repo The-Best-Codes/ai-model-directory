@@ -1,5 +1,5 @@
 id = "moonshotai/kimi-k2.7-code"
-name = "MoonshotAI: Kimi K2.7 Code (new)"
+name = "MoonshotAI: Kimi K2.7 Code"
 release_date = "1781266361"
 
 [features]
@@ -11,7 +11,7 @@ tool_call = true
 
 [limit]
 context = 262144
-output = 16384
+output = 262144
 
 [modalities]
 input = [ "image", "text" ]

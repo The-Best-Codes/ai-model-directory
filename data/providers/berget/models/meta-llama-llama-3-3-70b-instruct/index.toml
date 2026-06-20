@@ -1,7 +1,7 @@
 id = "meta-llama/Llama-3.3-70B-Instruct"
 name = "Llama-3.3-70B-Instruct"
 open_weights = true
-release_date = "1781827200"
+release_date = "1781913600"
 
 [features]
 structured_output = true
@@ -12,5 +12,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.037163051
-output = 1.037163051
+input = 1.028545893
+output = 1.028545893

@@ -1,0 +1,16 @@
+id = "mai-code-1-flash-picker"
+name = "MAI-Code-1-Flash"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+input = 128000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,19 @@
+id = "accounts/fireworks/models/paddleocr-vl-1-6"
+name = "PaddleOCR VL 1.6"
+open_weights = true
+
+[features]
+attachment = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.1
