@@ -1,6 +1,6 @@
 id = "minimax-m2"
 name = "MiniMax M2"
-release_date = "1781917697"
+release_date = "1782004547"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "veo-3.1-generate-preview"
 name = "Veo 3.1"
-release_date = "1781917697"
+release_date = "1782004547"
 
 [features]
 attachment = false

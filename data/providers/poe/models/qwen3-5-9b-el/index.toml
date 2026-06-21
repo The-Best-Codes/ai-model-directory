@@ -11,3 +11,8 @@ tool_call = true
 [modalities]
 input = [ "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.0455
+input = 0.0909
+output = 0.1313

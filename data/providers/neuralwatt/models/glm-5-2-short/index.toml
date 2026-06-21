@@ -1,0 +1,16 @@
+id = "glm-5.2-short"
+name = "GLM-5.2 (short)"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 199984
+
+[pricing]
+cache_read = 0.3625
+input = 1.45
+output = 4.5
