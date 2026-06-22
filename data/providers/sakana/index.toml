@@ -1,0 +1,7 @@
+name = "Sakana"
+website = "https://sakana.ai"
+apiBaseUrl = "https://api.sakana.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["SAKANA_API_KEY"]
