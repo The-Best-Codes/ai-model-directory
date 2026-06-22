@@ -48,6 +48,7 @@ import { openrouterProvider } from "./openrouter.ts";
 import { orcarouterProvider } from "./orcarouter.ts";
 import { requestyProvider } from "./requesty.ts";
 import { routingRunProvider } from "./routing-run.ts";
+import { sakanaProvider } from "./sakana.ts";
 import { syntheticProvider } from "./synthetic.ts";
 import { tetrateProvider } from "./tetrate.ts";
 import { tokenrouterProvider } from "./tokenrouter.ts";
@@ -110,6 +111,7 @@ export const providers: ProviderDefinition[] = [
   orcarouterProvider,
   requestyProvider,
   routingRunProvider,
+  sakanaProvider,
   syntheticProvider,
   tetrateProvider,
   tokenrouterProvider,
