@@ -1,6 +1,6 @@
 id = "wan-2-6-t2v"
 name = "Wan 2.6 Text-to-Video"
-release_date = "1782004547"
+release_date = "1782090935"
 
 [features]
 attachment = false

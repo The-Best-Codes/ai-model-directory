@@ -1,6 +1,0 @@
-id = "bytedance/seedance-v1.0-lite-t2v"
-name = "Seedance v1.0 Lite Text-to-Video"
-release_date = "1748736000"
-
-[modalities]
-output = [ "video" ]
