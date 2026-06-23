@@ -53,6 +53,7 @@ export const perplexity = modelDirectory["perplexity"]!;
 export const poe = modelDirectory["poe"]!;
 export const requesty = modelDirectory["requesty"]!;
 export const routingRun = modelDirectory["routing-run"]!;
+export const sakana = modelDirectory["sakana"]!;
 export const synthetic = modelDirectory["synthetic"]!;
 export const tetrate = modelDirectory["tetrate"]!;
 export const togetherai = modelDirectory["togetherai"]!;

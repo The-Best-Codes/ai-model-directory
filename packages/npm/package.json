@@ -1,6 +1,6 @@
 {
   "name": "ai-model-directory",
-  "version": "0.1.60",
+  "version": "0.1.61",
   "description": "Bundled AI model directory dataset with a compact typed payload",
   "repository": {
     "type": "git",
