@@ -5,9 +5,13 @@ release_date = "1762329665"
 [features]
 attachment = false
 reasoning = false
-temperature = false
-tool_call = false
+temperature = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 2.1313
+output = 8.5354

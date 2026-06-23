@@ -1,0 +1,6 @@
+id = "openai/whisper-1"
+name = "Whisper"
+release_date = "1663718400"
+
+[pricing]
+input = 0.0001

@@ -1,5 +1,5 @@
 id = "moonshotai/Kimi-K2.6"
-name = "Kimi-K2.6"
+name = "moonshotai/Kimi-K2.6"
 open_weights = true
 release_date = "1778112000"
 
@@ -13,5 +13,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.8607339975
-output = 4.016758655
+input = 1.0882827695
+output = 4.58224324

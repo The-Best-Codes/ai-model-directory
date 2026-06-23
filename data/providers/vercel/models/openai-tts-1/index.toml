@@ -1,0 +1,6 @@
+id = "openai/tts-1"
+name = "TTS-1"
+release_date = "1699228800"
+
+[pricing]
+input = 15

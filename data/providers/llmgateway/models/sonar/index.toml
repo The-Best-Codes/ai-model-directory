@@ -1,6 +1,6 @@
 id = "sonar"
 name = "Sonar"
-release_date = "1782090935"
+release_date = "1735689600"
 
 [features]
 attachment = false

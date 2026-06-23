@@ -3,11 +3,11 @@ name = "DeepSeek-R1-N"
 release_date = "1754049641"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
-temperature = false
-tool_call = false
+temperature = true
+tool_call = true
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]

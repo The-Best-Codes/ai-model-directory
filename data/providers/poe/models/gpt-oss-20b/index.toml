@@ -4,8 +4,8 @@ release_date = "1754470883"
 
 [features]
 attachment = true
-reasoning = false
-temperature = false
+reasoning = true
+temperature = true
 tool_call = false
 
 [modalities]

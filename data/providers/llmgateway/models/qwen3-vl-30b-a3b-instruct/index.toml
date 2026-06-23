@@ -1,6 +1,6 @@
 id = "qwen3-vl-30b-a3b-instruct"
 name = "Qwen3 VL 30B A3B Instruct"
-release_date = "1782090935"
+release_date = "1759622400"
 
 [features]
 attachment = true

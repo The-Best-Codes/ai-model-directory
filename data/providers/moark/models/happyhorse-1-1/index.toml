@@ -1,0 +1,11 @@
+id = "happyhorse-1.1"
+last_updated = "1782122605"
+name = "happyhorse-1.1"
+release_date = "1782116413"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

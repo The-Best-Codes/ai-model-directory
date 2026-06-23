@@ -1,0 +1,13 @@
+id = "kimi-k2-instruct-n"
+name = "Kimi-K2-Instruct-N"
+release_date = "1754618326"
+
+[features]
+attachment = false
+reasoning = false
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

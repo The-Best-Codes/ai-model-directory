@@ -1,0 +1,8 @@
+id = "openai/gpt-realtime-1.5"
+name = "GPT-Realtime-1.5"
+release_date = "1771804800"
+
+[pricing]
+cache_read = 0.4
+input = 4
+output = 16

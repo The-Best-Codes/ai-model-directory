@@ -1,0 +1,16 @@
+id = "Qwen/Qwen3.5-35B-A3B-Base-Lora"
+name = "Qwen3.5 35B A3B Base Lora"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,6 +1,6 @@
 id = "gemma-4-26b-a4b-it"
 name = "Gemma 4 26B A4B IT"
-release_date = "1782090935"
+release_date = "1775088000"
 
 [features]
 attachment = false

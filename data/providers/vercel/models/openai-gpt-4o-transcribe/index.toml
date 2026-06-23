@@ -1,0 +1,7 @@
+id = "openai/gpt-4o-transcribe"
+name = "GPT-4o Transcribe"
+release_date = "1710288000"
+
+[pricing]
+input = 2.5
+output = 10

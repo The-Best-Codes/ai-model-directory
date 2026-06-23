@@ -3,11 +3,15 @@ name = "Qwen3-VL-235B-A22B-T"
 release_date = "1758695878"
 
 [features]
-attachment = false
-reasoning = false
-temperature = false
-tool_call = false
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.9899
+output = 3.9899

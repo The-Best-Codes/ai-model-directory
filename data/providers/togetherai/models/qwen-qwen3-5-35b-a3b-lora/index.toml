@@ -1,6 +1,5 @@
 id = "Qwen/Qwen3.5-35B-A3B-Lora"
-name = "Qwen3.5 35B A3b LoRa"
-release_date = "1781095523"
+name = "Qwen3.5 35B A3B Lora"
 
 [features]
 attachment = false
