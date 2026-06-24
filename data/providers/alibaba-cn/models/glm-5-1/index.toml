@@ -1,7 +1,6 @@
 id = "glm-5.1"
 last_updated = "1776166499"
 name = "GLM-5.1"
-open_weights = true
 release_date = "1776166499"
 
 [features]

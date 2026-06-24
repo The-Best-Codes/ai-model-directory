@@ -1,0 +1,20 @@
+id = "doubleword/deepseek-v4-pro:flex"
+name = "doubleword/deepseek-v4-pro:flex"
+release_date = "1782230299"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.31
+output = 2.75

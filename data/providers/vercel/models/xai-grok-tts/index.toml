@@ -1,0 +1,6 @@
+id = "xai/grok-tts"
+name = "Grok TTS"
+release_date = "1773619200"
+
+[pricing]
+input = 15

@@ -1,7 +1,6 @@
 id = "happyhorse-1.0-video-edit"
 last_updated = "1777204466"
 name = "HappyHorse-1.0-Video-Edit"
-open_weights = false
 release_date = "1777204466"
 
 [features]

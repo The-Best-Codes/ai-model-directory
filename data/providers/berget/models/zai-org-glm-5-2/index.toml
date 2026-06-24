@@ -1,0 +1,16 @@
+id = "zai-org/GLM-5.2"
+name = "GLM-5.2"
+open_weights = true
+release_date = "1781913600"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.600153352
+output = 5.029053392

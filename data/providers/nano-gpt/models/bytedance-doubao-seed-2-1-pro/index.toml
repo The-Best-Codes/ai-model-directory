@@ -1,0 +1,21 @@
+id = "bytedance/doubao-seed-2.1-pro"
+name = "Doubao Seed 2.1 Pro"
+release_date = "1782172800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 5

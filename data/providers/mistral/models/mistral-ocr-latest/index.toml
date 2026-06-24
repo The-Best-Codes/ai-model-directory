@@ -1,5 +1,5 @@
 id = "mistral-ocr-latest"
-name = "mistral-ocr-2512"
+name = "mistral-ocr-latest"
 
 [features]
 attachment = true

@@ -1,7 +1,6 @@
 id = "qwen3-235b-a22b-thinking-2507"
 last_updated = "1753437855"
 name = "Qwen3-235B-A22B-Thinking-2507"
-open_weights = true
 release_date = "1753437855"
 
 [features]

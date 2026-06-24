@@ -1,7 +1,6 @@
 id = "deepseek-v4-pro"
 last_updated = "1777030957"
 name = "DeepSeek-V4-Pro"
-open_weights = true
 release_date = "1777030957"
 
 [features]

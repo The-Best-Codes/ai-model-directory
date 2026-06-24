@@ -1,7 +1,6 @@
 id = "qwen3-coder-plus"
 last_updated = "1753207119"
 name = "Qwen3-Coder-Plus"
-open_weights = false
 release_date = "1753207119"
 
 [features]

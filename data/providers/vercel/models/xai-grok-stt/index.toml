@@ -1,0 +1,6 @@
+id = "xai/grok-stt"
+name = "Grok STT"
+release_date = "1773619200"
+
+[pricing]
+input = 0

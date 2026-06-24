@@ -1,0 +1,19 @@
+id = "deepinfra-kimi-k2.7-code"
+name = "deepinfra-kimi-k2.7-code"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.165242
+input = 0.814
+output = 3.85022

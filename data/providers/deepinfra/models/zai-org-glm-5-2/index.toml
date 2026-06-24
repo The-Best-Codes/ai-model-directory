@@ -10,6 +10,6 @@ context = 1048576
 output = 1048576
 
 [pricing]
-cache_read = 0.18
-input = 1
-output = 4
+cache_read = 0.179999996
+input = 0.95
+output = 2.9999999999999996

@@ -1,7 +1,6 @@
 id = "qwen-flash"
 last_updated = "1754026691"
 name = "Qwen-Flash"
-open_weights = false
 release_date = "1754026691"
 
 [features]

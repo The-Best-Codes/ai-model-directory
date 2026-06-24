@@ -1,0 +1,21 @@
+id = "bytedance/doubao-seed-2.1-turbo"
+name = "Doubao Seed 2.1 Turbo"
+release_date = "1782172800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 2.5

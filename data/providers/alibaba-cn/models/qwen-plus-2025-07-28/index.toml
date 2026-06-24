@@ -1,7 +1,6 @@
 id = "qwen-plus-2025-07-28"
 last_updated = "1753782155"
 name = "Qwen-Plus-2025-07-28"
-open_weights = false
 release_date = "1753782155"
 
 [features]

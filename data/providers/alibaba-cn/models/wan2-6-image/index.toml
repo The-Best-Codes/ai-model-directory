@@ -1,7 +1,6 @@
 id = "wan2.6-image"
 last_updated = "1765799732"
 name = "Wan2.6-Image"
-open_weights = false
 release_date = "1765799732"
 
 [features]

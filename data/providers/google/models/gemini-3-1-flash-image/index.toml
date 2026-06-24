@@ -5,9 +5,6 @@ release_date = "1769904000"
 
 [features]
 attachment = true
-reasoning = true
-structured_output = false
-tool_call = false
 
 [limit]
 context = 131072

@@ -1,7 +1,6 @@
 id = "qwen3.5-27b"
 last_updated = "1771850082"
 name = "Qwen3.5-27B"
-open_weights = true
 release_date = "1771850082"
 
 [features]

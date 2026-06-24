@@ -1,7 +1,6 @@
 id = "qwen3-next-80b-a3b-thinking"
 last_updated = "1757600095"
 name = "Qwen3-Next-80B-A3B-Thinking"
-open_weights = true
 release_date = "1757600095"
 
 [features]

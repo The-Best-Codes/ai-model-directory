@@ -1,0 +1,20 @@
+id = "doubleword/nvidia-nemotron-3-ultra"
+name = "doubleword/nvidia-nemotron-3-ultra"
+release_date = "1782230290"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 2.5

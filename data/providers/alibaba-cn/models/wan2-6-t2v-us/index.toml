@@ -1,7 +1,6 @@
 id = "wan2.6-t2v-us"
 last_updated = "1764766999"
 name = "Wan2.6-T2V-US"
-open_weights = false
 release_date = "1764766999"
 
 [features]

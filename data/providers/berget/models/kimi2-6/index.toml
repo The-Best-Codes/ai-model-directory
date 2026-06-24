@@ -1,7 +1,7 @@
 id = "kimi2.6"
 name = "kimi2.6"
 open_weights = true
-release_date = "1778112000"
+release_date = "1776124800"
 
 [features]
 attachment = true
@@ -13,5 +13,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.0882827695
-output = 4.58224324
+input = 0.85722501
+output = 4.00038338

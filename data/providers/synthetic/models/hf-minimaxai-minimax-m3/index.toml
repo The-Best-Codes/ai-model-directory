@@ -3,7 +3,7 @@ name = "MiniMaxAI/MiniMax-M3"
 release_date = "1781222400"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 temperature = true
@@ -14,7 +14,7 @@ context = 524288
 output = 65536
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

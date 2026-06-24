@@ -1,0 +1,19 @@
+id = "doubao-seed-2-1-pro"
+name = "doubao-seed-2-1-pro"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.1859
+input = 0.9295
+output = 4.6475
