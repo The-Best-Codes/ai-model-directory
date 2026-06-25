@@ -1,6 +1,6 @@
 id = "openai/o3-pro"
 name = "o3 Pro"
-release_date = "1744761600"
+release_date = "1749513600"
 
 [features]
 attachment = true

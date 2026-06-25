@@ -1,6 +1,6 @@
 id = "mistral/mistral-small"
 name = "Mistral Small"
-release_date = "1725148800"
+release_date = "1726531200"
 
 [features]
 attachment = true

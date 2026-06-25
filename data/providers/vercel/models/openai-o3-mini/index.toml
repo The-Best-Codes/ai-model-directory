@@ -1,9 +1,9 @@
 id = "openai/o3-mini"
 name = "o3-mini"
-release_date = "1734652800"
+release_date = "1738281600"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 200000
 output = 100000
 
 [modalities]
-input = [ "file", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

@@ -1,6 +1,6 @@
 id = "bfl/flux-pro-1.1"
 name = "FLUX1.1 [pro]"
-release_date = "1727740800"
+release_date = "1727827200"
 
 [features]
 attachment = false

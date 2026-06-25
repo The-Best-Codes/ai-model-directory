@@ -1,6 +1,6 @@
 id = "google/veo-3.0-fast-generate-001"
 name = "Veo 3.0 Fast Generate"
-release_date = "1755815280"
+release_date = "1753920000"
 
 [modalities]
 output = [ "video" ]

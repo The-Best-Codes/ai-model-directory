@@ -7,7 +7,7 @@ attachment = true
 reasoning = true
 
 [limit]
-context = 512000
+context = 1000000
 
 [modalities]
 input = [ "file", "image", "text", "video" ]

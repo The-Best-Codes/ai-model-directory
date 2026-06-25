@@ -5,6 +5,7 @@ release_date = "1758643382"
 
 [features]
 attachment = false
+reasoning = true
 structured_output = true
 
 [limit]

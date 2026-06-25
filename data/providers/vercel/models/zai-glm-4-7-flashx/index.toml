@@ -1,6 +1,6 @@
 id = "zai/glm-4.7-flashx"
 name = "GLM 4.7 FlashX"
-release_date = "1735689600"
+release_date = "1768780800"
 
 [features]
 attachment = false

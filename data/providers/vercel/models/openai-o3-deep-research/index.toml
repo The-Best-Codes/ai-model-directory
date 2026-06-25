@@ -1,6 +1,6 @@
 id = "openai/o3-deep-research"
 name = "o3-deep-research"
-release_date = "1719360000"
+release_date = "1750896000"
 
 [features]
 attachment = true

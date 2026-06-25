@@ -3,16 +3,16 @@ name = "Interfaze Beta"
 release_date = "1759795200"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
-tool_call = false
+tool_call = true
 
 [limit]
 context = 1000000
 output = 32000
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]

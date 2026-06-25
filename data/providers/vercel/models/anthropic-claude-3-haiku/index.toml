@@ -1,6 +1,6 @@
 id = "anthropic/claude-3-haiku"
 name = "Claude 3 Haiku"
-release_date = "1677628800"
+release_date = "1710288000"
 
 [features]
 attachment = true

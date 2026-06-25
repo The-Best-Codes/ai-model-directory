@@ -2,7 +2,7 @@ id = "ernie-5.1"
 name = "ernie-5.1"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = false
 tool_call = false
@@ -11,7 +11,7 @@ tool_call = false
 context = 119000
 
 [modalities]
-input = [ "audio", "image", "text", "video" ]
+input = [ "text" ]
 
 [pricing]
 input = 0.5634

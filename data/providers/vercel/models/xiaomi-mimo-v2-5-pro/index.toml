@@ -12,7 +12,7 @@ context = 1050000
 output = 131000
 
 [modalities]
-input = [ "file", "image", "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]

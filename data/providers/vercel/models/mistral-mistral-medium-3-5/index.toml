@@ -1,9 +1,9 @@
 id = "mistral/mistral-medium-3.5"
 name = "Mistral Medium Latest"
-release_date = "1755815280"
+release_date = "1777420800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 256000
 output = 256000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

@@ -3,7 +3,7 @@ name = "Qwen 3.7 Max"
 release_date = "1779408000"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 tool_call = true
@@ -13,7 +13,7 @@ context = 1000000
 output = 65536
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]

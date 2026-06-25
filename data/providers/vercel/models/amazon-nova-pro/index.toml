@@ -2,11 +2,17 @@ id = "amazon/nova-pro"
 name = "Nova Pro"
 release_date = "1733184000"
 
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
 [limit]
 context = 300000
 output = 8192
 
 [modalities]
+input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]

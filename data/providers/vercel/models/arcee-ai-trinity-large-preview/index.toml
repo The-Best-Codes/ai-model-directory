@@ -1,6 +1,6 @@
 id = "arcee-ai/trinity-large-preview"
 name = "Trinity Large Preview"
-release_date = "1735689600"
+release_date = "1769472000"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "alibaba/qwen3-max-preview"
 name = "Qwen3 Max Preview"
-release_date = "1758585600"
+release_date = "1757030400"
 
 [features]
 attachment = false

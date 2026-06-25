@@ -1,6 +1,6 @@
 id = "morph/morph-v3-fast"
 name = "Morph V3 Fast"
-release_date = "1723680000"
+release_date = "1751846400"
 
 [limit]
 context = 81920

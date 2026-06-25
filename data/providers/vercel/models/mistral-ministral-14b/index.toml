@@ -1,11 +1,11 @@
 id = "mistral/ministral-14b"
 name = "Ministral 14B"
-release_date = "1764547200"
+release_date = "1764633600"
 
 [features]
 attachment = true
 reasoning = false
-tool_call = false
+tool_call = true
 
 [limit]
 context = 256000

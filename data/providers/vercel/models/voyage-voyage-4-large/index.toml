@@ -1,6 +1,6 @@
 id = "voyage/voyage-4-large"
 name = "Voyage 4 Large"
-release_date = "1755815280"
+release_date = "1768435200"
 
 [limit]
 context = 32000

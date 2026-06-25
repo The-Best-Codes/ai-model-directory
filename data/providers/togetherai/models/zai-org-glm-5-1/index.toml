@@ -1,5 +1,6 @@
 id = "zai-org/GLM-5.1"
 name = "GLM 5.1 FP4"
+release_date = "1782316219"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "recraft/recraft-v3"
 name = "Recraft V3"
-release_date = "1727740800"
+release_date = "1730246400"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "mistral/pixtral-12b"
 name = "Pixtral 12B 2409"
-release_date = "1725148800"
+release_date = "1726531200"
 
 [features]
 attachment = true

@@ -3,7 +3,7 @@ name = "DeepSeek V3.2 Thinking"
 release_date = "1764547200"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 128000
 output = 8000
 
 [modalities]
-input = [ "file", "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

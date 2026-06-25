@@ -1,6 +1,6 @@
 id = "klingai/kling-v2.6-i2v"
 name = "Kling v2.6 Image-to-Video"
-release_date = "1766275200"
+release_date = "1764720000"
 
 [modalities]
 output = [ "video" ]

@@ -1,6 +1,6 @@
 id = "bfl/flux-kontext-max"
 name = "FLUX.1 Kontext Max"
-release_date = "1748736000"
+release_date = "1748476800"
 
 [features]
 attachment = false

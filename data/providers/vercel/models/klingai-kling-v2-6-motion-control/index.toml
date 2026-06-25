@@ -1,6 +1,6 @@
 id = "klingai/kling-v2.6-motion-control"
 name = "Kling v2.6 Motion Control"
-release_date = "1766275200"
+release_date = "1766016000"
 
 [modalities]
 output = [ "video" ]

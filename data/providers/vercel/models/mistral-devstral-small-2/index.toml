@@ -1,9 +1,9 @@
 id = "mistral/devstral-small-2"
 name = "Devstral Small 2"
-release_date = "1746576000"
+release_date = "1765238400"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 256000
 output = 256000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

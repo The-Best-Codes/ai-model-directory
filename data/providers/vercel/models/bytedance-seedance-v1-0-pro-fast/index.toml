@@ -1,6 +1,6 @@
 id = "bytedance/seedance-v1.0-pro-fast"
 name = "Seedance v1.0 Pro Fast"
-release_date = "1761868800"
+release_date = "1761264000"
 
 [modalities]
 output = [ "video" ]

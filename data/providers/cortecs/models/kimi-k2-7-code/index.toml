@@ -8,9 +8,9 @@ reasoning = true
 tool_call = true
 
 [limit]
-context = 262144
+context = 256000
 
 [pricing]
-cache_read = 0.277
-input = 1.109
-output = 3.993
+cache_read = 0.18
+input = 0.673
+output = 3.142

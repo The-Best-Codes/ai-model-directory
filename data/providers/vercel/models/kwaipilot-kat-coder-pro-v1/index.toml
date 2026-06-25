@@ -1,11 +1,11 @@
 id = "kwaipilot/kat-coder-pro-v1"
 name = "KAT-Coder-Pro V1"
-release_date = "1761264000"
+release_date = "1762646400"
 
 [features]
 attachment = false
-reasoning = true
-tool_call = false
+reasoning = false
+tool_call = true
 
 [limit]
 context = 256000

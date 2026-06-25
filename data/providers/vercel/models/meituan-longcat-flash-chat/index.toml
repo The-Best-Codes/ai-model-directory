@@ -1,6 +1,6 @@
 id = "meituan/longcat-flash-chat"
 name = "LongCat Flash Chat"
-release_date = "1756512000"
+release_date = "1756684800"
 
 [features]
 attachment = false

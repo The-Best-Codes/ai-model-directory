@@ -1,6 +1,6 @@
 id = "xiaomi/mimo-v2-flash"
 name = "MiMo V2 Flash"
-release_date = "1765929600"
+release_date = "1765843200"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "amazon/titan-embed-text-v2"
 name = "Titan Text Embeddings V2"
-release_date = "1711929600"
+release_date = "1714435200"
 
 [pricing]
 input = 0.02

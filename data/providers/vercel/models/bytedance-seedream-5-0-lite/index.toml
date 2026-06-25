@@ -1,6 +1,6 @@
 id = "bytedance/seedream-5.0-lite"
 name = "Seedream 5.0 Lite"
-release_date = "1769558400"
+release_date = "1770940800"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "nvidia/nemotron-3-super-120b-a12b"
 name = "NVIDIA Nemotron 3 Super 120B A12B"
-release_date = "1773792000"
+release_date = "1773187200"
 
 [features]
 attachment = false

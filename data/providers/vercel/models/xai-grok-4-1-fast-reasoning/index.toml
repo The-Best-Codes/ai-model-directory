@@ -1,6 +1,6 @@
 id = "xai/grok-4.1-fast-reasoning"
 name = "Grok 4.1 Fast Reasoning"
-release_date = "1752019200"
+release_date = "1763510400"
 
 [features]
 attachment = true

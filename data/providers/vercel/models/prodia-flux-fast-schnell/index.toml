@@ -1,6 +1,6 @@
 id = "prodia/flux-fast-schnell"
 name = "Flux Schnell"
-release_date = "1755815280"
+release_date = "1722556800"
 
 [features]
 attachment = false

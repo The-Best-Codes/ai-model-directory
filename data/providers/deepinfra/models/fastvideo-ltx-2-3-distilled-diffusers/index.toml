@@ -1,0 +1,6 @@
+id = "FastVideo/LTX-2.3-Distilled-Diffusers"
+name = "FastVideo/LTX-2.3-Distilled-Diffusers"
+
+[features]
+attachment = false
+reasoning = false

@@ -1,6 +1,6 @@
 id = "alibaba/qwen3-next-80b-a3b-thinking"
 name = "Qwen3 Next 80B A3B Thinking"
-release_date = "1757635200"
+release_date = "1757548800"
 
 [features]
 attachment = false

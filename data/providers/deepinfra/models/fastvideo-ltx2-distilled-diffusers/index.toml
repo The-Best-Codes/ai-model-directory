@@ -1,6 +1,0 @@
-id = "FastVideo/LTX2-Distilled-Diffusers"
-name = "FastVideo/LTX2-Distilled-Diffusers"
-
-[features]
-attachment = false
-reasoning = false

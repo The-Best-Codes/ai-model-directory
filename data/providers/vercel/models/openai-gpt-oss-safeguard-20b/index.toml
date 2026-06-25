@@ -1,6 +1,6 @@
 id = "openai/gpt-oss-safeguard-20b"
 name = "GPT OSS Safeguard 20B"
-release_date = "1733011200"
+release_date = "1761696000"
 
 [features]
 attachment = false

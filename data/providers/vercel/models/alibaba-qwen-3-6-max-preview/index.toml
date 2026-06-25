@@ -3,7 +3,7 @@ name = "Qwen 3.6 Max Preview"
 release_date = "1776643200"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 240000
 output = 64000
 
 [modalities]
-input = [ "file", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
