@@ -1,0 +1,17 @@
+id = "kling-v3-omni"
+name = "kling-v3-omni"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 75
+cache_write = 75
+input = 75
+input_audio = 75
+output = 75
+output_audio = 75

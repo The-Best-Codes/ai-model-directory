@@ -1,6 +1,6 @@
 id = "nvidia/llama-3.3-70b-instruct-fp8"
 name = "Llama 3.3 70B Instruct"
-release_date = "1782218510"
+release_date = "1782428030"
 
 [features]
 attachment = false
