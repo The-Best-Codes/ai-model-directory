@@ -8,8 +8,8 @@ reasoning = true
 tool_call = true
 
 [limit]
-context = 202800
-output = 64000
+context = 202000
+output = 202000
 
 [modalities]
 input = [ "text" ]
@@ -17,5 +17,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.26
-input = 1.4
-output = 4.4
+input = 1.3
+output = 4.3

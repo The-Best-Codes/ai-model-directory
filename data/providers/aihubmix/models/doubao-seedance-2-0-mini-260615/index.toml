@@ -1,0 +1,11 @@
+id = "doubao-seedance-2-0-mini-260615"
+name = "doubao-seedance-2-0-mini-260615"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]

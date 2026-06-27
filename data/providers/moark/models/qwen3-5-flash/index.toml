@@ -1,0 +1,15 @@
+id = "Qwen3.5-Flash"
+last_updated = "1782445630"
+name = "Qwen3.5-Flash"
+release_date = "1779767423"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.02940365
+output = 0.2940365

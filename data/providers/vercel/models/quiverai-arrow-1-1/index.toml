@@ -1,0 +1,16 @@
+id = "quiverai/arrow-1.1"
+name = "Arrow 1.1"
+release_date = "1776297600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

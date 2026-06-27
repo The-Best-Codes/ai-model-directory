@@ -1,15 +1,17 @@
 id = "hf:openai/gpt-oss-120b"
 name = "openai/gpt-oss-120b"
+release_date = "1754352000"
 
 [features]
 attachment = false
-reasoning = false
-structured_output = false
-temperature = false
-tool_call = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
 
 [limit]
 context = 131072
+output = 65536
 
 [modalities]
 input = [ "text" ]

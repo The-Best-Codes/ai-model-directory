@@ -1,0 +1,11 @@
+id = "qwen-image-2.0"
+last_updated = "1782472670"
+name = "qwen-image-2.0"
+release_date = "1782465808"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
