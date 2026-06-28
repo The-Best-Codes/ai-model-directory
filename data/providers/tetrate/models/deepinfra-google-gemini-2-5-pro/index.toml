@@ -1,6 +1,6 @@
 id = "deepinfra/google/gemini-2.5-pro"
 name = "deepinfra/google/gemini-2.5-pro"
-release_date = "1781319385"
+release_date = "1782587736"
 
 [features]
 attachment = true
