@@ -3,7 +3,7 @@ name = "Claude Sonnet 4.5 (2025-09-29)"
 release_date = "1759104000"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true
@@ -13,7 +13,7 @@ tool_call = true
 context = 200000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
