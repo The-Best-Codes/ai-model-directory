@@ -9,9 +9,8 @@ input = [ "image" ]
 output = [ "image" ]
 
 [pricing]
-cache_read = 1e-7
-cache_write = 1e-7
-input = 1e-7
-input_audio = 1e-7
-output = 9.581
-output_audio = 1e-7
+cache_read = 0
+cache_write = 0
+input_audio = 0
+output = 0.08
+output_audio = 0

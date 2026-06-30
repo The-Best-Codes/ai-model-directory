@@ -12,7 +12,3 @@ context = 1000000
 
 [modalities]
 input = [ "audio", "image", "text", "video" ]
-
-[pricing]
-input = 2
-output = 2

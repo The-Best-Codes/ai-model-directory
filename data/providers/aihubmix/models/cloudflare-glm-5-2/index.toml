@@ -1,0 +1,12 @@
+id = "cloudflare-glm-5.2"
+name = "cloudflare-glm-5.2"
+
+[features]
+reasoning = false
+structured_output = false
+tool_call = false
+
+[pricing]
+cache_read = 0.2604
+input = 1.4
+output = 4.4002

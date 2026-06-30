@@ -1,6 +1,6 @@
 id = "mistral/mistral-large-latest"
 name = "mistral/mistral-large-latest"
-release_date = "1708792361"
+release_date = "1782736388"
 
 [features]
 attachment = false

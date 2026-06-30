@@ -1,7 +1,7 @@
 id = "openai/whisper"
 name = "openai/whisper"
 open_weights = true
-release_date = "1782691200"
+release_date = "1782777600"
 
 [features]
 attachment = true

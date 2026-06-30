@@ -1,6 +1,6 @@
 id = "mistral/pixtral-large-latest"
 name = "mistral/pixtral-large-latest"
-release_date = "1723480361"
+release_date = "1782736388"
 
 [features]
 attachment = false

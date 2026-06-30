@@ -1,23 +1,22 @@
 id = "stepfun/step-3.5-flash"
-name = "StepFun: Step 3.5 Flash (retires Jun 29)"
+name = "StepFun: Step 3.5 Flash"
 release_date = "1769728337"
 
 [features]
 attachment = false
 reasoning = true
-structured_output = true
+structured_output = false
 temperature = true
 tool_call = true
 
 [limit]
 context = 262144
-output = 16384
+output = 65536
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.02
-input = 0.09
+input = 0.1
 output = 0.3
