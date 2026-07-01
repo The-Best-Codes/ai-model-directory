@@ -1,0 +1,16 @@
+id = "claude-sonnet-5"
+name = "Claude Sonnet 5"
+release_date = "1782691200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

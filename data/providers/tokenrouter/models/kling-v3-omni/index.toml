@@ -2,11 +2,11 @@ id = "kling-v3-omni"
 name = "kling-v3-omni"
 
 [features]
-attachment = false
+attachment = true
 
 [modalities]
-input = [ "text" ]
-output = [ "text" ]
+input = [ "video" ]
+output = [ "video" ]
 
 [pricing]
 cache_read = 0

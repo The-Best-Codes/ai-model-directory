@@ -1,0 +1,17 @@
+id = "tokenrouter/glm-5.2"
+name = "tokenrouter/glm-5.2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2857
+cache_write = 1.1429
+input = 1.1429
+input_audio = 1.1429
+output = 4
+output_audio = 1.1429

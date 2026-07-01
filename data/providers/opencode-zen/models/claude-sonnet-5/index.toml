@@ -1,0 +1,8 @@
+id = "claude-sonnet-5"
+name = "claude-sonnet-5"
+
+[pricing]
+cache_read = 0.2
+cache_write = 2.5
+input = 2
+output = 10

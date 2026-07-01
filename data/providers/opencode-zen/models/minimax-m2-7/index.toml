@@ -1,7 +1,7 @@
 id = "minimax-m2.7"
 knowledge_cutoff = "1735689600"
 last_updated = "1773792000"
-name = "MiniMax M2.7"
+name = "MiniMax-M2.7"
 open_weights = true
 release_date = "1773792000"
 

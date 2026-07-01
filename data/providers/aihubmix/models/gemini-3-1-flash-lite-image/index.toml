@@ -1,0 +1,11 @@
+id = "gemini-3.1-flash-lite-image"
+name = "gemini-3.1-flash-lite-image"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]

@@ -1,0 +1,10 @@
+id = "google/flash-image-3.1-lite"
+name = "Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)"
+release_date = "1782846618"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,19 @@
+id = "meituan/longcat-2.0"
+name = "Meituan: LongCat-2.0"
+release_date = "1782800437"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.006
+input = 0.3
+output = 1.18

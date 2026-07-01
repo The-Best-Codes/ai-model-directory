@@ -1,0 +1,6 @@
+id = "gemini-omni-flash-preview"
+name = "Gemini Omni Flash Preview"
+
+[pricing]
+input = 1.5
+output = 9

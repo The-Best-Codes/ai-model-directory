@@ -1,0 +1,11 @@
+id = "minimax-m3"
+name = "minimax-m3"
+
+[limit]
+context = 512000
+output = 128000
+
+[pricing]
+cache_read = 0.06
+input = 0.3
+output = 1.2
