@@ -1,6 +1,6 @@
 id = "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct"
 name = "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct"
-release_date = "1782587736"
+release_date = "1782868317"
 
 [features]
 attachment = false

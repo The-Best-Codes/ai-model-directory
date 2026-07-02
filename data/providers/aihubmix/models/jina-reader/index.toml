@@ -1,0 +1,11 @@
+id = "jina-reader"
+name = "jina-reader"
+
+[features]
+reasoning = false
+structured_output = false
+tool_call = false
+
+[pricing]
+input = 0.05
+output = 0.05

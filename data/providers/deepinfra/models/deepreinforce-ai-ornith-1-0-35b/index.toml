@@ -2,7 +2,7 @@ id = "deepreinforce-ai/Ornith-1.0-35B"
 name = "deepreinforce-ai/Ornith-1.0-35B"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 
 [limit]

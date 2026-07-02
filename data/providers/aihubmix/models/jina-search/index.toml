@@ -1,0 +1,11 @@
+id = "jina-search"
+name = "jina-search"
+
+[features]
+reasoning = false
+structured_output = false
+tool_call = false
+
+[pricing]
+input = 0.05
+output = 0.05
