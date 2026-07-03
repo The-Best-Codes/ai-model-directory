@@ -1,6 +1,6 @@
 id = "deepinfra/meta-llama/Llama-3.2-11B-Vision-Instruct"
 name = "deepinfra/meta-llama/Llama-3.2-11B-Vision-Instruct"
-release_date = "1782868317"
+release_date = "1783038354"
 
 [features]
 attachment = true

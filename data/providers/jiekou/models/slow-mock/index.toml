@@ -1,0 +1,20 @@
+id = "slow-mock"
+name = "slow-mock"
+release_date = "1782972299"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

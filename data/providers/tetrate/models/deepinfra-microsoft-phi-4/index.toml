@@ -1,6 +1,6 @@
 id = "deepinfra/microsoft/phi-4"
 name = "deepinfra/microsoft/phi-4"
-release_date = "1782868317"
+release_date = "1783038354"
 
 [features]
 attachment = false

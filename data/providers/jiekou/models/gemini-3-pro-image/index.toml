@@ -1,0 +1,17 @@
+id = "gemini-3-pro-image"
+name = "gemini-3-pro-image"
+release_date = "1782980268"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2
+output = 12

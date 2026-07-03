@@ -1,0 +1,17 @@
+id = "gemini-omni-flash"
+name = "Gemini-Omni-Flash"
+release_date = "1782926187"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+input = 1.5152
+output = 17.6768
