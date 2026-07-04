@@ -1,6 +1,6 @@
 id = "zai-org/GLM-5.2"
 name = "GLM 5.2"
-release_date = "1783028450"
+release_date = "1783077170"
 
 [features]
 attachment = false

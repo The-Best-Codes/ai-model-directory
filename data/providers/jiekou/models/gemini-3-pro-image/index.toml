@@ -9,7 +9,7 @@ structured_output = false
 tool_call = false
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "audio", "image", "text", "video" ]
 output = [ "image", "text" ]
 
 [pricing]

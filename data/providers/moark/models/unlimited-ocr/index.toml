@@ -1,0 +1,14 @@
+id = "Unlimited-OCR"
+last_updated = "1783079289"
+name = "Unlimited-OCR"
+release_date = "1783079289"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
