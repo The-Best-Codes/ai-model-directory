@@ -1,0 +1,15 @@
+id = "MiniMaxAI/MiniMax-M3"
+name = "MiniMaxAI/MiniMax-M3"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 524288
+output = 524288
+
+[pricing]
+cache_read = 0.06
+input = 0.3
+output = 1.2
