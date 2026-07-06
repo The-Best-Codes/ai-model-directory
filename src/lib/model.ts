@@ -356,8 +356,7 @@ function pickNested<K extends (typeof nestedFields)[number]>(
     }
 
     const entry = (value as Record<string, unknown>)[field] as
-      | Record<string, unknown>
-      | undefined;
+      Record<string, unknown> | undefined;
 
     if (!entry) {
       continue;
