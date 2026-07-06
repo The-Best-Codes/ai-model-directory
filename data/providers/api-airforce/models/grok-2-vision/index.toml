@@ -1,0 +1,14 @@
+id = "grok-2-vision"
+name = "grok-2-vision"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.12
+output = 15.57

@@ -1,0 +1,8 @@
+id = "gpt-realtime-1.5"
+name = "gpt-realtime-1.5"
+release_date = "1783375422"
+
+[pricing]
+cache_read = 1.05
+input = 10.59
+output = 42.3

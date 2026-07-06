@@ -1,0 +1,15 @@
+id = "gpt-5.2-codex"
+name = "gpt-5.2-codex"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.03
+output = 0.33

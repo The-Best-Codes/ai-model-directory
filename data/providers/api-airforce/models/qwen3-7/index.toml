@@ -1,0 +1,14 @@
+id = "qwen3.7"
+name = "qwen3.7"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.58
+output = 7.71

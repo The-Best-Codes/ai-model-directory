@@ -1,0 +1,14 @@
+id = "moonshot-v1-32k-vision"
+name = "moonshot-v1-32k-vision"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.13
+output = 8.52

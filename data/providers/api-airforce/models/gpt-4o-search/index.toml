@@ -1,0 +1,14 @@
+id = "gpt-4o-search"
+name = "gpt-4o-search"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5.52
+output = 22.08

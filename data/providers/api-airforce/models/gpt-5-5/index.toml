@@ -1,0 +1,15 @@
+id = "gpt-5.5"
+name = "gpt-5.5"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.11
+input = 1.2
+output = 6

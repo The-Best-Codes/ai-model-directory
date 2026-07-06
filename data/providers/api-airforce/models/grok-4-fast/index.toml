@@ -1,0 +1,14 @@
+id = "grok-4-fast"
+name = "grok-4-fast"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.38

@@ -1,0 +1,14 @@
+id = "plutotext-r3-emotional"
+name = "plutotext-r3-emotional"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 0.4

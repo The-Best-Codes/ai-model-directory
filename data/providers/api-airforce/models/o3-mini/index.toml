@@ -1,0 +1,15 @@
+id = "o3-mini"
+name = "o3-mini"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.44
+input = 2.91
+output = 11.64

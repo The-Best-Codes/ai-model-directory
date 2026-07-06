@@ -1,0 +1,14 @@
+id = "gpt-5.4-pro"
+name = "gpt-5.4-pro"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 13.25
+output = 79.49

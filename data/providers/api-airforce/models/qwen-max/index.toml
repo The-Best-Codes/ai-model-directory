@@ -1,0 +1,14 @@
+id = "qwen-max"
+name = "qwen-max"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.51
+output = 2.07

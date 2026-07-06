@@ -1,0 +1,14 @@
+id = "image-1-edit"
+name = "image-1-edit"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 120
+output = 120

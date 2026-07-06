@@ -1,0 +1,16 @@
+id = "claude-opus-4"
+name = "claude-opus-4"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.24
+cache_write = 2.82
+input = 2.25
+output = 11.25

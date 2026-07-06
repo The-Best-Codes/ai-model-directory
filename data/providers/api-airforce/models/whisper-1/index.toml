@@ -1,0 +1,7 @@
+id = "whisper-1"
+name = "whisper-1"
+release_date = "1783375422"
+
+[pricing]
+input = 6.42
+output = 6.42

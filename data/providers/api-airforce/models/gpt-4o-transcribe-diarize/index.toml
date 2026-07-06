@@ -1,0 +1,7 @@
+id = "gpt-4o-transcribe-diarize"
+name = "gpt-4o-transcribe-diarize"
+release_date = "1783375422"
+
+[pricing]
+input = 6.6
+output = 26.43

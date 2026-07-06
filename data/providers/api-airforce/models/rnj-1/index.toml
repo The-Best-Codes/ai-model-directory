@@ -1,0 +1,14 @@
+id = "rnj-1"
+name = "rnj-1"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 2

@@ -1,0 +1,14 @@
+id = "qwen3-0.6b"
+name = "qwen3-0.6b"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.27

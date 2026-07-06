@@ -1,0 +1,14 @@
+id = "gpt-4o-mini"
+name = "gpt-4o-mini"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

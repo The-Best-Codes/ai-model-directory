@@ -1,0 +1,14 @@
+id = "deepseek-v3-0324"
+name = "deepseek-v3-0324"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.5
+output = 1.5

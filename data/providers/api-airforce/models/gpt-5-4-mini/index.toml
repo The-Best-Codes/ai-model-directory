@@ -1,0 +1,14 @@
+id = "gpt-5.4-mini"
+name = "gpt-5.4-mini"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 1.2

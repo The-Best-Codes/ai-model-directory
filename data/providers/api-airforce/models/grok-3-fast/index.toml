@@ -1,0 +1,14 @@
+id = "grok-3-fast"
+name = "grok-3-fast"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 7.77
+output = 38.88

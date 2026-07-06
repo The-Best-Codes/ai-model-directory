@@ -1,0 +1,14 @@
+id = "gpt-3.5"
+name = "gpt-3.5"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.11
+output = 3.3

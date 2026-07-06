@@ -1,0 +1,14 @@
+id = "gpt-4-1106"
+name = "gpt-4-1106"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.13
+output = 4.29

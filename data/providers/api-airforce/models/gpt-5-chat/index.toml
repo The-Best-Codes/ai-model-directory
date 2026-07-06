@@ -1,0 +1,15 @@
+id = "gpt-5-chat"
+name = "gpt-5-chat"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.12
+input = 1.11
+output = 8.88

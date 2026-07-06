@@ -1,0 +1,14 @@
+id = "image-1"
+name = "image-1"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 40
+output = 40

@@ -1,0 +1,15 @@
+id = "o1"
+name = "o1"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.14
+input = 2.25
+output = 9

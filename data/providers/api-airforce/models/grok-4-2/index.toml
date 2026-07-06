@@ -1,0 +1,14 @@
+id = "grok-4.2"
+name = "grok-4.2"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.47
+output = 4.42

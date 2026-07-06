@@ -1,0 +1,14 @@
+id = "glm-4.6"
+name = "glm-4.6"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.45
+output = 1.65

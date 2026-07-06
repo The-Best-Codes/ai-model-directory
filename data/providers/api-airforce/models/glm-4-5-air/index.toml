@@ -1,0 +1,14 @@
+id = "glm-4.5-air"
+name = "glm-4.5-air"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 0.87

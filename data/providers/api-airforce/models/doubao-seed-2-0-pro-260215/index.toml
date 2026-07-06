@@ -1,0 +1,15 @@
+id = "doubao-seed-2-0-pro-260215"
+name = "doubao-seed-2-0-pro-260215"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.27
+input = 1.38
+output = 6.96

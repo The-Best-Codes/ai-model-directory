@@ -1,0 +1,14 @@
+id = "o4-mini-deep-research"
+name = "o4-mini-deep-research"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 4.68
+output = 18.66

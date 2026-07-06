@@ -1,0 +1,14 @@
+id = "glm-4.5"
+name = "glm-4.5"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 2.4

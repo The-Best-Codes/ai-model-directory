@@ -1,0 +1,22 @@
+id = "gpt-4"
+knowledge_cutoff = "1632960000"
+name = "gpt-4"
+release_date = "1685232000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 8191
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 6.42
+output = 12.84

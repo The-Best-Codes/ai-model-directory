@@ -1,0 +1,14 @@
+id = "kimi-k2.7-code"
+name = "kimi-k2.7-code"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.65
+output = 2.73

@@ -1,0 +1,15 @@
+id = "doubao-seed-2-0-mini-260215"
+name = "doubao-seed-2-0-mini-260215"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.09
+output = 0.87

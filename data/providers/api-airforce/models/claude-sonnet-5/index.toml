@@ -1,0 +1,16 @@
+id = "claude-sonnet-5"
+name = "claude-sonnet-5"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+cache_write = 1.25
+input = 1
+output = 5

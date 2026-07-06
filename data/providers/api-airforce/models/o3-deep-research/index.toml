@@ -1,0 +1,14 @@
+id = "o3-deep-research"
+name = "o3-deep-research"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 23.34
+output = 93.33

@@ -2,6 +2,7 @@ import type { ProviderDefinition } from "./types.ts";
 import { ai302Provider } from "./302ai.ts";
 import { abacusProvider } from "./abacus.ts";
 import { ambientProvider } from "./ambient.ts";
+import { apiAirforceProvider } from "./api-airforce.ts";
 import { alibabaCnProvider } from "./alibaba-cn.ts";
 import { aihubmixProvider } from "./aihubmix.ts";
 import { anthropicProvider } from "./anthropic.ts";
@@ -67,6 +68,7 @@ export const providers: ProviderDefinition[] = [
   abacusProvider,
   alibabaCnProvider,
   ambientProvider,
+  apiAirforceProvider,
   aihubmixProvider,
   anthropicProvider,
   avianProvider,

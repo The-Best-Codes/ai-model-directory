@@ -1,0 +1,15 @@
+id = "deepseek-reasoner"
+name = "deepseek-reasoner"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.66
+output = 0.99

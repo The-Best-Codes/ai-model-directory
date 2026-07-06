@@ -1,0 +1,7 @@
+name = "Api.Airforce"
+website = "https://api.airforce"
+apiBaseUrl = "https://api.airforce/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["API_AIRFORCE_API_KEY"]

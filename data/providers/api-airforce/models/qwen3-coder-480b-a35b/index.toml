@@ -1,0 +1,14 @@
+id = "qwen3-coder-480b-a35b"
+name = "qwen3-coder-480b-a35b"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.22
+output = 8.88

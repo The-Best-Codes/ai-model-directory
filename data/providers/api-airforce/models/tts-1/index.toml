@@ -1,0 +1,7 @@
+id = "tts-1"
+name = "tts-1"
+release_date = "1783375422"
+
+[pricing]
+input = 0.12
+output = 3.21

@@ -1,0 +1,13 @@
+id = "gemma3-270m:free"
+name = "gemma3-270m:free"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0

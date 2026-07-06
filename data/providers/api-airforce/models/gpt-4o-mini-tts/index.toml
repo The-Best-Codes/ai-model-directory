@@ -1,0 +1,7 @@
+id = "gpt-4o-mini-tts"
+name = "gpt-4o-mini-tts"
+release_date = "1783375422"
+
+[pricing]
+input = 1.59
+output = 31.74

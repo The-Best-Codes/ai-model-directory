@@ -1,0 +1,14 @@
+id = "gpt-5.3-chat"
+name = "gpt-5.3-chat"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.36
+output = 3

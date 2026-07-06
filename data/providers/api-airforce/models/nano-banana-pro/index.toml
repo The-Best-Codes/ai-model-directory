@@ -1,0 +1,14 @@
+id = "nano-banana-pro"
+name = "nano-banana-pro"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 130
+output = 251.8

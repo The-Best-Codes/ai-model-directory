@@ -1,0 +1,14 @@
+id = "mimo-v2.5-pro"
+name = "mimo-v2.5-pro"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 2.4

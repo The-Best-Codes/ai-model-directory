@@ -1,0 +1,7 @@
+id = "gpt-realtime"
+name = "gpt-realtime"
+release_date = "1783375422"
+
+[pricing]
+input = 10.59
+output = 21.15

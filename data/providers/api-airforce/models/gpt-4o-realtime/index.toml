@@ -1,0 +1,8 @@
+id = "gpt-4o-realtime"
+name = "gpt-4o-realtime"
+release_date = "1783375422"
+
+[pricing]
+cache_read = 5.82
+input = 11.67
+output = 46.68

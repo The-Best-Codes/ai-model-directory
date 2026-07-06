@@ -1,0 +1,21 @@
+id = "claude-opus-4.6-rp"
+knowledge_cutoff = "1767225600"
+name = "claude-opus-4.6-rp"
+release_date = "1783375422"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 7

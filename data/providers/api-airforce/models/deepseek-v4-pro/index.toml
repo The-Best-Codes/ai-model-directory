@@ -1,0 +1,14 @@
+id = "deepseek-v4-pro"
+name = "deepseek-v4-pro"
+release_date = "1783375422"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.9
+output = 1.5
