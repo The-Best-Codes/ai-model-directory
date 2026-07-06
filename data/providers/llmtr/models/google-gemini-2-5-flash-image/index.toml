@@ -1,0 +1,10 @@
+id = "google/gemini-2.5-flash-image"
+name = "Gemini 2.5 Flash Image"
+release_date = "1776880300"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]

@@ -1,0 +1,13 @@
+id = "google/deep-research-pro-preview-12-2025"
+name = "Gemini Deep Research Preview"
+release_date = "1776880299"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]

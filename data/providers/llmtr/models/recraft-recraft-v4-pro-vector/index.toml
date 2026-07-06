@@ -1,0 +1,12 @@
+id = "recraft/recraft-v4-pro-vector"
+name = "Recraft V4 Pro Vector"
+release_date = "1778321935"
+
+[features]
+attachment = true
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "image", "text" ]

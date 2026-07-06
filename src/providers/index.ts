@@ -29,6 +29,7 @@ import { inceptronProvider } from "./inceptron.ts";
 import { ioNetProvider } from "./io-net.ts";
 import { jiekouProvider } from "./jiekou.ts";
 import { kiloProvider } from "./kilo.ts";
+import { llmtrProvider } from "./llmtr.ts";
 import { llmgatewayProvider } from "./llmgateway.ts";
 import { mistralProvider } from "./mistral.ts";
 import { modelscopeProvider } from "./modelscope.ts";
@@ -93,6 +94,7 @@ export const providers: ProviderDefinition[] = [
   jiekouProvider,
   kiloProvider,
   llmgatewayProvider,
+  llmtrProvider,
   mistralProvider,
   modelscopeProvider,
   moarkProvider,

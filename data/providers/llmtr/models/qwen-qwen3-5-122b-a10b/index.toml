@@ -1,0 +1,16 @@
+id = "qwen/qwen3.5-122b-a10b"
+name = "Qwen3.5-122B-A10b"
+release_date = "1776880302"
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 3.2

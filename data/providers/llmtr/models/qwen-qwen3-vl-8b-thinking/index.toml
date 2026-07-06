@@ -1,0 +1,13 @@
+id = "qwen/qwen3-vl-8b-thinking"
+name = "Qwen3-Vl-8B-Thinking"
+release_date = "1776880302"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]

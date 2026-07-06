@@ -1,0 +1,16 @@
+id = "zai/glm-ocr"
+name = "GLM-OCR"
+release_date = "1776880303"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.03
+output = 0.03

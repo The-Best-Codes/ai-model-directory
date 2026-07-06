@@ -1,0 +1,18 @@
+id = "qwen/qwen3.5-flash"
+name = "Qwen3.5-Flash"
+release_date = "1776880302"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+cache_write = 0.125
+input = 0.1
+output = 0.4

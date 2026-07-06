@@ -1,0 +1,9 @@
+id = "xai/grok-voice-stt"
+name = "Grok Voice STT"
+release_date = "1778044235"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text" ]

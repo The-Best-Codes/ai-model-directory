@@ -1,0 +1,17 @@
+id = "zai/glm-4.5"
+name = "GLM-4.5"
+release_date = "1776880302"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.2

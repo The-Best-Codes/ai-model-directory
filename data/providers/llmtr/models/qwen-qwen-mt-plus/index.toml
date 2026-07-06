@@ -1,0 +1,17 @@
+id = "qwen/qwen-mt-plus"
+name = "Qwen-Mt-Plus"
+release_date = "1776880301"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 2.46
+output = 7.37

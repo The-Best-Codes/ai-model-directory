@@ -1,0 +1,16 @@
+id = "llmtr/magibu-11b-v8"
+name = "Magibu 11B v8"
+release_date = "1780689763"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.5

@@ -1,0 +1,13 @@
+id = "google/gemini-2.5-flash-native-audio-preview-12-2025"
+name = "Gemini 2.5 Flash Native Audio (Live API)"
+release_date = "1776880300"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "audio", "text", "video" ]

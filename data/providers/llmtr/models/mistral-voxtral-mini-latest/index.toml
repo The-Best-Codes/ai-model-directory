@@ -1,0 +1,16 @@
+id = "mistral/voxtral-mini-latest"
+name = "Voxtral Mini"
+release_date = "1776880303"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "audio", "text" ]
+
+[pricing]
+input = 0.04
+output = 0.04

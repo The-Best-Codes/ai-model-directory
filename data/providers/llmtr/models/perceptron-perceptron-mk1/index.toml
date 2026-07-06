@@ -1,0 +1,17 @@
+id = "perceptron/perceptron-mk1"
+name = "Perceptron Mk1"
+release_date = "1778650499"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.15
+output = 1.5

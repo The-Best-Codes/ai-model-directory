@@ -1,0 +1,16 @@
+id = "qwen/qwen-mt-flash"
+name = "Qwen-Mt-Flash"
+release_date = "1776880300"
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.16
+output = 0.49

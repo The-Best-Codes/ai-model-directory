@@ -1,0 +1,17 @@
+id = "anthropic/claude-fable-5"
+name = "Claude Fable 5"
+release_date = "1781032857"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 10
+output = 50

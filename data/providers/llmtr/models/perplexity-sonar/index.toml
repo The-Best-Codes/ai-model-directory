@@ -1,0 +1,16 @@
+id = "perplexity/sonar"
+name = "Sonar"
+release_date = "1776880303"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 1
+output = 1

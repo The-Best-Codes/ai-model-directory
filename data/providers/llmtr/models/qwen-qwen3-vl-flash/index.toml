@@ -1,0 +1,12 @@
+id = "qwen/qwen3-vl-flash"
+name = "Qwen3-Vl-Flash"
+release_date = "1776880302"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]

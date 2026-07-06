@@ -1,0 +1,17 @@
+id = "publicai/apertus-8b-instruct"
+name = "Apertus 8B Instruct"
+release_date = "1782831794"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

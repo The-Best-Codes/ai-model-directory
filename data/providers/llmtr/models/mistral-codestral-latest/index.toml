@@ -1,0 +1,17 @@
+id = "mistral/codestral-latest"
+name = "Codestral"
+release_date = "1776880303"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.9

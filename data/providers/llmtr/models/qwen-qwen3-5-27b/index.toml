@@ -1,0 +1,16 @@
+id = "qwen/qwen3.5-27b"
+name = "Qwen3.5-27B"
+release_date = "1776880302"
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 2.4

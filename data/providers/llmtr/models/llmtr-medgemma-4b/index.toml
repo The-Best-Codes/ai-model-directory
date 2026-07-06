@@ -1,0 +1,16 @@
+id = "llmtr/medgemma-4b"
+name = "MedGemma 4B"
+release_date = "1777197727"
+
+[features]
+attachment = true
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 3
+output = 5

@@ -1,0 +1,12 @@
+id = "google/gemini-embedding-001"
+name = "Gemini Embedding"
+release_date = "1776880300"
+
+[features]
+attachment = true
+
+[limit]
+context = 2048
+
+[modalities]
+input = [ "text" ]

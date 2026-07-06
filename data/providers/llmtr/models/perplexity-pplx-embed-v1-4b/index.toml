@@ -1,0 +1,12 @@
+id = "perplexity/pplx-embed-v1-4b"
+name = "PPLX Embed v1 4B"
+release_date = "1776880304"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]

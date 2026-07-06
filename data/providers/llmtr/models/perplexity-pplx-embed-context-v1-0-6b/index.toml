@@ -1,0 +1,12 @@
+id = "perplexity/pplx-embed-context-v1-0.6b"
+name = "PPLX Embed Context v1 0.6B"
+release_date = "1776880304"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]

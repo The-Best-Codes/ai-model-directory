@@ -1,0 +1,20 @@
+id = "moonshot/kimi-k2.7-code"
+name = "Kimi K2.7 Code"
+release_date = "1781364217"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.19
+input = 0.95
+output = 4

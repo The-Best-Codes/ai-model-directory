@@ -1,0 +1,12 @@
+id = "qwen/qwen3-vl-235b-a22b-instruct"
+name = "Qwen3-Vl-235B-A22b-Instruct"
+release_date = "1776880301"
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]

@@ -1,0 +1,16 @@
+id = "perplexity/sonar-pro"
+name = "Sonar Pro"
+release_date = "1776880304"
+
+[features]
+attachment = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 3
+output = 15

@@ -1,0 +1,12 @@
+id = "qwen/qwen-vl-ocr"
+name = "Qwen-Vl-Ocr"
+release_date = "1776880301"
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]

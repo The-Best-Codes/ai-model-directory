@@ -1,0 +1,17 @@
+id = "zai/glm-4.5-airx"
+name = "GLM-4.5-AirX"
+release_date = "1776880303"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 1.1
+output = 4.5

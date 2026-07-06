@@ -1,0 +1,12 @@
+id = "recraft/recraft-v3-vector"
+name = "Recraft V3 Vector"
+release_date = "1778321935"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000
+
+[modalities]
+input = [ "image", "text" ]

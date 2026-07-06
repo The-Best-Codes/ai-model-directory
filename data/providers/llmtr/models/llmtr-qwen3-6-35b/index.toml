@@ -1,0 +1,16 @@
+id = "llmtr/qwen3-6-35b"
+name = "Qwen 3.6 35B-A3B"
+release_date = "1776880304"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 5
+output = 10

@@ -1,0 +1,12 @@
+id = "qwen/qwen-flash-2025-07-28"
+name = "Qwen-Flash-2025-07-28"
+release_date = "1776880300"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]

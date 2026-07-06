@@ -1,0 +1,17 @@
+id = "openai/o3-mini"
+name = "o3-mini"
+release_date = "1776880299"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 1.1
+output = 4.4

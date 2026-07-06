@@ -1,0 +1,12 @@
+id = "google/gemini-embedding-2-preview"
+name = "Gemini Embedding 2 Preview"
+release_date = "1776880300"
+
+[features]
+attachment = true
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]

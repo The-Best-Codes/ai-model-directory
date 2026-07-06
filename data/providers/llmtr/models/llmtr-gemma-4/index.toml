@@ -1,0 +1,16 @@
+id = "llmtr/gemma-4"
+name = "Gemma 4"
+release_date = "1776880304"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 5
+output = 10

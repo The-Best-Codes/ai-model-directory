@@ -1,0 +1,12 @@
+id = "xai/grok-voice-tts"
+name = "Grok Voice TTS"
+release_date = "1778044235"
+
+[features]
+attachment = true
+
+[limit]
+context = 100000
+
+[modalities]
+input = [ "audio", "text" ]

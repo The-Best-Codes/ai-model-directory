@@ -1,0 +1,12 @@
+id = "qwen/qwen-flash"
+name = "Qwen-Flash"
+release_date = "1776880300"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]

@@ -1,0 +1,12 @@
+id = "google/gemini-2.5-computer-use-preview-10-2025"
+name = "Gemini 2.5 Computer Use Preview"
+release_date = "1776880300"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]

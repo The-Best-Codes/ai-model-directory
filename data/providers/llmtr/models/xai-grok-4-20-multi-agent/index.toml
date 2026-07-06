@@ -1,0 +1,12 @@
+id = "xai/grok-4.20-multi-agent"
+name = "Grok 4.20 Multi-Agent"
+release_date = "1778044235"
+
+[features]
+attachment = false
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "text" ]

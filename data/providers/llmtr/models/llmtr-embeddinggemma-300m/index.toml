@@ -1,0 +1,12 @@
+id = "llmtr/embeddinggemma-300m"
+name = "EmbeddingGemma 300M"
+release_date = "1781117240"
+
+[features]
+attachment = true
+
+[limit]
+context = 2048
+
+[modalities]
+input = [ "text" ]

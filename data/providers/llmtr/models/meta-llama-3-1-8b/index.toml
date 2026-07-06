@@ -1,0 +1,17 @@
+id = "meta/llama-3.1-8b"
+name = "Llama 3.1 8B"
+release_date = "1783242802"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

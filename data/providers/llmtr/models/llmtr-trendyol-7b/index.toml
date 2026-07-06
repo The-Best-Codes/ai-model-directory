@@ -1,0 +1,16 @@
+id = "llmtr/trendyol-7b"
+name = "Trendyol 7B"
+release_date = "1780768511"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.5

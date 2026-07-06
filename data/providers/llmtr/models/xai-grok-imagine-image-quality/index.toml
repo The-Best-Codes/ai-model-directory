@@ -1,0 +1,9 @@
+id = "xai/grok-imagine-image-quality"
+name = "Grok Imagine Image Quality"
+release_date = "1778044235"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

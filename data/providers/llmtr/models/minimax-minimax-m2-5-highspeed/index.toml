@@ -1,0 +1,19 @@
+id = "minimax/minimax-m2.5-highspeed"
+name = "MiniMax M2.5 Highspeed"
+release_date = "1778959180"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.375
+input = 0.6
+output = 2.4
