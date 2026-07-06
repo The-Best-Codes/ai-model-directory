@@ -1,0 +1,7 @@
+name = "LLMTR"
+website = "https://llmtr.com"
+apiBaseUrl = "https://llmtr.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["LLMTR_API_KEY"]
