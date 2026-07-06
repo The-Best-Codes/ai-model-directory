@@ -46,6 +46,7 @@ import { opencodeZenProvider } from "./opencode-zen.ts";
 import { ovhcloudProvider } from "./ovhcloud.ts";
 import { perplexityProvider } from "./perplexity.ts";
 import { poeProvider } from "./poe.ts";
+import { qiniuProvider } from "./qiniu.ts";
 import { openrouterProvider } from "./openrouter.ts";
 import { orcarouterProvider } from "./orcarouter.ts";
 import { requestyProvider } from "./requesty.ts";
@@ -111,6 +112,7 @@ export const providers: ProviderDefinition[] = [
   ovhcloudProvider,
   perplexityProvider,
   poeProvider,
+  qiniuProvider,
   openrouterProvider,
   orcarouterProvider,
   requestyProvider,
