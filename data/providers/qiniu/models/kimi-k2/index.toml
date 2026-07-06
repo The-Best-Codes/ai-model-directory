@@ -1,0 +1,19 @@
+id = "kimi-k2"
+name = "Kimi K2"
+
+[features]
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.57971
+output = 2.31884

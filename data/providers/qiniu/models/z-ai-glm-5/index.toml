@@ -1,0 +1,19 @@
+id = "z-ai/glm-5"
+name = "Z-AI/GLM 5"
+
+[features]
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.57971
+output = 2.6087

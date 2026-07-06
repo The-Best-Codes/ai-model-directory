@@ -1,0 +1,19 @@
+id = "qwen3-235b-a22b-thinking-2507"
+name = "Qwen3 235B A22B Thinking 2507"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.28986
+output = 2.89855

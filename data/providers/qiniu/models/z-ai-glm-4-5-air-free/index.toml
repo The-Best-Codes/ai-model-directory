@@ -1,0 +1,15 @@
+id = "z-ai/glm-4.5-air-free"
+name = "GLM 4.5 Air (free)"
+
+[features]
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

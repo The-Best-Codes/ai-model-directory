@@ -1,0 +1,18 @@
+id = "qwen3-30b-a3b"
+name = "Qwen3 30B A3B"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 40000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1087
+output = 0.43478

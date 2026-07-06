@@ -1,0 +1,20 @@
+id = "tencent/hy3-preview"
+name = "Tencent/Hy3 Preview"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05797
+input = 0.17390999999999998
+output = 0.57971

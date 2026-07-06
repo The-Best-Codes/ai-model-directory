@@ -1,0 +1,19 @@
+id = "qwen-vl-max-2025-01-25"
+name = "Qwen VL-MAX-2025-01-25"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.43478
+output = 1.30435

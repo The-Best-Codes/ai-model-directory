@@ -1,0 +1,19 @@
+id = "z-ai/glm-4.7"
+name = "Z-Ai/GLM 4.7"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.45913
+output = 1.81565

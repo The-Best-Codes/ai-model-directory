@@ -1,0 +1,21 @@
+id = "moonshotai/kimi-k2.7-code"
+name = "Moonshotai/Kimi-K2.7-Code"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.18841
+input = 0.9420299999999999
+output = 3.9130399999999996

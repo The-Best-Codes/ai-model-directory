@@ -1,0 +1,19 @@
+id = "qwen3-coder-480b-a35b-instruct"
+name = "Qwen3 Coder 480B A35B Instruct"
+
+[features]
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.86957
+output = 3.47826

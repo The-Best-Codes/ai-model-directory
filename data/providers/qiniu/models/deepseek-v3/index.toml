@@ -1,0 +1,19 @@
+id = "deepseek-v3"
+name = "DeepSeek-V3"
+
+[features]
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.28986
+output = 1.15942

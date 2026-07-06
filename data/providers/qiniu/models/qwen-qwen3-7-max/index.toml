@@ -1,0 +1,21 @@
+id = "qwen/qwen3.7-max"
+name = "Qwen/Qwen3.7-Max"
+
+[features]
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.34783
+cache_write = 2.17391
+input = 1.73913
+output = 5.21739

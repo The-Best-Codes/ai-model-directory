@@ -1,0 +1,20 @@
+id = "moonshotai/kimi-k2.5"
+name = "Moonshotai/Kimi-K2.5"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 256000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.57971
+output = 3.0434799999999997

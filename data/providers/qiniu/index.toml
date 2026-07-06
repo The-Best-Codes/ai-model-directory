@@ -1,0 +1,7 @@
+name = "Qiniu"
+website = "https://www.qiniu.com"
+apiBaseUrl = "https://www.qiniu.com/ai"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["QINIU_API_KEY"]

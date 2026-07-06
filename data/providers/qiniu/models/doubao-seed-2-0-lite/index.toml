@@ -1,0 +1,21 @@
+id = "doubao-seed-2.0-lite"
+name = "Doubao Seed 2.0 Lite"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 32000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.017390000000000003
+input = 0.08696
+output = 0.52174

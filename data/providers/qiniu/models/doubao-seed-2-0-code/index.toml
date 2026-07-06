@@ -1,0 +1,21 @@
+id = "doubao-seed-2.0-code"
+name = "Doubao Seed 2.0 Code"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 128000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.09275
+input = 0.46377
+output = 2.31884

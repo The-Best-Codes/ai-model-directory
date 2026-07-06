@@ -1,0 +1,20 @@
+id = "doubao-1.5-vision-pro"
+name = "Doubao 1.5 Vision Pro"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 16000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.43478
+output = 1.30435

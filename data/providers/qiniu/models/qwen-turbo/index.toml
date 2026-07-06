@@ -1,0 +1,18 @@
+id = "qwen-turbo"
+name = "Qwen-Turbo"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.04348
+output = 0.08696
