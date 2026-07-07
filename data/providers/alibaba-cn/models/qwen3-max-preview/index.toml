@@ -5,6 +5,7 @@ release_date = "1757074317"
 
 [features]
 attachment = false
+reasoning = true
 
 [modalities]
 input = [ "text" ]

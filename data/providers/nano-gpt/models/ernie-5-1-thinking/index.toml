@@ -3,7 +3,7 @@ name = "ERNIE 5.1 Thinking"
 release_date = "1778371200"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = false
 tool_call = false
@@ -13,7 +13,7 @@ context = 119000
 output = 64000
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

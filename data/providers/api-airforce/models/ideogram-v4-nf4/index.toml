@@ -1,0 +1,13 @@
+id = "ideogram-v4-nf4"
+name = "ideogram-v4-nf4"
+release_date = "1783396243"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 10

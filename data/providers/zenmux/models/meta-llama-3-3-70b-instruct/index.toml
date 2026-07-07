@@ -4,7 +4,7 @@ release_date = "1764216354"
 
 [features]
 attachment = false
-reasoning = true
+reasoning = false
 
 [limit]
 context = 128000

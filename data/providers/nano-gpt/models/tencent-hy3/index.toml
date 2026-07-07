@@ -1,12 +1,12 @@
-id = "tencent/hy3-preview"
-name = "Tencent: Hy3 preview"
-release_date = "1776902400"
+id = "tencent/hy3"
+name = "Tencent Hy3"
+release_date = "1783296000"
 
 [features]
 attachment = false
-reasoning = false
-structured_output = false
-tool_call = false
+reasoning = true
+structured_output = true
+tool_call = true
 
 [limit]
 context = 262144

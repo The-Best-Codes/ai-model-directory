@@ -7,6 +7,13 @@ attachment = false
 structured_output = false
 tool_call = false
 
+[limit]
+context = 202800
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 1
+output = 3.2

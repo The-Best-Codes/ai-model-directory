@@ -1,10 +1,10 @@
-id = "kimi-k2-instruct-n"
-name = "Kimi-K2-Instruct-N"
-release_date = "1754618326"
+id = "hy3-n"
+name = "Hy3-N"
+release_date = "1783318840"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 temperature = true
 tool_call = true
 
