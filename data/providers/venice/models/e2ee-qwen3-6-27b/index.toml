@@ -1,0 +1,22 @@
+id = "e2ee-qwen3-6-27b"
+name = "Qwen 3.6 27B FP8"
+release_date = "1783382400"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 256000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.171
+input = 0.346
+output = 3.46

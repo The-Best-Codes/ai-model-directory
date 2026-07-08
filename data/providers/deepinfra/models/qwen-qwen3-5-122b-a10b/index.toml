@@ -6,8 +6,8 @@ attachment = true
 reasoning = true
 
 [limit]
-context = 16384
-output = 16384
+context = 262144
+output = 262144
 
 [pricing]
 input = 0.29

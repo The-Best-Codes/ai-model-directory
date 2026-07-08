@@ -1,7 +1,7 @@
 id = "gpt-audio-1.5"
 name = "gpt-audio-1.5"
-release_date = "1783396243"
+release_date = "1783480606"
 
 [pricing]
-input = 5.82
-output = 23.34
+input = 2.22
+output = 8.88

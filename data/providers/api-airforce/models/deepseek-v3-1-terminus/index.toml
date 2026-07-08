@@ -1,6 +1,6 @@
 id = "deepseek-v3.1-terminus"
 name = "deepseek-v3.1-terminus"
-release_date = "1783396243"
+release_date = "1783480606"
 
 [features]
 attachment = false

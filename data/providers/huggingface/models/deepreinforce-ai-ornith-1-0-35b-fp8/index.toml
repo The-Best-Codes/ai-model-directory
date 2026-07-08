@@ -1,0 +1,10 @@
+id = "deepreinforce-ai/Ornith-1.0-35B-FP8"
+name = "deepreinforce-ai/Ornith-1.0-35B-FP8"
+release_date = "1782445059"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

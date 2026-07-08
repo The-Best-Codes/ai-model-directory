@@ -1,6 +1,6 @@
 id = "deepinfra/Sao10K/L3-8B-Lunaris-v1-Turbo"
 name = "deepinfra/Sao10K/L3-8B-Lunaris-v1-Turbo"
-release_date = "1783394754"
+release_date = "1783479354"
 
 [features]
 attachment = false

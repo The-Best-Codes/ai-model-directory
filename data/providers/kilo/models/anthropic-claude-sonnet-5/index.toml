@@ -1,5 +1,5 @@
 id = "anthropic/claude-sonnet-5"
-name = "Anthropic: Claude Sonnet 5 (new)"
+name = "Anthropic: Claude Sonnet 5"
 release_date = "1782843083"
 
 [features]

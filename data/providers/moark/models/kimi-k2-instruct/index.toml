@@ -1,19 +1,3 @@
 id = "kimi-k2-instruct"
-last_updated = "1758007996"
 name = "kimi-k2-instruct"
 release_date = "1752492504"
-
-[features]
-attachment = false
-tool_call = true
-
-[limit]
-context = 256000
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
-
-[pricing]
-input = 0.58921576
-output = 2.35686304

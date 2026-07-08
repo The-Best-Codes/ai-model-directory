@@ -8,7 +8,7 @@ reasoning = false
 tool_call = true
 
 [limit]
-context = 118000
+context = 131072
 
 [pricing]
 cache_read = 0.013

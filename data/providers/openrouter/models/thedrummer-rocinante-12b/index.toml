@@ -6,12 +6,13 @@ release_date = "1727654400"
 [features]
 attachment = false
 reasoning = false
-structured_output = false
+structured_output = true
 temperature = true
 tool_call = false
 
 [limit]
-context = 32768
+context = 65536
+output = 65536
 
 [modalities]
 input = [ "text" ]

@@ -1,2 +1,24 @@
 id = "hy3-free"
-name = "hy3-free"
+last_updated = "1782432000"
+name = "Hy3 Free"
+open_weights = true
+release_date = "1782432000"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

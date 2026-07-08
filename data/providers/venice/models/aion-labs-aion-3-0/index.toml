@@ -1,0 +1,22 @@
+id = "aion-labs-aion-3-0"
+name = "Aion 3.0"
+release_date = "1783468800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.9375
+input = 3.75
+output = 7.5

@@ -1,6 +1,6 @@
 id = "gpt-5.1-codex-mini"
 name = "gpt-5.1-codex-mini"
-release_date = "1783396243"
+release_date = "1783480606"
 
 [features]
 attachment = false

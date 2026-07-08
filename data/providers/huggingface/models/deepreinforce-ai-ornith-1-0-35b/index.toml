@@ -1,0 +1,10 @@
+id = "deepreinforce-ai/Ornith-1.0-35B"
+name = "deepreinforce-ai/Ornith-1.0-35B"
+release_date = "1782012607"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
