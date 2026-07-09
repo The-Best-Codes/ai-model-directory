@@ -1,0 +1,16 @@
+id = "mimo-v2.5"
+name = "mimo-v2.5"
+release_date = "1783496282"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+cache_read = 0.09
+input = 0.359
+output = 1.795

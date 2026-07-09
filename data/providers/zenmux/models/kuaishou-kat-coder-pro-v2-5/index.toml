@@ -1,0 +1,19 @@
+id = "kuaishou/kat-coder-pro-v2.5"
+name = "KwaiKAT: KAT-Coder-Pro-V2.5"
+release_date = "1783490305"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.09
+input = 0.444
+output = 1.776

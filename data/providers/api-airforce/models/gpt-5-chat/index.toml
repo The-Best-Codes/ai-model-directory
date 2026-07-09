@@ -1,6 +1,6 @@
 id = "gpt-5-chat"
 name = "gpt-5-chat"
-release_date = "1783480606"
+release_date = "1783568508"
 
 [features]
 attachment = false
@@ -10,6 +10,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.12
-input = 1.11
-output = 8.88
+cache_read = 0.33
+input = 3.3
+output = 26.43

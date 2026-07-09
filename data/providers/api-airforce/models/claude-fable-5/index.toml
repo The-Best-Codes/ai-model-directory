@@ -1,0 +1,17 @@
+id = "claude-fable-5"
+name = "claude-fable-5"
+release_date = "1783568508"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.7
+cache_write = 8.75
+input = 7
+output = 35

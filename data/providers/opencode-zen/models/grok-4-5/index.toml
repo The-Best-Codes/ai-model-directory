@@ -1,0 +1,7 @@
+id = "grok-4.5"
+name = "grok-4.5"
+
+[pricing]
+cache_read = 0.5
+input = 2
+output = 6

@@ -1,0 +1,17 @@
+id = "gemini-3.1-flash-lite-image"
+name = "gemini-3.1-flash-lite-image"
+release_date = "1783482734"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.25
+output = 1.5

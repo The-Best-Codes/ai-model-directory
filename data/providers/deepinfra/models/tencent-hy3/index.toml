@@ -1,0 +1,15 @@
+id = "tencent/Hy3"
+name = "tencent/Hy3"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.035
+input = 0.14
+output = 0.58

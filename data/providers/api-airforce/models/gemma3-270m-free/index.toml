@@ -1,6 +1,6 @@
 id = "gemma3-270m:free"
 name = "gemma3-270m:free"
-release_date = "1783480606"
+release_date = "1783568508"
 
 [features]
 attachment = false

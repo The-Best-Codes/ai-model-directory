@@ -1,0 +1,19 @@
+id = "kuaishou/kat-coder-air-v2.5"
+name = "KwaiKAT: KAT-Coder-Air-V2.5"
+release_date = "1783491139"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.027
+input = 0.135
+output = 0.54

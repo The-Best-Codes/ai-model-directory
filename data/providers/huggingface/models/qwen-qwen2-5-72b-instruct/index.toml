@@ -4,16 +4,16 @@ release_date = "1726487791"
 
 [features]
 attachment = false
-structured_output = false
-tool_call = false
+structured_output = true
+tool_call = true
 
 [limit]
-context = 32000
+context = 32768
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.38
+input = 0.36
 output = 0.4

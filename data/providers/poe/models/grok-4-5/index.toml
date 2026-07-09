@@ -1,0 +1,18 @@
+id = "grok-4.5"
+name = "Grok-4.5"
+release_date = "1783461241"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5051
+input = 2.0202
+output = 6.0606
