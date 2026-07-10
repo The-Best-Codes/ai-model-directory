@@ -1,0 +1,19 @@
+id = "x-ai/grok-4.5-free"
+name = "xAI: Grok 4.5 (Free)"
+release_date = "1783570513"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 500000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

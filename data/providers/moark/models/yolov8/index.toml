@@ -1,0 +1,10 @@
+id = "YOLOv8"
+name = "YOLOv8"
+release_date = "1751510798"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]

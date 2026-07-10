@@ -1,6 +1,6 @@
 id = "gpt-realtime-1.5"
 name = "gpt-realtime-1.5"
-release_date = "1783568508"
+release_date = "1783655068"
 
 [pricing]
 cache_read = 1.05

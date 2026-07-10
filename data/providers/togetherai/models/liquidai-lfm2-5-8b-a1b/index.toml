@@ -5,7 +5,7 @@ name = "LFM2.5-8B-A1B"
 attachment = false
 
 [limit]
-context = 32768
+context = 128000
 
 [modalities]
 input = [ "text" ]

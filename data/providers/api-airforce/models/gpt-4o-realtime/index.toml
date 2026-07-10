@@ -1,6 +1,6 @@
 id = "gpt-4o-realtime"
 name = "gpt-4o-realtime"
-release_date = "1783568508"
+release_date = "1783655068"
 
 [pricing]
 cache_read = 8.55

@@ -1,0 +1,18 @@
+id = "muse-spark-1-1"
+name = "Muse Spark 1.1"
+release_date = "1783622304"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1515
+input = 1.2626
+output = 4.2929

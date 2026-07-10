@@ -1,6 +1,6 @@
 id = "moonshotai/Kimi-K2.7-Code"
 name = "Kimi K2.7 Code"
-release_date = "1783538870"
+release_date = "1783652930"
 
 [features]
 attachment = true
@@ -19,5 +19,5 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.15
 cache_write = 0
-input = 0.75
-output = 3.15
+input = 0.72
+output = 3.5

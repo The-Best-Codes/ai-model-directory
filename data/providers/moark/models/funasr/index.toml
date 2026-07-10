@@ -1,0 +1,10 @@
+id = "FunASR"
+name = "FunASR"
+release_date = "1751531057"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

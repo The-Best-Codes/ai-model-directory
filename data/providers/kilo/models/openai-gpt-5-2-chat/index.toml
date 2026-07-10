@@ -1,5 +1,5 @@
 id = "openai/gpt-5.2-chat"
-name = "OpenAI: GPT-5.2 Chat"
+name = "OpenAI: GPT-5.2 Chat (retires Aug 10)"
 release_date = "1765389783"
 
 [features]

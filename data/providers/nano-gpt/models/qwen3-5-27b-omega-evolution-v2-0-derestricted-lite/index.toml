@@ -12,7 +12,7 @@ tool_call = false
 context = 262144
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
