@@ -1,5 +1,5 @@
 id = "nvidia/llama-3.3-nemotron-super-49b-v1.5"
-name = "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5"
+name = "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5 (retires Jul 17)"
 release_date = "1760101395"
 
 [features]

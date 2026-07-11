@@ -1,0 +1,18 @@
+id = "step-3.7-flash"
+name = "Step-3.7-Flash"
+release_date = "1783593520"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0404
+input = 0.202
+output = 1.1616

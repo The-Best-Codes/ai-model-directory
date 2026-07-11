@@ -1,0 +1,8 @@
+id = "gpt-5.6-luna"
+name = "gpt-5.6-luna"
+
+[pricing]
+cache_read = 0.1
+cache_write = 1.25
+input = 1
+output = 6

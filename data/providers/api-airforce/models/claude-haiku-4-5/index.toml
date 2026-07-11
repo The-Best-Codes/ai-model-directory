@@ -1,7 +1,7 @@
 id = "claude-haiku-4.5"
 knowledge_cutoff = "1754006400"
 name = "claude-haiku-4.5"
-release_date = "1783655068"
+release_date = "1783738655"
 
 [features]
 attachment = true

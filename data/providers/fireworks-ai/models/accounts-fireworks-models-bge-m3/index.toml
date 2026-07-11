@@ -1,0 +1,15 @@
+id = "accounts/fireworks/models/bge-m3"
+name = "BGE-M3"
+open_weights = true
+
+[features]
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.016

@@ -1,0 +1,21 @@
+id = "perplexity-academic-researcher"
+name = "Perplexity Academic Researcher"
+release_date = "1783641600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 127000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 8

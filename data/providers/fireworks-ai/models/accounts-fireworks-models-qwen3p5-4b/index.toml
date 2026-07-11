@@ -1,0 +1,18 @@
+id = "accounts/fireworks/models/qwen3p5-4b"
+name = "Qwen3.5 4B"
+open_weights = true
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.2
+output = 0.2

@@ -6,7 +6,7 @@ release_date = "1777658230"
 attachment = true
 reasoning = false
 temperature = false
-tool_call = false
+tool_call = true
 
 [limit]
 context = 1000000

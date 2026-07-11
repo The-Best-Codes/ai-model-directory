@@ -1,0 +1,16 @@
+id = "gpt-5.6-terra"
+name = "gpt-5.6-terra"
+release_date = "1783738655"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+cache_write = 2.7
+input = 2.1
+output = 11.5

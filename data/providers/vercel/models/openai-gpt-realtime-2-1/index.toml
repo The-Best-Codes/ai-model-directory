@@ -1,0 +1,12 @@
+id = "openai/gpt-realtime-2.1"
+name = "gpt-realtime-2.1"
+release_date = "1783555200"
+
+[limit]
+context = 128000
+output = 32000
+
+[pricing]
+cache_read = 0.4
+input = 4
+output = 24

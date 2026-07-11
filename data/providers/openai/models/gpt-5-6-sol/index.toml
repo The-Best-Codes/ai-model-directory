@@ -1,0 +1,23 @@
+id = "gpt-5.6-sol"
+knowledge_cutoff = "1771200000"
+name = "GPT-5.6 Sol"
+release_date = "1782228018"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 5
+output = 30

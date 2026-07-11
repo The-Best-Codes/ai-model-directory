@@ -1,0 +1,21 @@
+id = "kwaipilot/kat-coder-pro-v2.5"
+name = "Kat Coder Pro V2.5"
+release_date = "1783641600"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 80000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 0.74
+output = 2.96

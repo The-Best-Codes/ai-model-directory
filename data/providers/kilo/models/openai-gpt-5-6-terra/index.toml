@@ -1,5 +1,5 @@
 id = "openai/gpt-5.6-terra"
-name = "OpenAI: GPT-5.6 Terra"
+name = "OpenAI: GPT-5.6 Terra (new)"
 release_date = "1783590857"
 
 [features]

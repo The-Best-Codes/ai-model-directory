@@ -1,0 +1,17 @@
+id = "openai/gpt-5.6-terra"
+name = "OpenAI: GPT-5.6 Terra"
+
+[features]
+attachment = true
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5
+output = 22.5

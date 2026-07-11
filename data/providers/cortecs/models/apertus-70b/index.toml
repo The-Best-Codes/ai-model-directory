@@ -1,0 +1,15 @@
+id = "apertus-70b"
+name = "apertus-70b"
+release_date = "1783507082"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 65536
+
+[pricing]
+input = 1.25
+output = 2

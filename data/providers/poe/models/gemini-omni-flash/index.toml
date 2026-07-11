@@ -14,4 +14,4 @@ output = [ "video" ]
 
 [pricing]
 input = 1.5152
-output = 17.6768
+output = 9.0909

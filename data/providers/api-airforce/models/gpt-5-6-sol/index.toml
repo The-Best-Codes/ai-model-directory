@@ -1,0 +1,15 @@
+id = "gpt-5.6-sol"
+name = "gpt-5.6-sol"
+release_date = "1783738655"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 4.2
+output = 23
