@@ -10,7 +10,7 @@ reasoning = true
 context = 1050000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]

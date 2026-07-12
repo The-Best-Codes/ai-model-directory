@@ -1,6 +1,6 @@
 id = "grok-2-vision"
 name = "grok-2-vision"
-release_date = "1783738655"
+release_date = "1783826591"
 
 [features]
 attachment = false

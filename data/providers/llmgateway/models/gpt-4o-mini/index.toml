@@ -3,7 +3,7 @@ name = "GPT-4o Mini"
 release_date = "1721260800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true
@@ -13,7 +13,7 @@ tool_call = true
 context = 128000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

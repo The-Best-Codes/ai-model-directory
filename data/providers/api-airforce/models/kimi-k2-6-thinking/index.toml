@@ -1,6 +1,6 @@
 id = "kimi-k2.6-thinking"
 name = "kimi-k2.6-thinking"
-release_date = "1783738655"
+release_date = "1783826591"
 
 [features]
 attachment = false
@@ -10,5 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.55
-output = 2
+input = 0.85
+output = 3.7

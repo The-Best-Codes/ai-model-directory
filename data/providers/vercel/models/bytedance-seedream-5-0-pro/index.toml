@@ -1,0 +1,15 @@
+id = "bytedance/seedream-5.0-pro"
+name = "Seedream 5.0 Pro"
+release_date = "1783728000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0.003
