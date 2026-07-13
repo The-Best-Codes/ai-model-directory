@@ -1,9 +1,10 @@
 id = "suno-v4.5"
 name = "suno-v4.5"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = false
 
 [modalities]
 input = [ "text" ]

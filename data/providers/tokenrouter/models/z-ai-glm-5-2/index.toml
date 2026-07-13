@@ -9,9 +9,9 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.2857
-cache_write = 1.1429
-input = 1.1429
-input_audio = 1.1429
-output = 4
-output_audio = 1.1429
+cache_read = 0.11428
+cache_write = 0.45716
+input = 0.45716
+input_audio = 0.45716
+output = 1.6
+output_audio = 0.45716

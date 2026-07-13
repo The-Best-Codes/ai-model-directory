@@ -1,9 +1,10 @@
 id = "qwen3.7"
 name = "qwen3.7"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = true
 
 [modalities]
 input = [ "text" ]

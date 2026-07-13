@@ -1,9 +1,10 @@
 id = "gpt-4-vision"
 name = "gpt-4-vision"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = false
 
 [modalities]
 input = [ "text" ]

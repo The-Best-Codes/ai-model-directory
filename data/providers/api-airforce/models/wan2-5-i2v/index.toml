@@ -1,6 +1,9 @@
 id = "wan2.5-i2v"
 name = "wan2.5-i2v"
-release_date = "1783826591"
+release_date = "1783913198"
+
+[features]
+reasoning = false
 
 [pricing]
 input = 18.66

@@ -1,11 +1,11 @@
 id = "deepseek-v3.2"
 knowledge_cutoff = "1756684800"
 name = "deepseek-v3.2"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 structured_output = true
 tool_call = true
 

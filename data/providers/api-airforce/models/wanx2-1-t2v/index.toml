@@ -1,6 +1,9 @@
 id = "wanx2.1-t2v"
 name = "wanx2.1-t2v"
-release_date = "1783826591"
+release_date = "1783913198"
+
+[features]
+reasoning = false
 
 [pricing]
 input = 43.5

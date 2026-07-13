@@ -1,14 +1,16 @@
 id = "grok-4.20-0309"
 name = "grok-4.20-0309"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
+cache_read = 0.3
 input = 3.12
 output = 9.33

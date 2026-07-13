@@ -1,7 +1,7 @@
 id = "grok-4.1-fast-reasoning"
 knowledge_cutoff = "1756684800"
 name = "grok-4.1-fast-reasoning"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = true

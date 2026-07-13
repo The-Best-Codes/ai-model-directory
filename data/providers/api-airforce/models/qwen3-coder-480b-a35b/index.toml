@@ -1,9 +1,10 @@
 id = "qwen3-coder-480b-a35b"
 name = "qwen3-coder-480b-a35b"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = true
 
 [modalities]
 input = [ "text" ]

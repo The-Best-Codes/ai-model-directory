@@ -1,9 +1,10 @@
 id = "mimo-v2.5-pro"
 name = "mimo-v2.5-pro"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = true
 
 [modalities]
 input = [ "text" ]

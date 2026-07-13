@@ -2,5 +2,11 @@ id = "bytedance/seedance-v1.0-pro-fast"
 name = "Seedance v1.0 Pro Fast"
 release_date = "1761264000"
 
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
 [modalities]
+input = [ "text" ]
 output = [ "video" ]

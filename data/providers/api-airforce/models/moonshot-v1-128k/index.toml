@@ -1,9 +1,10 @@
 id = "moonshot-v1-128k"
 name = "moonshot-v1-128k"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = false
 
 [modalities]
 input = [ "text" ]

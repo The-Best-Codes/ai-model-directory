@@ -1,9 +1,10 @@
 id = "ideogram-v4-fp8"
 name = "ideogram-v4-fp8"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = false
 
 [modalities]
 input = [ "text" ]

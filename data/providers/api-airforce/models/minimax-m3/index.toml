@@ -1,9 +1,10 @@
 id = "minimax-m3"
 name = "minimax-m3"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = false
 
 [modalities]
 input = [ "text" ]

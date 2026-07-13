@@ -1,9 +1,10 @@
 id = "doubao-seed-2-0-mini-260215"
 name = "doubao-seed-2-0-mini-260215"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = false
 
 [modalities]
 input = [ "text" ]

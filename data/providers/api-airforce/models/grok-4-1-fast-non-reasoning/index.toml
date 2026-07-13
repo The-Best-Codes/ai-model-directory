@@ -1,11 +1,11 @@
 id = "grok-4.1-fast-non-reasoning"
 knowledge_cutoff = "1756684800"
 name = "grok-4.1-fast-non-reasoning"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 tool_call = true
 
 [limit]

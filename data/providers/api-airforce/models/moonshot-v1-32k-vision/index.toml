@@ -1,9 +1,10 @@
 id = "moonshot-v1-32k-vision"
 name = "moonshot-v1-32k-vision"
-release_date = "1783826591"
+release_date = "1783913198"
 
 [features]
 attachment = false
+reasoning = false
 
 [modalities]
 input = [ "text" ]
