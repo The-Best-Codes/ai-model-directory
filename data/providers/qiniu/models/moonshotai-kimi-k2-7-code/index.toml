@@ -3,9 +3,9 @@ name = "Moonshotai/Kimi-K2.7-Code"
 
 [features]
 attachment = true
-reasoning = false
-structured_output = false
-tool_call = false
+reasoning = true
+structured_output = true
+tool_call = true
 
 [limit]
 context = 262144

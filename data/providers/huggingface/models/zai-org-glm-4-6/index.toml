@@ -5,15 +5,8 @@ release_date = "1759170171"
 [features]
 attachment = false
 structured_output = false
-tool_call = true
-
-[limit]
-context = 204800
+tool_call = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.55
-output = 2.2

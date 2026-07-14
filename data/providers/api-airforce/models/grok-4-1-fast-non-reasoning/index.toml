@@ -1,7 +1,7 @@
 id = "grok-4.1-fast-non-reasoning"
 knowledge_cutoff = "1756684800"
 name = "grok-4.1-fast-non-reasoning"
-release_date = "1783913198"
+release_date = "1783997318"
 
 [features]
 attachment = true

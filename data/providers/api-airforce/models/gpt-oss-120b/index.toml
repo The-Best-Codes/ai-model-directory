@@ -1,7 +1,7 @@
 id = "gpt-oss-120b"
 knowledge_cutoff = "1717200000"
 name = "gpt-oss-120b"
-release_date = "1783913198"
+release_date = "1783997318"
 
 [features]
 attachment = false

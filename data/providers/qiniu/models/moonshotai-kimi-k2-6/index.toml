@@ -3,7 +3,7 @@ name = "Moonshotai/Kimi-K2.6"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 structured_output = true
 tool_call = true
 

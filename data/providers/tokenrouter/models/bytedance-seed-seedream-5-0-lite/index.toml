@@ -12,5 +12,5 @@ output = [ "image" ]
 cache_read = 0
 cache_write = 0
 input_audio = 0
-output = 0.063
+output = 0.07
 output_audio = 0

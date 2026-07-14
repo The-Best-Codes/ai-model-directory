@@ -1,0 +1,16 @@
+id = "gpt-5.6-luna"
+name = "gpt-5.6-luna"
+release_date = "1783940400"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[pricing]
+cache_read = 0.099
+input = 0.987
+output = 5.924

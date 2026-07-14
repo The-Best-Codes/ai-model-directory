@@ -1,0 +1,24 @@
+id = "glm-5.2-us"
+last_updated = "1783389621"
+name = "GLM-5.2-US"
+release_date = "1783389621"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+input = 1048576
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.28
+input = 1.4
+output = 4.4

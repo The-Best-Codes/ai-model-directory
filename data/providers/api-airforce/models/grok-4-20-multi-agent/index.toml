@@ -1,6 +1,6 @@
 id = "grok-4.20-multi-agent"
 name = "grok-4.20-multi-agent"
-release_date = "1783913198"
+release_date = "1783997318"
 
 [features]
 attachment = false
@@ -11,6 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.3
 input = 3.12
 output = 9.33

@@ -1,15 +1,21 @@
 id = "kimi-k2.6-thinking"
+knowledge_cutoff = "1769904000"
 name = "kimi-k2.6-thinking"
-release_date = "1783913198"
+release_date = "1783997318"
 
 [features]
 attachment = false
 reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 16384
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.85
-output = 3.7
+input = 0.55
+output = 2

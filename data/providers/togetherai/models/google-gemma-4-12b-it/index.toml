@@ -1,0 +1,18 @@
+id = "google/gemma-4-12B-it"
+name = "Gemma 4 12B It"
+release_date = "1783909139"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0
