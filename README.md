@@ -39,6 +39,7 @@ data/
       index.toml # provider info (name, website, apiBaseUrl, aiSdk)
       logo-black.svg # optional: black-and-white logo for the provider
       logo-raw.svg # optional: raw SVG logo for the provider
+      logo-raw-bg.svg # optional: logo-raw.svg on a square background optimized for contrast
       models/
         <model-id>/
           index.toml # generated: normalized model metadata

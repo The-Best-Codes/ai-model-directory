@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <rect width="96" height="96" fill="#ffffff"/>
+  <g transform="translate(8.000, 8.000) scale(0.8333)">
+    <defs><clipPath id="a"><path d="M9.6 22h76.5v49h-76.5Zm0 0"/></clipPath></defs><g clip-path="url(#a)"><path fill="#23d57c" fill-rule="evenodd" d="M38.82 22.9v18.05l-29.22 29.22h29.22v-18.06l18.06 18.06h29.22Zm0 0"/></g>
+  </g>
+</svg>
