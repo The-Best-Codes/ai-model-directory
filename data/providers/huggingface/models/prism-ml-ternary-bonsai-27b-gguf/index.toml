@@ -1,0 +1,19 @@
+id = "prism-ml/Ternary-Bonsai-27B-gguf"
+name = "prism-ml/Ternary-Bonsai-27B-gguf"
+release_date = "1783124641"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

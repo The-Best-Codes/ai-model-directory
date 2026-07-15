@@ -1,0 +1,16 @@
+id = "bytedance-seed/seedream-5.0-pro"
+name = "bytedance-seed/seedream-5.0-pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input_audio = 0
+output = 0.18
+output_audio = 0

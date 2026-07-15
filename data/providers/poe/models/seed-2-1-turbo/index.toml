@@ -1,0 +1,17 @@
+id = "seed-2.1-turbo"
+name = "Seed-2.1-Turbo"
+release_date = "1784020310"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6364
+output = 3.1616

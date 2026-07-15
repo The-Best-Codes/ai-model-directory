@@ -4,7 +4,13 @@ release_date = "1753945495"
 
 [features]
 attachment = false
+structured_output = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.228
+output = 0.912

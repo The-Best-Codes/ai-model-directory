@@ -1,0 +1,15 @@
+id = "exec-agent-c"
+name = "Exec Agent C"
+
+[features]
+reasoning = false
+tool_call = true
+
+[limit]
+context = 260000
+input = 244000
+output = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

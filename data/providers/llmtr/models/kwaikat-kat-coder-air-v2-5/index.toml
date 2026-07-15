@@ -1,0 +1,19 @@
+id = "kwaikat/kat-coder-air-v2.5"
+name = "KwaiKAT: KAT-Coder-Air V2.5"
+release_date = "1784008980"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.15
+output = 0.6

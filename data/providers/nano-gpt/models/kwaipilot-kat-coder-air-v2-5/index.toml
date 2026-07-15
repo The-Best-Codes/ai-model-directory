@@ -1,0 +1,21 @@
+id = "kwaipilot/kat-coder-air-v2.5"
+name = "KAT Coder Air V2.5"
+release_date = "1783987200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 80000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6
