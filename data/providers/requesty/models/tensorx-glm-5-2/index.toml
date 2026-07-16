@@ -1,6 +1,6 @@
 id = "tensorx/glm-5.2"
 name = "tensorx/glm-5.2"
-release_date = "1782554954"
+release_date = "1784122168"
 
 [features]
 attachment = false

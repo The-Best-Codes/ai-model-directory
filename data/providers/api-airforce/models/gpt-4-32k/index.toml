@@ -1,6 +1,6 @@
 id = "gpt-4-32k"
 name = "gpt-4-32k"
-release_date = "1784083661"
+release_date = "1784170515"
 
 [features]
 attachment = false
@@ -9,7 +9,3 @@ reasoning = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 205.32
-output = 410.67

@@ -13,6 +13,6 @@ output = 65536
 input = [ "text" ]
 
 [pricing]
-cache_read = 0.929
-input = 1.858
-output = 6.01
+cache_read = 0.769
+input = 1.538
+output = 4.84

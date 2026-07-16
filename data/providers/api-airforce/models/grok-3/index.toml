@@ -1,6 +1,6 @@
 id = "grok-3"
 name = "grok-3"
-release_date = "1784083661"
+release_date = "1784170515"
 
 [features]
 attachment = false
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.45
-output = 2.25
+input = 0.18
+output = 0.84

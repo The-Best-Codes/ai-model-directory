@@ -1,6 +1,6 @@
 id = "whisper-1"
 name = "whisper-1"
-release_date = "1784083661"
+release_date = "1784170515"
 
 [features]
 reasoning = false

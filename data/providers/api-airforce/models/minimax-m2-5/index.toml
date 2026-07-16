@@ -1,7 +1,7 @@
 id = "minimax-m2.5"
 knowledge_cutoff = "1748736000"
 name = "minimax-m2.5"
-release_date = "1784083661"
+release_date = "1784170515"
 
 [features]
 attachment = false

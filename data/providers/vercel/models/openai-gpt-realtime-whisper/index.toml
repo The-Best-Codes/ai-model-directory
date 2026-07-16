@@ -1,0 +1,14 @@
+id = "openai/gpt-realtime-whisper"
+name = "gpt-realtime-whisper"
+release_date = "1778112000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0002

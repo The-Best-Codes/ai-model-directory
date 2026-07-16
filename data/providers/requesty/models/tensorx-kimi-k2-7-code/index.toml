@@ -1,6 +1,6 @@
 id = "tensorx/kimi-k2.7-code"
 name = "tensorx/kimi-k2.7-code"
-release_date = "1782554949"
+release_date = "1784122168"
 
 [features]
 attachment = true

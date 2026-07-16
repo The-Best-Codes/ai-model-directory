@@ -13,4 +13,4 @@ context = 2000
 
 [modalities]
 input = [ "text" ]
-output = [ "audio" ]
+output = [ "text" ]

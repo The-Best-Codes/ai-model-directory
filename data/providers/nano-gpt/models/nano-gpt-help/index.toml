@@ -1,0 +1,21 @@
+id = "nano-gpt-help"
+name = "NanoGPT Help"
+release_date = "1780704000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 6000
+output = 512
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,6 +1,6 @@
 id = "tensorx/deepseek-v4-pro"
 name = "tensorx/deepseek-v4-pro"
-release_date = "1782554943"
+release_date = "1784122168"
 
 [features]
 attachment = false

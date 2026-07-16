@@ -10,4 +10,4 @@ tool_call = false
 
 [modalities]
 input = [ "audio", "image", "text" ]
-output = [ "video" ]
+output = [ "text" ]
