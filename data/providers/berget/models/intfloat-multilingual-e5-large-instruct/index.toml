@@ -1,6 +1,6 @@
 id = "intfloat/multilingual-e5-large-instruct"
 name = "multilingual-e5-large-instruct"
-open_weights = true
+open_weights = false
 release_date = "1745712000"
 
 [features]
@@ -11,5 +11,5 @@ tool_call = false
 input = [ "text" ]
 
 [pricing]
-input = 0.0343233891
-output = 0.0228822594
+input = 34397.8479
+output = 22931.8986

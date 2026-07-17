@@ -1,0 +1,19 @@
+id = "moonshotai/kimi-k3-free"
+name = "MoonshotAI: Kimi K3 (Free)"
+release_date = "1784249795"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

@@ -1,0 +1,24 @@
+id = "kwaipilot/kat-coder-pro-v2.5:free"
+name = "Kwaipilot: KAT-Coder-Pro V2.5 (free)"
+release_date = "1756238927"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 80000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0
+reasoning = 0

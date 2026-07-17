@@ -2,5 +2,13 @@ id = "xai/grok-stt"
 name = "Grok STT"
 release_date = "1773619200"
 
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
 [pricing]
 input = 0

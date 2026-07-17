@@ -1,0 +1,18 @@
+id = "thinkingmachines/Inkling"
+name = "Inkling FP4"
+release_date = "1784241920"
+
+[features]
+attachment = false
+
+[limit]
+context = 524288
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.17
+input = 1
+output = 4.05

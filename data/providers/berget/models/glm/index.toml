@@ -1,6 +1,6 @@
 id = "glm"
 name = "glm"
-open_weights = true
+open_weights = false
 release_date = "1768780800"
 
 [features]
@@ -12,5 +12,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.800879079
-output = 2.860282425
+input = 802616.451
+output = 2866487.325

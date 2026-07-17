@@ -1,6 +1,6 @@
 id = "e5"
 name = "e5"
-open_weights = true
+open_weights = false
 release_date = "1757548800"
 
 [features]
@@ -11,5 +11,5 @@ tool_call = false
 input = [ "text" ]
 
 [pricing]
-input = 0.0343233891
+input = 34397.8479
 output = 0

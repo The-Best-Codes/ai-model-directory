@@ -7,5 +7,5 @@ structured_output = false
 tool_call = false
 
 [pricing]
-input = 1.65
-output = 6.6
+input = 0.33
+output = 1.32

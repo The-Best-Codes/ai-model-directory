@@ -1,10 +1,11 @@
 id = "claude-opus-4.7"
 name = "claude-opus-4.7"
-release_date = "1784170515"
+release_date = "1784257035"
 
 [features]
 attachment = false
 reasoning = true
+tool_call = false
 
 [modalities]
 input = [ "text" ]

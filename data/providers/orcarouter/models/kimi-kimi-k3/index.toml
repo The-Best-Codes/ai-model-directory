@@ -1,0 +1,16 @@
+id = "kimi/kimi-k3"
+name = "MoonshotAI: Kimi K3"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 15
