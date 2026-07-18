@@ -1,0 +1,9 @@
+id = "google/veo-3.0-fast-generate-001"
+name = "Veo 3"
+release_date = "1784312822"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]

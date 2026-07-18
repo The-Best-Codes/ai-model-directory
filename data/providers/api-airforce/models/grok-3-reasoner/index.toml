@@ -1,6 +1,6 @@
 id = "grok-3-reasoner"
 name = "grok-3-reasoner"
-release_date = "1784257035"
+release_date = "1784342984"
 
 [features]
 attachment = false

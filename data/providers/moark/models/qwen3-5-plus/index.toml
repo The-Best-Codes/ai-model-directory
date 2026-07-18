@@ -1,0 +1,15 @@
+id = "Qwen3.5-Plus"
+last_updated = "1784279236"
+name = "Qwen3.5-Plus"
+release_date = "1781661600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.11807672
+output = 0.70846032

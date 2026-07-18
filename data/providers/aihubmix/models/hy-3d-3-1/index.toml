@@ -1,0 +1,11 @@
+id = "hy-3d-3.1"
+name = "hy-3d-3.1"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]

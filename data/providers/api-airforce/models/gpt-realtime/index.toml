@@ -1,10 +1,10 @@
 id = "gpt-realtime"
 name = "gpt-realtime"
-release_date = "1784257035"
+release_date = "1784342984"
 
 [features]
 reasoning = false
 
 [pricing]
-input = 16.08
-output = 32.13
+input = 13.68
+output = 27.39

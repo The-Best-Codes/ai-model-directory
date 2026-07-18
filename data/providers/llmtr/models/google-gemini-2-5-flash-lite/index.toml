@@ -15,5 +15,4 @@ input = [ "audio", "image", "text", "video" ]
 [pricing]
 cache_write = 0.01
 input = 0.1
-input_audio = 0.3
-output = 0.4
+output = 0.1

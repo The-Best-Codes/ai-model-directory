@@ -1,0 +1,14 @@
+id = "openrouter/auto-beta"
+name = "Auto Router (Beta)"
+release_date = "1784311165"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "image", "text" ]

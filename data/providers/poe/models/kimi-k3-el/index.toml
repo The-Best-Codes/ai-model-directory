@@ -1,0 +1,17 @@
+id = "kimi-k3-el"
+name = "Kimi-K3-EL"
+release_date = "1784217567"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.0303
+output = 15.1515

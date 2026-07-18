@@ -1,6 +1,6 @@
 id = "grok-code-fast-1"
 name = "grok-code-fast-1"
-release_date = "1784257035"
+release_date = "1784342984"
 
 [features]
 attachment = false
@@ -11,5 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.3
-output = 2.34
+cache_read = 0.03
+input = 0.33
+output = 2.31

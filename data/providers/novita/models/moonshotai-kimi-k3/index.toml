@@ -1,0 +1,21 @@
+id = "moonshotai/kimi-k3"
+name = "Kimi K3"
+release_date = "1784168859"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 1048576
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 15

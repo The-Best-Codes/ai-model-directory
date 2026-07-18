@@ -1,0 +1,15 @@
+id = "Qwen3-Coder-Flash"
+last_updated = "1784279403"
+name = "Qwen3-Coder-Flash"
+release_date = "1781661600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1475959
+output = 0.5903836

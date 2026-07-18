@@ -1,5 +1,5 @@
 id = "stepfun/step-3.7-flash"
-name = "Step-3.7 Flash"
+name = "StepFun/Step-3.7 Flash"
 
 [features]
 attachment = true

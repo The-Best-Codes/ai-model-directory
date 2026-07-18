@@ -1,0 +1,22 @@
+id = "thinkingmachines/inkling"
+name = "Thinking Machines: Inkling"
+release_date = "1784325956"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = true
+
+[limit]
+context = 524288
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.17
+input = 1
+output = 4.05

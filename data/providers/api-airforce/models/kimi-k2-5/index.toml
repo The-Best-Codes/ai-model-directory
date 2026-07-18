@@ -1,7 +1,7 @@
 id = "kimi-k2.5"
 knowledge_cutoff = "1754006400"
 name = "kimi-k2.5"
-release_date = "1784257035"
+release_date = "1784342984"
 
 [features]
 attachment = false

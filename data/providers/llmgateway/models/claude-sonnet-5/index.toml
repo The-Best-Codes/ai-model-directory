@@ -6,7 +6,7 @@ release_date = "1782777600"
 attachment = true
 reasoning = true
 structured_output = true
-temperature = true
+temperature = false
 tool_call = true
 
 [limit]

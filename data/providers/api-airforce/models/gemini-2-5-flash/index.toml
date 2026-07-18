@@ -1,7 +1,7 @@
 id = "gemini-2.5-flash"
 knowledge_cutoff = "1735689600"
 name = "gemini-2.5-flash"
-release_date = "1784257035"
+release_date = "1784342984"
 
 [features]
 attachment = true
