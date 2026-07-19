@@ -1,6 +1,6 @@
 id = "gpt-4o-transcribe-diarize"
 name = "gpt-4o-transcribe-diarize"
-release_date = "1784342984"
+release_date = "1784431181"
 
 [features]
 reasoning = false

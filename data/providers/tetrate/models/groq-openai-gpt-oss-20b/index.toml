@@ -1,6 +1,6 @@
 id = "groq/openai/gpt-oss-20b"
 name = "groq/openai/gpt-oss-20b"
-release_date = "1784341554"
+release_date = "1784429632"
 
 [features]
 attachment = false

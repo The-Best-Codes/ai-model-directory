@@ -1,0 +1,15 @@
+id = "unmoderated-gpt"
+name = "unmoderated-gpt"
+release_date = "1784431181"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

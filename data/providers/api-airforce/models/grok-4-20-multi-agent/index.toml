@@ -1,6 +1,6 @@
 id = "grok-4.20-multi-agent"
 name = "grok-4.20-multi-agent"
-release_date = "1784342984"
+release_date = "1784431181"
 
 [features]
 attachment = false

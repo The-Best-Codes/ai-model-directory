@@ -1,6 +1,6 @@
 id = "gpt-4-1106"
 name = "gpt-4-1106"
-release_date = "1784342984"
+release_date = "1784431181"
 
 [features]
 attachment = false
@@ -12,4 +12,4 @@ output = [ "text" ]
 
 [pricing]
 input = 2.13
-output = 4.29
+output = 6.42

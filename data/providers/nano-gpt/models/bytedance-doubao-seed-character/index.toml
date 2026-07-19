@@ -1,0 +1,21 @@
+id = "bytedance/doubao-seed-character"
+name = "Doubao Seed Character"
+release_date = "1784332800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.20043
+output = 0.5009899999999999
