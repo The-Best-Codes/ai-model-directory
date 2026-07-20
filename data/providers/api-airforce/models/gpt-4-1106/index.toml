@@ -1,6 +1,6 @@
 id = "gpt-4-1106"
 name = "gpt-4-1106"
-release_date = "1784431181"
+release_date = "1784518432"
 
 [features]
 attachment = false

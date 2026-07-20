@@ -1,7 +1,7 @@
 id = "gpt-5.2-chat"
 knowledge_cutoff = "1756684800"
 name = "gpt-5.2-chat"
-release_date = "1784431181"
+release_date = "1784518432"
 
 [features]
 attachment = true

@@ -1,0 +1,16 @@
+id = "meta/muse-spark-1.1"
+name = "Meta: Muse Spark 1.1"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 4.25

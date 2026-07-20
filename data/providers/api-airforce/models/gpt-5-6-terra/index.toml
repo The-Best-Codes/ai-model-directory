@@ -1,6 +1,6 @@
 id = "gpt-5.6-terra"
 name = "gpt-5.6-terra"
-release_date = "1784431181"
+release_date = "1784518432"
 
 [features]
 attachment = false
