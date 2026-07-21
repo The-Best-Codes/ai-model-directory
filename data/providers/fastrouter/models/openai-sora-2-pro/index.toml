@@ -3,7 +3,7 @@ name = "OpenAI: Sora 2 Pro"
 release_date = "1759304819"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = false
 temperature = false
@@ -14,7 +14,7 @@ context = 8192
 output = 4096
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "video" ]
 
 [pricing]

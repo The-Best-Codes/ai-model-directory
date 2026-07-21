@@ -1,6 +1,6 @@
 id = "gpt-5-nano"
 name = "gpt-5-nano"
-release_date = "1784518432"
+release_date = "1784603657"
 
 [features]
 attachment = false

@@ -1,5 +1,5 @@
 id = "openrouter/pareto-code"
-name = "Pareto Code Router"
+name = "OpenRouter Pareto Code Router"
 release_date = "1776747900"
 
 [features]

@@ -1,0 +1,9 @@
+id = "xai/grok-imagine-video-1.5"
+name = "Grok Imagine Video 1.5"
+release_date = "1784569225"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]

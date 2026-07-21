@@ -1,16 +1,16 @@
-id = "tencent/hy3:free"
-name = "Tencent: Hy3 (free)"
-release_date = "1783344048"
+id = "meituan/longcat-2.0"
+name = "Meituan: LongCat 2.0"
+release_date = "1784554658"
 
 [features]
 attachment = false
 reasoning = true
-structured_output = true
+structured_output = false
 temperature = true
 tool_call = true
 
 [limit]
-context = 262144
+context = 1048756
 output = 262144
 
 [modalities]
@@ -18,5 +18,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0
-output = 0
+cache_read = 0.006
+input = 0.3
+output = 1.2

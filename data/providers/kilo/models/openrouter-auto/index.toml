@@ -1,5 +1,5 @@
 id = "openrouter/auto"
-name = "Auto Router"
+name = "OpenRouter Auto Router"
 release_date = "1699401600"
 
 [features]

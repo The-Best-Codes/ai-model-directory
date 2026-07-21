@@ -1,9 +1,0 @@
-id = "vidu2.0"
-name = "vidu2.0"
-release_date = "1784518432"
-
-[features]
-reasoning = false
-
-[pricing]
-input = 3.42

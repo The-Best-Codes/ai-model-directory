@@ -1,7 +1,7 @@
 id = "kimi-k2.6-thinking"
 knowledge_cutoff = "1769904000"
 name = "kimi-k2.6-thinking"
-release_date = "1784518432"
+release_date = "1784603657"
 
 [features]
 attachment = false

@@ -1,5 +1,5 @@
 id = "openrouter/bodybuilder"
-name = "Body Builder (beta)"
+name = "OpenRouter Body Builder (beta)"
 release_date = "1764903653"
 
 [features]
