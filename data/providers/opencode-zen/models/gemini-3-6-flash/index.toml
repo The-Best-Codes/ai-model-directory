@@ -1,0 +1,8 @@
+id = "gemini-3.6-flash"
+name = "gemini-3.6-flash"
+
+[pricing]
+cache_read = 0.15
+input = 1.5
+input_audio = 1.5
+output = 7.5

@@ -14,4 +14,4 @@ cache_write = 0.08333
 input = 1.5
 input_audio = 3
 output = 9
-output_audio = 0.15
+output_audio = 1.5

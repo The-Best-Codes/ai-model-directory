@@ -1,16 +1,10 @@
 id = "kimi-k2"
-knowledge_cutoff = "1733011200"
 name = "kimi-k2"
-release_date = "1784603657"
+release_date = "1784689050"
 
 [features]
 attachment = false
 reasoning = false
-tool_call = true
-
-[limit]
-context = 131072
-output = 8192
 
 [modalities]
 input = [ "text" ]

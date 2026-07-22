@@ -1,0 +1,17 @@
+id = "google/gemini-3.6-flash"
+name = "google/gemini-3.6-flash"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+cache_write = 0.08333
+input = 1.5
+input_audio = 1.5
+output = 7.5
+output_audio = 1.5

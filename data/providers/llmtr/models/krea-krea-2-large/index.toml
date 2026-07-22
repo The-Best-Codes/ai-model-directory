@@ -1,0 +1,12 @@
+id = "krea/krea-2-large"
+name = "Krea 2 Large"
+release_date = "1784609358"
+
+[features]
+attachment = true
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "image", "text" ]

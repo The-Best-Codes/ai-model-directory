@@ -1,0 +1,11 @@
+id = "laguna-s-2.1-free"
+name = "Laguna S 2.1 Free"
+
+[limit]
+context = 256000
+output = 32000
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

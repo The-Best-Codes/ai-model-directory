@@ -12,5 +12,5 @@ tool_call = false
 context = 256
 
 [modalities]
-input = [ "text", "video" ]
+input = [ "image", "text", "video" ]
 output = [ "video" ]

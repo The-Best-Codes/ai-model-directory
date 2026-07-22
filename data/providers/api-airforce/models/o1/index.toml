@@ -1,6 +1,6 @@
 id = "o1"
 name = "o1"
-release_date = "1784603657"
+release_date = "1784689050"
 
 [features]
 attachment = false
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 3.21
-output = 12.84
+input = 3.27
+output = 13.05

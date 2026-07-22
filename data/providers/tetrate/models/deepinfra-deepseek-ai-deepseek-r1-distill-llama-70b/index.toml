@@ -1,6 +1,6 @@
 id = "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
 name = "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
-release_date = "1784602432"
+release_date = "1784688832"
 
 [features]
 attachment = false

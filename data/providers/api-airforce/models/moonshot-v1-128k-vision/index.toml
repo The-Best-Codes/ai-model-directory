@@ -1,6 +1,6 @@
 id = "moonshot-v1-128k-vision"
 name = "moonshot-v1-128k-vision"
-release_date = "1784603657"
+release_date = "1784689050"
 
 [features]
 attachment = false
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 4.2
-output = 12.81
+input = 4.26
+output = 12.78

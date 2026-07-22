@@ -1,0 +1,17 @@
+id = "google/gemini-3.5-flash-lite"
+name = "google/gemini-3.5-flash-lite"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.08333
+input = 0.3
+input_audio = 0.3
+output = 2.5
+output_audio = 0.3

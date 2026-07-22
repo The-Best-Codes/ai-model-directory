@@ -1,0 +1,7 @@
+id = "gemini-3.5-flash-lite"
+name = "gemini-3.5-flash-lite"
+
+[pricing]
+cache_read = 0.03
+input = 0.3
+output = 2.5

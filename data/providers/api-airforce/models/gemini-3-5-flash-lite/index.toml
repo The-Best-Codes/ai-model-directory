@@ -1,0 +1,16 @@
+id = "gemini-3.5-flash-lite"
+name = "gemini-3.5-flash-lite"
+release_date = "1784689050"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25
+output = 2.06

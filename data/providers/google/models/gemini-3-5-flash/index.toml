@@ -1,5 +1,4 @@
 id = "gemini-3.5-flash"
-knowledge_cutoff = "1735689600"
 name = "Gemini 3.5 Flash"
 release_date = "1777593600"
 

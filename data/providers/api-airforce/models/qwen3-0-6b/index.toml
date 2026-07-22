@@ -1,6 +1,6 @@
 id = "qwen3-0.6b"
 name = "qwen3-0.6b"
-release_date = "1784603657"
+release_date = "1784689050"
 
 [features]
 attachment = false
@@ -9,7 +9,3 @@ reasoning = true
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.06
-output = 0.27
