@@ -2,6 +2,9 @@ id = "glm-4.7"
 name = "Z.AI: GLM 4.7"
 release_date = "1769031670"
 
+[features]
+reasoning = true
+
 [limit]
 context = 202752
 output = 202752

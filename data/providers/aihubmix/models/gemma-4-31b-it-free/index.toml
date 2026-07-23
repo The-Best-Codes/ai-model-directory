@@ -1,0 +1,18 @@
+id = "gemma-4-31b-it-free"
+name = "gemma-4-31b-it-free"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

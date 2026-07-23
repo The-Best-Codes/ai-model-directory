@@ -1,0 +1,18 @@
+id = "nemotron-3-nano-omni-30b-a3b-reasoning-free"
+name = "nemotron-3-nano-omni-30b-a3b-reasoning-free"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

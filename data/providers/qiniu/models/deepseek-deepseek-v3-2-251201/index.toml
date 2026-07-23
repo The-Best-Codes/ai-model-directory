@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v3.2-251201"
-name = "Deepseek/DeepSeek-V3.2"
+name = "DeepSeek/DeepSeek-V3.2"
 
 [features]
 reasoning = false

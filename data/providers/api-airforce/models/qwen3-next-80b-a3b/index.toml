@@ -1,6 +1,6 @@
 id = "qwen3-next-80b-a3b"
 name = "qwen3-next-80b-a3b"
-release_date = "1784689050"
+release_date = "1784776731"
 
 [features]
 attachment = false

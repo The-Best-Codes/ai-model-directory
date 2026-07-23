@@ -1,6 +1,6 @@
 id = "deepinfra/anthropic/claude-4-sonnet"
 name = "deepinfra/anthropic/claude-4-sonnet"
-release_date = "1784688832"
+release_date = "1784775232"
 
 [features]
 attachment = true

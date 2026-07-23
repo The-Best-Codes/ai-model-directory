@@ -1,0 +1,18 @@
+id = "nemotron-nano-12b-v2-vl-free"
+name = "nemotron-nano-12b-v2-vl-free"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

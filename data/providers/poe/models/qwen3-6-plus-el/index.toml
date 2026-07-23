@@ -1,0 +1,17 @@
+id = "qwen3.6-plus-el"
+name = "Qwen3.6-Plus-EL"
+release_date = "1775107805"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5051
+output = 3.0303

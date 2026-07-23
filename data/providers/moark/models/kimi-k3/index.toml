@@ -1,0 +1,17 @@
+id = "kimi-k3"
+last_updated = "1784701076"
+name = "kimi-k3"
+release_date = "1784700207"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.9539862
+output = 14.769931

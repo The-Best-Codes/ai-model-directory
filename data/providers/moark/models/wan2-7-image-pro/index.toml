@@ -1,0 +1,11 @@
+id = "wan2.7-image-pro"
+last_updated = "1784711973"
+name = "wan2.7-image-pro"
+release_date = "1784704972"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

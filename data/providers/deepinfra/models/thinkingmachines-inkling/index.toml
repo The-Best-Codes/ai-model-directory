@@ -1,0 +1,15 @@
+id = "thinkingmachines/Inkling"
+name = "thinkingmachines/Inkling"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+cache_read = 0.17
+input = 1
+output = 4.05

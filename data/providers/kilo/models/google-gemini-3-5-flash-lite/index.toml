@@ -1,5 +1,5 @@
 id = "google/gemini-3.5-flash-lite"
-name = "Google: Gemini 3.5 Flash-Lite"
+name = "Google: Gemini 3.5 Flash Lite"
 release_date = "1784646726"
 
 [features]

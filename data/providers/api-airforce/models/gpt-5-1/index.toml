@@ -1,7 +1,7 @@
 id = "gpt-5.1"
 knowledge_cutoff = "1756684800"
 name = "gpt-5.1"
-release_date = "1784689050"
+release_date = "1784776731"
 
 [features]
 attachment = true

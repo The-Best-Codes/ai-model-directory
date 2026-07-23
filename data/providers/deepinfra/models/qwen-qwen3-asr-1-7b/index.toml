@@ -1,0 +1,6 @@
+id = "Qwen/Qwen3-ASR-1.7B"
+name = "Qwen/Qwen3-ASR-1.7B"
+
+[features]
+attachment = false
+reasoning = false

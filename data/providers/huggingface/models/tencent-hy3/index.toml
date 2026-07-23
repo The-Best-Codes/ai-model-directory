@@ -1,0 +1,19 @@
+id = "tencent/Hy3"
+name = "tencent/Hy3"
+release_date = "1782998634"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.58
