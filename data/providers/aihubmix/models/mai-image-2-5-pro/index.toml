@@ -1,0 +1,11 @@
+id = "mai-image-2.5-pro"
+name = "mai-image-2.5-pro"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]

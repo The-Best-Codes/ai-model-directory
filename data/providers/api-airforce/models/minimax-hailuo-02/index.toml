@@ -1,6 +1,9 @@
 id = "minimax-hailuo-02"
 name = "minimax-hailuo-02"
-release_date = "1784776731"
+release_date = "1784862748"
 
 [features]
 reasoning = false
+
+[pricing]
+input = 3.42

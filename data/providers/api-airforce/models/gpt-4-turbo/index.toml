@@ -16,3 +16,7 @@ output = 4096
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 21.42
+output = 64.26

@@ -1,0 +1,15 @@
+id = "qwen3-30b-a3b-fp8"
+name = "qwen3-30b-a3b-fp8"
+release_date = "1784862748"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

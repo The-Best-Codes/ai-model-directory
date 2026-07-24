@@ -1,6 +1,6 @@
 id = "qwen3-vl-235b-a22b"
 name = "qwen3-vl-235b-a22b"
-release_date = "1784776731"
+release_date = "1784862748"
 
 [features]
 attachment = false
@@ -9,3 +9,7 @@ reasoning = true
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 4.29
+output = 17.13

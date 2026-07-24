@@ -1,6 +1,9 @@
 id = "viduq1"
 name = "viduq1"
-release_date = "1784776731"
+release_date = "1784862748"
 
 [features]
 reasoning = false
+
+[pricing]
+input = 3.42

@@ -1,6 +1,6 @@
 id = "qwen3-30b-a3b"
 name = "qwen3-30b-a3b"
-release_date = "1784776731"
+release_date = "1784862748"
 
 [features]
 attachment = false
@@ -9,3 +9,7 @@ reasoning = true
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 1.62
+output = 6.42

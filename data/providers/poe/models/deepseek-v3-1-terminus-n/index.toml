@@ -1,0 +1,18 @@
+id = "deepseek-v3.1-terminus-n"
+name = "DeepSeek-V3.1-Terminus-N"
+release_date = "1758553230"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1364
+input = 0.2727
+output = 1.0101

@@ -1,6 +1,6 @@
 id = "kimi-k3"
 name = "kimi-k3"
-release_date = "1784776731"
+release_date = "1784862748"
 
 [features]
 attachment = false
@@ -12,5 +12,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
+cache_read = 0.48
 input = 4.7
 output = 23.52

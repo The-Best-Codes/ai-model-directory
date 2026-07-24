@@ -1,0 +1,17 @@
+id = "qwen3.7-max-el"
+name = "Qwen3.7-Max-EL"
+release_date = "1779377367"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5253
+output = 7.5758

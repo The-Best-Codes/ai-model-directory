@@ -1,6 +1,6 @@
 id = "glm-5.1"
 name = "glm-5.1"
-release_date = "1784776731"
+release_date = "1784862748"
 
 [features]
 attachment = false
@@ -11,7 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.29
-cache_write = 1.44
-input = 1.15
-output = 3.96
+cache_read = 0.17
+input = 0.8
+output = 2.4

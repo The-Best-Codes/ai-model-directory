@@ -3,7 +3,7 @@ name = "qwen3.5-9b"
 release_date = "1775727362"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 

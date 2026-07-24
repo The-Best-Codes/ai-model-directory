@@ -1,6 +1,6 @@
 id = "gpt-4o-mini-search"
 name = "gpt-4o-mini-search"
-release_date = "1784776731"
+release_date = "1784862748"
 
 [features]
 attachment = false
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.3
-output = 1.35
+input = 0.14
+output = 0.56

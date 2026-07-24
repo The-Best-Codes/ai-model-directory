@@ -1,0 +1,10 @@
+id = "Nemotron-3-Nano-Omni-30B-TEE"
+name = "Nemotron-3-Nano-Omni-30B-TEE"
+
+[limit]
+context = 131072
+
+[pricing]
+cache_read = 0.01225
+input = 0.0245
+output = 0.0978

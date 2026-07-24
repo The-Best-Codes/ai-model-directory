@@ -1,7 +1,7 @@
 id = "gpt-5.2-chat"
 knowledge_cutoff = "1756684800"
 name = "gpt-5.2-chat"
-release_date = "1784776731"
+release_date = "1784862748"
 
 [features]
 attachment = true
@@ -16,3 +16,8 @@ output = 128000
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.36
+input = 3.75
+output = 30

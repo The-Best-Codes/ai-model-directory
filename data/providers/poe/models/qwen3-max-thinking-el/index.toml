@@ -1,0 +1,17 @@
+id = "qwen3-max-thinking-el"
+name = "Qwen3-Max-Thinking-EL"
+release_date = "1769457283"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.0909
+output = 5.5758

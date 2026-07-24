@@ -1,0 +1,15 @@
+id = "open-mistral-7b"
+name = "open-mistral-7b"
+release_date = "1784862748"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

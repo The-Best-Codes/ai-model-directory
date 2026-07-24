@@ -1,7 +1,7 @@
 id = "glm-5"
 knowledge_cutoff = "1759276800"
 name = "glm-5"
-release_date = "1784776731"
+release_date = "1784862748"
 
 [features]
 attachment = true
@@ -17,5 +17,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.8
-output = 2.9
+input = 0.39
+output = 1.74

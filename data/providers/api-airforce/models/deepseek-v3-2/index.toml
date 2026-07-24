@@ -1,7 +1,7 @@
 id = "deepseek-v3.2"
 knowledge_cutoff = "1756684800"
 name = "deepseek-v3.2"
-release_date = "1784776731"
+release_date = "1784862748"
 
 [features]
 attachment = false
@@ -18,5 +18,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.25
-output = 0.38
+input = 0.19
+output = 0.28

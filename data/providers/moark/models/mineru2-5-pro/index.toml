@@ -1,0 +1,14 @@
+id = "MinerU2.5-Pro"
+last_updated = "1784807073"
+name = "MinerU2.5-Pro"
+release_date = "1784806764"
+
+[features]
+attachment = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

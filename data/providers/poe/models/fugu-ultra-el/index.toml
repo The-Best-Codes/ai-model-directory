@@ -1,0 +1,18 @@
+id = "fugu-ultra-el"
+name = "Fugu-Ultra-EL"
+release_date = "1782177874"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.5152
+input = 7.5758
+output = 45.4545
