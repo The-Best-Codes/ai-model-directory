@@ -1,6 +1,11 @@
 id = "gpt-4o-realtime"
 name = "gpt-4o-realtime"
-release_date = "1784862748"
+release_date = "1784914045"
 
 [features]
 reasoning = false
+
+[pricing]
+cache_read = 8.55
+input = 17.1
+output = 68.43

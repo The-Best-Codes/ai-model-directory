@@ -1,0 +1,11 @@
+id = "deepseek-v4-flash"
+name = "deepseek-v4-flash"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32768

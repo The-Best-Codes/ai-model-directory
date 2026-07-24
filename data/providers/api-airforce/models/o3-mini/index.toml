@@ -1,6 +1,6 @@
 id = "o3-mini"
 name = "o3-mini"
-release_date = "1784862748"
+release_date = "1784914045"
 
 [features]
 attachment = false
@@ -11,5 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 2.91
-output = 11.64
+cache_read = 1.89
+input = 3.75
+output = 15.06

@@ -1,6 +1,6 @@
 id = "deepinfra/mistralai/Mistral-Small-24B-Instruct-2501"
 name = "deepinfra/mistralai/Mistral-Small-24B-Instruct-2501"
-release_date = "1784861632"
+release_date = "1784913832"
 
 [features]
 attachment = false

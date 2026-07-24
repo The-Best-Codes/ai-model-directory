@@ -15,3 +15,7 @@ output = 16384
 [modalities]
 input = [ "audio", "text" ]
 output = [ "audio", "text" ]
+
+[pricing]
+input = 17.1
+output = 34.23

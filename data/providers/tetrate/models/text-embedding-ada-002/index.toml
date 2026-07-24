@@ -1,6 +1,6 @@
 id = "text-embedding-ada-002"
 name = "text-embedding-ada-002"
-release_date = "1784861632"
+release_date = "1784913832"
 
 [features]
 attachment = false

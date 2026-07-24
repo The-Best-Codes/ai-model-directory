@@ -1,0 +1,22 @@
+id = "anthropic/claude-opus-5-fast"
+name = "Claude Opus 5 (Fast)"
+release_date = "1784851200"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1
+cache_write = 12.5
+input = 10
+output = 50

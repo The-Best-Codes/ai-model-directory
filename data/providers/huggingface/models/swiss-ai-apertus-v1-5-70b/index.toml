@@ -1,0 +1,16 @@
+id = "swiss-ai/Apertus-v1.5-70B"
+name = "swiss-ai/Apertus-v1.5-70B"
+release_date = "1784873239"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.82
+output = 2.92

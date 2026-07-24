@@ -1,6 +1,6 @@
 id = "novita/tencent/hy3"
 name = "novita/tencent/hy3"
-release_date = "1783958717"
+release_date = "1784895776"
 
 [features]
 attachment = false
@@ -16,5 +16,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0
-output = 0
+cache_read = 0.035
+input = 0.14
+output = 0.58

@@ -1,6 +1,6 @@
 id = "o4-mini-deep-research"
 name = "o4-mini-deep-research"
-release_date = "1784862748"
+release_date = "1784914045"
 
 [features]
 attachment = false
@@ -9,3 +9,7 @@ reasoning = true
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 6.84
+output = 27.39

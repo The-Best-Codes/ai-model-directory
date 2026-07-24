@@ -1,6 +1,6 @@
 id = "qwen-turbo"
 name = "qwen-turbo"
-release_date = "1784862748"
+release_date = "1784914045"
 
 [features]
 attachment = false
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.63
-output = 1.29
+input = 0.06
+output = 0.12

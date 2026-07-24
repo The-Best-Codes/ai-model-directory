@@ -1,0 +1,11 @@
+id = "qwen-audio-3.0-tts-plus"
+name = "qwen-audio-3.0-tts-plus"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

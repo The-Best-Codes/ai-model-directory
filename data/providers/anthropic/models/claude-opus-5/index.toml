@@ -1,0 +1,22 @@
+id = "claude-opus-5"
+name = "Claude Opus 5"
+release_date = "1784851200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 6.25
+input = 5
+output = 25

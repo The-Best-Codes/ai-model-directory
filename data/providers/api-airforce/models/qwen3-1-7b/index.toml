@@ -1,6 +1,6 @@
 id = "qwen3-1.7b"
 name = "qwen3-1.7b"
-release_date = "1784862748"
+release_date = "1784914045"
 
 [features]
 attachment = false
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.18
-output = 0.78
+input = 0.06
+output = 0.27

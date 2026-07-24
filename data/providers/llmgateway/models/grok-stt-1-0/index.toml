@@ -1,0 +1,20 @@
+id = "grok-stt-1-0"
+name = "Grok STT 1.0"
+release_date = "1784764800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0
+reasoning = 0
