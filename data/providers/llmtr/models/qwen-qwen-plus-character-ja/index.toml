@@ -3,7 +3,7 @@ name = "Qwen-Plus-Character-Ja"
 release_date = "1776880301"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

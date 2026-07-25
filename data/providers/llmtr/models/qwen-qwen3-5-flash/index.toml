@@ -3,7 +3,7 @@ name = "Qwen3.5-Flash"
 release_date = "1776880302"
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 256000

@@ -8,7 +8,7 @@ reasoning = false
 tool_call = true
 
 [limit]
-context = 128000
+context = 131000
 
 [pricing]
 input = 0.09

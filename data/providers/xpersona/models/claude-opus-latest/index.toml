@@ -1,0 +1,15 @@
+id = "claude-opus-latest"
+name = "claude-opus-latest"
+release_date = "1777593600"
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 18

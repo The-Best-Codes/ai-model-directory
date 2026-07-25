@@ -1,6 +1,6 @@
 id = "llama-4-scout-17b-16e-instruct"
 name = "llama-4-scout-17b-16e-instruct"
-release_date = "1784914045"
+release_date = "1784949075"
 
 [features]
 attachment = false

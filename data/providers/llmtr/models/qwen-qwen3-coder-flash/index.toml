@@ -3,7 +3,7 @@ name = "Qwen3-Coder-Flash"
 release_date = "1776880301"
 
 [features]
-attachment = true
+attachment = false
 tool_call = true
 
 [limit]

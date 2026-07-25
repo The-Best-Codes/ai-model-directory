@@ -15,6 +15,6 @@ context = 65536
 input = [ "image", "text" ]
 
 [pricing]
-cache_read = 0.374
-input = 1.87
-output = 4.68
+cache_read = 0.748
+input = 3.74
+output = 9.36

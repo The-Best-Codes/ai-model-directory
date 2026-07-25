@@ -3,7 +3,7 @@ name = "Sonar Reasoning Pro"
 release_date = "1776880304"
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 128000
