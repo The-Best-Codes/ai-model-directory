@@ -1,0 +1,27 @@
+id = "gpt-5-4"
+knowledge_cutoff = "1756598400"
+last_updated = "1772668800"
+name = "GPT-5.4"
+open_weights = false
+release_date = "1772668800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 1050000
+input = 922000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 2.5
+output = 15

@@ -1,5 +1,34 @@
 # Changelog
 
+## Run at 1785093047
+
+### Summary
+
+- **Total models currently tracked: 8742** across 65 providers
+- Providers with changes this run: 1
+- Total models added: 0
+- Total models removed: 0
+- Total field changes: 0
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>neon</strong> — 27 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 27
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+</details>
+
 ## Run at 1785036343
 
 ### Summary

@@ -1,0 +1,7 @@
+name = "Neon"
+website = "https://neon.com"
+apiBaseUrl = "${NEON_AI_GATEWAY_BASE_URL}/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["NEON_AI_GATEWAY_TOKEN"]
