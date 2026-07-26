@@ -1,14 +1,19 @@
 id = "claude-opus-4.7"
 name = "claude-opus-4.7"
-release_date = "1784949075"
+release_date = "1626777600"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
+structured_output = true
 tool_call = false
 
+[limit]
+context = 1000000
+output = 128000
+
 [modalities]
-input = [ "text" ]
+input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]

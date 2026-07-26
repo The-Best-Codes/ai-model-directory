@@ -1,6 +1,6 @@
 id = "eleven-multilingual-v2"
 name = "eleven-multilingual-v2"
-release_date = "1784949075"
+release_date = "1785036234"
 
 [features]
 reasoning = false

@@ -3,14 +3,13 @@ name = "Minimax M3"
 open_weights = true
 
 [features]
-attachment = true
 tool_call = true
 
 [limit]
 context = 512000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

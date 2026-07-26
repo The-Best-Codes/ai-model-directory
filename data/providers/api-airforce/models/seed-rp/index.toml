@@ -1,7 +1,7 @@
 id = "seed-rp"
 knowledge_cutoff = "1751328000"
 name = "seed-rp"
-release_date = "1784949075"
+release_date = "1785036234"
 
 [features]
 attachment = false
