@@ -42,6 +42,7 @@ export const moark = modelDirectory["moark"]!;
 export const modelscope = modelDirectory["modelscope"]!;
 export const nanoGpt = modelDirectory["nano-gpt"]!;
 export const nearai = modelDirectory["nearai"]!;
+export const neon = modelDirectory["neon"]!;
 export const neuralwatt = modelDirectory["neuralwatt"]!;
 export const novita = modelDirectory["novita"]!;
 export const nvidia = modelDirectory["nvidia"]!;
