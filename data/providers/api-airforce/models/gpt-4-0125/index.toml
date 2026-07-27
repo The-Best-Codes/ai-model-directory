@@ -1,6 +1,6 @@
 id = "gpt-4-0125"
 name = "gpt-4-0125"
-release_date = "1785036234"
+release_date = "1785123194"
 
 [features]
 attachment = false
@@ -9,7 +9,3 @@ reasoning = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 34.23
-output = 68.43

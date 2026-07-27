@@ -1,6 +1,6 @@
 id = "llama-3.3-70b-instruct-fp8-fast"
 name = "llama-3.3-70b-instruct-fp8-fast"
-release_date = "1785036234"
+release_date = "1785123194"
 
 [features]
 attachment = false
