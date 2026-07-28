@@ -1,6 +1,6 @@
 id = "gpt-4o-mini-transcribe"
 name = "gpt-4o-mini-transcribe"
-release_date = "1785123194"
+release_date = "1785207006"
 
 [features]
 reasoning = false

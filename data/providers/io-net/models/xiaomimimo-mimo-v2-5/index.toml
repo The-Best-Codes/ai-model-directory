@@ -1,0 +1,17 @@
+id = "XiaomiMiMo/MiMo-V2.5"
+name = "Xiaomi: MiMo-V2.5"
+release_date = "1785177534"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.0988
+input = 0.1976
+output = 0.6352

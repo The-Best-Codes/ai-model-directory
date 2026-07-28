@@ -1,6 +1,6 @@
 id = "mistral/leanstral-1-5"
 name = "mistral/leanstral-1-5"
-release_date = "1783114058"
+release_date = "1779840000"
 
 [features]
 attachment = false

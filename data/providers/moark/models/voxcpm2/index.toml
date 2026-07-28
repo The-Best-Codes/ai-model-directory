@@ -1,0 +1,11 @@
+id = "VoxCPM2"
+last_updated = "1785141262"
+name = "VoxCPM2"
+release_date = "1785141262"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

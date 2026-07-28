@@ -1,6 +1,6 @@
 id = "mistral/open-mistral-7b"
 name = "mistral/open-mistral-7b"
-release_date = "1782736388"
+release_date = "1779840000"
 
 [features]
 attachment = false
@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.25
-output = 0.25
+input = 0.275
+output = 0.275

@@ -1,0 +1,9 @@
+id = "orca/dub"
+name = "OrcaDub: OrcaDub 1.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

@@ -1,6 +1,6 @@
 id = "mistral/mistral-large-latest"
 name = "mistral/mistral-large-latest"
-release_date = "1782736388"
+release_date = "1779840000"
 
 [features]
 attachment = false
@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.5
-output = 1.5
+input = 0.55
+output = 1.65

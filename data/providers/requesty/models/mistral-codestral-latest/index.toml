@@ -1,6 +1,6 @@
 id = "mistral/codestral-latest"
 name = "mistral/codestral-latest"
-release_date = "1782736388"
+release_date = "1779840000"
 
 [features]
 attachment = false
@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.3
-output = 0.9
+input = 0.33
+output = 0.99

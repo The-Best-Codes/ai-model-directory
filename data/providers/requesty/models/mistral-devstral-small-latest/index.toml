@@ -1,6 +1,6 @@
 id = "mistral/devstral-small-latest"
 name = "mistral/devstral-small-latest"
-release_date = "1782736388"
+release_date = "1779840000"
 
 [features]
 attachment = false
@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.1
-output = 0.3
+input = 0.11
+output = 0.33

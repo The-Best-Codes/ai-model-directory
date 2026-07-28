@@ -1,0 +1,15 @@
+id = "kimi-k3"
+name = "kimi-k3"
+release_date = "1785137882"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1024000
+
+[pricing]
+input = 2.693
+output = 13.464

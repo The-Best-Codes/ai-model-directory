@@ -1,6 +1,6 @@
 id = "azure/gpt-5.6-terra@swedencentral"
 name = "azure/gpt-5.6-terra@swedencentral"
-release_date = "1783669635"
+release_date = "1783669626"
 
 [features]
 attachment = true
@@ -16,6 +16,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.25
-input = 2.5
-output = 15
+cache_read = 0.275
+input = 2.75
+output = 16.5

@@ -1,0 +1,15 @@
+id = "nano-banana-2"
+name = "nano-banana-2"
+release_date = "1785207006"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 130
+output = 251.8

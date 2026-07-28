@@ -1,0 +1,16 @@
+id = "claude-opus-5"
+name = "claude-opus-5"
+release_date = "1785133800"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[pricing]
+cache_read = 0.494
+input = 4.937
+output = 24.684

@@ -1,0 +1,15 @@
+id = "kimi-k3"
+name = "MoonshotAI: Kimi K3"
+release_date = "1776737314"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1000000
+output = 262144
+
+[pricing]
+cache_read = 0.25
+input = 2
+output = 8

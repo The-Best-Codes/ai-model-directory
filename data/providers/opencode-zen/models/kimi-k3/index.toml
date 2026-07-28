@@ -1,0 +1,7 @@
+id = "kimi-k3"
+name = "Kimi K3"
+
+[pricing]
+cache_read = 0.3
+input = 3
+output = 15

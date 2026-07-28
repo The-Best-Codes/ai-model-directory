@@ -1,0 +1,18 @@
+id = "publicai/apertus-v1.5-70b"
+name = "Apertus v1.5 70B"
+release_date = "1785126963"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.82
+output = 2.92

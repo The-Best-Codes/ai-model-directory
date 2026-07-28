@@ -1,0 +1,18 @@
+id = "publicai/apertus-v1.5-8b-thinking"
+name = "Apertus v1.5 8B Thinking"
+release_date = "1785126963"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.1
+output = 0.2

@@ -1,6 +1,6 @@
 id = "syn:large:vision"
 name = "syn:large:vision"
-release_date = "1781222400"
+release_date = "1785110400"
 
 [features]
 attachment = true
@@ -10,7 +10,7 @@ temperature = true
 tool_call = true
 
 [limit]
-context = 262144
+context = 524288
 output = 65536
 
 [modalities]
@@ -18,7 +18,7 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.95
+cache_read = 0.45
 cache_write = 0
-input = 0.95
-output = 4
+input = 3
+output = 15

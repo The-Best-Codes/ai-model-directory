@@ -1,6 +1,6 @@
 id = "mistral/mistral-small-2603"
 name = "mistral/mistral-small-2603"
-release_date = "1782736388"
+release_date = "1779840000"
 
 [features]
 attachment = true
@@ -15,5 +15,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.15
-output = 0.6
+input = 0.165
+output = 0.66
