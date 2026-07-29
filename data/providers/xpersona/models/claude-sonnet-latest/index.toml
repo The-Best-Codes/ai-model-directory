@@ -3,7 +3,7 @@ name = "claude-sonnet-latest"
 release_date = "1777593600"
 
 [limit]
-context = 1000000
+context = 200000
 output = 128000
 
 [modalities]
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 3
-output = 18
+input = 0.9
+output = 5.55

@@ -1,0 +1,12 @@
+id = "gpt-transcribe"
+name = "GPT Transcribe"
+release_date = "1785168027"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]

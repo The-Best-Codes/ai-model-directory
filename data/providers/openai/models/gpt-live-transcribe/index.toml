@@ -1,0 +1,12 @@
+id = "gpt-live-transcribe"
+name = "GPT Live Transcribe"
+release_date = "1785168034"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]

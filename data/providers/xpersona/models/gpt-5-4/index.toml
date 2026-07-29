@@ -1,0 +1,15 @@
+id = "gpt-5.4"
+name = "gpt-5.4"
+release_date = "1777593600"
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.75
+output = 6

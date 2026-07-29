@@ -1,6 +1,6 @@
 id = "deepinfra/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
 name = "deepinfra/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
-release_date = "1785205437"
+release_date = "1785293638"
 
 [features]
 attachment = false

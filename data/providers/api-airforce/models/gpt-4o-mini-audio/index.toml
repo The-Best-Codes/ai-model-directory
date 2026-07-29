@@ -1,6 +1,6 @@
 id = "gpt-4o-mini-audio"
 name = "gpt-4o-mini-audio"
-release_date = "1785207006"
+release_date = "1785293769"
 
 [features]
 reasoning = false

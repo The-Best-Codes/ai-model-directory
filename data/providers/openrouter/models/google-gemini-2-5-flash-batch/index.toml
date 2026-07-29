@@ -1,0 +1,26 @@
+id = "google/gemini-2.5-flash:batch"
+knowledge_cutoff = "1738281600"
+name = "Google: Gemini 2.5 Flash (batch)"
+release_date = "1750172488"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65535
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.15
+input_audio = 0.5
+output = 1.25
+reasoning = 1.25

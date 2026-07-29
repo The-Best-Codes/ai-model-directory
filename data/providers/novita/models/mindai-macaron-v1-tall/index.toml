@@ -1,0 +1,21 @@
+id = "mindai/macaron-v1-tall"
+name = "Macaron V1 Tall"
+release_date = "1784113196"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

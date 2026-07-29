@@ -1,0 +1,15 @@
+id = "claude-sonnet-4-6"
+name = "claude-sonnet-4-6"
+release_date = "1777593600"
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.9
+output = 5.55

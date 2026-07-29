@@ -1,0 +1,15 @@
+id = "claude-haiku-4-5"
+name = "claude-haiku-4-5"
+release_date = "1777593600"
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 3.7

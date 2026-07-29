@@ -3,7 +3,7 @@ name = "openai-gpt-latest"
 release_date = "1777593600"
 
 [limit]
-context = 1000000
+context = 372000
 output = 128000
 
 [modalities]
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 3
-output = 18
+input = 1.5
+output = 12

@@ -1,0 +1,18 @@
+id = "qwen3.7-flash-el"
+name = "Qwen3.7-Flash-EL"
+release_date = "1785265754"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0061
+input = 0.0303
+output = 0.1313

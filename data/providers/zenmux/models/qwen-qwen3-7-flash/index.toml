@@ -1,0 +1,20 @@
+id = "qwen/qwen3.7-flash"
+name = "Qwen: Qwen3.7-Flash"
+release_date = "1785238269"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.003
+cache_write = 0.038
+input = 0.03
+output = 0.13
