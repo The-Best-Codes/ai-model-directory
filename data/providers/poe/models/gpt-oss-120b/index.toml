@@ -1,0 +1,17 @@
+id = "gpt-oss-120b"
+name = "GPT-OSS-120B"
+release_date = "1784767073"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1515
+output = 0.6061

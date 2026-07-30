@@ -1,0 +1,12 @@
+id = "voyageai/voyage-4-lite"
+name = "Voyage 4 Lite"
+release_date = "1785304534"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]

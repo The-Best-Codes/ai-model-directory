@@ -1,0 +1,12 @@
+id = "voyageai/voyage-multimodal-3.5"
+name = "Voyage Multimodal 3.5"
+release_date = "1785304535"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]

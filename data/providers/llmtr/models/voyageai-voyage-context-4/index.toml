@@ -1,0 +1,12 @@
+id = "voyageai/voyage-context-4"
+name = "Voyage Context 4"
+release_date = "1785304535"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]

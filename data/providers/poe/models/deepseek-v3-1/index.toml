@@ -1,0 +1,17 @@
+id = "deepseek-v3.1"
+name = "DeepSeek-v3.1"
+release_date = "1783976464"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2121
+output = 0.798

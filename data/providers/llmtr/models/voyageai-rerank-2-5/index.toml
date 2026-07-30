@@ -1,0 +1,12 @@
+id = "voyageai/rerank-2.5"
+name = "Voyage Rerank 2.5"
+release_date = "1785304535"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]

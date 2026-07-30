@@ -1,0 +1,19 @@
+id = "Qwen3-0.6B"
+last_updated = "1750934650"
+name = "Qwen3-0.6B"
+release_date = "1745844211"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

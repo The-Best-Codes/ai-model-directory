@@ -1,0 +1,18 @@
+id = "deepseek-v3.2"
+name = "DeepSeek-V3.2"
+release_date = "1784595521"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1359
+input = 0.2828
+output = 0.4242

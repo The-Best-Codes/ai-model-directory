@@ -1,0 +1,12 @@
+id = "voyageai/voyage-law-2"
+name = "Voyage Law 2"
+release_date = "1785304535"
+
+[features]
+attachment = true
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "text" ]

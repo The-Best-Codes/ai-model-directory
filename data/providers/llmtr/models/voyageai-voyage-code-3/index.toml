@@ -1,0 +1,12 @@
+id = "voyageai/voyage-code-3"
+name = "Voyage Code 3"
+release_date = "1785304534"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]

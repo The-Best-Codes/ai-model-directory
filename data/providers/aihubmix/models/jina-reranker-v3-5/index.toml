@@ -1,0 +1,18 @@
+id = "jina-reranker-v3.5"
+name = "jina-reranker-v3.5"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05
