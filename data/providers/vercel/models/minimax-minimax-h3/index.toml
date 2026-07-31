@@ -1,0 +1,12 @@
+id = "minimax/minimax-h3"
+name = "MiniMax H3"
+release_date = "1785369600"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

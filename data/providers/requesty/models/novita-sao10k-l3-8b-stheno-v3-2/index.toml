@@ -1,5 +1,5 @@
-id = "novita/Sao10K/L3-8B-Stheno-v3.2"
-name = "novita/Sao10K/L3-8B-Stheno-v3.2"
+id = "novita/sao10k/l3-8b-stheno-v3.2"
+name = "novita/sao10k/l3-8b-stheno-v3.2"
 release_date = "1734535928"
 
 [features]

@@ -1,7 +1,7 @@
 id = "gemini-3.1-flash-lite"
 knowledge_cutoff = "1772323200"
 name = "gemini-3.1-flash-lite"
-release_date = "1785379300"
+release_date = "1785468241"
 
 [features]
 attachment = true
@@ -18,6 +18,5 @@ input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01
-input = 0.2
-output = 1.1
+input = 0.15
+output = 0.9

@@ -1,6 +1,6 @@
 id = "kimi-k3"
 name = "MoonshotAI: Kimi K3"
-release_date = "1776737314"
+release_date = "1785392079"
 
 [features]
 reasoning = true

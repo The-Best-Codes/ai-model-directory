@@ -3,14 +3,14 @@ name = "Qwen: Qwen3.7-Flash"
 release_date = "1785238269"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 
 [limit]
 context = 1000000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]

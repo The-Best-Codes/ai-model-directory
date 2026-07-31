@@ -1,6 +1,6 @@
 id = "gemini-3.1-pro-preview-customtools"
 name = "gemini-3.1-pro-preview-customtools"
-release_date = "1785379300"
+release_date = "1785468241"
 
 [features]
 attachment = false

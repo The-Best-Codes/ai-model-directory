@@ -1,0 +1,19 @@
+id = "gemini-robotics-er-2-streaming-preview"
+knowledge_cutoff = "1735689600"
+name = "Gemini Robotics-ER 2 Streaming Preview"
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 10
