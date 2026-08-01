@@ -1,3 +1,20 @@
 id = "gpt-oss-20b"
+last_updated = "1770270905"
 name = "gpt-oss-20b"
 release_date = "1754912641"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.059271104
+output = 0.237084416

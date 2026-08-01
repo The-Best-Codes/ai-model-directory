@@ -37,7 +37,7 @@ const apiModelSchema = z.object({
 
 const responseSchema = z.object({ data: z.array(apiModelSchema) });
 
-function pickProvider(
+function pickCapabilityProvider(
   providers: z.infer<typeof providerEntrySchema>[] | undefined,
 ) {
   if (!providers || providers.length === 0) {
@@ -48,10 +48,31 @@ function pickProvider(
     providers.find((provider) => provider.is_model_author) ??
     providers.find(
       (provider) =>
-        provider.pricing?.input !== undefined ||
-        provider.context_length !== undefined,
+        provider.supports_tools !== undefined ||
+        provider.supports_structured_output !== undefined,
     ) ??
     providers[0]
+  );
+}
+
+function pickPricingProvider(
+  providers: z.infer<typeof providerEntrySchema>[] | undefined,
+) {
+  return (
+    providers?.find(
+      (provider) => provider.is_model_author && provider.pricing !== undefined,
+    ) ?? providers?.find((provider) => provider.pricing !== undefined)
+  );
+}
+
+function pickContextProvider(
+  providers: z.infer<typeof providerEntrySchema>[] | undefined,
+) {
+  return (
+    providers?.find(
+      (provider) =>
+        provider.is_model_author && provider.context_length !== undefined,
+    ) ?? providers?.find((provider) => provider.context_length !== undefined)
   );
 }
 
@@ -76,7 +97,9 @@ export const huggingfaceProvider: ProviderDefinition = {
     );
 
     return response.data.map((model) => {
-      const provider = pickProvider(model.providers);
+      const capabilityProvider = pickCapabilityProvider(model.providers);
+      const pricingProvider = pickPricingProvider(model.providers);
+      const contextProvider = pickContextProvider(model.providers);
       const input = filterModalities(model.architecture?.input_modalities);
       const output = filterModalities(model.architecture?.output_modalities);
 
@@ -86,15 +109,15 @@ export const huggingfaceProvider: ProviderDefinition = {
         release_date: timestampFromUnixSeconds(model.created),
         features: compactObject({
           attachment: hasAttachmentSource(model.architecture?.input_modalities),
-          tool_call: provider?.supports_tools,
-          structured_output: provider?.supports_structured_output,
+          tool_call: capabilityProvider?.supports_tools,
+          structured_output: capabilityProvider?.supports_structured_output,
         }),
         pricing: compactObject({
-          input: nonNegativeNumber(provider?.pricing?.input),
-          output: nonNegativeNumber(provider?.pricing?.output),
+          input: nonNegativeNumber(pricingProvider?.pricing?.input),
+          output: nonNegativeNumber(pricingProvider?.pricing?.output),
         }),
         limit: compactObject({
-          context: integerGreaterThanZero(provider?.context_length),
+          context: integerGreaterThanZero(contextProvider?.context_length),
         }),
         modalities: compactObject({ input, output }),
       });

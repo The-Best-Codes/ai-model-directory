@@ -1,3 +1,15 @@
 id = "code-raccoon-v1"
+last_updated = "1761926492"
 name = "code-raccoon-v1"
 release_date = "1721296740"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

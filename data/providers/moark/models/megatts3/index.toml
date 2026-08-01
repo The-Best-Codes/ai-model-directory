@@ -1,3 +1,11 @@
 id = "MegaTTS3"
+last_updated = "1785513773"
 name = "MegaTTS3"
 release_date = "1743645504"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

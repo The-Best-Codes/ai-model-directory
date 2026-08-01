@@ -1,3 +1,11 @@
 id = "VibeVoice-Large"
+last_updated = "1757583561"
 name = "VibeVoice-Large"
 release_date = "1757501673"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -230,18 +230,25 @@ export const moarkProvider: ProviderDefinition = {
   name: "moark",
   outputDirectory: "data/providers/moark/models",
   async fetchModels(progress) {
-    progress?.beginPhase("fetching", 3);
+    progress?.beginPhase("fetching", 4);
 
     const modelsPromise = fetchJson("https://moark.com/v1/models", {
       schema: modelsResponseSchema,
       label: "Moark models API error",
     });
     const exchangeRatePromise = fetchCurrencyExchangeRate("cny", "usd");
-    const servicesPromise = fetchJson(
+    const activeServicesPromise = fetchJson(
       "https://moark.com/api/pay/services?type=serverless&status=1&size=1000",
       {
         schema: servicesResponseSchema,
-        label: "Moark services API error",
+        label: "Moark active services API error",
+      },
+    );
+    const inactiveServicesPromise = fetchJson(
+      "https://moark.com/api/pay/services?type=serverless&status=0&size=1000",
+      {
+        schema: servicesResponseSchema,
+        label: "Moark inactive services API error",
       },
     );
 
@@ -249,10 +256,17 @@ export const moarkProvider: ProviderDefinition = {
 
     progress?.tick(`moark.com/v1/models (${modelsResponse.data.length})`, true);
 
-    const servicesResponse = await servicesPromise;
+    const activeServicesResponse = await activeServicesPromise;
 
     progress?.tick(
-      `moark.com/api/pay/services (${servicesResponse.items.length})`,
+      `moark.com/api/pay/services?status=1 (${activeServicesResponse.items.length})`,
+      true,
+    );
+
+    const inactiveServicesResponse = await inactiveServicesPromise;
+
+    progress?.tick(
+      `moark.com/api/pay/services?status=0 (${inactiveServicesResponse.items.length})`,
       true,
     );
 
@@ -261,10 +275,9 @@ export const moarkProvider: ProviderDefinition = {
     progress?.tick(`cny->usd exchange rate (${cnyToUsdRate.toString()})`, true);
 
     const servicesById = new Map(
-      servicesResponse.items.map((service) => [
-        service.ident.toLowerCase(),
-        service,
-      ]),
+      [...inactiveServicesResponse.items, ...activeServicesResponse.items].map(
+        (service) => [service.ident.toLowerCase(), service],
+      ),
     );
 
     return modelsResponse.data.map((model) => {
