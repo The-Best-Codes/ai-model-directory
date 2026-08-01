@@ -14,6 +14,7 @@ tool_call = true
 
 [limit]
 context = 200000
+input = 160000
 output = 32000
 
 [modalities]

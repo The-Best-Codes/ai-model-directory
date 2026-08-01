@@ -1,5 +1,24 @@
 id = "kimi-k2.7-code"
-name = "kimi-k2.7-code"
+knowledge_cutoff = "1735689600"
+last_updated = "1781222400"
+name = "Kimi K2.7 Code"
+open_weights = true
+release_date = "1781222400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
 
 [pricing]
 cache_read = 0.19

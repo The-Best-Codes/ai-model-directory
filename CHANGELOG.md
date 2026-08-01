@@ -1,5 +1,73 @@
 # Changelog
 
+## Run at 1785624364
+
+### Summary
+
+- **Total models currently tracked: 8781** across 65 providers
+- Providers with changes this run: 1
+- Total models added: 0
+- Total models removed: 0
+- Total field changes: 308
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 18 |
+| `knowledge_cutoff` | 0 | 17 | 0 |
+| `release_date` | 0 | 22 | 0 |
+| `last_updated` | 0 | 22 | 0 |
+| `open_weights` | 0 | 22 | 0 |
+| `features.attachment` | 0 | 22 | 0 |
+| `features.reasoning` | 0 | 22 | 0 |
+| `features.structured_output` | 0 | 16 | 0 |
+| `features.temperature` | 0 | 22 | 0 |
+| `features.tool_call` | 0 | 22 | 0 |
+| `limit.context` | 0 | 19 | 0 |
+| `limit.input` | 0 | 21 | 0 |
+| `limit.output` | 0 | 19 | 0 |
+| `modalities.input` | 0 | 22 | 0 |
+| `modalities.output` | 0 | 22 | 0 |
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>opencode-zen</strong> — 60 models, 0 added, 0 removed, 308 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 60
+- Models added: 0
+- Models removed: 0
+- Total field changes: 308
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 18 |
+| `knowledge_cutoff` | 0 | 17 | 0 |
+| `release_date` | 0 | 22 | 0 |
+| `last_updated` | 0 | 22 | 0 |
+| `open_weights` | 0 | 22 | 0 |
+| `features.attachment` | 0 | 22 | 0 |
+| `features.reasoning` | 0 | 22 | 0 |
+| `features.structured_output` | 0 | 16 | 0 |
+| `features.temperature` | 0 | 22 | 0 |
+| `features.tool_call` | 0 | 22 | 0 |
+| `limit.context` | 0 | 19 | 0 |
+| `limit.input` | 0 | 21 | 0 |
+| `limit.output` | 0 | 19 | 0 |
+| `modalities.input` | 0 | 22 | 0 |
+| `modalities.output` | 0 | 22 | 0 |
+
+</details>
+
+</details>
+
+</details>
+
 ## Run at 1785554634
 
 ### Summary
