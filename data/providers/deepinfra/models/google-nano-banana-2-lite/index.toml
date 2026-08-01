@@ -1,0 +1,6 @@
+id = "google/nano-banana-2-lite"
+name = "google/nano-banana-2-lite"
+
+[features]
+attachment = false
+reasoning = false

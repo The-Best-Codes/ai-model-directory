@@ -1,0 +1,25 @@
+id = "qwen3.7-flash-2026-07-15"
+last_updated = "1784613308"
+name = "Qwen3.7-Flash-2026-07-15"
+release_date = "1784613308"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+input = 991808
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.003
+cache_write = 0.034
+input = 0.028
+output = 0.11

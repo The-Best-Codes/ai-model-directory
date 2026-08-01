@@ -1,5 +1,5 @@
 id = "openai-gpt-5-6-terra-pro"
-last_updated = "1783665646"
+last_updated = "1785476232"
 name = "gpt-5.6-terra-pro"
 release_date = "1783665646"
 
@@ -17,5 +17,5 @@ input = [ "file", "image", "text" ]
 output = [ "image", "text" ]
 
 [pricing]
-input = 2.5
-output = 15
+input = 2
+output = 12

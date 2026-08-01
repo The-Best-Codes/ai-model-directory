@@ -1,11 +1,3 @@
 id = "DreamO"
-last_updated = "1769215327"
 name = "DreamO"
 release_date = "1747913677"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "image" ]

@@ -1,6 +1,6 @@
 id = "deepinfra/anthropic/claude-4-opus"
 name = "deepinfra/anthropic/claude-4-opus"
-release_date = "1785468239"
+release_date = "1785552838"
 
 [features]
 attachment = true

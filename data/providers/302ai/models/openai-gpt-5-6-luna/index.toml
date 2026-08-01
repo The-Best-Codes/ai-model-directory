@@ -1,5 +1,5 @@
 id = "openai-gpt-5-6-luna"
-last_updated = "1783665918"
+last_updated = "1785476280"
 name = "gpt-5.6-luna"
 release_date = "1783665918"
 
@@ -17,5 +17,5 @@ input = [ "file", "image", "text" ]
 output = [ "image", "text" ]
 
 [pricing]
-input = 1
-output = 6
+input = 0.2
+output = 1.2

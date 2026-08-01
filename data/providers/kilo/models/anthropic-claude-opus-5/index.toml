@@ -1,5 +1,5 @@
 id = "anthropic/claude-opus-5"
-name = "Claude Opus 5 (new)"
+name = "Claude Opus 5"
 release_date = "1784912544"
 
 [features]

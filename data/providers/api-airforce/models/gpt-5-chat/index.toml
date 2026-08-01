@@ -1,6 +1,6 @@
 id = "gpt-5-chat"
 name = "gpt-5-chat"
-release_date = "1785468241"
+release_date = "1785554549"
 
 [features]
 attachment = false

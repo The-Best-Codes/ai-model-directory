@@ -1,0 +1,17 @@
+id = "gpt-5.6-luna"
+name = "gpt-5.6-luna"
+release_date = "1785554549"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0.85
+input = 0.85
+output = 4.6

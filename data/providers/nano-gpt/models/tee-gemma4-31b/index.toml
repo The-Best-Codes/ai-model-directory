@@ -3,7 +3,7 @@ name = "Gemma 4 31B"
 release_date = "1775260800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 tool_call = false
@@ -13,7 +13,7 @@ context = 262144
 output = 131072
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
