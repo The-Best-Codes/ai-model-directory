@@ -10,14 +10,14 @@ temperature = true
 tool_call = true
 
 [limit]
-context = 1024000
-output = 128000
+context = 1048576
+output = 131072
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.12987
-input = 0.6993
-output = 2.1978
+cache_read = 0.07462
+input = 0.4018
+output = 1.2628

@@ -3,7 +3,7 @@ name = "Nano Banana Pro (Gemini 3 Pro Image)"
 release_date = "1756684800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 tool_call = false
 
@@ -12,7 +12,7 @@ context = 65536
 output = 32768
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

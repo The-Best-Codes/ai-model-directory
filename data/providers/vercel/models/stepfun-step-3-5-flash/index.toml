@@ -3,7 +3,7 @@ name = "StepFun 3.5 Flash"
 release_date = "1769644800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 262114
 output = 262114
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
