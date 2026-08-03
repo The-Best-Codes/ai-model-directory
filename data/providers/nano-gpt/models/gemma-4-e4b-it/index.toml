@@ -1,0 +1,21 @@
+id = "gemma-4-e4b-it"
+name = "Gemma 4 E4B Instruct"
+release_date = "1785542400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 16384
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0.2

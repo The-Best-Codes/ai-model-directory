@@ -1,9 +1,9 @@
 id = "deepseek-v4-flash"
 knowledge_cutoff = "1746057600"
-last_updated = "1776988800"
-name = "DeepSeek V4 Flash"
+last_updated = "1785456000"
+name = "DeepSeek V4 Flash 0731"
 open_weights = true
-release_date = "1776988800"
+release_date = "1785456000"
 
 [features]
 attachment = false

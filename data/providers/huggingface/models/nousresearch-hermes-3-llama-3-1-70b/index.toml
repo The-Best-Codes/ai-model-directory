@@ -1,0 +1,19 @@
+id = "NousResearch/Hermes-3-Llama-3.1-70B"
+name = "NousResearch/Hermes-3-Llama-3.1-70B"
+release_date = "1722263277"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 0.7

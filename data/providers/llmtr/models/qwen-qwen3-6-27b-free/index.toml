@@ -1,9 +1,9 @@
-id = "qwen/qwen3-32b-free"
-name = "Qwen3 32B"
-release_date = "1783244814"
+id = "qwen/qwen3.6-27b-free"
+name = "Qwen3.6 27B"
+release_date = "1785682433"
 
 [features]
-attachment = false
+attachment = true
 structured_output = true
 tool_call = true
 
@@ -11,7 +11,7 @@ tool_call = true
 context = 131072
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 
 [pricing]
 input = 0

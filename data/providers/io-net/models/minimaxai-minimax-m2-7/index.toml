@@ -1,17 +1,18 @@
 id = "MiniMaxAI/MiniMax-M2.7"
-name = "MiniMax: MiniMax M2.7"
+name = "DeepSeek: DeepSeek V4 Flash 0731"
 release_date = "1777885549"
 
 [features]
 attachment = false
 
 [limit]
-context = 204800
+context = 262100
+output = 65536
 
 [modalities]
 input = [ "text" ]
 
 [pricing]
-cache_read = 0.218
-input = 0.436
-output = 1.72
+cache_read = 0.21
+input = 0.42
+output = 1.62

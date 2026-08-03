@@ -1,0 +1,21 @@
+id = "gemma-4-12b-it"
+name = "Gemma 4 12B Instruct"
+release_date = "1785542400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.060000000000000005
+output = 0.3

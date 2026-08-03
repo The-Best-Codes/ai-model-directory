@@ -5,7 +5,7 @@ release_date = "1785191624"
 [features]
 attachment = true
 structured_output = false
-tool_call = true
+tool_call = false
 
 [limit]
 context = 524288
