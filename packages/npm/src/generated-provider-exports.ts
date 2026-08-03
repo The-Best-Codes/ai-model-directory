@@ -25,7 +25,6 @@ export const fastrouter = modelDirectory["fastrouter"]!;
 export const fireworksAi = modelDirectory["fireworks-ai"]!;
 export const friendli = modelDirectory["friendli"]!;
 export const githubCopilot = modelDirectory["github-copilot"]!;
-export const githubModels = modelDirectory["github-models"]!;
 export const google = modelDirectory["google"]!;
 export const groq = modelDirectory["groq"]!;
 export const helicone = modelDirectory["helicone"]!;

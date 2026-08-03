@@ -20,7 +20,6 @@ import { fastrouterProvider } from "./fastrouter.ts";
 import { fireworksAiProvider } from "./fireworks-ai.ts";
 import { friendliProvider } from "./friendli.ts";
 import { githubCopilotProvider } from "./github-copilot.ts";
-import { githubModelsProvider } from "./github-models.ts";
 import { googleProvider } from "./google.ts";
 import { groqProvider } from "./groq.ts";
 import { heliconeProvider } from "./helicone.ts";
@@ -87,7 +86,6 @@ export const providers: ProviderDefinition[] = [
   fireworksAiProvider,
   friendliProvider,
   githubCopilotProvider,
-  githubModelsProvider,
   googleProvider,
   groqProvider,
   heliconeProvider,
