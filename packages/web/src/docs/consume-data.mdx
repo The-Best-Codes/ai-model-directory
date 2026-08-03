@@ -6,21 +6,110 @@ order: 3
 
 # Consuming data
 
-Use the npm package if you want typed helpers in a JavaScript or TypeScript app.
+AI Model Directory publishes an npm package, `ai-model-directory`, with typed helpers for JavaScript and TypeScript apps. The package bundles the generated dataset, so you do not need to fetch or host it yourself.
+
+## Install
 
 ```sh
 bun add ai-model-directory
 ```
 
+The package is ESM-only and ships its own TypeScript types. It is released under the MIT license.
+
+## Quick start
+
+The package exports a const per provider, so the common case needs no lookup code:
+
+```ts
+import { openai } from "ai-model-directory";
+
+openai.name; // "OpenAI"
+openai.models["gpt-5.6-luna"]?.pricing?.input;
+```
+
+`providers` is the whole directory if you prefer to index by id at runtime.
+
+## API
+
+### Named provider exports
+
+Every provider is exported as a const named after its id, e.g. `anthropic`, `google`, `openrouter`, `perplexity`. Each is a `ProviderEntry`. Identifiers that would start with a digit are prefixed with an underscore. When a provider id does not map to a valid identifier, no named export is generated and you must use `getProvider` instead.
+
+### `providers`
+
+`Record<string, ProviderEntry>` - the whole directory, keyed by provider id.
+
+### `getModelDirectory()`
+
+Returns the full `ModelDirectory`. The bundled payload is decoded once and cached, so later calls return the same object - treat it as read-only.
+
+### `getProvider(providerId)`
+
+Returns the `ProviderEntry` for a provider id, or `undefined`.
+
+### `getProviders()`
+
+Returns an array of all `ProviderEntry` values.
+
+### `getModel(providerId, modelId)`
+
+Returns the `ModelRecord` for a model within a provider, or `undefined`.
+
 ```ts
 import { getModel, getProvider, getProviders } from "ai-model-directory";
 
 const openai = getProvider("openai");
-const gpt = getModel("openai", "gpt-5.5");
+const gpt = getModel("openai", "gpt-5.6-luna");
 const providers = getProviders();
 ```
 
-The package bundles a compact payload and decodes it into the same provider/model shape as `data/all.json`.
+### Advanced
+
+`decodeModelDirectory` and `compactModelDirectoryData` expose the raw compact payload for consumers who want to build their own decoder. In most cases you do not need them.
+
+## Types
+
+The package exports `ModelDirectory`, `ProviderEntry`, `ModelRecord`, `ModelPricing`, `ModelLimit`, `ModelFeatures`, `ModelModalities`, `ModelModality`, and `ProviderAiSdk`.
+
+```ts
+import type { ModelPricing, ModelRecord } from "ai-model-directory";
+```
+
+## Data shape
+
+The package decodes the bundled compact payload into the same provider/model shape as `data/all.json`.
+
+A provider entry:
+
+| field | type | description |
+| --- | --- | --- |
+| `id` | `string` | Provider id used across the directory. |
+| `name` | `string` | Display name. |
+| `website` | `string` | Provider website. |
+| `apiBaseUrl` | `string` | Base URL for API calls. |
+| `aiSdk` | `{ npmPackage?, defaultApiKeyEnv? }` | AI SDK package and default key env var. |
+| `models` | `Record<string, ModelRecord>` | Models keyed by id. |
+
+A model record:
+
+| field | type | description |
+| --- | --- | --- |
+| `id` | `string` | Model id. |
+| `name` | `string` | Display name; falls back to the id when omitted. |
+| `knowledge_cutoff` | `string` | Unix timestamp (seconds) as a string. |
+| `release_date` | `string` | Unix timestamp (seconds) as a string. |
+| `last_updated` | `string` | Unix timestamp (seconds) as a string. |
+| `open_weights` | `boolean` | Whether the model has open weights. |
+| `features` | `ModelFeatures` | `attachment`, `reasoning`, `tool_call`, `structured_output`, `temperature` booleans. |
+| `pricing` | `ModelPricing` | `input`, `output`, `reasoning`, `cache_read`, `cache_write`, `input_audio`, `output_audio`. |
+| `limit` | `ModelLimit` | `context`, `input`, `output` token limits. |
+| `modalities` | `ModelModalities` | `input` and `output` modality arrays. |
+
+Pricing values are USD per one million tokens (`$ / MTok`). Optional fields are omitted from the payload when the provider does not report them, so check for presence rather than relying on defaults.
+
+## Keep it updated
+
+Provider pricing and model lists change often. The dataset is refreshed daily. Update the package regularly and avoid assuming a model or price will never change.
 
 ## Fetch the JSON directly
 
@@ -36,7 +125,3 @@ const directory = (await response.json()) as Directory;
 ```
 
 `all.json` is formatted for reading. `all.min.json` is better for download size.
-
-## Keep it updated
-
-Provider pricing and model lists change often. Update the package regularly and avoid assuming a model or price will never change.
