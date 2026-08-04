@@ -67,6 +67,36 @@ const providers = getProviders();
 
 `decodeModelDirectory` and `compactModelDirectoryData` expose the raw compact payload for consumers who want to build their own decoder. In most cases you do not need them.
 
+### Experimental live data
+
+Node.js applications can opt into newer directory data without updating the package. Importing the package never accesses the network or filesystem.
+
+The Node.js-only live data helpers are available from the `ai-model-directory/remote-data` subpath, keeping filesystem and network dependencies out of the main package entry point.
+
+`experimental_useModelDirectoryData()` uses cached data immediately when available and refreshes it in the background. On the first run, when no valid cached data exists, it waits for the download before returning. Pass `updateMode: "await"` when the call must wait for newly downloaded data instead.
+
+```ts
+import { getModel } from "ai-model-directory";
+import { experimental_useModelDirectoryData } from "ai-model-directory/remote-data";
+
+await experimental_useModelDirectoryData();
+
+const model = getModel("openai", "gpt-5.6-luna");
+```
+
+```ts
+await experimental_useModelDirectoryData({
+  updateMode: "await",
+  path: "/custom/cache/all.min.json",
+  url: "https://example.com/all.min.json",
+  expectedSha256: "...",
+});
+```
+
+The default file location uses the operating system's user cache directory on Windows, macOS, and Linux. `experimental_downloadModelDirectoryData()` and `experimental_loadModelDirectoryData()` are also available when download and activation need to be controlled separately.
+
+Downloaded files are always treated as untrusted. Downloads require HTTPS and have redirect, timeout, and size limits. Data is parsed only as UTF-8 JSON, strictly schema-validated before being atomically installed, and validated again before activation. The lookup helpers use the activated data; static named provider exports remain snapshots of the bundled data.
+
 ## Types
 
 The package exports `ModelDirectory`, `ProviderEntry`, `ModelRecord`, `ModelPricing`, `ModelLimit`, `ModelFeatures`, `ModelModalities`, `ModelModality`, and `ProviderAiSdk`.

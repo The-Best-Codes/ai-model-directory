@@ -16,6 +16,10 @@
     ".": {
       "types": "./dist/src/index.d.ts",
       "import": "./dist/src/index.js"
+    },
+    "./remote-data": {
+      "types": "./dist/src/remote-data.d.ts",
+      "import": "./dist/src/remote-data.js"
     }
   },
   "types": "./dist/src/index.d.ts",

@@ -4,6 +4,12 @@ import type { ModelDirectory, ModelRecord, ProviderEntry } from "./types.js";
 
 let cachedModelDirectory: ModelDirectory | undefined;
 
+export function experimental_setModelDirectory(
+  modelDirectory: ModelDirectory,
+): void {
+  cachedModelDirectory = modelDirectory;
+}
+
 export function getModelDirectory(): ModelDirectory {
   cachedModelDirectory ??= decodeModelDirectory(compactModelDirectoryData);
   return cachedModelDirectory;
