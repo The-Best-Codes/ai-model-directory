@@ -1,6 +1,6 @@
 id = "azure/gpt-5.2-codex@eastus2"
 name = "azure/gpt-5.2-codex@eastus2"
-release_date = "1769088542"
+release_date = "1768409315"
 
 [features]
 attachment = true

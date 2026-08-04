@@ -1,6 +1,6 @@
 id = "openai/gpt-5.6-terra"
 name = "openai/gpt-5.6-terra"
-release_date = "1783625420"
+release_date = "1783590857"
 
 [features]
 attachment = true

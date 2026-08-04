@@ -1,0 +1,16 @@
+id = "qwen/qwen3.8-max"
+name = "Qwen: Qwen3.8 Max"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 6

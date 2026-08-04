@@ -1,6 +1,6 @@
 id = "gpt-4o-realtime"
 name = "gpt-4o-realtime"
-release_date = "1785727550"
+release_date = "1785811979"
 
 [features]
 reasoning = false

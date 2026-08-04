@@ -1,6 +1,6 @@
 id = "xai/grok-3-mini"
 name = "xai/grok-3-mini"
-release_date = "1760609788"
+release_date = "1739923200"
 
 [features]
 attachment = false

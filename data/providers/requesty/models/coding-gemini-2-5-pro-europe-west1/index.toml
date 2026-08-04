@@ -1,6 +1,6 @@
 id = "coding/gemini-2.5-pro@europe-west1"
 name = "coding/gemini-2.5-pro@europe-west1"
-release_date = "1746582113"
+release_date = "1750169544"
 
 [features]
 attachment = true

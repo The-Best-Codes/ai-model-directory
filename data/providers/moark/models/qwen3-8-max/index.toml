@@ -1,0 +1,15 @@
+id = "qwen3.8-max"
+last_updated = "1785728404"
+name = "qwen3.8-max"
+release_date = "1785728404"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.7769402
+output = 5.3308206

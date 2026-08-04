@@ -1,6 +1,6 @@
 id = "azure/openai-responses/gpt-5.6-terra@eastus2"
 name = "azure/openai-responses/gpt-5.6-terra@eastus2"
-release_date = "1783669623"
+release_date = "1783590857"
 
 [features]
 attachment = true

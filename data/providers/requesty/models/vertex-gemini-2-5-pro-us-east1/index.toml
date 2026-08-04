@@ -1,6 +1,6 @@
 id = "vertex/gemini-2.5-pro@us-east1"
 name = "vertex/gemini-2.5-pro@us-east1"
-release_date = "1746582113"
+release_date = "1750169544"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "nebius/google/gemma-3-27b-it"
 name = "nebius/google/gemma-3-27b-it"
-release_date = "1781598877"
+release_date = "1741756359"
 
 [features]
 attachment = false

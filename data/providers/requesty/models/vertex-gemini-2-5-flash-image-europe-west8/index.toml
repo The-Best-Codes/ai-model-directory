@@ -1,6 +1,6 @@
 id = "vertex/gemini-2.5-flash-image@europe-west8"
 name = "vertex/gemini-2.5-flash-image@europe-west8"
-release_date = "1758392724"
+release_date = "1759870431"
 
 [features]
 attachment = true

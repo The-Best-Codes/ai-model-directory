@@ -1,6 +1,6 @@
 id = "moonshot/kimi-k2.7-code"
 name = "moonshot/kimi-k2.7-code"
-release_date = "1781360299"
+release_date = "1781266361"
 
 [features]
 attachment = true

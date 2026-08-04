@@ -1,6 +1,6 @@
 id = "nebius/meta-llama/Llama-3.3-70B-Instruct"
 name = "nebius/meta-llama/Llama-3.3-70B-Instruct"
-release_date = "1715697754"
+release_date = "1733506137"
 
 [features]
 attachment = false

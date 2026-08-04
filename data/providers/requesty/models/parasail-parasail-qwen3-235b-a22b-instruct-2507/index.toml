@@ -1,6 +1,6 @@
 id = "parasail/parasail-qwen3-235b-a22b-instruct-2507"
 name = "parasail/parasail-qwen3-235b-a22b-instruct-2507"
-release_date = "1753115020"
+release_date = "1753119555"
 
 [features]
 attachment = false

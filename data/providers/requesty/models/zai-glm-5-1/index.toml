@@ -1,6 +1,6 @@
 id = "zai/glm-5.1"
 name = "zai/glm-5.1"
-release_date = "1775577600"
+release_date = "1775578025"
 
 [features]
 attachment = true

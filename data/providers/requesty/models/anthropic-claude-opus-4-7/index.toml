@@ -1,6 +1,6 @@
 id = "anthropic/claude-opus-4-7"
 name = "anthropic/claude-opus-4-7"
-release_date = "1776356268"
+release_date = "1776351100"
 
 [features]
 attachment = true

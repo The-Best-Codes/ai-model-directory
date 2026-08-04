@@ -1,6 +1,6 @@
 id = "novita/qwen/qwen-2.5-72b-instruct"
 name = "novita/qwen/qwen-2.5-72b-instruct"
-release_date = "1745882204"
+release_date = "1726704000"
 
 [features]
 attachment = false

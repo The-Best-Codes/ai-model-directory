@@ -1,6 +1,6 @@
 id = "novita/moonshotai/kimi-k2-instruct"
 name = "novita/moonshotai/kimi-k2-instruct"
-release_date = "1752257908"
+release_date = "1752263252"
 
 [features]
 attachment = false

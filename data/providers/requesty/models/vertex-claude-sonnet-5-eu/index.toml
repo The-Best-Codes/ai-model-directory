@@ -1,6 +1,6 @@
 id = "vertex/claude-sonnet-5@eu"
 name = "vertex/claude-sonnet-5@eu"
-release_date = "1782839348"
+release_date = "1782843083"
 
 [features]
 attachment = true

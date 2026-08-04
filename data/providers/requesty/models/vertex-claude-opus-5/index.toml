@@ -1,6 +1,6 @@
 id = "vertex/claude-opus-5"
 name = "vertex/claude-opus-5"
-release_date = "1784911391"
+release_date = "1784912544"
 
 [features]
 attachment = true

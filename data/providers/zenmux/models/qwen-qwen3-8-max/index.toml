@@ -1,0 +1,20 @@
+id = "qwen/qwen3.8-max"
+name = "Qwen: Qwen3.8-Max"
+release_date = "1785743198"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.17
+cache_write = 2.5
+input = 2
+output = 6

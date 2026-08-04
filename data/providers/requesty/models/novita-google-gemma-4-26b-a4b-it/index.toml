@@ -1,6 +1,6 @@
 id = "novita/google/gemma-4-26b-a4b-it"
 name = "novita/google/gemma-4-26b-a4b-it"
-release_date = "1779719796"
+release_date = "1775227989"
 
 [features]
 attachment = true

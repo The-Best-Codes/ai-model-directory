@@ -1,6 +1,6 @@
 id = "azure/gpt-5.6-luna@eastus2"
 name = "azure/gpt-5.6-luna@eastus2"
-release_date = "1783669626"
+release_date = "1783590864"
 
 [features]
 attachment = true

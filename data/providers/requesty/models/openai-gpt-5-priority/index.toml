@@ -1,6 +1,6 @@
 id = "openai/gpt-5:priority"
 name = "openai/gpt-5:priority"
-release_date = "1754586506"
+release_date = "1754587413"
 
 [features]
 attachment = true

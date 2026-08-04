@@ -1,6 +1,6 @@
 id = "novita/mistralai/mistral-nemo"
 name = "novita/mistralai/mistral-nemo"
-release_date = "1718037161"
+release_date = "1721347200"
 
 [features]
 attachment = false

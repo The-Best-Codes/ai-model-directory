@@ -1,6 +1,6 @@
 id = "alibaba/qwen3-coder-flash"
 name = "alibaba/qwen3-coder-flash"
-release_date = "1753348663"
+release_date = "1758115536"
 
 [features]
 attachment = true

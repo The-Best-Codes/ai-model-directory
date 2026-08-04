@@ -1,6 +1,6 @@
 id = "parasail/parasail-qwen25-vl-72b-instruct"
 name = "parasail/parasail-qwen25-vl-72b-instruct"
-release_date = "1738865908"
+release_date = "1738410311"
 
 [features]
 attachment = true

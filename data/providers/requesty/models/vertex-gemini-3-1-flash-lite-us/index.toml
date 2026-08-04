@@ -1,6 +1,6 @@
 id = "vertex/gemini-3.1-flash-lite@us"
 name = "vertex/gemini-3.1-flash-lite@us"
-release_date = "1778175883"
+release_date = "1778168828"
 
 [features]
 attachment = true

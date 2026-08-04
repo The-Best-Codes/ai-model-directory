@@ -1,6 +1,6 @@
 id = "novita/sao10k/l3-8b-lunaris"
 name = "novita/sao10k/l3-8b-lunaris"
-release_date = "1734535928"
+release_date = "1723507200"
 
 [features]
 attachment = false

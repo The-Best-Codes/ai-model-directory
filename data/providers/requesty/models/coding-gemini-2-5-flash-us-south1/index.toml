@@ -1,6 +1,6 @@
 id = "coding/gemini-2.5-flash@us-south1"
 name = "coding/gemini-2.5-flash@us-south1"
-release_date = "1747765524"
+release_date = "1750172488"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "novita/deepseek/deepseek-r1-distill-llama-70b"
 name = "novita/deepseek/deepseek-r1-distill-llama-70b"
-release_date = "1738263837"
+release_date = "1737663169"
 
 [features]
 attachment = false

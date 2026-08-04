@@ -1,6 +1,6 @@
 id = "deepinfra/ByteDance/Seed-2.0-mini"
 name = "deepinfra/ByteDance/Seed-2.0-mini"
-release_date = "1779873104"
+release_date = "1772131107"
 
 [features]
 attachment = true

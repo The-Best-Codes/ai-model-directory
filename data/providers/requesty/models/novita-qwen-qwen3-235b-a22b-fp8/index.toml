@@ -1,6 +1,6 @@
 id = "novita/qwen/qwen3-235b-a22b-fp8"
 name = "novita/qwen/qwen3-235b-a22b-fp8"
-release_date = "1745882204"
+release_date = "1745875757"
 
 [features]
 attachment = false

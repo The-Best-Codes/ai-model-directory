@@ -1,6 +1,6 @@
 id = "openai-responses/gpt-5.1-codex"
 name = "openai-responses/gpt-5.1-codex"
-release_date = "1764719016"
+release_date = "1763060298"
 
 [features]
 attachment = true

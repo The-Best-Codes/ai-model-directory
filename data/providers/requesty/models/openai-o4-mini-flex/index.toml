@@ -1,6 +1,6 @@
 id = "openai/o4-mini:flex"
 name = "openai/o4-mini:flex"
-release_date = "1744824542"
+release_date = "1744820942"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "novita/gryphe/mythomax-l2-13b"
 name = "novita/gryphe/mythomax-l2-13b"
-release_date = "1688259600"
+release_date = "1688256000"
 
 [features]
 attachment = false

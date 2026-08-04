@@ -1,0 +1,17 @@
+id = "qwen3.8-max-el"
+name = "Qwen3.8-Max-EL"
+release_date = "1785756694"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.0202
+output = 6.0606

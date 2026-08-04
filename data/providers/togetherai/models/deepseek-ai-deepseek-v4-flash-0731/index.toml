@@ -1,0 +1,17 @@
+id = "deepseek-ai/DeepSeek-V4-Flash-0731"
+name = "Deepseek V4 Flash 0731"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.030000000000000002
+input = 0.13999999999999999
+output = 0.27999999999999997

@@ -1,6 +1,6 @@
 id = "xai/grok-4"
 name = "xai/grok-4"
-release_date = "1760609788"
+release_date = "1752019200"
 
 [features]
 attachment = true

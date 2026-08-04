@@ -1,6 +1,6 @@
 id = "nebius/openai/gpt-oss-120b"
 name = "nebius/openai/gpt-oss-120b"
-release_date = "1772444580"
+release_date = "1754414231"
 
 [features]
 attachment = false

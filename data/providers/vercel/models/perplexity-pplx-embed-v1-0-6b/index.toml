@@ -1,0 +1,9 @@
+id = "perplexity/pplx-embed-v1-0.6b"
+name = "Embed v1 0.6b"
+release_date = "1772064000"
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.004

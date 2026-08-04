@@ -1,6 +1,6 @@
 id = "novita/deepseek/deepseek_v3"
 name = "novita/deepseek/deepseek_v3"
-release_date = "1748631837"
+release_date = "1735241320"
 
 [features]
 attachment = false

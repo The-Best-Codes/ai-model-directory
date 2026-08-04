@@ -1,6 +1,6 @@
 id = "novita/baichuan/baichuan-m2-32b"
 name = "novita/baichuan/baichuan-m2-32b"
-release_date = "1779873202"
+release_date = "1754870400"
 
 [features]
 attachment = false

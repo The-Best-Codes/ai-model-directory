@@ -1,6 +1,6 @@
 id = "xai/grok-4.3"
 name = "xai/grok-4.3"
-release_date = "1777635042"
+release_date = "1777591821"
 
 [features]
 attachment = true

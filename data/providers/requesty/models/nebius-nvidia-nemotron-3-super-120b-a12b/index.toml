@@ -1,6 +1,6 @@
 id = "nebius/nvidia/nemotron-3-super-120b-a12b"
 name = "nebius/nvidia/nemotron-3-super-120b-a12b"
-release_date = "1781598844"
+release_date = "1773245239"
 
 [features]
 attachment = false

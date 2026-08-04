@@ -1,6 +1,6 @@
 id = "xai/grok-4-fast-non-reasoning"
 name = "xai/grok-4-fast-non-reasoning"
-release_date = "1760609788"
+release_date = "1758240000"
 
 [features]
 attachment = false
