@@ -4,12 +4,12 @@ release_date = "1779376861"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 tool_call = true
 
 [limit]
 context = 1048576
-output = 65536
+output = 131072
 
 [modalities]
 input = [ "text" ]

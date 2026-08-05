@@ -16,3 +16,7 @@ output = 32000
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 25.68
+output = 128.64

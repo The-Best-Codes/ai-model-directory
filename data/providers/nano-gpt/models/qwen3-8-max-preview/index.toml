@@ -1,5 +1,5 @@
 id = "qwen3.8-max-preview"
-name = "Qwen3.8 Max Preview"
+name = "Qwen3.8 Max"
 release_date = "1784419200"
 
 [features]

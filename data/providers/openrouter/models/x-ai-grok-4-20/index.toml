@@ -1,6 +1,6 @@
 id = "x-ai/grok-4.20"
 knowledge_cutoff = "1756684800"
-name = "xAI: Grok 4.20"
+name = "SpaceXAI: Grok 4.20"
 release_date = "1774979019"
 
 [features]

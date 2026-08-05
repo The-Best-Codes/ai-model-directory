@@ -1,5 +1,5 @@
 id = "codex-auto-review"
 
 [pricing]
-input = 2.5
-output = 15
+input = 0.2
+output = 1.2

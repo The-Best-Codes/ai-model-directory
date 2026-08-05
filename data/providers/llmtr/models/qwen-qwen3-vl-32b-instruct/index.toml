@@ -10,3 +10,7 @@ context = 256000
 
 [modalities]
 input = [ "text" ]
+
+[pricing]
+input = 0.16
+output = 0.64

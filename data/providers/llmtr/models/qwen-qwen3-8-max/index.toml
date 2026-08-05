@@ -1,0 +1,19 @@
+id = "qwen/qwen3.8-max"
+name = "Qwen3.8-Max"
+release_date = "1785830140"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.25
+input = 2
+output = 6

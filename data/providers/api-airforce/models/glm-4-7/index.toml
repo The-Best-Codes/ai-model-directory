@@ -1,6 +1,6 @@
 id = "glm-4.7"
 name = "glm-4.7"
-release_date = "1785811979"
+release_date = "1785898223"
 
 [features]
 attachment = false
@@ -11,5 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
+cache_read = 0.37
 input = 0.59
 output = 2.18

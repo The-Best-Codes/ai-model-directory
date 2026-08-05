@@ -3,7 +3,7 @@ name = "novita/stepfun/step-3.7-flash"
 release_date = "1779985069"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 262144
 output = 256000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

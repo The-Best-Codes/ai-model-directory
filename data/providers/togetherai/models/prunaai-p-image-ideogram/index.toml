@@ -1,0 +1,10 @@
+id = "prunaai/p-image-ideogram"
+name = "P-Image-Ideogram"
+release_date = "1785844762"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

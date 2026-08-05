@@ -1,0 +1,19 @@
+id = "google/gemma-4-26b-a4b-it"
+name = "Google: Gemma 4 26B A4B IT"
+release_date = "1785829866"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.15
+output = 0.6
