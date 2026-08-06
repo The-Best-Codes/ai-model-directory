@@ -1,6 +1,6 @@
 id = "minimax-m3"
 name = "minimax-m3"
-release_date = "1785898223"
+release_date = "1785984783"
 
 [features]
 attachment = false
@@ -9,3 +9,8 @@ reasoning = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.09
+input = 0.33
+output = 1.32

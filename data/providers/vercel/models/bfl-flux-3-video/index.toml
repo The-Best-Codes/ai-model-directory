@@ -1,0 +1,12 @@
+id = "bfl/flux-3-video"
+name = "Flux 3"
+release_date = "1785801600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

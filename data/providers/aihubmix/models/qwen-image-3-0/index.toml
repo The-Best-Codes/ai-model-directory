@@ -1,0 +1,15 @@
+id = "qwen-image-3.0"
+name = "qwen-image-3.0"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 2

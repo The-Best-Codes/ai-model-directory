@@ -1,0 +1,16 @@
+id = "deepseek/deepseek-v4-flash-20260731"
+name = "Deepseek-V4-Flash-20260731"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0029000000000000002
+input = 0.14493
+output = 0.28986

@@ -1,0 +1,21 @@
+id = "pokee-isaac"
+name = "Pokee-Isaac 28B"
+release_date = "1785801600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 10000000
+output = 60000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 1

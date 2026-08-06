@@ -1,0 +1,11 @@
+id = "Duix-Avatar"
+last_updated = "1785822258"
+name = "Duix-Avatar"
+release_date = "1782835200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

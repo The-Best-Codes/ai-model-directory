@@ -1,0 +1,21 @@
+id = "meta/muse-spark-1.2-contributor"
+name = "Muse Spark 1.2 Contributor (Data Used for Training)"
+release_date = "1785888000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.2

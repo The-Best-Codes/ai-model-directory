@@ -1,6 +1,6 @@
 id = "deepseek-v4-pro"
 name = "deepseek-v4-pro"
-release_date = "1785898223"
+release_date = "1785984783"
 
 [features]
 attachment = false
