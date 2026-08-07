@@ -1,0 +1,21 @@
+id = "inclusionai/ling-3.0-flash"
+name = "Ling 3.0 Flash"
+release_date = "1785974400"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.012
+input = 0.06
+output = 0.18

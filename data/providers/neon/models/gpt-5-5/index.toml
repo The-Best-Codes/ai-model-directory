@@ -1,0 +1,27 @@
+id = "gpt-5-5"
+knowledge_cutoff = "1764547200"
+last_updated = "1776902400"
+name = "GPT-5.5"
+open_weights = false
+release_date = "1776902400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 1050000
+input = 922000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 5
+output = 30

@@ -3,14 +3,14 @@ name = "Qwen: Qwen3.8-Max"
 release_date = "1785743198"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 
 [limit]
 context = 1000000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]

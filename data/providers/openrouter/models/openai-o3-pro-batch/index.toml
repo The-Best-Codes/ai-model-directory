@@ -1,0 +1,23 @@
+id = "openai/o3-pro:batch"
+knowledge_cutoff = "1719705600"
+name = "OpenAI: o3 Pro (batch)"
+release_date = "1749598352"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 10
+output = 40

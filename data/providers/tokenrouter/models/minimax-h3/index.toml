@@ -1,0 +1,16 @@
+id = "MiniMax-H3"
+name = "MiniMax-H3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input_audio = 0
+output = 3.9
+output_audio = 0

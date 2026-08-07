@@ -4,7 +4,7 @@ release_date = "1760514415"
 
 [features]
 attachment = false
-reasoning = true
+reasoning = false
 structured_output = true
 temperature = false
 tool_call = false
@@ -21,4 +21,3 @@ output = [ "image" ]
 cache_read = 0.25
 input = 2.5
 output = 8
-reasoning = 0

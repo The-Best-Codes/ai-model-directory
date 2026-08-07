@@ -9,7 +9,3 @@ tool_call = false
 
 [modalities]
 input = [ "image", "text" ]
-
-[pricing]
-cache_read = 0
-input = 2
