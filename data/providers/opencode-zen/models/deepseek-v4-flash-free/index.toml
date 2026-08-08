@@ -1,7 +1,7 @@
 id = "deepseek-v4-flash-free"
 knowledge_cutoff = "1746057600"
 last_updated = "1785456000"
-name = "DeepSeek V4 Flash Free (New)"
+name = "DeepSeek V4 Flash Free"
 open_weights = true
 release_date = "1785456000"
 

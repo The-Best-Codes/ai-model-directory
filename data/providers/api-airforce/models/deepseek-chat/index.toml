@@ -1,0 +1,16 @@
+id = "deepseek-chat"
+name = "deepseek-chat"
+release_date = "1786154038"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.18
+output = 0.27

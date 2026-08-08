@@ -1,0 +1,15 @@
+id = "qwen3.7-max"
+name = "qwen3.7-max"
+release_date = "1786154038"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.12
+output = 3.34

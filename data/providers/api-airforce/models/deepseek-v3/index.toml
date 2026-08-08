@@ -1,0 +1,15 @@
+id = "deepseek-v3"
+name = "deepseek-v3"
+release_date = "1786154038"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.18
+output = 0.74

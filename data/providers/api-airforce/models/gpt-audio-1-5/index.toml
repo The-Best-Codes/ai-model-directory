@@ -1,6 +1,6 @@
 id = "gpt-audio-1.5"
 name = "gpt-audio-1.5"
-release_date = "1786071076"
+release_date = "1786154038"
 
 [features]
 reasoning = false

@@ -12,3 +12,8 @@ context = 1000000
 
 [modalities]
 input = [ "text" ]
+
+[pricing]
+cache_read = 0.00308
+input = 0.154
+output = 0.308

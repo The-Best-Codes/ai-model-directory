@@ -1,0 +1,21 @@
+id = "novita/inclusionai/ling-3.0-tiny"
+name = "novita/inclusionai/ling-3.0-tiny"
+release_date = "1785941340"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

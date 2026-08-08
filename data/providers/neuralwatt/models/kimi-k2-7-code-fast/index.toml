@@ -3,7 +3,7 @@ name = "Kimi K2.7 Code Fast"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 structured_output = true
 tool_call = true
 

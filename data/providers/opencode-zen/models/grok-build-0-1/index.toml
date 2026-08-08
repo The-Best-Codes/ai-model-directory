@@ -1,8 +1,8 @@
 id = "grok-build-0.1"
-last_updated = "1779235200"
+last_updated = "1776297600"
 name = "Grok Build 0.1"
 open_weights = false
-release_date = "1779235200"
+release_date = "1776297600"
 
 [features]
 attachment = true

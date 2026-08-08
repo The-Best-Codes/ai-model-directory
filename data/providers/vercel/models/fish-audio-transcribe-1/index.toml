@@ -1,0 +1,6 @@
+id = "fish-audio/transcribe-1"
+name = "Transcribe-1"
+release_date = "1772323200"
+
+[pricing]
+input = 0.0001

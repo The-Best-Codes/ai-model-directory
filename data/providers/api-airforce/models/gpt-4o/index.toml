@@ -1,0 +1,16 @@
+id = "gpt-4o"
+name = "gpt-4o"
+release_date = "1786154038"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.12
+input = 0.23
+output = 0.92

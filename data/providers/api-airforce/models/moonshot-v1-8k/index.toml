@@ -1,6 +1,6 @@
 id = "moonshot-v1-8k"
 name = "moonshot-v1-8k"
-release_date = "1786071076"
+release_date = "1786154038"
 
 [features]
 attachment = false
@@ -12,4 +12,4 @@ output = [ "text" ]
 
 [pricing]
 input = 0.84
-output = 4.2
+output = 4.26
