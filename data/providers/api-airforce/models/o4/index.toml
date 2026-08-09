@@ -1,7 +1,7 @@
 id = "o4"
 knowledge_cutoff = "1717200000"
 name = "o4"
-release_date = "1786154038"
+release_date = "1786240899"
 
 [features]
 attachment = true
@@ -17,6 +17,6 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.06
-input = 0.24
-output = 0.93
+cache_read = 0.03
+input = 0.15
+output = 0.57

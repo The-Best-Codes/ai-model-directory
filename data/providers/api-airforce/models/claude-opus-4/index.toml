@@ -1,6 +1,6 @@
 id = "claude-opus-4"
 name = "claude-opus-4"
-release_date = "1786154038"
+release_date = "1786240899"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.33
-input = 3.21
-output = 16.08
+cache_read = 2.64
+input = 16.5
+output = 82.5

@@ -1,16 +1,16 @@
-id = "mimo-v2.5"
-name = "mimo-v2.5"
-release_date = "1786154038"
+id = "grok-4.1"
+name = "grok-4.1"
+release_date = "1786240899"
 
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0
-input = 0.35
-output = 1.85
+input = 0.57
+output = 2.89

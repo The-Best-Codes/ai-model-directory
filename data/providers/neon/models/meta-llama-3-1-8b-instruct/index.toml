@@ -14,7 +14,7 @@ tool_call = true
 
 [limit]
 context = 131072
-output = 16384
+output = 8192
 
 [modalities]
 input = [ "text" ]

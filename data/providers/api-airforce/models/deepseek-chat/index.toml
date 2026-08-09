@@ -1,6 +1,6 @@
 id = "deepseek-chat"
 name = "deepseek-chat"
-release_date = "1786154038"
+release_date = "1786240899"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.05
-input = 0.18
-output = 0.27
+cache_read = 0.16
+input = 0.56
+output = 0.83

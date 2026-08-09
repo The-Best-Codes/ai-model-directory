@@ -1,0 +1,15 @@
+id = "moonshotai/Kimi-K3"
+name = "moonshotai/Kimi-K3"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1048576
+output = 1048576
+
+[pricing]
+cache_read = 0.285
+input = 2.8499999999999996
+output = 14.25

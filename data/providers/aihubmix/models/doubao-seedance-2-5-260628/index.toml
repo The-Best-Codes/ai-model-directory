@@ -1,5 +1,5 @@
-id = "wan3.0-video"
-name = "wan3.0-video"
+id = "doubao-seedance-2-5-260628"
+name = "doubao-seedance-2-5-260628"
 
 [features]
 attachment = true
@@ -8,4 +8,4 @@ structured_output = false
 tool_call = false
 
 [modalities]
-input = [ "audio", "image", "text", "video" ]
+input = [ "image", "text" ]

@@ -1,6 +1,6 @@
 id = "glm-4.5-air"
 name = "glm-4.5-air"
-release_date = "1786154038"
+release_date = "1786240899"
 
 [features]
 attachment = false
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.18
-output = 1.29
+input = 0.27
+output = 1.92
