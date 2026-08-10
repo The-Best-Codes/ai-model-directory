@@ -1,0 +1,17 @@
+id = "trustedrouter/socrates-pro-plus"
+name = "TrustedRouter Socrates Pro Plus"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0714
+output = 0.1764

@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-235B-A22B-Instruct-2507"
+name = "Qwen3 235B A22B Instruct 2507"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 0.63

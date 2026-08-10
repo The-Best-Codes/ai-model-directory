@@ -1,0 +1,17 @@
+id = "qwen3-rerank"
+name = "Qwen3 Rerank"
+release_date = "1749081600"
+
+[features]
+attachment = false
+
+[limit]
+context = 4000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.1
+output = 0

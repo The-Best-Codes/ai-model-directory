@@ -1,0 +1,17 @@
+id = "openai/gpt-4"
+name = "OpenAI: GPT-4"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8191
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 31.5
+output = 63

@@ -1,0 +1,13 @@
+id = "microsoft/phi-4"
+name = "Phi-4"
+
+[limit]
+context = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.125
+output = 0.5

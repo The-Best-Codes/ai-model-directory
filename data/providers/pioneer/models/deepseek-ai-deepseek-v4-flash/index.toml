@@ -1,0 +1,21 @@
+id = "deepseek-ai/DeepSeek-V4-Flash"
+name = "Deepseek V4 Flash"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 1000000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 0.14
+input = 0.14
+output = 0.28

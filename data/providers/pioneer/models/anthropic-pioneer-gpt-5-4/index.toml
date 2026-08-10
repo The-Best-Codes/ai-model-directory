@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/gpt-5.4"
+name = "Gpt 5.4"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+
+[limit]
+input = 1050000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+cache_write = 2.5
+input = 2.5
+output = 15

@@ -1,0 +1,17 @@
+id = "cohere/embed-v4.0"
+name = "Cohere Embed v4.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.126
+output = 0

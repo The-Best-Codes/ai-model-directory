@@ -1,0 +1,17 @@
+id = "qwen/qwq-32b"
+name = "@cf/qwen/qwq-32b"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 24000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.693
+output = 1.05

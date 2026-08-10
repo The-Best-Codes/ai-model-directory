@@ -1,0 +1,17 @@
+id = "meta-llama/llama-4-scout-17b-16e-instruct"
+name = "Llama 4 Scout Instruct"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.189
+output = 0.6195

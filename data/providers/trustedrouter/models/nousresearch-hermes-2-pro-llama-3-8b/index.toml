@@ -1,0 +1,17 @@
+id = "nousresearch/hermes-2-pro-llama-3-8b"
+name = "Hermes 2 Pro Llama 3 8B"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.147
+output = 0.147

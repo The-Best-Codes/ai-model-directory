@@ -1,0 +1,22 @@
+id = "fugu-ultra-v1-0"
+name = "Fugu Ultra v1.0"
+release_date = "1782000000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.5
+input = 7.5
+output = 45

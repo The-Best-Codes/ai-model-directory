@@ -1,0 +1,17 @@
+id = "openai/sora-2"
+name = "OpenAI Sora 2"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 2500
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

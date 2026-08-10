@@ -1,0 +1,21 @@
+id = "volcengine/doubao-seedream-5.0-pro"
+name = "Doubao Seedream 5.0 Pro"
+release_date = "1783468800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 100000
+output = 100000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

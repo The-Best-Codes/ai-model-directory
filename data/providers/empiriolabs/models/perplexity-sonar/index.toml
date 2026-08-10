@@ -1,0 +1,18 @@
+id = "perplexity-sonar"
+name = "Perplexity Sonar"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 127000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 2.4
+input = 2.4
+output = 2.4

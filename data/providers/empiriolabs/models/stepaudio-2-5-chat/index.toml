@@ -1,0 +1,19 @@
+id = "stepaudio-2-5-chat"
+name = "StepAudio 2.5 Chat"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 256000
+output = 131072
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.29
+input = 1.43
+output = 3.57

@@ -1,0 +1,17 @@
+id = "inclusionai/ling-3.0-tiny"
+name = "Ling 3.0 Tiny"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01
+output = 0.01

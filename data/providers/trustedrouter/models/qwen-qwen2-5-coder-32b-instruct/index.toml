@@ -1,0 +1,17 @@
+id = "qwen/qwen2.5-coder-32b-instruct"
+name = "@cf/qwen/qwen2.5-coder-32b-instruct"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.693
+output = 1.05

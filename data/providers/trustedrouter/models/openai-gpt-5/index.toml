@@ -1,0 +1,17 @@
+id = "openai/gpt-5"
+name = "OpenAI: GPT-5"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.3125
+output = 10.5

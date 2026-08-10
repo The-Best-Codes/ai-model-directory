@@ -1,0 +1,17 @@
+id = "google/gemini-omni-flash"
+name = "Google Gemini Omni Flash"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

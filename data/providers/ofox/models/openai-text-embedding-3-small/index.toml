@@ -1,0 +1,21 @@
+id = "openai/text-embedding-3-small"
+name = "OpenAI: Text Embedding 3 Small"
+release_date = "1761782400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8200
+output = 8200
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.02
+output = 0

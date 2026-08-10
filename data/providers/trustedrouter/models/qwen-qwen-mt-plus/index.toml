@@ -1,0 +1,17 @@
+id = "qwen/qwen-mt-plus"
+name = "Qwen MT Plus"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0525
+output = 0.42

@@ -1,0 +1,7 @@
+name = "Pioneer"
+website = "https://pioneer.ai"
+apiBaseUrl = "https://api.pioneer.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["PIONEER_API_KEY"]

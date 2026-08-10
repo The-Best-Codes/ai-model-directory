@@ -1,0 +1,17 @@
+id = "anthropic/claude-opus-4.5-20251101"
+name = "Claude Opus 4.5 20251101"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5.25
+output = 26.25

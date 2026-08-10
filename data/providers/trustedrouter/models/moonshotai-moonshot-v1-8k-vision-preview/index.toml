@@ -1,0 +1,17 @@
+id = "moonshotai/moonshot-v1-8k-vision-preview"
+name = "Moonshot V1 8K Vision Preview"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 2.1

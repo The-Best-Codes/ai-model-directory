@@ -1,0 +1,17 @@
+id = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+name = "Meta Llama 3.1 8B Instruct"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.021
+output = 0.063

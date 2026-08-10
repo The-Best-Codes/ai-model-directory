@@ -1,0 +1,15 @@
+id = "gemini-2-5-flash-tts"
+name = "Gemini 2.5 Flash TTS"
+release_date = "1747699200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+cache_read = 1.5
+input = 1.5
+output = 30

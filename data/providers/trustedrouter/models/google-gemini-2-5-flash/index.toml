@@ -1,0 +1,17 @@
+id = "google/gemini-2.5-flash"
+name = "Google: Gemini 2.5 Flash"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.315
+output = 2.625

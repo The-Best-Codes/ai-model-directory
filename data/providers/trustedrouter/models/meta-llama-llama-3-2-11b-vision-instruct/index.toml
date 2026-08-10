@@ -1,0 +1,17 @@
+id = "meta-llama/llama-3.2-11b-vision-instruct"
+name = "@cf/meta/llama-3.2-11b-vision-instruct"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.050925
+output = 0.7098

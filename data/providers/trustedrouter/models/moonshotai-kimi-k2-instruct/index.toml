@@ -1,0 +1,17 @@
+id = "moonshotai/kimi-k2-instruct"
+name = "Kimi K2 Instruct"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5985
+output = 2.415

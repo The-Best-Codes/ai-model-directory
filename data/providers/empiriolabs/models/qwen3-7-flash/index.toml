@@ -1,0 +1,22 @@
+id = "qwen3-7-flash"
+name = "Qwen3.7 Flash"
+release_date = "1784073600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.006
+input = 0.03
+output = 0.13

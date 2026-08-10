@@ -1,0 +1,17 @@
+id = "google/gemini-3.1-flash-image-preview"
+name = "Nano Banana 2"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.525
+output = 63

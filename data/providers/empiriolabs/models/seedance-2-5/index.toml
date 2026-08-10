@@ -1,0 +1,10 @@
+id = "seedance-2-5"
+name = "Seedance 2.5"
+release_date = "1786060800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "video" ]

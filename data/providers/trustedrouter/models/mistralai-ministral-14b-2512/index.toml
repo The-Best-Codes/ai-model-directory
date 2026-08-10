@@ -1,0 +1,17 @@
+id = "mistralai/ministral-14b-2512"
+name = "Mistral: Ministral 3 14B 2512"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 0.21

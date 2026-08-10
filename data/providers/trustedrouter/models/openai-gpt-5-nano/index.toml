@@ -1,0 +1,17 @@
+id = "openai/gpt-5-nano"
+name = "OpenAI: GPT-5 Nano"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0525
+output = 0.42

@@ -1,0 +1,17 @@
+id = "morph/morph-v3-fast"
+name = "morph-v3-fast"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.84
+output = 1.26

@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3-nano-30b-a3b"
+name = "NVIDIA: Nemotron 3 Nano 30B A3B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0525
+output = 0.21

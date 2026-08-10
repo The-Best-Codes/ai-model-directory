@@ -1,0 +1,17 @@
+id = "qwen/qwen3-235b-a22b-thinking-2507"
+name = "Qwen: Qwen3 235B A22B Thinking 2507"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2415
+output = 1.255485

@@ -1,0 +1,21 @@
+id = "google/gemma-4-31B-it"
+name = "Gemma 4 31b It"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 0.5
+input = 0.5
+output = 0.5

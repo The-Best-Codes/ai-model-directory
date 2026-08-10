@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-v3-0324"
+name = "DeepSeek V3 0324"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2835
+output = 1.176

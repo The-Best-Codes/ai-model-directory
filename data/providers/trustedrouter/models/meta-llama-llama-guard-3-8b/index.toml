@@ -1,0 +1,17 @@
+id = "meta-llama/llama-guard-3-8b"
+name = "@cf/meta/llama-guard-3-8b"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5082
+output = 0.0315

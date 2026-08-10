@@ -1,0 +1,17 @@
+id = "kling/v3-pro"
+name = "Kling Video 3.0 Pro"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 3072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

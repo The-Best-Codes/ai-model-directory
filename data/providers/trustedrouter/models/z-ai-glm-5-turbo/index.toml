@@ -1,0 +1,17 @@
+id = "z-ai/glm-5-turbo"
+name = "Z.ai: GLM 5 Turbo"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.26
+output = 4.2

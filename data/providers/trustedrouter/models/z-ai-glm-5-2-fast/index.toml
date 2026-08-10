@@ -1,0 +1,17 @@
+id = "z-ai/glm-5.2-fast"
+name = "GLM 5.2 Fast on Fireworks"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.205
+output = 6.93

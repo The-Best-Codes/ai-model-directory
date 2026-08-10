@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
+name = "Nvidia Nemotron 3 Nano 30b A3b Bf16"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 0.05
+input = 0.05
+output = 0.24

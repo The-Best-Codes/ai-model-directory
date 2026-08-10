@@ -1,0 +1,17 @@
+id = "meta-llama/llama-3.1-8b-instruct-fp8"
+name = "@cf/meta/llama-3.1-8b-instruct-fp8"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1596
+output = 0.30135

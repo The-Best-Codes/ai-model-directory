@@ -1,0 +1,10 @@
+id = "manus"
+name = "Manus"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "audio", "file", "image", "text", "video" ]

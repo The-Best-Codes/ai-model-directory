@@ -1,0 +1,7 @@
+name = "Impossibl"
+website = "https://impossibl.com"
+apiBaseUrl = "https://api.impossibl.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["IMPOSSIBL_API_KEY"]

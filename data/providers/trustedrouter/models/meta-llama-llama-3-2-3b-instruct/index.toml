@@ -1,0 +1,17 @@
+id = "meta-llama/llama-3.2-3b-instruct"
+name = "Meta: Llama 3.2 3B Instruct"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0315
+output = 0.0525

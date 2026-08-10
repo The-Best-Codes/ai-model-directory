@@ -1,0 +1,17 @@
+id = "google/gemma-2b-it"
+name = "gemma-2b-it"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 0.21

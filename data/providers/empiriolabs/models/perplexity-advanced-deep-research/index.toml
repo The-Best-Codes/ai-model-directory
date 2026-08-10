@@ -1,0 +1,15 @@
+id = "perplexity-advanced-deep-research"
+name = "Perplexity Advanced Deep Research"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 12
+input = 12
+output = 60

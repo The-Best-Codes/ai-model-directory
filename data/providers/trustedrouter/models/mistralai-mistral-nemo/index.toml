@@ -1,0 +1,17 @@
+id = "mistralai/mistral-nemo"
+name = "Mistral: Mistral Nemo"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.025725
+output = 0.10269

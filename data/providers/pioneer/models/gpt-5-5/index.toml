@@ -1,0 +1,21 @@
+id = "gpt-5.5"
+name = "Gpt 5.5"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+
+[limit]
+input = 1050000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 5
+input = 5
+output = 30

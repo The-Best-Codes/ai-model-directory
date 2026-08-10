@@ -1,0 +1,17 @@
+id = "anthropic/claude-sonnet-4.6"
+name = "Anthropic: Claude Sonnet 4.6"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.15
+output = 15.75

@@ -1,0 +1,17 @@
+id = "google/gemini-2.0-flash-lite"
+name = "Gemini 2.0 Flash Lite"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.07875
+output = 0.315

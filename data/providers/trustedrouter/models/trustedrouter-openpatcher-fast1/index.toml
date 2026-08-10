@@ -1,0 +1,17 @@
+id = "trustedrouter/openpatcher-fast1"
+name = "TrustedRouter OpenPatcher-Fast1"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.94
+output = 9.24

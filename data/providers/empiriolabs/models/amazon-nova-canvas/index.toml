@@ -1,0 +1,10 @@
+id = "amazon-nova-canvas"
+name = "Amazon Nova Canvas"
+release_date = "1733184000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

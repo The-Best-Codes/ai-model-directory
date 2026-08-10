@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/gpt-5.6-luna"
+name = "Gpt 5.6 Luna"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+
+[limit]
+input = 1050000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+cache_write = 1.25
+input = 1
+output = 6

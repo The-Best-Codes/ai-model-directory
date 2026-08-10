@@ -1,0 +1,18 @@
+id = "perplexity-sonar-pro"
+name = "Perplexity Sonar Pro"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 7.2
+input = 7.2
+output = 36

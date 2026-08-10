@@ -1,0 +1,17 @@
+id = "openai/gpt-4.1-mini"
+name = "OpenAI: GPT-4.1 Mini"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1047576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.42
+output = 1.68

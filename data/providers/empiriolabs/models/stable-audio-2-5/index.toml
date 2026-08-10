@@ -1,0 +1,10 @@
+id = "stable-audio-2-5"
+name = "Stable Audio 2.5"
+release_date = "1757462400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,21 @@
+id = "mistralai/Codestral-22B-v0.1"
+name = "Codestral 22b V0.1"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 128000
+output = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+cache_write = 0.3
+input = 0.3
+output = 0.9

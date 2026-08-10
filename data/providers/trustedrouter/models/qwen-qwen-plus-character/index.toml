@@ -1,0 +1,14 @@
+id = "qwen/qwen-plus-character"
+name = "Qwen Plus Character"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.42
+output = 4.2

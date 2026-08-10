@@ -1,0 +1,17 @@
+id = "openai/o3-mini"
+name = "OpenAI: o3 Mini"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.155
+output = 4.62

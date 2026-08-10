@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-nano-12b-v2-vl"
+name = "Nemotron Nano 12B v2 VL"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 0.63

@@ -1,0 +1,13 @@
+id = "openai/gpt-chat-latest"
+name = "GPT Chat Latest"
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5
+output = 30

@@ -1,0 +1,17 @@
+id = "trustedrouter/openpatcher-g2"
+name = "TrustedRouter OpenPatcher-G2"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1365
+output = 0.399

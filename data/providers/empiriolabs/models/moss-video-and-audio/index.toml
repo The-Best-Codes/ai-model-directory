@@ -1,0 +1,10 @@
+id = "moss-video-and-audio"
+name = "MOSS Video and Audio"
+release_date = "1769644800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "audio", "video" ]

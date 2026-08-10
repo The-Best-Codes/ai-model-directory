@@ -1,0 +1,17 @@
+id = "moonshotai/kimi-k2-thinking"
+name = "MoonshotAI: Kimi K2 Thinking"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.63
+output = 1.26

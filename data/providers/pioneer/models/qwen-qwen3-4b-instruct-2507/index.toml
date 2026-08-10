@@ -1,0 +1,21 @@
+id = "Qwen/Qwen3-4B-Instruct-2507"
+name = "Qwen3 4b Instruct 2507"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 0.2
+input = 0.2
+output = 0.2

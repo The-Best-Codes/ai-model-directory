@@ -1,0 +1,10 @@
+id = "exa-search"
+name = "Exa Search"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

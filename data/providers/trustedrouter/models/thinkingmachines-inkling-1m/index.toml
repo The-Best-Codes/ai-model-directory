@@ -1,0 +1,17 @@
+id = "thinkingmachines/inkling-1m"
+name = "Inkling"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.05
+output = 4.2525

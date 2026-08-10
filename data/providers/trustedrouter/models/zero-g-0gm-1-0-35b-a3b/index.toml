@@ -1,0 +1,17 @@
+id = "zero-g/0gm-1.0-35b-a3b"
+name = "0GM-1.0-35B-A3B"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.084
+output = 0.504

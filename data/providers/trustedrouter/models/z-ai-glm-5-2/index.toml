@@ -1,0 +1,17 @@
+id = "z-ai/glm-5.2"
+name = "Z.ai: GLM 5.2"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.714
+output = 1.575

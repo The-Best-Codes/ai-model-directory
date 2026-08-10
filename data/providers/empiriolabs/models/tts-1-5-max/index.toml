@@ -1,0 +1,10 @@
+id = "tts-1-5-max"
+name = "TTS 1.5 Max"
+release_date = "1768953600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

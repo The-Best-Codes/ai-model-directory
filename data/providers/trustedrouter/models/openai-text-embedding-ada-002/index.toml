@@ -1,0 +1,17 @@
+id = "openai/text-embedding-ada-002"
+name = "OpenAI Text Embedding Ada 002"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8191
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.105
+output = 0

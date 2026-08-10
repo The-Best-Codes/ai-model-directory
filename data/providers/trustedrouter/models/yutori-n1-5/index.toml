@@ -1,0 +1,17 @@
+id = "yutori/n1.5"
+name = "yutori/n1.5"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.575
+output = 5.25

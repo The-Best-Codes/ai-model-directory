@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/gpt-5.4-mini"
+name = "Gpt 5.4 Mini"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+
+[limit]
+input = 400000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+cache_write = 0.75
+input = 0.75
+output = 4.5

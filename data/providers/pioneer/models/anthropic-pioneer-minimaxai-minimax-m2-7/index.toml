@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/MiniMaxAI/MiniMax-M2.7"
+name = "Minimax M2.7"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 204800
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.279
+cache_write = 0.375
+input = 0.3
+output = 1.2

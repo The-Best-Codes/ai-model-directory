@@ -1,0 +1,10 @@
+id = "wan2-5-image"
+name = "Wan2.5 Image"
+release_date = "1758672000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

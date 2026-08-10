@@ -1,0 +1,17 @@
+id = "bytedance/seedance-2.0"
+name = "ByteDance Seedance 2.0"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,14 @@
+id = "groq/gpt-oss-20b"
+name = "Groq GPT OSS 20B"
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0375
+input = 0.075
+output = 0.3

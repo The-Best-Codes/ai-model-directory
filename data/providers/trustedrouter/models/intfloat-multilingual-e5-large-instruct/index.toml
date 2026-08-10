@@ -1,0 +1,17 @@
+id = "intfloat/multilingual-e5-large-instruct"
+name = "Multilingual E5 Large Instruct"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.021
+output = 0

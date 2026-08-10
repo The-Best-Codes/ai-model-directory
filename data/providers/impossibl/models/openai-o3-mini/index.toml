@@ -1,0 +1,14 @@
+id = "openai/o3-mini"
+name = "OpenAI o3-mini"
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.55
+input = 1.1
+output = 4.4

@@ -1,0 +1,17 @@
+id = "morph/morph-v3-large"
+name = "morph-v3-large"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.945
+output = 1.995

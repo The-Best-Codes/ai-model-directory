@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-Embedding-8B"
+name = "Qwen3 Embedding 8B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0105
+output = 0

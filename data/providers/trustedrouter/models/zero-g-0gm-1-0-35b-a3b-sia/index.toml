@@ -1,0 +1,17 @@
+id = "zero-g/0gm-1.0-35b-a3b-sia"
+name = "0GM-1.0-35B-A3B-SIA"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.084
+output = 0.504

@@ -1,0 +1,21 @@
+id = "seed-2-0-code"
+name = "Seed 2.0 Code"
+release_date = "1771027200"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.4
+input = 0.4
+output = 2.4

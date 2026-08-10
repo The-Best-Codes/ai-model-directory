@@ -1,0 +1,17 @@
+id = "sao10k/l31-70b-euryale-v2.2"
+name = "L31 70B Euryale V2.2"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.554
+output = 1.554

@@ -1,0 +1,22 @@
+id = "volcengine/doubao-seed-1-6-flash"
+name = "Doubao Seed 1.6 Flash"
+release_date = "1756339200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0043
+input = 0.03
+output = 0.22

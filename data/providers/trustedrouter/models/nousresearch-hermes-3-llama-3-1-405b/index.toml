@@ -1,0 +1,17 @@
+id = "nousresearch/hermes-3-llama-3.1-405b"
+name = "Nous: Hermes 3 405B Instruct"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.05
+output = 1.05

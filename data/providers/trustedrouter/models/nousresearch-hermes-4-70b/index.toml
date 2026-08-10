@@ -1,0 +1,17 @@
+id = "NousResearch/Hermes-4-70B"
+name = "Hermes 4 70B"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1365
+output = 0.42

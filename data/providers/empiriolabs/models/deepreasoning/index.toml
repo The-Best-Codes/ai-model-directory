@@ -1,0 +1,15 @@
+id = "deepreasoning"
+name = "DeepReasoning"
+release_date = "1737849600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+
+[limit]
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

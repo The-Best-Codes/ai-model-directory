@@ -1,0 +1,10 @@
+id = "hunyuan-video-1-5"
+name = "Hunyuan Video 1.5"
+release_date = "1763596800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

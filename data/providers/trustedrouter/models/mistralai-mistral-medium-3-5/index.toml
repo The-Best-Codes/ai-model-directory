@@ -1,0 +1,17 @@
+id = "mistralai/mistral-medium-3-5"
+name = "Mistral: Mistral Medium 3.5"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.575
+output = 7.875

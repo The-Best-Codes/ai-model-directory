@@ -1,0 +1,17 @@
+id = "mistralai/mistral-large"
+name = "Mistral Large"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.525
+output = 1.575

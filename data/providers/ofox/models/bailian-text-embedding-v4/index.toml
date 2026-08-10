@@ -1,0 +1,20 @@
+id = "bailian/text-embedding-v4"
+name = "Qwen Text Embedding V4"
+release_date = "1735689600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.072
+output = 0

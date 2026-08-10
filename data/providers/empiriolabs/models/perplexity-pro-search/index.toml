@@ -1,0 +1,15 @@
+id = "perplexity-pro-search"
+name = "Perplexity Pro Search"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 7.8
+input = 7.8
+output = 39

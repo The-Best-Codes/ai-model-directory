@@ -1,0 +1,21 @@
+id = "deepseek-ai/DeepSeek-V3.1"
+name = "Deepseek V3.1"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 163840
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.56
+cache_write = 0.56
+input = 0.56
+output = 1.68

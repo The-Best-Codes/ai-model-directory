@@ -1,0 +1,17 @@
+id = "moonshotai/kimi-k2.5"
+name = "MoonshotAI: Kimi K2.5"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.39375
+output = 2.12625

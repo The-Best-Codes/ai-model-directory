@@ -1,0 +1,17 @@
+id = "bytedance/doubao-seed-2.0-mini-260428"
+name = "Doubao Seed 2.0 Mini"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.105
+output = 0.42

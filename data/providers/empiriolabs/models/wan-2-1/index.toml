@@ -1,0 +1,10 @@
+id = "wan-2-1"
+name = "Wan 2.1"
+release_date = "1740441600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

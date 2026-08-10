@@ -1,0 +1,10 @@
+id = "step-image-edit-2"
+name = "Step Image Edit 2"
+release_date = "1777420800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

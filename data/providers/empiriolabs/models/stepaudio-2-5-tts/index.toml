@@ -1,0 +1,10 @@
+id = "stepaudio-2-5-tts"
+name = "StepAudio 2.5 TTS"
+release_date = "1776729600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

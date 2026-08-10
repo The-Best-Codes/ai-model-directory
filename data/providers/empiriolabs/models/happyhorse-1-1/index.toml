@@ -1,0 +1,10 @@
+id = "happyhorse-1-1"
+name = "HappyHorse 1.1"
+release_date = "1782086400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

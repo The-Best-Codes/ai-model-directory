@@ -1,0 +1,9 @@
+id = "step-tts-2"
+name = "Step TTS 2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

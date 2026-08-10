@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/deepseek-ai/DeepSeek-V4-Flash-0731"
+name = "Deepseek V4 Flash 0731"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 1000000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.028
+cache_write = 0.14
+input = 0.14
+output = 0.28

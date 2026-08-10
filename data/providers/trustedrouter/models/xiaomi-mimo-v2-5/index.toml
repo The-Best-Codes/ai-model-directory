@@ -1,0 +1,17 @@
+id = "xiaomi/mimo-v2.5"
+name = "Xiaomi: MiMo-V2.5"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.147
+output = 0.294

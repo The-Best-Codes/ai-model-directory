@@ -1,0 +1,17 @@
+id = "runway/gen-4.5"
+name = "Runway Gen-4.5"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

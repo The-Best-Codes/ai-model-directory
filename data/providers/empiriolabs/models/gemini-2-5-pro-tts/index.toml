@@ -1,0 +1,15 @@
+id = "gemini-2-5-pro-tts"
+name = "Gemini 2.5 Pro TTS"
+release_date = "1747699200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+cache_read = 3
+input = 3
+output = 60

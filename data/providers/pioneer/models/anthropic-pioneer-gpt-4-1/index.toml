@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/gpt-4.1"
+name = "Gpt 4.1"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+
+[limit]
+input = 1047576
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1
+cache_write = 2
+input = 2
+output = 8

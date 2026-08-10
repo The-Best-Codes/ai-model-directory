@@ -1,0 +1,17 @@
+id = "openai/o4-mini"
+name = "OpenAI: o4 Mini"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.155
+output = 4.62

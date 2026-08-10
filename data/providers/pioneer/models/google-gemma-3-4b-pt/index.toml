@@ -1,0 +1,21 @@
+id = "google/gemma-3-4b-pt"
+name = "Gemma 3 4b Pt"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+cache_write = 0.15
+input = 0.15
+output = 0.15

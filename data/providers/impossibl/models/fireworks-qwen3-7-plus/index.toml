@@ -1,0 +1,14 @@
+id = "fireworks/qwen3.7-plus"
+name = "Fireworks Qwen 3.7 Plus"
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+input = 0.4
+output = 1.6

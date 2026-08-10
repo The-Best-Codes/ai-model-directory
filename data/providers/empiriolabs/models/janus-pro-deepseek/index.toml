@@ -1,0 +1,10 @@
+id = "janus-pro-deepseek"
+name = "Janus-Pro DeepSeek"
+release_date = "1737936000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]

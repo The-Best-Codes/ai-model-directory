@@ -1,0 +1,21 @@
+id = "LiquidAI/LFM2-24B-A2B"
+name = "Lfm2 24b A2b"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.03
+input = 0.03
+output = 0.12

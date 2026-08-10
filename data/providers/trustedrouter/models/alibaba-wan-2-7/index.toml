@@ -1,0 +1,17 @@
+id = "alibaba/wan-2.7"
+name = "Alibaba Wan 2.7"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 5000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

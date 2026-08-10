@@ -1,0 +1,17 @@
+id = "nvidia/Cosmos3-Super-Reasoner"
+name = "Cosmos3-Super-Reasoner"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.105
+output = 0.315

@@ -1,0 +1,22 @@
+id = "bailian/qwen-max"
+name = "Qwen Max"
+release_date = "1737763200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 32000
+output = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.069
+input = 0.35
+output = 1.38

@@ -1,0 +1,17 @@
+id = "stepfun/step-3.7-flash"
+name = "StepFun: Step 3.7 Flash"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 1.2075

@@ -1,0 +1,17 @@
+id = "qwen/qwen3-coder-flash"
+name = "Qwen3 Coder Flash"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.315
+output = 1.575

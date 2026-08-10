@@ -1,0 +1,17 @@
+id = "trustedrouter/synth"
+name = "TrustedRouter Synth"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

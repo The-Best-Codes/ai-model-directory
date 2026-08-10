@@ -1,0 +1,22 @@
+id = "gemma-4-26b-a4b"
+name = "Gemma 4 26B-A4B"
+release_date = "1774915200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.025
+input = 0.05
+output = 0.29

@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3-nano-omni"
+name = "Nemotron Nano 3 Omni"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.525
+output = 0.945

@@ -1,0 +1,17 @@
+id = "xiaomimimo/mimo-v2-flash"
+name = "XiaomiMiMo/MiMo-V2-Flash"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.105
+output = 0.315

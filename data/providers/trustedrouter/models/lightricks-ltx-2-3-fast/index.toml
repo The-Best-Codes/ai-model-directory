@@ -1,0 +1,17 @@
+id = "lightricks/ltx-2.3-fast"
+name = "Lightricks LTX 2.3 Fast"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 5000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

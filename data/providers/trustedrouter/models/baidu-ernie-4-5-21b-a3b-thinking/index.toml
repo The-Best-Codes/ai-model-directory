@@ -1,0 +1,17 @@
+id = "baidu/ernie-4.5-21B-a3b-thinking"
+name = "ERNIE-4.5-21B-A3B-Thinking"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0735
+output = 0.294

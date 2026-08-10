@@ -1,0 +1,14 @@
+id = "qwen/qwen3.6-flash"
+name = "Qwen3.6 Flash"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.25
+output = 1.5

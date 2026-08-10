@@ -1,0 +1,17 @@
+id = "inclusionai/ling-2.6-1t"
+name = "inclusionAI: Ling-2.6-1T"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.315
+output = 2.625

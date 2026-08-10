@@ -1,0 +1,17 @@
+id = "baichuan/baichuan-m2-32b"
+name = "BaiChuan M2 32B"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0735
+output = 0.0735

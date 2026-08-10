@@ -1,0 +1,17 @@
+id = "mistralai/ministral-3-14b-instruct"
+name = "Ministral 3 14B Instruct"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 0.21

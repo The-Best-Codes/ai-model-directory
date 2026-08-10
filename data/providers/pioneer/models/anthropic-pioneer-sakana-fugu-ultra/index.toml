@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/sakana/fugu-ultra"
+name = "Fugu Ultra"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+
+[limit]
+input = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 5
+input = 5
+output = 30

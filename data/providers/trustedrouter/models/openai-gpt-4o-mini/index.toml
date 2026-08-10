@@ -1,0 +1,17 @@
+id = "openai/gpt-4o-mini"
+name = "OpenAI: GPT-4o-mini"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1575
+output = 0.63

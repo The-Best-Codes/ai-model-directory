@@ -1,0 +1,17 @@
+id = "bytedance/doubao-seed-evolving"
+name = "Doubao Seed Evolving"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.945
+output = 4.725

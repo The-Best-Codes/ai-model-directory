@@ -1,0 +1,17 @@
+id = "qwen/qwen3-8b"
+name = "Qwen3 8b"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.189
+output = 2.205

@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/XiaomiMiMo/MiMo-V2.5"
+name = "Mimo V2.5"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+
+[limit]
+input = 1050000
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0028
+cache_write = 0.14
+input = 0.14
+output = 0.28

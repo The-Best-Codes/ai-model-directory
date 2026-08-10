@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-v3-turbo"
+name = "DeepSeek V3 (Turbo)"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.42
+output = 1.365

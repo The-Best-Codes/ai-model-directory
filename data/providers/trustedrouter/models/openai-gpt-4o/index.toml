@@ -1,0 +1,17 @@
+id = "openai/gpt-4o"
+name = "OpenAI: GPT-4o"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.625
+output = 10.5

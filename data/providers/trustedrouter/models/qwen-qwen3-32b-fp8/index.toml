@@ -1,0 +1,17 @@
+id = "qwen/qwen3-32b-fp8"
+name = "Qwen3 32B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.105
+output = 0.4725

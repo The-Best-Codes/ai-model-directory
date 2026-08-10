@@ -1,0 +1,10 @@
+id = "ace-step-1-5-xl"
+name = "ACE-Step 1.5 XL"
+release_date = "1775088000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

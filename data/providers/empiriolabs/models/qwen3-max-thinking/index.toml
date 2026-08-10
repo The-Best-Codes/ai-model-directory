@@ -1,0 +1,21 @@
+id = "qwen3-max-thinking"
+name = "Qwen3 Max Thinking"
+release_date = "1758585600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+
+[limit]
+context = 256000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.08
+input = 1.08
+output = 5.52

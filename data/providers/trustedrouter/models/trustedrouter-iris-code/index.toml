@@ -1,0 +1,17 @@
+id = "trustedrouter/iris-code"
+name = "TrustedRouter Iris Code"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2835
+output = 0.9135

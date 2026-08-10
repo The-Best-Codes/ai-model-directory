@@ -1,0 +1,17 @@
+id = "trustedrouter/zdr"
+name = "TrustedRouter ZDR"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03885
+output = 0.1575

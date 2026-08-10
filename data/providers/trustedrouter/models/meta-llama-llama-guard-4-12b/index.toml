@@ -1,0 +1,17 @@
+id = "meta-llama/llama-guard-4-12b"
+name = "Meta: Llama Guard 4 12B"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.189
+output = 0.189

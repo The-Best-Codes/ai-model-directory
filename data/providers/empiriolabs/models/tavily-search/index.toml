@@ -1,0 +1,10 @@
+id = "tavily-search"
+name = "Tavily Search"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

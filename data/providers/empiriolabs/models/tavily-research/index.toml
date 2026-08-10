@@ -1,0 +1,10 @@
+id = "tavily-research"
+name = "Tavily Research"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

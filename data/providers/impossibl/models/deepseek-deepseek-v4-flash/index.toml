@@ -1,0 +1,14 @@
+id = "deepseek/deepseek-v4-flash"
+name = "DeepSeek V4 Flash"
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.028
+input = 0.19
+output = 0.51

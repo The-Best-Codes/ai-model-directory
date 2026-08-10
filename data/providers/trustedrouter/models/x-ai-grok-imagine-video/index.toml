@@ -1,0 +1,17 @@
+id = "x-ai/grok-imagine-video"
+name = "xAI Grok Imagine Video"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

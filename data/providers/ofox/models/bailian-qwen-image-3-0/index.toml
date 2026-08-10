@@ -1,0 +1,21 @@
+id = "bailian/qwen-image-3.0"
+name = "Qwen-Image 3.0"
+release_date = "1785888000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 100000
+output = 100000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

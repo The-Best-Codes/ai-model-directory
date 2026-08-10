@@ -1,0 +1,17 @@
+id = "qwen/qwen3-14b"
+name = "Qwen: Qwen3 14B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.126
+output = 0.252

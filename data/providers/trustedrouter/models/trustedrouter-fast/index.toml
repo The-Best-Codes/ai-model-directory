@@ -1,0 +1,17 @@
+id = "trustedrouter/fast"
+name = "TrustedRouter Fast"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3675
+output = 0.7875

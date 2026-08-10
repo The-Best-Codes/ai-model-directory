@@ -1,0 +1,10 @@
+id = "whisper-large-v3-turbo"
+name = "Whisper Large v3 Turbo"
+release_date = "1727740800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

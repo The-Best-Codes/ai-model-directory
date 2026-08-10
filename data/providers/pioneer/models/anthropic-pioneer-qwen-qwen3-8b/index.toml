@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/Qwen/Qwen3-8B"
+name = "Qwen3 8b"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 0.2
+input = 0.2
+output = 0.2

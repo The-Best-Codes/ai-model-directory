@@ -1,0 +1,17 @@
+id = "trustedrouter/cheap"
+name = "TrustedRouter Cheap"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01
+output = 0.01

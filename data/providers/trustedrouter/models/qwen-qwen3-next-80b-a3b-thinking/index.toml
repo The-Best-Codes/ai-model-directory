@@ -1,0 +1,17 @@
+id = "Qwen/Qwen3-Next-80B-A3B-Thinking"
+name = "Qwen3 Next 80B A3B Thinking"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1575
+output = 1.26

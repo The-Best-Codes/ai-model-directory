@@ -1,0 +1,17 @@
+id = "trustedrouter/liberty-1.0"
+name = "TrustedRouter Liberty 1.0"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1365
+output = 0.399

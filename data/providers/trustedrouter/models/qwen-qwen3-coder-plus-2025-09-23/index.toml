@@ -1,0 +1,17 @@
+id = "qwen/qwen3-coder-plus-2025-09-23"
+name = "Qwen3 Coder Plus 2025 09 23"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.05
+output = 5.25

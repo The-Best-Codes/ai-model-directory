@@ -1,0 +1,17 @@
+id = "qwen/qwen-2.5-7b-instruct"
+name = "Qwen: Qwen2.5 7B Instruct"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.315
+output = 0.315

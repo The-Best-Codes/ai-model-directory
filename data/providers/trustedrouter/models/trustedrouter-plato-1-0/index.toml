@@ -1,0 +1,17 @@
+id = "trustedrouter/plato-1.0"
+name = "TrustedRouter Plato 1.0"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0714
+output = 0.1764

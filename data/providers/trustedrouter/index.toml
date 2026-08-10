@@ -1,0 +1,7 @@
+name = "TrustedRouter"
+website = "https://trustedrouter.com"
+apiBaseUrl = "https://api.trustedrouter.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["TRUSTEDROUTER_API_KEY"]

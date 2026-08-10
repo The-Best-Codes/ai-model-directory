@@ -1,0 +1,17 @@
+id = "trustedrouter/eu"
+name = "TrustedRouter EU"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01
+output = 0.01

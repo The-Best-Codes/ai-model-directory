@@ -1,0 +1,17 @@
+id = "tencent/hy3-preview"
+name = "Tencent: Hy3 preview"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.189
+output = 0.63

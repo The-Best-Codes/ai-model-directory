@@ -1,0 +1,14 @@
+id = "fireworks/glm-5.2-fast"
+name = "Fireworks GLM 5.2 Fast"
+
+[limit]
+context = 1040000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.21
+input = 2.1
+output = 6.6

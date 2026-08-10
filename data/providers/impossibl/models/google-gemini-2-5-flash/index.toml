@@ -1,0 +1,14 @@
+id = "google/gemini-2.5-flash"
+name = "Gemini 2.5 Flash"
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.3
+output = 2.5

@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-prover-v2-671b"
+name = "Deepseek Prover V2 671B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 160000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.735
+output = 2.625

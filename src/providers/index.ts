@@ -16,6 +16,7 @@ import { cortecsProvider } from "./cortecs.ts";
 import { crofProvider } from "./crof.ts";
 import { deepinfraProvider } from "./deepinfra.ts";
 import { deepseekProvider } from "./deepseek.ts";
+import { empiriolabsProvider } from "./empiriolabs.ts";
 import { fastrouterProvider } from "./fastrouter.ts";
 import { fireworksAiProvider } from "./fireworks-ai.ts";
 import { friendliProvider } from "./friendli.ts";
@@ -24,6 +25,7 @@ import { googleProvider } from "./google.ts";
 import { groqProvider } from "./groq.ts";
 import { heliconeProvider } from "./helicone.ts";
 import { huggingfaceProvider } from "./huggingface.ts";
+import { impossiblProvider } from "./impossibl.ts";
 import { inceptionProvider } from "./inception.ts";
 import { inceptronProvider } from "./inceptron.ts";
 import { ioNetProvider } from "./io-net.ts";
@@ -41,10 +43,12 @@ import { neuralwattProvider } from "./neuralwatt.ts";
 import { novitaProvider } from "./novita.ts";
 import { ollamaCloudProvider } from "./ollama-cloud.ts";
 import { nvidiaProvider } from "./nvidia.ts";
+import { ofoxProvider } from "./ofox.ts";
 import { openaiProvider } from "./openai.ts";
 import { opencodeZenProvider } from "./opencode-zen.ts";
 import { ovhcloudProvider } from "./ovhcloud.ts";
 import { perplexityProvider } from "./perplexity.ts";
+import { pioneerProvider } from "./pioneer.ts";
 import { poeProvider } from "./poe.ts";
 import { qiniuProvider } from "./qiniu.ts";
 import { quiverProvider } from "./quiver.ts";
@@ -57,6 +61,7 @@ import { syntheticProvider } from "./synthetic.ts";
 import { tetrateProvider } from "./tetrate.ts";
 import { tokenrouterProvider } from "./tokenrouter.ts";
 import { togetheraiProvider } from "./togetherai.ts";
+import { trustedrouterProvider } from "./trustedrouter.ts";
 import { veniceProvider } from "./venice.ts";
 import { vercelProvider } from "./vercel.ts";
 import { waferAiProvider } from "./wafer-ai.ts";
@@ -83,6 +88,7 @@ export const providers: ProviderDefinition[] = [
   crofProvider,
   deepinfraProvider,
   deepseekProvider,
+  empiriolabsProvider,
   fastrouterProvider,
   fireworksAiProvider,
   friendliProvider,
@@ -91,6 +97,7 @@ export const providers: ProviderDefinition[] = [
   groqProvider,
   heliconeProvider,
   huggingfaceProvider,
+  impossiblProvider,
   inceptionProvider,
   inceptronProvider,
   ioNetProvider,
@@ -108,10 +115,12 @@ export const providers: ProviderDefinition[] = [
   novitaProvider,
   ollamaCloudProvider,
   nvidiaProvider,
+  ofoxProvider,
   openaiProvider,
   opencodeZenProvider,
   ovhcloudProvider,
   perplexityProvider,
+  pioneerProvider,
   poeProvider,
   qiniuProvider,
   quiverProvider,
@@ -124,6 +133,7 @@ export const providers: ProviderDefinition[] = [
   tetrateProvider,
   tokenrouterProvider,
   togetheraiProvider,
+  trustedrouterProvider,
   veniceProvider,
   vercelProvider,
   waferAiProvider,

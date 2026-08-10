@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/openai/gpt-oss-120b"
+name = "Gpt Oss 120b"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1545
+cache_write = 0.1545
+input = 0.1545
+output = 0.618

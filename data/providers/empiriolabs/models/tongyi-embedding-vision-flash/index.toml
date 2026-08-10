@@ -1,0 +1,17 @@
+id = "tongyi-embedding-vision-flash"
+name = "Tongyi Embedding Vision Flash"
+release_date = "1758585600"
+
+[features]
+attachment = true
+
+[limit]
+context = 1024
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.09
+input = 0.09
+output = 0

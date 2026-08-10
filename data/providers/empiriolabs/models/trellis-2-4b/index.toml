@@ -1,0 +1,9 @@
+id = "trellis-2-4b"
+name = "TRELLIS.2 4B"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

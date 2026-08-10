@@ -1,0 +1,17 @@
+id = "microsoft/phi-4"
+name = "Microsoft: Phi 4"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0735
+output = 0.147

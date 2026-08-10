@@ -1,0 +1,17 @@
+id = "google/veo-3.1-fast"
+name = "Google Veo 3.1 Fast"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 2500
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

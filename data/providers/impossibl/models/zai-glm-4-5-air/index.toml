@@ -1,0 +1,14 @@
+id = "zai/glm-4.5-air"
+name = "GLM-4.5 Air"
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.2
+output = 1.1

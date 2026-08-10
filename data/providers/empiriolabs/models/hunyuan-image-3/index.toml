@@ -1,0 +1,10 @@
+id = "hunyuan-image-3"
+name = "Hunyuan Image 3"
+release_date = "1759017600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

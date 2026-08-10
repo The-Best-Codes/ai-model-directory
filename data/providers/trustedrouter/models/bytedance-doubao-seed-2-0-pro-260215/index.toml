@@ -1,0 +1,17 @@
+id = "bytedance/doubao-seed-2.0-pro-260215"
+name = "Doubao Seed 2.0 Pro"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.525
+output = 3.15

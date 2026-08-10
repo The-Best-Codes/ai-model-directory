@@ -1,0 +1,13 @@
+id = "cerebras/gpt-oss-120b"
+name = "Cerebras GPT OSS 120B"
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.35
+output = 0.75

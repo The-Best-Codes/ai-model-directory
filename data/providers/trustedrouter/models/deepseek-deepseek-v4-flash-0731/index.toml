@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-v4-flash-0731"
+name = "DeepSeek: DeepSeek V4 Flash 0731"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0945
+output = 0.189

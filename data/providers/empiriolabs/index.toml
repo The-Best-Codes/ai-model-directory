@@ -1,0 +1,7 @@
+name = "EmpirioLabs AI"
+website = "https://empiriolabs.ai"
+apiBaseUrl = "https://api.empiriolabs.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["EMPIRIOLABS_API_KEY"]

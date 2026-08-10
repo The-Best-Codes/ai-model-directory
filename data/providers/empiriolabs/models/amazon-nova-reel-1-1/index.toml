@@ -1,0 +1,10 @@
+id = "amazon-nova-reel-1-1"
+name = "Amazon Nova Reel 1.1"
+release_date = "1743984000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

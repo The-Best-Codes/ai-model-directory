@@ -1,0 +1,17 @@
+id = "lgai-exaone/k-exaone-2.0-750b-a37b"
+name = "LGAI-EXAONE/K-EXAONE-2.0-750B-A37B"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.63
+output = 2.52

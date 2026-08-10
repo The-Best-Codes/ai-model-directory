@@ -1,0 +1,21 @@
+id = "nova-premier-1-0"
+name = "Nova Premier 1.0"
+release_date = "1745971200"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 32000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.68
+input = 3
+output = 15

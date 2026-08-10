@@ -1,0 +1,10 @@
+id = "deepgram-nova-3"
+name = "Deepgram Nova 3"
+release_date = "1739318400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

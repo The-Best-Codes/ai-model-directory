@@ -1,0 +1,17 @@
+id = "cerebras/gpt-oss-120b"
+name = "OpenAI GPT OSS"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3675
+output = 0.7875

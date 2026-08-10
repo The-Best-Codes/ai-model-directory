@@ -1,0 +1,13 @@
+id = "openai/gpt-image-2"
+name = "GPT Image 2"
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 5
+output = 30

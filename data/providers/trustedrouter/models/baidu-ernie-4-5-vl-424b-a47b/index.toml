@@ -1,0 +1,17 @@
+id = "baidu/ernie-4.5-vl-424b-a47b"
+name = "Baidu: ERNIE 4.5 VL 424B A47B "
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 123000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.441
+output = 1.3125

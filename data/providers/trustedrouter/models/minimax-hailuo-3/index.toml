@@ -1,0 +1,17 @@
+id = "minimax/hailuo-3"
+name = "MiniMax Hailuo 3 (H3)"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 7000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

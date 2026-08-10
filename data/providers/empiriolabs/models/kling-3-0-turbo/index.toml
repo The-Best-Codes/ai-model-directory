@@ -1,0 +1,10 @@
+id = "kling-3-0-turbo"
+name = "Kling 3.0 Turbo"
+release_date = "1781654400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

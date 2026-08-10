@@ -1,0 +1,9 @@
+id = "gptzero"
+name = "GPTZero"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

@@ -1,0 +1,17 @@
+id = "deepseek-ai/DeepSeek-V4-Pro"
+name = "DeepSeek V4 Pro"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.8375
+output = 3.675

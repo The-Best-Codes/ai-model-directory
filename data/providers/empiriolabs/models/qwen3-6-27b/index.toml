@@ -1,0 +1,22 @@
+id = "qwen3-6-27b"
+name = "Qwen3.6 27B"
+release_date = "1776816000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 64000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.412564
+input = 0.412564
+output = 2.475384

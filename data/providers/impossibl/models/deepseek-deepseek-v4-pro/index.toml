@@ -1,0 +1,14 @@
+id = "deepseek/deepseek-v4-pro"
+name = "DeepSeek V4 Pro"
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.145
+input = 1.74
+output = 3.48

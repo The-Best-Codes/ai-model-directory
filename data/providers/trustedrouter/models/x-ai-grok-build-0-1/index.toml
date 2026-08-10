@@ -1,0 +1,17 @@
+id = "x-ai/grok-build-0.1"
+name = "SpaceXAI: Grok Build 0.1"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.05
+output = 2.1

@@ -1,0 +1,17 @@
+id = "microsoft/wizardlm-2-8x22b"
+name = "WizardLM-2 8x22B"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 65535
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.651
+output = 0.651

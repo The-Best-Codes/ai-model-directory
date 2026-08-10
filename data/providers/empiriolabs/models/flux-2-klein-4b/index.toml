@@ -1,0 +1,10 @@
+id = "flux-2-klein-4b"
+name = "FLUX.2 Klein 4B"
+release_date = "1768435200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

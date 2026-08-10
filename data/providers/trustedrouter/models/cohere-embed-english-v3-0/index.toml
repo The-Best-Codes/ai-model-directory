@@ -1,0 +1,17 @@
+id = "cohere/embed-english-v3.0"
+name = "Cohere Embed English v3.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.105
+output = 0

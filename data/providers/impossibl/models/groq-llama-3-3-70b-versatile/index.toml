@@ -1,0 +1,14 @@
+id = "groq/llama-3.3-70b-versatile"
+name = "Groq Llama 3.3 70B Versatile"
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.295
+input = 0.59
+output = 0.79

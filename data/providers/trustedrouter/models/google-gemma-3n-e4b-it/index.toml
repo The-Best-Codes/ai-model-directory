@@ -1,0 +1,17 @@
+id = "google/gemma-3n-e4b-it"
+name = "Google: Gemma 3n 4B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.063
+output = 0.126

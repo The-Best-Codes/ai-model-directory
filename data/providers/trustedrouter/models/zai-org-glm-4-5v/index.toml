@@ -1,0 +1,17 @@
+id = "zai-org/glm-4.5v"
+name = "GLM 4.5V"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.63
+output = 1.89

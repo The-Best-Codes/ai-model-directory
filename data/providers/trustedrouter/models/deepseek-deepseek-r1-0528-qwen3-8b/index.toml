@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-r1-0528-qwen3-8b"
+name = "DeepSeek R1 0528 Qwen3 8B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.063
+output = 0.0945

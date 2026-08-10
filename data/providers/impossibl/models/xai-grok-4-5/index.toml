@@ -1,0 +1,14 @@
+id = "xai/grok-4.5"
+name = "Grok 4.5"
+
+[limit]
+context = 500000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 2
+output = 6

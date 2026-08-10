@@ -1,0 +1,17 @@
+id = "trustedrouter/openpatcher-s1"
+name = "TrustedRouter OpenPatcher-S1"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.714
+output = 1.575

@@ -1,0 +1,17 @@
+id = "baidu/ernie-4.5-vl-28b-a3b-thinking"
+name = "ERNIE-4.5-VL-28B-A3B-Thinking"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4095
+output = 0.4095

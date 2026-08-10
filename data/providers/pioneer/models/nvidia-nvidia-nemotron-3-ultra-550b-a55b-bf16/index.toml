@@ -1,0 +1,21 @@
+id = "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
+name = "Nvidia Nemotron 3 Ultra 550b A55b Bf16"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 1000000
+output = 65000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+cache_write = 0.6
+input = 0.6
+output = 2.5

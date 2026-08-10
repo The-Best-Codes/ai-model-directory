@@ -1,0 +1,10 @@
+id = "stepaudio-2-5-asr"
+name = "StepAudio 2.5 ASR"
+release_date = "1776988800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

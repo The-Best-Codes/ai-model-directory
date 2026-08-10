@@ -1,0 +1,15 @@
+id = "seedream-5-0-pro"
+name = "Seedream 5.0 Pro"
+release_date = "1783468800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0.075

@@ -1,0 +1,17 @@
+id = "z-ai/glm-4.7-flash"
+name = "Z.ai: GLM 4.7 Flash"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.063
+output = 0.42

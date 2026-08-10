@@ -1,0 +1,17 @@
+id = "google/gemma-4-31b-turbo"
+name = "google/gemma-4-31B-turbo"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.126
+output = 0.3885

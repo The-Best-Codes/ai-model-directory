@@ -1,0 +1,17 @@
+id = "trustedrouter/aristotle-1.0"
+name = "TrustedRouter Aristotle 1.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0714
+output = 0.1764

@@ -1,0 +1,14 @@
+id = "thinkingmachines/inkling-256k"
+name = "Inkling 256K"
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.748
+input = 3.74
+output = 9.36

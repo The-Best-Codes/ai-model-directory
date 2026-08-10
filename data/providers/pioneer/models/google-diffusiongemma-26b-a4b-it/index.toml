@@ -1,0 +1,21 @@
+id = "google/diffusiongemma-26B-A4B-it"
+name = "Diffusiongemma 26b A4b It"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 0.5
+input = 0.5
+output = 0.5

@@ -1,0 +1,13 @@
+id = "linkup-deep-search"
+name = "Linkup Deep Search"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

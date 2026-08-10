@@ -1,0 +1,17 @@
+id = "anthropic/claude-opus-4.1-20250805-coding"
+name = "Claude Opus 4.1 20250805 Coding"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 15.75
+output = 78.75

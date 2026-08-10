@@ -1,0 +1,17 @@
+id = "anthropic/claude-opus-4.8"
+name = "Anthropic: Claude Opus 4.8"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5.25
+output = 26.25

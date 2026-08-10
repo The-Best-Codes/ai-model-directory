@@ -1,0 +1,17 @@
+id = "meituan-longcat/longcat-2.0"
+name = "LongCat 2.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1048756
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7875
+output = 3.15

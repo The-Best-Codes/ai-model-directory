@@ -1,0 +1,17 @@
+id = "trustedrouter/zeus-code"
+name = "TrustedRouter Zeus Code"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.735
+output = 3.675

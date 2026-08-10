@@ -1,0 +1,17 @@
+id = "text-embedding-v4"
+name = "Text Embedding v4"
+release_date = "1748995200"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.07
+input = 0.07
+output = 0

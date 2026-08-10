@@ -1,0 +1,17 @@
+id = "trustedrouter/liberty-3.0"
+name = "TrustedRouter Liberty 3.0"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03885
+output = 0.1785

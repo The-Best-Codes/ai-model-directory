@@ -1,0 +1,17 @@
+id = "baidu/ernie-4.5-300b-a47b-paddle"
+name = "ERNIE 4.5 300B A47B"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 123000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.294
+output = 1.155

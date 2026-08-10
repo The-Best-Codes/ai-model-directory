@@ -1,0 +1,17 @@
+id = "trustedrouter/fusion"
+name = "TrustedRouter Synth Legacy Alias"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

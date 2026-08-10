@@ -1,0 +1,17 @@
+id = "cerebras/zai-glm-4.7"
+name = "Z.ai GLM 4.7"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.3625
+output = 2.8875

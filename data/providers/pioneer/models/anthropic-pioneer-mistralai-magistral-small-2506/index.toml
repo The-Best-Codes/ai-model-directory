@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/mistralai/Magistral-Small-2506"
+name = "Magistral Small 2506"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+
+[limit]
+input = 128000
+output = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 0.5
+input = 0.5
+output = 1.5

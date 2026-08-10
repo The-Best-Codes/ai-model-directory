@@ -1,0 +1,17 @@
+id = "qwen/qwen3-coder-next"
+name = "Qwen: Qwen3 Coder Next"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.126
+output = 0.84

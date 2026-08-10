@@ -1,0 +1,6 @@
+id = "xai/grok-voice-tts-1.0"
+name = "Grok Voice TTS 1.0"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

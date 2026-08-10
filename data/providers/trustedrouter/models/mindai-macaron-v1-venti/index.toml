@@ -1,0 +1,17 @@
+id = "mindai/macaron-v1-venti"
+name = "Macaron V1 Venti"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.575
+output = 4.725

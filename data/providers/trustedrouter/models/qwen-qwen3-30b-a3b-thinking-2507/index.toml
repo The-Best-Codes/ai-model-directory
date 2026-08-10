@@ -1,0 +1,17 @@
+id = "qwen/qwen3-30b-a3b-thinking-2507"
+name = "Qwen3 30b A3b Thinking 2507"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 2.52

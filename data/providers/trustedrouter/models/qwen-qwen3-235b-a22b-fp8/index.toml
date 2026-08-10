@@ -1,0 +1,17 @@
+id = "qwen/qwen3-235b-a22b-fp8"
+name = "Qwen3 235B A22B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 0.84

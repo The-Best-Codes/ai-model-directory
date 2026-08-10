@@ -1,0 +1,14 @@
+id = "groq/gpt-oss-120b"
+name = "Groq GPT OSS 120B"
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.15
+output = 0.6

@@ -1,0 +1,14 @@
+id = "fireworks/glm-5.2"
+name = "Fireworks GLM 5.2"
+
+[limit]
+context = 1040000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.14
+input = 1.4
+output = 4.4

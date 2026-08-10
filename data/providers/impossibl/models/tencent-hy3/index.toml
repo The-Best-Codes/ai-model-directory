@@ -1,0 +1,14 @@
+id = "tencent/hy3"
+name = "Hunyuan 3"
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.2
+output = 0.8

@@ -1,0 +1,21 @@
+id = "bailian/qwen3-coder-next"
+name = "Qwen3 Coder Next"
+release_date = "1771459200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 256000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 1.5

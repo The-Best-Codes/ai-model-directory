@@ -1,0 +1,17 @@
+id = "prism-ml/ternary-bonsai-27b"
+name = "Ternary Bonsai 27B"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01
+output = 0.01

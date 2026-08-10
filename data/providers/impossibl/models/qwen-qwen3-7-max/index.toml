@@ -1,0 +1,14 @@
+id = "qwen/qwen3.7-max"
+name = "Qwen3.7 Max"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 2.5
+output = 7.5

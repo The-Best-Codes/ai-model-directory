@@ -1,0 +1,14 @@
+id = "qwen/qwen3.7-plus"
+name = "Qwen3.7 Plus"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+input = 0.4
+output = 1.6

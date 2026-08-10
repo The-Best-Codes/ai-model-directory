@@ -1,0 +1,17 @@
+id = "baidu/ernie-4.5-21B-a3b"
+name = "ERNIE 4.5 21B A3B"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 120000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0735
+output = 0.294

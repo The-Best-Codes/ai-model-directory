@@ -1,0 +1,17 @@
+id = "trustedrouter/confidential"
+name = "TrustedRouter Confidential"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03885
+output = 0.1785

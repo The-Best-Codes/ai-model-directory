@@ -1,0 +1,17 @@
+id = "zai-org/glm-4.7-flash"
+name = "GLM-4.7-Flash"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0735
+output = 0.42

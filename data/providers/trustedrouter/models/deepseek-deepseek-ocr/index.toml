@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-ocr"
+name = "DeepSeek-OCR"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0315
+output = 0.0315

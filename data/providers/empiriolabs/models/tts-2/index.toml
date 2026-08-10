@@ -1,0 +1,10 @@
+id = "tts-2"
+name = "TTS 2"
+release_date = "1777939200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

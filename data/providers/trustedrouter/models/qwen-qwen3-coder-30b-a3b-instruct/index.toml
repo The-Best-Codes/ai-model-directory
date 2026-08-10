@@ -1,0 +1,17 @@
+id = "qwen/qwen3-coder-30b-a3b-instruct"
+name = "Qwen: Qwen3 Coder 30B A3B Instruct"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0735
+output = 0.2835

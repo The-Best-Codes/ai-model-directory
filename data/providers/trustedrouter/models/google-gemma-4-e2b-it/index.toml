@@ -1,0 +1,17 @@
+id = "google/gemma-4-e2b-it"
+name = "gemma-4-E2B-it"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.021
+output = 0.126

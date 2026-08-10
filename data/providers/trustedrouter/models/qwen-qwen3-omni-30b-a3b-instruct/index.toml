@@ -1,0 +1,17 @@
+id = "qwen/qwen3-omni-30b-a3b-instruct"
+name = "Qwen3 Omni 30B A3B Instruct"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2625
+output = 1.0185

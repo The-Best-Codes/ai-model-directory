@@ -1,0 +1,17 @@
+id = "moonshotai/moonshot-v1-32k"
+name = "Moonshot V1 32K"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.05
+output = 3.15

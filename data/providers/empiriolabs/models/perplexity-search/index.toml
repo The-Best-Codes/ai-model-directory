@@ -1,0 +1,10 @@
+id = "perplexity-search"
+name = "Perplexity Search"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

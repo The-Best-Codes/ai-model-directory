@@ -1,0 +1,17 @@
+id = "alibaba/wan-2.7"
+name = "Wan 2.7"
+release_date = "1776124800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

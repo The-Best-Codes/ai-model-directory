@@ -1,0 +1,17 @@
+id = "ibm-granite/granite-4.1-8b"
+name = "granite-4.1-8b"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0525
+output = 0.105

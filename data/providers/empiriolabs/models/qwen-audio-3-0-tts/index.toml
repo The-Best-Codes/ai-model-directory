@@ -1,0 +1,10 @@
+id = "qwen-audio-3-0-tts"
+name = "Qwen Audio 3.0 TTS"
+release_date = "1784505600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

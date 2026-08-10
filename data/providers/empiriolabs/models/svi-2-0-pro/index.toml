@@ -1,0 +1,10 @@
+id = "svi-2-0-pro"
+name = "SVI 2.0 Pro"
+release_date = "1766707200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

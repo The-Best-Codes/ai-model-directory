@@ -1,0 +1,17 @@
+id = "trustedrouter/openpatcher-a1"
+name = "TrustedRouter OpenPatcher-A1"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

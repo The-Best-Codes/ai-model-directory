@@ -1,0 +1,17 @@
+id = "gryphe/mythomax-l2-13b"
+name = "MythoMax 13B"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0945
+output = 0.0945

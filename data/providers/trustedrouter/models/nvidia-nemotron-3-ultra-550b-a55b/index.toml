@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3-ultra-550b-a55b"
+name = "NVIDIA: Nemotron 3 Ultra"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 512288
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.63
+output = 2.52

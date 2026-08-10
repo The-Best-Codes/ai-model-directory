@@ -1,0 +1,6 @@
+id = "openai/gpt-transcribe"
+name = "GPT Transcribe"
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]

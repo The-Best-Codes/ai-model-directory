@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/gpt-4o-mini"
+name = "Gpt 4o Mini"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+
+[limit]
+input = 128000
+output = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+cache_write = 0.15
+input = 0.15
+output = 0.6

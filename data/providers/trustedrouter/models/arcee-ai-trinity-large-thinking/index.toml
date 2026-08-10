@@ -1,0 +1,17 @@
+id = "arcee-ai/trinity-large-thinking"
+name = "Arcee AI: Trinity Large Thinking"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.231
+output = 0.8925

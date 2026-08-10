@@ -1,0 +1,21 @@
+id = "moonshotai/Kimi-K3-Fast"
+name = "Kimi K3 Fast"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+
+[limit]
+input = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+cache_write = 4.5
+input = 4.5
+output = 22.5

@@ -1,0 +1,14 @@
+id = "openai/o1"
+name = "OpenAI o1"
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 7.5
+input = 15
+output = 60

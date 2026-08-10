@@ -1,0 +1,17 @@
+id = "openai/gpt-4-turbo"
+name = "OpenAI: GPT-4 Turbo"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 10.5
+output = 31.5

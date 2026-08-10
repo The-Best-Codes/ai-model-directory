@@ -1,0 +1,10 @@
+id = "openai-whisper-1"
+name = "OpenAI Whisper 1"
+release_date = "1663718400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

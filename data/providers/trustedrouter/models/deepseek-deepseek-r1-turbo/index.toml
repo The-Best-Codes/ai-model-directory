@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-r1-turbo"
+name = "DeepSeek R1 (Turbo)"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.735
+output = 2.625

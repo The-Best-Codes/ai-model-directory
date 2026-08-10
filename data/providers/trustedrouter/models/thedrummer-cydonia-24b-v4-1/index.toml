@@ -1,0 +1,17 @@
+id = "thedrummer/cydonia-24b-v4.1"
+name = "TheDrummer: Cydonia 24B V4.1"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.315
+output = 0.525
