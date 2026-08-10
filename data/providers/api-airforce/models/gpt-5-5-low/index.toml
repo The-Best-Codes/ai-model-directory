@@ -1,0 +1,16 @@
+id = "gpt-5.5-low"
+name = "gpt-5.5-low"
+release_date = "1786327544"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.09
+input = 0.96
+output = 5.75

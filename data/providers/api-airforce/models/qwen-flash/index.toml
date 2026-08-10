@@ -1,6 +1,6 @@
-id = "gemma3-270m:free"
-name = "gemma3-270m:free"
-release_date = "1786240899"
+id = "qwen-flash"
+name = "qwen-flash"
+release_date = "1786327544"
 
 [features]
 attachment = false
@@ -11,4 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0
+input = 0.02
+output = 0.14
