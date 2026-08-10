@@ -1,6 +1,6 @@
 id = "open-mistral-nemo"
 name = "open-mistral-nemo"
-release_date = "1786327544"
+release_date = "1786334024"
 
 [features]
 attachment = false
