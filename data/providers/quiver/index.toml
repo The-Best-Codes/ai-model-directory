@@ -1,0 +1,7 @@
+name = "Quiver"
+website = "https://quiver.ai"
+apiBaseUrl = "https://api.quiver.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["QUIVER_AI_API_KEY"]

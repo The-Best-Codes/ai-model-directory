@@ -1,0 +1,15 @@
+id = "arrow-1"
+name = "Arrow 1.0"
+release_date = "1704067200"
+
+[features]
+attachment = true
+temperature = true
+
+[limit]
+context = 131072
+output = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

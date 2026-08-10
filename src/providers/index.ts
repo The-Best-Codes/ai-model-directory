@@ -47,6 +47,7 @@ import { ovhcloudProvider } from "./ovhcloud.ts";
 import { perplexityProvider } from "./perplexity.ts";
 import { poeProvider } from "./poe.ts";
 import { qiniuProvider } from "./qiniu.ts";
+import { quiverProvider } from "./quiver.ts";
 import { openrouterProvider } from "./openrouter.ts";
 import { orcarouterProvider } from "./orcarouter.ts";
 import { requestyProvider } from "./requesty.ts";
@@ -113,6 +114,7 @@ export const providers: ProviderDefinition[] = [
   perplexityProvider,
   poeProvider,
   qiniuProvider,
+  quiverProvider,
   openrouterProvider,
   orcarouterProvider,
   requestyProvider,
