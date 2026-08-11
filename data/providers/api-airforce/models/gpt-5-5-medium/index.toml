@@ -1,6 +1,6 @@
 id = "gpt-5.5-medium"
 name = "gpt-5.5-medium"
-release_date = "1786334024"
+release_date = "1786413689"
 
 [features]
 attachment = true

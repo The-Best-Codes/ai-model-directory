@@ -1,0 +1,13 @@
+id = "muse-glimmer-30b-el"
+name = "Muse-Glimmer-30B-EL"
+release_date = "1786374852"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

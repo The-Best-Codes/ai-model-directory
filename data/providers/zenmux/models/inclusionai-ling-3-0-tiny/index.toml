@@ -1,0 +1,19 @@
+id = "inclusionai/ling-3.0-tiny"
+name = "inclusionAI: Ling-3.0-tiny"
+release_date = "1786084218"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

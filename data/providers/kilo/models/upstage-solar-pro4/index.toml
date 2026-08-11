@@ -1,0 +1,23 @@
+id = "upstage/solar-pro4"
+name = "Upstage: Solar Pro 4"
+release_date = "1786371636"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 524288
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.3
+output = 1.2

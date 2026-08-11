@@ -3,7 +3,7 @@ name = "GLM-5.2 (short, fast)"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 structured_output = false
 tool_call = true
 

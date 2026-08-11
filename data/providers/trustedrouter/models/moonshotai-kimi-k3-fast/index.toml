@@ -1,0 +1,17 @@
+id = "moonshotai/kimi-k3-fast"
+name = "Kimi-K3-Fast"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 4.725
+output = 23.625

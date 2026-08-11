@@ -3,7 +3,7 @@ name = "Gemma 4 31B"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 structured_output = false
 tool_call = true
 
