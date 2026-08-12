@@ -1,0 +1,18 @@
+id = "agnes-2.5-flash"
+name = "agnes-2.5-flash"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 512000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.03
+output = 0.15

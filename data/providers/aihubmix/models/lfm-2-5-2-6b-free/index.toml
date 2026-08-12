@@ -1,0 +1,18 @@
+id = "lfm-2.5-2.6b-free"
+name = "lfm-2.5-2.6b-free"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

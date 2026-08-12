@@ -1,6 +1,6 @@
 id = "deepseek-chat"
 name = "deepseek-chat"
-release_date = "1786413689"
+release_date = "1786501000"
 
 [features]
 attachment = false

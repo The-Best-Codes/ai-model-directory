@@ -1,6 +1,6 @@
 id = "ministral-14b-latest"
 name = "ministral-14b-latest"
-release_date = "1786413689"
+release_date = "1786501000"
 
 [features]
 attachment = false

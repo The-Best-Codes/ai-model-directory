@@ -1,0 +1,21 @@
+id = "upstage/solar-pro4:thinking"
+name = "Solar Pro 4 Thinking"
+release_date = "1786406400"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 524288
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.030000000000000002
+output = 0.12000000000000001

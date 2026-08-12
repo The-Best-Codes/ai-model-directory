@@ -1,0 +1,14 @@
+id = "nvidia/NVIDIA-Nemotron-3.5-Lightning"
+name = "nvidia/NVIDIA-Nemotron-3.5-Lightning"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 28672
+output = 28672
+
+[pricing]
+input = 0.05
+output = 0.2

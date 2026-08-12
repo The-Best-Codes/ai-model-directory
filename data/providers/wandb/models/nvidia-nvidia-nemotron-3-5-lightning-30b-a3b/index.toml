@@ -1,0 +1,23 @@
+id = "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
+name = "NVIDIA: Nemotron 3.5 Lightning"
+release_date = "1786438800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.1
+output = 0.25

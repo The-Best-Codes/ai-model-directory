@@ -1,0 +1,15 @@
+id = "meta-models/Muse-Glimmer-30B"
+name = "meta-models/Muse-Glimmer-30B"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+cache_read = 0.039999999
+input = 0.3
+output = 1.2

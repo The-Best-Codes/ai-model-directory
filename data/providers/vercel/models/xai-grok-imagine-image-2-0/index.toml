@@ -1,0 +1,12 @@
+id = "xai/grok-imagine-image-2.0"
+name = "Grok Imagine Image 2.0"
+release_date = "1786060800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

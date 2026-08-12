@@ -1,0 +1,22 @@
+id = "liquid/lfm-2.5-2.6b:free"
+name = "LiquidAI: LFM2.5-2.6B (free)"
+release_date = "1786470519"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

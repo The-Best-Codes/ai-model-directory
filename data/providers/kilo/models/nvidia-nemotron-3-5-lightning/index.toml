@@ -1,0 +1,22 @@
+id = "nvidia/nemotron-3.5-lightning"
+name = "NVIDIA: Nemotron 3.5 Lightning"
+release_date = "1786452751"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.2

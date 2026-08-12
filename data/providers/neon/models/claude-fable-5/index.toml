@@ -8,6 +8,7 @@ release_date = "1780963200"
 [features]
 attachment = true
 reasoning = true
+structured_output = true
 temperature = false
 tool_call = true
 
