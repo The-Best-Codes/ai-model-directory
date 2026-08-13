@@ -1,0 +1,14 @@
+id = "xai/grok-4.6"
+name = "Grok 4.6"
+release_date = "1786561208"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 500000
+
+[modalities]
+input = [ "image", "text" ]

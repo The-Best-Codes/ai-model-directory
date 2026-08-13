@@ -1,0 +1,10 @@
+id = "pixverse-lipsync"
+name = "Pixverse Lip Sync"
+release_date = "1752451200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text", "video" ]
+output = [ "video" ]

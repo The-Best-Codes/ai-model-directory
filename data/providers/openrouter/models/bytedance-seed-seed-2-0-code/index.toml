@@ -1,6 +1,6 @@
 id = "bytedance-seed/seed-2.0-code"
 name = "ByteDance Seed: Seed-2.0-Code"
-release_date = "1785451719"
+release_date = "1786550701"
 
 [features]
 attachment = true

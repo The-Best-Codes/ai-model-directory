@@ -1,0 +1,9 @@
+id = "pixverse-avatar"
+name = "Pixverse Avatar"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "video" ]

@@ -1,6 +1,0 @@
-id = "xai/grok-imagine-image-2.0-preview"
-name = "Grok Imagine Image 2.0 Preview"
-release_date = "1786147200"
-
-[modalities]
-output = [ "image" ]

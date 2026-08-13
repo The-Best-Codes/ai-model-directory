@@ -1,0 +1,9 @@
+id = "pixverse-edit"
+name = "Pixverse Edit"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

@@ -1,0 +1,10 @@
+id = "pixverse-v6"
+name = "Pixverse v6"
+release_date = "1774742400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

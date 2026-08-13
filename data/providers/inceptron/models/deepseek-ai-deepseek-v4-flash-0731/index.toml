@@ -1,9 +1,9 @@
 id = "deepseek-ai/DeepSeek-V4-Flash-0731"
 name = "DeepSeek V4 Flash 0731"
-release_date = "1786487390"
+release_date = "1786576967"
 
 [features]
-attachment = true
+attachment = false
 structured_output = true
 temperature = true
 tool_call = true
@@ -13,7 +13,7 @@ context = 1048576
 output = 1048576
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

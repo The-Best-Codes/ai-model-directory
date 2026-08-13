@@ -1,0 +1,21 @@
+id = "bytedance-seed/seed-2-1-turbo"
+name = "ByteDance Seed 2.1 Turbo"
+release_date = "1786492800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 2.5

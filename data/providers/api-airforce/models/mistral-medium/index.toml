@@ -1,6 +1,6 @@
 id = "mistral-medium"
 name = "mistral-medium"
-release_date = "1786501000"
+release_date = "1786587602"
 
 [features]
 attachment = false

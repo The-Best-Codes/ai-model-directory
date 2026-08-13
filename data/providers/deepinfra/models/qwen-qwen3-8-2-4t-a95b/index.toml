@@ -1,0 +1,15 @@
+id = "Qwen/Qwen3.8-2.4T-A95B"
+name = "Qwen/Qwen3.8-2.4T-A95B"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 5.999999999999999

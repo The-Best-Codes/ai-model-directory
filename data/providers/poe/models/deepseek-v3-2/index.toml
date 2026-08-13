@@ -6,7 +6,7 @@ release_date = "1784595521"
 attachment = false
 reasoning = true
 temperature = false
-tool_call = false
+tool_call = true
 
 [modalities]
 input = [ "text" ]

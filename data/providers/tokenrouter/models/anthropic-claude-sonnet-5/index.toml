@@ -10,7 +10,7 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.2
-cache_write = 2
+cache_write = 2.5
 input = 2
 input_audio = 2
 output = 10

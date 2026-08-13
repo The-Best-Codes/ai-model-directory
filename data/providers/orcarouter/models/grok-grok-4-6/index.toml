@@ -1,0 +1,16 @@
+id = "grok/grok-4.6"
+name = "SpaceXAI: Grok 4.6"
+
+[features]
+attachment = true
+
+[limit]
+context = 500000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 6
