@@ -1,0 +1,16 @@
+id = "llama-3.3-70b"
+name = "llama-3.3-70b"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.02
+output = 0.04

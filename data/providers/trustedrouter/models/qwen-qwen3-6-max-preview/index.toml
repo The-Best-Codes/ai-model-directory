@@ -1,0 +1,17 @@
+id = "qwen/qwen3.6-max-preview"
+name = "Qwen3.6 Max Preview"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.365
+output = 8.19

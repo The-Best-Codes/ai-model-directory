@@ -1,0 +1,17 @@
+id = "minimax/minimax-m3-preview"
+name = "MiniMax M3 Preview"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 524288
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.315
+output = 1.26

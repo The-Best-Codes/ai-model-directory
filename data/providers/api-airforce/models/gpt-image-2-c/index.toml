@@ -1,0 +1,16 @@
+id = "gpt-image-2-c"
+name = "gpt-image-2-c"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.95
+input = 27.45
+output = 0.02

@@ -1,0 +1,17 @@
+id = "claude-opus-5-r"
+name = "claude-opus-5-r"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 0.59
+input = 0.47
+output = 2.35

@@ -1,0 +1,16 @@
+id = "doubao-seed-2-0-lite-260428"
+name = "doubao-seed-2-0-lite-260428"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.17
+output = 1.03

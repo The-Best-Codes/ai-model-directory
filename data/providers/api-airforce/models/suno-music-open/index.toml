@@ -1,0 +1,11 @@
+id = "suno_music_open"
+name = "suno_music_open"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.35
+input = 4.89
+output = 0.02

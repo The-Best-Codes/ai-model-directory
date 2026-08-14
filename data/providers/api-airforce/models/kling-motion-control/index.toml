@@ -1,0 +1,11 @@
+id = "kling-motion-control"
+name = "kling-motion-control"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.16
+input = 2.18
+output = 0.02

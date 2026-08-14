@@ -1,0 +1,16 @@
+id = "doubao-seed-1-6-251015"
+name = "doubao-seed-1-6-251015"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.23
+output = 2.29

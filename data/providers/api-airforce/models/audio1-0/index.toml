@@ -1,0 +1,11 @@
+id = "audio1.0"
+name = "audio1.0"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.21
+input = 2.93
+output = 0.02

@@ -1,0 +1,16 @@
+id = "qvq-plus"
+name = "qvq-plus"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.31
+output = 0.77

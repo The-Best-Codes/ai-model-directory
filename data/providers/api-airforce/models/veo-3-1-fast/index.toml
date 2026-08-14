@@ -1,0 +1,11 @@
+id = "veo_3_1-fast"
+name = "veo_3_1-fast"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 7.49
+input = 105.41
+output = 0.02

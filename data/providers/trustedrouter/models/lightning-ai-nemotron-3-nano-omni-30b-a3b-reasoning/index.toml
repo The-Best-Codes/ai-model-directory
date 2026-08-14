@@ -1,0 +1,17 @@
+id = "lightning-ai/nemotron-3-nano-omni-30b-a3b-reasoning"
+name = "nemotron-3-nano-omni-30b-a3b-reasoning"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2625
+output = 0.525

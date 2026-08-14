@@ -1,15 +1,15 @@
-id = "anthropic/claude-haiku-4.5"
-name = "Anthropic: Claude Haiku 4.5"
+id = "anthropic/claude-haiku-4-5"
+name = "anthropic/claude-haiku-4-5"
 open_weights = false
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 200000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

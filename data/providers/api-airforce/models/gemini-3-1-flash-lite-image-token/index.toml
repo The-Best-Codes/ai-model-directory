@@ -1,0 +1,16 @@
+id = "gemini-3.1-flash-lite-image-token"
+name = "gemini-3.1-flash-lite-image-token"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.2
+output = 22.96

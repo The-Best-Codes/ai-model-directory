@@ -1,0 +1,16 @@
+id = "Qwen/Qwen3-Reranker-0.6B"
+name = "Qwen/Qwen3-Reranker-0.6B"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.02
+output = 0.02

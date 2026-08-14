@@ -1,0 +1,11 @@
+id = "kling-effects"
+name = "kling-effects"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.22
+input = 3.11
+output = 0.02

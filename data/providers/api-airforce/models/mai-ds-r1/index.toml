@@ -1,0 +1,16 @@
+id = "MAI-DS-R1"
+name = "MAI-DS-R1"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+input = 0.36
+output = 1.47

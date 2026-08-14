@@ -1,0 +1,16 @@
+id = "ERNIE-Functions-8K"
+name = "ERNIE-Functions-8K"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.21
+output = 0.4

@@ -1,0 +1,11 @@
+id = "wan2.5-i2v-preview"
+name = "wan2.5-i2v-preview"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 9.28
+input = 130.66
+output = 0.02

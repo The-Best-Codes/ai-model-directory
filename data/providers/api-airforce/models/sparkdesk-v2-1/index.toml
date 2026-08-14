@@ -1,0 +1,16 @@
+id = "SparkDesk-v2.1"
+name = "SparkDesk-v2.1"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.84
+input = 8.41
+output = 8.41

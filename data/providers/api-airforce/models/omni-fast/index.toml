@@ -1,0 +1,16 @@
+id = "omni-fast"
+name = "omni-fast"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 28.7
+input = 404.06
+output = 0.02

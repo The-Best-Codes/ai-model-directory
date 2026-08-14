@@ -1,0 +1,16 @@
+id = "gemini-3-pro-preview-r"
+name = "gemini-3-pro-preview-r"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.26
+output = 1.59

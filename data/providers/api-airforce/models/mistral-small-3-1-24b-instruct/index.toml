@@ -1,6 +1,6 @@
 id = "mistral-small-3.1-24b-instruct"
 name = "mistral-small-3.1-24b-instruct"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -11,5 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
+cache_read = 0.02
 input = 0.2
 output = 0.2

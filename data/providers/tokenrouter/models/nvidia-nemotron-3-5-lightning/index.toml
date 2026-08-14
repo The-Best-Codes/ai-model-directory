@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3.5-lightning"
+name = "nvidia/nemotron-3.5-lightning"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 0.1
+input = 0.1
+input_audio = 0.1
+output = 0.25
+output_audio = 0.1

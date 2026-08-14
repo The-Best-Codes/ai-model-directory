@@ -1,5 +1,5 @@
 id = "kwaipilot/kat-coder-pro-v2"
-name = "KAT Coder Pro V2"
+name = "KAT-Coder-Pro-V2"
 open_weights = false
 
 [features]

@@ -1,0 +1,24 @@
+id = "google/gemini-omni-flash-preview"
+name = "Google: Gemini Omni Flash Preview"
+release_date = "1782777600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 1048576
+output = 57920
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+input = 1.5
+input_audio = 1.5
+output = 9
+reasoning = 0

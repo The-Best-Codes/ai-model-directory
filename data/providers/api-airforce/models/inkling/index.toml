@@ -1,0 +1,11 @@
+id = "inkling"
+name = "inkling"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.48
+input = 2.43
+output = 6.08

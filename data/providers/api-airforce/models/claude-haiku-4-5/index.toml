@@ -1,7 +1,7 @@
 id = "claude-haiku-4.5"
 knowledge_cutoff = "1754006400"
 name = "claude-haiku-4.5"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = true
@@ -18,7 +18,7 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.05
-cache_write = 0.63
-input = 0.5
-output = 2.5
+cache_read = 0.09
+cache_write = 1.1
+input = 0.89
+output = 4.42

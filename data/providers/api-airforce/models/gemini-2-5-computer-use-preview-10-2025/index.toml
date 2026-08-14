@@ -1,0 +1,16 @@
+id = "gemini-2.5-computer-use-preview-10-2025"
+name = "gemini-2.5-computer-use-preview-10-2025"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 5.74
+input = 57.41
+output = 229.63

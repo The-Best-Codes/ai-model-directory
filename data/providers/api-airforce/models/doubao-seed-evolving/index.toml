@@ -1,0 +1,16 @@
+id = "doubao-seed-evolving"
+name = "doubao-seed-evolving"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+input = 0.83
+output = 4.17

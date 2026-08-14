@@ -1,0 +1,10 @@
+id = "grok-imagine-image-2-0"
+name = "Grok Imagine Image 2.0"
+release_date = "1786060800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

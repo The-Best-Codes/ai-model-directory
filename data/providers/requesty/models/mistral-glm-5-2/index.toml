@@ -1,0 +1,21 @@
+id = "mistral/glm-5-2"
+name = "mistral/glm-5-2"
+release_date = "1786634395"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.154
+input = 1.54
+output = 4.84

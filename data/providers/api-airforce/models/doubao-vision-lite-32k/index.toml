@@ -1,0 +1,16 @@
+id = "Doubao-vision-lite-32k"
+name = "Doubao-vision-lite-32k"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.22
+output = 0.68

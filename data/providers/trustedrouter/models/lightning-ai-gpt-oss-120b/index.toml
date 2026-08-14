@@ -1,0 +1,17 @@
+id = "lightning-ai/gpt-oss-120b"
+name = "gpt-oss-120b"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.02625
+output = 0.105

@@ -1,16 +1,23 @@
 id = "gpt-4o"
+knowledge_cutoff = "1696118400"
 name = "gpt-4o"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 16384
 
 [modalities]
-input = [ "text" ]
+input = [ "audio", "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.12
-input = 0.23
-output = 0.92
+cache_read = 0.02
+input = 0.51
+output = 2.01

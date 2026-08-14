@@ -1,9 +1,11 @@
 id = "voiceover-multilingual"
 name = "voiceover-multilingual"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 reasoning = false
 
 [pricing]
-input = 75
+cache_read = 7.5
+input = 137.25
+output = 0.02

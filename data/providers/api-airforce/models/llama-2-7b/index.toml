@@ -1,0 +1,16 @@
+id = "llama-2-7b"
+name = "llama-2-7b"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.2
+output = 0.2

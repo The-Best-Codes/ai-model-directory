@@ -1,0 +1,16 @@
+id = "gpt-5.6-luna-openai-compact"
+name = "gpt-5.6-luna-openai-compact"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.04
+output = 0.26

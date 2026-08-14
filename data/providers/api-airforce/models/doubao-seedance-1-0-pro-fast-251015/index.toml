@@ -1,0 +1,11 @@
+id = "doubao-seedance-1-0-pro-fast-251015"
+name = "doubao-seedance-1-0-pro-fast-251015"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 163.8
+input = 2305.82
+output = 0.02

@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v4-flash:discounted"
-name = "DeepSeek: DeepSeek V4 Flash (lowest price)"
+name = "DeepSeek: DeepSeek V4 Flash 0731 (lowest price)"
 release_date = "1756238927"
 
 [features]

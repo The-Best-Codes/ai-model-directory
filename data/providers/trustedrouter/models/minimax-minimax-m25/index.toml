@@ -1,0 +1,17 @@
+id = "minimax/minimax-m25"
+name = "MiniMax M2.5"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 198000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2835
+output = 0.9975

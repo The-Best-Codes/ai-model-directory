@@ -1,0 +1,16 @@
+id = "Doubao-lite-4k"
+name = "Doubao-lite-4k"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.15
+output = 0.15

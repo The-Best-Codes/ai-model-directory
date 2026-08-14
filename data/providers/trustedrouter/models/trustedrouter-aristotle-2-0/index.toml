@@ -1,0 +1,17 @@
+id = "trustedrouter/aristotle-2.0"
+name = "TrustedRouter Aristotle 2.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6615
+output = 1.575

@@ -1,7 +1,7 @@
 id = "gpt-4o-mini"
 knowledge_cutoff = "1696118400"
 name = "gpt-4o-mini"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = true
@@ -18,5 +18,6 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.04
-output = 0.16
+cache_read = 0.01
+input = 0.13
+output = 0.48

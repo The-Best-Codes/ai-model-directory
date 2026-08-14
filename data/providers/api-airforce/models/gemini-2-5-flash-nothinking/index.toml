@@ -1,0 +1,16 @@
+id = "gemini-2.5-flash-nothinking"
+name = "gemini-2.5-flash-nothinking"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.13
+output = 1.05

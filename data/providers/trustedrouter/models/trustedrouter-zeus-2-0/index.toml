@@ -1,0 +1,17 @@
+id = "trustedrouter/zeus-2.0"
+name = "TrustedRouter Zeus 2.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2835
+output = 0.9135

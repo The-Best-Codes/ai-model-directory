@@ -1,0 +1,19 @@
+id = "nemotron-lightning-3.5-30b-a3b"
+name = "nemotron-lightning-3.5-30b-a3b"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.05
+output = 0.2

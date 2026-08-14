@@ -1,0 +1,11 @@
+id = "kling-advanced-custom-elements"
+name = "kling-advanced-custom-elements"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.09
+input = 1.28
+output = 0.02

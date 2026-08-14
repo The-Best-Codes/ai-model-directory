@@ -1,0 +1,16 @@
+id = "deepseek-v3-1-think-250821"
+name = "deepseek-v3-1-think-250821"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.11
+input = 1.14
+output = 3.45

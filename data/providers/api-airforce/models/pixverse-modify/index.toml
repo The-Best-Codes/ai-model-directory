@@ -1,0 +1,11 @@
+id = "pixverse-modify"
+name = "pixverse-modify"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.18
+input = 2.56
+output = 0.02

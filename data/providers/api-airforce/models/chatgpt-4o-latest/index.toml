@@ -1,0 +1,16 @@
+id = "chatgpt-4o-latest"
+name = "chatgpt-4o-latest"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.98
+output = 2.93

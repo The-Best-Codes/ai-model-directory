@@ -1,0 +1,16 @@
+id = "gemma-4-31b"
+name = "gemma-4-31b"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.17
+output = 0.49

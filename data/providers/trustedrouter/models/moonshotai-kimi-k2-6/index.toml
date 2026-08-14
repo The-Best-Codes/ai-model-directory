@@ -1,17 +1,17 @@
-id = "moonshotai/Kimi-K2.6"
-name = "Kimi-K2.6"
+id = "moonshotai/kimi-k2-6"
+name = "Kimi K2.6"
 open_weights = true
 
 [features]
 attachment = true
 
 [limit]
-context = 8000
+context = 256000
 
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.9975
-output = 4.2
+input = 0.7875
+output = 3.675

@@ -1,0 +1,16 @@
+id = "gpt-5.1-chat"
+name = "gpt-5.1-chat"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 1.68
+output = 13.47

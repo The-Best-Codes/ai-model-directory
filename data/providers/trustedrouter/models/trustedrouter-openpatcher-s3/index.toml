@@ -1,0 +1,17 @@
+id = "trustedrouter/openpatcher-s3"
+name = "TrustedRouter OpenPatcher-S3"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.45675
+output = 0.9135

@@ -1,0 +1,16 @@
+id = "qwen3-coder-480b-a35b-instruct"
+name = "qwen3-coder-480b-a35b-instruct"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.57
+output = 2.29

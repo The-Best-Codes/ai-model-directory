@@ -1,0 +1,16 @@
+id = "gemini-3-flash-preview-r"
+name = "gemini-3-flash-preview-r"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.05
+output = 0.29

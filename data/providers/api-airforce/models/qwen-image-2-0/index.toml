@@ -1,0 +1,16 @@
+id = "qwen-image-2.0"
+name = "qwen-image-2.0"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.08
+input = 142.74
+output = 0.02

@@ -1,0 +1,16 @@
+id = "mj_variation"
+name = "mj_variation"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 7.8
+input = 109.76
+output = 0.02

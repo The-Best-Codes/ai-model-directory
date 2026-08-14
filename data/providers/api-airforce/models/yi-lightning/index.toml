@@ -1,0 +1,16 @@
+id = "yi-lightning"
+name = "yi-lightning"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.03
+output = 0.03

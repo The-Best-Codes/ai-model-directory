@@ -1,0 +1,6 @@
+id = "Audio8/Audio8-TTS-Preview-0.6b"
+name = "Audio8/Audio8-TTS-Preview-0.6b"
+
+[features]
+attachment = false
+reasoning = false

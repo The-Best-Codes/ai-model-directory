@@ -1,0 +1,16 @@
+id = "wan2.7-image-pro"
+name = "wan2.7-image-pro"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 12.68
+input = 178.44
+output = 0.02

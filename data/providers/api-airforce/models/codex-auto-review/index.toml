@@ -1,6 +1,6 @@
 id = "codex-auto-review"
 name = "codex-auto-review"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.03
-input = 0.23
-output = 1.42
+cache_read = 0.02
+input = 0.33
+output = 1.99

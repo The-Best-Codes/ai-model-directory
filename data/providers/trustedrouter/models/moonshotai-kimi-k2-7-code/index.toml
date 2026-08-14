@@ -1,17 +1,17 @@
-id = "moonshotai/Kimi-K2.7-Code"
-name = "Kimi-K2.7-Code"
+id = "moonshotai/kimi-k2-7-code"
+name = "Kimi K2.7 Code"
 open_weights = true
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
-context = 262144
+context = 256000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.9975
-output = 4.2
+input = 0.7875
+output = 3.675

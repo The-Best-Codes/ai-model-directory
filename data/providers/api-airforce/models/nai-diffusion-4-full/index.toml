@@ -1,0 +1,16 @@
+id = "nai-diffusion-4-full"
+name = "nai-diffusion-4-full"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.88
+input = 26.52
+output = 0.02

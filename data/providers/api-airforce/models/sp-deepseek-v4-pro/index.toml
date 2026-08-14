@@ -1,0 +1,16 @@
+id = "[SP]deepseek-v4-pro"
+name = "[SP]deepseek-v4-pro"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.38
+input = 5.31
+output = 0.02

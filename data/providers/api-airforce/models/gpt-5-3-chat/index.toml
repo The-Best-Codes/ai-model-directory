@@ -1,6 +1,6 @@
 id = "gpt-5.3-chat"
 name = "gpt-5.3-chat"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -9,3 +9,8 @@ reasoning = true
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.46
+input = 101.02
+output = 606.1

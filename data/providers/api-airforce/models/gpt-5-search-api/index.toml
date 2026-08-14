@@ -1,0 +1,16 @@
+id = "gpt-5-search-api"
+name = "gpt-5-search-api"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.16
+input = 101.02
+output = 808.13

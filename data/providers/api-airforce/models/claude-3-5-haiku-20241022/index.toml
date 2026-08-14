@@ -1,0 +1,17 @@
+id = "claude-3-5-haiku-20241022"
+name = "claude-3-5-haiku-20241022"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+cache_write = 0.23
+input = 0.2
+output = 0.96

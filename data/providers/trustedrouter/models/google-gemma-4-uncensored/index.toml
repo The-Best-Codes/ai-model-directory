@@ -1,0 +1,17 @@
+id = "google/gemma-4-uncensored"
+name = "Gemma 4 Uncensored"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.170625
+output = 0.525

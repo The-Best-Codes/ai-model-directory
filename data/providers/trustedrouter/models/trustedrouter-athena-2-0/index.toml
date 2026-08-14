@@ -1,0 +1,17 @@
+id = "trustedrouter/athena-2.0"
+name = "TrustedRouter Athena 2.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.609
+output = 1.575

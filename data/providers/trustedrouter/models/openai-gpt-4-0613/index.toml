@@ -1,0 +1,14 @@
+id = "openai/gpt-4-0613"
+name = "gpt-4-0613"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 31.5
+output = 63

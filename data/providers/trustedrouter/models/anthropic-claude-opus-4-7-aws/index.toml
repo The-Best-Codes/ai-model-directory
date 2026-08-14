@@ -1,0 +1,17 @@
+id = "anthropic/claude-opus-4.7-aws"
+name = "Claude Opus 4.7 AWS"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5.25
+output = 26.25

@@ -1,0 +1,16 @@
+id = "glm-4.5v"
+name = "glm-4.5v"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+input = 0.35
+output = 1.04

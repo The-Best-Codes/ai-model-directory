@@ -1,0 +1,11 @@
+id = "gemini-2.5-flash-preview-tts"
+name = "gemini-2.5-flash-preview-tts"
+release_date = "1786673790"
+
+[features]
+reasoning = true
+
+[pricing]
+cache_read = 0.02
+input = 0.17
+output = 3.45

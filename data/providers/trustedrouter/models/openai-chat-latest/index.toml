@@ -1,0 +1,14 @@
+id = "openai/chat-latest"
+name = "chat-latest"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5.25
+output = 31.5

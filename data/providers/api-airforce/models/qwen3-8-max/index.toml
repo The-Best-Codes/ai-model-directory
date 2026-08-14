@@ -1,0 +1,16 @@
+id = "qwen3.8-max"
+name = "qwen3.8-max"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.43
+input = 3.45
+output = 10.32

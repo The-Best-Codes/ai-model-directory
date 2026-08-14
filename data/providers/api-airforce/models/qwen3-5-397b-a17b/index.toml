@@ -1,6 +1,6 @@
 id = "qwen3.5-397b-a17b"
 name = "qwen3.5-397b-a17b"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -11,5 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.27
-output = 1.53
+cache_read = 0.01
+input = 0.48
+output = 2.91

@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3_5-lightning"
+name = "Nemotron-3.5-Lightning"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.063
+output = 0.252

@@ -1,0 +1,16 @@
+id = "qwen3-235b-a22b-instruct-2507"
+name = "qwen3-235b-a22b-instruct-2507"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.29
+output = 1.14

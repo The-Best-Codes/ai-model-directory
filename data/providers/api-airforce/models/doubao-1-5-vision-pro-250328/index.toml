@@ -1,0 +1,16 @@
+id = "doubao-1.5-vision-pro-250328"
+name = "doubao-1.5-vision-pro-250328"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.56
+output = 1.66

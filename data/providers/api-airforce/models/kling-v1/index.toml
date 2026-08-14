@@ -1,6 +1,11 @@
 id = "kling-v1"
 name = "kling-v1"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 reasoning = false
+
+[pricing]
+cache_read = 0.26
+input = 2.21
+output = 0.02

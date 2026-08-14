@@ -1,0 +1,17 @@
+id = "qwen/qwen-3-8-2-4t-a95b"
+name = "Qwen 3.8 2.4T"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.625
+output = 7.875

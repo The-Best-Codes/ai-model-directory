@@ -1,0 +1,11 @@
+id = "sora_video2-pro"
+name = "sora_video2-pro"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 96.3
+input = 1355.55
+output = 0.02

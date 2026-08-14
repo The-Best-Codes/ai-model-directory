@@ -1,0 +1,17 @@
+id = "qwen/qwen3-coder-480b-a35b-instruct-fp8"
+name = "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262128
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.945
+output = 4.725

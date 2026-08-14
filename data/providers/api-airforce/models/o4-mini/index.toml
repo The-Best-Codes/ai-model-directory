@@ -1,7 +1,7 @@
 id = "o4-mini"
 knowledge_cutoff = "1717200000"
 name = "o4-mini"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = true
@@ -17,5 +17,6 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.99
-output = 3.9
+cache_read = 0.02
+input = 1.05
+output = 4.21

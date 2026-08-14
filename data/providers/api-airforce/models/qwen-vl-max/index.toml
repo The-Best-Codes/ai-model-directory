@@ -1,0 +1,16 @@
+id = "qwen-vl-max"
+name = "qwen-vl-max"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.16
+output = 0.38

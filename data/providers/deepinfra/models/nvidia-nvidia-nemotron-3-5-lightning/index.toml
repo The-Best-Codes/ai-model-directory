@@ -6,9 +6,10 @@ attachment = false
 reasoning = false
 
 [limit]
-context = 28672
-output = 28672
+context = 262144
+output = 262144
 
 [pricing]
-input = 0.05
+cache_read = 0.04
+input = 0.08
 output = 0.2

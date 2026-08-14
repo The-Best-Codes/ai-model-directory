@@ -1,0 +1,16 @@
+id = "o1-mini"
+name = "o1-mini"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.14
+input = 1.43
+output = 5.72

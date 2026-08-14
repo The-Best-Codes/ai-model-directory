@@ -1,7 +1,7 @@
 id = "kimi-k2.5"
 knowledge_cutoff = "1754006400"
 name = "kimi-k2.5"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -17,5 +17,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.58
-output = 3.05
+cache_read = 0.06
+input = 0.86
+output = 4.52

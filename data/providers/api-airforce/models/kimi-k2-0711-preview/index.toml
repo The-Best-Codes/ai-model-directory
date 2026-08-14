@@ -1,0 +1,16 @@
+id = "kimi-k2-0711-preview"
+name = "kimi-k2-0711-preview"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.23
+output = 0.92

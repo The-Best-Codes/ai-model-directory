@@ -1,0 +1,16 @@
+id = "llama-3.2-3b-instruct"
+name = "llama-3.2-3b-instruct"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.14
+output = 0.08

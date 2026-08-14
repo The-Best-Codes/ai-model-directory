@@ -1,0 +1,17 @@
+id = "qwen/qwen3-coder-480b-a35b-instruct-turbo"
+name = "Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.315
+output = 1.05

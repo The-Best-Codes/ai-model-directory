@@ -1,0 +1,17 @@
+id = "claude-3-opus-20240229"
+name = "claude-3-opus-20240229"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+cache_write = 3.65
+input = 2.93
+output = 14.63

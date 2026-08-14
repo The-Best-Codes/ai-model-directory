@@ -1,0 +1,16 @@
+id = "deepseek-v3.2-speciale"
+name = "deepseek-v3.2-speciale"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.21
+output = 0.31

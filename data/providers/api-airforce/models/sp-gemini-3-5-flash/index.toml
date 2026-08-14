@@ -1,0 +1,16 @@
+id = "[SP]gemini-3.5-flash"
+name = "[SP]gemini-3.5-flash"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.94
+input = 13.27
+output = 0.02

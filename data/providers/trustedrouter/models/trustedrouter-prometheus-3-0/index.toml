@@ -1,0 +1,17 @@
+id = "trustedrouter/prometheus-3.0"
+name = "TrustedRouter Prometheus 3.0"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2835
+output = 0.9135

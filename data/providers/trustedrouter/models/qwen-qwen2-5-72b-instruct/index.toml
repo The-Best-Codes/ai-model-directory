@@ -1,0 +1,17 @@
+id = "qwen/qwen2.5-72b-instruct"
+name = "Qwen/Qwen2.5-72B-Instruct"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.378
+output = 0.42

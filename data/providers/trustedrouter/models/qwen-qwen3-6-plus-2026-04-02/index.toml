@@ -1,12 +1,12 @@
 id = "qwen/qwen3.6-plus-2026-04-02"
-name = "Qwen3.6 Plus 2026 04 02"
+name = "Qwen3.6 Plus 2026-04-02"
 open_weights = true
 
 [features]
 attachment = false
 
 [limit]
-context = 1048576
+context = 262144
 
 [modalities]
 input = [ "text" ]

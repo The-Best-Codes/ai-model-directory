@@ -1,0 +1,17 @@
+id = "minimax/minimax-m27"
+name = "MiniMax M2.7"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 198000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.39375
+output = 1.575

@@ -1,0 +1,16 @@
+id = "qwen-max-0428"
+name = "qwen-max-0428"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.62
+input = 6.18
+output = 18.51

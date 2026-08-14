@@ -1,0 +1,16 @@
+id = "gpt-5.3-codex-xhigh"
+name = "gpt-5.3-codex-xhigh"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 4.31
+input = 43.06
+output = 258.34

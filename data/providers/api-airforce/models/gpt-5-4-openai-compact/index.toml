@@ -1,0 +1,16 @@
+id = "gpt-5.4-openai-compact"
+name = "gpt-5.4-openai-compact"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.23
+input = 2.39
+output = 14.35

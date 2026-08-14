@@ -1,0 +1,16 @@
+id = "Doubao-vision-pro-32k"
+name = "Doubao-vision-pro-32k"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.46
+output = 1.35

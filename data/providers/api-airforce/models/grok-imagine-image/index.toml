@@ -1,6 +1,6 @@
 id = "grok-imagine-image"
 name = "grok-imagine-image"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -11,4 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 19
+input = 228.38
+output = 228.38

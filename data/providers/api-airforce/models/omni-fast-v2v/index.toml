@@ -1,0 +1,16 @@
+id = "omni-fast-v2v"
+name = "omni-fast-v2v"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 38.27
+input = 538.75
+output = 0.02

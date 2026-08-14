@@ -1,0 +1,16 @@
+id = "gpt-4.5-preview"
+name = "gpt-4.5-preview"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 9.75
+input = 97.5
+output = 195

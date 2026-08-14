@@ -1,0 +1,16 @@
+id = "kimi-k2-thinking-turbo"
+name = "kimi-k2-thinking-turbo"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 1.51
+output = 10.93

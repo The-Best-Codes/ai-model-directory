@@ -1,6 +1,6 @@
 id = "qwen3-next-80b-a3b"
 name = "qwen3-next-80b-a3b"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -11,5 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.21
-output = 0.87
+cache_read = 0.02
+input = 0.38
+output = 2.18

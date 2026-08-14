@@ -1,15 +1,15 @@
-id = "anthropic/claude-opus-4.7"
-name = "Anthropic: Claude Opus 4.7"
+id = "anthropic/claude-opus-4-7"
+name = "anthropic/claude-opus-4-7"
 open_weights = false
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 1000000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

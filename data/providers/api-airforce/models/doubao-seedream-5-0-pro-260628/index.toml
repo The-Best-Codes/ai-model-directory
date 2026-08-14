@@ -1,0 +1,16 @@
+id = "doubao-seedream-5-0-pro-260628"
+name = "doubao-seedream-5-0-pro-260628"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.24
+input = 3.4
+output = 0.02

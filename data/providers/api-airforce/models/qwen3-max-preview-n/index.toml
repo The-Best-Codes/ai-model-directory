@@ -1,0 +1,16 @@
+id = "qwen3-max-preview-n"
+name = "qwen3-max-preview-n"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.7
+input = 6.97
+output = 6.97

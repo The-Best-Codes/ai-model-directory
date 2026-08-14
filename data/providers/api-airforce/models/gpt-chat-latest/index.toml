@@ -1,0 +1,16 @@
+id = "gpt-chat-latest"
+name = "gpt-chat-latest"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.07
+input = 0.72
+output = 4.3

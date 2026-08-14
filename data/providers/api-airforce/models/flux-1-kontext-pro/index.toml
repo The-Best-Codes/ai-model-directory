@@ -1,0 +1,16 @@
+id = "flux.1-kontext-pro"
+name = "flux.1-kontext-pro"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 4.68
+input = 65.88
+output = 0.02

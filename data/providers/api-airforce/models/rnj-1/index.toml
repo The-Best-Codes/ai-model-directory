@@ -1,6 +1,6 @@
 id = "rnj-1"
 name = "rnj-1"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -11,5 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 2
-output = 2
+cache_read = 0.2
+input = 3.66
+output = 3.66

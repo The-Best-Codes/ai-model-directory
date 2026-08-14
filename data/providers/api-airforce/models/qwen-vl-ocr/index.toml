@@ -1,0 +1,16 @@
+id = "qwen-vl-ocr"
+name = "qwen-vl-ocr"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 8.59
+input = 142.34
+output = 142.34

@@ -1,0 +1,16 @@
+id = "qwen3.6-flash"
+name = "qwen3.6-flash"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.15
+input = 11.48
+output = 11.48

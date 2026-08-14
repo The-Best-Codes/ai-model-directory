@@ -1,0 +1,16 @@
+id = "gemini-embedding-2-preview"
+name = "gemini-embedding-2-preview"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 5.74
+input = 57.41
+output = 229.63

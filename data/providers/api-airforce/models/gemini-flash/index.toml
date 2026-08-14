@@ -1,0 +1,15 @@
+id = "gemini-flash"
+name = "gemini-flash"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.36
+output = 3.03

@@ -1,0 +1,19 @@
+id = "muse-glimmer-30b"
+name = "muse-glimmer-30b"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 131000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.040005
+input = 0.35
+output = 1.5001

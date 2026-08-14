@@ -1,7 +1,7 @@
 id = "gpt-oss-120b"
 knowledge_cutoff = "1717200000"
 name = "gpt-oss-120b"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -18,5 +18,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.1
-output = 0.4
+cache_read = 0.01
+input = 0.22
+output = 0.9

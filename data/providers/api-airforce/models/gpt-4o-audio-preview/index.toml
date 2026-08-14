@@ -1,0 +1,11 @@
+id = "gpt-4o-audio-preview"
+name = "gpt-4o-audio-preview"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.32
+input = 3.25
+output = 13

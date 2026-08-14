@@ -1,0 +1,17 @@
+id = "sao10k/l3-8b-lunaris-v1-turbo"
+name = "Sao10K/L3-8B-Lunaris-v1-Turbo"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0.0525

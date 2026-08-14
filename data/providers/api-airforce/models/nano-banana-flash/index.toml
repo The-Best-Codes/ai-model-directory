@@ -1,0 +1,16 @@
+id = "nano-banana-flash"
+name = "nano-banana-flash"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 2
+input = 84.45
+output = 0.02

@@ -1,0 +1,16 @@
+id = "qwen-max-0919"
+name = "qwen-max-0919"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.31
+input = 3.08
+output = 9.26

@@ -1,0 +1,16 @@
+id = "gemini-3-pro-image-preview-4k"
+name = "gemini-3-pro-image-preview-4k"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 19.26
+input = 271.11
+output = 0.02

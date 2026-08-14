@@ -1,0 +1,16 @@
+id = "gpt-5.3-codex-spark"
+name = "gpt-5.3-codex-spark"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+input = 0.34
+output = 2.68

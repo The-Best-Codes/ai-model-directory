@@ -1,0 +1,16 @@
+id = "qwen3-30b-a3b-think"
+name = "qwen3-30b-a3b-think"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.07
+output = 0.27

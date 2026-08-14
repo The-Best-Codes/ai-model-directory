@@ -1,7 +1,7 @@
 id = "gpt-5.1"
 knowledge_cutoff = "1756684800"
 name = "gpt-5.1"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = true
@@ -19,5 +19,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.03
-input = 0.27
-output = 2.13
+input = 2.29
+output = 18.3

@@ -1,0 +1,21 @@
+id = "gemini-3.7-flash"
+name = "Gemini-3.7-Flash"
+release_date = "1786584567"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0758
+input = 0.7576
+output = 3.7879

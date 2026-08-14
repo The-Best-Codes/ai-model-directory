@@ -1,12 +1,11 @@
 id = "Qwen/Qwen3.8-2.4T-A95B"
 name = "Qwen3.8-2.4T-A95B"
-release_date = "1786567842"
 
 [features]
 attachment = false
 
 [limit]
-context = 262144
+context = 1010000
 
 [modalities]
 input = [ "text" ]

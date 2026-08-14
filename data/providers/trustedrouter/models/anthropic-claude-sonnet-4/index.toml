@@ -1,0 +1,17 @@
+id = "anthropic/claude-sonnet-4"
+name = "Claude Sonnet 4"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 409600
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.15
+output = 15.75

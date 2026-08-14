@@ -1,0 +1,11 @@
+id = "speech-02-hd"
+name = "speech-02-hd"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.21
+input = 2.93
+output = 0.02

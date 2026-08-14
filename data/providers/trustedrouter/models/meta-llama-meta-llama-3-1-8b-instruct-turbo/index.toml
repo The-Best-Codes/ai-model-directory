@@ -1,0 +1,17 @@
+id = "meta-llama/meta-llama-3.1-8b-instruct-turbo"
+name = "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.021
+output = 0.042

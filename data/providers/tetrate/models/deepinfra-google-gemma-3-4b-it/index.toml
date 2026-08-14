@@ -1,6 +1,6 @@
 id = "deepinfra/google/gemma-3-4b-it"
 name = "deepinfra/google/gemma-3-4b-it"
-release_date = "1785552838"
+release_date = "1765972221"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "minimax-m2.1"
 name = "minimax-m2.1"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -11,5 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
+cache_read = 0.03
 input = 0.66
 output = 2.7

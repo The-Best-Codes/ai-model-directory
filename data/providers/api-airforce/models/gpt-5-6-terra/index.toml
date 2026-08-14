@@ -1,6 +1,6 @@
 id = "gpt-5.6-terra"
 name = "gpt-5.6-terra"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 attachment = false
@@ -12,6 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.21
-cache_write = 2.64
-input = 2.1
-output = 11.5
+input = 9.15
+output = 54.9

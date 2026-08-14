@@ -1,0 +1,17 @@
+id = "lightning-ai/nemotron-3-ultra-550b-a55b"
+name = "nemotron-3-ultra-550b-a55b"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4305
+output = 1.26

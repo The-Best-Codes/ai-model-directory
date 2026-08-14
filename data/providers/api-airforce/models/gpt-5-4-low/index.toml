@@ -1,0 +1,17 @@
+id = "gpt-5.4-low"
+name = "gpt-5.4-low"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+cache_write = 0.48
+input = 0.39
+output = 2.31

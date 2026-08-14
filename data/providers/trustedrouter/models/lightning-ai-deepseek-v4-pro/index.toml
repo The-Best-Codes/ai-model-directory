@@ -1,0 +1,17 @@
+id = "lightning-ai/deepseek-v4-pro"
+name = "deepseek-v4-pro"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.9345
+output = 3.15

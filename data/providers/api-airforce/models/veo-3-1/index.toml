@@ -1,0 +1,11 @@
+id = "veo_3_1"
+name = "veo_3_1"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 13.98
+input = 196.78
+output = 0.02

@@ -1,10 +1,11 @@
 id = "gpt-4o-transcribe"
 name = "gpt-4o-transcribe"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 reasoning = false
 
 [pricing]
-input = 0.33
-output = 1.29
+cache_read = 0.03
+input = 13.47
+output = 53.88

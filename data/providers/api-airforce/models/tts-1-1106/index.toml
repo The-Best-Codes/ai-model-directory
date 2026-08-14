@@ -1,0 +1,11 @@
+id = "tts-1-1106"
+name = "tts-1-1106"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.04
+input = 0.38
+output = 11.47

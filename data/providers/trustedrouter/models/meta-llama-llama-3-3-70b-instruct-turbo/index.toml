@@ -1,0 +1,17 @@
+id = "meta-llama/llama-3.3-70b-instruct-turbo"
+name = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.105
+output = 0.336

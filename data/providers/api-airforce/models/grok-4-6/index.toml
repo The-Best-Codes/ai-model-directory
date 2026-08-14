@@ -1,0 +1,16 @@
+id = "grok-4.6"
+name = "grok-4.6"
+release_date = "1786673790"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.26
+input = 1.63
+output = 3.25

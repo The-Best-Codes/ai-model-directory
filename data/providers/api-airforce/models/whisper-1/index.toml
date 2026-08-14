@@ -1,10 +1,11 @@
 id = "whisper-1"
 name = "whisper-1"
-release_date = "1786587602"
+release_date = "1786673790"
 
 [features]
 reasoning = false
 
 [pricing]
-input = 3.87
-output = 3.87
+cache_read = 0.39
+input = 39.75
+output = 39.75

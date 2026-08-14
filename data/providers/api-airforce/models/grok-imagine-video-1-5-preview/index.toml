@@ -1,0 +1,11 @@
+id = "grok-imagine-video-1.5-preview"
+name = "grok-imagine-video-1.5-preview"
+release_date = "1786673790"
+
+[features]
+reasoning = false
+
+[pricing]
+cache_read = 0.78
+input = 10.98
+output = 0.02
