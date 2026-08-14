@@ -26,6 +26,9 @@ export default function Page() {
           <Link href="/list">Browse all models</Link>
         </Button>
         <Button asChild size="lg" variant="secondary">
+          <Link href="/providers">Browse providers</Link>
+        </Button>
+        <Button asChild size="lg" variant="secondary">
           <Link href="/docs">
             <IconBook />
             Docs
