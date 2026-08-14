@@ -1,0 +1,19 @@
+id = "nemotron-3-ultra-550b-a55b"
+name = "nemotron-3-ultra-550b-a55b"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.067097208
+input = 0.67097208
+output = 4.1935755

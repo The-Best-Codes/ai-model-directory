@@ -1,0 +1,19 @@
+id = "glm-5-1"
+name = "glm-5-1"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.62151586
+input = 1.62151586
+output = 5.14411928

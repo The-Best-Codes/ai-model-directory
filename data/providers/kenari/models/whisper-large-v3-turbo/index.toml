@@ -1,0 +1,9 @@
+id = "whisper-large-v3-turbo"
+name = "whisper-large-v3-turbo"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

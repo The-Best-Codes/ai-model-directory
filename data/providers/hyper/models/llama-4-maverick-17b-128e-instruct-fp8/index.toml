@@ -1,0 +1,17 @@
+id = "llama-4-maverick-17b-128e-instruct-fp8"
+name = "Llama 4 Maverick 17B 128E Instruct FP8"
+release_date = "1777561912"
+
+[limit]
+context = 430000
+output = 43000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0.137
+input = 0.274
+output = 0.8992

@@ -1,0 +1,19 @@
+id = "gemma-4-31b-it"
+name = "gemma-4-31b-it"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.117420114
+input = 0.117420114
+output = 0.396991814

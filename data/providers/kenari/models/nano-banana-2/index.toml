@@ -1,0 +1,14 @@
+id = "nano-banana-2"
+name = "nano-banana-2"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]

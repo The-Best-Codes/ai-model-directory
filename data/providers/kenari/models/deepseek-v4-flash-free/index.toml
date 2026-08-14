@@ -1,0 +1,20 @@
+id = "deepseek-v4-flash:free"
+name = "deepseek-v4-flash:free"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

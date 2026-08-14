@@ -1,0 +1,20 @@
+id = "claude-sonnet-4-6"
+name = "claude-sonnet-4-6"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.352260342
+cache_write = 4.36131852
+input = 3.52260342
+output = 17.3334454

@@ -25,11 +25,13 @@ import { googleProvider } from "./google.ts";
 import { groqProvider } from "./groq.ts";
 import { heliconeProvider } from "./helicone.ts";
 import { huggingfaceProvider } from "./huggingface.ts";
+import { hyperProvider } from "./hyper.ts";
 import { impossiblProvider } from "./impossibl.ts";
 import { inceptionProvider } from "./inception.ts";
 import { inceptronProvider } from "./inceptron.ts";
 import { ioNetProvider } from "./io-net.ts";
 import { jiekouProvider } from "./jiekou.ts";
+import { kenariProvider } from "./kenari.ts";
 import { kiloProvider } from "./kilo.ts";
 import { llmtrProvider } from "./llmtr.ts";
 import { llmgatewayProvider } from "./llmgateway.ts";
@@ -97,11 +99,13 @@ export const providers: ProviderDefinition[] = [
   groqProvider,
   heliconeProvider,
   huggingfaceProvider,
+  hyperProvider,
   impossiblProvider,
   inceptionProvider,
   inceptronProvider,
   ioNetProvider,
   jiekouProvider,
+  kenariProvider,
   kiloProvider,
   llmgatewayProvider,
   llmtrProvider,

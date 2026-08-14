@@ -1,0 +1,20 @@
+id = "hy3:free"
+name = "hy3:free"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

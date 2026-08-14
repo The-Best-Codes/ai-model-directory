@@ -1,0 +1,17 @@
+id = "minimax-m2.7"
+name = "MiniMax M2.7"
+release_date = "1780690458"
+
+[limit]
+context = 262100
+output = 6553
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0.235
+input = 0.47
+output = 1.76

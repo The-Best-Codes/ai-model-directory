@@ -1,0 +1,20 @@
+id = "gpt-oss-120b"
+name = "gpt-oss-120b"
+release_date = "1776094962"
+
+[features]
+reasoning = true
+
+[limit]
+context = 131072
+output = 13107
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0.094
+input = 0.188
+output = 0.7

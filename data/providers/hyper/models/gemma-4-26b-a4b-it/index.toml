@@ -1,0 +1,17 @@
+id = "gemma-4-26b-a4b-it"
+name = "Gemma 4 26B A4B"
+release_date = "1777561863"
+
+[limit]
+context = 256000
+output = 25600
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0.063
+input = 0.126
+output = 0.42

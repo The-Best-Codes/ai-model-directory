@@ -1,0 +1,19 @@
+id = "gpt-5-4-mini"
+name = "gpt-5-4-mini"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 272000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08387151
+input = 0.8387151
+output = 5.25594796

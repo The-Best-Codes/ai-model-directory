@@ -1,0 +1,11 @@
+id = "gpt-image-2"
+name = "gpt-image-2"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

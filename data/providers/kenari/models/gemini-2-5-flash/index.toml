@@ -1,0 +1,20 @@
+id = "gemini-2-5-flash"
+name = "gemini-2-5-flash"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0352260342
+cache_write = 0.095054378
+input = 0.352260342
+output = 2.90754568

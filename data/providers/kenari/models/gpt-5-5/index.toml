@@ -1,0 +1,19 @@
+id = "gpt-5-5"
+name = "gpt-5-5"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 272000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5591434
+input = 5.591434
+output = 35.2260342

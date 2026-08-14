@@ -1,0 +1,21 @@
+id = "kimi-k3"
+name = "Kimi K3"
+release_date = "1785168688"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.32664
+cache_write = 0
+input = 3.2664
+output = 16.332

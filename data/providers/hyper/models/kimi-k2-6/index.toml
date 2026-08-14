@@ -1,0 +1,21 @@
+id = "kimi-k2.6"
+name = "Kimi K2.6"
+release_date = "1783106224"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262000
+output = 26214
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0.16
+input = 0.95
+output = 4

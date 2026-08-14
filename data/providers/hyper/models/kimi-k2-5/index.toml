@@ -1,0 +1,17 @@
+id = "kimi-k2.5"
+name = "Kimi K2.5"
+release_date = "1776094962"
+
+[limit]
+context = 262144
+output = 26214
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0.266
+input = 0.532
+output = 2.8

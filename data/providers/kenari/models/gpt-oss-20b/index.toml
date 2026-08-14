@@ -1,0 +1,19 @@
+id = "gpt-oss-20b"
+name = "gpt-oss-20b"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0036344321
+input = 0.0352260342
+output = 0.150968718

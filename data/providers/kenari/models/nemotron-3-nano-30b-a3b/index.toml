@@ -1,0 +1,19 @@
+id = "nemotron-3-nano-30b-a3b"
+name = "nemotron-3-nano-30b-a3b"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0290754568
+input = 0.05591434
+output = 0.234840228

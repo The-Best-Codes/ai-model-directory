@@ -1,0 +1,20 @@
+id = "glm-5.2"
+name = "GLM-5.2"
+release_date = "1782853752"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1000000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.28
+cache_write = 0
+input = 1.4
+output = 4.4

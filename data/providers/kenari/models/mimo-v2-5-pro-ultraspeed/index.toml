@@ -1,0 +1,19 @@
+id = "mimo-v2-5-pro-ultraspeed"
+name = "mimo-v2-5-pro-ultraspeed"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.016774302
+input = 1.6774302
+output = 3.3548604

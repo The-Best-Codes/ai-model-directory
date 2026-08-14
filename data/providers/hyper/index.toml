@@ -1,0 +1,7 @@
+name = "Charm Hyper"
+website = "https://hyper.charm.land"
+apiBaseUrl = "https://hyper.charm.land/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["HYPER_API_KEY"]

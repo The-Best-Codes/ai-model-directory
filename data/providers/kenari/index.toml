@@ -1,0 +1,7 @@
+name = "Kenari"
+website = "https://kenari.id"
+apiBaseUrl = "https://kenari.id/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["KENARI_API_KEY"]

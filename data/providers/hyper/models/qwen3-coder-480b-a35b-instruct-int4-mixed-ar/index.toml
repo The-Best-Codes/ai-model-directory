@@ -1,0 +1,17 @@
+id = "qwen3-coder-480b-a35b-instruct-int4-mixed-ar"
+name = "Qwen3 Coder 480B A35B Instruct INT4 Mixed AR"
+release_date = "1777561986"
+
+[limit]
+context = 106000
+output = 10600
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0.2225
+input = 0.445
+output = 2.145

@@ -1,0 +1,9 @@
+id = "mimo-v2-5-tts"
+name = "mimo-v2-5-tts"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
