@@ -1,6 +1,6 @@
 id = "gpt-4-1106"
 name = "gpt-4-1106"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.21
-input = 1.96
-output = 5.87
+input = 2.13
+output = 6.42

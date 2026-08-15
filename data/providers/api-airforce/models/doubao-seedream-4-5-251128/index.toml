@@ -1,6 +1,6 @@
 id = "doubao-seedream-4-5-251128"
 name = "doubao-seedream-4-5-251128"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 3.25
-input = 45.75
-output = 0.02
+input = 457.5
+output = 32.5

@@ -1,11 +1,11 @@
 id = "pixverse-sound-effect"
 name = "pixverse-sound-effect"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 0.18
-input = 2.56
-output = 0.02
+input = 25.62
+output = 1.82

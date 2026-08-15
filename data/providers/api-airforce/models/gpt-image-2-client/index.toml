@@ -1,6 +1,6 @@
 id = "gpt-image-2-client"
 name = "gpt-image-2-client"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,4 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 1.91
-input = 26.94
-output = 0.02
+input = 19.14

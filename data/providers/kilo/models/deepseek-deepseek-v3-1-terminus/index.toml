@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v3.1-terminus"
-name = "DeepSeek: DeepSeek V3.1 Terminus"
+name = "DeepSeek: DeepSeek V3.1 Terminus (retires Aug 17)"
 release_date = "1758548275"
 
 [features]

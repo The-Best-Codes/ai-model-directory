@@ -1,6 +1,6 @@
 id = "gpt-4o-search"
 name = "gpt-4o-search"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.55
-input = 3.37
-output = 13.47
+input = 5.52
+output = 22.08

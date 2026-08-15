@@ -1,0 +1,19 @@
+id = "llmtr/muse-glimmer-30b-tr"
+name = "Muse Glimmer 30B (Turkey)"
+release_date = "1786702265"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 2
+output = 5

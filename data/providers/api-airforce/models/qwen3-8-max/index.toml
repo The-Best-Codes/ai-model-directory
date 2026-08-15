@@ -1,6 +1,6 @@
 id = "qwen3.8-max"
 name = "qwen3.8-max"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.43
-input = 3.45
-output = 10.32
+input = 2.65
+output = 7.95

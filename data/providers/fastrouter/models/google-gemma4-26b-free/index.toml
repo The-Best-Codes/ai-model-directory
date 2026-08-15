@@ -14,7 +14,7 @@ context = 262144
 output = 32768
 
 [modalities]
-input = [ "audio", "image", "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

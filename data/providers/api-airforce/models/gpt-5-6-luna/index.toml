@@ -1,6 +1,6 @@
 id = "gpt-5.6-luna"
 name = "gpt-5.6-luna"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.08
-input = 9.15
-output = 54.9
+input = 0.85
+output = 4.6

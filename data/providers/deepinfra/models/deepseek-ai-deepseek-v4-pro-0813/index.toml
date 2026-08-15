@@ -1,0 +1,15 @@
+id = "deepseek-ai/DeepSeek-V4-Pro-0813"
+name = "deepseek-ai/DeepSeek-V4-Pro-0813"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 1048576
+output = 1048576
+
+[pricing]
+cache_read = 0.10000000399999999
+input = 1.2999999999999998
+output = 2.5999999999999996

@@ -1,6 +1,6 @@
 id = "deepseek-v3.1-terminus"
 name = "deepseek-v3.1-terminus"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.02
-input = 1.06
-output = 3.18
+input = 0.75
+output = 2.26

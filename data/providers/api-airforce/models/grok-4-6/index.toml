@@ -1,6 +1,6 @@
 id = "grok-4.6"
 name = "grok-4.6"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.26
-input = 1.63
-output = 3.25
+cache_read = 0.65
+input = 2
+output = 6

@@ -1,6 +1,6 @@
 id = "gpt-realtime-mini"
 name = "gpt-realtime-mini"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.04
-input = 0.42
-output = 1.65
+input = 0.44
+output = 1.75

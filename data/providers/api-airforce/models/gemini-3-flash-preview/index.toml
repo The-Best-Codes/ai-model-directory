@@ -1,7 +1,7 @@
 id = "gemini-3-flash-preview"
 knowledge_cutoff = "1767225600"
 name = "gemini-3-flash-preview"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = true
@@ -18,5 +18,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.07
-input = 0.65
-output = 3.9
+input = 0.5
+output = 3

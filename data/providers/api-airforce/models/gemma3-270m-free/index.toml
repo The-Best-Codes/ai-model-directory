@@ -1,6 +1,6 @@
 id = "gemma3-270m:free"
 name = "gemma3-270m:free"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -13,4 +13,3 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.01
 input = 0.02
-output = 0.02

@@ -1,6 +1,6 @@
 id = "gpt-5.4-pro"
 name = "gpt-5.4-pro"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 2.12
-input = 21.22
-output = 127.3
+cache_read = 1.5
+input = 15
+output = 90

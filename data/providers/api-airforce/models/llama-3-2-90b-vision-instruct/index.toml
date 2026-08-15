@@ -1,6 +1,6 @@
 id = "llama-3.2-90b-vision-instruct"
 name = "llama-3.2-90b-vision-instruct"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.06
-input = 0.57
-output = 1.72
+input = 1.05
+output = 1.93

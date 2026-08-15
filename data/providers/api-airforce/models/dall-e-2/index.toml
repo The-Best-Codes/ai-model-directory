@@ -1,6 +1,6 @@
 id = "dall-e-2"
 name = "dall-e-2"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 1
-input = 10
+input = 36.6
 output = 10

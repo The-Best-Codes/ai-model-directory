@@ -1,0 +1,20 @@
+id = "deepinfra/zai-org/GLM-5.1:flex"
+name = "deepinfra/zai-org/GLM-5.1:flex"
+release_date = "1786718136"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.164
+input = 0.84
+output = 2.8

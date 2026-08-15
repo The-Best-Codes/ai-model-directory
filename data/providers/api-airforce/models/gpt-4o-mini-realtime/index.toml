@@ -1,11 +1,11 @@
 id = "gpt-4o-mini-realtime"
 name = "gpt-4o-mini-realtime"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 2.21
-input = 13.47
-output = 26.94
+input = 22.08
+output = 44.16

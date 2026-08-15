@@ -1,6 +1,6 @@
 id = "mj_high_variation"
 name = "mj_high_variation"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 7.8
-input = 109.76
-output = 0.02
+input = 549
+output = 77.97

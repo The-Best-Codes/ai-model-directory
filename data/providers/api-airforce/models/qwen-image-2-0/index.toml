@@ -1,6 +1,6 @@
 id = "qwen-image-2.0"
 name = "qwen-image-2.0"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 1.08
-input = 142.74
+input = 117
 output = 0.02

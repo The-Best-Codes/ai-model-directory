@@ -1,6 +1,6 @@
 id = "qwen-image-max-2025-12-30"
 name = "qwen-image-max-2025-12-30"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 19.5
-input = 274.5
-output = 0.02
+input = 915
+output = 195

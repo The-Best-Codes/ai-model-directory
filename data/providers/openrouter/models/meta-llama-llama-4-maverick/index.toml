@@ -11,7 +11,8 @@ temperature = true
 tool_call = true
 
 [limit]
-context = 128000
+context = 1048576
+output = 16384
 
 [modalities]
 input = [ "image", "text" ]
@@ -19,4 +20,4 @@ output = [ "text" ]
 
 [pricing]
 input = 0.2
-output = 0.696
+output = 0.8

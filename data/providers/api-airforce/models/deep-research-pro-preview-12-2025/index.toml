@@ -1,6 +1,6 @@
 id = "deep-research-pro-preview-12-2025"
 name = "deep-research-pro-preview-12-2025"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 5.74
-input = 57.41
-output = 57.41
+input = 44.16
+output = 44.16

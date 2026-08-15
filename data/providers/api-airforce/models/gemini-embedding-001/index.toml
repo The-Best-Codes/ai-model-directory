@@ -1,6 +1,6 @@
 id = "gemini-embedding-001"
 name = "gemini-embedding-001"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-input = 80.81
-output = 323.25
+input = 0.42
+output = 1.71

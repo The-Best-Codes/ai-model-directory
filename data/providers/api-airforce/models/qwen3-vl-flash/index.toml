@@ -1,6 +1,6 @@
 id = "qwen3-vl-flash"
 name = "qwen3-vl-flash"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-input = 0.04
-output = 0.31
+input = 0.03
+output = 0.22

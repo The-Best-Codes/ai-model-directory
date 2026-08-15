@@ -18,5 +18,5 @@ output = [ "audio", "text" ]
 
 [pricing]
 cache_read = 0.05
-input = 43.1
-output = 86.19
+input = 1.65
+output = 3.3

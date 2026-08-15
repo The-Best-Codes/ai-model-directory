@@ -1,6 +1,6 @@
 id = "gemini-robotics-er-1.5-preview"
 name = "gemini-robotics-er-1.5-preview"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 5.74
-input = 57.41
-output = 478.4
+input = 44.16
+output = 368

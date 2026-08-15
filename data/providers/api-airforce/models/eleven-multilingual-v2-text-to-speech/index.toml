@@ -1,6 +1,6 @@
 id = "eleven_multilingual_v2/text-to-speech"
 name = "eleven_multilingual_v2/text-to-speech"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 reasoning = false
@@ -8,4 +8,3 @@ reasoning = false
 [pricing]
 cache_read = 21.45
 input = 214.5
-output = 0.02

@@ -1,6 +1,6 @@
 id = "qwen-image-edit"
 name = "qwen-image-edit"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false

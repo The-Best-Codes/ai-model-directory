@@ -1,0 +1,19 @@
+id = "deepinfra/meta-llama/Llama-3.3-70B-Instruct-Turbo:flex"
+name = "deepinfra/meta-llama/Llama-3.3-70B-Instruct-Turbo:flex"
+release_date = "1786718136"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.256

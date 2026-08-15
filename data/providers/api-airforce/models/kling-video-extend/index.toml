@@ -1,11 +1,11 @@
 id = "kling-video-extend"
 name = "kling-video-extend"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 0.22
-input = 3.11
-output = 0.02
+input = 31.11
+output = 2.21

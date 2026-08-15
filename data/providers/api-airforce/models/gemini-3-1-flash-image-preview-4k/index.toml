@@ -1,6 +1,6 @@
 id = "gemini-3.1-flash-image-preview-4k"
 name = "gemini-3.1-flash-image-preview-4k"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,4 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 13.48
-input = 189.77
-output = 0.02
+input = 134.81

@@ -1,6 +1,6 @@
 id = "gpt-5.3-codex-xhigh"
 name = "gpt-5.3-codex-xhigh"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 4.31
-input = 43.06
-output = 258.34
+input = 33.12
+output = 198.72

@@ -1,0 +1,17 @@
+id = "llmtr/trendyol-asure-12b"
+name = "Trendyol Asure 12B"
+release_date = "1786690403"
+
+[features]
+attachment = true
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.025
+input = 0.1
+output = 0.5

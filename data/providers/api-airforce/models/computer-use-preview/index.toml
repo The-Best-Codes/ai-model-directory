@@ -1,6 +1,6 @@
 id = "computer-use-preview"
 name = "computer-use-preview"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.39
-input = 3.9
-output = 15.6
+input = 3
+output = 12

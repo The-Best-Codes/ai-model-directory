@@ -1,11 +1,11 @@
 id = "viduq3-pro"
 name = "viduq3-pro"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 0.09
-input = 1.3
-output = 0.02
+input = 2.09
+output = 0.92

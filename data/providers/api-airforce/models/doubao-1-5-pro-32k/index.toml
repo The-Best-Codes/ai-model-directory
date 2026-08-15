@@ -1,6 +1,6 @@
 id = "Doubao-1.5-pro-32k"
 name = "Doubao-1.5-pro-32k"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-input = 0.14
-output = 0.35
+input = 0.12
+output = 0.29

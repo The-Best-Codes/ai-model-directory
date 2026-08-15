@@ -1,6 +1,6 @@
 id = "gpt-4-32k-0613"
 name = "gpt-4-32k-0613"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 1.17
-input = 11.7
-output = 23.4
+cache_read = 12.19
+input = 24.38
+output = 49.5

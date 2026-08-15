@@ -1,11 +1,11 @@
 id = "veo_3_1-components"
 name = "veo_3_1-components"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 13.98
-input = 196.78
-output = 0.02
+input = 1405.44
+output = 139.79

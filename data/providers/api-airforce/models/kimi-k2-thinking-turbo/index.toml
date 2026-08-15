@@ -1,6 +1,6 @@
 id = "kimi-k2-thinking-turbo"
 name = "kimi-k2-thinking-turbo"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.2
-input = 1.51
-output = 10.93
+input = 1.17
+output = 8.42

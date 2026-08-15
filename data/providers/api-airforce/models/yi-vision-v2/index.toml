@@ -1,6 +1,6 @@
 id = "yi-vision-v2"
 name = "yi-vision-v2"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.03
-input = 0.31
-output = 0.92
+input = 0.28
+output = 0.82

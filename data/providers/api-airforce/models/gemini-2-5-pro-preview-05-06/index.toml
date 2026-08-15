@@ -1,6 +1,6 @@
 id = "gemini-2.5-pro-preview-05-06"
 name = "gemini-2.5-pro-preview-05-06"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.07
-input = 0.25
-output = 1.95
+input = 0.68
+output = 4.8

@@ -4,7 +4,7 @@ name = "DeepSeek V4 Flash 0731 (Canary)"
 [features]
 attachment = false
 reasoning = true
-structured_output = false
+structured_output = true
 tool_call = true
 
 [limit]

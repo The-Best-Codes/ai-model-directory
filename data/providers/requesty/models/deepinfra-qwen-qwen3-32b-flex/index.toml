@@ -1,0 +1,19 @@
+id = "deepinfra/Qwen/Qwen3-32B:flex"
+name = "deepinfra/Qwen/Qwen3-32B:flex"
+release_date = "1786718136"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.064
+output = 0.224

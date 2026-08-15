@@ -1,6 +1,6 @@
 id = "grok-4-20-reasoning"
 name = "grok-4-20-reasoning"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.03
-input = 0.27
-output = 0.81
+input = 1.01
+output = 3.02

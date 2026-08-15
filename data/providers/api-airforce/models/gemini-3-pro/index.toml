@@ -1,7 +1,7 @@
 id = "gemini-3-pro"
 knowledge_cutoff = "1767225600"
 name = "gemini-3-pro"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = true
@@ -17,6 +17,6 @@ input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.16
+cache_read = 0.09
 input = 1.58
 output = 9.47

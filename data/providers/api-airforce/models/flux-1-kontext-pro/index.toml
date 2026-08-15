@@ -1,6 +1,6 @@
 id = "flux.1-kontext-pro"
 name = "flux.1-kontext-pro"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 4.68
-input = 65.88
-output = 0.02
+input = 219.6
+output = 46.8

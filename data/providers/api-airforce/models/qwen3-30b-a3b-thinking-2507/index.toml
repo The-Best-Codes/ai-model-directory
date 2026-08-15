@@ -1,6 +1,6 @@
 id = "qwen3-30b-a3b-thinking-2507"
 name = "qwen3-30b-a3b-thinking-2507"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-input = 0.21
-output = 2.09
+input = 0.19
+output = 1.91

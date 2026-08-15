@@ -1,6 +1,6 @@
 id = "gemma-4-31b"
 name = "gemma-4-31b"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.02
-input = 0.17
-output = 0.49
+input = 0.14
+output = 0.4

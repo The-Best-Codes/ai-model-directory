@@ -1,0 +1,17 @@
+id = "deepseek-v4-pro-0813-el"
+name = "DeepSeek-V4-Pro-0813-EL"
+release_date = "1786740564"
+
+[features]
+attachment = false
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.3333
+output = 4

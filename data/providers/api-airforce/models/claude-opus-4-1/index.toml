@@ -1,7 +1,7 @@
 id = "claude-opus-4-1"
 knowledge_cutoff = "1738281600"
 name = "claude-opus-4-1"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = true
@@ -19,5 +19,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.53
-input = 25.68
-output = 128.64
+input = 16.5
+output = 82.5

@@ -1,0 +1,9 @@
+id = "gemini-3-1-flash-tts"
+name = "gemini-3-1-flash-tts"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

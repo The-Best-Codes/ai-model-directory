@@ -1,0 +1,13 @@
+id = "qwen3.8-27b-el"
+name = "Qwen3.8-27B-EL"
+release_date = "1786735454"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

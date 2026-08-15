@@ -1,6 +1,6 @@
 id = "deepseek-v4-flash-0731"
 name = "deepseek-v4-flash-0731"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0
-input = 0.14
-output = 0.29
+input = 0.13
+output = 0.26

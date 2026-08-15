@@ -1,6 +1,6 @@
 id = "qwen3-rerank"
 name = "qwen3-rerank"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -13,4 +13,3 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.01
 input = 0.1
-output = 0.02

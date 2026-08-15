@@ -1,11 +1,11 @@
 id = "doubao-seedance-2-0-fast-260128"
 name = "doubao-seedance-2-0-fast-260128"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 0.25
-input = 3.48
-output = 0.02
+input = 34.77
+output = 2.47

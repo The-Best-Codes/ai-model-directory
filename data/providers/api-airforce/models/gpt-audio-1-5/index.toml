@@ -1,11 +1,11 @@
 id = "gpt-audio-1.5"
 name = "gpt-audio-1.5"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 16.56
-input = 101.02
-output = 202.03
+input = 165.6
+output = 331.2

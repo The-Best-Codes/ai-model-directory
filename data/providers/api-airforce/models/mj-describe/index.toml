@@ -1,0 +1,16 @@
+id = "mj_describe"
+name = "mj_describe"
+release_date = "1786757174"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 3.9
+input = 274.5
+output = 38.99

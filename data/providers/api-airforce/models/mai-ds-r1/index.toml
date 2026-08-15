@@ -1,6 +1,6 @@
 id = "MAI-DS-R1"
 name = "MAI-DS-R1"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.04
-input = 0.36
-output = 1.47
+input = 0.69
+output = 2.75

@@ -1,0 +1,19 @@
+id = "deepinfra/microsoft/phi-4:flex"
+name = "deepinfra/microsoft/phi-4:flex"
+release_date = "1786718136"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.056
+output = 0.112

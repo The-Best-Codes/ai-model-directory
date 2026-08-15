@@ -1,6 +1,6 @@
 id = "kimi-k2.7-code"
 name = "kimi-k2.7-code"
-release_date = "1786673790"
+release_date = "1786757174"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.02
-input = 2.62
-output = 10.91
+input = 1.44
+output = 5.96

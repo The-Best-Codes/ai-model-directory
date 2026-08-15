@@ -3,7 +3,7 @@ name = "nvidia/NVIDIA-Nemotron-3.5-Lightning"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 
 [limit]
 context = 262144
