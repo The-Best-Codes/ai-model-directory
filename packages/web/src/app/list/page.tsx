@@ -4,7 +4,7 @@ import { loadDirectoryData } from "#/directory-data";
 import { ListPage } from "#/ListPage";
 
 export const metadata: Metadata = {
-  title: "AI Models | AI Model Directory",
+  title: "All AI Models",
   description:
     "Search and compare AI model pricing, limits, modalities, features, and provider metadata.",
 };

@@ -51,7 +51,7 @@ export async function generateMetadata({
 
   if (!docPath) {
     return {
-      title: "Docs | AI Model Directory",
+      title: "Docs",
       description: "Documentation for AI Model Directory.",
     };
   }

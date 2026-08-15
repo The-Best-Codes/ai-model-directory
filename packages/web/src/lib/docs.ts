@@ -3,7 +3,7 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const docsDirectory = path.join(process.cwd(), "src/docs");
-const defaultTitle = "Docs | AI Model Directory";
+const defaultTitle = "Docs";
 const defaultDescription = "Documentation for AI Model Directory.";
 
 type DocFrontmatter = {
@@ -57,7 +57,7 @@ export function getDocMetadata(docPath: string) {
 
   return {
     title: frontmatter.title
-      ? `${frontmatter.title} | AI Model Directory`
+      ? `${frontmatter.title} - Docs`
       : defaultTitle,
     description: frontmatter.description ?? defaultDescription,
   };
