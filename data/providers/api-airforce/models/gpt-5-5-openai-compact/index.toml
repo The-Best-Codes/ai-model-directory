@@ -1,6 +1,6 @@
 id = "gpt-5.5-openai-compact"
 name = "gpt-5.5-openai-compact"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.09
-input = 0.96
-output = 5.75
+cache_read = 0.26
+input = 2.74
+output = 16.42

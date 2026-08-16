@@ -1,6 +1,6 @@
 id = "eleven_flash_v2/text-to-speech"
 name = "eleven_flash_v2/text-to-speech"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 reasoning = false

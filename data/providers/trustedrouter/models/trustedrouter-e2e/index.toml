@@ -1,6 +1,6 @@
 id = "trustedrouter/e2e"
 name = "TrustedRouter E2E"
-open_weights = true
+open_weights = false
 
 [features]
 attachment = false
@@ -13,5 +13,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.03885
-output = 0.1764
+input = 0.025725
+output = 0.10269

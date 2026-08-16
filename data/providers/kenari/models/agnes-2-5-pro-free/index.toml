@@ -1,0 +1,18 @@
+id = "agnes-2-5-pro:free"
+name = "agnes-2-5-pro:free"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

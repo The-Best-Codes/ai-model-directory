@@ -1,6 +1,6 @@
 id = "gpt-5.6-luna-low-openai-compact"
 name = "gpt-5.6-luna-low-openai-compact"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 attachment = false
@@ -11,6 +11,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01
-input = 0.04
-output = 0.26
+cache_read = 0
+cache_write = 0.15
+input = 0.1
+output = 0.62

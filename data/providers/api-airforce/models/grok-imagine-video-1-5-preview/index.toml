@@ -1,6 +1,6 @@
 id = "grok-imagine-video-1.5-preview"
 name = "grok-imagine-video-1.5-preview"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 reasoning = false

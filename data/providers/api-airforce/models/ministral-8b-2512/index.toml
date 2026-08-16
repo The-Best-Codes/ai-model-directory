@@ -1,6 +1,6 @@
 id = "ministral-8b-2512"
 name = "ministral-8b-2512"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.02
-input = 0.2
-output = 0.2
+input = 0.15
+output = 0.15

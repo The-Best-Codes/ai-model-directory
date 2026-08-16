@@ -1,6 +1,6 @@
 id = "qwen3-coder-480b-a35b"
 name = "qwen3-coder-480b-a35b"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.22
-input = 3.26
-output = 13.03
+input = 1.5
+output = 7.5

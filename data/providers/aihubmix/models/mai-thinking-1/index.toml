@@ -1,0 +1,18 @@
+id = "mai-thinking-1"
+name = "mai-thinking-1"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 2
+output = 8

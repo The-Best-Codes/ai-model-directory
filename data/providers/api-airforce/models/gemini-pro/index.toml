@@ -1,6 +1,6 @@
 id = "gemini-pro"
 name = "gemini-pro"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 attachment = false
@@ -9,7 +9,3 @@ reasoning = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 1.16
-output = 9.28

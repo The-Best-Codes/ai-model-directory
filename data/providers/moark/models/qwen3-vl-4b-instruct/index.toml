@@ -1,5 +1,5 @@
 id = "Qwen3-VL-4B-Instruct"
-last_updated = "1760513017"
+last_updated = "1786809584"
 name = "Qwen3-VL-4B-Instruct"
 release_date = "1760512469"
 
@@ -15,5 +15,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.0259488915
-output = 0.103795566
+input = 0.0259553245
+output = 0.103821298

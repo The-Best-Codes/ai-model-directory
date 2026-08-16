@@ -1,6 +1,6 @@
 id = "doubao-seed-2-0-mini-260215"
 name = "doubao-seed-2-0-mini-260215"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01
-input = 0.05
-output = 0.56
+cache_read = 0.03
+input = 0.03
+output = 0.3

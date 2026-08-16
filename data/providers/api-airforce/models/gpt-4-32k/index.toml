@@ -1,6 +1,6 @@
 id = "gpt-4-32k"
 name = "gpt-4-32k"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 7.8
-input = 78
-output = 156
+input = 60
+output = 120

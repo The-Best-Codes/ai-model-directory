@@ -1,0 +1,16 @@
+id = "accounts/fireworks/models/qwen3p8-max"
+name = "Qwen 3.8 Max"
+open_weights = true
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 2
+output = 6

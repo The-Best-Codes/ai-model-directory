@@ -1,6 +1,6 @@
 id = "netease-youdao/bce-reranker-base_v1"
 name = "netease-youdao/bce-reranker-base_v1"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 attachment = false

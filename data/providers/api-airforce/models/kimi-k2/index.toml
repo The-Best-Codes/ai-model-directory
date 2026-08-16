@@ -1,16 +1,22 @@
 id = "kimi-k2"
+knowledge_cutoff = "1733011200"
 name = "kimi-k2"
-release_date = "1786757174"
+release_date = "1786844250"
 
 [features]
 attachment = false
 reasoning = false
+tool_call = true
+
+[limit]
+context = 131072
+output = 8192
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.09
-input = 0.58
-output = 3.05
+cache_read = 0.06
+input = 0.52
+output = 2.08

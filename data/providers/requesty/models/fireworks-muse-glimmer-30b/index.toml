@@ -1,0 +1,21 @@
+id = "fireworks/muse-glimmer-30b"
+name = "fireworks/muse-glimmer-30b"
+release_date = "1786826050"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+input = 0.35
+output = 1.5

@@ -1,0 +1,12 @@
+id = "qwen/qwen3.8-27b-free"
+name = "Qwen: Qwen3.8 27B (free)"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

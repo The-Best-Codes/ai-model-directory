@@ -1,5 +1,5 @@
 id = "Qwen3-30B-A3B-Instruct-2507"
-last_updated = "1754033509"
+last_updated = "1786809584"
 name = "Qwen3-30B-A3B-Instruct-2507"
 release_date = "1754033369"
 
@@ -14,5 +14,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.103795566
-output = 0.415182264
+input = 0.103821298
+output = 0.415285192

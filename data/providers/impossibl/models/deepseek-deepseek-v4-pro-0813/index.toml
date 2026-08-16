@@ -1,0 +1,14 @@
+id = "deepseek/deepseek-v4-pro-0813"
+name = "DeepSeek V4 Pro 0813"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.145
+input = 1.74
+output = 3.48

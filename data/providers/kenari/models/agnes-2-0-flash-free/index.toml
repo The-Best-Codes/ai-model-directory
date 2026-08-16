@@ -1,0 +1,18 @@
+id = "agnes-2-0-flash:free"
+name = "agnes-2-0-flash:free"
+
+[features]
+attachment = false
+
+[limit]
+context = 255976
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0
