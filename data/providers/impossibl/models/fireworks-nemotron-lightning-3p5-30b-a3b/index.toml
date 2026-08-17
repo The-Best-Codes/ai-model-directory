@@ -1,0 +1,14 @@
+id = "fireworks/nemotron-lightning-3p5-30b-a3b"
+name = "Nemotron Lightning 3.5 30B A3B"
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.05
+output = 0.2

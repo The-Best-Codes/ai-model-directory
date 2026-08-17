@@ -6,7 +6,7 @@ release_date = "1785637554"
 reasoning = true
 
 [limit]
-context = 1048576
+context = 1000000
 output = 384000
 
 [modalities]
@@ -14,7 +14,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.032664
+cache_read = 0.04
 cache_write = 0
-input = 0.152432
-output = 0.304864
+input = 0.2
+output = 0.4

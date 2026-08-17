@@ -1,6 +1,6 @@
 id = "qwen3-8b"
 name = "qwen3-8b"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 attachment = false
@@ -13,4 +13,4 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.01
 input = 0.07
-output = 0.29
+output = 0.24

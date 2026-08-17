@@ -1,6 +1,6 @@
 id = "deepseek-r1-distill-qwen-32b"
 name = "deepseek-r1-distill-qwen-32b"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 attachment = false

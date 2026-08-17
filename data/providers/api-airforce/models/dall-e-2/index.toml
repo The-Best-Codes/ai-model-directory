@@ -1,6 +1,6 @@
 id = "dall-e-2"
 name = "dall-e-2"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 attachment = false

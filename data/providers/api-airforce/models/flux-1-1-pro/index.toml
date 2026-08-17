@@ -1,6 +1,6 @@
 id = "flux-1.1-pro"
 name = "flux-1.1-pro"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 1.72
-input = 270
+input = 549
 output = 0.02

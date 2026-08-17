@@ -1,0 +1,12 @@
+id = "qwen/qwen3-reranker-8b"
+name = "Qwen3 Reranker 8B"
+release_date = "1786903888"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]

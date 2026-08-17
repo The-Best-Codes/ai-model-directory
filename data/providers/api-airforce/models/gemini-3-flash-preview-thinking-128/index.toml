@@ -1,6 +1,6 @@
 id = "gemini-3-flash-preview-thinking-128"
 name = "gemini-3-flash-preview-thinking-128"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 attachment = false

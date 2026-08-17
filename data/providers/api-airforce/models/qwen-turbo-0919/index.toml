@@ -1,6 +1,6 @@
 id = "qwen-turbo-0919"
 name = "qwen-turbo-0919"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 attachment = false

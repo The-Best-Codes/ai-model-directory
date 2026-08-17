@@ -1,10 +1,10 @@
 id = "eleven_ttv_v3/voice-design"
 name = "eleven_ttv_v3/voice-design"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 11.37
-input = 113.69
+input = 120.45

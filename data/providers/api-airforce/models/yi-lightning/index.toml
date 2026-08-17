@@ -1,6 +1,6 @@
 id = "yi-lightning"
 name = "yi-lightning"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "kling-motion-control"
 name = "kling-motion-control"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 reasoning = false

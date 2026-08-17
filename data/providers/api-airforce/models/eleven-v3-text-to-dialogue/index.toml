@@ -1,10 +1,10 @@
 id = "eleven_v3/text-to-dialogue"
 name = "eleven_v3/text-to-dialogue"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 21.45
-input = 214.5
+input = 165

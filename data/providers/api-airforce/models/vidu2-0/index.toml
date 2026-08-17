@@ -1,11 +1,11 @@
 id = "vidu2.0"
 name = "vidu2.0"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 0.21
-input = 2.08
+input = 29.28
 output = 3.42

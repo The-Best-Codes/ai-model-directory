@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v4-pro"
-name = "DeepSeek: DeepSeek V4 Pro"
+name = "DeepSeek: DeepSeek V4 Pro 0423"
 release_date = "1777000679"
 
 [features]
@@ -11,13 +11,13 @@ tool_call = true
 
 [limit]
 context = 1048576
-output = 393216
+output = 384000
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.09855
-input = 1.168
-output = 2.336
+cache_read = 0.044
+input = 1.32
+output = 3.96

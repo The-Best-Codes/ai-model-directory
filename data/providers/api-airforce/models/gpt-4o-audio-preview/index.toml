@@ -1,11 +1,11 @@
 id = "gpt-4o-audio-preview"
 name = "gpt-4o-audio-preview"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 0.32
-input = 3.25
-output = 13
+input = 2.5
+output = 10

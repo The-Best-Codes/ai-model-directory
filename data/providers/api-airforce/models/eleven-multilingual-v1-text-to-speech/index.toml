@@ -1,10 +1,10 @@
 id = "eleven_multilingual_v1/text-to-speech"
 name = "eleven_multilingual_v1/text-to-speech"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 reasoning = false
 
 [pricing]
 cache_read = 11.37
-input = 113.69
+input = 120.45

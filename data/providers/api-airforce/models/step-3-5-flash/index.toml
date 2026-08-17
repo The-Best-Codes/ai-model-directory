@@ -1,7 +1,7 @@
 id = "step-3.5-flash"
 knowledge_cutoff = "1746057600"
 name = "step-3.5-flash"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 attachment = false

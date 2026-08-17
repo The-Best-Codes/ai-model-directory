@@ -1,6 +1,6 @@
 id = "gpt-5.3-codex-spark"
 name = "gpt-5.3-codex-spark"
-release_date = "1786844250"
+release_date = "1786930502"
 
 [features]
 attachment = false
