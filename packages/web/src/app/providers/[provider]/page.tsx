@@ -9,7 +9,7 @@ import { ModelTable } from "#/components/model-table";
 import { loadDirectoryData } from "#/directory-data";
 import { getProviderSeo } from "#/provider-seo";
 
-export const revalidate = 3600;
+export const dynamicParams = false;
 
 type PageProps = {
   params: Promise<{ provider: string }>;

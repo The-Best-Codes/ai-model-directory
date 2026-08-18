@@ -9,8 +9,6 @@ export const metadata: Metadata = {
     "Search and compare AI model pricing, limits, modalities, features, and provider metadata.",
 };
 
-export const revalidate = 3600;
-
 export default async function Page() {
   const directory = await loadDirectoryData();
 
