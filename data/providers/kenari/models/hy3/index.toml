@@ -1,0 +1,19 @@
+id = "hy3"
+name = "hy3"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01517296995
+input = 0.1517296995
+output = 0.618158035

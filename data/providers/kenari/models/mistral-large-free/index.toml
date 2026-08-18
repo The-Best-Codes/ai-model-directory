@@ -1,0 +1,20 @@
+id = "mistral-large:free"
+name = "mistral-large:free"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

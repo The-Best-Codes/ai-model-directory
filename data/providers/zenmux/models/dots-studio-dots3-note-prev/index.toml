@@ -1,0 +1,19 @@
+id = "dots-studio/dots3-note-prev"
+name = "Dots Studio: Dots3-Note Preview (Free)"
+release_date = "1786962877"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 393100
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

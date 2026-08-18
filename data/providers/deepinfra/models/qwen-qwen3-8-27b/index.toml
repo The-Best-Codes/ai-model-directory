@@ -1,0 +1,15 @@
+id = "Qwen/Qwen3.8-27B"
+name = "Qwen/Qwen3.8-27B"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.04000000000000001
+input = 0.4
+output = 2.9999999999999996

@@ -1,0 +1,17 @@
+id = "qwen3.8"
+name = "qwen3.8"
+open_weights = true
+release_date = "1786665600"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 463176.04
+output = 3473820.3

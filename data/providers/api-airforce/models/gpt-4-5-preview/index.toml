@@ -1,6 +1,6 @@
 id = "gpt-4.5-preview"
 name = "gpt-4.5-preview"
-release_date = "1786930502"
+release_date = "1787016269"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 9.75
-input = 97.5
-output = 195
+input = 75
+output = 150

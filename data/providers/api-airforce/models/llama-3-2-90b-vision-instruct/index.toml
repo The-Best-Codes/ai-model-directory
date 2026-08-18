@@ -1,6 +1,6 @@
 id = "llama-3.2-90b-vision-instruct"
 name = "llama-3.2-90b-vision-instruct"
-release_date = "1786930502"
+release_date = "1787016269"
 
 [features]
 attachment = false

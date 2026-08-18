@@ -1,6 +1,6 @@
 id = "gemini-2.5-flash-native-audio-preview-12-2025"
 name = "gemini-2.5-flash-native-audio-preview-12-2025"
-release_date = "1786930502"
+release_date = "1787016269"
 
 [features]
 reasoning = true

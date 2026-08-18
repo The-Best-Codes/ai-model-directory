@@ -1,7 +1,7 @@
 id = "glm-4.5-air"
 knowledge_cutoff = "1725148800"
 name = "glm-4.5-air"
-release_date = "1786930502"
+release_date = "1787016269"
 
 [features]
 attachment = false
@@ -19,4 +19,4 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.02
 input = 0.2
-output = 1.1
+output = 1.33

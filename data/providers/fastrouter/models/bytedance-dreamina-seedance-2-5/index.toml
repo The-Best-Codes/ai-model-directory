@@ -1,0 +1,18 @@
+id = "bytedance/dreamina-seedance-2-5"
+name = "ByteDance: Seedance 2.5"
+release_date = "1785801600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

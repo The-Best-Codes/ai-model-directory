@@ -1,0 +1,9 @@
+id = "kokoro-tts"
+name = "kokoro-tts"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

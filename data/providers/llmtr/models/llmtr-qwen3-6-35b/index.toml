@@ -4,9 +4,10 @@ release_date = "1776880304"
 
 [features]
 attachment = false
+tool_call = true
 
 [limit]
-context = 16384
+context = 262144
 
 [modalities]
 input = [ "text" ]

@@ -1,6 +1,6 @@
 id = "deepseek-v3-250324"
 name = "deepseek-v3-250324"
-release_date = "1786930502"
+release_date = "1787016269"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.04
-input = 0.3
-output = 0.3
+input = 0.66
+output = 2.61

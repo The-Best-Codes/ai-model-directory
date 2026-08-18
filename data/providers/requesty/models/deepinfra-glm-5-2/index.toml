@@ -1,0 +1,21 @@
+id = "deepinfra/glm-5.2"
+name = "deepinfra/glm-5.2"
+release_date = "1786976786"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.14
+input = 0.75
+output = 2.4

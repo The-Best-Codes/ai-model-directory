@@ -4,16 +4,16 @@ name = "glm-5-2"
 [features]
 attachment = false
 reasoning = true
-tool_call = true
+tool_call = false
 
 [limit]
-context = 1048576
+context = 128000
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.224022608
-input = 0.56005652
-output = 3.696373032
+cache_read = 0.22478474
+input = 0.56196185
+output = 3.70894821

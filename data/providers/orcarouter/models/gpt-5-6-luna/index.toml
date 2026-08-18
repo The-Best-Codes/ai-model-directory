@@ -1,5 +1,16 @@
 id = "gpt-5.6-luna"
 
+[features]
+attachment = true
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
 [pricing]
 input = 0.2
 output = 1.6

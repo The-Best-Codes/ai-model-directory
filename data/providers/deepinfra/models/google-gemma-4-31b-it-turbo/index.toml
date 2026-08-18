@@ -2,7 +2,7 @@ id = "google/gemma-4-31B-it-turbo"
 name = "google/gemma-4-31B-it-turbo"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 
 [limit]
