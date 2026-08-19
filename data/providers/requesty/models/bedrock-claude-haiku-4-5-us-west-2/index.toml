@@ -1,6 +1,6 @@
 id = "bedrock/claude-haiku-4-5@us-west-2"
 name = "bedrock/claude-haiku-4-5@us-west-2"
-release_date = "1761216302"
+release_date = "1760547638"
 
 [features]
 attachment = true

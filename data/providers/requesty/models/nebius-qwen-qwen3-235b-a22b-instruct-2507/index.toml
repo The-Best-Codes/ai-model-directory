@@ -1,6 +1,6 @@
 id = "nebius/qwen/qwen3-235b-a22b-instruct-2507"
 name = "nebius/qwen/qwen3-235b-a22b-instruct-2507"
-release_date = "1781598853"
+release_date = "1753119555"
 
 [features]
 attachment = false

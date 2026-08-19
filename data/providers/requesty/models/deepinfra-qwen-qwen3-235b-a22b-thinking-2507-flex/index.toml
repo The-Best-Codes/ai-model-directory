@@ -1,6 +1,6 @@
 id = "deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507:flex"
 name = "deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507:flex"
-release_date = "1786718136"
+release_date = "1753449557"
 
 [features]
 attachment = false

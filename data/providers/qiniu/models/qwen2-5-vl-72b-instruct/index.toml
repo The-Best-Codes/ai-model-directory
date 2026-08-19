@@ -1,5 +1,5 @@
 id = "qwen2.5-vl-72b-instruct"
-name = "Qwen 2.5 VL 72B Instruct"
+name = "Qwen-2.5-VL-72B-Instruct"
 
 [features]
 attachment = true

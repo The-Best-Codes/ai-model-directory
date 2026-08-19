@@ -1,6 +1,6 @@
 id = "deepinfra/zai-org/GLM-5.1:flex"
 name = "deepinfra/zai-org/GLM-5.1:flex"
-release_date = "1786718136"
+release_date = "1775578025"
 
 [features]
 attachment = false

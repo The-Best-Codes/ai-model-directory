@@ -1,5 +1,5 @@
 id = "tencent/hy3-preview"
-name = "Tencent/Hy3 Preview"
+name = "Hy3-Preview"
 
 [features]
 reasoning = true

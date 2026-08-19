@@ -1,6 +1,6 @@
 id = "fireworks/deepseek-v4-pro-0813"
 name = "fireworks/deepseek-v4-pro-0813"
-release_date = "1786826050"
+release_date = "1786549364"
 
 [features]
 attachment = false

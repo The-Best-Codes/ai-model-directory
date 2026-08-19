@@ -1,0 +1,22 @@
+id = "openai/tts-1-hd"
+name = "OpenAI: TTS-1 HD"
+release_date = "1699228800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 30
+output = 0

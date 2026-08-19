@@ -1,6 +1,6 @@
 id = "bedrock/minimax-m2.5@us-east-2"
 name = "bedrock/minimax-m2.5@us-east-2"
-release_date = "1780206133"
+release_date = "1770908502"
 
 [features]
 attachment = false

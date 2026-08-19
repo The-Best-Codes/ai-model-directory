@@ -1,0 +1,14 @@
+id = "seedance-2.5"
+last_updated = "1787044178"
+name = "seedance-2.5"
+release_date = "1784268628"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]
+
+[pricing]
+output = 11.41899297

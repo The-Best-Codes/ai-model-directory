@@ -1,5 +1,5 @@
 id = "minimax/minimax-m2.5-highspeed"
-name = "Minimax/Minimax-M2.5 Highspeed"
+name = "MiniMax-M2.5-Highspeed"
 
 [features]
 reasoning = false

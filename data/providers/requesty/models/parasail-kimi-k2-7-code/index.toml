@@ -1,6 +1,6 @@
 id = "parasail/kimi-k2.7-code"
 name = "parasail/kimi-k2.7-code"
-release_date = "1781381767"
+release_date = "1781266361"
 
 [features]
 attachment = true

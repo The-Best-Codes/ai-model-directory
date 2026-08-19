@@ -1,5 +1,5 @@
 id = "doubao-1.5-pro-32k"
-name = "Doubao 1.5 Pro 32k"
+name = "Doubao-1.5-Pro-32k"
 
 [features]
 reasoning = false

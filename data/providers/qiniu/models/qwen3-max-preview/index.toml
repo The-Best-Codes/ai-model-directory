@@ -1,5 +1,5 @@
 id = "qwen3-max-preview"
-name = "Qwen3 Max Preview"
+name = "Qwen3-Max-Preview"
 
 [features]
 reasoning = true

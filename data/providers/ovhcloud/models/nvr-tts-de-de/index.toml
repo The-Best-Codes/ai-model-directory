@@ -1,0 +1,9 @@
+id = "nvr-tts-de-de"
+name = "nvr-tts-de-de"
+release_date = "1729515876"
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

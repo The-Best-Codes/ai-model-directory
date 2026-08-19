@@ -1,6 +1,6 @@
 id = "gpt-5.6-sol-ultra"
 name = "gpt-5.6-sol-ultra"
-release_date = "1787016269"
+release_date = "1787102803"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "bedrock/gpt-5.5@us-east-1"
 name = "bedrock/gpt-5.5@us-east-1"
-release_date = "1781625697"
+release_date = "1777051893"
 
 [features]
 attachment = true

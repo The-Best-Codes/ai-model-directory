@@ -1,6 +1,6 @@
 id = "bedrock/claude-sonnet-4-6"
 name = "bedrock/claude-sonnet-4-6"
-release_date = "1771498893"
+release_date = "1771342990"
 
 [features]
 attachment = true

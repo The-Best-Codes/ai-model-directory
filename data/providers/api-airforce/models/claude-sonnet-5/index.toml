@@ -1,6 +1,6 @@
 id = "claude-sonnet-5"
 name = "claude-sonnet-5"
-release_date = "1787016269"
+release_date = "1787102803"
 
 [features]
 attachment = true

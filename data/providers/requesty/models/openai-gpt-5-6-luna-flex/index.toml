@@ -1,6 +1,6 @@
 id = "openai/gpt-5.6-luna:flex"
 name = "openai/gpt-5.6-luna:flex"
-release_date = "1786718136"
+release_date = "1783590864"
 
 [features]
 attachment = true

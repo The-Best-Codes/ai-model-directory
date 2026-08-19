@@ -1,5 +1,5 @@
 id = "meituan/longcat-flash-lite"
-name = "Meituan/Longcat-Flash-Lite"
+name = "Longcat-Flash-Lite"
 
 [features]
 reasoning = true

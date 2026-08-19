@@ -1,6 +1,6 @@
 id = "deepinfra/google/gemma-4-31B-it:flex"
 name = "deepinfra/google/gemma-4-31B-it:flex"
-release_date = "1786718136"
+release_date = "1775148486"
 
 [features]
 attachment = true

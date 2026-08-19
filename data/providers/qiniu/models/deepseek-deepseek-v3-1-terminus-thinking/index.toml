@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v3.1-terminus-thinking"
-name = "DeepSeek/DeepSeek-V3.1-Terminus-Thinking"
+name = "DeepSeek-V3.1-Terminus-Thinking"
 
 [features]
 reasoning = true

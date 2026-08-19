@@ -1,5 +1,5 @@
 id = "qwen/qwen3.5-plus"
-name = "Qwen/Qwen3.5-Plus"
+name = "Qwen3.5-Plus"
 
 [features]
 attachment = true

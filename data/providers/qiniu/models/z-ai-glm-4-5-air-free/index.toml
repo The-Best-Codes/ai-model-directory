@@ -1,5 +1,5 @@
 id = "z-ai/glm-4.5-air-free"
-name = "GLM 4.5 Air (free)"
+name = "GLM-4.5-air-Free"
 
 [features]
 reasoning = false

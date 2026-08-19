@@ -1,5 +1,5 @@
 id = "bytedance/doubao-seed-2-1-turbo"
-name = "Doubao Seed 2.1 turbo"
+name = "Doubao-Seed-2.1-turbo"
 
 [features]
 attachment = true

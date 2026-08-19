@@ -1,6 +1,6 @@
 id = "gpt-4.5-preview-2025-02-27"
 name = "gpt-4.5-preview-2025-02-27"
-release_date = "1787016269"
+release_date = "1787102803"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "openai/gpt-5.4-nano:flex"
 name = "openai/gpt-5.4-nano:flex"
-release_date = "1786718136"
+release_date = "1773748187"
 
 [features]
 attachment = true

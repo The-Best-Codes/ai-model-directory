@@ -1,6 +1,6 @@
 id = "deepinfra/glm-5.2:flex"
 name = "deepinfra/glm-5.2:flex"
-release_date = "1786976786"
+release_date = "1781631930"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "bedrock/kimi-k2.5@us-east-1"
 name = "bedrock/kimi-k2.5@us-east-1"
-release_date = "1774966161"
+release_date = "1769487076"
 
 [features]
 attachment = true

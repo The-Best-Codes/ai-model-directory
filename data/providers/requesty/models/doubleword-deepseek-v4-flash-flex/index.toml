@@ -1,6 +1,6 @@
 id = "doubleword/deepseek-v4-flash:flex"
 name = "doubleword/deepseek-v4-flash:flex"
-release_date = "1782230303"
+release_date = "1777000666"
 
 [features]
 attachment = false

@@ -2,11 +2,8 @@ id = "glm-5.1"
 name = "GLM-5.1"
 release_date = "1780587255"
 
-[features]
-reasoning = true
-
 [limit]
-context = 202800
+context = 202750
 output = 3276
 
 [modalities]
@@ -14,7 +11,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.283088
-cache_write = 0
-input = 1.52432
-output = 4.79072
+cache_read = 0
+cache_write = 0.68
+input = 1.36
+output = 4.4

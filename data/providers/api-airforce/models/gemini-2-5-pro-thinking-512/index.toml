@@ -1,6 +1,6 @@
 id = "gemini-2.5-pro-thinking-512"
 name = "gemini-2.5-pro-thinking-512"
-release_date = "1787016269"
+release_date = "1787102803"
 
 [features]
 attachment = false

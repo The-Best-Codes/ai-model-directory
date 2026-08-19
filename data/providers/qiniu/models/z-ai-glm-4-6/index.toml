@@ -1,5 +1,5 @@
 id = "z-ai/glm-4.6"
-name = "Z-AI/GLM 4.6"
+name = "GLM-4.6"
 
 [features]
 reasoning = true

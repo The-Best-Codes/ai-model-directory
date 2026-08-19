@@ -1,6 +1,6 @@
 id = "deepinfra/qwen3.8"
 name = "deepinfra/qwen3.8"
-release_date = "1786976786"
+release_date = "1786551702"
 
 [features]
 attachment = false

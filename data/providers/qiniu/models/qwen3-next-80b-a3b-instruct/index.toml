@@ -1,5 +1,5 @@
 id = "qwen3-next-80b-a3b-instruct"
-name = "Qwen3 Next 80B A3B Instruct"
+name = "Qwen3-Next-80B-A3B-Instruct"
 
 [features]
 reasoning = false

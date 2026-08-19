@@ -1,5 +1,5 @@
 id = "qwen-vl-max-2025-01-25"
-name = "Qwen VL-MAX-2025-01-25"
+name = "Qwen-VL-MAX-2025-01-25"
 
 [features]
 attachment = true

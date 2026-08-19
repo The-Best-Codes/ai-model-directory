@@ -1,6 +1,6 @@
 id = "tensorx/deepseek-v4-flash-0731"
 name = "tensorx/deepseek-v4-flash-0731"
-release_date = "1786011675"
+release_date = "1785478908"
 
 [features]
 attachment = false

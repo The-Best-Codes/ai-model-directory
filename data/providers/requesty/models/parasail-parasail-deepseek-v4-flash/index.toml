@@ -1,6 +1,6 @@
 id = "parasail/parasail-deepseek-v4-flash"
 name = "parasail/parasail-deepseek-v4-flash"
-release_date = "1781381768"
+release_date = "1777000666"
 
 [features]
 attachment = false

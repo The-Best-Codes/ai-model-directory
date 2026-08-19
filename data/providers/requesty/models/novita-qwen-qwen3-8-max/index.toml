@@ -1,6 +1,6 @@
 id = "novita/qwen/qwen3.8-max"
 name = "novita/qwen/qwen3.8-max"
-release_date = "1785765447"
+release_date = "1785731612"
 
 [features]
 attachment = true

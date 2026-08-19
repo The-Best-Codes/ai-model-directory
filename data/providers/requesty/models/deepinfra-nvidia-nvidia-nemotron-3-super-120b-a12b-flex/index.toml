@@ -1,6 +1,6 @@
 id = "deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B:flex"
 name = "deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B:flex"
-release_date = "1786718136"
+release_date = "1773245239"
 
 [features]
 attachment = false

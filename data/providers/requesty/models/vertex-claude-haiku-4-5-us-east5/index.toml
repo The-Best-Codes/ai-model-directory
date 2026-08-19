@@ -1,6 +1,6 @@
 id = "vertex/claude-haiku-4-5@us-east5"
 name = "vertex/claude-haiku-4-5@us-east5"
-release_date = "1747933971"
+release_date = "1760547638"
 
 [features]
 attachment = true

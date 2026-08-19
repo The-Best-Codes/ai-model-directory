@@ -1,6 +1,6 @@
 id = "doubleword/deepseek-v4-pro"
 name = "doubleword/deepseek-v4-pro"
-release_date = "1782230297"
+release_date = "1777000679"
 
 [features]
 attachment = false

@@ -1,6 +1,6 @@
 id = "nvidia/muse-glimmer-30b"
 name = "nvidia/muse-glimmer-30b"
-release_date = "1786471840"
+release_date = "1786302394"
 
 [features]
 attachment = true

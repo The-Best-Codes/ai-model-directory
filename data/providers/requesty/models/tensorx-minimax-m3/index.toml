@@ -1,6 +1,6 @@
 id = "tensorx/minimax-m3"
 name = "tensorx/minimax-m3"
-release_date = "1784122168"
+release_date = "1780245374"
 
 [features]
 attachment = true

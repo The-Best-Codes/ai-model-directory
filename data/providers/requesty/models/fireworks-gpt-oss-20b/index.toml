@@ -1,6 +1,6 @@
 id = "fireworks/gpt-oss-20b"
 name = "fireworks/gpt-oss-20b"
-release_date = "1779870794"
+release_date = "1754414229"
 
 [features]
 attachment = false

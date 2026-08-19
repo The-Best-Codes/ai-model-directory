@@ -1,6 +1,6 @@
 id = "nebius/glm-5.2"
 name = "nebius/glm-5.2"
-release_date = "1781645757"
+release_date = "1781631930"
 
 [features]
 attachment = false

@@ -1,0 +1,17 @@
+id = "meta/llama-3.3-70b-instruct-12k"
+name = "Llama 3.3 70B Instruct (12K)"
+release_date = "1787068792"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 12288
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.135
+output = 0.4

@@ -1,0 +1,20 @@
+id = "gemini-3-1-pro"
+name = "gemini-3-1-pro"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2353614648
+cache_write = 0.4370998632
+input = 2.353614648
+output = 14.009611

@@ -1,6 +1,6 @@
 id = "nebius/qwen/qwen3-next-80b-a3b-thinking"
 name = "nebius/qwen/qwen3-next-80b-a3b-thinking"
-release_date = "1781598864"
+release_date = "1757612284"
 
 [features]
 attachment = false

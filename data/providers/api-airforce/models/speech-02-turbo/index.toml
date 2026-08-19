@@ -1,6 +1,6 @@
 id = "speech-02-turbo"
 name = "speech-02-turbo"
-release_date = "1787016269"
+release_date = "1787102803"
 
 [features]
 reasoning = false

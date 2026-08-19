@@ -1,6 +1,6 @@
 id = "google/gemini-3.5-flash:flex"
 name = "google/gemini-3.5-flash:flex"
-release_date = "1786718136"
+release_date = "1779193800"
 
 [features]
 attachment = true

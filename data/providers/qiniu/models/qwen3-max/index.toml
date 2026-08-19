@@ -1,5 +1,5 @@
 id = "qwen3-max"
-name = "Qwen3 Max"
+name = "Qwen3-Max"
 
 [features]
 reasoning = true

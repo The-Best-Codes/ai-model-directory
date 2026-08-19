@@ -1,6 +1,6 @@
 id = "deepinfra/XiaomiMiMo/MiMo-V2.5:flex"
 name = "deepinfra/XiaomiMiMo/MiMo-V2.5:flex"
-release_date = "1786718136"
+release_date = "1776874269"
 
 [features]
 attachment = true

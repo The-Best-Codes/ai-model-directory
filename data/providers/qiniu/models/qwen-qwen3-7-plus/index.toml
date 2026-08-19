@@ -1,0 +1,22 @@
+id = "qwen/qwen3.7-plus"
+name = "Qwen3.7-Plus"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "audio", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05797
+cache_write = 0.36232000000000003
+input = 0.28986
+output = 1.15942

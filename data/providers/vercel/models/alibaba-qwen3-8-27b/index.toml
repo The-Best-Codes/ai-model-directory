@@ -14,3 +14,8 @@ output = 262133
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.1
+output = 0.4

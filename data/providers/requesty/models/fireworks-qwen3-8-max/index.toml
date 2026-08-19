@@ -1,6 +1,6 @@
 id = "fireworks/qwen3.8-max"
 name = "fireworks/qwen3.8-max"
-release_date = "1786826050"
+release_date = "1785731612"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "google/gemini-3-pro-image"
 name = "google/gemini-3-pro-image"
-release_date = "1786474984"
+release_date = "1781754054"
 
 [features]
 attachment = true

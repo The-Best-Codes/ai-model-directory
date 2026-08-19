@@ -1,6 +1,6 @@
 id = "fireworks/glm-5.2"
 name = "fireworks/glm-5.2"
-release_date = "1781645882"
+release_date = "1781631930"
 
 [features]
 attachment = false
