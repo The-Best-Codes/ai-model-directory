@@ -7,7 +7,7 @@ The AI model directory is the most comprehensive, automatically updated list of 
 
 ## Why Does This Exist?
 
-When building [AgentOne](https://www.agent-one.dev), I needed a comprehensive list of AI models and their metadata - costs, context windows, supported features, etc. - so AgentOne could allow easy access to _all_ models an AI model provider had.
+When building [AgentOne](https://www.agent-one.dev/github), I needed a comprehensive list of AI models and their metadata - costs, context windows, supported features, etc. - so AgentOne could allow easy access to _all_ models an AI model provider had.
 I was frustrated with the existing options:
 
 - Models.dev is not comprehensive (it's opinionated), and it often takes anywhere from a few days to weeks for frontier models to be added across all providers
