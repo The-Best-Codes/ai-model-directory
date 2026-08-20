@@ -1,0 +1,17 @@
+id = "x-ai/grok4.6"
+name = "Grok 4.6"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.11
+output = 6.33

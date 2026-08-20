@@ -3,13 +3,13 @@ name = "GLM 5.2 Fast on Fireworks"
 open_weights = true
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
 context = 1048576
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

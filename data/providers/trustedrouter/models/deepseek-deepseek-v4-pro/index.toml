@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v4-pro"
-name = "DeepSeek: DeepSeek V4 Pro"
+name = "DeepSeek: DeepSeek V4 Pro 0423"
 open_weights = true
 
 [features]
@@ -13,5 +13,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.367139
-output = 0.734279
+input = 0.55071
+output = 1.10142

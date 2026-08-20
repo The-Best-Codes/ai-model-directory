@@ -1,6 +1,6 @@
 id = "eleven_multilingual_v2/text-to-speech"
 name = "eleven_multilingual_v2/text-to-speech"
-release_date = "1787102803"
+release_date = "1787189214"
 
 [features]
 reasoning = false

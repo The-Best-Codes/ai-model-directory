@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3.5-lightning-30b-a3b-bf16"
+name = "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15825
+output = 1.055

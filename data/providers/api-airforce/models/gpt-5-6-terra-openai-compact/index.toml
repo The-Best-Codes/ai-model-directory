@@ -1,6 +1,6 @@
 id = "gpt-5.6-terra-openai-compact"
 name = "gpt-5.6-terra-openai-compact"
-release_date = "1787102803"
+release_date = "1787189214"
 
 [features]
 attachment = false
@@ -11,6 +11,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01
-input = 0.08
-output = 0.46
+cache_read = 0.14
+cache_write = 1
+input = 0.86
+output = 5.15

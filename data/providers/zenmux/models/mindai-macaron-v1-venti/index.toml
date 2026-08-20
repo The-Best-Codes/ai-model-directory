@@ -1,0 +1,19 @@
+id = "mindai/macaron-v1-venti"
+name = "Mind Lab: Macaron V1 Venti"
+release_date = "1787106368"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 1.5
+output = 4.5

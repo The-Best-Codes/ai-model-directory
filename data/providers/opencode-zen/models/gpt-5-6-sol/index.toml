@@ -1,7 +1,7 @@
 id = "gpt-5.6-sol"
 knowledge_cutoff = "1771200000"
 last_updated = "1783555200"
-name = "GPT-5.6 Sol"
+name = "GPT-5.6 Sol (50% Off)"
 open_weights = false
 release_date = "1783555200"
 
@@ -22,7 +22,7 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.5
-cache_write = 6.25
-input = 5
-output = 30
+cache_read = 0.25
+cache_write = 3.125
+input = 2.5
+output = 15

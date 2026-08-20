@@ -1,6 +1,6 @@
 id = "eleven_turbo_v2_5/text-to-speech"
 name = "eleven_turbo_v2_5/text-to-speech"
-release_date = "1787102803"
+release_date = "1787189214"
 
 [features]
 reasoning = false

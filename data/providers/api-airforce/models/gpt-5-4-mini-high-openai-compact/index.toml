@@ -1,6 +1,6 @@
 id = "gpt-5.4-mini-high-openai-compact"
 name = "gpt-5.4-mini-high-openai-compact"
-release_date = "1787102803"
+release_date = "1787189214"
 
 [features]
 attachment = false

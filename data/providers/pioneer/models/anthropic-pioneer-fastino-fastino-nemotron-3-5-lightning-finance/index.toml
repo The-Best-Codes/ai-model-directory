@@ -1,0 +1,21 @@
+id = "anthropic/pioneer/fastino/Fastino-Nemotron-3.5-Lightning-Finance"
+name = "Fastino Nemotron 3.5 Lightning Finance"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[limit]
+input = 8192
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+cache_write = 0.5
+input = 0.5
+output = 0.5

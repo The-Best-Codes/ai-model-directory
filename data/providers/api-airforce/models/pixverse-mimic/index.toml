@@ -1,6 +1,6 @@
 id = "pixverse-mimic"
 name = "pixverse-mimic"
-release_date = "1787102803"
+release_date = "1787189214"
 
 [features]
 reasoning = false

@@ -1,0 +1,17 @@
+id = "inclusionai/ling-3.0-flash-fast"
+name = "Ling 3.0 Flash Fast"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0633
+output = 0.1899

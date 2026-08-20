@@ -8,14 +8,14 @@ structured_output = false
 
 [limit]
 input = 204800
-output = 131072
+output = 131000
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.279
+cache_read = 0.06
 cache_write = 0.375
 input = 0.3
 output = 1.2

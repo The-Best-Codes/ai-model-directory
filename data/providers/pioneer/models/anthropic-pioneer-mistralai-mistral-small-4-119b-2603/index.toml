@@ -7,8 +7,8 @@ reasoning = false
 structured_output = false
 
 [limit]
-input = 262144
-output = 65536
+input = 32000
+output = 32000
 
 [modalities]
 input = [ "image", "text" ]
@@ -16,6 +16,6 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.1
-cache_write = 0.15
-input = 0.15
-output = 0.6
+cache_write = 0.1
+input = 0.1
+output = 0.3

@@ -1,0 +1,19 @@
+id = "mindai/macaron-v1-tall"
+name = "Mind Lab: Macaron V1 Tall"
+release_date = "1787113284"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+input = 0.45
+output = 2.6

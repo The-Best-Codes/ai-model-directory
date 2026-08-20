@@ -1,0 +1,11 @@
+id = "fish-audio/s1-free"
+name = "S1 (Free)"
+release_date = "1760918400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

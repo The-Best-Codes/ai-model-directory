@@ -1,6 +1,6 @@
 id = "gpt-realtime-mini"
 name = "gpt-realtime-mini"
-release_date = "1787102803"
+release_date = "1787189214"
 
 [features]
 attachment = false

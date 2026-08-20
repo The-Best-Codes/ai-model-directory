@@ -1,0 +1,11 @@
+id = "fish-audio/s2.1-pro-free"
+name = "S2.1 Pro (Free)"
+release_date = "1785196800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

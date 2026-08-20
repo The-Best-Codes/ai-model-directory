@@ -7,7 +7,7 @@ reasoning = false
 structured_output = false
 
 [limit]
-input = 202752
+input = 202000
 output = 131072
 
 [modalities]

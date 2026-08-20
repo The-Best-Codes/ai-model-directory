@@ -7,7 +7,7 @@ reasoning = false
 structured_output = false
 
 [limit]
-input = 1048576
+input = 1040000
 output = 128000
 
 [modalities]
@@ -15,7 +15,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 1.5
-cache_write = 1.5
-input = 1.5
-output = 4.5
+cache_read = 0.26
+cache_write = 1.4
+input = 1.4
+output = 4.4

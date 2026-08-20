@@ -2,7 +2,7 @@ id = "anthropic/pioneer/sakana/fugu-ultra"
 name = "Fugu Ultra"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 structured_output = false
 
@@ -11,7 +11,7 @@ input = 1000000
 output = 131072
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
