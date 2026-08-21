@@ -1,10 +1,6 @@
 id = "eleven_multilingual_ttv_v2/voice-design"
 name = "eleven_multilingual_ttv_v2/voice-design"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 11.37
 input = 120.45

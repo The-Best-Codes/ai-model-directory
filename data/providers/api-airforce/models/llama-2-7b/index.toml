@@ -1,6 +1,6 @@
 id = "llama-2-7b"
 name = "llama-2-7b"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.02
-input = 0.2
-output = 0.2
+input = 1.3
+output = 1.3

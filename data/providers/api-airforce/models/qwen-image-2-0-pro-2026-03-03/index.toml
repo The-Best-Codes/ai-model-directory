@@ -1,15 +1,13 @@
 id = "qwen-image-2.0-pro-2026-03-03"
 name = "qwen-image-2.0-pro-2026-03-03"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 1.38
 input = 13.75

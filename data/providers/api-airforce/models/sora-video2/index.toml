@@ -1,10 +1,6 @@
 id = "sora_video2"
 name = "sora_video2"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 28.89
 input = 288.89

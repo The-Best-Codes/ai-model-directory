@@ -1,10 +1,9 @@
 id = "nano-banana-2"
 name = "nano-banana-2"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = false
 
 [modalities]
 input = [ "text" ]

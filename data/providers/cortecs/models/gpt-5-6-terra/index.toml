@@ -11,6 +11,6 @@ tool_call = true
 context = 1050000
 
 [pricing]
-cache_read = 0.247
-input = 2.468
-output = 14.81
+cache_read = 0.197
+input = 1.975
+output = 11.848

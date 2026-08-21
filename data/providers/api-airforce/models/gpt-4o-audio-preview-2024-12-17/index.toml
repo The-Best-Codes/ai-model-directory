@@ -1,11 +1,7 @@
 id = "gpt-4o-audio-preview-2024-12-17"
 name = "gpt-4o-audio-preview-2024-12-17"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 0.17
 input = 1.83
 output = 7.3

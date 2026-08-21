@@ -1,0 +1,6 @@
+id = "spacexai/grok-imagine-video"
+name = "Grok Imagine"
+release_date = "1769558400"
+
+[modalities]
+output = [ "video" ]

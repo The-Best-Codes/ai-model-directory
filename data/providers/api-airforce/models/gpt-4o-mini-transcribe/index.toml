@@ -1,11 +1,7 @@
 id = "gpt-4o-mini-transcribe"
 name = "gpt-4o-mini-transcribe"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 0.02
 input = 0.45
 output = 1.86

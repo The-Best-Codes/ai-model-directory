@@ -5,7 +5,7 @@ name = "GLM 5.2"
 attachment = false
 
 [limit]
-context = 512000
+context = 1048575
 
 [modalities]
 input = [ "text" ]

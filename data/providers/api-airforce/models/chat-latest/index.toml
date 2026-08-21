@@ -1,6 +1,6 @@
 id = "chat-latest"
 name = "chat-latest"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.65
-input = 5
-output = 30
+input = 5.25
+output = 31.5

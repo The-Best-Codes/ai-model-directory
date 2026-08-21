@@ -1,16 +1,14 @@
 id = "wan2.7-image-pro"
 name = "wan2.7-image-pro"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 12.68
 input = 1189.5
 output = 126.76

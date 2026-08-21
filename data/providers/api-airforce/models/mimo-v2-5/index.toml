@@ -1,6 +1,6 @@
 id = "mimo-v2.5"
 name = "mimo-v2.5"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0
-input = 0.17
-output = 0.33
+input = 0.16
+output = 0.32

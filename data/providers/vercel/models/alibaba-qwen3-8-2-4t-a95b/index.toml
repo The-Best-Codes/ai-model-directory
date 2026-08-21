@@ -3,7 +3,7 @@ name = "Qwen3.8 2.4T A95B"
 release_date = "1785715200"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 262144
 output = 131072
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

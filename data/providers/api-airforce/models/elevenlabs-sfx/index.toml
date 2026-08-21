@@ -1,6 +1,3 @@
 id = "elevenlabs-sfx"
 name = "elevenlabs-sfx"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"

@@ -1,11 +1,7 @@
 id = "gpt-realtime"
 name = "gpt-realtime"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 0.53
 input = 4
 output = 16

@@ -1,6 +1,6 @@
 id = "doubao-1-5-ui-tars-250428"
 name = "doubao-1-5-ui-tars-250428"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.06
-input = 0.65
-output = 2.21
+input = 0.55
+output = 1.87

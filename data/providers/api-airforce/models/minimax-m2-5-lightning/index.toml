@@ -1,6 +1,6 @@
 id = "MiniMax-M2.5-lightning"
 name = "MiniMax-M2.5-lightning"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -13,4 +13,4 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.02
 input = 0.27
-output = 2.18
+output = 2.19

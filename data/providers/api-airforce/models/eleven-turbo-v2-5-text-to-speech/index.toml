@@ -1,10 +1,6 @@
 id = "eleven_turbo_v2_5/text-to-speech"
 name = "eleven_turbo_v2_5/text-to-speech"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 10.72
-input = 82.5
+input = 86.63

@@ -1,0 +1,14 @@
+id = "nvidia/nemotron-3.5-lightning"
+name = "Nemotron 3.5 Lightning"
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.05
+output = 0.2

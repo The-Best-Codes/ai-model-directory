@@ -1,6 +1,6 @@
 id = "o4-mini-deep-research"
 name = "o4-mini-deep-research"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.26
-input = 2
-output = 8
+input = 2.1
+output = 8.4

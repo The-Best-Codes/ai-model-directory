@@ -1,11 +1,7 @@
 id = "gemini-2.5-pro-preview-tts"
 name = "gemini-2.5-pro-preview-tts"
-release_date = "1787189214"
-
-[features]
-reasoning = true
+release_date = "1787276209"
 
 [pricing]
-cache_read = 0.06
 input = 0.64
 output = 12.82

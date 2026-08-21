@@ -1,6 +1,6 @@
 id = "glm-4-airx"
 name = "glm-4-airx"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-input = 0.02
-output = 0.07
+input = 0.58
+output = 0.62

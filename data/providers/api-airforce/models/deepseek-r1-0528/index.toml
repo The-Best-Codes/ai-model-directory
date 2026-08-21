@@ -1,0 +1,23 @@
+id = "deepseek-r1-0528"
+knowledge_cutoff = "1743379200"
+name = "deepseek-r1-0528"
+release_date = "1748455170"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 163840
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 1.14
+output = 3.96

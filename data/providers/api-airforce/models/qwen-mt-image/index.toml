@@ -1,16 +1,14 @@
 id = "qwen-mt-image"
 name = "qwen-mt-image"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.05
 input = 0.81
 output = 0.02

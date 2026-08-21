@@ -1,11 +1,7 @@
 id = "inkling"
 name = "inkling"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 0.48
-input = 1.87
-output = 4.68
+input = 1.96
+output = 4.91

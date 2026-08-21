@@ -1,0 +1,22 @@
+id = "mistralai/ministral-8b"
+knowledge_cutoff = "1727654400"
+name = "Mistral: Ministral 8B"
+release_date = "1729123200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.11
+output = 0.11

@@ -1,6 +1,6 @@
 id = "qwen3-max-preview"
 name = "qwen3-max-preview"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.06
-input = 0.8
-output = 3.56
+cache_read = 0.17
+input = 0.84
+output = 4.2

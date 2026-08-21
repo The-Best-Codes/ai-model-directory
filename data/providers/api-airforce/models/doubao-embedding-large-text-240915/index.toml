@@ -1,6 +1,6 @@
 id = "doubao-embedding-large-text-240915"
 name = "doubao-embedding-large-text-240915"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-input = 0.13
+input = 0.11
 output = 0.13

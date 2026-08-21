@@ -1,6 +1,6 @@
 id = "qwen-plus-2025-04-28"
 name = "qwen-plus-2025-04-28"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-input = 0.21
+input = 0.22
 output = 0.6

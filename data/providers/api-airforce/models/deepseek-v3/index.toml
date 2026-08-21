@@ -1,7 +1,7 @@
 id = "deepseek-v3"
 knowledge_cutoff = "1719792000"
 name = "deepseek-v3"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -18,5 +18,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.02
-input = 1.48
-output = 5.89
+input = 0.36
+output = 0.93

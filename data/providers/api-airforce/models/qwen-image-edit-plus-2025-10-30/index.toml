@@ -1,16 +1,14 @@
 id = "qwen-image-edit-plus-2025-10-30"
 name = "qwen-image-edit-plus-2025-10-30"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.46
 input = 7.58
 output = 0.02

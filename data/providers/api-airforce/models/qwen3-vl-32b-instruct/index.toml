@@ -1,16 +1,14 @@
 id = "qwen3-vl-32b-instruct"
 name = "qwen3-vl-32b-instruct"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.06
-input = 0.55
-output = 2.18
+input = 0.39
+output = 1.54

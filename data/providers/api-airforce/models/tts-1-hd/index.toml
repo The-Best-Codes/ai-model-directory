@@ -1,11 +1,7 @@
 id = "tts-1-hd"
 name = "tts-1-hd"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 0.01
 input = 0.06
 output = 3.96

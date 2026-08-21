@@ -1,6 +1,6 @@
 id = "qvq-max-latest"
 name = "qvq-max-latest"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.08
-input = 0.83
-output = 3.31
+input = 0.84
+output = 3.36

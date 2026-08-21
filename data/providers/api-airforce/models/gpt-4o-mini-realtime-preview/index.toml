@@ -1,6 +1,6 @@
 id = "gpt-4o-mini-realtime-preview"
 name = "gpt-4o-mini-realtime-preview"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.08
-input = 0.6
-output = 2.4
+input = 0.63
+output = 2.52

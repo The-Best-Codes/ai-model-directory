@@ -1,11 +1,7 @@
 id = "doubao-seedance-1-5-pro-251215"
 name = "doubao-seedance-1-5-pro-251215"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 312.02
 input = 29280
 output = 3120.17

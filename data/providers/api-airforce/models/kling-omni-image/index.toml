@@ -1,16 +1,14 @@
 id = "kling-omni-image"
 name = "kling-omni-image"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.22
 input = 31.11
 output = 2.21

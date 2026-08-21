@@ -1,15 +1,13 @@
 id = "gemini-3-pro-image"
 name = "gemini-3-pro-image"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 42.9
 input = 429

@@ -1,6 +1,6 @@
 id = "llama-3-8b"
 name = "llama-3-8b"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.03
-input = 0.29
-output = 0.29
+input = 1.95
+output = 1.95

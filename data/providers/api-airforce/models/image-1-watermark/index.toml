@@ -1,16 +1,14 @@
 id = "image-1-watermark"
 name = "image-1-watermark"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 1
 input = 18.3
 output = 18.3

@@ -4,7 +4,6 @@ release_date = "1768862569"
 
 [features]
 attachment = true
-reasoning = false
 structured_output = true
 tool_call = true
 
@@ -17,6 +16,5 @@ input = [ "audio", "text" ]
 output = [ "audio", "text" ]
 
 [pricing]
-cache_read = 0.05
 input = 1.65
 output = 3.3

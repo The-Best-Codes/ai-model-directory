@@ -1,0 +1,22 @@
+id = "tencent/hy-mt2-1.8b"
+name = "Tencent: Hy-MT2-1.8B"
+release_date = "1787231581"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 8192
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.044
+output = 0.177

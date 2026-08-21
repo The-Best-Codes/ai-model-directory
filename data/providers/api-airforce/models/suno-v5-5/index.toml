@@ -1,16 +1,14 @@
 id = "suno-v5.5"
 name = "suno-v5.5"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 1.5
 input = 27.45
 output = 27.45

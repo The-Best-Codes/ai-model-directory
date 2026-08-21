@@ -1,16 +1,14 @@
 id = "gpt-image-1.5"
 name = "gpt-image-1.5"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 1.63
-input = 5
+input = 5.25
 output = 13

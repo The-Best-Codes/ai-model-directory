@@ -1,11 +1,7 @@
 id = "veo_3_1-fast"
 name = "veo_3_1-fast"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 7.49
 input = 1054.08
 output = 74.88

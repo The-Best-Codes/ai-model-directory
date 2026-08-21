@@ -1,6 +1,6 @@
 id = "nai-diffusion-4-curated-preview"
 name = "nai-diffusion-4-curated-preview"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false

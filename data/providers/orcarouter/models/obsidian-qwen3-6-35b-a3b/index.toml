@@ -1,0 +1,16 @@
+id = "obsidian/Qwen3.6-35B-A3B"
+name = "Qwen3.6 35B A3B Uncensored (Aggressive)"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.31
+output = 4.21

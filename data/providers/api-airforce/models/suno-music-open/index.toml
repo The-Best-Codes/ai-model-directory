@@ -1,11 +1,7 @@
 id = "suno_music_open"
 name = "suno_music_open"
-release_date = "1787189214"
-
-[features]
-reasoning = false
+release_date = "1787276209"
 
 [pricing]
-cache_read = 0.35
 input = 48.81
 output = 3.47

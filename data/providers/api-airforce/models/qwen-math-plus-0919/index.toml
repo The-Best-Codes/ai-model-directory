@@ -1,6 +1,6 @@
 id = "qwen-math-plus-0919"
 name = "qwen-math-plus-0919"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.06
-input = 0.52
-output = 1.56
+input = 0.53
+output = 1.57

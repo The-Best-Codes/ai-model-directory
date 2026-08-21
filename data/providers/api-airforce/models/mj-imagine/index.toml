@@ -1,16 +1,14 @@
 id = "mj_imagine"
 name = "mj_imagine"
-release_date = "1787189214"
+release_date = "1787276209"
 
 [features]
 attachment = false
-reasoning = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 7.8
 input = 549
 output = 77.97
