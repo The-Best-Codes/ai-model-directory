@@ -14,6 +14,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.004213023975
-input = 0.5111802423
-output = 1.011125754
+cache_read = 0.004226703825
+input = 0.5128400641
+output = 1.014408918

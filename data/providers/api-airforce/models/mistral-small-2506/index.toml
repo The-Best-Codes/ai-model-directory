@@ -1,6 +1,6 @@
 id = "mistral-small-2506"
 name = "mistral-small-2506"
-release_date = "1787276209"
+release_date = "1787361989"
 
 [features]
 attachment = false

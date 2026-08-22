@@ -1,7 +1,7 @@
 id = "gemini-3.1-pro-preview"
 knowledge_cutoff = "1772323200"
 name = "gemini-3.1-pro-preview"
-release_date = "1787276209"
+release_date = "1787361989"
 
 [features]
 attachment = true

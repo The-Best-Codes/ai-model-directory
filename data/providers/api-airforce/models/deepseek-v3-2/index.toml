@@ -1,7 +1,7 @@
 id = "deepseek-v3.2"
 knowledge_cutoff = "1756684800"
 name = "deepseek-v3.2"
-release_date = "1787276209"
+release_date = "1787361989"
 
 [features]
 attachment = false

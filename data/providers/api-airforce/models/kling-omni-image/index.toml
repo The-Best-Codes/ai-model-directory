@@ -1,6 +1,6 @@
 id = "kling-omni-image"
 name = "kling-omni-image"
-release_date = "1787276209"
+release_date = "1787361989"
 
 [features]
 attachment = false

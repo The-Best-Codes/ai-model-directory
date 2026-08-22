@@ -1,5 +1,5 @@
 id = "Kimi-K2-Thinking"
-last_updated = "1783440291"
+last_updated = "1787315757"
 name = "Kimi-K2-Thinking"
 release_date = "1762513899"
 
@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.59472824
-output = 2.37891296
+input = 0.59502152
+output = 2.38008608

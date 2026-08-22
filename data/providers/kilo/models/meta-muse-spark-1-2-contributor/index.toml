@@ -1,0 +1,22 @@
+id = "meta/muse-spark-1.2-contributor"
+name = "Meta: Muse Spark 1.2 Contributor"
+release_date = "1787336476"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.002
+input = 0.1
+output = 0.2

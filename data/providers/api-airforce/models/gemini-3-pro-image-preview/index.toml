@@ -1,6 +1,6 @@
 id = "gemini-3-pro-image-preview"
 name = "gemini-3-pro-image-preview"
-release_date = "1787276209"
+release_date = "1787361989"
 
 [features]
 attachment = false
@@ -10,5 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 394.15
-output = 12
+input = 2.1
+output = 12.6

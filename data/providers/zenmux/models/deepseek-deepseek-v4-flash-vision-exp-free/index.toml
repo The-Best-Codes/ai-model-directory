@@ -1,0 +1,19 @@
+id = "deepseek/deepseek-v4-flash-vision-exp-free"
+name = "DeepSeek: DeepSeek V4 Flash Vision Exp (Free)"
+release_date = "1787305220"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

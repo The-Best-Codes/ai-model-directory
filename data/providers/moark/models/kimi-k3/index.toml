@@ -1,5 +1,5 @@
 id = "kimi-k3"
-last_updated = "1785292530"
+last_updated = "1787315493"
 name = "kimi-k3"
 release_date = "1784700207"
 
@@ -13,5 +13,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 2.9736412
-output = 14.868206
+input = 2.9751076
+output = 14.875538

@@ -1,0 +1,6 @@
+id = "deepseek-v4-flash-vision-exp"
+name = "deepseek-v4-flash-vision-exp"
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

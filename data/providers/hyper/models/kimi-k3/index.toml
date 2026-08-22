@@ -8,7 +8,7 @@ reasoning = true
 
 [limit]
 context = 1048576
-output = 131072
+output = 16000
 
 [modalities]
 input = [ "image", "text" ]

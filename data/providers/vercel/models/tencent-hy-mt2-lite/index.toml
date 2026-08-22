@@ -1,0 +1,14 @@
+id = "tencent/hy-mt2-lite"
+name = "Tencent Hy-MT2-Lite"
+release_date = "1781222400"
+
+[limit]
+context = 8000
+output = 4000
+
+[modalities]
+output = [ "text" ]
+
+[pricing]
+input = 0.044
+output = 0.177

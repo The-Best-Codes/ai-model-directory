@@ -1,6 +1,6 @@
 id = "o3-deep-research"
 name = "o3-deep-research"
-release_date = "1787276209"
+release_date = "1787361989"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 1.3
-input = 10
-output = 40
+input = 10.5
+output = 42

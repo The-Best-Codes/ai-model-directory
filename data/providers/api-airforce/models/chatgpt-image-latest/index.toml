@@ -1,6 +1,6 @@
 id = "chatgpt-image-latest"
 name = "chatgpt-image-latest"
-release_date = "1787276209"
+release_date = "1787361989"
 
 [features]
 attachment = false

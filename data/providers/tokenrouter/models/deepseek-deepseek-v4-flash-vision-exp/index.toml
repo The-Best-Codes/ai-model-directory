@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-v4-flash-vision-exp"
+name = "deepseek/deepseek-v4-flash-vision-exp"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.014
+cache_write = 0.44
+input = 0.44
+input_audio = 0.44
+output = 1.32
+output_audio = 0.44

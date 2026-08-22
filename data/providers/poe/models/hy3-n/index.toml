@@ -1,0 +1,13 @@
+id = "hy3-n"
+name = "Hy3-N"
+release_date = "1783318840"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,6 +1,6 @@
 id = "syn:small:vision"
 name = "syn:small:vision"
-release_date = "1776729600"
+release_date = "1786665600"
 
 [features]
 attachment = true

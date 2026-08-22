@@ -11,4 +11,4 @@ input = [ "text" ]
 output = [ "video" ]
 
 [pricing]
-output = 11.44851862
+output = 11.45416426

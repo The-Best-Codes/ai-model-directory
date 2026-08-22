@@ -1,0 +1,16 @@
+id = "qwen3.8-27b"
+last_updated = "1787315186"
+name = "qwen3.8-27b"
+release_date = "1787278673"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.44626614
+output = 1.78506456

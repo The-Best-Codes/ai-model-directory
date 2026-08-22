@@ -1,5 +1,5 @@
 id = "DeepSeek-V4-Pro"
-last_updated = "1777027997"
+last_updated = "1787316294"
 name = "DeepSeek-V4-Pro"
 release_date = "1777027997"
 
@@ -12,5 +12,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.78418472
-output = 3.56836944
+input = 1.78506456
+output = 3.57012912

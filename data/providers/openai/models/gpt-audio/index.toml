@@ -1,6 +1,6 @@
 id = "gpt-audio"
 knowledge_cutoff = "1696118400"
-name = "gpt-audio"
+name = "GPT-Audio"
 release_date = "1756339249"
 
 [features]

@@ -1,5 +1,5 @@
 id = "gpt-live-transcribe"
-name = "GPT Live Transcribe"
+name = "GPT-Live-Transcribe"
 release_date = "1785168034"
 
 [features]

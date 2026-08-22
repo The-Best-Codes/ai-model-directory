@@ -1,0 +1,17 @@
+id = "lightning-ai/qwen3.8-27b"
+name = "Qwen3.8-27B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.422
+output = 3.165

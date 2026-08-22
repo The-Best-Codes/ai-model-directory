@@ -1,5 +1,5 @@
 id = "MiMo-V2.5-Pro"
-last_updated = "1780400196"
+last_updated = "1787316131"
 name = "MiMo-V2.5-Pro"
 release_date = "1780399311"
 
@@ -12,5 +12,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.04077442
-output = 3.12232326
+input = 1.04128766
+output = 3.12386298

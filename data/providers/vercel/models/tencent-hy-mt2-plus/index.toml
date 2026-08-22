@@ -1,0 +1,14 @@
+id = "tencent/hy-mt2-plus"
+name = "Tencent Hy-MT2-Plus"
+release_date = "1781222400"
+
+[limit]
+context = 8000
+output = 4000
+
+[modalities]
+output = [ "text" ]
+
+[pricing]
+input = 0.074
+output = 0.295

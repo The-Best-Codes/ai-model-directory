@@ -1,0 +1,21 @@
+id = "deepseek-v4-flash-vision-exp"
+last_updated = "1787305591"
+name = "deepseek-v4-flash-vision-exp"
+release_date = "1787305591"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.22
+output = 0.66

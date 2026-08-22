@@ -1,5 +1,5 @@
 id = "DeepSeek-V4-Flash"
-last_updated = "1777028607"
+last_updated = "1787316207"
 name = "DeepSeek-V4-Flash"
 release_date = "1777028607"
 
@@ -12,5 +12,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.14868206
-output = 0.29736412
+input = 0.14875538
+output = 0.29751076

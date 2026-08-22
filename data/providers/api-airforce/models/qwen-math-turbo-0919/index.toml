@@ -1,6 +1,6 @@
 id = "qwen-math-turbo-0919"
 name = "qwen-math-turbo-0919"
-release_date = "1787276209"
+release_date = "1787361989"
 
 [features]
 attachment = false
