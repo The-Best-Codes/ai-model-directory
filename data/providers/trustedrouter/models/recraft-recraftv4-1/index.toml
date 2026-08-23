@@ -1,0 +1,14 @@
+id = "recraft/recraftv4_1"
+name = "Recraft V4.1"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

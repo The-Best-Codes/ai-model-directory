@@ -1,0 +1,15 @@
+id = "sensenova-6.7-flash-lite"
+name = "sensenova-6.7-flash-lite"
+release_date = "1787449134"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5.2
+output = 5.2

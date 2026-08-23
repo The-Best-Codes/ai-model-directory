@@ -1,0 +1,10 @@
+id = "seedance-1-5-pro"
+name = "Seedance 1.5 Pro"
+release_date = "1766102400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

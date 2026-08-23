@@ -1,0 +1,14 @@
+id = "cohere/command-a"
+name = "cohere-command-a"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.6375
+output = 10.55

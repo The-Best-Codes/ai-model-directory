@@ -1,0 +1,14 @@
+id = "recraft/recraftv4_1_pro"
+name = "Recraft V4.1 Pro"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

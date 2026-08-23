@@ -1,0 +1,17 @@
+id = "bsc-lt/alia-40b-instruct-2601"
+name = "alia-salamandra:40b"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3165
+output = 0.633

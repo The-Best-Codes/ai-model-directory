@@ -1,0 +1,10 @@
+id = "seedream-4-5"
+name = "Seedream 4.5"
+release_date = "1764720000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,14 @@
+id = "black-forest-labs/flux-2-klein-4b"
+name = "FLUX.2 [klein] 4B"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

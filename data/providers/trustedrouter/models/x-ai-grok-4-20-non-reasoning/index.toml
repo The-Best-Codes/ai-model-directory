@@ -1,0 +1,14 @@
+id = "x-ai/grok-4.20-non-reasoning"
+name = "grok-4-20-non-reasoning"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.31875
+output = 2.6375

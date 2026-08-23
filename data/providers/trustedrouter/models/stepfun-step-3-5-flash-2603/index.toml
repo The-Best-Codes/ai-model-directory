@@ -1,0 +1,17 @@
+id = "stepfun/step-3.5-flash-2603"
+name = "Step 3.5 Flash 2603"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1055
+output = 0.3165

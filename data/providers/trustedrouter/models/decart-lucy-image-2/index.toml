@@ -1,0 +1,14 @@
+id = "decart/lucy-image-2"
+name = "Lucy Image 2"
+open_weights = false
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

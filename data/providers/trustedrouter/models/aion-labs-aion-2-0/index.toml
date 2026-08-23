@@ -1,0 +1,17 @@
+id = "aion-labs/aion-2.0"
+name = "AionLabs: Aion 2.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.844
+output = 1.688

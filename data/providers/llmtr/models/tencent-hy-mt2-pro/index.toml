@@ -1,0 +1,16 @@
+id = "tencent/hy-mt2-pro"
+name = "Tencent: Hy-MT2 Pro"
+release_date = "1787424878"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.074
+output = 0.295

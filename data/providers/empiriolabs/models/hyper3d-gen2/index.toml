@@ -1,0 +1,10 @@
+id = "hyper3d-gen2"
+name = "Hyper3D Gen2"
+release_date = "1759276800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

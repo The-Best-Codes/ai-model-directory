@@ -1,0 +1,17 @@
+id = "reka/reka-edge-2603"
+name = "Reka Edge 2603"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1055
+output = 0.1055

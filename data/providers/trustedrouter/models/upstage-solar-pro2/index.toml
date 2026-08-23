@@ -1,0 +1,14 @@
+id = "upstage/solar-pro2"
+name = "solar-pro2"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15825
+output = 0.633

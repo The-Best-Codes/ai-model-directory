@@ -1,0 +1,17 @@
+id = "decart/lucy-restyle-2"
+name = "Decart Lucy Restyle 2"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

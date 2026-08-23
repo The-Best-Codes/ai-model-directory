@@ -1,0 +1,17 @@
+id = "skylark-embedding-vision"
+name = "Skylark Embedding Vision"
+release_date = "1751068800"
+
+[features]
+attachment = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.25
+output = 0

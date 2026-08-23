@@ -1,0 +1,9 @@
+id = "hitem3d-2-0"
+name = "Hitem3D 2.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

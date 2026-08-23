@@ -1,0 +1,14 @@
+id = "x-ai/grok-4.1-fast-reasoning"
+name = "grok-4-1-fast-reasoning"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.211
+output = 0.5275

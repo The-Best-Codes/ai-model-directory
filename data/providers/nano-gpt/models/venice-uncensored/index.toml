@@ -10,7 +10,7 @@ tool_call = false
 
 [limit]
 context = 128000
-output = 16384
+output = 8192
 
 [modalities]
 input = [ "text" ]
@@ -18,4 +18,4 @@ output = [ "text" ]
 
 [pricing]
 input = 0.4
-output = 0.4
+output = 1.8

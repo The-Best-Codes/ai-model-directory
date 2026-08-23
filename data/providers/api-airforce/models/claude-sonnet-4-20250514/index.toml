@@ -1,7 +1,7 @@
 id = "claude-sonnet-4-20250514"
 knowledge_cutoff = "1743465600"
 name = "claude-sonnet-4-20250514"
-release_date = "1787361989"
+release_date = "1787449134"
 
 [features]
 attachment = true
@@ -17,7 +17,7 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.48
+cache_read = 0.45
 cache_write = 5.82
 input = 3.15
 output = 15.75

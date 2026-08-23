@@ -1,0 +1,14 @@
+id = "black-forest-labs/flux-2-flex"
+name = "FLUX.2 [flex]"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

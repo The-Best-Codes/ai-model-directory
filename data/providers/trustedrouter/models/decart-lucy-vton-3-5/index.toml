@@ -1,0 +1,17 @@
+id = "decart/lucy-vton-3.5"
+name = "Decart Lucy VTON 3.5"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

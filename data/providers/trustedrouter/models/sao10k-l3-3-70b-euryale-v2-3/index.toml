@@ -1,0 +1,17 @@
+id = "sao10k/l3.3-70b-euryale-v2.3"
+name = "euryale:33-70b"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.68575
+output = 0.79125

@@ -1,0 +1,17 @@
+id = "aion-labs/aion-3.0-mini"
+name = "AionLabs: Aion 3.0 Mini"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7385
+output = 1.477

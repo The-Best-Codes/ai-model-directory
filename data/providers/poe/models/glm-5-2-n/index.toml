@@ -1,0 +1,18 @@
+id = "glm-5.2-n"
+name = "GLM-5.2-N"
+release_date = "1781631281"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2626
+input = 1.4141
+output = 4.4444

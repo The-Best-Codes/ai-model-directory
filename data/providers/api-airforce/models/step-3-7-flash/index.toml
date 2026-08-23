@@ -1,0 +1,15 @@
+id = "step-3.7-flash"
+name = "step-3.7-flash"
+release_date = "1787449134"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 15.6
+output = 15.6
