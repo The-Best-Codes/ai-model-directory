@@ -1,6 +1,6 @@
 id = "chatgpt-4o-latest"
 name = "chatgpt-4o-latest"
-release_date = "1787449134"
+release_date = "1787535427"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.23
-input = 2.19
-output = 7.5
+cache_read = 0.29
+input = 2.75
+output = 14.5

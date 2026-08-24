@@ -1,0 +1,14 @@
+id = "mistralai/mistral-medium-3.5-128b"
+name = "mistral-medium-3.5-128b"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.943936
+output = 9.719676

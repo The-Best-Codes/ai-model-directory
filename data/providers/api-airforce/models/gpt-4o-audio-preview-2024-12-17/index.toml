@@ -1,7 +1,7 @@
 id = "gpt-4o-audio-preview-2024-12-17"
 name = "gpt-4o-audio-preview-2024-12-17"
-release_date = "1787449134"
+release_date = "1787535427"
 
 [pricing]
-input = 1.83
-output = 7.3
+input = 2.63
+output = 10.5

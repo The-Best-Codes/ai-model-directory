@@ -1,0 +1,9 @@
+id = "grok-imagine-image-quality"
+name = "grok-imagine-image-quality"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

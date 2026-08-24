@@ -1,0 +1,16 @@
+id = "jina-ai/jina-clip-v2"
+name = "Jina AI: Jina Clip v2"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05275
+output = 0

@@ -1,0 +1,16 @@
+id = "jina-ai/jina-embedding-b-en-v1"
+name = "Jina AI: Jina Embedding B EN v1"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0

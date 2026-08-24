@@ -1,0 +1,16 @@
+id = "jina-ai/jina-code-embeddings-1.5b"
+name = "Jina AI: Jina Code Embeddings 1.5b"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0

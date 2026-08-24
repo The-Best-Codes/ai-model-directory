@@ -1,0 +1,16 @@
+id = "jina-ai/jina-colbert-v2"
+name = "Jina AI: Jina Colbert v2"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0

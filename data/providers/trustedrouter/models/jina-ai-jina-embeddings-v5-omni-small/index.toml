@@ -1,0 +1,16 @@
+id = "jina-ai/jina-embeddings-v5-omni-small"
+name = "Jina AI: Jina Embeddings v5 Omni Small"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.05275
+output = 0

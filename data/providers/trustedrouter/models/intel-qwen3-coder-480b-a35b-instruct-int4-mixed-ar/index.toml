@@ -1,0 +1,17 @@
+id = "intel/qwen3-coder-480b-a35b-instruct-int4-mixed-ar"
+name = "Intel: Qwen3 Coder 480B A35B Instruct INT4 Mixed AR"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 106000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.469475
+output = 2.262975

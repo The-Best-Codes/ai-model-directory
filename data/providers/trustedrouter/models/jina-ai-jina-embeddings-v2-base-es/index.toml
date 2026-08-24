@@ -1,0 +1,16 @@
+id = "jina-ai/jina-embeddings-v2-base-es"
+name = "Jina AI: Jina Embeddings v2 Base ES"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0

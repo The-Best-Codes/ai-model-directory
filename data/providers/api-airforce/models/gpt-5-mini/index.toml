@@ -1,6 +1,6 @@
 id = "gpt-5-mini"
 name = "gpt-5-mini"
-release_date = "1787449134"
+release_date = "1787535427"
 
 [features]
 attachment = false

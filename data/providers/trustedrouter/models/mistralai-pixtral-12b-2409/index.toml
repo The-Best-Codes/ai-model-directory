@@ -1,0 +1,14 @@
+id = "mistralai/pixtral-12b-2409"
+name = "pixtral-12b-2409"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.259192
+output = 0.259192

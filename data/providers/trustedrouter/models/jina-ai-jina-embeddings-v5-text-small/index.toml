@@ -1,0 +1,16 @@
+id = "jina-ai/jina-embeddings-v5-text-small"
+name = "Jina AI: Jina Embeddings v5 Text Small"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0

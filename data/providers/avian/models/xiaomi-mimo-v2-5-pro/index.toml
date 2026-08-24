@@ -1,0 +1,14 @@
+id = "xiaomi/mimo-v2.5-pro"
+name = "MiMo-V2.5 Pro"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1050000
+output = 131072
+
+[pricing]
+cache_read = 0.0036
+input = 0.435
+output = 0.87
