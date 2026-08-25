@@ -1,6 +1,6 @@
 id = "step-3.7-flash"
 name = "step-3.7-flash"
-release_date = "1787535427"
+release_date = "1787621202"
 
 [features]
 attachment = false
@@ -11,5 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
+cache_read = 1.56
 input = 15.6
 output = 15.6

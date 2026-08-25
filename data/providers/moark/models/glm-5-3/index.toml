@@ -1,0 +1,18 @@
+id = "GLM-5.3"
+last_updated = "1787564283"
+name = "GLM-5.3"
+release_date = "1787555031"
+
+[features]
+attachment = false
+
+[limit]
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.19008624
+output = 4.16530184

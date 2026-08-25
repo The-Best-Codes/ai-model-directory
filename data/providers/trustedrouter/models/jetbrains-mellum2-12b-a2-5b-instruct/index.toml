@@ -1,0 +1,17 @@
+id = "jetbrains/mellum2-12b-a2.5b-instruct"
+name = "JetBrains Mellum2 12B A2.5B"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0.1055

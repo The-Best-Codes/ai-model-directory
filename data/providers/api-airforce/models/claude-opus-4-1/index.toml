@@ -1,7 +1,7 @@
 id = "claude-opus-4-1"
 knowledge_cutoff = "1738281600"
 name = "claude-opus-4-1"
-release_date = "1787535427"
+release_date = "1787621202"
 
 [features]
 attachment = true

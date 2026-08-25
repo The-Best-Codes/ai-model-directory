@@ -13,3 +13,8 @@ output = 32000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 4.8
+input = 4.8
+output = 23

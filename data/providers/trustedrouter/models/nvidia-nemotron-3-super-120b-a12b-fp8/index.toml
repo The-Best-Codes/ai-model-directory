@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3-super-120b-a12b-fp8"
+name = "NVIDIA Nemotron 3 Super 120B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.211
+output = 0.844

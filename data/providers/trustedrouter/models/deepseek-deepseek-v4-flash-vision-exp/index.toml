@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v4-flash-vision-exp"
-name = "DeepSeek: DeepSeek V4 Flash Vision Exp"
+name = "DeepSeek V4 Flash Vision Exp"
 open_weights = true
 
 [features]
@@ -13,5 +13,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.2321
-output = 0.6963
+input = 0.4642
+output = 1.3926

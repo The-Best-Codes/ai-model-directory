@@ -1,6 +1,6 @@
 id = "qwen-plus-2025-01-25"
 name = "qwen-plus-2025-01-25"
-release_date = "1787535427"
+release_date = "1787621202"
 
 [features]
 attachment = false

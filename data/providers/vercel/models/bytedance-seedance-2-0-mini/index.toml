@@ -1,0 +1,12 @@
+id = "bytedance/seedance-2.0-mini"
+name = "Seedance 2.0 Mini"
+release_date = "1782086400"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

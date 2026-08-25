@@ -1,5 +1,5 @@
-id = "Qwen2.5-VL-72B-Instruct"
-name = "Qwen2.5-VL-72B-Instruct"
+id = "qwen2.5-vl-72b-instruct"
+name = "qwen2.5-vl-72b-instruct"
 
 [features]
 attachment = true
@@ -8,8 +8,8 @@ structured_output = false
 tool_call = false
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "image", "text" ]
 
 [pricing]
-input = 0.62
-output = 0.62
+input = 2.4
+output = 7.2

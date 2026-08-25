@@ -1,0 +1,11 @@
+id = "wan3.0-video"
+name = "wan3.0-video"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]

@@ -1,0 +1,11 @@
+id = "wan3.0-video-prime"
+last_updated = "1787211883"
+name = "Wan3.0-Video-Prime"
+release_date = "1787211883"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "video" ]

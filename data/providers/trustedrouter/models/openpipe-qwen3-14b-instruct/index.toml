@@ -1,0 +1,17 @@
+id = "openpipe/qwen3-14b-instruct"
+name = "OpenPipe Qwen3 14B Instruct"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0.2321

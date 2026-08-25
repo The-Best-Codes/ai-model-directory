@@ -3,7 +3,7 @@ name = "alibaba/qwen3-coder-plus"
 release_date = "1758662707"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 1048576
 output = 65536
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

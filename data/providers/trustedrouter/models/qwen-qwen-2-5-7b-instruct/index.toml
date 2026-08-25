@@ -1,5 +1,5 @@
 id = "qwen/qwen-2.5-7b-instruct"
-name = "Qwen: Qwen2.5 7B Instruct"
+name = "Qwen2.5 7B Instruct Turbo"
 open_weights = true
 
 [features]
