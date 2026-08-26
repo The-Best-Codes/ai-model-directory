@@ -111,29 +111,29 @@ The package decodes the bundled compact payload into the same provider/model sha
 
 A provider entry:
 
-| field | type | description |
-| --- | --- | --- |
-| `id` | `string` | Provider id used across the directory. |
-| `name` | `string` | Display name. |
-| `website` | `string` | Provider website. |
-| `apiBaseUrl` | `string` | Base URL for API calls. |
-| `aiSdk` | `{ npmPackage?, defaultApiKeyEnv? }` | AI SDK package and default key env var. |
-| `models` | `Record<string, ModelRecord>` | Models keyed by id. |
+| field        | type                                 | description                             |
+| ------------ | ------------------------------------ | --------------------------------------- |
+| `id`         | `string`                             | Provider id used across the directory.  |
+| `name`       | `string`                             | Display name.                           |
+| `website`    | `string`                             | Provider website.                       |
+| `apiBaseUrl` | `string`                             | Base URL for API calls.                 |
+| `aiSdk`      | `{ npmPackage?, defaultApiKeyEnv? }` | AI SDK package and default key env var. |
+| `models`     | `Record<string, ModelRecord>`        | Models keyed by id.                     |
 
 A model record:
 
-| field | type | description |
-| --- | --- | --- |
-| `id` | `string` | Model id. |
-| `name` | `string` | Display name; falls back to the id when omitted. |
-| `knowledge_cutoff` | `string` | Unix timestamp (seconds) as a string. |
-| `release_date` | `string` | Unix timestamp (seconds) as a string. |
-| `last_updated` | `string` | Unix timestamp (seconds) as a string. |
-| `open_weights` | `boolean` | Whether the model has open weights. |
-| `features` | `ModelFeatures` | `attachment`, `reasoning`, `tool_call`, `structured_output`, `temperature` booleans. |
-| `pricing` | `ModelPricing` | `input`, `output`, `reasoning`, `cache_read`, `cache_write`, `input_audio`, `output_audio`. |
-| `limit` | `ModelLimit` | `context`, `input`, `output` token limits. |
-| `modalities` | `ModelModalities` | `input` and `output` modality arrays. |
+| field              | type              | description                                                                                 |
+| ------------------ | ----------------- | ------------------------------------------------------------------------------------------- |
+| `id`               | `string`          | Model id.                                                                                   |
+| `name`             | `string`          | Display name; falls back to the id when omitted.                                            |
+| `knowledge_cutoff` | `string`          | Unix timestamp (seconds) as a string.                                                       |
+| `release_date`     | `string`          | Unix timestamp (seconds) as a string.                                                       |
+| `last_updated`     | `string`          | Unix timestamp (seconds) as a string.                                                       |
+| `open_weights`     | `boolean`         | Whether the model has open weights.                                                         |
+| `features`         | `ModelFeatures`   | `attachment`, `reasoning`, `tool_call`, `structured_output`, `temperature` booleans.        |
+| `pricing`          | `ModelPricing`    | `input`, `output`, `reasoning`, `cache_read`, `cache_write`, `input_audio`, `output_audio`. |
+| `limit`            | `ModelLimit`      | `context`, `input`, `output` token limits.                                                  |
+| `modalities`       | `ModelModalities` | `input` and `output` modality arrays.                                                       |
 
 Pricing values are USD per one million tokens (`$ / MTok`). Optional fields are omitted from the payload when the provider does not report them, so check for presence rather than relying on defaults.
 

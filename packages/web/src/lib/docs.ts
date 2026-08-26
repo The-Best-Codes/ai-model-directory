@@ -56,9 +56,7 @@ export function getDocMetadata(docPath: string) {
   const frontmatter = readDocFile(docPath).data;
 
   return {
-    title: frontmatter.title
-      ? `${frontmatter.title} - Docs`
-      : defaultTitle,
+    title: frontmatter.title ? `${frontmatter.title} - Docs` : defaultTitle,
     description: frontmatter.description ?? defaultDescription,
   };
 }

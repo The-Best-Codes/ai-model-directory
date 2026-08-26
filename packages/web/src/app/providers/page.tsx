@@ -60,9 +60,7 @@ export default async function Page() {
           const modelCount = modelsList.length;
 
           const getProviderDescription = (p: Provider): string => {
-            const names = modelsList
-              .map((m) => m.name ?? m.id)
-              .filter(Boolean);
+            const names = modelsList.map((m) => m.name ?? m.id).filter(Boolean);
 
             if (names.length === 0) {
               return p.id;
