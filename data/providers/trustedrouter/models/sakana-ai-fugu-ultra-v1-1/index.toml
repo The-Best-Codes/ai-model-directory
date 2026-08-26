@@ -1,0 +1,17 @@
+id = "sakana-ai/fugu-ultra-v1.1"
+name = "fugu-ultra-v1.1"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5
+output = 30

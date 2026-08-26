@@ -1,0 +1,15 @@
+id = "ibm-granite/granite-4.2-8b"
+name = "ibm-granite/granite-4.2-8b"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+cache_read = 0.015000000000000001
+input = 0.060000000000000005
+output = 0.25

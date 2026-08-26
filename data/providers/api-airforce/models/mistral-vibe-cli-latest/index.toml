@@ -1,6 +1,6 @@
 id = "mistral-vibe-cli-latest"
 name = "mistral-vibe-cli-latest"
-release_date = "1787708223"
+release_date = "1787717562"
 
 [features]
 attachment = false
