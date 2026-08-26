@@ -1,5 +1,0 @@
-id = "baai/bge-m3"
-name = "Inference:"
-
-[modalities]
-input = [ "text" ]

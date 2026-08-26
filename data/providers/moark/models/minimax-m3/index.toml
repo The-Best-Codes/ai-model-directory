@@ -1,5 +1,5 @@
 id = "MiniMax-M3"
-last_updated = "1782292000"
+last_updated = "1787630828"
 name = "MiniMax-M3"
 release_date = "1780367844"
 
@@ -12,5 +12,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.312397638
-output = 1.249590552
+input = 0.62484534
+output = 2.49938136

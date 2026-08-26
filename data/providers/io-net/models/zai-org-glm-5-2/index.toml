@@ -7,7 +7,7 @@ attachment = false
 
 [limit]
 context = 262144
-output = 65536
+output = 131072
 
 [modalities]
 input = [ "text" ]

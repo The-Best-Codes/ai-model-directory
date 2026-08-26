@@ -1,12 +1,9 @@
 id = "qwen/qwen3.7-plus"
-name = "Qwen3.7 Plus"
+name = "Qwen 3.7 Plus on Fireworks"
 open_weights = true
 
 [features]
 attachment = true
-
-[limit]
-context = 1000000
 
 [modalities]
 input = [ "image", "text" ]

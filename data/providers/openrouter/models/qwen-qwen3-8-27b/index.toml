@@ -10,7 +10,7 @@ temperature = true
 tool_call = true
 
 [limit]
-context = 262144
+context = 1000000
 output = 131072
 
 [modalities]
@@ -18,6 +18,7 @@ input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.05
-input = 0.4
-output = 3
+cache_read = 0.085
+cache_write = 0.53125
+input = 0.425
+output = 2.55

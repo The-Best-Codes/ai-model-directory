@@ -1,0 +1,12 @@
+id = "alibaba/wan-v3.0-video"
+name = "Wan v3.0 Video"
+release_date = "1787443200"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "video" ]

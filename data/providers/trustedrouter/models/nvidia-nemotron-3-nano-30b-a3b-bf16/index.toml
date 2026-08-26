@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3-nano-30b-a3b-bf16"
+name = "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0.211

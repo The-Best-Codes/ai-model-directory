@@ -8,6 +8,9 @@ reasoning = true
 temperature = false
 tool_call = false
 
+[limit]
+context = 252000
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

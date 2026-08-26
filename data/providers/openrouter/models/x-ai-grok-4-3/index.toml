@@ -11,6 +11,7 @@ tool_call = true
 
 [limit]
 context = 1000000
+output = 900000
 
 [modalities]
 input = [ "file", "image", "text" ]

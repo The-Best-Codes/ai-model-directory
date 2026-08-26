@@ -1,0 +1,17 @@
+id = "moonshotai/kimi-k2.7-code-fast"
+name = "Kimi K2.7 Code Fast on Fireworks"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.0045
+output = 8.44

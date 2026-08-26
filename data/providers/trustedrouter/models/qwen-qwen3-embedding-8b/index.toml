@@ -1,4 +1,4 @@
-id = "Qwen/Qwen3-Embedding-8B"
+id = "qwen/qwen3-embedding-8b"
 name = "Qwen3 Embedding 8B"
 open_weights = true
 
@@ -6,12 +6,11 @@ open_weights = true
 attachment = false
 
 [limit]
-context = 32000
+context = 32768
 
 [modalities]
 input = [ "text" ]
-output = [ "text" ]
 
 [pricing]
-input = 0.01055
+input = 0.0422
 output = 0
