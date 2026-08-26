@@ -16,7 +16,7 @@
     "@shikijs/rehype": "^4.4.3",
     "@tabler/icons-react": "^3.46.0",
     "@tailwindcss/typography": "^0.5.20",
-    "@tanstack/react-table": "8",
+    "@tanstack/react-table": "9",
     "@types/mdx": "^2.0.14",
     "ai-model-directory": "workspace:*",
     "class-variance-authority": "^0.7.1",

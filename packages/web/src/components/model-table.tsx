@@ -5,11 +5,14 @@ import Link from "next/link";
 import {
   type ColumnDef,
   type HeaderContext,
+  columnSizingFeature,
+  columnVisibilityFeature,
+  createSortedRowModel,
   flexRender,
-  getCoreRowModel,
-  getSortedRowModel,
+  rowSortingFeature,
+  tableFeatures,
   type SortingState,
-  useReactTable,
+  useTable,
 } from "@tanstack/react-table";
 import {
   IconArrowDown,
@@ -42,6 +45,13 @@ import type { DirectoryData } from "#/directory-data";
 
 const ROW_HEIGHT = 56;
 const OVERSCAN = 10;
+
+const features = tableFeatures({
+  columnSizingFeature,
+  columnVisibilityFeature,
+  rowSortingFeature,
+  sortedRowModel: createSortedRowModel(),
+});
 
 type ModelRow = {
   providerId: string;
@@ -102,7 +112,7 @@ const columnDescriptions = {
 } as const;
 
 function buildHeader<TValue>(label: string, description: string) {
-  return ({ column }: HeaderContext<ModelRow, TValue>) => (
+  return ({ column }: HeaderContext<typeof features, ModelRow, TValue>) => (
     <ColumnHeader
       label={label}
       description={description}
@@ -113,7 +123,7 @@ function buildHeader<TValue>(label: string, description: string) {
   );
 }
 
-const columns: ColumnDef<ModelRow>[] = [
+const columns: ColumnDef<typeof features, ModelRow>[] = [
   {
     id: "providerName",
     header: buildHeader("Provider", columnDescriptions.providerName),
@@ -422,7 +432,8 @@ export function ModelTable({
     resetScroll();
   }, [deferredSearch, resetScroll]);
 
-  const table = useReactTable({
+  const table = useTable({
+    features,
     data: filteredRows,
     columns,
     defaultColumn: {
@@ -431,8 +442,6 @@ export function ModelTable({
     },
     state: { sorting },
     onSortingChange: setSorting,
-    getCoreRowModel: getCoreRowModel(),
-    getSortedRowModel: getSortedRowModel(),
   });
 
   const columnSizeVars = React.useMemo(() => {
@@ -443,7 +452,7 @@ export function ModelTable({
     }
 
     return vars as React.CSSProperties;
-  }, [table, table.getState().columnSizing, table.getState().columnSizingInfo]);
+  }, [table, table.state.columnSizing]);
 
   const rows = table.getRowModel().rows;
   const totalRows = rows.length;
@@ -673,7 +682,11 @@ function ColumnHeader({
   canSort: boolean;
   isSorted: false | "asc" | "desc";
   onToggle: ReturnType<
-    HeaderContext<ModelRow, unknown>["column"]["getToggleSortingHandler"]
+    HeaderContext<
+      typeof features,
+      ModelRow,
+      unknown
+    >["column"]["getToggleSortingHandler"]
   >;
 }) {
   return (
