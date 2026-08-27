@@ -1,0 +1,18 @@
+id = "zai-org/GLM-5.3-Flash"
+name = "Z.ai: GLM 5.3 Flash"
+release_date = "1787763381"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.12
+output = 0.4

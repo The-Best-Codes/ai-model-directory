@@ -1,0 +1,11 @@
+id = "coding-glm-5.3-free"
+name = "coding-glm-5.3-free"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[pricing]
+cache_read = 0
+input = 0

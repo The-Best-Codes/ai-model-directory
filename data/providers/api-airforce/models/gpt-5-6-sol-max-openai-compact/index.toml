@@ -1,6 +1,6 @@
 id = "gpt-5.6-sol-max-openai-compact"
 name = "gpt-5.6-sol-max-openai-compact"
-release_date = "1787717562"
+release_date = "1787819179"
 
 [features]
 attachment = false

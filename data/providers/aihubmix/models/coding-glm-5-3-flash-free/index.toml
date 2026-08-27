@@ -1,0 +1,11 @@
+id = "coding-glm-5.3-flash-free"
+name = "coding-glm-5.3-flash-free"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[pricing]
+cache_read = 0
+input = 0

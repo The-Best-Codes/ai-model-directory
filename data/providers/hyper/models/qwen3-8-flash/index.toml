@@ -1,0 +1,20 @@
+id = "qwen3.8-flash"
+name = "Qwen3.8-Flash"
+release_date = "1787765263"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.016
+cache_write = 0
+input = 0.16
+output = 0.47

@@ -1,0 +1,18 @@
+id = "glm-5.3-flash"
+name = "GLM-5.3-flash"
+release_date = "1787764343"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0303
+input = 0.1515
+output = 0.5051

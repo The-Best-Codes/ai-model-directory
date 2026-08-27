@@ -1,0 +1,14 @@
+id = "qwen/qwen3.8-27b"
+name = "Qwen3.8 27B"
+
+[limit]
+context = 131042
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.4
+input = 0.8
+output = 4

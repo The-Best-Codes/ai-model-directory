@@ -1,0 +1,12 @@
+id = "zai-org/GLM-5.3-Flash-BF16"
+name = "zai-org/GLM-5.3-Flash-BF16"
+release_date = "1787640305"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

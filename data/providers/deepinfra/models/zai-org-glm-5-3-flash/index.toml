@@ -1,0 +1,15 @@
+id = "zai-org/GLM-5.3-Flash"
+name = "zai-org/GLM-5.3-Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+output = 1048576
+
+[pricing]
+cache_read = 0.03
+input = 0.15
+output = 0.5

@@ -1,0 +1,14 @@
+id = "google/gemini-3.5-transcribe-live"
+name = "Gemini 3.5 Transcribe Live"
+release_date = "1787702400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0001

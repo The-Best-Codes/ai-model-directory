@@ -1,0 +1,15 @@
+id = "accounts/fireworks/models/nemotron-3-embed-8b-bf16"
+name = "Nemotron 3 Embed 8B"
+open_weights = true
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.016

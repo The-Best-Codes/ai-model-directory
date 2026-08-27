@@ -1,0 +1,16 @@
+id = "wan3.0-video"
+name = "wan3.0-video"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input_audio = 0
+output = 0.4
+output_audio = 0

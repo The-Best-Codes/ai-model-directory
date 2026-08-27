@@ -1,0 +1,19 @@
+id = "z-ai/glm-5.3-flash"
+name = "Z.AI: GLM 5.3 Flash"
+release_date = "1787754576"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.075
+output = 0.25

@@ -1,0 +1,21 @@
+id = "qwen/qwen3.8-2.4t-a95b"
+name = "Qwen3.8 2.4T A95B (Max)"
+release_date = "1787702400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 991000
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 6

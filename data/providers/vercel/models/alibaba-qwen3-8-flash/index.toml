@@ -1,0 +1,22 @@
+id = "alibaba/qwen3.8-flash"
+name = "Qwen 3.8 Flash"
+release_date = "1787702400"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 991000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.016
+cache_write = 0.2
+input = 0.16
+output = 0.47

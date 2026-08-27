@@ -1,0 +1,17 @@
+id = "bytedance-seed/seed-2-1-turbo"
+name = "Seed 2.1 Turbo"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5275
+output = 2.6375

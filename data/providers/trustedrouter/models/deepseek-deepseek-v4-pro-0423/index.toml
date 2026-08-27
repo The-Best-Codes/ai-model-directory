@@ -3,13 +3,13 @@ name = "DeepSeek V4 Pro 0423"
 open_weights = true
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 1048576
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

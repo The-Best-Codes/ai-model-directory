@@ -1,0 +1,18 @@
+id = "ling-3-0-flash"
+name = "Ling-3-0-flash"
+release_date = "1786694182"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0121
+input = 0.0606
+output = 0.1818

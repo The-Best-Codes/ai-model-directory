@@ -1,15 +1,2 @@
 id = "coding-glm-5-free"
 name = "coding-glm-5-free"
-
-[features]
-attachment = false
-reasoning = true
-structured_output = true
-tool_call = true
-
-[modalities]
-input = [ "text" ]
-
-[pricing]
-cache_read = 0
-input = 0

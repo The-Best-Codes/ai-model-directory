@@ -1,6 +1,6 @@
 id = "gpt-4o-search-preview"
 name = "gpt-4o-search-preview"
-release_date = "1787717562"
+release_date = "1787819179"
 
 [features]
 attachment = false

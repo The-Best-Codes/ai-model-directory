@@ -1,0 +1,12 @@
+id = "meta/muse-image-1.0"
+name = "Muse Image 1.0"
+release_date = "1787702400"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

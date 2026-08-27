@@ -1,0 +1,15 @@
+id = "coding-glm-5.3-flash"
+name = "coding-glm-5.3-flash"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[pricing]
+cache_read = 0.0070425
+input = 0.02817
+output = 0.098595

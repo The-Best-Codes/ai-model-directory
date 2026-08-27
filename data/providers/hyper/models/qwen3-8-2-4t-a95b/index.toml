@@ -1,0 +1,17 @@
+id = "qwen3.8-2.4t-a95b"
+name = "Qwen3.8-2.4T-A95B"
+release_date = "1787762237"
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+cache_write = 0
+input = 2
+output = 6

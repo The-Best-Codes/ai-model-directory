@@ -1,0 +1,14 @@
+id = "perplexity/sonar"
+name = "perplexity/sonar"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.26375
+output = 2.6375

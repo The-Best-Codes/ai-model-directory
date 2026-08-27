@@ -1,0 +1,18 @@
+id = "xiaomimimo-mimo-v2-5"
+name = "xiaomimimo-mimo-v2-5"
+release_date = "1787639190"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0034
+input = 0.1697
+output = 0.3394
