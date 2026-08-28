@@ -1,5 +1,5 @@
 id = "DeepSeek-V3_1-Terminus"
-last_updated = "1758853755"
+last_updated = "1787846483"
 name = "DeepSeek-V3_1-Terminus"
 release_date = "1758674857"
 
@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.595144
-output = 1.785432
+input = 0.59520784
+output = 1.78562352

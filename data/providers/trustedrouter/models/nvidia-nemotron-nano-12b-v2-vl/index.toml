@@ -3,13 +3,13 @@ name = "Nemotron Nano 12B v2 VL"
 open_weights = true
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 128000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

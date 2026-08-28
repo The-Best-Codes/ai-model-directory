@@ -1,2 +1,11 @@
 id = "gemini-3.1-flash-image-preview"
 name = "gemini-3.1-flash-image-preview"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]

@@ -6,7 +6,7 @@ release_date = "1785637554"
 reasoning = true
 
 [limit]
-context = 1048576
+context = 1000000
 output = 384000
 
 [modalities]

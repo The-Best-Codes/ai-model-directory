@@ -1,0 +1,21 @@
+id = "z-ai/glm-5.3-flash-uncensored"
+name = "GLM 5.3 Flash Uncensored"
+release_date = "1787788800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.125
+output = 0.5

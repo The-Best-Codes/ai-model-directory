@@ -1,0 +1,14 @@
+id = "suno-v5.5"
+name = "suno-v5.5"
+release_date = "1787913603"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 27.45
+output = 27.45

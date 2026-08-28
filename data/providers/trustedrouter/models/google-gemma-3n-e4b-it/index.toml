@@ -1,5 +1,5 @@
 id = "google/gemma-3n-e4b-it"
-name = "Google: Gemma 3n 4B"
+name = "Gemma 3N E4B Instruct"
 open_weights = true
 
 [features]

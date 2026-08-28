@@ -1,5 +1,5 @@
 id = "perplexity/sonar"
-name = "perplexity/sonar"
+name = "sonar"
 open_weights = false
 
 [features]

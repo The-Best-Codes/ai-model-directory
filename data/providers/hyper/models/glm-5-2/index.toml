@@ -3,15 +3,14 @@ name = "GLM-5.2"
 release_date = "1782853752"
 
 [features]
-attachment = true
 reasoning = true
 
 [limit]
-context = 1048576
+context = 1000000
 output = 32768
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

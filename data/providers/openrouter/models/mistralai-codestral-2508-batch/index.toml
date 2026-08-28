@@ -1,0 +1,24 @@
+id = "mistralai/codestral-2508:batch"
+knowledge_cutoff = "1743379200"
+name = "Mistral: Codestral 2508 (batch)"
+release_date = "1754079630"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 204800
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.3
+output = 0.9

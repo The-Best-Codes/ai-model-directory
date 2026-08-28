@@ -1,0 +1,19 @@
+id = "hy4-preview"
+name = "hy4-preview"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1024000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.04225
+input = 0.845
+output = 2.535

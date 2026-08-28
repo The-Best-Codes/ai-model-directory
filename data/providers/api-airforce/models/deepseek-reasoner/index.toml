@@ -1,6 +1,6 @@
 id = "deepseek-reasoner"
 name = "deepseek-reasoner"
-release_date = "1787819179"
+release_date = "1787913603"
 
 [features]
 attachment = false

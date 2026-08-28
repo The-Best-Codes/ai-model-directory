@@ -1,0 +1,11 @@
+id = "wan3.0-video"
+last_updated = "1787820569"
+name = "wan3.0-video"
+release_date = "1787819446"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

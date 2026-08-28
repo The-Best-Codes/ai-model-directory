@@ -1,6 +1,6 @@
 id = "doubao-embedding-large-text-240915"
 name = "doubao-embedding-large-text-240915"
-release_date = "1787819179"
+release_date = "1787913603"
 
 [features]
 attachment = false

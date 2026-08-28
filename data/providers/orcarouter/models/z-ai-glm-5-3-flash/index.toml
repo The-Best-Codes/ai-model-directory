@@ -1,0 +1,17 @@
+id = "z-ai/glm-5.3-flash"
+name = "Z.ai: GLM 5.3 Flash"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.075
+output = 0.25
