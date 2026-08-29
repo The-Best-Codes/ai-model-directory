@@ -1,6 +1,2 @@
 id = "gemini-3.5-transcribe-live"
 name = "Gemini 3.5 Transcribe Live"
-
-[pricing]
-input = 3.5
-output = 21

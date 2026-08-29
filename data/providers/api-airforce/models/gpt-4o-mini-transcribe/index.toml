@@ -1,6 +1,6 @@
 id = "gpt-4o-mini-transcribe"
 name = "gpt-4o-mini-transcribe"
-release_date = "1787913603"
+release_date = "1787984886"
 
 [pricing]
 input = 0.45

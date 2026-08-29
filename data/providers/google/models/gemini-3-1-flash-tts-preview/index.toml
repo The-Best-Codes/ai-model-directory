@@ -12,7 +12,3 @@ output = 16384
 [modalities]
 input = [ "text" ]
 output = [ "audio" ]
-
-[pricing]
-input = 1
-output = 20

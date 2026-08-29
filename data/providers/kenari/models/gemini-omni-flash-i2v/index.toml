@@ -1,0 +1,9 @@
+id = "gemini-omni-flash-i2v"
+name = "gemini-omni-flash-i2v"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

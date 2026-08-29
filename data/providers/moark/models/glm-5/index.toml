@@ -1,5 +1,5 @@
 id = "GLM-5"
-last_updated = "1787316705"
+last_updated = "1787915247"
 name = "GLM-5"
 release_date = "1770853836"
 
@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.59520784
-output = 2.67843528
+input = 0.5951346
+output = 2.6781057

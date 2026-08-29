@@ -1,0 +1,18 @@
+id = "zai-org/GLM-5.3"
+name = "GLM 5.3"
+release_date = "1787957543"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048575
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25999999999999995
+input = 1.4
+output = 4.4

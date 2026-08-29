@@ -1,5 +1,5 @@
 id = "zai-org/glm-5.3"
-name = "GLM 5.3 Preview"
+name = "GLM 5.3"
 release_date = "1786665600"
 
 [features]
@@ -17,5 +17,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.4
-output = 4.4
+input = 1
+output = 3.2

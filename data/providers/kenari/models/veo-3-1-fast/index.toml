@@ -1,0 +1,9 @@
+id = "veo-3.1-fast"
+name = "veo-3.1-fast"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,6 +1,2 @@
 id = "gemini-omni-1.1-flash"
 name = "Gemini Omni 1.1 Flash"
-
-[pricing]
-input = 1.5
-output = 9

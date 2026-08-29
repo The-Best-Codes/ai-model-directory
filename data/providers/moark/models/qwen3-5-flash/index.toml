@@ -1,5 +1,5 @@
 id = "Qwen3.5-Flash"
-last_updated = "1782445630"
+last_updated = "1787915070"
 name = "Qwen3.5-Flash"
 release_date = "1779767423"
 
@@ -11,5 +11,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.029760392
-output = 0.29760392
+input = 0.02975673
+output = 0.2975673

@@ -1,0 +1,15 @@
+id = "zai-org/GLM-5.3"
+name = "zai-org/GLM-5.3"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1048576
+output = 1048576
+
+[pricing]
+cache_read = 0.24
+input = 1.2
+output = 4

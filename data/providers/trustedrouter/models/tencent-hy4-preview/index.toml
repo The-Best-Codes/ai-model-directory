@@ -1,0 +1,17 @@
+id = "tencent/hy4-preview"
+name = "tencent/hy4-preview"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.87987
+output = 2.638555

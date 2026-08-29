@@ -7,6 +7,3 @@ context = 2048
 
 [modalities]
 output = [ "text" ]
-
-[pricing]
-input = 0.15

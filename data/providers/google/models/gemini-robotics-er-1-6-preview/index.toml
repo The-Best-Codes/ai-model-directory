@@ -13,7 +13,3 @@ output = 65536
 [modalities]
 input = [ "audio", "image", "text", "video" ]
 output = [ "text" ]
-
-[pricing]
-input = 1
-output = 5

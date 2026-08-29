@@ -1,0 +1,22 @@
+id = "google/gemma-4-31b-it:batch"
+name = "Google: Gemma 4 31B (batch)"
+release_date = "1775148486"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 235929
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.39
+output = 0.97

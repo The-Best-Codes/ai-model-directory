@@ -1,6 +1,6 @@
 id = "grok-3-deepersearch"
 name = "grok-3-deepersearch"
-release_date = "1787913603"
+release_date = "1787984886"
 
 [features]
 attachment = false

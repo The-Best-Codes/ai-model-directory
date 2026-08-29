@@ -1,5 +1,5 @@
 id = "Qwen3.5-35B-A3B"
-last_updated = "1772796699"
+last_updated = "1787915165"
 name = "Qwen3.5-35B-A3B"
 release_date = "1772014985"
 
@@ -15,5 +15,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.059520784
-output = 0.476166272
+input = 0.05951346
+output = 0.47610768

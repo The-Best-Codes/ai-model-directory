@@ -1,5 +1,5 @@
 id = "Qwen3-Coder-Flash"
-last_updated = "1784279403"
+last_updated = "1787915112"
 name = "Qwen3-Coder-Flash"
 release_date = "1781661600"
 
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.14880196
-output = 0.59520784
+input = 0.14878365
+output = 0.5951346

@@ -13,7 +13,3 @@ output = 32768
 [modalities]
 input = [ "image", "text" ]
 output = [ "image", "text" ]
-
-[pricing]
-input = 0.3
-output = 0.039

@@ -15,7 +15,3 @@ output = 4096
 [modalities]
 input = [ "image", "text" ]
 output = [ "image", "text" ]
-
-[pricing]
-input = 0.25
-output = 1.5
