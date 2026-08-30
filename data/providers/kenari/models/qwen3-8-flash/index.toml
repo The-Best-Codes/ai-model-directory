@@ -1,0 +1,20 @@
+id = "qwen3-8-flash"
+name = "qwen3-8-flash"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0168960768
+cache_write = 0.042240192
+input = 0.168960768
+output = 0.42240192

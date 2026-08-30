@@ -1,6 +1,6 @@
 id = "qwen/qwen3.8-27b-obliterated"
 name = "Qwen 3.8 27B Obliterated"
-release_date = "1787529600"
+release_date = "1785283200"
 
 [features]
 attachment = true

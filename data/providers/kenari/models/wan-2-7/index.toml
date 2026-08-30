@@ -1,9 +1,0 @@
-id = "wan-2.7"
-name = "wan-2.7"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "video" ]

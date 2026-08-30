@@ -1,6 +1,6 @@
 id = "ornith-ai/ornith-1.5-9b"
 name = "Ornith 1.5 9B"
-release_date = "1787443200"
+release_date = "1785283200"
 
 [features]
 attachment = true

@@ -1,0 +1,17 @@
+id = "glm5.3-flash"
+name = "glm5.3-flash"
+open_weights = false
+release_date = "1787616000"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 289550.9
+output = 579101.8

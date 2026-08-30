@@ -1,2 +1,10 @@
 id = "meta/muse-glimmer-30b"
-name = "meta/muse-glimmer-30b"
+name = "Muse Glimmer"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

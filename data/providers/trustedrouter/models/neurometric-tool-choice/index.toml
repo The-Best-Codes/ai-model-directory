@@ -1,0 +1,17 @@
+id = "neurometric/tool-choice"
+name = "tool-choice"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01055
+output = 0.1055

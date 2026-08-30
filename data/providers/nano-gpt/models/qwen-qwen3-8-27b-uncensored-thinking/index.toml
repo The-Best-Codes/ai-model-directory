@@ -1,6 +1,6 @@
 id = "qwen/qwen3.8-27b-uncensored:thinking"
 name = "Qwen 3.8 27B Uncensored Thinking"
-release_date = "1787616000"
+release_date = "1785283200"
 
 [features]
 attachment = true

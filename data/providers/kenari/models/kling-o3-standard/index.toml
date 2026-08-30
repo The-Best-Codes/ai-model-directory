@@ -1,9 +1,0 @@
-id = "kling-o3-standard"
-name = "kling-o3-standard"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "video" ]

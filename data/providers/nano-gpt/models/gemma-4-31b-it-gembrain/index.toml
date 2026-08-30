@@ -1,0 +1,21 @@
+id = "gemma-4-31b-it-gembrain"
+name = "Gembrain"
+release_date = "1785283200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.33

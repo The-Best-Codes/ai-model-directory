@@ -1,6 +1,6 @@
 id = "Gemma-4-31B-MeroMero-v2"
 name = "Gemma 4 31B MeroMero v2"
-release_date = "1787443200"
+release_date = "1785283200"
 
 [features]
 attachment = true

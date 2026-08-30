@@ -1,9 +1,9 @@
 id = "z-ai/glm-5.3-flash-uncensored"
 name = "GLM 5.3 Flash Uncensored"
-release_date = "1787788800"
+release_date = "1785283200"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 tool_call = true
@@ -13,7 +13,7 @@ context = 262144
 output = 32768
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

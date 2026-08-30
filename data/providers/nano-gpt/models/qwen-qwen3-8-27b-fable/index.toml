@@ -1,6 +1,6 @@
 id = "qwen/qwen3.8-27b-fable"
 name = "Qwen 3.8 27B Fable"
-release_date = "1787875200"
+release_date = "1785283200"
 
 [features]
 attachment = true
