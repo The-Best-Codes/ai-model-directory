@@ -1,5 +1,5 @@
 id = "abacusai/Dracarys-72B-Instruct"
-name = "Llama 3.1 70B Dracarys 2"
+name = "Qwen2 72B Dracarys"
 release_date = "1754092800"
 
 [features]
@@ -9,7 +9,7 @@ structured_output = false
 tool_call = false
 
 [limit]
-context = 16384
+context = 32768
 output = 8192
 
 [modalities]

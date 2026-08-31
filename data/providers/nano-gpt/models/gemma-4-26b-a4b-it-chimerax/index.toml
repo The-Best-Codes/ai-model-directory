@@ -1,5 +1,5 @@
 id = "gemma-4-26b-a4b-it-chimerax"
-name = "Chimera X"
+name = "Gemma 4 26B A4B Chimera X"
 release_date = "1785283200"
 
 [features]
@@ -17,5 +17,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.08
-output = 0.33
+input = 0.12000000000000001
+output = 0.38

@@ -1,17 +1,17 @@
-id = "Qwen/Qwen3-32B"
-name = "Qwen3 32B"
+id = "qwen/qwen3-32b"
+name = "Qwen: Qwen3 32B"
 open_weights = true
 
 [features]
 attachment = false
 
 [limit]
-context = 131072
+context = 40960
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.1055
-output = 0.3165
+input = 0.0844
+output = 0.26375

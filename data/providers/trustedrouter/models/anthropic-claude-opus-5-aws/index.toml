@@ -1,0 +1,17 @@
+id = "anthropic/claude-opus-5-aws"
+name = "Claude Opus 5 AWS"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5.275
+output = 26.375

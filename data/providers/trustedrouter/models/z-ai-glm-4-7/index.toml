@@ -6,7 +6,7 @@ open_weights = true
 attachment = false
 
 [limit]
-context = 204800
+context = 202752
 
 [modalities]
 input = [ "text" ]

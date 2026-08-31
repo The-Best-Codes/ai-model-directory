@@ -1,0 +1,20 @@
+id = "scaleway/deepseek-v4-flash-0731"
+name = "scaleway/deepseek-v4-flash-0731"
+release_date = "1785456000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.46
+output = 0.93

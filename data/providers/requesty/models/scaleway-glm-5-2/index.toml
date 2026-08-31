@@ -1,0 +1,20 @@
+id = "scaleway/glm-5.2"
+name = "scaleway/glm-5.2"
+release_date = "1781568000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 256000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.09
+output = 6.38

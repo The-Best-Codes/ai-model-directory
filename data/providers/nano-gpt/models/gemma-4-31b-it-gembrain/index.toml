@@ -1,5 +1,5 @@
 id = "gemma-4-31b-it-gembrain"
-name = "Gembrain"
+name = "Gemma 4 31B Gembrain"
 release_date = "1785283200"
 
 [features]
@@ -17,5 +17,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.08
-output = 0.33
+input = 0.1
+output = 0.45

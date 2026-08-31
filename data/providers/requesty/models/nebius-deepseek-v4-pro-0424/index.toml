@@ -1,0 +1,20 @@
+id = "nebius/deepseek-v4-pro-0424"
+name = "nebius/deepseek-v4-pro-0424"
+release_date = "1777000679"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 164000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.75
+output = 3.5

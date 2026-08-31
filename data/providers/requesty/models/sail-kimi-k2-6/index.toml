@@ -1,0 +1,20 @@
+id = "sail/kimi-k2.6"
+name = "sail/kimi-k2.6"
+release_date = "1776729600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 4

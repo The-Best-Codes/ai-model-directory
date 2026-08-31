@@ -1,0 +1,20 @@
+id = "runware/glm-5.3-flash"
+name = "runware/glm-5.3-flash"
+release_date = "1787875200"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.075
+output = 0.25

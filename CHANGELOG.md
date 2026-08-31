@@ -1,5 +1,1234 @@
 # Changelog
 
+## Run at 1788151467
+
+### Summary
+
+- **Total models currently tracked: 10809** across 72 providers
+- Providers with changes this run: 63
+- Total models added: 45
+- Total models removed: 54
+- Total field changes: 1281
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 22 |
+| `release_date` | 0 | 0 | 568 |
+| `open_weights` | 0 | 0 | 1 |
+| `features.attachment` | 1 | 0 | 0 |
+| `features.structured_output` | 0 | 0 | 10 |
+| `features.tool_call` | 1 | 0 | 1 |
+| `pricing.input` | 1 | 0 | 280 |
+| `pricing.output` | 1 | 0 | 264 |
+| `pricing.cache_read` | 3 | 0 | 67 |
+| `pricing.cache_write` | 0 | 0 | 19 |
+| `limit.context` | 1 | 0 | 31 |
+| `limit.output` | 0 | 0 | 8 |
+| `modalities.input` | 1 | 0 | 0 |
+| `modalities.output` | 1 | 0 | 0 |
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>302ai</strong> — 673 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 673
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>alibaba-cn</strong> — 110 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 110
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>api-airforce</strong> — 575 models, 2 added, 3 removed, 566 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 575
+- Models added: 2
+- Models removed: 3
+- Total field changes: 566
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 564 |
+| `pricing.input` | 0 | 0 | 1 |
+| `pricing.output` | 0 | 0 | 1 |
+
+</details>
+
+<details>
+<summary>Added models (2)</summary>
+
+- `qwen3-30b-a3b-fp8`
+- `rnj-1`
+
+</details>
+
+<details>
+<summary>Removed models (3)</summary>
+
+- `doubao-1-5-thinking-vision-pro-250428`
+- `gemma-4-26b-a4b-it`
+- `unmoderated-gpt`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>aihubmix</strong> — 860 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 860
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>anthropic</strong> — 10 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 10
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>avian</strong> — 13 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 13
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>baseten</strong> — 15 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 15
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>berget</strong> — 81 models, 0 added, 0 removed, 134 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 81
+- Models added: 0
+- Models removed: 0
+- Total field changes: 134
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 69 |
+| `pricing.output` | 0 | 0 | 65 |
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>cerebras</strong> — 2 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 2
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>chutes</strong> — 14 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 14
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>cohere</strong> — 20 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 20
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>cortecs</strong> — 111 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 111
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>crof</strong> — 23 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 23
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>deepinfra</strong> — 190 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 190
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>deepseek</strong> — 3 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 3
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>empiriolabs</strong> — 179 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 179
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>fastrouter</strong> — 185 models, 0 added, 0 removed, 2 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 185
+- Models added: 0
+- Models removed: 0
+- Total field changes: 2
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.cache_read` | 1 | 0 | 1 |
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>fireworks-ai</strong> — 288 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 288
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>github-copilot</strong> — 51 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 51
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>google</strong> — 54 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 54
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>groq</strong> — 14 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 14
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>helicone</strong> — 111 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 111
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>huggingface</strong> — 135 models, 0 added, 1 removed, 14 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 135
+- Models added: 0
+- Models removed: 1
+- Total field changes: 14
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `features.structured_output` | 0 | 0 | 8 |
+| `features.tool_call` | 0 | 0 | 1 |
+| `pricing.input` | 1 | 0 | 1 |
+| `pricing.output` | 1 | 0 | 1 |
+| `limit.context` | 1 | 0 | 0 |
+
+</details>
+
+<details>
+<summary>Removed models (1)</summary>
+
+- `aisingapore/Gemma-SEA-LION-v4-27B-IT`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>hyper</strong> — 29 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 29
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>impossibl</strong> — 102 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 102
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>inception</strong> — 1 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 1
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>inceptron</strong> — 4 models, 0 added, 0 removed, 4 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 4
+- Models added: 0
+- Models removed: 0
+- Total field changes: 4
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `release_date` | 0 | 0 | 4 |
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>io-net</strong> — 34 models, 0 added, 0 removed, 38 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 34
+- Models added: 0
+- Models removed: 0
+- Total field changes: 38
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 13 |
+| `pricing.output` | 0 | 0 | 13 |
+| `pricing.cache_read` | 0 | 0 | 12 |
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>jiekou</strong> — 201 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 201
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>kenari</strong> — 69 models, 0 added, 2 removed, 157 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 69
+- Models added: 0
+- Models removed: 2
+- Total field changes: 157
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 46 |
+| `pricing.output` | 0 | 0 | 46 |
+| `pricing.cache_read` | 0 | 0 | 46 |
+| `pricing.cache_write` | 0 | 0 | 19 |
+
+</details>
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `glm-5-1`
+- `mistral-large:free`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>kilo</strong> — 366 models, 0 added, 0 removed, 17 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 366
+- Models added: 0
+- Models removed: 0
+- Total field changes: 17
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 1 |
+| `pricing.input` | 0 | 0 | 3 |
+| `pricing.output` | 0 | 0 | 3 |
+| `pricing.cache_read` | 2 | 0 | 2 |
+| `limit.context` | 0 | 0 | 2 |
+| `limit.output` | 0 | 0 | 4 |
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>llmgateway</strong> — 250 models, 0 added, 11 removed, 3 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 250
+- Models added: 0
+- Models removed: 11
+- Total field changes: 3
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 2 |
+| `pricing.output` | 0 | 0 | 1 |
+
+</details>
+
+<details>
+<summary>Removed models (11)</summary>
+
+- `cosmos3-super-reasoner`
+- `gemma-3-27b`
+- `hermes-4-405b`
+- `hermes-4-70b`
+- `llama-3.1-nemotron-ultra-253b`
+- `minicpm-v-4.5`
+- `nemotron-3-nano-30b`
+- `nemotron-3-nano-omni`
+- `nemotron-3-super-120b`
+- `qwen2-5-vl-72b-instruct`
+- `qwen3-30b-a3b-instruct-2507`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>llmtr</strong> — 272 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 272
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>mistral</strong> — 53 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 53
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>modelscope</strong> — 50 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 50
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>moark</strong> — 241 models, 0 added, 0 removed, 176 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 241
+- Models added: 0
+- Models removed: 0
+- Total field changes: 176
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 93 |
+| `pricing.output` | 0 | 0 | 83 |
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>nano-gpt</strong> — 627 models, 0 added, 2 removed, 85 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 627
+- Models added: 0
+- Models removed: 2
+- Total field changes: 85
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 20 |
+| `features.structured_output` | 0 | 0 | 2 |
+| `pricing.input` | 0 | 0 | 30 |
+| `pricing.output` | 0 | 0 | 32 |
+| `limit.context` | 0 | 0 | 1 |
+
+</details>
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `claude-opus-4-1-thinking:32000`
+- `claude-opus-4-thinking:32000`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>neon</strong> — 42 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 42
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>neuralwatt</strong> — 19 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 19
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>novita</strong> — 155 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 155
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>ollama-cloud</strong> — 19 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 19
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>nvidia</strong> — 83 models, 0 added, 0 removed, 5 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 83
+- Models added: 0
+- Models removed: 0
+- Total field changes: 5
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 1 |
+| `features.attachment` | 1 | 0 | 0 |
+| `features.tool_call` | 1 | 0 | 0 |
+| `modalities.input` | 1 | 0 | 0 |
+| `modalities.output` | 1 | 0 | 0 |
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>ofox</strong> — 138 models, 0 added, 2 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 138
+- Models added: 0
+- Models removed: 2
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Removed models (2)</summary>
+
+- `anthropic/claude-opus-4.5`
+- `anthropic/claude-sonnet-4.5`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>openai</strong> — 124 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 124
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>opencode-zen</strong> — 63 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 63
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>ovhcloud</strong> — 24 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 24
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>pioneer</strong> — 166 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 166
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>poe</strong> — 349 models, 1 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 349
+- Models added: 1
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (1)</summary>
+
+- `glm-5.3`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>qiniu</strong> — 76 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 76
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>quiver</strong> — 3 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 3
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>openrouter</strong> — 396 models, 0 added, 0 removed, 23 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 396
+- Models added: 0
+- Models removed: 0
+- Total field changes: 23
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `pricing.input` | 0 | 0 | 5 |
+| `pricing.output` | 0 | 0 | 6 |
+| `pricing.cache_read` | 0 | 0 | 6 |
+| `limit.context` | 0 | 0 | 2 |
+| `limit.output` | 0 | 0 | 4 |
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>orcarouter</strong> — 190 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 190
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>requesty</strong> — 694 models, 33 added, 25 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 694
+- Models added: 33
+- Models removed: 25
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (33)</summary>
+
+- `deepinfra/deepseek-v4-flash-0424`
+- `deepinfra/deepseek-v4-flash-0424:flex`
+- `deepinfra/deepseek-v4-pro-0424`
+- `deepinfra/deepseek-v4-pro-0424:flex`
+- `doubleword/deepseek-v4-flash-0424`
+- `doubleword/deepseek-v4-flash-0424:flex`
+- `doubleword/deepseek-v4-pro-0424`
+- `doubleword/deepseek-v4-pro-0424:flex`
+- `nebius/deepseek-v4-pro-0424`
+- `novita/deepseek/deepseek-v4-flash-0424`
+- `parasail/deepseek-v4-flash-0424`
+- `parasail/gemma3-27b-it`
+- `relace/deepseek-v4-flash-0731`
+- `relace/glm-5.2`
+- `relace/glm-5.3-flash`
+- `relace/kimi-k3`
+- `runware/deepseek-v4-flash-0731`
+- `runware/glm-5.2`
+- `runware/glm-5.3-flash`
+- `runware/gpt-oss-120b`
+- `runware/qwen3.5-4b`
+- `runware/qwen3.5-9b`
+- `sail/deepseek-v4-flash-0731`
+- `sail/gemma-4-31b-it`
+- `sail/gemma-4-31b-it-nvfp4`
+- `sail/glm-5.2`
+- `sail/gpt-oss-120b`
+- `sail/kimi-k2.6`
+- `scaleway/deepseek-v4-flash-0731`
+- `scaleway/glm-5.2`
+- `scaleway/gpt-oss-120b`
+- `sference/glm-5.3`
+- `tensorx/deepseek-v4-pro-0424`
+
+</details>
+
+<details>
+<summary>Removed models (25)</summary>
+
+- `anthropic/claude-opus-4-1`
+- `deepinfra/deepseek-ai/DeepSeek-V4-Flash`
+- `deepinfra/deepseek-ai/DeepSeek-V4-Flash:flex`
+- `deepinfra/deepseek-ai/DeepSeek-V4-Pro`
+- `deepinfra/deepseek-ai/DeepSeek-V4-Pro:flex`
+- `doubleword/deepseek-v4-flash`
+- `doubleword/deepseek-v4-flash:flex`
+- `doubleword/deepseek-v4-pro`
+- `doubleword/deepseek-v4-pro:flex`
+- `fireworks/deepseek-v4-pro`
+- `fireworks/minimax-m2.7`
+- `nebius/deepseek-ai/deepseek-v4-pro`
+- `nebius/nvidia/nemotron-3-super-120b-a12b`
+- `novita/deepseek/deepseek-v4-flash`
+- `openai-responses/gpt-5.1-codex`
+- `openai-responses/gpt-5.2-codex`
+- `openai-responses/gpt-5.3-chat`
+- `openai/gpt-5.1-chat`
+- `openai/gpt-5.2-chat`
+- `openai/gpt-5.3-chat`
+- `parasail/kimi-k2.7-code`
+- `parasail/parasail-deepseek-v4-flash`
+- `parasail/parasail-gemma3-27b-it`
+- `sference/glm-5.3-flash`
+- `tensorx/deepseek-v4-pro`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>sakana</strong> — 4 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 4
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>synthetic</strong> — 11 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 11
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>tokenrouter</strong> — 133 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 133
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>togetherai</strong> — 277 models, 1 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 277
+- Models added: 1
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (1)</summary>
+
+- `Qwen/Qwen3.8-Flash`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>trustedrouter</strong> — 605 models, 6 added, 8 removed, 57 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 605
+- Models added: 6
+- Models removed: 8
+- Total field changes: 57
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `open_weights` | 0 | 0 | 1 |
+| `pricing.input` | 0 | 0 | 17 |
+| `pricing.output` | 0 | 0 | 13 |
+| `limit.context` | 0 | 0 | 26 |
+
+</details>
+
+<details>
+<summary>Added models (6)</summary>
+
+- `anthropic/claude-opus-5-aws`
+- `anthropic/claude-sonnet-5-aws`
+- `fal/flux-1-schnell`
+- `meta-llama/llama-3.3-70b-instruct`
+- `qwen/qwen2.5-vl-72b-instruct`
+- `qwen/qwen3-32b`
+
+</details>
+
+<details>
+<summary>Removed models (8)</summary>
+
+- `MiniMaxAI/MiniMax-M2.5`
+- `NousResearch/Hermes-4-70B`
+- `Qwen/Qwen2.5-VL-72B-Instruct`
+- `Qwen/Qwen3-32B`
+- `meta-llama/Llama-3.3-70B-Instruct`
+- `nvidia/Cosmos3-Super-Reasoner`
+- `nvidia/Llama-3_1-Nemotron-Ultra-253B-v1`
+- `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>venice</strong> — 111 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 111
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>vercel</strong> — 362 models, 2 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 362
+- Models added: 2
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (2)</summary>
+
+- `alibaba/qwen3.8-flash-next`
+- `minimax/minimax-h3-max`
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>wandb</strong> — 26 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 26
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>xai</strong> — 42 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 42
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+<details>
+<summary><strong>zenmux</strong> — 166 models, 0 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 166
+- Models added: 0
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+</details>
+
+</details>
+
 ## Run at 1788064834
 
 ### Summary

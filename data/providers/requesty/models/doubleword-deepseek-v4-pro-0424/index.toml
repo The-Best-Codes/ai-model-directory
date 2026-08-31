@@ -1,0 +1,20 @@
+id = "doubleword/deepseek-v4-pro-0424"
+name = "doubleword/deepseek-v4-pro-0424"
+release_date = "1777000679"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.74
+output = 3.48

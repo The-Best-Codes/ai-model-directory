@@ -1,0 +1,20 @@
+id = "sail/gpt-oss-120b"
+name = "sail/gpt-oss-120b"
+release_date = "1754352000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.4

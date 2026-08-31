@@ -1,0 +1,20 @@
+id = "sail/deepseek-v4-flash-0731"
+name = "sail/deepseek-v4-flash-0731"
+release_date = "1785456000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 1048576
+output = 384000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09
+output = 0.18

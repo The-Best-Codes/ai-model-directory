@@ -1,0 +1,14 @@
+id = "fal/flux-1-schnell"
+name = "FLUX.1 Schnell on FAL"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0
