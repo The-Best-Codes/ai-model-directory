@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-ocr-2"
-name = "DeepSeek-OCR 2"
+name = "DeepSeek OCR 2"
 open_weights = true
 
 [features]

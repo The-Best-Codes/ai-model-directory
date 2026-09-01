@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v4-pro"
-name = "Deepseek V4 Pro"
+name = "DeepSeek V4 Pro"
 release_date = "1777000931"
 
 [features]

@@ -1,5 +1,5 @@
 id = "sao10k/l3-70b-euryale-v2.1"
-name = "L3 70B Euryale V2.1"
+name = "Llama 3 70B Euryale V2.1"
 open_weights = false
 
 [features]

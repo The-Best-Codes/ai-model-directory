@@ -1,5 +1,5 @@
 id = "obsidian/gemma-4-26B-A4B"
-name = "Gemma4 26B A4B Uncensored (Balanced)"
+name = "Gemma 4 26B A4B"
 
 [features]
 attachment = true

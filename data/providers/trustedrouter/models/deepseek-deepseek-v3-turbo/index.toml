@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v3-turbo"
-name = "DeepSeek V3 (Turbo)"
+name = "DeepSeek V3 Turbo"
 open_weights = true
 
 [features]

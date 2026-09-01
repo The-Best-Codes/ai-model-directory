@@ -1,5 +1,5 @@
 id = "paddlepaddle/paddleocr-vl"
-name = "PaddleOCR-VL"
+name = "PaddleOCR VL"
 open_weights = false
 
 [features]

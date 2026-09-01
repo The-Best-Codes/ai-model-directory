@@ -1,5 +1,5 @@
 id = "paddlepaddle/paddleocr-vl"
-name = "PaddleOCR-VL"
+name = "PaddleOCR VL"
 release_date = "1761138629"
 
 [features]

@@ -1,0 +1,21 @@
+id = "abliteration-ai/abliterated-model-large-v2"
+name = "Abliterated Model Large V2"
+release_date = "1788134400"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 1000000
+output = 999990
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5
+output = 5

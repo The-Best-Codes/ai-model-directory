@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-r1-turbo"
-name = "DeepSeek R1 (Turbo)"
+name = "DeepSeek R1 Turbo"
 release_date = "1741174465"
 
 [features]

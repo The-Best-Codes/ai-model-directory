@@ -1,5 +1,5 @@
 id = "obsidian/Qwen3.6-35B-A3B"
-name = "Qwen3.6 35B A3B Uncensored (Aggressive)"
+name = "Qwen3.6 35B A3B"
 
 [features]
 attachment = true

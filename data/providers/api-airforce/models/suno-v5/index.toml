@@ -1,13 +1,6 @@
 id = "suno-v5"
 name = "suno-v5"
-release_date = "1788151385"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
+release_date = "1788236620"
 
 [pricing]
 input = 27.45

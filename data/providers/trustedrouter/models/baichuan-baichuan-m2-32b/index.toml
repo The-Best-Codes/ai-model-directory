@@ -1,5 +1,5 @@
 id = "baichuan/baichuan-m2-32b"
-name = "BaiChuan M2 32B"
+name = "Baichuan M2 32B"
 open_weights = false
 
 [features]

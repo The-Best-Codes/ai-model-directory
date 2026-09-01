@@ -3,7 +3,7 @@ name = "Seedream 5.0 Pro"
 release_date = "1782604800"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true
@@ -13,7 +13,7 @@ tool_call = true
 context = 2000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "image", "text" ]
 
 [pricing]

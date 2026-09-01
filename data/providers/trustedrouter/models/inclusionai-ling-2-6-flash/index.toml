@@ -1,5 +1,5 @@
 id = "inclusionai/ling-2.6-flash"
-name = "Ling-2.6-flash"
+name = "Ling 2.6 Flash"
 open_weights = false
 
 [features]

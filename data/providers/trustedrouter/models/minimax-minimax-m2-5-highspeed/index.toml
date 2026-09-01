@@ -1,5 +1,5 @@
 id = "minimax/minimax-m2.5-highspeed"
-name = "MiniMax M2.5-highspeed"
+name = "MiniMax M2.5 Highspeed"
 open_weights = false
 
 [features]

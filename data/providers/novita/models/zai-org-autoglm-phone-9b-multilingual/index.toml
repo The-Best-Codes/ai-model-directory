@@ -1,5 +1,5 @@
 id = "zai-org/autoglm-phone-9b-multilingual"
-name = "AutoGLM-Phone-9B-Multilingual"
+name = "AutoGLM Phone 9B Multilingual"
 release_date = "1765370191"
 
 [features]

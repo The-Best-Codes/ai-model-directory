@@ -1,5 +1,5 @@
 id = "nvidia/nemotron-3-nano-30b-a3b"
-name = "Nemotron 3 Nano 30B A3B"
+name = "NVIDIA Nemotron 3 Nano 30B A3B"
 release_date = "1781004459"
 
 [features]

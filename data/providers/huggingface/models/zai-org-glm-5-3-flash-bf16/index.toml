@@ -3,10 +3,10 @@ name = "zai-org/GLM-5.3-Flash-BF16"
 release_date = "1787640305"
 
 [features]
-attachment = false
+attachment = true
 structured_output = false
 tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]

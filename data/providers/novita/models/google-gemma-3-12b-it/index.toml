@@ -1,5 +1,5 @@
 id = "google/gemma-3-12b-it"
-name = "Gemma3 12B"
+name = "Gemma 3 12B"
 release_date = "1756965597"
 
 [features]

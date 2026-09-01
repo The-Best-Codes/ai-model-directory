@@ -1,5 +1,5 @@
 id = "sao10k/l3-8b-lunaris"
-name = "Sao10k L3 8B Lunaris"
+name = "Llama 3 8B Lunaris"
 release_date = "1732791714"
 
 [features]

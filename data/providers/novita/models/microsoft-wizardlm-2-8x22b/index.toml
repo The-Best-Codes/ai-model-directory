@@ -1,5 +1,5 @@
 id = "microsoft/wizardlm-2-8x22b"
-name = "Wizardlm 2 8x22B"
+name = "WizardLM 2 8x22B"
 release_date = "1713938472"
 
 [features]

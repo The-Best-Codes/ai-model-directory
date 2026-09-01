@@ -1,5 +1,5 @@
 id = "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
-last_updated = "1777449568"
+last_updated = "1788192028"
 name = "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
 release_date = "1775127410"
 
@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.089192508
-output = 0.713540064
+input = 0.089263848
+output = 0.714110784

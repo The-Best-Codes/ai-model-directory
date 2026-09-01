@@ -1,5 +1,5 @@
 id = "qwen/qwen3.5-122b-a10b"
-name = "Qwen3.5-122B-A10B"
+name = "Qwen3.5 122B A10B"
 release_date = "1772074350"
 
 [features]

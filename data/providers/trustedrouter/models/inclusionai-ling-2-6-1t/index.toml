@@ -1,5 +1,5 @@
 id = "inclusionai/ling-2.6-1t"
-name = "Ling-2.6-1T"
+name = "Ling 2.6 1T"
 open_weights = false
 
 [features]

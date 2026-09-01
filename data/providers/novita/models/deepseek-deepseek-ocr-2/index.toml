@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-ocr-2"
-name = "DeepSeek-OCR 2"
+name = "DeepSeek OCR 2"
 release_date = "1769499613"
 
 [features]

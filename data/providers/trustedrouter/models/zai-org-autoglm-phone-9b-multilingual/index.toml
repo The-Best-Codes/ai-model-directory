@@ -1,5 +1,5 @@
 id = "zai-org/autoglm-phone-9b-multilingual"
-name = "AutoGLM-Phone-9B-Multilingual"
+name = "AutoGLM Phone 9B Multilingual"
 open_weights = false
 
 [features]
