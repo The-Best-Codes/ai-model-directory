@@ -1,0 +1,19 @@
+id = "claude-fable-5-1"
+name = "claude-fable-5-1"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.275
+input = 11
+output = 55

@@ -1,0 +1,17 @@
+id = "anthropic/claude-fable-5.1"
+name = "Anthropic: Claude Fable 5.1"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 10.55
+output = 52.75

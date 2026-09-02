@@ -1,0 +1,19 @@
+id = "mercury-2.5-preview"
+name = "mercury-2.5-preview"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 260000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.2
+output = 0.75

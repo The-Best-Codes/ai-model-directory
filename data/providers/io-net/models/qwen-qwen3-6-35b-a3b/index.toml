@@ -6,7 +6,7 @@ release_date = "1779451322"
 attachment = false
 
 [limit]
-context = 262140
+context = 262144
 
 [modalities]
 input = [ "text" ]
@@ -14,4 +14,4 @@ input = [ "text" ]
 [pricing]
 cache_read = 0.0936
 input = 0.1872
-output = 1.22675
+output = 1.24675
