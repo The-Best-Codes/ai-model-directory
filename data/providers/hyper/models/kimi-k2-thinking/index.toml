@@ -1,0 +1,17 @@
+id = "kimi-k2-thinking"
+name = "Kimi K2 Thinking"
+release_date = "1788377536"
+
+[limit]
+context = 262144
+output = 26214
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0.3
+input = 0.6
+output = 2.5

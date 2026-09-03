@@ -1,0 +1,19 @@
+id = "inception/mercury-2.5-preview"
+name = "Mercury 2.5 Preview"
+release_date = "1788321965"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 260000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.004
+input = 0.04
+output = 0.15

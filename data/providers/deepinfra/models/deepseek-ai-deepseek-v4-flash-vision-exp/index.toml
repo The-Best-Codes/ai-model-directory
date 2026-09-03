@@ -1,0 +1,15 @@
+id = "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+name = "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+cache_read = 0.1400000008
+input = 0.43999999999999995
+output = 1.32

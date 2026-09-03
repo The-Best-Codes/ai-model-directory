@@ -1,0 +1,14 @@
+id = "muse-spark-1-3-contributor"
+name = "muse-spark-1-3-contributor"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0022510196
+input = 0.11255098
+output = 0.22510196

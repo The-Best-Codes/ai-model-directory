@@ -1,0 +1,17 @@
+id = "minimax/h3-max"
+name = "MiniMax H3 Max"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

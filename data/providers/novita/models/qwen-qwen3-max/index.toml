@@ -4,7 +4,7 @@ release_date = "1758682246"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 structured_output = true
 tool_call = true
 

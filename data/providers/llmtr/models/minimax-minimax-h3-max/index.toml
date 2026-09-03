@@ -1,0 +1,9 @@
+id = "minimax/minimax-h3-max"
+name = "MiniMax H3 Max"
+release_date = "1788374131"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]

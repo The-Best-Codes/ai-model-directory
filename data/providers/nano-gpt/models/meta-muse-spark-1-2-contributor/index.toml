@@ -1,5 +1,5 @@
 id = "meta/muse-spark-1.2-contributor"
-name = "Muse Spark 1.2 Contributor (Data Used for Training)"
+name = "Muse Spark 1.2 Contributor"
 release_date = "1785888000"
 
 [features]

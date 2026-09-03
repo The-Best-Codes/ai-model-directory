@@ -1,0 +1,13 @@
+id = "Qwen3.8-27B"
+name = "Qwen3.8-27B"
+release_date = "1788356485"
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0
