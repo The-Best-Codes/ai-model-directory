@@ -1,0 +1,14 @@
+id = "kling-image-recognize"
+name = "kling-image-recognize"
+release_date = "1788493615"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 31.11
+output = 2.21

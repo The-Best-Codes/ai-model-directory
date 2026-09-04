@@ -1,0 +1,16 @@
+id = "WeMM-Embedding-2B"
+last_updated = "1788424428"
+name = "WeMM-Embedding-2B"
+release_date = "1788337754"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.104194006

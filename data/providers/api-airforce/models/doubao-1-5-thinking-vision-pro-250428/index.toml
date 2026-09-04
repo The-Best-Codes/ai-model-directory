@@ -1,0 +1,16 @@
+id = "doubao-1-5-thinking-vision-pro-250428"
+name = "doubao-1-5-thinking-vision-pro-250428"
+release_date = "1788493615"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.45
+output = 1.34

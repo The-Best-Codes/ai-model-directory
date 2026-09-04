@@ -1,5 +1,5 @@
 id = "ibm-granite/granite-4.2-8b"
-name = "ibm-granite/granite-4.2-8b"
+name = "IBM: Granite 4.2 8B"
 open_weights = true
 
 [features]

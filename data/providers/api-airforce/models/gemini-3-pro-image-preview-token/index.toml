@@ -1,0 +1,14 @@
+id = "gemini-3-pro-image-preview-token"
+name = "gemini-3-pro-image-preview-token"
+release_date = "1788493615"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.58
+output = 94.66

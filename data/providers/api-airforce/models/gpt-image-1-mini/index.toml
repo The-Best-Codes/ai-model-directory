@@ -1,6 +1,6 @@
 id = "gpt-image-1-mini"
 name = "gpt-image-1-mini"
-release_date = "1788407191"
+release_date = "1788493615"
 
 [features]
 attachment = false
@@ -10,5 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.01
-output = 4.02
+input = 0.89
+output = 3.55

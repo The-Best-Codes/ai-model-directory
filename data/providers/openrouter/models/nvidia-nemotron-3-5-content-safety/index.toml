@@ -1,0 +1,22 @@
+id = "nvidia/nemotron-3.5-content-safety"
+name = "NVIDIA: Nemotron 3.5 Content Safety"
+release_date = "1780581864"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 131072
+output = 117964
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

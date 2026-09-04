@@ -1,0 +1,14 @@
+id = "qwen-mt-image"
+name = "qwen-mt-image"
+release_date = "1788493615"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.81
+output = 0.02

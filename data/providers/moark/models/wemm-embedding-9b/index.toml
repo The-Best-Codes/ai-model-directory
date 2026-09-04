@@ -1,0 +1,16 @@
+id = "WeMM-Embedding-9B"
+last_updated = "1788424417"
+name = "WeMM-Embedding-9B"
+release_date = "1788414800"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.133963722

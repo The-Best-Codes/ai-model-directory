@@ -1,0 +1,17 @@
+id = "alibaba/wan-3.0"
+name = "Wan 3.0"
+release_date = "1787529600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

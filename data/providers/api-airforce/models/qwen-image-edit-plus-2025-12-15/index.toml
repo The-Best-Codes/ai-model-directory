@@ -1,0 +1,14 @@
+id = "qwen-image-edit-plus-2025-12-15"
+name = "qwen-image-edit-plus-2025-12-15"
+release_date = "1788493615"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 7.58
+output = 0.02

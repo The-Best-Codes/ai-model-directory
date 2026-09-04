@@ -9,8 +9,8 @@ structured_output = false
 tool_call = false
 
 [limit]
-context = 32000
-output = 32768
+context = 128000
+output = 115200
 
 [modalities]
 input = [ "image", "text" ]

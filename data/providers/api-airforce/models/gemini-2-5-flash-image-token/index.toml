@@ -1,0 +1,14 @@
+id = "gemini-2.5-flash-image-token"
+name = "gemini-2.5-flash-image-token"
+release_date = "1788493615"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.24
+output = 23.66

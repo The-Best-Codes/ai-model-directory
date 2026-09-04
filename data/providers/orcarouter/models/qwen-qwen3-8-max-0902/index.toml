@@ -1,0 +1,17 @@
+id = "qwen/qwen3.8-max-0902"
+name = "Qwen: Qwen3.8 Max (0902)"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 6

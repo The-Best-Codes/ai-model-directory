@@ -1,0 +1,15 @@
+id = "inclusionAI/Ling-3.0-flash-Fin"
+name = "inclusionAI/Ling-3.0-flash-Fin"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.012000000000000002
+input = 0.060000000000000005
+output = 0.18

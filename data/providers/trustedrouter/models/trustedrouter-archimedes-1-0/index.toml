@@ -1,0 +1,17 @@
+id = "trustedrouter/archimedes-1.0"
+name = "TrustedRouter Archimedes 1.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5275
+output = 1.5825

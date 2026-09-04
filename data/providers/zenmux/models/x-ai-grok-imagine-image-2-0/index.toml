@@ -1,0 +1,14 @@
+id = "x-ai/grok-imagine-image-2.0"
+name = "Grok Imagine Image 2.0"
+release_date = "1788244803"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 66000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

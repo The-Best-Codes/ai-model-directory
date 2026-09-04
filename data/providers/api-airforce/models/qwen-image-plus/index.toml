@@ -1,0 +1,13 @@
+id = "qwen-image-plus"
+name = "qwen-image-plus"
+release_date = "1788493615"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5.38

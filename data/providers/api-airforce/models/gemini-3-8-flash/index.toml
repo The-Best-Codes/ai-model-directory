@@ -1,0 +1,17 @@
+id = "gemini-3.8-flash"
+name = "gemini-3.8-flash"
+release_date = "1788493615"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.22
+output = 1.08

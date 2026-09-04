@@ -1,6 +1,6 @@
 id = "text-embedding-3-large"
 name = "text-embedding-3-large"
-release_date = "1788407191"
+release_date = "1788493615"
 
 [features]
 attachment = false
