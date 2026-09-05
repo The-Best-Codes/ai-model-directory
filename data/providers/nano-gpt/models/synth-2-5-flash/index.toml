@@ -1,0 +1,20 @@
+id = "synth-2.5-flash"
+name = "Synth 2.5 Flash Preview"
+release_date = "1788566400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 30000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.030000000000000002
+output = 0.1

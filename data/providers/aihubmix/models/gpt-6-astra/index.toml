@@ -1,0 +1,19 @@
+id = "gpt-6-astra"
+name = "gpt-6-astra"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 1
+input = 10
+output = 50

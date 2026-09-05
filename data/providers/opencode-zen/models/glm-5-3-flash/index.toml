@@ -1,0 +1,25 @@
+id = "glm-5.3-flash"
+last_updated = "1787702400"
+name = "GLM-5.3-Flash"
+open_weights = false
+release_date = "1787702400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.15
+output = 0.5

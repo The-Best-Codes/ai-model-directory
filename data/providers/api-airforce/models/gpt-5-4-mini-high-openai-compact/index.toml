@@ -1,6 +1,6 @@
 id = "gpt-5.4-mini-high-openai-compact"
 name = "gpt-5.4-mini-high-openai-compact"
-release_date = "1788493615"
+release_date = "1788579938"
 
 [features]
 attachment = false
@@ -11,7 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.04
-cache_write = 0.48
+cache_read = 0.01
 input = 0.39
 output = 2.33

@@ -1,6 +1,6 @@
 id = "qwen3.6-max-preview"
 name = "qwen3.6-max-preview"
-release_date = "1788493615"
+release_date = "1788579938"
 
 [features]
 attachment = false

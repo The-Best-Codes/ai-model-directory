@@ -1,0 +1,17 @@
+id = "openai/gpt-6-astra"
+name = "gpt-6-astra"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 10.55
+output = 52.75

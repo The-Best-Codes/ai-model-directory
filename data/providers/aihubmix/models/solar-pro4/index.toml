@@ -1,0 +1,19 @@
+id = "solar-pro4"
+name = "solar-pro4"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 524288
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.3
+output = 1.2

@@ -1,0 +1,10 @@
+id = "tts-2-flash"
+name = "TTS 2 Flash"
+release_date = "1788307200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

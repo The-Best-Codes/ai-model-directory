@@ -1,12 +1,2 @@
 id = "deepseek-ai/deepseek-v4-pro-0813"
-name = "DeepSeek-V4-Pro-0813"
-
-[features]
-tool_call = true
-
-[limit]
-context = 1
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
+name = "deepseek-ai/deepseek-v4-pro-0813"

@@ -1,0 +1,17 @@
+id = "neurometric/conversation-summary"
+name = "Conversation Summary"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 49152
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01055
+output = 0.1055

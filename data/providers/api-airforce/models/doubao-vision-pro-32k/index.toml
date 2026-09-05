@@ -1,6 +1,6 @@
 id = "Doubao-vision-pro-32k"
 name = "Doubao-vision-pro-32k"
-release_date = "1788493615"
+release_date = "1788579938"
 
 [features]
 attachment = false
@@ -13,4 +13,4 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.05
 input = 0.38
-output = 1.13
+output = 1.14
