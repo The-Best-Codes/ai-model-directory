@@ -1,0 +1,12 @@
+id = "oc/nemotron-3-ultra"
+name = "oc/nemotron-3-ultra"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
