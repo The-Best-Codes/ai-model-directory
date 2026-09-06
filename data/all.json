@@ -110182,6 +110182,1411 @@
       }
     }
   },
+  "kiosapi": {
+    "id": "kiosapi",
+    "name": "KiosAPI",
+    "website": "https://kiosapi.com",
+    "apiBaseUrl": "https://router.kiosapi.com/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "KIOSAPI_API_KEY"
+      ]
+    },
+    "models": {
+      "agnes-2.0-flash": {
+        "id": "agnes-2.0-flash",
+        "name": "agnes-2.0-flash",
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "agnes-2.5-flash": {
+        "id": "agnes-2.5-flash",
+        "name": "agnes-2.5-flash",
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "claude-fable-5": {
+        "id": "claude-fable-5",
+        "name": "Anthropic: Claude Fable 5",
+        "release_date": "1781007515",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 10,
+          "output": 50,
+          "cache_read": 1,
+          "cache_write": 12.5
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "claude-opus-4-6": {
+        "id": "claude-opus-4-6",
+        "name": "Anthropic: Claude Opus 4.6",
+        "release_date": "1770219050",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5,
+          "cache_write": 6.25
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "claude-opus-4-7": {
+        "id": "claude-opus-4-7",
+        "name": "Anthropic: Claude Opus 4.7",
+        "release_date": "1776351100",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5,
+          "cache_write": 6.25
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "claude-opus-4-8": {
+        "id": "claude-opus-4-8",
+        "name": "Anthropic: Claude Opus 4.8",
+        "release_date": "1779905091",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5,
+          "cache_write": 6.25
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "claude-opus-5": {
+        "id": "claude-opus-5",
+        "name": "Claude Opus 5",
+        "release_date": "1784912544",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5,
+          "cache_write": 6.25
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "claude-sonnet-4-6": {
+        "id": "claude-sonnet-4-6",
+        "name": "Anthropic: Claude Sonnet 4.6",
+        "release_date": "1771342990",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.3,
+          "cache_write": 3.75
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "claude-sonnet-5": {
+        "id": "claude-sonnet-5",
+        "name": "Anthropic: Claude Sonnet 5",
+        "release_date": "1782843083",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.2,
+          "cache_write": 2.5
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "codex-auto-review": {
+        "id": "codex-auto-review",
+        "name": "codex-auto-review",
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cache_read": 0.5
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "deepseek-v4-flash": {
+        "id": "deepseek-v4-flash",
+        "name": "DeepSeek: DeepSeek V4 Flash 0423",
+        "release_date": "1777000666",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1024000,
+          "output": 384000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "deepseek-v4-pro": {
+        "id": "deepseek-v4-pro",
+        "name": "DeepSeek: DeepSeek V4 Pro 0423",
+        "release_date": "1777000679",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.32,
+          "output": 3.96,
+          "cache_read": 0.35000000000064
+        },
+        "limit": {
+          "context": 1024000,
+          "output": 384000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gemini-2.5-flash": {
+        "id": "gemini-2.5-flash",
+        "name": "Google: Gemini 2.5 Flash",
+        "knowledge_cutoff": "1738281600",
+        "release_date": "1750172488",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65535
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gemini-3.1-flash-lite": {
+        "id": "gemini-3.1-flash-lite",
+        "name": "Google: Gemini 3.1 Flash Lite",
+        "release_date": "1778168828",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gemini-3.1-pro": {
+        "id": "gemini-3.1-pro",
+        "name": "gemini-3.1-pro",
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 4,
+          "output": 18,
+          "cache_read": 0.4,
+          "cache_write": 0.375
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "gemini-3.1-pro-preview": {
+        "id": "gemini-3.1-pro-preview",
+        "name": "Google: Gemini 3.1 Pro Preview",
+        "release_date": "1771509627",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cache_read": 0.2,
+          "cache_write": 2.5
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gemini-3.5-flash": {
+        "id": "gemini-3.5-flash",
+        "name": "Google: Gemini 3.5 Flash",
+        "knowledge_cutoff": "1735689600",
+        "release_date": "1779193800",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 9,
+          "cache_read": 0.15,
+          "cache_write": 0.09
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gemini-3.6-flash": {
+        "id": "gemini-3.6-flash",
+        "name": "Google: Gemini 3.6 Flash",
+        "release_date": "1784646733",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": 0.15,
+          "cache_write": 0.09
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gemini-3.7-flash": {
+        "id": "gemini-3.7-flash",
+        "name": "Google: Gemini 3.7 Flash",
+        "release_date": "1786640581",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 3.75,
+          "cache_read": 0.075,
+          "cache_write": 0.04167
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gemini-3-flash": {
+        "id": "gemini-3-flash",
+        "name": "gemini-3-flash",
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 3,
+          "cache_read": 0.05,
+          "cache_write": 0.08333
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "glm-5.2": {
+        "id": "glm-5.2",
+        "name": "Z.ai: GLM 5.2",
+        "release_date": "1781631930",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.3999999999998
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "glm-5.3": {
+        "id": "glm-5.3",
+        "name": "Z.ai: GLM 5.3",
+        "release_date": "1787086655",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.5
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "glm-5.3-flash": {
+        "id": "glm-5.3-flash",
+        "name": "Z.ai: GLM 5.3 Flash",
+        "release_date": "1787752741",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gpt-5.5": {
+        "id": "gpt-5.5",
+        "name": "OpenAI: GPT-5.5",
+        "knowledge_cutoff": "1764547200",
+        "release_date": "1777051893",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cache_read": 0.5,
+          "cache_write": 6.25
+        },
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gpt-5.6-sol": {
+        "id": "gpt-5.6-sol",
+        "name": "OpenAI: GPT-5.6 Sol",
+        "knowledge_cutoff": "1771200000",
+        "release_date": "1783590850",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cache_read": 0.5,
+          "cache_write": 6.25
+        },
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gpt-5.6-terra": {
+        "id": "gpt-5.6-terra",
+        "name": "OpenAI: GPT-5.6 Terra",
+        "knowledge_cutoff": "1771200000",
+        "release_date": "1783590857",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cache_read": 0.2,
+          "cache_write": 2.5
+        },
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gpt-6-astra": {
+        "id": "gpt-6-astra",
+        "name": "OpenAI: GPT-6 Astra",
+        "release_date": "1788552838",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 10,
+          "output": 50,
+          "cache_read": 1
+        },
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gpt-image-2": {
+        "id": "gpt-image-2",
+        "name": "gpt-image-2",
+        "features": {
+          "attachment": true
+        },
+        "pricing": {
+          "output": 1
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ]
+        }
+      },
+      "grok-4.5": {
+        "id": "grok-4.5",
+        "name": "SpaceXAI: Grok 4.5",
+        "release_date": "1783523154",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.5
+        },
+        "limit": {
+          "context": 500000,
+          "output": 450000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "grok-4.6": {
+        "id": "grok-4.6",
+        "name": "SpaceXAI: Grok 4.6",
+        "release_date": "1786548957",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 500000,
+          "output": 450000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "hy3": {
+        "id": "hy3",
+        "name": "Tencent: Hy3",
+        "release_date": "1783344048",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 262144,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "Kimi-K3": {
+        "id": "Kimi-K3",
+        "name": "MoonshotAI: Kimi K3",
+        "release_date": "1784215858",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.3
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 943718
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "mimo-v2.5-pro": {
+        "id": "mimo-v2.5-pro",
+        "name": "Xiaomi: MiMo-V2.5-Pro",
+        "release_date": "1776874273",
+        "open_weights": true,
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0.435,
+          "output": 0.87,
+          "cache_read": 0.003600000000015
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "minimaxai/minimax-m3": {
+        "id": "minimaxai/minimax-m3",
+        "name": "MiniMax: MiniMax M3",
+        "release_date": "1780245374",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 524288,
+          "output": 512000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "moonshotai/kimi-k3": {
+        "id": "moonshotai/kimi-k3",
+        "name": "MoonshotAI: Kimi K3",
+        "release_date": "1784215858",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 943718
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "nvidia/nemotron-3-super-120b-a12b": {
+        "id": "nvidia/nemotron-3-super-120b-a12b",
+        "name": "NVIDIA: Nemotron 3 Super",
+        "release_date": "1773245239",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "limit": {
+          "context": 262144,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "oc/big-pickle": {
+        "id": "oc/big-pickle",
+        "name": "oc/big-pickle",
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "oc/ling-3.0-flash-fin": {
+        "id": "oc/ling-3.0-flash-fin",
+        "name": "inclusionAI: Ling 3.0 Flash Fin",
+        "release_date": "1787846290",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "limit": {
+          "context": 262144,
+          "output": 235929
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "oc/mimo-v2.5": {
+        "id": "oc/mimo-v2.5",
+        "name": "Xiaomi: MiMo-V2.5",
+        "release_date": "1776874269",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "oc/muse-spark-1.2-contributor": {
+        "id": "oc/muse-spark-1.2-contributor",
+        "name": "Meta: Muse Spark 1.2 Contributor",
+        "release_date": "1787336476",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 943718
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "oc/muse-spark-1.3-contributor": {
+        "id": "oc/muse-spark-1.3-contributor",
+        "name": "Meta: Muse Spark 1.3 Contributor",
+        "release_date": "1788381519",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 943718
+        },
+        "modalities": {
+          "input": [
+            "audio",
+            "file",
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "oc/nemotron-3.5-lightning": {
+        "id": "oc/nemotron-3.5-lightning",
+        "name": "NVIDIA: Nemotron 3.5 Lightning",
+        "release_date": "1786452751",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 262144,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "oc/nemotron-3-ultra": {
+        "id": "oc/nemotron-3-ultra",
+        "name": "oc/nemotron-3-ultra",
+        "features": {
+          "attachment": false
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-5.6-luna": {
+        "id": "openai/gpt-5.6-luna",
+        "name": "OpenAI: GPT-5.6 Luna",
+        "knowledge_cutoff": "1771200000",
+        "release_date": "1783590864",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": false
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "openai/gpt-oss-20b": {
+        "id": "openai/gpt-oss-20b",
+        "name": "OpenAI: gpt-oss-20b",
+        "knowledge_cutoff": "1719705600",
+        "release_date": "1754414229",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 131072,
+          "output": 117964
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "Qwen/Qwen3.8-27B": {
+        "id": "Qwen/Qwen3.8-27B",
+        "name": "Qwen: Qwen3.8 27B",
+        "release_date": "1786722910",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "Qwen/Qwen3-8B": {
+        "id": "Qwen/Qwen3-8B",
+        "name": "Qwen: Qwen3 8B",
+        "knowledge_cutoff": "1743379200",
+        "release_date": "1745876632",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
+        "limit": {
+          "context": 131072,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "qwen3.8-flash": {
+        "id": "qwen3.8-flash",
+        "name": "Qwen: Qwen3.8 Flash",
+        "release_date": "1787773060",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0,
+          "cache_read": 0,
+          "cache_write": 0
+        },
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      }
+    }
+  },
   "llmgateway": {
     "id": "llmgateway",
     "name": "LLM Gateway",
