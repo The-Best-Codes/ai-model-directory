@@ -1,7 +1,7 @@
 id = "gpt-4o"
 knowledge_cutoff = "1696118400"
 name = "gpt-4o"
-release_date = "1788579938"
+release_date = "1788666532"
 
 [features]
 attachment = true
@@ -18,6 +18,6 @@ input = [ "audio", "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.02
+cache_read = 1.23
 input = 2.45
 output = 9.8

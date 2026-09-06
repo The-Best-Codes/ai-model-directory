@@ -1,6 +1,6 @@
 id = "gemini-omni-flash-preview"
 name = "gemini-omni-flash-preview"
-release_date = "1788579938"
+release_date = "1788666532"
 
 [features]
 attachment = false

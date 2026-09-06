@@ -1,0 +1,18 @@
+id = "accounts/fireworks/models/ling-3-flash-fin"
+name = "Ling 3 Flash Fin"
+open_weights = true
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

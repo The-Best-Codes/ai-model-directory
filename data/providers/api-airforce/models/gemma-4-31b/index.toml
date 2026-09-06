@@ -1,6 +1,6 @@
 id = "gemma-4-31b"
 name = "gemma-4-31b"
-release_date = "1788579938"
+release_date = "1788666532"
 
 [features]
 attachment = false

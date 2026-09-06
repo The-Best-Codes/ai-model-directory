@@ -1,0 +1,16 @@
+id = "gemini-1.5-pro"
+name = "gemini-1.5-pro"
+release_date = "1788666532"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.4
+input = 1.63
+output = 6.5

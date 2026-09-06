@@ -1,12 +1,9 @@
 id = "z-ai/glm-5.3-fast"
-name = "GLM 5.3 Fast"
+name = "GLM 5.3 Fast on Fireworks"
 open_weights = true
 
 [features]
 attachment = true
-
-[limit]
-context = 1048576
 
 [modalities]
 input = [ "image", "text" ]
