@@ -1,0 +1,7 @@
+name = "KiosAPI"
+website = "https://kiosapi.com"
+apiBaseUrl = "https://router.kiosapi.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["KIOSAPI_API_KEY"]

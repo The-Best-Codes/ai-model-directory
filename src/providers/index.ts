@@ -33,6 +33,7 @@ import { ioNetProvider } from "./io-net.ts";
 import { jiekouProvider } from "./jiekou.ts";
 import { kenariProvider } from "./kenari.ts";
 import { kiloProvider } from "./kilo.ts";
+import { kiosapiProvider } from "./kiosapi.ts";
 import { llmtrProvider } from "./llmtr.ts";
 import { llmgatewayProvider } from "./llmgateway.ts";
 import { mistralProvider } from "./mistral.ts";
@@ -107,6 +108,7 @@ export const providers: ProviderDefinition[] = [
   jiekouProvider,
   kenariProvider,
   kiloProvider,
+  kiosapiProvider,
   llmgatewayProvider,
   llmtrProvider,
   mistralProvider,
