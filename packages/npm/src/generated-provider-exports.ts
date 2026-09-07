@@ -38,6 +38,7 @@ export const ioNet = modelDirectory["io-net"]!;
 export const jiekou = modelDirectory["jiekou"]!;
 export const kenari = modelDirectory["kenari"]!;
 export const kilo = modelDirectory["kilo"]!;
+export const kiosapi = modelDirectory["kiosapi"]!;
 export const llmgateway = modelDirectory["llmgateway"]!;
 export const llmtr = modelDirectory["llmtr"]!;
 export const mistral = modelDirectory["mistral"]!;
