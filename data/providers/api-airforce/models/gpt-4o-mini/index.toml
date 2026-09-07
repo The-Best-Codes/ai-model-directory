@@ -1,7 +1,7 @@
 id = "gpt-4o-mini"
 knowledge_cutoff = "1696118400"
 name = "gpt-4o-mini"
-release_date = "1788740422"
+release_date = "1788752864"
 
 [features]
 attachment = true

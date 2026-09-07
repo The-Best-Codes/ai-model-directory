@@ -1,0 +1,16 @@
+id = "ERNIE-3.5-8K"
+name = "ERNIE-3.5-8K"
+release_date = "1788752864"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+input = 0.63
+output = 0.63

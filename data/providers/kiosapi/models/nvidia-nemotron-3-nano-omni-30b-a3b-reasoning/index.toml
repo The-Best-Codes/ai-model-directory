@@ -1,0 +1,13 @@
+id = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+name = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0
