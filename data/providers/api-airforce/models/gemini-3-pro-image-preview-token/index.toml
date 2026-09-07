@@ -1,6 +1,6 @@
 id = "gemini-3-pro-image-preview-token"
 name = "gemini-3-pro-image-preview-token"
-release_date = "1788666532"
+release_date = "1788740422"
 
 [features]
 attachment = false

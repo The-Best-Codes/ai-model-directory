@@ -1,6 +1,6 @@
 id = "gpt-5.1-codex-mini"
 name = "gpt-5.1-codex-mini"
-release_date = "1788666532"
+release_date = "1788740422"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-input = 0.58
-output = 4.64
+input = 0.16
+output = 1.28

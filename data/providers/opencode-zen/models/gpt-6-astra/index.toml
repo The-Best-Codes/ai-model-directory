@@ -1,4 +1,5 @@
 id = "gpt-6-astra"
+knowledge_cutoff = "1777507200"
 last_updated = "1788480000"
 name = "GPT-6 Astra"
 open_weights = false

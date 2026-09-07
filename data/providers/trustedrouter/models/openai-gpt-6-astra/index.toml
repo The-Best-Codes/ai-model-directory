@@ -1,5 +1,5 @@
 id = "openai/gpt-6-astra"
-name = "gpt-6-astra"
+name = "OpenAI: GPT-6 Astra"
 open_weights = false
 
 [features]

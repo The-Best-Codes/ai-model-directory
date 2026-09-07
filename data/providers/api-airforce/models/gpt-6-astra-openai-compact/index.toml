@@ -1,0 +1,17 @@
+id = "gpt-6-astra-openai-compact"
+name = "gpt-6-astra-openai-compact"
+release_date = "1788740422"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.16
+cache_write = 1.92
+input = 1.55
+output = 7.71
