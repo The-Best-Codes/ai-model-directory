@@ -1,0 +1,12 @@
+id = "tencent/Hunyuan-MT-7B"
+name = "tencent/Hunyuan-MT-7B"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

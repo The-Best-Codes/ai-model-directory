@@ -1,0 +1,13 @@
+id = "THUDM/GLM-Z1-9B-0414"
+name = "THUDM/GLM-Z1-9B-0414"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

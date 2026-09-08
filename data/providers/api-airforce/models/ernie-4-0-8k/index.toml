@@ -1,6 +1,6 @@
 id = "ERNIE-4.0-8K"
 name = "ERNIE-4.0-8K"
-release_date = "1788752864"
+release_date = "1788839511"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.7
-input = 5.63
-output = 5.63
+input = 0.59
+output = 2.33

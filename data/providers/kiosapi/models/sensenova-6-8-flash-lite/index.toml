@@ -1,0 +1,12 @@
+id = "sensenova-6.8-flash-lite"
+name = "sensenova-6.8-flash-lite"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

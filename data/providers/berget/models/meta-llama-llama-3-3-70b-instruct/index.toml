@@ -1,0 +1,16 @@
+id = "meta-llama/Llama-3.3-70B-Instruct"
+name = "Llama-3.3-70B-Instruct"
+open_weights = false
+release_date = "1783987200"
+
+[features]
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1044931.779
+output = 1044931.779

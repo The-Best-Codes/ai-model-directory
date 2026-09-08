@@ -1,8 +1,9 @@
 id = "grok-4-6"
-last_updated = "1787529600"
+knowledge_cutoff = "1769904000"
+last_updated = "1786492800"
 name = "Grok 4.6"
 open_weights = false
-release_date = "1787529600"
+release_date = "1786492800"
 
 [features]
 attachment = true

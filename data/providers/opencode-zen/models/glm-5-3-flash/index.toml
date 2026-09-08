@@ -1,7 +1,7 @@
 id = "glm-5.3-flash"
 last_updated = "1787702400"
 name = "GLM-5.3-Flash"
-open_weights = false
+open_weights = true
 release_date = "1787702400"
 
 [features]

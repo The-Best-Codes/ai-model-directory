@@ -1,0 +1,16 @@
+id = "codex-mini-2025-05-16"
+name = "codex-mini-2025-05-16"
+release_date = "1788839511"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.07
+input = 1.95
+output = 7.8

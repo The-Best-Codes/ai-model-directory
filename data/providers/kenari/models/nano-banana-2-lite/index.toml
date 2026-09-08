@@ -1,0 +1,9 @@
+id = "nano-banana-2-lite"
+name = "nano-banana-2-lite"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

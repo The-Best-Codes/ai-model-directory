@@ -1,5 +1,5 @@
 id = "Qwen3-VL-235B-A22B-Instruct"
-last_updated = "1787315649"
+last_updated = "1788761900"
 name = "Qwen3-VL-235B-A22B-Instruct"
 release_date = "1781661600"
 
@@ -11,5 +11,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.29797994
-output = 1.19191976
+input = 0.29798496
+output = 1.19193984

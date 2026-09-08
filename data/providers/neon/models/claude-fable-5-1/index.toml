@@ -1,4 +1,5 @@
 id = "claude-fable-5-1"
+knowledge_cutoff = "1780272000"
 last_updated = "1788220800"
 name = "Claude Fable 5.1"
 open_weights = false
