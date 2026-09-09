@@ -1,0 +1,14 @@
+id = "klingai/kling-3.0"
+name = "KlingAI: Kling-3.0"
+release_date = "1788259485"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 20000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

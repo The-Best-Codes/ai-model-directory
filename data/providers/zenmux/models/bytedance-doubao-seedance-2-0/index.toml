@@ -1,0 +1,14 @@
+id = "bytedance/doubao-seedance-2.0"
+name = "ByteDance: Doubao-Seedance-2.0"
+release_date = "1775530721"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 12800
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "video" ]

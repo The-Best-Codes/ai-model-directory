@@ -14,5 +14,6 @@ context = 1000000
 input = [ "audio", "image", "text", "video" ]
 
 [pricing]
+cache_read = 0.025
 input = 0.25
 output = 1.5

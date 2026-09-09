@@ -1,6 +1,6 @@
 id = "qwen-vl-ocr-2025-11-20"
 last_updated = "1763721059"
-name = "Qwen-VL-OCR-2025-11-20"
+name = "QwenVL-OCR-2025-11-20"
 release_date = "1763721059"
 
 [features]
@@ -12,7 +12,7 @@ input = 30000
 output = 8192
 
 [modalities]
-input = [ "image" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

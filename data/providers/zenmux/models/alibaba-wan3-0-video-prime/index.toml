@@ -1,0 +1,14 @@
+id = "alibaba/wan3.0-video-prime"
+name = "Alibaba: Wan3.0-Video-Prime"
+release_date = "1787560612"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 20000
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "video" ]

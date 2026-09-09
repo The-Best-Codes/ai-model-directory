@@ -1,0 +1,18 @@
+id = "openai/gpt-image-2.5-sunburst"
+name = "OpenAI: GPT-Image-2.5-Sunburst"
+release_date = "1788919735"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 1.25
+input = 5

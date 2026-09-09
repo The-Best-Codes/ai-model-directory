@@ -1,0 +1,14 @@
+id = "kling-image"
+name = "kling-image"
+release_date = "1788926238"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 31.11
+output = 2.21

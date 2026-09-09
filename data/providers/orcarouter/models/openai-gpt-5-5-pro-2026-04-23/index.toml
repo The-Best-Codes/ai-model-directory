@@ -10,5 +10,5 @@ output = 100000
 input = [ "file", "image", "text" ]
 
 [pricing]
-input = 60
-output = 270
+input = 30
+output = 180

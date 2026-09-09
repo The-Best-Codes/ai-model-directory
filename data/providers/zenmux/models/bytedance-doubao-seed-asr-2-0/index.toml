@@ -1,0 +1,13 @@
+id = "bytedance/doubao-seed-asr-2.0"
+name = "ByteDance: Doubao-Seed-ASR-2.0"
+release_date = "1782724491"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1024
+
+[modalities]
+input = [ "audio" ]

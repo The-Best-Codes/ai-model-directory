@@ -1,0 +1,11 @@
+id = "gpt-image-2.5-flare"
+name = "gpt-image-2.5-flare"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]

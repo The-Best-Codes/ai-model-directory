@@ -1,0 +1,13 @@
+id = "xiaomi/mimo-v2.5-asr"
+name = "Xiaomi: MiMo-V2.5-ASR"
+release_date = "1783426188"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1024
+
+[modalities]
+input = [ "audio" ]

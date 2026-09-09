@@ -1,0 +1,14 @@
+id = "klingai/kling-3.0-omni"
+name = "KlingAI: Kling-3.0-Omni"
+release_date = "1788337250"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 20000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

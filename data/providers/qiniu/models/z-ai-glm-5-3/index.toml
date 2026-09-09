@@ -1,6 +1,6 @@
 id = "z-ai/glm-5.3"
 name = "GLM-5.3"
-release_date = "1786665600"
+release_date = "1787011200"
 
 [features]
 reasoning = true

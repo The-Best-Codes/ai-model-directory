@@ -1,0 +1,13 @@
+id = "x-ai/grok-voice-stt-1.0"
+name = "xAI: Grok Voice STT 1.0"
+release_date = "1785831196"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 15000
+
+[modalities]
+input = [ "audio" ]

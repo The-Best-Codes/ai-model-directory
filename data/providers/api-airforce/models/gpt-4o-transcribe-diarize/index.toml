@@ -1,7 +1,7 @@
 id = "gpt-4o-transcribe-diarize"
 name = "gpt-4o-transcribe-diarize"
-release_date = "1788839511"
+release_date = "1788926238"
 
 [pricing]
-input = 2.63
-output = 10.5
+input = 2.5
+output = 10

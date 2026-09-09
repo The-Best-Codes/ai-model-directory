@@ -1,0 +1,14 @@
+id = "bfl/flux-3-video"
+name = "Black Forest Labs: FLUX.3 Video"
+release_date = "1786674692"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 12800
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "pixverse/c1"
+name = "PixVerse: C1"
+release_date = "1786361333"
+
+[features]
+attachment = true
+reasoning = false
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "video" ]

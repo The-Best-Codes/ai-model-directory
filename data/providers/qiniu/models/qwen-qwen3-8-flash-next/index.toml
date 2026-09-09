@@ -1,0 +1,23 @@
+id = "qwen/qwen3.8-flash-next"
+name = "Qwen3.8 Flash"
+release_date = "1787702400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01449
+cache_write = 0.18116000000000002
+input = 0.14493
+output = 0.43478

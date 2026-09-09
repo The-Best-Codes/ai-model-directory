@@ -1,0 +1,16 @@
+id = "x-ai/grok-voice-tts-1.0"
+name = "xAI: Grok Voice TTS 1.0"
+release_date = "1785489338"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 15000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 15

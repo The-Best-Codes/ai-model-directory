@@ -3,4 +3,4 @@ name = "Google: Gemma 4 31B"
 
 [pricing]
 input = 0.13
-output = 0.38
+output = 0.3799999996
