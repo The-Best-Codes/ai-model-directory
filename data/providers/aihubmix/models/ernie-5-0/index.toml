@@ -11,7 +11,7 @@ tool_call = false
 context = 119000
 
 [modalities]
-input = [ "audio", "image", "text", "video" ]
+input = [ "image", "text" ]
 
 [pricing]
 input = 0.82192

@@ -1,0 +1,12 @@
+id = "greenpt/bge-multilingual-gemma2"
+name = "BGE Multilingual Gemma 2"
+release_date = "1788950360"
+
+[features]
+attachment = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]

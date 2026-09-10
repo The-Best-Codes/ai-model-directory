@@ -2,9 +2,16 @@ id = "cloudflare-glm-5.2"
 name = "cloudflare-glm-5.2"
 
 [features]
+attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
 
 [pricing]
 cache_read = 0.2604

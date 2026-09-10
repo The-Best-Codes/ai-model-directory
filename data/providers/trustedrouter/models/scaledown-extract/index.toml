@@ -1,0 +1,17 @@
+id = "scaledown/extract"
+name = "ScaleDown Extract"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0

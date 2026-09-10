@@ -1,0 +1,19 @@
+id = "greenpt/kimi-k2.6-eu"
+name = "Kimi K2.6"
+release_date = "1788950359"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.268468
+input = 0.805405
+output = 4.577383

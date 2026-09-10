@@ -10,5 +10,5 @@ reasoning = false
 context = 12800
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "audio", "image", "text", "video" ]
 output = [ "video" ]

@@ -1,0 +1,18 @@
+id = "greenpt/green-l-raw"
+name = "Green L Raw"
+release_date = "1788950359"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.305078
+output = 0.976248

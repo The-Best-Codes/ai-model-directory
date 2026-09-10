@@ -8,7 +8,7 @@ structured_output = true
 tool_call = true
 
 [limit]
-context = 200000
+context = 204800
 
 [modalities]
 input = [ "text" ]

@@ -11,7 +11,7 @@ tool_call = true
 context = 1048576
 
 [modalities]
-input = [ "audio", "image", "text", "video" ]
+input = [ "audio", "file", "image", "text", "video" ]
 
 [pricing]
 input = 0

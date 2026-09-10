@@ -1,0 +1,17 @@
+id = "greenpt/mistral-medium-3.5-128b"
+name = "Mistral Medium 3.5 128B"
+release_date = "1788950360"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 180000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 2.196558
+output = 10.98279

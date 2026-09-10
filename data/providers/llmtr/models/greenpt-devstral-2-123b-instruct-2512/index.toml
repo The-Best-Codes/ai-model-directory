@@ -1,0 +1,19 @@
+id = "greenpt/devstral-2-123b-instruct-2512"
+name = "Devstral 2 123B"
+release_date = "1788950359"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.335585
+input = 1.342341
+output = 5.369364

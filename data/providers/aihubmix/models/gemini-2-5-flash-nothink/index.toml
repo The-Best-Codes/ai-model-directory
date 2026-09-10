@@ -8,7 +8,7 @@ structured_output = true
 tool_call = true
 
 [limit]
-context = 1047576
+context = 1048576
 
 [modalities]
 input = [ "audio", "image", "text", "video" ]

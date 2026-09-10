@@ -1,6 +1,0 @@
-id = "deepseek-v4-flash"
-name = "deepseek-v4-flash"
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]

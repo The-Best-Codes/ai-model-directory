@@ -1,6 +1,6 @@
 id = "Qwen/Qwen3-Reranker-0.6B"
 name = "Qwen/Qwen3-Reranker-0.6B"
-release_date = "1788926238"
+release_date = "1789012585"
 
 [features]
 attachment = false

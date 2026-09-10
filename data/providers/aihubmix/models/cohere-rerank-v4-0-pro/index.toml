@@ -2,13 +2,16 @@ id = "cohere-rerank-v4.0-pro"
 name = "cohere-rerank-v4.0-pro"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
 
+[limit]
+context = 32768
+
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 
 [pricing]
 input = 0.068

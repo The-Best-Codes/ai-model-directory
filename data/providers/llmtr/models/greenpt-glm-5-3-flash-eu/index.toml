@@ -1,0 +1,19 @@
+id = "greenpt/glm-5.3-flash-eu"
+name = "GLM-5.3 Flash"
+release_date = "1788950359"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.026847
+input = 0.134234
+output = 0.536936

@@ -2,7 +2,7 @@ id = "ernie-5.0-thinking-exp"
 name = "ernie-5.0-thinking-exp"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = false
 tool_call = false
@@ -11,7 +11,7 @@ tool_call = false
 context = 119000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 
 [pricing]
 input = 0.82192

@@ -1,0 +1,21 @@
+id = "azure/gpt-5-mini@germanywestcentral"
+name = "azure/gpt-5-mini@germanywestcentral"
+release_date = "1754587407"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0275
+input = 0.275
+output = 2.2

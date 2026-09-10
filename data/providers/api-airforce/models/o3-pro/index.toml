@@ -1,6 +1,6 @@
 id = "o3-pro"
 name = "o3-pro"
-release_date = "1788926238"
+release_date = "1789012585"
 
 [features]
 attachment = false
@@ -13,5 +13,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.29
-input = 10.96
-output = 43.85
+input = 10.21
+output = 40.82

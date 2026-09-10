@@ -14,7 +14,7 @@ output = 1000
 
 [modalities]
 input = [ "image", "text" ]
-output = [ "text" ]
+output = [ "image" ]
 
 [pricing]
 input = 5

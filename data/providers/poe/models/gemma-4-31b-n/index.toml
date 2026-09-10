@@ -8,6 +8,9 @@ reasoning = true
 temperature = true
 tool_call = false
 
+[limit]
+context = 262144
+
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]

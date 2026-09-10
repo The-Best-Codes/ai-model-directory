@@ -1,0 +1,21 @@
+id = "azure/gpt-5-nano@germanywestcentral"
+name = "azure/gpt-5-nano@germanywestcentral"
+release_date = "1754587402"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0055
+input = 0.055
+output = 0.44

@@ -1,0 +1,6 @@
+id = "deepseek-flash"
+name = "deepseek-flash"
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

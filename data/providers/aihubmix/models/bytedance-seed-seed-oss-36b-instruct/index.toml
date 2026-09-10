@@ -3,7 +3,7 @@ name = "ByteDance-Seed/Seed-OSS-36B-Instruct"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 structured_output = true
 tool_call = true
 

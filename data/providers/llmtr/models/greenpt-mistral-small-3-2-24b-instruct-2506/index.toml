@@ -1,0 +1,18 @@
+id = "greenpt/mistral-small-3.2-24b-instruct-2506"
+name = "Mistral Small 3.2 24B"
+release_date = "1788950360"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.244062
+output = 0.488124

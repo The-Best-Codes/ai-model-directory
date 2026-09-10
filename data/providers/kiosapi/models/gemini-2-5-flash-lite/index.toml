@@ -1,0 +1,25 @@
+id = "gemini-2.5-flash-lite"
+knowledge_cutoff = "1738281600"
+name = "Google: Gemini 2.5 Flash Lite"
+release_date = "1753200276"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65535
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+cache_write = 0.125
+input = 0.1
+output = 0.4

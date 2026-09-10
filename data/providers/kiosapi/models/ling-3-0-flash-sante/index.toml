@@ -1,0 +1,13 @@
+id = "ling-3.0-flash-sante"
+name = "ling-3.0-flash-sante"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

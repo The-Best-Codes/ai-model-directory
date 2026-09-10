@@ -8,4 +8,4 @@ structured_output = false
 tool_call = false
 
 [modalities]
-input = [ "text", "video" ]
+input = [ "image", "text" ]

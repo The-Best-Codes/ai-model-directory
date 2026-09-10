@@ -1,0 +1,12 @@
+id = "greenpt/green-rerank"
+name = "Green Rerank"
+release_date = "1788950360"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]

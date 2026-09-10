@@ -3,14 +3,14 @@ name = "Google: Gemini Embedding 2"
 release_date = "1781588859"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 
 [limit]
 context = 8192
 
 [modalities]
-input = [ "text" ]
+input = [ "audio", "file", "image", "text", "video" ]
 
 [pricing]
 input = 0.2

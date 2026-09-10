@@ -1,0 +1,12 @@
+id = "greenpt/green-embedding"
+name = "Green Embedding"
+release_date = "1788950360"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]

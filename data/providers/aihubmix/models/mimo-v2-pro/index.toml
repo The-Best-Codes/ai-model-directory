@@ -2,7 +2,7 @@ id = "mimo-v2-pro"
 name = "mimo-v2-pro"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
@@ -11,7 +11,7 @@ tool_call = false
 context = 1000000
 
 [modalities]
-input = [ "audio", "image", "text", "video" ]
+input = [ "text" ]
 
 [pricing]
 cache_read = 0.22

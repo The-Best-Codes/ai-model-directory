@@ -7,5 +7,5 @@ attachment = true
 reasoning = false
 
 [modalities]
-input = [ "audio", "image", "text", "video" ]
+input = [ "image", "text", "video" ]
 output = [ "video" ]

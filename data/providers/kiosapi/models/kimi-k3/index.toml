@@ -1,5 +1,6 @@
-id = "Kimi-K3"
+id = "kimi-k3"
 name = "MoonshotAI: Kimi K3"
+open_weights = true
 release_date = "1784215858"
 
 [features]

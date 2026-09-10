@@ -1,0 +1,21 @@
+id = "azure/o4-mini@westeurope"
+name = "azure/o4-mini@westeurope"
+release_date = "1744820942"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3025
+input = 1.21
+output = 4.84

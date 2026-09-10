@@ -1,0 +1,13 @@
+id = "ling-3.0-flash-vl"
+name = "Ling-3.0-flash-VL"
+release_date = "1788922501"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

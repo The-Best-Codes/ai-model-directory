@@ -2,9 +2,16 @@ id = "coding-glm-5.3-flash-free"
 name = "coding-glm-5.3-flash-free"
 
 [features]
+attachment = true
 reasoning = true
 structured_output = true
 tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
 
 [pricing]
 cache_read = 0

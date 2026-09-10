@@ -1,0 +1,18 @@
+id = "greenpt/holo2-30b-a3b"
+name = "Holo2 30B A3B"
+release_date = "1788950360"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.366093
+output = 2.196558

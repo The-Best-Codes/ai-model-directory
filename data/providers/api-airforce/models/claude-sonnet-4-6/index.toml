@@ -1,7 +1,7 @@
 id = "claude-sonnet-4.6"
 knowledge_cutoff = "1767225600"
 name = "claude-sonnet-4.6"
-release_date = "1788926238"
+release_date = "1789012585"
 
 [features]
 attachment = true

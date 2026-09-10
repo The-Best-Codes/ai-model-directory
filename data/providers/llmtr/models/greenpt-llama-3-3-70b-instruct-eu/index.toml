@@ -1,0 +1,17 @@
+id = "greenpt/llama-3.3-70b-instruct-eu"
+name = "Llama 3.3 70B Instruct"
+release_date = "1788950360"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 1.342341
+output = 1.342341

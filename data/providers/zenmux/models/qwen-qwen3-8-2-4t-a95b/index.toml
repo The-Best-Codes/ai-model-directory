@@ -3,14 +3,14 @@ name = "Qwen: Qwen3.8-2.4T-A95B"
 release_date = "1787557116"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 
 [limit]
 context = 1000000
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

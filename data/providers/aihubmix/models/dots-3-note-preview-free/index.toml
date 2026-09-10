@@ -8,10 +8,10 @@ structured_output = false
 tool_call = false
 
 [limit]
-context = 512000
+context = 524288
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "audio", "image", "text", "video" ]
 
 [pricing]
 cache_read = 0

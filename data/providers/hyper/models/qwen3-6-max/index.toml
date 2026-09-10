@@ -2,6 +2,9 @@ id = "qwen3.6-max"
 name = "Qwen3.6-Max"
 release_date = "1779315048"
 
+[features]
+reasoning = true
+
 [limit]
 context = 256000
 output = 64000

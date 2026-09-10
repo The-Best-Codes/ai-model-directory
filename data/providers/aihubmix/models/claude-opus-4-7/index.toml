@@ -8,10 +8,10 @@ structured_output = true
 tool_call = true
 
 [limit]
-context = 200000
+context = 1000000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "file", "image", "text" ]
 
 [pricing]
 cache_read = 0.5

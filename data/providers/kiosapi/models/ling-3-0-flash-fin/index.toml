@@ -1,0 +1,23 @@
+id = "ling-3.0-flash-fin"
+name = "inclusionAI: Ling 3.0 Flash Fin"
+release_date = "1787846290"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 235929
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

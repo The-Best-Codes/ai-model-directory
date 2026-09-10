@@ -2,9 +2,16 @@ id = "cc-k2.6-code-preview"
 name = "cc-k2.6-code-preview"
 
 [features]
+attachment = true
 reasoning = false
 structured_output = false
 tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
 
 [pricing]
 cache_read = 0.02

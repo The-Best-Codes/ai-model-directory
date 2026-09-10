@@ -2,6 +2,9 @@ id = "qwen3.8-2.4t-a95b"
 name = "Qwen3.8-2.4T-A95B"
 release_date = "1787762237"
 
+[features]
+reasoning = true
+
 [limit]
 context = 1000000
 output = 128000

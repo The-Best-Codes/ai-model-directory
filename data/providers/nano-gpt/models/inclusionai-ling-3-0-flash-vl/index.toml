@@ -1,0 +1,21 @@
+id = "inclusionai/ling-3.0-flash-vl"
+name = "Ling 3.0 Flash VL"
+release_date = "1788912000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.060000000000000005
+output = 0.18000000000000002

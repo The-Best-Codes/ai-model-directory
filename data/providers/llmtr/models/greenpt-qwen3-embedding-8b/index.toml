@@ -1,0 +1,12 @@
+id = "greenpt/qwen3-embedding-8b"
+name = "Qwen3 Embedding 8B"
+release_date = "1788950360"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]

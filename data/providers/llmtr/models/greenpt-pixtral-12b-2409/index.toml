@@ -1,0 +1,17 @@
+id = "greenpt/pixtral-12b-2409"
+name = "Pixtral 12B"
+release_date = "1788950360"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.305078
+output = 0.305078

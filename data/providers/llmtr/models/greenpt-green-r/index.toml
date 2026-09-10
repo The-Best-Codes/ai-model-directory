@@ -1,0 +1,18 @@
+id = "greenpt/green-r"
+name = "Green R"
+release_date = "1788950359"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.427109
+output = 1.159295
