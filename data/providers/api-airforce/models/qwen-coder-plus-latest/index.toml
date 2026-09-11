@@ -1,6 +1,6 @@
 id = "qwen-coder-plus-latest"
 name = "qwen-coder-plus-latest"
-release_date = "1789098780"
+release_date = "1789158655"
 
 [features]
 attachment = false
@@ -13,4 +13,4 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.06
 input = 0.46
-output = 0.92
+output = 0.91

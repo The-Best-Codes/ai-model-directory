@@ -1,0 +1,21 @@
+id = "mistralai/mistral-small-24b-instruct-2501"
+name = "Mistral Small 3 24B (2501)"
+release_date = "1788998400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 32768
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1155
+output = 0.34650000000000003

@@ -1,0 +1,18 @@
+id = "qwen3-vl-plus"
+last_updated = "1789128261"
+name = "qwen3-vl-plus"
+release_date = "1777564800"
+
+[features]
+attachment = true
+
+[limit]
+output = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14899968
+output = 1.4899968

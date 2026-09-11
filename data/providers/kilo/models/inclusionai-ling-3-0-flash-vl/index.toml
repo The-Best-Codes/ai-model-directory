@@ -1,0 +1,23 @@
+id = "inclusionai/ling-3.0-flash-vl"
+name = "inclusionAI: Ling 3.0 Flash VL"
+release_date = "1789056114"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.012
+input = 0.06
+output = 0.18

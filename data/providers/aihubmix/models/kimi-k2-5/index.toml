@@ -11,7 +11,7 @@ tool_call = true
 context = 262144
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "image", "text" ]
 
 [pricing]
 cache_read = 0.105

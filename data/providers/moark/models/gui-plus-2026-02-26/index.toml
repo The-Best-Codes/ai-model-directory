@@ -1,0 +1,18 @@
+id = "gui-plus-2026-02-26"
+last_updated = "1789128190"
+name = "gui-plus-2026-02-26"
+release_date = "1777564800"
+
+[features]
+attachment = true
+
+[limit]
+output = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.22349952
+output = 0.67049856

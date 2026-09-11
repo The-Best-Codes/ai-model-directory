@@ -11,5 +11,5 @@ tool_call = false
 input = [ "text" ]
 
 [pricing]
-input = 116380.267
-output = 116380.267
+input = 116014.465
+output = 116014.465

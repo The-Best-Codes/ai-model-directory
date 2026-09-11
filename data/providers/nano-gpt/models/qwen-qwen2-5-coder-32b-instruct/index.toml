@@ -1,4 +1,4 @@
-id = "Qwen/Qwen2.5-Coder-32B-Instruct"
+id = "qwen/qwen2.5-coder-32b-instruct"
 name = "Qwen 2.5 Coder 32b"
 release_date = "1751500800"
 

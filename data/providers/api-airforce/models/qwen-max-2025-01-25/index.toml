@@ -1,6 +1,6 @@
 id = "qwen-max-2025-01-25"
 name = "qwen-max-2025-01-25"
-release_date = "1789098780"
+release_date = "1789158655"
 
 [features]
 attachment = false
@@ -13,4 +13,4 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.04
 input = 0.32
-output = 1.26
+output = 1.25

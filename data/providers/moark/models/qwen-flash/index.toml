@@ -1,0 +1,18 @@
+id = "qwen-flash"
+last_updated = "1789128402"
+name = "qwen-flash"
+release_date = "1777564800"
+
+[features]
+attachment = false
+
+[limit]
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.022349952
+output = 0.22349952

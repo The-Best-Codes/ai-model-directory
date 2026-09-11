@@ -1,0 +1,15 @@
+id = "qwen-mt-plus"
+last_updated = "1789125915"
+name = "qwen-mt-plus"
+release_date = "1778404325"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.268199424
+output = 0.804598272

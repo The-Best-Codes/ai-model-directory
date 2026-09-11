@@ -4,6 +4,7 @@ release_date = "1782279851"
 
 [features]
 attachment = true
+tool_call = true
 
 [limit]
 context = 1000000

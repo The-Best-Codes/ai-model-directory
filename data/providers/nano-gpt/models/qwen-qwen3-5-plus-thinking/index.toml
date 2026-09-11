@@ -1,4 +1,4 @@
-id = "qwen/qwen3.5-plus-thinking"
+id = "qwen/qwen3.5-plus:thinking"
 name = "Qwen3.5 Plus Thinking"
 release_date = "1771200000"
 

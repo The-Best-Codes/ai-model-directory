@@ -1,4 +1,4 @@
-id = "qwen/qwen3.5-397b-a17b-thinking"
+id = "qwen/qwen3.5-397b-a17b:thinking"
 name = "Qwen3.5 397B A17B Thinking"
 release_date = "1771200000"
 

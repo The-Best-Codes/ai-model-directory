@@ -1,0 +1,21 @@
+id = "TEE/nemotron-3.5-lightning"
+name = "Nvidia Nemotron 3.5 Lightning TEE"
+release_date = "1789084800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.2
