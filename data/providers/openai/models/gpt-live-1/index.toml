@@ -1,0 +1,13 @@
+id = "gpt-live-1"
+knowledge_cutoff = "1753920000"
+name = "GPT-Live 1"
+release_date = "1788889407"
+
+[features]
+attachment = true
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]

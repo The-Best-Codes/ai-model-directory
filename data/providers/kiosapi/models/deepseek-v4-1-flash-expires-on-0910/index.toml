@@ -1,0 +1,13 @@
+id = "deepseek-v4.1-flash-expires-on-0910"
+name = "deepseek-v4.1-flash-expires-on-0910"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.006
+input = 0.3
+output = 1.2

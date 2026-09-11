@@ -1,0 +1,18 @@
+id = "deepseek-v4.1-flash"
+name = "Deepseek-V4.1-Flash"
+release_date = "1789033880"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0061
+input = 0.303
+output = 1.2121

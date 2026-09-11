@@ -1,0 +1,18 @@
+id = "deepseek-ai/DeepSeek-V4.1-Flash"
+name = "DeepSeek: DeepSeek V4.1 Flash"
+release_date = "1789049414"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.127
+input = 0.254
+output = 0.972

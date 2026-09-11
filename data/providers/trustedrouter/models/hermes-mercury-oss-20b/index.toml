@@ -1,0 +1,17 @@
+id = "hermes/mercury-oss-20b"
+name = "hermes/mercury-oss-20b"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0422
+output = 0.15825

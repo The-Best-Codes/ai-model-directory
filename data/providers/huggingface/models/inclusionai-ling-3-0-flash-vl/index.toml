@@ -3,7 +3,7 @@ name = "inclusionAI/Ling-3.0-flash-VL"
 release_date = "1788535477"
 
 [features]
-attachment = false
+attachment = true
 structured_output = false
 tool_call = true
 
@@ -11,7 +11,7 @@ tool_call = true
 context = 262144
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

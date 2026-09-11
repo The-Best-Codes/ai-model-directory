@@ -1,0 +1,17 @@
+id = "inclusionai/ling-3.0-flash-vl"
+name = "inclusionAI/Ling-3.0-flash-VL"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0633
+output = 0.1899

@@ -1,0 +1,14 @@
+id = "gpt-image-2.5-flare"
+name = "gpt-image-2.5-flare"
+release_date = "1789098780"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 6.5
+output = 39

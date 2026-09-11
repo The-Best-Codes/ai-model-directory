@@ -1,0 +1,17 @@
+id = "neurometric/text-to-sql"
+name = "neurometric/text-to-sql"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0.1266

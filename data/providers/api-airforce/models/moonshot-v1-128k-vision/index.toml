@@ -1,6 +1,6 @@
 id = "moonshot-v1-128k-vision"
 name = "moonshot-v1-128k-vision"
-release_date = "1789012585"
+release_date = "1789098780"
 
 [features]
 attachment = false

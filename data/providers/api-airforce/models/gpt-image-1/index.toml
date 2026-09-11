@@ -1,6 +1,6 @@
 id = "gpt-image-1"
 name = "gpt-image-1"
-release_date = "1789012585"
+release_date = "1789098780"
 
 [features]
 attachment = false
@@ -10,5 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.65
-output = 13.23
+input = 5.25
+output = 42

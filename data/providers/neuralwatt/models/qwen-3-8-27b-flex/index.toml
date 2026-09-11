@@ -1,0 +1,21 @@
+id = "qwen-3.8-27b-flex"
+name = "Qwen 3.8 27B (flex)"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262128
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.45
+output = 3.2

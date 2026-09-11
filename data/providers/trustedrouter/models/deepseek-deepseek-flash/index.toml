@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-flash"
-name = "DeepSeek Flash (rolling)"
+name = "DeepSeek V4.1 Flash (rolling)"
 open_weights = true
 
 [features]
@@ -13,5 +13,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.4642
-output = 1.3926
+input = 0.3165
+output = 1.266

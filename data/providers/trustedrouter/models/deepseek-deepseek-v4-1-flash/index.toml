@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-v4-1-flash"
+name = "DeepSeek V4.1 Flash"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.395625
+output = 1.5825
