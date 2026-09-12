@@ -1,6 +1,6 @@
 id = "gpt-4-vision"
 name = "gpt-4-vision"
-release_date = "1789158655"
+release_date = "1789185327"
 
 [features]
 attachment = false
