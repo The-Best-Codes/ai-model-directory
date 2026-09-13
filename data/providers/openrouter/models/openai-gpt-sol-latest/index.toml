@@ -1,6 +1,6 @@
 id = "~openai/gpt-sol-latest"
 knowledge_cutoff = "1771200000"
-name = "OpenAI GPT Sol Latest"
+name = "OpenAI: GPT Sol Latest"
 release_date = "1789130928"
 
 [features]

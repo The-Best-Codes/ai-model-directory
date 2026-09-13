@@ -1,5 +1,5 @@
 id = "~openai/gpt-terra-latest"
-name = "OpenAI GPT Terra Latest"
+name = "OpenAI: GPT Terra Latest"
 release_date = "1789130925"
 
 [features]

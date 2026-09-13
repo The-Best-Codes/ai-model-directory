@@ -1,6 +1,6 @@
 id = "~openai/gpt-luna-latest"
 knowledge_cutoff = "1771200000"
-name = "OpenAI GPT Luna Latest"
+name = "OpenAI: GPT Luna Latest"
 release_date = "1789130922"
 
 [features]

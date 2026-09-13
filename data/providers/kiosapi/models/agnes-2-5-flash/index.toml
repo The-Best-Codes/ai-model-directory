@@ -1,0 +1,12 @@
+id = "agnes-2.5-flash"
+name = "agnes-2.5-flash"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

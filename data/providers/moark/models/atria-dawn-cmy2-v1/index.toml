@@ -1,0 +1,18 @@
+id = "Atria-dawn-cmy2-v1"
+last_updated = "1789219624"
+name = "Atria-dawn-cmy2-v1"
+release_date = "1777564800"
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.89464122
+output = 2.38570992

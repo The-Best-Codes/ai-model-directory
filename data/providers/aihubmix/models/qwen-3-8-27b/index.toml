@@ -1,0 +1,18 @@
+id = "qwen-3.8-27b"
+name = "qwen-3.8-27b"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 1.1
+output = 1.65

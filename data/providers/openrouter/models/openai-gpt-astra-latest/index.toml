@@ -1,5 +1,5 @@
 id = "~openai/gpt-astra-latest"
-name = "OpenAI GPT Astra Latest"
+name = "OpenAI: GPT Astra Latest"
 release_date = "1789130932"
 
 [features]

@@ -1,6 +1,6 @@
 id = "~openai/gpt-terra-latest"
 knowledge_cutoff = "1771200000"
-name = "OpenAI GPT Terra Latest"
+name = "OpenAI: GPT Terra Latest"
 release_date = "1789130925"
 
 [features]
