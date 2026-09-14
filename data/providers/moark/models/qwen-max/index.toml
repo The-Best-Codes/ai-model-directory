@@ -1,0 +1,19 @@
+id = "qwen-max"
+last_updated = "1789352629"
+name = "qwen-max"
+release_date = "1778207029"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+output = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.357695352
+output = 1.430781408

@@ -1,0 +1,15 @@
+id = "deepseek-v4.1-flash"
+last_updated = "1789356365"
+name = "deepseek-v4.1-flash"
+release_date = "1789355970"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29807946
+output = 1.19231784

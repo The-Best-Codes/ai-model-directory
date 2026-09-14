@@ -1,6 +1,6 @@
 id = "qwen-math-plus-0919"
 name = "qwen-math-plus-0919"
-release_date = "1789272216"
+release_date = "1789359203"
 
 [features]
 attachment = false

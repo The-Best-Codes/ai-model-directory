@@ -1,0 +1,18 @@
+id = "tongyi-xiaomi-analysis-pro"
+last_updated = "1789353483"
+name = "tongyi-xiaomi-analysis-pro"
+release_date = "1778207029"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14903973
+output = 0.402407271

@@ -1,0 +1,13 @@
+id = "grok-4.6-fast"
+name = "grok-4.6-fast"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

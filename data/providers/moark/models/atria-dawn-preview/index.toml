@@ -1,6 +1,6 @@
-id = "Atria-dawn-cmy2-v1"
-last_updated = "1789219624"
-name = "Atria-dawn-cmy2-v1"
+id = "Atria-Dawn-Preview"
+last_updated = "1789347178"
+name = "Atria-Dawn-Preview"
 release_date = "1777564800"
 
 [features]
@@ -14,5 +14,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.89464122
-output = 2.38570992
+input = 0
+output = 0

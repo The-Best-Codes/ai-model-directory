@@ -1,0 +1,18 @@
+id = "tongyi-xiaomi-analysis-flash"
+last_updated = "1789353679"
+name = "tongyi-xiaomi-analysis-flash"
+release_date = "1778207029"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.029807946
+output = 0.059615892

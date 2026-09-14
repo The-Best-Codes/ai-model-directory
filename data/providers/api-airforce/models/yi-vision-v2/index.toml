@@ -1,6 +1,6 @@
 id = "yi-vision-v2"
 name = "yi-vision-v2"
-release_date = "1789272216"
+release_date = "1789359203"
 
 [features]
 attachment = false
