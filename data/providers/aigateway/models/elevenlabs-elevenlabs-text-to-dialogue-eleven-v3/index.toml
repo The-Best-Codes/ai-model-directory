@@ -1,0 +1,11 @@
+id = "elevenlabs/elevenlabs-text-to-dialogue-eleven-v3"
+name = "Elevenlabs Text To Dialogue Eleven V3"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

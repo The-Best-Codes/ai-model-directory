@@ -1,0 +1,11 @@
+id = "bria/embed-product"
+name = "Embed Product"
+open_weights = true
+release_date = "1779235200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

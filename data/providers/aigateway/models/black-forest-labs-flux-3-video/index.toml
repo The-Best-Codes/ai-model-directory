@@ -1,0 +1,10 @@
+id = "black-forest-labs/flux-3-video"
+name = "FLUX 3 Video"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

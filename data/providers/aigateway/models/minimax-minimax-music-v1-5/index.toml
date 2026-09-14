@@ -1,0 +1,11 @@
+id = "minimax/minimax-music-v1.5"
+name = "MiniMax (Hailuo AI) Music v1.5"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

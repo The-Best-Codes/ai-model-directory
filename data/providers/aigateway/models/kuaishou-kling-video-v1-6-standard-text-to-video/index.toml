@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-v1.6-standard-text-to-video"
+name = "Kling 1.6 (Standard Text To Video)"
+open_weights = true
+release_date = "1782432000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

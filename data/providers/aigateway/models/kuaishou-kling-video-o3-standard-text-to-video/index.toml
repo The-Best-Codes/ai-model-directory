@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-o3-standard-text-to-video"
+name = "Kling O3 Text to Video [Standard]"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

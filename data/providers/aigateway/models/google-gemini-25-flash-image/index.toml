@@ -1,0 +1,11 @@
+id = "google/gemini-25-flash-image"
+name = "Gemini 25 Flash Image"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

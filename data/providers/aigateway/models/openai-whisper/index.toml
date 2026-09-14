@@ -1,0 +1,10 @@
+id = "openai/whisper"
+name = "whisper"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

@@ -1,0 +1,10 @@
+id = "alibaba/wan2.2-kf2v-flash"
+name = "Wan 2.2 KF2V Flash"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "bytedance/bytedance-omnihuman-v1.5"
+name = "Bytedance Omnihuman V1.5"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

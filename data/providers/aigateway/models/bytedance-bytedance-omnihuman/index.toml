@@ -1,0 +1,11 @@
+id = "bytedance/bytedance-omnihuman"
+name = "OmniHuman"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

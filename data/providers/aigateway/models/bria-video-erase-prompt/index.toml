@@ -1,0 +1,11 @@
+id = "bria/video/erase/prompt"
+name = "Video (Erase Prompt)"
+open_weights = true
+release_date = "1779235200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

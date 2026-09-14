@@ -1,0 +1,11 @@
+id = "minimax/minimax-preview-speech-2.5-hd"
+name = "Minimax Preview Speech 2.5 Hd"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

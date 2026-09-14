@@ -1,0 +1,10 @@
+id = "alibaba/wan2.5-t2i-preview"
+name = "Wan 2.5 T2I Preview"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "google/nano-banana-lite"
+name = "Nano Banana Lite"
+open_weights = false
+release_date = "1782777600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

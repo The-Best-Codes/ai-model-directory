@@ -1,0 +1,10 @@
+id = "elevenlabs/music-v2"
+name = "ElevenLabs Music v2"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

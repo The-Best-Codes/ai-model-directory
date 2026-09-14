@@ -1,0 +1,11 @@
+id = "alibaba/wan-v2.7-pro-edit"
+name = "Wan V2.7 Pro Edit"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

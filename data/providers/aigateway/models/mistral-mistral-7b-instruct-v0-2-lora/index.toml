@@ -1,0 +1,18 @@
+id = "mistral/mistral-7b-instruct-v0.2-lora"
+name = "mistral-7b-instruct-v0.2-lora"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 15000
+output = 15000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.1

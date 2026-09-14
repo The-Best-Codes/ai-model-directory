@@ -1,0 +1,10 @@
+id = "alibaba/wan3.0-video"
+name = "Wan 3.0 Video"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

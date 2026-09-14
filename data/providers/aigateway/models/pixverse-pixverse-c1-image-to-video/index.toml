@@ -1,0 +1,11 @@
+id = "pixverse/pixverse-c1-image-to-video"
+name = "PixVerse C1 Image To Video"
+open_weights = true
+release_date = "1781654400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

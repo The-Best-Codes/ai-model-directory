@@ -1,0 +1,11 @@
+id = "thudm/glm-image"
+name = "Glm Image"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

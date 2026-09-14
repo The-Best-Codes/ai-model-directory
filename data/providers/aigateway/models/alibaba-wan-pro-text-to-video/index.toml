@@ -1,0 +1,11 @@
+id = "alibaba/wan-pro-text-to-video"
+name = "Wan-2.1 Pro Text-to-Video"
+open_weights = true
+release_date = "1769385600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

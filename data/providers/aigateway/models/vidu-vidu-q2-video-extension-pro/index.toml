@@ -1,0 +1,11 @@
+id = "vidu/vidu-q2-video-extension-pro"
+name = "Vidu Q2 Video Extension Pro"
+open_weights = true
+release_date = "1777248000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

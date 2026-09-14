@@ -1,0 +1,11 @@
+id = "tencent/hunyuan3d-v2-multi-view"
+name = "Hunyuan3d V2 Multi View"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

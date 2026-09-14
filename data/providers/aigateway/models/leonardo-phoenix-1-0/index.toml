@@ -1,0 +1,10 @@
+id = "leonardo/phoenix-1.0"
+name = "phoenix-1.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

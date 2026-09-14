@@ -1,0 +1,11 @@
+id = "google/gemini-omni-flash/v1.1/edit"
+name = "Gemini Omni Flash 1.1 Edit"
+open_weights = false
+release_date = "1788220800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

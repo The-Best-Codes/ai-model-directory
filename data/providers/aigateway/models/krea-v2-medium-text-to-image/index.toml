@@ -1,0 +1,11 @@
+id = "krea/v2/medium/text-to-image"
+name = "Krea 2 Medium"
+open_weights = true
+release_date = "1782777600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

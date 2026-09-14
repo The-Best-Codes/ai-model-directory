@@ -1,0 +1,11 @@
+id = "baidu/ernie-image"
+name = "Ernie Image"
+open_weights = true
+release_date = "1778889600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

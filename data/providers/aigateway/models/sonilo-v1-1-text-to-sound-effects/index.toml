@@ -1,0 +1,11 @@
+id = "sonilo/v1.1/text-to-sound-effects"
+name = "V1.1 Text to Sound Effects"
+open_weights = true
+release_date = "1785196800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-2-klein-9b-base"
+name = "FLUX.2 [klein] 9B Base"
+open_weights = true
+release_date = "1769385600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "mirelo-ai/sfx1.6/extend-audio"
+name = "Mirelo SFX1.6 (Extend Audio)"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

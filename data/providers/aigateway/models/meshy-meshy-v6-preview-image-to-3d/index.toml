@@ -1,0 +1,11 @@
+id = "meshy/meshy-v6-preview-image-to-3d"
+name = "Meshy 6 Preview (Image To 3d)"
+open_weights = true
+release_date = "1781654400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

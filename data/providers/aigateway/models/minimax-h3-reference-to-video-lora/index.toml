@@ -1,0 +1,11 @@
+id = "minimax/h3/reference-to-video/lora"
+name = "MiniMax H3 Reference to Video LoRA"
+open_weights = true
+release_date = "1787616000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "video" ]
+output = [ "video" ]

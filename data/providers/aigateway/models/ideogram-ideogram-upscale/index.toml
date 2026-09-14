@@ -1,0 +1,11 @@
+id = "ideogram/ideogram-upscale"
+name = "Ideogram Upscale"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

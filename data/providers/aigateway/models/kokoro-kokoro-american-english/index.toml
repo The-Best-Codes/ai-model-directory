@@ -1,0 +1,11 @@
+id = "kokoro/kokoro-american-english"
+name = "Kokoro TTS"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

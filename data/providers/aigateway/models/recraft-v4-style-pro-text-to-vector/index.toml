@@ -1,0 +1,11 @@
+id = "recraft/v4/style/pro/text-to-vector"
+name = "Recraft V4 Styles Pro Text to Vector"
+open_weights = false
+release_date = "1788220800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

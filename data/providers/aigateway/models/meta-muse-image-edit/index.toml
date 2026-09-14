@@ -1,0 +1,11 @@
+id = "meta/muse-image/edit"
+name = "Meta Muse Image Edit"
+open_weights = true
+release_date = "1787702400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

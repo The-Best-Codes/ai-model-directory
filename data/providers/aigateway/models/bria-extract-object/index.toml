@@ -1,0 +1,11 @@
+id = "bria/extract-object"
+name = "Extract Object"
+open_weights = true
+release_date = "1782691200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

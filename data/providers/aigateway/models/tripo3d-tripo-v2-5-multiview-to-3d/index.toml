@@ -1,0 +1,11 @@
+id = "tripo3d/tripo/v2.5/multiview-to-3d"
+name = "Tripo3d Tripo V2.5 Multiview To 3d"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

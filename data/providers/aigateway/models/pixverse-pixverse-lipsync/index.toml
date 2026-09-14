@@ -1,0 +1,11 @@
+id = "pixverse/pixverse-lipsync"
+name = "PixVerse Lipsync"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

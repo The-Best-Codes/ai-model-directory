@@ -1,0 +1,10 @@
+id = "assemblyai/universal-3.5-pro"
+name = "AssemblyAI Universal-3.5 Pro"
+open_weights = false
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

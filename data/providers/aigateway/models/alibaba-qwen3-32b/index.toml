@@ -1,0 +1,17 @@
+id = "alibaba/qwen3-32b"
+name = "Qwen3 32B"
+open_weights = true
+release_date = "1769990400"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.16
+output = 0.64

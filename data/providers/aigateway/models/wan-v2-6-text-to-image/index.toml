@@ -1,0 +1,11 @@
+id = "wan/v2.6/text-to-image"
+name = "Wan v2.6 Text to Image"
+open_weights = true
+release_date = "1776643200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "alibaba/qwen-image-edit-plus-lora-gallery-face-to-full-portrait"
+name = "Qwen Image Edit Plus Lora Gallery Face To Full Portrait"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

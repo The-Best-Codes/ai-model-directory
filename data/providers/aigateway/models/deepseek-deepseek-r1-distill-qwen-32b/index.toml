@@ -1,0 +1,19 @@
+id = "deepseek/deepseek-r1-distill-qwen-32b"
+name = "deepseek-r1-distill-qwen-32b"
+open_weights = true
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 80000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.497
+output = 4.881

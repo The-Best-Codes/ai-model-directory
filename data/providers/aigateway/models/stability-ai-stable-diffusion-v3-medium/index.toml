@@ -1,0 +1,11 @@
+id = "stability-ai/stable-diffusion-v3-medium"
+name = "Stable Diffusion V3"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

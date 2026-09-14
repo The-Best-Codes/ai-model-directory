@@ -1,0 +1,11 @@
+id = "alibaba/qwen-image-edit-plus-lora-gallery-shirt-design"
+name = "Qwen Image Edit Plus Lora Gallery Shirt Design"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "bria/bria-text-to-image-fast"
+name = "Bria Text-to-Image Fast"
+open_weights = true
+release_date = "1784937600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

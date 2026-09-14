@@ -1,0 +1,17 @@
+id = "alibaba/qwen3-235b-a22b"
+name = "Qwen3 235B A22B"
+open_weights = true
+release_date = "1760400000"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 8.4

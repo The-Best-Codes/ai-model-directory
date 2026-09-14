@@ -1,0 +1,11 @@
+id = "stability-ai/stable-audio-25-inpaint"
+name = "Stable Audio 25 Inpaint"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

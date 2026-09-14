@@ -1,0 +1,11 @@
+id = "blackforestlabs/flux-video-upscale"
+name = "Flux Video Upscale"
+open_weights = true
+release_date = "1788825600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

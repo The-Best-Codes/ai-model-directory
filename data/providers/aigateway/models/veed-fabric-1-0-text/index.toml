@@ -1,0 +1,11 @@
+id = "veed/fabric-1.0/text"
+name = "Fabric 1.0 (Text)"
+open_weights = true
+release_date = "1776902400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "tencent/hunyuan-image-v2.1-text-to-image"
+name = "Hunyuan Image V2.1 (Text To Image)"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

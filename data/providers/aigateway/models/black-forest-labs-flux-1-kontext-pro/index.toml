@@ -1,0 +1,10 @@
+id = "black-forest-labs/flux-1-kontext-pro"
+name = "FLUX.1 Kontext [pro]"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

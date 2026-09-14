@@ -1,0 +1,11 @@
+id = "bria/fibo/generate"
+name = "Fibo"
+open_weights = true
+release_date = "1779235200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

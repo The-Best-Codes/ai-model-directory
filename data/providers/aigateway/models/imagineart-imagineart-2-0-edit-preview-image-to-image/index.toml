@@ -1,0 +1,11 @@
+id = "imagineart/imagineart-2.0-edit-preview/image-to-image"
+name = "Imagineart 2.0 Edit Preview"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

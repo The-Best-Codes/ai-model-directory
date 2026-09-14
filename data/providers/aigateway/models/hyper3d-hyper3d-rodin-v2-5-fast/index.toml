@@ -1,0 +1,11 @@
+id = "hyper3d/hyper3d-rodin-v2.5-fast"
+name = "Hyper3D - Rodin V2.5 - Image to 3D - Fast"
+open_weights = true
+release_date = "1783382400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

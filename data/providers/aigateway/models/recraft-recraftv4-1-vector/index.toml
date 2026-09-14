@@ -1,0 +1,10 @@
+id = "recraft/recraftv4-1-vector"
+name = "Recraft V4.1 SVG"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-pro-v1.1-redux"
+name = "FLUX1.1 [pro] Redux"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

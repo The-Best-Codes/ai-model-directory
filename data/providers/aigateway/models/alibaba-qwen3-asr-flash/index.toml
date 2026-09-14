@@ -1,0 +1,10 @@
+id = "alibaba/qwen3-asr-flash"
+name = "Qwen3-ASR Flash"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

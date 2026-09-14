@@ -1,0 +1,13 @@
+id = "baai/bge-large-en-v1.5"
+name = "bge-large-en-v1.5"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.204

@@ -1,0 +1,17 @@
+id = "zai-org/glm-5.2-fast-preview"
+name = "GLM-5.2 Fast Preview"
+open_weights = true
+release_date = "1788825600"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.8
+output = 8.8

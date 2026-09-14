@@ -1,0 +1,10 @@
+id = "alibaba/wan-v2.7-image-to-video"
+name = "Wan 2.7 I2V"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

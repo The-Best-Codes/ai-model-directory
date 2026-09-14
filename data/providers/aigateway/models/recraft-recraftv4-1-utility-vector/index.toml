@@ -1,0 +1,10 @@
+id = "recraft/recraftv4-1-utility-vector"
+name = "Recraft V4.1 Utility SVG"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

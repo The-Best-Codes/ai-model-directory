@@ -1,0 +1,10 @@
+id = "openai/gpt-image-2.5-flare"
+name = "GPT Image 2.5 Flare"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

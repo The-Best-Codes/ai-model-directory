@@ -1,0 +1,11 @@
+id = "alibaba/qwen-image-edit"
+name = "Qwen Image Edit"
+open_weights = true
+release_date = "1761523200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

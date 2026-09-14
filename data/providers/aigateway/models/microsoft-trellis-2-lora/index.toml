@@ -1,0 +1,11 @@
+id = "microsoft/trellis-2-lora"
+name = "TRELLIS.2 LoRA Inference"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

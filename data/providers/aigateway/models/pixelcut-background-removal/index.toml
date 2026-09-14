@@ -1,0 +1,11 @@
+id = "pixelcut/background-removal"
+name = "Pixelcut Background Remover"
+open_weights = true
+release_date = "1781136000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

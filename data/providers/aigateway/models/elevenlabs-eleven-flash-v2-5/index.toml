@@ -1,0 +1,10 @@
+id = "elevenlabs/eleven-flash-v2-5"
+name = "Eleven Flash v2.5"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

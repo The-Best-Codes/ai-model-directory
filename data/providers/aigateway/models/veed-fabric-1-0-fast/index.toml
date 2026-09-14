@@ -1,0 +1,11 @@
+id = "veed/fabric-1.0/fast"
+name = "Fabric 1.0 Fast"
+open_weights = true
+release_date = "1776902400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

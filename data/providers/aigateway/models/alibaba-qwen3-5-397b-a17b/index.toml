@@ -1,0 +1,18 @@
+id = "alibaba/qwen3.5-397b-a17b"
+name = "Qwen 3.5 397B A17B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 3.6

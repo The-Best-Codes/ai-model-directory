@@ -1,0 +1,11 @@
+id = "meituan/longcat-video-text-to-video-720p"
+name = "Longcat Video Text To Video 720p"
+open_weights = true
+release_date = "1769385600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

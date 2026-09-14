@@ -1,0 +1,11 @@
+id = "ideogram/ideogram-object-removal"
+name = "Ideogram Object Removal"
+open_weights = true
+release_date = "1785283200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

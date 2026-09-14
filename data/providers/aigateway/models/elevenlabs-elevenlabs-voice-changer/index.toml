@@ -1,0 +1,11 @@
+id = "elevenlabs/elevenlabs-voice-changer"
+name = "ElevenLabs Voice Changer"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

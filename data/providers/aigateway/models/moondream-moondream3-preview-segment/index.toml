@@ -1,0 +1,11 @@
+id = "moondream/moondream3-preview-segment"
+name = "Moondream3 Preview [Segment]"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

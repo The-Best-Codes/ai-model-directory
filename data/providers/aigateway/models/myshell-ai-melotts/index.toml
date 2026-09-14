@@ -1,0 +1,10 @@
+id = "myshell-ai/melotts"
+name = "melotts"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

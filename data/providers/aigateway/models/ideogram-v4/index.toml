@@ -1,0 +1,11 @@
+id = "ideogram/v4"
+name = "Ideogram V4.0 Text to Image"
+open_weights = true
+release_date = "1783296000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "vidu/vidu-q2-image-to-video-turbo"
+name = "Vidu Q2 Image To Video Turbo"
+open_weights = true
+release_date = "1777248000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

@@ -1,0 +1,13 @@
+id = "alibaba/qwen3-rerank"
+name = "Qwen3 Rerank"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1

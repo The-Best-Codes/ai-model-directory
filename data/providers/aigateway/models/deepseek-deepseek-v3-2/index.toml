@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-v3.2"
+name = "DeepSeek V3.2"
+open_weights = true
+release_date = "1785369600"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.57
+output = 1.71

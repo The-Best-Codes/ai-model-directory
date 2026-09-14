@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-kontext-lora"
+name = "Flux Kontext Lora"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

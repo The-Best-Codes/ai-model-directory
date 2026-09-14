@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-2-klein-4b-base-edit-lora"
+name = "FLUX.2 [klein] 4B Base LoRA (Edit)"
+open_weights = true
+release_date = "1773705600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

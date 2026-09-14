@@ -1,0 +1,11 @@
+id = "krea/v2/large/text-to-image"
+name = "Krea 2 Large"
+open_weights = true
+release_date = "1782777600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

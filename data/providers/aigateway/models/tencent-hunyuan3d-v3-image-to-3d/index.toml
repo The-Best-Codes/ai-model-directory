@@ -1,0 +1,11 @@
+id = "tencent/hunyuan3d-v3-image-to-3d"
+name = "Hunyuan3d V3 Image To 3d"
+open_weights = true
+release_date = "1780358400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

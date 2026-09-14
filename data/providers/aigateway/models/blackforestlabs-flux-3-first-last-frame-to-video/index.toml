@@ -1,0 +1,11 @@
+id = "blackforestlabs/flux-3/first-last-frame-to-video"
+name = "Flux 3 First Last Frame to Video"
+open_weights = true
+release_date = "1787011200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

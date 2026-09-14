@@ -1,0 +1,11 @@
+id = "stability-ai/stable-audio-3-medium-base-text-to-audio"
+name = "Stable Audio 3 Medium Base Text to Audio"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

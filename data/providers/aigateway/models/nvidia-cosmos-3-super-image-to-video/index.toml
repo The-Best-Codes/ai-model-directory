@@ -1,0 +1,11 @@
+id = "nvidia/cosmos-3-super/image-to-video"
+name = "Cosmos 3 Super Image to Video"
+open_weights = true
+release_date = "1788912000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

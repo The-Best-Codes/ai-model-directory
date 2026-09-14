@@ -1,0 +1,13 @@
+id = "pfnet/plamo-embedding-1b"
+name = "plamo-embedding-1b"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0186

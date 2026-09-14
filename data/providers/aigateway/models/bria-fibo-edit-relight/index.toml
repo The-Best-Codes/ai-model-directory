@@ -1,0 +1,11 @@
+id = "bria/fibo-edit/relight"
+name = "Fibo Edit [Relight]"
+open_weights = true
+release_date = "1779235200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "stability-ai/stable-audio-3-small-music-audio-inpainting"
+name = "Stable Audio 3 Small Music Audio Inpainting"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

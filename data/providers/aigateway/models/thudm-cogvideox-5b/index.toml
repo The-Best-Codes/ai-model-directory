@@ -1,0 +1,11 @@
+id = "thudm/cogvideox-5b"
+name = "Cogvideox 5b"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

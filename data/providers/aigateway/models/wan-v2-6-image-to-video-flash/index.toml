@@ -1,0 +1,11 @@
+id = "wan/v2.6/image-to-video/flash"
+name = "V2.6"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

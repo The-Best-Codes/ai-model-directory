@@ -1,0 +1,10 @@
+id = "alibaba/wan2.2-animate-mix"
+name = "Wan 2.2 Animate Mix"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

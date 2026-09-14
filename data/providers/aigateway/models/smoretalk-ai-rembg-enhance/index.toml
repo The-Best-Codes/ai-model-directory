@@ -1,0 +1,11 @@
+id = "smoretalk-ai/rembg-enhance"
+name = "Rembg Enhance (Remove Background Enhance)"
+open_weights = true
+release_date = "1778630400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

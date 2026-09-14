@@ -1,0 +1,11 @@
+id = "topaz/restore/image"
+name = "Topaz Restore Image"
+open_weights = true
+release_date = "1788566400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

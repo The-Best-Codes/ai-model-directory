@@ -1,0 +1,11 @@
+id = "elevenlabs/elevenlabs-speech-to-text"
+name = "ElevenLabs Speech to Text"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

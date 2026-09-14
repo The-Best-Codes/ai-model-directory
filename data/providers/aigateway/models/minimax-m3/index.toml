@@ -1,0 +1,18 @@
+id = "minimax/m3"
+name = "MiniMax M3"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

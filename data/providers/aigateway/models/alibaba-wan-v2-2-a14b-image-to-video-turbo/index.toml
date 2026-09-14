@@ -1,0 +1,11 @@
+id = "alibaba/wan-v2.2-a14b-image-to-video-turbo"
+name = "Wan V2.2 A14b Image To Video Turbo"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

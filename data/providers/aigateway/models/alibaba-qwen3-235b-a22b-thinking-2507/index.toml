@@ -1,0 +1,16 @@
+id = "alibaba/qwen3-235b-a22b-thinking-2507"
+name = "Qwen3 235B A22B Thinking"
+open_weights = true
+release_date = "1780358400"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.23
+output = 2.3

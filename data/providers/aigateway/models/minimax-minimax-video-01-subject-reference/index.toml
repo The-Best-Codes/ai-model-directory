@@ -1,0 +1,11 @@
+id = "minimax/minimax-video-01-subject-reference"
+name = "MiniMax (Hailuo AI) Video 01 Subject Reference"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-pulid"
+name = "PuLID Flux"
+open_weights = true
+release_date = "1773100800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,10 @@
+id = "openai/gpt-image-2.5-sunburst"
+name = "GPT Image 2.5 Sunburst"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

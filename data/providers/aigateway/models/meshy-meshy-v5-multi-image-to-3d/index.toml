@@ -1,0 +1,11 @@
+id = "meshy/meshy-v5-multi-image-to-3d"
+name = "Meshy 5 Multi"
+open_weights = true
+release_date = "1781654400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

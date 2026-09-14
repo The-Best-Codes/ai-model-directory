@@ -1,0 +1,10 @@
+id = "elevenlabs/eleven-multilingual-v2"
+name = "Eleven Multilingual v2"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

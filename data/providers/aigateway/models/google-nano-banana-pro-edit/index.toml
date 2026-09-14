@@ -1,0 +1,11 @@
+id = "google/nano-banana-pro-edit"
+name = "Nano Banana Pro Edit"
+open_weights = true
+release_date = "1781740800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "alibaba/wan-22-vace-fun-a14b-outpainting"
+name = "Wan 22 Vace Fun A14b Outpainting"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "video" ]
+output = [ "video" ]

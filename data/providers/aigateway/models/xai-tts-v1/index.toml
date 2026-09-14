@@ -1,0 +1,11 @@
+id = "xai/tts/v1"
+name = "xAI Text to Speech"
+open_weights = false
+release_date = "1780358400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

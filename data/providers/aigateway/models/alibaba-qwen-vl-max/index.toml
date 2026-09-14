@@ -1,0 +1,15 @@
+id = "alibaba/qwen-vl-max"
+name = "Qwen-VL Max"
+open_weights = true
+release_date = "1760400000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 3.2

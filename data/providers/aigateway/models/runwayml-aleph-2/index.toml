@@ -1,0 +1,10 @@
+id = "runwayml/aleph-2"
+name = "RunwayML Aleph 2"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

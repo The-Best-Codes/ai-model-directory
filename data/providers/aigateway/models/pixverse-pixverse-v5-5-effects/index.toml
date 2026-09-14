@@ -1,0 +1,11 @@
+id = "pixverse/pixverse-v5.5-effects"
+name = "PixVerse V5.5 Effects"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

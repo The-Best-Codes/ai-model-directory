@@ -1,0 +1,11 @@
+id = "bytedance/seedream/v5/pro/edit"
+name = "Seedream 5.0 Pro Image Editing"
+open_weights = false
+release_date = "1784246400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

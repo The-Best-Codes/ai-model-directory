@@ -1,0 +1,11 @@
+id = "elevenlabs/elevenlabs-audio-isolation"
+name = "ElevenLabs Audio Isolation"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

@@ -1,0 +1,11 @@
+id = "alibaba/wan-v2.2-14b-animate-move"
+name = "Wan-2.2 Animate Move"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

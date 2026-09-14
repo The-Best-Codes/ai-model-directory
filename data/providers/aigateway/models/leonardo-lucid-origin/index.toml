@@ -1,0 +1,10 @@
+id = "leonardo/lucid-origin"
+name = "lucid-origin"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

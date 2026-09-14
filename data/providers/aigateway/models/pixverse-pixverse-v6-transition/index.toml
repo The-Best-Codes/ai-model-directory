@@ -1,0 +1,11 @@
+id = "pixverse/pixverse-v6-transition"
+name = "PixVerse V6 Transition"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

@@ -1,0 +1,10 @@
+id = "inworld/tts-1.5-mini"
+name = "Inworld TTS 1.5 Mini"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

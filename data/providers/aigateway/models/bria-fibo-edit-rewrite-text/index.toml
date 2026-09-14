@@ -1,0 +1,11 @@
+id = "bria/fibo-edit/rewrite_text"
+name = "Fibo Edit [Rewrite Text]"
+open_weights = true
+release_date = "1779235200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

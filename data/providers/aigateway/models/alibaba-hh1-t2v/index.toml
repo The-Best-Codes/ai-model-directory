@@ -1,0 +1,10 @@
+id = "alibaba/hh1-t2v"
+name = "HappyHorse 1.0 T2V"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

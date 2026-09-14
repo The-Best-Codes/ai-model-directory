@@ -1,0 +1,11 @@
+id = "mirelo-ai/sfx1.6/video-to-video"
+name = "Mirelo SFX1.6"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "blackforestlabs/flux-3/text-to-video/draft"
+name = "Flux 3 Text To Video Draft"
+open_weights = true
+release_date = "1786579200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

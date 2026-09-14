@@ -1,0 +1,11 @@
+id = "alibaba/wan-t2v-lora"
+name = "Wan-2.1 Text-to-Video with LoRAs"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

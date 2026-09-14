@@ -1,0 +1,11 @@
+id = "bria/video/background-removal/v3"
+name = "Bria's VRMBG 3.0"
+open_weights = true
+release_date = "1788220800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

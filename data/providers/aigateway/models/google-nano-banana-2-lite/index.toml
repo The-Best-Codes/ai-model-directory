@@ -1,0 +1,10 @@
+id = "google/nano-banana-2-lite"
+name = "Nano Banana 2 Lite"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

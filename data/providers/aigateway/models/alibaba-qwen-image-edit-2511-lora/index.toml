@@ -1,0 +1,11 @@
+id = "alibaba/qwen-image-edit-2511-lora"
+name = "Qwen Image Edit 2511 Lora"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

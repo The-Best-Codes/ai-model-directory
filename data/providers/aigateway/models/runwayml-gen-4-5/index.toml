@@ -1,0 +1,10 @@
+id = "runwayml/gen-4.5"
+name = "RunwayML Gen-4.5"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

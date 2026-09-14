@@ -1,0 +1,11 @@
+id = "xai/grok-imagine-image/quality/edit"
+name = "Grok Imagine Image Editing Quality"
+open_weights = false
+release_date = "1787702400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

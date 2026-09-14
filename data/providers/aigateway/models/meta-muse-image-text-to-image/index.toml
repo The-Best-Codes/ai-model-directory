@@ -1,0 +1,11 @@
+id = "meta/muse-image/text-to-image"
+name = "Meta Muse Image Text to Image"
+open_weights = true
+release_date = "1787702400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

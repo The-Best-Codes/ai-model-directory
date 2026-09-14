@@ -1,0 +1,11 @@
+id = "minimax/minimax-hailuo-02-fast-image-to-video"
+name = "Minimax Hailuo 02 Fast (Image To Video)"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

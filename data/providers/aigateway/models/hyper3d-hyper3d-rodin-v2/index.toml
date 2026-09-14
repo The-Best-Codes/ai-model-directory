@@ -1,0 +1,11 @@
+id = "hyper3d/hyper3d-rodin-v2"
+name = "Hyper3d Rodin V2"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

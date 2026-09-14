@@ -1,0 +1,11 @@
+id = "stability-ai/stable-audio-3-small-music-base-audio-outpainting"
+name = "Stable Audio 3 Small Music Base Audio Outpainting"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

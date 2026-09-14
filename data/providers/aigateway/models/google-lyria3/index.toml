@@ -1,0 +1,11 @@
+id = "google/lyria3"
+name = "Lyria3"
+open_weights = true
+release_date = "1787702400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

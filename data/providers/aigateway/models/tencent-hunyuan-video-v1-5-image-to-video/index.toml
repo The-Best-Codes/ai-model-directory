@@ -1,0 +1,11 @@
+id = "tencent/hunyuan-video-v1.5-image-to-video"
+name = "Hunyuan Video V1.5 (Image To Video)"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

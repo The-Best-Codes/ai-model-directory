@@ -1,0 +1,11 @@
+id = "luma/agent/ray/v3.2/text-to-video"
+name = "Luma Ray 3.2 Text to Video"
+open_weights = true
+release_date = "1781481600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

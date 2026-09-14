@@ -1,0 +1,11 @@
+id = "tencent/hunyuan-image-v3-instruct-text-to-image"
+name = "Hunyuan Image 3.0 Instruct"
+open_weights = true
+release_date = "1778716800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

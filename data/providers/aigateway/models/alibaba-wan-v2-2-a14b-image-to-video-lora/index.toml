@@ -1,0 +1,11 @@
+id = "alibaba/wan-v2.2-a14b-image-to-video-lora"
+name = "Wan v2.2 A14B Image-to-Video A14B with LoRAs"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "async/tts-pro/v1.0"
+name = "Async Text to Speech Pro V1.0"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

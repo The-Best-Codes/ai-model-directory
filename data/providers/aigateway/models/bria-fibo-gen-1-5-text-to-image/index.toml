@@ -1,0 +1,11 @@
+id = "bria/fibo-gen-1.5/text-to-image"
+name = "Fibo Gen 1.5 Text to Image"
+open_weights = true
+release_date = "1787616000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,10 @@
+id = "pixverse/v6"
+name = "Pixverse v6"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

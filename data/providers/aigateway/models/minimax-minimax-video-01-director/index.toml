@@ -1,0 +1,11 @@
+id = "minimax/minimax-video-01-director"
+name = "MiniMax (Hailuo AI) Video 01 Director"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

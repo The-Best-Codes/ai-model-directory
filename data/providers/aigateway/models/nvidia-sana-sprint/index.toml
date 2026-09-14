@@ -1,0 +1,11 @@
+id = "nvidia/sana-sprint"
+name = "Sana Sprint"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

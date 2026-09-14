@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-lora-canny"
+name = "FLUX.1 [dev] Canny with LoRAs"
+open_weights = true
+release_date = "1769385600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

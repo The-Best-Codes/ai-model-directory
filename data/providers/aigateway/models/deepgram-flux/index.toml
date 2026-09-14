@@ -1,0 +1,10 @@
+id = "deepgram/flux"
+name = "flux"
+open_weights = false
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

@@ -1,0 +1,10 @@
+id = "alibaba/wan-v2.7-text-to-video"
+name = "Wan 2.7 T2V"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

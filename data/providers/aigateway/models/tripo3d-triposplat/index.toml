@@ -1,0 +1,11 @@
+id = "tripo3d/triposplat"
+name = "Triposplat"
+open_weights = true
+release_date = "1787184000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

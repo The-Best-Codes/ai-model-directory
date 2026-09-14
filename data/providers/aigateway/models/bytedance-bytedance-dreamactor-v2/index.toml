@@ -1,0 +1,11 @@
+id = "bytedance/bytedance-dreamactor-v2"
+name = "Bytedance Dreamactor V2"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

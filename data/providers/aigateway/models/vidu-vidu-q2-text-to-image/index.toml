@@ -1,0 +1,11 @@
+id = "vidu/vidu-q2-text-to-image"
+name = "Vidu Q2 (Text To Image)"
+open_weights = true
+release_date = "1777248000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

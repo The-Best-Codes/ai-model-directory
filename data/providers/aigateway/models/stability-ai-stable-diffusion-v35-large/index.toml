@@ -1,0 +1,11 @@
+id = "stability-ai/stable-diffusion-v35-large"
+name = "Stable Diffusion 3.5 Large"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "bytedance/bytedance-seed-speech-tts-v2"
+name = "Bytedance Seed Speech Text to Speech"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

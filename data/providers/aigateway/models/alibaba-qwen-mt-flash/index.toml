@@ -1,0 +1,15 @@
+id = "alibaba/qwen-mt-flash"
+name = "Qwen-MT Flash"
+open_weights = true
+release_date = "1762387200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.16
+output = 0.49

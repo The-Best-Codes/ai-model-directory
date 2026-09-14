@@ -1,0 +1,11 @@
+id = "ideogram/v4/lora"
+name = "Ideogram V4.0q Text to Image (LoRA)"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

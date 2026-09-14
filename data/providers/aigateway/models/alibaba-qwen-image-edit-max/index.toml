@@ -1,0 +1,11 @@
+id = "alibaba/qwen-image-edit-max"
+name = "Qwen Image Edit Max"
+open_weights = true
+release_date = "1768694400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

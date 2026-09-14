@@ -1,0 +1,11 @@
+id = "ace-step/ace-step-prompt-to-audio"
+name = "ACE Step Prompt To Audio"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

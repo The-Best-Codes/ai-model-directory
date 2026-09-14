@@ -1,0 +1,11 @@
+id = "lightricks/ltx-2.3-retake-video"
+name = "LTX Video 2.3 Pro (Retake Video)"
+open_weights = true
+release_date = "1783900800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

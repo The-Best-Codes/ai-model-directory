@@ -1,0 +1,7 @@
+name = "AIgateway"
+website = "https://aigateway.sh"
+apiBaseUrl = "https://api.aigateway.sh/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["AIGATEWAY_API_KEY"]

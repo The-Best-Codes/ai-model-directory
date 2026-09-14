@@ -1,0 +1,11 @@
+id = "sonilo/v1.1/video-to-video-sound-effects"
+name = "V1.1 Video to Video Sound Effects"
+open_weights = true
+release_date = "1785196800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

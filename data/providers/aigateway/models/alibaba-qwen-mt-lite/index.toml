@@ -1,0 +1,15 @@
+id = "alibaba/qwen-mt-lite"
+name = "Qwen-MT Lite"
+open_weights = true
+release_date = "1764547200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.12
+output = 0.36

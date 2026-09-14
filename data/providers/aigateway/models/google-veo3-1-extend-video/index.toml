@@ -1,0 +1,11 @@
+id = "google/veo3.1-extend-video"
+name = "Veo3.1 Extend Video"
+open_weights = true
+release_date = "1777334400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

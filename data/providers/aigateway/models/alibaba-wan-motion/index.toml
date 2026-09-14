@@ -1,0 +1,11 @@
+id = "alibaba/wan-motion"
+name = "Wan Motion"
+open_weights = true
+release_date = "1787184000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

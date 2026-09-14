@@ -1,0 +1,11 @@
+id = "stanford/framepack-f1"
+name = "Framepack F1"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

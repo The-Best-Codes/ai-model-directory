@@ -1,0 +1,10 @@
+id = "alibaba/happy-horse/v1.1/text-to-video"
+name = "HappyHorse 1.1 T2V"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

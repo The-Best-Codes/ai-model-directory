@@ -1,0 +1,11 @@
+id = "tencent/hunyuan3d-v2-mini-turbo"
+name = "Hunyuan3d V2 Mini Turbo"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

@@ -1,0 +1,11 @@
+id = "openai/gpt-image-2.5/flare/edit"
+name = "GPT Image 2.5 Flare Edit"
+open_weights = false
+release_date = "1789084800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

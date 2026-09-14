@@ -1,0 +1,11 @@
+id = "alibaba/wan-v2.7-pro-text-to-image"
+name = "Wan V2.7 Pro (Text To Image)"
+open_weights = true
+release_date = "1776643200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

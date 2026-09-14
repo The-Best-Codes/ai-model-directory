@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-2-pro-outpaint"
+name = "FLUX 2 Pro Outpaint"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

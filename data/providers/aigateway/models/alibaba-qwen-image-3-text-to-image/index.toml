@@ -1,0 +1,11 @@
+id = "alibaba/qwen-image-3/text-to-image"
+name = "Qwen Image 3 Text to Image"
+open_weights = true
+release_date = "1787875200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

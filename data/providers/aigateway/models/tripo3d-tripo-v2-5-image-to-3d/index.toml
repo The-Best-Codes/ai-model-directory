@@ -1,0 +1,11 @@
+id = "tripo3d/tripo/v2.5/image-to-3d"
+name = "Tripo3d Tripo V2.5 Image To 3d"
+open_weights = true
+release_date = "1769385600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

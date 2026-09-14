@@ -1,0 +1,18 @@
+id = "meta-llama/llama-2-7b-chat-hf-lora"
+name = "llama-2-7b-chat-hf-lora"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0.08

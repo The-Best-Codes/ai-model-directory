@@ -1,0 +1,11 @@
+id = "meshy/meshy-v6-preview-text-to-3d"
+name = "Meshy 6 Preview (Text To 3d)"
+open_weights = true
+release_date = "1781654400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "file" ]

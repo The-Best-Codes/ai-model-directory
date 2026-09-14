@@ -1,0 +1,11 @@
+id = "google/gemini-3.1-flash-image-preview"
+name = "Gemini 3.1 Flash Image Preview"
+open_weights = true
+release_date = "1778112000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

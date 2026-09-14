@@ -1,0 +1,10 @@
+id = "xai/grok-stt"
+name = "Grok STT"
+open_weights = false
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

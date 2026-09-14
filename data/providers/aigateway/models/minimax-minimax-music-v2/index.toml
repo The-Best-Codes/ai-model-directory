@@ -1,0 +1,11 @@
+id = "minimax/minimax-music-v2"
+name = "Minimax Music V2"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

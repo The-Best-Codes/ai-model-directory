@@ -1,0 +1,11 @@
+id = "wan/v2.6/reference-to-video"
+name = "Wan v2.6 Reference to Video"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "video" ]
+output = [ "video" ]

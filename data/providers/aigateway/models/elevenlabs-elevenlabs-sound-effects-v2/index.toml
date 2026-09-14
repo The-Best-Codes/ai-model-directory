@@ -1,0 +1,11 @@
+id = "elevenlabs/elevenlabs-sound-effects-v2"
+name = "Elevenlabs Sound Effects V2"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

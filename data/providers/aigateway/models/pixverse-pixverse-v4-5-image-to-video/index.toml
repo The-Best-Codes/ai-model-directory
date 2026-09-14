@@ -1,0 +1,11 @@
+id = "pixverse/pixverse-v4.5-image-to-video"
+name = "PixVerse V4.5 Image To Video"
+open_weights = true
+release_date = "1781654400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

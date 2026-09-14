@@ -1,0 +1,11 @@
+id = "vidu/vidu-q3-reference-to-video-mix"
+name = "Vidu Q3 Reference To Video Mix"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

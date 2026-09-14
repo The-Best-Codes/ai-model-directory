@@ -1,0 +1,11 @@
+id = "bria/video/background-removal/green-screen-despill"
+name = "Video (Background Removal Green Screen Despill)"
+open_weights = true
+release_date = "1787788800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

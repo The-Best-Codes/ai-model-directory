@@ -1,0 +1,11 @@
+id = "bytedance/seed-audio-1.0"
+name = "Seed Audio 1.0"
+open_weights = true
+release_date = "1788739200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

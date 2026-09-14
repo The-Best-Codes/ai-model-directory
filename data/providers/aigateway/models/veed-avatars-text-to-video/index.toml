@@ -1,0 +1,11 @@
+id = "veed/avatars/text-to-video"
+name = "Avatars"
+open_weights = true
+release_date = "1769385600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

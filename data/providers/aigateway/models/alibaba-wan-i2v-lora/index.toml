@@ -1,0 +1,11 @@
+id = "alibaba/wan-i2v-lora"
+name = "Wan-2.1 Image-to-Video with LoRAs"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

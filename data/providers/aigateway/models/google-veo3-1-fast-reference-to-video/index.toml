@@ -1,0 +1,11 @@
+id = "google/veo3.1-fast-reference-to-video"
+name = "Veo 3.1 Fast (Reference To Video)"
+open_weights = true
+release_date = "1787702400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

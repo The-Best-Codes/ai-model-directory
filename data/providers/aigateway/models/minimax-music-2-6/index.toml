@@ -1,0 +1,10 @@
+id = "minimax/music-2.6"
+name = "MiniMax Music 2.6"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,10 @@
+id = "deepgram/nova-3"
+name = "nova-3"
+open_weights = false
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

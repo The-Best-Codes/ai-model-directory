@@ -1,0 +1,11 @@
+id = "minimax/h3-max-turbo/text-to-video"
+name = "H3 Max Turbo Text to Video"
+open_weights = true
+release_date = "1788825600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

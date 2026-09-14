@@ -1,0 +1,11 @@
+id = "openai/gpt-image-1-mini"
+name = "Gpt Image 1 Mini"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

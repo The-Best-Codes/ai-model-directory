@@ -1,0 +1,11 @@
+id = "stanford/iclight-v2"
+name = "IC-Light-v2 for Image Relighting"
+open_weights = true
+release_date = "1769385600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-v2.1-master-text-to-video"
+name = "Kling 2.1 Master (Text To Video)"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

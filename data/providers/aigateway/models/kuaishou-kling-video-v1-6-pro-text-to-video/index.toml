@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-v1.6-pro-text-to-video"
+name = "Kling 1.6 (Pro Text To Video)"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

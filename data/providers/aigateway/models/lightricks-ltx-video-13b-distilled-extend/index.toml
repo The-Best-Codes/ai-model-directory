@@ -1,0 +1,11 @@
+id = "lightricks/ltx-video-13b-distilled-extend"
+name = "Ltx Video 13b Distilled Extend"
+open_weights = true
+release_date = "1783900800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

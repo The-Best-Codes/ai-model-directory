@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-v3-turbo-pro-image-to-video"
+name = "Kling Video V3 Turbo Pro Image to Video"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

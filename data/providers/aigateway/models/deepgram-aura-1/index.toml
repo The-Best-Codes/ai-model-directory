@@ -1,0 +1,10 @@
+id = "deepgram/aura-1"
+name = "aura-1"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

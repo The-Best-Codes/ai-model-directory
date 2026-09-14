@@ -1,0 +1,18 @@
+id = "aisingapore/gemma-sea-lion-v4-27b-it"
+name = "gemma-sea-lion-v4-27b-it"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.351
+output = 0.555

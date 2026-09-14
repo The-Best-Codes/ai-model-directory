@@ -1,0 +1,10 @@
+id = "alibaba/wan-3.0-prime"
+name = "Wan 3.0 Prime Video"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "luma/agent/uni-1/v1/text-to-image"
+name = "Luma Uni-1 Text to Image"
+open_weights = true
+release_date = "1781481600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

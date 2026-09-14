@@ -1,0 +1,11 @@
+id = "pixverse/pixverse-v6-extend"
+name = "PixVerse V6 Extend"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

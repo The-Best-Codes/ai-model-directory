@@ -1,0 +1,11 @@
+id = "minimax/music-3"
+name = "MiniMax Music 3"
+open_weights = false
+release_date = "1787011200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

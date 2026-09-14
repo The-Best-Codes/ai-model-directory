@@ -1,0 +1,11 @@
+id = "pixverse/pixverse-v3.5-transition"
+name = "PixVerse V3.5 Transition"
+open_weights = true
+release_date = "1781654400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

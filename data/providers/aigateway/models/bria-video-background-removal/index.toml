@@ -1,0 +1,11 @@
+id = "bria/video/background-removal"
+name = "Video (Background Removal)"
+open_weights = true
+release_date = "1788220800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

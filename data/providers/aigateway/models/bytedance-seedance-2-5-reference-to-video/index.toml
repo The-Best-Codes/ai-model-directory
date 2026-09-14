@@ -1,0 +1,11 @@
+id = "bytedance/seedance-2.5/reference-to-video"
+name = "Seedance 2.5 Reference to Video"
+open_weights = false
+release_date = "1788912000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

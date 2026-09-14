@@ -1,0 +1,18 @@
+id = "alibaba/qwen3-max"
+name = "Qwen 3 Max"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.2
+output = 6

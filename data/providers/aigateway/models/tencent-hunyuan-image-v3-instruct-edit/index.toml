@@ -1,0 +1,11 @@
+id = "tencent/hunyuan-image-v3-instruct-edit"
+name = "Hunyuan Image V3 Instruct Edit"
+open_weights = true
+release_date = "1769558400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

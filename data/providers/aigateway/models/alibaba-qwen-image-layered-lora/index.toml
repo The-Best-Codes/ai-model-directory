@@ -1,0 +1,11 @@
+id = "alibaba/qwen-image-layered-lora"
+name = "Qwen Image Layered Lora"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

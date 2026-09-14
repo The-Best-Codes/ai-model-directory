@@ -1,0 +1,18 @@
+id = "google/gemma-7b-it-lora"
+name = "gemma-7b-it-lora"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 3500
+output = 3500
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.16

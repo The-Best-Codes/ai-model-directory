@@ -1,0 +1,11 @@
+id = "alibaba/qwen-audio-3-tts"
+name = "Qwen Audio 3.0 TTS (Flash)"
+open_weights = true
+release_date = "1785801600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

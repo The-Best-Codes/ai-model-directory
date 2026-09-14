@@ -1,0 +1,11 @@
+id = "kuaishou/kling-image-o3-text-to-image"
+name = "Kling Image O3 (Text To Image)"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

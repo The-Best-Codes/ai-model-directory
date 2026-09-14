@@ -1,0 +1,11 @@
+id = "alibaba/wan-v2.2-5b-text-to-image"
+name = "Wan V2.2 5b (Text To Image)"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

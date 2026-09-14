@@ -1,0 +1,13 @@
+id = "baai/bge-m3"
+name = "bge-m3"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0118

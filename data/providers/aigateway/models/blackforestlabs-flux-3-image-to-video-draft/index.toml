@@ -1,0 +1,11 @@
+id = "blackforestlabs/flux-3/image-to-video/draft"
+name = "Flux 3 Image To Video Draft"
+open_weights = true
+release_date = "1785801600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

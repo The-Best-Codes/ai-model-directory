@@ -1,0 +1,11 @@
+id = "microsoft/mai-image-2.5-pro/edit"
+name = "MAI Image 2.5 Pro (Edit)"
+open_weights = true
+release_date = "1788134400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

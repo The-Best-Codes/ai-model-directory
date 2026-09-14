@@ -1,0 +1,11 @@
+id = "hitem3d/hi3d/v3.0/image-to-3d"
+name = "Hi3D Image to 3D (V3.0 Image To 3d)"
+open_weights = true
+release_date = "1788912000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

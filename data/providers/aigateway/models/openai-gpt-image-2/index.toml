@@ -1,0 +1,10 @@
+id = "openai/gpt-image-2"
+name = "GPT Image 2"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

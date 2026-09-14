@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-general"
+name = "FLUX.1 [dev] with Controlnets and Loras"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

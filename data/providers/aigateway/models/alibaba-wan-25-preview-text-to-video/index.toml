@@ -1,0 +1,11 @@
+id = "alibaba/wan-25-preview-text-to-video"
+name = "Wan 2.5 Text to Video"
+open_weights = true
+release_date = "1777248000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

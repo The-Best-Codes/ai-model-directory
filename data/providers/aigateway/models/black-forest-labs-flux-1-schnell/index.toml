@@ -1,0 +1,10 @@
+id = "black-forest-labs/flux-1-schnell"
+name = "flux-1-schnell"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

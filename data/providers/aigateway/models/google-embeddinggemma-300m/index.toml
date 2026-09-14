@@ -1,0 +1,13 @@
+id = "google/embeddinggemma-300m"
+name = "embeddinggemma-300m"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.02

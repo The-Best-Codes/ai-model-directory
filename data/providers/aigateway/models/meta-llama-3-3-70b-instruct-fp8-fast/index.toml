@@ -1,0 +1,19 @@
+id = "meta/llama-3.3-70b-instruct-fp8-fast"
+name = "llama-3.3-70b-instruct-fp8-fast"
+open_weights = true
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 24000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.293
+output = 2.253

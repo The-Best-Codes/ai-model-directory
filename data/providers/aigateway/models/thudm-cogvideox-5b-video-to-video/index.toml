@@ -1,0 +1,11 @@
+id = "thudm/cogvideox-5b-video-to-video"
+name = "Cogvideox 5b Video To Video"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "lightricks/ltxv-13b-098-distilled-image-to-video"
+name = "LTX-Video 13B 0.9.8 Distilled (Image To Video)"
+open_weights = true
+release_date = "1783900800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

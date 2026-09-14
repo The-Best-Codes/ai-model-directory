@@ -1,0 +1,11 @@
+id = "imagineart/imagineart-1.5-preview/text-to-image"
+name = "Imagineart 1.5 Preview"
+open_weights = true
+release_date = "1769385600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

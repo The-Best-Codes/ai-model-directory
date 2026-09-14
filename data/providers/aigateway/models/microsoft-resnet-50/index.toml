@@ -1,0 +1,10 @@
+id = "microsoft/resnet-50"
+name = "resnet-50"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

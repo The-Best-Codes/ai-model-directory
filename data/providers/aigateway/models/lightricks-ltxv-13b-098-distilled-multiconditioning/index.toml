@@ -1,0 +1,11 @@
+id = "lightricks/ltxv-13b-098-distilled-multiconditioning"
+name = "LTX-Video 13B 0.9.8 Distilled (Multiconditioning)"
+open_weights = true
+release_date = "1783900800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "mirage-api/avatar-x/reference-to-video"
+name = "Mirage Avatar X"
+open_weights = true
+release_date = "1786406400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

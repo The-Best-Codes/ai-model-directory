@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-v2.6-standard-motion-control"
+name = "Kling Video v2.6 Motion Control [Standard]"
+open_weights = true
+release_date = "1784592000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

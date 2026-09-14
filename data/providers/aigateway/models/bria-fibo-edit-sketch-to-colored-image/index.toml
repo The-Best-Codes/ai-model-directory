@@ -1,0 +1,11 @@
+id = "bria/fibo-edit/sketch_to_colored_image"
+name = "Fibo Edit [Sketch to Image]"
+open_weights = true
+release_date = "1779235200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

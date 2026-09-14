@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-v3-pro-image-to-video"
+name = "Kling Video v3 Image to Video [Pro]"
+open_weights = true
+release_date = "1780012800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

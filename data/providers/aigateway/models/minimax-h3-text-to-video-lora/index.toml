@@ -1,0 +1,11 @@
+id = "minimax/h3/text-to-video/lora"
+name = "MiniMax H3 Text to Video LoRA"
+open_weights = true
+release_date = "1788220800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "tripo3d/h3.1/text-to-3d"
+name = "Tripo H3.1 Text to 3D"
+open_weights = true
+release_date = "1778112000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "file" ]

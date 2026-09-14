@@ -1,0 +1,10 @@
+id = "bytedance/stable-diffusion-xl-lightning"
+name = "stable-diffusion-xl-lightning"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

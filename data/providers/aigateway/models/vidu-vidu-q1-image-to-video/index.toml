@@ -1,0 +1,11 @@
+id = "vidu/vidu-q1-image-to-video"
+name = "Vidu Image to Video (Q1 Image To Video)"
+open_weights = true
+release_date = "1777248000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

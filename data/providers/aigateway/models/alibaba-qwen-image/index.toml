@@ -1,0 +1,10 @@
+id = "alibaba/qwen-image"
+name = "Qwen Image"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,13 @@
+id = "qwen/qwen3-embedding-0.6b"
+name = "qwen3-embedding-0.6b"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0118

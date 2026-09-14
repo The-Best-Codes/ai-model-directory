@@ -1,0 +1,11 @@
+id = "ideogram/v4/fast"
+name = "V4.0q [fast]"
+open_weights = true
+release_date = "1783900800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-2"
+name = "Flux 2"
+open_weights = true
+release_date = "1779840000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "minimax/h3-max/multi-angle/image-to-video"
+name = "H3 Max Multi Angle"
+open_weights = true
+release_date = "1788998400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "moonvalley/marey/i2v"
+name = "Marey Realism V1.5 (I2v)"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

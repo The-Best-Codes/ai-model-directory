@@ -1,0 +1,11 @@
+id = "alibaba/wan-v2.7-edit-video"
+name = "Wan V2.7 Edit Video"
+open_weights = true
+release_date = "1787097600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

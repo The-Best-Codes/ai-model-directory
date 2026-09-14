@@ -1,0 +1,10 @@
+id = "openai/gpt-image-1.5"
+name = "GPT Image 1.5"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-v2.1-pro-image-to-video"
+name = "Kling 2.1 (pro)"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

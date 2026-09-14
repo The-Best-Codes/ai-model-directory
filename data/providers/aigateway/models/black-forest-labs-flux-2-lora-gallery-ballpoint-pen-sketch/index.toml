@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-2-lora-gallery-ballpoint-pen-sketch"
+name = "Flux 2 Lora Gallery Ballpoint Pen Sketch"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

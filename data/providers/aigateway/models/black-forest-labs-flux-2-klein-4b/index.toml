@@ -1,0 +1,10 @@
+id = "black-forest-labs/flux-2-klein-4b"
+name = "flux-2-klein-4b"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

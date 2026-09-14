@@ -1,0 +1,11 @@
+id = "stability-ai/stable-diffusion-v35-medium"
+name = "Stable Diffusion 3.5 Medium"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

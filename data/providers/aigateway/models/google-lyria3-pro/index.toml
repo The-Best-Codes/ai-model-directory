@@ -1,0 +1,11 @@
+id = "google/lyria3-pro"
+name = "Lyria 3 Pro"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

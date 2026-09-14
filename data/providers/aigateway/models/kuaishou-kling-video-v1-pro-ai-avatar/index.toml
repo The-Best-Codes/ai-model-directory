@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-v1-pro-ai-avatar"
+name = "Kling AI Avatar Pro"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

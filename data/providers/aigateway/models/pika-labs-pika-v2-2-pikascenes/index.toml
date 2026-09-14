@@ -1,0 +1,11 @@
+id = "pika-labs/pika-v2.2-pikascenes"
+name = "Pika Scenes (v2.2)"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

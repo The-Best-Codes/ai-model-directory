@@ -1,0 +1,11 @@
+id = "hidream/hidream-i1-full"
+name = "Hidream I1 Full"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

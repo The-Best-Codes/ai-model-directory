@@ -1,0 +1,11 @@
+id = "minimax/h3/reference-to-video"
+name = "MiniMax H3 Reference to Video"
+open_weights = true
+release_date = "1787616000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

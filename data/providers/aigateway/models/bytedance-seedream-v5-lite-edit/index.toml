@@ -1,0 +1,11 @@
+id = "bytedance/seedream/v5/lite/edit"
+name = "Seedream (Edit)"
+open_weights = false
+release_date = "1784246400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "blackforestlabs/flux-3/extend-video"
+name = "Flux 3 Extend Video"
+open_weights = true
+release_date = "1787011200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

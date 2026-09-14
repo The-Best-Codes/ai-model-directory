@@ -1,0 +1,11 @@
+id = "alibaba/qwen-image-edit-2509-lora-gallery-lighting-restoration"
+name = "Qwen Image Edit 2509 Lora Gallery Lighting Restoration"
+open_weights = true
+release_date = "1787875200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,20 @@
+id = "qwen/qwen3-30b-a3b-fp8"
+name = "qwen3-30b-a3b-fp8"
+open_weights = true
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0509
+output = 0.335

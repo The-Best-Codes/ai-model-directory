@@ -1,0 +1,11 @@
+id = "nvidia/cosmos-predict-2.5-image-to-video"
+name = "Cosmos Predict 2.5 2B (Image To Video)"
+open_weights = true
+release_date = "1777334400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

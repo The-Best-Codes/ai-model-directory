@@ -1,0 +1,11 @@
+id = "ideogram/ideogram-character-remix"
+name = "Ideogram V3 Character Remix"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

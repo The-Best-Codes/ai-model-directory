@@ -1,0 +1,11 @@
+id = "google/veo3.1-lite"
+name = "Veo3.1 Lite Text to Video"
+open_weights = true
+release_date = "1777334400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

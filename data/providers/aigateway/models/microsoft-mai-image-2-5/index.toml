@@ -1,0 +1,11 @@
+id = "microsoft/mai-image-2.5"
+name = "Mai Image 2.5 Text to Image"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

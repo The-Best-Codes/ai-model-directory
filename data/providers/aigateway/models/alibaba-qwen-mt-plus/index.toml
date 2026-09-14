@@ -1,0 +1,15 @@
+id = "alibaba/qwen-mt-plus"
+name = "Qwen-MT Plus"
+open_weights = true
+release_date = "1760400000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.46
+output = 7.37

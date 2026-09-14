@@ -1,0 +1,11 @@
+id = "bria/fibo-bbq-preview/generate"
+name = "Fibo Bbq Preview"
+open_weights = true
+release_date = "1772409600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

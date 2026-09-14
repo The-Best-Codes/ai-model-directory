@@ -1,0 +1,11 @@
+id = "rundiffusion-fal/juggernaut-flux/base/image-to-image"
+name = "Juggernaut Flux Base (Image To Image)"
+open_weights = true
+release_date = "1769385600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

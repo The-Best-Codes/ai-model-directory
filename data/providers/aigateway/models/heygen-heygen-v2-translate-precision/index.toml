@@ -1,0 +1,11 @@
+id = "heygen/heygen-v2-translate-precision"
+name = "Heygen V2 Translate Precision"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "microsoft/trellis-2-retexture"
+name = "Trellis 2 Retexture"
+open_weights = true
+release_date = "1772409600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

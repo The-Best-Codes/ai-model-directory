@@ -1,0 +1,11 @@
+id = "bytedance/seedream/v5/pro/layerize"
+name = "Seedream 5.0 Pro Layerize"
+open_weights = false
+release_date = "1788134400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "nvidia/cosmos-3-super/text-to-image"
+name = "Cosmos 3 Super"
+open_weights = true
+release_date = "1784678400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

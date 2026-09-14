@@ -1,0 +1,19 @@
+id = "ibm-granite/granite-4.0-h-micro"
+name = "granite-4.0-h-micro"
+open_weights = true
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 131000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.017
+output = 0.112

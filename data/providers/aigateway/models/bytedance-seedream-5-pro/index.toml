@@ -1,0 +1,10 @@
+id = "bytedance/seedream-5-pro"
+name = "Seedream 5 Pro"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

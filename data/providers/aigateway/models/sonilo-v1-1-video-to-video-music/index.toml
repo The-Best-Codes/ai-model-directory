@@ -1,0 +1,11 @@
+id = "sonilo/v1.1/video-to-video-music"
+name = "V1.1 Video to Video Music"
+open_weights = true
+release_date = "1785196800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

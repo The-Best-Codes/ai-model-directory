@@ -1,0 +1,11 @@
+id = "ace-step/ace-step-audio-outpaint"
+name = "ACE Step Audio Outpaint"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

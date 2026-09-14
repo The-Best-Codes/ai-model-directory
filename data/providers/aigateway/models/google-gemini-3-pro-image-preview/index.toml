@@ -1,0 +1,11 @@
+id = "google/gemini-3-pro-image-preview"
+name = "Gemini 3 Pro Image Preview"
+open_weights = true
+release_date = "1777334400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

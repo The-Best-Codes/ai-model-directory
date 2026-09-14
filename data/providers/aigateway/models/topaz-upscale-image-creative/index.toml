@@ -1,0 +1,11 @@
+id = "topaz/upscale/image/creative"
+name = "Topaz Upscale Image Creative"
+open_weights = true
+release_date = "1788134400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

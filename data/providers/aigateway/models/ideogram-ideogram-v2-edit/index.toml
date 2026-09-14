@@ -1,0 +1,11 @@
+id = "ideogram/ideogram-v2-edit"
+name = "Ideogram V2 Edit"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

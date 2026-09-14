@@ -1,0 +1,11 @@
+id = "elevenlabs/elevenlabs-music"
+name = "Elevenlabs Music"
+open_weights = true
+release_date = "1787011200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,11 @@
+id = "heygen/heygen-v3-filler-word-removal"
+name = "Heygen V3 Filler Word Removal"
+open_weights = true
+release_date = "1787184000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

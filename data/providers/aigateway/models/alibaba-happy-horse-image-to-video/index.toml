@@ -1,0 +1,10 @@
+id = "alibaba/happy-horse/image-to-video"
+name = "HappyHorse 1.0 I2V"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

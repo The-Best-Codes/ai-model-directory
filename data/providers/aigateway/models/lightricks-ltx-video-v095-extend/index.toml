@@ -1,0 +1,11 @@
+id = "lightricks/ltx-video-v095-extend"
+name = "LTX Video-0.9.5 (Extend)"
+open_weights = true
+release_date = "1783900800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

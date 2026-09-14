@@ -1,0 +1,11 @@
+id = "tripo3d/h3.1/multiview-to-3d"
+name = "Tripo H3.1 Multiview to 3D"
+open_weights = true
+release_date = "1783555200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

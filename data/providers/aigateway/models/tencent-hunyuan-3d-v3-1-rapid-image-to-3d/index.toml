@@ -1,0 +1,11 @@
+id = "tencent/hunyuan-3d-v3.1-rapid-image-to-3d"
+name = "Hunyuan 3D Rapid Image to 3D"
+open_weights = true
+release_date = "1777334400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

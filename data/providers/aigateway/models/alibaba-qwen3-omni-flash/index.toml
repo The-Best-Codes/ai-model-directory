@@ -1,0 +1,15 @@
+id = "alibaba/qwen3-omni-flash"
+name = "Qwen3-Omni Flash"
+open_weights = true
+release_date = "1761523200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.43
+output = 1.66

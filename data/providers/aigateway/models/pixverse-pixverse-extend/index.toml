@@ -1,0 +1,11 @@
+id = "pixverse/pixverse-extend"
+name = "PixVerse Extend"
+open_weights = true
+release_date = "1781654400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

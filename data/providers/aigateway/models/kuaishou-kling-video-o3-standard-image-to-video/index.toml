@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-o3-standard-image-to-video"
+name = "Kling O3 Image to Video [Pro] (Standard)"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

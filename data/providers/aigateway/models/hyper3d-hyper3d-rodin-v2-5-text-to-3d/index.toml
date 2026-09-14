@@ -1,0 +1,11 @@
+id = "hyper3d/hyper3d-rodin-v2.5-text-to-3d"
+name = "Hyper3D - Rodin V2.5 - Text to 3D"
+open_weights = true
+release_date = "1783900800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "file" ]

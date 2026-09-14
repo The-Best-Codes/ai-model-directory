@@ -1,0 +1,11 @@
+id = "recraft/recraft-v4.1-pro-text-to-image"
+name = "Recraft V4.1 Text to Image Pro"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

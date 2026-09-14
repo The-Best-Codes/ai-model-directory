@@ -1,0 +1,10 @@
+id = "minimax/speech-2.8-turbo"
+name = "MiniMax Speech 2.8 Turbo"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

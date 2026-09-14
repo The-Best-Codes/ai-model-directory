@@ -1,0 +1,11 @@
+id = "lightricks/ltx-2.3-reframe"
+name = "Ltx 2.3 Reframe"
+open_weights = true
+release_date = "1784160000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

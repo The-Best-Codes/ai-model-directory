@@ -1,0 +1,11 @@
+id = "black-forest-labs/flux-pro-kontext-text-to-image"
+name = "FLUX.1 Kontext [pro] (Text To Image)"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

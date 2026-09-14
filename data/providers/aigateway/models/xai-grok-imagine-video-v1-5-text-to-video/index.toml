@@ -1,0 +1,11 @@
+id = "xai/grok-imagine-video/v1.5/text-to-video"
+name = "Grok Imagine Video 1.5 Text to Video"
+open_weights = false
+release_date = "1788134400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,10 @@
+id = "stabilityai/stable-diffusion-xl-base-1.0"
+name = "stable-diffusion-xl-base-1.0"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

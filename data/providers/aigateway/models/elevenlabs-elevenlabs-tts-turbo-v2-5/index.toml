@@ -1,0 +1,11 @@
+id = "elevenlabs/elevenlabs-tts-turbo-v2.5"
+name = "ElevenLabs TTS Turbo v2.5"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

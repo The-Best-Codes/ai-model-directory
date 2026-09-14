@@ -1,0 +1,14 @@
+id = "meta/m2m100-1.2b"
+name = "m2m100-1.2b"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.342
+output = 0.342

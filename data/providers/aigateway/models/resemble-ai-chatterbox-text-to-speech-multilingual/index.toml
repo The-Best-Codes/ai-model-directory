@@ -1,0 +1,11 @@
+id = "resemble-ai/chatterbox-text-to-speech-multilingual"
+name = "Chatterbox Text To Speech Multilingual"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

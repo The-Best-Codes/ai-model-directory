@@ -1,0 +1,18 @@
+id = "google/gemma-2b-it-lora"
+name = "gemma-2b-it-lora"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03
+output = 0.06

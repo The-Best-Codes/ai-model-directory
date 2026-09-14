@@ -1,0 +1,14 @@
+id = "moondream/moondream3.1-9B-A2B"
+name = "moondream3.1-9B-A2B"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

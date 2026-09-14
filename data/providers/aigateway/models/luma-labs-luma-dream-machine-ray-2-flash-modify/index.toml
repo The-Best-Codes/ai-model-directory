@@ -1,0 +1,11 @@
+id = "luma-labs/luma-dream-machine-ray-2-flash-modify"
+name = "Luma Ray 2 Flash Modify"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

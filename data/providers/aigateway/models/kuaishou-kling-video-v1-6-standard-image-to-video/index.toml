@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-v1.6-standard-image-to-video"
+name = "Kling 1.6 (Standard Image To Video)"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

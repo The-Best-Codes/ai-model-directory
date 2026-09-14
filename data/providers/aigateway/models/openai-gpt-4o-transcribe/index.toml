@@ -1,0 +1,10 @@
+id = "openai/gpt-4o-transcribe"
+name = "GPT-4o Transcribe"
+open_weights = false
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

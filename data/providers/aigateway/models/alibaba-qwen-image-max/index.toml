@@ -1,0 +1,11 @@
+id = "alibaba/qwen-image-max"
+name = "Qwen Image Max"
+open_weights = true
+release_date = "1767052800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

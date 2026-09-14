@@ -1,0 +1,11 @@
+id = "alibaba/wan-vace-apps-long-reframe"
+name = "Wan 2.1 VACE Long Reframe"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

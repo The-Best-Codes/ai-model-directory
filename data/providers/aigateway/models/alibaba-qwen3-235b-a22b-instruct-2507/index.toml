@@ -1,0 +1,16 @@
+id = "alibaba/qwen3-235b-a22b-instruct-2507"
+name = "Qwen3 235B A22B Instruct"
+open_weights = true
+release_date = "1769990400"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.23
+output = 0.92

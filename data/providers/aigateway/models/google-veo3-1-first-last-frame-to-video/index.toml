@@ -1,0 +1,11 @@
+id = "google/veo3.1-first-last-frame-to-video"
+name = "Veo3.1 First Last Frame To Video"
+open_weights = true
+release_date = "1777334400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

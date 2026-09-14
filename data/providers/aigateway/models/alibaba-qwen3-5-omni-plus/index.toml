@@ -1,0 +1,15 @@
+id = "alibaba/qwen3.5-omni-plus"
+name = "Qwen3.5-Omni Plus"
+open_weights = true
+release_date = "1779408000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.4
+output = 8.3

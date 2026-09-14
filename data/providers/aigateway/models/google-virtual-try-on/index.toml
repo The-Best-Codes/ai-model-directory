@@ -1,0 +1,11 @@
+id = "google/virtual-try-on"
+name = "Google Virtual Try On"
+open_weights = true
+release_date = "1788220800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

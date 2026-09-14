@@ -1,0 +1,10 @@
+id = "alibaba/wan2.2-i2v-plus"
+name = "Wan 2.2 I2V Plus"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

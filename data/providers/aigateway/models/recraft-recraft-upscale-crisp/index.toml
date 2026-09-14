@@ -1,0 +1,11 @@
+id = "recraft/recraft-upscale-crisp"
+name = "Recraft Crisp Upscale"
+open_weights = true
+release_date = "1784246400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

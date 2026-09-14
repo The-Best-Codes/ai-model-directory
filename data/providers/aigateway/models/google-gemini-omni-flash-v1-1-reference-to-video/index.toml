@@ -1,0 +1,11 @@
+id = "google/gemini-omni-flash/v1.1/reference-to-video"
+name = "Gemini Omni Flash 1.1 Reference to Video"
+open_weights = false
+release_date = "1788220800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

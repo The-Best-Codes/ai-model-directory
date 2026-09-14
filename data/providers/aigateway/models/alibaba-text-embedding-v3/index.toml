@@ -1,0 +1,14 @@
+id = "alibaba/text-embedding-v3"
+name = "Qwen Text Embedding v3"
+open_weights = true
+release_date = "1761523200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.07

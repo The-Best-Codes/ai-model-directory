@@ -1,0 +1,11 @@
+id = "alibaba/z-image-turbo-controlnet"
+name = "Z Image Turbo Controlnet"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

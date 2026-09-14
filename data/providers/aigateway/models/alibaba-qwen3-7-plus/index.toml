@@ -1,0 +1,18 @@
+id = "alibaba/qwen3.7-plus"
+name = "Qwen 3.7 Plus"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 1.6

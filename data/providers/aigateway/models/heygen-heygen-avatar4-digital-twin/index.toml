@@ -1,0 +1,11 @@
+id = "heygen/heygen-avatar4-digital-twin"
+name = "Heygen Avatar4 Digital Twin"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

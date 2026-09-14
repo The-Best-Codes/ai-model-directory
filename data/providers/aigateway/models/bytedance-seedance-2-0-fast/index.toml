@@ -1,0 +1,10 @@
+id = "bytedance/seedance-2.0-fast"
+name = "Seedance 2.0 Fast"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

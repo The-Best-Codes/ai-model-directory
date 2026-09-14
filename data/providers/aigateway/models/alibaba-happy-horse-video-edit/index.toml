@@ -1,0 +1,10 @@
+id = "alibaba/happy-horse/video-edit"
+name = "HappyHorse 1.0 Video Edit"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

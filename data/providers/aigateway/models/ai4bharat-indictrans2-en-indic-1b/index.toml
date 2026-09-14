@@ -1,0 +1,14 @@
+id = "ai4bharat/indictrans2-en-indic-1B"
+name = "indictrans2-en-indic-1B"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.342
+output = 0.342

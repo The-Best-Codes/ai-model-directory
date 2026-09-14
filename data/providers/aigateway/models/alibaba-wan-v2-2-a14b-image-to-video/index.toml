@@ -1,0 +1,11 @@
+id = "alibaba/wan-v2.2-a14b-image-to-video"
+name = "Wan v2.2 A14B"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

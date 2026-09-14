@@ -1,0 +1,19 @@
+id = "alibaba/qwen3.7-max-preview"
+name = "Qwen3.7 Max Preview"
+open_weights = true
+release_date = "1779667200"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 7.5

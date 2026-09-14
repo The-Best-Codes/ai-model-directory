@@ -1,0 +1,11 @@
+id = "blackforestlabs/flux-3/draft-enhance"
+name = "Flux 3 Draft Enhance"
+open_weights = true
+release_date = "1785801600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

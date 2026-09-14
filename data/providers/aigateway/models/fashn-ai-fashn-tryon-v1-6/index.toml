@@ -1,0 +1,11 @@
+id = "fashn-ai/fashn-tryon-v1.6"
+name = "FASHN Virtual Try-On V1.6"
+open_weights = true
+release_date = "1776729600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

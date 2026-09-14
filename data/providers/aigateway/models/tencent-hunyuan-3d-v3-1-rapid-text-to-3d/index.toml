@@ -1,0 +1,11 @@
+id = "tencent/hunyuan-3d-v3.1-rapid-text-to-3d"
+name = "Hunyuan 3d V3.1 Rapid Text To 3d"
+open_weights = true
+release_date = "1777334400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "file" ]

@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-v3-standard-motion-control"
+name = "Kling Video V3 Standard Motion Control"
+open_weights = true
+release_date = "1784246400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

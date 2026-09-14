@@ -1,0 +1,11 @@
+id = "pixverse/pixverse-v3.5-text-to-video"
+name = "PixVerse V3.5 Text To Video"
+open_weights = true
+release_date = "1781654400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

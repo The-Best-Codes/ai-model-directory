@@ -1,0 +1,11 @@
+id = "heygen/heygen-v3-lipsync-precision"
+name = "Heygen Lipsync - Precision"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

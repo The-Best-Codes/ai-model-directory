@@ -1,0 +1,11 @@
+id = "ace-step/ace-step-audio-to-audio"
+name = "ACE Step Audio To Audio"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

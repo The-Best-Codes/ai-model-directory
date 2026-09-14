@@ -1,0 +1,11 @@
+id = "google/nano-banana-lite/edit"
+name = "Nano Banana Lite Edit"
+open_weights = false
+release_date = "1782777600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "elevenlabs/elevenlabs-tts-eleven-v3"
+name = "Elevenlabs Tts Eleven V3"
+open_weights = true
+release_date = "1782259200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

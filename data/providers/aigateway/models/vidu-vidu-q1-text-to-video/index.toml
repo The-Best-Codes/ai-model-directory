@@ -1,0 +1,11 @@
+id = "vidu/vidu-q1-text-to-video"
+name = "Vidu Text to Video"
+open_weights = true
+release_date = "1777248000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

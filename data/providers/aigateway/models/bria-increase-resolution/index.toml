@@ -1,0 +1,11 @@
+id = "bria/increase-resolution"
+name = "Bria Increase Resolution: Upscale Images up to 4x Without Losing Detail | fal"
+open_weights = true
+release_date = "1788912000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

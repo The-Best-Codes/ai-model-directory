@@ -1,0 +1,11 @@
+id = "vidu/vidu-q3-image-to-video"
+name = "Vidu Q3 (Image To Video)"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

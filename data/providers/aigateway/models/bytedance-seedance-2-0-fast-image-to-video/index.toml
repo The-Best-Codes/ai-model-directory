@@ -1,0 +1,11 @@
+id = "bytedance/seedance-2.0/fast/image-to-video"
+name = "Seedance 2.0 Fast Image to Video"
+open_weights = false
+release_date = "1776816000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

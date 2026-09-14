@@ -1,0 +1,11 @@
+id = "heygen/heygen-avatar4-image-to-video"
+name = "Heygen Avatar4 (Image To Video)"
+open_weights = true
+release_date = "1777161600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "alibaba/happy-horse/reference-to-video"
+name = "Happy Horse (Reference To Video)"
+open_weights = true
+release_date = "1777334400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "bria/video/erase/keypoints"
+name = "Video (Erase Keypoints)"
+open_weights = true
+release_date = "1779235200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

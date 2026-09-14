@@ -1,0 +1,11 @@
+id = "lightricks/ltx-video-v095-multiconditioning"
+name = "LTX Video-0.9.5 (Multiconditioning)"
+open_weights = true
+release_date = "1783900800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

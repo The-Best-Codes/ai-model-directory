@@ -1,0 +1,11 @@
+id = "kuaishou/kling-video-o3-4k-video-to-video-edit"
+name = "Kling Video 4K Video to Video Edit"
+open_weights = true
+release_date = "1788220800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "video" ]
+output = [ "video" ]

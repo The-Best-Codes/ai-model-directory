@@ -1,0 +1,11 @@
+id = "stability-ai/stable-audio-3-medium-audio-to-audio"
+name = "Stable Audio 3 Medium Audio to Audio"
+open_weights = true
+release_date = "1782864000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]
