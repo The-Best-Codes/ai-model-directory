@@ -6,6 +6,7 @@ export const providers = modelDirectory;
 export const _302ai = modelDirectory["302ai"]!;
 export const abacus = modelDirectory["abacus"]!;
 export const abliterationAi = modelDirectory["abliteration-ai"]!;
+export const aigateway = modelDirectory["aigateway"]!;
 export const aihubmix = modelDirectory["aihubmix"]!;
 export const alibabaCn = modelDirectory["alibaba-cn"]!;
 export const ambient = modelDirectory["ambient"]!;
