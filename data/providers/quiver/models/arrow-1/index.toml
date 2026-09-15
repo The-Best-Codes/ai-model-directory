@@ -7,8 +7,8 @@ attachment = true
 temperature = true
 
 [limit]
-context = 131072
-output = 65536
+context = 65536
+output = 32768
 
 [modalities]
 input = [ "image", "text" ]

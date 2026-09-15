@@ -1,12 +1,12 @@
 id = "qwen/qwen3-30b-a3b-fp8"
-name = "Qwen3 30B A3B"
+name = "@cf/qwen/qwen3-30b-a3b-fp8"
 open_weights = true
 
 [features]
 attachment = false
 
 [limit]
-context = 40960
+context = 32768
 
 [modalities]
 input = [ "text" ]

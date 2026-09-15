@@ -1,0 +1,12 @@
+id = "qwen/qwen3-embedding-8b"
+name = "Qwen3 Embedding 8B"
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0

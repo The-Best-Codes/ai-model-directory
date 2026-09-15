@@ -1,6 +1,6 @@
 id = "moonshotai/Kimi-K2.6"
 name = "Kimi K2.6"
-release_date = "1789358497"
+release_date = "1789440803"
 
 [features]
 attachment = true
@@ -17,7 +17,7 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.17
+cache_read = 0.1144
 cache_write = 0
-input = 0.5933
-output = 2.9448
+input = 0.602
+output = 2.87

@@ -1,0 +1,19 @@
+id = "moonshotai/kimi-k2.8-preview"
+name = "MoonshotAI: Kimi K2.8 Preview"
+release_date = "1789379421"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 0.97
+output = 4

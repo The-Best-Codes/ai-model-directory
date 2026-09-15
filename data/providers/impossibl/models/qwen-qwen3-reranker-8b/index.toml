@@ -1,0 +1,12 @@
+id = "qwen/qwen3-reranker-8b"
+name = "Qwen3 Reranker 8B"
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0

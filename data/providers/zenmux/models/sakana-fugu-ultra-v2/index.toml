@@ -1,0 +1,19 @@
+id = "sakana/fugu-ultra-v2"
+name = "SakanaAI:Fugu Ultra v2"
+release_date = "1789112624"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 5
+output = 30

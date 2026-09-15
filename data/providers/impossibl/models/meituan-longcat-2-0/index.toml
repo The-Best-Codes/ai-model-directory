@@ -1,0 +1,14 @@
+id = "meituan/longcat-2.0"
+name = "LongCat 2.0"
+
+[limit]
+context = 1048756
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.006
+input = 0.3
+output = 1.2

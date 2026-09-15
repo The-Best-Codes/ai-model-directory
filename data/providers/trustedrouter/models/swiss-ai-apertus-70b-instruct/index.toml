@@ -1,0 +1,17 @@
+id = "swiss-ai/apertus-70b-instruct"
+name = "apertus-70b"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 30000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.487453
+output = 2.559125

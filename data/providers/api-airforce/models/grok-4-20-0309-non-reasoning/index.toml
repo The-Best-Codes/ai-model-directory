@@ -1,6 +1,6 @@
 id = "grok-4.20-0309-non-reasoning"
 name = "grok-4.20-0309-non-reasoning"
-release_date = "1789359203"
+release_date = "1789445475"
 
 [features]
 attachment = false
@@ -9,8 +9,3 @@ reasoning = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.18
-input = 1.03
-output = 3.1

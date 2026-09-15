@@ -1,0 +1,19 @@
+id = "agnes/agnes-2.5-flash"
+name = "Agnes 2.5 Flash"
+release_date = "1789414339"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 524288
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

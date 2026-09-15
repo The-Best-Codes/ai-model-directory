@@ -1,0 +1,20 @@
+id = "atria-asi/atria-dawn-preview"
+name = "Atria: Atria Dawn Preview (Free)"
+release_date = "1789364855"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

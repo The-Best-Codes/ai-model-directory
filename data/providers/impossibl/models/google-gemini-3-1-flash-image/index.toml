@@ -1,0 +1,13 @@
+id = "google/gemini-3.1-flash-image"
+name = "Gemini 3.1 Flash Image"
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0.5
+output = 60

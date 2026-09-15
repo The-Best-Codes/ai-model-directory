@@ -1,15 +1,15 @@
 id = "inclusionai/ling-3.0-flash-vl"
-name = "inclusionAI/Ling-3.0-flash-VL"
+name = "inclusionAI: Ling 3.0 Flash VL"
 open_weights = false
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
 context = 131072
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

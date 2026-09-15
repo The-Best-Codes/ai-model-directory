@@ -1,0 +1,18 @@
+id = "Intern-S2"
+last_updated = "1789385111"
+name = "Intern-S2"
+release_date = "1778207029"
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

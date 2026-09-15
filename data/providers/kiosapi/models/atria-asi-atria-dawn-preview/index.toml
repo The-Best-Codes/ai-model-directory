@@ -1,0 +1,13 @@
+id = "atria-asi/atria-dawn-preview"
+name = "atria-asi/atria-dawn-preview"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

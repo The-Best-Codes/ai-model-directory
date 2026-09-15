@@ -1,0 +1,15 @@
+id = "qwen/qwen3.7-flash"
+name = "Qwen3.7 Flash"
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.006
+cache_write = 0.038
+input = 0.03
+output = 0.13

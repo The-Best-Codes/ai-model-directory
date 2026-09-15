@@ -1,0 +1,6 @@
+id = "xai/grok-stt-1.0"
+name = "Grok Speech to Text 1.0"
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]

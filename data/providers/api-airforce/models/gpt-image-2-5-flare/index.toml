@@ -1,6 +1,6 @@
 id = "gpt-image-2.5-flare"
 name = "gpt-image-2.5-flare"
-release_date = "1789359203"
+release_date = "1789445475"
 
 [features]
 attachment = false

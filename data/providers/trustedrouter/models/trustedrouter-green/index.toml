@@ -1,0 +1,17 @@
+id = "trustedrouter/green"
+name = "TrustedRouter Green"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 30000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.085305
+output = 0.426521
