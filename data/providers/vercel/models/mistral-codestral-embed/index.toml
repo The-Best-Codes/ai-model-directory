@@ -3,4 +3,5 @@ name = "Codestral Embed"
 release_date = "1748390400"
 
 [pricing]
+cache_read = 0.015
 input = 0.15

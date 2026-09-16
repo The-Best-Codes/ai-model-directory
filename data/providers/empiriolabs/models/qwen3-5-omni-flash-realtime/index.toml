@@ -1,0 +1,18 @@
+id = "qwen3-5-omni-flash-realtime"
+name = "Qwen3.5 Omni Flash Realtime"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+output = 32768
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 0.4
+input = 0.4
+output = 2.2

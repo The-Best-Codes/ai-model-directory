@@ -2,8 +2,8 @@ id = "gemini-omni-flash"
 name = "gemini-omni-flash"
 
 [features]
-attachment = false
+attachment = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "video" ]
 output = [ "video" ]

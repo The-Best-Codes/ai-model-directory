@@ -1,0 +1,10 @@
+id = "stepaudio-3-gen"
+name = "StepAudio 3 Gen"
+release_date = "1788912000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

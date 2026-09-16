@@ -1,0 +1,11 @@
+id = "qwen3-asr-flash"
+last_updated = "1787894903"
+name = "Qwen3-ASR-Flash"
+release_date = "1787894903"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

@@ -3,18 +3,18 @@ name = "Mistral Nemo 12B"
 release_date = "1721260800"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 tool_call = true
 
 [limit]
-context = 128000
-output = 128000
+context = 60288
+output = 16000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.15
-output = 0.15
+input = 0.04
+output = 0.17

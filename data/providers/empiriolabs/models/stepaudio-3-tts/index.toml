@@ -1,0 +1,10 @@
+id = "stepaudio-3-tts"
+name = "StepAudio 3 TTS"
+release_date = "1788912000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

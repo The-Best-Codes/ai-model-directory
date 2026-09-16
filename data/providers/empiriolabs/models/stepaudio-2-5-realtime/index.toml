@@ -1,0 +1,19 @@
+id = "stepaudio-2-5-realtime"
+name = "StepAudio 2.5 Realtime"
+release_date = "1784160000"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 1.5
+output = 10

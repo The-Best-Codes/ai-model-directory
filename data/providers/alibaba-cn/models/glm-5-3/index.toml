@@ -1,0 +1,24 @@
+id = "glm-5.3"
+last_updated = "1787309226"
+name = "GLM-5.3"
+release_date = "1787309226"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+input = 1048576
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.283
+input = 1.131
+output = 3.957

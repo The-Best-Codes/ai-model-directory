@@ -1,0 +1,21 @@
+id = "inference-net/schematron-v2-turbo"
+name = "Schematron V2 Turbo"
+release_date = "1776297600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.03
+output = 0.15

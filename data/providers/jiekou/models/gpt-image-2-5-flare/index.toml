@@ -1,0 +1,17 @@
+id = "gpt-image-2.5-flare"
+name = "gpt image 2.5 flare"
+release_date = "1788944053"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 5
+output = 30

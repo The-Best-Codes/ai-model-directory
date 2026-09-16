@@ -1,5 +1,5 @@
 id = "qwen/qwen3.7-max"
-name = "Qwen: Qwen3.7 Max (50% off)"
+name = "Qwen: Qwen3.7 Max"
 release_date = "1779376861"
 
 [features]
@@ -18,7 +18,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.125
-cache_write = 1.5625
-input = 1.25
-output = 3.75
+cache_read = 0.295
+cache_write = 1.84375
+input = 1.475
+output = 4.425
