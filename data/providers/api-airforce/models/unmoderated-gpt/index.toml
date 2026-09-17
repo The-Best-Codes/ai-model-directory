@@ -1,6 +1,6 @@
 id = "unmoderated-gpt"
 name = "unmoderated-gpt"
-release_date = "1789531664"
+release_date = "1789618474"
 
 [features]
 attachment = false

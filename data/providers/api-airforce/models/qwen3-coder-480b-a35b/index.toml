@@ -1,6 +1,6 @@
 id = "qwen3-coder-480b-a35b"
 name = "qwen3-coder-480b-a35b"
-release_date = "1789531664"
+release_date = "1789618474"
 
 [features]
 attachment = false

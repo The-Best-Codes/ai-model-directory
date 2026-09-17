@@ -1,9 +1,2 @@
 id = "nvidia/ising-calibration-1.5-31b"
-name = "NVIDIA-Ising-Calibration-1.5-31B-BF16 Overview"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "text" ]
+name = "nvidia/ising-calibration-1.5-31b"

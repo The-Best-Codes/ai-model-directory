@@ -1,6 +1,6 @@
 id = "qwen3.8-2.4t-a95b"
 name = "Qwen3.8-2.4T-A95B"
-release_date = "1787762237"
+release_date = "0"
 
 [features]
 reasoning = true

@@ -1,6 +1,6 @@
 id = "zai-org/GLM-5.3"
 name = "GLM 5.3"
-release_date = "1789530979"
+release_date = "1789618102"
 
 [features]
 attachment = false
@@ -17,7 +17,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.1857
+cache_read = 0.1771
 cache_write = 0
-input = 1.0699
-output = 4.092
+input = 1.0641
+output = 4.07

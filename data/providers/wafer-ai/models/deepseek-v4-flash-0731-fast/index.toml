@@ -1,6 +1,6 @@
 id = "DeepSeek-V4-Flash-0731-Fast"
 name = "DeepSeek-V4-Flash-0731-Fast"
-release_date = "1789531760"
+release_date = "1789618589"
 
 [features]
 reasoning = true

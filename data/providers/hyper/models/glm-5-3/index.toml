@@ -1,12 +1,12 @@
 id = "glm-5.3"
 name = "GLM 5.3"
-release_date = "1787936238"
+release_date = "0"
 
 [features]
 reasoning = true
 
 [limit]
-context = 1048576
+context = 1000000
 output = 128000
 
 [modalities]

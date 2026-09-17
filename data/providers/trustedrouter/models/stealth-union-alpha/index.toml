@@ -1,0 +1,17 @@
+id = "stealth/union-alpha"
+name = "Union Alpha"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01
+output = 0.01

@@ -1,6 +1,6 @@
 id = "minimax-m2.7"
 name = "MiniMax M2.7"
-release_date = "1780690458"
+release_date = "0"
 
 [limit]
 context = 262100
@@ -11,7 +11,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.209
+cache_read = 0.242
 cache_write = 0
-input = 0.418
-output = 1.588
+input = 0.484
+output = 1.852

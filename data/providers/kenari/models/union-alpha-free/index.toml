@@ -1,0 +1,20 @@
+id = "union-alpha:free"
+name = "union-alpha:free"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[limit]
+context = 262000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

@@ -1,6 +1,6 @@
 id = "qwen3.7-max"
 name = "Qwen3.7-Max"
-release_date = "1779932695"
+release_date = "0"
 
 [features]
 reasoning = true

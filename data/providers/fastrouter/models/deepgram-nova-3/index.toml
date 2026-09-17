@@ -1,0 +1,23 @@
+id = "deepgram/nova-3"
+name = "Deepgram: Nova 3"
+release_date = "1743638400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+input_audio = 123.33
+output = 0

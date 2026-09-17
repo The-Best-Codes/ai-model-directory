@@ -1,0 +1,19 @@
+id = "motif/motif-3"
+name = "Motif 3"
+release_date = "1789586801"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

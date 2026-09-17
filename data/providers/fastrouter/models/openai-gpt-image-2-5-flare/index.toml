@@ -1,0 +1,23 @@
+id = "openai/gpt-image-2.5-flare"
+name = "OpenAI: GPT Image 2.5 Flare"
+release_date = "1788825600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 2
+input = 8
+output = 30

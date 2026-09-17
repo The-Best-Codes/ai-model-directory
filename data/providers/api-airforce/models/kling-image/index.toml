@@ -1,6 +1,6 @@
 id = "kling-image"
 name = "kling-image"
-release_date = "1789531664"
+release_date = "1789618474"
 
 [features]
 attachment = false

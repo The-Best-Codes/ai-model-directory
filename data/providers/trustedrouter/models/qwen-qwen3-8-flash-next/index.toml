@@ -1,5 +1,5 @@
 id = "qwen/qwen3.8-flash-next"
-name = "Qwen/Qwen3.8-Flash-Next"
+name = "Qwen: Qwen3.8-Flash-Next"
 open_weights = true
 
 [features]

@@ -1,0 +1,13 @@
+id = "orca/orcaverify-text1.0"
+name = "Orca: OrcaVerify Text 1.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 0

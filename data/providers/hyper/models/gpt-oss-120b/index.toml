@@ -1,6 +1,6 @@
 id = "gpt-oss-120b"
 name = "gpt-oss-120b"
-release_date = "1776094962"
+release_date = "0"
 
 [features]
 reasoning = true

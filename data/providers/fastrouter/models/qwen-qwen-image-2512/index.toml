@@ -1,0 +1,18 @@
+id = "qwen/qwen-image-2512"
+name = "Qwen: Qwen Image 2512"
+release_date = "1767139200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

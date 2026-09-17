@@ -1,5 +1,5 @@
 id = "bytedance-seed/seed-2-1-turbo"
-name = "Seed 2.1 Turbo"
+name = "ByteDance Seed: Seed 2.1 Turbo"
 open_weights = false
 
 [features]
