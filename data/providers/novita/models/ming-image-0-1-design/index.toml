@@ -1,0 +1,17 @@
+id = "ming-image-0.1-design"
+name = "ming image 0.1 design"
+release_date = "1789699451"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.0001
+output = 0.0001

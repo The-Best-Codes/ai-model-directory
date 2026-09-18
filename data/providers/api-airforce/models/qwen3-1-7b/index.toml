@@ -1,6 +1,6 @@
 id = "qwen3-1.7b"
 name = "qwen3-1.7b"
-release_date = "1789618474"
+release_date = "1789703974"
 
 [features]
 attachment = false

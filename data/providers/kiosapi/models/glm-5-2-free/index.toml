@@ -1,0 +1,22 @@
+id = "glm-5.2:free"
+name = "Z.ai: GLM 5.2 (free)"
+release_date = "1781631930"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 32768
+output = 29491
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 75
+output = 75

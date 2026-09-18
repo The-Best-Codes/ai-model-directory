@@ -1,0 +1,19 @@
+id = "qwen3-8-livetranslate-flash-realtime"
+name = "Qwen3.8 LiveTranslate Flash Realtime"
+release_date = "1789603200"
+
+[features]
+attachment = true
+
+[limit]
+context = 53000
+output = 4096
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 1.1
+input = 1.1
+output = 40

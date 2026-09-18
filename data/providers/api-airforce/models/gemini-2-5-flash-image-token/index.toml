@@ -1,6 +1,6 @@
 id = "gemini-2.5-flash-image-token"
 name = "gemini-2.5-flash-image-token"
-release_date = "1789618474"
+release_date = "1789703974"
 
 [features]
 attachment = false

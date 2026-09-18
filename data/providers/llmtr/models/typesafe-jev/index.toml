@@ -1,0 +1,13 @@
+id = "typesafe/jev"
+name = "Jev"
+release_date = "1789675167"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]

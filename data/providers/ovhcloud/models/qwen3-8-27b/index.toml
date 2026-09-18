@@ -9,5 +9,5 @@ output = 262144
 [pricing]
 cache_read = 0
 cache_write = 0
-input = 0
-output = 0
+input = 0.47
+output = 3.19

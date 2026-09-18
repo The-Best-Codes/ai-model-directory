@@ -1,0 +1,18 @@
+id = "qwen/qwen-image-3"
+name = "Qwen: Qwen Image 3.0"
+release_date = "1784592000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

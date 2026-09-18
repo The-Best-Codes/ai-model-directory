@@ -1,0 +1,12 @@
+id = "lfm-2.5-2.6b"
+name = "lfm-2.5-2.6b"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 75
+output = 75

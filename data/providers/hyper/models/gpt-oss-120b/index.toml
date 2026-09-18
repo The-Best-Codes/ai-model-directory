@@ -6,7 +6,7 @@ release_date = "0"
 reasoning = true
 
 [limit]
-context = 128072
+context = 131072
 output = 13107
 
 [modalities]

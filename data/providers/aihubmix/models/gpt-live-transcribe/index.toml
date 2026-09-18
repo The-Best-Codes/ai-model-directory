@@ -2,10 +2,10 @@ id = "gpt-live-transcribe"
 name = "gpt-live-transcribe"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 tool_call = false
 
 [modalities]
-input = [ "text" ]
+input = [ "audio", "text" ]

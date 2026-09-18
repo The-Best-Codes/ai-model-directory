@@ -1,0 +1,14 @@
+id = "poolside/laguna-xs-2.1"
+name = "poolside/laguna-xs-2.1"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.11
+output = 10.55
