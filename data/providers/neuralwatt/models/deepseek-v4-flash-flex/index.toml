@@ -9,7 +9,7 @@ tool_call = true
 
 [limit]
 context = 1048560
-output = 65536
+output = 393216
 
 [pricing]
 cache_read = 0.0182

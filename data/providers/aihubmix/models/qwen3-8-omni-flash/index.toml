@@ -1,0 +1,19 @@
+id = "qwen3.8-omni-flash"
+name = "qwen3.8-omni-flash"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 991000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.014075
+input = 0.1126
+output = 0.380025

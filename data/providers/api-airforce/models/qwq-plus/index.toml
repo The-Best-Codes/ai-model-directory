@@ -1,6 +1,6 @@
 id = "qwq-plus"
 name = "qwq-plus"
-release_date = "1789703974"
+release_date = "1789790209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.02
-input = 0.7
-output = 2.1
+input = 0.56
+output = 1.68

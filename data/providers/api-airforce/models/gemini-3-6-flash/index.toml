@@ -1,6 +1,6 @@
 id = "gemini-3.6-flash"
 name = "gemini-3.6-flash"
-release_date = "1789703974"
+release_date = "1789790209"
 
 [features]
 attachment = false
@@ -13,5 +13,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.11
-input = 0.79
-output = 3.94
+input = 1.23
+output = 6.17

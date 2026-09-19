@@ -1,0 +1,20 @@
+id = "typesafe/jev-1.13.0"
+name = "typesafe/jev-1.13.0"
+release_date = "1789746304"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 64000
+output = 1024
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0

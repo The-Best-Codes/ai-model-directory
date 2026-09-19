@@ -1,0 +1,18 @@
+id = "jina-ocr-v1"
+name = "jina-ocr-v1"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

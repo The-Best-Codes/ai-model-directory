@@ -1,0 +1,11 @@
+id = "happyoyster-1.0-adventure"
+last_updated = "1789110342"
+name = "HappyOyster-1.0-Adventure"
+release_date = "1789110342"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

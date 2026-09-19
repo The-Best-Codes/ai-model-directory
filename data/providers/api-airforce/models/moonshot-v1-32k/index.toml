@@ -1,6 +1,6 @@
 id = "moonshot-v1-32k"
 name = "moonshot-v1-32k"
-release_date = "1789703974"
+release_date = "1789790209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.21
-input = 1.88
-output = 5.2
+input = 0.8
+output = 2.99

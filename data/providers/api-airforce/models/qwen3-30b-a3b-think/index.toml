@@ -1,6 +1,6 @@
 id = "qwen3-30b-a3b-think"
 name = "qwen3-30b-a3b-think"
-release_date = "1789703974"
+release_date = "1789790209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-input = 0.14
-output = 1.68
+input = 0.12
+output = 1.44

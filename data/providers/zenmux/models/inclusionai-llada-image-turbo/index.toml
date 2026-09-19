@@ -1,0 +1,14 @@
+id = "inclusionai/llada-image-turbo"
+name = "inclusionAI: LLaDA-Image-Turbo"
+release_date = "1789648400"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 2000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,17 @@
+id = "jev-1.13"
+name = "jev-1.13"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0462

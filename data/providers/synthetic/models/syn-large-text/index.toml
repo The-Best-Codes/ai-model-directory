@@ -1,6 +1,6 @@
 id = "syn:large:text"
 name = "syn:large:text"
-release_date = "1787702400"
+release_date = "1788912000"
 
 [features]
 attachment = true
@@ -18,7 +18,7 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.04
+cache_read = 0.03
 cache_write = 0
-input = 0.15
-output = 0.5
+input = 0.6
+output = 1.2

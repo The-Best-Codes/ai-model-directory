@@ -1,6 +1,6 @@
 id = "qwq-72b-preview"
 name = "qwq-72b-preview"
-release_date = "1789703974"
+release_date = "1789790209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.72
-input = 48.75
-output = 48.75
+input = 29.25
+output = 29.25

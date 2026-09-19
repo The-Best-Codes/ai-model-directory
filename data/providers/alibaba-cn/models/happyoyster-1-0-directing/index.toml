@@ -1,0 +1,11 @@
+id = "happyoyster-1.0-directing"
+last_updated = "1789110520"
+name = "HappyOyster-1.0-Directing"
+release_date = "1789110520"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

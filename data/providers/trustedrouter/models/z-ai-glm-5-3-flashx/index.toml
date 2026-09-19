@@ -1,0 +1,14 @@
+id = "z-ai/glm-5.3-flashx"
+name = "glm-5.3-flashx"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.39035
+output = 1.31875

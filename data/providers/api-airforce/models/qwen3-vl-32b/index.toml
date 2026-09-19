@@ -1,6 +1,6 @@
 id = "qwen3-vl-32b"
 name = "qwen3-vl-32b"
-release_date = "1789703974"
+release_date = "1789790209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.04
-input = 0.74
-output = 3.48
+input = 0.36
+output = 3.68

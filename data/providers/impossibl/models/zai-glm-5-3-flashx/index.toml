@@ -1,0 +1,14 @@
+id = "zai/glm-5.3-flashx"
+name = "GLM-5.3-FlashX"
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.37
+output = 1.25

@@ -1,6 +1,6 @@
 id = "gpt-5-search-api"
 name = "gpt-5-search-api"
-release_date = "1789703974"
+release_date = "1789790209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.16
-input = 1.31
-output = 10.5
+input = 2.22
+output = 17.64

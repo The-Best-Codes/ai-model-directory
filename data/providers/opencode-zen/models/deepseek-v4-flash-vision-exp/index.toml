@@ -1,7 +1,7 @@
 id = "deepseek-v4-flash-vision-exp"
-last_updated = "1787270400"
+last_updated = "1788220800"
 name = "DeepSeek V4 Flash Vision Exp"
-open_weights = false
+open_weights = true
 release_date = "1787270400"
 
 [features]

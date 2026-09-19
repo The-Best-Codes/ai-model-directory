@@ -1,6 +1,6 @@
 id = "glm-4-flash"
 name = "glm-4-flash"
-release_date = "1789703974"
+release_date = "1789790209"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01
-input = 0.04
-output = 0.14
+input = 0.03
+output = 0.08
