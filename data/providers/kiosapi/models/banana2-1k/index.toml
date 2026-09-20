@@ -1,0 +1,12 @@
+id = "banana2-1k"
+name = "banana2-1k"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 75
+output = 75

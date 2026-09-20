@@ -1,7 +1,7 @@
 id = "minimax/h3-max/camera-controls"
 name = "H3 Max Camera Controls"
 open_weights = true
-release_date = "1789171200"
+release_date = "1789603200"
 
 [features]
 attachment = true

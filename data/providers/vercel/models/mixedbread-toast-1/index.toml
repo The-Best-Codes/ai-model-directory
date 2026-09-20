@@ -1,0 +1,21 @@
+id = "mixedbread/toast-1"
+name = "Toast 1"
+release_date = "1786579200"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131000
+output = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.036
+input = 0.3
+output = 0.72

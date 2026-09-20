@@ -1,6 +1,6 @@
 id = "qwen-mt-plus"
 name = "qwen-mt-plus"
-release_date = "1789790209"
+release_date = "1789877639"
 
 [features]
 attachment = false
@@ -12,5 +12,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.03
-input = 1.19
-output = 3.59
+input = 1.2
+output = 3.6

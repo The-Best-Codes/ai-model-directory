@@ -1,0 +1,12 @@
+id = "gpt-image-2-4k"
+name = "gpt-image-2-4k"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 75
+output = 150

@@ -1,0 +1,21 @@
+id = "google/gemma-4-26b-a4b-it-cybersecurity"
+name = "Gemma 4 26B A4B Cybersecurity"
+release_date = "1789776000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1056
+output = 0.3344

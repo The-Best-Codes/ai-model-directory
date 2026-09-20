@@ -1,0 +1,10 @@
+id = "minimax/h3-max"
+name = "MiniMax H3 Max"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

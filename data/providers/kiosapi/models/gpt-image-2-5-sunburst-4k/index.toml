@@ -1,0 +1,12 @@
+id = "gpt-image-2.5-sunburst-4k"
+name = "gpt-image-2.5-sunburst-4k"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 75
+output = 150

@@ -1,5 +1,5 @@
 id = "google/gemini-2.5-pro"
-name = "Google: Gemini 2.5 Pro"
+name = "Google: Gemini 2.5 Pro (retires Oct 20)"
 release_date = "1750169544"
 
 [features]

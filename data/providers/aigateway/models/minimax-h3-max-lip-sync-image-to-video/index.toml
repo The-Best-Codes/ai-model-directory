@@ -1,0 +1,11 @@
+id = "minimax/h3-max/lip-sync/image-to-video"
+name = "H3 Max Lip Sync Image to Video"
+open_weights = true
+release_date = "1789689600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

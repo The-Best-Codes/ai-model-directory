@@ -1,0 +1,11 @@
+id = "bria/fibo-edit-1.5/virtual-try-on"
+name = "Bria Virtual Try-On (FIBO-Edit-1.5)"
+open_weights = true
+release_date = "1789603200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "elevenlabs/music/v2.5"
+name = "Elevenlabs Music v2.5"
+open_weights = true
+release_date = "1789430400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

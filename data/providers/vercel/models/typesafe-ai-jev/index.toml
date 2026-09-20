@@ -2,6 +2,9 @@ id = "typesafe-ai/jev"
 name = "Jev"
 release_date = "1789430400"
 
+[limit]
+context = 32000
+
 [pricing]
 input = 0.042
 output = 0

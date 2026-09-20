@@ -1,6 +1,6 @@
 id = "qwen-coder-turbo-latest"
 name = "qwen-coder-turbo-latest"
-release_date = "1789790209"
+release_date = "1789877639"
 
 [features]
 attachment = false

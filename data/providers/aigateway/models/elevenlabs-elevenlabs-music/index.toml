@@ -1,7 +1,7 @@
 id = "elevenlabs/elevenlabs-music"
 name = "Elevenlabs Music"
 open_weights = true
-release_date = "1787011200"
+release_date = "1789430400"
 
 [features]
 attachment = false

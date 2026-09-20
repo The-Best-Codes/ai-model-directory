@@ -1,6 +1,6 @@
 id = "gpt-image-2.5-sunburst"
 name = "gpt-image-2.5-sunburst"
-release_date = "1789790209"
+release_date = "1789877639"
 
 [features]
 attachment = false

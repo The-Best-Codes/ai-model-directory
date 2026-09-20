@@ -1,2 +1,23 @@
 id = "jev-1.13"
-name = "jev-1.13"
+last_updated = "1789430400"
+name = "Jev 1.13"
+open_weights = false
+release_date = "1789430400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0

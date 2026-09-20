@@ -1,7 +1,7 @@
 id = "bria/fibo-edit-1.5/edit"
 name = "Fibo Edit 1.5 Image Editing"
 open_weights = true
-release_date = "1788048000"
+release_date = "1789603200"
 
 [features]
 attachment = true
