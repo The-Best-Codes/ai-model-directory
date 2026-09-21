@@ -1,0 +1,10 @@
+id = "sonilo-sound-effects-1-0"
+name = "Sonilo Sound Effects 1.0"
+release_date = "1784937600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "audio" ]

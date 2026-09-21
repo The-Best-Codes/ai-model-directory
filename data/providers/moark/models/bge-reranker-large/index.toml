@@ -7,3 +7,6 @@ attachment = false
 
 [modalities]
 input = [ "text" ]
+
+[pricing]
+input = 0

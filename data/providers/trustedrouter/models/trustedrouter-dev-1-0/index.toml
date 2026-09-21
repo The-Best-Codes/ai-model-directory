@@ -1,0 +1,16 @@
+id = "trustedrouter/dev-1.0"
+name = "TrustedRouter Dev 1.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.211
+output = 0.633

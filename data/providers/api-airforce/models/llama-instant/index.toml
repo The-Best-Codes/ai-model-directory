@@ -1,0 +1,11 @@
+id = "llama-instant"
+name = "llama-instant"
+release_date = "1789963916"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,12 +1,15 @@
 id = "z-ai/glm-5.3-flashx"
-name = "glm-5.3-flashx"
+name = "Z.ai: GLM 5.3 FlashX"
 open_weights = true
 
 [features]
-attachment = false
+attachment = true
+
+[limit]
+context = 1048576
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

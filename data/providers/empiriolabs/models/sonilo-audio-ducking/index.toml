@@ -1,0 +1,9 @@
+id = "sonilo-audio-ducking"
+name = "Sonilo Audio Ducking"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "video" ]
+output = [ "audio" ]

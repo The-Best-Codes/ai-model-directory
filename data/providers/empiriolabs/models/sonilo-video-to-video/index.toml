@@ -1,0 +1,9 @@
+id = "sonilo-video-to-video"
+name = "Sonilo Video to Video"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "video" ]

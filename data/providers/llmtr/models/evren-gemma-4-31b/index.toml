@@ -1,0 +1,16 @@
+id = "evren/gemma-4-31b"
+name = "Gemma 4 31B"
+release_date = "1789895802"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0
+output = 0

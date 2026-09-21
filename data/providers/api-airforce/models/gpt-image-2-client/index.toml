@@ -1,6 +1,6 @@
 id = "gpt-image-2-client"
 name = "gpt-image-2-client"
-release_date = "1789877639"
+release_date = "1789963916"
 
 [features]
 attachment = false

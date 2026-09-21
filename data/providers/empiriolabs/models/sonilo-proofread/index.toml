@@ -1,0 +1,9 @@
+id = "sonilo-proofread"
+name = "Sonilo Proofread"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "text" ]

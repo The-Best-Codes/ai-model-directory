@@ -1,0 +1,22 @@
+id = "step-5-preview"
+name = "Step 5 Preview"
+release_date = "1789430400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1024000
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 1
+output = 2.7

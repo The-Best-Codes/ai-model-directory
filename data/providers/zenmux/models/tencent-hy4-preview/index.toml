@@ -1,0 +1,19 @@
+id = "tencent/hy4-preview"
+name = "Tencent: Hy4 Preview"
+release_date = "1787900199"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.042
+input = 0.834
+output = 2.501

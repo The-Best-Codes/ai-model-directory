@@ -1,0 +1,16 @@
+id = "evren/qwen3-vl-30b"
+name = "Qwen3 VL 30B"
+release_date = "1789895802"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0
+output = 0

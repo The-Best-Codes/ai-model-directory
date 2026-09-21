@@ -1,0 +1,10 @@
+id = "sonilo-v1-1"
+name = "Sonilo v1.1"
+release_date = "1781740800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "audio" ]

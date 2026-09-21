@@ -1,0 +1,9 @@
+id = "sonilo-video-translation"
+name = "Sonilo Video Translation"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

@@ -1,0 +1,19 @@
+id = "stepfun/step-5-preview"
+name = "StepFun: Step 5 Preview"
+release_date = "1789874951"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0525
+input = 1.05
+output = 3

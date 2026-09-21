@@ -1,0 +1,16 @@
+id = "evren/qwen3.8-flash-next"
+name = "Qwen3.8 Flash Next"
+release_date = "1789895802"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0
+output = 0

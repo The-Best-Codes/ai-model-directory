@@ -1,0 +1,9 @@
+id = "sonilo-video-analysis"
+name = "Sonilo Video Analysis"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "text" ]

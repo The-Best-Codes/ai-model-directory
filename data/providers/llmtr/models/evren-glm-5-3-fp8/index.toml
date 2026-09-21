@@ -1,0 +1,16 @@
+id = "evren/glm-5.3-fp8"
+name = "GLM-5.3"
+release_date = "1789895802"
+
+[features]
+attachment = false
+
+[limit]
+context = 512000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

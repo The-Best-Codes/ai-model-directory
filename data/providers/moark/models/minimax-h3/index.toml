@@ -1,0 +1,11 @@
+id = "MiniMax-H3"
+last_updated = "1789637448"
+name = "MiniMax-H3"
+release_date = "1789626774"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

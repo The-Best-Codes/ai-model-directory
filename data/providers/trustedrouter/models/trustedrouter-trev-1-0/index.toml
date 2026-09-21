@@ -1,0 +1,16 @@
+id = "trustedrouter/trev-1.0"
+name = "TrustedRouter Trev 1.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.36925
+output = 0.79125

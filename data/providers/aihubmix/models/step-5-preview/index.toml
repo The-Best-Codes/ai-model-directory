@@ -1,0 +1,19 @@
+id = "step-5-preview"
+name = "step-5-preview"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.054
+input = 1.08
+output = 3.0888

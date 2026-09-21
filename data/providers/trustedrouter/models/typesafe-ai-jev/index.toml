@@ -1,0 +1,16 @@
+id = "typesafe-ai/jev"
+name = "TypeSafe AI Jev"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.04431
+output = 0

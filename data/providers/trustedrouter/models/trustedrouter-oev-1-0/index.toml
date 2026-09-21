@@ -1,0 +1,16 @@
+id = "trustedrouter/oev-1.0"
+name = "TrustedRouter Oev 1.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.03165
+output = 0.1477

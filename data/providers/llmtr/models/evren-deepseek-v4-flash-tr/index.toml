@@ -1,0 +1,16 @@
+id = "evren/deepseek-v4-flash-tr"
+name = "DeepSeek V4 Flash"
+release_date = "1789895802"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
