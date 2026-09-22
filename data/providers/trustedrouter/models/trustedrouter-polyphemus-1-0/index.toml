@@ -1,0 +1,17 @@
+id = "trustedrouter/polyphemus-1.0"
+name = "Polyphemus 1.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01
+output = 0.01

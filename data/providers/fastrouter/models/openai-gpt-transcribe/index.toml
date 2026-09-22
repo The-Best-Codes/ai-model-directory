@@ -1,0 +1,23 @@
+id = "openai/gpt-transcribe"
+name = "OpenAI: GPT Transcribe"
+release_date = "1785110400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+input_audio = 75
+output = 0

@@ -1,0 +1,21 @@
+id = "step-5-preview-el"
+name = "Step-5-Preview-EL"
+release_date = "1789882969"
+
+[features]
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 1024000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0505
+input = 1.0101
+output = 2.7273

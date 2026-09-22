@@ -1,0 +1,18 @@
+id = "Bespoke-Nimble-9B"
+last_updated = "1790039236"
+name = "Bespoke-Nimble-9B"
+release_date = "1789987029"
+
+[features]
+attachment = false
+
+[limit]
+context = 2000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.029868066
+output = 1.4934033e-9

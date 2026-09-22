@@ -1,6 +1,6 @@
 id = "gpt-6-astra"
 name = "gpt-6-astra"
-release_date = "1789963916"
+release_date = "1790050057"
 
 [features]
 attachment = true

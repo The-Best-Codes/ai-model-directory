@@ -1,0 +1,16 @@
+id = "deepseek-v4-pro-0813"
+name = "deepseek-v4-pro-0813"
+release_date = "1790050057"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.8
+output = 2.38

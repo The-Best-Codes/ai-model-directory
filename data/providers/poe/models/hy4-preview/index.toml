@@ -1,0 +1,18 @@
+id = "hy4-preview"
+name = "Hy4-preview"
+release_date = "1789900196"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0424
+input = 0.8424
+output = 2.5263

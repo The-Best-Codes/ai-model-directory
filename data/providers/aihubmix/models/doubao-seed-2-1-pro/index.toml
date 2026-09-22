@@ -14,6 +14,6 @@ context = 256000
 input = [ "image", "text", "video" ]
 
 [pricing]
-cache_read = 0.1859
-input = 0.9295
-output = 4.6475
+cache_read = 0.169
+input = 0.845
+output = 4.225

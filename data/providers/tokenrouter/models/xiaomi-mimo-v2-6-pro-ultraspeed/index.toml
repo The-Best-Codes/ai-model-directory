@@ -1,0 +1,17 @@
+id = "xiaomi/mimo-v2.6-pro-ultraspeed"
+name = "xiaomi/mimo-v2.6-pro-ultraspeed"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.036
+cache_write = 4.35
+input = 4.35
+input_audio = 4.35
+output = 8.7
+output_audio = 4.35

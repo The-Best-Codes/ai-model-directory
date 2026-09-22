@@ -1,0 +1,12 @@
+id = "nex-n2.5-mini"
+name = "nex-n2.5-mini"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,19 @@
+id = "xiaomi/mimo-v2.6-pro"
+name = "Xiaomi: MiMo-V2.6-Pro"
+release_date = "1790045814"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0036
+input = 0.435
+output = 0.87

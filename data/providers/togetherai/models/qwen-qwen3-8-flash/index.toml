@@ -1,5 +1,6 @@
 id = "Qwen/Qwen3.8-Flash"
 name = "Qwen3.8 Flash"
+release_date = "1790008874"
 
 [features]
 attachment = false
@@ -12,5 +13,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.15
-output = 0.47
+input = 0.09000000000000001
+output = 0.28200000000000003

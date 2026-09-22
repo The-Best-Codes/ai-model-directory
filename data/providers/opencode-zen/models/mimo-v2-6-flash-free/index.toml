@@ -1,0 +1,25 @@
+id = "mimo-v2.6-flash-free"
+knowledge_cutoff = "1790035200"
+last_updated = "1790035200"
+name = "MiMo-V2.6-Flash Free"
+open_weights = false
+release_date = "1790035200"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 32000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

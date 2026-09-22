@@ -1,0 +1,19 @@
+id = "xiaomi/mimo-v2.6-pro-ultraspeed"
+name = "Xiaomi: MiMo-V2.6-Pro-UltraSpeed"
+release_date = "1790046897"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.036
+input = 4.35
+output = 8.7

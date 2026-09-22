@@ -1,7 +1,0 @@
-id = "groq/compound-mini"
-name = "groq/compound-mini"
-release_date = "1756949707"
-
-[limit]
-context = 131072
-output = 8192

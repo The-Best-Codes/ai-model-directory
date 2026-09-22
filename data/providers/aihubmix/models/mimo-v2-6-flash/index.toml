@@ -1,0 +1,19 @@
+id = "mimo-v2.6-flash"
+name = "mimo-v2.6-flash"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.0031
+input = 0.155
+output = 0.31

@@ -1,0 +1,19 @@
+id = "mimo-v2.6-pro-ultraspeed"
+name = "mimo-v2.6-pro-ultraspeed"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.0384
+input = 4.8
+output = 9.6

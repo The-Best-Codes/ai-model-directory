@@ -1,0 +1,17 @@
+id = "xiaomi/mimo-v2.6-pro"
+name = "xiaomi/mimo-v2.6-pro"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0036
+cache_write = 0.435
+input = 0.435
+input_audio = 0.435
+output = 0.87
+output_audio = 0.435

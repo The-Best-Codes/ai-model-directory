@@ -1,0 +1,16 @@
+id = "trustedrouter/lev-1.0"
+name = "TrustedRouter Lev 1.0"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 1.0972
+output = 1.266

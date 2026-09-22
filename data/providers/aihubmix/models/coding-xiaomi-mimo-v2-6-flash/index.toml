@@ -1,0 +1,19 @@
+id = "coding-xiaomi-mimo-v2.6-flash"
+name = "coding-xiaomi-mimo-v2.6-flash"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.0016
+input = 0.08
+output = 0.16

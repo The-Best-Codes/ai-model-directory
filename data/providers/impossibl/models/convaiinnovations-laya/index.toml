@@ -1,0 +1,12 @@
+id = "convaiinnovations/laya"
+name = "Laya"
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

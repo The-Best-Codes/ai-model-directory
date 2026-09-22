@@ -1,0 +1,19 @@
+id = "inclusionai/ling-3.0-flash-sante"
+name = "inclusionAI: Ling-3.0-flash-Sante"
+release_date = "1789974132"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0
