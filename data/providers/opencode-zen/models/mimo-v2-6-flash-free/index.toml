@@ -1,8 +1,7 @@
 id = "mimo-v2.6-flash-free"
-knowledge_cutoff = "1790035200"
 last_updated = "1790035200"
 name = "MiMo-V2.6-Flash Free"
-open_weights = false
+open_weights = true
 release_date = "1790035200"
 
 [features]

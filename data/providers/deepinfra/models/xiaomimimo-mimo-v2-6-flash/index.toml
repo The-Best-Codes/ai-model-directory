@@ -1,0 +1,15 @@
+id = "XiaomiMiMo/MiMo-V2.6-Flash"
+name = "XiaomiMiMo/MiMo-V2.6-Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+output = 1048576
+
+[pricing]
+cache_read = 0.0028000000000000004
+input = 0.14
+output = 0.28

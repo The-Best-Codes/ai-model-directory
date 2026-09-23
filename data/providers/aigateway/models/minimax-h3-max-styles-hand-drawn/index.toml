@@ -1,0 +1,11 @@
+id = "minimax/h3-max/styles/hand-drawn"
+name = "H3 Max Hand Drawn"
+open_weights = true
+release_date = "1789948800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

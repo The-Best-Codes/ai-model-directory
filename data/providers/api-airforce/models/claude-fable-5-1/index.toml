@@ -1,6 +1,6 @@
 id = "claude-fable-5.1"
 name = "claude-fable-5.1"
-release_date = "1790050057"
+release_date = "1790136301"
 
 [features]
 attachment = true
@@ -18,5 +18,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.79
-input = 3.02
-output = 15.07
+input = 0.2
+output = 0.96

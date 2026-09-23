@@ -1,7 +1,7 @@
 id = "minimax/h3-max/reference-to-video"
 name = "H3 Max Reference to Video"
 open_weights = true
-release_date = "1789689600"
+release_date = "1789948800"
 
 [features]
 attachment = true

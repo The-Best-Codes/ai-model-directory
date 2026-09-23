@@ -1,0 +1,15 @@
+id = "XiaomiMiMo/MiMo-V2.6-Pro"
+name = "XiaomiMiMo/MiMo-V2.6-Pro"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+output = 1048576
+
+[pricing]
+cache_read = 0.0035999990999999996
+input = 0.435
+output = 0.87

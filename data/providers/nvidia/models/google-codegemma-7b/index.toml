@@ -1,5 +1,2 @@
 id = "google/codegemma-7b"
-name = "CodeGemma Model card"
-
-[modalities]
-input = [ "text" ]
+name = "google/codegemma-7b"

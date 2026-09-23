@@ -1,0 +1,23 @@
+id = "z-ai/glm-5.3-flashx"
+name = "Z.ai: GLM-5.3-FlashX"
+release_date = "1789689600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.37
+output = 1.25

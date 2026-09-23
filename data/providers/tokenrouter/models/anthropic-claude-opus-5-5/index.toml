@@ -1,0 +1,17 @@
+id = "anthropic/claude-opus-5.5"
+name = "anthropic/claude-opus-5.5"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 5
+input = 4
+input_audio = 4
+output = 20
+output_audio = 4

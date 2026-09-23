@@ -12,7 +12,3 @@ context = 128000
 
 [modalities]
 input = [ "audio", "image", "text" ]
-
-[pricing]
-cache_read = 0
-input = 0

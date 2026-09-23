@@ -1,0 +1,10 @@
+id = "google/gemini-3.8-flash-tts"
+name = "Gemini 3.8 Flash TTS"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 1
+output = 20

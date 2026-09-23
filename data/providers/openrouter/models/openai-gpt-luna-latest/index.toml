@@ -1,5 +1,4 @@
 id = "~openai/gpt-luna-latest"
-knowledge_cutoff = "1771200000"
 name = "OpenAI: GPT Luna Latest"
 release_date = "1789130922"
 
@@ -19,7 +18,7 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.02
-cache_write = 0.25
-input = 0.2
-output = 1.2
+cache_read = 0.01
+cache_write = 0.125
+input = 0.1
+output = 0.5

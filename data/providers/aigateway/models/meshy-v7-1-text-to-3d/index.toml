@@ -1,0 +1,11 @@
+id = "meshy/v7.1/text-to-3d"
+name = "Meshy 7.1 Text to 3D"
+open_weights = true
+release_date = "1789948800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "file" ]

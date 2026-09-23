@@ -1,5 +1,5 @@
 id = "x-ai/grok-4.7"
-name = "grok-4.7"
+name = "SpaceXAI: Grok 4.7"
 open_weights = false
 
 [features]

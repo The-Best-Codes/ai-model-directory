@@ -2,11 +2,17 @@ id = "tencent/hy-mt2-pro"
 name = "Tencent Hy-MT2-Pro"
 release_date = "1779321600"
 
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
 [limit]
 context = 8000
 output = 4000
 
 [modalities]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

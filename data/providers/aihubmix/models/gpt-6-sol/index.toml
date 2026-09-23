@@ -1,0 +1,19 @@
+id = "gpt-6-sol"
+name = "gpt-6-sol"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 10

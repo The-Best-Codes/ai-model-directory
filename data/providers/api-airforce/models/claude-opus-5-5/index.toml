@@ -1,0 +1,23 @@
+id = "claude-opus-5.5"
+name = "claude-opus-5.5"
+release_date = "1790136301"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.21
+cache_write = 5.25
+input = 4.2
+output = 21

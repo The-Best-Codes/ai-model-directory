@@ -1,0 +1,15 @@
+id = "anthropic/claude-opus-5-5"
+name = "Claude Opus 5.5"
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 5
+input = 4
+output = 20

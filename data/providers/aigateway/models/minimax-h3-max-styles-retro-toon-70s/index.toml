@@ -1,0 +1,11 @@
+id = "minimax/h3-max/styles/retro-toon-70s"
+name = "H3 Max Retro Toon 70s"
+open_weights = true
+release_date = "1789948800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,11 @@
+id = "tripo3d/p2/text-to-3d"
+name = "Tripo P2 Text to 3D"
+open_weights = true
+release_date = "1789948800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "file" ]

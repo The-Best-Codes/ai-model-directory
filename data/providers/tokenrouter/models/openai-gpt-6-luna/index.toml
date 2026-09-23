@@ -1,0 +1,17 @@
+id = "openai/gpt-6-luna"
+name = "openai/gpt-6-luna"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.009999999999999998
+cache_write = 0.125
+input = 0.1
+input_audio = 0.1
+output = 0.5
+output_audio = 0.1
