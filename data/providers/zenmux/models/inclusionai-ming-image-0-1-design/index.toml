@@ -1,0 +1,18 @@
+id = "inclusionai/ming-image-0.1-design"
+name = "inclusionAI: Ming Image 0.1 Design"
+release_date = "1790148935"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

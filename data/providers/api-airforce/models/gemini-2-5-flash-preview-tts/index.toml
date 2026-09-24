@@ -1,6 +1,6 @@
 id = "gemini-2.5-flash-preview-tts"
 name = "gemini-2.5-flash-preview-tts"
-release_date = "1790136301"
+release_date = "1790222370"
 
 [pricing]
 input = 0.53

@@ -1,0 +1,19 @@
+id = "mercury-2.5"
+name = "mercury-2.5"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 260000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.20000000000000004
+output = 0.7500000000000001

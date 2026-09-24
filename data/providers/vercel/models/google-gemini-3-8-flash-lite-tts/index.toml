@@ -1,0 +1,8 @@
+id = "google/gemini-3.8-flash-lite-tts"
+name = "Gemini 3.8 Flash-Lite TTS"
+release_date = "1790121600"
+
+[pricing]
+cache_read = 0.125
+input = 0.5
+output = 6

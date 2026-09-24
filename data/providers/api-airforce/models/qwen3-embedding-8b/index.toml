@@ -1,6 +1,6 @@
 id = "qwen3-embedding-8b"
 name = "qwen3-embedding-8b"
-release_date = "1790136301"
+release_date = "1790222370"
 
 [features]
 attachment = false

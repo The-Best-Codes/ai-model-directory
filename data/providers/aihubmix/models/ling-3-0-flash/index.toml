@@ -1,0 +1,19 @@
+id = "ling-3.0-flash"
+name = "ling-3.0-flash"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.012000000000000002
+input = 0.06
+output = 0.18

@@ -1,6 +1,6 @@
 id = "gpt-3.5-turbo"
 name = "gpt-3.5-turbo"
-release_date = "1790136301"
+release_date = "1790222370"
 
 [features]
 attachment = false

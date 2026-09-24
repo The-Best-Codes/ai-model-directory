@@ -1,5 +1,5 @@
-id = "gpt-image-2.5-sunburst"
-name = "gpt-image-2.5-sunburst"
+id = "gpt-image-2-5-sunburst"
+name = "gpt-image-2-5-sunburst"
 
 [features]
 attachment = false
@@ -8,4 +8,5 @@ attachment = false
 input = [ "text" ]
 
 [pricing]
-output = 0.06
+input = 75
+output = 150

@@ -1,0 +1,18 @@
+id = "inclusionai/ming-image-0.1-design-layer"
+name = "inclusionAI: Ming Image 0.1 Design Layer"
+release_date = "1790215997"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

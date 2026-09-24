@@ -1,5 +1,5 @@
 id = "tencent/hy4-preview"
-name = "Hy4 Preview"
+name = "Tencent: Hy4 preview"
 open_weights = true
 
 [features]

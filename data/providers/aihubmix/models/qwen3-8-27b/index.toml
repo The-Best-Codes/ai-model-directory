@@ -1,0 +1,19 @@
+id = "qwen3.8-27b"
+name = "qwen3.8-27b"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.049999999999999996
+input = 0.19999999999999998
+output = 2.4999999999999996

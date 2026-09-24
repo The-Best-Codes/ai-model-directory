@@ -1,0 +1,17 @@
+id = "gpt-6-sol"
+name = "gpt-6-sol"
+release_date = "1790222370"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.21
+input = 2.1
+output = 10.5

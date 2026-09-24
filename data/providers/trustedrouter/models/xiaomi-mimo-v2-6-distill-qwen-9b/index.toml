@@ -1,0 +1,17 @@
+id = "xiaomi/mimo-v2.6-distill-qwen-9b"
+name = "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.113729
+output = 0.2954

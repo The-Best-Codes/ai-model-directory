@@ -1,0 +1,19 @@
+id = "laguna-xs-2.1"
+name = "laguna-xs-2.1"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.049999999999999996
+input = 0.09999999999999999
+output = 0.19999999999999998

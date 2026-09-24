@@ -1,0 +1,18 @@
+id = "APUS-OpenJev-v1-9B"
+last_updated = "1790162310"
+name = "APUS-OpenJev-v1-9B"
+release_date = "1790162310"
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.029829892
+output = 1.4914946e-9

@@ -1,7 +1,7 @@
 id = "o4-mini"
 knowledge_cutoff = "1717200000"
 name = "o4-mini"
-release_date = "1790136301"
+release_date = "1790222370"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "qwen-coder-plus-latest"
 name = "qwen-coder-plus-latest"
-release_date = "1790136301"
+release_date = "1790222370"
 
 [features]
 attachment = false

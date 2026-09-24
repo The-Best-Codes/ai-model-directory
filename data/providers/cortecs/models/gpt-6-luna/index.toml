@@ -1,0 +1,16 @@
+id = "gpt-6-luna"
+name = "gpt-6-luna"
+release_date = "1790161200"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[pricing]
+cache_read = 0.011
+input = 0.108
+output = 0.539

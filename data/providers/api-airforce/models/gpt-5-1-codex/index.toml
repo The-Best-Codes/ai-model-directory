@@ -1,6 +1,6 @@
 id = "gpt-5.1-codex"
 name = "gpt-5.1-codex"
-release_date = "1790136301"
+release_date = "1790222370"
 
 [features]
 attachment = true
@@ -12,7 +12,7 @@ input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.09
+cache_read = 0.11
 cache_write = 8.75
 input = 0.66
 output = 5.2

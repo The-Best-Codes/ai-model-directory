@@ -1,0 +1,17 @@
+id = "mimo-v2.6-flash"
+name = "mimo-v2.6-flash"
+release_date = "1790222370"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.14
+output = 0.28

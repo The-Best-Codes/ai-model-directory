@@ -1,0 +1,16 @@
+id = "gemini-3.8-flash-tts"
+name = "gemini-3.8-flash-tts"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.5
+output = 9

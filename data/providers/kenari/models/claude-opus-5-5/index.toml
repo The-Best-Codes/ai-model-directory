@@ -1,0 +1,20 @@
+id = "claude-opus-5-5"
+name = "claude-opus-5-5"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.44944824
+cache_write = 5.618103
+input = 4.4944824
+output = 22.472412

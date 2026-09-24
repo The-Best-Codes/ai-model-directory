@@ -1,6 +1,6 @@
 id = "claude-opus-5.5"
 name = "claude-opus-5.5"
-release_date = "1790136301"
+release_date = "1790222370"
 
 [features]
 attachment = true
@@ -17,7 +17,7 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.21
-cache_write = 5.25
-input = 4.2
-output = 21
+cache_read = 0
+cache_write = 5.23
+input = 3.92
+output = 19.6

@@ -1,0 +1,15 @@
+id = "qwen-audio-3-1-asr-message"
+name = "Qwen Audio 3.1 ASR Message"
+release_date = "1789948800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.86
+input = 1.86
+output = 1.4

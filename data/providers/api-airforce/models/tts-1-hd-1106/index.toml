@@ -1,7 +1,7 @@
 id = "tts-1-hd-1106"
 name = "tts-1-hd-1106"
-release_date = "1790136301"
+release_date = "1790222370"
 
 [pricing]
-input = 0.48
-output = 28.68
+input = 0.14
+output = 8.58

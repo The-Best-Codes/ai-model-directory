@@ -1,6 +1,6 @@
 id = "qwen-audio-3-1-realtime-plus"
 name = "Qwen Audio 3.1 Realtime Plus"
-release_date = "1789948800"
+release_date = "1789862400"
 
 [features]
 attachment = true
