@@ -1,5 +1,5 @@
 id = "z-ai/glm-5.2-fast"
-name = "GLM 5.2 Fast on Fireworks"
+name = "GLM 5.2 Fast"
 open_weights = true
 
 [features]

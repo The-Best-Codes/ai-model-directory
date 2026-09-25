@@ -1,6 +1,6 @@
 id = "chatgpt-4o-latest"
 name = "chatgpt-4o-latest"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [features]
 attachment = false

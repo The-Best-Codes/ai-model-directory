@@ -1,0 +1,17 @@
+id = "google/gemma-4-31b-it"
+name = "Google: Gemma 4 31B Instruct"
+release_date = "1790271346"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+output = 4096
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.38
+output = 1.15

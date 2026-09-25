@@ -1,0 +1,12 @@
+id = "deepseek-v4.1-flash-req"
+name = "deepseek-v4.1-flash-req"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 75
+output = 75

@@ -1,5 +1,5 @@
 id = "bytedance/seedream/v5/lite/edit"
-name = "Seedream (Edit)"
+name = "Seedream (Lite Edit)"
 open_weights = false
 release_date = "1784246400"
 

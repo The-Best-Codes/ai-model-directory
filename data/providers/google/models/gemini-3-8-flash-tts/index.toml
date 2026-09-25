@@ -1,2 +1,13 @@
 id = "gemini-3.8-flash-tts"
 name = "Gemini 3.8 Flash TTS"
+release_date = "1788220800"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

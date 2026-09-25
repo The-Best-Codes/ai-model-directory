@@ -1,6 +1,6 @@
 id = "gpt-3.5-turbo"
 name = "gpt-3.5-turbo"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01
+cache_read = 0.33
 input = 0.66
 output = 1.98

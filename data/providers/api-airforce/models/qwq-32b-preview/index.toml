@@ -1,6 +1,6 @@
 id = "qwq-32b-preview"
 name = "qwq-32b-preview"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [features]
 attachment = false
@@ -12,5 +12,6 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.02
+cache_write = 0.83
 input = 0.66
 output = 1

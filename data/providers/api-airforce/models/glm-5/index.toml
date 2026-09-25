@@ -1,7 +1,7 @@
 id = "glm-5"
 knowledge_cutoff = "1759276800"
 name = "glm-5"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [features]
 attachment = true
@@ -18,5 +18,6 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.1
+cache_write = 0.95
 input = 0.95
 output = 3.15

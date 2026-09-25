@@ -1,6 +1,6 @@
 id = "gpt-5.5-xhigh"
 name = "gpt-5.5-xhigh"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [features]
 attachment = false
@@ -11,6 +11,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.26
+cache_read = 1.37
 input = 2.74
 output = 16.42

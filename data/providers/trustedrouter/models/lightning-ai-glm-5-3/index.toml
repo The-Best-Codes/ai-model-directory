@@ -1,0 +1,17 @@
+id = "lightning-ai/glm-5.3"
+name = "glm-5.3"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.477
+output = 4.642

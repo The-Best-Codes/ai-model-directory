@@ -1,6 +1,6 @@
 id = "gpt-6-astra"
 name = "gpt-6-astra"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [features]
 attachment = true
@@ -12,7 +12,6 @@ input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.46
-cache_write = 5.9
+cache_read = 2.15
 input = 4.29
 output = 21.45

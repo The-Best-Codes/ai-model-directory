@@ -1,0 +1,12 @@
+id = "recraft/recraft-v4-styles-vector"
+name = "Recraft V4 Styles Vector"
+release_date = "1790235045"
+
+[features]
+attachment = true
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "image", "text" ]

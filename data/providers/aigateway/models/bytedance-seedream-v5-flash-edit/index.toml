@@ -1,0 +1,11 @@
+id = "bytedance/seedream/v5/flash/edit"
+name = "Seedream (Flash Edit)"
+open_weights = false
+release_date = "1790121600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

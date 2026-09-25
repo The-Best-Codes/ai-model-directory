@@ -1,6 +1,6 @@
 id = "gpt-6-sol"
 name = "gpt-6-sol"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [features]
 attachment = true
@@ -12,6 +12,6 @@ input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.21
+cache_read = 1.05
 input = 2.1
 output = 10.5

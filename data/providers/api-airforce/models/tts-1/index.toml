@@ -1,7 +1,7 @@
 id = "tts-1"
 name = "tts-1"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [pricing]
-input = 1.11
-output = 33.09
+input = 0.9
+output = 27

@@ -1,0 +1,20 @@
+id = "fireworks/ember-1"
+name = "Ember-1"
+release_date = "1790265349"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 3
+output = 15

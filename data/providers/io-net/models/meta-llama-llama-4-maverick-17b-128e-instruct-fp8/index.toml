@@ -12,5 +12,5 @@ context = 430000
 input = [ "text" ]
 
 [pricing]
-input = 0.2715
-output = 0.8905
+input = 0.251875
+output = 0.825625

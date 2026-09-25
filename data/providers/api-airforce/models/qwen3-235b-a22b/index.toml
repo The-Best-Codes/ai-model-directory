@@ -1,6 +1,6 @@
 id = "qwen3-235b-a22b"
 name = "qwen3-235b-a22b"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [features]
 attachment = false
@@ -11,6 +11,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.02
+cache_read = 0.03
+cache_write = 0.28
 input = 0.28
-output = 1.33
+output = 1.32

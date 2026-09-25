@@ -1,0 +1,18 @@
+id = "DiffusionGemma-26B-A4B-it-Jev"
+last_updated = "1790246040"
+name = "DiffusionGemma-26B-A4B-it-Jev"
+release_date = "1790246026"
+
+[features]
+attachment = false
+
+[limit]
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.044680446
+output = 1.4893482e-9

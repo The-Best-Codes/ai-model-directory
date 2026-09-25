@@ -1,5 +1,5 @@
 id = "meta-models/muse-glimmer-30b"
-name = "Muse Glimmer 30B on Fireworks"
+name = "meta-models/Muse-Glimmer-30B"
 open_weights = false
 
 [features]

@@ -1,0 +1,11 @@
+id = "recraft/v4.1/flash/text-to-image"
+name = "Recraft V4.1 Flash Text to Image"
+open_weights = false
+release_date = "1790121600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

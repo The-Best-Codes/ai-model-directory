@@ -1,6 +1,6 @@
 id = "mj_upload"
 name = "mj_upload"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [features]
 attachment = false
@@ -12,5 +12,6 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.08
+cache_write = 4.88
 input = 5.49
 output = 0.78

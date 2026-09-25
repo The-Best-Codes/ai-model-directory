@@ -1,0 +1,17 @@
+id = "openai/text-embedding-3-small"
+name = "openai/text-embedding-3-small"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+cache_write = 0.02
+input = 0.02
+input_audio = 0.02
+output = 0
+output_audio = 0.02

@@ -1,6 +1,6 @@
 id = "klang/pianissimo"
 name = "pianissimo"
-open_weights = true
+open_weights = false
 release_date = "1790121600"
 
 [features]

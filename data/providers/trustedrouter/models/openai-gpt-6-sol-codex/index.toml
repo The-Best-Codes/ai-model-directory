@@ -1,0 +1,17 @@
+id = "openai/gpt-6-sol-codex"
+name = "GPT 6 Sol"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1055
+output = 0.5275

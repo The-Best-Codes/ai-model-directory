@@ -1,6 +1,6 @@
 id = "gemini-2.5-pro-thinking-128"
 name = "gemini-2.5-pro-thinking-128"
-release_date = "1790222370"
+release_date = "1790309651"
 
 [features]
 attachment = false
@@ -12,5 +12,6 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.04
+cache_write = 1.64
 input = 1.31
 output = 8.46

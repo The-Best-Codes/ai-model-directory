@@ -1,0 +1,17 @@
+id = "typesafe/jev-1.13"
+name = "typesafe/jev-1.13"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.042
+cache_write = 0.042
+input = 0.042
+input_audio = 0.042
+output = 0
+output_audio = 0.042

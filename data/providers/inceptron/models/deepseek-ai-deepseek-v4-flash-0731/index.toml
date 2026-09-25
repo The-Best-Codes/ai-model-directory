@@ -1,6 +1,6 @@
 id = "deepseek-ai/DeepSeek-V4-Flash-0731"
 name = "DeepSeek V4 Flash 0731"
-release_date = "1790217940"
+release_date = "1790293955"
 
 [features]
 attachment = false
@@ -19,5 +19,5 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.06
 cache_write = 0
-input = 0.0908
-output = 0.6128
+input = 0.0828
+output = 0.4138

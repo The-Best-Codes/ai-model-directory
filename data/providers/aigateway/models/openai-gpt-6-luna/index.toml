@@ -1,0 +1,18 @@
+id = "openai/gpt-6-luna"
+name = "GPT-6 Luna"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.5
