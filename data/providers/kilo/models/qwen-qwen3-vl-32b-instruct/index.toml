@@ -1,5 +1,5 @@
 id = "qwen/qwen3-vl-32b-instruct"
-name = "Qwen: Qwen3 VL 32B Instruct"
+name = "Qwen: Qwen3 VL 32B Instruct (retires Oct 9)"
 release_date = "1761231332"
 
 [features]

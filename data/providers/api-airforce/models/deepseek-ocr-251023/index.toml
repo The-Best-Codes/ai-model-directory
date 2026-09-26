@@ -1,6 +1,6 @@
 id = "deepseek-ocr-251023"
 name = "deepseek-ocr-251023"
-release_date = "1790309651"
+release_date = "1790396430"
 
 [features]
 attachment = false

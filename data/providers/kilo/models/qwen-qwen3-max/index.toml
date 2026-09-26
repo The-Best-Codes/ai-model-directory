@@ -1,5 +1,5 @@
 id = "qwen/qwen3-max"
-name = "Qwen: Qwen3 Max"
+name = "Qwen: Qwen3 Max (retires Oct 9)"
 release_date = "1758662808"
 
 [features]

@@ -1,0 +1,12 @@
+id = "Qwen/Qwen3.5-2B"
+name = "Qwen3.5-2B"
+open_weights = true
+release_date = "1790121600"
+
+[features]
+structured_output = false
+tool_call = false
+
+[pricing]
+input = 47752.54386
+output = 0

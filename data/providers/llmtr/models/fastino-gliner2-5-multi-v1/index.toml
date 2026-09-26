@@ -1,0 +1,13 @@
+id = "fastino/gliner2.5-multi-v1"
+name = "GLiNER 2.5 Multilingual"
+release_date = "1790332071"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]

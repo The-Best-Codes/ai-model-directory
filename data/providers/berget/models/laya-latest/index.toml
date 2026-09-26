@@ -1,0 +1,12 @@
+id = "laya-latest"
+name = "laya-latest"
+open_weights = true
+release_date = "1790208000"
+
+[features]
+structured_output = false
+tool_call = false
+
+[pricing]
+input = 47752.54386
+output = 0

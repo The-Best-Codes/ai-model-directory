@@ -1,5 +1,5 @@
 id = "qwen/qwen3-coder-plus"
-name = "Qwen: Qwen3 Coder Plus"
+name = "Qwen: Qwen3 Coder Plus (retires Oct 9)"
 release_date = "1758662707"
 
 [features]

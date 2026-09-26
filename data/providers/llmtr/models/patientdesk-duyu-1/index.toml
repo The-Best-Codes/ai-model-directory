@@ -1,0 +1,9 @@
+id = "patientdesk/duyu-1"
+name = "Duyu"
+release_date = "1790351808"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text" ]

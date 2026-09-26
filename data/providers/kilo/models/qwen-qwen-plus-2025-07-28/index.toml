@@ -1,5 +1,5 @@
 id = "qwen/qwen-plus-2025-07-28"
-name = "Qwen: Qwen Plus 0728"
+name = "Qwen: Qwen Plus 0728 (retires Oct 9)"
 release_date = "1757347599"
 
 [features]

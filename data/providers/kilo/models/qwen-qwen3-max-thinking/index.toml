@@ -1,5 +1,5 @@
 id = "qwen/qwen3-max-thinking"
-name = "Qwen: Qwen3 Max Thinking"
+name = "Qwen: Qwen3 Max Thinking (retires Oct 9)"
 release_date = "1770671901"
 
 [features]

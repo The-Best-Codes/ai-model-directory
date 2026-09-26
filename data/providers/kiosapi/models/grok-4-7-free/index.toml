@@ -1,0 +1,12 @@
+id = "grok-4.7-free"
+name = "grok-4.7-free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

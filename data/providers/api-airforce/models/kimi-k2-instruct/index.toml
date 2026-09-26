@@ -1,7 +1,7 @@
 id = "kimi-k2-instruct"
 knowledge_cutoff = "1733011200"
 name = "kimi-k2-instruct"
-release_date = "1790309651"
+release_date = "1790396430"
 
 [features]
 attachment = false

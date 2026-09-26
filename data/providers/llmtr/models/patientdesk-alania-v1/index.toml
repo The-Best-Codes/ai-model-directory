@@ -1,0 +1,12 @@
+id = "patientdesk/alania-v1"
+name = "Alania"
+release_date = "1790351808"
+
+[features]
+attachment = true
+
+[limit]
+context = 5000
+
+[modalities]
+input = [ "audio", "text" ]

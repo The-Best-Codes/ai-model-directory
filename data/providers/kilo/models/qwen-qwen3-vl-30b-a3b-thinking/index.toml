@@ -1,5 +1,5 @@
 id = "qwen/qwen3-vl-30b-a3b-thinking"
-name = "Qwen: Qwen3 VL 30B A3B Thinking"
+name = "Qwen: Qwen3 VL 30B A3B Thinking (retires Oct 9)"
 release_date = "1759794479"
 
 [features]

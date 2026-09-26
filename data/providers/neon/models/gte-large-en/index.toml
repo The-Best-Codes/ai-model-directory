@@ -1,0 +1,8 @@
+id = "gte-large-en"
+last_updated = "1790294400"
+name = "GTE Large EN"
+open_weights = true
+release_date = "1690416000"
+
+[pricing]
+input = 0.13

@@ -1,0 +1,21 @@
+id = "perceptron/perceptron-mk1.5"
+name = "Perceptron Mk1.5"
+release_date = "1790294400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 36864
+output = 8192
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 1.5

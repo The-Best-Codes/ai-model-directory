@@ -1,5 +1,5 @@
 id = "qwen/qwen3.6-max-preview"
-name = "Qwen: Qwen3.6 Max Preview"
+name = "Qwen: Qwen3.6 Max Preview (retires Oct 9)"
 release_date = "1777260242"
 
 [features]

@@ -1,0 +1,20 @@
+id = "stealth/pixel-canary"
+name = "Pixel Canary"
+release_date = "1790294400"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

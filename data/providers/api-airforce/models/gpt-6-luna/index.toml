@@ -1,6 +1,6 @@
 id = "gpt-6-luna"
 name = "gpt-6-luna"
-release_date = "1790309651"
+release_date = "1790396430"
 
 [features]
 attachment = true
