@@ -1,6 +1,6 @@
 id = "deepseek-reasoner"
 name = "deepseek-reasoner"
-release_date = "1790396430"
+release_date = "1790483681"
 
 [features]
 attachment = false
@@ -12,6 +12,6 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.02
-cache_write = 1.11
-input = 0.89
-output = 3.53
+cache_write = 0.31
+input = 0.25
+output = 0.38

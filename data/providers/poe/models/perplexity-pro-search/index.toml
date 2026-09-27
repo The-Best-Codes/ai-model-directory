@@ -4,7 +4,7 @@ release_date = "1763705720"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 temperature = false
 tool_call = false
 

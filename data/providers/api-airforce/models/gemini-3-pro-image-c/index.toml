@@ -1,0 +1,10 @@
+id = "gemini-3-pro-image-c"
+name = "gemini-3-pro-image-c"
+release_date = "1790483681"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

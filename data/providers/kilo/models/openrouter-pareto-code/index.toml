@@ -7,7 +7,7 @@ attachment = false
 reasoning = false
 structured_output = false
 temperature = false
-tool_call = false
+tool_call = true
 
 [modalities]
 input = [ "text" ]

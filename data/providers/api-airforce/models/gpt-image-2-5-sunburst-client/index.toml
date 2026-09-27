@@ -1,0 +1,10 @@
+id = "gpt-image-2.5-sunburst-client"
+name = "gpt-image-2.5-sunburst-client"
+release_date = "1790483681"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
