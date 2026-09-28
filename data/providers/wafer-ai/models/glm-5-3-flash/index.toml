@@ -1,6 +1,6 @@
 id = "GLM-5.3-Flash"
 name = "GLM-5.3-Flash"
-release_date = "1790483811"
+release_date = "1790570322"
 
 [features]
 attachment = true
@@ -16,5 +16,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.03
-input = 0.43
+input = 0.55
 output = 0.5

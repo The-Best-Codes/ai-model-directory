@@ -1,0 +1,19 @@
+id = "qwen/qwen3.8-omni-flash"
+name = "Qwen: Qwen3.8-Omni-Flash"
+release_date = "1790565001"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.016
+input = 0.15
+output = 0.47
