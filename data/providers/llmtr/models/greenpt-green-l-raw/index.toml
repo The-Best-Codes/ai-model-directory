@@ -14,5 +14,5 @@ context = 128000
 input = [ "image", "text" ]
 
 [pricing]
-input = 0.305078
-output = 0.976248
+input = 0.307881
+output = 0.985219

@@ -1,0 +1,18 @@
+id = "laya-multilingual"
+last_updated = "1790655986"
+name = "laya-multilingual"
+release_date = "1790654748"
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0014895404
+output = 1.4895404e-9

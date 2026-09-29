@@ -1,0 +1,17 @@
+id = "lightning-ai/mimo-v2.6-pro"
+name = "mimo-v2.6-pro"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4642
+output = 0.91785

@@ -1,0 +1,13 @@
+id = "upstage/solar-decide"
+name = "Solar Decide"
+release_date = "1790657553"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 524288
+
+[modalities]
+input = [ "text" ]

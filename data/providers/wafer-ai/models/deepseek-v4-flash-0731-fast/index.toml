@@ -1,6 +1,6 @@
 id = "DeepSeek-V4-Flash-0731-Fast"
 name = "DeepSeek-V4-Flash-0731-Fast"
-release_date = "1790570322"
+release_date = "1790658392"
 
 [features]
 reasoning = true
@@ -15,5 +15,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.05
-input = 0.06
+input = 0.09
 output = 0.35

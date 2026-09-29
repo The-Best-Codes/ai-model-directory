@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v3.1-terminus"
-name = "DeepSeek: DeepSeek V3.1 Terminus (retires Sep 28)"
+name = "DeepSeek: DeepSeek V3.1 Terminus"
 release_date = "1758548275"
 
 [features]
@@ -11,7 +11,7 @@ tool_call = true
 
 [limit]
 context = 131072
-output = 32768
+output = 65536
 
 [modalities]
 input = [ "text" ]
@@ -19,5 +19,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.135
-input = 0.27
+input = 0.3
 output = 1

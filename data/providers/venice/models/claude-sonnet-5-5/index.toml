@@ -1,0 +1,23 @@
+id = "claude-sonnet-5-5"
+name = "Claude Sonnet 5.5"
+release_date = "1790380800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.375
+cache_write = 4.6875
+input = 3.75
+output = 18.75

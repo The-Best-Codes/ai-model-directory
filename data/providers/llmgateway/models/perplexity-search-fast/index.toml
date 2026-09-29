@@ -1,0 +1,20 @@
+id = "perplexity-search-fast"
+name = "Perplexity Search Fast"
+release_date = "1790208000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0
+reasoning = 0

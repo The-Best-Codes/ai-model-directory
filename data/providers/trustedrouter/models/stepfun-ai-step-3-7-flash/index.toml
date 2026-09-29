@@ -1,12 +1,12 @@
 id = "stepfun-ai/step-3.7-flash"
-name = "stepfun-ai/Step-3.7-Flash"
+name = "StepFun: Step-3.7-Flash"
 open_weights = false
 
 [features]
 attachment = false
 
 [limit]
-context = 262144
+context = 256000
 
 [modalities]
 input = [ "text" ]

@@ -1,0 +1,21 @@
+id = "typesafeai"
+last_updated = "1790585807"
+name = "typesafeai"
+release_date = "1789900834"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0

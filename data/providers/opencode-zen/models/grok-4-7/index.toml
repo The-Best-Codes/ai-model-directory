@@ -1,7 +1,7 @@
 id = "grok-4.7"
 knowledge_cutoff = "1777593600"
 last_updated = "1789948800"
-name = "Grok 4.7 (30% Off)"
+name = "Grok 4.7"
 open_weights = false
 release_date = "1789948800"
 
@@ -21,6 +21,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.35
-input = 1.4
-output = 4.2
+cache_read = 0.5
+input = 2
+output = 6

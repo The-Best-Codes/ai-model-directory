@@ -1,0 +1,17 @@
+id = "aion-labs/aion-3.5"
+name = "AionLabs: Aion 3.5"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.165
+output = 6.33
