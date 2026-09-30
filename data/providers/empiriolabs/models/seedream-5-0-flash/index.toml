@@ -1,0 +1,10 @@
+id = "seedream-5-0-flash"
+name = "Seedream 5.0 Flash"
+release_date = "1790553600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

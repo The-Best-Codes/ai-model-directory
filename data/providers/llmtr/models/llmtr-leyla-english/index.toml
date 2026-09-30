@@ -1,0 +1,13 @@
+id = "llmtr/leyla-english"
+name = "Leyla English"
+release_date = "1790679228"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]

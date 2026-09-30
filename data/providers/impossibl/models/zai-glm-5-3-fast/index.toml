@@ -1,0 +1,14 @@
+id = "zai/glm-5.3-fast"
+name = "GLM-5.3 Fast"
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.39
+input = 2.1
+output = 6.6

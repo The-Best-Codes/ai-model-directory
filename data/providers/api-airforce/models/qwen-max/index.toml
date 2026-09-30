@@ -1,6 +1,6 @@
 id = "qwen-max"
 name = "qwen-max"
-release_date = "1790658308"
+release_date = "1790743929"
 
 [features]
 attachment = false
@@ -14,4 +14,4 @@ output = [ "text" ]
 cache_read = 0.09
 cache_write = 0.93
 input = 0.93
-output = 3.7
+output = 3.71

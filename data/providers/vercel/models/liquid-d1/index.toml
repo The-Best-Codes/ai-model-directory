@@ -1,0 +1,10 @@
+id = "liquid/d1"
+name = "Liquid d1"
+release_date = "1790640000"
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0
+output = 0

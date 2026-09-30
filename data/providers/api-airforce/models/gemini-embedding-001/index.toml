@@ -1,6 +1,6 @@
 id = "gemini-embedding-001"
 name = "gemini-embedding-001"
-release_date = "1790658308"
+release_date = "1790743929"
 
 [features]
 attachment = false

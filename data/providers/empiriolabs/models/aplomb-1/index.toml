@@ -1,17 +1,17 @@
 id = "aplomb-1"
 name = "Aplomb 1"
-release_date = "1790467200"
+release_date = "1790640000"
 
 [features]
 attachment = true
 
 [limit]
-context = 60000
+context = 1000000
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "audio", "image", "text", "video" ]
 
 [pricing]
-cache_read = 0.04
-input = 0.04
+cache_read = 0.02
+input = 0.02
 output = 0

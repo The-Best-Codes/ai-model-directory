@@ -1,6 +1,6 @@
 id = "Pro/BAAI/bge-reranker-v2-m3"
 name = "Pro/BAAI/bge-reranker-v2-m3"
-release_date = "1790658308"
+release_date = "1790743929"
 
 [features]
 attachment = false

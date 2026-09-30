@@ -1,0 +1,13 @@
+id = "llmtr/leyla-typed-decisions"
+name = "Leyla Typed Decisions"
+release_date = "1790679228"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 1024
+
+[modalities]
+input = [ "text" ]

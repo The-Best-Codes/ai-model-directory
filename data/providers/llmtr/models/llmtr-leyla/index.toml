@@ -1,0 +1,13 @@
+id = "llmtr/leyla"
+name = "Leyla"
+release_date = "1790679228"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 1024
+
+[modalities]
+input = [ "text" ]

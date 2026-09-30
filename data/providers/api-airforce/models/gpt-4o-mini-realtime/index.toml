@@ -1,6 +1,6 @@
 id = "gpt-4o-mini-realtime"
 name = "gpt-4o-mini-realtime"
-release_date = "1790658308"
+release_date = "1790743929"
 
 [pricing]
 input = 22.08

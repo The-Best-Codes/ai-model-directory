@@ -1,18 +1,10 @@
 id = "SemIf-OpenJev-4B"
-last_updated = "1790243444"
+last_updated = "1790682212"
 name = "SemIf-OpenJev-4B"
 release_date = "1790241376"
-
-[features]
-attachment = false
 
 [limit]
 context = 128000
 
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
-
 [pricing]
-input = 0.014895404
-output = 1.4895404e-9
+input = 0.014908054

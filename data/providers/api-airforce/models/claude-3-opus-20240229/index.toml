@@ -1,6 +1,6 @@
 id = "claude-3-opus-20240229"
 name = "claude-3-opus-20240229"
-release_date = "1790658308"
+release_date = "1790743929"
 
 [features]
 attachment = false

@@ -1,0 +1,17 @@
+id = "neurometric/structured-decisions"
+name = "Structured Decisions"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03165
+output = 0.01

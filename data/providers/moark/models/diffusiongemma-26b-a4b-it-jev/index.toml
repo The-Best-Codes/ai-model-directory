@@ -1,18 +1,10 @@
 id = "DiffusionGemma-26B-A4B-it-Jev"
-last_updated = "1790246040"
+last_updated = "1790682234"
 name = "DiffusionGemma-26B-A4B-it-Jev"
 release_date = "1790246026"
-
-[features]
-attachment = false
 
 [limit]
 output = 64000
 
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
-
 [pricing]
-input = 0.044686212
-output = 1.4895404e-9
+input = 0.044724162

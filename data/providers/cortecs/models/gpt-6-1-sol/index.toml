@@ -1,0 +1,16 @@
+id = "gpt-6.1-sol"
+name = "gpt-6.1-sol"
+release_date = "1790683200"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[pricing]
+cache_read = 0.108
+input = 2.154
+output = 10.771
