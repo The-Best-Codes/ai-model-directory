@@ -135216,7 +135216,7 @@
     "id": "kiosapi",
     "name": "KiosAPI",
     "website": "https://kiosapi.com",
-    "apiBaseUrl": "https://router.kiosapi.com/v1",
+    "apiBaseUrl": "https://kiosapi.com/v1/",
     "aiSdk": {
       "npmPackage": "@ai-sdk/openai-compatible",
       "defaultApiKeyEnv": [
