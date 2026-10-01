@@ -1,0 +1,10 @@
+id = "voyage/rerank-3"
+name = "Voyage Rerank 3"
+release_date = "1790726400"
+
+[limit]
+context = 32000
+output = 32000
+
+[pricing]
+input = 0.05

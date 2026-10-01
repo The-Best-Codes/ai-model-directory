@@ -1,7 +1,7 @@
 id = "bytedance/seedream/v5/flash/text-to-image"
 name = "Seedream (Flash Text To Image)"
 open_weights = false
-release_date = "1790121600"
+release_date = "1790726400"
 
 [features]
 attachment = false

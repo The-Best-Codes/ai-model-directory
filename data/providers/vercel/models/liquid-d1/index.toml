@@ -3,8 +3,8 @@ name = "Liquid d1"
 release_date = "1790640000"
 
 [limit]
-context = 32000
+context = 65536
 
 [pricing]
-input = 0
+input = 0.04
 output = 0

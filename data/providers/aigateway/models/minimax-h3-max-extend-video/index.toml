@@ -1,7 +1,7 @@
 id = "minimax/h3-max/extend-video"
 name = "H3 Max Extend Video"
 open_weights = true
-release_date = "1790208000"
+release_date = "1790726400"
 
 [features]
 attachment = true

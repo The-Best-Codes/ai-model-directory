@@ -1,0 +1,10 @@
+id = "Intern-Decision-4B"
+last_updated = "1790775825"
+name = "Intern-Decision-4B"
+release_date = "1790775825"
+
+[limit]
+context = 8000
+
+[pricing]
+input = 0.014913723

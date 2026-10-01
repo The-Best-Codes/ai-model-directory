@@ -1,2 +1,10 @@
 id = "nvidia/nemotron-parse-2.0"
-name = "nvidia/nemotron-parse-2.0"
+name = "NVIDIA Nemotron Parse 2.0 Overview"
+
+[features]
+attachment = true
+structured_output = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

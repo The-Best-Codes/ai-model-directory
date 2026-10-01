@@ -1,6 +1,6 @@
 id = "gpt-5.5-xhigh"
 name = "gpt-5.5-xhigh"
-release_date = "1790743929"
+release_date = "1790831057"
 
 [features]
 attachment = false

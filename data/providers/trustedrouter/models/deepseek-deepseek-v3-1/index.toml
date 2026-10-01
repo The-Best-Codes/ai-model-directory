@@ -1,12 +1,12 @@
 id = "deepseek/deepseek-v3.1"
-name = "DeepSeek V3.1"
+name = "deepseek-ai/DeepSeek-V3.1"
 open_weights = true
 
 [features]
 attachment = false
 
 [limit]
-context = 131072
+context = 163840
 
 [modalities]
 input = [ "text" ]

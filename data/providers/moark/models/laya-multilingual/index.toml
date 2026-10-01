@@ -1,5 +1,5 @@
 id = "laya-multilingual"
-last_updated = "1790682254"
+last_updated = "1790760913"
 name = "laya-multilingual"
 release_date = "1778207029"
 
@@ -7,4 +7,4 @@ release_date = "1778207029"
 context = 8000
 
 [pricing]
-input = 0.0014908054
+input = 0.0014913723

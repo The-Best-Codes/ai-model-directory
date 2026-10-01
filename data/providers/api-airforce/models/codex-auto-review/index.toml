@@ -1,6 +1,6 @@
 id = "codex-auto-review"
 name = "codex-auto-review"
-release_date = "1790743929"
+release_date = "1790831057"
 
 [features]
 attachment = false

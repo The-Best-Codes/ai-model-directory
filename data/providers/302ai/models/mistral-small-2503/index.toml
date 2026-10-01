@@ -1,5 +1,5 @@
 id = "mistral-small-2503"
-last_updated = "1766473699"
+last_updated = "1790750166"
 name = "mistral-small-2503"
 release_date = "1742315159"
 
@@ -17,5 +17,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.5
-output = 0.5
+input = 0.55
+output = 0.55

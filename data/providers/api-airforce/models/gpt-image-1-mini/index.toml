@@ -1,6 +1,6 @@
 id = "gpt-image-1-mini"
 name = "gpt-image-1-mini"
-release_date = "1790743929"
+release_date = "1790831057"
 
 [features]
 attachment = false

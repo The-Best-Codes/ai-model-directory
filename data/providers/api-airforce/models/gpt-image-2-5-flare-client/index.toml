@@ -1,6 +1,6 @@
 id = "gpt-image-2.5-flare-client"
 name = "gpt-image-2.5-flare-client"
-release_date = "1790743929"
+release_date = "1790831057"
 
 [features]
 attachment = false

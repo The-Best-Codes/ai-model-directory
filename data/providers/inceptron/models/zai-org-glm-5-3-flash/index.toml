@@ -1,6 +1,6 @@
 id = "zai-org/GLM-5.3-Flash"
 name = "GLM 5.3 Flash"
-release_date = "1790742902"
+release_date = "1790801690"
 
 [features]
 attachment = false
@@ -17,7 +17,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.06
+cache_read = 0.08
 cache_write = 0
-input = 0.15
+input = 0.225
 output = 0.45
