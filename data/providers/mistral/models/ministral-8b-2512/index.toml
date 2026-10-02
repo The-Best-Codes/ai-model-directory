@@ -1,9 +1,12 @@
 id = "ministral-8b-2512"
-name = "ministral-8b-2512"
+name = "Ministral 3 (8B)"
+open_weights = true
+release_date = "1764633600"
 
 [features]
 attachment = true
 reasoning = false
+structured_output = true
 temperature = true
 tool_call = true
 
@@ -13,3 +16,8 @@ context = 262144
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.15
+output = 0.15

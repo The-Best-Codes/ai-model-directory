@@ -1,12 +1,18 @@
 id = "lyria-3-clip-preview"
+last_updated = "1772323200"
 name = "Lyria 3 Clip Preview"
-release_date = "1772323200"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
 
 [limit]
-context = 131072
+context = 1048576
+input = 1048576
+output = 65536
 
 [modalities]
 input = [ "image", "text" ]

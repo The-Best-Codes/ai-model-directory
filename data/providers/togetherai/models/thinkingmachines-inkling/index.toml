@@ -3,6 +3,8 @@ name = "Inkling FP4"
 
 [features]
 attachment = false
+structured_output = true
+tool_call = true
 
 [limit]
 context = 524288

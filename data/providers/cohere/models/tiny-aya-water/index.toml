@@ -1,0 +1,16 @@
+id = "tiny-aya-water"
+name = "tiny-aya-water"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 8192
+output = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

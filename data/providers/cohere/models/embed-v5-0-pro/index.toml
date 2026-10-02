@@ -1,0 +1,14 @@
+id = "embed-v5.0-pro"
+name = "embed-v5.0-pro"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "file", "image", "text" ]

@@ -1,5 +1,7 @@
 id = "command-a-plus-05-2026"
 name = "command-a-plus-05-2026"
+open_weights = true
+release_date = "1779235200"
 
 [features]
 attachment = true
@@ -10,6 +12,7 @@ tool_call = true
 
 [limit]
 context = 436000
+output = 64000
 
 [modalities]
 input = [ "image", "text" ]

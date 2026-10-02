@@ -1,12 +1,17 @@
 id = "gemini-3-pro-image"
+last_updated = "1761955200"
 name = "Nano Banana Pro"
-release_date = "1761955200"
 
 [features]
 attachment = true
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
 
 [limit]
-context = 65536
+context = 131072
+input = 131072
 output = 32768
 
 [modalities]

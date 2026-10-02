@@ -1,0 +1,16 @@
+id = "parse-v5.0"
+name = "parse-v5.0"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

@@ -1,13 +1,18 @@
 id = "gemini-3.5-live-translate-preview"
+last_updated = "1780272000"
 name = "Gemini 3.5 Live Translate Preview"
-release_date = "1780272000"
 
 [features]
 attachment = true
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
 
 [limit]
-context = 131072
-output = 65536
+context = 16384
+input = 16384
+output = 32768
 
 [modalities]
 input = [ "audio" ]

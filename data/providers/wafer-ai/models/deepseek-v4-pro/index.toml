@@ -1,6 +1,6 @@
 id = "DeepSeek-V4-Pro"
 name = "DeepSeek-V4-Pro"
-release_date = "1790907017"
+release_date = "1790910686"
 
 [features]
 reasoning = true

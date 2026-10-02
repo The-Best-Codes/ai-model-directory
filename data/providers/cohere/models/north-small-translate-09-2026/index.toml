@@ -1,0 +1,16 @@
+id = "north-small-translate-09-2026"
+name = "north-small-translate-09-2026"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

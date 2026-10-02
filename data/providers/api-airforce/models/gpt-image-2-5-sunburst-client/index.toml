@@ -1,6 +1,6 @@
 id = "gpt-image-2.5-sunburst-client"
 name = "gpt-image-2.5-sunburst-client"
-release_date = "1790906891"
+release_date = "1790910613"
 
 [features]
 attachment = false

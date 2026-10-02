@@ -1,13 +1,18 @@
 id = "gemini-robotics-er-2-streaming-preview"
 knowledge_cutoff = "1735689600"
+last_updated = "1782864000"
 name = "Gemini Robotics-ER 2 Streaming Preview"
-release_date = "1782864000"
 
 [features]
 attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
 
 [limit]
 context = 131072
+input = 131072
 output = 65536
 
 [modalities]

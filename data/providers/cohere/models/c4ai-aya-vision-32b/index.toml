@@ -5,11 +5,11 @@ name = "c4ai-aya-vision-32b"
 attachment = true
 reasoning = false
 structured_output = false
-temperature = false
 tool_call = false
 
 [limit]
 context = 16384
+output = 4000
 
 [modalities]
 input = [ "image", "text" ]

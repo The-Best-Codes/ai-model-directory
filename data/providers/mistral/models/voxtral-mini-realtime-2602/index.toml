@@ -1,5 +1,7 @@
 id = "voxtral-mini-realtime-2602"
-name = "voxtral-mini-transcribe-realtime-2602"
+name = "Voxtral Mini Transcribe Realtime"
+open_weights = true
+release_date = "1770163200"
 
 [features]
 attachment = true

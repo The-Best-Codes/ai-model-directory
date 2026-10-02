@@ -21,3 +21,4 @@ output = [ "audio", "text" ]
 input = 2.5
 input_audio = 32
 output = 10
+output_audio = 64

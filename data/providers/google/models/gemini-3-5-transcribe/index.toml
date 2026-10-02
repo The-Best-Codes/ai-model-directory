@@ -1,9 +1,17 @@
 id = "gemini-3.5-transcribe"
+last_updated = "1785542400"
 name = "Gemini 3.5 Transcribe"
-release_date = "1785542400"
 
 [features]
 attachment = true
+reasoning = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 98304
+input = 98304
+output = 32768
 
 [modalities]
 input = [ "audio" ]

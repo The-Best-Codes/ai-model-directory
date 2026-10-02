@@ -1,2 +1,7 @@
 id = "antigravity-preview-05-2026"
 name = "Antigravity Agent Preview"
+
+[limit]
+context = 1048576
+input = 1048576
+output = 65536

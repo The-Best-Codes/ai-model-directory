@@ -1,9 +1,9 @@
 id = "cohere-transcribe-03-2026"
 name = "cohere-transcribe-03-2026"
+open_weights = true
 
 [features]
 attachment = true
-temperature = false
 
 [limit]
 context = 32768

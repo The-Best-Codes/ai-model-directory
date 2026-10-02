@@ -1,4 +1,5 @@
 id = "claude-opus-5"
+knowledge_cutoff = "1777593600"
 name = "Claude Opus 5"
 release_date = "1784851200"
 
@@ -9,6 +10,7 @@ structured_output = true
 
 [limit]
 context = 1000000
+input = 1000000
 output = 128000
 
 [modalities]

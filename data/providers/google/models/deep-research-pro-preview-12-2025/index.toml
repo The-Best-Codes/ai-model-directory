@@ -1,2 +1,11 @@
 id = "deep-research-pro-preview-12-2025"
 name = "Deep Research Pro Preview (Dec-12-2025)"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 131072
+input = 131072
+output = 65536

@@ -1,9 +1,12 @@
 id = "labs-leanstral-1-5"
-name = "labs-leanstral-1-5-1"
+name = "Leanstral 1.5"
+open_weights = true
+release_date = "1782777600"
 
 [features]
 attachment = true
 reasoning = true
+structured_output = true
 temperature = true
 tool_call = true
 

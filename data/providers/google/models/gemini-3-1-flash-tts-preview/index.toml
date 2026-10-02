@@ -1,12 +1,17 @@
 id = "gemini-3.1-flash-tts-preview"
+last_updated = "1775001600"
 name = "Gemini 3.1 Flash TTS Preview"
-release_date = "1775001600"
 
 [features]
 attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
 
 [limit]
 context = 8192
+input = 8192
 output = 16384
 
 [modalities]

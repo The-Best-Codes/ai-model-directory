@@ -1,2 +1,11 @@
 id = "gemma-4-31b-it"
 name = "Gemma 4 31B IT"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 262144
+input = 262144
+output = 32768

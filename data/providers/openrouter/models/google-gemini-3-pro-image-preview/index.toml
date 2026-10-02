@@ -21,6 +21,5 @@ output = [ "image", "text" ]
 cache_read = 0.2
 cache_write = 0.375
 input = 2
-input_audio = 2
 output = 12
 reasoning = 12

@@ -1,2 +1,11 @@
 id = "gemini-2.5-flash-native-audio-latest"
 name = "Gemini 2.5 Flash Native Audio Latest"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 131072
+input = 131072
+output = 8192

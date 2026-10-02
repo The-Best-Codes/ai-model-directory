@@ -1,6 +1,14 @@
 id = "gemini-3.5-transcribe-live"
 name = "Gemini 3.5 Transcribe Live"
 
+[features]
+temperature = true
+
+[limit]
+context = 131072
+input = 131072
+output = 65536
+
 [pricing]
 input_audio = 3.5
 output = 21

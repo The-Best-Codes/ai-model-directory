@@ -1,4 +1,5 @@
 id = "claude-sonnet-4-6"
+knowledge_cutoff = "1754006400"
 name = "Claude Sonnet 4.6"
 release_date = "1771286400"
 
@@ -9,6 +10,7 @@ structured_output = true
 
 [limit]
 context = 1000000
+input = 1000000
 output = 128000
 
 [modalities]

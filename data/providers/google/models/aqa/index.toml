@@ -1,2 +1,10 @@
 id = "aqa"
 name = "Model that performs Attributed Question Answering."
+
+[features]
+temperature = true
+
+[limit]
+context = 7168
+input = 7168
+output = 1024

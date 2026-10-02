@@ -1,5 +1,7 @@
 id = "voxtral-mini-tts-latest"
-name = "voxtral-mini-tts-2603"
+name = "Voxtral TTS"
+open_weights = true
+release_date = "1774224000"
 
 [features]
 attachment = false

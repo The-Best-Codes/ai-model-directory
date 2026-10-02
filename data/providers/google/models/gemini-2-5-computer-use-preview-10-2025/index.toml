@@ -1,10 +1,15 @@
 id = "gemini-2.5-computer-use-preview-10-2025"
+last_updated = "1759276800"
 name = "Gemini 2.5 Computer Use Preview 10-2025"
-release_date = "1759276800"
+
+[features]
+reasoning = true
+temperature = true
 
 [limit]
-context = 128000
-output = 64000
+context = 131072
+input = 131072
+output = 65536
 
 [modalities]
 output = [ "text" ]

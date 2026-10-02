@@ -1,6 +1,11 @@
 id = "veo-3.1-lite-generate-preview"
+last_updated = "1772323200"
 name = "Veo 3.1 lite"
-release_date = "1772323200"
+
+[limit]
+context = 480
+input = 480
+output = 8192
 
 [modalities]
 output = [ "audio", "video" ]

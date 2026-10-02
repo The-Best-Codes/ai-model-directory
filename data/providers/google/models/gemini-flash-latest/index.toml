@@ -1,2 +1,11 @@
 id = "gemini-flash-latest"
 name = "Gemini Flash Latest"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 1048576
+input = 1048576
+output = 65536

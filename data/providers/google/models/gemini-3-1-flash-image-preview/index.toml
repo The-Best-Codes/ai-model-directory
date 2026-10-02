@@ -1,17 +1,19 @@
 id = "gemini-3.1-flash-image-preview"
 knowledge_cutoff = "1735689600"
+last_updated = "1769904000"
 name = "Nano Banana 2"
-release_date = "1769904000"
 
 [features]
 attachment = true
 reasoning = true
 structured_output = false
+temperature = true
 tool_call = false
 
 [limit]
-context = 131072
-output = 32768
+context = 65536
+input = 65536
+output = 65536
 
 [modalities]
 input = [ "file", "image", "text" ]

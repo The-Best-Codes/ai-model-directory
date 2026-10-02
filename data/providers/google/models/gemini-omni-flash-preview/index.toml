@@ -1,6 +1,15 @@
 id = "gemini-omni-flash-preview"
 name = "Gemini Omni Flash Preview"
 
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 131072
+input = 131072
+output = 65536
+
 [pricing]
 input = 1.5
 input_audio = 1.5

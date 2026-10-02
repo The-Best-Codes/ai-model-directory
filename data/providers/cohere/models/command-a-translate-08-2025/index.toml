@@ -5,7 +5,6 @@ name = "command-a-translate-08-2025"
 attachment = false
 reasoning = false
 structured_output = true
-temperature = false
 tool_call = true
 
 [limit]

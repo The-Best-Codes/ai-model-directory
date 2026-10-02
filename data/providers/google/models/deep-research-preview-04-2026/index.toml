@@ -1,2 +1,11 @@
 id = "deep-research-preview-04-2026"
 name = "Deep Research Preview (Apr-21-2026)"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 131072
+input = 131072
+output = 65536

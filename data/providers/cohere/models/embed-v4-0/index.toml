@@ -1,0 +1,11 @@
+id = "embed-v4.0"
+name = "embed-v4.0"
+
+[features]
+attachment = true
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "file", "image", "text" ]

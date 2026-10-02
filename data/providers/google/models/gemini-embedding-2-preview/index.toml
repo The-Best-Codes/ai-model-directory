@@ -1,9 +1,11 @@
 id = "gemini-embedding-2-preview"
+last_updated = "1772323200"
 name = "Gemini Embedding 2 Preview"
-release_date = "1772323200"
 
 [limit]
 context = 8192
+input = 8192
+output = 1
 
 [modalities]
 output = [ "text" ]

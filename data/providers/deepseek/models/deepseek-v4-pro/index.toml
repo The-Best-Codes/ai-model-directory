@@ -2,6 +2,7 @@ id = "deepseek-v4-pro"
 name = "deepseek-v4-pro"
 
 [features]
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true
@@ -13,3 +14,8 @@ output = 384000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.044
+input = 1.32
+output = 3.96

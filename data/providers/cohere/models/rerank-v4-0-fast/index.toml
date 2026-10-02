@@ -1,0 +1,11 @@
+id = "rerank-v4.0-fast"
+name = "rerank-v4.0-fast"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
