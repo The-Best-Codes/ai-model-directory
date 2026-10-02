@@ -1,2 +1,7 @@
 id = "gemini-omni-flash-preview"
 name = "Gemini Omni Flash Preview"
+
+[pricing]
+input = 1.5
+input_audio = 1.5
+output = 9

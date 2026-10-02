@@ -11,3 +11,8 @@ context = 8192
 [modalities]
 input = [ "text" ]
 output = [ "audio" ]
+
+[pricing]
+input = 0.5
+output_audio = 6
+cache_read = 0.125

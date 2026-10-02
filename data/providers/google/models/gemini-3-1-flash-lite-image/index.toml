@@ -12,3 +12,7 @@ output = 4096
 [modalities]
 input = [ "file", "image", "text", "video" ]
 output = [ "image", "text" ]
+
+[pricing]
+input = 0.25
+output = 1.5

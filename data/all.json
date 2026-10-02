@@ -63120,8 +63120,8 @@
     "models": {
       "ambient/large": {
         "id": "ambient/large",
-        "name": "GLM 5.1",
-        "release_date": "1775520000",
+        "name": "GLM 5.2",
+        "release_date": "1781631930",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -63129,288 +63129,18 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 1.4,
-          "output": 4.4,
-          "cache_read": 0,
+          "input": 0.6,
+          "output": 2,
+          "cache_read": 0.15,
           "cache_write": 0
         },
         "limit": {
           "context": 202752,
-          "output": 131072
+          "output": 202752
         },
         "modalities": {
           "input": [
             "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "google/gemma-4-26b-a4b-it": {
-        "id": "google/gemma-4-26b-a4b-it",
-        "name": "Gemma 4 26B A4B",
-        "release_date": "1775227989",
-        "features": {
-          "attachment": true,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.3,
-          "cache_read": 0.02,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 262144,
-          "output": 262144
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text",
-            "video"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "google/gemma-4-31b-it": {
-        "id": "google/gemma-4-31b-it",
-        "name": "Gemma 4 31B",
-        "release_date": "1775148486",
-        "features": {
-          "attachment": true,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 0.8,
-          "cache_read": 0.065,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 65536,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "moonshotai/kimi-k2.5": {
-        "id": "moonshotai/kimi-k2.5",
-        "name": "Kimi K2.5",
-        "release_date": "1774051200",
-        "features": {
-          "attachment": true,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.4,
-          "output": 1.98,
-          "cache_read": 0.05,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 262144,
-          "output": 262144
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "moonshotai/kimi-k2.6": {
-        "id": "moonshotai/kimi-k2.6",
-        "name": "Kimi K2.6",
-        "release_date": "1776643200",
-        "features": {
-          "attachment": true,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.67,
-          "output": 3.39,
-          "cache_read": 0.14,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 262144,
-          "output": 262144
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "moonshotai/kimi-k2.7-code": {
-        "id": "moonshotai/kimi-k2.7-code",
-        "name": "Kimi K2.7 Code",
-        "release_date": "1781136000",
-        "features": {
-          "attachment": true,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.84,
-          "output": 3.99,
-          "cache_read": 0.16,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 262144,
-          "output": 262144
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text",
-            "video"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "nvidia/nemotron-3-nano-30b-a3b": {
-        "id": "nvidia/nemotron-3-nano-30b-a3b",
-        "name": "Nemotron 3 Nano 30B A3B",
-        "release_date": "1765731275",
-        "features": {
-          "attachment": false,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.05,
-          "output": 0.2,
-          "cache_read": 0.01,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 262144,
-          "output": 228000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "openai/gpt-oss-120b": {
-        "id": "openai/gpt-oss-120b",
-        "name": "gpt-oss-120b",
-        "release_date": "1754414231",
-        "features": {
-          "attachment": false,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.6,
-          "cache_read": 0.075,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "openai/gpt-oss-20b": {
-        "id": "openai/gpt-oss-20b",
-        "name": "gpt-oss-20b",
-        "release_date": "1754414229",
-        "features": {
-          "attachment": false,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.029,
-          "output": 0.14,
-          "cache_read": 0,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "qwen/qwen3.5-35b-a3b": {
-        "id": "qwen/qwen3.5-35b-a3b",
-        "name": "Qwen3.5 35B A3B",
-        "release_date": "1771977600",
-        "features": {
-          "attachment": true,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.14,
-          "output": 1,
-          "cache_read": 0.05,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 262144,
-          "output": 262144
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text",
-            "video"
           ],
           "output": [
             "text"
@@ -63434,24 +63164,23 @@
           "cache_write": 0
         },
         "limit": {
-          "context": 262144,
-          "output": 81920
+          "context": 32768,
+          "output": 8192
         },
         "modalities": {
           "input": [
             "image",
-            "text",
-            "video"
+            "text"
           ],
           "output": [
             "text"
           ]
         }
       },
-      "qwen/qwen3.6-35b-a3b": {
-        "id": "qwen/qwen3.6-35b-a3b",
-        "name": "Qwen3.6 35B A3B",
-        "release_date": "1777260255",
+      "qwen/qwen3.8-27b": {
+        "id": "qwen/qwen3.8-27b",
+        "name": "Qwen3.8 27B",
+        "release_date": "1786665600",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -63459,48 +63188,18 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 0.15,
-          "output": 1,
-          "cache_read": 0.05,
+          "input": 0.32,
+          "output": 3.2,
+          "cache_read": 0.16,
           "cache_write": 0
         },
         "limit": {
-          "context": 262144,
-          "output": 262144
+          "context": 32768,
+          "output": 8192
         },
         "modalities": {
           "input": [
             "image",
-            "text",
-            "video"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "qwen/qwen3-coder-30b-a3b-instruct": {
-        "id": "qwen/qwen3-coder-30b-a3b-instruct",
-        "name": "Qwen3 Coder 30B A3B Instruct",
-        "release_date": "1753972379",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.07,
-          "output": 0.27,
-          "cache_read": 0,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 160000,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
             "text"
           ],
           "output": [
@@ -63508,95 +63207,8 @@
           ]
         }
       },
-      "qwen/qwen3-next-80b-a3b-instruct": {
-        "id": "qwen/qwen3-next-80b-a3b-instruct",
-        "name": "Qwen3 Next 80B A3B Instruct",
-        "release_date": "1757612213",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.09,
-          "output": 1.1,
-          "cache_read": 0.03,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 262144,
-          "output": 262144
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "z-ai/glm-4.5-air": {
-        "id": "z-ai/glm-4.5-air",
-        "name": "GLM 4.5 Air",
-        "release_date": "1753471258",
-        "features": {
-          "attachment": false,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 0.125,
-          "output": 0.85,
-          "cache_read": 0.06,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "zai-org/GLM-5.1-FP8": {
-        "id": "zai-org/GLM-5.1-FP8",
-        "name": "GLM 5.1",
-        "release_date": "1775520000",
-        "features": {
-          "attachment": false,
-          "reasoning": true,
-          "tool_call": true,
-          "structured_output": true
-        },
-        "pricing": {
-          "input": 1.4,
-          "output": 4.4,
-          "cache_read": 0,
-          "cache_write": 0
-        },
-        "limit": {
-          "context": 202752,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "zai-org/GLM-5.2-FP8": {
-        "id": "zai-org/GLM-5.2-FP8",
+      "z-ai/glm-5.2": {
+        "id": "z-ai/glm-5.2",
         "name": "GLM 5.2",
         "release_date": "1781631930",
         "features": {
@@ -63606,9 +63218,9 @@
           "structured_output": true
         },
         "pricing": {
-          "input": 1.4,
-          "output": 4.4,
-          "cache_read": 0.26,
+          "input": 0.6,
+          "output": 2,
+          "cache_read": 0.15,
           "cache_write": 0
         },
         "limit": {
@@ -89028,6 +88640,733 @@
       }
     }
   },
+  "fastino": {
+    "id": "fastino",
+    "name": "Fastino",
+    "website": "https://fastino.ai",
+    "apiBaseUrl": "https://api.fastino.ai/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "FASTINO_API_KEY"
+      ]
+    },
+    "models": {
+      "claude-fable-5": {
+        "id": "claude-fable-5",
+        "name": "Claude Fable 5",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 10,
+          "output": 50,
+          "cache_read": 1,
+          "cache_write": 12.5
+        },
+        "limit": {
+          "input": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "claude-haiku-4-5": {
+        "id": "claude-haiku-4-5",
+        "name": "Claude Haiku 4 5",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 1,
+          "output": 5,
+          "cache_read": 0.1,
+          "cache_write": 1.25
+        },
+        "limit": {
+          "input": 200000,
+          "output": 64000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "claude-opus-5": {
+        "id": "claude-opus-5",
+        "name": "Claude Opus 5",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 5,
+          "output": 25,
+          "cache_read": 0.5,
+          "cache_write": 6.25
+        },
+        "limit": {
+          "input": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "claude-opus-5-fast": {
+        "id": "claude-opus-5-fast",
+        "name": "Claude Opus 5 Fast",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 10,
+          "output": 50,
+          "cache_read": 1,
+          "cache_write": 12.5
+        },
+        "limit": {
+          "input": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "claude-sonnet-5": {
+        "id": "claude-sonnet-5",
+        "name": "Claude Sonnet 5",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.2,
+          "cache_write": 2.5
+        },
+        "limit": {
+          "input": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "deepseek-ai/DeepSeek-V4-Flash": {
+        "id": "deepseek-ai/DeepSeek-V4-Flash",
+        "name": "Deepseek V4 Flash",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.14,
+          "output": 0.28,
+          "cache_read": 0.028,
+          "cache_write": 0.14
+        },
+        "limit": {
+          "input": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/Fastino-Nemotron-3.5-Lightning-Finance": {
+        "id": "fastino/Fastino-Nemotron-3.5-Lightning-Finance",
+        "name": "Fastino Nemotron 3.5 Lightning Finance",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 0.5,
+          "cache_read": 0.5,
+          "cache_write": 0.5
+        },
+        "limit": {
+          "input": 8192,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/Fastino-Nemotron-3.5-Lightning-Healthcare": {
+        "id": "fastino/Fastino-Nemotron-3.5-Lightning-Healthcare",
+        "name": "Fastino Nemotron 3.5 Lightning Healthcare",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 0.5,
+          "cache_read": 0.5,
+          "cache_write": 0.5
+        },
+        "limit": {
+          "input": 8192,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/gliguard-LLMGuardrails-300M": {
+        "id": "fastino/gliguard-LLMGuardrails-300M",
+        "name": "Gliguard Llmguardrails 300m",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.15,
+          "cache_read": 0.15,
+          "cache_write": 0.15
+        },
+        "limit": {
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/gliguard-PII-multi": {
+        "id": "fastino/gliguard-PII-multi",
+        "name": "Gliguard Pii Multi",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.15,
+          "output": 0.15,
+          "cache_read": 0.15,
+          "cache_write": 0.15
+        },
+        "limit": {
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/GLiNER-2.5-Decide": {
+        "id": "fastino/GLiNER-2.5-Decide",
+        "name": "Gliner 2.5 Decide",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0,
+          "cache_read": 0.03,
+          "cache_write": 0.03
+        },
+        "limit": {
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/gliner2.5-base-v1": {
+        "id": "fastino/gliner2.5-base-v1",
+        "name": "Gliner2.5 Base V1",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0,
+          "cache_read": 0.03,
+          "cache_write": 0.03
+        },
+        "limit": {
+          "input": 4096,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/gliner2.5-multi-v1": {
+        "id": "fastino/gliner2.5-multi-v1",
+        "name": "Gliner2.5 Multi V1",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0,
+          "cache_read": 0.03,
+          "cache_write": 0.03
+        },
+        "limit": {
+          "input": 4096,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/gliner2-base-v1": {
+        "id": "fastino/gliner2-base-v1",
+        "name": "GLiNER2 Base",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0,
+          "cache_read": 0.03,
+          "cache_write": 0.03
+        },
+        "limit": {
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/gliner2-large-v1": {
+        "id": "fastino/gliner2-large-v1",
+        "name": "Gliner2 Large V1",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0,
+          "cache_read": 0.03,
+          "cache_write": 0.03
+        },
+        "limit": {
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/gliner2-multi-large-v1": {
+        "id": "fastino/gliner2-multi-large-v1",
+        "name": "Gliner2 Multi Large V1",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0,
+          "cache_read": 0.03,
+          "cache_write": 0.03
+        },
+        "limit": {
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/gliner2-multi-v1": {
+        "id": "fastino/gliner2-multi-v1",
+        "name": "Gliner2 Multi V1",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0,
+          "cache_read": 0.03,
+          "cache_write": 0.03
+        },
+        "limit": {
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "fastino/gliner2-privacy-filter-PII-multi": {
+        "id": "fastino/gliner2-privacy-filter-PII-multi",
+        "name": "Gliner2 Privacy Filter Pii Multi",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0,
+          "cache_read": 0.03,
+          "cache_write": 0.03
+        },
+        "limit": {
+          "input": 8192,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gpt-5.5": {
+        "id": "gpt-5.5",
+        "name": "Gpt 5.5",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cache_read": 0.5,
+          "cache_write": 5
+        },
+        "limit": {
+          "input": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gpt-5.6-luna": {
+        "id": "gpt-5.6-luna",
+        "name": "Gpt 5.6 Luna",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 1,
+          "output": 6,
+          "cache_read": 0.1,
+          "cache_write": 1.25
+        },
+        "limit": {
+          "input": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gpt-5.6-sol": {
+        "id": "gpt-5.6-sol",
+        "name": "Gpt 5.6 Sol",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cache_read": 0.5,
+          "cache_write": 6.25
+        },
+        "limit": {
+          "input": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "gpt-5.6-terra": {
+        "id": "gpt-5.6-terra",
+        "name": "Gpt 5.6 Terra",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 2.5,
+          "output": 15,
+          "cache_read": 0.25,
+          "cache_write": 3.125
+        },
+        "limit": {
+          "input": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "moonshotai/Kimi-K3": {
+        "id": "moonshotai/Kimi-K3",
+        "name": "Kimi K3",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.3,
+          "cache_write": 3
+        },
+        "limit": {
+          "input": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "moonshotai/Kimi-K3-Fast": {
+        "id": "moonshotai/Kimi-K3-Fast",
+        "name": "Kimi K3 Fast",
+        "features": {
+          "attachment": true,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 4.5,
+          "output": 22.5,
+          "cache_read": 0.45,
+          "cache_write": 4.5
+        },
+        "limit": {
+          "input": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16": {
+        "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+        "name": "Nvidia Nemotron 3.5 Lightning 30b A3b Bf16",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 0.5,
+          "cache_read": 0.5,
+          "cache_write": 0.5
+        },
+        "limit": {
+          "input": 8192,
+          "output": 4096
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "zai-org/GLM-5.2": {
+        "id": "zai-org/GLM-5.2",
+        "name": "Glm 5.2",
+        "features": {
+          "attachment": false,
+          "reasoning": false,
+          "structured_output": false
+        },
+        "pricing": {
+          "input": 1.4,
+          "output": 4.4,
+          "cache_read": 0.14,
+          "cache_write": 1.4
+        },
+        "limit": {
+          "input": 1040000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      }
+    }
+  },
   "fastrouter": {
     "id": "fastrouter",
     "name": "FastRouter",
@@ -103563,6 +103902,12 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5,
+          "cache_read": 0.03,
+          "input_audio": 1
+        },
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -103587,6 +103932,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.3
+        },
         "limit": {
           "context": 65536,
           "output": 32768
@@ -103609,6 +103957,12 @@
         "release_date": "1751328000",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.4,
+          "cache_read": 0.01,
+          "input_audio": 0.3
         },
         "limit": {
           "context": 1048576,
@@ -103643,6 +103997,12 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.5,
+          "output": 2,
+          "input_audio": 3,
+          "output_audio": 12
+        },
         "limit": {
           "context": 131072,
           "output": 8192
@@ -103666,6 +104026,10 @@
         "features": {
           "attachment": false
         },
+        "pricing": {
+          "input": 0.5,
+          "output_audio": 10
+        },
         "limit": {
           "context": 8192,
           "output": 16384
@@ -103686,6 +104050,11 @@
         "release_date": "1748736000",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0.125
         },
         "limit": {
           "context": 1048576,
@@ -103711,6 +104080,10 @@
         "features": {
           "attachment": false
         },
+        "pricing": {
+          "input": 1,
+          "output_audio": 20
+        },
         "limit": {
           "context": 8192,
           "output": 16384
@@ -103730,6 +104103,10 @@
         "release_date": "1769904000",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 3
         },
         "limit": {
           "context": 131072,
@@ -103782,6 +104159,12 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5,
+          "cache_read": 0.025,
+          "input_audio": 0.5
+        },
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -103805,6 +104188,10 @@
         "release_date": "1780272000",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.25,
+          "output": 1.5
         },
         "limit": {
           "context": 65536,
@@ -103854,6 +104241,12 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.75,
+          "output": 4.5,
+          "input_audio": 3,
+          "output_audio": 12
+        },
         "limit": {
           "context": 131072,
           "output": 65536
@@ -103878,6 +104271,10 @@
         "features": {
           "attachment": false
         },
+        "pricing": {
+          "input": 1,
+          "output_audio": 20
+        },
         "limit": {
           "context": 8192,
           "output": 16384
@@ -103898,6 +104295,11 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cache_read": 0.2
+        },
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -103917,7 +104319,12 @@
       },
       "gemini-3.1-pro-preview-customtools": {
         "id": "gemini-3.1-pro-preview-customtools",
-        "name": "Gemini 3.1 Pro Preview Custom Tools"
+        "name": "Gemini 3.1 Pro Preview Custom Tools",
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cache_read": 0.2
+        }
       },
       "gemini-3.5-flash": {
         "id": "gemini-3.5-flash",
@@ -103925,6 +104332,11 @@
         "release_date": "1777593600",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 9,
+          "cache_read": 0.15
         },
         "limit": {
           "context": 1048576,
@@ -103950,6 +104362,12 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5,
+          "cache_read": 0.03,
+          "input_audio": 0.3
+        },
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -103974,6 +104392,10 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input_audio": 3.5,
+          "output_audio": 21
+        },
         "limit": {
           "context": 131072,
           "output": 65536
@@ -103995,6 +104417,10 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "output": 12,
+          "input_audio": 2
+        },
         "modalities": {
           "input": [
             "audio"
@@ -104006,7 +104432,11 @@
       },
       "gemini-3.5-transcribe-live": {
         "id": "gemini-3.5-transcribe-live",
-        "name": "Gemini 3.5 Transcribe Live"
+        "name": "Gemini 3.5 Transcribe Live",
+        "pricing": {
+          "output": 21,
+          "input_audio": 3.5
+        }
       },
       "gemini-3.6-flash": {
         "id": "gemini-3.6-flash",
@@ -104014,6 +104444,11 @@
         "release_date": "1782864000",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 3.75,
+          "cache_read": 0.075
         },
         "limit": {
           "context": 1048576,
@@ -104039,6 +104474,11 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.75,
+          "output": 3.75,
+          "cache_read": 0.075
+        },
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -104062,6 +104502,11 @@
         "release_date": "1788220800",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 3.75,
+          "cache_read": 0.075
         },
         "limit": {
           "context": 1048576,
@@ -104087,6 +104532,11 @@
         "features": {
           "attachment": false
         },
+        "pricing": {
+          "input": 0.5,
+          "cache_read": 0.125,
+          "output_audio": 6
+        },
         "limit": {
           "context": 8192
         },
@@ -104106,6 +104556,11 @@
         "features": {
           "attachment": false
         },
+        "pricing": {
+          "input": 0.5,
+          "cache_read": 0.125,
+          "output_audio": 9
+        },
         "limit": {
           "context": 8192
         },
@@ -104124,6 +104579,12 @@
         "release_date": "1788220800",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 4.5,
+          "input_audio": 3,
+          "output_audio": 12
         },
         "limit": {
           "context": 131072,
@@ -104149,6 +104610,12 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.75,
+          "output": 4.5,
+          "input_audio": 3,
+          "output_audio": 12
+        },
         "limit": {
           "context": 131072,
           "output": 65536
@@ -104173,6 +104640,12 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.5,
+          "output": 3,
+          "cache_read": 0.05,
+          "input_audio": 1
+        },
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -104196,6 +104669,10 @@
         "release_date": "1761955200",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12
         },
         "limit": {
           "context": 65536,
@@ -104255,6 +104732,10 @@
         "id": "gemini-embedding-2",
         "name": "Gemini Embedding 2",
         "release_date": "1775001600",
+        "pricing": {
+          "input": 0.2,
+          "input_audio": 6.5
+        },
         "limit": {
           "context": 8192
         },
@@ -104287,11 +104768,21 @@
       },
       "gemini-omni-1.1-flash": {
         "id": "gemini-omni-1.1-flash",
-        "name": "Gemini Omni 1.1 Flash"
+        "name": "Gemini Omni 1.1 Flash",
+        "pricing": {
+          "input": 1.5,
+          "output": 9,
+          "input_audio": 1.5
+        }
       },
       "gemini-omni-flash-preview": {
         "id": "gemini-omni-flash-preview",
-        "name": "Gemini Omni Flash Preview"
+        "name": "Gemini Omni Flash Preview",
+        "pricing": {
+          "input": 1.5,
+          "output": 9,
+          "input_audio": 1.5
+        }
       },
       "gemini-pro-latest": {
         "id": "gemini-pro-latest",
@@ -104304,6 +104795,12 @@
         "release_date": "1782864000",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 5,
+          "cache_read": 0.1,
+          "input_audio": 1
         },
         "limit": {
           "context": 131072,
@@ -104328,6 +104825,11 @@
         "release_date": "1782864000",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 1,
+          "output": 5,
+          "input_audio": 1
         },
         "limit": {
           "context": 131072,
@@ -135216,7 +135718,7 @@
     "id": "kiosapi",
     "name": "KiosAPI",
     "website": "https://kiosapi.com",
-    "apiBaseUrl": "https://kiosapi.com/v1/",
+    "apiBaseUrl": "https://kiosapi.com/v1",
     "aiSdk": {
       "npmPackage": "@ai-sdk/openai-compatible",
       "defaultApiKeyEnv": [
@@ -212427,4598 +212929,6 @@
       }
     }
   },
-  "pioneer": {
-    "id": "pioneer",
-    "name": "Pioneer",
-    "website": "https://pioneer.ai",
-    "apiBaseUrl": "https://api.pioneer.ai/v1",
-    "aiSdk": {
-      "npmPackage": "@ai-sdk/openai-compatible",
-      "defaultApiKeyEnv": [
-        "PIONEER_API_KEY"
-      ]
-    },
-    "models": {
-      "anthropic/pioneer/deepseek-ai/DeepSeek-V3": {
-        "id": "anthropic/pioneer/deepseek-ai/DeepSeek-V3",
-        "name": "Deepseek V3",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.27,
-          "output": 1.12,
-          "cache_read": 0.135,
-          "cache_write": 0.27
-        },
-        "limit": {
-          "input": 163840,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/deepseek-ai/DeepSeek-V4-Flash": {
-        "id": "anthropic/pioneer/deepseek-ai/DeepSeek-V4-Flash",
-        "name": "Deepseek V4 Flash",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.05,
-          "cache_write": 0.14
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/deepseek-ai/DeepSeek-V4-Pro": {
-        "id": "anthropic/pioneer/deepseek-ai/DeepSeek-V4-Pro",
-        "name": "Deepseek V4 Pro",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.435,
-          "output": 0.87,
-          "cache_read": 0.0036,
-          "cache_write": 0.435
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/devstral-2": {
-        "id": "anthropic/pioneer/devstral-2",
-        "name": "Devstral 2",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.4,
-          "output": 2,
-          "cache_read": 0.4,
-          "cache_write": 0.4
-        },
-        "limit": {
-          "input": 256000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/devstral-small-2": {
-        "id": "anthropic/pioneer/devstral-small-2",
-        "name": "Devstral Small 2",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.3,
-          "cache_read": 0.1,
-          "cache_write": 0.1
-        },
-        "limit": {
-          "input": 256000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/fastino/Fastino-Nemotron-3.5-Lightning-Finance": {
-        "id": "anthropic/pioneer/fastino/Fastino-Nemotron-3.5-Lightning-Finance",
-        "name": "Fastino Nemotron 3.5 Lightning Finance",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 0.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 8192,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/fastino/Fastino-Nemotron-3.5-Lightning-Healthcare": {
-        "id": "anthropic/pioneer/fastino/Fastino-Nemotron-3.5-Lightning-Healthcare",
-        "name": "Fastino Nemotron 3.5 Lightning Healthcare",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 0.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 8192,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gemini-3.1-flash-lite": {
-        "id": "anthropic/pioneer/gemini-3.1-flash-lite",
-        "name": "Gemini 3.1 Flash Lite",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.25,
-          "output": 1.5,
-          "cache_read": 0.03,
-          "cache_write": 0.25
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 65000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gemini-3.1-pro": {
-        "id": "anthropic/pioneer/gemini-3.1-pro",
-        "name": "Gemini 3.1 Pro",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2,
-          "output": 12,
-          "cache_read": 0.2,
-          "cache_write": 2
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gemini-3.5-flash": {
-        "id": "anthropic/pioneer/gemini-3.5-flash",
-        "name": "Gemini 3.5 Flash",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.5,
-          "output": 9,
-          "cache_read": 0.15,
-          "cache_write": 1.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gemini-3.5-flash-lite": {
-        "id": "anthropic/pioneer/gemini-3.5-flash-lite",
-        "name": "Gemini 3.5 Flash Lite",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.3,
-          "output": 2.5,
-          "cache_read": 0.03,
-          "cache_write": 0.3
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 65000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gemini-3.6-flash": {
-        "id": "anthropic/pioneer/gemini-3.6-flash",
-        "name": "Gemini 3.6 Flash",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.5,
-          "output": 7.5,
-          "cache_read": 0.15,
-          "cache_write": 1.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gemini-3-flash": {
-        "id": "anthropic/pioneer/gemini-3-flash",
-        "name": "Gemini 3 Flash",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 3,
-          "cache_read": 0.05,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 65000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/google/diffusiongemma-26B-A4B-it": {
-        "id": "anthropic/pioneer/google/diffusiongemma-26B-A4B-it",
-        "name": "Diffusiongemma 26b A4b It",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 0.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 262144,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/google/gemma-4-12B-it": {
-        "id": "anthropic/pioneer/google/gemma-4-12B-it",
-        "name": "Gemma 4 12b It",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.25,
-          "output": 0.25,
-          "cache_read": 0.25,
-          "cache_write": 0.25
-        },
-        "limit": {
-          "input": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/google/gemma-4-31B-it": {
-        "id": "anthropic/pioneer/google/gemma-4-31B-it",
-        "name": "Gemma 4 31b It",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 0.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-4.1": {
-        "id": "anthropic/pioneer/gpt-4.1",
-        "name": "Gpt 4.1",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2,
-          "output": 8,
-          "cache_read": 1,
-          "cache_write": 2
-        },
-        "limit": {
-          "input": 1047576,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-4.1-mini": {
-        "id": "anthropic/pioneer/gpt-4.1-mini",
-        "name": "Gpt 4.1 Mini",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.4,
-          "output": 1.6,
-          "cache_read": 0.2,
-          "cache_write": 0.4
-        },
-        "limit": {
-          "input": 1047576,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-4.1-nano": {
-        "id": "anthropic/pioneer/gpt-4.1-nano",
-        "name": "Gpt 4.1 Nano",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.4,
-          "cache_read": 0.05,
-          "cache_write": 0.1
-        },
-        "limit": {
-          "input": 1047576,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-4o": {
-        "id": "anthropic/pioneer/gpt-4o",
-        "name": "Gpt 4o",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cache_read": 1.25,
-          "cache_write": 2.5
-        },
-        "limit": {
-          "input": 128000,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-4o-mini": {
-        "id": "anthropic/pioneer/gpt-4o-mini",
-        "name": "Gpt 4o Mini",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.6,
-          "cache_read": 0.075,
-          "cache_write": 0.15
-        },
-        "limit": {
-          "input": 128000,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5.1": {
-        "id": "anthropic/pioneer/gpt-5.1",
-        "name": "Gpt 5.1",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.25,
-          "output": 10,
-          "cache_read": 0.125,
-          "cache_write": 1.25
-        },
-        "limit": {
-          "input": 400000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5.3-codex": {
-        "id": "anthropic/pioneer/gpt-5.3-codex",
-        "name": "Gpt 5.3 Codex",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.75,
-          "output": 14,
-          "cache_read": 0.175,
-          "cache_write": 1.75
-        },
-        "limit": {
-          "input": 400000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5.4": {
-        "id": "anthropic/pioneer/gpt-5.4",
-        "name": "Gpt 5.4",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 15,
-          "cache_read": 0.25,
-          "cache_write": 2.5
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5.4-mini": {
-        "id": "anthropic/pioneer/gpt-5.4-mini",
-        "name": "Gpt 5.4 Mini",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.75,
-          "output": 4.5,
-          "cache_read": 0.075,
-          "cache_write": 0.75
-        },
-        "limit": {
-          "input": 400000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5.4-nano": {
-        "id": "anthropic/pioneer/gpt-5.4-nano",
-        "name": "Gpt 5.4 Nano",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 1.25,
-          "cache_read": 0.02,
-          "cache_write": 0.2
-        },
-        "limit": {
-          "input": 1047576,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5.5": {
-        "id": "anthropic/pioneer/gpt-5.5",
-        "name": "Gpt 5.5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
-          "cache_write": 5
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5.6-luna": {
-        "id": "anthropic/pioneer/gpt-5.6-luna",
-        "name": "Gpt 5.6 Luna",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1,
-          "output": 6,
-          "cache_read": 0.1,
-          "cache_write": 1.25
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5.6-sol": {
-        "id": "anthropic/pioneer/gpt-5.6-sol",
-        "name": "Gpt 5.6 Sol",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
-          "cache_write": 6.25
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5.6-terra": {
-        "id": "anthropic/pioneer/gpt-5.6-terra",
-        "name": "Gpt 5.6 Terra",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 15,
-          "cache_read": 0.25,
-          "cache_write": 3.125
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5-mini": {
-        "id": "anthropic/pioneer/gpt-5-mini",
-        "name": "Gpt 5 Mini",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.25,
-          "output": 2,
-          "cache_read": 0.025,
-          "cache_write": 0.25
-        },
-        "limit": {
-          "input": 400000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/gpt-5-nano": {
-        "id": "anthropic/pioneer/gpt-5-nano",
-        "name": "Gpt 5 Nano",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.05,
-          "output": 0.4,
-          "cache_read": 0.005,
-          "cache_write": 0.05
-        },
-        "limit": {
-          "input": 400000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/grok-4.5": {
-        "id": "anthropic/pioneer/grok-4.5",
-        "name": "Grok 4.5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2,
-          "output": 6,
-          "cache_read": 0.5,
-          "cache_write": 2
-        },
-        "limit": {
-          "input": 500000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/magistral-medium": {
-        "id": "anthropic/pioneer/magistral-medium",
-        "name": "Magistral Medium",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2,
-          "output": 5,
-          "cache_read": 2,
-          "cache_write": 2
-        },
-        "limit": {
-          "input": 128000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/meta-llama/Llama-3.1-8B-Instruct": {
-        "id": "anthropic/pioneer/meta-llama/Llama-3.1-8B-Instruct",
-        "name": "Llama 3.1 8b Instruct",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.22,
-          "output": 0.22,
-          "cache_read": 0.22,
-          "cache_write": 0.22
-        },
-        "limit": {
-          "input": 128000,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/meta-llama/Llama-3.3-70B-Instruct": {
-        "id": "anthropic/pioneer/meta-llama/Llama-3.3-70B-Instruct",
-        "name": "Llama 3.3 70b Instruct",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.9,
-          "output": 0.9,
-          "cache_read": 0.9,
-          "cache_write": 0.9
-        },
-        "limit": {
-          "input": 16384,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/meta/muse-spark-1.1": {
-        "id": "anthropic/pioneer/meta/muse-spark-1.1",
-        "name": "Muse Spark 1.1",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.25,
-          "output": 4.25,
-          "cache_read": 0.15,
-          "cache_write": 1.25
-        },
-        "limit": {
-          "input": 1048576,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/MiniMaxAI/MiniMax-M2.7": {
-        "id": "anthropic/pioneer/MiniMaxAI/MiniMax-M2.7",
-        "name": "Minimax M2.7",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.3,
-          "output": 1.2,
-          "cache_read": 0.06,
-          "cache_write": 0.375
-        },
-        "limit": {
-          "input": 204800,
-          "output": 131000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/MiniMaxAI/MiniMax-M3": {
-        "id": "anthropic/pioneer/MiniMaxAI/MiniMax-M3",
-        "name": "Minimax M3",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.3,
-          "output": 1.2,
-          "cache_read": 0.06,
-          "cache_write": 0.3
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/ministral-14b": {
-        "id": "anthropic/pioneer/ministral-14b",
-        "name": "Ministral 14b",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 0.2,
-          "cache_read": 0.2,
-          "cache_write": 0.2
-        },
-        "limit": {
-          "input": 256000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/ministral-3b": {
-        "id": "anthropic/pioneer/ministral-3b",
-        "name": "Ministral 3b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.1,
-          "cache_read": 0.1,
-          "cache_write": 0.1
-        },
-        "limit": {
-          "input": 128000,
-          "output": 4000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/mistral-large-3": {
-        "id": "anthropic/pioneer/mistral-large-3",
-        "name": "Mistral Large 3",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 1.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 256000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/mistral-medium": {
-        "id": "anthropic/pioneer/mistral-medium",
-        "name": "Mistral Medium",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.4,
-          "output": 2,
-          "cache_read": 0.4,
-          "cache_write": 0.4
-        },
-        "limit": {
-          "input": 128000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/mistral-medium-3.5": {
-        "id": "anthropic/pioneer/mistral-medium-3.5",
-        "name": "Mistral Medium 3.5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.5,
-          "output": 7.5,
-          "cache_read": 1.5,
-          "cache_write": 1.5
-        },
-        "limit": {
-          "input": 256000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/mistralai/Codestral-22B-v0.1": {
-        "id": "anthropic/pioneer/mistralai/Codestral-22B-v0.1",
-        "name": "Codestral 22b V0.1",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.3,
-          "output": 0.9,
-          "cache_read": 0.3,
-          "cache_write": 0.3
-        },
-        "limit": {
-          "input": 128000,
-          "output": 4000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/mistralai/Magistral-Small-2506": {
-        "id": "anthropic/pioneer/mistralai/Magistral-Small-2506",
-        "name": "Magistral Small 2506",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 1.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 128000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/mistralai/Ministral-8B-Instruct-2410": {
-        "id": "anthropic/pioneer/mistralai/Ministral-8B-Instruct-2410",
-        "name": "Ministral 8b Instruct 2410",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.15,
-          "cache_read": 0.15,
-          "cache_write": 0.15
-        },
-        "limit": {
-          "input": 128000,
-          "output": 4000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/mistralai/Mistral-Nemo-Instruct-2407": {
-        "id": "anthropic/pioneer/mistralai/Mistral-Nemo-Instruct-2407",
-        "name": "Mistral Nemo Instruct 2407",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.15,
-          "cache_read": 0.15,
-          "cache_write": 0.15
-        },
-        "limit": {
-          "input": 128000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/mistralai/Mistral-Small-4-119B-2603": {
-        "id": "anthropic/pioneer/mistralai/Mistral-Small-4-119B-2603",
-        "name": "Mistral Small 4 119b 2603",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.3,
-          "cache_read": 0.1,
-          "cache_write": 0.1
-        },
-        "limit": {
-          "input": 32000,
-          "output": 32000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/mistralai/Pixtral-12B-2409": {
-        "id": "anthropic/pioneer/mistralai/Pixtral-12B-2409",
-        "name": "Pixtral 12b 2409",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.15,
-          "cache_read": 0.15,
-          "cache_write": 0.15
-        },
-        "limit": {
-          "input": 128000,
-          "output": 4000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/moonshotai/Kimi-K2.6": {
-        "id": "anthropic/pioneer/moonshotai/Kimi-K2.6",
-        "name": "Kimi K2.6",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.95,
-          "output": 4,
-          "cache_read": 0.16,
-          "cache_write": 0.95
-        },
-        "limit": {
-          "input": 262000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/moonshotai/Kimi-K2.7-Code": {
-        "id": "anthropic/pioneer/moonshotai/Kimi-K2.7-Code",
-        "name": "Kimi K2.7 Code",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.95,
-          "output": 4,
-          "cache_read": 0.19,
-          "cache_write": 0.95
-        },
-        "limit": {
-          "input": 256000,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/moonshotai/Kimi-K3": {
-        "id": "anthropic/pioneer/moonshotai/Kimi-K3",
-        "name": "Kimi K3",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 3,
-          "output": 15,
-          "cache_read": 0.3,
-          "cache_write": 3
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/moonshotai/Kimi-K3-Fast": {
-        "id": "anthropic/pioneer/moonshotai/Kimi-K3-Fast",
-        "name": "Kimi K3 Fast",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 4.5,
-          "output": 22.5,
-          "cache_read": 0.45,
-          "cache_write": 4.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16": {
-        "id": "anthropic/pioneer/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
-        "name": "Nvidia Nemotron 3.5 Lightning 30b A3b Bf16",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 0.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 8192,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16": {
-        "id": "anthropic/pioneer/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
-        "name": "Nvidia Nemotron 3 Nano 30b A3b Bf16",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.05,
-          "output": 0.24,
-          "cache_read": 0.05,
-          "cache_write": 0.05
-        },
-        "limit": {
-          "input": 262144,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8": {
-        "id": "anthropic/pioneer/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-        "name": "Nvidia Nemotron 3 Super 120b A12b Fp8",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.65,
-          "cache_read": 0.15,
-          "cache_write": 0.15
-        },
-        "limit": {
-          "input": 256000,
-          "output": 32000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16": {
-        "id": "anthropic/pioneer/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-        "name": "Nvidia Nemotron 3 Ultra 550b A55b Bf16",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.6,
-          "output": 2.4,
-          "cache_read": 0.12,
-          "cache_write": 0.6
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 65000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/openai/gpt-oss-120b": {
-        "id": "anthropic/pioneer/openai/gpt-oss-120b",
-        "name": "Gpt Oss 120b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1545,
-          "output": 0.618,
-          "cache_read": 0.1545,
-          "cache_write": 0.1545
-        },
-        "limit": {
-          "input": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/openai/gpt-oss-20b": {
-        "id": "anthropic/pioneer/openai/gpt-oss-20b",
-        "name": "Gpt Oss 20b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.0721,
-          "output": 0.309,
-          "cache_read": 0.0721,
-          "cache_write": 0.0721
-        },
-        "limit": {
-          "input": 131072,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/poolside/laguna-s-2.1": {
-        "id": "anthropic/pioneer/poolside/laguna-s-2.1",
-        "name": "Laguna S 2.1",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.2,
-          "cache_read": 0.01,
-          "cache_write": 0.1
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/Qwen/Qwen3-235B-A22B-Instruct-2507": {
-        "id": "anthropic/pioneer/Qwen/Qwen3-235B-A22B-Instruct-2507",
-        "name": "Qwen3 235b A22b Instruct 2507",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2266,
-          "output": 0.9064,
-          "cache_read": 0.2266,
-          "cache_write": 0.2266
-        },
-        "limit": {
-          "input": 262144,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/Qwen/Qwen3-32B": {
-        "id": "anthropic/pioneer/Qwen/Qwen3-32B",
-        "name": "Qwen3 32b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.16,
-          "output": 0.64,
-          "cache_read": 0.16,
-          "cache_write": 0.16
-        },
-        "limit": {
-          "input": 131072,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/Qwen/Qwen3-4B-Instruct-2507": {
-        "id": "anthropic/pioneer/Qwen/Qwen3-4B-Instruct-2507",
-        "name": "Qwen3 4b Instruct 2507",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 0.2,
-          "cache_read": 0.2,
-          "cache_write": 0.2
-        },
-        "limit": {
-          "input": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/Qwen/Qwen3.6-27B": {
-        "id": "anthropic/pioneer/Qwen/Qwen3.6-27B",
-        "name": "Qwen3.6 27b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.6,
-          "output": 0.6,
-          "cache_read": 0.6,
-          "cache_write": 0.6
-        },
-        "limit": {
-          "input": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/Qwen/Qwen3-8B": {
-        "id": "anthropic/pioneer/Qwen/Qwen3-8B",
-        "name": "Qwen3 8b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 0.2,
-          "cache_read": 0.2,
-          "cache_write": 0.2
-        },
-        "limit": {
-          "input": 40960,
-          "output": 40960
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/qwen3.6-max-preview": {
-        "id": "anthropic/pioneer/qwen3.6-max-preview",
-        "name": "Qwen3.6 Max Preview",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.3,
-          "output": 7.8,
-          "cache_read": 0.26,
-          "cache_write": 1.625
-        },
-        "limit": {
-          "input": 240000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/qwen3.6-plus": {
-        "id": "anthropic/pioneer/qwen3.6-plus",
-        "name": "Qwen3.6 Plus",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 3,
-          "cache_read": 0.1,
-          "cache_write": 0.625
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/qwen3.7-max": {
-        "id": "anthropic/pioneer/qwen3.7-max",
-        "name": "Qwen3.7 Max",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.25,
-          "output": 3.75,
-          "cache_read": 0.25,
-          "cache_write": 1.5625
-        },
-        "limit": {
-          "input": 991000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/qwen3.7-plus": {
-        "id": "anthropic/pioneer/qwen3.7-plus",
-        "name": "Qwen3.7 Plus",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.4,
-          "output": 1.6,
-          "cache_read": 0.08,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/sakana/fugu-ultra": {
-        "id": "anthropic/pioneer/sakana/fugu-ultra",
-        "name": "Fugu Ultra",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
-          "cache_write": 5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/thinkingmachines/inkling-small": {
-        "id": "anthropic/pioneer/thinkingmachines/inkling-small",
-        "name": "Inkling Small",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 1.2,
-          "cache_read": 0.1,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/XiaomiMiMo/MiMo-V2.5": {
-        "id": "anthropic/pioneer/XiaomiMiMo/MiMo-V2.5",
-        "name": "Mimo V2.5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.0028,
-          "cache_write": 0.14
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/XiaomiMiMo/MiMo-V2.5-Pro": {
-        "id": "anthropic/pioneer/XiaomiMiMo/MiMo-V2.5-Pro",
-        "name": "Mimo V2.5 Pro",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.435,
-          "output": 0.87,
-          "cache_read": 0.0036,
-          "cache_write": 0.435
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 131000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/zai-org/GLM-5.1": {
-        "id": "anthropic/pioneer/zai-org/GLM-5.1",
-        "name": "Glm 5.1",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.3,
-          "output": 4.3,
-          "cache_read": 0.26,
-          "cache_write": 1.3
-        },
-        "limit": {
-          "input": 202000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/zai-org/GLM-5.2": {
-        "id": "anthropic/pioneer/zai-org/GLM-5.2",
-        "name": "Glm 5.2",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.4,
-          "output": 4.4,
-          "cache_read": 0.26,
-          "cache_write": 1.4
-        },
-        "limit": {
-          "input": 1040000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "anthropic/pioneer/zai-org/GLM-5.2-Fast": {
-        "id": "anthropic/pioneer/zai-org/GLM-5.2-Fast",
-        "name": "Glm 5.2 Fast",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2.1,
-          "output": 6.6,
-          "cache_read": 0.21,
-          "cache_write": 2.1
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-fable-5": {
-        "id": "claude-fable-5",
-        "name": "Claude Fable 5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 11,
-          "output": 55,
-          "cache_read": 1.1,
-          "cache_write": 13.75
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-haiku-4-5": {
-        "id": "claude-haiku-4-5",
-        "name": "Claude Haiku 4 5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1,
-          "output": 5,
-          "cache_read": 0.1,
-          "cache_write": 1.25
-        },
-        "limit": {
-          "input": 200000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-opus-4-1": {
-        "id": "claude-opus-4-1",
-        "name": "Claude Opus 4 1",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 15,
-          "output": 75,
-          "cache_read": 1.5,
-          "cache_write": 18.75
-        },
-        "limit": {
-          "input": 200000,
-          "output": 32000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-opus-4-5": {
-        "id": "claude-opus-4-5",
-        "name": "Claude Opus 4 5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5,
-          "output": 25,
-          "cache_read": 0.5,
-          "cache_write": 6.25
-        },
-        "limit": {
-          "input": 200000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-opus-4-6": {
-        "id": "claude-opus-4-6",
-        "name": "Claude Opus 4 6",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5,
-          "output": 25,
-          "cache_read": 0.5,
-          "cache_write": 6.25
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-opus-4-7": {
-        "id": "claude-opus-4-7",
-        "name": "Claude Opus 4 7",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5,
-          "output": 25,
-          "cache_read": 0.5,
-          "cache_write": 6.25
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-opus-4-8": {
-        "id": "claude-opus-4-8",
-        "name": "Claude Opus 4 8",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5.5,
-          "output": 27.5,
-          "cache_read": 0.55,
-          "cache_write": 6.875
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-opus-5": {
-        "id": "claude-opus-5",
-        "name": "Claude Opus 5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5,
-          "output": 25,
-          "cache_read": 0.5,
-          "cache_write": 6.25
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-opus-5-fast": {
-        "id": "claude-opus-5-fast",
-        "name": "Claude Opus 5 Fast",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 10,
-          "output": 50,
-          "cache_read": 1,
-          "cache_write": 12.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-sonnet-4-5": {
-        "id": "claude-sonnet-4-5",
-        "name": "Claude Sonnet 4 5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 3,
-          "output": 15,
-          "cache_read": 0.3,
-          "cache_write": 3.75
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-sonnet-4-6": {
-        "id": "claude-sonnet-4-6",
-        "name": "Claude Sonnet 4 6",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 3,
-          "output": 15,
-          "cache_read": 0.3,
-          "cache_write": 3.75
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "claude-sonnet-5": {
-        "id": "claude-sonnet-5",
-        "name": "Claude Sonnet 5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2,
-          "output": 10,
-          "cache_read": 0.2,
-          "cache_write": 2.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "deepseek-ai/DeepSeek-V3": {
-        "id": "deepseek-ai/DeepSeek-V3",
-        "name": "Deepseek V3",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.27,
-          "output": 1.12,
-          "cache_read": 0.135,
-          "cache_write": 0.27
-        },
-        "limit": {
-          "input": 163840,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "deepseek-ai/DeepSeek-V4-Flash": {
-        "id": "deepseek-ai/DeepSeek-V4-Flash",
-        "name": "Deepseek V4 Flash",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.05,
-          "cache_write": 0.14
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "deepseek-ai/DeepSeek-V4-Pro": {
-        "id": "deepseek-ai/DeepSeek-V4-Pro",
-        "name": "Deepseek V4 Pro",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.435,
-          "output": 0.87,
-          "cache_read": 0.0036,
-          "cache_write": 0.435
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "devstral-2": {
-        "id": "devstral-2",
-        "name": "Devstral 2",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.4,
-          "output": 2,
-          "cache_read": 0.4,
-          "cache_write": 0.4
-        },
-        "limit": {
-          "input": 256000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "devstral-small-2": {
-        "id": "devstral-small-2",
-        "name": "Devstral Small 2",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.3,
-          "cache_read": 0.1,
-          "cache_write": 0.1
-        },
-        "limit": {
-          "input": 256000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "fastino/Fastino-Nemotron-3.5-Lightning-Finance": {
-        "id": "fastino/Fastino-Nemotron-3.5-Lightning-Finance",
-        "name": "Fastino Nemotron 3.5 Lightning Finance",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 0.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 8192,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "fastino/Fastino-Nemotron-3.5-Lightning-Healthcare": {
-        "id": "fastino/Fastino-Nemotron-3.5-Lightning-Healthcare",
-        "name": "Fastino Nemotron 3.5 Lightning Healthcare",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 0.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 8192,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gemini-3.1-flash-lite": {
-        "id": "gemini-3.1-flash-lite",
-        "name": "Gemini 3.1 Flash Lite",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.25,
-          "output": 1.5,
-          "cache_read": 0.03,
-          "cache_write": 0.25
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 65000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gemini-3.1-pro": {
-        "id": "gemini-3.1-pro",
-        "name": "Gemini 3.1 Pro",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2,
-          "output": 12,
-          "cache_read": 0.2,
-          "cache_write": 2
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gemini-3.5-flash": {
-        "id": "gemini-3.5-flash",
-        "name": "Gemini 3.5 Flash",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.5,
-          "output": 9,
-          "cache_read": 0.15,
-          "cache_write": 1.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gemini-3.5-flash-lite": {
-        "id": "gemini-3.5-flash-lite",
-        "name": "Gemini 3.5 Flash Lite",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.3,
-          "output": 2.5,
-          "cache_read": 0.03,
-          "cache_write": 0.3
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 65000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gemini-3.6-flash": {
-        "id": "gemini-3.6-flash",
-        "name": "Gemini 3.6 Flash",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.5,
-          "output": 7.5,
-          "cache_read": 0.15,
-          "cache_write": 1.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gemini-3-flash": {
-        "id": "gemini-3-flash",
-        "name": "Gemini 3 Flash",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 3,
-          "cache_read": 0.05,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 65000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "google/diffusiongemma-26B-A4B-it": {
-        "id": "google/diffusiongemma-26B-A4B-it",
-        "name": "Diffusiongemma 26b A4b It",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 0.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 262144,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "google/gemma-4-12B-it": {
-        "id": "google/gemma-4-12B-it",
-        "name": "Gemma 4 12b It",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.25,
-          "output": 0.25,
-          "cache_read": 0.25,
-          "cache_write": 0.25
-        },
-        "limit": {
-          "input": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "google/gemma-4-31B-it": {
-        "id": "google/gemma-4-31B-it",
-        "name": "Gemma 4 31b It",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 0.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-4.1": {
-        "id": "gpt-4.1",
-        "name": "Gpt 4.1",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2,
-          "output": 8,
-          "cache_read": 1,
-          "cache_write": 2
-        },
-        "limit": {
-          "input": 1047576,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-4.1-mini": {
-        "id": "gpt-4.1-mini",
-        "name": "Gpt 4.1 Mini",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.4,
-          "output": 1.6,
-          "cache_read": 0.2,
-          "cache_write": 0.4
-        },
-        "limit": {
-          "input": 1047576,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-4.1-nano": {
-        "id": "gpt-4.1-nano",
-        "name": "Gpt 4.1 Nano",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.4,
-          "cache_read": 0.05,
-          "cache_write": 0.1
-        },
-        "limit": {
-          "input": 1047576,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-4o": {
-        "id": "gpt-4o",
-        "name": "Gpt 4o",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 10,
-          "cache_read": 1.25,
-          "cache_write": 2.5
-        },
-        "limit": {
-          "input": 128000,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-4o-mini": {
-        "id": "gpt-4o-mini",
-        "name": "Gpt 4o Mini",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.6,
-          "cache_read": 0.075,
-          "cache_write": 0.15
-        },
-        "limit": {
-          "input": 128000,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5.1": {
-        "id": "gpt-5.1",
-        "name": "Gpt 5.1",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.25,
-          "output": 10,
-          "cache_read": 0.125,
-          "cache_write": 1.25
-        },
-        "limit": {
-          "input": 400000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5.3-codex": {
-        "id": "gpt-5.3-codex",
-        "name": "Gpt 5.3 Codex",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.75,
-          "output": 14,
-          "cache_read": 0.175,
-          "cache_write": 1.75
-        },
-        "limit": {
-          "input": 400000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5.4": {
-        "id": "gpt-5.4",
-        "name": "Gpt 5.4",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 15,
-          "cache_read": 0.25,
-          "cache_write": 2.5
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5.4-mini": {
-        "id": "gpt-5.4-mini",
-        "name": "Gpt 5.4 Mini",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.75,
-          "output": 4.5,
-          "cache_read": 0.075,
-          "cache_write": 0.75
-        },
-        "limit": {
-          "input": 400000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5.4-nano": {
-        "id": "gpt-5.4-nano",
-        "name": "Gpt 5.4 Nano",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 1.25,
-          "cache_read": 0.02,
-          "cache_write": 0.2
-        },
-        "limit": {
-          "input": 1047576,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5.5": {
-        "id": "gpt-5.5",
-        "name": "Gpt 5.5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
-          "cache_write": 5
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5.6-luna": {
-        "id": "gpt-5.6-luna",
-        "name": "Gpt 5.6 Luna",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1,
-          "output": 6,
-          "cache_read": 0.1,
-          "cache_write": 1.25
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5.6-sol": {
-        "id": "gpt-5.6-sol",
-        "name": "Gpt 5.6 Sol",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
-          "cache_write": 6.25
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5.6-terra": {
-        "id": "gpt-5.6-terra",
-        "name": "Gpt 5.6 Terra",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2.5,
-          "output": 15,
-          "cache_read": 0.25,
-          "cache_write": 3.125
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5-mini": {
-        "id": "gpt-5-mini",
-        "name": "Gpt 5 Mini",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.25,
-          "output": 2,
-          "cache_read": 0.025,
-          "cache_write": 0.25
-        },
-        "limit": {
-          "input": 400000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "gpt-5-nano": {
-        "id": "gpt-5-nano",
-        "name": "Gpt 5 Nano",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.05,
-          "output": 0.4,
-          "cache_read": 0.005,
-          "cache_write": 0.05
-        },
-        "limit": {
-          "input": 400000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "grok-4.5": {
-        "id": "grok-4.5",
-        "name": "Grok 4.5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2,
-          "output": 6,
-          "cache_read": 0.5,
-          "cache_write": 2
-        },
-        "limit": {
-          "input": 500000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "magistral-medium": {
-        "id": "magistral-medium",
-        "name": "Magistral Medium",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2,
-          "output": 5,
-          "cache_read": 2,
-          "cache_write": 2
-        },
-        "limit": {
-          "input": 128000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "meta-llama/Llama-3.1-8B-Instruct": {
-        "id": "meta-llama/Llama-3.1-8B-Instruct",
-        "name": "Llama 3.1 8b Instruct",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.22,
-          "output": 0.22,
-          "cache_read": 0.22,
-          "cache_write": 0.22
-        },
-        "limit": {
-          "input": 128000,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "meta-llama/Llama-3.3-70B-Instruct": {
-        "id": "meta-llama/Llama-3.3-70B-Instruct",
-        "name": "Llama 3.3 70b Instruct",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.9,
-          "output": 0.9,
-          "cache_read": 0.9,
-          "cache_write": 0.9
-        },
-        "limit": {
-          "input": 16384,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "meta/muse-spark-1.1": {
-        "id": "meta/muse-spark-1.1",
-        "name": "Muse Spark 1.1",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.25,
-          "output": 4.25,
-          "cache_read": 0.15,
-          "cache_write": 1.25
-        },
-        "limit": {
-          "input": 1048576,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "MiniMaxAI/MiniMax-M2.7": {
-        "id": "MiniMaxAI/MiniMax-M2.7",
-        "name": "Minimax M2.7",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.3,
-          "output": 1.2,
-          "cache_read": 0.06,
-          "cache_write": 0.375
-        },
-        "limit": {
-          "input": 204800,
-          "output": 131000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "MiniMaxAI/MiniMax-M3": {
-        "id": "MiniMaxAI/MiniMax-M3",
-        "name": "Minimax M3",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.3,
-          "output": 1.2,
-          "cache_read": 0.06,
-          "cache_write": 0.3
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "ministral-14b": {
-        "id": "ministral-14b",
-        "name": "Ministral 14b",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 0.2,
-          "cache_read": 0.2,
-          "cache_write": 0.2
-        },
-        "limit": {
-          "input": 256000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "ministral-3b": {
-        "id": "ministral-3b",
-        "name": "Ministral 3b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.1,
-          "cache_read": 0.1,
-          "cache_write": 0.1
-        },
-        "limit": {
-          "input": 128000,
-          "output": 4000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "mistral-large-3": {
-        "id": "mistral-large-3",
-        "name": "Mistral Large 3",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 1.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 256000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "mistral-medium": {
-        "id": "mistral-medium",
-        "name": "Mistral Medium",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.4,
-          "output": 2,
-          "cache_read": 0.4,
-          "cache_write": 0.4
-        },
-        "limit": {
-          "input": 128000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "mistral-medium-3.5": {
-        "id": "mistral-medium-3.5",
-        "name": "Mistral Medium 3.5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.5,
-          "output": 7.5,
-          "cache_read": 1.5,
-          "cache_write": 1.5
-        },
-        "limit": {
-          "input": 256000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "mistralai/Codestral-22B-v0.1": {
-        "id": "mistralai/Codestral-22B-v0.1",
-        "name": "Codestral 22b V0.1",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.3,
-          "output": 0.9,
-          "cache_read": 0.3,
-          "cache_write": 0.3
-        },
-        "limit": {
-          "input": 128000,
-          "output": 4000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "mistralai/Magistral-Small-2506": {
-        "id": "mistralai/Magistral-Small-2506",
-        "name": "Magistral Small 2506",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 1.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 128000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "mistralai/Ministral-8B-Instruct-2410": {
-        "id": "mistralai/Ministral-8B-Instruct-2410",
-        "name": "Ministral 8b Instruct 2410",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.15,
-          "cache_read": 0.15,
-          "cache_write": 0.15
-        },
-        "limit": {
-          "input": 128000,
-          "output": 4000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "mistralai/Mistral-Nemo-Instruct-2407": {
-        "id": "mistralai/Mistral-Nemo-Instruct-2407",
-        "name": "Mistral Nemo Instruct 2407",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.15,
-          "cache_read": 0.15,
-          "cache_write": 0.15
-        },
-        "limit": {
-          "input": 128000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "mistralai/Mistral-Small-4-119B-2603": {
-        "id": "mistralai/Mistral-Small-4-119B-2603",
-        "name": "Mistral Small 4 119b 2603",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.3,
-          "cache_read": 0.1,
-          "cache_write": 0.1
-        },
-        "limit": {
-          "input": 32000,
-          "output": 32000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "mistralai/Pixtral-12B-2409": {
-        "id": "mistralai/Pixtral-12B-2409",
-        "name": "Pixtral 12b 2409",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.15,
-          "cache_read": 0.15,
-          "cache_write": 0.15
-        },
-        "limit": {
-          "input": 128000,
-          "output": 4000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "moonshotai/Kimi-K2.6": {
-        "id": "moonshotai/Kimi-K2.6",
-        "name": "Kimi K2.6",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.95,
-          "output": 4,
-          "cache_read": 0.16,
-          "cache_write": 0.95
-        },
-        "limit": {
-          "input": 262000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "moonshotai/Kimi-K2.7-Code": {
-        "id": "moonshotai/Kimi-K2.7-Code",
-        "name": "Kimi K2.7 Code",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.95,
-          "output": 4,
-          "cache_read": 0.19,
-          "cache_write": 0.95
-        },
-        "limit": {
-          "input": 256000,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "moonshotai/Kimi-K3": {
-        "id": "moonshotai/Kimi-K3",
-        "name": "Kimi K3",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 3,
-          "output": 15,
-          "cache_read": 0.3,
-          "cache_write": 3
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "moonshotai/Kimi-K3-Fast": {
-        "id": "moonshotai/Kimi-K3-Fast",
-        "name": "Kimi K3 Fast",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 4.5,
-          "output": 22.5,
-          "cache_read": 0.45,
-          "cache_write": 4.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16": {
-        "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
-        "name": "Nvidia Nemotron 3.5 Lightning 30b A3b Bf16",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 0.5,
-          "cache_read": 0.5,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 8192,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16": {
-        "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
-        "name": "Nvidia Nemotron 3 Nano 30b A3b Bf16",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.05,
-          "output": 0.24,
-          "cache_read": 0.05,
-          "cache_write": 0.05
-        },
-        "limit": {
-          "input": 262144,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8": {
-        "id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-        "name": "Nvidia Nemotron 3 Super 120b A12b Fp8",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.15,
-          "output": 0.65,
-          "cache_read": 0.15,
-          "cache_write": 0.15
-        },
-        "limit": {
-          "input": 256000,
-          "output": 32000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16": {
-        "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-        "name": "Nvidia Nemotron 3 Ultra 550b A55b Bf16",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.6,
-          "output": 2.4,
-          "cache_read": 0.12,
-          "cache_write": 0.6
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 65000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "openai/gpt-oss-120b": {
-        "id": "openai/gpt-oss-120b",
-        "name": "Gpt Oss 120b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1545,
-          "output": 0.618,
-          "cache_read": 0.1545,
-          "cache_write": 0.1545
-        },
-        "limit": {
-          "input": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "openai/gpt-oss-20b": {
-        "id": "openai/gpt-oss-20b",
-        "name": "Gpt Oss 20b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.0721,
-          "output": 0.309,
-          "cache_read": 0.0721,
-          "cache_write": 0.0721
-        },
-        "limit": {
-          "input": 131072,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "poolside/laguna-s-2.1": {
-        "id": "poolside/laguna-s-2.1",
-        "name": "Laguna S 2.1",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.1,
-          "output": 0.2,
-          "cache_read": 0.01,
-          "cache_write": 0.1
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "Qwen/Qwen3-235B-A22B-Instruct-2507": {
-        "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
-        "name": "Qwen3 235b A22b Instruct 2507",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2266,
-          "output": 0.9064,
-          "cache_read": 0.2266,
-          "cache_write": 0.2266
-        },
-        "limit": {
-          "input": 262144,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "Qwen/Qwen3-32B": {
-        "id": "Qwen/Qwen3-32B",
-        "name": "Qwen3 32b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.16,
-          "output": 0.64,
-          "cache_read": 0.16,
-          "cache_write": 0.16
-        },
-        "limit": {
-          "input": 131072,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "Qwen/Qwen3-4B-Instruct-2507": {
-        "id": "Qwen/Qwen3-4B-Instruct-2507",
-        "name": "Qwen3 4b Instruct 2507",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 0.2,
-          "cache_read": 0.2,
-          "cache_write": 0.2
-        },
-        "limit": {
-          "input": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "Qwen/Qwen3.6-27B": {
-        "id": "Qwen/Qwen3.6-27B",
-        "name": "Qwen3.6 27b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.6,
-          "output": 0.6,
-          "cache_read": 0.6,
-          "cache_write": 0.6
-        },
-        "limit": {
-          "input": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "Qwen/Qwen3-8B": {
-        "id": "Qwen/Qwen3-8B",
-        "name": "Qwen3 8b",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.2,
-          "output": 0.2,
-          "cache_read": 0.2,
-          "cache_write": 0.2
-        },
-        "limit": {
-          "input": 40960,
-          "output": 40960
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "qwen3.6-max-preview": {
-        "id": "qwen3.6-max-preview",
-        "name": "Qwen3.6 Max Preview",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.3,
-          "output": 7.8,
-          "cache_read": 0.26,
-          "cache_write": 1.625
-        },
-        "limit": {
-          "input": 240000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "qwen3.6-plus": {
-        "id": "qwen3.6-plus",
-        "name": "Qwen3.6 Plus",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 3,
-          "cache_read": 0.1,
-          "cache_write": 0.625
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "qwen3.7-max": {
-        "id": "qwen3.7-max",
-        "name": "Qwen3.7 Max",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.25,
-          "output": 3.75,
-          "cache_read": 0.25,
-          "cache_write": 1.5625
-        },
-        "limit": {
-          "input": 991000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "qwen3.7-plus": {
-        "id": "qwen3.7-plus",
-        "name": "Qwen3.7 Plus",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.4,
-          "output": 1.6,
-          "cache_read": 0.08,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 64000
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "sakana/fugu-ultra": {
-        "id": "sakana/fugu-ultra",
-        "name": "Fugu Ultra",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 5,
-          "output": 30,
-          "cache_read": 0.5,
-          "cache_write": 5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "thinkingmachines/inkling-small": {
-        "id": "thinkingmachines/inkling-small",
-        "name": "Inkling Small",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.5,
-          "output": 1.2,
-          "cache_read": 0.1,
-          "cache_write": 0.5
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "XiaomiMiMo/MiMo-V2.5": {
-        "id": "XiaomiMiMo/MiMo-V2.5",
-        "name": "Mimo V2.5",
-        "features": {
-          "attachment": true,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.14,
-          "output": 0.28,
-          "cache_read": 0.0028,
-          "cache_write": 0.14
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "image",
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "XiaomiMiMo/MiMo-V2.5-Pro": {
-        "id": "XiaomiMiMo/MiMo-V2.5-Pro",
-        "name": "Mimo V2.5 Pro",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 0.435,
-          "output": 0.87,
-          "cache_read": 0.0036,
-          "cache_write": 0.435
-        },
-        "limit": {
-          "input": 1050000,
-          "output": 131000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "zai-org/GLM-5.1": {
-        "id": "zai-org/GLM-5.1",
-        "name": "Glm 5.1",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.3,
-          "output": 4.3,
-          "cache_read": 0.26,
-          "cache_write": 1.3
-        },
-        "limit": {
-          "input": 202000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "zai-org/GLM-5.2": {
-        "id": "zai-org/GLM-5.2",
-        "name": "Glm 5.2",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 1.4,
-          "output": 4.4,
-          "cache_read": 0.26,
-          "cache_write": 1.4
-        },
-        "limit": {
-          "input": 1040000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      },
-      "zai-org/GLM-5.2-Fast": {
-        "id": "zai-org/GLM-5.2-Fast",
-        "name": "Glm 5.2 Fast",
-        "features": {
-          "attachment": false,
-          "reasoning": false,
-          "structured_output": false
-        },
-        "pricing": {
-          "input": 2.1,
-          "output": 6.6,
-          "cache_read": 0.21,
-          "cache_write": 2.1
-        },
-        "limit": {
-          "input": 1000000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        }
-      }
-    }
-  },
   "poe": {
     "id": "poe",
     "name": "Poe",
@@ -247900,7 +243810,7 @@
     "id": "routing-run",
     "name": "routing.run",
     "website": "https://routing.run",
-    "apiBaseUrl": "https://ai.routing.sh/v1",
+    "apiBaseUrl": "https://api.routing.run/v1",
     "aiSdk": {
       "npmPackage": "@ai-sdk/openai-compatible",
       "defaultApiKeyEnv": [

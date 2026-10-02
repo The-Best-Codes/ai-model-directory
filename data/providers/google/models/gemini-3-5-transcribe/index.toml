@@ -8,3 +8,7 @@ attachment = true
 [modalities]
 input = [ "audio" ]
 output = [ "text" ]
+
+[pricing]
+input_audio = 2
+output = 12

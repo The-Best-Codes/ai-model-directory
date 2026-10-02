@@ -12,3 +12,7 @@ output = 65536
 [modalities]
 input = [ "audio" ]
 output = [ "audio", "text" ]
+
+[pricing]
+input_audio = 3.5
+output_audio = 21

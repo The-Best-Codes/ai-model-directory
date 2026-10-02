@@ -235,15 +235,33 @@ async function fetchModelDetails(
   }
 }
 
-function parseDollarAmount(value: string): number | undefined {
-  const match = value.match(/\$\s*(\d+(?:\.\d+)?)/);
+function parseTokenPrices(value: string): { token?: number; audio?: number } {
+  const result: { token?: number; audio?: number } = {};
 
-  if (!match?.[1]) {
-    return undefined;
+  const tokenPrices = value.replace(/\s+or\s+\$[\d.]+\s*\/min\b/gi, "");
+
+  for (const match of tokenPrices.matchAll(/\$\s*(\d+(?:\.\d+)?)([^$]*)/g)) {
+    const amount = match[1];
+    const description = match[2] ?? "";
+
+    if (!amount || /^\s*(?:per\b|\/)/i.test(description)) {
+      continue;
+    }
+
+    const modalities = description.match(/\(([^)]+)\)/)?.[1] ?? "";
+    const audio = /\baudio\b/i.test(modalities);
+    const text = /\btext\b/i.test(modalities);
+
+    if (audio) {
+      result.audio ??= Number(amount);
+    }
+
+    if (text || !/\b(audio|image|images|video)\b/i.test(modalities)) {
+      result.token ??= Number(amount);
+    }
   }
 
-  const parsed = Number(match[1]);
-  return Number.isFinite(parsed) && parsed >= 0 ? parsed : undefined;
+  return result;
 }
 
 function extractSectionTable(section: string): string | undefined {
@@ -254,14 +272,14 @@ function extractSectionTable(section: string): string | undefined {
   return tableMatch?.[1];
 }
 
-function parsePricingSections(
+export function parsePricingSections(
   text: string,
 ): Map<string, ModelRecord["pricing"]> {
   const result = new Map<string, ModelRecord["pricing"]>();
   const sections = text.split(/^## /m).slice(1);
 
   for (const section of sections) {
-    const idsMatch = section.match(/\*((?:`[^`]+`(?:[^*`]*))+)\*/);
+    const idsMatch = section.match(/^\*([^\n]+)\*\s*$/m);
 
     if (!idsMatch?.[1]) {
       continue;
@@ -281,34 +299,35 @@ function parsePricingSections(
       continue;
     }
 
-    const inputRow = extractRow(table, /^\s*Input price\s*$/i);
+    const inputRow = extractRow(
+      table,
+      /^\s*(?:Text )?Input price(\s+\(.*\))?\s*$/i,
+    );
     const outputRow = extractRow(table, /^\s*Output price(\s+\(.*\))?\s*$/i);
     const cacheRow = extractRow(table, /^\s*Context caching price\s*$/i);
 
     const pricing: NonNullable<ModelRecord["pricing"]> = {};
 
     if (inputRow) {
-      const value = parseDollarAmount(inputRow);
+      const prices = parseTokenPrices(inputRow);
+      pricing.input = prices.token;
+      pricing.input_audio = prices.audio;
+    }
 
-      if (value !== undefined) {
-        pricing.input = value;
-      }
+    const audioInputRow = extractRow(table, /^Audio input price$/i);
+
+    if (audioInputRow) {
+      pricing.input_audio = parseTokenPrices(audioInputRow).token;
     }
 
     if (outputRow) {
-      const value = parseDollarAmount(outputRow);
-
-      if (value !== undefined) {
-        pricing.output = value;
-      }
+      const prices = parseTokenPrices(outputRow);
+      pricing.output = prices.token;
+      pricing.output_audio = prices.audio;
     }
 
     if (cacheRow) {
-      const value = parseDollarAmount(cacheRow);
-
-      if (value !== undefined) {
-        pricing.cache_read = value;
-      }
+      pricing.cache_read = parseTokenPrices(cacheRow).token;
     }
 
     const compact = compactObject(pricing);
@@ -326,19 +345,20 @@ function parsePricingSections(
 }
 
 async function fetchPricing(): Promise<Map<string, ModelRecord["pricing"]>> {
-  try {
-    const text = await fetchText(
-      "https://ai.google.dev/gemini-api/docs/pricing.md.txt",
-      {
-        init: { redirect: "follow" },
-        label: "Google pricing docs error",
-      },
-    );
+  const text = await fetchText(
+    "https://ai.google.dev/gemini-api/docs/pricing.md.txt",
+    {
+      init: { redirect: "follow" },
+      label: "Google pricing docs error",
+    },
+  );
+  const pricing = parsePricingSections(text);
 
-    return parsePricingSections(text);
-  } catch {
-    return new Map();
+  if (pricing.size === 0) {
+    throw new Error("Google pricing docs contained no recognized token prices");
   }
+
+  return pricing;
 }
 
 export const googleProvider: ProviderDefinition = {
