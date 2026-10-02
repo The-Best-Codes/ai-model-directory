@@ -1,6 +1,6 @@
 name = "routing.run"
 website = "https://routing.run"
-apiBaseUrl = "https://ai.routing.sh/v1"
+apiBaseUrl = "https://api.routing.run/v1"
 
 [aiSdk]
 npmPackage = "@ai-sdk/openai-compatible"

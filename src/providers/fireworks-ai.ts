@@ -80,7 +80,7 @@ function priceFromMoney(
 }
 
 function extractModelsArray(html: string): FireworksModel[] {
-  const marker = '\\"models\\":[';
+  const marker = '\\"models\\":[{\\"$typeName\\":\\"gateway.Model\\"';
   const start = html.indexOf(marker);
 
   if (start === -1) {

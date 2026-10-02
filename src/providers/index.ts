@@ -14,10 +14,10 @@ import { cerebrasProvider } from "./cerebras.ts";
 import { chutesProvider } from "./chutes.ts";
 import { cohereProvider } from "./cohere.ts";
 import { cortecsProvider } from "./cortecs.ts";
-import { crofProvider } from "./crof.ts";
 import { deepinfraProvider } from "./deepinfra.ts";
 import { deepseekProvider } from "./deepseek.ts";
 import { empiriolabsProvider } from "./empiriolabs.ts";
+import { fastinoProvider } from "./fastino.ts";
 import { fastrouterProvider } from "./fastrouter.ts";
 import { fireworksAiProvider } from "./fireworks-ai.ts";
 import { friendliProvider } from "./friendli.ts";
@@ -52,7 +52,6 @@ import { openaiProvider } from "./openai.ts";
 import { opencodeZenProvider } from "./opencode-zen.ts";
 import { ovhcloudProvider } from "./ovhcloud.ts";
 import { perplexityProvider } from "./perplexity.ts";
-import { pioneerProvider } from "./pioneer.ts";
 import { poeProvider } from "./poe.ts";
 import { qiniuProvider } from "./qiniu.ts";
 import { quiverProvider } from "./quiver.ts";
@@ -90,7 +89,6 @@ export const providers: ProviderDefinition[] = [
   chutesProvider,
   cohereProvider,
   cortecsProvider,
-  crofProvider,
   deepinfraProvider,
   deepseekProvider,
   empiriolabsProvider,
@@ -128,7 +126,7 @@ export const providers: ProviderDefinition[] = [
   opencodeZenProvider,
   ovhcloudProvider,
   perplexityProvider,
-  pioneerProvider,
+  fastinoProvider,
   poeProvider,
   qiniuProvider,
   quiverProvider,

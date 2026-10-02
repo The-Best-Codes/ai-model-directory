@@ -15,7 +15,7 @@ const apiModelSchema = z.object({
   input_token_rate: z.string().optional(),
   output_token_rate: z.string().optional(),
   cached_input_token_rate: z.string().optional(),
-  context_length: z.number().optional(),
+  context_length: z.number().nullish(),
   max_completion_tokens: z.number().optional(),
 });
 

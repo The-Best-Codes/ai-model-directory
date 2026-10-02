@@ -1,6 +1,6 @@
-id = "qwen/qwen3.6-27b"
-name = "Qwen3.6 27B"
-release_date = "1777248000"
+id = "qwen/qwen3.8-27b"
+name = "Qwen3.8 27B"
+release_date = "1786665600"
 
 [features]
 attachment = true

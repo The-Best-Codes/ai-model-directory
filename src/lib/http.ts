@@ -27,8 +27,22 @@ export async function fetchJson<T extends z.ZodTypeAny>(
   });
 
   if (!response.ok) {
+    const body = z
+      .object({
+        code: z.string().optional(),
+        error: z.object({ code: z.string().optional() }).optional(),
+      })
+      .safeParse(await response.json().catch(() => null));
+    const code = body.success
+      ? (body.data.error?.code ?? body.data.code)
+      : undefined;
+    const errorCode =
+      typeof code === "string" && /^[a-zA-Z0-9_-]{1,100}$/.test(code)
+        ? ` (${code})`
+        : "";
+
     throw new Error(
-      `${options.label}: ${response.status} ${response.statusText}`,
+      `${options.label}: ${response.status} ${response.statusText}${errorCode}`,
     );
   }
 

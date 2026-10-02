@@ -1,0 +1,21 @@
+id = "zai-org/GLM-5.2"
+name = "Glm 5.2"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[pricing]
+input = 1.4
+output = 4.4
+cache_read = 0.14
+cache_write = 1.4
+
+[limit]
+input = 1040000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

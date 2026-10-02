@@ -4,7 +4,7 @@ import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import {
   integerGreaterThanZero,
-  nonNegativeNumber,
+  pricePerMillion,
   timestampFromUnixSeconds,
 } from "../lib/model.ts";
 import type { ProviderDefinition } from "./types.ts";
@@ -22,9 +22,9 @@ const apiModelSchema = z.object({
     .nullish(),
   pricing: z
     .object({
-      input: z.number().nullish(),
-      output: z.number().nullish(),
-      input_cache_read: z.number().nullish(),
+      input: z.union([z.string(), z.number()]).nullish(),
+      output: z.union([z.string(), z.number()]).nullish(),
+      input_cache_read: z.union([z.string(), z.number()]).nullish(),
     })
     .nullish(),
   created: z.number(),
@@ -62,9 +62,9 @@ export const friendliProvider: ProviderDefinition = {
           structured_output: model.functionality?.structured_output,
         }),
         pricing: compactObject({
-          input: nonNegativeNumber(model.pricing?.input),
-          output: nonNegativeNumber(model.pricing?.output),
-          cache_read: nonNegativeNumber(model.pricing?.input_cache_read),
+          input: pricePerMillion(model.pricing?.input),
+          output: pricePerMillion(model.pricing?.output),
+          cache_read: pricePerMillion(model.pricing?.input_cache_read),
         }),
         limit: compactObject({
           context: integerGreaterThanZero(model.context_length),

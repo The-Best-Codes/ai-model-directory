@@ -33,12 +33,12 @@ export const routingRunProvider: ProviderDefinition = {
   async fetchModels(progress) {
     progress?.beginPhase("fetching", 1);
 
-    const response = await fetchJson("https://ai.routing.sh/v1/models", {
+    const response = await fetchJson("https://api.routing.run/v1/models", {
       schema: responseSchema,
       label: "routing.run API error",
     });
 
-    progress?.tick(`ai.routing.sh/v1/models (${response.data.length})`, true);
+    progress?.tick(`api.routing.run/v1/models (${response.data.length})`, true);
 
     return response.data.map((model) => {
       const input = filterModalities(model.modalities.input);

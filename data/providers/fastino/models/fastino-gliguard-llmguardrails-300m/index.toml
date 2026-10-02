@@ -1,0 +1,21 @@
+id = "fastino/gliguard-LLMGuardrails-300M"
+name = "Gliguard Llmguardrails 300m"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[pricing]
+input = 0.15
+output = 0.15
+cache_read = 0.15
+cache_write = 0.15
+
+[limit]
+input = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

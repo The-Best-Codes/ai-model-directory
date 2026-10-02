@@ -1,0 +1,21 @@
+id = "fastino/gliner2-base-v1"
+name = "GLiNER2 Base"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+
+[pricing]
+input = 0.03
+output = 0
+cache_read = 0.03
+cache_write = 0.03
+
+[limit]
+input = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

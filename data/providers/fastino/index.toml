@@ -1,0 +1,7 @@
+name = "Fastino"
+website = "https://fastino.ai"
+apiBaseUrl = "https://api.fastino.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["FASTINO_API_KEY"]

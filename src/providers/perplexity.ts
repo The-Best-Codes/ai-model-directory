@@ -116,6 +116,10 @@ export const perplexityProvider: ProviderDefinition = {
   name: "perplexity",
   outputDirectory: "data/providers/perplexity/models",
   async fetchModels(progress) {
+    if (!process.env.PERPLEXITY_API_KEY) {
+      throw new Error("PERPLEXITY_API_KEY is not set");
+    }
+
     progress?.beginPhase("fetching", 2);
 
     const [response, pricing] = await Promise.all([

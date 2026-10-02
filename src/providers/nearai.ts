@@ -19,7 +19,7 @@ const apiModelSchema = z.object({
   name: z.string(),
   created: z.number(),
   context_length: z.number(),
-  max_output_length: z.number(),
+  max_output_length: z.number().nullish(),
   architecture: z.object({
     inputModalities: z.array(z.string()),
     outputModalities: z.array(z.string()),

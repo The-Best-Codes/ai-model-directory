@@ -31,6 +31,10 @@ export const tetrateProvider: ProviderDefinition = {
   name: "tetrate",
   outputDirectory: "data/providers/tetrate/models",
   async fetchModels(progress) {
+    if (!process.env.TARS_API_KEY) {
+      throw new Error("TARS_API_KEY is not set");
+    }
+
     progress?.beginPhase("fetching", 1);
 
     const response = await fetchJson(

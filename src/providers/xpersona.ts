@@ -1,3 +1,4 @@
+import Decimal from "decimal.js";
 import { z } from "zod";
 
 import { fetchJson } from "../lib/http.ts";
@@ -10,11 +11,11 @@ import {
 import type { ProviderDefinition } from "./types.ts";
 
 const apiPricingSchema = z.object({
-  prompt: z.string(),
-  completion: z.string(),
-  request: z.string(),
-  image: z.string(),
-  currency: z.string(),
+  prompt: z.string().nullish(),
+  completion: z.string().nullish(),
+  request: z.string().nullish(),
+  image: z.string().nullish(),
+  currency: z.string().nullish(),
 });
 
 const apiModelSchema = z.object({
@@ -24,7 +25,7 @@ const apiModelSchema = z.object({
   context_length: z.number(),
   max_completion_tokens: z.number().optional(),
   xpersona_max_completion_tokens: z.number().optional(),
-  pricing: apiPricingSchema,
+  pricing: apiPricingSchema.nullish(),
 });
 
 const responseSchema = z.object({
@@ -47,8 +48,14 @@ export const xpersonaProvider: ProviderDefinition = {
 
     return response.data.map((model) => {
       const pricing = model.pricing;
-      const inputPrice = nonNegativeNumber(Number(pricing.prompt));
-      const outputPrice = nonNegativeNumber(Number(pricing.completion));
+      const inputPrice =
+        pricing?.prompt == null
+          ? undefined
+          : nonNegativeNumber(new Decimal(pricing.prompt).toNumber());
+      const outputPrice =
+        pricing?.completion == null
+          ? undefined
+          : nonNegativeNumber(new Decimal(pricing.completion).toNumber());
 
       return compactObject({
         id: model.id,
