@@ -1,0 +1,17 @@
+id = "gpt-4o-mini-transcribe"
+name = "GPT 4o Mini Transcribe"
+
+[features]
+attachment = false
+
+[limit]
+context = 16000
+output = 2000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 5

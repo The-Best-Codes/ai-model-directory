@@ -5,7 +5,7 @@ name = "Claude Opus 4.7"
 attachment = true
 
 [limit]
-context = 200000
+context = 1000000
 output = 128000
 
 [modalities]

@@ -1,0 +1,9 @@
+id = "grok_imagine_image2"
+name = "Grok Imagine Image 2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

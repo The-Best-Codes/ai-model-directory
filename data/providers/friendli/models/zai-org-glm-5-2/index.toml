@@ -1,6 +1,6 @@
 id = "zai-org/GLM-5.2"
 name = "zai-org/GLM-5.2"
-release_date = "1781491205"
+release_date = "1781568000"
 
 [features]
 structured_output = true

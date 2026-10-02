@@ -1,0 +1,15 @@
+id = "muse-spark-1.3-contributor"
+name = "muse-spark-1.3-contributor"
+release_date = "1777593600"
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.2

@@ -6,8 +6,8 @@ attachment = false
 reasoning = false
 
 [limit]
-context = 65536
-output = 65536
+context = 131072
+output = 131072
 
 [pricing]
 input = 0.1

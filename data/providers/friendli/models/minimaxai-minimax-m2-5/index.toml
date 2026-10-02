@@ -1,6 +1,6 @@
 id = "MiniMaxAI/MiniMax-M2.5"
 name = "MiniMaxAI/MiniMax-M2.5"
-release_date = "1771482826"
+release_date = "1771459200"
 
 [features]
 structured_output = true

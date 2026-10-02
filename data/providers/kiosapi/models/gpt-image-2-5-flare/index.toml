@@ -1,5 +1,5 @@
-id = "gpt-image-2-5-flare"
-name = "gpt-image-2-5-flare"
+id = "gpt-image-2.5-flare"
+name = "gpt-image-2.5-flare"
 
 [features]
 attachment = false
@@ -8,5 +8,4 @@ attachment = false
 input = [ "text" ]
 
 [pricing]
-input = 75
-output = 150
+output = 0.06

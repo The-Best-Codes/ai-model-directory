@@ -1,0 +1,6 @@
+id = "microsoft/mai-voice-2-flash"
+name = "MAI-Voice-2-Flash"
+release_date = "1784764800"
+
+[pricing]
+input = 15

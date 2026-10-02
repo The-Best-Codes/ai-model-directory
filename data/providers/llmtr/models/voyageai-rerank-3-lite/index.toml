@@ -1,0 +1,12 @@
+id = "voyageai/rerank-3-lite"
+name = "Voyage Rerank 3 Lite"
+release_date = "1790832930"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]

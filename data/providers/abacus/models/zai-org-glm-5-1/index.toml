@@ -1,4 +1,4 @@
-id = "zai-org/glm-5.1"
+id = "zai-org/GLM-5.1"
 name = "GLM 5.1"
 
 [features]
@@ -14,5 +14,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.26
-input = 1.4
+input = 1.38
 output = 4.4

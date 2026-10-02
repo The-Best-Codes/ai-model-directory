@@ -1,0 +1,18 @@
+id = "muse-spark-1.1"
+name = "Muse Spark 1.1"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 1.25
+output = 4.25

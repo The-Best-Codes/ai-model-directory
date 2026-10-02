@@ -1,0 +1,17 @@
+id = "gpt-realtime-whisper"
+name = "GPT Realtime Whisper"
+
+[features]
+attachment = false
+
+[limit]
+context = 16000
+output = 2000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 283.3333
+output = 0

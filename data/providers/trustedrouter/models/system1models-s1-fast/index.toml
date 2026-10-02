@@ -1,0 +1,14 @@
+id = "system1models/s1-fast"
+name = "System1 s1-fast (GLOBAL)"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.026375
+output = 0

@@ -1,6 +1,6 @@
 id = "gpt-5-search-api"
 name = "gpt-5-search-api"
-release_date = "1790831057"
+release_date = "1790906891"
 
 [features]
 attachment = false

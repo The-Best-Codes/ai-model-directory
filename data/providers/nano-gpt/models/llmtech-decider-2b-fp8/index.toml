@@ -1,0 +1,19 @@
+id = "llmtech/decider-2b-fp8"
+name = "Decider 2B FP8"
+release_date = "1790812800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.030000000000000002
+output = 0

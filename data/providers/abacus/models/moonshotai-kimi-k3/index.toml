@@ -1,0 +1,18 @@
+id = "moonshotai/Kimi-K3"
+name = "Kimi K3"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 3
+output = 15

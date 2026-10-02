@@ -1,0 +1,17 @@
+id = "qwen3.8-flash"
+name = "qwen3.8-flash"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0314
+output = 0.0982

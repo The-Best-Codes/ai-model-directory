@@ -1,0 +1,19 @@
+id = "utter-project/eurollm-9b-it"
+name = "eurollm-9b-it"
+open_weights = true
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 32000
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.2

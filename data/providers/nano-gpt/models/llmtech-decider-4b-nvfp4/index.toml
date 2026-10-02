@@ -1,0 +1,19 @@
+id = "llmtech/decider-4b-nvfp4"
+name = "Decider 4B NVFP4"
+release_date = "1790812800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0

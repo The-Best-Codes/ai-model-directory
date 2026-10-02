@@ -1,0 +1,9 @@
+id = "meta_muse_image"
+name = "Meta Muse Image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

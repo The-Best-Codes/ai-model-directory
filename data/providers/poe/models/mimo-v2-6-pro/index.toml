@@ -1,0 +1,18 @@
+id = "mimo-v2.6-pro"
+name = "Mimo-V2.6-Pro"
+release_date = "1790841496"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0036
+input = 0.4394
+output = 0.8788

@@ -1,0 +1,17 @@
+id = "gpt-audio-mini"
+name = "GPT Audio Mini"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 0.6
+output = 2.4

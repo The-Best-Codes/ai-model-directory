@@ -1,0 +1,17 @@
+id = "grok-4.5"
+name = "grok-4.5"
+
+[features]
+reasoning = true
+
+[limit]
+context = 500000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.396
+output = 1.19

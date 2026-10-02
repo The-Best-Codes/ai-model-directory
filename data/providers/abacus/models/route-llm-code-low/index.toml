@@ -1,0 +1,18 @@
+id = "route-llm-code-low"
+name = "RouteLLM (Code, Low)"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 384000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.007
+input = 0.22
+output = 0.66

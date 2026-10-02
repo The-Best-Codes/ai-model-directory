@@ -5,8 +5,8 @@ name = "Nano Banana (Gemini 2.5 Flash Image)"
 attachment = true
 
 [limit]
-context = 1048576
-output = 8192
+context = 32768
+output = 32768
 
 [modalities]
 input = [ "image", "text" ]

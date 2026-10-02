@@ -1,0 +1,17 @@
+id = "deepseek-v4-flash-0731-fast"
+name = "deepseek-v4-flash-0731-fast"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1000000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.192
+output = 0.385

@@ -1,0 +1,18 @@
+id = "zai-org/GLM-5.3-Flash"
+name = "GLM 5.3 Flash"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.15
+output = 0.5

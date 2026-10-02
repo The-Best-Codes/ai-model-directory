@@ -1,0 +1,11 @@
+id = "pixelcut/looping-video"
+name = "Pixelcut Looping Video"
+open_weights = true
+release_date = "1790726400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

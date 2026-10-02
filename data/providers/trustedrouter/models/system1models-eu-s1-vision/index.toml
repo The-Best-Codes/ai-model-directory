@@ -1,0 +1,14 @@
+id = "system1models-eu/s1-vision"
+name = "System1 s1-vision (EU)"
+open_weights = false
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0422
+output = 0

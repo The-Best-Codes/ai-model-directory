@@ -1,0 +1,14 @@
+id = "system1models/s1-vision"
+name = "System1 s1-vision (GLOBAL)"
+open_weights = false
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03587
+output = 0

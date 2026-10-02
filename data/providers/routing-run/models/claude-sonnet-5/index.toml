@@ -1,0 +1,18 @@
+id = "claude-sonnet-5"
+name = "claude-sonnet-5"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.627
+output = 3.14

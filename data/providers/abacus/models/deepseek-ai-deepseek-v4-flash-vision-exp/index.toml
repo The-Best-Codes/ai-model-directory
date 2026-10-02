@@ -1,0 +1,18 @@
+id = "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+name = "Deepseek V4 Flash Vision Exp"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 384000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.028
+input = 0.44
+output = 1.32

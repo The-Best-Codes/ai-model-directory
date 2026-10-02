@@ -1,0 +1,11 @@
+id = "veed/clean-audio"
+name = "VEED Clean Audio"
+open_weights = true
+release_date = "1790726400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

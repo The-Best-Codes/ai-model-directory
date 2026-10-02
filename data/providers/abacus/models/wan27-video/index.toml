@@ -1,0 +1,9 @@
+id = "wan27_video"
+name = "Wan 2.7"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "audio", "video" ]

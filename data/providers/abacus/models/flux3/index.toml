@@ -1,0 +1,9 @@
+id = "flux3"
+name = "FLUX 3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "audio", "video" ]

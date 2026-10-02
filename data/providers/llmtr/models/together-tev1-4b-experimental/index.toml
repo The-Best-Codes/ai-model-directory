@@ -1,0 +1,16 @@
+id = "together/tev1-4b-experimental"
+name = "Tev1 4B Experimental"
+release_date = "1790846283"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0

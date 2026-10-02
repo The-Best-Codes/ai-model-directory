@@ -1,0 +1,9 @@
+id = "minimax_h3"
+name = "MiniMax H3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "audio", "video" ]

@@ -1,0 +1,18 @@
+id = "mimo-v2.6-flash"
+name = "Mimo-V2.6-Flash"
+release_date = "1790841478"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0028
+input = 0.1414
+output = 0.2828

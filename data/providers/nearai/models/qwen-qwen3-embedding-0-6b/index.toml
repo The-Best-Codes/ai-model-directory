@@ -10,13 +10,12 @@ temperature = false
 tool_call = false
 
 [limit]
-context = 40960
+context = 32768
 output = 1024
 
 [modalities]
 input = [ "text" ]
 
 [pricing]
-cache_read = 0
 input = 0.01
 output = 0.01

@@ -8,16 +8,16 @@ reasoning = true
 structured_output = true
 tool_call = true
 
-[pricing]
-input = 0.32
-output = 3.2
-cache_read = 0.16
-cache_write = 0
-
 [limit]
 context = 32768
 output = 8192
 
 [modalities]
-input = [ "text", "image" ]
+input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.16
+cache_write = 0
+input = 0.32
+output = 3.2

@@ -1,0 +1,11 @@
+id = "microsoft/mai-transcribe-2-streaming"
+name = "MAI-Transcribe-2-Streaming"
+release_date = "1790812800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

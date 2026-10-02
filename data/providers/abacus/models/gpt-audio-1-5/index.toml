@@ -1,0 +1,17 @@
+id = "gpt-audio-1.5"
+name = "GPT Audio 1.5"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+input = 2.5
+output = 10

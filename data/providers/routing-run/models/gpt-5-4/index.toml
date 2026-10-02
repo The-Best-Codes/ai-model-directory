@@ -1,0 +1,18 @@
+id = "gpt-5.4"
+name = "gpt-5.4"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.522
+output = 3.14

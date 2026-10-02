@@ -1,0 +1,14 @@
+id = "system1models/s1-pro"
+name = "System1 s1-pro (GLOBAL)"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03587
+output = 0

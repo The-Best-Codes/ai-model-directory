@@ -1,0 +1,6 @@
+id = "microsoft/mai-voice-2"
+name = "MAI-Voice-2"
+release_date = "1780358400"
+
+[pricing]
+input = 22

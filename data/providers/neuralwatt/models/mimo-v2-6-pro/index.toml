@@ -4,7 +4,7 @@ name = "MiMo-V2.6-Pro"
 [features]
 attachment = true
 reasoning = true
-structured_output = false
+structured_output = true
 tool_call = true
 
 [limit]

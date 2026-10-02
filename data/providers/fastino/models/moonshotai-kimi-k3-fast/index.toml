@@ -6,16 +6,16 @@ attachment = true
 reasoning = false
 structured_output = false
 
-[pricing]
-input = 4.5
-output = 22.5
-cache_read = 0.45
-cache_write = 4.5
-
 [limit]
 input = 1000000
 output = 131072
 
 [modalities]
-input = [ "text", "image" ]
+input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+cache_write = 4.5
+input = 4.5
+output = 22.5

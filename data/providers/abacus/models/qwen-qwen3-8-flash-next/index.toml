@@ -1,0 +1,18 @@
+id = "Qwen/Qwen3.8-Flash-Next"
+name = "Qwen3.8 Flash Next"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.016
+input = 0.15
+output = 0.47

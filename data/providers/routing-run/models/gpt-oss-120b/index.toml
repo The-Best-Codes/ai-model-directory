@@ -1,0 +1,17 @@
+id = "gpt-oss-120b"
+name = "gpt-oss-120b"
+
+[features]
+reasoning = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.001
+output = 0.0033

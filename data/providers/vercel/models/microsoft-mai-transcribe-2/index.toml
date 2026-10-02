@@ -1,0 +1,6 @@
+id = "microsoft/mai-transcribe-2"
+name = "MAI-Transcribe 2"
+release_date = "1788393600"
+
+[pricing]
+input = 0

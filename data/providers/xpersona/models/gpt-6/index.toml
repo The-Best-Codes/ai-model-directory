@@ -1,0 +1,15 @@
+id = "gpt-6"
+name = "gpt-6"
+release_date = "1777593600"
+
+[limit]
+context = 272000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5
+output = 25

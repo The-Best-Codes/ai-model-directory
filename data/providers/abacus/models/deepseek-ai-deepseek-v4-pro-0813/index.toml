@@ -1,0 +1,18 @@
+id = "deepseek-ai/DeepSeek-V4-Pro-0813"
+name = "Deepseek V4 Pro"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+output = 384000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.044
+input = 1.32
+output = 3.96

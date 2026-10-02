@@ -1,0 +1,9 @@
+id = "grok_imagine_video15"
+name = "Grok Imagine Video 1.5"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

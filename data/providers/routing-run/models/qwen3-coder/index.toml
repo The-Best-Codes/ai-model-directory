@@ -1,0 +1,14 @@
+id = "qwen3-coder"
+name = "qwen3-coder"
+
+[limit]
+context = 256000
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0066
+output = 0.022

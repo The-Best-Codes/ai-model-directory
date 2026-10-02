@@ -1,0 +1,17 @@
+id = "deepseek-v4-flash"
+name = "deepseek-v4-flash"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.4

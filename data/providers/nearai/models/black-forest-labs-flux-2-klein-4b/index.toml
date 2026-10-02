@@ -18,6 +18,5 @@ input = [ "text" ]
 output = [ "image" ]
 
 [pricing]
-cache_read = 0
 input = 1
 output = 1

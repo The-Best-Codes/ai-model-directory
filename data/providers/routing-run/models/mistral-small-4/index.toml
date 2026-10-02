@@ -1,0 +1,17 @@
+id = "mistral-small-4"
+name = "mistral-small-4"
+
+[features]
+reasoning = true
+
+[limit]
+context = 256000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.103
+output = 0.412

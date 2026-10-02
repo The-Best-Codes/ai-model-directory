@@ -1,0 +1,12 @@
+id = "gemini_omni_flash"
+name = "Gemini Omni Flash"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
+
+[pricing]
+input = 150

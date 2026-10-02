@@ -1,5 +1,5 @@
 id = "openai_tts"
-name = "openai_tts"
+name = "OpenAI"
 
 [features]
 attachment = false

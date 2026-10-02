@@ -1,0 +1,9 @@
+id = "vibevoice"
+name = "VibeVoice"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

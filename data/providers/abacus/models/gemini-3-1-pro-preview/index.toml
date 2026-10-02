@@ -5,7 +5,7 @@ name = "Gemini 3.1 Pro"
 attachment = true
 
 [limit]
-context = 2097152
+context = 1048576
 output = 65536
 
 [modalities]

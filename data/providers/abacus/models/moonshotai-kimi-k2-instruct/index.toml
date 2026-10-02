@@ -1,0 +1,17 @@
+id = "moonshotai/Kimi-K2-Instruct"
+name = "Kimi K2 Turbo"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.57
+output = 2.3

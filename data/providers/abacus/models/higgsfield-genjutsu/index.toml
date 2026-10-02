@@ -1,0 +1,9 @@
+id = "higgsfield_genjutsu"
+name = "Higgsfield Genjutsu"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

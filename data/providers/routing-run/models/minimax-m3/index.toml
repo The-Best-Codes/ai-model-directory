@@ -1,0 +1,17 @@
+id = "minimax-m3"
+name = "minimax-m3"
+
+[features]
+reasoning = true
+
+[limit]
+context = 200000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.33
+output = 1.32

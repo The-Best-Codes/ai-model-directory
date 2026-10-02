@@ -6,12 +6,6 @@ attachment = false
 reasoning = false
 structured_output = false
 
-[pricing]
-input = 0.03
-output = 0
-cache_read = 0.03
-cache_write = 0.03
-
 [limit]
 input = 4096
 output = 4096
@@ -19,3 +13,9 @@ output = 4096
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.03
+input = 0.03
+output = 0

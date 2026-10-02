@@ -1,9 +1,0 @@
-id = "veo3"
-name = "Veo 3"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "audio", "video" ]

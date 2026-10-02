@@ -1,11 +1,11 @@
-id = "qwen/qwen3-coder-480b-a35b-instruct"
-name = "Qwen3 Coder 480B A35B Instruct"
+id = "Qwen/Qwen3-Coder-480B-A35B-Instruct"
+name = "Qwen3 Coder"
 
 [features]
 attachment = false
 
 [limit]
-context = 131072
+context = 204800
 output = 16384
 
 [modalities]
@@ -13,5 +13,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.29
-output = 1.2
+input = 0.38
+output = 1.55

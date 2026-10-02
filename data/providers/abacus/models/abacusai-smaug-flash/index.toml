@@ -1,0 +1,18 @@
+id = "abacusai/Smaug-Flash"
+name = "Smaug Flash"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+output = 384000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.005
+input = 0.1
+output = 0.4

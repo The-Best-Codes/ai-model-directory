@@ -1,0 +1,17 @@
+id = "deepseek-v4-pro-0813"
+name = "deepseek-v4-pro-0813"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1048576
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.277
+output = 0.831

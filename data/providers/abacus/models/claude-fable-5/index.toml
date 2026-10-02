@@ -1,0 +1,17 @@
+id = "claude-fable-5"
+name = "Claude Fable 5"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 10
+output = 50

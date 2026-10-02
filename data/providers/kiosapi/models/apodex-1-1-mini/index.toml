@@ -1,0 +1,12 @@
+id = "apodex-1.1-mini"
+name = "apodex-1.1-mini"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

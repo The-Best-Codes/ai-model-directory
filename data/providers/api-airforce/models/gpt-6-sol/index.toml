@@ -1,6 +1,6 @@
 id = "gpt-6-sol"
 name = "gpt-6-sol"
-release_date = "1790831057"
+release_date = "1790906891"
 
 [features]
 attachment = true

@@ -1,0 +1,18 @@
+id = "convaiinnovations/laya"
+name = "Laya"
+release_date = "1790812800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

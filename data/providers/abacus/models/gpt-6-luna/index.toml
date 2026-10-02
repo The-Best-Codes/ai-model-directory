@@ -1,0 +1,18 @@
+id = "gpt-6-luna"
+name = "GPT-6 Luna"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+input = 0.1
+output = 0.5

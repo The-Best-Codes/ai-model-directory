@@ -2,8 +2,8 @@ id = "hunyuan_image"
 name = "Hunyuan Image 3.0"
 
 [features]
-attachment = true
+attachment = false
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "image" ]

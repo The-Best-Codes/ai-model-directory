@@ -1,0 +1,18 @@
+id = "claude-opus-4.6"
+name = "claude-opus-4.6"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.59
+output = 7.98
