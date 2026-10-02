@@ -1,6 +1,6 @@
 id = "GLM-5.3"
 name = "GLM-5.3"
-release_date = "1790910686"
+release_date = "1790916935"
 
 [features]
 reasoning = true

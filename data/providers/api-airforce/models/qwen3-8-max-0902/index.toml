@@ -1,6 +1,6 @@
 id = "qwen3.8-max-0902"
 name = "qwen3.8-max-0902"
-release_date = "1790910613"
+release_date = "1790916854"
 
 [features]
 attachment = false
