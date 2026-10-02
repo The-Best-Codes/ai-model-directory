@@ -3,19 +3,24 @@ import { z } from "zod";
 import { mapWithConcurrency } from "../lib/async.ts";
 import { fetchJson, fetchText } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import {
-  integerGreaterThanZero,
-  timestampFromDateInput,
-} from "../lib/model.ts";
+import { documentationTimestamp } from "../lib/docs.ts";
+import { integerGreaterThanZero } from "../lib/model.ts";
 import type { ModelModality, ModelRecord } from "../schema.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const apiModelSchema = z.object({
-  id: z.string(),
-  display_name: z.string().optional(),
+  name: z.string(),
+  displayName: z.string().optional(),
+  inputTokenLimit: z.number().optional(),
+  outputTokenLimit: z.number().optional(),
+  thinking: z.boolean().optional(),
+  temperature: z.number().optional(),
 });
 
-const responseSchema = z.object({ data: z.array(apiModelSchema) });
+const responseSchema = z.object({
+  models: z.array(apiModelSchema),
+  nextPageToken: z.string().optional(),
+});
 
 const modalityKeywords: ReadonlyArray<[RegExp, ModelModality]> = [
   [/\baudio\b/i, "audio"],
@@ -94,7 +99,9 @@ function isSupported(value: string | undefined): boolean | undefined {
   return undefined;
 }
 
-function parseDetails(text: string): Omit<ModelRecord, "id"> | undefined {
+export function parseDetails(
+  text: string,
+): Omit<ModelRecord, "id"> | undefined {
   if (text.includes('class="devsite-404"')) {
     return undefined;
   }
@@ -133,7 +140,8 @@ function parseDetails(text: string): Omit<ModelRecord, "id"> | undefined {
     const outputLimit = extractField(tokenLimitsRow, "Output token limit");
 
     if (inputLimit) {
-      limit.context = integerGreaterThanZero(parseInteger(inputLimit));
+      limit.input = integerGreaterThanZero(parseInteger(inputLimit));
+      limit.context = limit.input;
     }
 
     if (outputLimit) {
@@ -141,7 +149,10 @@ function parseDetails(text: string): Omit<ModelRecord, "id"> | undefined {
     }
   }
 
-  const capabilitiesRow = extractRow(text, /capabilities/i);
+  const capabilitiesRow = extractRow(text, /capabilities/i)?.replace(
+    /\[([^\]]+)\]\([^)]*\)/g,
+    "$1",
+  );
 
   if (capabilitiesRow) {
     const functionCalling = isSupported(
@@ -190,17 +201,13 @@ function parseDetails(text: string): Omit<ModelRecord, "id"> | undefined {
   const latestUpdateRow = extractRow(text, /latest update/i);
 
   if (latestUpdateRow) {
-    result.release_date = timestampFromDateInput(latestUpdateRow, {
-      rejectEpoch: true,
-    });
+    result.last_updated = documentationTimestamp(latestUpdateRow);
   }
 
   const knowledgeCutoffRow = extractRow(text, /knowledge cutoff/i);
 
   if (knowledgeCutoffRow) {
-    result.knowledge_cutoff = timestampFromDateInput(knowledgeCutoffRow, {
-      rejectEpoch: true,
-    });
+    result.knowledge_cutoff = documentationTimestamp(knowledgeCutoffRow);
   }
 
   if (modalities.input.length > 0 || modalities.output.length > 0) {
@@ -361,6 +368,34 @@ async function fetchPricing(): Promise<Map<string, ModelRecord["pricing"]>> {
   return pricing;
 }
 
+async function fetchModels(
+  apiKey: string,
+): Promise<z.infer<typeof apiModelSchema>[]> {
+  const models: z.infer<typeof apiModelSchema>[] = [];
+  let pageToken: string | undefined;
+  const seen = new Set<string>();
+
+  do {
+    const url = new URL(
+      "https://generativelanguage.googleapis.com/v1beta/models",
+    );
+    url.searchParams.set("pageSize", "1000");
+    if (pageToken) url.searchParams.set("pageToken", pageToken);
+    const response = await fetchJson(url, {
+      schema: responseSchema,
+      headers: { "x-goog-api-key": apiKey },
+      label: "Google API error",
+    });
+    models.push(...response.models);
+    pageToken = response.nextPageToken;
+    if (pageToken && seen.has(pageToken))
+      throw new Error("Google API repeated a page token");
+    if (pageToken) seen.add(pageToken);
+  } while (pageToken);
+
+  return models;
+}
+
 export const googleProvider: ProviderDefinition = {
   name: "google",
   outputDirectory: "data/providers/google/models",
@@ -374,19 +409,12 @@ export const googleProvider: ProviderDefinition = {
     progress?.beginPhase("fetching", 2);
 
     const [response, pricing] = await Promise.all([
-      fetchJson(
-        "https://generativelanguage.googleapis.com/v1beta/openai/models",
-        {
-          schema: responseSchema,
-          headers: { Authorization: `Bearer ${apiKey}` },
-          label: "Google API error",
-        },
-      ),
+      fetchModels(apiKey),
       fetchPricing(),
     ]);
 
     progress?.tick(
-      `generativelanguage.googleapis.com/v1beta/openai/models (${response.data.length})`,
+      `generativelanguage.googleapis.com/v1beta/models (${response.length})`,
       true,
     );
     progress?.tick(
@@ -394,13 +422,22 @@ export const googleProvider: ProviderDefinition = {
       true,
     );
 
-    const basicModels = response.data.map((model) => {
-      const id = model.id.replace(/^models\//, "");
+    const basicModels = response.map((model) => {
+      const id = model.name.replace(/^models\//, "");
 
-      return {
+      return compactObject({
         id,
-        name: model.display_name?.trim() || id,
-      };
+        name: model.displayName?.trim() || id,
+        features: compactObject({
+          reasoning: model.thinking,
+          temperature: model.temperature === undefined ? undefined : true,
+        }),
+        limit: compactObject({
+          context: integerGreaterThanZero(model.inputTokenLimit),
+          input: integerGreaterThanZero(model.inputTokenLimit),
+          output: integerGreaterThanZero(model.outputTokenLimit),
+        }),
+      });
     });
 
     progress?.beginPhase("scraping", basicModels.length);
@@ -410,7 +447,12 @@ export const googleProvider: ProviderDefinition = {
       progress?.tick(model.id, true);
 
       const modelPricing = pricing.get(model.id);
-      const merged: ModelRecord = details ? { ...details, ...model } : model;
+      const merged: ModelRecord = compactObject({
+        ...details,
+        ...model,
+        features: compactObject({ ...details?.features, ...model.features }),
+        limit: compactObject({ ...details?.limit, ...model.limit }),
+      });
 
       if (modelPricing) {
         merged.pricing = modelPricing;

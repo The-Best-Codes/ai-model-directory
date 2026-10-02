@@ -1,13 +1,14 @@
 import { z } from "zod";
 
-import { fetchJson, withBearerToken } from "../lib/http.ts";
+import { fetchJson, fetchText, withBearerToken } from "../lib/http.ts";
+import { markdownTables, parseScaledNumber } from "../lib/docs.ts";
 import { compactObject } from "../lib/object.ts";
 import {
   integerGreaterThanZero,
   nonNegativeNumber,
   timestampFromUnixSeconds,
 } from "../lib/model.ts";
-import type { ModelModality } from "../schema.ts";
+import type { ModelModality, ModelRecord } from "../schema.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const pricingBreakdownSchema = z
@@ -36,6 +37,84 @@ const apiModelSchema = z.object({
 });
 
 const responseSchema = z.array(apiModelSchema);
+
+export function parseModelDocs(
+  markdown: string,
+): Map<string, Omit<ModelRecord, "id">> {
+  const result = new Map<string, Omit<ModelRecord, "id">>();
+  for (const section of markdown.split(/^## /m)) {
+    if (!/^(Chat|Vision) models\b/.test(section)) continue;
+    for (const table of markdownTables(section)) {
+      const headers = table[0] ?? [];
+      const idIndex = headers.indexOf("API model string");
+      if (idIndex < 0) continue;
+      for (const row of table.slice(1)) {
+        const field = (name: string) => row[headers.indexOf(name)];
+        const id = row[idIndex];
+        if (!id) continue;
+        const support = (name: string) =>
+          field(name) === "Yes"
+            ? true
+            : field(name) === "No"
+              ? false
+              : undefined;
+        const input: ModelModality[] = section.startsWith("Vision")
+          ? ["text", "image"]
+          : ["text"];
+        const previous = result.get(id);
+        result.set(
+          id,
+          compactObject({
+            name: field("Model name"),
+            features: {
+              ...previous?.features,
+              ...compactObject({
+                tool_call: support("Function calling"),
+                structured_output: support("Structured outputs"),
+                attachment: input.includes("image"),
+              }),
+            },
+            pricing: {
+              ...previous?.pricing,
+              ...compactObject({
+                input: parseScaledNumber(
+                  field("Input pricing (per 1M tokens)") ?? "",
+                ),
+                output: parseScaledNumber(
+                  field("Output pricing (per 1M tokens)") ?? "",
+                ),
+                cache_read: parseScaledNumber(
+                  field("Cached input pricing (per 1M tokens)") ?? "",
+                ),
+              }),
+            },
+            limit: compactObject({
+              context: integerGreaterThanZero(
+                parseScaledNumber(field("Context length") ?? ""),
+              ),
+            }),
+            modalities: { input, output: ["text" as const] },
+          }),
+        );
+      }
+    }
+  }
+  return result;
+}
+
+async function fetchDocumentation(): Promise<
+  Map<string, Omit<ModelRecord, "id">>
+> {
+  try {
+    return parseModelDocs(
+      await fetchText("https://docs.together.ai/docs/serverless/models.md", {
+        label: "Together AI model docs error",
+      }),
+    );
+  } catch {
+    return new Map();
+  }
+}
 
 function inferModalities(type: string | undefined): {
   input?: ModelModality[];
@@ -90,16 +169,23 @@ export const togetheraiProvider: ProviderDefinition = {
   async fetchModels(progress) {
     progress?.beginPhase("fetching", 1);
 
-    const response = await fetchJson("https://api.together.ai/v1/models", {
-      schema: responseSchema,
-      headers: withBearerToken(process.env.TOGETHER_API_KEY),
-      label: "Together AI API error",
-    });
+    const [response, documentation] = await Promise.all([
+      fetchJson("https://api.together.ai/v1/models", {
+        schema: responseSchema,
+        headers: withBearerToken(process.env.TOGETHER_API_KEY),
+        label: "Together AI API error",
+      }),
+      fetchDocumentation(),
+    ]);
 
     progress?.tick(`api.together.ai/v1/models (${response.length})`, true);
 
     return response.map((model) => {
-      const modalities = inferModalities(model.type);
+      const details = documentation.get(model.id);
+      const modalities = {
+        ...inferModalities(model.type),
+        ...details?.modalities,
+      };
       const hasAttachments = modalities.input?.some(
         (modality) => modality !== "text",
       );
@@ -113,28 +199,34 @@ export const togetheraiProvider: ProviderDefinition = {
 
       return compactObject({
         id: model.id,
-        name: model.display_name ?? model.id,
+        name: model.display_name ?? details?.name ?? model.id,
         release_date:
           model.created > 0
             ? timestampFromUnixSeconds(model.created)
             : undefined,
         features: compactObject({
+          ...details?.features,
           attachment: hasAttachments,
         }),
         pricing: compactObject({
+          ...details?.pricing,
           input:
-            hasSpecializedPricing && inputPrice === 0 ? undefined : inputPrice,
+            hasSpecializedPricing && inputPrice === 0
+              ? undefined
+              : (inputPrice ?? details?.pricing?.input),
           output:
             hasSpecializedPricing && outputPrice === 0
               ? undefined
-              : outputPrice,
+              : (outputPrice ?? details?.pricing?.output),
           cache_read:
             hasSpecializedPricing && cacheReadPrice === 0
               ? undefined
-              : cacheReadPrice,
+              : (cacheReadPrice ?? details?.pricing?.cache_read),
         }),
         limit: compactObject({
-          context: integerGreaterThanZero(model.context_length),
+          context:
+            integerGreaterThanZero(model.context_length) ??
+            details?.limit?.context,
         }),
         modalities: compactObject(modalities),
       });

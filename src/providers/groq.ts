@@ -81,7 +81,10 @@ function extractHeadingSection(
   heading: string,
 ): string | undefined {
   const match = text.match(
-    new RegExp(`^###\\s+${heading}\\s*$([\\s\\S]*?)(?=^###\\s+|\\Z)`, "im"),
+    new RegExp(
+      `^###\\s+${heading}\\s*$([\\s\\S]*?)(?=^###\\s+|(?![\\s\\S]))`,
+      "im",
+    ),
   );
   return match?.[1]?.trim();
 }
@@ -205,7 +208,9 @@ function parseKnowledgeCutoff(text: string): string | undefined {
     : undefined;
 }
 
-function parseDocPage(text: string): Omit<ModelRecord, "id"> | undefined {
+export function parseDocPage(
+  text: string,
+): Omit<ModelRecord, "id"> | undefined {
   const name = text.match(/^#\s+(.+)$/m)?.[1]?.trim();
 
   if (!name) {
@@ -214,10 +219,13 @@ function parseDocPage(text: string): Omit<ModelRecord, "id"> | undefined {
 
   const input = parseModalities(extractInlineSection(text, "INPUT"));
   const output = parseModalities(extractInlineSection(text, "OUTPUT"));
-  const features = parseFeatures(
+  let features = parseFeatures(
     extractInlineSection(text, "CAPABILITIES"),
     input,
   );
+  if (/\btemperature\s*=\s*\d/.test(text)) {
+    (features ??= {}).temperature = true;
+  }
   const modalities = compactObject({
     input,
     output,

@@ -31,6 +31,7 @@ const apiModelSchema = z.object({
     input_cache_write: z.string().optional(),
     internal_reasoning: z.string().optional(),
     audio: z.string().optional(),
+    audio_output: z.string().optional(),
   }),
   top_provider: z.object({
     context_length: z.number().nullable(),
@@ -96,7 +97,12 @@ export const openrouterProvider: ProviderDefinition = {
           reasoning: reasoningPrice,
           cache_read: pricePerMillion(model.pricing.input_cache_read),
           cache_write: pricePerMillion(model.pricing.input_cache_write),
-          input_audio: pricePerMillion(model.pricing.audio),
+          input_audio: input?.includes("audio")
+            ? pricePerMillion(model.pricing.audio)
+            : undefined,
+          output_audio: output?.includes("audio")
+            ? pricePerMillion(model.pricing.audio_output)
+            : undefined,
         }),
         limit: compactObject({
           context: model.top_provider.context_length ?? model.context_length,

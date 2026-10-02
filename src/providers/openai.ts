@@ -4,10 +4,8 @@ import { z } from "zod";
 import { mapWithConcurrency } from "../lib/async.ts";
 import { fetchJson, fetchText } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import {
-  timestampFromDateInput,
-  timestampFromUnixSeconds,
-} from "../lib/model.ts";
+import { documentationTimestamp } from "../lib/docs.ts";
+import { timestampFromUnixSeconds } from "../lib/model.ts";
 import type { ModelModality, ModelRecord } from "../schema.ts";
 import type { ProviderDefinition } from "./types.ts";
 
@@ -36,7 +34,9 @@ function parsePrice(value: string): number | undefined {
   return Number.isFinite(parsed) && parsed >= 0 ? parsed : undefined;
 }
 
-function parseDetails(html: string): Omit<ModelRecord, "id"> | undefined {
+export function parseDetails(
+  html: string,
+): Omit<ModelRecord, "id"> | undefined {
   const $ = cheerio.load(html);
   const title = $("title").text().trim();
   const name = title.match(/^(.*?)\s+Model\s*\|\s*OpenAI/i)?.[1]?.trim();
@@ -51,6 +51,9 @@ function parseDetails(html: string): Omit<ModelRecord, "id"> | undefined {
   const pricing: NonNullable<ModelRecord["pricing"]> = {};
   const limit: NonNullable<ModelRecord["limit"]> = {};
   const result: Omit<ModelRecord, "id"> = { name };
+  const description =
+    $("meta[name='description']").attr("content") ?? $("main p").first().text();
+  if (/\bopen[- ]weights?\b/i.test(description)) result.open_weights = true;
 
   $("div").each((_, element) => {
     const text = $(element).text().trim();
@@ -76,7 +79,7 @@ function parseDetails(html: string): Omit<ModelRecord, "id"> | undefined {
     const cutoff = text.match(/^(.+?)\s+knowledge cutoff$/i);
 
     if (cutoff?.[1]) {
-      result.knowledge_cutoff = timestampFromDateInput(cutoff[1]);
+      result.knowledge_cutoff = documentationTimestamp(cutoff[1]);
       return;
     }
 
@@ -96,11 +99,15 @@ function parseDetails(html: string): Omit<ModelRecord, "id"> | undefined {
           $(node).next().text().trim().toLowerCase() === "supported";
 
         if (key === "function calling") {
-          features.tool_call = status;
+          const text = $(node).next().text().trim().toLowerCase();
+          if (text === "supported" || text === "not supported")
+            features.tool_call = status;
         }
 
         if (key === "structured outputs") {
-          features.structured_output = status;
+          const text = $(node).next().text().trim().toLowerCase();
+          if (text === "supported" || text === "not supported")
+            features.structured_output = status;
         }
       });
     }
@@ -129,10 +136,19 @@ function parseDetails(html: string): Omit<ModelRecord, "id"> | undefined {
       content.find("div.text-2xl.font-semibold").each((_, node) => {
         const value = parsePrice($(node).text().trim());
         const key = $(node).prev().text().trim().toLowerCase();
+        const section = $(node).parent().parent().prev().text().toLowerCase();
 
-        if (value === undefined) {
+        if (value === undefined || !/per 1m tokens/.test(section)) {
           return;
         }
+
+        if (section.includes("audio tokens")) {
+          if (key === "input") pricing.input_audio = value;
+          if (key === "output") pricing.output_audio = value;
+          return;
+        }
+
+        if (!section.includes("text tokens")) return;
 
         if (key === "input") {
           pricing.input = value;
@@ -145,6 +161,8 @@ function parseDetails(html: string): Omit<ModelRecord, "id"> | undefined {
         if (key === "cached input") {
           pricing.cache_read = value;
         }
+
+        if (key === "cache writes") pricing.cache_write = value;
       });
     }
   });

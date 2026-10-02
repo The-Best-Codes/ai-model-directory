@@ -1,3 +1,7 @@
+import * as cheerio from "cheerio";
+import Decimal from "decimal.js";
+import { mapWithConcurrency } from "../lib/async.ts";
+import { documentationTimestamp } from "../lib/docs.ts";
 import { z } from "zod";
 
 import { fetchJson, fetchText, withBearerToken } from "../lib/http.ts";
@@ -5,7 +9,7 @@ import { compactObject } from "../lib/object.ts";
 import {
   integerGreaterThanZero,
   normalizeModelId,
-  // timestampFromUnixSeconds,
+  nonNegativeNumber,
 } from "../lib/model.ts";
 import type { ModelModality, ModelRecord } from "../schema.ts";
 import type { ProviderDefinition } from "./types.ts";
@@ -38,234 +42,135 @@ const apiModelSchema = z.object({
 
 const responseSchema = z.object({ data: z.array(apiModelSchema) });
 
-const pricingEntrySchema = z
-  .object({
-    value: z.string(),
-    price_dollar: z.string().nullish(),
-  })
-  .loose();
+type PricingMetadata = Omit<ModelRecord, "id">;
 
-const pricingModelSchema = z
-  .object({
-    api: z.string().optional(),
-    api_endpoint: z.string().optional(),
-    name: z.string().optional(),
-    licence: z.string().optional(),
-    price: z.array(pricingEntrySchema).optional(),
-  })
-  .loose();
-
-type PricingMetadata = {
-  name?: string;
+type PricingCard = {
+  name: string;
+  url?: string;
   open_weights?: boolean;
   pricing?: ModelRecord["pricing"];
 };
 
-function parseDollarAmount(
-  value: string | null | undefined,
-): number | undefined {
-  if (!value) {
-    return undefined;
-  }
-
-  const match = value
-    .replace(/<[^>]*>/g, " ")
-    .match(/\$+\s*([0-9]+(?:\.[0-9]+)?)/);
-
-  if (!match?.[1]) {
-    return undefined;
-  }
-
-  const parsed = Number(match[1]);
-  return Number.isFinite(parsed) && parsed >= 0 ? parsed : undefined;
+export function parsePricingPage(html: string): PricingCard[] {
+  const $ = cheerio.load(html);
+  const cards: PricingCard[] = [];
+  $(".model-item[data-name]").each((_, element) => {
+    const card = $(element);
+    const name = card.find(".text-h5").first().text().trim();
+    if (!name) return;
+    const pricing: NonNullable<ModelRecord["pricing"]> = {};
+    card.find("mistral-atom-text-price[data-prices]").each((_, node) => {
+      const label = $(node).prev().text().trim();
+      if (!/^(Input|Output) \(\/M tokens\)$/.test(label)) return;
+      try {
+        const value = nonNegativeNumber(
+          z
+            .object({ priceUsd: z.number() })
+            .parse(JSON.parse($(node).attr("data-prices") ?? "")).priceUsd,
+        );
+        if (label.startsWith("Input")) {
+          pricing.input = value;
+          if (
+            value !== undefined &&
+            JSON.parse($(node).attr("data-discounts") ?? "[]").includes("cache")
+          )
+            pricing.cache_read = new Decimal(value).mul("0.1").toNumber();
+        } else pricing.output = value;
+      } catch {}
+    });
+    const licence = card.attr("data-licence");
+    cards.push({
+      name,
+      url: card
+        .find('a[href^="https://docs.mistral.ai/models/"]')
+        .first()
+        .attr("href"),
+      open_weights:
+        licence &&
+        ["open", "apache-20", "modified-mit", "cc-by-nc-40"].includes(licence)
+          ? true
+          : undefined,
+      pricing: Object.keys(pricing).length ? pricing : undefined,
+    });
+  });
+  return cards;
 }
 
-function parseHydrationPayloads(html: string): string[] {
-  const payloads: string[] = [];
-
-  for (const match of html.matchAll(
-    /self\.__next_f\.push\(\[1,"([\s\S]*?)"\]\)<\/script>/g,
-  )) {
-    const raw = match[1];
-
-    if (!raw) {
-      continue;
-    }
-
+export function parseModelPage(html: string): Map<string, PricingMetadata> {
+  const $ = cheerio.load(html);
+  const result = new Map<string, PricingMetadata>();
+  const main = $("main");
+  if (!main.find("h1").length) return result;
+  let names: string[] = [];
+  for (const script of $("script").toArray()) {
+    const text = $(script).text();
+    const payload = text.match(
+      /self\.__next_f\.push\(\[1,("[\s\S]*")\]\)/,
+    )?.[1];
+    if (!payload) continue;
     try {
-      payloads.push(JSON.parse(`"${raw}"`) as string);
-    } catch {
-      continue;
-    }
+      const decoded = JSON.parse(payload) as string;
+      const matches = decoded.match(/"names":(\[[^\]]+\])/);
+      if (matches?.[1]) {
+        names = z.array(z.string()).parse(JSON.parse(matches[1]));
+        break;
+      }
+    } catch {}
   }
-
-  return payloads;
-}
-
-function findJsonObjectEnd(text: string, start: number): number | undefined {
-  let depth = 0;
-  let inString = false;
-  let escaped = false;
-
-  for (let index = start; index < text.length; index += 1) {
-    const character = text[index];
-
-    if (!character) {
-      continue;
-    }
-
-    if (escaped) {
-      escaped = false;
-      continue;
-    }
-
-    if (character === "\\" && inString) {
-      escaped = true;
-      continue;
-    }
-
-    if (character === '"') {
-      inString = !inString;
-      continue;
-    }
-
-    if (inString) {
-      continue;
-    }
-
-    if (character === "{") {
-      depth += 1;
-      continue;
-    }
-
-    if (character !== "}" || depth === 0) {
-      continue;
-    }
-
-    depth -= 1;
-
-    if (depth === 0) {
-      return index + 1;
-    }
-  }
-
-  return undefined;
-}
-
-function extractContainingJsonObject(
-  text: string,
-  targetIndex: number,
-): unknown | undefined {
-  for (let start = targetIndex; start >= 0; start -= 1) {
-    if (text[start] !== "{") {
-      continue;
-    }
-
-    const end = findJsonObjectEnd(text, start);
-
-    if (end === undefined || end <= targetIndex) {
-      continue;
-    }
-
-    try {
-      return JSON.parse(text.slice(start, end));
-    } catch {
-      continue;
-    }
-  }
-
-  return undefined;
-}
-
-function mergePricingMetadata(
-  previous: PricingMetadata | undefined,
-  next: PricingMetadata,
-): PricingMetadata {
-  return compactObject({
-    name: previous?.name ?? next.name,
-    open_weights: previous?.open_weights ?? next.open_weights,
-    pricing: compactObject({
-      input:
-        Math.max(previous?.pricing?.input ?? 0, next.pricing?.input ?? 0) ||
-        undefined,
-      output:
-        Math.max(previous?.pricing?.output ?? 0, next.pricing?.output ?? 0) ||
-        undefined,
+  if (!names.length) return result;
+  const release = main
+    .find("span")
+    .toArray()
+    .map((node) => $(node).clone().children().remove().end().text().trim())
+    .find((value) => /^[A-Z][a-z]+ \d{1,2}, \d{4}$/.test(value));
+  const featureLabels = main
+    .find('span[class*="LinkItem_title"]')
+    .toArray()
+    .filter((node) => $(node).parent().text().includes("/v1/chat/completions"))
+    .map((node) => $(node).text().trim());
+  const details = compactObject({
+    release_date: documentationTimestamp(release),
+    features: compactObject({
+      structured_output: featureLabels.includes("Structured Outputs")
+        ? true
+        : undefined,
+      tool_call: featureLabels.includes("Function Calling") ? true : undefined,
     }),
   });
-}
-
-function parsePricingPage(html: string): Map<string, PricingMetadata> {
-  const result = new Map<string, PricingMetadata>();
-
-  for (const payload of parseHydrationPayloads(html)) {
-    for (const match of payload.matchAll(/"(?:api|api_endpoint)":"([^"]+)"/g)) {
-      const candidate = extractContainingJsonObject(payload, match.index ?? 0);
-
-      if (!candidate) {
-        continue;
-      }
-
-      const parsed = pricingModelSchema.safeParse(candidate);
-
-      if (!parsed.success) {
-        continue;
-      }
-
-      const endpoint = parsed.data.api_endpoint ?? parsed.data.api;
-
-      if (!endpoint) {
-        continue;
-      }
-
-      const pricing: NonNullable<ModelRecord["pricing"]> = {};
-
-      for (const entry of parsed.data.price ?? []) {
-        const value = parseDollarAmount(entry.price_dollar);
-        const label = entry.value.trim().toLowerCase();
-
-        if (value === undefined) {
-          continue;
-        }
-
-        if (label.startsWith("input")) {
-          pricing.input = value;
-        }
-
-        if (label.startsWith("output")) {
-          pricing.output = value;
-        }
-      }
-
-      const metadata = compactObject({
-        name: parsed.data.name,
-        open_weights:
-          /open model/i.test(parsed.data.licence ?? "") || undefined,
-        pricing: compactObject(pricing),
-      });
-
-      if (Object.keys(metadata).length === 0) {
-        continue;
-      }
-
-      result.set(
-        endpoint,
-        mergePricingMetadata(result.get(endpoint), metadata),
-      );
-    }
-  }
-
+  for (const name of names) result.set(name, details);
   return result;
 }
 
 async function fetchPricing(): Promise<Map<string, PricingMetadata>> {
   try {
-    const html = await fetchText("https://mistral.ai/pricing#api", {
-      init: { redirect: "follow" },
+    const html = await fetchText("https://mistral.ai/pricing/api/", {
       label: "Mistral pricing page error",
     });
-
-    return parsePricingPage(html);
+    const cards = parsePricingPage(html);
+    const result = new Map<string, PricingMetadata>();
+    const details = await mapWithConcurrency(cards, 4, async (card) => {
+      try {
+        return card.url
+          ? parseModelPage(
+              await fetchText(card.url, { label: "Mistral model docs error" }),
+            )
+          : new Map<string, PricingMetadata>();
+      } catch {
+        return new Map<string, PricingMetadata>();
+      }
+    });
+    for (let index = 0; index < cards.length; index += 1) {
+      const card = cards[index]!;
+      const metadata = compactObject({
+        name: card.name,
+        open_weights: card.open_weights,
+        pricing: card.pricing,
+      });
+      result.set(card.name, metadata);
+      for (const [id, detail] of details[index] ?? [])
+        result.set(id, { ...metadata, ...detail });
+    }
+    return result;
   } catch {
     return new Map();
   }
@@ -434,8 +339,9 @@ export const mistralProvider: ProviderDefinition = {
         id: model.id,
         name: metadata?.name ?? model.name,
         open_weights: metadata?.open_weights,
-        // release_date: timestampFromUnixSeconds(model.created), // Omitted for now, as API returns current date
+        release_date: metadata?.release_date,
         features: compactObject({
+          ...metadata?.features,
           attachment: hasAttachments,
           reasoning: model.capabilities.reasoning,
           tool_call: model.capabilities.function_calling,
