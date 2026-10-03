@@ -1,11 +1,18 @@
-id = "[次]gemini-3.8-flash"
-name = "[次]gemini-3.8-flash"
-release_date = "1790916854"
+id = "gemini-3.8-flash"
+name = "gemini-3.8-flash"
+release_date = "1791002196"
 
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+cache_write = 0.08
+input = 0.08
+output = 0.36

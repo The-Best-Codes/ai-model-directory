@@ -1,0 +1,19 @@
+id = "liquid/d1"
+name = "Liquid D1"
+release_date = "1790899200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0

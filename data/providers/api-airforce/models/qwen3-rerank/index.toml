@@ -1,6 +1,6 @@
 id = "qwen3-rerank"
 name = "qwen3-rerank"
-release_date = "1790916854"
+release_date = "1791002196"
 
 [features]
 attachment = false
