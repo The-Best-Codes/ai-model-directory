@@ -1,6 +1,6 @@
 name = "Google"
 website = "https://ai.google.dev"
-apiBaseUrl = "https://generativelanguage.googleapis.com/v1beta/openai/v1/"
+apiBaseUrl = "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 [aiSdk]
 npmPackage = "@ai-sdk/google"
