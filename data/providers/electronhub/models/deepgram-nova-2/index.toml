@@ -1,0 +1,9 @@
+id = "deepgram-nova-2"
+name = "Deepgram: Nova 2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

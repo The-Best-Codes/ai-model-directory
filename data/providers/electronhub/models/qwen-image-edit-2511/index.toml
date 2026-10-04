@@ -1,0 +1,9 @@
+id = "qwen-image-edit-2511"
+name = "Alibaba: Qwen-Image Edit 2511"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "id": "qwen-image-2512",
+      "object": "model",
+      "created": 1768067715,
+      "owned_by": "qwen",
+      "display_name": "Qwen Image 2512",
+      "description": "Qwen-Image-2512 is the latest open-source text-to-image foundational model from Qwen, delivering substantial upgrades over its predecessor, the August Qwen-Image release. This new version significantly enhances human realism\u2014reducing the \u201cAI-generated\u201d look with richer facial detail, more accurate age cues, and better adherence to pose and context instructions. It also renders finer natural detail across landscapes and wildlife, improving textures such as water flow, foliage, mist, and animal fur with more precise strand- and material-level fidelity. In addition, Qwen-Image-2512 improves text rendering and multimodal composition, producing clearer, more accurate typography, stronger layout control, and more reliable generation of complex slide-like designs and infographics. Altogether, these improvements make Qwen-Image-2512 a more photorealistic, detail-faithful, and text-capable image generator suitable for both creative and practical visual production.",
+      "max_output_images": 3,
+      "supported_endpoints": ["images.generations"],
+      "pricing": {
+        "per_output_image_token": 4.8828125e-6
+      },
+      "architecture": {
+        "input_modalities": ["text"],
+        "output_modalities": ["image"]
+      },
+      "supported_parameters": ["size"]
+    },
+    {
+      "id": "gpt-4o-mini-tts",
+      "object": "model",
+      "created": 1748186627,
+      "owned_by": "openai",
+      "display_name": "GPT-4o Mini TTS",
+      "description": "A text-to-speech model built on GPT-4o mini, a fast and powerful language model. Use it to convert text into natural-sounding spoken audio.",
+      "supported_endpoints": ["audio.speech"],
+      "pricing": {
+        "per_input_token": 3e-7,
+        "per_output_token": 6e-6,
+        "per_output_audio_hour": 0.45
+      },
+      "architecture": {
+        "input_modalities": ["text"],
+        "output_modalities": ["audio"]
+      },
+      "supported_parameters": ["instructions", "response_format", "speed"]
+    }
+  ]
+}

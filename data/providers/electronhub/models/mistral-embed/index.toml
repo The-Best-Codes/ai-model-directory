@@ -1,0 +1,11 @@
+id = "mistral-embed"
+name = "Mistral: Mistral Embed"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1

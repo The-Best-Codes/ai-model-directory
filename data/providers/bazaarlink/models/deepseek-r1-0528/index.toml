@@ -1,0 +1,17 @@
+id = "deepseek-r1-0528"
+name = "Deepseek R1 0528"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 2.15

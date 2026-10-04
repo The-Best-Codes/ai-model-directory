@@ -1,0 +1,11 @@
+id = "gemini-embedding-001"
+name = "Google: Gemini Embedding 001"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15

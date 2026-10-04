@@ -1,0 +1,13 @@
+id = "deepseek-prover-v2"
+name = "DeepSeek Prover v2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.35
+output = 1.25

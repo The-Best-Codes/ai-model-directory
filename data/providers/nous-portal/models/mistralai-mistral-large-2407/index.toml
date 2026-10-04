@@ -1,0 +1,24 @@
+id = "mistralai/mistral-large-2407"
+knowledge_cutoff = "1711843200"
+name = "Mistral Large 2407"
+release_date = "1731978415"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 104857
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 6

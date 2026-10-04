@@ -1,0 +1,14 @@
+id = "mistral-medium-latest"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 1

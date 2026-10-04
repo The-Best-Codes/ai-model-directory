@@ -1,0 +1,9 @@
+id = "deepgram-flux"
+name = "Deepgram: Flux"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

@@ -1,0 +1,11 @@
+id = "@cf/deepgram/flux"
+name = "flux"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

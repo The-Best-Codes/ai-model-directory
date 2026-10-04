@@ -1,0 +1,18 @@
+id = "laguna-s-2.1"
+name = "Laguna S 2.1"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

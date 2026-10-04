@@ -1,0 +1,9 @@
+id = "sdxl-tanemomix-v2"
+name = "Stability: Tanemo Mix v2.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

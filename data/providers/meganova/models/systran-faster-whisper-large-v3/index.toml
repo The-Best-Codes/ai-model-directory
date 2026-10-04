@@ -1,0 +1,10 @@
+id = "Systran/faster-whisper-large-v3"
+name = "Faster-Whisper-Large-V3"
+
+[features]
+attachment = true
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

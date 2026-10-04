@@ -1,0 +1,9 @@
+id = "sdxl-personastyle-il"
+name = "Stability: Persona Style (Illustrious)"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

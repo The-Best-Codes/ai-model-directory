@@ -1,0 +1,17 @@
+id = "qwen3.5-122b-a10b"
+name = "Qwen3.5 122b A10b"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29
+output = 2.4

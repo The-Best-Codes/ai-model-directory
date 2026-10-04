@@ -1,0 +1,11 @@
+id = "@cf/openai/whisper-tiny-en"
+name = "whisper-tiny-en"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

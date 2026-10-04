@@ -1,0 +1,14 @@
+id = "claude-4.5-haiku"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 5

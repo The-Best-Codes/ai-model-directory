@@ -1,0 +1,9 @@
+id = "sdxl-illustriousxl-mmmix-v80"
+name = "Stability: IllustriousXL Mmmix v8.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

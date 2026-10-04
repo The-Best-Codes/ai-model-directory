@@ -1,0 +1,20 @@
+id = "grok-4.20-multi-agent-0309"
+name = "xAI: Grok 4.20 Multi-Agent"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 2000000
+input = 2000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 4
+output = 8

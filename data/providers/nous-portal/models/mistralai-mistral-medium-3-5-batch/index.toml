@@ -1,0 +1,22 @@
+id = "mistralai/mistral-medium-3-5:batch"
+name = "Mistral: Mistral Medium 3.5 (batch)"
+release_date = "1777570439"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 209715
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.75
+output = 3.75

@@ -1,0 +1,12 @@
+id = "soniox-tts-rt-v2"
+name = "Soniox: tts rt v2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 5

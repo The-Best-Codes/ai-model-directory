@@ -1,0 +1,12 @@
+id = "xai-tts"
+name = "xAI: TTS"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 15

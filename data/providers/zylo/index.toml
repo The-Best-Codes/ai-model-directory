@@ -1,0 +1,7 @@
+name = "Zylo"
+website = "https://zyloai.net"
+apiBaseUrl = "https://api.zyloai.net/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ZYLO_API_KEY"]

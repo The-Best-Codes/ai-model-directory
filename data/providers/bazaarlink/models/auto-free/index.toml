@@ -1,0 +1,13 @@
+id = "auto:free"
+name = "Auto Router (free)"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

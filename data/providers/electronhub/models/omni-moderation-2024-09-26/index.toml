@@ -1,0 +1,8 @@
+id = "omni-moderation-2024-09-26"
+name = "OpenAI: Omni Moderation 2024-09-26"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

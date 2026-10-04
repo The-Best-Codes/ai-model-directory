@@ -1,0 +1,9 @@
+id = "sdxl-sudachixlillustrious-v1"
+name = "Stability: Sudachi XL Illustrious v1.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

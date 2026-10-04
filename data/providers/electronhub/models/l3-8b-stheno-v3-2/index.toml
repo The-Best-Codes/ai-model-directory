@@ -1,0 +1,19 @@
+id = "l3-8b-stheno-v3.2"
+name = "Sao10K: L3 8B Stheno v3.2"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 8000
+input = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 1.2

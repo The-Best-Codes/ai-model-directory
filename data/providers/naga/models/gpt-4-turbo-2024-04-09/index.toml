@@ -1,0 +1,20 @@
+id = "gpt-4-turbo-2024-04-09"
+name = "GPT-4 Turbo"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5
+output = 15

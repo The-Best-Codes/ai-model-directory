@@ -1,0 +1,7 @@
+name = "Naga"
+website = "https://naga.ac"
+apiBaseUrl = "https://api.naga.ac/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["NAGA_API_KEY"]

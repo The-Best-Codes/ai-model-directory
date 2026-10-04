@@ -1,0 +1,21 @@
+id = "meganova-ai/manta-pro-1.0"
+name = "Manta-Pro-1.0"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
+reasoning = 0

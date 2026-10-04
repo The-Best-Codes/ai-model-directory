@@ -1,0 +1,11 @@
+id = "@cf/black-forest-labs/flux-2-klein-4b"
+name = "flux-2-klein-4b"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

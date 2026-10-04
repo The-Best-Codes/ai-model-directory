@@ -1,0 +1,20 @@
+id = "@cf/meta/llama-3.2-3b-instruct"
+name = "llama-3.2-3b-instruct"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 80000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0509
+output = 0.335

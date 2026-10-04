@@ -1,0 +1,15 @@
+id = "nvidia/nemotron-3-embed-1b"
+name = "Nemotron 3 Embed 1B"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.012
+output = 0

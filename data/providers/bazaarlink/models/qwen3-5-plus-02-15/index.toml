@@ -1,0 +1,17 @@
+id = "qwen3.5-plus-02-15"
+name = "Qwen3.5 Plus 02 15"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.26
+output = 1.56

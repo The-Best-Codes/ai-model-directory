@@ -1,0 +1,9 @@
+id = "nai-diffusion-4-curated-preview"
+name = "NovelAI: NAI Diffusion V4 Curated"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

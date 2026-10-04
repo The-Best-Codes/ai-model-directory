@@ -1,0 +1,9 @@
+id = "sdxl-ikastriousxl-v95"
+name = "Stability: IkaStriousXL v9.5"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

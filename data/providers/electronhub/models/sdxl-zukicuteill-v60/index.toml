@@ -1,0 +1,9 @@
+id = "sdxl-zukicuteill-v60"
+name = "Stability: Zuki Cute Illustrious v6.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

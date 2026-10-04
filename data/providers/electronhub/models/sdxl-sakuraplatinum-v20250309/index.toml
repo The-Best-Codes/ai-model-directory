@@ -1,0 +1,9 @@
+id = "sdxl-sakuraplatinum-v20250309"
+name = "Stability: Sakura Platinum v2025.03.09"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

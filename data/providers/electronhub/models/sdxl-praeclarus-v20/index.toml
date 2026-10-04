@@ -1,0 +1,9 @@
+id = "sdxl-praeclarus-v20"
+name = "Stability: Praeclarus v2.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

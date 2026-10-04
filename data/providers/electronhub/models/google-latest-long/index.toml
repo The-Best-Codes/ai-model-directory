@@ -1,0 +1,9 @@
+id = "google-latest-long"
+name = "Google: Speech-to-Text (latest_long)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

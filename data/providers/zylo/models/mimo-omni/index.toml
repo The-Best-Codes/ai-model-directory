@@ -1,0 +1,18 @@
+id = "mimo-omni"
+name = "Mimo V2 Omni"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 2

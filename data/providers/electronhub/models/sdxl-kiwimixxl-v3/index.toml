@@ -1,0 +1,9 @@
+id = "sdxl-kiwimixxl-v3"
+name = "Stability: Kiwimix-XL v3"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

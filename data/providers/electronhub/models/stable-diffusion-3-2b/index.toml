@@ -1,0 +1,9 @@
+id = "stable-diffusion-3-2b"
+name = "Stability: Stable Diffusion 3 Medium"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

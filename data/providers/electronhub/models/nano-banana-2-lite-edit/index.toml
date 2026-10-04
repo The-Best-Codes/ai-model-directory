@@ -1,0 +1,9 @@
+id = "nano-banana-2-lite-edit"
+name = "Google: Nano Banana 2 Lite (image-to-image)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

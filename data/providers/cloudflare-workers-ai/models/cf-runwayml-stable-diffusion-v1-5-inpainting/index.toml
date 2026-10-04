@@ -1,0 +1,11 @@
+id = "@cf/runwayml/stable-diffusion-v1-5-inpainting"
+name = "stable-diffusion-v1-5-inpainting"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

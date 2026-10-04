@@ -1,0 +1,7 @@
+name = "Cloudflare Workers AI"
+website = "https://developers.cloudflare.com/workers-ai"
+apiBaseUrl = "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["CLOUDFLARE_API_KEY"]

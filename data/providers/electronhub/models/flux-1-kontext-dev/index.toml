@@ -1,0 +1,9 @@
+id = "flux-1-kontext-dev"
+name = "BlackForestLabs: FLUX.1 Kontext [dev]"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

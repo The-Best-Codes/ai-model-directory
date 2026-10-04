@@ -1,0 +1,11 @@
+id = "omni-moderation-2024-09-26"
+name = "Omni Moderation"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0

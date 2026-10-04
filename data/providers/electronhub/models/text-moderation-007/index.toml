@@ -1,0 +1,8 @@
+id = "text-moderation-007"
+name = "OpenAI: Text Moderation 007"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

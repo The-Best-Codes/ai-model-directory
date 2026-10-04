@@ -1,0 +1,8 @@
+id = "gemini-3.8-flash"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

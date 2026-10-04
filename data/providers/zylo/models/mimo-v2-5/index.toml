@@ -1,0 +1,18 @@
+id = "mimo-v2.5"
+name = "Mimo V2.5"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.28

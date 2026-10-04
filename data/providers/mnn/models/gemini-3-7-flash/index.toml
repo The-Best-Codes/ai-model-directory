@@ -1,0 +1,14 @@
+id = "gemini-3.7-flash"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.5
+output = 7.5

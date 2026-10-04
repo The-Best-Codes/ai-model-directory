@@ -1,0 +1,251 @@
+{
+  "data": [
+    {
+      "id": "deepseek-ai/DeepSeek-V3.1",
+      "name": "DeepSeek-V3.1",
+      "tags": ["text_generation", "best_role_play", "DeepSeek"],
+      "limits": {
+        "tokens_per_minute": null,
+        "requests_per_minute": null,
+        "max_completion_tokens": null
+      },
+      "default": false,
+      "pricing": {
+        "image": "0.00",
+        "prompt": "0.1900",
+        "request": "0.00",
+        "completion": "0.7900",
+        "web_search": "0.00",
+        "internal_reasoning": "0.00"
+      },
+      "description": "Hybrid inference LLM with Think/Non-Think modes, 128K context, advanced agent",
+      "architecture": {
+        "modality": "text->text",
+        "tokenizer": null,
+        "instruct_type": "aligned",
+        "input_modalities": ["text"],
+        "output_modalities": ["text"]
+      },
+      "capabilities": {
+        "audio": false,
+        "vision": false,
+        "completion": true,
+        "chat_completions": true,
+        "function_calling": true
+      },
+      "top_provider": {
+        "is_moderated": false,
+        "context_length": 163840,
+        "max_completion_tokens": null
+      },
+      "canonical_slug": "deepseek-ai/DeepSeek-V3.1",
+      "context_length": 163840,
+      "hugging_face_id": null,
+      "default_parameters": {
+        "top_p": 0.9,
+        "temperature": 0.7,
+        "frequency_penalty": null
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "temperature",
+        "top_p",
+        "tools",
+        "tool_choice"
+      ],
+      "object": "model",
+      "owned_by": "meganova",
+      "created": 1765571302
+    },
+    {
+      "id": "Systran/faster-whisper-large-v3",
+      "name": "Faster-Whisper-Large-V3",
+      "tags": ["audio", "speech_to_text", "Whisper"],
+      "limits": {
+        "tokens_per_minute": null,
+        "requests_per_minute": null,
+        "max_completion_tokens": null
+      },
+      "default": false,
+      "pricing": {
+        "image": "0.00",
+        "prompt": "0.00",
+        "request": "0.00",
+        "completion": "0.00",
+        "web_search": "0.00",
+        "audio_per_minute": "0.0060",
+        "internal_reasoning": "0.00"
+      },
+      "description": "High-performance speech-to-text model optimized for fast, accurate transcription using an efficient Whisper-based architecture",
+      "architecture": {
+        "modality": "audio->text",
+        "tokenizer": null,
+        "instruct_type": "aligned",
+        "input_modalities": ["audio"],
+        "output_modalities": ["text"]
+      },
+      "capabilities": {
+        "audio": false,
+        "vision": false,
+        "completion": true,
+        "chat_completions": false,
+        "function_calling": false
+      },
+      "top_provider": {
+        "is_moderated": false,
+        "context_length": null,
+        "max_completion_tokens": null
+      },
+      "canonical_slug": "Systran/faster-whisper-large-v3",
+      "context_length": null,
+      "hugging_face_id": null,
+      "default_parameters": {
+        "top_p": 0.9,
+        "temperature": 0.7,
+        "frequency_penalty": null
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "temperature",
+        "top_p",
+        "tools",
+        "tool_choice"
+      ],
+      "object": "model",
+      "owned_by": "meganova",
+      "created": 1765571302
+    },
+    {
+      "id": "BAAI/bge-reranker-v2-m3",
+      "name": "BGE-reranker-v2-m3",
+      "tags": ["reranker", "free"],
+      "limits": {
+        "tokens_per_minute": null,
+        "requests_per_minute": null,
+        "max_completion_tokens": null
+      },
+      "default": false,
+      "pricing": {
+        "image": "0.00",
+        "prompt": "0.0000",
+        "request": "0.00",
+        "completion": "0.0000",
+        "web_search": "0.00",
+        "internal_reasoning": "0.00"
+      },
+      "description": "Multilingual reranker, query+passage \u2192 relevance score, lightweight & fast",
+      "architecture": {
+        "modality": "text->rerank",
+        "tokenizer": null,
+        "instruct_type": "aligned",
+        "input_modalities": ["text"],
+        "output_modalities": ["rerank"]
+      },
+      "capabilities": {
+        "audio": false,
+        "vision": false,
+        "completion": true,
+        "chat_completions": true,
+        "function_calling": false
+      },
+      "top_provider": {
+        "is_moderated": false,
+        "context_length": null,
+        "max_completion_tokens": null
+      },
+      "canonical_slug": "BAAI/bge-reranker-v2-m3",
+      "context_length": null,
+      "hugging_face_id": null,
+      "default_parameters": {
+        "top_p": 0.9,
+        "temperature": 0.7,
+        "frequency_penalty": null
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "temperature",
+        "top_p",
+        "tools",
+        "tool_choice"
+      ],
+      "object": "model",
+      "owned_by": "meganova",
+      "created": 1765571302
+    },
+    {
+      "id": "Alibaba/wan2.6-t2v",
+      "name": "Alibaba-Wan-2.6-T2V",
+      "tags": [
+        "text_to_video",
+        "best_video_generation",
+        "recently_added",
+        "featured",
+        "wan"
+      ],
+      "limits": {
+        "tokens_per_minute": null,
+        "requests_per_minute": null,
+        "max_completion_tokens": null
+      },
+      "default": false,
+      "pricing": {
+        "image": "0.00",
+        "prompt": "0.1000",
+        "request": "0.00",
+        "completion": "0.1000",
+        "web_search": "0.00",
+        "internal_reasoning": "0.00"
+      },
+      "description": "Alibaba Wan 2.6 Flash - Fast text-to-video generation. Supports 2-15 seconds at 720p/1080p.",
+      "architecture": {
+        "modality": "text->video",
+        "tokenizer": null,
+        "instruct_type": "aligned",
+        "input_modalities": ["text"],
+        "output_modalities": ["video"]
+      },
+      "capabilities": {
+        "audio": false,
+        "vision": false,
+        "completion": true,
+        "chat_completions": true,
+        "function_calling": false
+      },
+      "top_provider": {
+        "is_moderated": false,
+        "context_length": null,
+        "max_completion_tokens": null
+      },
+      "canonical_slug": "Alibaba/wan2.6-t2v",
+      "context_length": null,
+      "hugging_face_id": null,
+      "default_parameters": {
+        "top_p": 0.9,
+        "temperature": 0.7,
+        "frequency_penalty": null
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "temperature",
+        "top_p",
+        "tools",
+        "tool_choice"
+      ],
+      "object": "model",
+      "owned_by": "meganova",
+      "created": 1772052781
+    }
+  ]
+}

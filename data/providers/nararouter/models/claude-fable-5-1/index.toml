@@ -1,0 +1,18 @@
+id = "claude-fable-5.1"
+name = "Claude Fable 5.1"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2419131017351282
+input = 2.9683464295766107
+output = 14.841732147883054

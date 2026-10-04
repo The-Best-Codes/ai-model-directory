@@ -1,0 +1,12 @@
+id = "fibo-1.5"
+name = "FIBO 1.5"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,18 @@
+id = "deepseek-v4-pro-alibaba"
+name = "Deepseek v4 Pro 0813 Alibaba"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2501032229778454
+input = 1.8112079625574855
+output = 2.5356911475804798

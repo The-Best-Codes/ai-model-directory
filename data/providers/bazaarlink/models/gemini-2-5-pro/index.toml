@@ -1,0 +1,17 @@
+id = "gemini-2.5-pro"
+name = "Gemini 2.5 Pro"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 10

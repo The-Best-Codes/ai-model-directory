@@ -1,0 +1,22 @@
+id = "deepseek-ai/DeepSeek-V3.2"
+name = "DeepSeek-V3.2"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.13
+input = 0.26
+output = 0.38
+reasoning = 0

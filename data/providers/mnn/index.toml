@@ -1,0 +1,7 @@
+name = "MNN"
+website = "https://mnnai.ru"
+apiBaseUrl = "https://api.mnnai.ru/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["MNN_API_KEY"]

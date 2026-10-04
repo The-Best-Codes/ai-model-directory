@@ -1,0 +1,8 @@
+id = "gpt-4o-transcribe"
+
+[features]
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

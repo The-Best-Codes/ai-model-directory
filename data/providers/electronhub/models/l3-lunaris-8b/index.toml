@@ -1,0 +1,19 @@
+id = "l3-lunaris-8b"
+name = "Sao10K: L3 8B Lunaris"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 8000
+input = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

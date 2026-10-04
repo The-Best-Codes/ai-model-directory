@@ -1,0 +1,18 @@
+id = "minimax-m3"
+name = "MiniMax M3"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.029608741453919205
+input = 0.14804370721369456
+output = 0.5921748289106796

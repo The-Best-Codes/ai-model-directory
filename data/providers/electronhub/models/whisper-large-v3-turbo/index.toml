@@ -1,0 +1,9 @@
+id = "whisper-large-v3-turbo"
+name = "OpenAI: Whisper Large V3 Turbo"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

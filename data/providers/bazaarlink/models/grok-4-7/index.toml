@@ -1,0 +1,17 @@
+id = "grok-4.7"
+name = "Grok 4.7"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 500000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.6
+output = 4.8

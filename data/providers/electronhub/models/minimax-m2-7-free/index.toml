@@ -1,0 +1,15 @@
+id = "minimax-m2.7:free"
+name = "MiniMax: MiniMax M2.7 (free)"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 64000
+input = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

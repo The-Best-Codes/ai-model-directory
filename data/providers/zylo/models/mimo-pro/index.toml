@@ -1,0 +1,18 @@
+id = "mimo-pro"
+name = "Mimo V2 Pro"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 3

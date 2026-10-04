@@ -1,0 +1,9 @@
+id = "nai-diffusion-furry-3"
+name = "NovelAI: NAI Diffusion Furry V3"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

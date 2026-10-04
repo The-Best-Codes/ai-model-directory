@@ -1,0 +1,15 @@
+id = "text-embedding-3-large"
+name = "Text Embedding 3 Large"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.13
+output = 0

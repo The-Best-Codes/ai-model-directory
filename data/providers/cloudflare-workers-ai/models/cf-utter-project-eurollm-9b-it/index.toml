@@ -1,0 +1,14 @@
+id = "@cf/utter-project/eurollm-9b-it"
+name = "eurollm-9b-it"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,20 @@
+id = "longcat-flash-chat-thinking"
+name = "Meituan: LongCat Flash Chat (thinking)"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+input = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.003
+input = 0.15
+output = 1.5

@@ -1,0 +1,13 @@
+id = "qwen/qwen-image-3-pro"
+name = "Qwen Image 3 Pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

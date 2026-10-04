@@ -1,0 +1,9 @@
+id = "sdxl-turbo"
+name = "Stability: Stable Diffusion XL Turbo"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

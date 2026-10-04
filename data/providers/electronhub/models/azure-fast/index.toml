@@ -1,0 +1,9 @@
+id = "azure-fast"
+name = "Azure: Speech (fast)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

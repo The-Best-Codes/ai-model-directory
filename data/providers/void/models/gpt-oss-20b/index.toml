@@ -1,0 +1,8 @@
+id = "gpt-oss-20b"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

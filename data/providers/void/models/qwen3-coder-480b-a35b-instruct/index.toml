@@ -1,0 +1,8 @@
+id = "qwen3-coder-480b-a35b-instruct"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

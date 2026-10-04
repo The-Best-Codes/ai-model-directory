@@ -1,0 +1,11 @@
+id = "mistral-embed-2312"
+name = "Mistral: Mistral Embed 2312"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1

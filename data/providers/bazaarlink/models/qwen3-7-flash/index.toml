@@ -1,0 +1,17 @@
+id = "qwen3.7-flash"
+name = "Qwen3.7 Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03
+output = 0.13

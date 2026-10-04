@@ -1,0 +1,9 @@
+id = "nai-diffusion-4-5-full"
+name = "NovelAI: NAI Diffusion V4.5 Full"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

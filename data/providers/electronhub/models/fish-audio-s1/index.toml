@@ -1,0 +1,12 @@
+id = "fish-audio-s1"
+name = "Fish Audio: S1"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 15

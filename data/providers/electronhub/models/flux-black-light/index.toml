@@ -1,0 +1,9 @@
+id = "flux-black-light"
+name = "Replicate: Flux Black Light"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,9 @@
+id = "sdxl-zukibestanimemix-v10"
+name = "Stability: Zuki Best Anime Mix v1.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

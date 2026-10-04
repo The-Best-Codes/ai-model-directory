@@ -1,0 +1,17 @@
+id = "gemma-4-31b-it"
+name = "Gemma 4 31b It"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09
+output = 0.34

@@ -1,0 +1,24 @@
+id = "mistralai/mistral-medium-3"
+knowledge_cutoff = "1743379200"
+name = "Mistral: Mistral Medium 3"
+release_date = "1746627341"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 104857
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+input = 0.4
+output = 2

@@ -1,0 +1,9 @@
+id = "minimax/hailuo-3-max"
+name = "Hailuo 3 Max"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

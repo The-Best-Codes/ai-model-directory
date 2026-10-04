@@ -1,0 +1,20 @@
+id = "wizardlm-2-8x22b"
+name = "WizardLM 2 8x22B"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.31
+output = 0.31

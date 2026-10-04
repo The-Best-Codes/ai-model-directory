@@ -1,0 +1,19 @@
+id = "phi-4"
+name = "Microsoft: Phi 4"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 16000
+input = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.3

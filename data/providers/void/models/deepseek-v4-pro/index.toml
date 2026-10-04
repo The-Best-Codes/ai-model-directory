@@ -1,0 +1,8 @@
+id = "deepseek-v4-pro"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

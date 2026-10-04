@@ -1,0 +1,9 @@
+id = "grok-stt"
+name = "xAI: Grok STT"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

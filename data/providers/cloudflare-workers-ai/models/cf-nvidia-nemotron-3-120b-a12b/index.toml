@@ -1,0 +1,20 @@
+id = "@cf/nvidia/nemotron-3-120b-a12b"
+name = "nemotron-3-120b-a12b"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 1.5

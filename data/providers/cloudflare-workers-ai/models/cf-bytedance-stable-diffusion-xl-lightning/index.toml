@@ -1,0 +1,11 @@
+id = "@cf/bytedance/stable-diffusion-xl-lightning"
+name = "stable-diffusion-xl-lightning"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

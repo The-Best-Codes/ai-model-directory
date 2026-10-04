@@ -1,0 +1,9 @@
+id = "sdxl-oneforallanimew-il"
+name = "Stability: One For All Anime (Illustrious)"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "id": "alibaba/wan3.0-text-to-video",
+      "object": "model",
+      "created": 1791088393,
+      "owned_by": "alibaba",
+      "name": "Wan3.0 Text To Video",
+      "description": null,
+      "context_length": 0,
+      "aliases": [],
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "architecture": {
+        "modality": "text->video",
+        "input_modalities": ["text"],
+        "output_modalities": ["video"]
+      }
+    },
+    {
+      "id": "gpt-4o",
+      "object": "model",
+      "created": 1791088393,
+      "owned_by": "openai",
+      "name": "GPT 4o",
+      "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of GPT-4 Turbo while being twice as...",
+      "context_length": 128000,
+      "aliases": ["openai/gpt-4o"],
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001"
+      },
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": ["text", "image", "file"],
+        "output_modalities": ["text"]
+      }
+    },
+    {
+      "id": "auto",
+      "object": "model",
+      "created": 1791088393,
+      "owned_by": "bazaarlink",
+      "name": "Auto Router",
+      "description": "Automatically selects the best model for the request.",
+      "aliases": [],
+      "pricing": {
+        "prompt": "-1",
+        "completion": "-1"
+      },
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": ["text"],
+        "output_modalities": ["text"]
+      }
+    },
+    {
+      "id": "auto:free",
+      "object": "model",
+      "created": 1791088393,
+      "owned_by": "bazaarlink",
+      "name": "Auto Router (free)",
+      "description": "Automatically routes to a free model. Always free, rate-limited.",
+      "aliases": [],
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": ["text"],
+        "output_modalities": ["text"]
+      }
+    }
+  ]
+}

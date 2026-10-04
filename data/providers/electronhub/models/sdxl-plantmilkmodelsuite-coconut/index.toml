@@ -1,0 +1,9 @@
+id = "sdxl-plantmilkmodelsuite-coconut"
+name = "Stability: Plant Milk Model Suite (Coconut)"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

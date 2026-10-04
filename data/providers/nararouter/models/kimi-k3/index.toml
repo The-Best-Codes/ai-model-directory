@@ -1,0 +1,18 @@
+id = "kimi-k3"
+name = "Kimi K3"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.14495187320140732
+input = 0.890503928867393
+output = 4.452519644392867

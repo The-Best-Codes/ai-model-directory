@@ -1,0 +1,9 @@
+id = "sdxl-illustrij-v17"
+name = "Stability: Illustrij v1.7"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

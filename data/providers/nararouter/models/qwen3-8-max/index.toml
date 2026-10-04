@@ -1,0 +1,18 @@
+id = "qwen3.8-max"
+name = "Qwen3.8-Max"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.07420866075758324
+input = 0.5936692858929615
+output = 1.781007857734786

@@ -1,0 +1,16 @@
+id = "qwen3-vl-8b-instruct"
+name = "Qwen3 Vl 8b Instruct"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.117
+output = 0.455

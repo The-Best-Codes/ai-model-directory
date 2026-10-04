@@ -1,0 +1,9 @@
+id = "grok-imagine-quality-edit"
+name = "xAI: Grok Imagine Quality (image-to-image)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

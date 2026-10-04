@@ -1,0 +1,9 @@
+id = "sdxl-novaanimexl-ilv60"
+name = "Stability: Nova Anime XL IL v6.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

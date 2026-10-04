@@ -1,0 +1,9 @@
+id = "flux-schnell"
+name = "BlackForestLabs: FLUX.1 [schnell]"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

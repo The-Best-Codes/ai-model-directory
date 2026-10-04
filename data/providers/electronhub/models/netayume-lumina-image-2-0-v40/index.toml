@@ -1,0 +1,9 @@
+id = "netayume-lumina-image-2.0-v40"
+name = "Neta Art: NetaYume Lumina Image 2.0 v40"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

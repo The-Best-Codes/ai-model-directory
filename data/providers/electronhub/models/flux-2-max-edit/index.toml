@@ -1,0 +1,9 @@
+id = "flux-2-max-edit"
+name = "BlackForestLabs: Flux 2 Max - Edit"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

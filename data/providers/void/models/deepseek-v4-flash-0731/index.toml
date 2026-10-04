@@ -1,0 +1,8 @@
+id = "deepseek-v4-flash-0731"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

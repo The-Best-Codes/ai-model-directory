@@ -1,0 +1,14 @@
+id = "gpt-5-image-mini"
+name = "GPT-5 Image Mini"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

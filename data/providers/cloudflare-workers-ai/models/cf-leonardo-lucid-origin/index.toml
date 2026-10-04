@@ -1,0 +1,11 @@
+id = "@cf/leonardo/lucid-origin"
+name = "lucid-origin"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

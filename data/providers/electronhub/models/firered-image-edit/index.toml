@@ -1,0 +1,9 @@
+id = "firered-image-edit"
+name = "Xiaohongshu: Firered Image (image-to-image)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

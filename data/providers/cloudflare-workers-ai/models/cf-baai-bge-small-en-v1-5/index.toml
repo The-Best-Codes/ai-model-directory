@@ -1,0 +1,13 @@
+id = "@cf/baai/bge-small-en-v1.5"
+name = "bge-small-en-v1.5"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0202

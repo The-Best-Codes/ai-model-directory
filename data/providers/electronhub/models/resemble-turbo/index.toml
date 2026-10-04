@@ -1,0 +1,12 @@
+id = "resemble-turbo"
+name = "Resemble: Turbo"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 8

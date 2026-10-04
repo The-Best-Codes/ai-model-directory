@@ -1,0 +1,9 @@
+id = "nvidia-parakeet-v3"
+name = "NVIDIA: Parakeet v3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

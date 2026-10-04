@@ -1,0 +1,17 @@
+id = "glm-5v-turbo"
+name = "Glm 5v Turbo"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 202800
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.2
+output = 4

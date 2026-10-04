@@ -1,0 +1,19 @@
+id = "qwen3.5-27b-marvin-dpo-v2-derestricted"
+name = "HuggingFace: Qwen3.5-27B-Marvin-DPO-V2-Derestricted"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262000
+input = 262000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 1.2

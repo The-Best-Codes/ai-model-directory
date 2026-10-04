@@ -1,0 +1,8 @@
+id = "claude-sonnet-4-6"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

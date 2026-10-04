@@ -1,0 +1,18 @@
+id = "qwen3.8-27b"
+name = "Qwen 3.8 27B"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.044333632378525945
+input = 0.06324931551700742
+output = 0.7536717502113351

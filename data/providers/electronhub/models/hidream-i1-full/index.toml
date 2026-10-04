@@ -1,0 +1,9 @@
+id = "hidream-i1-full"
+name = "HiDream: HiDream I1 Full"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

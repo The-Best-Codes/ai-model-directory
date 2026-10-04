@@ -1,0 +1,17 @@
+id = "poolside/laguna-xs-2.1"
+name = "Laguna XS 2.1"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.6

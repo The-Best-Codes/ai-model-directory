@@ -1,0 +1,9 @@
+id = "distil-whisper-large-v2"
+name = "Distil-Whisper: Large V2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

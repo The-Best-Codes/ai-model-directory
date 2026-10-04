@@ -1,0 +1,10 @@
+id = "agnes-image-2.1-flash"
+name = "Agnes Image 2.1 Flash"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

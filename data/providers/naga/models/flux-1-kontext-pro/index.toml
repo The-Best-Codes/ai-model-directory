@@ -1,0 +1,12 @@
+id = "flux-1-kontext-pro"
+name = "Flux 1 Kontext Pro"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

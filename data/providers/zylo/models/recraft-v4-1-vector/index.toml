@@ -1,0 +1,14 @@
+id = "recraft-v4.1-vector"
+name = "Recraft V4.1 Vector"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

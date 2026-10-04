@@ -1,0 +1,15 @@
+id = "gpt-image-1.5-2025-12-16"
+name = "GPT Image 1.5"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 2.5

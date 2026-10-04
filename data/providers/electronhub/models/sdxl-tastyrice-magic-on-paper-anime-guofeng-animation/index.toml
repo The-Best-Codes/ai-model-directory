@@ -1,0 +1,9 @@
+id = "sdxl-tastyrice-magic-on-paper-anime-guofeng-animation"
+name = "Stability: TastyRice Magic on Paper (anime Guofeng Animation)"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

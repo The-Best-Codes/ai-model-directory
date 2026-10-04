@@ -1,0 +1,9 @@
+id = "qwen-image-2-pro-edit"
+name = "Alibaba: Qwen Image 2 Pro (image-to-image)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

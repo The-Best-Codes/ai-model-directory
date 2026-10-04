@@ -1,0 +1,18 @@
+id = "gemini-3.8-flash-high"
+name = "Gemini 3.8 Flash High"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.005938263656426869
+input = 0.03702204443392936
+output = 0.18511022205784383

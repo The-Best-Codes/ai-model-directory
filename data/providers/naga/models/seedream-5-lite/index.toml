@@ -1,0 +1,12 @@
+id = "seedream-5-lite"
+name = "Seedream 5 Lite"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "mistral-moderation-2411"
+name = "Mistral Moderation 2411"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05

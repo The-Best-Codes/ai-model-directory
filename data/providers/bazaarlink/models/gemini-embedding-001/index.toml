@@ -1,0 +1,15 @@
+id = "gemini-embedding-001"
+name = "Gemini Embedding"
+
+[features]
+attachment = false
+
+[limit]
+context = 20000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0

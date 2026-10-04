@@ -1,0 +1,18 @@
+id = "gemini/gemini-2.5-pro-tts"
+name = "Gemini-2.5-Pro-TTS"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 16
+reasoning = 0

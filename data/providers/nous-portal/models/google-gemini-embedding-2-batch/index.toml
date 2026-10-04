@@ -1,0 +1,22 @@
+id = "google/gemini-embedding-2:batch"
+name = "Google: Gemini Embedding 2 (batch)"
+release_date = "1779290135"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 7372
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+
+[pricing]
+input = 0.1
+input_audio = 3.25
+output = 0

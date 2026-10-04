@@ -1,0 +1,21 @@
+id = "voyageai/voyage-multimodal-3.5"
+name = "VoyageAI by MongoDB: voyage-multimodal-3.5"
+release_date = "1785188629"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 28800
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.12
+output = 0

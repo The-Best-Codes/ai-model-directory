@@ -1,0 +1,9 @@
+id = "sdxl-aungir-testa"
+name = "Stability: Aungir TestA"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

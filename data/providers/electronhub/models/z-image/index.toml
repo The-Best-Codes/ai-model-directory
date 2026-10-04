@@ -1,0 +1,9 @@
+id = "z-image"
+name = "Alibaba: Z-Image"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

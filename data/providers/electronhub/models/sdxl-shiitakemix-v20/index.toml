@@ -1,0 +1,9 @@
+id = "sdxl-shiitakemix-v20"
+name = "Stability: Shiitake Mix v2.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

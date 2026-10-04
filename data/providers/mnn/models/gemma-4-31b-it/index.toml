@@ -1,0 +1,14 @@
+id = "gemma-4-31b-it"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.14
+output = 0.4

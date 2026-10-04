@@ -1,0 +1,18 @@
+id = "glm-5.2"
+name = "GLM 5.2"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.044289385015212505
+input = 0.17715754006085002
+output = 0.5905251335175329

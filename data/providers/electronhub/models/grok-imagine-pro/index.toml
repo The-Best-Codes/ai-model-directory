@@ -1,0 +1,9 @@
+id = "grok-imagine-pro"
+name = "xAI: Grok Imagine Pro"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,8 @@
+id = "gpt-image-1"
+
+[features]
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

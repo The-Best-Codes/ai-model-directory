@@ -1,0 +1,9 @@
+id = "flux-2-klein-4b"
+name = "BlackForestLabs: FLUX.2 [klein] 4B"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

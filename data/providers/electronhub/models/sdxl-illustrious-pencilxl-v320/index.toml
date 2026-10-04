@@ -1,0 +1,9 @@
+id = "sdxl-illustrious-pencilxl-v320"
+name = "Stability: Illustrious PencilXL v3.20"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

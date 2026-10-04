@@ -1,0 +1,9 @@
+id = "flux-1.1-pro-ultra"
+name = "BlackForestLabs: FLUX1.1 [pro] ultra"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,14 @@
+id = "flux-2"
+name = "Flux 2"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

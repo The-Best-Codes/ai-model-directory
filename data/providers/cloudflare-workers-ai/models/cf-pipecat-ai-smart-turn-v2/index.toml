@@ -1,0 +1,10 @@
+id = "@cf/pipecat-ai/smart-turn-v2"
+name = "smart-turn-v2"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]

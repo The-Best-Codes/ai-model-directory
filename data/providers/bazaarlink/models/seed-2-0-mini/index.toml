@@ -1,0 +1,17 @@
+id = "seed-2.0-mini"
+name = "Seed 2.0 Mini"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.4

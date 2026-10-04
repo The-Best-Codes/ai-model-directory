@@ -1,0 +1,17 @@
+id = "qwen3-coder-plus"
+name = "Qwen3 Coder Plus"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.65
+output = 3.25

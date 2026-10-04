@@ -1,0 +1,14 @@
+id = "Qwen/Qwen3-Embedding-8B"
+name = "Qwen3-Embedding-8B"
+
+[features]
+attachment = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
+reasoning = 0

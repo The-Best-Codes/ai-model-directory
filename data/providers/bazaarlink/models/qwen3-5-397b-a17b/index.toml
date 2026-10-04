@@ -1,0 +1,17 @@
+id = "qwen3.5-397b-a17b"
+name = "Qwen3.5 397b A17b"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.55
+output = 3.5

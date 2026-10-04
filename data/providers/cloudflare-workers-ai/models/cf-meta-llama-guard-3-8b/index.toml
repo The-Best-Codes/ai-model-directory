@@ -1,0 +1,20 @@
+id = "@cf/meta/llama-guard-3-8b"
+name = "llama-guard-3-8b"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.484
+output = 0.03

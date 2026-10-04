@@ -1,0 +1,17 @@
+id = "qwen3.5-35b-a3b"
+name = "Qwen3.5 35b A3b"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3125
+output = 1.25

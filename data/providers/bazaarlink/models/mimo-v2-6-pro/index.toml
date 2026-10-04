@@ -1,0 +1,17 @@
+id = "mimo-v2.6-pro"
+name = "Mimo V2.6 Pro"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.435
+output = 0.87

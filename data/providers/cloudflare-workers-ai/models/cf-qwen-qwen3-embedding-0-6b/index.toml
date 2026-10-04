@@ -1,0 +1,16 @@
+id = "@cf/qwen/qwen3-embedding-0.6b"
+name = "qwen3-embedding-0.6b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0118

@@ -1,0 +1,14 @@
+id = "nanobanana"
+name = "Nano Banana (Gemini 2.5 Flash Image)"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
