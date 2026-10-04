@@ -3,7 +3,7 @@ import { z } from "zod";
 import { fetchJson } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import { integerGreaterThanZero } from "../lib/model.ts";
-import { filterModalities } from "./helpers.ts";
+import { filterModalities, hasAttachmentSupport } from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const responseSchema = z.object({
@@ -32,9 +32,10 @@ export const voidProvider: ProviderDefinition = {
       true,
     );
     return response.data.map((model) => {
-      const image = model.endpoints.some((endpoint) =>
-        endpoint.includes("/images/"),
-      );
+      const geminiImage = /^gemini-.*-image(?:-|$)/.test(model.id);
+      const image =
+        geminiImage ||
+        model.endpoints.some((endpoint) => endpoint.includes("/images/"));
       const speech = model.endpoints.includes("/v1/audio/speech");
       const transcription = model.endpoints.some((endpoint) =>
         /audio\/(transcriptions|translations)/.test(endpoint),
@@ -44,11 +45,15 @@ export const voidProvider: ProviderDefinition = {
       );
       const input = filterModalities([
         transcription ? "audio" : "text",
-        ...(model.endpoints.includes("/v1/images/edits") ? ["image"] : []),
+        ...(geminiImage || model.endpoints.includes("/v1/images/edits")
+          ? ["image"]
+          : []),
       ]);
       const output = filterModalities(
         image
-          ? ["image"]
+          ? geminiImage
+            ? ["text", "image"]
+            : ["image"]
           : speech
             ? ["audio"]
             : transcription || chat
@@ -61,7 +66,10 @@ export const voidProvider: ProviderDefinition = {
           context: integerGreaterThanZero(model.max_context_tokens),
           output: integerGreaterThanZero(model.max_output_tokens),
         }),
-        features: { tool_call: model.supports_tool_calling },
+        features: compactObject({
+          attachment: hasAttachmentSupport(input) || undefined,
+          tool_call: model.supports_tool_calling,
+        }),
         modalities: compactObject({ input, output }),
       });
     });
