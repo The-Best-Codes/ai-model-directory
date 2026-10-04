@@ -1,0 +1,11 @@
+id = "minimax/h3-max-turbo/extend-video"
+name = "H3 Max Turbo Extend Video"
+open_weights = true
+release_date = "1790899200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

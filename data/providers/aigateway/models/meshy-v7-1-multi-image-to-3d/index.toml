@@ -1,7 +1,7 @@
 id = "meshy/v7.1/multi-image-to-3d"
 name = "Meshy 7.1 Multi Image to 3D"
 open_weights = true
-release_date = "1789948800"
+release_date = "1790899200"
 
 [features]
 attachment = true

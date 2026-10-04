@@ -1,6 +1,6 @@
 id = "deepseek-v3.2-exp"
 name = "deepseek-v3.2-exp"
-release_date = "1791002196"
+release_date = "1791090515"
 
 [features]
 attachment = false
@@ -12,5 +12,6 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.02
+cache_write = 0
 input = 0.2
 output = 0.3

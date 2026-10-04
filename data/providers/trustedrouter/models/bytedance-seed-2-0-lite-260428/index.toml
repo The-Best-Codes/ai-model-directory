@@ -1,0 +1,17 @@
+id = "bytedance/seed-2-0-lite-260428"
+name = "seed-2-0-lite"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.26375
+output = 2.11

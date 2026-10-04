@@ -1,7 +1,7 @@
 id = "ideogram/v4.5"
 name = "Ideogram V4.5 Text to Image"
 open_weights = true
-release_date = "1790726400"
+release_date = "1790899200"
 
 [features]
 attachment = false

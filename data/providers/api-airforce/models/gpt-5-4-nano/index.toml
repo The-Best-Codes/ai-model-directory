@@ -1,6 +1,6 @@
 id = "gpt-5.4-nano"
 name = "gpt-5.4-nano"
-release_date = "1791002196"
+release_date = "1791090515"
 
 [features]
 attachment = false
@@ -12,5 +12,6 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.07
+cache_write = 0
 input = 0.14
 output = 0.75
