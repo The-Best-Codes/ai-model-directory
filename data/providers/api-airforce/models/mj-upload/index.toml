@@ -1,6 +1,6 @@
 id = "mj_upload"
 name = "mj_upload"
-release_date = "1791090515"
+release_date = "1791140611"
 
 [features]
 attachment = false

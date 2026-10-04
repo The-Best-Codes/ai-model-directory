@@ -1,0 +1,12 @@
+id = "jev"
+name = "TypeSafe: Jev"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0

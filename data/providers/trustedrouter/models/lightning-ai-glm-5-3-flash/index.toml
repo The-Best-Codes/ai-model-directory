@@ -1,0 +1,17 @@
+id = "lightning-ai/glm-5.3-flash"
+name = "glm-5.3-flash"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 253952
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15825
+output = 0.5275

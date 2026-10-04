@@ -1,6 +1,6 @@
 id = "omni-fast"
 name = "omni-fast"
-release_date = "1791090515"
+release_date = "1791140611"
 
 [features]
 attachment = false

@@ -1,0 +1,12 @@
+id = "clef-flash"
+name = "clef-flash"
+open_weights = true
+release_date = "1790726400"
+
+[features]
+structured_output = false
+tool_call = false
+
+[pricing]
+input = 0
+output = 0
