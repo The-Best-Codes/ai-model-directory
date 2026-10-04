@@ -1,6 +1,6 @@
 id = "qwen3.8-flash"
 name = "qwen3.8-flash"
-release_date = "1791140611"
+release_date = "1791141271"
 
 [features]
 attachment = false
