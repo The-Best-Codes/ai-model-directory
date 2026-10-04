@@ -1,0 +1,17 @@
+id = "cloudflare/clef"
+name = "clef"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 65536
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.24

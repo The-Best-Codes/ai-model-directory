@@ -1,0 +1,11 @@
+id = "blackforestlabs/flux-3/edit-image"
+name = "Flux 3 Image (Edit Image)"
+open_weights = true
+release_date = "1790899200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

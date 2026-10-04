@@ -1,0 +1,13 @@
+id = "fastino/glide"
+name = "GLiDE"
+release_date = "1791009286"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 40000
+
+[modalities]
+input = [ "text" ]

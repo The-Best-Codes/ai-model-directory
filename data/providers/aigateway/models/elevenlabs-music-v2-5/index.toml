@@ -1,7 +1,7 @@
 id = "elevenlabs/music/v2.5"
 name = "Elevenlabs Music v2.5"
 open_weights = true
-release_date = "1789430400"
+release_date = "1790899200"
 
 [features]
 attachment = false

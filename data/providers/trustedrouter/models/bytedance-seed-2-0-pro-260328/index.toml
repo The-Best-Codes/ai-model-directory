@@ -1,0 +1,17 @@
+id = "bytedance/seed-2-0-pro-260328"
+name = "seed-2-0-pro"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5275
+output = 3.165

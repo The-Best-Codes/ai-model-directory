@@ -1,7 +1,7 @@
 id = "meshy/v7/text-to-3d"
 name = "V7 Text to 3D"
 open_weights = true
-release_date = "1787529600"
+release_date = "1790899200"
 
 [features]
 attachment = false

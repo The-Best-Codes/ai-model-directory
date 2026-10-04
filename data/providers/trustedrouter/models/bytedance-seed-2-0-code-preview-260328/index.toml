@@ -1,0 +1,17 @@
+id = "bytedance/seed-2-0-code-preview-260328"
+name = "seed-2-0-code"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5275
+output = 3.165
