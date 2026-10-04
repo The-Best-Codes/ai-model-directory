@@ -1,0 +1,9 @@
+id = "alibaba/hh1.1-i2v"
+name = "HappyHorse 1.1 I2V"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

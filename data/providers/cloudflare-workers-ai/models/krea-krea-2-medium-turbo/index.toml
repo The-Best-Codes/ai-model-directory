@@ -1,0 +1,9 @@
+id = "krea/krea-2-medium-turbo"
+name = "Krea 2 Medium Turbo"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

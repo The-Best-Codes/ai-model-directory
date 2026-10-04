@@ -1,0 +1,6 @@
+id = "vidu/q3-pro"
+name = "Vidu Q3 Pro"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

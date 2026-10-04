@@ -1,0 +1,9 @@
+id = "krea/krea-2-large"
+name = "Krea 2 Large"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

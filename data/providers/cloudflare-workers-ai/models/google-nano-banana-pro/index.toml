@@ -1,0 +1,13 @@
+id = "google/nano-banana-pro"
+name = "Nano Banana Pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 2
+output = 120

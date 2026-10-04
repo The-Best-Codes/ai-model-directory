@@ -1,0 +1,9 @@
+id = "black-forest-labs/flux-2-pro-preview"
+name = "FLUX.2 [pro]"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

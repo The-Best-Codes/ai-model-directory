@@ -1,0 +1,13 @@
+id = "google/nano-banana-2"
+name = "Nano Banana 2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0.5
+output = 60

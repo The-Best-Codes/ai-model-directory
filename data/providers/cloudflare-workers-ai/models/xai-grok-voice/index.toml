@@ -1,0 +1,5 @@
+id = "xai/grok-voice"
+name = "Grok Voice"
+
+[modalities]
+input = [ "text" ]

@@ -1,0 +1,9 @@
+id = "pruna/p-video-avatar"
+name = "P-Video-Avatar"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

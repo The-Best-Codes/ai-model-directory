@@ -1,0 +1,6 @@
+id = "vidu/q3-turbo"
+name = "Vidu Q3 Turbo"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

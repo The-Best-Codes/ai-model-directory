@@ -1,0 +1,6 @@
+id = "pixverse/v5.6"
+name = "Pixverse v5.6"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

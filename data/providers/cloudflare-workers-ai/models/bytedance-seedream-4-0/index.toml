@@ -1,0 +1,9 @@
+id = "bytedance/seedream-4.0"
+name = "Seedream 4.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,10 @@
+id = "assemblyai/universal-3.5-pro"
+name = "AssemblyAI Universal-3.5 Pro"
+
+[features]
+attachment = true
+temperature = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

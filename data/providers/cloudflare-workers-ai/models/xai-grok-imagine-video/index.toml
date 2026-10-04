@@ -1,0 +1,6 @@
+id = "xai/grok-imagine-video"
+name = "Grok Imagine Video"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

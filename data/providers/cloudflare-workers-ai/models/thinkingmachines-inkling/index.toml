@@ -1,0 +1,19 @@
+id = "thinkingmachines/inkling"
+name = "Inkling"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.374
+cache_write = 1.87
+input = 1.87
+output = 4.68

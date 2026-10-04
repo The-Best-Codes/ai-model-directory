@@ -1,0 +1,6 @@
+id = "elevenlabs/eleven-v3"
+name = "Eleven v3"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

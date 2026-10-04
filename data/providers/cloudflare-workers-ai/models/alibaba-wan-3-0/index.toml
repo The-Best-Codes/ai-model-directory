@@ -1,0 +1,6 @@
+id = "alibaba/wan-3.0"
+name = "Wan 3.0 Video"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

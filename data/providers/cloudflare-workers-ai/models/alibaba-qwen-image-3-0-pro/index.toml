@@ -1,0 +1,6 @@
+id = "alibaba/qwen-image-3.0-pro"
+name = "Qwen Image 3.0 Pro"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

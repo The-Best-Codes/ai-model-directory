@@ -1,0 +1,9 @@
+id = "pruna/p-image-edit"
+name = "P-Image-Edit"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

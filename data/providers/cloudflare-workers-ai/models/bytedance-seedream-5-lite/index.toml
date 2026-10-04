@@ -1,0 +1,6 @@
+id = "bytedance/seedream-5-lite"
+name = "Seedream 5 Lite"
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

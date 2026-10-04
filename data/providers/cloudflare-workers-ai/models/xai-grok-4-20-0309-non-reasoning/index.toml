@@ -1,0 +1,18 @@
+id = "xai/grok-4.20-0309-non-reasoning"
+name = "Grok 4.20 Non-Reasoning"
+
+[features]
+structured_output = true
+temperature = true
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 6

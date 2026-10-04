@@ -1,0 +1,6 @@
+id = "alibaba/hh1-t2v"
+name = "HappyHorse 1.0 T2V"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

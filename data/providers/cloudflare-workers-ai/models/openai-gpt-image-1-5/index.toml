@@ -1,0 +1,14 @@
+id = "openai/gpt-image-1.5"
+name = "GPT Image 1.5"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 1.25
+input = 5
+output = 10

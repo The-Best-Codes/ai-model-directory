@@ -1,0 +1,9 @@
+id = "inworld/tts-2"
+name = "Inworld TTS 2"
+
+[features]
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

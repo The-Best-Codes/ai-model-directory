@@ -1,0 +1,6 @@
+id = "bytedance/seedance-2.0-fast"
+name = "Seedance 2.0 Fast"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

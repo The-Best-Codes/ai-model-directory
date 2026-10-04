@@ -1,0 +1,16 @@
+id = "google/nano-banana-2-lite"
+name = "Nano Banana 2 Lite"
+
+[features]
+attachment = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0.25
+output = 30

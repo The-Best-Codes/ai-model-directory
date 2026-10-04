@@ -1,0 +1,14 @@
+id = "alibaba/qwen3-max"
+name = "Qwen 3 Max"
+
+[features]
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.2
+output = 6

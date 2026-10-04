@@ -1,0 +1,9 @@
+id = "recraft/recraftv4-1-pro-vector"
+name = "Recraft V4.1 Pro SVG"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

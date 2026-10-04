@@ -1,0 +1,9 @@
+id = "pruna/p-video-replace"
+name = "P-Video-Replace"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

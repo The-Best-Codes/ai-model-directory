@@ -1,0 +1,9 @@
+id = "alibaba/wan-2.7-i2v"
+name = "Wan 2.7 I2V"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

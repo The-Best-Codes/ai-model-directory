@@ -1,0 +1,19 @@
+id = "thinkingmachines/inkling-256k"
+name = "Inkling 256K"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.748
+cache_write = 3.74
+input = 3.74
+output = 9.36

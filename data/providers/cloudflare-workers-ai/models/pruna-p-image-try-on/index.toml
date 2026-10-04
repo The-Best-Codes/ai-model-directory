@@ -1,0 +1,9 @@
+id = "pruna/p-image-try-on"
+name = "P-Image Try-On"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

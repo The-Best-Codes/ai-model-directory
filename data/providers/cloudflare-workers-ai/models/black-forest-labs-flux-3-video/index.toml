@@ -1,0 +1,6 @@
+id = "black-forest-labs/flux-3-video"
+name = "FLUX 3 Video"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

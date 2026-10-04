@@ -1,0 +1,6 @@
+id = "alibaba/wan-3.0-prime"
+name = "Wan 3.0 Prime Video"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

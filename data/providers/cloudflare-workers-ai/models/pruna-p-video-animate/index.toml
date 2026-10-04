@@ -1,0 +1,9 @@
+id = "pruna/p-video-animate"
+name = "P-Video-Animate"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

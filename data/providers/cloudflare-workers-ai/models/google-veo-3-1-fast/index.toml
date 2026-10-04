@@ -1,0 +1,6 @@
+id = "google/veo-3.1-fast"
+name = "Veo 3.1 Fast"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

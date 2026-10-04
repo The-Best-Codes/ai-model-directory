@@ -1,0 +1,9 @@
+id = "xai/grok-imagine-video-1.5-preview"
+name = "Grok Imagine Video 1.5 Preview"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
