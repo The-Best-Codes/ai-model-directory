@@ -1,5 +1,5 @@
-name = "Cloudflare Workers AI"
-website = "https://developers.cloudflare.com/workers-ai"
+name = "Cloudflare AI"
+website = "https://developers.cloudflare.com/ai/models/"
 apiBaseUrl = "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/ai/v1"
 
 [aiSdk]
