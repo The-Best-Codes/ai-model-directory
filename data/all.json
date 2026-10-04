@@ -338233,9 +338233,9 @@
       }
     }
   },
-  "void": {
-    "id": "void",
-    "name": "Void",
+  "void-ai": {
+    "id": "void-ai",
+    "name": "Void AI",
     "website": "https://voidai.app",
     "apiBaseUrl": "https://api.voidai.app/v1",
     "aiSdk": {

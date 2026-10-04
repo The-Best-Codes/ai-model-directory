@@ -18,14 +18,14 @@ const responseSchema = z.object({
   ),
 });
 
-export const voidProvider: ProviderDefinition = {
-  name: "void",
-  outputDirectory: "data/providers/void/models",
+export const voidAiProvider: ProviderDefinition = {
+  name: "void-ai",
+  outputDirectory: "data/providers/void-ai/models",
   async fetchModels(progress) {
     progress?.beginPhase("fetching", 1);
     const response = await fetchJson("https://api.voidai.app/v1/models", {
       schema: responseSchema,
-      label: "void models API error",
+      label: "void-ai models API error",
     });
     progress?.tick(
       `https://api.voidai.app/v1/models (${response.data.length})`,
