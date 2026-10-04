@@ -1,0 +1,17 @@
+id = "glm-4.5-air"
+name = "Glm 4.5 Air"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.13
+output = 0.85

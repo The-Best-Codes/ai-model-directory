@@ -1,0 +1,18 @@
+id = "step-5-preview"
+name = "Step 5 Preview"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.009503251655394214
+input = 0.10007469200267725
+output = 0.30022407606393325

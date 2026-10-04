@@ -1,0 +1,13 @@
+id = "@cf/pfnet/plamo-embedding-1b"
+name = "plamo-embedding-1b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0186

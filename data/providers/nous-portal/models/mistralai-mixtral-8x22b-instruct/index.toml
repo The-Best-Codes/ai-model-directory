@@ -1,0 +1,25 @@
+id = "mistralai/mixtral-8x22b-instruct"
+knowledge_cutoff = "1706659200"
+name = "Mistral: Mixtral 8x22B Instruct"
+open_weights = true
+release_date = "1713312000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 65536
+output = 52428
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 6

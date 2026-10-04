@@ -1,0 +1,11 @@
+id = "gemini-embedding-2-preview"
+name = "Google: Gemini Embedding 2 Preview"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.2

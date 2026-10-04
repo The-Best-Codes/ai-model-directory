@@ -1,0 +1,9 @@
+id = "wan-2-7-pro-edit"
+name = "Alibaba: Wan 2.7 Pro (image-to-image)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

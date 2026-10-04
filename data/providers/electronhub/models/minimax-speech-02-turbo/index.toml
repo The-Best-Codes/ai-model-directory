@@ -1,0 +1,12 @@
+id = "minimax-speech-02-turbo"
+name = "MiniMax: Speech 02 Turbo"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 34

@@ -1,0 +1,6 @@
+id = "elevenlabs/music-v2"
+name = "ElevenLabs Music v2"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,19 @@
+id = "anthropic/claude-opus-5.5"
+name = "Claude Opus 5.5"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 5
+input = 4
+output = 20

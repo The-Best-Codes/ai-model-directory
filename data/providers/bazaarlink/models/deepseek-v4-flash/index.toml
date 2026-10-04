@@ -1,0 +1,17 @@
+id = "deepseek-v4-flash"
+name = "Deepseek V4 Flash"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.4

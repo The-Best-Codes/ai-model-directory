@@ -1,0 +1,21 @@
+id = "qwen-2.5-coder-7b-instruct"
+name = "Alibaba: Qwen2.5 Coder 7B Instruct"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 32000
+input = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+cache_write = 0.25
+input = 0.2
+output = 0.2

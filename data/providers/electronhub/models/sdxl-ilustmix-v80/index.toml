@@ -1,0 +1,9 @@
+id = "sdxl-ilustmix-v80"
+name = "Stability: Ilustmix v8.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,9 @@
+id = "flux-dreamscape"
+name = "Replicate: Flux Dreamscape"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

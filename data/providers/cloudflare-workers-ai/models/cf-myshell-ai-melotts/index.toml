@@ -1,0 +1,11 @@
+id = "@cf/myshell-ai/melotts"
+name = "melotts"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

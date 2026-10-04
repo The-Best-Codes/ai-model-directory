@@ -1,0 +1,17 @@
+id = "claude-sonnet-5"
+name = "Claude Sonnet 5"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 10

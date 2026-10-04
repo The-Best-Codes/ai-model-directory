@@ -1,0 +1,18 @@
+id = "mistral-small-2503"
+name = "Mistral Small 2503"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0075
+input = 0.075
+output = 0.3

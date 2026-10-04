@@ -1,0 +1,9 @@
+id = "sdxl-naixl-mmmix-v45"
+name = "Stability: Naixl Mmmix v4.5"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

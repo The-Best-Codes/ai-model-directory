@@ -1,0 +1,17 @@
+id = "gemini-2.5-pro-preview"
+name = "Gemini 2.5 Pro Preview"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 10

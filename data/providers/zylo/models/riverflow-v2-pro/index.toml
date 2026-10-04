@@ -1,0 +1,14 @@
+id = "riverflow-v2-pro"
+name = "Riverflow V2 Pro"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

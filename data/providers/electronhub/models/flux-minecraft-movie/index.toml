@@ -1,0 +1,9 @@
+id = "flux-minecraft-movie"
+name = "Replicate: Flux Minecraft Movie"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,18 @@
+id = "xai/grok-4.20-multi-agent-0309"
+name = "Grok 4.20 Multi-Agent"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 6

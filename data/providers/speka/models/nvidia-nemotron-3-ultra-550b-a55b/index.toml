@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3-ultra-550b-a55b"
+name = "Nemotron 3 Ultra 550B"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.9
+output = 2.7

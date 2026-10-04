@@ -1,0 +1,16 @@
+id = "@cf/baai/bge-base-en-v1.5"
+name = "bge-base-en-v1.5"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 153600
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0666

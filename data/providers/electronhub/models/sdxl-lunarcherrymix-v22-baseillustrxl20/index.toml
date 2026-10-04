@@ -1,0 +1,9 @@
+id = "sdxl-lunarcherrymix-v22-baseillustrxl20"
+name = "Stability: Lunarcherrymix v2.2 BaseIllustrxl20"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

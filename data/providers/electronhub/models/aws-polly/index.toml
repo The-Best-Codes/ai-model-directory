@@ -1,0 +1,12 @@
+id = "aws-polly"
+name = "AWS: Polly Neural"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 24

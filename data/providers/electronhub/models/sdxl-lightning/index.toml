@@ -1,0 +1,9 @@
+id = "sdxl-lightning"
+name = "ByteDance: Stable Diffusion XL Lightning"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

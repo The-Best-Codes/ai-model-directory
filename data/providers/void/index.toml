@@ -1,0 +1,7 @@
+name = "Void"
+website = "https://voidai.app"
+apiBaseUrl = "https://api.voidai.app/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["VOID_API_KEY"]

@@ -1,0 +1,18 @@
+id = "mimo-v2.5-free"
+name = "Mimo v2.5 Free"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0002755415270090046
+input = 0.013777077412578356
+output = 0.027554154769255233

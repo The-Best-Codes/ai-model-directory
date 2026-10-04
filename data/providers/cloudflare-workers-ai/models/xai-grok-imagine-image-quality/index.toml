@@ -1,0 +1,9 @@
+id = "xai/grok-imagine-image-quality"
+name = "Grok Imagine Image Quality"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

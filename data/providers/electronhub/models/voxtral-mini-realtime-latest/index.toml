@@ -1,0 +1,9 @@
+id = "voxtral-mini-realtime-latest"
+name = "Mistral: Voxtral Mini Transcribe Realtime"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

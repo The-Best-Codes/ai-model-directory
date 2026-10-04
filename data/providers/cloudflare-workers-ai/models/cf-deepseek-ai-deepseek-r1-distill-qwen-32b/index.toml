@@ -1,0 +1,20 @@
+id = "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b"
+name = "deepseek-r1-distill-qwen-32b"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 80000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.497
+output = 4.881

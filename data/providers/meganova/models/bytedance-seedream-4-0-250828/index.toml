@@ -1,0 +1,10 @@
+id = "Bytedance/seedream-4-0-250828"
+name = "Bytedance-Seedream-4.0"
+
+[features]
+attachment = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,11 @@
+id = "@cf/deepgram/aura-2-es"
+name = "aura-2-es"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

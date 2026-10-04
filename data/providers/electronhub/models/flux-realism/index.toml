@@ -1,0 +1,9 @@
+id = "flux-realism"
+name = "XLabs: Flux Realism"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,19 @@
+id = "l3-70b-euryale-v2.1"
+name = "Sao10K: L3 70B Euryale v2.1"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 8000
+input = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7
+output = 0.8

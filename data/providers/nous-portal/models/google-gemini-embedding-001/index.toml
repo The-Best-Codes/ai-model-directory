@@ -1,0 +1,21 @@
+id = "google/gemini-embedding-001"
+name = "Google: Gemini Embedding 001"
+release_date = "1761943410"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 20000
+output = 18000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0

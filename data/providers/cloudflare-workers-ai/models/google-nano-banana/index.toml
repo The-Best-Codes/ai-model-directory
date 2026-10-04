@@ -1,0 +1,15 @@
+id = "google/nano-banana"
+name = "Nano Banana"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.083333
+input = 0.3
+output = 30

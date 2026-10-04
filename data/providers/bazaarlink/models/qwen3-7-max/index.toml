@@ -1,0 +1,17 @@
+id = "qwen3.7-max"
+name = "Qwen3.7 Max"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.475
+output = 4.425

@@ -1,0 +1,12 @@
+id = "telnyx-ultra-tts"
+name = "Telnyx: Ultra TTS"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 32

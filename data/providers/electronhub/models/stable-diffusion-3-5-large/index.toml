@@ -1,0 +1,9 @@
+id = "stable-diffusion-3.5-large"
+name = "Stability: Stable Diffusion 3.5 Large"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

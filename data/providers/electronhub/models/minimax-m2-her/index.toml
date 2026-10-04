@@ -1,0 +1,21 @@
+id = "minimax-m2-her"
+name = "MiniMax: MiniMax M2-her"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 65000
+input = 65000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.375
+input = 0.3
+output = 1.2

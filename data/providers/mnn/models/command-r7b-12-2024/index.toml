@@ -1,0 +1,14 @@
+id = "command-r7b-12-2024"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0375
+output = 0.15

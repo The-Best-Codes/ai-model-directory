@@ -1,0 +1,14 @@
+id = "alibaba/qwen3.5-397b-a17b"
+name = "Qwen 3.5 397B A17B"
+
+[features]
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 3.6

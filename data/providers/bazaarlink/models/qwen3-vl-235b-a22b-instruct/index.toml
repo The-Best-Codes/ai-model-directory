@@ -1,0 +1,16 @@
+id = "qwen3-vl-235b-a22b-instruct"
+name = "Qwen3 Vl 235b A22b Instruct"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 1.8999999999999997

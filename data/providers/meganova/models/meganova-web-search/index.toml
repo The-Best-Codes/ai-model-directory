@@ -1,0 +1,18 @@
+id = "MegaNova/Web-Search"
+name = "Web Search"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
+reasoning = 0

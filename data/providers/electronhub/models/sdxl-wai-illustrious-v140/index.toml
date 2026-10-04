@@ -1,0 +1,9 @@
+id = "sdxl-wai-illustrious-v140"
+name = "Stability: wai Illustrious v1.40"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

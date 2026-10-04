@@ -1,0 +1,14 @@
+id = "command-a-reasoning-08-2025"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10

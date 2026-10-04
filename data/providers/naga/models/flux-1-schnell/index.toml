@@ -1,0 +1,12 @@
+id = "flux-1-schnell"
+name = "Flux 1 Schnell"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

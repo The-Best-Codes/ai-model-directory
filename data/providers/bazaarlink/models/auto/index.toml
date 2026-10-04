@@ -1,0 +1,9 @@
+id = "auto"
+name = "Auto Router"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

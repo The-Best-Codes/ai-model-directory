@@ -1,0 +1,23 @@
+id = "mistralai/mistral-large-2512:batch"
+name = "Mistral: Mistral Large 3 2512 (batch)"
+release_date = "1764624472"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 209715
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.025
+input = 0.25
+output = 0.75

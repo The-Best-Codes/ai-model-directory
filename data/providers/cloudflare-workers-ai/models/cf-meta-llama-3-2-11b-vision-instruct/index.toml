@@ -1,0 +1,19 @@
+id = "@cf/meta/llama-3.2-11b-vision-instruct"
+name = "llama-3.2-11b-vision-instruct"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0485
+output = 0.676

@@ -1,0 +1,14 @@
+id = "xai/grok-4.6"
+name = "Grok 4.6"
+
+[features]
+reasoning = true
+structured_output = true
+temperature = true
+
+[limit]
+context = 500000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

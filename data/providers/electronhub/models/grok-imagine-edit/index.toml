@@ -1,0 +1,9 @@
+id = "grok-imagine-edit"
+name = "xAI: Grok Imagine - Edit"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

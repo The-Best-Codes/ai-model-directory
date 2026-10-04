@@ -1,0 +1,12 @@
+id = "tts-1-hd"
+name = "OpenAI: TTS-1 HD"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 30

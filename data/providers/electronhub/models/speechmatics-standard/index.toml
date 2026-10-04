@@ -1,0 +1,9 @@
+id = "speechmatics-standard"
+name = "Speechmatics: Standard"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

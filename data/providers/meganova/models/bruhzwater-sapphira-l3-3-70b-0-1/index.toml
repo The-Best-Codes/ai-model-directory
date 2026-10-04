@@ -1,0 +1,21 @@
+id = "BruhzWater/Sapphira-L3.3-70b-0.1"
+name = "Sapphira-L3.3-70B-0.1"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
+reasoning = 0

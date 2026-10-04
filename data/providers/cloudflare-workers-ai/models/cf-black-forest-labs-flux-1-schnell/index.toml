@@ -1,0 +1,11 @@
+id = "@cf/black-forest-labs/flux-1-schnell"
+name = "flux-1-schnell"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

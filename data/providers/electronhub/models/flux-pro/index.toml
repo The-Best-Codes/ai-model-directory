@@ -1,0 +1,9 @@
+id = "flux-pro"
+name = "BlackForestLabs: FLUX.1 [pro]"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

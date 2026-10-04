@@ -1,0 +1,21 @@
+id = "perplexity/pplx-embed-v1-0.6b"
+name = "Perplexity: Embed V1 0.6B"
+release_date = "1773624868"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 28800
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.004
+output = 0

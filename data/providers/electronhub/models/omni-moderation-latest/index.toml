@@ -1,0 +1,8 @@
+id = "omni-moderation-latest"
+name = "OpenAI: Omni Moderation Latest"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

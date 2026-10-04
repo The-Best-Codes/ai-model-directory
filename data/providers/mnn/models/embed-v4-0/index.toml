@@ -1,0 +1,11 @@
+id = "embed-v4.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.12
+output = 0.47

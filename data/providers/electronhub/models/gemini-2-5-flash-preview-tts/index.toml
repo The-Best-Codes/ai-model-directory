@@ -1,0 +1,12 @@
+id = "gemini-2.5-flash-preview-tts"
+name = "Google: Gemini 2.5 Flash TTS Preview"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 10

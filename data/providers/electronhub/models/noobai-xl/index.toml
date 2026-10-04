@@ -1,0 +1,9 @@
+id = "noobai-xl"
+name = "Fal: NoobAI XL"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

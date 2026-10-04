@@ -1,0 +1,11 @@
+id = "codestral-embed-2505"
+name = "Mistral: Codestral Embed 2505"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15

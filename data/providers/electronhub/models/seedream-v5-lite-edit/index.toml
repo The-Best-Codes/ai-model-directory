@@ -1,0 +1,9 @@
+id = "seedream-v5-lite-edit"
+name = "ByteDance: Seedream V5 Lite (image-to-image)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

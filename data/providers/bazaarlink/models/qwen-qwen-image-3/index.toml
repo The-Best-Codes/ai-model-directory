@@ -1,0 +1,13 @@
+id = "qwen/qwen-image-3"
+name = "Qwen Image 3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

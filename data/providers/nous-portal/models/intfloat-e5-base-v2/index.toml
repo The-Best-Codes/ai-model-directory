@@ -1,0 +1,22 @@
+id = "intfloat/e5-base-v2"
+name = "Intfloat: E5-Base-v2"
+open_weights = true
+release_date = "1763433192"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 512
+output = 460
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.005
+output = 0

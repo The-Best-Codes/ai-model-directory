@@ -1,0 +1,9 @@
+id = "hunyuan-image-3"
+name = "Tencent: Hunyuan Image 3.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

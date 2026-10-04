@@ -1,0 +1,18 @@
+id = "deepseek-v4.1-flash"
+name = "Deepseek v4.1 Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.003947364298465567
+input = 0.046434218826108604
+output = 0.1745565791833633

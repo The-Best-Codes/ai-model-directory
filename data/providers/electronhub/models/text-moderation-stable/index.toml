@@ -1,0 +1,8 @@
+id = "text-moderation-stable"
+name = "OpenAI: Text Moderation Stable"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

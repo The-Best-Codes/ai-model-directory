@@ -1,0 +1,8 @@
+id = "gemini-2.5-pro"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

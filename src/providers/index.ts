@@ -1,3 +1,15 @@
+import { aionProvider } from "./aion.ts";
+import { bazaarlinkProvider } from "./bazaarlink.ts";
+import { cloudflareWorkersAiProvider } from "./cloudflare-workers-ai.ts";
+import { electronhubProvider } from "./electronhub.ts";
+import { meganovaProvider } from "./meganova.ts";
+import { mnnProvider } from "./mnn.ts";
+import { nagaProvider } from "./naga.ts";
+import { nararouterProvider } from "./nararouter.ts";
+import { nousPortalProvider } from "./nous-portal.ts";
+import { spekaProvider } from "./speka.ts";
+import { voidProvider } from "./void.ts";
+import { zyloProvider } from "./zylo.ts";
 import type { ProviderDefinition } from "./types.ts";
 import { ai302Provider } from "./302ai.ts";
 import { aigatewayProvider } from "./aigateway.ts";
@@ -74,6 +86,19 @@ import { xpersonaProvider } from "./xpersona.ts";
 import { zenmuxProvider } from "./zenmux.ts";
 
 export const providers: ProviderDefinition[] = [
+  aionProvider,
+  bazaarlinkProvider,
+  cloudflareWorkersAiProvider,
+  electronhubProvider,
+  meganovaProvider,
+  mnnProvider,
+  nagaProvider,
+  nararouterProvider,
+  nousPortalProvider,
+  spekaProvider,
+  voidProvider,
+  zyloProvider,
+
   ai302Provider,
   aigatewayProvider,
   abacusProvider,

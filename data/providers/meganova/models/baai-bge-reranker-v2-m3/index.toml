@@ -1,0 +1,14 @@
+id = "BAAI/bge-reranker-v2-m3"
+name = "BGE-reranker-v2-m3"
+
+[features]
+attachment = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
+reasoning = 0

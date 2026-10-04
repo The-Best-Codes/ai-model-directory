@@ -1,0 +1,21 @@
+id = "gpt-oss-20b"
+name = "OpenAI: GPT OSS 20B"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+input = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.05
+output = 0.2

@@ -1,0 +1,15 @@
+id = "alibaba/qwen3.7-max"
+name = "Qwen 3.7 Max"
+
+[features]
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 1.25
+output = 3.75

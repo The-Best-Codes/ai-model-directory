@@ -1,0 +1,21 @@
+id = "openai/text-embedding-ada-002:batch"
+name = "OpenAI: Text Embedding Ada 002 (batch)"
+release_date = "1761865798"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 7372
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0

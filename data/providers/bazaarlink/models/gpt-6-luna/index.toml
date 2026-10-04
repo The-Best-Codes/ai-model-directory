@@ -1,0 +1,17 @@
+id = "gpt-6-luna"
+name = "GPT 6 Luna"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.5

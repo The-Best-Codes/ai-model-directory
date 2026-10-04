@@ -1,0 +1,10 @@
+id = "Google/veo-3.1-i2v"
+name = "Veo-3.1-I2V"
+
+[features]
+attachment = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

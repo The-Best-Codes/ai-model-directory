@@ -1,0 +1,18 @@
+id = "mimo-v2.5-pro"
+name = "MiMo v2.5 Pro"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0011037135169129182
+input = 0.08608204646314416
+output = 0.17216409292628831

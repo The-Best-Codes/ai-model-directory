@@ -1,0 +1,17 @@
+id = "gemini-3.7-flash"
+name = "Gemini 3.7 Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.75
+output = 3.75

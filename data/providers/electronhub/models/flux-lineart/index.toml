@@ -1,0 +1,9 @@
+id = "flux-lineart"
+name = "Replicate: Flux Lineart"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

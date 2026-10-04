@@ -1,0 +1,22 @@
+id = "google/gemini-embedding-2"
+name = "Google: Gemini Embedding 2"
+release_date = "1779290135"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 7372
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+
+[pricing]
+input = 0.2
+input_audio = 6.5
+output = 0

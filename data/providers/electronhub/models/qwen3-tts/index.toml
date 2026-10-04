@@ -1,0 +1,12 @@
+id = "qwen3-tts"
+name = "Alibaba: Qwen3 TTS"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 32

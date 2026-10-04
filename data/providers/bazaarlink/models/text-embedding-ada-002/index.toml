@@ -1,0 +1,15 @@
+id = "text-embedding-ada-002"
+name = "Text Embedding Ada 002"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0

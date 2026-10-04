@@ -1,0 +1,21 @@
+id = "openai/text-embedding-3-large"
+name = "OpenAI: Text Embedding 3 Large"
+release_date = "1761862866"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 7372
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.13
+output = 0

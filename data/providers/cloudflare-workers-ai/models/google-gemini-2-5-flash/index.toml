@@ -1,0 +1,18 @@
+id = "google/gemini-2.5-flash"
+name = "Gemini 2.5 Flash"
+
+[features]
+temperature = true
+
+[limit]
+context = 1000000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.3
+output = 2.5

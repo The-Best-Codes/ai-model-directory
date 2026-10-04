@@ -1,0 +1,9 @@
+id = "stable-diffusion-3.5-turbo"
+name = "Stability: Stable Diffusion 3.5 Turbo"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

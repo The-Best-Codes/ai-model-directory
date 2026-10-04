@@ -1,0 +1,9 @@
+id = "xai/grok-imagine-image-2.0"
+name = "Grok Imagine Image 2.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

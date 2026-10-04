@@ -1,0 +1,21 @@
+id = "qwen3-coder"
+name = "Alibaba: Qwen3 Coder 480B A35B"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 262000
+input = 262000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.24
+cache_write = 3
+input = 2.4
+output = 2.4

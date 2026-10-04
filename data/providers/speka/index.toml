@@ -1,0 +1,7 @@
+name = "Speka"
+website = "https://speka.me"
+apiBaseUrl = "https://speka.me/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["SPEKA_API_KEY"]

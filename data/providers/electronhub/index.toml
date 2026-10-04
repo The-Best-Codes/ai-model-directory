@@ -1,0 +1,7 @@
+name = "ElectronHub"
+website = "https://www.electronhub.ai"
+apiBaseUrl = "https://api.electronhub.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ELECTRONHUB_API_KEY"]

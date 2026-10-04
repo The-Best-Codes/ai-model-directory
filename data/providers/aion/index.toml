@@ -1,0 +1,7 @@
+name = "Aion"
+website = "https://www.aionlabs.ai"
+apiBaseUrl = "https://api.aionlabs.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["AION_API_KEY"]

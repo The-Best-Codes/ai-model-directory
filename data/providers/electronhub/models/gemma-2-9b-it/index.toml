@@ -1,0 +1,20 @@
+id = "gemma-2-9b-it"
+name = "Google: Gemma 2 9B"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 8000
+input = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.12
+output = 0.15

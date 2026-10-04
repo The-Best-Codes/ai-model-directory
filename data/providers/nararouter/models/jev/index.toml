@@ -1,0 +1,18 @@
+id = "jev"
+name = "Jev"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

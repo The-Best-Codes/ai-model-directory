@@ -1,0 +1,21 @@
+id = "mimo-v2.5-pro"
+name = "MiMo-V2.5-Pro"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0018
+input = 0.2175
+output = 0.435

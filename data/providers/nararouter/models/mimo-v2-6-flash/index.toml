@@ -1,0 +1,18 @@
+id = "mimo-v2.6-flash"
+name = "MiMo V2.6 Flash"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0019534211608020027
+input = 0.04176957849687254
+output = 0.08353915699374508

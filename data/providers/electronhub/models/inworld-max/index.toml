@@ -1,0 +1,12 @@
+id = "inworld-max"
+name = "Inworld: Max"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 10

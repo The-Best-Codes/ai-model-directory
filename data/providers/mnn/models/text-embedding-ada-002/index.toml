@@ -1,0 +1,11 @@
+id = "text-embedding-ada-002"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.05

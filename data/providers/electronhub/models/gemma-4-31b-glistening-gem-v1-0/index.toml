@@ -1,0 +1,19 @@
+id = "gemma-4-31b-glistening-gem-v1.0"
+name = "HuggingFace: Gemma-4-31B-Glistening-Gem-v1.0"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262000
+input = 262000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 1.2

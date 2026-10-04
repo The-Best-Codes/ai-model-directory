@@ -1,0 +1,9 @@
+id = "sdxl-boleromix-illustrious-v290"
+name = "Stability: BoleroMix (Illustrious) v2.90"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

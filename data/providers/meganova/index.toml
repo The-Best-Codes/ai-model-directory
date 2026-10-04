@@ -1,0 +1,7 @@
+name = "MegaNova"
+website = "https://meganova.ai"
+apiBaseUrl = "https://api.meganova.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["MEGANOVA_API_KEY"]

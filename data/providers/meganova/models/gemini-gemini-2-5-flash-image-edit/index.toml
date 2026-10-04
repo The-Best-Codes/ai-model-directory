@@ -1,0 +1,10 @@
+id = "gemini/gemini-2.5-flash-image-edit"
+name = "Nano-Banana-Edit"
+
+[features]
+attachment = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

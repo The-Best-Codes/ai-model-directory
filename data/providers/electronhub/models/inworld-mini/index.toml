@@ -1,0 +1,12 @@
+id = "inworld-mini"
+name = "Inworld: Mini"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 6

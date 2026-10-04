@@ -1,0 +1,11 @@
+id = "@cf/lykon/dreamshaper-8-lcm"
+name = "dreamshaper-8-lcm"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

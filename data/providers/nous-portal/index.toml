@@ -1,0 +1,7 @@
+name = "Nous Portal"
+website = "https://portal.nousresearch.com"
+apiBaseUrl = "https://inference-api.nousresearch.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["NOUS_PORTAL_API_KEY"]

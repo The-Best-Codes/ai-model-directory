@@ -1,0 +1,25 @@
+id = "z-ai/glm-4.5-air"
+knowledge_cutoff = "1735603200"
+name = "Z.ai: GLM 4.5 Air"
+open_weights = true
+release_date = "1753471258"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 98304
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.025
+input = 0.13
+output = 0.85

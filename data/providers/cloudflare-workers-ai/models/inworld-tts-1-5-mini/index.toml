@@ -1,0 +1,9 @@
+id = "inworld/tts-1.5-mini"
+name = "Inworld TTS 1.5 Mini"
+
+[features]
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

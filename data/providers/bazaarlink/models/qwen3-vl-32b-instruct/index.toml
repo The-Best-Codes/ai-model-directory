@@ -1,0 +1,16 @@
+id = "qwen3-vl-32b-instruct"
+name = "Qwen3 Vl 32b Instruct"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.104
+output = 0.416

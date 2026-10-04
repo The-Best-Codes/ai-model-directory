@@ -1,0 +1,19 @@
+id = "llama-3.2-3b"
+name = "Meta: Llama 3.2 3B"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 128000
+input = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03
+output = 0.05

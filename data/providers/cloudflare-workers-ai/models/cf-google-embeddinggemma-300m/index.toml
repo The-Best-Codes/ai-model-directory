@@ -1,0 +1,10 @@
+id = "@cf/google/embeddinggemma-300m"
+name = "embeddinggemma-300m"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

@@ -1,0 +1,7 @@
+name = "NaraRouter"
+website = "https://bynara.id"
+apiBaseUrl = "https://router.bynara.id/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["NARAROUTER_API_KEY"]

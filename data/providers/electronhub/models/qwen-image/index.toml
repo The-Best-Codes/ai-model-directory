@@ -1,0 +1,9 @@
+id = "qwen-image"
+name = "Alibaba: Qwen Image"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

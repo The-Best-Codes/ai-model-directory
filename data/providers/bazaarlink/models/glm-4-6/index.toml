@@ -1,0 +1,17 @@
+id = "glm-4.6"
+name = "Glm 4.6"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.43
+output = 1.75

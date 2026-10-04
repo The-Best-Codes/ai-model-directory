@@ -1,0 +1,14 @@
+id = "claude-4.7-opus"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5
+output = 25

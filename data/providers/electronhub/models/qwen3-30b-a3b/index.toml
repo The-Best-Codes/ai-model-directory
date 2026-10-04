@@ -1,0 +1,21 @@
+id = "qwen3-30b-a3b"
+name = "Alibaba: Qwen3 30B A3B"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 41000
+input = 41000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+cache_write = 0.1875
+input = 0.15
+output = 0.3

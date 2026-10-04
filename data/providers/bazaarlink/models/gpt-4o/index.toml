@@ -1,0 +1,16 @@
+id = "gpt-4o"
+name = "GPT 4o"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10

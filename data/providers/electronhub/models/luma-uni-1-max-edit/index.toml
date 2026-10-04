@@ -1,0 +1,9 @@
+id = "luma-uni-1-max-edit"
+name = "Luma: Uni 1 Max (image-to-image)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

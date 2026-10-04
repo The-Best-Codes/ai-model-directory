@@ -1,0 +1,16 @@
+id = "qwen3-coder"
+name = "Qwen3 Coder"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1

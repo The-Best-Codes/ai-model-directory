@@ -1,0 +1,16 @@
+id = "@cf/moondream/moondream3.1-9B-A2B"
+name = "moondream3.1-9B-A2B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1

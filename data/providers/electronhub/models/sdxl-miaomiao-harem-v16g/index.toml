@@ -1,0 +1,9 @@
+id = "sdxl-miaomiao-harem-v16g"
+name = "Stability: Miaomiao Harem v1.6G"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

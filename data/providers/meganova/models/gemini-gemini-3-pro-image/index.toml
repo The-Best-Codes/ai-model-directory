@@ -1,0 +1,10 @@
+id = "gemini/gemini-3-pro-image"
+name = "Nano-Banana-Pro"
+
+[features]
+attachment = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

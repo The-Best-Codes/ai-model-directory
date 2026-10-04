@@ -1,0 +1,6 @@
+id = "pruna/p-video"
+name = "P-Video"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

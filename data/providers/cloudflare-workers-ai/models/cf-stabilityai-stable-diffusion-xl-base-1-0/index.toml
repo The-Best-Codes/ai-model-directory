@@ -1,0 +1,11 @@
+id = "@cf/stabilityai/stable-diffusion-xl-base-1.0"
+name = "stable-diffusion-xl-base-1.0"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

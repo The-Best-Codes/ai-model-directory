@@ -1,0 +1,9 @@
+id = "gemini-2.5-flash-image"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]

@@ -1,0 +1,7 @@
+id = "omni-moderation-latest"
+
+[features]
+tool_call = false
+
+[modalities]
+input = [ "text" ]

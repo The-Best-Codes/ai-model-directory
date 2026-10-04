@@ -1,0 +1,17 @@
+id = "gpt-oss-20b"
+name = "GPT Oss 20b"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03
+output = 0.13

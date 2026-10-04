@@ -1,0 +1,8 @@
+id = "qwen3-235b-a22b-instruct"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

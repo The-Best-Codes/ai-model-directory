@@ -1,0 +1,16 @@
+id = "@cf/baai/bge-m3"
+name = "bge-m3"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 60000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0118

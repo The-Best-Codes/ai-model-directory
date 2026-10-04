@@ -1,0 +1,16 @@
+id = "gpt-image-2.5-sunburst"
+name = "GPT Image 2.5 Sunburst"
+
+[features]
+attachment = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 8
+output = 8

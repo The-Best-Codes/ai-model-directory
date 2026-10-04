@@ -1,0 +1,8 @@
+id = "gpt-5.1"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

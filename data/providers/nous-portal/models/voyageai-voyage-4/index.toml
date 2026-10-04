@@ -1,0 +1,21 @@
+id = "voyageai/voyage-4"
+name = "VoyageAI by MongoDB: voyage-4"
+release_date = "1785188626"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 28800
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0

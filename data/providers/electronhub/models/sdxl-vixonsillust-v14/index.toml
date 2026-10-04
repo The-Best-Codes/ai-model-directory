@@ -1,0 +1,9 @@
+id = "sdxl-vixonsillust-v14"
+name = "Stability: Vixons Illustrious v1.4"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

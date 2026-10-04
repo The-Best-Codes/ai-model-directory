@@ -1,0 +1,12 @@
+id = "gpt-4o-transcribe"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10

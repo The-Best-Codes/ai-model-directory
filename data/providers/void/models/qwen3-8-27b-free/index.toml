@@ -1,0 +1,8 @@
+id = "qwen3.8-27b:free"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

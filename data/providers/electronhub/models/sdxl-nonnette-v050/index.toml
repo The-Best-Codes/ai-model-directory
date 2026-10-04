@@ -1,0 +1,9 @@
+id = "sdxl-nonnette-v050"
+name = "Stability: Nonnette v0.50"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

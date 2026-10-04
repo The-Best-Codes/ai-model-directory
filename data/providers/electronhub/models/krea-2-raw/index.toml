@@ -1,0 +1,9 @@
+id = "krea-2-raw"
+name = "Krea: Krea 2 Raw"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

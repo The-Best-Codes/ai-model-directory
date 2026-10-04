@@ -1,0 +1,9 @@
+id = "recraft/recraftv3"
+name = "Recraft V3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

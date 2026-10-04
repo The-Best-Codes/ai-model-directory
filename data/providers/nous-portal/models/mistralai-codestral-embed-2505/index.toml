@@ -1,0 +1,21 @@
+id = "mistralai/codestral-embed-2505"
+name = "Mistral: Codestral Embed 2505"
+release_date = "1761864460"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 6553
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0

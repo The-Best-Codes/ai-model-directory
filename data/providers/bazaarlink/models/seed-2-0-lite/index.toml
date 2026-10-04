@@ -1,0 +1,17 @@
+id = "seed-2.0-lite"
+name = "Seed 2.0 Lite"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25
+output = 2

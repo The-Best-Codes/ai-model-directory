@@ -1,0 +1,17 @@
+id = "gemini-3-pro-image"
+name = "Gemini 3 Pro Image"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 2
+output = 12

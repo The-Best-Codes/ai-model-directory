@@ -1,0 +1,17 @@
+id = "qwen3.5-flash-02-23"
+name = "Qwen3.5 Flash 02 23"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.065
+output = 0.26

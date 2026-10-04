@@ -1,0 +1,12 @@
+id = "flux-2-klein-9b"
+name = "Flux 2 Klein 9B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

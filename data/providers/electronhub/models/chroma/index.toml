@@ -1,0 +1,9 @@
+id = "chroma"
+name = "HuggingFace: Chroma"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,9 @@
+id = "animagine-xl-4.0"
+name = "Fal: Animagine XL 4.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

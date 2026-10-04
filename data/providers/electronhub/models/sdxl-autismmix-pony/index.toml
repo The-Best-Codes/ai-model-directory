@@ -1,0 +1,9 @@
+id = "sdxl-autismmix-pony"
+name = "Stability: AutismMix Pony"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

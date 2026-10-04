@@ -1,0 +1,14 @@
+id = "gpt-5.2"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.75
+output = 14

@@ -1,0 +1,11 @@
+id = "@cf/openai/whisper"
+name = "whisper"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

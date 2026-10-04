@@ -1,0 +1,17 @@
+id = "glm-4.7-flash"
+name = "Glm 4.7 Flash"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06049999999999999
+output = 0.4

@@ -1,0 +1,9 @@
+id = "qwen-edit-uncensored"
+name = "Alibaba: Qwen Edit Uncensored (image-to-image)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

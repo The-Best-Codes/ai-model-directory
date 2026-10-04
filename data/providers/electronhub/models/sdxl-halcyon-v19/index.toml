@@ -1,0 +1,9 @@
+id = "sdxl-halcyon-v19"
+name = "Stability: Halcyon v1.9"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

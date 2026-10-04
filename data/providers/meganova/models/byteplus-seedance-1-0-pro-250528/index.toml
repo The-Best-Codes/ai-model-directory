@@ -1,0 +1,10 @@
+id = "Byteplus/seedance-1-0-pro-250528"
+name = "Seedance-1.0-Pro-Text-to-Video"
+
+[features]
+attachment = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,8 @@
+id = "flux-2-klein-4b"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

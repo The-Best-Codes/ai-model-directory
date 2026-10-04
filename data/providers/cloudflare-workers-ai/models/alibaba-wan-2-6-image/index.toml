@@ -1,0 +1,9 @@
+id = "alibaba/wan-2.6-image"
+name = "Wan 2.6 Image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

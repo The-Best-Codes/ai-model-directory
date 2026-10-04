@@ -1,0 +1,10 @@
+id = "Alibaba/wan2.6-i2v"
+name = "Alibaba-Wan-2.6-I2V"
+
+[features]
+attachment = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

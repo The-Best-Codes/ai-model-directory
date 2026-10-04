@@ -1,0 +1,21 @@
+id = "glm-5.3-prime"
+name = "GLM 5.3 Prime"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.28
+input = 1.4
+output = 4.4

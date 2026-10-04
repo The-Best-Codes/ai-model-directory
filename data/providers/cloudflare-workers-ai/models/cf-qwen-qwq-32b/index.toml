@@ -1,0 +1,19 @@
+id = "@cf/qwen/qwq-32b"
+name = "qwq-32b"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 24000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.66
+output = 1

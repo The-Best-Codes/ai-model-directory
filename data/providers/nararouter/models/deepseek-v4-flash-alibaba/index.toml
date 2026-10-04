@@ -1,0 +1,18 @@
+id = "deepseek-v4-flash-alibaba"
+name = "Deepseek v4 Flash 0731 Alibaba"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.059255569145399214
+input = 0.12745537514293415
+output = 0.20107762473207638

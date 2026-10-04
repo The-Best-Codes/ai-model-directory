@@ -1,0 +1,23 @@
+id = "cohere/command-r-plus-08-2024"
+knowledge_cutoff = "1711843200"
+name = "Cohere: Command R+ (08-2024)"
+release_date = "1724976000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10

@@ -1,0 +1,16 @@
+id = "gpt-image-1-mini"
+name = "GPT Image 1 Mini"
+
+[features]
+attachment = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 2.5
+output = 2.5

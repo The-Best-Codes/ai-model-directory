@@ -1,0 +1,18 @@
+id = "qwen3.8-flash"
+name = "Qwen 3.8 Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.007155093762877661
+input = 0.03710433035084088
+output = 0.11626023516638322

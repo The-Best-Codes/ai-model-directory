@@ -1,0 +1,9 @@
+id = "pruna/p-image-upscale"
+name = "P-Image-Upscale"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

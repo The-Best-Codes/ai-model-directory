@@ -1,0 +1,6 @@
+id = "minimax/hailuo-2.3-fast"
+name = "MiniMax Hailuo 2.3 Fast"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

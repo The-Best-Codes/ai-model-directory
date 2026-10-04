@@ -1,0 +1,9 @@
+id = "assemblyai-universal-streaming"
+name = "AssemblyAI: Universal Streaming"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

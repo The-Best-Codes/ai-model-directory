@@ -1,0 +1,8 @@
+id = "qwen-image-2.0"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,17 @@
+id = "gpt-5.3-codex"
+name = "GPT 5.3 Codex"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.75
+output = 14

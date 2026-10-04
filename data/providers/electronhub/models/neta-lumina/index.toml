@@ -1,0 +1,9 @@
+id = "neta-lumina"
+name = "Neta Art: Neta Lumina"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

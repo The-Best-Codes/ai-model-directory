@@ -1,0 +1,11 @@
+id = "@cf/black-forest-labs/flux-2-dev"
+name = "flux-2-dev"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

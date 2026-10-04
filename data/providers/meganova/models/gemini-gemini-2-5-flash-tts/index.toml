@@ -1,0 +1,18 @@
+id = "gemini/gemini-2.5-flash-tts"
+name = "Gemini-2.5-Flash-TTS"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 8
+reasoning = 0

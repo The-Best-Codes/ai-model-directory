@@ -1,0 +1,10 @@
+id = "@cf/microsoft/resnet-50"
+name = "resnet-50"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image" ]

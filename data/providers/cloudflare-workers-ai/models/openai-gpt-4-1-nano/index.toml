@@ -1,0 +1,18 @@
+id = "openai/gpt-4.1-nano"
+name = "GPT-4.1 nano"
+
+[features]
+temperature = true
+
+[limit]
+context = 1000000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.025
+input = 0.1
+output = 0.4

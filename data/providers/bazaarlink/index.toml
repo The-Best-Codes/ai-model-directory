@@ -1,0 +1,7 @@
+name = "BazaarLink"
+website = "https://bazaarlink.ai"
+apiBaseUrl = "https://api.bazaarlink.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["BAZAARLINK_API_KEY"]

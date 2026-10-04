@@ -1,0 +1,19 @@
+id = "openai/gpt-4.1"
+name = "GPT-4.1"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 1047576
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 2
+output = 8

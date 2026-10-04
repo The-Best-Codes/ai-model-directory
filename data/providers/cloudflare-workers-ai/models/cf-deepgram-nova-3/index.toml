@@ -1,0 +1,11 @@
+id = "@cf/deepgram/nova-3"
+name = "nova-3"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

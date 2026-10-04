@@ -1,0 +1,8 @@
+id = "o3"
+
+[features]
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

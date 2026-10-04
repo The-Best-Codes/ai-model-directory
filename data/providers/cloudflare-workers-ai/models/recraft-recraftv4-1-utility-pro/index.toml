@@ -1,0 +1,9 @@
+id = "recraft/recraftv4-1-utility-pro"
+name = "Recraft V4.1 Utility Pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

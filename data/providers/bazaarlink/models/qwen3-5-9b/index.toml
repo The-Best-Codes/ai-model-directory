@@ -1,0 +1,17 @@
+id = "qwen3.5-9b"
+name = "Qwen3.5 9b"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.15

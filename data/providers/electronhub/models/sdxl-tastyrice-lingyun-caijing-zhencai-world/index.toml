@@ -1,0 +1,9 @@
+id = "sdxl-tastyrice-lingyun-caijing-zhencai-world"
+name = "Stability: TastyRice Lingyun Caijing (Zhencai World)"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

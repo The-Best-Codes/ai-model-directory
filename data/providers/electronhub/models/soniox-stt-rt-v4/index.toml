@@ -1,0 +1,9 @@
+id = "soniox-stt-rt-v4"
+name = "Soniox: STT RT v4"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

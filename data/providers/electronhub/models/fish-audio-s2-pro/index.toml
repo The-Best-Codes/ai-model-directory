@@ -1,0 +1,12 @@
+id = "fish-audio-s2-pro"
+name = "Fish Audio: S2 Pro"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 15

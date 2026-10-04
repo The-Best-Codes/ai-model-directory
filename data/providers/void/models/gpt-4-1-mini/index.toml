@@ -1,0 +1,8 @@
+id = "gpt-4.1-mini"
+
+[features]
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,9 @@
+id = "inworld/tts-1.5-max"
+name = "Inworld TTS 1.5 Max"
+
+[features]
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

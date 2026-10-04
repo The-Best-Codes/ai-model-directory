@@ -1,0 +1,9 @@
+id = "voxtral-mini-2602"
+name = "Mistral: Voxtral Mini Transcribe 2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

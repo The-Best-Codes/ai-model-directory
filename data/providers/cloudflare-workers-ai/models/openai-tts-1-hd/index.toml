@@ -1,0 +1,6 @@
+id = "openai/tts-1-hd"
+name = "TTS-1 HD"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

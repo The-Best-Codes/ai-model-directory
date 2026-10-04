@@ -1,0 +1,12 @@
+id = "telnyx-bayan-tts"
+name = "Telnyx: Bayan TTS"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 3

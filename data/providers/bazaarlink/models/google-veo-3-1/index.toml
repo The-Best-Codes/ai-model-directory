@@ -1,0 +1,9 @@
+id = "google/veo-3.1"
+name = "Veo 3.1"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

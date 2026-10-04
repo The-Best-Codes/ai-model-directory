@@ -1,0 +1,6 @@
+id = "runwayml/aleph-2"
+name = "RunwayML Aleph 2"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

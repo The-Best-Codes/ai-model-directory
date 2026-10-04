@@ -1,0 +1,9 @@
+id = "sdxl-animij-v2"
+name = "Stability: Animij v2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

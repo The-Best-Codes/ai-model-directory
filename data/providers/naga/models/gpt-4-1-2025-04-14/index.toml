@@ -1,0 +1,21 @@
+id = "gpt-4.1-2025-04-14"
+name = "GPT-4.1"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1047576
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 1
+output = 4

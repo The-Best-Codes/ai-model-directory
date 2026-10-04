@@ -1,0 +1,17 @@
+id = "gemini-3.1-pro-preview"
+name = "Gemini 3.1 Pro Preview"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 12

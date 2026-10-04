@@ -1,0 +1,18 @@
+id = "longcat-2.5"
+name = "LongCat 2.5"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03752800951497934
+input = 0.37528009509389193
+output = 3.002240760583431

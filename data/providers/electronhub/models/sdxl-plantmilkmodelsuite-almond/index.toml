@@ -1,0 +1,9 @@
+id = "sdxl-plantmilkmodelsuite-almond"
+name = "Stability: Plant Milk Model Suite (Almond)"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

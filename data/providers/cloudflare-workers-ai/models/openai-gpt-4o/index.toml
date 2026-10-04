@@ -1,0 +1,18 @@
+id = "openai/gpt-4o"
+name = "GPT-4o"
+
+[features]
+temperature = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.625
+input = 1.25
+output = 5
