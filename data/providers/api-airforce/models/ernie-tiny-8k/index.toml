@@ -1,6 +1,6 @@
 id = "ERNIE-Tiny-8K"
 name = "ERNIE-Tiny-8K"
-release_date = "1791141271"
+release_date = "1791176026"
 
 [features]
 attachment = false

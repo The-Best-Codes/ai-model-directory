@@ -1,0 +1,14 @@
+id = "meta/muse-glimmer-30b"
+name = "Muse Glimmer 30b"
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

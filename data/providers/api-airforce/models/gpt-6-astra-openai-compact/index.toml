@@ -1,6 +1,6 @@
 id = "gpt-6-astra-openai-compact"
 name = "gpt-6-astra-openai-compact"
-release_date = "1791141271"
+release_date = "1791176026"
 
 [features]
 attachment = false
