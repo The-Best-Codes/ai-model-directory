@@ -1,0 +1,15 @@
+id = "cohere/rerank-4-fast"
+name = "Rerank 4 Fast"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

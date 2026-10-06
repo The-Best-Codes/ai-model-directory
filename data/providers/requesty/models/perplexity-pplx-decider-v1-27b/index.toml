@@ -1,0 +1,20 @@
+id = "perplexity/pplx-decider-v1-27b"
+name = "perplexity/pplx-decider-v1-27b"
+release_date = "1790726400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 262144
+output = 1024
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0

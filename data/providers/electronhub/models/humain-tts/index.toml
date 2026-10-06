@@ -1,0 +1,12 @@
+id = "humain-tts"
+name = "Humain: TTS"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 5

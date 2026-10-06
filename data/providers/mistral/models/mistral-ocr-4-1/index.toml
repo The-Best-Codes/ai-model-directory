@@ -1,6 +1,5 @@
 id = "mistral-ocr-4-1"
-name = "OCR 4.1"
-release_date = "1784160000"
+name = "mistral-ocr-latest"
 
 [features]
 attachment = true

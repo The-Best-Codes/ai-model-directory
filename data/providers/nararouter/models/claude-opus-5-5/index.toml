@@ -3,7 +3,7 @@ name = "Claude Opus 5.5"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.21202702038445737
-input = 1.0038909573366692
-output = 3.9823091544856255
+cache_read = 0.21229335375574648
+input = 1.0051519742702155
+output = 3.987311450045439

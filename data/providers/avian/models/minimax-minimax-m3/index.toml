@@ -1,0 +1,14 @@
+id = "minimax/minimax-m3"
+name = "MiniMax M3"
+
+[features]
+reasoning = false
+
+[limit]
+context = 524288
+output = 512000
+
+[pricing]
+cache_read = 0.051
+input = 0.255
+output = 1.02

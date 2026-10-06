@@ -1,0 +1,9 @@
+id = "hunyuan-image-v2.0"
+name = "hunyuan-image-v2.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

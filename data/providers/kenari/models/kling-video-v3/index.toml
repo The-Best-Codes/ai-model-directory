@@ -1,0 +1,9 @@
+id = "kling-video-v3"
+name = "kling-video-v3"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

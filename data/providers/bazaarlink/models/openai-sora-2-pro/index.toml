@@ -1,9 +1,0 @@
-id = "openai/sora-2-pro"
-name = "Sora 2 Pro"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "video" ]

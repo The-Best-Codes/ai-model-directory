@@ -3,13 +3,13 @@ name = "Qwen: Qwen3.8 2.4T A95B"
 open_weights = true
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
-context = 262144
+context = 1000000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

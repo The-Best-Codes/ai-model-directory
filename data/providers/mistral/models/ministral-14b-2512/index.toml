@@ -1,12 +1,9 @@
 id = "ministral-14b-2512"
-name = "Ministral 3 (14B)"
-open_weights = true
-release_date = "1764633600"
+name = "ministral-14b-2512"
 
 [features]
 attachment = true
 reasoning = false
-structured_output = true
 temperature = true
 tool_call = true
 
@@ -16,8 +13,3 @@ context = 262144
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.02
-input = 0.2
-output = 0.2

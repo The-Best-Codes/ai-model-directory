@@ -1,0 +1,9 @@
+id = "cohere/embed-v5.0-fast"
+name = "Embed 5 Fast"
+release_date = "1790726400"
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.08

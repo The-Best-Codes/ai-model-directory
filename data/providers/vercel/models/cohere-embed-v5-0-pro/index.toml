@@ -1,0 +1,9 @@
+id = "cohere/embed-v5.0-pro"
+name = "Embed 5 Pro"
+release_date = "1790726400"
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.12

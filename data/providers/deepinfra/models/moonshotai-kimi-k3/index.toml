@@ -3,7 +3,7 @@ name = "moonshotai/Kimi-K3"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1048576

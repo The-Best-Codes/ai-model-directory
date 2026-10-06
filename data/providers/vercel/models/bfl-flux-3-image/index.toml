@@ -1,0 +1,12 @@
+id = "bfl/flux-3-image"
+name = "FLUX 3 Image"
+release_date = "1791158400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

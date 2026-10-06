@@ -1,6 +1,6 @@
 id = "llama-instant"
 name = "llama-instant"
-release_date = "1791176026"
+release_date = "1791265265"
 
 [features]
 attachment = false

@@ -1,0 +1,12 @@
+id = "gpt-4o-mini-tts-2025-12-15"
+name = "OpenAI: GPT-4o Mini TTS (2025-12-15)"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 10

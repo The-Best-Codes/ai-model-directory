@@ -1,0 +1,9 @@
+id = "hunyuan-video-art"
+name = "hunyuan-video-art"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

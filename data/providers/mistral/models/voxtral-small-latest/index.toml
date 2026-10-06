@@ -1,12 +1,9 @@
 id = "voxtral-small-latest"
-name = "Voxtral Small"
-open_weights = true
-release_date = "1752537600"
+name = "voxtral-small-2507"
 
 [features]
 attachment = true
 reasoning = false
-structured_output = true
 temperature = true
 tool_call = true
 
@@ -16,6 +13,3 @@ context = 32768
 [modalities]
 input = [ "audio", "text" ]
 output = [ "text" ]
-
-[pricing]
-output = 0.4

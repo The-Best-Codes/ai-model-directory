@@ -1,12 +1,9 @@
 id = "mistral-small-2603"
-name = "Mistral Small 4"
-open_weights = true
-release_date = "1773619200"
+name = "mistral-small-2603"
 
 [features]
 attachment = true
 reasoning = true
-structured_output = true
 temperature = true
 tool_call = true
 
@@ -16,8 +13,3 @@ context = 262144
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.015
-input = 0.15
-output = 0.6

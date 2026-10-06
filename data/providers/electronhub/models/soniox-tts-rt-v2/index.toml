@@ -1,5 +1,5 @@
 id = "soniox-tts-rt-v2"
-name = "Soniox: tts rt v2"
+name = "Soniox: TTS RT v2"
 
 [features]
 attachment = false
