@@ -2,7 +2,7 @@ id = "nemotron-3-ultra-550b-a55b"
 name = "nemotron-3-ultra-550b-a55b"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -10,10 +10,10 @@ tool_call = true
 context = 1000000
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0668843928
-input = 0.668843928
-output = 4.18027455
+cache_read = 0.0669820764
+input = 0.669820764
+output = 4.186379775

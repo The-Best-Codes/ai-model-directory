@@ -2,7 +2,7 @@ id = "hy3"
 name = "hy3"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -10,10 +10,10 @@ tool_call = true
 context = 262144
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01504898838
-input = 0.1504898838
-output = 0.613106934
+cache_read = 0.01507096719
+input = 0.1507096719
+output = 0.614002367

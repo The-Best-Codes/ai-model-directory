@@ -2,7 +2,7 @@ id = "minimax-m2-7-highspeed"
 name = "minimax-m2-7-highspeed"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -10,10 +10,10 @@ tool_call = true
 context = 204800
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.111473988
-input = 0.5796647376
-output = 2.340953748
+cache_read = 0.111636794
+input = 0.5805113288
+output = 2.344372674

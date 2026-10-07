@@ -1,0 +1,14 @@
+id = "krea/krea-2-medium"
+name = "Krea 2 Medium"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

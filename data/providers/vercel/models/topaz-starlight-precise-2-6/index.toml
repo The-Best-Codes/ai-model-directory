@@ -1,0 +1,6 @@
+id = "topaz/starlight-precise-2.6"
+name = "Starlight Precise 2.6"
+release_date = "1791244800"
+
+[modalities]
+output = [ "video" ]

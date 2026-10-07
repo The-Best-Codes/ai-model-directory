@@ -1,0 +1,22 @@
+id = "wanx/wan-v3-0"
+name = "Alibaba: Wan 3.0"
+release_date = "1787529600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,9 +1,0 @@
-id = "nano_banana25"
-name = "Nano Banana 2.5"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "image", "text" ]

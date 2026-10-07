@@ -1,0 +1,9 @@
+id = "bria/v-rmbg-3.0"
+name = "Video Remove Background 3.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "video" ]

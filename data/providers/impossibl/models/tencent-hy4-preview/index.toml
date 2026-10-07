@@ -1,0 +1,14 @@
+id = "tencent/hy4-preview"
+name = "Hunyuan 4 Preview"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.042
+input = 0.834
+output = 2.501

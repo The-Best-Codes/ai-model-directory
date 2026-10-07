@@ -1,0 +1,17 @@
+id = "exo-stealh"
+name = "Exo Stealh"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

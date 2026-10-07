@@ -1,0 +1,17 @@
+id = "gemini-nano-banana-2.1"
+name = "Nano Banana 2.1"
+
+[features]
+attachment = true
+
+[limit]
+context = 65536
+output = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 1.5
+output = 7.5

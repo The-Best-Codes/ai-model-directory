@@ -1,0 +1,17 @@
+id = "mistralai/ministral-14b-2512"
+name = "ministral-14b-2512"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.211
+output = 0.211

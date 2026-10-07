@@ -10,10 +10,10 @@ tool_call = true
 context = 1000000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00362290461
-input = 0.1532767335
-output = 0.306553467
+cache_read = 0.003628195805
+input = 0.15350059175
+output = 0.3070011835

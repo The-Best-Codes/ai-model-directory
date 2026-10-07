@@ -1,0 +1,18 @@
+id = "google/gemini-3.8-flash-tts"
+name = "Gemini 3.8 Flash TTS"
+
+[features]
+temperature = true
+
+[limit]
+context = 8192
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+cache_read = 0.125
+input = 0.5
+output_audio = 9

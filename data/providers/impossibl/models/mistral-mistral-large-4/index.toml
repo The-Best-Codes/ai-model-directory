@@ -1,0 +1,14 @@
+id = "mistral/mistral-large-4"
+name = "Mistral Large 4"
+
+[limit]
+context = 524288
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.07
+input = 0.68
+output = 2.09

@@ -1,0 +1,23 @@
+id = "gemini-nano-banana-2.1"
+last_updated = "1790812800"
+name = "Nano Banana 2.1"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 65536
+input = 65536
+output = 65536
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 1.5
+output = 7.5

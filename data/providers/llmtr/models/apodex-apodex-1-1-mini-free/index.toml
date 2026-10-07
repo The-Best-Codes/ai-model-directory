@@ -1,0 +1,19 @@
+id = "apodex/apodex-1.1-mini-free"
+name = "Apodex 1.1 Mini (Free)"
+release_date = "1791293500"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

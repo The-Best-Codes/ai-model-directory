@@ -1,0 +1,9 @@
+id = "x-ai/grok-imagine-video-1.5-lite"
+name = "Grok Imagine Video 1.5 Lite"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

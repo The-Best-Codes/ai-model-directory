@@ -3,7 +3,7 @@ name = "Kimi K2.7-code"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 
 [limit]
 context = 262000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.10930745999727982
-input = 0.2095781180881322
-output = 0.9526278095982074
+cache_read = 0.10925020966211503
+input = 0.2094683504885187
+output = 0.9521288659635446

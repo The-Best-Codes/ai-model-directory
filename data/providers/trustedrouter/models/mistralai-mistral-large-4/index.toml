@@ -1,0 +1,17 @@
+id = "mistralai/mistral-large-4"
+name = "mistral-large-4"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 524288
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7174
+output = 2.20495

@@ -1,0 +1,21 @@
+id = "melious/glm-5.3"
+name = "melious/glm-5.3"
+release_date = "1787616000"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.23
+input = 1.14
+output = 3.42

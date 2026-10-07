@@ -2,7 +2,7 @@ id = "gpt-oss-20b"
 name = "gpt-oss-20b"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -10,10 +10,10 @@ tool_call = true
 context = 128000
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00362290461
-input = 0.03511430622
-output = 0.1504898838
+cache_read = 0.003628195805
+input = 0.03516559011
+output = 0.1507096719

@@ -2,7 +2,7 @@ id = "laguna-s-2-1:free"
 name = "laguna-s-2-1:free"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -10,7 +10,7 @@ tool_call = true
 context = 262144
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]

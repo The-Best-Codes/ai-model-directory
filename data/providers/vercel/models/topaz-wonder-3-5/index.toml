@@ -1,0 +1,6 @@
+id = "topaz/wonder-3.5"
+name = "Wonder 3.5"
+release_date = "1791244800"
+
+[modalities]
+output = [ "image" ]

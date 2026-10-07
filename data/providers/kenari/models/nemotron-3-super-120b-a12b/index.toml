@@ -2,7 +2,7 @@ id = "nemotron-3-super-120b-a12b"
 name = "nemotron-3-super-120b-a12b"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -10,10 +10,10 @@ tool_call = true
 context = 262144
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00947528898
-input = 0.0947528898
-output = 0.4681907496
+cache_read = 0.00948912749
+input = 0.0948912749
+output = 0.4688745348

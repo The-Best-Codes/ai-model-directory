@@ -2,7 +2,7 @@ id = "glm-5-3"
 name = "glm-5-3"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -10,10 +10,10 @@ tool_call = true
 context = 1000000
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.27868497
-input = 0.27868497
-output = 3.34421964
+cache_read = 0.279091985
+input = 0.279091985
+output = 3.34910382

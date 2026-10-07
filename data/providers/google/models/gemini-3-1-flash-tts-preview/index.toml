@@ -4,7 +4,7 @@ name = "Gemini 3.1 Flash TTS Preview"
 
 [features]
 attachment = false
-reasoning = true
+reasoning = false
 structured_output = false
 temperature = true
 tool_call = false

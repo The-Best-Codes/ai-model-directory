@@ -2,7 +2,7 @@ id = "mimo-v2-5-pro"
 name = "mimo-v2-5-pro"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -10,10 +10,10 @@ tool_call = true
 context = 1050000
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00418027455
-input = 0.5072066454
-output = 1.003265892
+cache_read = 0.004186379775
+input = 0.5079474127
+output = 1.004731146

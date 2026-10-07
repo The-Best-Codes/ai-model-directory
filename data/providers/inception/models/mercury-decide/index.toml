@@ -1,0 +1,23 @@
+id = "mercury-decide"
+name = "Inception: Mercury Decide"
+release_date = "1743465660"
+
+[features]
+attachment = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 32000
+output = 50000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.04
+output = 0

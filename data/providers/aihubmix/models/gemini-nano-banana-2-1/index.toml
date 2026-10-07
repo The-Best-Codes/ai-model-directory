@@ -1,0 +1,14 @@
+id = "gemini-nano-banana-2.1"
+name = "gemini-nano-banana-2.1"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]

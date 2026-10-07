@@ -1,0 +1,17 @@
+id = "nano-banana-2.1"
+name = "Nano-Banana-2.1"
+release_date = "1791302187"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 1.5152
+output = 7.5758

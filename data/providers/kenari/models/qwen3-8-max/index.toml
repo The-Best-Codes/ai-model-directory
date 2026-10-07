@@ -2,14 +2,14 @@ id = "qwen3-8-max"
 name = "qwen3-8-max"
 
 [features]
-attachment = false
+attachment = true
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.2898323688
-cache_write = 2.898323688
-input = 2.340953748
-output = 6.68843928
+cache_read = 0.2902556644
+cache_write = 2.902556644
+input = 2.344372674
+output = 6.69820764

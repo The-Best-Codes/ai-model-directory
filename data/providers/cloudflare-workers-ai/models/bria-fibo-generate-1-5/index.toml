@@ -1,0 +1,9 @@
+id = "bria/fibo-generate-1.5"
+name = "FIBO Generate 1.5"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

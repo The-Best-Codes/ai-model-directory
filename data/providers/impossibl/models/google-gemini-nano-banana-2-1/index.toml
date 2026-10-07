@@ -1,0 +1,13 @@
+id = "google/gemini-nano-banana-2.1"
+name = "Nano Banana 2.1"
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 1.5
+output = 30

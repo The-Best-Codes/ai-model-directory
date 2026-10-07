@@ -1,6 +1,0 @@
-id = "microsoft/mai-transcribe-1.5"
-name = "MAI-Transcribe-1.5"
-release_date = "1780272000"
-
-[pricing]
-input = 0.0001

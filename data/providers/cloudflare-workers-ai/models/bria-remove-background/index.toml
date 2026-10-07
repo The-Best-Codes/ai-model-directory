@@ -1,0 +1,9 @@
+id = "bria/remove-background"
+name = "Remove Background"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

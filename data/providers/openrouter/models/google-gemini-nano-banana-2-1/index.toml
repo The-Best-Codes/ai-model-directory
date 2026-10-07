@@ -1,0 +1,22 @@
+id = "google/gemini-nano-banana-2.1"
+name = "Google: Nano Banana 2.1"
+release_date = "1791300825"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 65536
+output = 58982
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 1.5
+output = 7.5

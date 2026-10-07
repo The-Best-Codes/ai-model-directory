@@ -2,7 +2,7 @@ id = "glm-4-7-flash:free"
 name = "glm-4-7-flash:free"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -10,7 +10,7 @@ tool_call = true
 context = 131072
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]

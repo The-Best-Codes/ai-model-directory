@@ -2,7 +2,7 @@ id = "north-mini-code:free"
 name = "north-mini-code:free"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -10,7 +10,7 @@ tool_call = true
 context = 256000
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
