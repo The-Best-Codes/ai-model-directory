@@ -1,0 +1,18 @@
+id = "NeoHorse-Jev-4B"
+last_updated = "1790740221"
+name = "NeoHorse-Jev-4B"
+release_date = "1790680280"
+
+[features]
+attachment = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.014913439
+output = 1.4913439e-9

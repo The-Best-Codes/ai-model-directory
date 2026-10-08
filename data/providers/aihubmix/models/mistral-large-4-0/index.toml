@@ -1,0 +1,19 @@
+id = "mistral-large-4-0"
+name = "mistral-large-4-0"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 524000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.139944
+input = 1.36
+output = 4.17996

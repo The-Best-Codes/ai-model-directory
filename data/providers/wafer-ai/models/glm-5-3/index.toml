@@ -1,6 +1,6 @@
 id = "GLM-5.3"
 name = "GLM-5.3"
-release_date = "1791349999"
+release_date = "1791437031"
 
 [features]
 reasoning = true
@@ -14,6 +14,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.18
-input = 0.22
-output = 3.39
+cache_read = 0.26
+input = 1.4
+output = 4.4

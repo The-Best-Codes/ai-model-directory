@@ -1,0 +1,12 @@
+id = "elevenlabs/eleven-v3-conversational"
+name = "Eleven V3 Conversational"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

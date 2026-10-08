@@ -1,0 +1,11 @@
+id = "CogView4_6B"
+last_updated = "1766128377"
+name = "CogView4_6B"
+release_date = "1753867803"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

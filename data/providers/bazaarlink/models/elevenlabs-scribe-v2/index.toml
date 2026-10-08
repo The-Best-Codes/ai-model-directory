@@ -1,0 +1,12 @@
+id = "elevenlabs/scribe-v2"
+name = "Scribe V2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0

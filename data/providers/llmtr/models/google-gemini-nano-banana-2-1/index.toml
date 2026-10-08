@@ -1,0 +1,12 @@
+id = "google/gemini-nano-banana-2.1"
+name = "Gemini Nano Banana 2.1"
+release_date = "1791396533"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]

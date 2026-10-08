@@ -1,0 +1,12 @@
+id = "elevenlabs/eleven-flash-v2"
+name = "Eleven Flash V2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

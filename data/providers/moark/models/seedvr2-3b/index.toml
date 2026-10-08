@@ -1,0 +1,11 @@
+id = "SeedVR2-3B"
+last_updated = "1763957617"
+name = "SeedVR2-3B"
+release_date = "1763706138"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

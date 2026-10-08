@@ -1,0 +1,11 @@
+id = "Qwen3-TTS"
+last_updated = "1770279853"
+name = "Qwen3-TTS"
+release_date = "1770279739"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

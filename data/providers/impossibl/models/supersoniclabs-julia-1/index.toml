@@ -1,0 +1,12 @@
+id = "supersoniclabs/julia-1"
+name = "Julia 1"
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.025
+output = 0

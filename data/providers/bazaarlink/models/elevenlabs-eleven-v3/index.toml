@@ -1,0 +1,12 @@
+id = "elevenlabs/eleven-v3"
+name = "Eleven V3"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

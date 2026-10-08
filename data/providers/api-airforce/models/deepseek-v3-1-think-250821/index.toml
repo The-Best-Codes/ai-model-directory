@@ -1,6 +1,6 @@
 id = "deepseek-v3-1-think-250821"
 name = "deepseek-v3-1-think-250821"
-release_date = "1791349905"
+release_date = "1791436931"
 
 [features]
 attachment = false

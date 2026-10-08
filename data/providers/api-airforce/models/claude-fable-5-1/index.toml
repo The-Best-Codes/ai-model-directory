@@ -1,6 +1,6 @@
 id = "claude-fable-5.1"
 name = "claude-fable-5.1"
-release_date = "1791349905"
+release_date = "1791436931"
 
 [features]
 attachment = true

@@ -1,0 +1,11 @@
+id = "FLUX.2-klein-4B"
+last_updated = "1770288274"
+name = "FLUX.2-klein-4B"
+release_date = "1770288190"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,6 +1,6 @@
 id = "DeepSeek-V4-Pro"
 name = "DeepSeek-V4-Pro"
-release_date = "1791349999"
+release_date = "1791437031"
 
 [features]
 reasoning = true
@@ -14,6 +14,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.32
-input = 0.39
-output = 3.49
+cache_read = 0.04
+input = 1.32
+output = 3.96

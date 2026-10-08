@@ -1,0 +1,12 @@
+id = "elevenlabs/scribe-v2-medical"
+name = "Scribe V2 Medical"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0

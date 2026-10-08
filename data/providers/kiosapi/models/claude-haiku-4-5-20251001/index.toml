@@ -1,0 +1,14 @@
+id = "claude-haiku-4-5-20251001"
+name = "claude-haiku-4-5-20251001"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+cache_write = 1.25
+input = 1
+output = 5

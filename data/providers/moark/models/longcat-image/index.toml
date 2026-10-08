@@ -1,0 +1,11 @@
+id = "LongCat-Image"
+last_updated = "1765187832"
+name = "LongCat-Image"
+release_date = "1765187832"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

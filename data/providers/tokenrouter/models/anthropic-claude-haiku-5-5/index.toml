@@ -1,0 +1,17 @@
+id = "anthropic/claude-haiku-5.5"
+name = "anthropic/claude-haiku-5.5"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 0.625
+input = 0.5
+input_audio = 0.5
+output = 2.5
+output_audio = 0.5

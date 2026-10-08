@@ -1,0 +1,14 @@
+id = "abliterate/abliterate-0.3-fast"
+name = "abliterate-0.3-fast"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5275
+output = 1.055

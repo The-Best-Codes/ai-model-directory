@@ -1,0 +1,14 @@
+id = "mistral-large-4"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.36
+output = 4.18

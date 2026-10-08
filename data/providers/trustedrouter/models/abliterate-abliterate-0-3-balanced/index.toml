@@ -1,0 +1,14 @@
+id = "abliterate/abliterate-0.3-balanced"
+name = "abliterate-0.3-balanced"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.9495
+output = 2.11

@@ -1,0 +1,7 @@
+id = "HuatuoGPT-o1-7B"
+last_updated = "1773295560"
+name = "HuatuoGPT-o1-7B"
+release_date = "1764495307"
+
+[limit]
+context = 32000
