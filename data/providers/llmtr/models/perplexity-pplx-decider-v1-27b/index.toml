@@ -1,0 +1,13 @@
+id = "perplexity/pplx-decider-v1-27b"
+name = "PPLX Decider v1 27B"
+release_date = "1791438037"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]

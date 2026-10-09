@@ -1,9 +1,0 @@
-id = "alibaba/wan3.0-reference-to-video"
-name = "Wan3.0 Reference To Video"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text", "video" ]
-output = [ "video" ]

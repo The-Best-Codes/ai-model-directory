@@ -2,13 +2,13 @@ id = "tts-1"
 name = "tts-1"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
 
 [modalities]
-input = [ "audio" ]
+input = [ "text" ]
 
 [pricing]
 input = 15

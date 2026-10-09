@@ -5,7 +5,7 @@ release_date = "1785196800"
 [features]
 attachment = true
 reasoning = false
-structured_output = false
+structured_output = true
 tool_call = false
 
 [limit]
@@ -13,7 +13,7 @@ context = 128000
 output = 128000
 
 [modalities]
-input = [ "audio", "text" ]
+input = [ "audio" ]
 output = [ "text" ]
 
 [pricing]

@@ -6,7 +6,7 @@ attachment = true
 reasoning = true
 
 [limit]
-context = 131072
+context = 65536
 
 [modalities]
 input = [ "image", "text" ]

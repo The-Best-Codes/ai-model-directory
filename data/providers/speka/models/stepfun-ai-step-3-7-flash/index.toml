@@ -1,0 +1,17 @@
+id = "stepfun-ai/step-3.7-flash"
+name = "Step 3.7 Flash"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25
+output = 0.75

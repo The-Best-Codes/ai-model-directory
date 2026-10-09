@@ -1,19 +1,19 @@
 id = "cloudflare/clef"
 name = "Clef"
-release_date = "1790985600"
+release_date = "1791417600"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 tool_call = false
 
 [limit]
-context = 16000
+context = 1800
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 
 [pricing]
-input = 0.2
+input = 0.24000000000000002
 output = 0

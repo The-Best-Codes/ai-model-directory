@@ -9,7 +9,7 @@ temperature = true
 tool_call = false
 
 [limit]
-context = 32000
+context = 65536
 output = 50000
 
 [modalities]

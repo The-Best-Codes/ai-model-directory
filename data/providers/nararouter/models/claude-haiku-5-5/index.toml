@@ -1,0 +1,18 @@
+id = "claude-haiku-5.5"
+name = "Claude Haiku 5.5"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015589208918152872
+input = 0.14984501449783255
+output = 0.7403359837169969

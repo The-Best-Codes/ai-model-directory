@@ -1,0 +1,19 @@
+id = "meituan/longcat-2.5-preview"
+name = "Meituan: LongCat-2.5-Preview"
+release_date = "1791463580"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.006
+input = 0.3
+output = 1.18

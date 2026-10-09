@@ -1,6 +1,6 @@
 id = "kling-image-recognize"
 name = "kling-image-recognize"
-release_date = "1791436931"
+release_date = "1791523506"
 
 [features]
 attachment = false

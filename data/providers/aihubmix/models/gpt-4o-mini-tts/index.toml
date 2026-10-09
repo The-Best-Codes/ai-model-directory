@@ -2,13 +2,13 @@ id = "gpt-4o-mini-tts"
 name = "gpt-4o-mini-tts"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
 
 [modalities]
-input = [ "audio" ]
+input = [ "text" ]
 
 [pricing]
 input = 0.6

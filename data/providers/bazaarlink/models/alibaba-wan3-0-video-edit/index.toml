@@ -1,9 +1,0 @@
-id = "alibaba/wan3.0-video-edit"
-name = "Wan3.0 Video Edit"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "text", "video" ]
-output = [ "video" ]

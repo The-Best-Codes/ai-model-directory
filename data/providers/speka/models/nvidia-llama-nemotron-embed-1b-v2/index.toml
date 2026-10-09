@@ -1,0 +1,15 @@
+id = "nvidia/llama-nemotron-embed-1b-v2"
+name = "Llama Nemotron Embed 1B v2"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.012
+output = 0

@@ -1,0 +1,18 @@
+id = "nvidia/nvidia-nemotron-nano-9b-v2"
+name = "Nemotron Nano 9B"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.1

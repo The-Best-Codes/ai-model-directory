@@ -1,0 +1,17 @@
+id = "gemini-2.5-pro-preview-05-06"
+name = "Gemini 2.5 Pro Preview 05 06"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.25
+output = 10

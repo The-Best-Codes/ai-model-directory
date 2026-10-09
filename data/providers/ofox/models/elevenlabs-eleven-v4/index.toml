@@ -1,0 +1,17 @@
+id = "elevenlabs/eleven_v4"
+name = "ElevenLabs Eleven v4"
+release_date = "1791446044"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0
+output = 0

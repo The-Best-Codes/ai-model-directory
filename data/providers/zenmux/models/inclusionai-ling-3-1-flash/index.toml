@@ -1,0 +1,19 @@
+id = "inclusionai/ling-3.1-flash"
+name = "inclusionAI: Ling-3.1-flash"
+release_date = "1791439974"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

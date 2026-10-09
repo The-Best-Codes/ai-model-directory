@@ -1,0 +1,17 @@
+id = "mistralai/mistral-medium-3.5-128b"
+name = "Mistral Medium 3.5"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 0.4

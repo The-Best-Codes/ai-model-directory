@@ -1,0 +1,18 @@
+id = "nvidia/nemotron-3-nano-30b-a3b"
+name = "Nemotron 3 Nano 30B"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.2

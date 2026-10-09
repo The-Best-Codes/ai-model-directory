@@ -1,0 +1,14 @@
+id = "fireworks/ember-1"
+name = "Ember-1"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 3
+output = 15

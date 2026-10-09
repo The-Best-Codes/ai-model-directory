@@ -3,6 +3,8 @@ name = "Muse Glimmer 30B"
 
 [features]
 attachment = false
+structured_output = true
+tool_call = true
 
 [limit]
 context = 131072

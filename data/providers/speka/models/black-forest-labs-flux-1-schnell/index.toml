@@ -1,0 +1,12 @@
+id = "black-forest-labs/flux.1-schnell"
+name = "FLUX.1 [schnell]"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,17 @@
+id = "elevenlabs/scribe_v2"
+name = "ElevenLabs Scribe v2"
+release_date = "1791446044"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

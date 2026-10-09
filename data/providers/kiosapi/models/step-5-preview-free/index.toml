@@ -1,0 +1,12 @@
+id = "step-5-preview-free"
+name = "step-5-preview-free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

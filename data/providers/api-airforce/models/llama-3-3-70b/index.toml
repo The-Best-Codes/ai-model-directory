@@ -1,6 +1,6 @@
 id = "llama-3.3-70b"
 name = "llama-3.3-70b"
-release_date = "1791436931"
+release_date = "1791523506"
 
 [features]
 attachment = false

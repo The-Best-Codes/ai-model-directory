@@ -1,11 +1,11 @@
 id = "google/gemini-3.8-flash-lite-tts"
-name = "Gemini 3.8 Flash Lite TTS"
+name = "Gemini 3.8 Flash-Lite TTS"
 open_weights = false
-release_date = "1790726400"
 
 [features]
-attachment = false
+attachment = true
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "audio" ]

@@ -3,6 +3,8 @@ name = "Qwen3.8-2.4T-A95B"
 
 [features]
 attachment = false
+structured_output = true
+tool_call = true
 
 [limit]
 context = 1010000

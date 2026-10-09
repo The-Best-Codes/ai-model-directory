@@ -1,0 +1,18 @@
+id = "deepseek-ai/deepseek-v4-flash"
+name = "DeepSeek V4 Flash"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.27
+output = 1.1

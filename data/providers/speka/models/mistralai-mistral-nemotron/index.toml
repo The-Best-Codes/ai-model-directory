@@ -1,0 +1,17 @@
+id = "mistralai/mistral-nemotron"
+name = "Mistral Nemotron"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.3

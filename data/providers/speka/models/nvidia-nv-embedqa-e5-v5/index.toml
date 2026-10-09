@@ -1,0 +1,15 @@
+id = "nvidia/nv-embedqa-e5-v5"
+name = "NV-EmbedQA E5 v5"
+
+[features]
+attachment = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.01
+output = 0

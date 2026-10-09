@@ -1,0 +1,18 @@
+id = "deepseek-ai/deepseek-v4-pro"
+name = "DeepSeek V4 Pro"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.55
+output = 2.2

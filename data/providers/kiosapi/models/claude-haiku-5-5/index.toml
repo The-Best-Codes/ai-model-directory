@@ -1,0 +1,22 @@
+id = "claude-haiku-5-5"
+name = "Anthropic: Claude Haiku 5.5"
+release_date = "1791397883"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 75
+output = 75

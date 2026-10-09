@@ -1,0 +1,17 @@
+id = "meta/llama-3.3-70b-instruct"
+name = "Llama 3.3 70B Instruct"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

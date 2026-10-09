@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-nano-12b-v2-vl"
+name = "Nemotron Nano 12B VL"
+
+[features]
+attachment = true
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.15

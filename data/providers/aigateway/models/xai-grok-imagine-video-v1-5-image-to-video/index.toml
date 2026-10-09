@@ -1,7 +1,7 @@
 id = "xai/grok-imagine-video/v1.5/image-to-video"
 name = "Grok Imagine Video 1.5"
 open_weights = false
-release_date = "1785542400"
+release_date = "1791158400"
 
 [features]
 attachment = true

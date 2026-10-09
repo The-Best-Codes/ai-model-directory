@@ -1,7 +1,7 @@
 id = "tripo3d/p2/image-to-3d"
 name = "Tripo P2 Image to 3D"
 open_weights = true
-release_date = "1789948800"
+release_date = "1791244800"
 
 [features]
 attachment = true

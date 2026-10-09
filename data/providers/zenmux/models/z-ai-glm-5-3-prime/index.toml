@@ -1,0 +1,19 @@
+id = "z-ai/glm-5.3-prime"
+name = "Z.AI: GLM 5.3 Prime"
+release_date = "1791461839"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.56
+input = 2.8
+output = 8.8

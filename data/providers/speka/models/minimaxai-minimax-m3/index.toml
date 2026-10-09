@@ -1,0 +1,17 @@
+id = "minimaxai/minimax-m3"
+name = "MiniMax M3"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

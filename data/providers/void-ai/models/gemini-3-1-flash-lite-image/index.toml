@@ -1,0 +1,13 @@
+id = "gemini-3.1-flash-lite-image"
+
+[features]
+attachment = true
+tool_call = false
+
+[limit]
+context = 65536
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
