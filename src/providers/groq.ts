@@ -21,6 +21,9 @@ const apiModelSchema = z.object({
 
 const responseSchema = z.object({ data: z.array(apiModelSchema) });
 
+type ListedModel = Pick<z.infer<typeof apiModelSchema>, "id"> &
+  Partial<z.infer<typeof apiModelSchema>>;
+
 type DocInfo = {
   name?: string;
   knowledge_cutoff?: ModelRecord["knowledge_cutoff"];
@@ -244,7 +247,7 @@ export function parseDocPage(
   });
 }
 
-function getModelDocUrl(model: z.infer<typeof apiModelSchema>): string {
+function getModelDocUrl(model: ListedModel): string {
   if (model.id.startsWith("groq/compound")) {
     const slug = model.id.split("/").at(-1) ?? model.id;
     return `https://console.groq.com/docs/compound/systems/${slug}.md`;
@@ -254,7 +257,7 @@ function getModelDocUrl(model: z.infer<typeof apiModelSchema>): string {
 }
 
 async function fetchModelDetails(
-  model: z.infer<typeof apiModelSchema>,
+  model: ListedModel,
 ): Promise<DocInfo | undefined> {
   try {
     const text = await fetchText(getModelDocUrl(model), {
@@ -268,6 +271,33 @@ async function fetchModelDetails(
   }
 }
 
+export function parseDocModelIds(text: string): string[] {
+  const ids = new Set<string>();
+
+  for (const match of text.matchAll(
+    /^\|\s*\[.*?\]\(\/docs\/model\/([^)\s]+)\)/gm,
+  )) {
+    if (match[1]) {
+      ids.add(match[1]);
+    }
+  }
+
+  return [...ids];
+}
+
+async function fetchDocModelIds(): Promise<string[]> {
+  try {
+    const text = await fetchText("https://console.groq.com/docs/models.md", {
+      init: { redirect: "follow" },
+      label: "Groq models docs error",
+    });
+
+    return parseDocModelIds(text);
+  } catch {
+    return [];
+  }
+}
+
 export const groqProvider: ProviderDefinition = {
   name: "groq",
   outputDirectory: "data/providers/groq/models",
@@ -278,7 +308,7 @@ export const groqProvider: ProviderDefinition = {
       throw new Error("GROQ_API_KEY is not set");
     }
 
-    progress?.beginPhase("fetching", 1);
+    progress?.beginPhase("fetching", 2);
 
     const response = await fetchJson("https://api.groq.com/openai/v1/models", {
       schema: responseSchema,
@@ -290,19 +320,30 @@ export const groqProvider: ProviderDefinition = {
       `api.groq.com/openai/v1/models (${response.data.length})`,
       true,
     );
+
+    const apiIds = new Set(response.data.map((model) => model.id));
+    const docOnlyIds = (await fetchDocModelIds()).filter(
+      (id) => !apiIds.has(id),
+    );
+
+    progress?.tick(
+      `console.groq.com/docs/models (${docOnlyIds.length} docs only)`,
+      true,
+    );
+
+    const models: ListedModel[] = [
+      ...response.data,
+      ...docOnlyIds.map((id) => ({ id })),
+    ];
     const docDetails = new Map<string, DocInfo>();
 
-    progress?.beginPhase("scraping", response.data.length);
+    progress?.beginPhase("scraping", models.length);
 
-    const detailResults = await mapWithConcurrency(
-      response.data,
-      8,
-      async (model) => {
-        const detail = await fetchModelDetails(model);
-        progress?.tick(model.id, detail !== undefined);
-        return { id: model.id, detail };
-      },
-    );
+    const detailResults = await mapWithConcurrency(models, 8, async (model) => {
+      const detail = await fetchModelDetails(model);
+      progress?.tick(model.id, detail !== undefined);
+      return { id: model.id, detail };
+    });
 
     for (const entry of detailResults) {
       if (entry.detail) {
@@ -310,8 +351,12 @@ export const groqProvider: ProviderDefinition = {
       }
     }
 
-    return response.data.map((model) => {
+    return models.flatMap((model) => {
       const detail = docDetails.get(model.id);
+
+      if (!apiIds.has(model.id) && !detail) {
+        return [];
+      }
 
       return compactObject({
         id: model.id,

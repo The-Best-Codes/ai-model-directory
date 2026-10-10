@@ -1,5 +1,72 @@
 # Changelog
 
+## Run at 1791666843
+
+### Summary
+
+- **Total models currently tracked: 14903** across 85 providers
+- Providers with changes this run: 1
+- Total models added: 3
+- Total models removed: 0
+- Total field changes: 4
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 1 |
+| `features.attachment` | 0 | 1 | 0 |
+| `modalities.input` | 0 | 1 | 0 |
+| `modalities.output` | 0 | 1 | 0 |
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>groq</strong> — 14 models, 3 added, 0 removed, 4 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 14
+- Models added: 3
+- Models removed: 0
+- Total field changes: 4
+
+<details>
+<summary>Changed fields</summary>
+
+| Field | Lost | Gained | Changed |
+| --- | ---: | ---: | ---: |
+| `name` | 0 | 0 | 1 |
+| `features.attachment` | 0 | 1 | 0 |
+| `modalities.input` | 0 | 1 | 0 |
+| `modalities.output` | 0 | 1 | 0 |
+
+</details>
+
+<details>
+<summary>Added models (3)</summary>
+
+- `llama-3.1-8b-instant`
+- `llama-3.3-70b-versatile`
+- `minimaxai/minimax-m2.7`
+
+</details>
+
+</details>
+
+</details>
+
+## Run at 1791666720
+
+### Summary
+
+- **Total models currently tracked: 14900** across 85 providers
+- Providers with changes this run: 0
+- Total models added: 0
+- Total models removed: 0
+- Total field changes: 0
+
+_No providers reported model changes this run._
+
 ## Run at 1791609120
 
 ### Summary
