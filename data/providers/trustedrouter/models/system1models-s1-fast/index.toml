@@ -1,5 +1,5 @@
 id = "system1models/s1-fast"
-name = "System1 s1-fast (GLOBAL)"
+name = "Decision Models s1-fast (GLOBAL)"
 open_weights = false
 
 [features]

@@ -1,5 +1,5 @@
 id = "bytedance/seedance-1-5-pro"
-name = "Seedance 1 5 Pro"
+name = "Seedance 1.5 Pro"
 
 [features]
 attachment = true

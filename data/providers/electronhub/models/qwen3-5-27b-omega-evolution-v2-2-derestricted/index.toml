@@ -2,7 +2,7 @@ id = "qwen3.5-27b-omega-evolution-v2.2-derestricted"
 name = "HuggingFace: Qwen3.5-27B-Omega-Evolution-v2.2-Derestricted"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -11,7 +11,7 @@ context = 262000
 input = 262000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

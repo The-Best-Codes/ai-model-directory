@@ -1,5 +1,5 @@
 id = "elevenlabs/eleven-v3-conversational"
-name = "Eleven V3 Conversational"
+name = "Eleven v3 Conversational"
 
 [features]
 attachment = false

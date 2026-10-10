@@ -5,6 +5,9 @@ release_date = "1776038400"
 [features]
 attachment = false
 
+[limit]
+output = 19661
+
 [modalities]
 input = [ "text" ]
 output = [ "audio" ]

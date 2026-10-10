@@ -1,0 +1,19 @@
+id = "tensorx/qwen3.8-flash-next-tensorx"
+name = "Qwen3.8 Flash Next"
+release_date = "1791577994"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.2
+output = 0.5

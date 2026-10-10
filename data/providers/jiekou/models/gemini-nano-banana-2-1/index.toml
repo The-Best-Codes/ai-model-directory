@@ -1,0 +1,17 @@
+id = "gemini-nano-banana-2.1"
+name = "gemini nano banana 2.1"
+release_date = "1791529201"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 1.5
+output = 7.5

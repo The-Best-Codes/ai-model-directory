@@ -1,5 +1,5 @@
 id = "deepseek-r1-0528"
-name = "Deepseek R1 0528"
+name = "DeepSeek R1 0528"
 
 [features]
 attachment = false

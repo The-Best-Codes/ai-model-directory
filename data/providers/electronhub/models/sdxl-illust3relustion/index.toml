@@ -1,0 +1,9 @@
+id = "sdxl-illust3relustion"
+name = "Stability: illust3relustion"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

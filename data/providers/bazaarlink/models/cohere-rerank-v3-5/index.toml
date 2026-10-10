@@ -1,5 +1,5 @@
 id = "cohere/rerank-v3.5"
-name = "Rerank V3.5"
+name = "Rerank v3.5"
 
 [features]
 attachment = false

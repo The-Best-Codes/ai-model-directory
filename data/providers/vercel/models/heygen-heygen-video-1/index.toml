@@ -1,0 +1,12 @@
+id = "heygen/heygen-video-1"
+name = "HeyGen Video"
+release_date = "1791504000"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

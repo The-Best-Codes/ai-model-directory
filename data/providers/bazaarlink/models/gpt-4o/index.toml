@@ -1,5 +1,5 @@
 id = "gpt-4o"
-name = "GPT 4o"
+name = "GPT-4o"
 
 [features]
 attachment = true

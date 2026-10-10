@@ -1,17 +1,17 @@
 id = "nvidia/nemotron-3-nano-omni"
-name = "Nemotron Nano 3 Omni"
+name = "Nemotron-3-Nano-Omni-30B"
 open_weights = true
 
 [features]
 attachment = false
 
 [limit]
-context = 65536
+context = 131072
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.5275
-output = 0.9495
+input = 0.025848
+output = 0.103179

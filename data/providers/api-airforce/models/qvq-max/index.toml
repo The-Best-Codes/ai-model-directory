@@ -1,0 +1,17 @@
+id = "qvq-max"
+name = "qvq-max"
+release_date = "1791608980"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.23
+cache_write = 1.58
+input = 1.26
+output = 5.04

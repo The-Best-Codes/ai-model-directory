@@ -2,7 +2,7 @@ id = "gemma-4-31b-glistening-gem-v1.0"
 name = "HuggingFace: Gemma-4-31B-Glistening-Gem-v1.0"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -11,7 +11,7 @@ context = 262000
 input = 262000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

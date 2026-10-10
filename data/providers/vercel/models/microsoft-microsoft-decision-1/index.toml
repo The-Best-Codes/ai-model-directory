@@ -1,0 +1,10 @@
+id = "microsoft/microsoft-decision-1"
+name = "Decision-1"
+release_date = "1791504000"
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.042
+output = 0

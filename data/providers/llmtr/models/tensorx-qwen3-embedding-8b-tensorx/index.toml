@@ -1,0 +1,12 @@
+id = "tensorx/qwen3-embedding-8b-tensorx"
+name = "Qwen3 Embedding 8B"
+release_date = "1791577994"
+
+[features]
+attachment = true
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]

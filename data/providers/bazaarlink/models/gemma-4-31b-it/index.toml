@@ -1,5 +1,5 @@
 id = "gemma-4-31b-it"
-name = "Gemma 4 31b It"
+name = "Gemma 4 31B"
 
 [features]
 attachment = true

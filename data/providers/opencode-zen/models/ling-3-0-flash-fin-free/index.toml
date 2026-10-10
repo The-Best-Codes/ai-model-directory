@@ -1,7 +1,7 @@
 id = "ling-3.0-flash-fin-free"
-last_updated = "1787788800"
+last_updated = "1788393600"
 name = "Ling 3.0 Flash Fin Free"
-open_weights = false
+open_weights = true
 release_date = "1787788800"
 
 [features]

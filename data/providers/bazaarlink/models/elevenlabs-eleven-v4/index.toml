@@ -1,5 +1,5 @@
 id = "elevenlabs/eleven-v4"
-name = "Eleven V4"
+name = "Eleven v4"
 
 [features]
 attachment = false

@@ -1,5 +1,5 @@
 id = "deepseek-chat"
-name = "Deepseek Chat"
+name = "DeepSeek Chat"
 
 [features]
 attachment = false

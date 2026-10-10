@@ -1,0 +1,21 @@
+id = "anthropic-claude-haiku-5-5"
+last_updated = "1791525643"
+name = "claude-haiku-5-5"
+release_date = "1791525643"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.1
+output = 0.5

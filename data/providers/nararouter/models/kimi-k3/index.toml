@@ -3,7 +3,7 @@ name = "Kimi K3"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.14492752223537086
-input = 0.8903543300353928
-output = 4.451771650232856
+cache_read = 0.1449433686040641
+input = 0.8904516813373659
+output = 4.452258406742728

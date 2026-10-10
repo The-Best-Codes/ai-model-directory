@@ -1,5 +1,5 @@
 id = "gemini-embedding-001"
-name = "Gemini Embedding"
+name = "Gemini Embedding 001"
 
 [features]
 attachment = false

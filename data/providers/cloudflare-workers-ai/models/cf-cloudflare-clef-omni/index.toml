@@ -1,0 +1,17 @@
+id = "@cf/cloudflare/clef-omni"
+name = "clef-omni"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15

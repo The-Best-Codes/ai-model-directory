@@ -1,5 +1,5 @@
 id = "system1models/s1-vision"
-name = "System1 s1-vision (GLOBAL)"
+name = "Decision Models s1-vision (GLOBAL)"
 open_weights = false
 
 [features]

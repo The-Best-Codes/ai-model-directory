@@ -1,5 +1,5 @@
 id = "elevenlabs/eleven-multilingual-v2"
-name = "Eleven Multilingual V2"
+name = "Eleven Multilingual v2"
 
 [features]
 attachment = false

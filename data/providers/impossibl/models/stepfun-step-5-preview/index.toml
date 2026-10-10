@@ -1,0 +1,14 @@
+id = "stepfun/step-5-preview"
+name = "Step 5 Preview"
+
+[limit]
+context = 1024000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 1
+output = 2.7

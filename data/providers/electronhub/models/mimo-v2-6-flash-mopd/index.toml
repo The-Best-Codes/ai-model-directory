@@ -1,0 +1,19 @@
+id = "mimo-v2.6-flash-mopd"
+name = "HuggingFace: MiMo-V2.6-Flash-MOPD"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 524000
+input = 524000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 1.2

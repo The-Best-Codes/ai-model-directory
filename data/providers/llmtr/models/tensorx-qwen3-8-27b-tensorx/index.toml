@@ -1,0 +1,19 @@
+id = "tensorx/qwen3.8-27b-tensorx"
+name = "Qwen3.8 27B"
+release_date = "1791577994"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.4
+output = 2.4

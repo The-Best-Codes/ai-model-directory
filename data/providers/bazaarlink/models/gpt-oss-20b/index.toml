@@ -1,5 +1,5 @@
 id = "gpt-oss-20b"
-name = "GPT Oss 20b"
+name = "GPT-OSS 20B"
 
 [features]
 attachment = false

@@ -1,5 +1,5 @@
 id = "elevenlabs/scribe-v2"
-name = "Scribe V2"
+name = "Scribe v2"
 
 [features]
 attachment = true

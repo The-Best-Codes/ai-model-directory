@@ -19,6 +19,5 @@ input = [ "text" ]
 output = [ "audio" ]
 
 [pricing]
-cache_read = 0.125
 input = 0.5
 output_audio = 9

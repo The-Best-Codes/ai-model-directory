@@ -1,5 +1,5 @@
 id = "qwen3-embedding-8b"
-name = "Qwen3 Embedding 8b"
+name = "Qwen3 Embedding 8B"
 
 [features]
 attachment = false

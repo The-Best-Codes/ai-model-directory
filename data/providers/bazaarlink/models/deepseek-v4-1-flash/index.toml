@@ -1,5 +1,5 @@
 id = "deepseek-v4.1-flash"
-name = "Deepseek V4.1 Flash"
+name = "DeepSeek V4.1 Flash"
 
 [features]
 attachment = true

@@ -1,0 +1,11 @@
+id = "qwen-image-2.1-turbo"
+last_updated = "1791549736"
+name = "Qwen-Image-2.1-Turbo"
+release_date = "1791549736"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

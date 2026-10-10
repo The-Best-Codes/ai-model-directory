@@ -1,5 +1,5 @@
 id = "glm-5.3-flash"
-name = "Glm 5.3 Flash"
+name = "GLM 5.3 Flash"
 
 [features]
 attachment = true
