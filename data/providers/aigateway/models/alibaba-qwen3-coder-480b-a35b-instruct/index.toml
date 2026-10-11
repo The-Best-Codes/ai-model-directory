@@ -1,7 +1,6 @@
 id = "alibaba/qwen3-coder-480b-a35b-instruct"
 name = "Qwen3-Coder 480B A35B Instruct"
 open_weights = true
-release_date = "1778716800"
 
 [features]
 attachment = false

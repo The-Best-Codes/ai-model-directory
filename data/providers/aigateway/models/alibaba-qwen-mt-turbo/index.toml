@@ -1,7 +1,6 @@
 id = "alibaba/qwen-mt-turbo"
 name = "Qwen-MT Turbo"
 open_weights = true
-release_date = "1760400000"
 
 [features]
 attachment = false

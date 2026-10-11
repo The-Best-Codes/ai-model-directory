@@ -1,6 +1,6 @@
 id = "qwen3-vl"
 name = "qwen3-vl"
-release_date = "1791608980"
+release_date = "1791694791"
 
 [features]
 attachment = false
@@ -14,4 +14,4 @@ output = [ "text" ]
 cache_read = 0.02
 cache_write = 0.16
 input = 0.16
-output = 1.55
+output = 1.56

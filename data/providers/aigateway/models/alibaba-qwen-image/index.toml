@@ -1,6 +1,7 @@
 id = "alibaba/qwen-image"
 name = "Qwen Image"
 open_weights = true
+release_date = "1782259200"
 
 [features]
 attachment = false

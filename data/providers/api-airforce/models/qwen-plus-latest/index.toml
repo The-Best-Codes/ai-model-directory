@@ -1,0 +1,17 @@
+id = "qwen-plus-latest"
+name = "qwen-plus-latest"
+release_date = "1791694791"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+cache_write = 0.16
+input = 0.13
+output = 0.45

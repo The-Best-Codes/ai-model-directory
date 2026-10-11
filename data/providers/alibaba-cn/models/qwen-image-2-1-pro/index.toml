@@ -1,7 +1,7 @@
 id = "qwen-image-2.1-pro"
-last_updated = "1791015150"
+last_updated = "1791561600"
 name = "Qwen-Image-2.1-Pro"
-release_date = "1791015150"
+release_date = "1791561600"
 
 [features]
 attachment = true

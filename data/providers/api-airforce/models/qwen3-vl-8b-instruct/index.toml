@@ -1,6 +1,6 @@
 id = "qwen3-vl-8b-instruct"
 name = "qwen3-vl-8b-instruct"
-release_date = "1791608980"
+release_date = "1791694791"
 
 [features]
 attachment = false
@@ -10,5 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.19
-output = 0.74
+input = 0.18
+output = 0.7

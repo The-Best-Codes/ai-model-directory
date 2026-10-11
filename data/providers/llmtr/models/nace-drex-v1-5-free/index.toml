@@ -1,0 +1,13 @@
+id = "nace/drex-v1.5-free"
+name = "Drex 1.5 (Free)"
+release_date = "1791631081"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]

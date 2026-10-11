@@ -1,7 +1,6 @@
 id = "alibaba/qwen3-max-preview"
 name = "Qwen 3 Max Preview"
 open_weights = true
-release_date = "1768262400"
 
 [features]
 attachment = false

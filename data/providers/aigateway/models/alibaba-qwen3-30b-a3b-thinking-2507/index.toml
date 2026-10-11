@@ -1,7 +1,6 @@
 id = "alibaba/qwen3-30b-a3b-thinking-2507"
 name = "Qwen3 30B A3B Thinking"
 open_weights = true
-release_date = "1760400000"
 
 [features]
 attachment = false

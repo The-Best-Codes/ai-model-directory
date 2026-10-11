@@ -1,7 +1,6 @@
 id = "alibaba/qwen3-coder-next"
 name = "Qwen3-Coder Next"
 open_weights = true
-release_date = "1778716800"
 
 [features]
 attachment = false

@@ -1,7 +1,7 @@
 id = "alibaba/qwen-image-max"
-name = "Qwen Image Max"
+name = "Qwen Image Max (Text To Image)"
 open_weights = true
-release_date = "1767052800"
+release_date = "1778112000"
 
 [features]
 attachment = false

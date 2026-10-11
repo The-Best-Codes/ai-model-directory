@@ -1,7 +1,6 @@
 id = "alibaba/qwen3-14b"
 name = "Qwen3 14B"
 open_weights = true
-release_date = "1760400000"
 
 [features]
 attachment = false

@@ -1,7 +1,6 @@
 id = "alibaba/qwen3-30b-a3b-instruct-2507"
 name = "Qwen3 30B A3B Instruct"
 open_weights = true
-release_date = "1769990400"
 
 [features]
 attachment = false
