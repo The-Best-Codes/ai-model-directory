@@ -9,7 +9,7 @@ import { ModelTable } from "#/components/model-table";
 import { loadDirectoryData } from "#/directory-data";
 import { getProviderSeo } from "#/provider-seo";
 
-export const dynamicParams = false;
+export const ensureStatic = "navigation";
 
 type PageProps = {
   params: Promise<{ provider: string }>;

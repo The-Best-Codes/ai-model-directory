@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { cacheLife } from "next/cache";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
@@ -29,8 +30,7 @@ import {
 } from "#/lib/docs";
 import shikiHighlighter from "#/lib/shiki";
 
-export const dynamic = "force-static";
-export const dynamicParams = false;
+export const ensureStatic = "navigation";
 
 type PageProps = {
   params: Promise<{ slug?: string[] }>;
@@ -38,7 +38,7 @@ type PageProps = {
 
 export function generateStaticParams() {
   return getDocSlugs().map((slug) => ({
-    slug: slug ? slug.split("/") : undefined,
+    slug: slug ? slug.split("/") : [],
   }));
 }
 
@@ -60,6 +60,9 @@ export async function generateMetadata({
 }
 
 export default async function Page({ params }: PageProps) {
+  "use cache";
+  cacheLife("max");
+
   const { slug: slugArray } = await params;
   const slug = slugArray?.join("/") ?? "";
   const doc = getDoc(slug);
