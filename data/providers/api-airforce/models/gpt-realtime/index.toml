@@ -1,6 +1,6 @@
 id = "gpt-realtime"
 name = "gpt-realtime"
-release_date = "1791781996"
+release_date = "1791785537"
 
 [pricing]
 input = 5.25
