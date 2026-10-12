@@ -6,6 +6,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "cd packages/web && bun run build",
+    "start": "cd packages/web && bun run start"
+  },
   "type": "module",
   "module": "src/index.ts",
   "devDependencies": {

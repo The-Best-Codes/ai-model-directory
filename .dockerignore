@@ -1,0 +1,3 @@
+# for coolify deployments of packages/web, these files aren't needed
+data/providers
+data/all.json
