@@ -112,7 +112,7 @@ export default async function Page({ params }: PageProps) {
         </div>
       </section>
       <section className="flex h-[70vh] min-h-96 flex-col">
-        <ModelTable directory={directory} providerId={entry.id} />
+        <ModelTable directory={{ [entry.id]: entry }} providerId={entry.id} />
       </section>
     </main>
   );
