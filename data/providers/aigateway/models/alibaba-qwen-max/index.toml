@@ -1,10 +1,14 @@
 id = "alibaba/qwen-max"
-name = "Qwen Max"
+name = "Qwen-Max"
 open_weights = true
-release_date = "1779926400"
+release_date = "1738195200"
 
 [features]
 attachment = false
+
+[limit]
+context = 32768
+output = 8192
 
 [modalities]
 input = [ "text" ]

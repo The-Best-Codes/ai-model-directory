@@ -1,6 +1,7 @@
 id = "alibaba/happy-horse/image-to-video"
-name = "HappyHorse 1.0 I2V"
+name = "HappyHorse-1.0-I2V"
 open_weights = true
+release_date = "1776816000"
 
 [features]
 attachment = true

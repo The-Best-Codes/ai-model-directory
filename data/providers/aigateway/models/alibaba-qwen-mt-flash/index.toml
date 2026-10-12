@@ -1,10 +1,14 @@
 id = "alibaba/qwen-mt-flash"
-name = "Qwen-MT Flash"
+name = "Qwen-MT-Flash"
 open_weights = true
-release_date = "1762387200"
+release_date = "1762819200"
 
 [features]
 attachment = false
+
+[limit]
+context = 16384
+output = 8192
 
 [modalities]
 input = [ "text" ]

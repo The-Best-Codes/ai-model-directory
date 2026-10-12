@@ -1,7 +1,7 @@
 id = "alibaba/text-embedding-v3"
-name = "Qwen Text Embedding v3"
+name = "Text-Embedding-v3"
 open_weights = true
-release_date = "1761523200"
+release_date = "1720742400"
 
 [features]
 attachment = false

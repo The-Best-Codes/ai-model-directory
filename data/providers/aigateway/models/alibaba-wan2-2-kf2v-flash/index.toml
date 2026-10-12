@@ -1,6 +1,7 @@
 id = "alibaba/wan2.2-kf2v-flash"
-name = "Wan 2.2 KF2V Flash"
+name = "Wan2.2-KF2V-Flash"
 open_weights = true
+release_date = "1757635200"
 
 [features]
 attachment = true

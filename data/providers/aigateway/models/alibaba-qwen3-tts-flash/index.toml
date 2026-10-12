@@ -1,7 +1,7 @@
 id = "alibaba/qwen3-tts-flash"
-name = "Qwen3-TTS Flash"
+name = "Qwen3-TTS-Flash"
 open_weights = true
-release_date = "1767571200"
+release_date = "1764201600"
 
 [features]
 attachment = false

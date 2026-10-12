@@ -1,7 +1,7 @@
 id = "bria/bria-background-remove"
 name = "Bria RMBG 2.0"
 open_weights = true
-release_date = "1782259200"
+release_date = "1791676800"
 
 [features]
 attachment = true

@@ -1,0 +1,12 @@
+id = "qwen3-asr-0.6b"
+name = "Qwen3 ASR 0.6B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

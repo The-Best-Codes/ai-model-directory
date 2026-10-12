@@ -1,7 +1,7 @@
 id = "zai-org/glm-5.1"
 name = "GLM-5.1"
 open_weights = true
-release_date = "1782172800"
+release_date = "1776124800"
 
 [features]
 attachment = false
@@ -9,7 +9,8 @@ reasoning = true
 tool_call = true
 
 [limit]
-context = 200000
+context = 202745
+output = 131072
 
 [modalities]
 input = [ "text" ]

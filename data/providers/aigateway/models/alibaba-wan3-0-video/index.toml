@@ -1,6 +1,7 @@
 id = "alibaba/wan3.0-video"
-name = "Wan 3.0 Video"
+name = "Wan3.0-Video"
 open_weights = true
+release_date = "1785974400"
 
 [features]
 attachment = true

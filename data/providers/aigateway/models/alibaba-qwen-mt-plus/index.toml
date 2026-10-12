@@ -1,10 +1,14 @@
 id = "alibaba/qwen-mt-plus"
-name = "Qwen-MT Plus"
+name = "Qwen-MT-Plus"
 open_weights = true
-release_date = "1760400000"
+release_date = "1753315200"
 
 [features]
 attachment = false
+
+[limit]
+context = 4096
+output = 2048
 
 [modalities]
 input = [ "text" ]

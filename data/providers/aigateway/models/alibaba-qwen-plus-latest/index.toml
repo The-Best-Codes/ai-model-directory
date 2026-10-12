@@ -1,7 +1,7 @@
 id = "alibaba/qwen-plus-latest"
-name = "Qwen Plus Latest"
+name = "Qwen-Plus-Latest"
 open_weights = true
-release_date = "1760400000"
+release_date = "1753920000"
 
 [features]
 attachment = false
@@ -10,6 +10,7 @@ tool_call = true
 
 [limit]
 context = 1000000
+output = 32768
 
 [modalities]
 input = [ "text" ]

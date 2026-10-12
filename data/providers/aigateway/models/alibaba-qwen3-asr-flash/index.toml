@@ -1,6 +1,7 @@
 id = "alibaba/qwen3-asr-flash"
-name = "Qwen3-ASR Flash"
+name = "Qwen3-ASR-Flash"
 open_weights = true
+release_date = "1757980800"
 
 [features]
 attachment = true

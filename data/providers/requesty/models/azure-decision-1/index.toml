@@ -1,0 +1,20 @@
+id = "azure/decision-1"
+name = "azure/decision-1"
+release_date = "1791504000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32768
+output = 1024
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0

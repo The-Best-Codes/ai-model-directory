@@ -1,6 +1,7 @@
 id = "alibaba/qwen3-rerank"
-name = "Qwen3 Rerank"
+name = "Qwen3-Rerank"
 open_weights = true
+release_date = "1769472000"
 
 [features]
 attachment = false

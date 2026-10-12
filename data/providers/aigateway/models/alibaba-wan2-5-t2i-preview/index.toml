@@ -1,6 +1,7 @@
 id = "alibaba/wan2.5-t2i-preview"
-name = "Wan 2.5 T2I Preview"
+name = "Wan2.5-T2I-Preview"
 open_weights = true
+release_date = "1758672000"
 
 [features]
 attachment = false

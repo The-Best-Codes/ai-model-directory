@@ -1,0 +1,11 @@
+id = "alibaba/qwen-image-max-text-to-image"
+name = "Qwen Image Max (Text To Image)"
+open_weights = true
+release_date = "1778112000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

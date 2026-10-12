@@ -1,0 +1,17 @@
+id = "google/gemini-nano-banana-2.1"
+name = "google/gemini-nano-banana-2.1"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 1.5
+cache_write = 1.5
+input = 1.5
+input_audio = 1.5
+output = 30
+output_audio = 1.5

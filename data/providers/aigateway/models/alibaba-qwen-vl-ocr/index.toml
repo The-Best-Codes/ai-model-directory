@@ -1,9 +1,14 @@
 id = "alibaba/qwen-vl-ocr"
-name = "Qwen-VL OCR"
+name = "QwenVL-OCR"
 open_weights = true
+release_date = "1763596800"
 
 [features]
 attachment = true
+
+[limit]
+context = 38192
+output = 8192
 
 [modalities]
 input = [ "image", "text" ]

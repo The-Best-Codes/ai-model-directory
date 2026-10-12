@@ -1,10 +1,14 @@
 id = "alibaba/qwen-flash-character"
-name = "Qwen Flash Character"
+name = "Qwen-Flash-Character"
 open_weights = true
-release_date = "1775779200"
+release_date = "1768262400"
 
 [features]
 attachment = false
+
+[limit]
+context = 8192
+output = 4096
 
 [modalities]
 input = [ "text" ]

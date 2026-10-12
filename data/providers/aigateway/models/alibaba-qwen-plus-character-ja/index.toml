@@ -1,0 +1,19 @@
+id = "alibaba/qwen-plus-character-ja"
+name = "Qwen-Plus-Character-Japanese"
+open_weights = true
+release_date = "1753056000"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+output = 512
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 1.4

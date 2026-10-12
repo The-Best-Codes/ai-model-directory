@@ -1,0 +1,12 @@
+id = "voxtral-mini-3b-2507"
+name = "Voxtral Mini 3B 2507"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

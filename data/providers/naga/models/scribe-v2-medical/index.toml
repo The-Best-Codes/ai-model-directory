@@ -1,0 +1,12 @@
+id = "scribe-v2-medical"
+name = "Scribe v2 Medical"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
