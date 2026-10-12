@@ -12,3 +12,7 @@ context = 131072
 
 [modalities]
 input = [ "image", "text" ]
+
+[pricing]
+input = 0.5
+output = 3

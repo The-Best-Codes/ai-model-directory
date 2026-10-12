@@ -61,39 +61,23 @@ export const llmtrProvider: ProviderDefinition = {
         model.capabilities.map((c) => c.toLowerCase()),
       );
 
-      const inputPrice = findPrice(
-        model.primaryPricingRows,
-        "CHAT_COMPLETIONS",
-        "INPUT_TEXT",
-      );
-      const outputPrice = findPrice(
-        model.primaryPricingRows,
-        "CHAT_COMPLETIONS",
-        "OUTPUT_TEXT",
-      );
-      const cacheReadPrice = findPrice(
-        model.primaryPricingRows,
-        "CHAT_COMPLETIONS",
-        "CACHE_READ",
-      );
+      const inputPrice = findPrice(model.primaryPricingRows, "INPUT_TEXT");
+      const outputPrice = findPrice(model.primaryPricingRows, "OUTPUT_TEXT");
+      const cacheReadPrice = findPrice(model.primaryPricingRows, "CACHE_READ");
       const cacheWritePrice = findPrice(
         model.primaryPricingRows,
-        "CHAT_COMPLETIONS",
         "CACHE_WRITE",
       );
       const inputAudioPrice = findPrice(
         model.primaryPricingRows,
-        "CHAT_COMPLETIONS",
         "INPUT_AUDIO",
       );
       const outputAudioPrice = findPrice(
         model.primaryPricingRows,
-        "CHAT_COMPLETIONS",
         "OUTPUT_AUDIO",
       );
       const reasoningPrice = findPrice(
         model.primaryPricingRows,
-        "CHAT_COMPLETIONS",
         "REASONING_TOKENS",
       );
 
@@ -128,16 +112,22 @@ export const llmtrProvider: ProviderDefinition = {
   },
 };
 
+const operationPriority = ["CHAT_COMPLETIONS", "RESPONSES"];
+
+function operationRank(operation: string): number {
+  const index = operationPriority.indexOf(operation);
+  return index === -1 ? operationPriority.length : index;
+}
+
 function findPrice(
   rows: z.infer<typeof pricingRowSchema>[],
-  operation: string,
   metric: string,
 ): number | undefined {
-  const row = rows.find(
-    (r) => r.operation === operation && r.metric === metric,
-  );
+  const row = rows
+    .filter((r) => r.metric === metric && r.unit === "PER_1M_TOKENS")
+    .sort((a, b) => operationRank(a.operation) - operationRank(b.operation))[0];
 
-  if (!row || row.unit !== "PER_1M_TOKENS") {
+  if (!row) {
     return undefined;
   }
 

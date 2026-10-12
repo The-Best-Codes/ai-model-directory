@@ -221,12 +221,13 @@ export const alibabaCnProvider: ProviderDefinition = {
             hasAnyString(features, "structured-outputs") || undefined,
         }),
         pricing: compactObject({
-          input: prices.get("input_token"),
-          output: prices.get("output_token"),
+          input: prices.get("input_token") ?? prices.get("omni_input_token"),
+          output: prices.get("output_token") ?? prices.get("omni_output_token"),
           cache_read:
             prices.get("input_token_cache_read") ??
             prices.get("thinking_input_token_cache_read") ??
-            prices.get("input_token_cache"),
+            prices.get("input_token_cache") ??
+            prices.get("omni_input_token_cache"),
           cache_write:
             prices.get("input_token_cache_creation_5m") ??
             prices.get("thinking_input_token_cache_creation_5m"),

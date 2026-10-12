@@ -56,6 +56,7 @@ function parsePrice(value: string): number | undefined {
 function normalizeModelName(value: string): string {
   return value
     .replace(/\(deprecated\)/gi, "")
+    .replace(/\(for prompts [^)]*\)/gi, "")
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();
@@ -104,11 +105,13 @@ export function parsePricingMarkdown(
       output: parsePrice(cells[5] ?? ""),
     }) as PricingInfo;
 
-    if (Object.keys(pricing).length === 0) {
+    const key = normalizeModelName(name);
+
+    if (Object.keys(pricing).length === 0 || result.has(key)) {
       continue;
     }
 
-    result.set(normalizeModelName(name), pricing);
+    result.set(key, pricing);
   }
 
   return result;

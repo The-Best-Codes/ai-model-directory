@@ -8,3 +8,7 @@ tool_call = true
 
 [modalities]
 input = [ "audio", "text" ]
+
+[pricing]
+input = 1
+output_audio = 20

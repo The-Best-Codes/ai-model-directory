@@ -10,3 +10,6 @@ context = 8192
 
 [modalities]
 input = [ "text" ]
+
+[pricing]
+input = 0.02

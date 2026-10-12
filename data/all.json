@@ -62925,6 +62925,11 @@
           "tool_call": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 0.113,
+          "output": 0.382,
+          "cache_read": 0.014
+        },
         "limit": {
           "context": 1000000,
           "input": 991808,
@@ -63490,6 +63495,12 @@
           "reasoning": true,
           "tool_call": true,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.5,
+          "cache_read": 0.01,
+          "cache_write": 0.125
         },
         "limit": {
           "context": 1000000,
@@ -171262,6 +171273,10 @@
           "attachment": false,
           "structured_output": true
         },
+        "pricing": {
+          "input": 0.15,
+          "output": 0
+        },
         "limit": {
           "context": 40000
         },
@@ -171278,6 +171293,10 @@
         "features": {
           "attachment": false,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
         },
         "limit": {
           "context": 4096
@@ -171343,6 +171362,10 @@
         "features": {
           "attachment": false
         },
+        "pricing": {
+          "input": 1.25,
+          "output": 10
+        },
         "limit": {
           "context": 1048576
         },
@@ -171388,6 +171411,10 @@
           "attachment": true,
           "tool_call": true
         },
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5
+        },
         "modalities": {
           "input": [
             "image",
@@ -171428,6 +171455,12 @@
           "attachment": true,
           "tool_call": true
         },
+        "pricing": {
+          "input": 0.5,
+          "output": 2,
+          "input_audio": 3,
+          "output_audio": 12
+        },
         "limit": {
           "context": 128000
         },
@@ -171446,6 +171479,10 @@
         "features": {
           "attachment": true,
           "tool_call": true
+        },
+        "pricing": {
+          "input": 0.5,
+          "output_audio": 10
         },
         "modalities": {
           "input": [
@@ -171488,6 +171525,10 @@
           "attachment": true,
           "tool_call": true
         },
+        "pricing": {
+          "input": 1,
+          "output_audio": 20
+        },
         "modalities": {
           "input": [
             "audio",
@@ -171503,6 +171544,10 @@
           "attachment": true,
           "reasoning": true,
           "tool_call": true
+        },
+        "pricing": {
+          "input": 0.5,
+          "output": 3
         },
         "limit": {
           "context": 131072
@@ -171549,6 +171594,10 @@
         "features": {
           "attachment": true,
           "tool_call": true
+        },
+        "pricing": {
+          "input": 0.75,
+          "output": 4.5
         },
         "limit": {
           "context": 128000
@@ -171791,6 +171840,10 @@
           "tool_call": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 2,
+          "output": 12
+        },
         "limit": {
           "context": 65536
         },
@@ -171808,6 +171861,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.15
+        },
         "limit": {
           "context": 2048
         },
@@ -171823,6 +171879,10 @@
         "release_date": "1776880300",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 12
         },
         "limit": {
           "context": 8192
@@ -171842,6 +171902,11 @@
         "release_date": "1791396533",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": 0.15
         },
         "limit": {
           "context": 131072
@@ -171905,6 +171970,9 @@
         "release_date": "1788950360",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.135468
         },
         "limit": {
           "context": 8000
@@ -172291,6 +172359,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.246305
+        },
         "limit": {
           "context": 32000
         },
@@ -172395,6 +172466,9 @@
         "release_date": "1788950360",
         "features": {
           "attachment": false
+        },
+        "pricing": {
+          "input": 0.147783
         },
         "limit": {
           "context": 32000
@@ -172641,6 +172715,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.307881
+        },
         "limit": {
           "context": 32000
         },
@@ -172783,6 +172860,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0
+        },
         "limit": {
           "context": 512
         },
@@ -172798,6 +172878,9 @@
         "release_date": "1781117240",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.1
         },
         "limit": {
           "context": 2048
@@ -172839,6 +172922,10 @@
           "attachment": false,
           "structured_output": true
         },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
+        },
         "limit": {
           "context": 1024
         },
@@ -172856,6 +172943,10 @@
           "attachment": false,
           "structured_output": true
         },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
+        },
         "limit": {
           "context": 512
         },
@@ -172872,6 +172963,10 @@
         "features": {
           "attachment": false,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 0.03,
+          "output": 0
         },
         "limit": {
           "context": 1024
@@ -173872,6 +173967,10 @@
           "attachment": false,
           "structured_output": true
         },
+        "pricing": {
+          "input": 0,
+          "output": 0
+        },
         "limit": {
           "context": 32768
         },
@@ -173888,6 +173987,10 @@
         "features": {
           "attachment": false,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 0,
+          "output": 0
         },
         "limit": {
           "context": 131072
@@ -174201,6 +174304,11 @@
           "attachment": true,
           "tool_call": true
         },
+        "pricing": {
+          "input": 1.75,
+          "output": 14,
+          "cache_read": 0.175
+        },
         "limit": {
           "context": 400000
         },
@@ -174288,6 +174396,11 @@
           "attachment": true,
           "tool_call": true
         },
+        "pricing": {
+          "input": 5,
+          "output": 30,
+          "cache_read": 0.5
+        },
         "limit": {
           "context": 1050000
         },
@@ -174305,6 +174418,10 @@
         "features": {
           "attachment": true,
           "tool_call": true
+        },
+        "pricing": {
+          "input": 30,
+          "output": 180
         },
         "limit": {
           "context": 1050000
@@ -174325,6 +174442,11 @@
           "tool_call": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 0.2,
+          "output": 1.2,
+          "cache_read": 0.02
+        },
         "limit": {
           "context": 1050000
         },
@@ -174343,6 +174465,11 @@
           "attachment": true,
           "tool_call": true,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 0.2,
+          "output": 1.2,
+          "cache_read": 0.02
         },
         "limit": {
           "context": 1050000
@@ -174363,6 +174490,11 @@
           "tool_call": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 4,
+          "output": 20,
+          "cache_read": 0.4
+        },
         "limit": {
           "context": 1050000
         },
@@ -174381,6 +174513,11 @@
           "attachment": true,
           "tool_call": true,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 4,
+          "output": 20,
+          "cache_read": 0.4
         },
         "limit": {
           "context": 1050000
@@ -174401,6 +174538,11 @@
           "tool_call": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cache_read": 0.2
+        },
         "limit": {
           "context": 1050000
         },
@@ -174419,6 +174561,11 @@
           "attachment": true,
           "tool_call": true,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 12,
+          "cache_read": 0.2
         },
         "limit": {
           "context": 1050000
@@ -174485,6 +174632,12 @@
           "tool_call": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.1,
+          "cache_write": 2.5
+        },
         "limit": {
           "context": 1050000
         },
@@ -174503,6 +174656,12 @@
           "attachment": true,
           "tool_call": true,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 10,
+          "output": 50,
+          "cache_read": 1,
+          "cache_write": 12.5
         },
         "limit": {
           "context": 1050000
@@ -174523,6 +174682,12 @@
           "tool_call": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 0.1,
+          "output": 0.5,
+          "cache_read": 0.01,
+          "cache_write": 0.125
+        },
         "limit": {
           "context": 1050000
         },
@@ -174542,6 +174707,12 @@
           "tool_call": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 2,
+          "output": 10,
+          "cache_read": 0.2,
+          "cache_write": 2.5
+        },
         "limit": {
           "context": 1050000
         },
@@ -174558,6 +174729,9 @@
         "release_date": "1777134643",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 5
         },
         "limit": {
           "context": 32000
@@ -174731,6 +174905,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.13
+        },
         "limit": {
           "context": 8192
         },
@@ -174747,6 +174924,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.02
+        },
         "limit": {
           "context": 8192
         },
@@ -174762,6 +174942,9 @@
         "release_date": "1787230484",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.1
         },
         "limit": {
           "context": 8192
@@ -174860,6 +175043,10 @@
           "attachment": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
+        },
         "limit": {
           "context": 262144
         },
@@ -174878,6 +175065,10 @@
           "attachment": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 0.02,
+          "output": 0
+        },
         "limit": {
           "context": 262144
         },
@@ -174895,6 +175086,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.008
+        },
         "limit": {
           "context": 32000
         },
@@ -174910,6 +175104,9 @@
         "release_date": "1776880304",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.05
         },
         "limit": {
           "context": 32000
@@ -174927,6 +175124,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.004
+        },
         "limit": {
           "context": 32000
         },
@@ -174942,6 +175142,9 @@
         "release_date": "1776880304",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.03
         },
         "limit": {
           "context": 32000
@@ -176038,6 +176241,9 @@
         "release_date": "1786903888",
         "features": {
           "attachment": false
+        },
+        "pricing": {
+          "input": 0.05
         },
         "limit": {
           "context": 32768
@@ -177143,6 +177349,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.02
+        },
         "limit": {
           "context": 40960
         },
@@ -177253,6 +177462,10 @@
           "attachment": false,
           "structured_output": true
         },
+        "pricing": {
+          "input": 0.042,
+          "output": 0
+        },
         "limit": {
           "context": 32000
         },
@@ -177293,6 +177506,10 @@
         "features": {
           "attachment": false,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 0.1,
+          "output": 0
         },
         "limit": {
           "context": 524288
@@ -177406,6 +177623,9 @@
         "features": {
           "attachment": false
         },
+        "pricing": {
+          "input": 0.05
+        },
         "limit": {
           "context": 32768
         },
@@ -177421,6 +177641,9 @@
         "release_date": "1785304535",
         "features": {
           "attachment": false
+        },
+        "pricing": {
+          "input": 0.02
         },
         "limit": {
           "context": 32768
@@ -177438,6 +177661,9 @@
         "features": {
           "attachment": false
         },
+        "pricing": {
+          "input": 0.05
+        },
         "limit": {
           "context": 32000
         },
@@ -177453,6 +177679,9 @@
         "release_date": "1790832930",
         "features": {
           "attachment": false
+        },
+        "pricing": {
+          "input": 0.02
         },
         "limit": {
           "context": 32000
@@ -177470,6 +177699,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.06
+        },
         "limit": {
           "context": 32000
         },
@@ -177485,6 +177717,9 @@
         "release_date": "1785304534",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.12
         },
         "limit": {
           "context": 32000
@@ -177502,6 +177737,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.02
+        },
         "limit": {
           "context": 32000
         },
@@ -177517,6 +177755,9 @@
         "release_date": "1785304534",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.18
         },
         "limit": {
           "context": 32000
@@ -177534,6 +177775,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.12
+        },
         "limit": {
           "context": 32000
         },
@@ -177549,6 +177793,9 @@
         "release_date": "1785304535",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.18
         },
         "limit": {
           "context": 32000
@@ -177566,6 +177813,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.12
+        },
         "limit": {
           "context": 32000
         },
@@ -177582,6 +177832,9 @@
         "features": {
           "attachment": true
         },
+        "pricing": {
+          "input": 0.12
+        },
         "limit": {
           "context": 16000
         },
@@ -177597,6 +177850,9 @@
         "release_date": "1785304535",
         "features": {
           "attachment": true
+        },
+        "pricing": {
+          "input": 0.12
         },
         "limit": {
           "context": 32000
@@ -177616,6 +177872,10 @@
           "attachment": false,
           "tool_call": true
         },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5
+        },
         "limit": {
           "context": 2000000
         },
@@ -177633,6 +177893,10 @@
           "attachment": false,
           "tool_call": true
         },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5
+        },
         "limit": {
           "context": 2000000
         },
@@ -177648,6 +177912,10 @@
         "release_date": "1778044235",
         "features": {
           "attachment": false
+        },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5
         },
         "limit": {
           "context": 2000000
@@ -177666,6 +177934,10 @@
           "attachment": false,
           "tool_call": true
         },
+        "pricing": {
+          "input": 1.25,
+          "output": 2.5
+        },
         "limit": {
           "context": 1000000
         },
@@ -177683,6 +177955,11 @@
           "attachment": true,
           "tool_call": true,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.3
         },
         "limit": {
           "context": 500000
@@ -177703,6 +177980,11 @@
           "tool_call": true,
           "structured_output": true
         },
+        "pricing": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.5
+        },
         "limit": {
           "context": 500000
         },
@@ -177721,6 +178003,11 @@
           "attachment": true,
           "tool_call": true,
           "structured_output": true
+        },
+        "pricing": {
+          "input": 2,
+          "output": 6,
+          "cache_read": 0.5
         },
         "limit": {
           "context": 500000

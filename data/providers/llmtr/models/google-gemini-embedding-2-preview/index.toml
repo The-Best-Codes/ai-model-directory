@@ -10,3 +10,7 @@ context = 8192
 
 [modalities]
 input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.2
+output = 12

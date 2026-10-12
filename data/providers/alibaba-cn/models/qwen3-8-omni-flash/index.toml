@@ -16,3 +16,8 @@ output = 131072
 [modalities]
 input = [ "audio", "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.014
+input = 0.113
+output = 0.382

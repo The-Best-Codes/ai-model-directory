@@ -8,3 +8,7 @@ tool_call = true
 
 [modalities]
 input = [ "image", "text" ]
+
+[pricing]
+input = 0.3
+output = 2.5

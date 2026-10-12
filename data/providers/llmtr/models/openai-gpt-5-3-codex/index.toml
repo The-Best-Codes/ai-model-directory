@@ -11,3 +11,8 @@ context = 400000
 
 [modalities]
 input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.175
+input = 1.75
+output = 14
