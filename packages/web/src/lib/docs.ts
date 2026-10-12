@@ -30,15 +30,17 @@ const docPathBySlug = new Map(
   }),
 );
 
-export function getDocSlugs(directory = docsDirectory, prefix = ""): string[] {
+export function getDocSlugs(prefix = ""): string[] {
   const slugs: string[] = [];
+  // Keep the path statically scoped to src/docs so Turbopack only traces the
+  // docs folder instead of the whole project.
+  const directory = path.join(process.cwd(), "src/docs", prefix);
 
   for (const item of fs.readdirSync(directory, { withFileTypes: true })) {
     const relativePath = prefix ? path.join(prefix, item.name) : item.name;
-    const fullPath = path.join(directory, item.name);
 
     if (item.isDirectory()) {
-      slugs.push(...getDocSlugs(fullPath, relativePath));
+      slugs.push(...getDocSlugs(relativePath));
     } else if (item.isFile() && item.name.endsWith(".mdx")) {
       const slug = relativePath.replace(/\.mdx$/, "").replace(/\\/g, "/");
       slugs.push(slug === "index" ? "" : slug.replace(/\/index$/, ""));
