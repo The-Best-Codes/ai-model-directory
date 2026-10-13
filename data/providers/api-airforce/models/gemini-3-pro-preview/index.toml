@@ -1,7 +1,6 @@
 id = "gemini-3-pro-preview"
 knowledge_cutoff = "1767225600"
 name = "gemini-3-pro-preview"
-release_date = "1791872551"
 
 [features]
 attachment = true
@@ -18,5 +17,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.26
-input = 2.1
-output = 12.6
+input = 4.2
+output = 18.9

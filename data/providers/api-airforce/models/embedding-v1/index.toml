@@ -1,6 +1,5 @@
 id = "Embedding-V1"
 name = "Embedding-V1"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,6 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01
-input = 0.07
+input = 0.09
 output = 0.1

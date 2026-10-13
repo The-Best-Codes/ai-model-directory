@@ -3,15 +3,15 @@ name = "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B"
 open_weights = true
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
 context = 32768
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.113729
-output = 0.2954
+input = 0.454916
+output = 1.1816

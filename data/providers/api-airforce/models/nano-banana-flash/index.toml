@@ -1,6 +1,5 @@
 id = "nano-banana-flash"
 name = "nano-banana-flash"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 138.45
-output = 0.02

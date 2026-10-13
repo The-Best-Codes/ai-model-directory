@@ -1,6 +1,5 @@
 id = "qwen3-235b-a22b-thinking-2507"
 name = "qwen3-235b-a22b-thinking-2507"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,6 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.03
 input = 0.31
 output = 2.94

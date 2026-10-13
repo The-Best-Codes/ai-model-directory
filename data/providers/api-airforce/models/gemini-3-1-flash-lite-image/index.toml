@@ -1,6 +1,5 @@
 id = "gemini-3.1-flash-lite-image"
 name = "gemini-3.1-flash-lite-image"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 236.49
-output = 31.02

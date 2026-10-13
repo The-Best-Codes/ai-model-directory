@@ -1,6 +1,5 @@
 id = "kimi-k2-thinking"
 name = "Kimi K2 Thinking"
-release_date = "0"
 
 [limit]
 context = 262144

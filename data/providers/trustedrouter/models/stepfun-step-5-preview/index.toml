@@ -6,7 +6,7 @@ open_weights = false
 attachment = true
 
 [limit]
-context = 1048576
+context = 1000000
 
 [modalities]
 input = [ "image", "text" ]
@@ -14,4 +14,4 @@ output = [ "text" ]
 
 [pricing]
 input = 1.055
-output = 0.28485
+output = 2.8485

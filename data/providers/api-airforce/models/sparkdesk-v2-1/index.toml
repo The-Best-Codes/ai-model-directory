@@ -1,6 +1,5 @@
 id = "SparkDesk-v2.1"
 name = "SparkDesk-v2.1"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,7 +10,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.84
+cache_read = 0.841
 cache_write = 8.41
 input = 8.41
 output = 8.41

@@ -1,0 +1,17 @@
+id = "zro/dolly1-security"
+name = "Dolly 1 Security"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.47475
+output = 1.5825

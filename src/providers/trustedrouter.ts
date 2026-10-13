@@ -16,8 +16,8 @@ const apiModelSchema = z.object({
     output_modalities: z.array(z.string()),
   }),
   pricing: z.object({
-    prompt: z.string(),
-    completion: z.string(),
+    prompt: z.string().optional(),
+    completion: z.string().optional(),
   }),
   top_provider: z.object({
     context_length: z.number().nullable(),

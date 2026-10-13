@@ -3,4 +3,4 @@ name = "llama-2-7b-lora"
 
 [pricing]
 input = 0.0855629333524
-output = 1.025899570895276
+output = 1.0258995709

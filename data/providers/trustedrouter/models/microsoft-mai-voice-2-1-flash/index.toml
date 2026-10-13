@@ -1,0 +1,9 @@
+id = "microsoft/mai-voice-2.1-flash"
+name = "Microsoft: MAI-Voice-2.1-Flash"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

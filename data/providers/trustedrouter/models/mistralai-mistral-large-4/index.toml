@@ -1,12 +1,12 @@
 id = "mistralai/mistral-large-4"
-name = "mistral-large-4"
+name = "Mistral: Mistral Large 4"
 open_weights = true
 
 [features]
 attachment = true
 
 [limit]
-context = 524288
+context = 1048576
 
 [modalities]
 input = [ "image", "text" ]

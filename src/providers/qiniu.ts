@@ -1,3 +1,4 @@
+import Decimal from "decimal.js";
 import { z } from "zod";
 
 import { fetchJson, fetchText } from "../lib/http.ts";
@@ -95,7 +96,9 @@ function extractPricing(
     for (const tier of pricingRules) {
       const entry = tier.details_v2[key];
       if (entry && entry.unit_name === "token" && entry.unit_size === 1000) {
-        const price = nonNegativeNumber(entry.unit_price_usd * tokenMultiplier);
+        const price = nonNegativeNumber(
+          new Decimal(entry.unit_price_usd).mul(tokenMultiplier).toNumber(),
+        );
         if (price !== undefined) {
           if (result[key] === undefined || price < result[key]!) {
             result[key] = price;

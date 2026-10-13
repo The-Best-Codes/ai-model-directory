@@ -1,0 +1,17 @@
+id = "system1models/s1-fast-2"
+name = "Decision Models s1-fast-2 (GLOBAL)"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.020045
+output = 0

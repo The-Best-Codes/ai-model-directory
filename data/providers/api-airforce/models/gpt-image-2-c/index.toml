@@ -1,6 +1,5 @@
 id = "gpt-image-2-c"
 name = "gpt-image-2-c"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 219.6
-output = 19.5

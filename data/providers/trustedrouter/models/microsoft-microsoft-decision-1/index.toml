@@ -1,0 +1,16 @@
+id = "microsoft/microsoft-decision-1"
+name = "Microsoft Decision-1"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.04431
+output = 0

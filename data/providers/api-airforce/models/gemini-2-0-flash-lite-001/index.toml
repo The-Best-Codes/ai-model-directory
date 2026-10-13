@@ -1,0 +1,14 @@
+id = "gemini-2.0-flash-lite-001"
+name = "gemini-2.0-flash-lite-001"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.32

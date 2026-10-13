@@ -1,7 +1,6 @@
 id = "claude-opus-4-1"
 knowledge_cutoff = "1738281600"
 name = "claude-opus-4-1"
-release_date = "1791872551"
 
 [features]
 attachment = true
@@ -18,7 +17,7 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.53
-cache_write = 6.64
+cache_read = 0.531
+cache_write = 6.6375
 input = 5.31
 output = 26.49

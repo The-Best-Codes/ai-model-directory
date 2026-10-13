@@ -1,6 +1,5 @@
 id = "grok-3-deepersearch"
 name = "grok-3-deepersearch"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -12,7 +11,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.06
+cache_read = 0.057
 cache_write = 0.57
 input = 0.57
 output = 2.89

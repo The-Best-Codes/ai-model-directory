@@ -1,0 +1,17 @@
+id = "inclusionai/ling-3.0-flash-sante"
+name = "inclusionAI: Ling 3.0 Flash Sante"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.079125
+output = 0.2321

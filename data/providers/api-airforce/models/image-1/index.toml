@@ -1,6 +1,5 @@
 id = "image-1"
 name = "image-1"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 73.2
-output = 73.2

@@ -5,10 +5,13 @@ open_weights = false
 [features]
 attachment = false
 
+[limit]
+context = 8192
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.03587
+input = 0.022155
 output = 0

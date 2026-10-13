@@ -1,6 +1,5 @@
 id = "mj_imagine"
 name = "mj_imagine"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 549
-output = 77.97

@@ -1,0 +1,9 @@
+id = "elevenlabs/eleven-v3"
+name = "ElevenLabs: Eleven V3"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

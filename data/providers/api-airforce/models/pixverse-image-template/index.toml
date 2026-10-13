@@ -1,7 +1,2 @@
 id = "pixverse-image-template"
 name = "pixverse-image-template"
-release_date = "1791872551"
-
-[pricing]
-input = 25.62
-output = 1.82

@@ -5,6 +5,9 @@ open_weights = false
 [features]
 attachment = false
 
+[limit]
+context = 8192
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

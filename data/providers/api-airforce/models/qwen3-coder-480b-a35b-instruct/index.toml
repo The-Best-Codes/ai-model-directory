@@ -1,6 +1,5 @@
 id = "qwen3-coder-480b-a35b-instruct"
 name = "qwen3-coder-480b-a35b-instruct"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,6 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.06
 input = 1.05
 output = 5.25

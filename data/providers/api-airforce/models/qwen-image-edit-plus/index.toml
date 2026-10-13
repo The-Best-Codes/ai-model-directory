@@ -1,6 +1,5 @@
 id = "qwen-image-edit-plus"
 name = "qwen-image-edit-plus"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 7.58
-output = 0.02

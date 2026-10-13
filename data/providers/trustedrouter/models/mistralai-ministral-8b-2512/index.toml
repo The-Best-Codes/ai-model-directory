@@ -1,5 +1,5 @@
 id = "mistralai/ministral-8b-2512"
-name = "ministral-8b-2512"
+name = "Mistral: Ministral 3 8B 2512"
 open_weights = false
 
 [features]

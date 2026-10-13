@@ -1,0 +1,14 @@
+id = "gemini-pro-latest"
+name = "gemini-pro-latest"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.1
+output = 12.6

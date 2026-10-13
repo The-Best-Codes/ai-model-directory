@@ -3,4 +3,4 @@ name = "gemma-7b-lora"
 
 [pricing]
 input = 0.016927918469
-output = 0.02928529895137
+output = 0.0292852989514

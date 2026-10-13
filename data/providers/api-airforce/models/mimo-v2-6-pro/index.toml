@@ -1,6 +1,5 @@
 id = "mimo-v2.6-pro"
 name = "mimo-v2.6-pro"
-release_date = "1791872551"
 
 [features]
 attachment = true
@@ -12,7 +11,7 @@ input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.04
-cache_write = 0.54
+cache_read = 0.043
+cache_write = 0.43
 input = 0.43
 output = 0.86

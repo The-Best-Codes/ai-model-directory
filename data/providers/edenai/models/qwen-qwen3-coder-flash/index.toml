@@ -18,5 +18,5 @@ output = [ "text" ]
 [pricing]
 cache_read = 0.039
 cache_write = 0.24375
-input = 0.19499999999999998
+input = 0.195
 output = 0.975

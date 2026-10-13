@@ -1,6 +1,5 @@
 id = "doubao-seedream-3-0-t2i-250415"
 name = "doubao-seedream-3-0-t2i-250415"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 183
-output = 13

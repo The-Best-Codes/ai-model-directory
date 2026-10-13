@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3-super"
+name = "Nemotron 3 Super"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1266
+output = 0.5486

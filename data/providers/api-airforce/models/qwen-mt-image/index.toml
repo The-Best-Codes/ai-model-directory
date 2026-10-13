@@ -1,6 +1,5 @@
 id = "qwen-mt-image"
 name = "qwen-mt-image"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.81
-output = 0.02

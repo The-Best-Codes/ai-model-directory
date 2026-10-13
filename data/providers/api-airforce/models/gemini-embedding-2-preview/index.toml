@@ -1,0 +1,14 @@
+id = "gemini-embedding-2-preview"
+name = "gemini-embedding-2-preview"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.21
+output = 229.63

@@ -1,6 +1,5 @@
 id = "gemini-2.5-flash-lite-preview-09-2025"
 name = "gemini-2.5-flash-lite-preview-09-2025"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,6 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01
 input = 0.08
-output = 0.32
+output = 0.31

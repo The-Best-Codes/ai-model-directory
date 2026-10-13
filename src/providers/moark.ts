@@ -1,3 +1,4 @@
+import Decimal from "decimal.js";
 import { z } from "zod";
 
 import { fetchJson } from "../lib/http.ts";
@@ -40,6 +41,16 @@ const serviceSchema = z.object({
 
 const servicesResponseSchema = z.object({ items: z.array(serviceSchema) });
 
+const placeholderPriceThreshold = new Decimal("0.0001");
+
+function realPrice(value: number | null | undefined): number | undefined {
+  const price = nonNegativeNumber(value);
+
+  return price !== undefined && price > 0 && placeholderPriceThreshold.gt(price)
+    ? undefined
+    : price;
+}
+
 function timestampFromUnixMilliseconds(
   value: number | null | undefined,
 ): string | undefined {
@@ -62,7 +73,7 @@ function parseKiloTokenCount(value: string): number | undefined {
   const parsed = Number(match[1]);
 
   return Number.isFinite(parsed) && parsed > 0
-    ? Math.round(parsed * 1000)
+    ? new Decimal(parsed).mul(1000).round().toNumber()
     : undefined;
 }
 
@@ -291,10 +302,10 @@ export const moarkProvider: ProviderDefinition = {
       const supportsAttachments = inputModalities?.some(
         (modality) => modality !== "text",
       );
-      const inputPrice = nonNegativeNumber(
+      const inputPrice = realPrice(
         service?.operation_summary?.min_input_million_tokens_price,
       );
-      const outputPrice = nonNegativeNumber(
+      const outputPrice = realPrice(
         service?.operation_summary?.min_output_million_tokens_price,
       );
       const inputPriceUsd = convertCurrencyAmount(inputPrice, cnyToUsdRate);

@@ -1,6 +1,5 @@
 id = "gemini-3.1-pro-preview-customtools"
 name = "gemini-3.1-pro-preview-customtools"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,7 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.14
-cache_write = 101.01
-input = 80.81
-output = 323.25
+input = 2.1
+output = 12.6

@@ -1,6 +1,5 @@
 id = "qwen-max-latest"
 name = "qwen-max-latest"
-release_date = "1791872551"
 
 [features]
 attachment = false

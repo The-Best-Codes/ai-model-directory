@@ -16,4 +16,4 @@ input = [ "image", "text" ]
 [pricing]
 cache_read = 0.8
 input = 8
-output = 40.00000000000001
+output = 40

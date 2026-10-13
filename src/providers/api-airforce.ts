@@ -1,3 +1,4 @@
+import Decimal from "decimal.js";
 import { z } from "zod";
 
 import { fetchJson } from "../lib/http.ts";
@@ -8,12 +9,11 @@ import {
   timestampFromUnixSeconds,
 } from "../lib/model.ts";
 import { allModalities, hasAttachmentSource } from "./helpers.ts";
-import type { ModelModality } from "../schema.ts";
+import type { ModelModality, ModelRecord } from "../schema.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const apiModelSchema = z.object({
   id: z.string(),
-  created: z.number().nullish(),
   owned_by: z.string().nullish(),
   supports_chat: z.boolean().nullish(),
   supports_images: z.boolean().nullish(),
@@ -39,6 +39,17 @@ const apiModelSchema = z.object({
   knowledge_cutoff: z.string().nullish(),
   released_unix: z.number().nullish(),
   media_type: z.string().nullish(),
+  customer_price_table: z
+    .object({
+      components: z.array(
+        z.object({
+          mode: z.string(),
+          unit: z.string(),
+          price_micro_usd: z.number(),
+        }),
+      ),
+    })
+    .nullish(),
 });
 
 const responseSchema = z.object({
@@ -100,12 +111,64 @@ function inferModalities(model: z.infer<typeof apiModelSchema>): {
   };
 }
 
+const nonTokenMediaTypes = new Set(["speech", "sfx", "audio", "video"]);
+
 function centsToPrice(value: number | null | undefined): number | undefined {
   if (value === null || value === undefined) {
     return undefined;
   }
 
-  return Number.isFinite(value) && value >= 0 ? value / 100 : undefined;
+  return Number.isFinite(value) && value >= 0
+    ? new Decimal(value).div(100).toNumber()
+    : undefined;
+}
+
+function microUsdToPrice(value: number | undefined): number | undefined {
+  if (value === undefined) {
+    return undefined;
+  }
+
+  return Number.isFinite(value) && value >= 0
+    ? new Decimal(value).div(1_000_000).toNumber()
+    : undefined;
+}
+
+function buildPricing(
+  model: z.infer<typeof apiModelSchema>,
+): ModelRecord["pricing"] | undefined {
+  if (model.customer_price_table) {
+    const tokenPrices = new Map(
+      model.customer_price_table.components
+        .filter((component) => component.unit === "per_1m_tokens")
+        .map((component) => [component.mode, component.price_micro_usd]),
+    );
+
+    if (tokenPrices.size === 0) {
+      return undefined;
+    }
+
+    return compactObject({
+      input: microUsdToPrice(tokenPrices.get("input")),
+      output: microUsdToPrice(tokenPrices.get("output")),
+      cache_read: microUsdToPrice(tokenPrices.get("cache_read")),
+      cache_write: microUsdToPrice(tokenPrices.get("cache_write_5m")),
+    });
+  }
+
+  if (
+    nonTokenMediaTypes.has(model.media_type ?? "") ||
+    (model.pricepermilliontokens == null &&
+      model.output_pricepermilliontokens == null)
+  ) {
+    return undefined;
+  }
+
+  return compactObject({
+    input: centsToPrice(model.pricepermilliontokens),
+    output: centsToPrice(model.output_pricepermilliontokens),
+    cache_read: centsToPrice(model.cache_read_pricepermilliontokens),
+    cache_write: centsToPrice(model.cache_write_5m_pricepermilliontokens),
+  });
 }
 
 export const apiAirforceProvider: ProviderDefinition = {
@@ -126,8 +189,6 @@ export const apiAirforceProvider: ProviderDefinition = {
     progress?.tick(`api.airforce/v1/models (${models.length})`, true);
 
     return models.map((model) => {
-      const hasNonTokenPricing =
-        model.media_type === "speech" || model.media_type === "sfx";
       const modalities = inferModalities(model);
       const inputModalities = modalities.input;
       const outputModalities = modalities.output;
@@ -137,7 +198,7 @@ export const apiAirforceProvider: ProviderDefinition = {
         name: model.id,
         release_date: model.released_unix
           ? timestampFromUnixSeconds(model.released_unix)
-          : timestampFromUnixSeconds(model.created),
+          : undefined,
         knowledge_cutoff: timestampFromDateInput(model.knowledge_cutoff),
         features: compactObject({
           attachment: hasAttachmentSource(inputModalities),
@@ -145,21 +206,7 @@ export const apiAirforceProvider: ProviderDefinition = {
           tool_call: model.supports_tools ?? undefined,
           structured_output: hasStructuredOutput(model),
         }),
-        pricing:
-          hasNonTokenPricing ||
-          (model.pricepermilliontokens == null &&
-            model.output_pricepermilliontokens == null)
-            ? undefined
-            : compactObject({
-                input: centsToPrice(model.pricepermilliontokens),
-                output: centsToPrice(model.output_pricepermilliontokens),
-                cache_read: centsToPrice(
-                  model.cache_read_pricepermilliontokens,
-                ),
-                cache_write: centsToPrice(
-                  model.cache_write_5m_pricepermilliontokens,
-                ),
-              }),
+        pricing: buildPricing(model),
         limit: compactObject({
           context: integerGreaterThanZero(model.context_length),
           output: integerGreaterThanZero(model.max_output_tokens),

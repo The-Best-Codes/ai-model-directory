@@ -1,5 +1,5 @@
 id = "meta/muse-spark-1.2"
-name = "muse-spark-1.2"
+name = "Meta: Muse Spark 1.2"
 open_weights = false
 
 [features]

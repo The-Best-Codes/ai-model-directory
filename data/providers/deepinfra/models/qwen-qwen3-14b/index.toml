@@ -10,5 +10,5 @@ context = 40960
 output = 40960
 
 [pricing]
-input = 0.12000000000000001
-output = 0.24000000000000002
+input = 0.12
+output = 0.24

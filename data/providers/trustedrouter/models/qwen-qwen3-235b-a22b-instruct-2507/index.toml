@@ -1,17 +1,17 @@
-id = "Qwen/Qwen3-235B-A22B-Instruct-2507"
-name = "Qwen3 235B A22B Instruct 2507"
+id = "qwen/qwen3-235b-a22b-instruct-2507"
+name = "Qwen/Qwen3-235B-A22B-Instruct-2507"
 open_weights = true
 
 [features]
 attachment = false
 
 [limit]
-context = 131072
+context = 262144
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.211
-output = 0.633
+input = 0.09495
+output = 0.58025

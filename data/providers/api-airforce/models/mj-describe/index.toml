@@ -1,6 +1,5 @@
 id = "mj_describe"
 name = "mj_describe"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 274.5
-output = 38.99

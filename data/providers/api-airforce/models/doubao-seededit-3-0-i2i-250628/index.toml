@@ -1,6 +1,5 @@
 id = "doubao-seededit-3-0-i2i-250628"
 name = "doubao-seededit-3-0-i2i-250628"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -9,7 +8,3 @@ reasoning = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.79
-input = 7.92

@@ -1,0 +1,16 @@
+id = "google/gemini-3.8-flash-tts"
+name = "Google: Gemini 3.8 Flash TTS"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.5275
+output = 9.495

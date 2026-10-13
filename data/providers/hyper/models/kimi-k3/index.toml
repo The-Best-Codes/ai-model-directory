@@ -1,6 +1,5 @@
 id = "kimi-k3"
 name = "Kimi K3"
-release_date = "0"
 
 [features]
 attachment = true

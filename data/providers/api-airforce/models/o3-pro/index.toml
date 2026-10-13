@@ -1,6 +1,5 @@
 id = "o3-pro"
 name = "o3-pro"
-release_date = "1791872551"
 
 [features]
 attachment = false

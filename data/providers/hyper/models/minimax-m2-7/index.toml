@@ -1,6 +1,5 @@
 id = "minimax-m2.7"
 name = "MiniMax M2.7"
-release_date = "0"
 
 [limit]
 context = 262100

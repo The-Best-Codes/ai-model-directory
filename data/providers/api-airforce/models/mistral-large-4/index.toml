@@ -1,0 +1,10 @@
+id = "mistral-large-4"
+name = "mistral-large-4"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

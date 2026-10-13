@@ -1,6 +1,5 @@
 id = "qwen-math-turbo-latest"
 name = "qwen-math-turbo-latest"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,6 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.03
 input = 0.26
 output = 0.79

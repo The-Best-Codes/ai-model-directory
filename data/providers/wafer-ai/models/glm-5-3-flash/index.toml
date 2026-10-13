@@ -1,6 +1,5 @@
 id = "GLM-5.3-Flash"
 name = "GLM-5.3-Flash"
-release_date = "1791872664"
 
 [features]
 attachment = true

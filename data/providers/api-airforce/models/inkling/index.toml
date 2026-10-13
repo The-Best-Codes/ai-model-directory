@@ -1,7 +1,7 @@
 id = "inkling"
 name = "inkling"
-release_date = "1791872551"
 
 [pricing]
+cache_read = 0.48
 input = 1.96
 output = 4.91

@@ -3,7 +3,6 @@ import { z } from "zod";
 
 import { fetchJson } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import { timestampFromUnixSeconds } from "../lib/model.ts";
 import type { ModelModality } from "../schema.ts";
 import type { ProviderDefinition } from "./types.ts";
 
@@ -31,7 +30,6 @@ const waferInfoSchema = z.object({
 
 const apiModelSchema = z.object({
   id: z.string(),
-  created: z.number(),
   owned_by: z.string(),
   max_model_len: z.number(),
   wafer: waferInfoSchema,
@@ -63,7 +61,6 @@ export const waferAiProvider: ProviderDefinition = {
       return compactObject({
         id: model.id,
         name: wafer.display_name,
-        release_date: timestampFromUnixSeconds(model.created),
         features: compactObject({
           attachment: caps.vision || undefined,
           tool_call: caps.tools || undefined,

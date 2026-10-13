@@ -1,6 +1,5 @@
 id = "qwen-plus"
 name = "qwen-plus"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,7 +10,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.02
+cache_read = 0.022
 cache_write = 0.22
 input = 0.22
 output = 0.6

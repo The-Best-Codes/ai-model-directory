@@ -1,6 +1,5 @@
 id = "qwen3-coder-30b-a3b"
 name = "qwen3-coder-30b-a3b"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,7 +10,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.05
+cache_read = 0.054
 cache_write = 0.54
 input = 0.54
 output = 2.22

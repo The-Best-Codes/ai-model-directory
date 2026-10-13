@@ -62,13 +62,11 @@ function groupMultiplier(
     return oneDecimal;
   }
 
-  for (const group of groups) {
-    if (ratios[group] === 0) {
-      return new Decimal(0);
-    }
-  }
+  const known = groups
+    .map((group) => ratios[group])
+    .filter((ratio): ratio is number => ratio !== undefined && ratio >= 0);
 
-  return oneDecimal;
+  return known.length > 0 ? Decimal.min(...known) : oneDecimal;
 }
 
 function contextFromTags(
@@ -85,7 +83,7 @@ function contextFromTags(
     const kMatch = kContextTagPattern.exec(tag);
 
     if (kMatch) {
-      return Number(kMatch[1] ?? "") * 1000;
+      return new Decimal(kMatch[1] ?? "").mul(1000).toNumber();
     }
   }
 

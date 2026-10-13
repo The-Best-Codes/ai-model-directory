@@ -1,0 +1,14 @@
+id = "gemini-flash-latest"
+name = "gemini-flash-latest"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 1.97

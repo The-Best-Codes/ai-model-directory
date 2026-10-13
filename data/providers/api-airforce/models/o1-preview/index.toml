@@ -1,6 +1,5 @@
 id = "o1-preview"
 name = "o1-preview"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,6 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 1.03
 input = 8
 output = 32

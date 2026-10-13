@@ -1,0 +1,13 @@
+id = "nano-banana-pro-preview"
+name = "nano-banana-pro-preview"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.1
+output = 57.41

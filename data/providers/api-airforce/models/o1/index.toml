@@ -1,6 +1,5 @@
 id = "o1"
 name = "o1"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,7 +10,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 1.64
+cache_read = 1.635
 cache_write = 0
 input = 3.27
 output = 13.05

@@ -2,5 +2,5 @@ id = "deepseek-v4-pro__pt10"
 name = "deepseek-v4-pro__pt10"
 
 [pricing]
-input = 1.2353764810464
-output = 2.4707529620928
+input = 1.23537648105
+output = 2.47075296209

@@ -1,0 +1,9 @@
+id = "elevenlabs/eleven-turbo-v2.5"
+name = "ElevenLabs: Eleven Turbo V2.5"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

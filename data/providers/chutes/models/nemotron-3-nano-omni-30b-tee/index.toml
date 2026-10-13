@@ -5,6 +5,6 @@ name = "Nemotron-3-Nano-Omni-30B-TEE"
 context = 131072
 
 [pricing]
-cache_read = 0.0024499999999999995
+cache_read = 0.00245
 input = 0.0245
 output = 0.0978

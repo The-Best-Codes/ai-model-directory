@@ -189,6 +189,10 @@ export const togetheraiProvider: ProviderDefinition = {
       const hasAttachments = modalities.input?.some(
         (modality) => modality !== "text",
       );
+      const isAudioModel = [
+        ...(modalities.input ?? []),
+        ...(modalities.output ?? []),
+      ].includes("audio");
       const hasSpecializedPricing =
         typeof model.pricing?.image === "object" ||
         typeof model.pricing?.video === "object" ||
@@ -224,9 +228,10 @@ export const togetheraiProvider: ProviderDefinition = {
               : (cacheReadPrice ?? details?.pricing?.cache_read),
         }),
         limit: compactObject({
-          context:
-            integerGreaterThanZero(model.context_length) ??
-            details?.limit?.context,
+          context: isAudioModel
+            ? undefined
+            : (integerGreaterThanZero(model.context_length) ??
+              details?.limit?.context),
         }),
         modalities: compactObject(modalities),
       });

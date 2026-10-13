@@ -1,6 +1,5 @@
 id = "claude-sonnet-5"
 name = "claude-sonnet-5"
-release_date = "1791872551"
 
 [features]
 attachment = true
@@ -17,7 +16,7 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.16
-cache_write = 1.99
+cache_read = 0.159
+cache_write = 1.9875
 input = 1.59
 output = 7.97

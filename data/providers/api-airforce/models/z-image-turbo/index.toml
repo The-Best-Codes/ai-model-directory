@@ -1,6 +1,5 @@
 id = "z-image-turbo"
 name = "z-image-turbo"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 183
-output = 13

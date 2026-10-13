@@ -1,6 +1,5 @@
 id = "qwen-image-2.0-pro-2026-03-03"
 name = "qwen-image-2.0-pro-2026-03-03"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,6 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 13.75

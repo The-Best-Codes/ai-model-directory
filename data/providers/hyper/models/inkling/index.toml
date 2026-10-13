@@ -1,6 +1,5 @@
 id = "inkling"
 name = "Inkling"
-release_date = "0"
 
 [features]
 attachment = true

@@ -77,6 +77,30 @@ function emptyToUndefined<T extends Record<string, unknown>>(
   return Object.keys(value).length > 0 ? value : undefined;
 }
 
+function roundPrices(
+  pricing: NonNullable<ModelRecord["pricing"]>,
+): NonNullable<ModelRecord["pricing"]> {
+  return Object.fromEntries(
+    Object.entries(pricing).map(([key, value]) => [
+      key,
+      value === undefined
+        ? undefined
+        : new Decimal(value).toSignificantDigits(12).toNumber(),
+    ]),
+  );
+}
+
+function positiveLimits(
+  limit: NonNullable<ModelRecord["limit"]>,
+): NonNullable<ModelRecord["limit"]> {
+  return Object.fromEntries(
+    Object.entries(limit).map(([key, value]) => [
+      key,
+      value !== undefined && value > 0 ? value : undefined,
+    ]),
+  );
+}
+
 export function timestampFromUnixSeconds(
   value: number | null | undefined,
 ): string | undefined {
@@ -84,7 +108,7 @@ export function timestampFromUnixSeconds(
     return undefined;
   }
 
-  return Number.isInteger(value) && value >= 0 ? String(value) : undefined;
+  return Number.isInteger(value) && value > 0 ? String(value) : undefined;
 }
 
 export function timestampFromDateInput(
@@ -198,17 +222,15 @@ export function normalizeModel(input: ModelRecord): ModelRecord {
   ) as ModelRecord["features"];
 
   const pricing = emptyToUndefined(
-    compactObject(pricingSchema.parse(parsed.pricing ?? {})) as Record<
-      string,
-      unknown
-    >,
+    compactObject(
+      roundPrices(pricingSchema.parse(parsed.pricing ?? {})),
+    ) as Record<string, unknown>,
   ) as ModelRecord["pricing"];
 
   const limit = emptyToUndefined(
-    compactObject(limitSchema.parse(parsed.limit ?? {})) as Record<
-      string,
-      unknown
-    >,
+    compactObject(
+      positiveLimits(limitSchema.parse(parsed.limit ?? {})),
+    ) as Record<string, unknown>,
   ) as ModelRecord["limit"];
 
   const modalitiesValue = modalitiesSchema.parse(parsed.modalities ?? {});

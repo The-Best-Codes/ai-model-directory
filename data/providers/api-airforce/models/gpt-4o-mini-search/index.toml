@@ -1,6 +1,5 @@
 id = "gpt-4o-mini-search"
 name = "gpt-4o-mini-search"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,7 +10,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.17
+cache_read = 0.165
 cache_write = 0
 input = 0.33
 output = 1.32

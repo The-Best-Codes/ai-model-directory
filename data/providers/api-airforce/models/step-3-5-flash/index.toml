@@ -1,7 +1,6 @@
 id = "step-3.5-flash"
 knowledge_cutoff = "1746057600"
 name = "step-3.5-flash"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -17,6 +16,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01
 input = 0.1
 output = 0.3

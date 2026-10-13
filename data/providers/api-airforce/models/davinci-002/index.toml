@@ -1,6 +1,5 @@
 id = "davinci-002"
 name = "davinci-002"
-release_date = "1791872551"
 
 [features]
 attachment = false

@@ -1,6 +1,5 @@
 id = "doubao-seedream-5-0-pro-260628"
 name = "doubao-seedream-5-0-pro-260628"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -8,7 +7,3 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 34.04
-output = 2.42

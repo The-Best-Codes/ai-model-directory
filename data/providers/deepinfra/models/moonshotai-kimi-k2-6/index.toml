@@ -11,5 +11,5 @@ output = 262144
 
 [pricing]
 cache_read = 0.15
-input = 0.7499999999999999
+input = 0.75
 output = 3.5

@@ -1,0 +1,14 @@
+id = "gemini-2.5-computer-use-preview-10-2025"
+name = "gemini-2.5-computer-use-preview-10-2025"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.31
+output = 10.5

@@ -1,6 +1,5 @@
 id = "gpt-5.6-sol-high-openai-compact"
 name = "gpt-5.6-sol-high-openai-compact"
-release_date = "1791872551"
 
 [features]
 attachment = false
@@ -11,6 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.08
 input = 2.59
 output = 15.56
