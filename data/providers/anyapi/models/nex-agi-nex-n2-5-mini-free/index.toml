@@ -1,0 +1,13 @@
+id = "nex-agi/nex-n2.5-mini:free"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 235929
+
+[modalities]
+input = [ "file", "image", "text" ]

@@ -1,0 +1,8 @@
+id = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text" ]

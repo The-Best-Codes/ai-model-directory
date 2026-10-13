@@ -1,0 +1,9 @@
+id = "dots-studio/dots-3-note-preview:free"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
