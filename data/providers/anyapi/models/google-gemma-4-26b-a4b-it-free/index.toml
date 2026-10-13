@@ -3,9 +3,11 @@ name = "Google: Gemma 3n 4B (free)"
 
 [features]
 attachment = true
+tool_call = true
 
 [limit]
 context = 262144
+output = 32768
 
 [modalities]
 input = [ "image", "text" ]

@@ -1,4 +1,5 @@
-import type { ModelModality } from "../schema.ts";
+import { mergeModelSources } from "../lib/model.ts";
+import type { ModelModality, ModelRecord } from "../schema.ts";
 
 export const allModalities: readonly ModelModality[] = [
   "text",
@@ -81,4 +82,22 @@ export function parseCommaSet(value: string | null | undefined): Set<string> {
       .map((entry) => entry.trim().toLowerCase())
       .filter((entry) => entry.length > 0),
   );
+}
+
+export function mergeModelLists(
+  primary: readonly ModelRecord[],
+  fallback: readonly ModelRecord[],
+): ModelRecord[] {
+  const fallbackById = new Map(fallback.map((model) => [model.id, model]));
+  const primaryIds = new Set(primary.map((model) => model.id));
+
+  return [
+    ...primary.map((model) =>
+      mergeModelSources({
+        api: model,
+        extends: fallbackById.get(model.id) ?? null,
+      }),
+    ),
+    ...fallback.filter((model) => !primaryIds.has(model.id)),
+  ];
 }

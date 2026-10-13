@@ -1,9 +1,16 @@
+import { z } from "zod";
+
 import { mapWithConcurrency } from "../lib/async.ts";
 import { markdownTables, parseScaledNumber } from "../lib/docs.ts";
-import { fetchText } from "../lib/http.ts";
+import { fetchJson, fetchText } from "../lib/http.ts";
+import { timestampFromUnixSeconds } from "../lib/model.ts";
 import { compactObject } from "../lib/object.ts";
 import type { ModelModality, ModelRecord } from "../schema.ts";
-import { filterModalities, hasAttachmentSupport } from "./helpers.ts";
+import {
+  filterModalities,
+  hasAttachmentSupport,
+  mergeModelLists,
+} from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 type ModelSpecs = {
@@ -15,6 +22,10 @@ type ModelSpecs = {
 };
 
 const docsBaseUrl = "https://docs.z.ai";
+
+const responseSchema = z.object({
+  data: z.array(z.object({ id: z.string(), created: z.number().optional() })),
+});
 
 function parsePricingPage(text: string): ModelRecord[] {
   const models: ModelRecord[] = [];
@@ -131,7 +142,22 @@ export const zaiProvider: ProviderDefinition = {
   name: "zai",
   outputDirectory: "data/providers/zai/models",
   async fetchModels(progress) {
-    progress?.beginPhase("fetching", 2);
+    const apiKey = process.env.ZAI_API_KEY;
+
+    if (!apiKey) {
+      throw new Error("ZAI_API_KEY is not set");
+    }
+
+    progress?.beginPhase("fetching", 3);
+    const response = await fetchJson("https://api.z.ai/api/paas/v4/models", {
+      schema: responseSchema,
+      headers: { Authorization: `Bearer ${apiKey}` },
+      label: "Z.ai models API error",
+    });
+    progress?.tick(
+      `api.z.ai/api/paas/v4/models (${response.data.length})`,
+      true,
+    );
     const models = parsePricingPage(
       await fetchText(`${docsBaseUrl}/guides/overview/pricing.md`, {
         label: "Z.ai pricing docs error",
@@ -144,7 +170,7 @@ export const zaiProvider: ProviderDefinition = {
     const specs = await fetchModelSpecs();
     progress?.tick(`docs.z.ai model guides (${specs.size})`, true);
 
-    return models.map((model) => {
+    const documented = models.map((model) => {
       const spec = specs.get(model.id);
       const input = spec?.input ?? model.modalities?.input;
 
@@ -165,5 +191,15 @@ export const zaiProvider: ProviderDefinition = {
         }),
       });
     });
+
+    return mergeModelLists(
+      response.data.map((model) =>
+        compactObject({
+          id: model.id,
+          release_date: timestampFromUnixSeconds(model.created),
+        }),
+      ),
+      documented,
+    );
   },
 };

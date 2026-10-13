@@ -1,5 +1,6 @@
 id = "glm-4.7"
 name = "GLM-4.7"
+release_date = "1766332800"
 
 [features]
 attachment = false

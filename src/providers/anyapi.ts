@@ -1,15 +1,69 @@
 import * as cheerio from "cheerio";
+import { z } from "zod";
 
 import { mapWithConcurrency } from "../lib/async.ts";
 import { documentationTimestamp, parseScaledNumber } from "../lib/docs.ts";
-import { fetchText } from "../lib/http.ts";
+import { fetchJson, fetchText } from "../lib/http.ts";
 import { integerGreaterThanZero } from "../lib/model.ts";
 import { compactObject } from "../lib/object.ts";
-import type { ModelRecord } from "../schema.ts";
-import { filterModalities, hasAttachmentSupport } from "./helpers.ts";
+import type { ModelModality, ModelRecord } from "../schema.ts";
+import {
+  allModalities,
+  filterModalities,
+  hasAttachmentSupport,
+  mergeModelLists,
+} from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 const modelPagePattern = /^https:\/\/anyapi\.ai\/ai-models\/[a-z0-9-]+$/;
+
+const responseSchema = z.object({
+  data: z.array(
+    z.object({
+      id: z.string(),
+      tags: z.array(z.string()).optional(),
+      max_input_tokens: z.number().nullish(),
+      max_output_tokens: z.number().nullish(),
+    }),
+  ),
+});
+
+const inputModalityTags: Record<string, ModelModality> = {
+  vision: "image",
+  pdf_input: "file",
+  audio_input: "audio",
+};
+
+function parseApiModel(
+  model: z.infer<typeof responseSchema>["data"][number],
+): ModelRecord {
+  const tags = new Set(
+    (model.tags ?? []).map((tag) => tag.slice(tag.indexOf(":") + 1)),
+  );
+  const tagged = Object.entries(inputModalityTags).flatMap(([tag, modality]) =>
+    tags.has(tag) ? [modality] : [],
+  );
+  const input =
+    tagged.length > 0
+      ? allModalities.filter(
+          (modality) => modality === "text" || tagged.includes(modality),
+        )
+      : undefined;
+
+  return compactObject({
+    id: model.id,
+    limit: compactObject({
+      context: integerGreaterThanZero(model.max_input_tokens),
+      output: integerGreaterThanZero(model.max_output_tokens),
+    }),
+    modalities: compactObject({ input }),
+    features: compactObject({
+      attachment: input ? true : undefined,
+      reasoning: tags.has("reasoning") ? true : undefined,
+      tool_call: tags.has("function_calling") ? true : undefined,
+    }),
+  });
+}
 
 function parseModelPage(html: string): ModelRecord | undefined {
   const $ = cheerio.load(html);
@@ -79,7 +133,19 @@ export const anyapiProvider: ProviderDefinition = {
   name: "anyapi",
   outputDirectory: "data/providers/anyapi/models",
   async fetchModels(progress) {
-    progress?.beginPhase("fetching", 1);
+    const apiKey = process.env.ANYAPI_API_KEY;
+
+    if (!apiKey) {
+      throw new Error("ANYAPI_API_KEY is not set");
+    }
+
+    progress?.beginPhase("fetching", 2);
+    const response = await fetchJson("https://api.anyapi.ai/v1/models", {
+      schema: responseSchema,
+      headers: { Authorization: `Bearer ${apiKey}` },
+      label: "AnyAPI models API error",
+    });
+    progress?.tick(`api.anyapi.ai/v1/models (${response.data.length})`, true);
     const sitemap = cheerio.load(
       await fetchText("https://anyapi.ai/sitemap.xml", {
         label: "AnyAPI sitemap error",
@@ -112,6 +178,8 @@ export const anyapiProvider: ProviderDefinition = {
       if (model && !unique.has(model.id)) unique.set(model.id, model);
     }
 
-    return [...unique.values()];
+    return mergeModelLists(response.data.map(parseApiModel), [
+      ...unique.values(),
+    ]);
   },
 };

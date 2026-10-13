@@ -1,25 +1,27 @@
 import * as cheerio from "cheerio";
+import { z } from "zod";
 
 import { parseScaledNumber } from "../lib/docs.ts";
-import { fetchText } from "../lib/http.ts";
+import { fetchJson, fetchText } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import { filterModalities, hasAttachmentSupport } from "./helpers.ts";
+import type { ModelRecord } from "../schema.ts";
+import {
+  filterModalities,
+  hasAttachmentSupport,
+  mergeModelLists,
+} from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
-export const mixlayerProvider: ProviderDefinition = {
-  name: "mixlayer",
-  outputDirectory: "data/providers/mixlayer/models",
-  async fetchModels(progress) {
-    progress?.beginPhase("fetching", 1);
-    const $ = cheerio.load(
-      await fetchText("https://www.mixlayer.com/pricing", {
-        label: "Mixlayer pricing page error",
-      }),
-    );
-    const rows = $(".ml-pricerow").toArray();
-    progress?.tick(`www.mixlayer.com/pricing (${rows.length})`, true);
+const responseSchema = z.object({
+  data: z.array(z.object({ id: z.string() })),
+});
 
-    return rows.flatMap((row) => {
+function parsePricingPage(html: string): ModelRecord[] {
+  const $ = cheerio.load(html);
+
+  return $(".ml-pricerow")
+    .toArray()
+    .flatMap((row) => {
       const cells = $(row)
         .children()
         .map((_, cell) => $(cell))
@@ -60,5 +62,38 @@ export const mixlayerProvider: ProviderDefinition = {
         }),
       ];
     });
+}
+
+export const mixlayerProvider: ProviderDefinition = {
+  name: "mixlayer",
+  outputDirectory: "data/providers/mixlayer/models",
+  async fetchModels(progress) {
+    const apiKey = process.env.MIXLAYER_API_KEY;
+
+    if (!apiKey) {
+      throw new Error("MIXLAYER_API_KEY is not set");
+    }
+
+    progress?.beginPhase("fetching", 2);
+    const response = await fetchJson("https://models.mixlayer.ai/v1/models", {
+      schema: responseSchema,
+      headers: { Authorization: `Bearer ${apiKey}` },
+      label: "Mixlayer models API error",
+    });
+    progress?.tick(
+      `models.mixlayer.ai/v1/models (${response.data.length})`,
+      true,
+    );
+    const pricing = parsePricingPage(
+      await fetchText("https://www.mixlayer.com/pricing", {
+        label: "Mixlayer pricing page error",
+      }),
+    );
+    progress?.tick(`www.mixlayer.com/pricing (${pricing.length})`, true);
+
+    return mergeModelLists(
+      response.data.map((model) => ({ id: model.id })),
+      pricing,
+    );
   },
 };

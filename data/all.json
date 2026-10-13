@@ -23474,6 +23474,12 @@
           ]
         }
       },
+      "agnes-2.5-pro-alpha": {
+        "id": "agnes-2.5-pro-alpha"
+      },
+      "agnes-2.5-pro-beta": {
+        "id": "agnes-2.5-pro-beta"
+      },
       "agnes-3.0-flash": {
         "id": "agnes-3.0-flash",
         "name": "Agnes 3.0 Flash",
@@ -64803,6 +64809,21 @@
           ]
         }
       },
+      "dots-studio/dots-3-note-preview:free": {
+        "id": "dots-studio/dots-3-note-preview:free",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ]
+        }
+      },
       "google/gemini-2.0-flash-001": {
         "id": "google/gemini-2.0-flash-001",
         "name": "Google: Gemini 2.0 Flash",
@@ -64883,7 +64904,8 @@
         "knowledge_cutoff": "1751328000",
         "features": {
           "attachment": true,
-          "reasoning": true
+          "reasoning": true,
+          "tool_call": true
         },
         "limit": {
           "context": 1048576,
@@ -64894,8 +64916,7 @@
             "audio",
             "file",
             "image",
-            "text",
-            "video"
+            "text"
           ],
           "output": [
             "text"
@@ -65110,10 +65131,12 @@
         "id": "google/gemma-4-26b-a4b-it:free",
         "name": "Google: Gemma 3n 4B (free)",
         "features": {
-          "attachment": true
+          "attachment": true,
+          "tool_call": true
         },
         "limit": {
-          "context": 262144
+          "context": 262144,
+          "output": 32768
         },
         "modalities": {
           "input": [
@@ -65128,7 +65151,8 @@
         "knowledge_cutoff": "1785542400",
         "features": {
           "attachment": true,
-          "reasoning": true
+          "reasoning": true,
+          "tool_call": true
         },
         "limit": {
           "context": 262144,
@@ -65150,7 +65174,8 @@
         "knowledge_cutoff": "1788220800",
         "features": {
           "attachment": true,
-          "reasoning": true
+          "reasoning": true,
+          "tool_call": true
         },
         "limit": {
           "context": 262144,
@@ -65162,6 +65187,25 @@
             "text"
           ],
           "output": [
+            "text"
+          ]
+        }
+      },
+      "inclusionai/ling-3.0-flash-vl:free": {
+        "id": "inclusionai/ling-3.0-flash-vl:free",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "context": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
             "text"
           ]
         }
@@ -65498,6 +65542,25 @@
           ]
         }
       },
+      "nex-agi/nex-n2.5-mini:free": {
+        "id": "nex-agi/nex-n2.5-mini:free",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true
+        },
+        "limit": {
+          "context": 262144,
+          "output": 235929
+        },
+        "modalities": {
+          "input": [
+            "file",
+            "image",
+            "text"
+          ]
+        }
+      },
       "nousresearch/hermes-4-405b": {
         "id": "nousresearch/hermes-4-405b",
         "name": "Nous: Hermes 4 405B",
@@ -65539,6 +65602,26 @@
           "output": [
             "text"
           ]
+        }
+      },
+      "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
+        "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "features": {
+          "attachment": true,
+          "reasoning": true
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ]
+        }
+      },
+      "nvidia/nemotron-3-ultra-550b-a55b:free": {
+        "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "features": {
+          "reasoning": true,
+          "tool_call": true
         }
       },
       "openai/gpt-3.5-turbo": {
@@ -356808,6 +356891,7 @@
       "glm-4.5": {
         "id": "glm-4.5",
         "name": "GLM-4.5",
+        "release_date": "1753632000",
         "features": {
           "attachment": false,
           "temperature": true
@@ -356829,6 +356913,7 @@
       "glm-4.5-air": {
         "id": "glm-4.5-air",
         "name": "GLM-4.5-Air",
+        "release_date": "1753632000",
         "features": {
           "attachment": false,
           "temperature": true
@@ -356935,6 +357020,7 @@
       "glm-4.6": {
         "id": "glm-4.6",
         "name": "GLM-4.6",
+        "release_date": "1759276800",
         "features": {
           "attachment": false,
           "temperature": true
@@ -357022,6 +357108,7 @@
       "glm-4.7": {
         "id": "glm-4.7",
         "name": "GLM-4.7",
+        "release_date": "1766332800",
         "features": {
           "attachment": false,
           "temperature": true
@@ -357085,6 +357172,7 @@
       "glm-5": {
         "id": "glm-5",
         "name": "GLM-5",
+        "release_date": "1770739200",
         "features": {
           "attachment": false,
           "temperature": true
@@ -357106,6 +357194,7 @@
       "glm-5.1": {
         "id": "glm-5.1",
         "name": "GLM-5.1",
+        "release_date": "1774620000",
         "features": {
           "attachment": false,
           "temperature": true
@@ -357127,6 +357216,7 @@
       "glm-5.2": {
         "id": "glm-5.2",
         "name": "GLM-5.2",
+        "release_date": "1781625600",
         "features": {
           "attachment": false,
           "temperature": true
@@ -357148,6 +357238,7 @@
       "glm-5.3": {
         "id": "glm-5.3",
         "name": "GLM-5.3",
+        "release_date": "1786636800",
         "features": {
           "attachment": false,
           "reasoning": true,
@@ -357174,6 +357265,7 @@
       "glm-5.3-flash": {
         "id": "glm-5.3-flash",
         "name": "GLM-5.3-Flash",
+        "release_date": "1786636800",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -357203,6 +357295,7 @@
       "glm-5.3-flashx": {
         "id": "glm-5.3-flashx",
         "name": "GLM-5.3-FlashX",
+        "release_date": "1786636800",
         "features": {
           "attachment": true,
           "reasoning": true,
@@ -357228,6 +357321,10 @@
             "text"
           ]
         }
+      },
+      "glm-5-turbo": {
+        "id": "glm-5-turbo",
+        "release_date": "1773504000"
       },
       "glm-ocr": {
         "id": "glm-ocr",

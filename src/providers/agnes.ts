@@ -1,11 +1,12 @@
 import * as cheerio from "cheerio";
+import { z } from "zod";
 
 import { mapWithConcurrency } from "../lib/async.ts";
 import { markdownTables, parseScaledNumber } from "../lib/docs.ts";
-import { fetchText } from "../lib/http.ts";
+import { fetchJson, fetchText } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import type { ModelModality, ModelRecord } from "../schema.ts";
-import { hasAttachmentSupport } from "./helpers.ts";
+import { hasAttachmentSupport, mergeModelLists } from "./helpers.ts";
 import type { ProviderDefinition } from "./types.ts";
 
 type Category = "text" | "image" | "video";
@@ -16,6 +17,10 @@ type PricedModel = {
 };
 
 const docsBaseUrl = "https://wiki.agnes-ai.com/en/docs";
+
+const responseSchema = z.object({
+  data: z.array(z.object({ id: z.string() })),
+});
 
 const categoryHeadings: Record<string, Category> = {
   "text models": "text",
@@ -102,7 +107,22 @@ export const agnesProvider: ProviderDefinition = {
   name: "agnes",
   outputDirectory: "data/providers/agnes/models",
   async fetchModels(progress) {
-    progress?.beginPhase("fetching", 1);
+    const apiKey = process.env.AGNES_API_KEY;
+
+    if (!apiKey) {
+      throw new Error("AGNES_API_KEY is not set");
+    }
+
+    progress?.beginPhase("fetching", 2);
+    const response = await fetchJson("https://apihub.agnes-ai.com/v1/models", {
+      schema: responseSchema,
+      headers: { Authorization: `Bearer ${apiKey}` },
+      label: "Agnes models API error",
+    });
+    progress?.tick(
+      `apihub.agnes-ai.com/v1/models (${response.data.length})`,
+      true,
+    );
     const models = parsePricingPage(
       await fetchText(`${docsBaseUrl}/pricing.md`, {
         label: "Agnes pricing docs error",
@@ -114,7 +134,7 @@ export const agnesProvider: ProviderDefinition = {
     );
     progress?.beginPhase("scraping", models.length);
 
-    return mapWithConcurrency(models, 4, async (model) => {
+    const documented = await mapWithConcurrency(models, 4, async (model) => {
       const docs = await fetchModelDocs(model.id);
       progress?.tick(model.id, docs !== undefined);
       const text = model.category === "text";
@@ -137,5 +157,10 @@ export const agnesProvider: ProviderDefinition = {
         pricing: text ? compactObject(model.pricing) : undefined,
       });
     });
+
+    return mergeModelLists(
+      response.data.map((model) => ({ id: model.id })),
+      documented,
+    );
   },
 };

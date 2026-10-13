@@ -5,6 +5,7 @@ name = "inclusionAI: Ling 3.0 Flash Sante (free)"
 [features]
 attachment = true
 reasoning = true
+tool_call = true
 
 [limit]
 context = 262144
