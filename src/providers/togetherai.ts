@@ -203,7 +203,7 @@ export const togetheraiProvider: ProviderDefinition = {
 
       return compactObject({
         id: model.id,
-        name: model.display_name ?? details?.name ?? model.id,
+        name: model.display_name || details?.name || model.id,
         release_date:
           model.created > 0
             ? timestampFromUnixSeconds(model.created)

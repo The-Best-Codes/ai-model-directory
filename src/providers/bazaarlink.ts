@@ -19,8 +19,8 @@ const responseSchema = z.object({
       max_completion_tokens: z.number().nullish(),
       knowledge_cutoff: z.string().nullish(),
       architecture: z.object({
-        input_modalities: z.array(z.string()),
-        output_modalities: z.array(z.string()),
+        input_modalities: z.array(z.string()).optional(),
+        output_modalities: z.array(z.string()).optional(),
       }),
       reasoning: z
         .object({
