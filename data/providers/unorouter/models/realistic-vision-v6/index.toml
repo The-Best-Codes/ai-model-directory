@@ -1,0 +1,10 @@
+id = "realistic-vision-v6"
+name = "realistic-vision-v6"
+release_date = "1690761600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

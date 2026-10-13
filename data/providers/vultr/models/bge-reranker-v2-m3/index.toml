@@ -1,0 +1,13 @@
+id = "bge-reranker-v2-m3"
+name = "BGE M3"
+open_weights = true
+release_date = "1789490421"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]

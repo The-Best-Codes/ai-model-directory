@@ -1,0 +1,20 @@
+id = "vertex/gemini-3.1-flash-lite-image"
+name = "vertex/gemini-3.1-flash-lite-image"
+release_date = "1782837225"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.25
+output = 1.5

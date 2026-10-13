@@ -1,0 +1,22 @@
+id = "greenference/gpt-oss-20b"
+name = "gpt-oss-20b"
+release_date = "1754352000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0045
+input = 0.009
+output = 0.045

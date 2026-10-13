@@ -1,0 +1,8 @@
+id = "gte-large"
+name = "GTE Large"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

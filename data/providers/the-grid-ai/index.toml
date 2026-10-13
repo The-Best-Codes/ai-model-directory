@@ -1,0 +1,7 @@
+name = "The Grid"
+website = "https://thegrid.ai"
+apiBaseUrl = "https://api.thegrid.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["THEGRID_API_KEY"]

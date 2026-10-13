@@ -1,0 +1,17 @@
+id = "ionos/mistralai/Mistral-Nemo-Instruct-2407"
+name = "ionos/mistralai/Mistral-Nemo-Instruct-2407"
+release_date = "1786647205"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1677150722181101
+output = 0.1677150722181101

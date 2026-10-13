@@ -1,0 +1,17 @@
+id = "auto/ibm-granite/granite-4.2-8b/us"
+name = "auto/ibm-granite/granite-4.2-8b/us"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015265078449389999
+input = 0.06105919375365
+output = 0.25440901380521996

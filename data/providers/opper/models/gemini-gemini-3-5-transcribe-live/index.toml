@@ -1,0 +1,13 @@
+id = "gemini/gemini-3.5-transcribe-live"
+name = "Gemini 3.5 Transcribe Live"
+release_date = "1787702400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text" ]
+
+[pricing]
+input = 3.5
+output = 21

@@ -1,0 +1,21 @@
+id = "deepinfra/MiniMaxAI/MiniMax-M2.7-Turbo"
+name = "deepinfra/MiniMaxAI/MiniMax-M2.7-Turbo"
+release_date = "1782119040"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 196608
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.07000000140000003
+input = 0.38
+output = 1.7

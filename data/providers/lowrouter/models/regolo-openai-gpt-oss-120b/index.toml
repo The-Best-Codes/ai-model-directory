@@ -1,0 +1,14 @@
+id = "regolo/openai/gpt-oss-120b"
+name = "regolo/openai/gpt-oss-120b"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.12004391
+output = 4.704184422

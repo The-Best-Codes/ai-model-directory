@@ -1,0 +1,20 @@
+id = "qwen/qwen-flash-2025-07-28"
+name = "qwen/qwen-flash-2025-07-28"
+release_date = "1785415829"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03250000000000001
+output = 0.26000000000000006

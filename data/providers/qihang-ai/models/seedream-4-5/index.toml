@@ -1,0 +1,6 @@
+id = "seedream-4.5"
+name = "seedream-4.5"
+release_date = "1764720000"
+
+[modalities]
+output = [ "image" ]

@@ -1,0 +1,9 @@
+id = "flux-kontext-dev-lora"
+name = "FLUX.1 Kontext Dev Lora"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

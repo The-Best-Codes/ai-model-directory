@@ -1,0 +1,17 @@
+id = "nebius/z-ai/glm-5.1"
+name = "nebius/z-ai/glm-5.1"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.42469025330045
+output = 4.47759729891918

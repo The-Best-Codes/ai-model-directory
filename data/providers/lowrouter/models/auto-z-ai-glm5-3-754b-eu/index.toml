@@ -1,0 +1,19 @@
+id = "auto/z-ai/glm5.3-754b/eu"
+name = "auto/z-ai/glm5.3-754b/eu"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 524288
+output = 524288
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2800109775
+input = 1.12004391
+output = 3.920153685

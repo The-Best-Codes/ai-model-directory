@@ -1,0 +1,21 @@
+id = "deepinfra/XiaomiMiMo/MiMo-V2.5"
+name = "deepinfra/XiaomiMiMo/MiMo-V2.5"
+release_date = "1776874269"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0028
+input = 0.14
+output = 0.28

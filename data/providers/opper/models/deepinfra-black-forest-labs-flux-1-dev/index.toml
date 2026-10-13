@@ -1,0 +1,10 @@
+id = "deepinfra/black-forest-labs/FLUX-1-dev"
+name = "FLUX.1 [dev]"
+release_date = "1722470400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,16 @@
+id = "auto/microsoft/phi-4"
+name = "auto/microsoft/phi-4"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.071234792676
+output = 0.142469585352

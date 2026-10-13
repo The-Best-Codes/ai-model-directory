@@ -1,0 +1,21 @@
+id = "moonshot/kimi-k2.7-code-highspeed"
+name = "moonshot/kimi-k2.7-code-highspeed"
+release_date = "1788215842"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.38
+input = 1.8999999999999997
+output = 8

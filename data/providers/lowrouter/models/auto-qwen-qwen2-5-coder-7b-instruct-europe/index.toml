@@ -1,0 +1,16 @@
+id = "auto/qwen/qwen2.5-coder-7b-instruct/europe"
+name = "auto/qwen/qwen2.5-coder-7b-instruct/europe"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01017671896626
+output = 0.030530156898779998

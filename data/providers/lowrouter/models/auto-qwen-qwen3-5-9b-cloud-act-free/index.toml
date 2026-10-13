@@ -1,0 +1,10 @@
+id = "auto/qwen/qwen3.5-9b/cloud-act-free"
+name = "auto/qwen/qwen3.5-9b/cloud-act-free"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

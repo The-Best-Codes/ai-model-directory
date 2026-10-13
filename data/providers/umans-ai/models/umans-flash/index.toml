@@ -1,0 +1,9 @@
+id = "umans-flash"
+name = "umans-flash"
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.15
+output = 1

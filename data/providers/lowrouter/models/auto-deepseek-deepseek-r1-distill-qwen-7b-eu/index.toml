@@ -1,0 +1,16 @@
+id = "auto/deepseek/deepseek-r1-distill-qwen-7b/eu"
+name = "auto/deepseek/deepseek-r1-distill-qwen-7b/eu"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15264630431826
+output = 0.15264630431826

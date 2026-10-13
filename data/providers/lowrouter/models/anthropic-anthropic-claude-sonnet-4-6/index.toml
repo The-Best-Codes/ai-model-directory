@@ -1,0 +1,20 @@
+id = "anthropic/anthropic/claude-sonnet-4.6"
+name = "anthropic/anthropic/claude-sonnet-4.6"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.30529148859261
+cache_write = 3.81613408703439
+input = 3.05290816566264
+output = 15.26453634813756

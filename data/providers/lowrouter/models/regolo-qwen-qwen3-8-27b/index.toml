@@ -1,0 +1,14 @@
+id = "regolo/qwen/qwen3.8-27b"
+name = "regolo/qwen/qwen3.8-27b"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.560021955
+output = 2.352092211

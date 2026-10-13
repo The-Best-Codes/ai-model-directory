@@ -1,0 +1,23 @@
+id = "qwen/qwen2.5-vl-72b-instruct"
+name = "Qwen: Qwen2.5 VL 72B Instruct"
+release_date = "1738410311"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 115200
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.4
+input = 0.8
+output = 1

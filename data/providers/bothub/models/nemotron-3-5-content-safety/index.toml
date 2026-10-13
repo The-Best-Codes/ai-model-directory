@@ -1,0 +1,15 @@
+id = "nemotron-3.5-content-safety"
+name = "Nemotron 3.5 Content Safety"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = false
+
+[limit]
+output = 117964
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,21 @@
+id = "k2-horizon:free"
+name = "k2-horizon:free"
+release_date = "1788393600"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = false
+
+[limit]
+context = 524288
+input = 524288
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,11 @@
+id = "kosmik/tts-piper-fast"
+name = "Kosmik: Piper TTS Fast"
+release_date = "1750000000"
+
+[features]
+attachment = false
+temperature = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,9 @@
+id = "aws-bedrock/mistralai/mistral-7b-instruct"
+name = "aws-bedrock/mistralai/mistral-7b-instruct"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

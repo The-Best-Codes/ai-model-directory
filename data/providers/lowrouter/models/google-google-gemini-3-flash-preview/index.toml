@@ -1,0 +1,15 @@
+id = "google/google/gemini-3-flash-preview"
+name = "google/google/gemini-3-flash-preview"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05088247478739
+input = 0.50881802761044
+output = 3.05290816566264

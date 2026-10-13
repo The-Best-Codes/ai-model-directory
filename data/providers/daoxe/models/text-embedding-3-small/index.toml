@@ -1,0 +1,7 @@
+id = "text-embedding-3-small"
+name = "text-embedding-3-small"
+
+[pricing]
+cache_read = 0.00003077803358
+input = 0.003077803358
+output = 0.006155606716

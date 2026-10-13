@@ -1,0 +1,9 @@
+id = "umans-coder"
+name = "umans-coder"
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 0.15
+output = 0.5

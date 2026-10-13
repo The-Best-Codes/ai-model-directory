@@ -1,0 +1,16 @@
+id = "auto/deepseek/deepseek-r1-distill-llama-8b/europe"
+name = "auto/deepseek/deepseek-r1-distill-llama-8b/europe"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05088247478739
+output = 0.05088247478739

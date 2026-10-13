@@ -1,0 +1,6 @@
+id = "gpt-6-astra-openai-compact"
+name = "gpt-6-astra-openai-compact"
+
+[pricing]
+input = 0.23083525185
+output = 1.15417625925

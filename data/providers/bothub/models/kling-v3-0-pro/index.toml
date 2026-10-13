@@ -1,0 +1,9 @@
+id = "kling-v3.0-pro"
+name = "Kling V3.0 Pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

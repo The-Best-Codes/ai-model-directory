@@ -1,0 +1,13 @@
+id = "google/google/gemini-3.8-live"
+name = "google/google/gemini-3.8-live"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.76322704141566
+output = 4.57936112845005

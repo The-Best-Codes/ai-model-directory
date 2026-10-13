@@ -1,0 +1,9 @@
+id = "eleven_multilingual_v2"
+name = "Eleven Multilingual V2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

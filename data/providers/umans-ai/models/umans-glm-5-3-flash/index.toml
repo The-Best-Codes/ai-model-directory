@@ -1,0 +1,9 @@
+id = "umans-glm-5.3-flash"
+name = "umans-glm-5.3-flash"
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 0.15
+output = 0.5

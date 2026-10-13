@@ -1,0 +1,12 @@
+id = "auto/sentence-transformers/clip-vit-b-32-multilingual/us"
+name = "auto/sentence-transformers/clip-vit-b-32-multilingual/us"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00508835948313
+output = 0

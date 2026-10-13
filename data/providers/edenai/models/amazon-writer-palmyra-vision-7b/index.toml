@@ -1,0 +1,20 @@
+id = "amazon/writer.palmyra-vision-7b"
+name = "amazon/writer.palmyra-vision-7b"
+release_date = "1789621775"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

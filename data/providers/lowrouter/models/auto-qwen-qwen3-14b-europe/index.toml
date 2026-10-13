@@ -1,0 +1,16 @@
+id = "auto/qwen/qwen3-14b/europe"
+name = "auto/qwen/qwen3-14b/europe"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.071234792676
+output = 0.20352765906174

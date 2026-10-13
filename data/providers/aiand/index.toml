@@ -1,0 +1,7 @@
+name = "ai&"
+website = "https://aiand.com"
+apiBaseUrl = "https://api.aiand.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["AIAND_API_KEY"]

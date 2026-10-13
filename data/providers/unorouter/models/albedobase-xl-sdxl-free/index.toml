@@ -1,0 +1,14 @@
+id = "albedobase-xl-sdxl:free"
+name = "albedobase-xl-sdxl:free"
+release_date = "1693872000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

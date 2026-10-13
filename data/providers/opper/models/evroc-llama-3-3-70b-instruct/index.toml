@@ -1,0 +1,22 @@
+id = "evroc/llama-3.3-70b-instruct"
+name = "Llama 3.3 70B Instruct FP8"
+release_date = "1733443200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.1181
+output = 1.1181

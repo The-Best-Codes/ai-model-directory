@@ -1,0 +1,20 @@
+id = "cloudflare/@cf/google/gemma-7b-it-lora"
+name = "cloudflare/@cf/google/gemma-7b-it-lora"
+release_date = "1782278004"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 3500
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

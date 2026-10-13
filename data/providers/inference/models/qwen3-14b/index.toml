@@ -1,0 +1,18 @@
+id = "qwen3-14b"
+name = "qwen3-14b"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2275
+output = 0.91

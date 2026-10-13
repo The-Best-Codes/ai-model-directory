@@ -1,0 +1,14 @@
+id = "infomaniak/mistralai/ministral-3-14b-instruct-2512"
+name = "infomaniak/mistralai/ministral-3-14b-instruct-2512"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.336013173
+output = 0.448017564

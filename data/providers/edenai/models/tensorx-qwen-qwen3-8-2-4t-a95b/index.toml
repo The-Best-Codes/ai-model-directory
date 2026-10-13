@@ -1,0 +1,21 @@
+id = "tensorx/qwen/qwen3.8-2.4t-a95b"
+name = "tensorx/qwen/qwen3.8-2.4t-a95b"
+release_date = "1787003349"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.625
+input = 2.5
+output = 6

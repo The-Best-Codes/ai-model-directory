@@ -1,0 +1,12 @@
+id = "gpt-5.3-chat-latest"
+name = "gpt-5.3-chat-latest"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 4.5180958032
+output = 36.1447664256

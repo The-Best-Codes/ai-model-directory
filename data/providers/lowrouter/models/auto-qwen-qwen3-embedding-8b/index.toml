@@ -1,0 +1,14 @@
+id = "auto/qwen/qwen3-embedding-8b"
+name = "auto/qwen/qwen3-embedding-8b"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+output = 0

@@ -1,0 +1,22 @@
+id = "databricks/databricks-claude-sonnet-4-6"
+name = "databricks/databricks-claude-sonnet-4-6"
+release_date = "1780933650"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.299999
+cache_write = 3.74997
+input = 2.99999
+output = 15.00002

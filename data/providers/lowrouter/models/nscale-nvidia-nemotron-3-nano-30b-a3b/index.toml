@@ -1,0 +1,16 @@
+id = "nscale/nvidia/nemotron-3-nano-30b-a3b"
+name = "nscale/nvidia/nemotron-3-nano-30b-a3b"
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05088247478739
+output = 0.20352765906174

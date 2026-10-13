@@ -1,0 +1,21 @@
+id = "groq/meta-llama/llama-prompt-guard-2-22m"
+name = "groq/meta-llama/llama-prompt-guard-2-22m"
+release_date = "1782123085"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.03
+output = 0.03

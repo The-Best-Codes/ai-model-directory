@@ -1,0 +1,9 @@
+id = "seedance-2.0-mini"
+name = "Seedance 2.0 Mini"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

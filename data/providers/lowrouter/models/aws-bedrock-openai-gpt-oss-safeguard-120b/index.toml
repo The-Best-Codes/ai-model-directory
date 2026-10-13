@@ -1,0 +1,14 @@
+id = "aws-bedrock/openai/gpt-oss-safeguard-120b"
+name = "aws-bedrock/openai/gpt-oss-safeguard-120b"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

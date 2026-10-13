@@ -1,0 +1,6 @@
+id = "alibaba/qwen3.5-flash"
+name = "alibaba/qwen3.5-flash"
+
+[pricing]
+input = 0.15
+output = 0.6

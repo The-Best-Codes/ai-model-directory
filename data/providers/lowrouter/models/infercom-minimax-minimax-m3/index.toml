@@ -1,0 +1,18 @@
+id = "infercom/minimax/minimax-m3"
+name = "infercom/minimax/minimax-m3"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+output = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0672026346
+input = 0.672026346
+output = 2.688105384

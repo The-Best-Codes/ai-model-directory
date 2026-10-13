@@ -1,0 +1,13 @@
+id = "auto/openai/gpt-oss-120b/eu"
+name = "auto/openai/gpt-oss-120b/eu"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 131000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

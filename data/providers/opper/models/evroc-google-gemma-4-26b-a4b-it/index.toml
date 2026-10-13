@@ -1,0 +1,18 @@
+id = "evroc/google/gemma-4-26B-A4B-it"
+name = "Gemma 4 26B A4B IT"
+release_date = "1775088000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1397625
+output = 0.55905

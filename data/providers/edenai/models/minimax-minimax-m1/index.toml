@@ -1,0 +1,20 @@
+id = "minimax/minimax-m1"
+name = "minimax/minimax-m1"
+release_date = "1750200414"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 2.2

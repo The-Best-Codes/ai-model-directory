@@ -1,0 +1,9 @@
+id = "eleven_v4_turbo"
+name = "Eleven V4 Turbo"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

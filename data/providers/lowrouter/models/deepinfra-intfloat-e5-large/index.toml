@@ -1,0 +1,12 @@
+id = "deepinfra/intfloat/e5-large"
+name = "deepinfra/intfloat/e5-large"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.01017671896626
+output = 0

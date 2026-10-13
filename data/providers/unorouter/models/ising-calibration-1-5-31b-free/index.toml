@@ -1,0 +1,18 @@
+id = "ising-calibration-1.5-31b:free"
+name = "ising-calibration-1.5-31b:free"
+release_date = "1783900800"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+input = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,16 @@
+id = "azure:global/microsoft-decision-1"
+name = "Microsoft Decision 1"
+release_date = "1791504000"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0

@@ -1,0 +1,14 @@
+id = "auto/qwen/qwen3.5-122b/eu"
+name = "auto/qwen/qwen3.5-122b/eu"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.12004391
+output = 4.704184422

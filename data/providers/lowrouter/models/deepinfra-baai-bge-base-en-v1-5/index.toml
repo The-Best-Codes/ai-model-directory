@@ -1,0 +1,12 @@
+id = "deepinfra/baai/bge-base-en-v1.5"
+name = "deepinfra/baai/bge-base-en-v1.5"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00508835948313
+output = 0

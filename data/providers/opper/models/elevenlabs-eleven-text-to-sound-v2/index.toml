@@ -1,0 +1,10 @@
+id = "elevenlabs/eleven_text_to_sound_v2"
+name = "Eleven Sound Effects v2"
+release_date = "1748736000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

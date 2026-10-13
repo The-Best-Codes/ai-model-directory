@@ -1,0 +1,24 @@
+id = "aws/claude-haiku-5-5-eu"
+name = "Claude Haiku 5.5"
+release_date = "1791331200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.011
+cache_write = 0.1375
+input = 0.11
+output = 0.55

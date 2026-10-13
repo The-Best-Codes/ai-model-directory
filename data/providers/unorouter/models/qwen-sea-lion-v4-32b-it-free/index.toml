@@ -1,0 +1,21 @@
+id = "qwen-sea-lion-v4-32b-it:free"
+name = "qwen-sea-lion-v4-32b-it:free"
+release_date = "1760572800"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 32768
+input = 32768
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

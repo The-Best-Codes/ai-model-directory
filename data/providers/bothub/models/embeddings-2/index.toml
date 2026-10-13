@@ -1,0 +1,8 @@
+id = "Embeddings-2"
+name = "Embeddings-2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

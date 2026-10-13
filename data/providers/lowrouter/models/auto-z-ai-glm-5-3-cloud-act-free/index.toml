@@ -1,0 +1,13 @@
+id = "auto/z-ai/glm-5.3/cloud-act-free"
+name = "auto/z-ai/glm-5.3/cloud-act-free"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

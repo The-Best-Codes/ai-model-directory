@@ -1,0 +1,10 @@
+id = "flux-1-dev-runware"
+name = "flux-1-dev-runware"
+release_date = "1722470400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

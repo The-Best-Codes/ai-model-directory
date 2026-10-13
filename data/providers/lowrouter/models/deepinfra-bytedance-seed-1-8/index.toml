@@ -1,0 +1,17 @@
+id = "deepinfra/bytedance/seed-1.8"
+name = "deepinfra/bytedance/seed-1.8"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05088247478739
+input = 0.25440901380522
+output = 2.03527211044176

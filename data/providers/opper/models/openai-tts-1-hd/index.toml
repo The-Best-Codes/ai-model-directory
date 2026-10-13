@@ -1,0 +1,10 @@
+id = "openai/tts-1-hd"
+name = "TTS-1 HD"
+release_date = "1699228800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

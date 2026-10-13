@@ -1,0 +1,19 @@
+id = "openai/openai/o1"
+name = "openai/openai/o1"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 7.63226817406878
+input = 15.26453634813756
+output = 61.05814651259415

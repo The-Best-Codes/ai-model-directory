@@ -1,0 +1,10 @@
+id = "auto/z-ai/glm-5"
+name = "auto/z-ai/glm-5"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,14 @@
+id = "amponyxl:free"
+name = "amponyxl:free"
+release_date = "1706832000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

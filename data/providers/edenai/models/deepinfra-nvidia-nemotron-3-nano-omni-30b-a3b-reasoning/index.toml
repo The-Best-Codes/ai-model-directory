@@ -1,0 +1,20 @@
+id = "deepinfra/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning"
+name = "deepinfra/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning"
+release_date = "1782119040"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.8000000000000002

@@ -1,0 +1,17 @@
+id = "llama-3.2-3b-instruct"
+name = "llama-3.2-3b-instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.33

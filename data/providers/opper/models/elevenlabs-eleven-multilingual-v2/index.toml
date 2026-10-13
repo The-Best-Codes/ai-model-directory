@@ -1,0 +1,10 @@
+id = "elevenlabs/eleven_multilingual_v2"
+name = "Eleven Multilingual v2"
+release_date = "1692662400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

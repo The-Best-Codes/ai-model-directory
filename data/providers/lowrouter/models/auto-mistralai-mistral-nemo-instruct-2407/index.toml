@@ -1,0 +1,12 @@
+id = "auto/mistralai/mistral-nemo-instruct-2407"
+name = "auto/mistralai/mistral-nemo-instruct-2407"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

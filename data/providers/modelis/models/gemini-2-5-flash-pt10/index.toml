@@ -1,0 +1,6 @@
+id = "gemini-2.5-flash__pt10"
+name = "gemini-2.5-flash__pt10"
+
+[pricing]
+input = 0.851983780032
+output = 7.0998648336

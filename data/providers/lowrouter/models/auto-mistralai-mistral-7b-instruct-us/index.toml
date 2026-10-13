@@ -1,0 +1,13 @@
+id = "auto/mistralai/mistral-7b-instruct/us"
+name = "auto/mistralai/mistral-7b-instruct/us"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15264630431826
+output = 0.20352765906174

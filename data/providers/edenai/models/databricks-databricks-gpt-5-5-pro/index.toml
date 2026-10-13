@@ -1,0 +1,22 @@
+id = "databricks/databricks-gpt-5-5-pro"
+name = "databricks/databricks-gpt-5-5-pro"
+release_date = "1785417770"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 922000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 2.999997
+cache_write = 29.99997
+input = 29.99997
+output = 179.9994

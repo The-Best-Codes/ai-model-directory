@@ -1,0 +1,9 @@
+id = "slng:in/deepgram/nova:3-hi"
+name = "Nova-3"
+release_date = "1739318400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]

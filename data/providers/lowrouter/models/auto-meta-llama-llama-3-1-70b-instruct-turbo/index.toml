@@ -1,0 +1,16 @@
+id = "auto/meta-llama/llama-3.1-70b-instruct-turbo"
+name = "auto/meta-llama/llama-3.1-70b-instruct-turbo"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.40705531812348
+output = 0.40705531812348

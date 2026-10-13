@@ -1,0 +1,20 @@
+id = "amazon/deepseek.v3.2@us"
+name = "amazon/deepseek.v3.2@us"
+release_date = "1770991619"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.74
+output = 2.22

@@ -1,0 +1,21 @@
+id = "amazon/amazon.nova-micro-v1:0"
+name = "amazon/amazon.nova-micro-v1:0"
+release_date = "1733437237"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.00875
+input = 0.035
+output = 0.14

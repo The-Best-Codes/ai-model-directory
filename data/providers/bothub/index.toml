@@ -1,0 +1,7 @@
+name = "BotHub"
+website = "https://bothub.chat"
+apiBaseUrl = "https://openai.bothub.ru/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["BOTHUB_API_KEY"]

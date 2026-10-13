@@ -1,0 +1,9 @@
+id = "happyhorse-1.0"
+name = "HappyHorse 1.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

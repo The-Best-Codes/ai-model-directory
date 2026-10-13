@@ -1,0 +1,7 @@
+name = "UnoRouter"
+website = "https://unorouter.com"
+apiBaseUrl = "https://api.unorouter.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["UNOROUTER_API_KEY"]

@@ -1,0 +1,15 @@
+id = "gemma-3-4b-it"
+name = "Gemma 3 4B IT"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 16384
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

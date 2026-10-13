@@ -1,0 +1,5 @@
+id = "half/gemini-embedding-001"
+name = "half/gemini-embedding-001"
+
+[pricing]
+input = 0.023083525185

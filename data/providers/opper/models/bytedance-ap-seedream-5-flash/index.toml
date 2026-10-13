@@ -1,0 +1,9 @@
+id = "bytedance:ap/seedream-5-flash"
+name = "Seedream 5.0 Flash"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

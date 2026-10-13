@@ -1,0 +1,15 @@
+id = "kimi-k3"
+name = "Kimi K3"
+open_weights = true
+release_date = "1790294854"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1048576
+
+[pricing]
+cache_read = 0.3
+input = 3
+output = 15

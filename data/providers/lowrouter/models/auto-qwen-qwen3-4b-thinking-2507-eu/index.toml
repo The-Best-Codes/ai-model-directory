@@ -1,0 +1,16 @@
+id = "auto/qwen/qwen3-4b-thinking-2507/eu"
+name = "auto/qwen/qwen3-4b-thinking-2507/eu"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01017671896626
+output = 0.030530156898779998

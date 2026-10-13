@@ -1,0 +1,10 @@
+id = "epicrealism"
+name = "epicrealism"
+release_date = "1692662400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

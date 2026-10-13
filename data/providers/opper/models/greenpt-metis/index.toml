@@ -1,0 +1,15 @@
+id = "greenpt/metis"
+name = "Metis"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.134172
+output = 0

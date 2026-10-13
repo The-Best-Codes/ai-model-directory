@@ -1,0 +1,22 @@
+id = "amazon/anthropic.claude-sonnet-4-5-20250929-v1:0@us"
+name = "amazon/anthropic.claude-sonnet-4-5-20250929-v1:0@us"
+release_date = "1781775085"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.33
+cache_write = 4.125
+input = 3.3
+output = 16.5

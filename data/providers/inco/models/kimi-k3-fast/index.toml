@@ -1,0 +1,15 @@
+id = "kimi-k3:fast"
+name = "Kimi K3 (Fast)"
+open_weights = true
+release_date = "1787525277"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1048576
+
+[pricing]
+cache_read = 0.6
+input = 6
+output = 30

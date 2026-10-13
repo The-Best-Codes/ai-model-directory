@@ -1,0 +1,22 @@
+id = "alibaba:global/kimi-k2.7-code"
+name = "Kimi K2.7 Code"
+release_date = "1781222400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.971165
+output = 4.03407

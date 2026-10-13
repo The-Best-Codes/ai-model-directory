@@ -1,0 +1,10 @@
+id = "auto/qwen/qwen3.5-9b/eu"
+name = "auto/qwen/qwen3.5-9b/eu"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]

@@ -1,0 +1,14 @@
+id = "aws-bedrock/amazon/nova-pro"
+name = "aws-bedrock/amazon/nova-pro"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 300000
+output = 10000
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "text" ]

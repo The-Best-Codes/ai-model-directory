@@ -1,0 +1,9 @@
+id = "fal/flux-2-flash"
+name = "FLUX.2 [flash]"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

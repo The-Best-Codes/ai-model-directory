@@ -1,0 +1,9 @@
+id = "kling-v2.5-turbo-pro"
+name = "Kling 2.5 Turbo Pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

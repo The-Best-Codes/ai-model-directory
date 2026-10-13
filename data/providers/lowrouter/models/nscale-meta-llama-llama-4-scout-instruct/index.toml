@@ -1,0 +1,16 @@
+id = "nscale/meta-llama/llama-4-scout-instruct"
+name = "nscale/meta-llama/llama-4-scout-instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 890000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09158823060852
+output = 0.29511476962635

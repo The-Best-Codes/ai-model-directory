@@ -1,0 +1,21 @@
+id = "azure/gpt-5"
+name = "azure/gpt-5"
+release_date = "1784721580"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 272000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.125
+input = 1.25
+output = 10

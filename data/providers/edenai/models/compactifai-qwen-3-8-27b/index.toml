@@ -1,0 +1,17 @@
+id = "compactifai/qwen-3-8-27b"
+name = "compactifai/qwen-3-8-27b"
+release_date = "1788457256"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 2

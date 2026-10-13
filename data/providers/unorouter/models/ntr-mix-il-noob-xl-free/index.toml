@@ -1,0 +1,14 @@
+id = "ntr-mix-il-noob-xl:free"
+name = "ntr-mix-il-noob-xl:free"
+release_date = "1730937600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

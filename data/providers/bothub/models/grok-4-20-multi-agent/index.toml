@@ -1,0 +1,12 @@
+id = "grok-4.20-multi-agent"
+name = "Grok 4.20 Multi Agent"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

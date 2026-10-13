@@ -1,0 +1,18 @@
+id = "deepinfra/z-ai/glm-4.6"
+name = "deepinfra/z-ai/glm-4.6"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.10176382953087
+input = 0.50881802761044
+output = 2.03527211044176

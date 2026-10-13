@@ -1,0 +1,15 @@
+id = "hy-mt2-7b"
+name = "Hy MT2 7B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 4096
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

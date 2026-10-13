@@ -1,0 +1,19 @@
+id = "auto/openai/o3-mini"
+name = "auto/openai/o3-mini"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.55970050239783
+input = 1.11939988475175
+output = 4.4775972989191795

@@ -1,0 +1,5 @@
+id = "BAAI/bge-m3"
+name = "BAAI/bge-m3"
+
+[pricing]
+input = 0.007694508395

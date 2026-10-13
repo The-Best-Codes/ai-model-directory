@@ -1,0 +1,15 @@
+id = "gpt-6-sol-pro"
+name = "GPT 6 Sol Pro"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[limit]
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

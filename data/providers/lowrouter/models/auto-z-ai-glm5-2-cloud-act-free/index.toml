@@ -1,0 +1,14 @@
+id = "auto/z-ai/glm5.2/cloud-act-free"
+name = "auto/z-ai/glm5.2/cloud-act-free"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.24008782
+output = 5.824228332

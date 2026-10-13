@@ -1,0 +1,6 @@
+id = "gpt-oss-safeguard-120b"
+name = "GPT-OSS Safeguard 120B"
+release_date = "1737676800"
+
+[limit]
+context = 131072

@@ -1,0 +1,21 @@
+id = "mistral/mistral-medium-3"
+name = "mistral/mistral-medium-3"
+release_date = "1746627341"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+input = 0.4
+output = 2

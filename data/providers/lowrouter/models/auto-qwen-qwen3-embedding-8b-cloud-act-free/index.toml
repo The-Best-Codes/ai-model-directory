@@ -1,0 +1,14 @@
+id = "auto/qwen/qwen3-embedding-8b/cloud-act-free"
+name = "auto/qwen/qwen3-embedding-8b/cloud-act-free"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+output = 0

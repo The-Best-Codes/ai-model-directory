@@ -1,0 +1,16 @@
+id = "deepinfra/anthropic/claude-sonnet-5"
+name = "deepinfra/anthropic/claude-sonnet-5"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.05290816566264
+output = 15.26453634813756

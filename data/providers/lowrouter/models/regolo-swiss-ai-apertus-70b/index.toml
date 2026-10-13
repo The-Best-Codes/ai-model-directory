@@ -1,0 +1,14 @@
+id = "regolo/swiss-ai/apertus-70b"
+name = "regolo/swiss-ai/apertus-70b"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.448017564
+output = 2.352092211

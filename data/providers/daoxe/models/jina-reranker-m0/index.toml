@@ -1,0 +1,5 @@
+id = "jina-reranker-m0"
+name = "jina-reranker-m0"
+
+[pricing]
+input = 0.009233410074

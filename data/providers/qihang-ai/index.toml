@@ -1,0 +1,7 @@
+name = "QiHang AI"
+website = "https://www.qhaigc.net"
+apiBaseUrl = "https://api.qhaigc.net/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["QIHANG_API_KEY"]

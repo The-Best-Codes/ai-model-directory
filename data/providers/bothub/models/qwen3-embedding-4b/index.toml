@@ -1,0 +1,8 @@
+id = "qwen3-embedding-4b"
+name = "Qwen3 Embedding 4B"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

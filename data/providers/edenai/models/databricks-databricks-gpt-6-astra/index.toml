@@ -1,0 +1,18 @@
+id = "databricks/databricks-gpt-6-astra"
+name = "databricks/databricks-gpt-6-astra"
+release_date = "1789744452"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.99999998
+input = 9.9999998
+output = 49.9999997

@@ -1,0 +1,19 @@
+id = "auto/anthropic/claude-fable-5.1/us"
+name = "auto/anthropic/claude-fable-5.1/us"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.27985081122087
+input = 11.19399324729795
+output = 55.96996623648975

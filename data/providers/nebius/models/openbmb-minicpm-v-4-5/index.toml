@@ -1,0 +1,19 @@
+id = "openbmb/MiniCPM-V-4_5"
+name = "openbmb/MiniCPM-V-4_5"
+open_weights = true
+release_date = "1780272000"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.658
+output = 1.11

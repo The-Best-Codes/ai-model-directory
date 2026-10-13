@@ -1,0 +1,7 @@
+name = "Vultr Inference"
+website = "https://www.vultr.com/products/cloud-inference/"
+apiBaseUrl = "https://api.vultrinference.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["VULTR_API_KEY"]

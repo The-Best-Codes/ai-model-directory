@@ -1,0 +1,19 @@
+id = "ui-tars-1.5-7b"
+knowledge_cutoff = "1738281600"
+name = "ByteDance: UI-TARS 7B "
+release_date = "1753205056"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 2048
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

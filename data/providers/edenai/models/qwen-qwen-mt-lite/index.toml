@@ -1,0 +1,20 @@
+id = "qwen/qwen-mt-lite"
+name = "qwen/qwen-mt-lite"
+release_date = "1785412138"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.078
+output = 0.234

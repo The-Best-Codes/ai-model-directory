@@ -1,0 +1,12 @@
+id = "openai/gpt-4o-transcribe-diarize"
+name = "GPT-4o Transcribe Diarize"
+
+[features]
+attachment = true
+
+[limit]
+context = 16000
+output = 2000
+
+[modalities]
+input = [ "audio", "text" ]

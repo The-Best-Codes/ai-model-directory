@@ -1,0 +1,14 @@
+id = "regolo/z-ai/glm5.2"
+name = "regolo/z-ai/glm5.2"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.24008782
+output = 5.824228332

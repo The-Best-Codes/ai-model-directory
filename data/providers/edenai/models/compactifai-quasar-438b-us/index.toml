@@ -1,0 +1,20 @@
+id = "compactifai/quasar-438b@us"
+name = "compactifai/quasar-438b@us"
+release_date = "1788457256"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 1.8

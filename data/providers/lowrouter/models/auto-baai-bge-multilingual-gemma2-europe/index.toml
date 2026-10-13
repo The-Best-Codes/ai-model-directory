@@ -1,0 +1,14 @@
+id = "auto/baai/bge-multilingual-gemma2/europe"
+name = "auto/baai/bge-multilingual-gemma2/europe"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+output = 0

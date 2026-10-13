@@ -1,0 +1,18 @@
+id = "deepinfra/qwen/qwen3.5-397b-a17b"
+name = "deepinfra/qwen/qwen3.5-397b-a17b"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.22387997695035
+input = 0.45793667286696
+output = 3.05290816566264

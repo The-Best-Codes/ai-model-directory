@@ -1,0 +1,13 @@
+id = "ionos/qwen/qwen3.5-9b"
+name = "ionos/qwen/qwen3.5-9b"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.112004391
+output = 0.1680065865

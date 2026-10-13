@@ -1,0 +1,22 @@
+id = "vertex/claude-sonnet-4-5@us"
+name = "vertex/claude-sonnet-4-5@us"
+release_date = "1759161676"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.33
+cache_write = 4.125
+input = 3.3
+output = 16.5

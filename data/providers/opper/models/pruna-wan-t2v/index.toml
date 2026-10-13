@@ -1,0 +1,10 @@
+id = "pruna/wan-t2v"
+name = "Wan Text-to-Video"
+release_date = "1753660800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,5 @@
+id = "Doubao-Seedream-5.0-lite"
+name = "Doubao-Seedream-5.0-lite"
+
+[modalities]
+output = [ "image" ]

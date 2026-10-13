@@ -1,0 +1,7 @@
+name = "Cline"
+website = "https://cline.bot"
+apiBaseUrl = "https://api.cline.bot/api/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["CLINE_API_KEY"]

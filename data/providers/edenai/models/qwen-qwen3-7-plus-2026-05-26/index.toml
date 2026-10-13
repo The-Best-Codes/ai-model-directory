@@ -1,0 +1,22 @@
+id = "qwen/qwen3.7-plus-2026-05-26"
+name = "qwen/qwen3.7-plus-2026-05-26"
+release_date = "1780491783"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.052
+cache_write = 0.325
+input = 0.26000000000000006
+output = 1.0400000000000003

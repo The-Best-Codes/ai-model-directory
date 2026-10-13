@@ -1,0 +1,20 @@
+id = "together_ai/Prism-ML/Ternary-Bonsai-27B"
+name = "together_ai/Prism-ML/Ternary-Bonsai-27B"
+release_date = "1787720977"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

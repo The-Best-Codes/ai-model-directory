@@ -1,0 +1,7 @@
+name = "Umans AI"
+website = "https://umans.ai"
+apiBaseUrl = "https://api.code.umans.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["UMANS_AI_API_KEY"]

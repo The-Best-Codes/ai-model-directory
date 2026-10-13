@@ -1,0 +1,9 @@
+id = "azure-speech/neural-hd-tts"
+name = "Azure Neural HD TTS"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

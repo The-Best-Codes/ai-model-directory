@@ -1,0 +1,9 @@
+id = "eleven_v3_conversational_ivc"
+name = "Eleven V3 Conversational IVC"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

@@ -1,0 +1,24 @@
+id = "vertex/gemini-3-pro-image"
+name = "vertex/gemini-3-pro-image"
+release_date = "1781754054"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 0.375
+input = 2
+input_audio = 2
+output = 12
+reasoning = 12

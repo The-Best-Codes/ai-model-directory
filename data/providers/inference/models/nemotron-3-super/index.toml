@@ -1,0 +1,18 @@
+id = "nemotron-3-super"
+name = "nemotron-3-super"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.102
+output = 0.48

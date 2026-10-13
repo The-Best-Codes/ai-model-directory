@@ -1,0 +1,21 @@
+id = "qwen/glm-5.3-prime"
+name = "qwen/glm-5.3-prime"
+release_date = "1790199651"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.36400000000000005
+input = 1.82
+output = 5.72

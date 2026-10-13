@@ -1,0 +1,18 @@
+id = "inference-net/schematron-v2-small"
+name = "inference-net/schematron-v2-small"
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.05
+output = 0.23

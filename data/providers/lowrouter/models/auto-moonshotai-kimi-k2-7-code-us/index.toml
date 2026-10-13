@@ -1,0 +1,17 @@
+id = "auto/moonshotai/kimi-k2.7-code/us"
+name = "auto/moonshotai/kimi-k2.7-code/us"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.9667547004773999
+output = 4.07054310083961

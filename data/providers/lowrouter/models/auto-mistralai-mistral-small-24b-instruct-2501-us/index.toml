@@ -1,0 +1,16 @@
+id = "auto/mistralai/mistral-small-24b-instruct-2501/us"
+name = "auto/mistralai/mistral-small-24b-instruct-2501/us"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05088247478739
+output = 0.08141151164226

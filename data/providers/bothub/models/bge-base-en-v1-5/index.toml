@@ -1,0 +1,8 @@
+id = "bge-base-en-v1.5"
+name = "BGE Base En V1.5"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

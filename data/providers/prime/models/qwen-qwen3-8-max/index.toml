@@ -1,0 +1,6 @@
+id = "qwen/qwen3.8-max"
+name = "qwen/qwen3.8-max"
+
+[pricing]
+input = 2
+output = 6

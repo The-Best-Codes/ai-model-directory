@@ -1,0 +1,9 @@
+id = "aleph-2"
+name = "Runway Aleph 2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

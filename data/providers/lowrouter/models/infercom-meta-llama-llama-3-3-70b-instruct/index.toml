@@ -1,0 +1,17 @@
+id = "infercom/meta-llama/llama-3.3-70b-instruct"
+name = "infercom/meta-llama/llama-3.3-70b-instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.672026346
+output = 1.344052692

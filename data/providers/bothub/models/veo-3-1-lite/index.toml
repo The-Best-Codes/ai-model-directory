@@ -1,0 +1,9 @@
+id = "veo-3.1-lite"
+name = "Veo 3.1 Lite"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

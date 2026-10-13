@@ -1,0 +1,6 @@
+id = "anthropic/claude-opus-5-fast"
+name = "anthropic/claude-opus-5-fast"
+
+[pricing]
+input = 61.9624567296
+output = 309.812283648

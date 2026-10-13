@@ -1,0 +1,9 @@
+id = "ltx-video"
+name = "LTX Video"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

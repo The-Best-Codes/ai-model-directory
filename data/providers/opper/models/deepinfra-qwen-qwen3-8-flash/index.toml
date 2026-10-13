@@ -1,0 +1,23 @@
+id = "deepinfra/Qwen/Qwen3.8-Flash"
+name = "Qwen3.8 Flash"
+release_date = "1787702400"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0141
+input = 0.113
+output = 0.382

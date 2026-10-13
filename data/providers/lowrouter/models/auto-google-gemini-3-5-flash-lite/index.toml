@@ -1,0 +1,15 @@
+id = "auto/google/gemini-3.5-flash-lite"
+name = "auto/google/gemini-3.5-flash-lite"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.030530156898779998
+input = 0.30529148859261
+output = 2.5440901380522

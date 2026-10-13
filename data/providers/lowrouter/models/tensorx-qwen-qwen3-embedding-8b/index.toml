@@ -1,0 +1,15 @@
+id = "tensorx/qwen/qwen3-embedding-8b"
+name = "tensorx/qwen/qwen3-embedding-8b"
+
+[features]
+attachment = false
+
+[limit]
+context = 40000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02035343793252
+output = 0

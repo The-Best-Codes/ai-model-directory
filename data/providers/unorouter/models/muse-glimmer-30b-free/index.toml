@@ -1,0 +1,23 @@
+id = "muse-glimmer-30b:free"
+name = "muse-glimmer-30b:free"
+release_date = "1786302394"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+input = 131072
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

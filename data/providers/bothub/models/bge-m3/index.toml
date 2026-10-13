@@ -1,0 +1,8 @@
+id = "bge-m3"
+name = "BGE M3"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

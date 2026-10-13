@@ -1,0 +1,16 @@
+id = "auto/mistralai/devstral-small-2505"
+name = "auto/mistralai/devstral-small-2505"
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.10176382953087
+output = 0.30529148859261

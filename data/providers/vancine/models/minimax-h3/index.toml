@@ -1,0 +1,5 @@
+id = "MiniMax-H3"
+name = "MiniMax-H3"
+
+[modalities]
+output = [ "video" ]

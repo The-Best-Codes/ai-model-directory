@@ -1,0 +1,10 @@
+id = "auto/qwen/qwen3-coder-next"
+name = "auto/qwen/qwen3-coder-next"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

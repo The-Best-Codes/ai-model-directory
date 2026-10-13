@@ -1,0 +1,21 @@
+id = "flexai/MiniMax-M2.7"
+name = "flexai/MiniMax-M2.7"
+release_date = "1786610410"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0375
+input = 0.25
+output = 1

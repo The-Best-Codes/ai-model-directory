@@ -1,0 +1,21 @@
+id = "qwq-32b:free"
+name = "qwq-32b:free"
+release_date = "1741132800"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 131100
+input = 131100
+output = 24000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,17 @@
+id = "auto/z-ai/glm-5.1/eu-sovereign"
+name = "auto/z-ai/glm-5.1/eu-sovereign"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.42469025330045
+output = 4.4775972989191795

@@ -1,0 +1,9 @@
+id = "gemini-3.1-flash-image-preview"
+name = "Gemini 3.1 Flash Image Preview"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

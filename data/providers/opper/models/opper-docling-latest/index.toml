@@ -1,0 +1,12 @@
+id = "opper/docling-latest"
+name = "Opper Docling OCR"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "file", "image" ]
+output = [ "text" ]

@@ -1,0 +1,15 @@
+id = "aion-rp-llama-3.1-8b"
+name = "Aion RP Llama 3.1 8B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 29491
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

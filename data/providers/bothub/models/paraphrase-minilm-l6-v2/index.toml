@@ -1,0 +1,8 @@
+id = "paraphrase-minilm-l6-v2"
+name = "Paraphrase MiniLM L6 V2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

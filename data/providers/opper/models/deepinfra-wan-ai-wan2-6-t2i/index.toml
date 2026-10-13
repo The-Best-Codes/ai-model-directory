@@ -1,0 +1,10 @@
+id = "deepinfra/Wan-AI/Wan2.6-T2I"
+name = "Wan 2.6 T2I"
+release_date = "1765756800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,22 @@
+id = "greenference/qwen3-30b-a3b"
+name = "greenference/qwen3-30b-a3b"
+release_date = "1790948154"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 41000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0475
+cache_write = 0
+input = 0.095
+output = 0.285

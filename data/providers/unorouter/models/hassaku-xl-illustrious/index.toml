@@ -1,0 +1,10 @@
+id = "hassaku-xl-illustrious"
+name = "hassaku-xl-illustrious"
+release_date = "1743638400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,17 @@
+id = "deepinfra/Qwen/Qwen3-Embedding-4B"
+name = "Qwen3-Embedding-4B"
+release_date = "1749081600"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02
+output = 0

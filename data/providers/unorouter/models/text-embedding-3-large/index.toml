@@ -1,0 +1,20 @@
+id = "text-embedding-3-large"
+name = "text-embedding-3-large"
+release_date = "1706140800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8200
+input = 8200
+output = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0364
+output = 0.0364

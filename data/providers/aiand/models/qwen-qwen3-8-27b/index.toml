@@ -1,0 +1,21 @@
+id = "qwen/qwen3.8-27b"
+name = "qwen/qwen3.8-27b"
+release_date = "1787794591"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 0.4
+output = 3

@@ -1,0 +1,16 @@
+id = "deepinfra/nvidia/nemotron-3-super-120b-a12b"
+name = "deepinfra/nvidia/nemotron-3-super-120b-a12b"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08649987112539
+output = 0.40705531812348

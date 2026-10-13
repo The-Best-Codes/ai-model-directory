@@ -1,0 +1,12 @@
+id = "deepinfra/intfloat/multilingual-e5-large-instruct"
+name = "deepinfra/intfloat/multilingual-e5-large-instruct"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.01017671896626
+output = 0

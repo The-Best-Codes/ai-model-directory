@@ -1,0 +1,20 @@
+id = "amazon/mistral.voxtral-mini-3b-2507"
+name = "amazon/mistral.voxtral-mini-3b-2507"
+release_date = "1767692616"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0.04

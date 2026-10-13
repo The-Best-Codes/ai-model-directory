@@ -1,0 +1,24 @@
+id = "claude-opus-4-5-thinking"
+name = "claude-opus-4-5-thinking"
+release_date = "1764010580"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 200000
+input = 200000
+output = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.315
+input = 3.15
+output = 15.75

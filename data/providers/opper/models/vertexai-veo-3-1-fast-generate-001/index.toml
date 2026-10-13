@@ -1,0 +1,10 @@
+id = "vertexai/veo-3.1-fast-generate-001"
+name = "Veo 3.1 Fast"
+release_date = "1763337600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

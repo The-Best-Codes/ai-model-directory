@@ -1,0 +1,9 @@
+id = "kling-v3-omni-video"
+name = "Kling V3 Omni Video"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

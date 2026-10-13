@@ -1,0 +1,13 @@
+id = "vertex/openai/gpt-oss-120b"
+name = "vertex/openai/gpt-oss-120b"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0896035128
+output = 0.3584140512

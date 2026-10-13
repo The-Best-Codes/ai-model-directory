@@ -1,0 +1,12 @@
+id = "o3-mini-high"
+name = "O3 Mini High"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

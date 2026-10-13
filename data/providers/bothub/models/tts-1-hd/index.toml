@@ -1,0 +1,9 @@
+id = "tts-1-hd"
+name = "tts-1-hd"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

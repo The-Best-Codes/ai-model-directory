@@ -1,0 +1,21 @@
+id = "qwen/qwen3.6-flash"
+name = "qwen/qwen3.6-flash"
+release_date = "1777261362"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_write = 0.203125
+input = 0.1625
+output = 0.975

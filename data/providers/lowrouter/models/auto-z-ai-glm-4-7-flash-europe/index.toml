@@ -1,0 +1,14 @@
+id = "auto/z-ai/glm-4.7-flash/europe"
+name = "auto/z-ai/glm-4.7-flash/europe"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 202752
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

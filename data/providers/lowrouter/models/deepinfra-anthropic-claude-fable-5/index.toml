@@ -1,0 +1,16 @@
+id = "deepinfra/anthropic/claude-fable-5"
+name = "deepinfra/anthropic/claude-fable-5"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 10.17635831212098
+output = 50.88178820047317

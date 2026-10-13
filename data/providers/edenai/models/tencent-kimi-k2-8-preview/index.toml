@@ -1,0 +1,21 @@
+id = "tencent/kimi-k2.8-preview"
+name = "tencent/kimi-k2.8-preview"
+release_date = "1790867221"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25
+input = 1
+output = 4

@@ -1,0 +1,22 @@
+id = "databricks/databricks-qwen35-122b-a10b"
+name = "databricks/databricks-qwen35-122b-a10b"
+release_date = "1785417770"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02199995
+cache_write = 0.22001
+input = 0.2199995
+output = 2.199995

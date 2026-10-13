@@ -1,0 +1,16 @@
+id = "auto/google/gemini-2.5-pro/us"
+name = "auto/google/gemini-2.5-pro/us"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.2720450690261
+output = 10.17635831212098

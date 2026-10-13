@@ -1,0 +1,18 @@
+id = "auto/moonshotai/kimi-k2-thinking/us"
+name = "auto/moonshotai/kimi-k2-thinking/us"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.61058185714131
+output = 2.5440901380522

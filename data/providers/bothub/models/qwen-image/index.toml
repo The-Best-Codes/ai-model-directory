@@ -1,0 +1,9 @@
+id = "qwen-image"
+name = "Qwen Image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

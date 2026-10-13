@@ -1,0 +1,11 @@
+id = "auto/amazon/titan-embed-image"
+name = "auto/amazon/titan-embed-image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+output = 0

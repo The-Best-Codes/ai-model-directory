@@ -1,0 +1,21 @@
+id = "deepinfra/google/gemma-4-31B-it"
+name = "deepinfra/google/gemma-4-31B-it"
+release_date = "1775148486"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.2
+output = 0.4

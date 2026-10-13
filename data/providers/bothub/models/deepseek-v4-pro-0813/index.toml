@@ -1,0 +1,15 @@
+id = "deepseek-v4-pro-0813"
+name = "DeepSeek V4 Pro 0813"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[limit]
+output = 393216
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

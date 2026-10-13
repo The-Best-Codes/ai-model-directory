@@ -1,0 +1,6 @@
+id = "gpt-4o-mini__pt10"
+name = "gpt-4o-mini__pt10"
+
+[pricing]
+input = 0.425991890016
+output = 1.703967560064

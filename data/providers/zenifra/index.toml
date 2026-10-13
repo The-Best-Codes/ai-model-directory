@@ -1,0 +1,7 @@
+name = "Zenifra"
+website = "https://zenifra.com"
+apiBaseUrl = "https://ai.zenifra.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ZENIFRA_AI_KEY"]

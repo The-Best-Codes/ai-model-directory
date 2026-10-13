@@ -1,0 +1,14 @@
+id = "albedobase-xl-31:free"
+name = "albedobase-xl-31:free"
+release_date = "1693872000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

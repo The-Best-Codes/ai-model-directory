@@ -1,0 +1,10 @@
+id = "anthropic/claude-standardcompute"
+name = "Standard Compute (smart routing)"
+
+[features]
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000

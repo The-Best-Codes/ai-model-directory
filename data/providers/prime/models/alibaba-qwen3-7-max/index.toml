@@ -1,0 +1,6 @@
+id = "alibaba/qwen3.7-max"
+name = "alibaba/qwen3.7-max"
+
+[pricing]
+input = 3.75
+output = 11.25

@@ -1,0 +1,20 @@
+id = "deepinfra/Sao10K/L3-8B-Lunaris-v1-Turbo"
+name = "deepinfra/Sao10K/L3-8B-Lunaris-v1-Turbo"
+release_date = "1767692616"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0.05

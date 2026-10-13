@@ -1,0 +1,20 @@
+id = "deepinfra/Qwen/Qwen2.5-7B-Instruct"
+name = "deepinfra/Qwen/Qwen2.5-7B-Instruct"
+release_date = "1780377273"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0.1

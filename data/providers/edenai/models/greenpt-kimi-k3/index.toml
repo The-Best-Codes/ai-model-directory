@@ -1,0 +1,21 @@
+id = "greenpt/kimi-k3"
+name = "greenpt/kimi-k3"
+release_date = "1791839241"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.9224328971996055
+input = 3.689731588798422
+output = 18.44865794399211

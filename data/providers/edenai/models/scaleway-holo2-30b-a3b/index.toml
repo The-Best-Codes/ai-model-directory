@@ -1,0 +1,20 @@
+id = "scaleway/holo2-30b-a3b"
+name = "scaleway/holo2-30b-a3b"
+release_date = "1755006551"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 22000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.34604989808830505
+output = 0.8074497622060451

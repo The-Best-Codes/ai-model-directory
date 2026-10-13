@@ -1,0 +1,18 @@
+id = "evroc/Qwen/Qwen3.6-35B-A3B-FP8"
+name = "Qwen3.6 35B A3B FP8"
+release_date = "1776211200"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.33543
+output = 1.34172

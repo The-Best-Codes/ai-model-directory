@@ -1,0 +1,12 @@
+id = "auto/amazon/titan-embed-image/europe"
+name = "auto/amazon/titan-embed-image/europe"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 1.0176360552208799
+output = 0

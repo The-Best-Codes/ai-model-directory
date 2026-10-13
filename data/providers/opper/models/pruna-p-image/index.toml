@@ -1,0 +1,9 @@
+id = "pruna/p-image"
+name = "Pruna P-Image"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

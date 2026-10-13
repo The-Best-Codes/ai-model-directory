@@ -1,0 +1,10 @@
+id = "fal/ideogram-v3"
+name = "Ideogram 3.0"
+release_date = "1742947200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

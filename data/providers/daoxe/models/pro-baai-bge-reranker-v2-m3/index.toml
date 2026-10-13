@@ -1,0 +1,5 @@
+id = "Pro/BAAI/bge-reranker-v2-m3"
+name = "Pro/BAAI/bge-reranker-v2-m3"
+
+[pricing]
+input = 0.0038472541975

@@ -1,0 +1,9 @@
+id = "gen4_image_turbo"
+name = "Gen4 Image Turbo"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

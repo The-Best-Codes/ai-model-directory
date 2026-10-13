@@ -1,0 +1,18 @@
+id = "auto/mistralai/ministral-8b-2512/europe"
+name = "auto/mistralai/ministral-8b-2512/europe"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01570861583775
+input = 0.15708615837749998
+output = 0.15708615837749998

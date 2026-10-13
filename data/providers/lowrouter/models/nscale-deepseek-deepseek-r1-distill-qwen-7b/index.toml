@@ -1,0 +1,16 @@
+id = "nscale/deepseek/deepseek-r1-distill-qwen-7b"
+name = "nscale/deepseek/deepseek-r1-distill-qwen-7b"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15264630431826
+output = 0.15264630431826

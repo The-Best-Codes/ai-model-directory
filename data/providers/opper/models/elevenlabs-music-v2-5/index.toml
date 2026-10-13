@@ -1,0 +1,10 @@
+id = "elevenlabs/music_v2_5"
+name = "Eleven Music v2.5"
+release_date = "1789084800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text", "video" ]
+output = [ "audio" ]

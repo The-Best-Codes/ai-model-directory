@@ -1,0 +1,6 @@
+id = "gemini-3.7-flash-medium"
+name = "gemini-3.7-flash-medium"
+
+[pricing]
+input = 0.23083525185
+output = 1.15417625925

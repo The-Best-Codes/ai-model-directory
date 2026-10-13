@@ -1,0 +1,5 @@
+id = "cf/embeddinggemma-300m"
+name = "cf/embeddinggemma-300m"
+
+[pricing]
+input = 0.0023083525185

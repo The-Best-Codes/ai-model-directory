@@ -1,0 +1,17 @@
+id = "ionos/meta-llama/Llama-3.3-70B-Instruct"
+name = "ionos/meta-llama/Llama-3.3-70B-Instruct"
+release_date = "1786647205"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7267653129451437
+output = 0.7267653129451437

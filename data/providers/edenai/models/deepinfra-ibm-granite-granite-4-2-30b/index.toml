@@ -1,0 +1,21 @@
+id = "deepinfra/ibm-granite/granite-4.2-30b"
+name = "deepinfra/ibm-granite/granite-4.2-30b"
+release_date = "1787720977"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+input = 0.16
+output = 0.6499999999999999

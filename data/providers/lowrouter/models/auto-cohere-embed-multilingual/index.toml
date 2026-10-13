@@ -1,0 +1,12 @@
+id = "auto/cohere/embed-multilingual"
+name = "auto/cohere/embed-multilingual"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.10176382953087
+output = 0

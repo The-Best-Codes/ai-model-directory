@@ -1,0 +1,22 @@
+id = "qwen/qwen3.6-plus"
+name = "Qwen3.6 Plus"
+release_date = "1775088000"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.032
+cache_write = 0.4
+input = 0.32
+output = 1.88

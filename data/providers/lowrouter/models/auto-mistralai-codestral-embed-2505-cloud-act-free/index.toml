@@ -1,0 +1,14 @@
+id = "auto/mistralai/codestral-embed-2505/cloud-act-free"
+name = "auto/mistralai/codestral-embed-2505/cloud-act-free"
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+output = 0

@@ -1,0 +1,8 @@
+id = "multi-qa-mpnet-base-dot-v1"
+name = "Multi Qa Mpnet Base Dot V1"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

@@ -1,0 +1,10 @@
+id = "pruna/wan-i2v"
+name = "Wan Image-to-Video"
+release_date = "1753660800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

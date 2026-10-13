@@ -1,0 +1,21 @@
+id = "bytedance/seed-2-0-lite-260228"
+name = "bytedance/seed-2-0-lite-260228"
+release_date = "1775133977"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.25
+output = 2

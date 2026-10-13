@@ -1,0 +1,5 @@
+id = "rerank-multilingual-v3.0"
+name = "rerank-multilingual-v3.0"
+
+[pricing]
+input = 0.3077803358

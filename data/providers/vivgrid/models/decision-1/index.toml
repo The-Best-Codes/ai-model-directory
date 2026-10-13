@@ -1,0 +1,17 @@
+id = "decision-1"
+name = "decision-1"
+
+[features]
+attachment = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.084
+output = 0

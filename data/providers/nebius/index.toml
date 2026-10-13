@@ -1,0 +1,7 @@
+name = "Nebius Token Factory"
+website = "https://tokenfactory.nebius.com"
+apiBaseUrl = "https://api.tokenfactory.nebius.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["NEBIUS_API_KEY"]

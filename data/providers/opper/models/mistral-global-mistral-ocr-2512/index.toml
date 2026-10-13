@@ -1,0 +1,16 @@
+id = "mistral:global/mistral-ocr-2512"
+name = "Mistral OCR 3"
+release_date = "1765929600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "file", "image" ]
+output = [ "text" ]

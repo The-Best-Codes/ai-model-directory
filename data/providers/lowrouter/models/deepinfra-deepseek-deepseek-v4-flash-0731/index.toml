@@ -1,0 +1,18 @@
+id = "deepinfra/deepseek/deepseek-v4-flash-0731"
+name = "deepinfra/deepseek/deepseek-v4-flash-0731"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01526507844939
+input = 0.06105919375365
+output = 0.18317534117313

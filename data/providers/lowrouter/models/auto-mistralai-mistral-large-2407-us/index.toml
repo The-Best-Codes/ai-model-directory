@@ -1,0 +1,13 @@
+id = "auto/mistralai/mistral-large-2407/us"
+name = "auto/mistralai/mistral-large-2407/us"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 4.07054310083961
+output = 12.21162930251883

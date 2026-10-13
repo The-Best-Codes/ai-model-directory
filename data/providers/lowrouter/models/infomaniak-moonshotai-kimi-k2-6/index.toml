@@ -1,0 +1,14 @@
+id = "infomaniak/moonshotai/kimi-k2.6"
+name = "infomaniak/moonshotai/kimi-k2.6"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.672026346
+output = 3.36013173

@@ -1,0 +1,15 @@
+id = "auto/qwen/qwen3-embedding-0.6b/us"
+name = "auto/qwen/qwen3-embedding-0.6b/us"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.01017671896626
+output = 0

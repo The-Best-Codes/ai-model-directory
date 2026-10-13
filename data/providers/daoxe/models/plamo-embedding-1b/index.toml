@@ -1,0 +1,5 @@
+id = "plamo-embedding-1b"
+name = "plamo-embedding-1b"
+
+[pricing]
+input = 0.0029239131901

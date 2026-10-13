@@ -1,0 +1,7 @@
+name = "Modelis"
+website = "https://modelishub.com"
+apiBaseUrl = "https://modelishub.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["MODELIS_API_KEY"]

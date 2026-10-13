@@ -1,0 +1,14 @@
+id = "aws-bedrock/deepseek/deepseek-v3.2"
+name = "aws-bedrock/deepseek/deepseek-v3.2"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 163840
+output = 81920
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

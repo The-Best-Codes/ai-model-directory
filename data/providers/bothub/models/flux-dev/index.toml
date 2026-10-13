@@ -1,0 +1,9 @@
+id = "flux-dev"
+name = "Flux Dev"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

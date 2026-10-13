@@ -1,0 +1,21 @@
+id = "nebius/openbmb/MiniCPM-V-4_5"
+name = "nebius/openbmb/MiniCPM-V-4_5"
+release_date = "1782119040"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.658
+input = 0.658
+output = 1.11

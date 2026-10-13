@@ -1,0 +1,21 @@
+id = "azure/gpt-5.4-mini@eu"
+name = "azure/gpt-5.4-mini@eu"
+release_date = "1784832896"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 272000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0825
+input = 0.825
+output = 4.950000000000001

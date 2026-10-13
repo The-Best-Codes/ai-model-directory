@@ -1,0 +1,6 @@
+id = "claude-mythos-5"
+name = "claude-mythos-5"
+
+[pricing]
+input = 1.15417625925
+output = 5.77088129625

@@ -1,0 +1,9 @@
+id = "ltx-2.3-fast"
+name = "LTX 2.3 Fast"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

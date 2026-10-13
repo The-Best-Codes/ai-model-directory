@@ -1,0 +1,6 @@
+id = "gpt-4-turbo-preview"
+name = "gpt-4-turbo-preview"
+
+[pricing]
+input = 1.538901679
+output = 4.616705037

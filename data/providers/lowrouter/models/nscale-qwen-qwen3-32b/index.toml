@@ -1,0 +1,16 @@
+id = "nscale/qwen/qwen3-32b"
+name = "nscale/qwen/qwen3-32b"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08141151164226
+output = 0.25440901380522

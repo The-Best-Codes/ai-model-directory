@@ -1,0 +1,13 @@
+id = "vultron-retriever-core-qwen3.5-4.5b"
+name = "Vultron Retriever Core 4.5B"
+open_weights = true
+release_date = "1783002744"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]

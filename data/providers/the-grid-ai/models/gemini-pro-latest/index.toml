@@ -1,0 +1,24 @@
+id = "gemini-pro-latest"
+last_updated = "1783296000"
+name = "The Grid: Gemini Pro Latest"
+release_date = "1783296000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 1000000
+input = 922000
+output = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6077
+output = 0.6077

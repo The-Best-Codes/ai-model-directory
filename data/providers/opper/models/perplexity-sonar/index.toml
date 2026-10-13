@@ -1,0 +1,22 @@
+id = "perplexity/sonar"
+name = "Perplexity Sonar"
+release_date = "1737417600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 1

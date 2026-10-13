@@ -1,0 +1,16 @@
+id = "auto/qwen/qwen3-8b"
+name = "auto/qwen/qwen3-8b"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.071234792676
+output = 0.18317534117313

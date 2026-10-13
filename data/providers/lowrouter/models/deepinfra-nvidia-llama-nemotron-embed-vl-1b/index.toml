@@ -1,0 +1,15 @@
+id = "deepinfra/nvidia/llama-nemotron-embed-vl-1b"
+name = "deepinfra/nvidia/llama-nemotron-embed-vl-1b"
+
+[features]
+attachment = false
+
+[limit]
+context = 10240
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.01017671896626
+output = 0

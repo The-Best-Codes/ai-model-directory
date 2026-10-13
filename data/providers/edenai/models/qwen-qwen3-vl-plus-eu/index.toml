@@ -1,0 +1,22 @@
+id = "qwen/qwen3-vl-plus@eu"
+name = "qwen/qwen3-vl-plus@eu"
+release_date = "1785412138"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.026
+cache_write = 0.1625
+input = 0.13000000000000003
+output = 1.0400000000000003

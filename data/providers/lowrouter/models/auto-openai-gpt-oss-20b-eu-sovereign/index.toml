@@ -1,0 +1,14 @@
+id = "auto/openai/gpt-oss-20b/eu-sovereign"
+name = "auto/openai/gpt-oss-20b/eu-sovereign"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.112004391
+output = 0.4704184422

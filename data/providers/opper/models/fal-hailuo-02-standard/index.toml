@@ -1,0 +1,10 @@
+id = "fal/hailuo-02-standard"
+name = "MiniMax Hailuo 02 Standard"
+release_date = "1750204800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

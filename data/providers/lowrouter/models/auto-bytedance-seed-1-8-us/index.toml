@@ -1,0 +1,17 @@
+id = "auto/bytedance/seed-1.8/us"
+name = "auto/bytedance/seed-1.8/us"
+
+[features]
+attachment = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05088247478739
+input = 0.25440901380521996
+output = 2.0352721104417597

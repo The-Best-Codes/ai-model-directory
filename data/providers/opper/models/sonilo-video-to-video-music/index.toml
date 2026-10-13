@@ -1,0 +1,9 @@
+id = "sonilo/video-to-video-music"
+name = "Sonilo Video Scoring: Music"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "video" ]

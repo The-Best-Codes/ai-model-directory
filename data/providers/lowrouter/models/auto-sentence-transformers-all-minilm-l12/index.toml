@@ -1,0 +1,12 @@
+id = "auto/sentence-transformers/all-minilm-l12"
+name = "auto/sentence-transformers/all-minilm-l12"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00508835948313
+output = 0

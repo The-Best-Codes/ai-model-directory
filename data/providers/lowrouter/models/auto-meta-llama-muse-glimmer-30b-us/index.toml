@@ -1,0 +1,17 @@
+id = "auto/meta-llama/muse-glimmer-30b/us"
+name = "auto/meta-llama/muse-glimmer-30b/us"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04070575582113
+input = 0.30529148859261
+output = 1.22116371428262

@@ -1,0 +1,20 @@
+id = "ovhcloud/gpt-oss-120b"
+name = "ovhcloud/gpt-oss-120b"
+release_date = "1769507058"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09
+output = 0.47

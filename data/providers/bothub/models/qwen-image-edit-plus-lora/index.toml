@@ -1,0 +1,9 @@
+id = "qwen-image-edit-plus-lora"
+name = "Qwen Image Edit Plus Lora"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

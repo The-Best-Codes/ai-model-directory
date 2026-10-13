@@ -1,0 +1,7 @@
+name = "DaoXE"
+website = "https://daoxe.com"
+apiBaseUrl = "https://daoxe.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["DAOXE_API_KEY"]

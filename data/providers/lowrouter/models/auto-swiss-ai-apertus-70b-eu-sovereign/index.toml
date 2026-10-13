@@ -1,0 +1,14 @@
+id = "auto/swiss-ai/apertus-70b/eu-sovereign"
+name = "auto/swiss-ai/apertus-70b/eu-sovereign"
+
+[features]
+attachment = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.448017564
+output = 2.352092211

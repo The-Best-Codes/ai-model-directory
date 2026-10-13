@@ -1,0 +1,22 @@
+id = "gemini-3-pro-image-preview"
+name = "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)"
+release_date = "1763653797"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 65536
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.3077803358
+output = 1.8466820148

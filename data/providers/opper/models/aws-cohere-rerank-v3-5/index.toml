@@ -1,0 +1,9 @@
+id = "aws/cohere/rerank-v3.5"
+name = "Cohere Rerank v3.5"
+release_date = "1733097600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

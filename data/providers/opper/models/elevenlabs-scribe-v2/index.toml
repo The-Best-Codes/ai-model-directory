@@ -1,0 +1,9 @@
+id = "elevenlabs/scribe_v2"
+name = "Scribe v2"
+release_date = "1767916800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]

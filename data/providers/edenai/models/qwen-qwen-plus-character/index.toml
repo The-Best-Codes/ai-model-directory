@@ -1,0 +1,21 @@
+id = "qwen/qwen-plus-character"
+name = "qwen/qwen-plus-character"
+release_date = "1785412138"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06500000000000002
+input = 0.325
+output = 0.91

@@ -1,0 +1,7 @@
+id = "claude-opus-4"
+name = "claude-opus-4"
+
+[pricing]
+cache_read = 0.23083525185
+input = 2.3083525185
+output = 11.5417625925

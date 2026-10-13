@@ -1,0 +1,9 @@
+id = "gen4_image"
+name = "Gen4 Image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

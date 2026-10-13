@@ -1,0 +1,7 @@
+id = "agnes-1.5-flash"
+name = "agnes-1.5-flash"
+
+[pricing]
+cache_read = 0.0010772311753
+input = 0.010772311753
+output = 0.023083523646098322

@@ -1,0 +1,20 @@
+id = "minimax-m3"
+name = "MiniMax M3"
+open_weights = true
+release_date = "1783754024"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.3
+output = 1.2

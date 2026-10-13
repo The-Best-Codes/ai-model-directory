@@ -1,0 +1,21 @@
+id = "typesafe/jev"
+name = "Jev"
+release_date = "1789776000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.042
+output = 0

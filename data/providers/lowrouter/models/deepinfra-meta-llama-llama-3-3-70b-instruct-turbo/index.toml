@@ -1,0 +1,17 @@
+id = "deepinfra/meta-llama/llama-3.3-70b-instruct-turbo"
+name = "deepinfra/meta-llama/llama-3.3-70b-instruct-turbo"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.10176382953087
+output = 0.32564380648122

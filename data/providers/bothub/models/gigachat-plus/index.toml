@@ -1,0 +1,15 @@
+id = "GigaChat-Plus"
+name = "GigaChat-Plus"
+
+[features]
+attachment = false
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,10 @@
+id = "deepinfra/stabilityai/sdxl-turbo"
+name = "SDXL Turbo"
+release_date = "1701129600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

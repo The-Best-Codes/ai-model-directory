@@ -1,0 +1,21 @@
+id = "zai/glm-5-turbo"
+name = "zai/glm-5-turbo"
+release_date = "1773583573"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.24
+input = 1.2
+output = 4

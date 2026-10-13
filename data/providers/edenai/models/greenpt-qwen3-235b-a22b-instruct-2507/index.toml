@@ -1,0 +1,20 @@
+id = "greenpt/qwen3-235b-a22b-instruct-2507"
+name = "greenpt/qwen3-235b-a22b-instruct-2507"
+release_date = "1791839241"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 250000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.0062904333086606
+output = 3.0188712999259817

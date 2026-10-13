@@ -1,0 +1,14 @@
+id = "auto/minimax/minimax-m2/europe"
+name = "auto/minimax/minimax-m2/europe"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 204608
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

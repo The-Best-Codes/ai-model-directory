@@ -1,0 +1,13 @@
+id = "vertex/meta-llama/llama-4-scout-instruct"
+name = "vertex/meta-llama/llama-4-scout-instruct"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25440901380522
+output = 0.71234568667218

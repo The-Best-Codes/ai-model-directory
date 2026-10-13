@@ -1,0 +1,10 @@
+id = "voxtral-tts"
+name = "Voxtral TTS"
+release_date = "1781900473"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

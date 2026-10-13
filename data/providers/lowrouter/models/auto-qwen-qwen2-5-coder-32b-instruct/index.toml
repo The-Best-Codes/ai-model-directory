@@ -1,0 +1,16 @@
+id = "auto/qwen/qwen2.5-coder-32b-instruct"
+name = "auto/qwen/qwen2.5-coder-32b-instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06105919375365
+output = 0.20352765906174

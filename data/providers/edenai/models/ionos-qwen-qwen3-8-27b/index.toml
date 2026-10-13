@@ -1,0 +1,17 @@
+id = "ionos/Qwen/Qwen3.8-27B"
+name = "ionos/Qwen/Qwen3.8-27B"
+release_date = "1788215842"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.44724019258162695
+output = 3.018871299925982

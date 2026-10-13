@@ -1,0 +1,15 @@
+id = "mimo-v2.6-pro-ultraspeed"
+name = "MiMo V2.6 Pro UltraSpeed"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[limit]
+output = 131072
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,9 @@
+id = "seedream-5-lite"
+name = "Seedream 5.0 Lite"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,21 @@
+id = "flexai/Qwen3-8B-FP8"
+name = "flexai/Qwen3-8B-FP8"
+release_date = "1786610410"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0175
+input = 0.117
+output = 0.455

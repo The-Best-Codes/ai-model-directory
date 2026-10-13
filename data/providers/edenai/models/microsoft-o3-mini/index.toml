@@ -1,0 +1,21 @@
+id = "microsoft/o3-mini"
+name = "microsoft/o3-mini"
+release_date = "1767692616"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.55
+input = 1.1
+output = 4.4

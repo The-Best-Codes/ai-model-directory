@@ -1,0 +1,14 @@
+id = "auto/amazon/nova-2-lite/us"
+name = "auto/amazon/nova-2-lite/us"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65535
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "text" ]

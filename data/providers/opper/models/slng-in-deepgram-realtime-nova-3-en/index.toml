@@ -1,0 +1,9 @@
+id = "slng:in/deepgram/realtime:nova-3-en"
+name = "Nova-3 Realtime"
+release_date = "1739318400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]

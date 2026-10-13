@@ -1,0 +1,9 @@
+id = "aws-bedrock/mistralai/mistral-large-2407"
+name = "aws-bedrock/mistralai/mistral-large-2407"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

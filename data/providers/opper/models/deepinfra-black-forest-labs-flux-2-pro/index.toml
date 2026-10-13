@@ -1,0 +1,10 @@
+id = "deepinfra/black-forest-labs/FLUX-2-pro"
+name = "FLUX.2 [pro]"
+release_date = "1764028800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

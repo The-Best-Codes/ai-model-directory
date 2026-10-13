@@ -1,0 +1,22 @@
+id = "greenference/qwen3.5-9b"
+name = "greenference/qwen3.5-9b"
+release_date = "1790948154"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+cache_write = 0
+input = 0.04
+output = 0.065

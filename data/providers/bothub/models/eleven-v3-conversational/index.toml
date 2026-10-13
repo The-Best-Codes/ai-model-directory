@@ -1,0 +1,9 @@
+id = "eleven_v3_conversational"
+name = "Eleven V3 Conversational"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

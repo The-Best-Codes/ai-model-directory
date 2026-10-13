@@ -1,0 +1,9 @@
+id = "eleven_multilingual_v2_ivc"
+name = "Eleven Multilingual V2 IVC"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

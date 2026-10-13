@@ -1,0 +1,18 @@
+id = "berget/mistralai/mistral-small-3.2-24b-instruct-2506"
+name = "berget/mistralai/mistral-small-3.2-24b-instruct-2506"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 32000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.336013173
+output = 0.336013173

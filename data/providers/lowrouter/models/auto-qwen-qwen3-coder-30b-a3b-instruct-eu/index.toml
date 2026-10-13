@@ -1,0 +1,17 @@
+id = "auto/qwen/qwen3-coder-30b-a3b-instruct/eu"
+name = "auto/qwen/qwen3-coder-30b-a3b-instruct/eu"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.224008782
+output = 0.8960351279999998

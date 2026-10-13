@@ -1,0 +1,14 @@
+id = "mistral/mistralai/codestral-embed-2505"
+name = "mistral/mistralai/codestral-embed-2505"
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+output = 0

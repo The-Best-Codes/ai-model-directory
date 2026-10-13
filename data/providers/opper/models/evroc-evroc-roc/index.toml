@@ -1,0 +1,18 @@
+id = "evroc/evroc/roc"
+name = "roc"
+release_date = "1773705600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.7952500000000002
+output = 11.181000000000001

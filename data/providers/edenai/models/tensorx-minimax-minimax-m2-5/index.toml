@@ -1,0 +1,21 @@
+id = "tensorx/minimax/minimax-m2.5"
+name = "tensorx/minimax/minimax-m2.5"
+release_date = "1787003349"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 196608
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.3
+output = 1.2

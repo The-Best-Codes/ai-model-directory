@@ -1,0 +1,10 @@
+id = "doc-upload"
+name = "Private Document Processing"
+release_date = "1716076551"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "file" ]
+output = [ "text" ]

@@ -1,0 +1,16 @@
+id = "nscale/qwen/qwen2.5-coder-3b-instruct"
+name = "nscale/qwen/qwen2.5-coder-3b-instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01017671896626
+output = 0.03053015689878

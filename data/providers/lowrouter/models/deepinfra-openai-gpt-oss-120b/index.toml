@@ -1,0 +1,17 @@
+id = "deepinfra/openai/gpt-oss-120b"
+name = "deepinfra/openai/gpt-oss-120b"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03765363616638
+output = 0.17299862220687

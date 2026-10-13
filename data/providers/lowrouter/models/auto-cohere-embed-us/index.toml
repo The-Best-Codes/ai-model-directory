@@ -1,0 +1,12 @@
+id = "auto/cohere/embed/us"
+name = "auto/cohere/embed/us"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.12211726746339
+output = 0

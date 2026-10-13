@@ -1,0 +1,10 @@
+id = "fal/hailuo-02-standard-i2v"
+name = "MiniMax Hailuo 02 Standard (Image-to-Video)"
+release_date = "1750204800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

@@ -1,0 +1,15 @@
+id = "aliceai-llm"
+name = "aliceai-llm"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 131072
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

@@ -1,0 +1,16 @@
+id = "empiriolabs/aplomb-1"
+name = "Aplomb 1"
+release_date = "1791158400"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.02
+output = 0

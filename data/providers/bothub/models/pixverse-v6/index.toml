@@ -1,0 +1,9 @@
+id = "pixverse-v6"
+name = "PixVerse V6"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

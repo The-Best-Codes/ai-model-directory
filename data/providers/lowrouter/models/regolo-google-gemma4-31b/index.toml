@@ -1,0 +1,14 @@
+id = "regolo/google/gemma4-31b"
+name = "regolo/google/gemma4-31b"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.448017564
+output = 2.352092211

@@ -1,0 +1,20 @@
+id = "mistral/mistral-large-2402"
+name = "mistral/mistral-large-2402"
+release_date = "1777389105"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 4
+output = 12

@@ -1,0 +1,16 @@
+id = "auto/openai/gpt-oss-120b-ultra"
+name = "auto/openai/gpt-oss-120b-ultra"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.20352765906174
+output = 0.9667547004773999

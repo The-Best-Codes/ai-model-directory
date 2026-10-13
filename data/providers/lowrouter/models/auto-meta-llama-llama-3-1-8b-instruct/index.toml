@@ -1,0 +1,12 @@
+id = "auto/meta-llama/llama-3.1-8b-instruct"
+name = "auto/meta-llama/llama-3.1-8b-instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

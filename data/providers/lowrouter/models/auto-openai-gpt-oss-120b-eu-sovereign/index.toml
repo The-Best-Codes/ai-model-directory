@@ -1,0 +1,13 @@
+id = "auto/openai/gpt-oss-120b/eu-sovereign"
+name = "auto/openai/gpt-oss-120b/eu-sovereign"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

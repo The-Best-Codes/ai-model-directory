@@ -1,0 +1,19 @@
+id = "auto/anthropic/claude-sonnet-4.6/europe"
+name = "auto/anthropic/claude-sonnet-4.6/europe"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.33582052544748
+input = 3.35819853421134
+output = 16.79099043096888

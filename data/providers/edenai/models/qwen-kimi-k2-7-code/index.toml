@@ -1,0 +1,21 @@
+id = "qwen/kimi-k2.7-code"
+name = "qwen/kimi-k2.7-code"
+release_date = "1781266361"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.12350000000000001
+input = 0.6174999999999999
+output = 2.6

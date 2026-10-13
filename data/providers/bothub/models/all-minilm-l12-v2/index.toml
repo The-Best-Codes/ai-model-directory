@@ -1,0 +1,8 @@
+id = "all-minilm-l12-v2"
+name = "All MiniLM L12 V2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

@@ -1,0 +1,12 @@
+id = "gpt-image-2.5-sunburst:flat"
+name = "gpt-image-2.5-sunburst:flat"
+release_date = "1788825600"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,23 @@
+id = "gemini-3-pro"
+name = "gemini-3-pro"
+release_date = "1763424000"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 1000000
+input = 65500
+output = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.552
+output = 3.312

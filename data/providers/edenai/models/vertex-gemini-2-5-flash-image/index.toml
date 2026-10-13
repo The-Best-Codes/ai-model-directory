@@ -1,0 +1,24 @@
+id = "vertex/gemini-2.5-flash-image"
+name = "vertex/gemini-2.5-flash-image"
+release_date = "1759870431"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.0833333333333333
+input = 0.3
+input_audio = 1
+output = 2.5
+reasoning = 2.5

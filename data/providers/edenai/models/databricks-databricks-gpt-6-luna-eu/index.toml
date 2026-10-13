@@ -1,0 +1,18 @@
+id = "databricks/databricks-gpt-6-luna@eu"
+name = "databricks/databricks-gpt-6-luna@eu"
+release_date = "1790399645"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.010000000003
+input = 0.10000000003
+output = 0.50000000001

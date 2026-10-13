@@ -1,0 +1,9 @@
+id = "flux-redux-dev"
+name = "FLUX Redux Dev"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

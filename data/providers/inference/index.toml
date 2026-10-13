@@ -1,0 +1,7 @@
+name = "Inference.net"
+website = "https://inference.net"
+apiBaseUrl = "https://api.inference.net/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["INFERENCE_API_KEY"]

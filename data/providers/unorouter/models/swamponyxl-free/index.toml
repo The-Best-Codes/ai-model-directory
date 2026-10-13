@@ -1,0 +1,14 @@
+id = "swamponyxl:free"
+name = "swamponyxl:free"
+release_date = "1713830400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

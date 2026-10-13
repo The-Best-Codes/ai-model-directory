@@ -1,0 +1,9 @@
+id = "flux-canny-pro"
+name = "FLUX Canny Pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

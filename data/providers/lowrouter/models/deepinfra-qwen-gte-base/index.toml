@@ -1,0 +1,12 @@
+id = "deepinfra/qwen/gte-base"
+name = "deepinfra/qwen/gte-base"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00508835948313
+output = 0

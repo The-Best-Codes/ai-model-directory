@@ -1,0 +1,15 @@
+id = "sonar-pro"
+name = "Sonar Pro"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 8000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

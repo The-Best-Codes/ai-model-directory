@@ -1,0 +1,18 @@
+id = "auto/qwen/qwen3-next-80b/us"
+name = "auto/qwen/qwen3-next-80b/us"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 262000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15264630431826
+output = 1.22116371428262

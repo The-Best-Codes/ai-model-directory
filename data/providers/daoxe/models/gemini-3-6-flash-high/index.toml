@@ -1,0 +1,6 @@
+id = "gemini-3.6-flash-high"
+name = "gemini-3.6-flash-high"
+
+[pricing]
+input = 0.23083525185
+output = 1.15417625925

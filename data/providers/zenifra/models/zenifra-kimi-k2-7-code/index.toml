@@ -1,0 +1,22 @@
+id = "zenifra/kimi-k2.7-code"
+name = "zenifra/kimi-k2.7-code"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 229376
+output = 16384
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.35
+input = 4.7
+output = 19.4

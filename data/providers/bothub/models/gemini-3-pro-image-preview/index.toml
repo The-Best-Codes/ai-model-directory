@@ -1,0 +1,9 @@
+id = "gemini-3-pro-image-preview"
+name = "Gemini 3 Pro Image Preview"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,10 @@
+id = "bytedance:ap/seedream-4"
+name = "Seedream 4"
+release_date = "1757376000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

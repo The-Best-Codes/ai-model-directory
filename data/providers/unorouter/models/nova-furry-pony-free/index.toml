@@ -1,0 +1,14 @@
+id = "nova-furry-pony:free"
+name = "nova-furry-pony:free"
+release_date = "1727740800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

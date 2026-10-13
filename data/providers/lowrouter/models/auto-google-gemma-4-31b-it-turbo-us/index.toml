@@ -1,0 +1,17 @@
+id = "auto/google/gemma-4-31b-it-turbo/us"
+name = "auto/google/gemma-4-31b-it-turbo/us"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05088247478739
+input = 0.09158823060852
+output = 0.34599724441373997

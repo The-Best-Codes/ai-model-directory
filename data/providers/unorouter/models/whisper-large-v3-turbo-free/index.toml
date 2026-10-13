@@ -1,0 +1,14 @@
+id = "whisper-large-v3-turbo:free"
+name = "whisper-large-v3-turbo:free"
+release_date = "1727740800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

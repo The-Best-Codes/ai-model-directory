@@ -1,0 +1,16 @@
+id = "nscale/openai/gpt-oss-120b"
+name = "nscale/openai/gpt-oss-120b"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.10176382953087
+output = 0.40705531812348

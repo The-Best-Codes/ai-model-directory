@@ -1,0 +1,9 @@
+id = "vidu-q3-turbo"
+name = "Vidu Q3 Turbo"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

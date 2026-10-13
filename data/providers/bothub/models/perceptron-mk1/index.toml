@@ -1,0 +1,15 @@
+id = "perceptron-mk1"
+name = "Perceptron Mk1"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = false
+
+[limit]
+output = 8192
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

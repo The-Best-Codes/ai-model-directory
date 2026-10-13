@@ -1,0 +1,18 @@
+id = "openai/gpt-realtime-translate"
+name = "GPT Realtime Translate"
+release_date = "1778112000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 16000
+output = 2000
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio", "text" ]

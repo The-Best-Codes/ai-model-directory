@@ -1,0 +1,5 @@
+id = "qh-draw-x1.5"
+name = "qh-draw-x1.5"
+
+[modalities]
+output = [ "image" ]

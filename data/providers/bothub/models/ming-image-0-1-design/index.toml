@@ -1,0 +1,9 @@
+id = "ming-image-0.1-design"
+name = "Ming Image 0.1 Design"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

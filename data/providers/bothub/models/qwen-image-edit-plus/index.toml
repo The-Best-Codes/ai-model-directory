@@ -1,0 +1,9 @@
+id = "qwen-image-edit-plus"
+name = "Qwen Image Edit Plus"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

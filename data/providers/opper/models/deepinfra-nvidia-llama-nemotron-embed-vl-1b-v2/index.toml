@@ -1,0 +1,17 @@
+id = "deepinfra/nvidia/llama-nemotron-embed-vl-1b-v2"
+name = "Llama Nemotron Embed VL 1B v2"
+release_date = "1766016000"
+
+[features]
+attachment = true
+
+[limit]
+context = 10240
+output = 10240
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.01
+output = 0

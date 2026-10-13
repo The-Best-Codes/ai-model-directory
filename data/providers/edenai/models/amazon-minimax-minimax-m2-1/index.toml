@@ -1,0 +1,20 @@
+id = "amazon/minimax.minimax-m2.1"
+name = "amazon/minimax.minimax-m2.1"
+release_date = "1770991619"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 196000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.36
+output = 1.44

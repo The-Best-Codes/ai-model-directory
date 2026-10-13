@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <rect width="96" height="96" fill="#ffffff"/>
+  <g transform="translate(4.702, 4.786) scale(0.6765)">
+    <defs>
+
+
+
+<linearGradient id="paint0_linear_29_3" x1="44.2305" y1="4.75" x2="44.2305" y2="115.492" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2DF093"/>
+<stop offset="1" stop-color="#004442"/>
+</linearGradient>
+<linearGradient id="paint1_linear_29_3" x1="62.7511" y1="10.732" x2="62.7511" y2="118.521" gradientUnits="userSpaceOnUse">
+<stop stop-color="#054628"/>
+<stop offset="0.9999" stop-color="#072D28"/>
+<stop offset="1" stop-color="#B1B1B1"/>
+</linearGradient>
+<linearGradient id="paint2_linear_29_3" x1="85.0134" y1="14.4769" x2="85.0134" y2="123.006" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FDFFA3"/>
+<stop offset="1" stop-color="#003C40"/>
+</linearGradient>
+</defs><g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M76.9609 10.6734C55.6689 22.628 29.66 39.5778 31.1028 53.3647C32.09 62.7979 41.4407 65.717 50.4297 68.5231C66.0188 73.3897 80.5203 77.9168 48.4252 115.492L16.5 97.0602C13.406 95.2739 11.5 91.9726 11.5 88.4V39.3C11.5 35.7273 13.406 32.4261 16.5 30.6397L59.0218 6.08975C62.1159 4.30342 65.9278 4.30342 69.0218 6.08975L76.9609 10.6734Z" fill="url(#paint0_linear_29_3)"/>
+</g><g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M76.9725 10.732C55.6805 22.6866 29.6716 39.6364 31.1144 53.4233C32.1015 62.8565 41.4522 65.7756 50.4412 68.5818C66.0303 73.4484 80.5318 77.9754 48.4367 115.551L53.5816 118.521C55.7553 116.411 57.9719 114.286 60.1926 112.157C85.0916 88.2848 110.495 63.9285 81.5668 55.4001C46.5 45.062 58.0917 30.2979 83.3064 14.3889L76.9725 10.732Z" fill="url(#paint1_linear_29_3)"/>
+</g><g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M53.5266 118.518L58.9783 121.666C62.0723 123.452 65.8843 123.452 68.9783 121.666L111.5 97.1159C114.594 95.3296 116.5 92.0283 116.5 88.4556V39.3556C116.5 35.783 114.594 32.4817 111.5 30.6954L83.409 14.4769C56.0263 30.5494 48.4073 45.6376 81.5117 55.3972C110.44 63.9256 85.0366 88.2819 60.1375 112.154C57.9169 114.283 55.7003 116.409 53.5266 118.518Z" fill="url(#paint2_linear_29_3)"/>
+</g>
+  </g>
+</svg>

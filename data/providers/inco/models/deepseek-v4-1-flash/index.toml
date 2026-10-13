@@ -1,0 +1,14 @@
+id = "deepseek-v4.1-flash"
+name = "DeepSeek V4.1 Flash"
+release_date = "1790576061"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1048576
+
+[pricing]
+cache_read = 0.006
+input = 0.3
+output = 1.2

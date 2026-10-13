@@ -1,0 +1,9 @@
+id = "kling-v2.6-motion-control"
+name = "Kling V2.6 Motion Control"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

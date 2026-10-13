@@ -1,0 +1,10 @@
+id = "juggernaut-xl"
+name = "juggernaut-xl"
+release_date = "1724889600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

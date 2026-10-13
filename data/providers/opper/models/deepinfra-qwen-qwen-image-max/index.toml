@@ -1,0 +1,10 @@
+id = "deepinfra/Qwen/Qwen-Image-Max"
+name = "Qwen Image Max"
+release_date = "1767052800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

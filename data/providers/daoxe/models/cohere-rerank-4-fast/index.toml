@@ -1,0 +1,5 @@
+id = "cohere/rerank-4-fast"
+name = "cohere/rerank-4-fast"
+
+[pricing]
+input = 0.3077803358

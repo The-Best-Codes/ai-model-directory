@@ -1,0 +1,20 @@
+id = "cohere/command-r-plus-08-2024"
+name = "cohere/command-r-plus-08-2024"
+release_date = "1724976000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.5
+output = 10

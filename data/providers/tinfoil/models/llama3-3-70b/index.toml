@@ -1,0 +1,20 @@
+id = "llama3-3-70b"
+name = "Llama 3.3 70B"
+open_weights = true
+release_date = "1721764788"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.75
+output = 2.75

@@ -1,0 +1,9 @@
+id = "ltx-video-0.9.7-distilled"
+name = "LTX Video 0.9.7 Distilled"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

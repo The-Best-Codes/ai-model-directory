@@ -1,0 +1,15 @@
+id = "minimax-01"
+name = "MiniMax 01"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 900172
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

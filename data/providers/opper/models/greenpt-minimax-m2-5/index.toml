@@ -1,0 +1,22 @@
+id = "greenpt/minimax-m2.5"
+name = "MiniMax M2.5"
+release_date = "1770854400"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 196608
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.36897300000000005
+output = 1.4758920000000002

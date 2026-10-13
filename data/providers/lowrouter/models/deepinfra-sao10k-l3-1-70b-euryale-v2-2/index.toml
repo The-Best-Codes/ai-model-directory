@@ -1,0 +1,16 @@
+id = "deepinfra/sao10k/l3.1-70b-euryale-v2.2"
+name = "deepinfra/sao10k/l3.1-70b-euryale-v2.2"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.86499087094653
+output = 0.86499087094653

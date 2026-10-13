@@ -1,0 +1,14 @@
+id = "wai-nsfw-illustrious-sdxl:free"
+name = "wai-nsfw-illustrious-sdxl:free"
+release_date = "1746662400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

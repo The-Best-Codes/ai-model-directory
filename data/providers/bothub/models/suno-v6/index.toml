@@ -1,0 +1,9 @@
+id = "suno-v6"
+name = "suno-v6"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

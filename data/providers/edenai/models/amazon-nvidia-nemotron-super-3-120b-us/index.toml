@@ -1,0 +1,20 @@
+id = "amazon/nvidia.nemotron-super-3-120b@us"
+name = "amazon/nvidia.nemotron-super-3-120b@us"
+release_date = "1775193119"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.23
+output = 1.01

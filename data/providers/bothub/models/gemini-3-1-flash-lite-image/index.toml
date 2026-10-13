@@ -1,0 +1,9 @@
+id = "gemini-3.1-flash-lite-image"
+name = "Nano Banana 2 Lite"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

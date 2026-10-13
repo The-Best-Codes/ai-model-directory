@@ -1,0 +1,7 @@
+name = "Opper"
+website = "https://opper.ai"
+apiBaseUrl = "https://api.opper.ai/v3/compat"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["OPPER_API_KEY"]

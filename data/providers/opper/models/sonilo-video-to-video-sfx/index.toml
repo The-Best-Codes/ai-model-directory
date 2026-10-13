@@ -1,0 +1,9 @@
+id = "sonilo/video-to-video-sfx"
+name = "Sonilo Video Scoring: SFX"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "video" ]

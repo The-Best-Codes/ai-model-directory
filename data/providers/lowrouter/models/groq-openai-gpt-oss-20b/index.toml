@@ -1,0 +1,17 @@
+id = "groq/openai/gpt-oss-20b"
+name = "groq/openai/gpt-oss-20b"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.07632315215913
+output = 0.30529148859261

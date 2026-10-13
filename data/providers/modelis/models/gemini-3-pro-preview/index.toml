@@ -1,0 +1,14 @@
+id = "gemini-3-pro-preview"
+name = "gemini-3-pro-preview"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.51635380608
+input = 5.1635380608
+output = 30.9812283648

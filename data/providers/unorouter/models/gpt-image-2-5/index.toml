@@ -1,0 +1,15 @@
+id = "gpt-image-2.5"
+name = "gpt-image-2.5"
+release_date = "1776729600"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image" ]

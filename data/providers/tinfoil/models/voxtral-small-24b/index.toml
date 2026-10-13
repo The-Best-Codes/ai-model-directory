@@ -1,0 +1,13 @@
+id = "voxtral-small-24b"
+name = "Voxtral Small 24B"
+release_date = "1737590400"
+
+[features]
+attachment = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

@@ -1,0 +1,8 @@
+id = "text-embedding-ada-002"
+name = "Text Embedding Ada 002"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

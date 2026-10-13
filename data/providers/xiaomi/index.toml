@@ -1,0 +1,7 @@
+name = "Xiaomi MiMo"
+website = "https://platform.xiaomimimo.com"
+apiBaseUrl = "https://api.xiaomimimo.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["XIAOMI_API_KEY"]

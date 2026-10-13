@@ -1,0 +1,21 @@
+id = "perplexity/sonar-deep-research"
+name = "Perplexity Sonar Deep Research"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 8

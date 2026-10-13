@@ -1,0 +1,15 @@
+id = "berget/convaiinnovations/laya"
+name = "Laya"
+
+[features]
+attachment = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.04696020000000001
+output = 0

@@ -1,0 +1,10 @@
+id = "fal/recraft-v3"
+name = "Recraft V3"
+release_date = "1730246400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

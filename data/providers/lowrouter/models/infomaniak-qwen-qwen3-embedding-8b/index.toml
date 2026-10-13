@@ -1,0 +1,12 @@
+id = "infomaniak/qwen/qwen3-embedding-8b"
+name = "infomaniak/qwen/qwen3-embedding-8b"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0784030737
+output = 0

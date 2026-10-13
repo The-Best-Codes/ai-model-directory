@@ -1,0 +1,9 @@
+id = "auto/mistralai/mixtral-8x7b-instruct"
+name = "auto/mistralai/mixtral-8x7b-instruct"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,18 @@
+id = "qwen-sea-lion-v4.5-27b-it:free"
+name = "qwen-sea-lion-v4.5-27b-it:free"
+release_date = "1769904000"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

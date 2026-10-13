@@ -1,0 +1,17 @@
+id = "compactifai/carina-60b@eu"
+name = "compactifai/carina-60b@eu"
+release_date = "1788457256"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.2

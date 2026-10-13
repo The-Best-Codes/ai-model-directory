@@ -1,0 +1,15 @@
+id = "anthropic/claude-sonnet-5:us"
+name = "Claude Sonnet 5 · 🇺🇸 US"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

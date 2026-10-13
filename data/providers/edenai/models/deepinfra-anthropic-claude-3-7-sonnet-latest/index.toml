@@ -1,0 +1,21 @@
+id = "deepinfra/anthropic/claude-3-7-sonnet-latest"
+name = "deepinfra/anthropic/claude-3-7-sonnet-latest"
+release_date = "1767692616"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.33
+input = 3.3
+output = 16.5

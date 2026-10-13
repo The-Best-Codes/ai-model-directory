@@ -1,0 +1,10 @@
+id = "dreamshaper-v8"
+name = "dreamshaper-v8"
+release_date = "1690588800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

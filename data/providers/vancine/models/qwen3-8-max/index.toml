@@ -1,0 +1,10 @@
+id = "qwen3.8-max"
+name = "qwen3.8-max"
+
+[features]
+reasoning = true
+
+[pricing]
+cache_read = 0.2
+input = 1.6
+output = 4.8

@@ -1,0 +1,15 @@
+id = "nemotron-3-nano-omni-30b-a3b-reasoning:free"
+name = "Nemotron 3 Nano Omni 30B A3B Reasoning"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[limit]
+output = 65536
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

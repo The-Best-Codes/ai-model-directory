@@ -1,0 +1,13 @@
+id = "auto/mistralai/mistral-nemo-instruct-2407/eu-sovereign"
+name = "auto/mistralai/mistral-nemo-instruct-2407/eu-sovereign"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1680065865
+output = 0.1680065865

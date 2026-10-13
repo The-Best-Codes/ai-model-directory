@@ -1,0 +1,9 @@
+id = "Qwen/Qwen3.5-2B"
+name = "Qwen/Qwen3.5-2B"
+release_date = "1777299160"
+
+[pricing]
+cache_read = 0.054
+cache_write = 0.06
+input = 0.06
+output = 0.18

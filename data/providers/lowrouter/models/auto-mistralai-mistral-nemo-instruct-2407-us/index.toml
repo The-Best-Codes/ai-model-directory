@@ -1,0 +1,16 @@
+id = "auto/mistralai/mistral-nemo-instruct-2407/us"
+name = "auto/mistralai/mistral-nemo-instruct-2407/us"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.029512036984589998
+output = 0.030530156898779998

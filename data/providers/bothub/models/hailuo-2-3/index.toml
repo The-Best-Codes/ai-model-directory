@@ -1,0 +1,9 @@
+id = "hailuo-2.3"
+name = "Hailuo 2.3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

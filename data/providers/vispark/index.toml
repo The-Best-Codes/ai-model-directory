@@ -1,0 +1,7 @@
+name = "Vispark"
+website = "https://lab.vispark.in"
+apiBaseUrl = "https://api.lab.vispark.in/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["VISPARK_LAB_API_KEY"]

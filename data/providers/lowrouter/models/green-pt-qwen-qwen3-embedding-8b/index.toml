@@ -1,0 +1,15 @@
+id = "green-pt/qwen/qwen3-embedding-8b"
+name = "green-pt/qwen/qwen3-embedding-8b"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.2800109775
+output = 0

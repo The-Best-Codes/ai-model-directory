@@ -1,0 +1,15 @@
+id = "remm-slerp-l2-13b"
+name = "ReMM SLERP L2 13B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 5529
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

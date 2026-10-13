@@ -1,0 +1,15 @@
+id = "auto/google/embeddinggemma-300m/us"
+name = "auto/google/embeddinggemma-300m/us"
+
+[features]
+attachment = false
+
+[limit]
+context = 2048
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00203623982838
+output = 0

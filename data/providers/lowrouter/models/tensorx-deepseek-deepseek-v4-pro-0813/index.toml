@@ -1,0 +1,19 @@
+id = "tensorx/deepseek/deepseek-v4-pro-0813"
+name = "tensorx/deepseek/deepseek-v4-pro-0813"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.50881802761044
+input = 2.03527211044176
+output = 4.07054310083961

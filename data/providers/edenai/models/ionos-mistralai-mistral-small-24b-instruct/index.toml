@@ -1,0 +1,17 @@
+id = "ionos/mistralai/Mistral-Small-24B-Instruct"
+name = "ionos/mistralai/Mistral-Small-24B-Instruct"
+release_date = "1786647205"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.11181004814540674
+output = 0.3354301444362202

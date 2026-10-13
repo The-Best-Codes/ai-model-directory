@@ -1,0 +1,7 @@
+name = "Vivgrid"
+website = "https://vivgrid.com"
+apiBaseUrl = "https://api.vivgrid.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai"
+defaultApiKeyEnv = ["VIVGRID_API_KEY"]

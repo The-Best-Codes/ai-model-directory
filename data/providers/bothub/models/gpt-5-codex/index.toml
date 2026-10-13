@@ -1,0 +1,12 @@
+id = "gpt-5-codex"
+name = "gpt-5-codex"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

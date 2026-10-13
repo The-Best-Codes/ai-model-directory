@@ -1,0 +1,8 @@
+id = "multilingual-e5-large"
+name = "Multilingual E5 Large"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

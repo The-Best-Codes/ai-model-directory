@@ -1,0 +1,14 @@
+id = "auto/x-ai/grok-4-20-reasoning"
+name = "auto/x-ai/grok-4-20-reasoning"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.20352765906174
+input = 1.2720450690261
+output = 2.5440901380522

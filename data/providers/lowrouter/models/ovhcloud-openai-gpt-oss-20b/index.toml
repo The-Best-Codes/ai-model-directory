@@ -1,0 +1,17 @@
+id = "ovhcloud/openai/gpt-oss-20b"
+name = "ovhcloud/openai/gpt-oss-20b"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 131000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0448017564
+output = 0.1680065865

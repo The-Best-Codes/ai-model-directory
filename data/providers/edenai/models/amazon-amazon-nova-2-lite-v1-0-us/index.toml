@@ -1,0 +1,21 @@
+id = "amazon/amazon.nova-2-lite-v1:0@us"
+name = "amazon/amazon.nova-2-lite-v1:0@us"
+release_date = "1764696672"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.3
+output = 2.5

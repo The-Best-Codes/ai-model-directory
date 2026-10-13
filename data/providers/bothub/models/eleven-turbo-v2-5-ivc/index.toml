@@ -1,0 +1,9 @@
+id = "eleven_turbo_v2_5_ivc"
+name = "Eleven Turbo V2.5 IVC"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

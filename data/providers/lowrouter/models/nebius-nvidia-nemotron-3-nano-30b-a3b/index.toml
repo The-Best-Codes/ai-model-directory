@@ -1,0 +1,17 @@
+id = "nebius/nvidia/nemotron-3-nano-30b-a3b"
+name = "nebius/nvidia/nemotron-3-nano-30b-a3b"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06105919375365
+output = 0.24423341488287

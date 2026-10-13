@@ -1,0 +1,23 @@
+id = "gpt-5.2-chat"
+name = "OpenAI: GPT-5.2 Chat"
+release_date = "1765389783"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0269307793825
+input = 0.269307793825
+output = 2.1544623506

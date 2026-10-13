@@ -1,0 +1,14 @@
+id = "aws-bedrock/amazon/nova-micro"
+name = "aws-bedrock/amazon/nova-micro"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 10000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

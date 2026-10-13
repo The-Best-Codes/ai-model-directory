@@ -1,0 +1,6 @@
+id = "mistral-7b-v0.2-lora"
+name = "mistral-7b-v0.2-lora"
+
+[pricing]
+input = 0.016927918469
+output = 0.050783755407

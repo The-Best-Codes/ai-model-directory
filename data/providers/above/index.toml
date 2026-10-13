@@ -1,0 +1,7 @@
+name = "Above"
+website = "https://above.dev"
+apiBaseUrl = "https://api.above.dev/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ABOVE_API_KEY"]

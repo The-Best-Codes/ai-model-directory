@@ -1,0 +1,23 @@
+id = "modal/inkling-nvfp4"
+name = "Inkling NVFP4"
+release_date = "1784073600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 262144
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.27
+input = 1.2
+output = 5

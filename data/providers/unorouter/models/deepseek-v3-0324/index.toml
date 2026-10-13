@@ -1,0 +1,22 @@
+id = "deepseek-v3-0324"
+name = "deepseek-v3-0324"
+release_date = "1742774400"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+input = 163840
+output = 163840
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.283689
+input = 0.504336
+output = 1.89126

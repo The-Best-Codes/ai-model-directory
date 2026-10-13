@@ -1,0 +1,18 @@
+id = "poolside/laguna-xs-2.1"
+name = "Laguna XS 2.1"
+release_date = "1782950400"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

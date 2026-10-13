@@ -1,0 +1,9 @@
+id = "xai/stt"
+name = "Grok STT"
+release_date = "1789689600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]

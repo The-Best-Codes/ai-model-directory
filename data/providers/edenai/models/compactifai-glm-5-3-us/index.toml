@@ -1,0 +1,18 @@
+id = "compactifai/glm-5-3@us"
+name = "compactifai/glm-5-3@us"
+release_date = "1788457256"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.22
+input = 1.1
+output = 3.5

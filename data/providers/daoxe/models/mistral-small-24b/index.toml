@@ -1,0 +1,7 @@
+id = "mistral-small-24b"
+name = "mistral-small-24b"
+
+[pricing]
+cache_read = 0.006155606716
+input = 0.03077803358
+output = 0.09233410074

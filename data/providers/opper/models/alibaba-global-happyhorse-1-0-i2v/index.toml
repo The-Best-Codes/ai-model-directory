@@ -1,0 +1,10 @@
+id = "alibaba:global/happyhorse-1.0-i2v"
+name = "HappyHorse 1.0 Image-to-Video"
+release_date = "1776816000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

@@ -1,0 +1,19 @@
+id = "openai/openai/gpt-4.1"
+name = "openai/openai/gpt-4.1"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1047576
+output = 32768
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.50881802761044
+input = 2.03527211044176
+output = 8.14108620167922

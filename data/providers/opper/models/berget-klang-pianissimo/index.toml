@@ -1,0 +1,9 @@
+id = "berget/klang/pianissimo"
+name = "Pianissimo"
+release_date = "1790121600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]

@@ -1,0 +1,16 @@
+id = "deepinfra/anthropic/claude-opus-4.8"
+name = "deepinfra/anthropic/claude-opus-4.8"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 5.08817915606049
+output = 25.44089354021463

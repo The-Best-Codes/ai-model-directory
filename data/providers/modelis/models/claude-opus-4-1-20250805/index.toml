@@ -1,0 +1,14 @@
+id = "claude-opus-4-1-20250805"
+name = "claude-opus-4-1-20250805"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 3.8726535456
+cache_write = 48.40816932
+input = 38.726535456
+output = 193.63267728

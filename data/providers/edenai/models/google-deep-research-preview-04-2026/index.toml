@@ -1,0 +1,20 @@
+id = "google/deep-research-preview-04-2026"
+name = "google/deep-research-preview-04-2026"
+release_date = "1790226846"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 12

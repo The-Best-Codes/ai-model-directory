@@ -1,0 +1,10 @@
+id = "qwen3-tts-12hz-1.7b"
+name = "Qwen 3 TTS 12Hz 1.7B"
+open_weights = true
+release_date = "1790852104"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

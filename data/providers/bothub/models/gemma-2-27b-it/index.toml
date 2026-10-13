@@ -1,0 +1,15 @@
+id = "gemma-2-27b-it"
+name = "Gemma 2 27B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 2048
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

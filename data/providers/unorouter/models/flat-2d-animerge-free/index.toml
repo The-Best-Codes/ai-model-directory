@@ -1,0 +1,14 @@
+id = "flat-2d-animerge:free"
+name = "flat-2d-animerge:free"
+release_date = "1681084800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

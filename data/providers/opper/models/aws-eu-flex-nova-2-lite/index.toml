@@ -1,0 +1,22 @@
+id = "aws:eu:flex/nova-2-lite"
+name = "Amazon Nova 2 Lite"
+release_date = "1764633600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1815
+output = 1.496

@@ -1,0 +1,22 @@
+id = "databricks/databricks-gpt-5-4-nano@eu"
+name = "databricks/databricks-gpt-5-4-nano@eu"
+release_date = "1781107944"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 272000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.019999
+cache_write = 0.19999
+input = 0.19999
+output = 1.24999

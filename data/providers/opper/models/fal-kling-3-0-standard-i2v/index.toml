@@ -1,0 +1,9 @@
+id = "fal/kling-3.0-standard-i2v"
+name = "Kling 3.0 Standard (Image-to-Video)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

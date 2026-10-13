@@ -1,0 +1,21 @@
+id = "qwen/glm-5.1"
+name = "qwen/glm-5.1"
+release_date = "1775578025"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 202745
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.169
+input = 0.91
+output = 2.86

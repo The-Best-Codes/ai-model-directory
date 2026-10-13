@@ -1,0 +1,20 @@
+id = "gemini-embedding-001:free"
+name = "gemini-embedding-001:free"
+release_date = "1747699200"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 2000
+input = 2000
+output = 2048
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

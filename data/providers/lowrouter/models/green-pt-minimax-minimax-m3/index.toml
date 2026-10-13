@@ -1,0 +1,18 @@
+id = "green-pt/minimax/minimax-m3"
+name = "green-pt/minimax/minimax-m3"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1232048301
+input = 0.4928193204
+output = 2.464096602

@@ -1,0 +1,10 @@
+id = "xai/tts"
+name = "Grok TTS"
+release_date = "1776384000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

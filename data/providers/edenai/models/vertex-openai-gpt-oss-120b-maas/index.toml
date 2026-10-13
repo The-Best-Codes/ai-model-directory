@@ -1,0 +1,20 @@
+id = "vertex/openai/gpt-oss-120b-maas"
+name = "vertex/openai/gpt-oss-120b-maas"
+release_date = "1754414231"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09
+output = 0.36

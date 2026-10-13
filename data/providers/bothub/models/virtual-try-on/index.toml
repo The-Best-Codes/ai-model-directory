@@ -1,0 +1,9 @@
+id = "virtual-try-on"
+name = "Virtual Try On"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

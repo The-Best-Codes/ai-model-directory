@@ -1,0 +1,14 @@
+id = "auto/swiss-ai/apertus-v1.5-70b/europe"
+name = "auto/swiss-ai/apertus-v1.5-70b/europe"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.784030737
+output = 2.800109775

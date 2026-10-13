@@ -1,0 +1,7 @@
+name = "Prime Intellect"
+website = "https://www.primeintellect.ai"
+apiBaseUrl = "https://api.pinference.ai/api/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["PRIME_API_KEY"]

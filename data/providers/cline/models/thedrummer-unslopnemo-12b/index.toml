@@ -1,0 +1,22 @@
+id = "thedrummer/unslopnemo-12b"
+name = "TheDrummer: UnslopNemo 12B"
+release_date = "1731103448"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 1024000
+output = 819200
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 0.4

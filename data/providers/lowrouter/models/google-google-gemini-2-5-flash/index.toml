@@ -1,0 +1,18 @@
+id = "google/google/gemini-2.5-flash"
+name = "google/google/gemini-2.5-flash"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03053015689878
+input = 0.30529148859261
+output = 2.5440901380522

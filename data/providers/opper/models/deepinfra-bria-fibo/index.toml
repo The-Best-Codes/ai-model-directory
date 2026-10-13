@@ -1,0 +1,9 @@
+id = "deepinfra/Bria/fibo"
+name = "FIBO"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

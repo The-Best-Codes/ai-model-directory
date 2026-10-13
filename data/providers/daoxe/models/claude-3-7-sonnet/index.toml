@@ -1,0 +1,7 @@
+id = "claude-3-7-sonnet"
+name = "claude-3-7-sonnet"
+
+[pricing]
+cache_read = 0.04616705037
+input = 0.4616705037
+output = 2.3083525185

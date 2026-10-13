@@ -1,0 +1,9 @@
+id = "groq/whisper-large-v3-turbo"
+name = "Whisper Large v3 Turbo"
+release_date = "1727654400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]

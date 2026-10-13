@@ -1,0 +1,17 @@
+id = "ovhcloud/qwen/qwen2.5-vl-72b-instruct"
+name = "ovhcloud/qwen/qwen2.5-vl-72b-instruct"
+
+[features]
+attachment = true
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.0192399581
+output = 1.0192399581

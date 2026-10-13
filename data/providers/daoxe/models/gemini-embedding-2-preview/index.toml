@@ -1,0 +1,5 @@
+id = "gemini-embedding-2-preview"
+name = "gemini-embedding-2-preview"
+
+[pricing]
+input = 0.03077803358

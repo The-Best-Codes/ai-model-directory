@@ -1,0 +1,7 @@
+id = "gpt-5-codex"
+name = "gpt-5-codex"
+
+[pricing]
+cache_read = 0.020005721827
+input = 0.192362709875
+output = 1.538901679

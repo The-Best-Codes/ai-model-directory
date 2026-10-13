@@ -1,0 +1,23 @@
+id = "glm-5v-turbo"
+name = "Z.ai: GLM 5V Turbo"
+release_date = "1775061458"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 202752
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.026008669496443197
+input = 0.10836945623518
+output = 0.47682560743479196

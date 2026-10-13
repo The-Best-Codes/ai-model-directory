@@ -1,0 +1,17 @@
+id = "auto/nvidia/nemotron-3.5-lightning/us"
+name = "auto/nvidia/nemotron-3.5-lightning/us"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.030530156898779998
+input = 0.06105919375365
+output = 0.16282190324061

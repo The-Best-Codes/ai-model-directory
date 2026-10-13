@@ -1,0 +1,15 @@
+id = "magnum-v4-72b"
+name = "Magnum V4 72B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 4096
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

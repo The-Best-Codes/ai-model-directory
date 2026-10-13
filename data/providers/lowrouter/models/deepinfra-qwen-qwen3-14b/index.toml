@@ -1,0 +1,16 @@
+id = "deepinfra/qwen/qwen3-14b"
+name = "deepinfra/qwen/qwen3-14b"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.12211726746339
+output = 0.24423341488287

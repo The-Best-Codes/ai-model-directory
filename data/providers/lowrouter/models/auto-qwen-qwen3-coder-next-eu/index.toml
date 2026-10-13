@@ -1,0 +1,13 @@
+id = "auto/qwen/qwen3-coder-next/eu"
+name = "auto/qwen/qwen3-coder-next/eu"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1680065865
+output = 0.8960351279999998

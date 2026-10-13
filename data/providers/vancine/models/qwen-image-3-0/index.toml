@@ -1,0 +1,5 @@
+id = "qwen-image-3.0"
+name = "qwen-image-3.0"
+
+[modalities]
+output = [ "image" ]

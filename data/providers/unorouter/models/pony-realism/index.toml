@@ -1,0 +1,10 @@
+id = "pony-realism"
+name = "pony-realism"
+release_date = "1727827200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

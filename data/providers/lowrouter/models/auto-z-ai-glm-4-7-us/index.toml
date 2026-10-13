@@ -1,0 +1,13 @@
+id = "auto/z-ai/glm-4.7/us"
+name = "auto/z-ai/glm-4.7/us"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

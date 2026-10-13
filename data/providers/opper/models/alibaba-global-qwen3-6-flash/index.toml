@@ -1,0 +1,23 @@
+id = "alibaba:global/qwen3.6-flash"
+name = "Qwen3.6-Flash"
+release_date = "1776297600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0179292
+input = 0.17929199999999998
+output = 1.075752

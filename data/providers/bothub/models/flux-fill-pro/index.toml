@@ -1,0 +1,9 @@
+id = "flux-fill-pro"
+name = "FLUX Fill Pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,22 @@
+id = "greenference/qwen3-8b"
+name = "greenference/qwen3-8b"
+release_date = "1790948154"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 41000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.22325
+cache_write = 0
+input = 0.4465
+output = 0.4465

@@ -1,0 +1,23 @@
+id = "qwen2.5-vl-72b-instruct"
+knowledge_cutoff = "1719705600"
+name = "Qwen: Qwen2.5 VL 72B Instruct"
+release_date = "1738410311"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 115200
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.4622426864
+output = 7.3867280592

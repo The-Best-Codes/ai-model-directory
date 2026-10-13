@@ -1,0 +1,9 @@
+id = "voice-cloning"
+name = "Voice Cloning"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

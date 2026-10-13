@@ -1,0 +1,13 @@
+id = "auto/mistralai/mistral-small-24b-instruct/eu-sovereign"
+name = "auto/mistralai/mistral-small-24b-instruct/eu-sovereign"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.112004391
+output = 0.336013173

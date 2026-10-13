@@ -1,0 +1,6 @@
+id = "qwen3.8-max"
+name = "qwen3.8-max"
+
+[pricing]
+input = 0.3077803358
+output = 0.9233410074

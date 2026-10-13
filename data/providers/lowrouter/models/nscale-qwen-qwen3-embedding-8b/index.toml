@@ -1,0 +1,15 @@
+id = "nscale/qwen/qwen3-embedding-8b"
+name = "nscale/qwen/qwen3-embedding-8b"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.04070575582113
+output = 0

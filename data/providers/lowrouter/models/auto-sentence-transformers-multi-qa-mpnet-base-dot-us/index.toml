@@ -1,0 +1,12 @@
+id = "auto/sentence-transformers/multi-qa-mpnet-base-dot/us"
+name = "auto/sentence-transformers/multi-qa-mpnet-base-dot/us"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00508835948313
+output = 0

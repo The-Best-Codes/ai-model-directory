@@ -1,0 +1,12 @@
+id = "auto/shibing624/text2vec-base-chinese/us"
+name = "auto/shibing624/text2vec-base-chinese/us"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00508835948313
+output = 0

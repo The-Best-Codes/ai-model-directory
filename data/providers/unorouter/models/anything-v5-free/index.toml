@@ -1,0 +1,14 @@
+id = "anything-v5:free"
+name = "anything-v5:free"
+release_date = "1676505600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

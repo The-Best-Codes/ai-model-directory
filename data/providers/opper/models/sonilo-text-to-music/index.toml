@@ -1,0 +1,9 @@
+id = "sonilo/text-to-music"
+name = "Sonilo Text to Music"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

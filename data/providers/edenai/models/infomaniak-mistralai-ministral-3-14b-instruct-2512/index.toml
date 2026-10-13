@@ -1,0 +1,20 @@
+id = "infomaniak/mistralai/Ministral-3-14B-Instruct-2512"
+name = "infomaniak/mistralai/Ministral-3-14B-Instruct-2512"
+release_date = "1786631709"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 100000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3354301444362202
+output = 0.447240192581627

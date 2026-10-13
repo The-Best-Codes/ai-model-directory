@@ -1,0 +1,10 @@
+id = "wai-nsfw-illustrious-sdxl"
+name = "wai-nsfw-illustrious-sdxl"
+release_date = "1746662400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

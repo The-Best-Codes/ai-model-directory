@@ -1,0 +1,16 @@
+id = "auto/google/gemini-3.7-flash/us"
+name = "auto/google/gemini-3.7-flash/us"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.76322704141566
+output = 3.81613408703439

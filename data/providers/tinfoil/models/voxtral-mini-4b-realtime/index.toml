@@ -1,0 +1,10 @@
+id = "voxtral-mini-4b-realtime"
+name = "Voxtral Mini 4B Realtime"
+release_date = "1781900473"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

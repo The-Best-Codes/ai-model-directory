@@ -1,0 +1,9 @@
+id = "speech-02-hd"
+name = "Speech 02 HD"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

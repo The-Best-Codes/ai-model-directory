@@ -1,0 +1,16 @@
+id = "auto/mistralai/mixtral-8x22b-instruct-v0.1/europe"
+name = "auto/mistralai/mixtral-8x22b-instruct-v0.1/europe"
+
+[features]
+attachment = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.22116371428262
+output = 1.22116371428262

@@ -1,0 +1,14 @@
+id = "auto/qwen/qwen3-next-80b/europe"
+name = "auto/qwen/qwen3-next-80b/europe"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 262000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

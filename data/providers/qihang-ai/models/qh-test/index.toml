@@ -1,0 +1,6 @@
+id = "qh-test"
+name = "qh-test"
+
+[pricing]
+input = 0
+output = 0

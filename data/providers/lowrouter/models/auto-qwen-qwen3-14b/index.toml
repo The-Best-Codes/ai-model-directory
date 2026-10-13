@@ -1,0 +1,12 @@
+id = "auto/qwen/qwen3-14b"
+name = "auto/qwen/qwen3-14b"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

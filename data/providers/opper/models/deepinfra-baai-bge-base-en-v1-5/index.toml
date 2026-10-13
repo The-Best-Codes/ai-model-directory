@@ -1,0 +1,17 @@
+id = "deepinfra/BAAI/bge-base-en-v1.5"
+name = "bge-base-en-v1.5"
+release_date = "1694476800"
+
+[features]
+attachment = false
+
+[limit]
+context = 512
+output = 512
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.005
+output = 0

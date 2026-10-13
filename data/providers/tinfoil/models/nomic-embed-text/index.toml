@@ -1,0 +1,15 @@
+id = "nomic-embed-text"
+name = "Nomic Embed Text"
+release_date = "1713509298"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05

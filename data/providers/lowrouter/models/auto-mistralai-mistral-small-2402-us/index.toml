@@ -1,0 +1,13 @@
+id = "auto/mistralai/mistral-small-2402/us"
+name = "auto/mistralai/mistral-small-2402/us"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.0176360552208799
+output = 3.05290816566264

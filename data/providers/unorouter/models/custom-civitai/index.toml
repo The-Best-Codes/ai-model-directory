@@ -1,0 +1,9 @@
+id = "custom-civitai"
+name = "custom-civitai"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,21 @@
+id = "cloudflare/@cf/qwen/qwen3.8-27b"
+name = "cloudflare/@cf/qwen/qwen3.8-27b"
+release_date = "1786722910"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+input = 0.45
+output = 3.2

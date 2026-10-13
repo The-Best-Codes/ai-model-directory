@@ -1,0 +1,22 @@
+id = "vertex/claude-haiku-5-5@us"
+name = "vertex/claude-haiku-5-5@us"
+release_date = "1791397883"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.011000000000000001
+cache_write = 0.1375
+input = 0.11
+output = 0.55

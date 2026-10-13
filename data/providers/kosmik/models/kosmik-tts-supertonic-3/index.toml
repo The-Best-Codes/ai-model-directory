@@ -1,0 +1,11 @@
+id = "kosmik/tts-supertonic-3"
+name = "Kosmik: Supertonic 3"
+release_date = "1750000000"
+
+[features]
+attachment = false
+temperature = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

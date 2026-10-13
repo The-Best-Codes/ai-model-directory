@@ -1,0 +1,20 @@
+id = "cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct"
+name = "cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct"
+release_date = "1731368400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.66
+output = 1

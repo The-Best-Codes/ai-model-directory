@@ -1,0 +1,7 @@
+name = "LLM Tech"
+website = "https://llmtech.eu"
+apiBaseUrl = "https://api.llmtech.eu/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["LLMTECH_API_KEY"]

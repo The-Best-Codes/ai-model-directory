@@ -1,0 +1,7 @@
+id = "codex-auto-review"
+name = "codex-auto-review"
+
+[pricing]
+cache_read = 0.07694508395
+input = 0.7694508395
+output = 4.616705037

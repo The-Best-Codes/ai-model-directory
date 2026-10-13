@@ -1,0 +1,20 @@
+id = "cloudflare/@cf/meta/llama-3.1-8b-instruct-fp8"
+name = "cloudflare/@cf/meta/llama-3.1-8b-instruct-fp8"
+release_date = "1721692800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15199999999999997
+output = 0.287

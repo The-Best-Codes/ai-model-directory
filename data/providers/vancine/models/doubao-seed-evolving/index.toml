@@ -1,0 +1,14 @@
+id = "doubao-seed-evolving"
+name = "doubao-seed-evolving"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.14
+input = 0.71
+output = 3.55

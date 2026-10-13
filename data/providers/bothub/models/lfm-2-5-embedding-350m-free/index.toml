@@ -1,0 +1,8 @@
+id = "lfm-2.5-embedding-350m:free"
+name = "LFM2.5 Embedding 350M"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

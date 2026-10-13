@@ -1,0 +1,9 @@
+id = "stable-diffusion-3.5-medium"
+name = "Stable Diffusion 3.5 Medium"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

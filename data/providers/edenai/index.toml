@@ -1,0 +1,7 @@
+name = "Eden AI"
+website = "https://www.edenai.co"
+apiBaseUrl = "https://api.edenai.run/v3"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["EDENAI_API_KEY"]

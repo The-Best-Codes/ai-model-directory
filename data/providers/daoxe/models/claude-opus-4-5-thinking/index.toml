@@ -1,0 +1,6 @@
+id = "claude-opus-4-5-thinking"
+name = "claude-opus-4-5-thinking"
+
+[pricing]
+input = 0.1538901679
+output = 0.7694508395

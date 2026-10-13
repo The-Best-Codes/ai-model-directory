@@ -1,0 +1,20 @@
+id = "perplexityai/sonar"
+name = "perplexityai/sonar"
+release_date = "1738013808"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 127072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 1

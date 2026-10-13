@@ -1,0 +1,22 @@
+id = "vertex/claude-opus-4-6@us"
+name = "vertex/claude-opus-4-6@us"
+release_date = "1770219050"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.55
+cache_write = 6.875000000000001
+input = 5.500000000000001
+output = 27.500000000000004

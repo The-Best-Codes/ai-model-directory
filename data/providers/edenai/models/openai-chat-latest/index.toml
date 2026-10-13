@@ -1,0 +1,21 @@
+id = "openai/chat-latest"
+name = "openai/chat-latest"
+release_date = "1787288981"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 5
+output = 30

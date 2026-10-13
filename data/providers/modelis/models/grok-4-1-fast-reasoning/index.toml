@@ -1,0 +1,9 @@
+id = "grok-4-1-fast-reasoning"
+name = "grok-4-1-fast-reasoning"
+
+[features]
+reasoning = true
+
+[pricing]
+input = 7.7453070912
+output = 38.726535456

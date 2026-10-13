@@ -1,0 +1,15 @@
+id = "sonar-deep-research"
+name = "Sonar Deep Research"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = false
+
+[limit]
+output = 115200
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

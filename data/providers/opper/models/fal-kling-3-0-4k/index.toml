@@ -1,0 +1,10 @@
+id = "fal/kling-3.0-4k"
+name = "Kling 3.0 4K"
+release_date = "1776902400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

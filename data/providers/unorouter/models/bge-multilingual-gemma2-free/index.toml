@@ -1,0 +1,18 @@
+id = "bge-multilingual-gemma2:free"
+name = "bge-multilingual-gemma2:free"
+release_date = "1721952000"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+input = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

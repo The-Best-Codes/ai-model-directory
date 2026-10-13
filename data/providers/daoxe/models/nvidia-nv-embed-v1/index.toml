@@ -1,0 +1,5 @@
+id = "nvidia/nv-embed-v1"
+name = "nvidia/nv-embed-v1"
+
+[pricing]
+input = 0.007694508395

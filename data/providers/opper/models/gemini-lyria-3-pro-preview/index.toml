@@ -1,0 +1,16 @@
+id = "gemini/lyria-3-pro-preview"
+name = "Lyria 3 Pro"
+release_date = "1774396800"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "audio", "text" ]

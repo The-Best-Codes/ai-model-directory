@@ -1,0 +1,13 @@
+id = "ionos/meta-llama/llama-3.3-70b-instruct"
+name = "ionos/meta-llama/llama-3.3-70b-instruct"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7280285415
+output = 0.7280285415

@@ -1,0 +1,12 @@
+id = "aws-bedrock/cohere/embed"
+name = "aws-bedrock/cohere/embed"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.12211726746339
+output = 0

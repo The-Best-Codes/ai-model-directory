@@ -1,0 +1,6 @@
+id = "claude-sonnet-5-thinking"
+name = "claude-sonnet-5-thinking"
+
+[pricing]
+input = 0.06155606716
+output = 0.3077803358

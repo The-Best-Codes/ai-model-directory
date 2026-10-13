@@ -1,0 +1,9 @@
+id = "fal/kling-2.5-turbo-pro-i2v"
+name = "Kling 2.5 Turbo Pro (Image-to-Video)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

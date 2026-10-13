@@ -1,0 +1,20 @@
+id = "cohere/c4ai-aya-expanse-32b"
+name = "cohere/c4ai-aya-expanse-32b"
+release_date = "1790399645"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5
+output = 1.5

@@ -1,0 +1,6 @@
+id = "deepseek-r1-distill-llama-70b"
+name = "deepseek-r1-distill-llama-70b"
+
+[pricing]
+input = 0.004616705037
+output = 0.020005721827000004

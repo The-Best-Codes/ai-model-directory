@@ -1,0 +1,8 @@
+id = "qwen3-reranker-8b:1fb2f6046d0f044dd6b3a13cc7ff61d33973619716991b25d346b455972cec99"
+name = "qwen3-reranker-8b:1fb2f6046d0f044dd6b3a13cc7ff61d33973619716991b25d346b455972cec99"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

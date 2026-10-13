@@ -1,0 +1,20 @@
+id = "amazon/mistral.mixtral-8x7b-instruct-v0:1@us"
+name = "amazon/mistral.mixtral-8x7b-instruct-v0:1@us"
+release_date = "1772632546"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.59
+output = 0.91

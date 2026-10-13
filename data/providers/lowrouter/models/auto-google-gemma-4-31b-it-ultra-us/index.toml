@@ -1,0 +1,16 @@
+id = "auto/google/gemma-4-31b-it-ultra/us"
+name = "auto/google/gemma-4-31b-it-ultra/us"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.27476245173774
+output = 0.77340376038192

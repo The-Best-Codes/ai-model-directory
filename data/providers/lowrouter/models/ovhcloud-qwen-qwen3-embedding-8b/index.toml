@@ -1,0 +1,15 @@
+id = "ovhcloud/qwen/qwen3-embedding-8b"
+name = "ovhcloud/qwen/qwen3-embedding-8b"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.112004391
+output = 0

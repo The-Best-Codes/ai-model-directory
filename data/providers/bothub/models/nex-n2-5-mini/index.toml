@@ -1,0 +1,15 @@
+id = "nex-n2.5-mini"
+name = "Nex N2.5 Mini"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = false
+
+[limit]
+output = 235929
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

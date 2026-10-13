@@ -1,0 +1,6 @@
+id = "nano-banana-1"
+name = "nano-banana-1"
+release_date = "1754006400"
+
+[modalities]
+output = [ "image" ]

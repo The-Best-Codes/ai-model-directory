@@ -1,0 +1,16 @@
+id = "sea-lion-e5-embedding-600m:free"
+name = "sea-lion-e5-embedding-600m:free"
+release_date = "1772323200"
+
+[features]
+attachment = false
+
+[limit]
+context = 512
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

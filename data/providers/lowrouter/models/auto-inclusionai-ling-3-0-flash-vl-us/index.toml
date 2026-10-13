@@ -1,0 +1,17 @@
+id = "auto/inclusionai/ling-3.0-flash-vl/us"
+name = "auto/inclusionai/ling-3.0-flash-vl/us"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01221183875073
+input = 0.06105919375365
+output = 0.18317534117313

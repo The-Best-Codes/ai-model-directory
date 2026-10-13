@@ -1,0 +1,21 @@
+id = "xai/grok-4.7"
+name = "xai/grok-4.7"
+release_date = "1790007541"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 500000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 2
+output = 6

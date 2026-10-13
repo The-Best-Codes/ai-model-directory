@@ -1,0 +1,14 @@
+id = "whisper:free"
+name = "whisper:free"
+release_date = "1663718400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

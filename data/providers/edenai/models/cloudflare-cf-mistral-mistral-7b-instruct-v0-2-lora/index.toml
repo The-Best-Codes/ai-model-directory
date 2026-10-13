@@ -1,0 +1,20 @@
+id = "cloudflare/@cf/mistral/mistral-7b-instruct-v0.2-lora"
+name = "cloudflare/@cf/mistral/mistral-7b-instruct-v0.2-lora"
+release_date = "1782278004"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 15000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

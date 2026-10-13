@@ -1,0 +1,15 @@
+id = "qwen-2.5-coder-32b-instruct"
+name = "Qwen 2.5 Coder 32B Instruct"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 29491
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

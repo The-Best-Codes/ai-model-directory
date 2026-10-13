@@ -1,0 +1,14 @@
+id = "claude-3-haiku-20240307"
+name = "claude-3-haiku-20240307"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.06454422576
+cache_write = 0.806802822
+input = 0.6454422576
+output = 3.227211288

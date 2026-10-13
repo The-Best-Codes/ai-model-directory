@@ -1,0 +1,15 @@
+id = "palmyra-x5"
+name = "Palmyra X5"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 8192
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

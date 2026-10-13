@@ -1,0 +1,6 @@
+id = "qwen/qwen3-vl-235b-a22b-thinking"
+name = "qwen/qwen3-vl-235b-a22b-thinking"
+
+[pricing]
+input = 0.98
+output = 4

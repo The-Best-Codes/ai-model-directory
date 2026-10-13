@@ -1,0 +1,5 @@
+id = "Qwen/Qwen3-Reranker-8B"
+name = "Qwen/Qwen3-Reranker-8B"
+
+[pricing]
+input = 0.001538901679

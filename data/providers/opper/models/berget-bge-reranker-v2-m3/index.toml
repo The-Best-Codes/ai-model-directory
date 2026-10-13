@@ -1,0 +1,13 @@
+id = "berget/bge-reranker-v2-m3"
+name = "BGE Reranker v2-m3"
+release_date = "1710720000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.11181000000000002
+output = 0

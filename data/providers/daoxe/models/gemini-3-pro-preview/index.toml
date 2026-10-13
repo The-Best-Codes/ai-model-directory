@@ -1,0 +1,7 @@
+id = "gemini-3-pro-preview"
+name = "gemini-3-pro-preview"
+
+[pricing]
+cache_read = 0.027700230222
+input = 0.27700230222
+output = 1.66201381332

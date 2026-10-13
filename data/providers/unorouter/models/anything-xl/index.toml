@@ -1,0 +1,10 @@
+id = "anything-xl"
+name = "anything-xl"
+release_date = "1710028800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

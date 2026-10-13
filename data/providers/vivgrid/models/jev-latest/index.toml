@@ -1,0 +1,17 @@
+id = "jev-latest"
+name = "jev-latest"
+
+[features]
+attachment = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.084
+output = 0

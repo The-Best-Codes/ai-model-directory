@@ -1,0 +1,14 @@
+id = "auto/amazon/nova-micro/eu"
+name = "auto/amazon/nova-micro/eu"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 10000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

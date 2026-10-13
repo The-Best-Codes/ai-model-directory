@@ -1,0 +1,17 @@
+id = "gemini/gemini-embedding-001"
+name = "Gemini Embedding 001"
+release_date = "1752451200"
+
+[features]
+attachment = false
+
+[limit]
+context = 2048
+output = 1
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0

@@ -1,0 +1,17 @@
+id = "auto/deepseek/deepseek-v3.2/cloud-act-free"
+name = "auto/deepseek/deepseek-v3.2/cloud-act-free"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.36013173
+output = 5.040197595

@@ -1,0 +1,9 @@
+id = "flux-video-edit"
+name = "FLUX Video Edit Fast"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "video" ]

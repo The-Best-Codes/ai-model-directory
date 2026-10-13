@@ -1,0 +1,13 @@
+id = "auto/meta-llama/llama-3.3-70b-instruct/us"
+name = "auto/meta-llama/llama-3.3-70b-instruct/us"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.73269800456079
+output = 0.73269800456079

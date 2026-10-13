@@ -1,0 +1,14 @@
+id = "icbinp-i-cant-believe-its-not-photography:free"
+name = "icbinp-i-cant-believe-its-not-photography:free"
+release_date = "1680393600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

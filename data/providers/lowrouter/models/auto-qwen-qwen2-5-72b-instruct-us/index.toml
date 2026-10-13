@@ -1,0 +1,16 @@
+id = "auto/qwen/qwen2.5-72b-instruct/us"
+name = "auto/qwen/qwen2.5-72b-instruct/us"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.36634956230234994
+output = 0.40705531812348

@@ -1,0 +1,7 @@
+name = "LowRouter"
+website = "https://lowrouter.ai"
+apiBaseUrl = "https://api.lowrouter.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["LOWROUTER_API_KEY"]

@@ -1,0 +1,18 @@
+id = "aki/openai/gpt-oss-120b"
+name = "aki/openai/gpt-oss-120b"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1680065865
+output = 0.6160241505

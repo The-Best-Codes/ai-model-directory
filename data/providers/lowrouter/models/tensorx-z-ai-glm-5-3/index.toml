@@ -1,0 +1,19 @@
+id = "tensorx/z-ai/glm-5.3"
+name = "tensorx/z-ai/glm-5.3"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.44521633418109
+input = 1.78086309663654
+output = 4.57936112845005

@@ -1,0 +1,22 @@
+id = "zenifra/qwen3.8-flash"
+name = "zenifra/qwen3.8-flash"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.6
+output = 2

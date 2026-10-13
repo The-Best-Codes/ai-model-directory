@@ -1,0 +1,16 @@
+id = "deepinfra/google/gemini-3.1-flash-lite"
+name = "deepinfra/google/gemini-3.1-flash-lite"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25440901380522
+output = 1.52645408283132

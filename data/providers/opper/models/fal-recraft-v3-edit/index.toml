@@ -1,0 +1,10 @@
+id = "fal/recraft-v3-edit"
+name = "Recraft V3 (image-to-image)"
+release_date = "1730246400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

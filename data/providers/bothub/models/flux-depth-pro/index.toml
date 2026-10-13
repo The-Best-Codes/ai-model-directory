@@ -1,0 +1,9 @@
+id = "flux-depth-pro"
+name = "Flux Depth Pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

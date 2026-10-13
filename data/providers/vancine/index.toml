@@ -1,0 +1,7 @@
+name = "Vancine"
+website = "https://vancine.com"
+apiBaseUrl = "https://vancine.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["VANCINE_API_KEY"]

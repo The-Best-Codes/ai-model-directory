@@ -1,0 +1,8 @@
+id = "all-mpnet-base-v2"
+name = "All MPNet Base V2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

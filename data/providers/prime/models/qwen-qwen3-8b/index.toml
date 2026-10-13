@@ -1,0 +1,6 @@
+id = "qwen/qwen3-8b"
+name = "qwen/qwen3-8b"
+
+[pricing]
+input = 0.117
+output = 0.455

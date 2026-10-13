@@ -1,0 +1,13 @@
+id = "vultron-retriever-flash-qwen3.5-0.8b"
+name = "Vultron Retriever Flash 0.8B"
+open_weights = true
+release_date = "1783002800"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]

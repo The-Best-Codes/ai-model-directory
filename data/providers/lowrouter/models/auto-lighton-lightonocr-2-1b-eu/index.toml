@@ -1,0 +1,13 @@
+id = "auto/lighton/lightonocr-2-1b/eu"
+name = "auto/lighton/lightonocr-2-1b/eu"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1680065865
+output = 0.336013173

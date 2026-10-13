@@ -1,0 +1,20 @@
+id = "mistral-7b-instruct:free"
+name = "mistral-7b-instruct:free"
+release_date = "1695772800"
+
+[features]
+attachment = false
+tool_call = false
+
+[limit]
+context = 24576
+input = 24576
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

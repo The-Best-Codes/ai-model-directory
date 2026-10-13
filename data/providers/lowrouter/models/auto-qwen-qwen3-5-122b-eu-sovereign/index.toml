@@ -1,0 +1,14 @@
+id = "auto/qwen/qwen3.5-122b/eu-sovereign"
+name = "auto/qwen/qwen3.5-122b/eu-sovereign"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.12004391
+output = 4.704184422

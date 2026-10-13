@@ -1,0 +1,15 @@
+id = "glm-5.3"
+name = "GLM 5.3"
+open_weights = true
+release_date = "1787467037"
+
+[features]
+reasoning = true
+
+[limit]
+context = 1048576
+
+[pricing]
+cache_read = 0.26
+input = 1.4
+output = 4.4

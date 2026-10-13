@@ -1,0 +1,22 @@
+id = "baidu:cn/deepseek-v4-pro"
+name = "DeepSeek V4 Pro"
+release_date = "1776988800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 393216
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.14
+input = 1.69
+output = 3.38

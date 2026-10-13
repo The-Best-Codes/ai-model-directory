@@ -1,0 +1,17 @@
+id = "auto/deepseek/deepseek-v3.1/eu-sovereign"
+name = "auto/deepseek/deepseek-v3.1/eu-sovereign"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.36013173
+output = 5.040197595

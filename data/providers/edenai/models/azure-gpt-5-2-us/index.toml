@@ -1,0 +1,21 @@
+id = "azure/gpt-5.2@us"
+name = "azure/gpt-5.2@us"
+release_date = "1784832896"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 272000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1925
+input = 1.925
+output = 15.4

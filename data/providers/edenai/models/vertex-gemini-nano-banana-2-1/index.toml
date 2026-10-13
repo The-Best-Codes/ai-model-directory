@@ -1,0 +1,17 @@
+id = "vertex/gemini-nano-banana-2.1"
+name = "vertex/gemini-nano-banana-2.1"
+release_date = "1791318261"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.5
+output = 7.5

@@ -1,0 +1,20 @@
+id = "regolo/brick-complexity-pro"
+name = "Brick Complexity Pro"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.11181000000000002
+output = 0.4472400000000001

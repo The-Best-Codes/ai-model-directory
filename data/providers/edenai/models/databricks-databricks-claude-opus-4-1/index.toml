@@ -1,0 +1,22 @@
+id = "databricks/databricks-claude-opus-4-1"
+name = "databricks/databricks-claude-opus-4-1"
+release_date = "1769507058"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.500002
+cache_write = 18.74999
+input = 15.00002
+output = 74.9994

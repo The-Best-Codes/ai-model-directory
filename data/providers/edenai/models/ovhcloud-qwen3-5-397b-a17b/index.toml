@@ -1,0 +1,20 @@
+id = "ovhcloud/Qwen3.5-397B-A17B"
+name = "ovhcloud/Qwen3.5-397B-A17B"
+release_date = "1780673223"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.71
+output = 4.25

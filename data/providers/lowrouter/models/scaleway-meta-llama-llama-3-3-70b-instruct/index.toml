@@ -1,0 +1,17 @@
+id = "scaleway/meta-llama/llama-3.3-70b-instruct"
+name = "scaleway/meta-llama/llama-3.3-70b-instruct"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.008039519
+output = 1.008039519

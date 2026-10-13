@@ -1,0 +1,10 @@
+id = "autismmix-sdxl"
+name = "autismmix-sdxl"
+release_date = "1706832000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,0 +1,16 @@
+id = "nscale/moonshotai/kimi-k2.5"
+name = "nscale/moonshotai/kimi-k2.5"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.45793667286696
+output = 2.23879864945959

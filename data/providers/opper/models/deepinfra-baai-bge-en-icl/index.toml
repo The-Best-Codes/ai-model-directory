@@ -1,0 +1,17 @@
+id = "deepinfra/BAAI/bge-en-icl"
+name = "bge-en-icl"
+release_date = "1721952000"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.01
+output = 0

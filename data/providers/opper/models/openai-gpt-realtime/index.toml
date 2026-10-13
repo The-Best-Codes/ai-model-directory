@@ -1,0 +1,22 @@
+id = "openai/gpt-realtime"
+name = "GPT Realtime"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 32000
+output = 4096
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 0.4
+input = 4
+output = 24

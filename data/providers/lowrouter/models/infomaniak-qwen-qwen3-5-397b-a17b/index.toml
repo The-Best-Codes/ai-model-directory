@@ -1,0 +1,14 @@
+id = "infomaniak/qwen/qwen3.5-397b-a17b"
+name = "infomaniak/qwen/qwen3.5-397b-a17b"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.896035128
+output = 4.032158076

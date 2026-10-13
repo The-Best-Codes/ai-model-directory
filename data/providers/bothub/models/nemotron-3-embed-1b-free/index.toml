@@ -1,0 +1,8 @@
+id = "nemotron-3-embed-1b:free"
+name = "Nemotron 3 Embed 1B"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

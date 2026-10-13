@@ -1,0 +1,10 @@
+id = "flux.2-flex"
+name = "flux.2-flex"
+release_date = "1764028800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,21 @@
+id = "qwen/qwen-plus-2025-04-28"
+name = "qwen/qwen-plus-2025-04-28"
+release_date = "1738409840"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.26000000000000006
+output = 0.7799999999999999
+reasoning = 2.6

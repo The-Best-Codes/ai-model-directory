@@ -1,0 +1,15 @@
+id = "google/google/gemini-robotics-er-2-preview"
+name = "google/google/gemini-robotics-er-2-preview"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.10176382953087
+input = 1.01763605522088
+output = 5.08817915606049

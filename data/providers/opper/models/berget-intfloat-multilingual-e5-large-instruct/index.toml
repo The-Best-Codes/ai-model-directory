@@ -1,0 +1,12 @@
+id = "berget/intfloat/multilingual-e5-large-instruct"
+name = "Multilingual E5 Large Instruct"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.033543
+output = 0

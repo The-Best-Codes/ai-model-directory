@@ -1,0 +1,19 @@
+id = "auto/anthropic/claude-opus-5/eu"
+name = "auto/anthropic/claude-opus-5/eu"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.55970050239783
+input = 5.59699718367093
+output = 27.984983678266826

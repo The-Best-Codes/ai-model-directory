@@ -1,0 +1,16 @@
+id = "auto/sao10k/l3.1-70b-euryale-v2.2"
+name = "auto/sao10k/l3.1-70b-euryale-v2.2"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8649908709465299
+output = 0.8649908709465299

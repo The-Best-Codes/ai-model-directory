@@ -1,0 +1,22 @@
+id = "evroc/gpt-oss-120b"
+name = "gpt-oss-120b"
+release_date = "1754352000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.22362000000000004
+output = 0.8944800000000002

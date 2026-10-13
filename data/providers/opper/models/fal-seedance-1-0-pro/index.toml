@@ -1,0 +1,10 @@
+id = "fal/seedance-1.0-pro"
+name = "Seedance 1.0 Pro"
+release_date = "1749600000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

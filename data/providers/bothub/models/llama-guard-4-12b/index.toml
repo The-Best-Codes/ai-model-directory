@@ -1,0 +1,15 @@
+id = "llama-guard-4-12b"
+name = "Llama Guard 4 12B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 16384
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

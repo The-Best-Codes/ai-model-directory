@@ -1,0 +1,17 @@
+id = "auto/deepseek/deepseek"
+name = "auto/deepseek/deepseek"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.32564380648122
+output = 0.90569662676766

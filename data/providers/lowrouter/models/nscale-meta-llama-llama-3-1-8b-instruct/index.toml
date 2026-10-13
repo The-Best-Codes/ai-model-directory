@@ -1,0 +1,16 @@
+id = "nscale/meta-llama/llama-3.1-8b-instruct"
+name = "nscale/meta-llama/llama-3.1-8b-instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06105919375365
+output = 0.06105919375365

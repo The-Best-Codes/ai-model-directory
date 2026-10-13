@@ -1,0 +1,6 @@
+id = "gemini-3.1-pro-high"
+name = "gemini-3.1-pro-high"
+
+[pricing]
+input = 0.3077803358
+output = 1.8466820148

@@ -1,0 +1,18 @@
+id = "databricks/databricks-gpt-6-1-sol@eu"
+name = "databricks/databricks-gpt-6-1-sol@eu"
+release_date = "1791350016"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.200000003
+input = 2.00000003
+output = 10.00000001

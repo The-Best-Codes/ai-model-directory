@@ -1,0 +1,9 @@
+id = "flux-3-image"
+name = "Flux 3 Image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

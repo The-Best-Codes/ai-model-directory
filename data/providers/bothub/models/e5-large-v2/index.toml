@@ -1,0 +1,8 @@
+id = "e5-large-v2"
+name = "E5 Large V2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

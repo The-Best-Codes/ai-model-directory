@@ -1,0 +1,15 @@
+id = "wizardlm-2-8x22b"
+name = "WizardLM 2 8x22B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 8000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,13 @@
+id = "azure/text-embedding-3-large"
+name = "Text Embedding 3 Large"
+release_date = "1706140800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.13
+output = 0

@@ -1,0 +1,21 @@
+id = "tencent/minimax-m2.7"
+name = "tencent/minimax-m2.7"
+release_date = "1790867221"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.3
+output = 1.2

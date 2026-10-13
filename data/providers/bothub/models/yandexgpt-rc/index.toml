@@ -1,0 +1,15 @@
+id = "yandexgpt/rc"
+name = "yandexgpt/rc"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 32768
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

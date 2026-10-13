@@ -1,0 +1,14 @@
+id = "auto/google/gemini-3.1-flash-lite"
+name = "auto/google/gemini-3.1-flash-lite"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25440901380521996
+output = 1.52645408283132

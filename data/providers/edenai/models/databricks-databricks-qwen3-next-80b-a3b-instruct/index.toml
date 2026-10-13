@@ -1,0 +1,19 @@
+id = "databricks/databricks-qwen3-next-80b-a3b-instruct"
+name = "databricks/databricks-qwen3-next-80b-a3b-instruct"
+release_date = "1785417770"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015001
+cache_write = 0.15001
+input = 0.15001
+output = 1.20001

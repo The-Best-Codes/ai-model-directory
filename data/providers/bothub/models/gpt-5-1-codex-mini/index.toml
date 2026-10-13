@@ -1,0 +1,12 @@
+id = "gpt-5.1-codex-mini"
+name = "GPT 5.1 Codex Mini"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

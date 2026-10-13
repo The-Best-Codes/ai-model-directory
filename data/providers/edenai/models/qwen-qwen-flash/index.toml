@@ -1,0 +1,22 @@
+id = "qwen/qwen-flash"
+name = "qwen/qwen-flash"
+release_date = "1785412138"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0065
+cache_write = 0.04095
+input = 0.03250000000000001
+output = 0.26000000000000006

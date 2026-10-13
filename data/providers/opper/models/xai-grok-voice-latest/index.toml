@@ -1,0 +1,14 @@
+id = "xai/grok-voice-latest"
+name = "Grok Voice"
+release_date = "1785283200"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = true
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]

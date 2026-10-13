@@ -1,0 +1,20 @@
+id = "scaleway/qwen3-235b-a22b-instruct-2507"
+name = "scaleway/qwen3-235b-a22b-instruct-2507"
+release_date = "1754049528"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 250000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8385753610905506
+output = 2.5157260832716513

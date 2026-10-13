@@ -1,0 +1,20 @@
+id = "qwen/qwen-vl-ocr"
+name = "qwen/qwen-vl-ocr"
+release_date = "1785415829"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 38192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.045500000000000006
+output = 0.104

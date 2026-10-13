@@ -1,0 +1,22 @@
+id = "databricks/databricks-gemini-3-5-flash@eu"
+name = "databricks/databricks-gemini-3-5-flash@eu"
+release_date = "1785417770"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1499995
+cache_write = 1.87502
+input = 1.499995
+output = 8.99997

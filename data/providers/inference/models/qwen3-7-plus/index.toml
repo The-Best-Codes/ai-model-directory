@@ -1,0 +1,19 @@
+id = "qwen3.7-plus"
+name = "qwen3.7-plus"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08
+input = 0.4
+output = 1.6

@@ -1,0 +1,15 @@
+id = "google/google/gemini-3.1-pro-preview"
+name = "google/google/gemini-3.1-pro-preview"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.20352765906174
+input = 2.03527211044176
+output = 12.21162930251883

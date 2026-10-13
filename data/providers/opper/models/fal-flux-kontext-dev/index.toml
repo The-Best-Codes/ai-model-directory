@@ -1,0 +1,10 @@
+id = "fal/flux-kontext-dev"
+name = "FLUX.1 Kontext [dev]"
+release_date = "1750896000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,25 @@
+id = "gemini-2.5-flash"
+knowledge_cutoff = "1738281600"
+name = "Google: Gemini 2.5 Flash"
+release_date = "1750172488"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+input = 1000000
+output = 65535
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02682
+input = 0.2682
+output = 2.23499106

@@ -1,0 +1,14 @@
+id = "auto/google/gemini-3.5-transcribe"
+name = "auto/google/gemini-3.5-transcribe"
+
+[features]
+attachment = true
+tool_call = false
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.0352721104417597
+output = 12.21162930251883

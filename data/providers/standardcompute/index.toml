@@ -1,0 +1,7 @@
+name = "Standard Compute"
+website = "https://standardcompute.com"
+apiBaseUrl = "https://api.stdcmpt.com/v1"
+
+[aiSdk]
+npmPackage = "@openrouter/ai-sdk-provider"
+defaultApiKeyEnv = ["STANDARDCOMPUTE_API_KEY"]

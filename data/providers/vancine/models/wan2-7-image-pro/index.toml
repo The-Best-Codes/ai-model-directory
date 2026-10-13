@@ -1,0 +1,5 @@
+id = "wan2.7-image-pro"
+name = "wan2.7-image-pro"
+
+[modalities]
+output = [ "image" ]

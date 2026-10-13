@@ -1,0 +1,6 @@
+id = "Qwen/Qwen3-Embedding-8B"
+name = "Qwen/Qwen3-Embedding-8B"
+
+[pricing]
+input = 0.0176973693085
+output = 0.0176973693085

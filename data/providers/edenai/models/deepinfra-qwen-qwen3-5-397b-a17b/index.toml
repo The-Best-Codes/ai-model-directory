@@ -1,0 +1,21 @@
+id = "deepinfra/Qwen/Qwen3.5-397B-A17B"
+name = "deepinfra/Qwen/Qwen3.5-397B-A17B"
+release_date = "1771223018"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2200000005
+input = 0.45
+output = 2.9999999999999996

@@ -1,0 +1,9 @@
+id = "eleven_v4_ivc"
+name = "Eleven V4 IVC"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

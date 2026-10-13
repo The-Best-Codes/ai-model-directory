@@ -1,0 +1,22 @@
+id = "databricks/databricks-gpt-5-1@eu"
+name = "databricks/databricks-gpt-5-1@eu"
+release_date = "1769507058"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 272000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.124999
+cache_write = 1.24999
+input = 1.24999
+output = 9.99999

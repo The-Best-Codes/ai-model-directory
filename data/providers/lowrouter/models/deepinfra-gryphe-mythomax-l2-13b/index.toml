@@ -1,0 +1,16 @@
+id = "deepinfra/gryphe/mythomax-l2-13b"
+name = "deepinfra/gryphe/mythomax-l2-13b"
+
+[features]
+attachment = false
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.40705531812348
+output = 0.40705531812348

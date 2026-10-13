@@ -1,0 +1,9 @@
+id = "gemini/gemini-3.5-transcribe"
+name = "Gemini 3.5 Transcribe"
+release_date = "1787702400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text" ]

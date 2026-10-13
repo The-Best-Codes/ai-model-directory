@@ -1,0 +1,13 @@
+id = "auto/anthropic/claude-haiku-4.5/us"
+name = "auto/anthropic/claude-haiku-4.5/us"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

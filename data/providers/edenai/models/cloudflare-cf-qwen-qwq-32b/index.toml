@@ -1,0 +1,20 @@
+id = "cloudflare/@cf/qwen/qwq-32b"
+name = "cloudflare/@cf/qwen/qwq-32b"
+release_date = "1782119040"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 24000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.66
+output = 1

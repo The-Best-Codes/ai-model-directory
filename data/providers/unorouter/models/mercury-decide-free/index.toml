@@ -1,0 +1,17 @@
+id = "mercury-decide:free"
+name = "mercury-decide:free"
+release_date = "1790726400"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+input = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,19 @@
+id = "glm-5.3"
+name = "glm-5.3"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1048576
+output = 943718
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 0.9
+output = 3

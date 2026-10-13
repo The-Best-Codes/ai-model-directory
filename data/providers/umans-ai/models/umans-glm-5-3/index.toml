@@ -1,0 +1,9 @@
+id = "umans-glm-5.3"
+name = "umans-glm-5.3"
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 1.4
+output = 4.4

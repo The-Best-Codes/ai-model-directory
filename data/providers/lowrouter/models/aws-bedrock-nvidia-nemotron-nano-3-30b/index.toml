@@ -1,0 +1,14 @@
+id = "aws-bedrock/nvidia/nemotron-nano-3-30b"
+name = "aws-bedrock/nvidia/nemotron-nano-3-30b"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

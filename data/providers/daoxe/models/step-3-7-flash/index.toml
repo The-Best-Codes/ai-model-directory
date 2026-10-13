@@ -1,0 +1,23 @@
+id = "step-3.7-flash"
+name = "StepFun: Step 3.7 Flash"
+release_date = "1779985069"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 256000
+output = 230400
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.006155606715999999
+input = 0.03077803358
+output = 0.17697369308499997

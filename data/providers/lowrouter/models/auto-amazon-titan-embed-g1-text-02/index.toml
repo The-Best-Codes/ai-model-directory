@@ -1,0 +1,12 @@
+id = "auto/amazon/titan-embed-g1-text-02"
+name = "auto/amazon/titan-embed-g1-text-02"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.10176382953087
+output = 0

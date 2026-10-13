@@ -1,0 +1,17 @@
+id = "villanova-2b-2512-preview-apnea-ft:free"
+name = "villanova-2b-2512-preview-apnea-ft:free"
+release_date = "1764547200"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

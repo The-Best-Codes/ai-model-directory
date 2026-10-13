@@ -1,0 +1,9 @@
+id = "hy-image-v3.5-preview"
+name = "Hy Image 3.5 Preview"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

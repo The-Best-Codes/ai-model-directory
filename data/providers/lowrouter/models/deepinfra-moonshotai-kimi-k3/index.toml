@@ -1,0 +1,19 @@
+id = "deepinfra/moonshotai/kimi-k3"
+name = "deepinfra/moonshotai/kimi-k3"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.29002641014322
+cache_write = 3.62532788670243
+input = 2.90026298138829
+output = 14.50131042676581

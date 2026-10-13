@@ -1,0 +1,13 @@
+id = "mistral:global/voxtral-mini-tts-2603"
+name = "Voxtral TTS"
+release_date = "1774224000"
+
+[features]
+attachment = true
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio" ]

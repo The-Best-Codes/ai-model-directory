@@ -1,0 +1,16 @@
+id = "auto/qwen/qwen3-235b-a22b/eu"
+name = "auto/qwen/qwen3-235b-a22b/eu"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.20352765906174
+output = 0.61058185714131

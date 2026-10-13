@@ -1,0 +1,10 @@
+id = "elevenlabs/eleven_v4_turbo"
+name = "Eleven v4 Turbo"
+release_date = "1790553600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,12 @@
+id = "gemini-2.0-flash"
+name = "gemini-2.0-flash"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.25817690304
+output = 1.03270761216

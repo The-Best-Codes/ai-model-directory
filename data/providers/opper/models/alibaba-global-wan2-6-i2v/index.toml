@@ -1,0 +1,10 @@
+id = "alibaba:global/wan2.6-i2v"
+name = "Wan 2.6 Image-to-Video"
+release_date = "1764720000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "video" ]

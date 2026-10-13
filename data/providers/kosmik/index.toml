@@ -1,0 +1,7 @@
+name = "Kosmik Compute"
+website = "https://koscompute.com"
+apiBaseUrl = "https://api.koscompute.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["KOSMIK_API_KEY"]

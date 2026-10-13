@@ -1,0 +1,21 @@
+id = "tencent/deepseek-v4-pro-0813"
+name = "tencent/deepseek-v4-pro-0813"
+release_date = "1790867221"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.022
+input = 0.66
+output = 1.98

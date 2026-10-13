@@ -1,0 +1,7 @@
+name = "CrossModel"
+website = "https://www.crossmodel.ai"
+apiBaseUrl = "https://api.crossmodel.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["CROSSMODEL_API_KEY"]

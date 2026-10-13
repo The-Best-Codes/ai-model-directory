@@ -1,0 +1,13 @@
+id = "google/google/gemini-3.5-live-translate-preview"
+name = "google/google/gemini-3.5-live-translate-preview"
+
+[features]
+attachment = true
+tool_call = false
+
+[modalities]
+input = [ "audio", "text" ]
+
+[pricing]
+input = 3.56172619327308
+output = 21.37035267946284

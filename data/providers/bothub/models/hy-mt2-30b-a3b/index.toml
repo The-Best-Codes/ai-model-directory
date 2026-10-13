@@ -1,0 +1,15 @@
+id = "hy-mt2-30b-a3b"
+name = "Hy MT2 30B A3B"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 4096
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

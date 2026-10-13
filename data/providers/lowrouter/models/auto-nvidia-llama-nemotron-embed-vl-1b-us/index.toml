@@ -1,0 +1,15 @@
+id = "auto/nvidia/llama-nemotron-embed-vl-1b/us"
+name = "auto/nvidia/llama-nemotron-embed-vl-1b/us"
+
+[features]
+attachment = false
+
+[limit]
+context = 10240
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.01017671896626
+output = 0

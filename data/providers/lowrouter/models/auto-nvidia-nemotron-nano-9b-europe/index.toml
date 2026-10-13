@@ -1,0 +1,14 @@
+id = "auto/nvidia/nemotron-nano-9b/europe"
+name = "auto/nvidia/nemotron-nano-9b/europe"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 131072
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

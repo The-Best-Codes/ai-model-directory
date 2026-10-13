@@ -1,0 +1,10 @@
+id = "slng:us/deepgram/aura:2-en"
+name = "Aura-2"
+release_date = "1744675200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

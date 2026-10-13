@@ -1,0 +1,16 @@
+id = "auto/nousresearch/hermes-3-llama-3.1-70b"
+name = "auto/nousresearch/hermes-3-llama-3.1-70b"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.71234568667218
+output = 0.71234568667218

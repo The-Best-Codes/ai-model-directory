@@ -1,0 +1,18 @@
+id = "deepinfra/nvidia/nemotron-3-ultra-550b-a55b"
+name = "deepinfra/nvidia/nemotron-3-ultra-550b-a55b"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.10176382953087
+cache_write = 0.63602253451305
+input = 0.50881802761044
+output = 2.23879864945959

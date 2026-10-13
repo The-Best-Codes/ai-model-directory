@@ -1,0 +1,14 @@
+id = "cyberrealistic-pony:free"
+name = "cyberrealistic-pony:free"
+release_date = "1740787200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,9 @@
+id = "ltx-2-distilled"
+name = "LTX 2 Distilled"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

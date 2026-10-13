@@ -1,0 +1,9 @@
+id = "speech-02-turbo"
+name = "Speech 02 Turbo"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

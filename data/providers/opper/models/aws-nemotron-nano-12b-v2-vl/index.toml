@@ -1,0 +1,22 @@
+id = "aws/nemotron-nano-12b-v2-vl"
+name = "Nemotron Nano 12B v2 VL"
+release_date = "1761609600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.24

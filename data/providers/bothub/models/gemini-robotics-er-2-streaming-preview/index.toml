@@ -1,0 +1,15 @@
+id = "gemini-robotics-er-2-streaming-preview"
+name = "gemini-robotics-er-2-streaming-preview"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

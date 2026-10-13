@@ -1,0 +1,17 @@
+id = "deepinfra/nvidia/nemotron-3.5-lightning"
+name = "deepinfra/nvidia/nemotron-3.5-lightning"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03053015689878
+input = 0.06105919375365
+output = 0.16282190324061

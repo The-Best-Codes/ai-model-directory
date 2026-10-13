@@ -1,0 +1,12 @@
+id = "deepinfra/sentence-transformers/paraphrase-minilm-l6"
+name = "deepinfra/sentence-transformers/paraphrase-minilm-l6"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00508835948313
+output = 0

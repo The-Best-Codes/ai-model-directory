@@ -1,0 +1,9 @@
+id = "flux-pro"
+name = "FLUX Pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

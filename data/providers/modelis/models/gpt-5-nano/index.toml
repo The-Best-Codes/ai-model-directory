@@ -1,0 +1,24 @@
+id = "gpt-5-nano"
+knowledge_cutoff = "1717113600"
+name = "OpenAI: GPT-5 Nano"
+release_date = "1754587402"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 400000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.012908845152
+input = 0.12908845152
+output = 1.03270761216

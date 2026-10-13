@@ -1,0 +1,7 @@
+name = "Engy"
+website = "https://engy.ai"
+apiBaseUrl = "https://api.engy.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ENGY_API_KEY"]

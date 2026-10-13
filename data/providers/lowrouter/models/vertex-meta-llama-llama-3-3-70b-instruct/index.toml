@@ -1,0 +1,13 @@
+id = "vertex/meta-llama/llama-3.3-70b-instruct"
+name = "vertex/meta-llama/llama-3.3-70b-instruct"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.73269800456079
+output = 0.73269800456079

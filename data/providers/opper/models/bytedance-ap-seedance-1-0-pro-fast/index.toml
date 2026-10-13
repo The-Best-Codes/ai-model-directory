@@ -1,0 +1,9 @@
+id = "bytedance:ap/seedance-1.0-pro-fast"
+name = "Seedance 1.0 Pro Fast"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

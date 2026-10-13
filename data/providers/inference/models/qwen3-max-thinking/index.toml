@@ -1,0 +1,18 @@
+id = "qwen3-max-thinking"
+name = "qwen3-max-thinking"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.78
+output = 3.9

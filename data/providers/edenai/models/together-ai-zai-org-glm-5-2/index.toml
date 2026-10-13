@@ -1,0 +1,21 @@
+id = "together_ai/zai-org/GLM-5.2"
+name = "together_ai/zai-org/GLM-5.2"
+release_date = "1781631930"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048575
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25999999999999995
+input = 1.4
+output = 4.4

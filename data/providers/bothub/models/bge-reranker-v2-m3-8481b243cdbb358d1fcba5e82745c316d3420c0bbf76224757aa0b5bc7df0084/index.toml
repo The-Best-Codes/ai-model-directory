@@ -1,0 +1,8 @@
+id = "bge-reranker-v2-m3:8481b243cdbb358d1fcba5e82745c316d3420c0bbf76224757aa0b5bc7df0084"
+name = "bge-reranker-v2-m3:8481b243cdbb358d1fcba5e82745c316d3420c0bbf76224757aa0b5bc7df0084"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

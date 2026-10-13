@@ -1,0 +1,18 @@
+id = "vertex/qwen/qwen3-coder-480b-a35b-instruct"
+name = "vertex/qwen/qwen3-coder-480b-a35b-instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0224008782
+input = 0.224008782
+output = 1.8144711342

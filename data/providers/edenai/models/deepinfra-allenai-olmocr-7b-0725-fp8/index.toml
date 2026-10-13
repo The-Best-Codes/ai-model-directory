@@ -1,0 +1,20 @@
+id = "deepinfra/allenai/olmOCR-7B-0725-FP8"
+name = "deepinfra/allenai/olmOCR-7B-0725-FP8"
+release_date = "1780377273"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.27
+output = 1.5

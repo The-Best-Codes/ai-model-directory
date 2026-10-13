@@ -1,0 +1,21 @@
+id = "perplexityai/sonar-deep-research"
+name = "perplexityai/sonar-deep-research"
+release_date = "1741311246"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 8
+reasoning = 3

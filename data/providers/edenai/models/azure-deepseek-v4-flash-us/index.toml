@@ -1,0 +1,21 @@
+id = "azure/deepseek-v4-flash@us"
+name = "azure/deepseek-v4-flash@us"
+release_date = "1786613111"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.030800000000000004
+input = 0.20900000000000002
+output = 0.561

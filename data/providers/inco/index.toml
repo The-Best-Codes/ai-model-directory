@@ -1,0 +1,7 @@
+name = "Inco"
+website = "https://inco.ai"
+apiBaseUrl = "https://api.inco.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["INCO_API_KEY"]

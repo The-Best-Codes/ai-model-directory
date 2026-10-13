@@ -1,0 +1,10 @@
+id = "openai/gpt-image-1.5"
+name = "GPT Image 1.5"
+release_date = "1765843200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

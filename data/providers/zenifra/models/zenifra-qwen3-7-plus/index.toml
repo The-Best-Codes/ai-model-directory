@@ -1,0 +1,22 @@
+id = "zenifra/qwen3.7-plus"
+name = "zenifra/qwen3.7-plus"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.4
+input = 1.5
+output = 5.7

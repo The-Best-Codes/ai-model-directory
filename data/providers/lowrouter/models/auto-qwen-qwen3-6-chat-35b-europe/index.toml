@@ -1,0 +1,18 @@
+id = "auto/qwen/qwen3.6-chat-35b/europe"
+name = "auto/qwen/qwen3.6-chat-35b/europe"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 256000
+output = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1680065865
+output = 0.560021955

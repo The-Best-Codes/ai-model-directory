@@ -1,0 +1,14 @@
+id = "absolutereality:free"
+name = "absolutereality:free"
+release_date = "1685491200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

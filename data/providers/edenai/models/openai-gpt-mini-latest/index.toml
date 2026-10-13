@@ -1,0 +1,21 @@
+id = "openai/gpt-mini-latest"
+name = "openai/gpt-mini-latest"
+release_date = "1773748178"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 400000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.75
+output = 4.5

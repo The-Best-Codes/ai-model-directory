@@ -1,0 +1,10 @@
+id = "cyberrealistic-pony"
+name = "cyberrealistic-pony"
+release_date = "1740787200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

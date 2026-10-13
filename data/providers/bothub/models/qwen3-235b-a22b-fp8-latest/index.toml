@@ -1,0 +1,15 @@
+id = "qwen3-235b-a22b-fp8/latest"
+name = "qwen3-235b-a22b-fp8/latest"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+output = 262144
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

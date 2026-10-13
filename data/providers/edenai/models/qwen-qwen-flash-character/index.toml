@@ -1,0 +1,21 @@
+id = "qwen/qwen-flash-character"
+name = "qwen/qwen-flash-character"
+release_date = "1785412138"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0065
+input = 0.03250000000000001
+output = 0.26000000000000006

@@ -1,0 +1,15 @@
+id = "deepinfra/google/embeddinggemma-300m"
+name = "deepinfra/google/embeddinggemma-300m"
+
+[features]
+attachment = false
+
+[limit]
+context = 2048
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00203623982838
+output = 0

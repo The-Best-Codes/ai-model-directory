@@ -1,0 +1,15 @@
+id = "openai/whisper-large-v3-turbo"
+name = "OpenAI: Whisper Large v3 Turbo"
+release_date = "1780704000"
+
+[features]
+attachment = true
+temperature = true
+
+[limit]
+context = 448
+output = 448
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

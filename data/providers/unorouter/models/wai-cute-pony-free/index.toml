@@ -1,0 +1,14 @@
+id = "wai-cute-pony:free"
+name = "wai-cute-pony:free"
+release_date = "1715472000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

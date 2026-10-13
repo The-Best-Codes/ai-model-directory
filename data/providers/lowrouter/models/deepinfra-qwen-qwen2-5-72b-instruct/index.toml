@@ -1,0 +1,16 @@
+id = "deepinfra/qwen/qwen2.5-72b-instruct"
+name = "deepinfra/qwen/qwen2.5-72b-instruct"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.36634956230235
+output = 0.40705531812348

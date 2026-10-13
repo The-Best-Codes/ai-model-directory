@@ -1,0 +1,18 @@
+id = "gpt-4o-mini"
+name = "gpt-4o-mini"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.15
+output = 0.6

@@ -1,0 +1,17 @@
+id = "auto/qwen/qwen3.6-27b/eu"
+name = "auto/qwen/qwen3.6-27b/eu"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 262000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.448017564
+output = 3.0241185569999995
