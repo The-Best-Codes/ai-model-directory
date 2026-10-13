@@ -1,4 +1,4 @@
-id = "claude-sonnet-4-5"
+id = "claude-sonnet-4.5"
 knowledge_cutoff = "1738281600"
 name = "Anthropic: Claude Sonnet 4.5"
 release_date = "1759161676"

@@ -1,0 +1,15 @@
+id = "meta/muse-spark-1.3"
+name = "Muse Spark 1.3"
+
+[features]
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.16
+input = 1.25
+output = 4.25

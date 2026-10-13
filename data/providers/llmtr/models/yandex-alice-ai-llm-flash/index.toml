@@ -1,0 +1,19 @@
+id = "yandex/alice-ai-llm-flash"
+name = "Alice AI LLM Flash"
+release_date = "1791794408"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.204918
+input = 0.819672
+output = 1.639344

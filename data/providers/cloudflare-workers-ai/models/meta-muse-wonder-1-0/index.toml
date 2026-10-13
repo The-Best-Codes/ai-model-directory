@@ -1,0 +1,15 @@
+id = "meta/muse-wonder-1.0"
+name = "Muse Wonder 1.0"
+
+[features]
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 4
+output = 20

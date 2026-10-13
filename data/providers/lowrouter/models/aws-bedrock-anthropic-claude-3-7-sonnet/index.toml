@@ -1,0 +1,9 @@
+id = "aws-bedrock/anthropic/claude-3.7-sonnet"
+name = "aws-bedrock/anthropic/claude-3.7-sonnet"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

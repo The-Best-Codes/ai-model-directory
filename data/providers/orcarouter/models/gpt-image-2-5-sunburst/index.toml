@@ -1,0 +1,5 @@
+id = "gpt-image-2.5-sunburst"
+
+[pricing]
+input = 8
+output = 30

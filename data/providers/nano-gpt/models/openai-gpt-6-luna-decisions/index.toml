@@ -1,0 +1,19 @@
+id = "openai/gpt-6-luna-decisions"
+name = "GPT-6 Luna Decisions"
+release_date = "1791417600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.1
+output = 0

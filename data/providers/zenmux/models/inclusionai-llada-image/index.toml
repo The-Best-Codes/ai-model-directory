@@ -1,0 +1,14 @@
+id = "inclusionai/llada-image"
+name = "inclusionAI: LLaDA-Image"
+release_date = "1791861343"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 2000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

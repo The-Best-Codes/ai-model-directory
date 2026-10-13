@@ -4,10 +4,16 @@ release_date = "1774580060"
 
 [features]
 attachment = false
+reasoning = false
 
 [limit]
-context = 262144
+context = 1048576
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.0263631
+input = 0.1318155
+output = 1.0984625

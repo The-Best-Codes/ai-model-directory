@@ -1,0 +1,12 @@
+id = "hy4"
+name = "hy4"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 75
+output = 75

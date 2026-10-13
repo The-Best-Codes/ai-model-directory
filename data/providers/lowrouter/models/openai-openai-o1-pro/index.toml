@@ -14,5 +14,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 152.6453634813756
-output = 610.581409123746
+input = 152.64518427435
+output = 610.5807370974

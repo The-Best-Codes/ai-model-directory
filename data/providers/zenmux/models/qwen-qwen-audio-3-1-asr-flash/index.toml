@@ -1,0 +1,17 @@
+id = "qwen/qwen-audio-3.1-asr-flash"
+name = "Qwen: Qwen-Audio-3.1-ASR-Flash"
+release_date = "1790664284"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+input_audio = 0.12
+output = 0.41

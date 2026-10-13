@@ -1,0 +1,21 @@
+id = "google/gemini-3.5-flash-lite-batch"
+name = "Gemini 3.5 Flash Lite (Batch)"
+release_date = "1784592000"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65000
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.15
+output = 1.25

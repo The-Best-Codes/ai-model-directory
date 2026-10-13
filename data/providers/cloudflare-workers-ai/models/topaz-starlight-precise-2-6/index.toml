@@ -1,0 +1,9 @@
+id = "topaz/starlight-precise-2-6"
+name = "Starlight Precise 2.6"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "video" ]

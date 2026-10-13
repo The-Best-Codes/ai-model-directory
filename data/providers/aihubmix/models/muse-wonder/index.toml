@@ -1,0 +1,19 @@
+id = "muse-wonder"
+name = "muse-wonder"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.22
+input = 4.4
+output = 22

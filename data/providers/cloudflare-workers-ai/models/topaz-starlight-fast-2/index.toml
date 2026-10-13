@@ -1,0 +1,9 @@
+id = "topaz/starlight-fast-2"
+name = "Starlight Fast 2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "video" ]

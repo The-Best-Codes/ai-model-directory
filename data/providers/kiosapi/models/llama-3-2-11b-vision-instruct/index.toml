@@ -1,0 +1,12 @@
+id = "llama-3.2-11b-vision-instruct"
+name = "llama-3.2-11b-vision-instruct"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

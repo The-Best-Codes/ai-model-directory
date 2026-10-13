@@ -1,0 +1,16 @@
+id = "google/gemini-3.8-flash-tts"
+name = "Gemini 3.8 Flash TTS"
+release_date = "1790228933"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.5

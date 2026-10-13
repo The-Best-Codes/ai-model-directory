@@ -1,6 +1,6 @@
 id = "qwen-image"
 name = "qwen-image"
-release_date = "1791785537"
+release_date = "1791861590"
 
 [features]
 attachment = false
@@ -10,5 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 9.48
+input = 68.35
 output = 0.02
