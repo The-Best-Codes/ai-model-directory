@@ -1,0 +1,18 @@
+id = "glm-4.5-air"
+name = "GLM-4.5-Air"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0239052688
+input = 0.119526344
+output = 0.29881586

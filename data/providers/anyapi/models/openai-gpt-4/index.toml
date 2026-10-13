@@ -1,0 +1,15 @@
+id = "openai/gpt-4"
+knowledge_cutoff = "1678752000"
+name = "OpenAI: GPT-4"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 8191
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

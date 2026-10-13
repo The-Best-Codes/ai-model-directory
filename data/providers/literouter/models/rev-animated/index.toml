@@ -1,0 +1,4 @@
+id = "rev-animated"
+
+[modalities]
+output = [ "image" ]

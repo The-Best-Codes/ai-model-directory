@@ -1,0 +1,14 @@
+id = "glm-ocr"
+name = "GLM-OCR"
+
+[features]
+attachment = true
+temperature = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.03
+output = 0.03

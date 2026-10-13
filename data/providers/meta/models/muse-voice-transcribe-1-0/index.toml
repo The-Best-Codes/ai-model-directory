@@ -1,0 +1,9 @@
+id = "muse-voice-transcribe-1.0"
+name = "Muse Voice Transcribe 1.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

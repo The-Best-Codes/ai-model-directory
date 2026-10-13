@@ -1,0 +1,10 @@
+id = "typhoon-isan-asr-realtime"
+name = "typhoon-isan-asr-realtime"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

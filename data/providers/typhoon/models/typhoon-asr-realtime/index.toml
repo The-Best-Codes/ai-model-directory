@@ -1,0 +1,11 @@
+id = "typhoon-asr-realtime"
+name = "typhoon-asr-realtime"
+open_weights = true
+release_date = "1757289600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

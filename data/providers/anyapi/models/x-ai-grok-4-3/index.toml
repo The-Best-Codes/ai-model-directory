@@ -1,0 +1,15 @@
+id = "x-ai/grok-4.3"
+knowledge_cutoff = "1775001600"
+name = "xAI: Grok 4.3"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 1000000
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "text" ]

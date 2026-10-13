@@ -1,0 +1,11 @@
+id = "z-ai/glm-4.6"
+name = "Z.AI: GLM 4.6"
+
+[features]
+attachment = true
+
+[limit]
+context = 204800
+
+[modalities]
+input = [ "file", "image", "text" ]

@@ -1,0 +1,15 @@
+id = "minimax/minimax-m2-her"
+knowledge_cutoff = "1759276800"
+name = "MiniMax: MiniMax M2-her"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 65536
+output = 2048
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

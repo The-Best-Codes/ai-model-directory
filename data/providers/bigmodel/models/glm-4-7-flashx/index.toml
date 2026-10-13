@@ -1,0 +1,18 @@
+id = "glm-4.7-flashx"
+name = "GLM-4.7-FlashX"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.014940793
+input = 0.074703965
+output = 0.44822379

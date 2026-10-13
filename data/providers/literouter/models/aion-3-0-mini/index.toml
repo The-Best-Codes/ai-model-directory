@@ -1,0 +1,4 @@
+id = "aion-3.0-mini"
+
+[modalities]
+output = [ "text" ]

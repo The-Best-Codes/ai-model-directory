@@ -1,0 +1,15 @@
+id = "qwen/qwen3-vl-plus"
+knowledge_cutoff = "1756684800"
+name = "Qwen: Qwen3 VL Plus"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

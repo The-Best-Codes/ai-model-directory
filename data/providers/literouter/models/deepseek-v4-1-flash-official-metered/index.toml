@@ -1,0 +1,4 @@
+id = "deepseek-v4.1-flash-official:metered"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,17 @@
+id = "glm-4-airx"
+name = "GLM-4-AirX"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.4940793
+output = 1.4940793

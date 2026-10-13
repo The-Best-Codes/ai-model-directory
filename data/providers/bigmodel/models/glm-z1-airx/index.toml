@@ -1,0 +1,18 @@
+id = "glm-z1-airx"
+name = "GLM-Z1-AirX"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.74703965
+output = 0.74703965

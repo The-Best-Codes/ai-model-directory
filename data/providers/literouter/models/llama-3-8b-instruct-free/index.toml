@@ -1,0 +1,4 @@
+id = "llama-3-8b-instruct:free"
+
+[modalities]
+output = [ "text" ]

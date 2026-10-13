@@ -1,0 +1,4 @@
+id = "claude-opus-5-code:metered:full-context"
+
+[modalities]
+output = [ "text" ]

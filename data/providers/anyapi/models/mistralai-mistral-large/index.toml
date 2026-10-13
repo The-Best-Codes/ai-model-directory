@@ -1,0 +1,15 @@
+id = "mistralai/mistral-large"
+knowledge_cutoff = "1730419200"
+name = "Mistral: Mistral Large"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 128000
+output = 102400
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

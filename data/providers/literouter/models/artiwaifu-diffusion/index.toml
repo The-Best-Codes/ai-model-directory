@@ -1,0 +1,4 @@
+id = "artiwaifu-diffusion"
+
+[modalities]
+output = [ "image" ]

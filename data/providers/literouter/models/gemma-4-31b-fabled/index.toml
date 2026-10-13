@@ -1,0 +1,4 @@
+id = "gemma-4-31b-fabled"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,4 @@
+id = "qwen3-coder-next:full-context"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,15 @@
+id = "z-ai/glm-5.3-flash"
+knowledge_cutoff = "1785542400"
+name = "Z.ai: GLM 5.3 Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,4 @@
+id = "crystal-clear-xlightning"
+
+[modalities]
+output = [ "image" ]

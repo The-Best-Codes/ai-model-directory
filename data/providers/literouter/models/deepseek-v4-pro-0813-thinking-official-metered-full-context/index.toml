@@ -1,0 +1,4 @@
+id = "deepseek-v4-pro-0813-thinking-official:metered:full-context"
+
+[modalities]
+output = [ "text" ]

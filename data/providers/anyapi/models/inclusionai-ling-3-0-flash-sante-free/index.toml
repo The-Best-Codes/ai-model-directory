@@ -1,0 +1,15 @@
+id = "inclusionai/ling-3.0-flash-sante:free"
+knowledge_cutoff = "1788220800"
+name = "inclusionAI: Ling 3.0 Flash Sante (free)"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

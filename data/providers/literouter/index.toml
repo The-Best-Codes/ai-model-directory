@@ -1,0 +1,7 @@
+name = "LiteRouter"
+website = "https://literouter.com"
+apiBaseUrl = "https://api.literouter.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["LITEROUTER_API_KEY"]

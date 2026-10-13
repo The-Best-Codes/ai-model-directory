@@ -1,0 +1,15 @@
+id = "openai/gpt-3.5-turbo-instruct"
+knowledge_cutoff = "1693526400"
+name = "OpenAI: GPT-3.5 Turbo Instruct"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 4095
+output = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

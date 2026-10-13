@@ -1,0 +1,15 @@
+id = "glm-5"
+name = "GLM-5"
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 1
+output = 3.2

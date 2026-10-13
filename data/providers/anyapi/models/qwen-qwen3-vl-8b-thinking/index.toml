@@ -1,0 +1,11 @@
+id = "qwen/qwen3-vl-8b-thinking"
+name = "Qwen: Qwen3 VL 8B Thinking"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "file", "image", "text" ]

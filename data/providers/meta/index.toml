@@ -1,0 +1,7 @@
+name = "Meta"
+website = "https://dev.meta.ai"
+apiBaseUrl = "https://api.meta.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["MUSE_API_KEY"]

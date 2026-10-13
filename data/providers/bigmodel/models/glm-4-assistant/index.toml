@@ -1,0 +1,17 @@
+id = "glm-4-assistant"
+name = "GLM-4-Assistant"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.74703965
+output = 0.74703965

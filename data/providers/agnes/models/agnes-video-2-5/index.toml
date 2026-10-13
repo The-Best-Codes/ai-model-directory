@@ -1,0 +1,9 @@
+id = "agnes-video-2.5"
+name = "Agnes Video 2.5"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

@@ -1,0 +1,18 @@
+id = "glm-4.5v"
+name = "GLM-4.5V"
+
+[features]
+attachment = true
+temperature = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.059763172
+input = 0.29881586
+output = 0.89644758

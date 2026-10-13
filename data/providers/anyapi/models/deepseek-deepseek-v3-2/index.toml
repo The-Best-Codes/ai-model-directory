@@ -1,0 +1,15 @@
+id = "deepseek/deepseek-v3.2"
+knowledge_cutoff = "1764547200"
+name = "DeepSeek: DeepSeek V3.2"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "text" ]

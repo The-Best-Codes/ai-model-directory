@@ -1,0 +1,15 @@
+id = "Ling-2.6-flash"
+open_weights = true
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0179289516
+input = 0.089644758
+output = 0.268934274

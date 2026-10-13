@@ -1,0 +1,4 @@
+id = "gpt-6-sol-cheap:32k-context"
+
+[modalities]
+output = [ "text" ]

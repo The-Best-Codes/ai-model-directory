@@ -1,0 +1,11 @@
+id = "qwen/qwen3-235b-a22b-thinking-2507"
+name = "Qwen: Qwen3 235B A22B Thinking 2507"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "file", "text" ]

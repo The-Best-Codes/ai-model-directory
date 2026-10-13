@@ -1,0 +1,18 @@
+id = "glm-4.1v-thinking-flashx"
+name = "GLM-4.1V-Thinking-FlashX"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29881586
+output = 0.29881586

@@ -1,0 +1,4 @@
+id = "qwen3.5-plus:32k-context"
+
+[modalities]
+output = [ "text" ]

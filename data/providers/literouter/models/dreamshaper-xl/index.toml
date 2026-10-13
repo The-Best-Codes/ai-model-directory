@@ -1,0 +1,4 @@
+id = "dreamshaper-xl"
+
+[modalities]
+output = [ "image" ]

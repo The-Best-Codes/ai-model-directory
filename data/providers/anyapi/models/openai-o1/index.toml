@@ -1,0 +1,15 @@
+id = "openai/o1"
+knowledge_cutoff = "1733011200"
+name = "OpenAI: o1"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

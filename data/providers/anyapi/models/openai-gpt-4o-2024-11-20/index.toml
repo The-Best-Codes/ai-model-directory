@@ -1,0 +1,15 @@
+id = "openai/gpt-4o-2024-11-20"
+knowledge_cutoff = "1730419200"
+name = "OpenAI: GPT-4o (2024-11-20)"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

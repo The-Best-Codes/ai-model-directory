@@ -1,0 +1,4 @@
+id = "claude-sonnet-5-thinking-stable:metered:full-context"
+
+[modalities]
+output = [ "text" ]

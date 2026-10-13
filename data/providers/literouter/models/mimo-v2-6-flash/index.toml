@@ -1,0 +1,4 @@
+id = "mimo-v2.6-flash"
+
+[modalities]
+output = [ "text" ]

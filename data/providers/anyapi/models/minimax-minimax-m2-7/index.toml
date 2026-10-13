@@ -1,0 +1,15 @@
+id = "minimax/minimax-m2.7"
+knowledge_cutoff = "1772323200"
+name = "MiniMax: MiniMax M2.7"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 196608
+output = 176947
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

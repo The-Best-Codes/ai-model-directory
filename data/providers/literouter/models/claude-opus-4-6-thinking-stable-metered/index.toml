@@ -1,0 +1,4 @@
+id = "claude-opus-4.6-thinking-stable:metered"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,15 @@
+id = "google/gemini-3.1-flash-image"
+knowledge_cutoff = "1769904000"
+name = "Google: Gemini 3.1 Flash Image"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 65536
+output = 65536
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "image", "text" ]

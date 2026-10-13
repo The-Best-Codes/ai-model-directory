@@ -1,0 +1,4 @@
+id = "gpt-5.3-codex:256k-context"
+
+[modalities]
+output = [ "text" ]

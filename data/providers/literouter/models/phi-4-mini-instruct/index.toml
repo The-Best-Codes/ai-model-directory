@@ -1,0 +1,4 @@
+id = "phi-4-mini-instruct"
+
+[modalities]
+output = [ "text" ]

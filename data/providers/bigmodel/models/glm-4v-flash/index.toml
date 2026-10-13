@@ -1,0 +1,17 @@
+id = "glm-4v-flash"
+name = "GLM-4V-Flash"
+
+[features]
+attachment = true
+temperature = true
+
+[limit]
+context = 4000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

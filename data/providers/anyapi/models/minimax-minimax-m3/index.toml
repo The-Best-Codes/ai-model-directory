@@ -1,0 +1,15 @@
+id = "minimax/minimax-m3"
+knowledge_cutoff = "1780272000"
+name = "MiniMax: MiniMax M3"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 524288
+output = 512000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

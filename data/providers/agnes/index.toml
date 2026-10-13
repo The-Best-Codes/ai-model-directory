@@ -1,0 +1,7 @@
+name = "Agnes"
+website = "https://agnes-ai.com"
+apiBaseUrl = "https://apihub.agnes-ai.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["AGNES_API_KEY"]

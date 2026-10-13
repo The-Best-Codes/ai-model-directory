@@ -1,0 +1,15 @@
+id = "glm-4.5-x"
+name = "GLM-4.5-X"
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.45
+input = 2.2
+output = 8.9

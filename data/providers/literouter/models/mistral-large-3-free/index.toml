@@ -1,0 +1,4 @@
+id = "mistral-large-3:free"
+
+[modalities]
+output = [ "text" ]

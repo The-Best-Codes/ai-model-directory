@@ -1,0 +1,11 @@
+id = "writer/palmyra-x5"
+name = "Writer: Palmyra X5"
+
+[features]
+attachment = true
+
+[limit]
+context = 1040000
+
+[modalities]
+input = [ "file", "text" ]

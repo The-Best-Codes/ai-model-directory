@@ -1,0 +1,4 @@
+id = "fluently-xl"
+
+[modalities]
+output = [ "image" ]

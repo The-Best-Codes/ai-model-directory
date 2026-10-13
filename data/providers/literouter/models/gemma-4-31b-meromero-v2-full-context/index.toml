@@ -1,0 +1,4 @@
+id = "gemma-4-31b-meromero-v2:full-context"
+
+[modalities]
+output = [ "text" ]

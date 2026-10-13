@@ -1,0 +1,11 @@
+id = "deepseek/deepseek-v3.1-terminus"
+name = "DeepSeek: DeepSeek V3.1 Terminus"
+
+[features]
+attachment = true
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "file", "text" ]

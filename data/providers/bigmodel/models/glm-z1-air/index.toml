@@ -1,0 +1,18 @@
+id = "glm-z1-air"
+name = "GLM-Z1-Air"
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.074703965
+output = 0.074703965

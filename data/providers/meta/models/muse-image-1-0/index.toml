@@ -1,0 +1,9 @@
+id = "muse-image-1.0"
+name = "Muse Image 1.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,4 @@
+id = "2dn-pony-v2"
+
+[modalities]
+output = [ "image" ]

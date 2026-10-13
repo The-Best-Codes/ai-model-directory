@@ -1,0 +1,4 @@
+id = "claude-fable-5-code:metered"
+
+[modalities]
+output = [ "text" ]

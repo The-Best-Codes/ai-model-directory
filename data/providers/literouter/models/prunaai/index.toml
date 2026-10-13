@@ -1,0 +1,4 @@
+id = "prunaai"
+
+[modalities]
+output = [ "image" ]

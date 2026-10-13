@@ -1,0 +1,15 @@
+id = "openai/gpt-5.2-chat"
+knowledge_cutoff = "1764547200"
+name = "OpenAI: GPT-5.2 Chat"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 128000
+output = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

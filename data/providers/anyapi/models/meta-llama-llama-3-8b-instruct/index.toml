@@ -1,0 +1,10 @@
+id = "meta-llama/llama-3-8b-instruct"
+knowledge_cutoff = "1711929600"
+name = "Meta: Llama 3 8B Instruct"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]

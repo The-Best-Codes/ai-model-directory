@@ -1,0 +1,4 @@
+id = "minimax-m2.7-cheap"
+
+[modalities]
+output = [ "text" ]

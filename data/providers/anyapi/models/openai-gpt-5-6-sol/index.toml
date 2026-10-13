@@ -1,0 +1,15 @@
+id = "openai/gpt-5.6-sol"
+knowledge_cutoff = "1782864000"
+name = "OpenAI: GPT-5.6 Sol"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

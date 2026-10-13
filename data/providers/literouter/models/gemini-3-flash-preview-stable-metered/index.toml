@@ -1,0 +1,4 @@
+id = "gemini-3-flash-preview-stable:metered"
+
+[modalities]
+output = [ "text" ]

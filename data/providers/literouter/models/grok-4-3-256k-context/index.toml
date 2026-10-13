@@ -1,0 +1,4 @@
+id = "grok-4.3:256k-context"
+
+[modalities]
+output = [ "text" ]

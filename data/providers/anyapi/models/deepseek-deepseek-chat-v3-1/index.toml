@@ -1,0 +1,11 @@
+id = "deepseek/deepseek-chat-v3.1"
+name = "DeepSeek: DeepSeek V3.1"
+
+[features]
+attachment = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text", "video" ]

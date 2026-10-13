@@ -1,0 +1,4 @@
+id = "sdxl-turbo"
+
+[modalities]
+output = [ "image" ]

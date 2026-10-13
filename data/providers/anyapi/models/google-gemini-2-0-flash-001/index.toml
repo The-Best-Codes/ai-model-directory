@@ -1,0 +1,15 @@
+id = "google/gemini-2.0-flash-001"
+knowledge_cutoff = "1738368000"
+name = "Google: Gemini 2.0 Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 8192
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]

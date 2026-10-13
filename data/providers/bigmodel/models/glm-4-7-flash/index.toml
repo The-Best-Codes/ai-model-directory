@@ -1,0 +1,18 @@
+id = "glm-4.7-flash"
+name = "GLM-4.7-Flash"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

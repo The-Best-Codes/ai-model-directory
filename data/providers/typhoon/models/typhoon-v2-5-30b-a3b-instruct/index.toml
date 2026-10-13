@@ -1,0 +1,15 @@
+id = "typhoon-v2.5-30b-a3b-instruct"
+name = "typhoon-v2.5-30b-a3b-instruct"
+open_weights = true
+release_date = "1760918400"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

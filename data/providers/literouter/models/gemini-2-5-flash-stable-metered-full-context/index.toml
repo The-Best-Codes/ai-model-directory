@@ -1,0 +1,4 @@
+id = "gemini-2.5-flash-stable:metered:full-context"
+
+[modalities]
+output = [ "text" ]

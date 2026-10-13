@@ -1,0 +1,4 @@
+id = "claude-sonnet-4.6-code:metered:full-context"
+
+[modalities]
+output = [ "text" ]

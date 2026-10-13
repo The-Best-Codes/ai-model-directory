@@ -1,0 +1,10 @@
+id = "typhoon-ocr-preview"
+name = "typhoon-ocr-preview"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

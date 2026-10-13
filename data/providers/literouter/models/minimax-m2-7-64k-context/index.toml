@@ -1,0 +1,4 @@
+id = "minimax-m2.7:64k-context"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,4 @@
+id = "minimax-m3-cheap:full-context"
+
+[modalities]
+output = [ "text" ]

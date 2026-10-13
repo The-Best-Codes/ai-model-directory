@@ -1,0 +1,4 @@
+id = "gemini-3-flash-preview-vertex:metered:full-context"
+
+[modalities]
+output = [ "text" ]

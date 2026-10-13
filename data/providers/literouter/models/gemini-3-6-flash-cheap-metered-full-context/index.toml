@@ -1,0 +1,4 @@
+id = "gemini-3.6-flash-cheap:metered:full-context"
+
+[modalities]
+output = [ "text" ]

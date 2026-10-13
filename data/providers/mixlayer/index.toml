@@ -1,0 +1,7 @@
+name = "Mixlayer"
+website = "https://www.mixlayer.com"
+apiBaseUrl = "https://models.mixlayer.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["MIXLAYER_API_KEY"]

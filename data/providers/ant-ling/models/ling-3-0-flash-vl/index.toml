@@ -1,0 +1,19 @@
+id = "Ling-3.0-flash-VL"
+open_weights = true
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.00418342204
+input = 0.0209171102
+output = 0.0627513306

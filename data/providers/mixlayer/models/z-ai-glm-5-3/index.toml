@@ -1,0 +1,17 @@
+id = "z-ai/glm-5.3"
+open_weights = true
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 262000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.15
+output = 3.9

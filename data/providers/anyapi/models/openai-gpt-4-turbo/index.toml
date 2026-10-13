@@ -1,0 +1,15 @@
+id = "openai/gpt-4-turbo"
+knowledge_cutoff = "1711929600"
+name = "OpenAI: GPT-4 Turbo"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

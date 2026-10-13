@@ -1,0 +1,4 @@
+id = "gpt-5.6-terra:metered:full-context"
+
+[modalities]
+output = [ "text" ]

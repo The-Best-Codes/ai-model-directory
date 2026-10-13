@@ -1,17 +1,21 @@
 import type { ProviderDefinition } from "./types.ts";
 import { ai302Provider } from "./302ai.ts";
 import { abacusProvider } from "./abacus.ts";
+import { agnesProvider } from "./agnes.ts";
 import { aigatewayProvider } from "./aigateway.ts";
 import { aihubmixProvider } from "./aihubmix.ts";
 import { aionProvider } from "./aion.ts";
 import { alibabaCnProvider } from "./alibaba-cn.ts";
 import { ambientProvider } from "./ambient.ts";
+import { antLingProvider } from "./ant-ling.ts";
 import { anthropicProvider } from "./anthropic.ts";
+import { anyapiProvider } from "./anyapi.ts";
 import { apiAirforceProvider } from "./api-airforce.ts";
 import { avianProvider } from "./avian.ts";
 import { basetenProvider } from "./baseten.ts";
 import { bazaarlinkProvider } from "./bazaarlink.ts";
 import { bergetProvider } from "./berget.ts";
+import { bigmodelProvider } from "./bigmodel.ts";
 import { cerebrasProvider } from "./cerebras.ts";
 import { chutesProvider } from "./chutes.ts";
 import { cloudflareWorkersAiProvider } from "./cloudflare-workers-ai.ts";
@@ -39,10 +43,13 @@ import { jiekouProvider } from "./jiekou.ts";
 import { kenariProvider } from "./kenari.ts";
 import { kiloProvider } from "./kilo.ts";
 import { kiosapiProvider } from "./kiosapi.ts";
+import { literouterProvider } from "./literouter.ts";
 import { llmgatewayProvider } from "./llmgateway.ts";
 import { llmtrProvider } from "./llmtr.ts";
 import { meganovaProvider } from "./meganova.ts";
+import { metaProvider } from "./meta.ts";
 import { mistralProvider } from "./mistral.ts";
+import { mixlayerProvider } from "./mixlayer.ts";
 import { mnnProvider } from "./mnn.ts";
 import { moarkProvider } from "./moark.ts";
 import { modelscopeProvider } from "./modelscope.ts";
@@ -75,6 +82,7 @@ import { tetrateProvider } from "./tetrate.ts";
 import { togetheraiProvider } from "./togetherai.ts";
 import { tokenrouterProvider } from "./tokenrouter.ts";
 import { trustedrouterProvider } from "./trustedrouter.ts";
+import { typhoonProvider } from "./typhoon.ts";
 import { veniceProvider } from "./venice.ts";
 import { vercelProvider } from "./vercel.ts";
 import { voidAiProvider } from "./void-ai.ts";
@@ -82,23 +90,28 @@ import { waferAiProvider } from "./wafer-ai.ts";
 import { wandbProvider } from "./wandb.ts";
 import { xaiProvider } from "./xai.ts";
 import { xpersonaProvider } from "./xpersona.ts";
+import { zaiProvider } from "./zai.ts";
 import { zenmuxProvider } from "./zenmux.ts";
 import { zyloProvider } from "./zylo.ts";
 
 export const providers: ProviderDefinition[] = [
   ai302Provider,
   abacusProvider,
+  agnesProvider,
   aigatewayProvider,
   aihubmixProvider,
   aionProvider,
   alibabaCnProvider,
   ambientProvider,
+  antLingProvider,
   anthropicProvider,
+  anyapiProvider,
   apiAirforceProvider,
   avianProvider,
   basetenProvider,
   bazaarlinkProvider,
   bergetProvider,
+  bigmodelProvider,
   cerebrasProvider,
   chutesProvider,
   cloudflareWorkersAiProvider,
@@ -126,10 +139,13 @@ export const providers: ProviderDefinition[] = [
   kenariProvider,
   kiloProvider,
   kiosapiProvider,
+  literouterProvider,
   llmgatewayProvider,
   llmtrProvider,
   meganovaProvider,
+  metaProvider,
   mistralProvider,
+  mixlayerProvider,
   mnnProvider,
   moarkProvider,
   modelscopeProvider,
@@ -162,6 +178,7 @@ export const providers: ProviderDefinition[] = [
   togetheraiProvider,
   tokenrouterProvider,
   trustedrouterProvider,
+  typhoonProvider,
   veniceProvider,
   vercelProvider,
   voidAiProvider,
@@ -169,6 +186,7 @@ export const providers: ProviderDefinition[] = [
   wandbProvider,
   xaiProvider,
   xpersonaProvider,
+  zaiProvider,
   zenmuxProvider,
   zyloProvider,
 ];

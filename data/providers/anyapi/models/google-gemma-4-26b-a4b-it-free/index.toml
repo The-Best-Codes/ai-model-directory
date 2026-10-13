@@ -1,0 +1,11 @@
+id = "google/gemma-4-26b-a4b-it:free"
+name = "Google: Gemma 3n 4B (free)"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]

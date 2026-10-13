@@ -1,0 +1,4 @@
+id = "deepseek-reasoner-fp8:metered"
+
+[modalities]
+output = [ "text" ]

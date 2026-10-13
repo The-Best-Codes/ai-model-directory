@@ -1,0 +1,15 @@
+id = "xiaomi/mimo-v2.6-flash"
+knowledge_cutoff = "1788220800"
+name = "Xiaomi: MiMo-V2.6-Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "audio", "file", "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,7 @@
+name = "Typhoon"
+website = "https://opentyphoon.ai"
+apiBaseUrl = "https://api.opentyphoon.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["TYPHOON_API_KEY"]

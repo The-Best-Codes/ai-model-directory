@@ -1,0 +1,11 @@
+id = "moonshotai/kimi-k2.5"
+name = "MoonshotAI: Kimi K2.5"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "file", "image", "text" ]

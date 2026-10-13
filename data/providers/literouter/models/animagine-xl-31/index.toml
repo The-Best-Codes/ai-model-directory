@@ -1,0 +1,4 @@
+id = "animagine-xl-31"
+
+[modalities]
+output = [ "image" ]

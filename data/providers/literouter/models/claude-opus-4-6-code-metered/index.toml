@@ -1,0 +1,4 @@
+id = "claude-opus-4.6-code:metered"
+
+[modalities]
+output = [ "text" ]

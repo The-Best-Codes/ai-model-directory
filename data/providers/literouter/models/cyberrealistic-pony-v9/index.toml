@@ -1,0 +1,4 @@
+id = "cyberrealistic-pony-v9"
+
+[modalities]
+output = [ "image" ]

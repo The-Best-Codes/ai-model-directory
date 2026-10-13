@@ -1,0 +1,11 @@
+id = "stability/stable-image-ultra"
+name = "Stability: Stable Image Ultra"
+
+[features]
+attachment = false
+
+[limit]
+context = 77
+
+[modalities]
+input = [ "text" ]

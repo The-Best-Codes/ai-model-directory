@@ -1,0 +1,15 @@
+id = "openai/gpt-oss-20b"
+knowledge_cutoff = "1754006400"
+name = "OpenAI: gpt-oss-20B"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 131072
+output = 128000
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

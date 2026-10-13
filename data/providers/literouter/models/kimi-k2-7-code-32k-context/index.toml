@@ -1,0 +1,4 @@
+id = "kimi-k2.7-code:32k-context"
+
+[modalities]
+output = [ "text" ]

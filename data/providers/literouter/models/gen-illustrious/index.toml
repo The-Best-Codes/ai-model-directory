@@ -1,0 +1,4 @@
+id = "gen-illustrious"
+
+[modalities]
+output = [ "image" ]

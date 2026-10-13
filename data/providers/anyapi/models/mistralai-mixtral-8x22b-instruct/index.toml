@@ -1,0 +1,15 @@
+id = "mistralai/mixtral-8x22b-instruct"
+knowledge_cutoff = "1711929600"
+name = "Mistral: Mixtral 8x22B Instruct"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 65536
+output = 52428
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

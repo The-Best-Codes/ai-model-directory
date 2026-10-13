@@ -1,0 +1,4 @@
+id = "p-image"
+
+[modalities]
+output = [ "image" ]

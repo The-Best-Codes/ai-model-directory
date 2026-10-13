@@ -1,0 +1,15 @@
+id = "glm-5-turbo"
+name = "GLM-5-Turbo"
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.179289516
+input = 0.74703965
+output = 3.28697446

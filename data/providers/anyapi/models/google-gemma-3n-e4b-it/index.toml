@@ -1,0 +1,11 @@
+id = "google/gemma-3n-e4b-it"
+name = "Google: Gemma 3n 4B"
+
+[features]
+attachment = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "file", "text", "video" ]

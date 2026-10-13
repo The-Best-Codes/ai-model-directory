@@ -1,0 +1,7 @@
+name = "AnyAPI"
+website = "https://anyapi.ai"
+apiBaseUrl = "https://api.anyapi.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ANYAPI_API_KEY"]

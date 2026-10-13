@@ -1,0 +1,8 @@
+id = "sam-3.1"
+name = "Segment Anything Model 3.1"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]

@@ -1,0 +1,11 @@
+id = "moonshotai/kimi-k2-thinking"
+name = "MoonshotAI: Kimi K2"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]

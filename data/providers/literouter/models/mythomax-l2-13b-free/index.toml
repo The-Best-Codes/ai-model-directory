@@ -1,0 +1,4 @@
+id = "mythomax-l2-13b:free"
+
+[modalities]
+output = [ "text" ]

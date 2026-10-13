@@ -1,0 +1,4 @@
+id = "qwen3.5-plus:metered"
+
+[modalities]
+output = [ "text" ]

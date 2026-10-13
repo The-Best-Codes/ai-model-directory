@@ -1,0 +1,4 @@
+id = "gpt-oss-120b"
+
+[modalities]
+output = [ "text" ]

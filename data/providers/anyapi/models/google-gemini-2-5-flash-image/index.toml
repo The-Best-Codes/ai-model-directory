@@ -1,0 +1,15 @@
+id = "google/gemini-2.5-flash-image"
+knowledge_cutoff = "1754006400"
+name = "Google: Gemini 2.5 Flash Image (Nano Banana)"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]

@@ -1,0 +1,15 @@
+id = "google/gemma-3-27b-it"
+knowledge_cutoff = "1740787200"
+name = "Google: Gemma 3 27B"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 131072
+output = 16384
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "text" ]

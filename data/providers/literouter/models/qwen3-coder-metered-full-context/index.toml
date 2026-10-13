@@ -1,0 +1,4 @@
+id = "qwen3-coder:metered:full-context"
+
+[modalities]
+output = [ "text" ]

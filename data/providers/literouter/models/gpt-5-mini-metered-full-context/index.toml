@@ -1,0 +1,4 @@
+id = "gpt-5-mini:metered:full-context"
+
+[modalities]
+output = [ "text" ]

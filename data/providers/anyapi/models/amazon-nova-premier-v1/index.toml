@@ -1,0 +1,15 @@
+id = "amazon/nova-premier-v1"
+knowledge_cutoff = "1743465600"
+name = "Amazon: Nova Premier 1.0"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+output = 32000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

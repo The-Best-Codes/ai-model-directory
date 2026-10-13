@@ -1,0 +1,4 @@
+id = "gemma-4-31b-dark-gemistry:full-context"
+
+[modalities]
+output = [ "text" ]

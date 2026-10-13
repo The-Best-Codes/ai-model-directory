@@ -1,0 +1,4 @@
+id = "magistral-small"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,4 @@
+id = "fast-sdxl"
+
+[modalities]
+output = [ "image" ]

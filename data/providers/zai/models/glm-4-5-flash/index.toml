@@ -1,0 +1,15 @@
+id = "glm-4.5-flash"
+name = "GLM-4.5-Flash"
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

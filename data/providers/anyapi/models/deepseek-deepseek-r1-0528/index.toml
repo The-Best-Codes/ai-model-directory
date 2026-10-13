@@ -1,0 +1,11 @@
+id = "deepseek/deepseek-r1-0528"
+name = "DeepSeek: DeepSeek R1 0528"
+
+[features]
+attachment = true
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "audio", "text" ]

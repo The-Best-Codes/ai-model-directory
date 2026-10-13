@@ -1,0 +1,15 @@
+id = "anthropic/claude-haiku-4.5"
+knowledge_cutoff = "1759276800"
+name = "Anthropic: Claude Haiku 4.5"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+output = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

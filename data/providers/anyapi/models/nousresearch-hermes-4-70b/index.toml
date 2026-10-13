@@ -1,0 +1,14 @@
+id = "nousresearch/hermes-4-70b"
+knowledge_cutoff = "1754006400"
+name = "Nous: Hermes 4 70B"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

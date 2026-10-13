@@ -1,0 +1,11 @@
+id = "typhoon-ocr"
+name = "typhoon-ocr"
+open_weights = true
+release_date = "1763078400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,4 @@
+id = "claude-sonnet-5.5:metered"
+
+[modalities]
+output = [ "text" ]

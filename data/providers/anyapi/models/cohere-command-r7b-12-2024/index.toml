@@ -1,0 +1,11 @@
+id = "cohere/command-r7b-12-2024"
+name = "Cohere: Command R7B (12-2024)"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "file", "text" ]

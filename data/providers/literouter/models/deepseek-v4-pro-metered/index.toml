@@ -1,0 +1,4 @@
+id = "deepseek-v4-pro:metered"
+
+[modalities]
+output = [ "text" ]

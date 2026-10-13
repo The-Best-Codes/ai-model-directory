@@ -1,0 +1,15 @@
+id = "qwen/qwen3-coder-next"
+knowledge_cutoff = "1769904000"
+name = "Qwen: Qwen3 Coder Next"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

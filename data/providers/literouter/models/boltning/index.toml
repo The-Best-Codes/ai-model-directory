@@ -1,0 +1,4 @@
+id = "boltning"
+
+[modalities]
+output = [ "image" ]

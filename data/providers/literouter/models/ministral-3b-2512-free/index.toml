@@ -1,0 +1,4 @@
+id = "ministral-3b-2512:free"
+
+[modalities]
+output = [ "text" ]

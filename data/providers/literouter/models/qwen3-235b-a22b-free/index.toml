@@ -1,0 +1,4 @@
+id = "qwen3-235b-a22b:free"
+
+[modalities]
+output = [ "text" ]

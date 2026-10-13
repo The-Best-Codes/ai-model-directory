@@ -1,0 +1,11 @@
+id = "cohere/command-r-plus"
+name = "Cohere: Command R+"
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]

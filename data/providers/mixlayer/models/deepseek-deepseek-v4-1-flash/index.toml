@@ -1,0 +1,17 @@
+id = "deepseek/deepseek-v4.1-flash"
+open_weights = true
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 262000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 1.2

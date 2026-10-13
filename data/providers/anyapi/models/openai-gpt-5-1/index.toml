@@ -1,0 +1,15 @@
+id = "openai/gpt-5.1"
+knowledge_cutoff = "1761955200"
+name = "OpenAI: GPT-5.1"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 400000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

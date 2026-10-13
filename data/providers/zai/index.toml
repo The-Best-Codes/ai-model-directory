@@ -1,0 +1,7 @@
+name = "Z.ai"
+website = "https://z.ai"
+apiBaseUrl = "https://api.z.ai/api/paas/v4"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ZAI_API_KEY"]

@@ -1,0 +1,15 @@
+id = "openai/gpt-5.4-image-2"
+knowledge_cutoff = "1775001600"
+name = "OpenAI: GPT-5.4 Image 2"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]

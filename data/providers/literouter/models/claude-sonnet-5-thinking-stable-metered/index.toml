@@ -1,0 +1,4 @@
+id = "claude-sonnet-5-thinking-stable:metered"
+
+[modalities]
+output = [ "text" ]

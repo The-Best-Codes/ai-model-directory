@@ -1,0 +1,11 @@
+id = "mistralai/mistral-medium-3.1"
+name = "Mistral: Mistral Medium 3.1"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "file", "image", "text" ]

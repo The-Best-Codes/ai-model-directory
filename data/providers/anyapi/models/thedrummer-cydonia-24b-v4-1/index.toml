@@ -1,0 +1,11 @@
+id = "thedrummer/cydonia-24b-v4.1"
+name = "TheDrummer: Cydonia 24B V4.1"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "file", "text" ]

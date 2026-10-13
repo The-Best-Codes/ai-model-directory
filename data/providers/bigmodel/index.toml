@@ -1,0 +1,7 @@
+name = "BigModel"
+website = "https://open.bigmodel.cn"
+apiBaseUrl = "https://open.bigmodel.cn/api/paas/v4"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["ZHIPU_API_KEY"]

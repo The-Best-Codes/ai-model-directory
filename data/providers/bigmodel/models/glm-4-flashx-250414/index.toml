@@ -1,0 +1,18 @@
+id = "glm-4-flashx-250414"
+name = "GLM-4-FlashX-250414"
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0074703965
+input = 0.014940793
+output = 0.014940793

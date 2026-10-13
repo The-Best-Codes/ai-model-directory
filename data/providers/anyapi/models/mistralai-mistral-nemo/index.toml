@@ -1,0 +1,15 @@
+id = "mistralai/mistral-nemo"
+knowledge_cutoff = "1719792000"
+name = "Mistral: Mistral Nemo"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 131072
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

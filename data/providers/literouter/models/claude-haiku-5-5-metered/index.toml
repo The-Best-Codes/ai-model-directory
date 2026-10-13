@@ -1,0 +1,4 @@
+id = "claude-haiku-5.5:metered"
+
+[modalities]
+output = [ "text" ]

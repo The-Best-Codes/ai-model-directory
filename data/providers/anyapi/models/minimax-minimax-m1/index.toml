@@ -1,0 +1,11 @@
+id = "minimax/minimax-m1"
+name = "MiniMax: MiniMax M1"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "text" ]

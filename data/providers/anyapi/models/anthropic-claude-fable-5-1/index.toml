@@ -1,0 +1,15 @@
+id = "anthropic/claude-fable-5.1"
+knowledge_cutoff = "1788220800"
+name = "Anthropic: Claude Fable 5.1"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "image", "text" ]

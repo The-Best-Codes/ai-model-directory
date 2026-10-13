@@ -1,0 +1,15 @@
+id = "inclusionai/ling-3.0-flash-fin:free"
+knowledge_cutoff = "1785542400"
+name = "inclusionAI: Ling 3.0 Flash Fin (free)"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

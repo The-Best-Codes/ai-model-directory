@@ -1,0 +1,15 @@
+id = "qwen/qwen-2.5-coder-32b-instruct"
+knowledge_cutoff = "1730419200"
+name = "Qwen: Qwen2.5 Coder 32B Instruct (free)"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 32768
+output = 29491
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

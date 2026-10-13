@@ -1,0 +1,19 @@
+id = "Ling-2.6-1T"
+open_weights = true
+
+[features]
+attachment = false
+reasoning = true
+temperature = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.134467137
+input = 0.672335685
+output = 2.68934274

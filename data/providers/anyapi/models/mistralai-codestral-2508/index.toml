@@ -1,0 +1,15 @@
+id = "mistralai/codestral-2508"
+knowledge_cutoff = "1754006400"
+name = "Mistral: Codestral 2508"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 256000
+output = 204800
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

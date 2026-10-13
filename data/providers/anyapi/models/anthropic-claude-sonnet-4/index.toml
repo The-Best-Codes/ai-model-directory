@@ -1,0 +1,15 @@
+id = "anthropic/claude-sonnet-4"
+knowledge_cutoff = "1746057600"
+name = "Anthropic: Claude 4 Sonnet"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+output = 64000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

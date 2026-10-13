@@ -1,0 +1,13 @@
+id = "anthropic/claude-3-5-haiku-20241022"
+knowledge_cutoff = "1727740800"
+name = "Anthropic: Claude 3.5 Haiku (2024-10-22)"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]

@@ -1,0 +1,4 @@
+id = "hy4:full-context"
+
+[modalities]
+output = [ "text" ]

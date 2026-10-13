@@ -1,0 +1,4 @@
+id = "gpt-5.2:metered"
+
+[modalities]
+output = [ "text" ]

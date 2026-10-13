@@ -1,0 +1,4 @@
+id = "atomix-xl"
+
+[modalities]
+output = [ "image" ]

@@ -1,0 +1,4 @@
+id = "gemini-3.7-flash-thinking:metered:full-context"
+
+[modalities]
+output = [ "text" ]

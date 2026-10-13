@@ -1,0 +1,4 @@
+id = "deepseek-r1-fp8:metered:full-context"
+
+[modalities]
+output = [ "text" ]

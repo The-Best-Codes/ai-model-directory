@@ -1,0 +1,4 @@
+id = "aniflatmix-anime"
+
+[modalities]
+output = [ "image" ]

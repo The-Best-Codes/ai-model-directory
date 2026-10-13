@@ -1,0 +1,4 @@
+id = "mistral-large:metered"
+
+[modalities]
+output = [ "text" ]

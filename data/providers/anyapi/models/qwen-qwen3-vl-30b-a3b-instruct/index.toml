@@ -1,0 +1,11 @@
+id = "qwen/qwen3-vl-30b-a3b-instruct"
+name = "Qwen: Qwen3 VL 30B A3B Instruct"
+
+[features]
+attachment = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "file", "image", "text" ]

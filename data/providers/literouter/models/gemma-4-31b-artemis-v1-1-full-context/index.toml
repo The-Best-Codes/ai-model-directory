@@ -1,0 +1,4 @@
+id = "gemma-4-31b-artemis-v1.1:full-context"
+
+[modalities]
+output = [ "text" ]
