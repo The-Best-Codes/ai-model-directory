@@ -1,0 +1,6 @@
+id = "anthropic/claude-fable-5-1"
+
+[pricing]
+cache_read = 0.25
+input = 10
+output = 50

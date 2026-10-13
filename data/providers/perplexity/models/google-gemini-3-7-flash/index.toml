@@ -1,0 +1,6 @@
+id = "google/gemini-3.7-flash"
+
+[pricing]
+cache_read = 0.075
+input = 0.75
+output = 3.75

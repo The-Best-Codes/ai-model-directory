@@ -1,0 +1,6 @@
+id = "anthropic/claude-haiku-5-5"
+
+[pricing]
+cache_read = 0.01
+input = 0.1
+output = 0.5

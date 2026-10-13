@@ -1,0 +1,6 @@
+id = "openai/gpt-6-luna"
+
+[pricing]
+cache_read = 0.01
+input = 0.1
+output = 0.5

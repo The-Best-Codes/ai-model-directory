@@ -1,0 +1,6 @@
+id = "perplexity/kimi-k3"
+
+[pricing]
+cache_read = 0.3
+input = 3
+output = 15

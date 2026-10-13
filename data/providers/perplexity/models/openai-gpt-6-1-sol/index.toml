@@ -1,0 +1,6 @@
+id = "openai/gpt-6.1-sol"
+
+[pricing]
+cache_read = 0.1
+input = 2
+output = 10

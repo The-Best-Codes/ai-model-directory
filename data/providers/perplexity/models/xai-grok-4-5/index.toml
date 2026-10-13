@@ -1,1 +1,6 @@
 id = "xai/grok-4.5"
+
+[pricing]
+cache_read = 0.3
+input = 2
+output = 6

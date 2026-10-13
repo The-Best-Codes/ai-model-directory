@@ -43,7 +43,6 @@ jobs:
           MIXLAYER_API_KEY: ${{ secrets.MIXLAYER_API_KEY }}
           MUSE_API_KEY: ${{ secrets.MUSE_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
           QUIVER_AI_API_KEY: ${{ secrets.QUIVER_AI_API_KEY }}
           SEA_LION_API_KEY: ${{ secrets.SEA_LION_API_KEY }}
           SENSENOVA_API_KEY: ${{ secrets.SENSENOVA_API_KEY }}

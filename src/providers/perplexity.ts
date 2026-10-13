@@ -1,149 +1,104 @@
 import Decimal from "decimal.js";
 import { z } from "zod";
 
-import { fetchJson, fetchText, withBearerToken } from "../lib/http.ts";
+import { fetchText } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
 import type { ModelRecord } from "../schema.ts";
 import type { ProviderDefinition } from "./types.ts";
 
-const apiModelSchema = z.object({
+const tieredRateSchema = z.object({ low: z.number(), high: z.number() });
+const rateSchema = z.union([z.number(), tieredRateSchema]);
+
+const docsModelSchema = z.object({
   id: z.string(),
-  created: z.number(),
-  owned_by: z.string(),
+  input: rateSchema,
+  output: rateSchema,
+  cache: z.union([rateSchema, z.string()]).nullish(),
 });
 
-const responseSchema = z.object({ data: z.array(apiModelSchema) });
+const docsPricingSchema = z.object({
+  agent: z.object({ models: z.array(docsModelSchema) }),
+});
 
-function parsePriceCell(value: string): number | undefined {
-  const match = value.replace(/\\\$/g, "$").match(/\$\s*([0-9]+(?:\.[0-9]+)?)/);
+const pricingStartMarker = "export const PRICING = ";
+const inputMultiplierPattern = /^inputx([0-9]+(?:\.[0-9]+)?)$/;
 
-  if (!match?.[1]) {
-    return undefined;
-  }
-
-  const parsed = new Decimal(match[1]);
-  return parsed.isFinite() && parsed.gte(0) ? parsed.toNumber() : undefined;
+function baseRate(rate: z.infer<typeof rateSchema>): number {
+  return typeof rate === "number" ? rate : rate.low;
 }
 
-function parseCacheReadPrice(
-  value: string,
-  inputPrice: number | undefined,
+function cacheReadPrice(
+  cache: z.infer<typeof docsModelSchema>["cache"],
+  input: number,
 ): number | undefined {
-  const directPrice = parsePriceCell(value);
-
-  if (directPrice !== undefined) {
-    return directPrice;
-  }
-
-  if (inputPrice === undefined) {
+  if (cache === null || cache === undefined) {
     return undefined;
   }
 
-  const discountMatch = value.match(/([0-9]+(?:\.[0-9]+)?)%\s+discount/i);
-
-  if (!discountMatch?.[1]) {
-    return undefined;
+  if (typeof cache !== "string") {
+    return baseRate(cache);
   }
 
-  const discount = new Decimal(discountMatch[1]);
+  const multiplier = inputMultiplierPattern.exec(cache)?.[1];
 
-  if (!discount.isFinite() || discount.lt(0) || discount.gt(100)) {
-    return undefined;
-  }
-
-  return new Decimal(inputPrice)
-    .mul(new Decimal(100).minus(discount).div(100))
-    .toNumber();
+  return multiplier === undefined
+    ? undefined
+    : new Decimal(input).mul(multiplier).toNumber();
 }
 
-function parsePricing(
-  text: string,
-): Map<string, NonNullable<ModelRecord["pricing"]>> {
-  const pricing = new Map<string, NonNullable<ModelRecord["pricing"]>>();
+function extractPricingJson(text: string): unknown {
+  const start = text.indexOf(pricingStartMarker);
 
-  for (const line of text.split(/\r?\n/)) {
-    if (!line.startsWith("|")) {
-      continue;
-    }
-
-    const cells = line
-      .split("|")
-      .slice(1, -1)
-      .map((cell) => cell.trim());
-
-    if (cells.length < 5) {
-      continue;
-    }
-
-    const id = cells[0]?.match(/^`([^`]+)`$/)?.[1];
-
-    if (!id) {
-      continue;
-    }
-
-    const input = parsePriceCell(cells[1] ?? "");
-    const output = parsePriceCell(cells[2] ?? "");
-    const cache_read = parseCacheReadPrice(cells[3] ?? "", input);
-    const entry = compactObject({ input, output, cache_read });
-
-    if (Object.keys(entry).length > 0) {
-      pricing.set(id, entry);
-    }
+  if (start === -1) {
+    throw new Error("Perplexity docs are missing the PRICING object");
   }
 
-  return pricing;
+  const jsonStart = start + pricingStartMarker.length;
+  const jsonEnd = text.indexOf("\n};", jsonStart);
+
+  if (jsonEnd === -1) {
+    throw new Error("Perplexity docs PRICING object is not terminated");
+  }
+
+  return JSON.parse(text.slice(jsonStart, jsonEnd + 2));
 }
 
-async function fetchPricing(): Promise<
-  Map<string, NonNullable<ModelRecord["pricing"]>>
-> {
-  try {
-    const text = await fetchText(
-      "https://docs.perplexity.ai/docs/agent-api/models.md",
-      {
-        init: { redirect: "follow" },
-        label: "Perplexity pricing docs error",
-      },
-    );
+function buildPricing(
+  model: z.infer<typeof docsModelSchema>,
+): ModelRecord["pricing"] {
+  const input = baseRate(model.input);
 
-    return parsePricing(text);
-  } catch {
-    return new Map();
-  }
+  return compactObject({
+    input,
+    output: baseRate(model.output),
+    cache_read: cacheReadPrice(model.cache, input),
+  });
 }
 
 export const perplexityProvider: ProviderDefinition = {
   name: "perplexity",
   outputDirectory: "data/providers/perplexity/models",
   async fetchModels(progress) {
-    if (!process.env.PERPLEXITY_API_KEY) {
-      throw new Error("PERPLEXITY_API_KEY is not set");
-    }
+    progress?.beginPhase("fetching", 1);
 
-    progress?.beginPhase("fetching", 2);
-
-    const [response, pricing] = await Promise.all([
-      fetchJson("https://api.perplexity.ai/v1/models", {
-        schema: responseSchema,
-        headers: withBearerToken(process.env.PERPLEXITY_API_KEY),
-        label: "Perplexity API error",
-      }),
-      fetchPricing(),
-    ]);
-
-    progress?.tick(
-      `api.perplexity.ai/v1/models (${response.data.length})`,
-      true,
+    const text = await fetchText(
+      "https://docs.perplexity.ai/docs/agent-api/models.md",
+      {
+        init: { redirect: "follow" },
+        label: "Perplexity docs error",
+      },
     );
+    const { agent } = docsPricingSchema.parse(extractPricingJson(text));
+
     progress?.tick(
-      `docs.perplexity.ai/docs/agent-api/models (${pricing.size})`,
+      `docs.perplexity.ai/docs/agent-api/models (${agent.models.length})`,
       true,
     );
 
-    return response.data.map((model) =>
+    return agent.models.map((model) =>
       compactObject({
         id: model.id,
-        pricing: pricing.get(model.id),
+        pricing: buildPricing(model),
       }),
     );
   },
