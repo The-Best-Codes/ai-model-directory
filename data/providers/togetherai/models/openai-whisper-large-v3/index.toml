@@ -4,9 +4,6 @@ name = "Whisper large-v3"
 [features]
 attachment = true
 
-[limit]
-context = 1
-
 [modalities]
 input = [ "audio" ]
 output = [ "text" ]

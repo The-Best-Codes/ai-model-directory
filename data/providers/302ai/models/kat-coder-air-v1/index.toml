@@ -1,0 +1,21 @@
+id = "kat-coder-air-v1"
+last_updated = "1767513044"
+name = "KAT-Coder-Air-V1"
+release_date = "1761535335"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

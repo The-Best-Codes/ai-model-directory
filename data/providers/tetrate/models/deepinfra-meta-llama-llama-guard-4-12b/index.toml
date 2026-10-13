@@ -1,0 +1,19 @@
+id = "deepinfra/meta-llama/Llama-Guard-4-12B"
+name = "deepinfra/meta-llama/Llama-Guard-4-12B"
+release_date = "1759375068"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 163840
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.18
+output = 0.18

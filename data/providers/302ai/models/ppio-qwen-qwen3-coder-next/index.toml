@@ -1,0 +1,21 @@
+id = "ppio-qwen-qwen3-coder-next"
+last_updated = "1770319612"
+name = "qwen/qwen3-coder-next"
+release_date = "1770198045"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 1.5

@@ -1,0 +1,7 @@
+id = "scaledown/scaledown-classify-1"
+name = "Classify-1"
+release_date = "1791849600"
+
+[pricing]
+input = 0.05
+output = 0

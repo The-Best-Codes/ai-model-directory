@@ -1,0 +1,21 @@
+id = "sophnet-qwen3-vl-235b-A22b-instruct"
+last_updated = "1766646912"
+name = "sophnet/Qwen3-VL-235B-A22B-Instruct"
+release_date = "1759140486"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.286
+output = 1.143

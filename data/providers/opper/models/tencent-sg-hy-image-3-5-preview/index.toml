@@ -1,0 +1,7 @@
+id = "tencent:sg/hy-image-3.5-preview"
+name = "Hy Image 3.5 Preview"
+release_date = "1790035200"
+
+[pricing]
+input = 1.6
+output = 1.6

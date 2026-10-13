@@ -1,0 +1,24 @@
+id = "vertex/gemini-4-argon@eu"
+name = "vertex/gemini-4-argon@eu"
+release_date = "1791907477"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+cache_write = 0.1875
+input = 2
+input_audio = 2
+output = 10
+reasoning = 10

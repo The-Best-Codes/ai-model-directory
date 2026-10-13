@@ -1,0 +1,21 @@
+id = "sophnet-deepseek-v3-2-exp"
+last_updated = "1766569040"
+name = "sophnet/DeepSeek-V3.2-Exp"
+release_date = "1760347207"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.286
+output = 0.43

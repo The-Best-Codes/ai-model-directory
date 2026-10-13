@@ -1,0 +1,21 @@
+id = "ppio-qwen3-vl-235b-a22b-thinking"
+last_updated = "1766543648"
+name = "qwen/qwen3-vl-235b-a22b-thinking"
+release_date = "1759204643"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 98304
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 0.286
+output = 2.86

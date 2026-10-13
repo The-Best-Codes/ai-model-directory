@@ -1,0 +1,21 @@
+id = "sophnet-qwen3-coder"
+last_updated = "1767526761"
+name = "sophnet/Qwen3-Coder"
+release_date = "1754291519"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.86
+output = 3.43

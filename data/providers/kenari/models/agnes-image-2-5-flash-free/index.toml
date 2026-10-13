@@ -1,0 +1,9 @@
+id = "agnes-image-2-5-flash:free"
+name = "agnes-image-2-5-flash:free"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

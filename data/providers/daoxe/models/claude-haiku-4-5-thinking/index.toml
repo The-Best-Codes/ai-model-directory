@@ -2,5 +2,5 @@ id = "claude-haiku-4-5-thinking"
 name = "claude-haiku-4-5-thinking"
 
 [pricing]
-input = 0.03077803358
-output = 0.1538901679
+input = 0.03076574774
+output = 0.1538287387

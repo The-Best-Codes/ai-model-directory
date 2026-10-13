@@ -4,9 +4,6 @@ name = "Nvidia Parakeet TDT 0.6B V3"
 [features]
 attachment = true
 
-[limit]
-context = 448
-
 [modalities]
 input = [ "audio" ]
 output = [ "text" ]

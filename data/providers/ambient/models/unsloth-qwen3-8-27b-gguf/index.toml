@@ -1,0 +1,23 @@
+id = "unsloth/qwen3.8-27b-gguf"
+name = "qwen3.8-27b-4q"
+release_date = "1791910148"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 101072
+output = 101072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0.001
+output = 0.001

@@ -7,7 +7,3 @@ attachment = true
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.2912114166
-cache_write = 3.6625435857

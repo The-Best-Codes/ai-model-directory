@@ -5,7 +5,7 @@ name = "deepseek-v4.1-flash"
 attachment = true
 
 [limit]
-context = 327680
+context = 1048576
 
 [modalities]
 input = [ "image", "text" ]

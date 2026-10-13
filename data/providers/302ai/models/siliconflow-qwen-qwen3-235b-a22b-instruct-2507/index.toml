@@ -1,0 +1,21 @@
+id = "siliconflow-qwen-qwen3-235b-a22b-instruct-2507"
+last_updated = "1767504958"
+name = "Qwen/Qwen3-235B-A22B-Instruct-2507"
+release_date = "1753276275"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 256003
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.36
+output = 1.43

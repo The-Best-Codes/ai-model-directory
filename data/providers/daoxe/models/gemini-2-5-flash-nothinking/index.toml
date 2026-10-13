@@ -2,5 +2,5 @@ id = "gemini-2.5-flash-nothinking"
 name = "gemini-2.5-flash-nothinking"
 
 [pricing]
-input = 0.04616705037
-output = 0.38472541975
+input = 0.04614862161
+output = 0.38457184675

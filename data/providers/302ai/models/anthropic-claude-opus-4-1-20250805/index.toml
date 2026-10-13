@@ -1,0 +1,21 @@
+id = "anthropic-claude-opus-4-1-20250805"
+last_updated = "1767765054"
+name = "claude-opus-4-1-20250805"
+release_date = "1754412446"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 15
+output = 75

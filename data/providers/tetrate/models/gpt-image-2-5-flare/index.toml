@@ -1,0 +1,17 @@
+id = "gpt-image-2.5-flare"
+name = "gpt-image-2.5-flare"
+release_date = "1789445261"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 1.25
+cache_write = 0
+input = 5
+output = 0

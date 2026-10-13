@@ -1,9 +1,0 @@
-id = "gpt-image-2-client"
-name = "gpt-image-2-client"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]

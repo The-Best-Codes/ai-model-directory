@@ -8,7 +8,7 @@ reasoning = false
 tool_call = false
 
 [limit]
-context = 8192
+context = 512
 
 [modalities]
 input = [ "text" ]
@@ -16,4 +16,4 @@ input = [ "text" ]
 [pricing]
 cache_read = 0
 input = 0.01
-output = 0.01
+output = 0

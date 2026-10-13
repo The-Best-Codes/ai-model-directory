@@ -2,6 +2,6 @@ id = "qwen3-30b"
 name = "qwen3-30b"
 
 [pricing]
-cache_read = 0.0073867280592
-input = 0.036933640296
-output = 0.147734561184
+cache_read = 0.0073837794576
+input = 0.036918897288
+output = 0.147675589152

@@ -1,0 +1,21 @@
+id = "qwen-doc-turbo"
+last_updated = "1767776091"
+name = "qwen-doc-turbo"
+release_date = "1767160983"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.086
+output = 0.143

@@ -1,0 +1,19 @@
+id = "subq/subq-snap-preview"
+name = "SubQ Snap Preview"
+release_date = "1791849600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 384000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.05
+output = 0

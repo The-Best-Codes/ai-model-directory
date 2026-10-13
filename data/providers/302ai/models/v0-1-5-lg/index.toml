@@ -1,0 +1,21 @@
+id = "v0-1-5-lg"
+last_updated = "1767518295"
+name = "v0-1.5-lg"
+release_date = "1750664035"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 512000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 15
+output = 75

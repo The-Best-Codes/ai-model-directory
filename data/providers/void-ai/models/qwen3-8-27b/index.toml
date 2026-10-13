@@ -1,0 +1,11 @@
+id = "qwen3.8-27b"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

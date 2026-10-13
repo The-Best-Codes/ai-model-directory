@@ -1,0 +1,21 @@
+id = "sophnet-qwen3-32b"
+last_updated = "1766659362"
+name = "sophnet/Qwen3-32B"
+release_date = "1754291617"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1429
+output = 0.5715

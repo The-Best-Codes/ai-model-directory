@@ -2,5 +2,5 @@ id = "claude-mythos-5"
 name = "claude-mythos-5"
 
 [pricing]
-input = 1.15417625925
-output = 5.77088129625
+input = 1.15371554025
+output = 5.76857770125

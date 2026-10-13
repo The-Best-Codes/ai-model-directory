@@ -1,0 +1,9 @@
+id = "qwen-image-3.0-pro"
+name = "qwen-image-3.0-pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

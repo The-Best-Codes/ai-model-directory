@@ -1,0 +1,21 @@
+id = "ppio-qwen-qwen-2-5-72b-instruct"
+last_updated = "1766563595"
+name = "qwen/qwen-2.5-72b-instruct"
+release_date = "1749541643"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 0.4

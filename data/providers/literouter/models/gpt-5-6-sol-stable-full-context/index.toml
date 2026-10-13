@@ -1,0 +1,4 @@
+id = "gpt-5.6-sol-stable:full-context"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,21 @@
+id = "ppio-baidu-ernie-4-5-vl-424b-a47b"
+last_updated = "1767941174"
+name = "baidu/ernie-4-5-vl-424b-a47b"
+release_date = "1754292752"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 123000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.429
+output = 1.29
