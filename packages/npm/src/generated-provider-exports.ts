@@ -31,7 +31,6 @@ export const cline = modelDirectory["cline"]!;
 export const cloudflareWorkersAi = modelDirectory["cloudflare-workers-ai"]!;
 export const cohere = modelDirectory["cohere"]!;
 export const cortecs = modelDirectory["cortecs"]!;
-export const crof = modelDirectory["crof"]!;
 export const crossmodel = modelDirectory["crossmodel"]!;
 export const daoxe = modelDirectory["daoxe"]!;
 export const deepinfra = modelDirectory["deepinfra"]!;
