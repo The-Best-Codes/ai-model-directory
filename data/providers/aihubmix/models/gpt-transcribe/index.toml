@@ -1,0 +1,11 @@
+id = "gpt-transcribe"
+name = "gpt-transcribe"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

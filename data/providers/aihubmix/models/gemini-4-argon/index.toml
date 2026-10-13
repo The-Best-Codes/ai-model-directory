@@ -1,0 +1,16 @@
+id = "gemini-4-argon"
+name = "gemini-4-argon"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.1
+input = 2
+output = 10

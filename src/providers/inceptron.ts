@@ -2,11 +2,7 @@ import { z } from "zod";
 
 import { fetchJson, withBearerToken } from "../lib/http.ts";
 import { compactObject } from "../lib/object.ts";
-import {
-  integerGreaterThanZero,
-  pricePerMillion,
-  timestampFromUnixSeconds,
-} from "../lib/model.ts";
+import { integerGreaterThanZero, pricePerMillion } from "../lib/model.ts";
 import {
   filterModalities,
   hasAnyString,
@@ -17,7 +13,6 @@ import type { ProviderDefinition } from "./types.ts";
 const apiModelSchema = z.object({
   id: z.string(),
   name: z.string(),
-  created: z.number(),
   input_modalities: z.array(z.string()).optional(),
   output_modalities: z.array(z.string()).optional(),
   context_length: z.number().optional(),
@@ -60,7 +55,6 @@ export const inceptronProvider: ProviderDefinition = {
       return compactObject({
         id: model.id,
         name: model.name,
-        release_date: timestampFromUnixSeconds(model.created),
         features: compactObject({
           attachment: hasAttachmentSource(model.input_modalities),
           tool_call:

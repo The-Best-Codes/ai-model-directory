@@ -1,6 +1,5 @@
 id = "moonshotai/Kimi-K2.7-Code"
 name = "Kimi K2.7 Code"
-release_date = "1791854829"
 
 [features]
 attachment = true
