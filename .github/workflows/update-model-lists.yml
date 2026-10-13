@@ -43,6 +43,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
           QUIVER_AI_API_KEY: ${{ secrets.QUIVER_AI_API_KEY }}
+          SEA_LION_API_KEY: ${{ secrets.SEA_LION_API_KEY }}
+          SENSENOVA_API_KEY: ${{ secrets.SENSENOVA_API_KEY }}
           TARS_API_KEY: ${{ secrets.TARS_API_KEY }}
           TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}

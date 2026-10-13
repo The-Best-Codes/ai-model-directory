@@ -310057,6 +310057,180 @@
       }
     }
   },
+  "sea-lion": {
+    "id": "sea-lion",
+    "name": "SEA-LION",
+    "website": "https://sea-lion.ai",
+    "apiBaseUrl": "https://api.sea-lion.ai/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "SEA_LION_API_KEY"
+      ]
+    },
+    "models": {
+      "aisingapore/Gemma-SEA-LION-v4-27B-IT": {
+        "id": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+        "limit": {
+          "context": 128000
+        }
+      },
+      "aisingapore/Llama-SEA-LION-v3-70B-IT": {
+        "id": "aisingapore/Llama-SEA-LION-v3-70B-IT",
+        "limit": {
+          "context": 128000
+        }
+      },
+      "aisingapore/Nemotron-SEA-LION-v4.8-120B-A12B": {
+        "id": "aisingapore/Nemotron-SEA-LION-v4.8-120B-A12B",
+        "limit": {
+          "context": 256000
+        }
+      },
+      "aisingapore/Qwen-SEA-LION-v4-32B-IT": {
+        "id": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+        "limit": {
+          "context": 128000
+        }
+      },
+      "aisingapore/Qwen-SEA-LION-v4.5-27B-IT": {
+        "id": "aisingapore/Qwen-SEA-LION-v4.5-27B-IT",
+        "limit": {
+          "context": 262000
+        }
+      },
+      "aisingapore/SEA-Guard": {
+        "id": "aisingapore/SEA-Guard"
+      },
+      "aisingapore/SEA-LION-E5-Embedding-600M": {
+        "id": "aisingapore/SEA-LION-E5-Embedding-600M"
+      },
+      "aisingapore/SEA-LION-ModernBERT-Embedding-300M": {
+        "id": "aisingapore/SEA-LION-ModernBERT-Embedding-300M"
+      },
+      "aisingapore/SEA-LION-ModernBERT-Embedding-600M": {
+        "id": "aisingapore/SEA-LION-ModernBERT-Embedding-600M"
+      },
+      "BAAI/bge-m3": {
+        "id": "BAAI/bge-m3"
+      },
+      "BAAI/bge-reranker-v2-m3": {
+        "id": "BAAI/bge-reranker-v2-m3"
+      }
+    }
+  },
+  "sensenova-token-plan": {
+    "id": "sensenova-token-plan",
+    "name": "SenseNova Token Plan",
+    "website": "https://platform.sensenova.ai",
+    "apiBaseUrl": "https://token.sensenova.ai/v1",
+    "aiSdk": {
+      "npmPackage": "@ai-sdk/openai-compatible",
+      "defaultApiKeyEnv": [
+        "SENSENOVA_API_KEY"
+      ]
+    },
+    "models": {
+      "sensenova-6.7-flash-lite": {
+        "id": "sensenova-6.7-flash-lite",
+        "name": "sensenova-6.7-flash-lite",
+        "release_date": "1777392000",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "limit": {
+          "context": 262144,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "sensenova-6.8-flash-lite": {
+        "id": "sensenova-6.8-flash-lite",
+        "name": "sensenova-6.8-flash-lite",
+        "release_date": "1777392000",
+        "features": {
+          "attachment": true,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "limit": {
+          "context": 262144,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        }
+      },
+      "sensenova-u1.5-lite": {
+        "id": "sensenova-u1.5-lite",
+        "name": "sensenova-u1.5-lite",
+        "release_date": "1777392000",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "limit": {
+          "context": 262144,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        }
+      },
+      "sensenova-u1-fast": {
+        "id": "sensenova-u1-fast",
+        "name": "sensenova-u1-fast",
+        "release_date": "1777392000",
+        "features": {
+          "attachment": false,
+          "reasoning": true,
+          "tool_call": true,
+          "structured_output": true,
+          "temperature": true
+        },
+        "limit": {
+          "context": 262144,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "image"
+          ]
+        }
+      }
+    }
+  },
   "speka": {
     "id": "speka",
     "name": "Speka",

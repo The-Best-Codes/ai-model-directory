@@ -1,0 +1,7 @@
+name = "SEA-LION"
+website = "https://sea-lion.ai"
+apiBaseUrl = "https://api.sea-lion.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["SEA_LION_API_KEY"]

@@ -1,0 +1,7 @@
+name = "SenseNova Token Plan"
+website = "https://platform.sensenova.ai"
+apiBaseUrl = "https://token.sensenova.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["SENSENOVA_API_KEY"]

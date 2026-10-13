@@ -76,6 +76,8 @@ import { quiverProvider } from "./quiver.ts";
 import { requestyProvider } from "./requesty.ts";
 import { routingRunProvider } from "./routing-run.ts";
 import { sakanaProvider } from "./sakana.ts";
+import { seaLionProvider } from "./sea-lion.ts";
+import { sensenovaTokenPlanProvider } from "./sensenova-token-plan.ts";
 import { spekaProvider } from "./speka.ts";
 import { syntheticProvider } from "./synthetic.ts";
 import { tetrateProvider } from "./tetrate.ts";
@@ -172,6 +174,8 @@ export const providers: ProviderDefinition[] = [
   requestyProvider,
   routingRunProvider,
   sakanaProvider,
+  seaLionProvider,
+  sensenovaTokenPlanProvider,
   spekaProvider,
   syntheticProvider,
   tetrateProvider,
