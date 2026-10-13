@@ -133,6 +133,19 @@ function isTokenPricing(unit: string | undefined): boolean {
   return /token/i.test(unit ?? "");
 }
 
+function isPerMillionTokenPricing(unit: string | undefined): boolean {
+  return /\b(m|million)\s*tokens?\b/i.test(unit ?? "");
+}
+
+function tokenPricePerMillion(
+  value: number | null | undefined,
+  unit: string | undefined,
+): number | undefined {
+  const amount = nonNegativeNumber(value);
+
+  return isPerMillionTokenPricing(unit) ? amount : pricePerMillion(amount);
+}
+
 function inferPricingCurrency(
   pricing: z.infer<typeof pricingSchema> | undefined,
 ): string | undefined {
@@ -178,11 +191,11 @@ function buildPricing(
 
   return compactObject({
     input: convertCurrencyAmount(
-      pricePerMillion(nonNegativeNumber(model.pricing?.input)),
+      tokenPricePerMillion(model.pricing?.input, model.pricing?.unit),
       exchangeRate,
     ),
     output: convertCurrencyAmount(
-      pricePerMillion(nonNegativeNumber(model.pricing?.output)),
+      tokenPricePerMillion(model.pricing?.output, model.pricing?.unit),
       exchangeRate,
     ),
   });

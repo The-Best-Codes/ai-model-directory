@@ -123,6 +123,10 @@ function buildHeader<TValue>(label: string, description: string) {
   );
 }
 
+function joinSortValues(values: string[]): string | undefined {
+  return values.length > 0 ? values.join(", ") : undefined;
+}
+
 const columns: ColumnDef<typeof features, ModelRow>[] = [
   {
     id: "providerName",
@@ -239,14 +243,14 @@ const columns: ColumnDef<typeof features, ModelRow>[] = [
   {
     id: "features",
     header: buildHeader("Features", columnDescriptions.features),
-    accessorFn: (row: ModelRow) => row.features.join(", "),
+    accessorFn: (row: ModelRow) => joinSortValues(row.features),
     size: 220,
     cell: ({ row }) => <TagList values={row.original.features} />,
   },
   {
     id: "modalitiesInput",
     header: buildHeader("Input Modalities", columnDescriptions.modalitiesInput),
-    accessorFn: (row: ModelRow) => row.modalitiesInput.join(", "),
+    accessorFn: (row: ModelRow) => joinSortValues(row.modalitiesInput),
     size: 180,
     cell: ({ row }) => (
       <TagList
@@ -261,7 +265,7 @@ const columns: ColumnDef<typeof features, ModelRow>[] = [
       "Output Modalities",
       columnDescriptions.modalitiesOutput,
     ),
-    accessorFn: (row: ModelRow) => row.modalitiesOutput.join(", "),
+    accessorFn: (row: ModelRow) => joinSortValues(row.modalitiesOutput),
     size: 180,
     cell: ({ row }) => (
       <TagList
@@ -308,7 +312,7 @@ const columns: ColumnDef<typeof features, ModelRow>[] = [
   {
     id: "providerApiKeyEnv",
     header: buildHeader("API Key Env", columnDescriptions.providerApiKeyEnv),
-    accessorFn: (row: ModelRow) => row.providerApiKeyEnv.join(", "),
+    accessorFn: (row: ModelRow) => joinSortValues(row.providerApiKeyEnv),
     size: 190,
     cell: ({ row }) => (
       <TagList values={row.original.providerApiKeyEnv} compact />
@@ -439,6 +443,7 @@ export function ModelTable({
     defaultColumn: {
       minSize: 110,
       size: 140,
+      sortUndefined: "last",
     },
     state: { sorting },
     onSortingChange: setSorting,
