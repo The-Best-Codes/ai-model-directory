@@ -1,9 +1,0 @@
-id = "flux-video-upscale"
-name = "FLUX Video Upscale"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "text", "video" ]
-output = [ "video" ]

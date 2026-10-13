@@ -1,7 +1,7 @@
 id = "microsoft/trellis-2-lora"
 name = "TRELLIS.2 LoRA Inference"
 open_weights = true
-release_date = "1782864000"
+release_date = "1791763200"
 
 [features]
 attachment = true

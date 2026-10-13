@@ -1,4 +1,4 @@
-id = "claude-opus-4-8"
+id = "claude-opus-4.8"
 name = "Anthropic: Claude Opus 4.8"
 release_date = "1779905091"
 
@@ -19,6 +19,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.07694508395
-cache_write = 0.961813549375
 input = 0.7694508395
 output = 3.8472541975

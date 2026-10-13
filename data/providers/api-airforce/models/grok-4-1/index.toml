@@ -1,0 +1,18 @@
+id = "grok-4.1"
+name = "grok-4.1"
+release_date = "1791872551"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+cache_write = 0.57
+input = 0.57
+output = 2.89

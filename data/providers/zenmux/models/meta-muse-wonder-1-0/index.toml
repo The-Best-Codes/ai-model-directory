@@ -1,0 +1,19 @@
+id = "meta/muse-wonder-1.0"
+name = "Meta: Muse Wonder"
+release_date = "1791858508"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 4
+output = 20

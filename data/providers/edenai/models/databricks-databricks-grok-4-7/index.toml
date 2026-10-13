@@ -1,0 +1,18 @@
+id = "databricks/databricks-grok-4-7"
+name = "databricks/databricks-grok-4-7"
+release_date = "1791839241"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.199999999976
+input = 1.99999999976
+output = 5.9999999976

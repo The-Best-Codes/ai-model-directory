@@ -1,0 +1,19 @@
+id = "jaredpalmer/kev-4b"
+name = "Kev 4B TEE"
+release_date = "1791849600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.041999999999999996
+output = 0

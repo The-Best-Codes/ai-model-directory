@@ -1,0 +1,17 @@
+id = "dreamina-seedance-2-0-fast-xm"
+name = "dreamina-seedance-2-0-fast-xm"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 5.6
+cache_write = 5.6
+input = 5.6
+input_audio = 5.6
+output = 5.6
+output_audio = 5.6
