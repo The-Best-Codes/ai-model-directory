@@ -1,0 +1,11 @@
+id = "nvidia/parakeet-tdt-0.6b-v3"
+name = "NVIDIA: Parakeet TDT 0.6B v3"
+release_date = "1791936000"
+
+[features]
+attachment = true
+temperature = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

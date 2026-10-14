@@ -1,0 +1,17 @@
+id = "inclusionai/ling-3.1-flash"
+name = "inclusionAI: Ling 3.1 Flash"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3165
+output = 0.9495

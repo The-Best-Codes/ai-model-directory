@@ -1,7 +1,7 @@
 id = "claude-opus-4-1"
 knowledge_cutoff = "1743379200"
 last_updated = "1754352000"
-name = "Claude Opus 4.1 (latest)"
+name = "Claude Opus 4.1"
 open_weights = false
 release_date = "1754352000"
 

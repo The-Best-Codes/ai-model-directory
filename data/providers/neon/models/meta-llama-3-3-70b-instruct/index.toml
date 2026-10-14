@@ -1,7 +1,7 @@
 id = "meta-llama-3-3-70b-instruct"
 knowledge_cutoff = "1701388800"
 last_updated = "1733443200"
-name = "Llama-3.3-70B-Instruct"
+name = "Meta Llama 3.3 70B Instruct"
 open_weights = true
 release_date = "1733443200"
 

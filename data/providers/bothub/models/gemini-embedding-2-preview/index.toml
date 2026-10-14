@@ -4,12 +4,9 @@ name = "Gemini Embedding 2 Preview"
 [features]
 attachment = true
 reasoning = false
-temperature = true
+temperature = false
 tool_call = false
 
-[limit]
-output = 2703
-
 [modalities]
-input = [ "file", "image", "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]

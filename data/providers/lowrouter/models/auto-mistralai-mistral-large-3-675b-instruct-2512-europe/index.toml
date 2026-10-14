@@ -1,0 +1,17 @@
+id = "auto/mistralai/mistral-large-3-675b-instruct-2512/europe"
+name = "auto/mistralai/mistral-large-3-675b-instruct-2512/europe"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2458525366
+output = 0.6593318027

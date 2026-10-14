@@ -1,6 +1,6 @@
 id = "liquid/lfm-2.5-24b-a2b"
 name = "LiquidAI: LFM2.5-24B-A2B"
-release_date = "1791832346"
+release_date = "1791912025"
 
 [features]
 attachment = false
@@ -18,6 +18,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.05
-input = 0.1
-output = 1
+cache_read = 0.025
+input = 0.05
+output = 0.7

@@ -1,0 +1,17 @@
+id = "gemini-4-argon"
+name = "Gemini 4 Argon"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 10

@@ -1,0 +1,16 @@
+id = "microsoft/mai-image-2.6"
+name = "MAI-Image-2.6"
+release_date = "1791849600"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 5
+output = 38

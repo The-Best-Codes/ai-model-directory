@@ -1,5 +1,5 @@
 id = "unbiased/pareto-26.10-preview"
-name = "Pareto 26.10 Preview"
+name = "Pareto 26.10 Preview (retires Oct 15)"
 release_date = "1790863623"
 
 [features]

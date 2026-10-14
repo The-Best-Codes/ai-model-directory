@@ -1,0 +1,19 @@
+id = "nvidia/nemotron-3-ultra-550b-a55b0-free"
+name = "Nemotron 3 Ultra 550b a55b Free"
+
+[features]
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

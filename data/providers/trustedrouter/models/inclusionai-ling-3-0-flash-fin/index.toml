@@ -1,5 +1,5 @@
 id = "inclusionai/ling-3.0-flash-fin"
-name = "inclusionAI: Ling 3.0 Flash Fin"
+name = "InclusionAI: Ling-3.0-flash-fin"
 open_weights = false
 
 [features]

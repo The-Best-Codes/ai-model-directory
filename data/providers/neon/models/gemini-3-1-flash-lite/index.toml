@@ -1,7 +1,7 @@
 id = "gemini-3-1-flash-lite"
 knowledge_cutoff = "1735689600"
 last_updated = "1772496000"
-name = "Gemini 3.1 Flash Lite Preview"
+name = "Gemini 3.1 Flash Lite"
 open_weights = false
 release_date = "1772496000"
 

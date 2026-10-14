@@ -1,0 +1,8 @@
+id = "bge-large-en"
+last_updated = "1694476800"
+name = "BGE Large (En)"
+open_weights = true
+release_date = "1694476800"
+
+[pricing]
+input = 0.1

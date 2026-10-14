@@ -1,0 +1,13 @@
+id = "qwen3-vl-30b-a3b-instruct"
+name = "qwen3-vl-30b-a3b-instruct"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.81

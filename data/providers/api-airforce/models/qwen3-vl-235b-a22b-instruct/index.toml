@@ -1,0 +1,13 @@
+id = "qwen3-vl-235b-a22b-instruct"
+name = "qwen3-vl-235b-a22b-instruct"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.31
+output = 1.23

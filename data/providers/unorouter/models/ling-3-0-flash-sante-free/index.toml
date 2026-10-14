@@ -1,11 +1,11 @@
 id = "ling-3.0-flash-sante:free"
 name = "ling-3.0-flash-sante:free"
-release_date = "1788545946"
+release_date = "1784818580"
 
 [features]
 attachment = false
 reasoning = true
-structured_output = false
+structured_output = true
 temperature = true
 tool_call = true
 

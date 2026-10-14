@@ -1,9 +1,0 @@
-id = "ming-image-0.1-design-layer"
-name = "Ming Image 0.1 Design Layer"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "image" ]

@@ -1,7 +1,7 @@
 id = "claude-haiku-4-5"
 knowledge_cutoff = "1740700800"
 last_updated = "1760486400"
-name = "Claude Haiku 4.5 (latest)"
+name = "Claude Haiku 4.5"
 open_weights = false
 release_date = "1760486400"
 

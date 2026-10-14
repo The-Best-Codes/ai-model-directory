@@ -1,7 +1,7 @@
 id = "claude-sonnet-4-5"
 knowledge_cutoff = "1753920000"
 last_updated = "1759104000"
-name = "Claude Sonnet 4.5 (latest)"
+name = "Claude Sonnet 4.5"
 open_weights = false
 release_date = "1759104000"
 

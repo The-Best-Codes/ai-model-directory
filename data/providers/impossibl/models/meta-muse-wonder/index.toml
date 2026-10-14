@@ -1,0 +1,14 @@
+id = "meta/muse-wonder"
+name = "Muse Wonder"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 4
+output = 20

@@ -3,7 +3,7 @@ name = "DeepSeek V4.1 Flash"
 release_date = "1789152253"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true
@@ -14,7 +14,7 @@ context = 1048576
 output = 131072
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

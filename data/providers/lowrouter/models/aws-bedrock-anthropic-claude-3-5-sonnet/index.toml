@@ -1,9 +1,0 @@
-id = "aws-bedrock/anthropic/claude-3.5-sonnet"
-name = "aws-bedrock/anthropic/claude-3.5-sonnet"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "text" ]

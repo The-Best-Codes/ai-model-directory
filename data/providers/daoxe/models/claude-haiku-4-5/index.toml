@@ -1,4 +1,4 @@
-id = "claude-haiku-4-5"
+id = "claude-haiku-4.5"
 name = "Anthropic: Claude Haiku 4.5"
 release_date = "1760547638"
 
@@ -19,6 +19,5 @@ output = [ "text" ]
 
 [pricing]
 cache_read = 0.01538287387
-cache_write = 0.192285923375
 input = 0.1538287387
 output = 0.7691436935
