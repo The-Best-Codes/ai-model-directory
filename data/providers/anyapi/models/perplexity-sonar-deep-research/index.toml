@@ -1,0 +1,15 @@
+id = "perplexity/sonar-deep-research"
+knowledge_cutoff = "1740787200"
+name = "Perplexity: Sonar Deep Research"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 128000
+output = 115200
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

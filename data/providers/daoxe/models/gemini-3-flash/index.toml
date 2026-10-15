@@ -2,6 +2,6 @@ id = "gemini-3-flash"
 name = "gemini-3-flash"
 
 [pricing]
-cache_read = 0.007691436935
-input = 0.1538287387
-output = 0.4614862161
+cache_read = 0.0076959643
+input = 0.153919286
+output = 0.461757858

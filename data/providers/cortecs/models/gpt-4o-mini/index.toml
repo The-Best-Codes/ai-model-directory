@@ -3,7 +3,7 @@ name = "gpt-4o-mini"
 release_date = "1721302682"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

@@ -1,5 +1,5 @@
 id = "mistral-ocr-4-1"
-name = "mistral-ocr-latest"
+name = "Mistral OCR 4.1"
 
 [features]
 attachment = true

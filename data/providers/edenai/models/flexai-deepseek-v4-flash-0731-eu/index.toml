@@ -1,0 +1,21 @@
+id = "flexai/DeepSeek-V4-Flash-0731@eu"
+name = "flexai/DeepSeek-V4-Flash-0731@eu"
+release_date = "1786684194"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0029
+input = 0.0192
+output = 0.27

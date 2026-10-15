@@ -3,7 +3,7 @@ name = "mistral-small-3.2-24b-instruct-2506"
 release_date = "1748252162"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 tool_call = true
 

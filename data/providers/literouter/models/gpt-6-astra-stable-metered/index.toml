@@ -1,0 +1,4 @@
+id = "gpt-6-astra-stable:metered"
+
+[modalities]
+output = [ "text" ]

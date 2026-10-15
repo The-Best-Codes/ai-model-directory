@@ -3,7 +3,7 @@ name = "mistral-large-2512"
 release_date = "1764762602"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 tool_call = true
 

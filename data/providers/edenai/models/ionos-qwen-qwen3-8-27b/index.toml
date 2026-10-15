@@ -3,15 +3,18 @@ name = "ionos/Qwen/Qwen3.8-27B"
 release_date = "1788215842"
 
 [features]
-attachment = false
-reasoning = false
-structured_output = false
-tool_call = false
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.447519900651
-output = 3.02075932939
+input = 0.447799958802
+output = 3.02264972192

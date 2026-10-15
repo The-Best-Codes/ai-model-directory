@@ -3,7 +3,7 @@ name = "minimax-m3"
 release_date = "1781509082"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

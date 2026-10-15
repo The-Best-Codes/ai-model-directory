@@ -1,9 +1,0 @@
-id = "seed_audio"
-name = "Seed Audio 1.0"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "audio" ]

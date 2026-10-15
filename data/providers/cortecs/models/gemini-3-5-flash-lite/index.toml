@@ -3,7 +3,7 @@ name = "gemini-3.5-flash-lite"
 release_date = "1786084682"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

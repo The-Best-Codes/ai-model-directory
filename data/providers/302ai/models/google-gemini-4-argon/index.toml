@@ -1,0 +1,21 @@
+id = "google-gemini-4-argon"
+last_updated = "1791969271"
+name = "gemini-4-argon"
+release_date = "1791963629"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 4
+output = 10

@@ -1,0 +1,15 @@
+id = "mistralai/voxtral-small-24b-2507"
+knowledge_cutoff = "1751328000"
+name = "Mistral: Voxtral Small 24B 2507"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 32000
+output = 26214
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]

@@ -3,7 +3,7 @@ name = "kimi-k2.6"
 release_date = "1776929882"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

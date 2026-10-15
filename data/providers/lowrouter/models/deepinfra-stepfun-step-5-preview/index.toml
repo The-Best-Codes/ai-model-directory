@@ -1,0 +1,17 @@
+id = "deepinfra/stepfun/step-5-preview"
+name = "deepinfra/stepfun/step-5-preview"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0506756164047
+input = 1.01350560154
+output = 2.73646534838

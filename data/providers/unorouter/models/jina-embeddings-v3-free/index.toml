@@ -1,0 +1,16 @@
+id = "jina-embeddings-v3:free"
+name = "jina-embeddings-v3:free"
+release_date = "1726617600"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,17 @@
+id = "scaledown/summarize-free"
+name = "ScaleDown Summarize (Free)"
+release_date = "1791996555"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

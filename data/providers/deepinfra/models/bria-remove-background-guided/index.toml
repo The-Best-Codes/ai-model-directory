@@ -1,0 +1,6 @@
+id = "Bria/remove_background_guided"
+name = "Bria/remove_background_guided"
+
+[features]
+attachment = false
+reasoning = false

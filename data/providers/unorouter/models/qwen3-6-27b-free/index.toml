@@ -1,0 +1,23 @@
+id = "qwen3.6-27b:free"
+name = "qwen3.6-27b:free"
+release_date = "1777255064"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262100
+input = 262100
+output = 81920
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

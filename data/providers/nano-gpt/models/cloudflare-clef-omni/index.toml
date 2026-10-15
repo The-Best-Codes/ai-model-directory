@@ -1,0 +1,19 @@
+id = "cloudflare/clef-omni"
+name = "Clef Omni"
+release_date = "1791936000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1800
+
+[modalities]
+input = [ "audio", "image", "text" ]
+
+[pricing]
+input = 0.15
+output = 0

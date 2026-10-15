@@ -3,7 +3,7 @@ name = "gpt-5.1"
 release_date = "1763168400"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

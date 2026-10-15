@@ -1,6 +1,6 @@
 id = "nvidia/nemotron-3.5-lightning-free"
 name = "Nemotron 3.5 Lightning Free"
-release_date = "1791849600"
+release_date = "1791936000"
 
 [features]
 attachment = false

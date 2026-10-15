@@ -5,5 +5,5 @@ name = "seedance-2.0"
 attachment = true
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "image", "text" ]
 output = [ "video" ]

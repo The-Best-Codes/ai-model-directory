@@ -1,0 +1,22 @@
+id = "databricks/databricks-claude-haiku-5-5"
+name = "databricks/databricks-claude-haiku-5-5"
+release_date = "1791954861"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.009999997
+cache_write = 0.12502
+input = 0.09999997
+output = 0.49999999

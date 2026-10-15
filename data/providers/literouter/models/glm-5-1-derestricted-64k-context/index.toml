@@ -1,4 +1,0 @@
-id = "glm-5.1-derestricted:64k-context"
-
-[modalities]
-output = [ "text" ]

@@ -3,7 +3,7 @@ name = "gpt-5.6-terra"
 release_date = "1783944000"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

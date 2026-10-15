@@ -1,7 +1,7 @@
 id = "blackforestlabs/flux-3/text-to-image"
 name = "Flux 3 Image (Text To Image)"
 open_weights = true
-release_date = "1790899200"
+release_date = "1791849600"
 
 [features]
 attachment = false

@@ -3,7 +3,7 @@ name = "qwen3.8-flash-next"
 release_date = "1787909762"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

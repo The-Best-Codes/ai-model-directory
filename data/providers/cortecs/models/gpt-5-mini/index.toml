@@ -3,7 +3,7 @@ name = "gpt-5-mini"
 release_date = "1732102682"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

@@ -1,4 +1,0 @@
-id = "glm-4.7-flash-heretic:32k-context"
-
-[modalities]
-output = [ "text" ]

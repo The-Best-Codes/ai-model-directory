@@ -1,0 +1,15 @@
+id = "aion-labs/aion-2.0"
+knowledge_cutoff = "1769904000"
+name = "AionLabs: Aion-2.0"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

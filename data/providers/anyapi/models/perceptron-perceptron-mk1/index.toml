@@ -1,0 +1,15 @@
+id = "perceptron/perceptron-mk1"
+knowledge_cutoff = "1777593600"
+name = "Perceptron: Perceptron Mk1"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 32768
+output = 8192
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

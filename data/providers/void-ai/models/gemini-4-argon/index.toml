@@ -1,0 +1,12 @@
+id = "gemini-4-argon"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048576
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

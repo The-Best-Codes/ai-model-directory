@@ -3,7 +3,7 @@ name = "pixtral-large-2502"
 release_date = "1748252162"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

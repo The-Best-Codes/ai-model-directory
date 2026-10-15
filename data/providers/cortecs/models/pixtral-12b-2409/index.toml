@@ -3,7 +3,7 @@ name = "pixtral-12b-2409"
 release_date = "1731176378"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = false
 

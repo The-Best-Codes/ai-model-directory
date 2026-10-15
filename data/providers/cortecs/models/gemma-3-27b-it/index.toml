@@ -3,7 +3,7 @@ name = "gemma-3-27b-it"
 release_date = "1741779482"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

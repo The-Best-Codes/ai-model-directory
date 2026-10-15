@@ -1,0 +1,17 @@
+id = "nace/drex-v2.0"
+name = "Drex 2.0"
+release_date = "1791998630"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0

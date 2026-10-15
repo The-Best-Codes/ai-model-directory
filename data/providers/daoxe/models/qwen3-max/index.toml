@@ -2,6 +2,6 @@ id = "qwen3-max"
 name = "qwen3-max"
 
 [pricing]
-cache_read = 0.0132446544021
-input = 0.132446544021
-output = 0.529324732323
+cache_read = 0.0132524505246
+input = 0.132524505246
+output = 0.529636305608

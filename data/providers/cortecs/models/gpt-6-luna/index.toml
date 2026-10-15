@@ -3,7 +3,7 @@ name = "gpt-6-luna"
 release_date = "1790161200"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

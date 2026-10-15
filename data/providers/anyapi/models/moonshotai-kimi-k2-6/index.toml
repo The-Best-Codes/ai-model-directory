@@ -1,0 +1,15 @@
+id = "moonshotai/kimi-k2.6"
+knowledge_cutoff = "1775001600"
+name = "MoonshotAI: Kimi K2.6"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262000
+output = 262000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

@@ -3,7 +3,7 @@ name = "claude-4-5-sonnet"
 release_date = "1759145882"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

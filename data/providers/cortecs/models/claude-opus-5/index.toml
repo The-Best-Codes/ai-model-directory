@@ -3,7 +3,7 @@ name = "claude-opus-5"
 release_date = "1785133800"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

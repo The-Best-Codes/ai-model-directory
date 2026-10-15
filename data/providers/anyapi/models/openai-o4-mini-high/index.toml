@@ -1,0 +1,15 @@
+id = "openai/o4-mini-high"
+knowledge_cutoff = "1743465600"
+name = "OpenAI: o4 Mini High"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+output = 100000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

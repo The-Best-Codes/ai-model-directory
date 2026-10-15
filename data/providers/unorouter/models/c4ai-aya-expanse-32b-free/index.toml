@@ -1,0 +1,21 @@
+id = "c4ai-aya-expanse-32b:free"
+name = "c4ai-aya-expanse-32b:free"
+release_date = "1729728000"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+input = 128000
+output = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

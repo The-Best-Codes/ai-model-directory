@@ -1,0 +1,15 @@
+id = "qwen/qwen3-coder-30b-a3b-instruct"
+knowledge_cutoff = "1751328000"
+name = "Qwen: Qwen3 Coder 30B A3B Instruct"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 160000
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

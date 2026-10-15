@@ -3,7 +3,7 @@ name = "ministral-8b-2512"
 release_date = "1764762542"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 tool_call = true
 

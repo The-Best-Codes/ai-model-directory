@@ -3,7 +3,7 @@ name = "qwen3-vl-235b-a22b"
 release_date = "1768304282"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

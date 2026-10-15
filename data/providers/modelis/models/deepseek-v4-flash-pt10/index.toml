@@ -2,5 +2,5 @@ id = "deepseek-v4-flash__pt10"
 name = "deepseek-v4-flash__pt10"
 
 [pricing]
-input = 0.278977826575
-output = 0.558213726995
+input = 0.279142039642
+output = 0.558542305037

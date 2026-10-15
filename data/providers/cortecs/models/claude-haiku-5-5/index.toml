@@ -3,7 +3,7 @@ name = "claude-haiku-5.5"
 release_date = "1791446400"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

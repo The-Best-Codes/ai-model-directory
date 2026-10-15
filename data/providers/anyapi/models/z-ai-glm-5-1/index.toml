@@ -1,0 +1,15 @@
+id = "z-ai/glm-5.1"
+knowledge_cutoff = "1775001600"
+name = "Z.ai: GLM 5.1"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 202752
+output = 65535
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

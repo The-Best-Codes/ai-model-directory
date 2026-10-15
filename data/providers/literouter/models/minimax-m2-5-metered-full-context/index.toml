@@ -1,4 +1,0 @@
-id = "minimax-m2.5:metered:full-context"
-
-[modalities]
-output = [ "text" ]

@@ -3,7 +3,7 @@ name = "Qwen/Qwen3.5-9B"
 release_date = "1777299160"
 
 [pricing]
-cache_read = 0.162
+cache_read = 0.018
 cache_write = 0.18
 input = 0.18
 output = 0.54

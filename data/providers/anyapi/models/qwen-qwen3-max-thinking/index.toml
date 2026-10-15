@@ -1,0 +1,15 @@
+id = "qwen/qwen3-max-thinking"
+knowledge_cutoff = "1767225600"
+name = "Qwen: Qwen3 Max Thinking"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

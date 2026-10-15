@@ -1,0 +1,15 @@
+id = "inception/mercury-2"
+knowledge_cutoff = "1769904000"
+name = "Inception: Mercury 2"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 128000
+output = 50000
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

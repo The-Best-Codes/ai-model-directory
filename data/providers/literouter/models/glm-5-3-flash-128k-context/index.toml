@@ -1,4 +1,0 @@
-id = "glm-5.3-flash:128k-context"
-
-[modalities]
-output = [ "text" ]

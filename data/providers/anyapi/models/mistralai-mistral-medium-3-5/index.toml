@@ -1,0 +1,15 @@
+id = "mistralai/mistral-medium-3-5"
+knowledge_cutoff = "1775001600"
+name = "Mistral: Mistral Medium 3.5"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

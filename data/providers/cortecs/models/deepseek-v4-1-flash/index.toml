@@ -3,7 +3,7 @@ name = "deepseek-v4.1-flash"
 release_date = "1789372111"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 

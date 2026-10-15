@@ -3,7 +3,7 @@ name = "mistral-medium-3.5"
 release_date = "1777549993"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 
