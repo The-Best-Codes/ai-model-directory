@@ -1,12 +1,12 @@
 id = "stepfun/step-5-preview"
-name = "Step 5 Preview"
+name = "StepFun: Step 5 Preview"
 open_weights = false
 
 [features]
 attachment = true
 
 [limit]
-context = 1000000
+context = 1048576
 
 [modalities]
 input = [ "image", "text" ]

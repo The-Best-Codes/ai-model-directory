@@ -6,9 +6,5 @@ attachment = true
 tool_call = true
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.67265541
-output = 3.36327705

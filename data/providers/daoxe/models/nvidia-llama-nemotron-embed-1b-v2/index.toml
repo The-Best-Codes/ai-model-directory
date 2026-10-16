@@ -2,4 +2,4 @@ id = "nvidia/llama-nemotron-embed-1b-v2"
 name = "nvidia/llama-nemotron-embed-1b-v2"
 
 [pricing]
-input = 0.00615677144
+input = 0.006156102352

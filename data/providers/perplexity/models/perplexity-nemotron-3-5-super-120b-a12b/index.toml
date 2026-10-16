@@ -1,0 +1,6 @@
+id = "perplexity/nemotron-3.5-super-120b-a12b"
+
+[pricing]
+cache_read = 0.04
+input = 0.2
+output = 0.5

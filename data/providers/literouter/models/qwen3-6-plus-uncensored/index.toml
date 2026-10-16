@@ -1,0 +1,4 @@
+id = "qwen3.6-plus-uncensored"
+
+[modalities]
+output = [ "text" ]

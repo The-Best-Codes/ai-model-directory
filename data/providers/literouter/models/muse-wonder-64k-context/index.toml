@@ -1,0 +1,4 @@
+id = "muse-wonder:64k-context"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,15 @@
+id = "llmtr/embeddingmagibu-200m"
+name = "EmbeddingMagibu 200M"
+release_date = "1792040573"
+
+[features]
+attachment = true
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0

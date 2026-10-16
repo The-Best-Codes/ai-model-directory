@@ -1,0 +1,4 @@
+id = "qwen3.8-2.4t-a95b:128k-context"
+
+[modalities]
+output = [ "text" ]

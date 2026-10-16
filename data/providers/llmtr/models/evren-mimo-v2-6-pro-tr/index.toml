@@ -14,5 +14,6 @@ context = 1048576
 input = [ "image", "text" ]
 
 [pricing]
+cache_read = 0
 input = 0
 output = 0

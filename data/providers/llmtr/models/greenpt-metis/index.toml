@@ -1,0 +1,17 @@
+id = "greenpt/metis"
+name = "Metis"
+release_date = "1792045870"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.147783
+output = 0

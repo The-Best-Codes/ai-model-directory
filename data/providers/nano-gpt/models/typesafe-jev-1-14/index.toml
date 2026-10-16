@@ -1,0 +1,19 @@
+id = "typesafe/jev-1.14"
+name = "Jev 1.14"
+release_date = "1792022400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0

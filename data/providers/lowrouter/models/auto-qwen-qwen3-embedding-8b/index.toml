@@ -9,6 +9,3 @@ context = 40960
 
 [modalities]
 input = [ "text" ]
-
-[pricing]
-output = 0

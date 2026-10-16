@@ -2,6 +2,6 @@ id = "mistral-7b"
 name = "mistral-7b"
 
 [pricing]
-cache_read = 0.001847031432
-input = 0.00923515716
-output = 0.02770547148
+cache_read = 0.0018468307056
+input = 0.009234153528
+output = 0.027702460584

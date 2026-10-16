@@ -5,7 +5,7 @@ name = "Clef Flash"
 attachment = true
 
 [limit]
-context = 24576
+context = 65536
 
 [modalities]
 input = [ "image", "text" ]

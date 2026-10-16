@@ -1,6 +1,6 @@
 id = "openai/gpt-pro-latest"
 name = "openai/gpt-pro-latest"
-release_date = "1777051896"
+release_date = "1783590850"
 
 [features]
 attachment = true
@@ -16,5 +16,7 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 30
-output = 180
+cache_read = 0.4
+cache_write = 5
+input = 4
+output = 20

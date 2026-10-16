@@ -1,4 +1,0 @@
-id = "gemini-4-argon-cheap:metered"
-
-[modalities]
-output = [ "text" ]

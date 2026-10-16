@@ -1,0 +1,12 @@
+id = "typesafe-ai/jev-1.14.0"
+name = "Jev 1.14.0"
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.042
+output = 0

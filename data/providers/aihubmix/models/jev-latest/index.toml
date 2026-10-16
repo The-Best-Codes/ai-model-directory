@@ -2,7 +2,7 @@ id = "jev-latest"
 name = "jev-latest"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 tool_call = false
@@ -11,7 +11,7 @@ tool_call = false
 context = 64000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 
 [pricing]
 input = 0.0462

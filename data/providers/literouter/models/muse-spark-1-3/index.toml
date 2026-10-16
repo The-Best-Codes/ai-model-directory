@@ -1,0 +1,4 @@
+id = "muse-spark-1.3"
+
+[modalities]
+output = [ "text" ]

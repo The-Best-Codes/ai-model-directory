@@ -2,4 +2,4 @@ id = "Qwen/Qwen3-Embedding-4B"
 name = "Qwen/Qwen3-Embedding-4B"
 
 [pricing]
-input = 0.00153919286
+input = 0.001539025588

@@ -1,0 +1,18 @@
+id = "typesafe-ai/jev-1.14.0"
+name = "Jev 1.14.0"
+release_date = "1792022400"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.042
+output = 0

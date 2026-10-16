@@ -1,0 +1,4 @@
+id = "hy3:32k-context"
+
+[modalities]
+output = [ "text" ]

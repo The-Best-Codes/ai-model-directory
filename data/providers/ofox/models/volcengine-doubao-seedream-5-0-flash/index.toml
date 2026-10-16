@@ -1,0 +1,21 @@
+id = "volcengine/doubao-seedream-5.0-flash"
+name = "Doubao Seedream 5.0 Flash"
+release_date = "1789430400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 100000
+output = 100000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

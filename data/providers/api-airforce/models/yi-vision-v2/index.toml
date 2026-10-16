@@ -1,0 +1,14 @@
+id = "yi-vision-v2"
+name = "yi-vision-v2"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.28
+output = 0.83

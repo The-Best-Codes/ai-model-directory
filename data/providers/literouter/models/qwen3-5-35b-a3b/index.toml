@@ -1,0 +1,4 @@
+id = "qwen3.5-35b-a3b"
+
+[modalities]
+output = [ "text" ]

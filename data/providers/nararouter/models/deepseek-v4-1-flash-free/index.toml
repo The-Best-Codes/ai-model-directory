@@ -1,0 +1,18 @@
+id = "deepseek-v4.1-flash-free"
+name = "DeepSeek v4.1 Flash Free"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.000538758222676
+input = 0.00237053623549
+output = 0.071834430823

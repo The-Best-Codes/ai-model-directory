@@ -1,4 +1,0 @@
-id = "qwen3.6-plus:metered"
-
-[modalities]
-output = [ "text" ]

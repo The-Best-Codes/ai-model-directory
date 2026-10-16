@@ -1,0 +1,13 @@
+id = "scaleway/lighton/lightonocr-3.0.8b"
+name = "scaleway/lighton/lightonocr-3.0.8b"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.469522044
+output = 0

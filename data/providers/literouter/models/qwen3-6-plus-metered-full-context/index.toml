@@ -1,4 +1,0 @@
-id = "qwen3.6-plus:metered:full-context"
-
-[modalities]
-output = [ "text" ]

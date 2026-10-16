@@ -2,5 +2,5 @@ id = "anthropic/claude-opus-5-fast"
 name = "anthropic/claude-opus-5-fast"
 
 [pricing]
-input = 61.974180864
-output = 309.87090432
+input = 61.9674458112
+output = 309.837229056

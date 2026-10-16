@@ -4,10 +4,10 @@ open_weights = true
 release_date = "1791165098"
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
 context = 262144
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]

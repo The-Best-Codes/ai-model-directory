@@ -1,4 +1,0 @@
-id = "glm-4.7-flash:metered"
-
-[modalities]
-output = [ "text" ]

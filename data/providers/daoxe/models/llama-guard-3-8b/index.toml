@@ -2,5 +2,5 @@ id = "llama-guard-3-8b"
 name = "llama-guard-3-8b"
 
 [pricing]
-input = 0.0307838572
-output = 0.0307838572
+input = 0.03078051176
+output = 0.03078051176

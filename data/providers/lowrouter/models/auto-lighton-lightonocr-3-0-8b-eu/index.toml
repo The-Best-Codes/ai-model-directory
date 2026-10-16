@@ -1,0 +1,13 @@
+id = "auto/lighton/lightonocr-3.0.8b/eu"
+name = "auto/lighton/lightonocr-3.0.8b/eu"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.469522044
+output = 0

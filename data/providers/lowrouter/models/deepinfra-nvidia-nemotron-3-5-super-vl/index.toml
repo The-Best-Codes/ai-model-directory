@@ -1,0 +1,17 @@
+id = "deepinfra/nvidia/nemotron-3.5-super-vl"
+name = "deepinfra/nvidia/nemotron-3.5-super-vl"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.101615219561
+input = 0.203230439121
+output = 1.01615107309

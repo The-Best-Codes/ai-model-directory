@@ -1,0 +1,15 @@
+id = "muse-spark-open"
+last_updated = "1792054800"
+name = "muse-spark-open"
+release_date = "1792054800"
+
+[features]
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

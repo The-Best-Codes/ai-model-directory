@@ -1,0 +1,17 @@
+id = "auto/nvidia/nemotron-3.5-super-vl/cloud-act-free"
+name = "auto/nvidia/nemotron-3.5-super-vl/cloud-act-free"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.304845658682
+output = 0.914535853534

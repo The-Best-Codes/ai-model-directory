@@ -14,5 +14,5 @@ context = 65536
 input = [ "image", "text" ]
 
 [pricing]
-input = 0.04
+input = 0.02
 output = 0

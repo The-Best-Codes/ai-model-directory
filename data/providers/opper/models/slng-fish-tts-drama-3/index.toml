@@ -1,0 +1,10 @@
+id = "slng:fish/tts:drama-3"
+name = "Fish Audio Drama 3"
+release_date = "1791849600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

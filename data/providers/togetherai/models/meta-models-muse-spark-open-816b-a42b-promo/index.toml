@@ -1,0 +1,18 @@
+id = "meta-models/Muse-Spark-Open-816B-A42B-promo"
+name = "Muse Spark Open 816B A42B Promo (Free until 10/18)"
+release_date = "1792021675"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

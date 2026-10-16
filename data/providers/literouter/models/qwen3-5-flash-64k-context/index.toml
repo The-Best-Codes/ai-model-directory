@@ -1,0 +1,4 @@
+id = "qwen3.5-flash:64k-context"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,11 @@
+id = "qwen-image-3.0-pro"
+last_updated = "1792073829"
+name = "Qwen-Image-3.0-Pro"
+release_date = "1792073829"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

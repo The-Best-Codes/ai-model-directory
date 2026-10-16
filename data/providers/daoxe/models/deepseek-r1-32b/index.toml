@@ -2,6 +2,6 @@ id = "deepseek-r1-32b"
 name = "deepseek-r1-32b"
 
 [pricing]
-cache_read = 0.00461757858
-input = 0.0461757858
-output = 0.1847031432
+cache_read = 0.004617076764
+input = 0.04617076764
+output = 0.18468307056

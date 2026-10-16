@@ -1,4 +1,0 @@
-id = "kimi-k2.5:metered"
-
-[modalities]
-output = [ "text" ]

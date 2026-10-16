@@ -11,13 +11,13 @@ tool_call = true
 
 [limit]
 context = 262144
-output = 81920
+output = 65536
 
 [modalities]
 input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00615677144
-input = 0.0307838572
-output = 0.230878929
+cache_read = 0.006156102352
+input = 0.03078051176
+output = 0.2308538382

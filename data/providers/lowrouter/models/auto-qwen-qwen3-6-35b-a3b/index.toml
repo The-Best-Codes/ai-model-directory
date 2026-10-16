@@ -9,5 +9,5 @@ tool_call = true
 context = 262144
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "audio", "image", "text", "video" ]
 output = [ "text" ]

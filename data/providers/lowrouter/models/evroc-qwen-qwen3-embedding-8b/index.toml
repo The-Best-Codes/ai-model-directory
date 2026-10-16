@@ -1,0 +1,15 @@
+id = "evroc/qwen/qwen3-embedding-8b"
+name = "evroc/qwen/qwen3-embedding-8b"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.112251002
+output = 0.112251002

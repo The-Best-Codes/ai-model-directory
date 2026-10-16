@@ -1,0 +1,12 @@
+id = "auto/intfloat/multilingual-e5-large-instruct/cloud-act-free"
+name = "auto/intfloat/multilingual-e5-large-instruct/cloud-act-free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.112251002
+output = 0.112251002

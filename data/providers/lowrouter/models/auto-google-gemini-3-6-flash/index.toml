@@ -5,15 +5,11 @@ name = "auto/google/gemini-3.6-flash"
 attachment = true
 tool_call = true
 
-[limit]
-context = 1048576
-output = 65536
-
 [modalities]
 input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0760134246071
-input = 0.760129761701
-output = 3.80064544523
+cache_read = 0.0762116952979
+input = 0.762113585449
+output = 3.81056680473
