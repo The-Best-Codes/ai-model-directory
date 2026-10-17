@@ -1,0 +1,21 @@
+id = "together_ai/reflection/Beam-1.0-501B-A23B"
+name = "together_ai/reflection/Beam-1.0-501B-A23B"
+release_date = "1792163230"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+input = 0.4
+output = 1.2

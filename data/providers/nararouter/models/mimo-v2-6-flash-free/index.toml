@@ -3,7 +3,7 @@ name = "Mimo v2.6 Flash Free"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 
 [limit]
 context = 1000000

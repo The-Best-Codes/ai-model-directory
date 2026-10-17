@@ -11,5 +11,5 @@ context = 40960
 input = [ "text" ]
 
 [pricing]
-input = 0.112251002
-output = 0.112251002
+input = 0.112375958
+output = 0.112375958

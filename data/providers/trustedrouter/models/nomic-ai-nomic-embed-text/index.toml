@@ -1,0 +1,16 @@
+id = "nomic-ai/nomic-embed-text"
+name = "Nomic Embed Text"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.05275
+output = 0

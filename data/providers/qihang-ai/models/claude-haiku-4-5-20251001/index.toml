@@ -3,5 +3,5 @@ name = "claude-haiku-4-5-20251001"
 release_date = "1760486400"
 
 [pricing]
-input = 0.29883992
-output = 1.4941996
+input = 0.2989778
+output = 1.494889

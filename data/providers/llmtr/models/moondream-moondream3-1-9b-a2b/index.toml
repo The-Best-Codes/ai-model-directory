@@ -1,0 +1,17 @@
+id = "moondream/moondream3.1-9b-a2b"
+name = "Moondream 3.1"
+release_date = "1792144188"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.3
+output = 2.5

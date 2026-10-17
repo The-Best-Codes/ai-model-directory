@@ -1,0 +1,9 @@
+id = "mistralai/voxtral-4b-tts-2603"
+name = "Mistral: Voxtral 4B TTS"
+open_weights = false
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

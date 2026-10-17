@@ -5,6 +5,10 @@ name = "auto/moonshotai/kimi-k2.6"
 attachment = true
 tool_call = true
 
+[limit]
+context = 262144
+output = 262144
+
 [modalities]
 input = [ "image", "text", "video" ]
 output = [ "text" ]

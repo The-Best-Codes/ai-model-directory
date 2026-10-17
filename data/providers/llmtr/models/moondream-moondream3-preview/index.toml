@@ -1,0 +1,17 @@
+id = "moondream/moondream3-preview"
+name = "Moondream 3 Preview"
+release_date = "1792144188"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.3
+output = 2.5

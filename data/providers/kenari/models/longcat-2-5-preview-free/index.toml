@@ -1,0 +1,18 @@
+id = "longcat-2-5-preview:free"
+name = "longcat-2-5-preview:free"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

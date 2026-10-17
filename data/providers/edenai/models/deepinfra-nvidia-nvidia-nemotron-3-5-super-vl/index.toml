@@ -1,0 +1,21 @@
+id = "deepinfra/nvidia/NVIDIA-Nemotron-3.5-Super-VL"
+name = "deepinfra/nvidia/NVIDIA-Nemotron-3.5-Super-VL"
+release_date = "1792127615"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.2
+output = 1

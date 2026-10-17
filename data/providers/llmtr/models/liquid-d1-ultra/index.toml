@@ -1,0 +1,17 @@
+id = "liquid/d1-ultra"
+name = "d1-ultra"
+release_date = "1792151323"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.042
+output = 0

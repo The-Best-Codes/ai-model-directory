@@ -1,0 +1,17 @@
+id = "reflection/beam-1.0"
+name = "Reflection: Beam 1.0"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.3715
+output = 4.5365

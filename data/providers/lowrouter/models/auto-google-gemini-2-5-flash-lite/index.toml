@@ -7,12 +7,13 @@ tool_call = true
 
 [limit]
 context = 1048576
+output = 65536
 
 [modalities]
 input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0101620832111
-input = 0.101615219561
-output = 0.406460878242
+cache_read = 0.0101801380352
+input = 0.101794637795
+output = 0.407177427419

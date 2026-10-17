@@ -1,0 +1,9 @@
+id = "openai/whisper-large-v3"
+name = "Whisper Large V3"
+open_weights = false
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]

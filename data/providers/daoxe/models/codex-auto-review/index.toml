@@ -2,6 +2,6 @@ id = "codex-auto-review"
 name = "codex-auto-review"
 
 [pricing]
-cache_read = 0.0769512794
-input = 0.769512794
-output = 4.617076764
+cache_read = 0.0769867835
+input = 0.769867835
+output = 4.61920701

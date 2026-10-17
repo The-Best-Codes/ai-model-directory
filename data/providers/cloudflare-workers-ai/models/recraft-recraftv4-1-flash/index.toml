@@ -1,0 +1,9 @@
+id = "recraft/recraftv4-1-flash"
+name = "Recraft V4.1 Flash"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,14 @@
+id = "typesafe/jev-1.14.0"
+name = "Jev 1.14"
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.042
+output = 0

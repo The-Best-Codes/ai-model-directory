@@ -6,7 +6,7 @@ attachment = false
 reasoning = true
 
 [limit]
-context = 202752
+context = 204800
 
 [modalities]
 input = [ "text" ]

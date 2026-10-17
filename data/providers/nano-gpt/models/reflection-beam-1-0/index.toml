@@ -1,0 +1,21 @@
+id = "reflection/beam-1.0"
+name = "Beam 1.0 501B A23B"
+release_date = "1792108800"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.45
+output = 1.25

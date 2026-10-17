@@ -6,8 +6,8 @@ attachment = true
 tool_call = true
 
 [limit]
-context = 131072
-output = 131072
+context = 128000
+output = 8192
 
 [modalities]
 input = [ "image", "text" ]

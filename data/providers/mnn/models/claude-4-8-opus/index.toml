@@ -2,7 +2,7 @@ id = "claude-4.8-opus"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 tool_call = true
 
 [modalities]

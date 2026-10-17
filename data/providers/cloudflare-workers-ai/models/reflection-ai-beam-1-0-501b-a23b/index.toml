@@ -1,0 +1,19 @@
+id = "reflection-ai/beam-1.0-501b-a23b"
+name = "Beam 1.0 501B A23B"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

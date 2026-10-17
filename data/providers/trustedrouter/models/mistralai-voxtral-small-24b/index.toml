@@ -1,0 +1,16 @@
+id = "mistralai/voxtral-small-24b"
+name = "Voxtral Small 24B"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+input = 0.211
+output = 0.633

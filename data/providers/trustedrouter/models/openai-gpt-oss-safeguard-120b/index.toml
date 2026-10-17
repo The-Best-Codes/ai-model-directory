@@ -1,0 +1,17 @@
+id = "openai/gpt-oss-safeguard-120b"
+name = "GPT-OSS Safeguard 120B"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15825
+output = 0.633

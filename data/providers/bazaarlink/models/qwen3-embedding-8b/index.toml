@@ -5,7 +5,7 @@ name = "Qwen3 Embedding 8B"
 attachment = false
 
 [limit]
-context = 32768
+context = 40960
 
 [modalities]
 input = [ "text" ]

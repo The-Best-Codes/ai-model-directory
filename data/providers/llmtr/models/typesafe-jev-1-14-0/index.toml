@@ -1,0 +1,17 @@
+id = "typesafe/jev-1.14.0"
+name = "Jev 1.14"
+release_date = "1792134775"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.042
+output = 0

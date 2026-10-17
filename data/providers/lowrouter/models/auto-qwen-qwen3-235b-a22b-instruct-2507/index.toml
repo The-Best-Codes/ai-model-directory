@@ -6,7 +6,7 @@ attachment = false
 tool_call = true
 
 [limit]
-context = 262144
+context = 32768
 
 [modalities]
 input = [ "text" ]

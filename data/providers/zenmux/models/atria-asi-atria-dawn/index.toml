@@ -1,0 +1,20 @@
+id = "atria-asi/atria-dawn"
+name = "Atria: Atria Dawn (Free)"
+release_date = "1792132430"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 524288
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

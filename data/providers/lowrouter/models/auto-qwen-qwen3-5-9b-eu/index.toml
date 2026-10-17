@@ -5,6 +5,9 @@ name = "auto/qwen/qwen3.5-9b/eu"
 attachment = true
 tool_call = true
 
+[limit]
+context = 262000
+
 [modalities]
 input = [ "image", "text", "video" ]
 output = [ "text" ]

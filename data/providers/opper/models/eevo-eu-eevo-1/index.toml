@@ -1,0 +1,15 @@
+id = "eevo:eu/eevo-1"
+name = "Eevo 1"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 2.75
+output = 0

@@ -1,0 +1,18 @@
+id = "fireworks/ember-1"
+name = "Ember-1"
+
+[features]
+reasoning = true
+temperature = true
+
+[limit]
+context = 1040000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 3
+output = 15

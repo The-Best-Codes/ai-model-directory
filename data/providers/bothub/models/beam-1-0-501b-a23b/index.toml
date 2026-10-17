@@ -1,0 +1,15 @@
+id = "beam-1.0-501b-a23b"
+name = "Beam 1.0 501B A23B"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[limit]
+output = 943718
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

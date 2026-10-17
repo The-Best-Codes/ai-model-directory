@@ -3,5 +3,5 @@ name = "gemini-2.0-flash"
 release_date = "1738368000"
 
 [pricing]
-input = 0.059767984
-output = 0.239071936
+input = 0.05979556
+output = 0.23918224

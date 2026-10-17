@@ -1,0 +1,24 @@
+id = "reflection/beam-1.0-501b-a23b"
+knowledge_cutoff = "1782777600"
+name = "Reflection: Beam 1.0 501B A23B"
+open_weights = true
+release_date = "1792160499"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25
+output = 1

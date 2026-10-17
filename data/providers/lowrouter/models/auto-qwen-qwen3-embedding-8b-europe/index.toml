@@ -5,7 +5,7 @@ name = "auto/qwen/qwen3-embedding-8b/europe"
 attachment = false
 
 [limit]
-context = 40960
+context = 32000
 
 [modalities]
 input = [ "text" ]

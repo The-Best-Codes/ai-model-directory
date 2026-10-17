@@ -1,0 +1,18 @@
+id = "accounts/fireworks/models/beam-1p0-501b-a23b"
+name = "Reflection Beam-1.0-501B-A23B"
+open_weights = true
+
+[features]
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.6
+input = 1.2
+output = 1.2

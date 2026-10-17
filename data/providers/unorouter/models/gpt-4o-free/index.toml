@@ -1,7 +1,7 @@
 id = "gpt-4o:free"
 knowledge_cutoff = "1698710400"
 name = "gpt-4o:free"
-release_date = "1722902400"
+release_date = "1732127594"
 
 [features]
 attachment = true

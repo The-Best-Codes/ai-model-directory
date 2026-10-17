@@ -2,7 +2,7 @@ id = "claude-sonnet-5"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 tool_call = true
 
 [modalities]

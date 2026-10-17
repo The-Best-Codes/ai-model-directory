@@ -1,0 +1,5 @@
+id = "bria/ad-delayer"
+name = "Ad Delayer"
+
+[modalities]
+input = [ "text" ]

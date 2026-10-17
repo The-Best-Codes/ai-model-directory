@@ -9,9 +9,9 @@ tool_call = true
 context = 1048576
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.304845658682
-output = 0.914535853534
+input = 0.305382789625
+output = 0.916148368874

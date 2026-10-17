@@ -1,4 +1,4 @@
-id = "claude-haiku-4-5"
+id = "claude-haiku-4.5"
 name = "Anthropic: Claude Haiku 4.5"
 release_date = "1760547638"
 
@@ -18,7 +18,6 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01539025588
-cache_write = 0.1923781985
-input = 0.1539025588
-output = 0.769512794
+cache_read = 0.0153973567
+input = 0.153973567
+output = 0.769867835

@@ -1,0 +1,9 @@
+id = "mistralai/voxtral-mini-2602"
+name = "Voxtral Mini Transcribe 2"
+open_weights = false
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]

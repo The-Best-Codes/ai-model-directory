@@ -5,6 +5,10 @@ name = "auto/moonshotai/kimi-k2-thinking"
 attachment = false
 tool_call = true
 
+[limit]
+context = 262144
+output = 16000
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

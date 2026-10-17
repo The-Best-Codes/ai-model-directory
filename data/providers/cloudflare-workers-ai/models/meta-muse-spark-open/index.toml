@@ -1,0 +1,19 @@
+id = "meta/muse-spark-open"
+name = "Muse Spark Open"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+
+[limit]
+context = 1040000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 1.25
+output = 4.25

@@ -1,0 +1,9 @@
+id = "qwen-image-2.1-turbo"
+name = "Qwen Image 2.1 Turbo"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
