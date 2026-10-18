@@ -2,6 +2,6 @@ id = "text-embedding-3-large"
 name = "text-embedding-3-large"
 
 [pricing]
-cache_read = 0.000142975455071
-input = 0.02001656371
-output = 0.0285950910143
+cache_read = 0.000143021583621
+input = 0.020023021707
+output = 0.0286043167243

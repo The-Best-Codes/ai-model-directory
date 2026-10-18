@@ -1,0 +1,11 @@
+id = "krea/v3/edit"
+name = "Krea 3 Edit"
+open_weights = true
+release_date = "1792022400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

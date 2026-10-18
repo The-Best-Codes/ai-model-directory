@@ -1,0 +1,11 @@
+id = "krea/v3/text-to-image"
+name = "Krea 3 Text to Image"
+open_weights = true
+release_date = "1792022400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

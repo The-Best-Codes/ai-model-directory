@@ -1,0 +1,21 @@
+id = "deepinfra/Qwen/Qwen3.5-35B-A3B"
+name = "deepinfra/Qwen/Qwen3.5-35B-A3B"
+release_date = "1788139672"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 81920
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 0
+input = 0.14
+output = 1

@@ -1,0 +1,4 @@
+id = "ministral-3-14b-instruct:64k-context"
+
+[modalities]
+output = [ "text" ]

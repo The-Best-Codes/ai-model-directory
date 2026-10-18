@@ -1,0 +1,4 @@
+id = "minimax-m2.5:metered"
+
+[modalities]
+output = [ "text" ]

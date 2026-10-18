@@ -1,11 +1,11 @@
 id = "alibaba/wan-3.0/reference-to-video"
 name = "Wan 3.0 (Reference To Video)"
 open_weights = true
-release_date = "1787529600"
+release_date = "1791936000"
 
 [features]
 attachment = true
 
 [modalities]
-input = [ "image" ]
+input = [ "image", "video" ]
 output = [ "video" ]

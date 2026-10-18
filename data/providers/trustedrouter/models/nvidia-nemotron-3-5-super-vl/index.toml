@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3.5-super-vl"
+name = "NVIDIA: Nemotron 3.5 Super VL"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1055
+output = 0.422

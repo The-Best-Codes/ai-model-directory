@@ -1,0 +1,4 @@
+id = "gpt-4o-mini:32k-context"
+
+[modalities]
+output = [ "text" ]

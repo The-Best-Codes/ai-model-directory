@@ -3,4 +3,4 @@ name = "bge-reranker-v2-m3"
 release_date = "1733011200"
 
 [pricing]
-input = 0.02989778
+input = 0.029907426

@@ -1,0 +1,18 @@
+id = "vertex/deepseek-ai/deepseek-v4.1-flash-maas@eu"
+name = "vertex/deepseek-ai/deepseek-v4.1-flash-maas@eu"
+release_date = "1792186462"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.033
+input = 0.33
+output = 1.32

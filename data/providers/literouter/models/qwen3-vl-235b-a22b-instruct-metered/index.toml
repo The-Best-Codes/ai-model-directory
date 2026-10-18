@@ -1,0 +1,4 @@
+id = "qwen3-vl-235b-a22b-instruct:metered"
+
+[modalities]
+output = [ "text" ]

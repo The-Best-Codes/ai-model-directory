@@ -1,0 +1,17 @@
+id = "deepinfra/deepseek/deepseek-v4.1-flash-1017"
+name = "deepinfra/deepseek/deepseek-v4.1-flash-1017"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.00610953366384
+input = 0.20361515725
+output = 0.610843223945

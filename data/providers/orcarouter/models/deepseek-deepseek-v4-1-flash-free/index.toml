@@ -1,0 +1,6 @@
+id = "deepseek/deepseek-v4.1-flash-free"
+name = "DeepSeek: DeepSeek V4.1 Flash (Free)"
+
+[pricing]
+input = 0
+output = 0

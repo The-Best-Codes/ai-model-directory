@@ -1,9 +1,0 @@
-id = "gemini-3-pro-image"
-
-[features]
-attachment = true
-tool_call = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "image", "text" ]

@@ -1,0 +1,4 @@
+id = "deepseek-v3.2:32k-context"
+
+[modalities]
+output = [ "text" ]

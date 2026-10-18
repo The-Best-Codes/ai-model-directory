@@ -1,4 +1,0 @@
-id = "gemini-4-argon-instant-flatcost:full-context"
-
-[modalities]
-output = [ "text" ]

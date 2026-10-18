@@ -1,0 +1,4 @@
+id = "muse-spark-1.3-contributor:256k-context"
+
+[modalities]
+output = [ "text" ]

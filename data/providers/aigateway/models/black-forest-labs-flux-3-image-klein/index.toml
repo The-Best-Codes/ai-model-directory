@@ -1,0 +1,10 @@
+id = "black-forest-labs/flux-3-image-klein"
+name = "FLUX 3 Image Klein"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

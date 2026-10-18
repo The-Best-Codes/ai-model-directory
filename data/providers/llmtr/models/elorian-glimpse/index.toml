@@ -1,0 +1,17 @@
+id = "elorian/glimpse"
+name = "Glimpse"
+release_date = "1792234461"
+
+[features]
+attachment = true
+
+[limit]
+context = 220000
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.6
+output = 3

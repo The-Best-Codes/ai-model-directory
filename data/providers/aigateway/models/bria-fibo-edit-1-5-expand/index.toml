@@ -1,0 +1,11 @@
+id = "bria/fibo-edit-1.5/expand"
+name = "Bria Expand (FIBO-Edit-1.5)"
+open_weights = true
+release_date = "1792022400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

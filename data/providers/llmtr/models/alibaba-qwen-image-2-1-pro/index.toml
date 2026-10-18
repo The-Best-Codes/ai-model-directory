@@ -1,0 +1,9 @@
+id = "alibaba/qwen-image-2.1-pro"
+name = "Qwen-Image-2.1-Pro"
+release_date = "1792230270"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]

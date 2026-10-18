@@ -1,5 +1,5 @@
 id = "reflection/beam-1.0"
-name = "Reflection: Beam 1.0"
+name = "Beam"
 open_weights = true
 
 [features]

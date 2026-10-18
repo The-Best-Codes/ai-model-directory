@@ -1,4 +1,0 @@
-id = "qwen3.5-flash:free"
-
-[modalities]
-output = [ "text" ]

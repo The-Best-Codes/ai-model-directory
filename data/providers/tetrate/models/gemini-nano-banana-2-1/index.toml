@@ -1,0 +1,20 @@
+id = "gemini-nano-banana-2.1"
+name = "gemini-nano-banana-2.1"
+release_date = "1791898508"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 131072
+output = 32768
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 1.5
+output = 7.5

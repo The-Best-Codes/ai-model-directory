@@ -1,6 +1,0 @@
-id = "anthropic/claude-opus-4-8"
-
-[pricing]
-cache_read = 0.5
-input = 5
-output = 25

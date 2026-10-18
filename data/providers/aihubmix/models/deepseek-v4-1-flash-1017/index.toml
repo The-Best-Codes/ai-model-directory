@@ -1,0 +1,16 @@
+id = "deepseek-v4.1-flash-1017"
+name = "deepseek-v4.1-flash-1017"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.0031
+input = 0.155
+output = 0.62

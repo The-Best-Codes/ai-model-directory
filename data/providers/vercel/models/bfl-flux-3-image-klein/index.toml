@@ -1,0 +1,12 @@
+id = "bfl/flux-3-image-klein"
+name = "FLUX 3 Image Klein"
+release_date = "1792022400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

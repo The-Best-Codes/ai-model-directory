@@ -1,0 +1,4 @@
+id = "deepseek-v4-flash:256k-context"
+
+[modalities]
+output = [ "text" ]

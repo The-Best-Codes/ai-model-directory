@@ -1,7 +1,7 @@
 id = "bria/bria-eraser"
 name = "Bria Eraser"
 open_weights = true
-release_date = "1784937600"
+release_date = "1791936000"
 
 [features]
 attachment = true

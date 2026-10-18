@@ -1,6 +1,0 @@
-id = "anthropic/claude-sonnet-4"
-name = "anthropic/claude-sonnet-4"
-
-[pricing]
-input = 3
-output = 15

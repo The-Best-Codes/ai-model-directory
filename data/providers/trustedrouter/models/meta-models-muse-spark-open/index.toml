@@ -1,0 +1,17 @@
+id = "meta-models/muse-spark-open"
+name = "Muse Spark Open"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.31875
+output = 4.48375

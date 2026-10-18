@@ -1,0 +1,4 @@
+id = "magistral-small:metered"
+
+[modalities]
+output = [ "text" ]

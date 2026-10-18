@@ -1,6 +1,0 @@
-id = "Qwen/Qwen3-30B-A3B-Thinking-2507"
-name = "Qwen/Qwen3-30B-A3B-Thinking-2507"
-
-[pricing]
-input = 0.2
-output = 2.4

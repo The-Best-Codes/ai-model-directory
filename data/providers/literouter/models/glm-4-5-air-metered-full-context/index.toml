@@ -1,0 +1,4 @@
+id = "glm-4.5-air:metered:full-context"
+
+[modalities]
+output = [ "text" ]

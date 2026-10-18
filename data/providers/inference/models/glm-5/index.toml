@@ -3,7 +3,6 @@ name = "glm-5"
 
 [features]
 attachment = false
-reasoning = true
 
 [limit]
 context = 204800

@@ -1,0 +1,4 @@
+id = "ministral-3-14b-instruct:metered:full-context"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,17 @@
+id = "typesafe/jev-1.14.0"
+name = "Jev 1.14"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.042

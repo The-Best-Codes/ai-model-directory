@@ -1,0 +1,4 @@
+id = "glm-4.7-flash:metered:full-context"
+
+[modalities]
+output = [ "text" ]

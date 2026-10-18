@@ -3,7 +3,6 @@ name = "kimi-k2.5"
 
 [features]
 attachment = true
-reasoning = true
 
 [limit]
 context = 262144

@@ -1,0 +1,19 @@
+id = "deepinfra/Qwen/Qwen3-Reranker-8B"
+name = "deepinfra/Qwen/Qwen3-Reranker-8B"
+release_date = "1788139672"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.05
+output = 0

@@ -1,4 +1,0 @@
-id = "gpt-5.4-cheap"
-
-[modalities]
-output = [ "text" ]

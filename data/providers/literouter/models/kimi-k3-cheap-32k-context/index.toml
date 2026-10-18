@@ -1,4 +1,0 @@
-id = "kimi-k3-cheap:32k-context"
-
-[modalities]
-output = [ "text" ]

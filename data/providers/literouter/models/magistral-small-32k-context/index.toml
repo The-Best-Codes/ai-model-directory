@@ -1,0 +1,4 @@
+id = "magistral-small:32k-context"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,6 @@
+id = "perplexity/deepseek-v4-pro-0813"
+
+[pricing]
+cache_read = 0.044
+input = 1.32
+output = 3.96
