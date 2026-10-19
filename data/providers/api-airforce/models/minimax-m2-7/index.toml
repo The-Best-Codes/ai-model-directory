@@ -4,6 +4,7 @@ name = "minimax-m2.7"
 [features]
 attachment = false
 reasoning = false
+tool_call = true
 
 [modalities]
 input = [ "text" ]

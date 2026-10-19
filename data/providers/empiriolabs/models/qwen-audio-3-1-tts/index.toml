@@ -1,0 +1,18 @@
+id = "qwen-audio-3-1-tts"
+name = "Qwen Audio 3.1 TTS"
+release_date = "1790121600"
+
+[features]
+attachment = false
+
+[limit]
+output = 60000
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+cache_read = 0.46
+input = 0.46
+output = 3.74

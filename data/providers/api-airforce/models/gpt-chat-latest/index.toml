@@ -2,11 +2,12 @@ id = "gpt-chat-latest"
 name = "gpt-chat-latest"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]

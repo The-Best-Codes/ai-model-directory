@@ -1,0 +1,18 @@
+id = "qwen-audio-3-1-tts-next"
+name = "Qwen Audio 3.1 TTS Next"
+release_date = "1790121600"
+
+[features]
+attachment = true
+
+[limit]
+output = 50000
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio" ]
+
+[pricing]
+cache_read = 1.65
+input = 1.65
+output = 3.301

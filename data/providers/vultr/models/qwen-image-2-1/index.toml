@@ -1,0 +1,11 @@
+id = "qwen-image-2.1"
+name = "Qwen-Image 2.1 (evaluation)"
+open_weights = true
+release_date = "1791437894"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

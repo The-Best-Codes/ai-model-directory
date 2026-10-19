@@ -1,0 +1,10 @@
+id = "deepseek/fetch"
+name = "DeepSeek Fetch"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

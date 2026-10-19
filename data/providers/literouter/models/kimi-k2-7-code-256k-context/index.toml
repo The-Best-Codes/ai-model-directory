@@ -1,4 +1,0 @@
-id = "kimi-k2.7-code:256k-context"
-
-[modalities]
-output = [ "text" ]

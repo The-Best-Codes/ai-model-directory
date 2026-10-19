@@ -1,0 +1,4 @@
+id = "deepseek-v4-pro-0813:64k-context"
+
+[modalities]
+output = [ "text" ]

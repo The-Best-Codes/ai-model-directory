@@ -1,0 +1,18 @@
+id = "jev-1.14.0"
+name = "Jev 1.14"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 31998
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.0166536892774
+output = 0

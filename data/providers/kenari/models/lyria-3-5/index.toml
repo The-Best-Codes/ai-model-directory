@@ -1,0 +1,9 @@
+id = "lyria-3-5"
+name = "lyria-3-5"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

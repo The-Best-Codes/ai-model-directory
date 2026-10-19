@@ -1,0 +1,22 @@
+id = "digitalocean/nemotron-3.5-super-vl"
+name = "Nemotron 3.5 Super VL"
+release_date = "1792022400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.3
+output = 0.65

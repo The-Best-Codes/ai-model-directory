@@ -3,6 +3,7 @@ name = "auto/deepseek/deepseek-v4.1-flash-1017/us"
 
 [features]
 attachment = true
+tool_call = true
 
 [limit]
 context = 1048576
@@ -12,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00610953366384
-input = 0.20361515725
-output = 0.610843223945
+cache_read = 0.00609714594475
+input = 0.203211973875
+output = 0.609634797726

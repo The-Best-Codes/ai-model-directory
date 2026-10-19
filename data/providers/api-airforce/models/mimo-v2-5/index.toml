@@ -2,11 +2,12 @@ id = "mimo-v2.5"
 name = "mimo-v2.5"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]

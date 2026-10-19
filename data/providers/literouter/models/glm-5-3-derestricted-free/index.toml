@@ -1,4 +1,0 @@
-id = "glm-5.3-derestricted:free"
-
-[modalities]
-output = [ "text" ]

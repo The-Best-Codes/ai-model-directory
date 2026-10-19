@@ -2,11 +2,12 @@ id = "minimax-m3"
 name = "minimax-m3"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]

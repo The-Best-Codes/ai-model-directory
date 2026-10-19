@@ -2,11 +2,12 @@ id = "qwen3.5-122b-a10b"
 name = "qwen3.5-122b-a10b"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]

@@ -4,6 +4,7 @@ name = "deepseek-v3.2-exp"
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]

@@ -1,4 +1,4 @@
-id = "claude-opus-4-1"
+id = "claude-opus-4.1"
 knowledge_cutoff = "1738281600"
 name = "Anthropic: Claude Opus 4.1"
 release_date = "1754411591"
@@ -17,8 +17,3 @@ output = 32000
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.23103486585
-input = 2.3103486585
-output = 11.5517432925

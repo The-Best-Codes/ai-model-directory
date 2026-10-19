@@ -4,6 +4,7 @@ name = "deepseek-v4-flash"
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]

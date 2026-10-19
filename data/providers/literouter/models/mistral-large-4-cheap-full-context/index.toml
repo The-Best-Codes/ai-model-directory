@@ -1,0 +1,4 @@
+id = "mistral-large-4-cheap:full-context"
+
+[modalities]
+output = [ "text" ]

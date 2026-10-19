@@ -4,6 +4,7 @@ name = "qwen3-30b-a3b-instruct-2507"
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]

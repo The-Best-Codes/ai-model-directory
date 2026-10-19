@@ -2,6 +2,6 @@ id = "qwen3.5-plus"
 name = "qwen3.5-plus"
 
 [pricing]
-cache_read = 0.012321859512
-input = 0.12321859512
-output = 0.6160929756
+cache_read = 0.01232260688
+input = 0.1232260688
+output = 0.616130344

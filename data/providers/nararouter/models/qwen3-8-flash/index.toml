@@ -3,7 +3,7 @@ name = "Qwen 3.8 Flash"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 
 [limit]
 context = 1000000

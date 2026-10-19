@@ -1,0 +1,9 @@
+id = "ifm/jais-asr"
+name = "Jais ASR"
+release_date = "1792382037"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text" ]

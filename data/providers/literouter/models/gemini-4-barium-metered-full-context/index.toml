@@ -1,4 +1,0 @@
-id = "gemini-4-barium:metered:full-context"
-
-[modalities]
-output = [ "text" ]

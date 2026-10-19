@@ -1,0 +1,4 @@
+id = "kimi-k2.8:metered"
+
+[modalities]
+output = [ "text" ]

@@ -1,4 +1,0 @@
-id = "proteus"
-
-[modalities]
-output = [ "image" ]

@@ -5,13 +5,13 @@ release_date = "1751910002"
 [features]
 attachment = false
 reasoning = false
-structured_output = false
+structured_output = true
 temperature = true
 tool_call = false
 
 [limit]
-context = 81920
-output = 38000
+context = 262144
+output = 131072
 
 [modalities]
 input = [ "text" ]

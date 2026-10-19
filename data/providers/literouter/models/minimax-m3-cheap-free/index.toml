@@ -1,0 +1,4 @@
+id = "minimax-m3-cheap:free"
+
+[modalities]
+output = [ "text" ]

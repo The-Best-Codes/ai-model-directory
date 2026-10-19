@@ -1,7 +1,16 @@
 id = "inkling"
 name = "inkling"
 
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
 [pricing]
-cache_read = 0.48
-input = 1.96
-output = 4.91
+cache_read = 0.22
+input = 1.3
+output = 4.94

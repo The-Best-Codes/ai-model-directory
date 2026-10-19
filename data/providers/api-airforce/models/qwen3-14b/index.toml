@@ -4,6 +4,7 @@ name = "qwen3-14b"
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]

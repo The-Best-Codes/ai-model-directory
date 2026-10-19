@@ -4,11 +4,12 @@ name = "qwen3-next-80b-a3b-instruct"
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.27
-output = 1.09
+input = 0.29
+output = 1.9

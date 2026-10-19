@@ -1,5 +1,6 @@
 id = "nvidia/parakeet-tdt-0.6b-v3"
 name = "Nvidia Parakeet TDT 0.6B V3"
+release_date = "1792340454"
 
 [features]
 attachment = true

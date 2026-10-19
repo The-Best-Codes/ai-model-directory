@@ -2,5 +2,5 @@ id = "gpt-4-turbo-preview"
 name = "gpt-4-turbo-preview"
 
 [pricing]
-input = 1.540232439
-output = 4.620697317
+input = 1.54032586
+output = 4.62097758

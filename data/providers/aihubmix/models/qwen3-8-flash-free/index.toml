@@ -2,13 +2,16 @@ id = "qwen3.8-flash-free"
 name = "qwen3.8-flash-free"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 tool_call = false
 
+[limit]
+context = 1000000
+
 [modalities]
-input = [ "text" ]
+input = [ "image", "text", "video" ]
 
 [pricing]
 cache_read = 0

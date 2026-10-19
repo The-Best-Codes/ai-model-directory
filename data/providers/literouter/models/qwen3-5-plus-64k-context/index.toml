@@ -1,4 +1,0 @@
-id = "qwen3.5-plus:64k-context"
-
-[modalities]
-output = [ "text" ]

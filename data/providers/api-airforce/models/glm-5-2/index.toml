@@ -4,6 +4,7 @@ name = "glm-5.2"
 [features]
 attachment = false
 reasoning = false
+tool_call = true
 
 [modalities]
 input = [ "text" ]

@@ -1,0 +1,16 @@
+id = "cloudflare:global/clef-omni"
+name = "Clef-omni"
+release_date = "1791504000"
+
+[features]
+attachment = false
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0

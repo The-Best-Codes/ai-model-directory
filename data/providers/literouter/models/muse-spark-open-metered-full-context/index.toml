@@ -1,0 +1,4 @@
+id = "muse-spark-open:metered:full-context"
+
+[modalities]
+output = [ "text" ]
