@@ -1,0 +1,4 @@
+id = "gemini-3-flash-preview-stable:payg"
+
+[modalities]
+output = [ "text" ]

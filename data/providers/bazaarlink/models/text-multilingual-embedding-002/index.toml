@@ -1,0 +1,15 @@
+id = "text-multilingual-embedding-002"
+name = "Text Multilingual Embedding 002"
+
+[features]
+attachment = false
+
+[limit]
+context = 2048
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.025
+output = 0

@@ -1,0 +1,15 @@
+id = "pplx-embed-v1-4b"
+name = "Pplx Embed V1 4B"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.03
+output = 0

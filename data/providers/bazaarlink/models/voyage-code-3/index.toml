@@ -1,0 +1,15 @@
+id = "voyage-code-3"
+name = "Voyage Code 3"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.18
+output = 0

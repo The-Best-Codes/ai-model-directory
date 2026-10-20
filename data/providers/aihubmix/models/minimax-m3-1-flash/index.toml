@@ -1,0 +1,16 @@
+id = "minimax-m3.1-flash"
+name = "minimax-m3.1-flash"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.0165
+input = 0.165
+output = 0.66

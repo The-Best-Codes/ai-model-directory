@@ -2,5 +2,5 @@ id = "claude-sonnet-4-6-thinking"
 name = "claude-sonnet-4-6-thinking"
 
 [pricing]
-input = 0.0924195516
-output = 0.462097758
+input = 0.09247132146
+output = 0.4623566073

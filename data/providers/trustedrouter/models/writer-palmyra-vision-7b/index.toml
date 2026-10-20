@@ -1,0 +1,17 @@
+id = "writer/palmyra-vision-7b"
+name = "palmyra-vision-7b"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 4000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15825
+output = 0.633

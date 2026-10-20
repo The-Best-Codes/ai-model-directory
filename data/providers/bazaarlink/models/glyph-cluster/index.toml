@@ -1,0 +1,16 @@
+id = "glyph-cluster"
+name = "Glyph Cluster"
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

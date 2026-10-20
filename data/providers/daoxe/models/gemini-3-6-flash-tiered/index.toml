@@ -2,5 +2,5 @@ id = "gemini-3.6-flash-tiered"
 name = "gemini-3.6-flash-tiered"
 
 [pricing]
-input = 0.231048879
-output = 1.155244395
+input = 0.23117830365
+output = 1.15589151825

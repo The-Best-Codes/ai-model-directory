@@ -1,4 +1,0 @@
-id = "muse-spark-open"
-
-[modalities]
-output = [ "text" ]

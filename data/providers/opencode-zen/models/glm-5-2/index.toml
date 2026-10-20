@@ -1,5 +1,4 @@
 id = "glm-5.2"
-last_updated = "1781308800"
 name = "GLM-5.2"
 open_weights = true
 release_date = "1781308800"
@@ -8,8 +7,6 @@ release_date = "1781308800"
 attachment = false
 reasoning = true
 structured_output = true
-temperature = true
-tool_call = true
 
 [limit]
 context = 1000000

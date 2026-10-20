@@ -1,0 +1,15 @@
+id = "titan-embed-text-v2"
+name = "Titan Embed Text V2"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02
+output = 0

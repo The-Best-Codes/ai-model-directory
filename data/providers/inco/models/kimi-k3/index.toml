@@ -4,10 +4,15 @@ open_weights = true
 release_date = "1790294854"
 
 [features]
+attachment = true
 reasoning = true
 
 [limit]
 context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
 
 [pricing]
 cache_read = 0.3

@@ -1,0 +1,15 @@
+id = "voyage-3.5"
+name = "Voyage 3.5"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0

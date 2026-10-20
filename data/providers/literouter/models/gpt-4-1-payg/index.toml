@@ -1,0 +1,4 @@
+id = "gpt-4.1:payg"
+
+[modalities]
+output = [ "text" ]

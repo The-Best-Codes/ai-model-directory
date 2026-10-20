@@ -1,0 +1,16 @@
+id = "gpt-6-astra"
+name = "gpt-6-astra"
+release_date = "1792414800"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[pricing]
+cache_read = 1.102
+input = 11.016
+output = 55.08

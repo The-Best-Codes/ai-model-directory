@@ -1,0 +1,4 @@
+id = "gemini-4-argon:payg"
+
+[modalities]
+output = [ "text" ]

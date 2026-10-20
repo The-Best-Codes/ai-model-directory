@@ -1,0 +1,13 @@
+id = "pplx-decider-v1.2"
+name = "pplx-decider v1.2"
+open_weights = true
+release_date = "1792460455"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]

@@ -1,0 +1,19 @@
+id = "minimax/minimax-m3.1-flash"
+name = "MiniMax: MiniMax M3.1-Flash"
+release_date = "1792409502"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.15
+output = 0.6

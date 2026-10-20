@@ -2,6 +2,6 @@ id = "qwen3-coder-plus"
 name = "qwen3-coder-plus"
 
 [pricing]
-cache_read = 0.0154032586
-input = 0.154032586
-output = 0.77016293
+cache_read = 0.01541188691
+input = 0.1541188691
+output = 0.7705943455

@@ -1,0 +1,17 @@
+id = "mistralai/devstral-2-123b"
+name = "devstral-2-123b"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.422
+output = 2.11

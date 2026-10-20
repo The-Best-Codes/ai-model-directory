@@ -1,0 +1,4 @@
+id = "claude-haiku-4.5-cheap:payg"
+
+[modalities]
+output = [ "text" ]

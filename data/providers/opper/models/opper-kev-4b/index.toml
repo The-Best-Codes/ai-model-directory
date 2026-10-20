@@ -1,0 +1,16 @@
+id = "opper/kev-4b"
+name = "Kev 4B"
+release_date = "1790208000"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0

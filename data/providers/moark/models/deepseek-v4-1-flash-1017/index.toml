@@ -1,0 +1,18 @@
+id = "DeepSeek-V4.1-Flash-1017"
+last_updated = "1792382503"
+name = "DeepSeek-V4.1-Flash-1017"
+release_date = "1792382340"
+
+[features]
+attachment = false
+
+[limit]
+output = 384000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.29925994
+output = 1.19703976

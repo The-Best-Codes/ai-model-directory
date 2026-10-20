@@ -1,0 +1,4 @@
+id = "qwen3-coder-next:payg"
+
+[modalities]
+output = [ "text" ]

@@ -1,6 +1,6 @@
 id = "deepseek-r1"
-knowledge_cutoff = "1722384000"
-name = "DeepSeek: R1"
+knowledge_cutoff = "1743379200"
+name = "deepseek-r1"
 release_date = "1737331200"
 
 [features]
@@ -20,5 +20,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
+cache_read = 0.784
 input = 1.12
 output = 3.840032

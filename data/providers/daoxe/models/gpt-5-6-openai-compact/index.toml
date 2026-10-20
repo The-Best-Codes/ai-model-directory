@@ -2,7 +2,7 @@ id = "gpt-5.6-openai-compact"
 name = "gpt-5.6-openai-compact"
 
 [pricing]
-cache_read = 0.077016293
-cache_write = 0.9627036625
-input = 0.77016293
-output = 4.62097758
+cache_read = 0.07705943455
+cache_write = 0.963242931875
+input = 0.7705943455
+output = 4.623566073

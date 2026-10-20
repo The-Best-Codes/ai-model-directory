@@ -1,0 +1,17 @@
+id = "mistralai/magistral-small-2509"
+name = "magistral-small-2509"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5275
+output = 1.5825

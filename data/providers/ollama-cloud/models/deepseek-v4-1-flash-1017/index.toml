@@ -1,7 +1,7 @@
 id = "deepseek-v4.1-flash:1017"
-last_updated = "1789084980"
+last_updated = "1792231200"
 name = "deepseek-v4.1-flash:1017"
-release_date = "1789084980"
+release_date = "1792231200"
 
 [features]
 reasoning = true

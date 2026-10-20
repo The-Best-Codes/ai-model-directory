@@ -1,0 +1,4 @@
+id = "gemini-2.5-flash-vertex:payg"
+
+[modalities]
+output = [ "text" ]

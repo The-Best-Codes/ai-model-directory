@@ -1,0 +1,4 @@
+id = "deepseek-v3.1:payg"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,15 @@
+id = "voyage-4-lite"
+name = "Voyage 4 Lite"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02
+output = 0

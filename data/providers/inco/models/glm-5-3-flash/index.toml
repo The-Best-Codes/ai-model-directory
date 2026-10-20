@@ -3,10 +3,15 @@ name = "GLM 5.3 Flash"
 release_date = "1790576061"
 
 [features]
+attachment = true
 reasoning = true
 
 [limit]
 context = 1048576
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
 
 [pricing]
 cache_read = 0.03

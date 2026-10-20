@@ -1,0 +1,15 @@
+id = "voyage-4-large"
+name = "Voyage 4 Large"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.12
+output = 0

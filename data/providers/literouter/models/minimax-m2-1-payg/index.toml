@@ -1,0 +1,4 @@
+id = "minimax-m2.1:payg"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,16 @@
+id = "nvidia/nemotron-3.5-lightning-free:free"
+name = "Nemotron 3.5 Lightning Free (free)"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

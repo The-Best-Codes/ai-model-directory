@@ -1,0 +1,4 @@
+id = "gemini-3-pro-preview:payg"
+
+[modalities]
+output = [ "text" ]

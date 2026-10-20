@@ -1,0 +1,14 @@
+id = "minimaxai/minimax-m3.1-flash"
+name = "MiniMax M3.1 Flash"
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.15
+output = 0.6

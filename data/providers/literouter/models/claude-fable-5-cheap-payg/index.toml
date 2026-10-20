@@ -1,0 +1,4 @@
+id = "claude-fable-5-cheap:payg"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,17 @@
+id = "mistralai/mistral-large-2512"
+name = "mistral-large-3-675b-instruct"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.5275
+output = 1.5825

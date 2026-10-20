@@ -1,16 +1,13 @@
 id = "gpt-6-astra"
 knowledge_cutoff = "1777507200"
-last_updated = "1788480000"
 name = "GPT-6 Astra"
 open_weights = false
 release_date = "1788480000"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
-temperature = false
-tool_call = true
 
 [limit]
 context = 1050000
@@ -18,7 +15,7 @@ input = 922000
 output = 128000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

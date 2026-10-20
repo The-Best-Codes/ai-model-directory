@@ -1,0 +1,4 @@
+id = "gpt-5.3-codex-cheap:payg"
+
+[modalities]
+output = [ "text" ]

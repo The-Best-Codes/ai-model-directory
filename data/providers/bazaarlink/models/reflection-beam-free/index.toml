@@ -1,0 +1,16 @@
+id = "reflection/beam:free"
+name = "Beam (free)"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

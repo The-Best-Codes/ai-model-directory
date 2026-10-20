@@ -1,0 +1,4 @@
+id = "claude-sonnet-4.6-stable:payg"
+
+[modalities]
+output = [ "text" ]

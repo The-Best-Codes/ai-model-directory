@@ -1,0 +1,17 @@
+id = "trustedrouter/advanced"
+name = "TrustedRouter Advanced"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1477
+output = 3.20087

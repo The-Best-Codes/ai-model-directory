@@ -1,0 +1,22 @@
+id = "minimax/minimax-m3.1-flash:free"
+name = "MiniMax: MiniMax M3.1 Flash (free)"
+release_date = "1792379569"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 524288
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

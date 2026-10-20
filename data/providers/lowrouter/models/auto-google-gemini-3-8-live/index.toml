@@ -6,8 +6,8 @@ attachment = true
 tool_call = true
 
 [modalities]
-input = [ "audio", "image", "text", "video" ]
+input = [ "audio", "image", "text" ]
 
 [pricing]
-input = 0.762043216183
-output = 4.5722592971
+input = 0.761418533
+output = 4.568511198

@@ -1,0 +1,15 @@
+id = "wan3.0-video-prime-free"
+name = "wan3.0-video-prime-free"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+
+[pricing]
+cache_read = 0
+input = 0

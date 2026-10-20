@@ -1,0 +1,4 @@
+id = "kimi-k3:payg"
+
+[modalities]
+output = [ "text" ]

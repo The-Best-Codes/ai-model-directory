@@ -1,0 +1,11 @@
+id = "moss-image"
+name = "MOSS-Image"
+open_weights = true
+release_date = "1792387414"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

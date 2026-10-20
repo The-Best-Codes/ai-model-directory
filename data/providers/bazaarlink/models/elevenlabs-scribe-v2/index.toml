@@ -8,5 +8,5 @@ attachment = true
 input = [ "audio" ]
 
 [pricing]
-input = 0
+input = 61.1111111111
 output = 0

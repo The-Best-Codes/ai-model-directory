@@ -1,0 +1,4 @@
+id = "grok-4.20:payg"
+
+[modalities]
+output = [ "text" ]

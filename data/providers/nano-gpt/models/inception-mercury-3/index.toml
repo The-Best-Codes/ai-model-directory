@@ -1,0 +1,21 @@
+id = "inception/mercury-3"
+name = "Mercury 3"
+release_date = "1792368000"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.35

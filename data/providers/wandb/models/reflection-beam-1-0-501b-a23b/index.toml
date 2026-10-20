@@ -1,5 +1,5 @@
 id = "reflection/Beam-1.0-501B-A23B"
-name = "Reflection AI: Beam 1.0"
+name = "Reflection: Beam 1.0 501B A23B"
 release_date = "1792141200"
 
 [features]
@@ -18,6 +18,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.1
-input = 1
-output = 3
+cache_read = 0.04
+input = 0.3
+output = 1

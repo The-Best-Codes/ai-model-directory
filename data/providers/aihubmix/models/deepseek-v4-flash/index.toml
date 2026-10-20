@@ -2,7 +2,7 @@ id = "deepseek-v4-flash"
 name = "deepseek-v4-flash"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 tool_call = true
@@ -11,7 +11,7 @@ tool_call = true
 context = 1000000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 
 [pricing]
 cache_read = 0.0284

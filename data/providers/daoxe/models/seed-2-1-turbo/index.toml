@@ -1,4 +1,4 @@
-id = "seed-2-1-turbo"
+id = "seed-2.1-turbo"
 name = "ByteDance Seed: Seed 2.1 Turbo"
 release_date = "1786552176"
 
@@ -16,3 +16,7 @@ output = 235929
 [modalities]
 input = [ "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.07705943455
+output = 0.1541188691

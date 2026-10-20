@@ -1,0 +1,13 @@
+id = "auto/writer/palmyra-vision-7b"
+name = "auto/writer/palmyra-vision-7b"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1522837066
+output = 0.6091348264

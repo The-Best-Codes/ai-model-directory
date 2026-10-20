@@ -1,0 +1,20 @@
+id = "deepseek-v4.1-flash-1017"
+name = "DeepSeek V4.1 Flash 1017"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+output = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0
+input = 0.33
+output = 1.31

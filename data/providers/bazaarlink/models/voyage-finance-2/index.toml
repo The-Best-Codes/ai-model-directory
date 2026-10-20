@@ -1,0 +1,15 @@
+id = "voyage-finance-2"
+name = "Voyage Finance 2"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.12
+output = 0

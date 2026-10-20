@@ -1,0 +1,17 @@
+id = "qwen/qwen3-coder-480b-a35b-instruct"
+name = "qwen3-coder-480b-a35b-instruct"
+open_weights = true
+
+[features]
+attachment = false
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.47475
+output = 1.899
