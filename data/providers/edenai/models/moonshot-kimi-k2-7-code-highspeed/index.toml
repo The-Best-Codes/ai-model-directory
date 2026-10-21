@@ -3,8 +3,8 @@ name = "moonshot/kimi-k2.7-code-highspeed"
 release_date = "1788215842"
 
 [features]
-attachment = false
-reasoning = false
+attachment = true
+reasoning = true
 structured_output = false
 tool_call = false
 
@@ -12,7 +12,7 @@ tool_call = false
 context = 262144
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]

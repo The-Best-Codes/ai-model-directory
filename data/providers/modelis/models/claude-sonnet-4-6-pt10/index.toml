@@ -2,5 +2,5 @@ id = "claude-sonnet-4-6__pt10"
 name = "claude-sonnet-4-6__pt10"
 
 [pricing]
-input = 8.5244550336
-output = 42.622275168
+input = 8.5380495552
+output = 42.690247776

@@ -1,0 +1,16 @@
+id = "gemini-omni-1.1-flash"
+name = "gemini-omni-1.1-flash"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+cache_read = 0
+input = 1.5
+output = 9

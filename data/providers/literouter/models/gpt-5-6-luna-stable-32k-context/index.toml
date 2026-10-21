@@ -1,0 +1,4 @@
+id = "gpt-5.6-luna-stable:32k-context"
+
+[modalities]
+output = [ "text" ]

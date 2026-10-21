@@ -3,16 +3,15 @@ name = "GLM-5.3-Flash"
 release_date = "1786636800"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 temperature = true
 
 [limit]
 context = 1000000
-output = 128000
 
 [modalities]
-input = [ "file", "image", "text", "video" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

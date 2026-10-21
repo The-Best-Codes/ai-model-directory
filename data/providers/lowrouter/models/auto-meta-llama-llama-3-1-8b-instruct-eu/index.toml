@@ -10,3 +10,7 @@ context = 131072
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 0.06097026168
+output = 0.06097026168

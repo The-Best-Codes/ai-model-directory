@@ -2,17 +2,17 @@ id = "auto/mistralai/codestral-2508/eu"
 name = "auto/mistralai/codestral-2508/eu"
 
 [features]
-attachment = false
+attachment = true
 tool_call = true
 
 [limit]
 context = 128000
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0314986097745
-input = 0.314986097745
-output = 0.944958293235
+cache_read = 0.031517163447
+input = 0.31517163447
+output = 0.94551490341

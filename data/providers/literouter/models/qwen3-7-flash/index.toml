@@ -1,0 +1,4 @@
+id = "qwen3.7-flash"
+
+[modalities]
+output = [ "text" ]

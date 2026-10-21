@@ -9,7 +9,7 @@ context = 1000000
 output = 131072
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

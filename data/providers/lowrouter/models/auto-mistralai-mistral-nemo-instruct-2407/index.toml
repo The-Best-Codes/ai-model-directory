@@ -3,9 +3,10 @@ name = "auto/mistralai/mistral-nemo-instruct-2407"
 
 [features]
 attachment = false
+tool_call = true
 
 [limit]
-context = 131072
+context = 118000
 
 [modalities]
 input = [ "text" ]

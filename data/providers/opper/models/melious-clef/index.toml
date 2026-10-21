@@ -1,0 +1,16 @@
+id = "melious/clef"
+name = "Clef"
+release_date = "1790812800"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.2243
+output = 0

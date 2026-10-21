@@ -6,12 +6,12 @@ attachment = true
 tool_call = true
 
 [limit]
-context = 8192
+context = 128000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 5.07612392765
-output = 15.2283695371
+input = 5.08079259257
+output = 15.2423777777

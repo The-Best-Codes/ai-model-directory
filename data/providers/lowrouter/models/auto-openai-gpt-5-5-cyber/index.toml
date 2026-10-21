@@ -1,0 +1,17 @@
+id = "auto/openai/gpt-5.5-cyber"
+name = "auto/openai/gpt-5.5-cyber"
+
+[features]
+attachment = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.27019899085
+input = 12.7019820432
+output = 76.211887765

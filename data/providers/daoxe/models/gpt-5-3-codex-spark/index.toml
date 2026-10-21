@@ -2,6 +2,6 @@ id = "gpt-5.3-codex-spark"
 name = "gpt-5.3-codex-spark"
 
 [pricing]
-cache_read = 0.0269708020925
-input = 0.269708020925
-output = 2.1576641674
+cache_read = 0.026988345825
+input = 0.26988345825
+output = 2.159067666

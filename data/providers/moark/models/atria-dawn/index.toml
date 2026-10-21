@@ -1,0 +1,18 @@
+id = "Atria-Dawn"
+last_updated = "1792482601"
+name = "Atria-Dawn"
+release_date = "1777564800"
+
+[features]
+attachment = false
+
+[limit]
+context = 512000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

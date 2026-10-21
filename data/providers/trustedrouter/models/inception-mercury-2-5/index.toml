@@ -1,0 +1,17 @@
+id = "inception/mercury-2.5"
+name = "Inception: Mercury 2.5"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 260000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0422
+output = 0.15825

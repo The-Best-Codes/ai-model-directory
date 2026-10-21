@@ -1,0 +1,11 @@
+id = "accounts/fireworks/models/kalshi-glimmer-decision-v1"
+name = "Kalshi-tuned Muse Glimmer 30B"
+open_weights = true
+
+[features]
+tool_call = false
+
+[pricing]
+cache_read = 0.04
+input = 0.35
+output = 1.5

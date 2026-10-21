@@ -1,0 +1,6 @@
+id = "Bria/fibo-2.0"
+name = "Bria/fibo-2.0"
+
+[features]
+attachment = false
+reasoning = false

@@ -3,7 +3,7 @@ name = "GPT 6.1 Sol"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0354513985372
-input = 0.298868013397
-output = 1.49434006687
+cache_read = 0.0145385945086
+input = 0.196615783518
+output = 0.899999999994

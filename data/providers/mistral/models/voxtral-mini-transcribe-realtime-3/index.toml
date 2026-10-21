@@ -1,0 +1,15 @@
+id = "voxtral-mini-transcribe-realtime-3"
+name = "Voxtral Mini Transcribe Realtime 3.0"
+
+[features]
+attachment = true
+reasoning = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

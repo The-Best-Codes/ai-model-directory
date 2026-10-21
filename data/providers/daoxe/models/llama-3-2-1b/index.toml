@@ -2,6 +2,6 @@ id = "llama-3.2-1b"
 name = "llama-3.2-1b"
 
 [pricing]
-cache_read = 0.0009247132146
-input = 0.004623566073
-output = 0.013870698219
+cache_read = 0.000925314714
+input = 0.00462657357
+output = 0.01387972071

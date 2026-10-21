@@ -3,13 +3,13 @@ name = "databricks/databricks-grok-4-7"
 release_date = "1791839241"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]

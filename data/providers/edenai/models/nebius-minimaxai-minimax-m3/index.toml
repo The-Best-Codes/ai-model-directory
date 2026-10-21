@@ -3,7 +3,7 @@ name = "nebius/MiniMaxAI/MiniMax-M3"
 release_date = "1783732576"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = false
 tool_call = true
@@ -12,7 +12,7 @@ tool_call = true
 context = 1048576
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

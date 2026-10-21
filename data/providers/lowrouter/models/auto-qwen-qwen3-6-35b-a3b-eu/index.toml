@@ -10,5 +10,5 @@ context = 256000
 output = 65536
 
 [modalities]
-input = [ "audio", "image", "text", "video" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]

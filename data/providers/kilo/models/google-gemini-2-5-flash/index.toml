@@ -1,5 +1,5 @@
 id = "google/gemini-2.5-flash"
-name = "Google: Gemini 2.5 Flash (retires Oct 20)"
+name = "Google: Gemini 2.5 Flash"
 release_date = "1750172488"
 
 [features]
@@ -18,8 +18,8 @@ input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.03
-cache_write = 0.0833333333333
-input = 0.3
-output = 2.5
-reasoning = 2.5
+cache_read = 0.015
+cache_write = 0.0416666666667
+input = 0.15
+output = 1.25
+reasoning = 1.25

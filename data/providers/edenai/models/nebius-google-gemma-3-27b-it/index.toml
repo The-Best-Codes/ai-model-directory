@@ -3,7 +3,7 @@ name = "nebius/google/gemma-3-27b-it"
 release_date = "1741756359"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 structured_output = true
 tool_call = true
@@ -12,7 +12,7 @@ tool_call = true
 context = 110000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

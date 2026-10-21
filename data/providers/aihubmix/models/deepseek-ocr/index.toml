@@ -1,5 +1,5 @@
-id = "deepseek-ocr"
-name = "deepseek-ocr"
+id = "DeepSeek-OCR"
+name = "DeepSeek-OCR"
 
 [features]
 attachment = true
@@ -8,7 +8,7 @@ structured_output = false
 tool_call = false
 
 [limit]
-context = 8000
+context = 8192
 
 [modalities]
 input = [ "image", "text" ]

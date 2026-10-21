@@ -3,7 +3,7 @@ name = "Gemini 3.8 Flash High"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00588422900084
-input = 0.0366851659227
-output = 0.183425829502
+cache_read = 0.0165000000203
+input = 0.164999999981
+output = 0.825000000018

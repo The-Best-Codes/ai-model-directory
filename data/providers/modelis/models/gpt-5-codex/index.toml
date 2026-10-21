@@ -2,5 +2,5 @@ id = "gpt-5-codex"
 name = "gpt-5-codex"
 
 [pricing]
-input = 3.22896024
-output = 25.83168192
+input = 3.23410968
+output = 25.87287744

@@ -6,8 +6,8 @@ attachment = false
 reasoning = false
 
 [limit]
-context = 163840
-output = 163840
+context = 16384
+output = 16384
 
 [pricing]
 cache_read = 0.13

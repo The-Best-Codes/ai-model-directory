@@ -1,0 +1,9 @@
+id = "bespoke/nimble-v4-max"
+name = "Nimble v4 Max"
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.04
+output = 0

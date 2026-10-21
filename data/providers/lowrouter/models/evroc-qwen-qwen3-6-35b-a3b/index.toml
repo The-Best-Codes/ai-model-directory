@@ -10,9 +10,9 @@ context = 262144
 output = 65536
 
 [modalities]
-input = [ "audio", "image", "text", "video" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.336883527
-output = 1.347534108
+input = 0.337081962
+output = 1.348327848

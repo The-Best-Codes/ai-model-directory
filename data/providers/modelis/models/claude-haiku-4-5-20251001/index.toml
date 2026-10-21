@@ -2,7 +2,7 @@ id = "claude-haiku-4-5-20251001"
 name = "claude-haiku-4-5-20251001"
 
 [pricing]
-cache_read = 0.2583168192
-cache_write = 3.22896024
-input = 2.583168192
-output = 12.91584096
+cache_read = 0.2587287744
+cache_write = 3.23410968
+input = 2.587287744
+output = 12.93643872

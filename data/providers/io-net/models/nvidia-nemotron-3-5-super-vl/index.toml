@@ -1,0 +1,18 @@
+id = "nvidia/nemotron-3.5-super-vl"
+name = "NVIDIA: Nemotron 3.5 Super VL"
+release_date = "1792520204"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.09
+input = 0.18
+output = 0.65

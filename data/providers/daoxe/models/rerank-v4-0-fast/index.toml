@@ -2,4 +2,4 @@ id = "rerank-v4.0-fast"
 name = "rerank-v4.0-fast"
 
 [pricing]
-input = 0.3082377382
+input = 0.308438238

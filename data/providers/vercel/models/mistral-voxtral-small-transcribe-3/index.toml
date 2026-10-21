@@ -1,0 +1,6 @@
+id = "mistral/voxtral-small-transcribe-3"
+name = "Voxtral Small Transcribe 3"
+release_date = "1792454400"
+
+[pricing]
+input = 0

@@ -3,7 +3,7 @@ name = "amazon/mistral.pixtral-large-2502-v1:0@us"
 release_date = "1781775085"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 tool_call = true
@@ -12,7 +12,7 @@ tool_call = true
 context = 128000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

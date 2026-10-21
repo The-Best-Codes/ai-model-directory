@@ -1,0 +1,13 @@
+id = "d3"
+name = "d3"
+open_weights = true
+release_date = "1792479194"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]

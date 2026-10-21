@@ -1,0 +1,17 @@
+id = "nace/drex-max-free"
+name = "Drex Max (Free)"
+release_date = "1792484259"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0
+output = 0

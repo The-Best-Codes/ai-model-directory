@@ -1,9 +1,1 @@
 id = "agnes-image-2.1-flash"
-name = "Agnes Image 2.1 Flash"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "image" ]

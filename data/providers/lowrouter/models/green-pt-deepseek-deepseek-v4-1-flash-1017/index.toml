@@ -1,0 +1,17 @@
+id = "green-pt/deepseek/deepseek-v4.1-flash-1017"
+name = "green-pt/deepseek/deepseek-v4.1-flash-1017"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0449442616
+input = 0.4044983544
+output = 1.629229483

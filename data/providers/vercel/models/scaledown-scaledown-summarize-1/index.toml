@@ -1,0 +1,14 @@
+id = "scaledown/scaledown-summarize-1"
+name = "Summarize-1"
+release_date = "1792454400"
+
+[limit]
+context = 1000000
+output = 1000
+
+[modalities]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0

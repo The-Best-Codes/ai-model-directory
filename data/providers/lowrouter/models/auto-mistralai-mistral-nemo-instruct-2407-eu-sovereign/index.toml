@@ -3,11 +3,11 @@ name = "auto/mistralai/mistral-nemo-instruct-2407/eu-sovereign"
 
 [features]
 attachment = false
+tool_call = true
+
+[limit]
+context = 118000
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.1684417635
-output = 0.1684417635

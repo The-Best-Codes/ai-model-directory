@@ -3,13 +3,13 @@ name = "compactifai/hypernova-60b@us"
 release_date = "1788457256"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

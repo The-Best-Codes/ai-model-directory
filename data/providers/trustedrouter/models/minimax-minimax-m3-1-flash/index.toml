@@ -1,0 +1,17 @@
+id = "minimax/minimax-m3.1-flash"
+name = "MiniMax-M3.1-Flash"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15825
+output = 0.633

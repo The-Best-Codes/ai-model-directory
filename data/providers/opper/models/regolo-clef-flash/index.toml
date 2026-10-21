@@ -1,0 +1,16 @@
+id = "regolo/clef-flash"
+name = "Clef-flash"
+release_date = "1790812800"
+
+[features]
+attachment = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.168225
+output = 0

@@ -2,8 +2,8 @@ id = "seedance-2.5"
 name = "seedance-2.5"
 
 [features]
-attachment = false
+attachment = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "video" ]

@@ -1,0 +1,13 @@
+id = "infomaniak/qwen/qwen3.8-27b"
+name = "infomaniak/qwen/qwen3.8-27b"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.449442616
+output = 3.37081962

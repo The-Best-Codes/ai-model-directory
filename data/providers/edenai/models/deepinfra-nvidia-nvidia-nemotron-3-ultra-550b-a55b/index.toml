@@ -3,7 +3,7 @@ name = "deepinfra/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B"
 release_date = "1782119040"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 structured_output = true
 tool_call = true
@@ -12,7 +12,7 @@ tool_call = true
 context = 262144
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

@@ -1,0 +1,14 @@
+id = "rerank-v5.0-pro"
+name = "rerank-v5.0-pro"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]

@@ -1,0 +1,16 @@
+id = "cloudflare:global/clairic"
+name = "Clairic"
+release_date = "1792368000"
+
+[features]
+attachment = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.1
+output = 0

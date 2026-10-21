@@ -1,12 +1,12 @@
 id = "minimax/minimax-m2.1"
-name = "MiniMax-M2.1"
+name = "minimax-m2.1"
 open_weights = false
 
 [features]
 attachment = false
 
 [limit]
-context = 204800
+context = 196000
 
 [modalities]
 input = [ "text" ]
