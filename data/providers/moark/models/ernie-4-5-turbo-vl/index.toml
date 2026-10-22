@@ -1,5 +1,5 @@
 id = "ERNIE-4.5-Turbo-VL"
-last_updated = "1750934966"
+last_updated = "1792581847"
 name = "ERNIE-4.5-Turbo-VL"
 release_date = "1750152020"
 
@@ -14,5 +14,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.4491819
-output = 1.3475457
+input = 0.44918868
+output = 1.34756604

@@ -1,5 +1,5 @@
 id = "GLM-5.3-Flash"
-last_updated = "1788251397"
+last_updated = "1792582142"
 name = "GLM-5.3-Flash"
 release_date = "1788251397"
 
@@ -14,5 +14,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.11978184
-output = 0.41923644
+input = 0.119783648
+output = 0.419242768

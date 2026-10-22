@@ -1,4 +1,0 @@
-id = "kimi-k2.6-stable:payg"
-
-[modalities]
-output = [ "text" ]

@@ -1,4 +1,0 @@
-id = "qwen3.6-plus-uncensored:metered"
-
-[modalities]
-output = [ "text" ]

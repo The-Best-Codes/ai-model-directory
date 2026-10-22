@@ -1,4 +1,0 @@
-id = "aion-3.0-mini:metered"
-
-[modalities]
-output = [ "text" ]

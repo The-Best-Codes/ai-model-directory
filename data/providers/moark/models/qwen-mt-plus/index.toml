@@ -1,5 +1,5 @@
 id = "qwen-mt-plus"
-last_updated = "1789125915"
+last_updated = "1792582142"
 name = "qwen-mt-plus"
 release_date = "1778404325"
 
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.26950914
-output = 0.80852742
+input = 0.269513208
+output = 0.808539624

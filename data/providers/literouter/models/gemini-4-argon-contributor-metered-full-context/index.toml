@@ -1,4 +1,0 @@
-id = "gemini-4-argon-contributor:metered:full-context"
-
-[modalities]
-output = [ "text" ]

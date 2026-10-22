@@ -1,0 +1,7 @@
+id = "doubao-seed-2.0-lite"
+name = "doubao-seed-2.0-lite"
+
+[pricing]
+cache_read = 0.00257037800953
+input = 0.0128518900476
+output = 0.0771113402858

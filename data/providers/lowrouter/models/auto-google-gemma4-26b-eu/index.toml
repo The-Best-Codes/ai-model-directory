@@ -2,7 +2,7 @@ id = "auto/google/gemma4-26b/eu"
 name = "auto/google/gemma4-26b/eu"
 
 [features]
-attachment = true
+attachment = false
 tool_call = true
 
 [limit]
@@ -10,9 +10,9 @@ context = 256000
 output = 256000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.112360654
-output = 0.56180327
+input = 0.112280227
+output = 0.561401135

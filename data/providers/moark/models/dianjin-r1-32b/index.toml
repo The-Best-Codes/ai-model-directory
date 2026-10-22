@@ -1,5 +1,5 @@
 id = "DianJin-R1-32B"
-last_updated = "1747295455"
+last_updated = "1792581847"
 name = "DianJin-R1-32B"
 release_date = "1745578061"
 
@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.2994546
-output = 1.1978184
+input = 0.29945912
+output = 1.19783648

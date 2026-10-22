@@ -1,5 +1,5 @@
 id = "Sinong1.0-32B"
-last_updated = "1773295591"
+last_updated = "1792581847"
 name = "Sinong1.0-32B"
 release_date = "1768446528"
 
@@ -7,4 +7,4 @@ release_date = "1768446528"
 context = 32000
 
 [pricing]
-input = 0.2994546
+input = 0.29945912

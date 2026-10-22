@@ -1,5 +1,5 @@
 id = "ERNIE-5.0-Thinking"
-last_updated = "1764579609"
+last_updated = "1792581847"
 name = "ERNIE-5.0-Thinking"
 release_date = "1764578549"
 
@@ -16,5 +16,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.5989092
-output = 2.3956368
+input = 0.59891824
+output = 2.39567296

@@ -1,5 +1,5 @@
 id = "APUS-OpenJev-v1-4B"
-last_updated = "1790682177"
+last_updated = "1792582142"
 name = "APUS-OpenJev-v1-4B"
 release_date = "1790162223"
 
@@ -7,4 +7,4 @@ release_date = "1790162223"
 context = 128000
 
 [pricing]
-input = 0.01497273
+input = 0.014972956

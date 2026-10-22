@@ -6,11 +6,11 @@ release_date = "1790812800"
 attachment = false
 
 [limit]
-context = 65536
+context = 16384
 
 [modalities]
 input = [ "text" ]
 
 [pricing]
-input = 0.168225
+input = 0.16851
 output = 0

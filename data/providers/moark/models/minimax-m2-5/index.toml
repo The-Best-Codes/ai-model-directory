@@ -1,5 +1,5 @@
 id = "MiniMax-M2.5"
-last_updated = "1787316751"
+last_updated = "1792581847"
 name = "MiniMax-M2.5"
 release_date = "1770971999"
 
@@ -15,5 +15,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.31442733
-output = 1.25770932
+input = 0.314432076
+output = 1.257728304

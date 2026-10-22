@@ -2,6 +2,6 @@ id = "gemini-3.1-pro-preview-low"
 name = "gemini-3.1-pro-preview-low"
 
 [pricing]
-cache_read = 0.0308438238
-input = 0.308438238
-output = 1.850629428
+cache_read = 0.03084428936
+input = 0.3084428936
+output = 1.8506573616

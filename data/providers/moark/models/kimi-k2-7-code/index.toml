@@ -1,5 +1,5 @@
 id = "Kimi-K2.7-Code"
-last_updated = "1787315987"
+last_updated = "1792581847"
 name = "Kimi-K2.7-Code"
 release_date = "1781753433"
 
@@ -14,5 +14,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.97322745
-output = 4.0426371
+input = 0.97324214
+output = 4.04269812

@@ -1,5 +1,5 @@
 id = "Hy-MT2-30B-A3B"
-last_updated = "1779862155"
+last_updated = "1792581847"
 name = "Hy-MT2-30B-A3B"
 release_date = "1779862155"
 
@@ -7,4 +7,4 @@ release_date = "1779862155"
 context = 32000
 
 [pricing]
-input = 0.10480911
+input = 0.104810692

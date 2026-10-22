@@ -1,5 +1,5 @@
 id = "Qwen3.8-Omni-Flash"
-last_updated = "1789711166"
+last_updated = "1792582142"
 name = "Qwen3.8-Omni-Flash"
 release_date = "1789703514"
 
@@ -14,5 +14,5 @@ input = [ "audio", "image", "text" ]
 output = [ "audio", "text" ]
 
 [pricing]
-input = 0.11978184
-output = 0.40426371
+input = 0.119783648
+output = 0.404269812

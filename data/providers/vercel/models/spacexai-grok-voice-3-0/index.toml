@@ -1,0 +1,11 @@
+id = "spacexai/grok-voice-3.0"
+name = "Grok Voice 3.0"
+release_date = "1791936000"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "text" ]

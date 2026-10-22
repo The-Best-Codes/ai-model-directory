@@ -1,0 +1,19 @@
+id = "auto/unknown/kolibri-1-tl5/eu-sovereign"
+name = "auto/unknown/kolibri-1-tl5/eu-sovereign"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.08421017025
+input = 0.1684203405
+output = 0.6175412485

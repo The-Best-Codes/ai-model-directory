@@ -1,0 +1,6 @@
+id = "decision-small"
+name = "Decision Small"
+release_date = "1792554331"
+
+[limit]
+context = 32768

@@ -1,4 +1,0 @@
-id = "mistral-small-4:free"
-
-[modalities]
-output = [ "text" ]

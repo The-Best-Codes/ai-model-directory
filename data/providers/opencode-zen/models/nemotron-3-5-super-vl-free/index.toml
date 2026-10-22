@@ -4,8 +4,7 @@ open_weights = true
 release_date = "1792022400"
 
 [features]
-attachment = true
-reasoning = true
+attachment = false
 
 [limit]
 context = 1048576
@@ -13,10 +12,5 @@ input = 1048576
 output = 131072
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0
-input = 0
-output = 0

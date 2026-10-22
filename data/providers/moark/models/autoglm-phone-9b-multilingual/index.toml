@@ -1,5 +1,5 @@
 id = "AutoGLM-Phone-9B-Multilingual"
-last_updated = "1766128301"
+last_updated = "1792581847"
 name = "AutoGLM-Phone-9B-Multilingual"
 release_date = "1765445001"
 
@@ -14,5 +14,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.052404555
-output = 0.20961822
+input = 0.052405346
+output = 0.209621384

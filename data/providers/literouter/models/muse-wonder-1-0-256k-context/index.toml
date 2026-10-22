@@ -1,4 +1,0 @@
-id = "muse-wonder-1.0:256k-context"
-
-[modalities]
-output = [ "text" ]

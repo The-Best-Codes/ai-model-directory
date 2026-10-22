@@ -1,5 +1,5 @@
 id = "MAI-UI-8B"
-last_updated = "1770960218"
+last_updated = "1792581847"
 name = "MAI-UI-8B"
 release_date = "1768461198"
 
@@ -14,5 +14,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.20961822
-output = 0.20961822
+input = 0.209621384
+output = 0.209621384

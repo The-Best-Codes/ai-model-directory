@@ -1,0 +1,15 @@
+id = "glm-5.3-flashx-legal"
+name = "GLM-5.3-FlashX-Legal"
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 0.37
+output = 1.25

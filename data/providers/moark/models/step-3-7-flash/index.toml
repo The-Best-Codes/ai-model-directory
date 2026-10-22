@@ -1,5 +1,5 @@
 id = "Step-3.7-Flash"
-last_updated = "1787315725"
+last_updated = "1792581847"
 name = "Step-3.7-Flash"
 release_date = "1784186665"
 
@@ -15,5 +15,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.202131855
-output = 1.21279113
+input = 0.202134906
+output = 1.212809436

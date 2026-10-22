@@ -1,5 +1,5 @@
 id = "QwQ-32B"
-last_updated = "1750934699"
+last_updated = "1792581847"
 name = "QwQ-32B"
 release_date = "1741247846"
 
@@ -16,5 +16,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.1497273
-output = 0.5989092
+input = 0.14972956
+output = 0.59891824

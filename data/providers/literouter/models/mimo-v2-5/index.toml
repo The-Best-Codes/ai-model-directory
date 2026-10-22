@@ -1,4 +1,0 @@
-id = "mimo-v2.5"
-
-[modalities]
-output = [ "text" ]

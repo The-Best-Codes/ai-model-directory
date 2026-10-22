@@ -5,14 +5,9 @@ release_date = "1789430400"
 
 [features]
 attachment = false
-structured_output = true
 
 [limit]
 context = 64000
 
 [modalities]
 input = [ "text" ]
-
-[pricing]
-input = 0.042
-output = 0

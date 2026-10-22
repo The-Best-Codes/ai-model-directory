@@ -1,4 +1,0 @@
-id = "mistral-large-4-cheap:payg"
-
-[modalities]
-output = [ "text" ]

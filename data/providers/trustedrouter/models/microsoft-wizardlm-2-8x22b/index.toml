@@ -1,5 +1,5 @@
 id = "microsoft/wizardlm-2-8x22b"
-name = "WizardLM-2 8x22B"
+name = "WizardLM 2 8x22B"
 open_weights = false
 
 [features]

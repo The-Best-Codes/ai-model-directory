@@ -6,11 +6,7 @@ release_date = "1770163200"
 attachment = true
 
 [limit]
-context = 32768
+context = 16384
 
 [modalities]
 input = [ "audio" ]
-
-[pricing]
-input = 0.04
-output = 0.04

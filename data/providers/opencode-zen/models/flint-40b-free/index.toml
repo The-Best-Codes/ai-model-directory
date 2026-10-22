@@ -1,0 +1,16 @@
+id = "flint-40b-free"
+knowledge_cutoff = "1780272000"
+name = "Flint 40B Free"
+open_weights = true
+release_date = "1792540800"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

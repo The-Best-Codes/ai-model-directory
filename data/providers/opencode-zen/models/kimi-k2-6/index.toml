@@ -1,25 +1,16 @@
 id = "kimi-k2.6"
-knowledge_cutoff = "1727740800"
-last_updated = "1776729600"
+knowledge_cutoff = "1735689600"
 name = "Kimi K2.6"
 open_weights = true
-release_date = "1776729600"
+release_date = "1776643200"
 
 [features]
-attachment = true
-reasoning = true
-temperature = true
-tool_call = true
+attachment = false
 
 [limit]
 context = 262144
 output = 65536
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.16
-input = 0.95
-output = 4

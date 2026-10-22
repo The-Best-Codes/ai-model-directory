@@ -1,5 +1,5 @@
 id = "qwen3.5-ocr"
-last_updated = "1789128087"
+last_updated = "1792582142"
 name = "qwen3.5-ocr"
 release_date = "1777564800"
 
@@ -11,5 +11,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.07486365
-output = 0.2994546
+input = 0.07486478
+output = 0.29945912

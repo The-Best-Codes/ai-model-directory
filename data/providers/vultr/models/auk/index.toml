@@ -1,0 +1,10 @@
+id = "auk"
+name = "AuK (evaluation)"
+open_weights = true
+release_date = "1792564525"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

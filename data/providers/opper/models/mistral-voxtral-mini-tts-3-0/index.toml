@@ -1,0 +1,13 @@
+id = "mistral/voxtral-mini-tts-3-0"
+name = "Voxtral TTS 3"
+release_date = "1792454400"
+
+[features]
+attachment = true
+
+[limit]
+context = 4096
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio" ]

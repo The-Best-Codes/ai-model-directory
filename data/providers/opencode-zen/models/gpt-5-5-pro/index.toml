@@ -1,16 +1,11 @@
 id = "gpt-5.5-pro"
 knowledge_cutoff = "1764547200"
-last_updated = "1776988800"
 name = "GPT-5.5 Pro"
 open_weights = false
-release_date = "1776988800"
+release_date = "1776902400"
 
 [features]
-attachment = true
-reasoning = true
-structured_output = false
-temperature = false
-tool_call = true
+attachment = false
 
 [limit]
 context = 1050000
@@ -18,10 +13,5 @@ input = 922000
 output = 128000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 30
-input = 30
-output = 180

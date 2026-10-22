@@ -1,0 +1,18 @@
+id = "baseten/mammoth-1"
+name = "Mammoth-1"
+release_date = "1792540800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

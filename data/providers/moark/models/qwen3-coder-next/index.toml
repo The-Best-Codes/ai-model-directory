@@ -1,5 +1,5 @@
 id = "Qwen3-Coder-Next"
-last_updated = "1770370389"
+last_updated = "1792581847"
 name = "Qwen3-Coder-Next"
 release_date = "1770370367"
 
@@ -14,5 +14,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.5989092
-output = 0.5989092
+input = 0.59891824
+output = 0.59891824

@@ -1,0 +1,15 @@
+id = "auto/mistralai/codestral-embed-2505/eu-sovereign"
+name = "auto/mistralai/codestral-embed-2505/eu-sovereign"
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.157473018368
+output = 0

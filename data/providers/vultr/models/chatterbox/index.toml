@@ -1,0 +1,10 @@
+id = "chatterbox"
+name = "Chatterbox"
+open_weights = true
+release_date = "1792560055"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

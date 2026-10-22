@@ -1,0 +1,4 @@
+id = "minimax-m3.1-flash-cheap:metered:full-context"
+
+[modalities]
+output = [ "text" ]

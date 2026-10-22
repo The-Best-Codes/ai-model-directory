@@ -1,4 +1,0 @@
-id = "qwen3.7-flash:metered:full-context"
-
-[modalities]
-output = [ "text" ]

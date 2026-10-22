@@ -6,8 +6,6 @@ release_date = "1788998400"
 
 [features]
 attachment = false
-reasoning = true
-structured_output = true
 
 [limit]
 context = 1000000
@@ -16,8 +14,3 @@ output = 384000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.006
-input = 0.3
-output = 1.2

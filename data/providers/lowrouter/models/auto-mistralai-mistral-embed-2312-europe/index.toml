@@ -1,0 +1,15 @@
+id = "auto/mistralai/mistral-embed-2312/europe"
+name = "auto/mistralai/mistral-embed-2312/europe"
+
+[features]
+attachment = false
+
+[limit]
+context = 8000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.104982012245
+output = 0

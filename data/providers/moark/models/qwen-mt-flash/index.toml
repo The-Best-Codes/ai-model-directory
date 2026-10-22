@@ -1,5 +1,5 @@
 id = "qwen-mt-flash"
-last_updated = "1789126179"
+last_updated = "1792582142"
 name = "qwen-mt-flash"
 release_date = "1778404325"
 
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.10480911
-output = 0.291968235
+input = 0.104810692
+output = 0.291972642

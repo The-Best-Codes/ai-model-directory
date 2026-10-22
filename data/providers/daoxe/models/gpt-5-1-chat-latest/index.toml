@@ -1,0 +1,7 @@
+id = "gpt-5.1-chat-latest"
+name = "gpt-5.1-chat-latest"
+
+[pricing]
+cache_read = 0.01927768085
+input = 0.1927768085
+output = 1.542214468
