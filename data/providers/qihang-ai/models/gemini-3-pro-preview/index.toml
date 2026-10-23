@@ -3,5 +3,5 @@ name = "gemini-3-pro-preview"
 release_date = "1763424000"
 
 [pricing]
-input = 0.89837736
-output = 5.39026416
+input = 0.89890872
+output = 5.39345232

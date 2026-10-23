@@ -2,14 +2,16 @@ id = "qwen3.8-flash"
 name = "qwen3.8-flash"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.03
-input = 0.22
-output = 0.68
+cache_read = 0.02
+cache_write = 0.21
+input = 0.17
+output = 0.52

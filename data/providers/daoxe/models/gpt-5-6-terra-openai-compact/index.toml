@@ -2,7 +2,7 @@ id = "gpt-5.6-terra-openai-compact"
 name = "gpt-5.6-terra-openai-compact"
 
 [pricing]
-cache_read = 0.0385553617
-cache_write = 0.48194202125
-input = 0.385553617
-output = 2.313321702
+cache_read = 0.0385781659
+cache_write = 0.48222707375
+input = 0.385781659
+output = 2.314689954

@@ -1,0 +1,17 @@
+id = "nova-premier-v1"
+name = "nova-premier-v1"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.69
+cache_write = 3.44
+input = 2.75
+output = 13.75

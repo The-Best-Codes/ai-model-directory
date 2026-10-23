@@ -1,0 +1,15 @@
+id = "seed-2.0-lite"
+name = "seed-2.0-lite"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.56
+output = 4.4

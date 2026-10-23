@@ -1,0 +1,21 @@
+id = "flint-v1.0:free"
+name = "Flint"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

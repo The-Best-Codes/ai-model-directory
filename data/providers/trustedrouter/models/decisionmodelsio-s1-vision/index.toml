@@ -1,0 +1,16 @@
+id = "decisionmodelsio/s1-vision"
+name = "Decision Models s1-vision (GLOBAL)"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.04009
+output = 0

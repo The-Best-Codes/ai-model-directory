@@ -1,0 +1,17 @@
+id = "aion-2.0"
+name = "aion-2.0"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.22
+cache_write = 1.1
+input = 0.88
+output = 1.76

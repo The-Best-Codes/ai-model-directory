@@ -1,0 +1,15 @@
+id = "hy3"
+name = "hy3"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.16
+output = 0.59

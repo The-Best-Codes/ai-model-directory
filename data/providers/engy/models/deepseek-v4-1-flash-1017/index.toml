@@ -2,16 +2,16 @@ id = "deepseek-v4.1-flash-1017"
 name = "deepseek-v4.1-flash-1017"
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 1048576
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.008
-input = 0.04
-output = 0.08
+cache_read = 0.006
+input = 0.03
+output = 0.12

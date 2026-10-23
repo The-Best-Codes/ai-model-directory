@@ -11,8 +11,3 @@ context = 1048576
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.0060855883034
-input = 0.202838721285
-output = 0.608513918249

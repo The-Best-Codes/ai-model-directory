@@ -1,0 +1,17 @@
+id = "solar-mini4"
+name = "solar-mini4"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+cache_write = 0.08
+input = 0.06
+output = 0.22

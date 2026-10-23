@@ -1,0 +1,17 @@
+id = "solar-pro4"
+name = "solar-pro4"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.21
+input = 0.17
+output = 0.66

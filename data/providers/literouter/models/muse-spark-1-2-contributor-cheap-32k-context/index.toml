@@ -1,4 +1,0 @@
-id = "muse-spark-1.2-contributor-cheap:32k-context"
-
-[modalities]
-output = [ "text" ]

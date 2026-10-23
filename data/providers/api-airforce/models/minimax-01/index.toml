@@ -1,0 +1,15 @@
+id = "minimax-01"
+name = "minimax-01"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.22
+output = 1.21

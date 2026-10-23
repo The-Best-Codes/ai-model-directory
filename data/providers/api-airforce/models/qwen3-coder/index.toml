@@ -4,13 +4,14 @@ name = "qwen3-coder"
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.062
-cache_write = 0.62
-input = 0.62
-output = 2.5
+cache_read = 0.11
+cache_write = 0.41
+input = 0.33
+output = 1.1

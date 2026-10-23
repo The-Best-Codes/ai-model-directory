@@ -1,0 +1,15 @@
+id = "aion-rp-llama-3.1-8b"
+name = "aion-rp-llama-3.1-8b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.88
+output = 1.76

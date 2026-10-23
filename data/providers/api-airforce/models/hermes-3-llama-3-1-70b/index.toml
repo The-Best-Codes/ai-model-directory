@@ -1,0 +1,15 @@
+id = "hermes-3-llama-3.1-70b"
+name = "hermes-3-llama-3.1-70b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.77
+output = 0.77

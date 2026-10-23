@@ -1,7 +1,10 @@
 id = "d3"
-last_updated = "1792582142"
+last_updated = "1792658841"
 name = "d3"
 release_date = "1792482736"
 
+[limit]
+context = 32000
+
 [pricing]
-input = 0.044918868
+input = 0.044945436

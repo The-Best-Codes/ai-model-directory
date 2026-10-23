@@ -1,0 +1,15 @@
+id = "magnum-v4-72b"
+name = "magnum-v4-72b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.75
+output = 5.5

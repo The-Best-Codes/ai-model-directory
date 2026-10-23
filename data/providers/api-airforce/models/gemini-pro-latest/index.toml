@@ -2,13 +2,14 @@ id = "gemini-pro-latest"
 name = "gemini-pro-latest"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-input = 2
-output = 12
+input = 2.2
+output = 13.2

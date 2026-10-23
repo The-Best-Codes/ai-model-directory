@@ -2,14 +2,14 @@ id = "gemini-3.7-flash"
 name = "gemini-3.7-flash"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.06
-input = 0.36
-output = 1.97
+input = 0.83
+output = 4.13

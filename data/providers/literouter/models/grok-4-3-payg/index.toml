@@ -1,4 +1,0 @@
-id = "grok-4.3:payg"
-
-[modalities]
-output = [ "text" ]

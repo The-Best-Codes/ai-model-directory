@@ -1,0 +1,17 @@
+id = "muse-spark-open"
+name = "muse-spark-open"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.17
+cache_write = 1.73
+input = 1.38
+output = 4.68

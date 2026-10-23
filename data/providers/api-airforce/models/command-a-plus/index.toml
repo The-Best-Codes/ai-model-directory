@@ -1,0 +1,17 @@
+id = "command-a-plus"
+name = "command-a-plus"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.17
+cache_write = 0.41
+input = 0.33
+output = 1.65

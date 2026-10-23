@@ -1,0 +1,15 @@
+id = "nemotron-3.5-content-safety"
+name = "nemotron-3.5-content-safety"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.22
+output = 0.22

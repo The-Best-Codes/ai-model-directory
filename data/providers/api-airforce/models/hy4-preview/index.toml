@@ -1,0 +1,15 @@
+id = "hy4-preview"
+name = "hy4-preview"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.93
+output = 2.77

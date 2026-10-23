@@ -1,0 +1,17 @@
+id = "mistral-medium-3.1"
+name = "mistral-medium-3.1"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+cache_write = 0.55
+input = 0.44
+output = 2.2

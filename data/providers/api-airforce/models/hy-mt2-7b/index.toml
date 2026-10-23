@@ -1,0 +1,15 @@
+id = "hy-mt2-7b"
+name = "hy-mt2-7b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09
+output = 0.33

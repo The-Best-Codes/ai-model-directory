@@ -1,0 +1,16 @@
+id = "decisionmodelsio-eu/s1-pro-2"
+name = "Decision Models s1-pro-2 (EU)"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0422
+output = 0

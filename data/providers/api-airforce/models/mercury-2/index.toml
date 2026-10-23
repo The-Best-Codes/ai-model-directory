@@ -1,0 +1,17 @@
+id = "mercury-2"
+name = "mercury-2"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.35
+input = 0.28
+output = 0.83

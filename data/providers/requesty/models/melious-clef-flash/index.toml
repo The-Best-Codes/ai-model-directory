@@ -1,0 +1,16 @@
+id = "melious/clef-flash"
+name = "melious/clef-flash"
+release_date = "1792594083"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.09
+output = 0

@@ -1,0 +1,17 @@
+id = "hy3-preview"
+name = "hy3-preview"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.07
+cache_write = 0.25
+input = 0.2
+output = 0.66

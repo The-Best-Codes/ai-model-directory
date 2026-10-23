@@ -1,0 +1,17 @@
+id = "glm-4.6v"
+name = "glm-4.6v"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.07
+cache_write = 0.41
+input = 0.33
+output = 0.99

@@ -4,11 +4,12 @@ name = "gpt-3.5-turbo-instruct"
 [features]
 attachment = false
 reasoning = false
+tool_call = false
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.58
-output = 2.1
+input = 1.65
+output = 2.2

@@ -1,4 +1,0 @@
-id = "grok-4.5-cheap:32k-context"
-
-[modalities]
-output = [ "text" ]

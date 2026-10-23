@@ -1,0 +1,17 @@
+id = "skyfall-36b-v2"
+name = "skyfall-36b-v2"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.28
+cache_write = 0.76
+input = 0.61
+output = 0.88

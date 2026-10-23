@@ -1,0 +1,17 @@
+id = "nemotron-3.5-super-vl"
+name = "nemotron-3.5-super-vl"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+cache_write = 0.21
+input = 0.17
+output = 0.55

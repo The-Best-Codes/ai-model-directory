@@ -1,0 +1,15 @@
+id = "command-r-08-2024"
+name = "command-r-08-2024"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.17
+output = 0.66

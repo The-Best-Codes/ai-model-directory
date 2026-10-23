@@ -1,0 +1,17 @@
+id = "ember-1"
+name = "ember-1"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.33
+cache_write = 4.13
+input = 3.3
+output = 16.5

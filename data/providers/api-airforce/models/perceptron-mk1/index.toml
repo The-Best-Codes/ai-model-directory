@@ -1,0 +1,15 @@
+id = "perceptron-mk1"
+name = "perceptron-mk1"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.17
+output = 1.65

@@ -1,0 +1,17 @@
+id = "laguna-s-2.1"
+name = "laguna-s-2.1"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+cache_write = 0.13
+input = 0.1
+output = 0.2

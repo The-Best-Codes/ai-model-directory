@@ -1,0 +1,17 @@
+id = "qwen3.7-flash"
+name = "qwen3.7-flash"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.004
+cache_write = 0.04
+input = 0.04
+output = 0.13

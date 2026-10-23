@@ -1,0 +1,15 @@
+id = "qwen-2.5-7b-instruct"
+name = "qwen-2.5-7b-instruct"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.11
+output = 0.22

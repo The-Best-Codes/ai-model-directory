@@ -2,14 +2,16 @@ id = "qwen3.7-plus"
 name = "qwen3.7-plus"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.12
-input = 0.46
-output = 1.85
+cache_read = 0.08
+cache_write = 0.55
+input = 1.32
+output = 5.28

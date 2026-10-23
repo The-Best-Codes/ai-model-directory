@@ -1,0 +1,17 @@
+id = "ternary-bonsai-2-27b"
+name = "ternary-bonsai-2-27b"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 0.11
+input = 0.09
+output = 0.55

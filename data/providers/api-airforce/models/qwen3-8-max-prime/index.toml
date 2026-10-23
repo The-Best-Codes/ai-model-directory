@@ -1,0 +1,17 @@
+id = "qwen3.8-max-prime"
+name = "qwen3.8-max-prime"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.55
+cache_write = 5.5
+input = 4.4
+output = 13.2

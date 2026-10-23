@@ -1,0 +1,15 @@
+id = "relace-apply-3"
+name = "relace-apply-3"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.94
+output = 1.38

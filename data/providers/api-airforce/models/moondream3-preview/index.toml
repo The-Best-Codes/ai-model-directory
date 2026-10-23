@@ -1,0 +1,15 @@
+id = "moondream3-preview"
+name = "moondream3-preview"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.33
+output = 2.75

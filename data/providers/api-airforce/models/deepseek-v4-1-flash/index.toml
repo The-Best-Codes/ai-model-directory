@@ -2,14 +2,16 @@ id = "deepseek-v4.1-flash"
 name = "deepseek-v4.1-flash"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01
-input = 0.23
-output = 0.69
+cache_read = 0.02
+cache_write = 0.41
+input = 0.33
+output = 1.32

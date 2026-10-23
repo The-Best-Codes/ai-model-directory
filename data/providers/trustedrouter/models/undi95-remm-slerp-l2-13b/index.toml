@@ -1,17 +1,14 @@
 id = "undi95/remm-slerp-l2-13b"
-name = "remm-slerp:l2-13b"
+name = "ReMM-SLerp"
 open_weights = false
 
 [features]
 attachment = false
-
-[limit]
-context = 6144
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.47475
-output = 0.68575
+input = 0.589619
+output = 1.095006

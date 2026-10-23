@@ -1,0 +1,15 @@
+id = "reka-flash-3"
+name = "reka-flash-3"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.11
+output = 0.22

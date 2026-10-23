@@ -1,0 +1,15 @@
+id = "cohere-rerank-v5-fast"
+name = "cohere-rerank-v5-fast"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02
+output = 0.02

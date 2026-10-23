@@ -1,0 +1,17 @@
+id = "mixtral-8x22b-instruct"
+name = "mixtral-8x22b-instruct"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.22
+cache_write = 2.75
+input = 2.2
+output = 6.6

@@ -1,0 +1,15 @@
+id = "remm-slerp-l2-13b"
+name = "remm-slerp-l2-13b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.39
+output = 0.72

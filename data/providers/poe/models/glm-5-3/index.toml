@@ -1,11 +1,11 @@
 id = "glm-5.3"
 name = "GLM-5.3"
-release_date = "1788076039"
+release_date = "1792604055"
 
 [features]
 attachment = false
-reasoning = true
-temperature = true
+reasoning = false
+temperature = false
 tool_call = true
 
 [limit]
@@ -16,6 +16,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.2626
-input = 1.4141
-output = 4.4444
+cache_read = 0.3152
+input = 1.697
+output = 5.3333

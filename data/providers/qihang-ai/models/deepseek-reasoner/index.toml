@@ -3,5 +3,5 @@ name = "deepseek-reasoner"
 release_date = "1737331200"
 
 [pricing]
-input = 0.29945912
-output = 0.44918868
+input = 0.29963624
+output = 0.44945436

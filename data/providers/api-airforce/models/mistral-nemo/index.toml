@@ -1,0 +1,15 @@
+id = "mistral-nemo"
+name = "mistral-nemo"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.04
+output = 0.04

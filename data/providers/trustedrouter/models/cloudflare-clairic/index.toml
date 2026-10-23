@@ -1,0 +1,17 @@
+id = "cloudflare/clairic"
+name = "Cloudflare Clairic"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1055
+output = 0

@@ -1,4 +1,0 @@
-id = "minimax-m2-cheap:metered"
-
-[modalities]
-output = [ "text" ]

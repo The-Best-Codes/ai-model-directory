@@ -1,0 +1,15 @@
+id = "phi-4"
+name = "phi-4"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.08
+output = 0.16

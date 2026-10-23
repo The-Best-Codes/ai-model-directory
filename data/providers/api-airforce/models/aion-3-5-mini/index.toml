@@ -1,0 +1,17 @@
+id = "aion-3.5-mini"
+name = "aion-3.5-mini"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 0.96
+input = 0.77
+output = 1.54

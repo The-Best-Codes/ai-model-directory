@@ -1,0 +1,15 @@
+id = "seed-2-1-turbo"
+name = "seed-2-1-turbo"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.55
+output = 2.75

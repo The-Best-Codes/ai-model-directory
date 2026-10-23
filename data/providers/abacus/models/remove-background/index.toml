@@ -1,0 +1,9 @@
+id = "remove_background"
+name = "Remove Background"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

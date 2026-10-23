@@ -1,0 +1,15 @@
+id = "qwen-2.5-coder-32b-instruct"
+name = "qwen-2.5-coder-32b-instruct"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.73
+output = 1.1

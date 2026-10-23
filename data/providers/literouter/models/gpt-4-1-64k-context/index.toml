@@ -1,4 +1,0 @@
-id = "gpt-4.1:64k-context"
-
-[modalities]
-output = [ "text" ]

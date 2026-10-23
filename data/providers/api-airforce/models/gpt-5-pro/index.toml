@@ -1,0 +1,24 @@
+id = "gpt-5-pro"
+knowledge_cutoff = "1780272000"
+name = "gpt-5-pro"
+release_date = "1790553600"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 7.35
+cache_write = 0
+input = 14.7
+output = 117.6

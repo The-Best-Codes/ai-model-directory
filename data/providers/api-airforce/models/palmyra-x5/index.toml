@@ -1,0 +1,15 @@
+id = "palmyra-x5"
+name = "palmyra-x5"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.66
+output = 6.6

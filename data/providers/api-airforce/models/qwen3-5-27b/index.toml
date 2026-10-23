@@ -1,0 +1,17 @@
+id = "qwen3.5-27b"
+name = "qwen3.5-27b"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.33
+cache_write = 0.41
+input = 0.33
+output = 2.64

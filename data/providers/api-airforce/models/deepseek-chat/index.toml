@@ -4,6 +4,7 @@ name = "deepseek-chat"
 [features]
 attachment = false
 reasoning = false
+tool_call = true
 
 [modalities]
 input = [ "text" ]

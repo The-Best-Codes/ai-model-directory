@@ -1,0 +1,17 @@
+id = "granite-4.2-8b"
+name = "granite-4.2-8b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+cache_write = 0.09
+input = 0.07
+output = 0.28

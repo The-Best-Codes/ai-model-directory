@@ -1,0 +1,17 @@
+id = "glimpse"
+name = "glimpse"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.07
+cache_write = 0.83
+input = 0.66
+output = 3.3

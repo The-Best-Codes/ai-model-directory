@@ -1,4 +1,0 @@
-id = "gemini-3.8-flash-cheap:metered"
-
-[modalities]
-output = [ "text" ]

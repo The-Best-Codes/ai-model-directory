@@ -1,0 +1,17 @@
+id = "minimax-m2-her"
+name = "minimax-m2-her"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0.41
+input = 0.33
+output = 1.32

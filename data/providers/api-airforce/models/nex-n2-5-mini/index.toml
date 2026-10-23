@@ -1,0 +1,17 @@
+id = "nex-n2.5-mini"
+name = "nex-n2.5-mini"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0.05
+input = 0.04
+output = 0.11

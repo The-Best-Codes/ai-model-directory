@@ -1,0 +1,15 @@
+id = "dolphin-mistral-24b-venice-edition"
+name = "dolphin-mistral-24b-venice-edition"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.22
+output = 0.99

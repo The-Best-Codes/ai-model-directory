@@ -1,0 +1,15 @@
+id = "l3.1-euryale-70b"
+name = "l3.1-euryale-70b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.94
+output = 0.94

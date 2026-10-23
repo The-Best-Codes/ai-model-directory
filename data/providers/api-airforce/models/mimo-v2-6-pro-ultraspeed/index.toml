@@ -1,0 +1,17 @@
+id = "mimo-v2.6-pro-ultraspeed"
+name = "mimo-v2.6-pro-ultraspeed"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+cache_write = 5.99
+input = 4.79
+output = 9.57

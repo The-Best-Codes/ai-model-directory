@@ -1,0 +1,17 @@
+id = "qwen3.8-omni-flash"
+name = "qwen3.8-omni-flash"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+cache_write = 0.21
+input = 0.17
+output = 0.52

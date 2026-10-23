@@ -1,0 +1,17 @@
+id = "muse-spark-1.3"
+name = "muse-spark-1.3"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.123
+cache_write = 1.23
+input = 1.23
+output = 4.17

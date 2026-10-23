@@ -1,0 +1,16 @@
+id = "decisionmodelsio/s1-pro-3"
+name = "Decision Models s1-pro-3 (GLOBAL)"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0844
+output = 0

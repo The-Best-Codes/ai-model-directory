@@ -1,0 +1,15 @@
+id = "llama-guard-4-12b"
+name = "llama-guard-4-12b"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.2

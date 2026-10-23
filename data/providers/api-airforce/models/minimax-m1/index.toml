@@ -1,0 +1,15 @@
+id = "minimax-m1"
+name = "minimax-m1"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.61
+output = 2.42

@@ -1,4 +1,0 @@
-id = "grok-4.7-cheap"
-
-[modalities]
-output = [ "text" ]

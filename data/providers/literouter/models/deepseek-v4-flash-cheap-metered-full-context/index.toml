@@ -1,4 +1,0 @@
-id = "deepseek-v4-flash-cheap:metered:full-context"
-
-[modalities]
-output = [ "text" ]

@@ -1,0 +1,17 @@
+id = "glm-5.3-prime"
+name = "glm-5.3-prime"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.62
+cache_write = 3.85
+input = 3.08
+output = 9.68

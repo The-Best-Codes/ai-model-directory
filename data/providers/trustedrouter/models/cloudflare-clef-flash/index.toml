@@ -1,0 +1,16 @@
+id = "cloudflare/clef-flash"
+name = "Cloudflare Clef-Flash"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.177779
+output = 0

@@ -1,4 +1,0 @@
-id = "glm-4.7-flash:full-context"
-
-[modalities]
-output = [ "text" ]

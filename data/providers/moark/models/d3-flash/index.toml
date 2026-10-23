@@ -1,5 +1,5 @@
 id = "d3-flash"
-last_updated = "1792582142"
+last_updated = "1792658860"
 name = "d3-flash"
 release_date = "1792487890"
 
@@ -7,4 +7,4 @@ release_date = "1792487890"
 context = 32000
 
 [pricing]
-input = 0.029945912
+input = 0.029963624

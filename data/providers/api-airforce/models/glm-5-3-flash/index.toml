@@ -1,5 +1,5 @@
-id = "[次]glm-5.3-flash"
-name = "[次]glm-5.3-flash"
+id = "glm-5.3-flash"
+name = "glm-5.3-flash"
 
 [features]
 attachment = false
@@ -10,5 +10,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 14.13
-output = 14.13
+cache_read = 0.17
+cache_write = 0.21
+input = 0.17
+output = 0.55

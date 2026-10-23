@@ -1,0 +1,15 @@
+id = "hy-mt2-1.8b"
+name = "hy-mt2-1.8b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.2

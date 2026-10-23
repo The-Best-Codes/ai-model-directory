@@ -2,7 +2,7 @@ id = "claude-opus-4-5-20251101"
 name = "claude-opus-4-5-20251101"
 
 [pricing]
-cache_read = 0.0770798791106
-cache_write = 0.963498488883
-input = 0.770798791106
-output = 3.85399395553
+cache_read = 0.0771254692673
+cache_write = 0.964068365841
+input = 0.771254692673
+output = 3.85627346336

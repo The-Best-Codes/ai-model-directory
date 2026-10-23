@@ -2,5 +2,5 @@ id = "mistral-7b-v0.2-lora"
 name = "mistral-7b-v0.2-lora"
 
 [pricing]
-input = 0.016964359148
-output = 0.050893077444
+input = 0.016974392996
+output = 0.050923178988

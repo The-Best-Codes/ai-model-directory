@@ -1,0 +1,15 @@
+id = "morph-v3-large"
+name = "morph-v3-large"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.99
+output = 2.09

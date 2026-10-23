@@ -1,0 +1,15 @@
+id = "nova-2-lite-v1"
+name = "nova-2-lite-v1"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.33
+output = 2.75

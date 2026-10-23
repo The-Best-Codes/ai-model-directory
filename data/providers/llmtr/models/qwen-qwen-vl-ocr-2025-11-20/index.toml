@@ -3,13 +3,13 @@ name = "Qwen-Vl-Ocr-2025-11-20"
 release_date = "1776880301"
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
 context = 256000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 
 [pricing]
 input = 0.07

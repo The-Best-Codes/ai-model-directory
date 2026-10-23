@@ -4,11 +4,12 @@ name = "qwen3-235b-a22b-thinking-2507"
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.31
-output = 2.94
+input = 0.77
+output = 3.85

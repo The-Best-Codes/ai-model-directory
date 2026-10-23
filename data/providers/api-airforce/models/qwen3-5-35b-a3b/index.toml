@@ -1,0 +1,17 @@
+id = "qwen3.5-35b-a3b"
+name = "qwen3.5-35b-a3b"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+cache_write = 0.35
+input = 0.28
+output = 2.2

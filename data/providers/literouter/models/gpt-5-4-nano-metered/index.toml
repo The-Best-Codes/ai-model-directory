@@ -1,0 +1,4 @@
+id = "gpt-5.4-nano:metered"
+
+[modalities]
+output = [ "text" ]

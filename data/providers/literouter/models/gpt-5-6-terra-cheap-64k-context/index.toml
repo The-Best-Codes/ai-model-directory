@@ -1,4 +1,0 @@
-id = "gpt-5.6-terra-cheap:64k-context"
-
-[modalities]
-output = [ "text" ]

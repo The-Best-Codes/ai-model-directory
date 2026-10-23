@@ -1,0 +1,15 @@
+id = "seed-2.0-mini"
+name = "seed-2.0-mini"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.22
+output = 0.88

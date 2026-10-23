@@ -1,0 +1,15 @@
+id = "l3-lunaris-8b"
+name = "l3-lunaris-8b"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.06

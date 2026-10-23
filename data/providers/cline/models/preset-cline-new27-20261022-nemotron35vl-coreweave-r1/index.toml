@@ -1,0 +1,23 @@
+id = "@preset/cline-new27-20261022-nemotron35vl-coreweave-r1"
+name = "cline-new27-20261022-nemotron35vl-coreweave-r1"
+release_date = "1792702340"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 235929
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.15
+output = 0.5

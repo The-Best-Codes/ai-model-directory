@@ -1,0 +1,17 @@
+id = "longcat-2.0"
+name = "longcat-2.0"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+cache_write = 0.41
+input = 0.33
+output = 1.32

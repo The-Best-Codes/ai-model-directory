@@ -1,0 +1,17 @@
+id = "muse-wonder-1.0"
+name = "muse-wonder-1.0"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.062
+cache_write = 0.62
+input = 0.62
+output = 3.09

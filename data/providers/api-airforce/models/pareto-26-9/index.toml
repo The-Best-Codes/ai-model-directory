@@ -1,0 +1,17 @@
+id = "pareto-26.9"
+name = "pareto-26.9"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.28
+cache_write = 3.44
+input = 2.75
+output = 8.25

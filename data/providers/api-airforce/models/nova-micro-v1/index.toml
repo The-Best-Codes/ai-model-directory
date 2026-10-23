@@ -1,0 +1,15 @@
+id = "nova-micro-v1"
+name = "nova-micro-v1"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.16

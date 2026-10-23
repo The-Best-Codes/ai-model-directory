@@ -1,0 +1,17 @@
+id = "aion-3.0"
+name = "aion-3.0"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.83
+cache_write = 4.13
+input = 3.3
+output = 6.6

@@ -4,6 +4,7 @@ name = "qwen3-coder-flash"
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]

@@ -2,11 +2,12 @@ id = "kimi-k2.6"
 name = "kimi-k2.6"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
