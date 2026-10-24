@@ -1,0 +1,11 @@
+id = "qwen-image-2.1-viggle-turbo"
+last_updated = "1790671783"
+name = "qwen-image-2.1-viggle-turbo"
+release_date = "1790653170"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

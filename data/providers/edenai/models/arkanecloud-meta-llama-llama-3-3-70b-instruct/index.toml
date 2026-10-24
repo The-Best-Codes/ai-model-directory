@@ -1,0 +1,21 @@
+id = "arkanecloud/meta-llama/Llama-3.3-70B-Instruct"
+name = "arkanecloud/meta-llama/Llama-3.3-70B-Instruct"
+release_date = "1792768060"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 0.7
+output = 0.7

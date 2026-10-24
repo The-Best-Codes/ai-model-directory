@@ -1,0 +1,23 @@
+id = "@preset/cline-mistral-k5-20261023-large4-zdr-r1"
+name = "cline-mistral-k5-20261023-large4-zdr-r1"
+release_date = "1792791819"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.14
+input = 1.36
+output = 4.18

@@ -1,0 +1,20 @@
+id = "moonshotai/kimi-k3.1-pro-highspeed"
+name = "MoonshotAI: Kimi K3.1 Pro Highspeed"
+release_date = "1792778213"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 4
+input = 4
+output = 20

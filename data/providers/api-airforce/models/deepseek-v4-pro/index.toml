@@ -4,13 +4,14 @@ name = "deepseek-v4-pro"
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.08
-cache_write = 0
-input = 0.8
-output = 2.38
+cache_read = 0.07
+cache_write = 1.01
+input = 0.81
+output = 1.62

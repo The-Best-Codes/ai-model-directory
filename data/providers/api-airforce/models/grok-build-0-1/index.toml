@@ -2,15 +2,15 @@ id = "grok-build-0.1"
 name = "grok-build-0.1"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
-tool_call = true
 
 [modalities]
-input = [ "image" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.22
-input = 2.2
-output = 4.4
+cache_read = 0.1
+cache_write = 1.25
+input = 1
+output = 2

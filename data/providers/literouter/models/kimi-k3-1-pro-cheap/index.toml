@@ -1,0 +1,4 @@
+id = "kimi-k3.1-pro-cheap"
+
+[modalities]
+output = [ "text" ]

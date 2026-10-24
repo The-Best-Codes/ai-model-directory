@@ -2,6 +2,6 @@ id = "grok-4.20-multi-agent-0309"
 name = "grok-4.20-multi-agent-0309"
 
 [pricing]
-cache_read = 0.03086253272
-input = 0.1928908295
-output = 0.385781659
+cache_read = 0.0308697386
+input = 0.19293586625
+output = 0.3858717325

@@ -8,5 +8,5 @@ attachment = true
 input = [ "image", "text" ]
 
 [pricing]
-input = 1.549700946
-output = 12.397607568
+input = 1.550979585
+output = 12.40783668

@@ -1,0 +1,18 @@
+id = "reflection/Beam-1.0-501B-A23B"
+name = "Reflection: Beam 1.0"
+release_date = "1792735917"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.175
+input = 0.35
+output = 1.12

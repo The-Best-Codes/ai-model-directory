@@ -1,0 +1,4 @@
+id = "claude-opus-4.7-code:payg"
+
+[modalities]
+output = [ "text" ]

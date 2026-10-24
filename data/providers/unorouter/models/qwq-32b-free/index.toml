@@ -5,11 +5,10 @@ release_date = "1741132800"
 [features]
 attachment = false
 reasoning = true
-tool_call = true
 
 [limit]
-context = 131100
-input = 131100
+context = 24000
+input = 24000
 output = 24000
 
 [modalities]

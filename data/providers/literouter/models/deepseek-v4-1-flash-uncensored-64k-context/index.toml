@@ -1,4 +1,0 @@
-id = "deepseek-v4.1-flash-uncensored:64k-context"
-
-[modalities]
-output = [ "text" ]

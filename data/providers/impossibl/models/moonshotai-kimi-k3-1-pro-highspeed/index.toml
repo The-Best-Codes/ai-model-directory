@@ -1,0 +1,14 @@
+id = "moonshotai/kimi-k3.1-pro-highspeed"
+name = "Kimi K3.1 Pro Highspeed"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 4
+output = 20

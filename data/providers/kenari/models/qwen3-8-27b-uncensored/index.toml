@@ -1,0 +1,18 @@
+id = "qwen3-8-27b-uncensored"
+name = "qwen3-8-27b-uncensored"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.055313434
+input = 0.27656717
+output = 1.38283585

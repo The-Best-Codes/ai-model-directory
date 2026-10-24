@@ -1,0 +1,14 @@
+id = "impossibl/shadowmancer-preview"
+name = "Shadowmancer Preview"
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.5
+input = 3
+output = 15

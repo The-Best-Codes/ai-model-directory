@@ -1,0 +1,16 @@
+id = "coding-kimi-k3.1-pro-highspeed"
+name = "coding-kimi-k3.1-pro-highspeed"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.264
+input = 1.76
+output = 6.46

@@ -1,0 +1,10 @@
+id = "kimi-k3.1-pro-highspeed"
+name = "kimi-k3.1-pro-highspeed"
+
+[features]
+reasoning = true
+
+[pricing]
+cache_read = 0.16
+input = 3.2
+output = 16

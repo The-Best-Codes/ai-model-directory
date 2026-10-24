@@ -2,5 +2,5 @@ id = "microsoft/phi-4-mini-instruct"
 name = "microsoft/phi-4-mini-instruct"
 
 [pricing]
-input = 0.238034065306
-output = 1.04139903571
+input = 0.238230464256
+output = 1.04225828112

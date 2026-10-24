@@ -1,0 +1,21 @@
+id = "together_ai/MiniMaxAI/MiniMax-M3.1-Flash"
+name = "together_ai/MiniMaxAI/MiniMax-M3.1-Flash"
+release_date = "1792379569"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.15
+output = 0.6

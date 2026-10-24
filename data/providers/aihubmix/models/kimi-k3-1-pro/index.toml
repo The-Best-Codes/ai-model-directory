@@ -1,0 +1,16 @@
+id = "kimi-k3.1-pro"
+name = "kimi-k3.1-pro"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 10.5

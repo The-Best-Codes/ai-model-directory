@@ -1,4 +1,0 @@
-id = "gpt-5.3-codex:payg"
-
-[modalities]
-output = [ "text" ]

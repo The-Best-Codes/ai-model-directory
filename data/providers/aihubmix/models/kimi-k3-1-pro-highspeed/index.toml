@@ -1,0 +1,16 @@
+id = "kimi-k3.1-pro-highspeed"
+name = "kimi-k3.1-pro-highspeed"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 4
+output = 21

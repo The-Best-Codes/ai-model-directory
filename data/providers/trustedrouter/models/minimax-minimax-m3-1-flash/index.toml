@@ -1,4 +1,4 @@
-id = "minimax/minimax-m3-1-flash"
+id = "minimax/minimax-m3.1-flash"
 name = "MiniMax M3.1 Flash"
 open_weights = false
 
@@ -13,5 +13,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.197813
-output = 0.79125
+input = 0.15825
+output = 0.633

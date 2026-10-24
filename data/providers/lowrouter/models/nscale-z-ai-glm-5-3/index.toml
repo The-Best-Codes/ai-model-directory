@@ -1,0 +1,16 @@
+id = "nscale/z-ai/glm-5.3"
+name = "nscale/z-ai/glm-5.3"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.42670354569
+output = 4.48392494874

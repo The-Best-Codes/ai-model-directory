@@ -1,0 +1,14 @@
+id = "chatgpt-image-latest"
+name = "chatgpt-image-latest"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.63
+input = 5.25
+output = 13

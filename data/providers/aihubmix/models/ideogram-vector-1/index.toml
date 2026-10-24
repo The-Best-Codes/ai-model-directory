@@ -1,0 +1,11 @@
+id = "ideogram-vector-1"
+name = "ideogram-vector-1"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]

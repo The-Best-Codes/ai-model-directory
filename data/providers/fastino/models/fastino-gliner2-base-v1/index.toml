@@ -7,8 +7,8 @@ reasoning = false
 structured_output = false
 
 [limit]
-input = 8192
-output = 8192
+input = 2048
+output = 2048
 
 [modalities]
 input = [ "text" ]

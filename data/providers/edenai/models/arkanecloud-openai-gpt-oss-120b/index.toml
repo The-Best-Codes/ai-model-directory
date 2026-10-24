@@ -1,0 +1,21 @@
+id = "arkanecloud/openai/gpt-oss-120b"
+name = "arkanecloud/openai/gpt-oss-120b"
+release_date = "1792768060"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.15
+output = 0.6

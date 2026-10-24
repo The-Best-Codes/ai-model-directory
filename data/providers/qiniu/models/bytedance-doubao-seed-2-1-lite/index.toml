@@ -1,0 +1,21 @@
+id = "bytedance/doubao-seed-2-1-lite"
+name = "Doubao-Seed-2.1-lite"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1024000
+output = 256000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02319
+input = 0.11594
+output = 0.3913

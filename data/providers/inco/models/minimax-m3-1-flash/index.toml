@@ -1,5 +1,6 @@
 id = "minimax-m3.1-flash"
 name = "MiniMax M3.1 Flash"
+open_weights = true
 release_date = "1792407614"
 
 [features]
@@ -14,6 +15,6 @@ input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.06
-input = 0.3
-output = 1.2
+cache_read = 0.03
+input = 0.15
+output = 0.6

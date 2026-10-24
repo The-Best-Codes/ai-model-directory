@@ -5,7 +5,7 @@ name = "Jev 1.13.0"
 context = 32000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 
 [pricing]
 input = 0.042

@@ -1,0 +1,12 @@
+id = "beam-free"
+name = "beam-free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

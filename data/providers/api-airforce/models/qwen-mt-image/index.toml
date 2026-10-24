@@ -1,0 +1,9 @@
+id = "qwen-mt-image"
+name = "qwen-mt-image"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

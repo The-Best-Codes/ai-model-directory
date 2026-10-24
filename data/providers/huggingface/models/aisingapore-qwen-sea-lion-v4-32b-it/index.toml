@@ -1,0 +1,19 @@
+id = "aisingapore/Qwen-SEA-LION-v4-32B-IT"
+name = "aisingapore/Qwen-SEA-LION-v4-32B-IT"
+release_date = "1760597914"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.25
+output = 0.5

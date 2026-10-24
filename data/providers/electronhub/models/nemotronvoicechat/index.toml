@@ -1,0 +1,12 @@
+id = "nemotronvoicechat"
+name = "Nemotronvoicechat: Nemotron Voice Chat TTS"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 5

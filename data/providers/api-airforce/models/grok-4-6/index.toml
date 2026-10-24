@@ -2,15 +2,15 @@ id = "grok-4.6"
 name = "grok-4.6"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
-tool_call = true
 
 [modalities]
-input = [ "image" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.55
-input = 4.4
-output = 13.2
+cache_read = 0.196
+cache_write = 1.96
+input = 1.96
+output = 5.88

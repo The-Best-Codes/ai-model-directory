@@ -1,0 +1,17 @@
+id = "baseten/mammoth-1-free"
+name = "Mammoth-1 (Free)"
+release_date = "1792735017"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0
+output = 0
