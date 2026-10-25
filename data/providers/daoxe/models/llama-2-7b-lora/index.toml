@@ -2,5 +2,5 @@ id = "llama-2-7b-lora"
 name = "llama-2-7b-lora"
 
 [pricing]
-input = 0.085817873308
-output = 1.02895630096
+input = 0.0858270190076
+output = 1.0290659579

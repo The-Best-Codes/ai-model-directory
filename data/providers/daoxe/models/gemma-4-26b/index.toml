@@ -2,6 +2,6 @@ id = "gemma-4-26b"
 name = "gemma-4-26b"
 
 [pricing]
-cache_read = 0.00617394772
-input = 0.0308697386
-output = 0.0926092158
+cache_read = 0.006174605684
+input = 0.03087302842
+output = 0.09261908526

@@ -1,0 +1,17 @@
+id = "abliteration/abliterated-model-large"
+name = "Abliterated Large"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3.165
+output = 5.275

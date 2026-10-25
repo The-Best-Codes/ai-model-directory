@@ -1,0 +1,15 @@
+id = "kimi-k3.1-pro"
+last_updated = "1792821124"
+name = "kimi-k3.1-pro"
+release_date = "1792818976"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.94829791
+output = 10.19109676

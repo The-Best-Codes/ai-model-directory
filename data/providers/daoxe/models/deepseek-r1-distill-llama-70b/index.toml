@@ -2,5 +2,5 @@ id = "deepseek-r1-distill-llama-70b"
 name = "deepseek-r1-distill-llama-70b"
 
 [pricing]
-input = 0.00463046079
-output = 0.02006533009
+input = 0.004630954263
+output = 0.020067468473

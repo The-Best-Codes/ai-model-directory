@@ -1,0 +1,15 @@
+id = "nemotron-3.5-super-vl-free"
+name = "nemotron-3.5-super-vl-free"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

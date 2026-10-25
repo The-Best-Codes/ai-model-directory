@@ -1,0 +1,4 @@
+id = "glm-4.6:payg"
+
+[modalities]
+output = [ "text" ]

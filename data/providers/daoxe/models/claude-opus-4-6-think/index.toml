@@ -1,0 +1,7 @@
+id = "claude-opus-4-6-think"
+name = "claude-opus-4-6-think"
+
+[pricing]
+cache_read = 0.07718257105
+input = 0.7718257105
+output = 3.8591285525

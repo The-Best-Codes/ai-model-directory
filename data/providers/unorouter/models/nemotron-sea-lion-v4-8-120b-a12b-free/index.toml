@@ -1,0 +1,13 @@
+id = "nemotron-sea-lion-v4.8-120b-a12b:free"
+name = "nemotron-sea-lion-v4.8-120b-a12b:free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

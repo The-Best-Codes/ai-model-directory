@@ -1,0 +1,13 @@
+id = "nemotron-3.5-bolt-e4b:free"
+name = "nemotron-3.5-bolt-e4b:free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

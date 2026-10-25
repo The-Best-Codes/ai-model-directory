@@ -1,0 +1,18 @@
+id = "deepseek-v4.1-flash-uncensored"
+name = "DeepSeek v4.1 Flash 1017 Uncensored"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0270837719285
+input = 0.214225019434
+output = 0.760807163603

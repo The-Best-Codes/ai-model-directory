@@ -1,0 +1,12 @@
+id = "lfm-2.5-embedding-350m-free:free"
+name = "lfm-2.5-embedding-350m-free:free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

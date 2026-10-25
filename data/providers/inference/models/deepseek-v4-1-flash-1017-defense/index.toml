@@ -1,0 +1,18 @@
+id = "deepseek-v4.1-flash-1017-defense"
+name = "deepseek-v4.1-flash-1017-defense"
+
+[features]
+attachment = true
+
+[limit]
+context = 1040000
+output = 393216
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.007
+input = 0.3
+output = 1

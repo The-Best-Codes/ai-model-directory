@@ -1,23 +1,6 @@
 id = "gpt-3.5-turbo"
-knowledge_cutoff = "1632960000"
-name = "OpenAI: GPT-3.5 Turbo"
-release_date = "1685232000"
-
-[features]
-attachment = false
-reasoning = false
-structured_output = true
-temperature = true
-tool_call = true
-
-[limit]
-context = 16385
-output = 4096
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
+name = "gpt-3.5-turbo"
 
 [pricing]
-input = 0.0771743465
-output = 0.2315230395
+input = 0.07718257105
+output = 0.23154771315

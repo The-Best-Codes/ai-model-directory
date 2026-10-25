@@ -1,0 +1,7 @@
+id = "claude-sonnet-4-6-think"
+name = "claude-sonnet-4-6-think"
+
+[pricing]
+cache_read = 0.04630954263
+input = 0.4630954263
+output = 2.3154771315

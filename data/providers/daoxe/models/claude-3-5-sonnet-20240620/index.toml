@@ -1,0 +1,8 @@
+id = "claude-3-5-sonnet-20240620"
+name = "claude-3-5-sonnet-20240620"
+
+[pricing]
+cache_read = 0.04630954263
+cache_write = 0.578869282875
+input = 0.4630954263
+output = 2.3154771315

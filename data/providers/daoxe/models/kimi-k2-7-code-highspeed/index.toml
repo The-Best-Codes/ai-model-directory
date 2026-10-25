@@ -1,0 +1,7 @@
+id = "kimi-k2.7-code-highspeed"
+name = "kimi-k2.7-code-highspeed"
+
+[pricing]
+cache_read = 0.058658753998
+input = 0.29329376999
+output = 1.2349211368

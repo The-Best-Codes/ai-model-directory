@@ -1,0 +1,20 @@
+id = "aleph-alpha/kolibri-1"
+name = "Kolibri 1"
+release_date = "1792195200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.168
+output = 0.588

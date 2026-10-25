@@ -1,0 +1,23 @@
+id = "glm-4:free"
+name = "glm-4:free"
+release_date = "1705363200"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 24576
+input = 24576
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

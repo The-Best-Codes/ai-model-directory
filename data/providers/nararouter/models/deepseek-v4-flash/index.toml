@@ -3,7 +3,7 @@ name = "DeepSeek v4 Flash 0731"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00578556567989
-input = 0.019010560293
-output = 0.0526446284867
+cache_read = 0.00578316817127
+input = 0.0190026824147
+output = 0.0526228128237

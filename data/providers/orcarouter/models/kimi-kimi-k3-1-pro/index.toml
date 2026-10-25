@@ -1,0 +1,17 @@
+id = "kimi/kimi-k3.1-pro"
+name = "MoonshotAI: Kimi K3.1 Pro"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+output = 943718
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 10

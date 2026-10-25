@@ -1,0 +1,17 @@
+id = "abliteration/abliterated-model-large-flash"
+name = "Abliterated Large Flash"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.055
+output = 2.11

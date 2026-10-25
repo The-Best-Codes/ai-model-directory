@@ -1,4 +1,0 @@
-id = "minimax-m3.1-flash:metered:full-context"
-
-[modalities]
-output = [ "text" ]

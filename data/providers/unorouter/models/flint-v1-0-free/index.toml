@@ -1,0 +1,22 @@
+id = "flint-v1.0:free"
+name = "Recursive: Flint (free)"
+release_date = "1792622765"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 235929
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,6 +1,7 @@
 id = "gemini-nano-banana-2.1"
 
 [features]
+attachment = true
 tool_call = false
 
 [limit]
@@ -8,5 +9,5 @@ context = 131072
 output = 32768
 
 [modalities]
-input = [ "text" ]
-output = [ "text" ]
+input = [ "image", "text" ]
+output = [ "image" ]

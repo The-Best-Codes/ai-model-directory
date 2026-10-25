@@ -1,0 +1,18 @@
+id = "qwen3-embedding-8b:free"
+name = "qwen3-embedding-8b:free"
+release_date = "1749081600"
+
+[features]
+attachment = false
+
+[limit]
+context = 40960
+input = 40960
+output = 40960
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

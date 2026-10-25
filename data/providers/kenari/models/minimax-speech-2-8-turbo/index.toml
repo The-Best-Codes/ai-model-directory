@@ -1,9 +1,0 @@
-id = "minimax-speech-2-8-turbo"
-name = "minimax-speech-2-8-turbo"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "audio" ]

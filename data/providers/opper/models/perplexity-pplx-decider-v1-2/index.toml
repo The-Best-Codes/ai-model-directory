@@ -1,0 +1,16 @@
+id = "perplexity/pplx-decider-v1.2"
+name = "Perplexity Decider 1.2"
+release_date = "1792368000"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.02
+output = 0

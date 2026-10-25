@@ -1,0 +1,19 @@
+id = "BSC-LT/ALIA-40b-instruct-2606"
+name = "BSC-LT/ALIA-40b-instruct-2606"
+release_date = "1782835898"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.6
