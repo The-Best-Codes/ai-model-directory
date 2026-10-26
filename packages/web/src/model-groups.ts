@@ -1,6 +1,7 @@
 import { loadDirectoryData, type DirectoryData } from "#/directory-data";
 import { modelFeatureLabels } from "#/lib/format";
 import { canonicalModelSlug, comparisonSlug } from "#/lib/model-slug";
+import { normalizeSearchText } from "#/lib/search-text";
 
 type ProviderRecord = DirectoryData[string];
 type ModelRecord = ProviderRecord["models"][string];
@@ -42,6 +43,7 @@ export type ModelComparison = {
 
 type ModelIndex = {
   groups: Map<string, ModelGroup>;
+  aliases: Map<string, string>;
   ranked: ModelGroup[];
   comparisons: Map<string, ModelComparison>;
 };
@@ -61,6 +63,64 @@ function pickGroupName(offerings: ModelOffering[]): string {
     ([nameA, countA], [nameB, countB]) =>
       countB - countA || nameA.length - nameB.length,
   )[0]![0];
+}
+
+function createGroup(slug: string, offerings: ModelOffering[]): ModelGroup {
+  return {
+    slug,
+    name: pickGroupName(offerings),
+    providerCount: new Set(offerings.map((offering) => offering.providerId))
+      .size,
+    offerings,
+  };
+}
+
+function sharesNameToken(group: ModelGroup, nameText: string) {
+  const nameTokens = new Set(nameText.split(" "));
+  return group.slug.split("-").some((token) => nameTokens.has(token));
+}
+
+function mergeGroupsByName(groups: ModelGroup[]) {
+  const clusters = new Map<string, ModelGroup[]>();
+
+  for (const group of groups) {
+    const nameText = normalizeSearchText(group.name);
+
+    if (sharesNameToken(group, nameText)) {
+      const cluster = clusters.get(nameText) ?? [];
+      cluster.push(group);
+      clusters.set(nameText, cluster);
+    }
+  }
+
+  const merged = new Map(groups.map((group) => [group.slug, group]));
+  const aliases = new Map<string, string>();
+
+  for (const cluster of clusters.values()) {
+    if (cluster.length < 2) {
+      continue;
+    }
+
+    const [primary, ...duplicates] = cluster.toSorted(
+      (a, b) =>
+        b.providerCount - a.providerCount || a.slug.length - b.slug.length,
+    );
+
+    for (const duplicate of duplicates) {
+      merged.delete(duplicate.slug);
+      aliases.set(duplicate.slug, primary!.slug);
+    }
+
+    merged.set(
+      primary!.slug,
+      createGroup(
+        primary!.slug,
+        cluster.flatMap((group) => group.offerings),
+      ),
+    );
+  }
+
+  return { groups: merged, aliases };
 }
 
 function computeModelIndex(directory: DirectoryData): ModelIndex {
@@ -84,17 +144,11 @@ function computeModelIndex(directory: DirectoryData): ModelIndex {
     }
   }
 
-  const groups = new Map<string, ModelGroup>();
-
-  for (const [slug, offerings] of offeringsBySlug) {
-    groups.set(slug, {
-      slug,
-      name: pickGroupName(offerings),
-      providerCount: new Set(offerings.map((offering) => offering.providerId))
-        .size,
-      offerings,
-    });
-  }
+  const { groups, aliases } = mergeGroupsByName(
+    [...offeringsBySlug].map(([slug, offerings]) =>
+      createGroup(slug, offerings),
+    ),
+  );
 
   const ranked = [...groups.values()].sort(
     (a, b) => b.providerCount - a.providerCount || a.slug.localeCompare(b.slug),
@@ -109,7 +163,11 @@ function computeModelIndex(directory: DirectoryData): ModelIndex {
     }
   }
 
-  return { groups, ranked, comparisons };
+  return { groups, aliases, ranked, comparisons };
+}
+
+function resolveModelGroup(index: ModelIndex, slug: string) {
+  return index.groups.get(index.aliases.get(slug) ?? slug);
 }
 
 function createComparison(a: ModelGroup, b: ModelGroup): ModelComparison {
@@ -127,24 +185,26 @@ export async function loadModelIndex(): Promise<ModelIndex> {
 }
 
 export async function getModelGroup(slug: string) {
-  return (await loadModelIndex()).groups.get(slug);
+  return resolveModelGroup(await loadModelIndex(), slug);
 }
 
 export async function getComparison(slug: string) {
-  const { groups, comparisons } = await loadModelIndex();
-  const known = comparisons.get(slug);
+  const index = await loadModelIndex();
+  const known = index.comparisons.get(slug);
 
   if (known) {
     return known;
   }
 
   for (const match of slug.matchAll(/-vs-/g)) {
-    const left = groups.get(slug.slice(0, match.index));
-    const right = groups.get(slug.slice(match.index + 4));
+    const left = resolveModelGroup(index, slug.slice(0, match.index));
+    const right = resolveModelGroup(index, slug.slice(match.index + 4));
 
     if (left && right && left !== right) {
-      return comparisons.get(comparisonSlug(left.slug, right.slug)) ??
-        createComparison(left, right);
+      return (
+        index.comparisons.get(comparisonSlug(left.slug, right.slug)) ??
+        createComparison(left, right)
+      );
     }
   }
 

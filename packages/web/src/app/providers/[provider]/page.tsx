@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { IconExternalLink } from "@tabler/icons-react";
 
+import { DataNotice } from "#/components/data-notice";
 import { Badge } from "#/components/ui/badge";
 import { Button } from "#/components/ui/button";
 import { ModelTable } from "#/components/model-table";
@@ -71,20 +72,7 @@ export default async function Page({ params }: PageProps) {
   );
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-8 px-6 py-8">
-      <header className="flex items-center justify-between gap-4">
-        <div className="flex items-center gap-2">
-          <Button asChild variant="outline">
-            <Link href="/">Home</Link>
-          </Button>
-          <Button asChild variant="outline">
-            <Link href="/providers">Providers</Link>
-          </Button>
-        </div>
-        <Button asChild variant="outline">
-          <Link href="/list">Model List</Link>
-        </Button>
-      </header>
+    <main className="mx-auto flex w-full flex-1 max-w-6xl flex-col gap-8 px-6 py-8">
       <section className="space-y-4">
         <div className="flex flex-wrap items-center gap-3">
           <h1 className="text-3xl font-bold tracking-tight">
@@ -111,6 +99,13 @@ export default async function Page({ params }: PageProps) {
           ) : null}
         </div>
       </section>
+      <DataNotice>
+        These listings come from {entry.name ?? entry.id}&apos;s own API and
+        docs and are refreshed daily. We aren&apos;t affiliated with{" "}
+        {entry.name ?? entry.id} and don&apos;t test or vouch for its
+        performance, uptime, output quality, or data handling. Confirm pricing
+        and limits on the provider&apos;s site before relying on them.
+      </DataNotice>
       <section className="flex h-[70vh] min-h-96 flex-col">
         <ModelTable directory={{ [entry.id]: entry }} providerId={entry.id} />
       </section>

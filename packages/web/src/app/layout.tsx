@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 
+import { SiteHeader } from "#/components/site-header";
 import { TooltipProvider } from "#/components/ui/tooltip";
+import { getDocPages } from "#/lib/docs";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -23,6 +25,8 @@ export const metadata: Metadata = {
   },
 };
 
+const docPages = getDocPages().map(({ title, href }) => ({ title, href }));
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -36,7 +40,10 @@ export default function RootLayout({
           defaultTheme="system"
           enableSystem={true}
         >
-          <TooltipProvider>{children}</TooltipProvider>
+          <TooltipProvider>
+            <SiteHeader docPages={docPages} />
+            {children}
+          </TooltipProvider>
         </ThemeProvider>
       </body>
     </html>

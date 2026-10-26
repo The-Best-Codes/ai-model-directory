@@ -3,8 +3,8 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 
+import { DataNotice } from "#/components/data-notice";
 import { PriceQuoteValue, TagList } from "#/components/model-details";
-import { Button } from "#/components/ui/button";
 import {
   Table,
   TableBody,
@@ -98,7 +98,10 @@ const rows: {
   {
     label: "Input modalities",
     render: (summary) => (
-      <TagList values={summary.modalitiesInput} formatLabel={formatBadgeLabel} />
+      <TagList
+        values={summary.modalitiesInput}
+        formatLabel={formatBadgeLabel}
+      />
     ),
   },
   {
@@ -131,20 +134,7 @@ export default async function Page({ params }: PageProps) {
   const [left, right] = comparison.models;
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-8 px-6 py-8">
-      <header className="flex items-center justify-between gap-4">
-        <div className="flex items-center gap-2">
-          <Button asChild variant="outline">
-            <Link href="/">Home</Link>
-          </Button>
-          <Button asChild variant="outline">
-            <Link href="/providers">Providers</Link>
-          </Button>
-        </div>
-        <Button asChild variant="outline">
-          <Link href="/list">Model List</Link>
-        </Button>
-      </header>
+    <main className="mx-auto flex w-full flex-1 max-w-6xl flex-col gap-8 px-6 py-8">
       <section className="space-y-4">
         <h1 className="text-3xl font-bold tracking-tight">
           {left.name} vs {right.name}
@@ -183,6 +173,13 @@ export default async function Page({ params }: PageProps) {
           </TableBody>
         </Table>
       </div>
+      <DataNotice>
+        Each figure is the best value listed by any single provider, so prices
+        and limits in the same column can come from different providers,
+        resellers, or free tiers. We don&apos;t test or vouch for provider
+        performance, uptime, or output quality. Check each provider before
+        relying on these numbers.
+      </DataNotice>
     </main>
   );
 }

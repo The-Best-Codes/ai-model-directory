@@ -1,19 +1,13 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 
+import { DataNotice } from "#/components/data-notice";
 import { PriceQuoteValue, TagList } from "#/components/model-details";
+import { OfferingsTable, type OfferingRow } from "#/components/offerings-table";
 import { Badge } from "#/components/ui/badge";
 import { Button } from "#/components/ui/button";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "#/components/ui/table";
 import {
   formatBadgeLabel,
   formatBoolean,
@@ -101,6 +95,19 @@ function compareOfferings(a: ModelOffering, b: ModelOffering) {
   return a.providerName.localeCompare(b.providerName);
 }
 
+function toOfferingRow(offering: ModelOffering): OfferingRow {
+  return {
+    providerId: offering.providerId,
+    providerName: offering.providerName,
+    modelId: offering.model.id,
+    input: offering.model.pricing?.input,
+    output: offering.model.pricing?.output,
+    cacheRead: offering.model.pricing?.cache_read,
+    context: offering.model.limit?.context,
+    outputLimit: offering.model.limit?.output,
+  };
+}
+
 function SummaryItem({
   label,
   children,
@@ -124,36 +131,29 @@ export default async function Page({ params }: PageProps) {
     notFound();
   }
 
+  if (group.slug !== slug) {
+    permanentRedirect(`/models/${group.slug}`);
+  }
+
   const summary = summarizeModelGroup(group);
   const offerings = group.offerings.toSorted(compareOfferings);
   const relatedComparisons = await getRelatedComparisons(group);
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-8 px-6 py-8">
-      <header className="flex items-center justify-between gap-4">
-        <div className="flex items-center gap-2">
-          <Button asChild variant="outline">
-            <Link href="/">Home</Link>
-          </Button>
-          <Button asChild variant="outline">
-            <Link href="/providers">Providers</Link>
-          </Button>
-        </div>
-        <Button asChild variant="outline">
-          <Link href="/list">Model List</Link>
-        </Button>
-      </header>
+    <main className="mx-auto flex w-full flex-1 max-w-6xl flex-col gap-8 px-6 py-8">
       <section className="space-y-4">
         <div className="flex flex-wrap items-center gap-3">
           <h1 className="text-3xl font-bold tracking-tight">{group.name}</h1>
-          <Badge variant="secondary">{providerLabel(group.providerCount)}</Badge>
+          <Badge variant="secondary">
+            {providerLabel(group.providerCount)}
+          </Badge>
         </div>
         <p className="max-w-3xl text-muted-foreground">
           {describeModel(group, summary)}
         </p>
       </section>
       <section>
-        <dl className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <dl className="grid grid-cols-2 gap-3 lg:grid-cols-4">
           <SummaryItem label="Cheapest input ($/M)">
             <PriceQuoteValue quote={summary.cheapestInput} />
           </SummaryItem>
@@ -194,50 +194,16 @@ export default async function Page({ params }: PageProps) {
         <h2 className="text-xl font-semibold tracking-tight">
           Providers offering {group.name}
         </h2>
-        <div className="rounded-md border tabular-nums">
-          <Table>
-            <TableHeader>
-              <TableRow>
-                <TableHead>Provider</TableHead>
-                <TableHead>Model ID</TableHead>
-                <TableHead>Input ($/M)</TableHead>
-                <TableHead>Output ($/M)</TableHead>
-                <TableHead>Cache Read ($/M)</TableHead>
-                <TableHead>Context</TableHead>
-                <TableHead>Output Limit</TableHead>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {offerings.map((offering) => (
-                <TableRow key={`${offering.providerId}/${offering.model.id}`}>
-                  <TableCell>
-                    <Link href={`/providers/${offering.providerId}`}>
-                      {offering.providerName}
-                    </Link>
-                  </TableCell>
-                  <TableCell className="text-muted-foreground">
-                    {offering.model.id}
-                  </TableCell>
-                  <TableCell>
-                    {formatPrice(offering.model.pricing?.input)}
-                  </TableCell>
-                  <TableCell>
-                    {formatPrice(offering.model.pricing?.output)}
-                  </TableCell>
-                  <TableCell>
-                    {formatPrice(offering.model.pricing?.cache_read)}
-                  </TableCell>
-                  <TableCell>
-                    {formatTokenCount(offering.model.limit?.context)}
-                  </TableCell>
-                  <TableCell>
-                    {formatTokenCount(offering.model.limit?.output)}
-                  </TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </div>
+        <DataNotice>
+          Listings come from each provider&apos;s own API and docs and are
+          refreshed daily, so they can be out of date or wrong. We don&apos;t
+          test or vouch for any provider: speed, uptime, rate limits, output
+          quality, data handling, and whether you get the full-precision model
+          can all differ. Some listings are resellers, free tiers, or quantized
+          versions. Check the provider&apos;s own pricing and terms before
+          relying on them.
+        </DataNotice>
+        <OfferingsTable rows={offerings.map(toOfferingRow)} />
       </section>
       {relatedComparisons.length > 0 ? (
         <section className="space-y-3">
@@ -246,9 +212,7 @@ export default async function Page({ params }: PageProps) {
           </h2>
           <div className="flex flex-wrap gap-2">
             {relatedComparisons.map((comparison) => {
-              const other = comparison.models.find(
-                (model) => model !== group,
-              )!;
+              const other = comparison.models.find((model) => model !== group)!;
 
               return (
                 <Button key={comparison.slug} asChild variant="outline">

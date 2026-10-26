@@ -530,9 +530,6 @@ export function ModelTable({
           >
             Reset
           </Button>
-          <Button asChild>
-            <Link href="/">Home</Link>
-          </Button>
         </div>
       </div>
 

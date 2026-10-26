@@ -24,11 +24,7 @@ export function TagList({
   );
 }
 
-export function PriceQuoteValue({
-  quote,
-}: {
-  quote?: PriceQuote;
-}) {
+export function PriceQuoteValue({ quote }: { quote?: PriceQuote }) {
   if (!quote) {
     return "-";
   }
