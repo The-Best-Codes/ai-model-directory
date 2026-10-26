@@ -1,4 +1,0 @@
-id = "glm-5-turbo:128k-context"
-
-[modalities]
-output = [ "text" ]

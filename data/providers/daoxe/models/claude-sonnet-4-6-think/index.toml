@@ -2,6 +2,6 @@ id = "claude-sonnet-4-6-think"
 name = "claude-sonnet-4-6-think"
 
 [pricing]
-cache_read = 0.04630954263
-input = 0.4630954263
-output = 2.3154771315
+cache_read = 0.0463177713
+input = 0.463177713
+output = 2.315888565

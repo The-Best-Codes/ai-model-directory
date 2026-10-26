@@ -1,4 +1,4 @@
-id = "claude-opus-4-7"
+id = "claude-opus-4.7"
 name = "Anthropic: Claude Opus 4.7"
 release_date = "1776351100"
 
@@ -18,7 +18,6 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.07718257105
-cache_write = 0.964782138125
-input = 0.7718257105
-output = 3.8591285525
+cache_read = 0.0771962855
+input = 0.771962855
+output = 3.859814275

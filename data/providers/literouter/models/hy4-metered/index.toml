@@ -1,4 +1,0 @@
-id = "hy4:metered"
-
-[modalities]
-output = [ "text" ]

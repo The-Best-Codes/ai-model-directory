@@ -1,9 +1,0 @@
-id = "Qwen/Qwen3.5-0.8B"
-name = "Qwen/Qwen3.5-0.8B"
-release_date = "1777299160"
-
-[pricing]
-cache_read = 0.004
-cache_write = 0.04
-input = 0.04
-output = 0.08

@@ -1,0 +1,10 @@
+id = "typhoon-asr-edge"
+name = "typhoon-asr-edge"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

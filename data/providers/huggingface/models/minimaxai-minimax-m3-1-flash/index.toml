@@ -1,0 +1,10 @@
+id = "MiniMaxAI/MiniMax-M3.1-Flash"
+name = "MiniMaxAI/MiniMax-M3.1-Flash"
+release_date = "1792219070"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

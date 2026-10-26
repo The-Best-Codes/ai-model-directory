@@ -1,0 +1,15 @@
+id = "bytedance-seed/seed-2-1-turbo"
+knowledge_cutoff = "1780272000"
+name = "ByteDance Seed: Seed 2.1 Turbo"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

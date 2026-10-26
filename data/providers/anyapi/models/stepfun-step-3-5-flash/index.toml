@@ -1,0 +1,15 @@
+id = "stepfun/step-3.5-flash"
+knowledge_cutoff = "1775001600"
+name = "StepFun: Step 3.5 Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

@@ -3,5 +3,5 @@ name = "text-embedding-3-small"
 release_date = "1706140800"
 
 [pricing]
-input = 0.0059947628
-output = 0.0059947628
+input = 0.005995828
+output = 0.005995828

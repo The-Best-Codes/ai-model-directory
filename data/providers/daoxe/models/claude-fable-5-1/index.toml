@@ -1,4 +1,4 @@
-id = "claude-fable-5-1"
+id = "claude-fable-5.1"
 name = "Anthropic: Claude Fable 5.1"
 release_date = "1788285838"
 
@@ -18,6 +18,5 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.1543651421
-input = 1.543651421
-output = 7.718257105
+input = 1.54392571
+output = 7.71962855

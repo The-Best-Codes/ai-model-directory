@@ -2,5 +2,5 @@ id = "gemini-3-flash-c"
 name = "gemini-3-flash-c"
 
 [pricing]
-input = 0.1543651421
-output = 0.4630954263
+input = 0.154392571
+output = 0.463177713

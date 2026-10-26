@@ -2,5 +2,5 @@ id = "gemma-2b-lora"
 name = "gemma-2b-lora"
 
 [pricing]
-input = 0.007718257105
-output = 0.023154771315
+input = 0.00771962855
+output = 0.02315888565

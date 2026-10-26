@@ -1,0 +1,17 @@
+id = "orcarouter/qwen-3.8-27b-uncensored"
+name = "qwen-3.8-27b-uncensored"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.36925
+output = 2.90125

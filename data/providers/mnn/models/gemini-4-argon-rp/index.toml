@@ -1,0 +1,14 @@
+id = "gemini-4-argon-rp"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 7
+output = 35

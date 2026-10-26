@@ -2,5 +2,5 @@ id = "claude-opus-4-5-thinking"
 name = "claude-opus-4-5-thinking"
 
 [pricing]
-input = 0.1543651421
-output = 0.7718257105
+input = 0.154392571
+output = 0.771962855

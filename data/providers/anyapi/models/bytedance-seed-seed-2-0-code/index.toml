@@ -1,0 +1,15 @@
+id = "bytedance-seed/seed-2.0-code"
+knowledge_cutoff = "1769904000"
+name = "ByteDance Seed: Seed-2.0-Code"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

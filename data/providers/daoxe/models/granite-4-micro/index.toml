@@ -2,6 +2,6 @@ id = "granite-4-micro"
 name = "granite-4-micro"
 
 [pricing]
-cache_read = 0.0012349211368
-input = 0.006174605684
-output = 0.018523817052
+cache_read = 0.001235140568
+input = 0.00617570284
+output = 0.01852710852

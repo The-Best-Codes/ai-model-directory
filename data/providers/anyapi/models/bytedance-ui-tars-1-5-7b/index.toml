@@ -1,0 +1,15 @@
+id = "bytedance/ui-tars-1.5-7b"
+knowledge_cutoff = "1743465600"
+name = "ByteDance: UI-TARS 7B"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 128000
+output = 2048
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

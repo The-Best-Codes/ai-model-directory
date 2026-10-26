@@ -1,0 +1,15 @@
+id = "mancer/weaver"
+knowledge_cutoff = "1690848000"
+name = "Mancer: Weaver (alpha)"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 8000
+output = 2000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -2,6 +2,6 @@ id = "grok-3-mini"
 name = "grok-3-mini"
 
 [pricing]
-cache_read = 0.0115773856575
-input = 0.04630954263
-output = 0.07718257105
+cache_read = 0.011579442825
+input = 0.0463177713
+output = 0.0771962855

@@ -1,0 +1,14 @@
+id = "or-claude-haiku-5-5"
+name = "or-claude-haiku-5-5"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 1
+output = 5
