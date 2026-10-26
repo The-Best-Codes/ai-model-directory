@@ -10,6 +10,7 @@ import {
   IconFileText,
   IconHome,
   IconList,
+  IconRefresh,
   IconSearch,
 } from "@tabler/icons-react";
 
@@ -347,12 +348,16 @@ export function SiteSearch({ docPages }: { docPages: SearchPage[] }) {
           <CommandList className="max-h-[min(70dvh,28rem)]">
             {results ? (
               <>
-                {hasResults ? null : index || failed ? (
-                  <CommandEmpty>
-                    {failed
-                      ? "Search is unavailable right now."
-                      : "No results found."}
-                  </CommandEmpty>
+                {failed ? (
+                  <CommandGroup heading="Models and providers unavailable">
+                    <CommandItem value="retry-search-index" onSelect={prefetch}>
+                      <IconRefresh />
+                      Couldn&apos;t load models and providers. Retry
+                    </CommandItem>
+                  </CommandGroup>
+                ) : null}
+                {!hasResults && index ? (
+                  <CommandEmpty>No results found.</CommandEmpty>
                 ) : null}
                 {results.comparison ? (
                   <CommandGroup heading="Compare">

@@ -30,7 +30,7 @@ export type ModelSummary = {
   maxContext?: number;
   maxOutput?: number;
   releaseDate?: string;
-  openWeights: boolean;
+  openWeights?: boolean;
   features: string[];
   modalitiesInput: string[];
   modalitiesOutput: string[];
@@ -245,18 +245,25 @@ function largest(values: (number | undefined)[]) {
 }
 
 function mostlyTrue(values: (boolean | undefined)[]) {
-  return values.filter(Boolean).length * 2 >= values.length;
+  const known = values.filter((value) => value !== undefined);
+
+  if (known.length === 0) {
+    return undefined;
+  }
+
+  return known.filter(Boolean).length * 2 >= known.length;
 }
 
 function commonValues(lists: string[][]) {
+  const known = lists.filter((list) => list.length > 0);
   const counts = new Map<string, number>();
 
-  for (const value of lists.flatMap((list) => [...new Set(list)])) {
+  for (const value of known.flatMap((list) => [...new Set(list)])) {
     counts.set(value, (counts.get(value) ?? 0) + 1);
   }
 
   return [...counts]
-    .filter(([, count]) => count * 2 >= lists.length)
+    .filter(([, count]) => count * 2 >= known.length)
     .map(([value]) => value)
     .sort();
 }
