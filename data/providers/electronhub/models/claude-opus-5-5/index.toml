@@ -1,4 +1,4 @@
-id = "claude-opus-5.5"
+id = "claude-opus-5-5"
 name = "Anthropic: Claude Opus 5.5"
 
 [features]

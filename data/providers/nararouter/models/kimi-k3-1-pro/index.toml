@@ -3,7 +3,7 @@ name = "Kimi K3.1 Pro"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.067644165999
-input = 0.4
-output = 2
+cache_read = 0.0676318412048
+input = 0.399927119839
+output = 1.9996355992

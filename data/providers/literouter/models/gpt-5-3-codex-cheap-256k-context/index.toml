@@ -1,4 +1,0 @@
-id = "gpt-5.3-codex-cheap:256k-context"
-
-[modalities]
-output = [ "text" ]

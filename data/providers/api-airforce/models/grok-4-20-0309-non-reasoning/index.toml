@@ -8,3 +8,9 @@ reasoning = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.18
+cache_write = 1.29
+input = 1.03
+output = 3.1

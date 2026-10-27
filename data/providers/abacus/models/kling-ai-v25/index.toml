@@ -1,9 +1,0 @@
-id = "kling_ai_v25"
-name = "Kling AI v2.5"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "video" ]

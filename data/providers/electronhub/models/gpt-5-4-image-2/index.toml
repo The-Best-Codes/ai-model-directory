@@ -1,0 +1,9 @@
+id = "gpt-5.4-image-2"
+name = "OpenAI: GPT-5.4 Image 2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

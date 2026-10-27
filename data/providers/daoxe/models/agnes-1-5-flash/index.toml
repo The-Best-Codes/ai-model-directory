@@ -2,6 +2,6 @@ id = "agnes-1.5-flash"
 name = "agnes-1.5-flash"
 
 [pricing]
-cache_read = 0.001080747997
-input = 0.01080747997
-output = 0.0231588841061
+cache_read = 0.0010809984003
+input = 0.010809984003
+output = 0.0231642498907

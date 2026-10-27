@@ -1,0 +1,22 @@
+id = "azure/gpt-6.1-terra"
+name = "azure/gpt-6.1-terra"
+release_date = "1793045891"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 1.25
+input = 1
+output = 5

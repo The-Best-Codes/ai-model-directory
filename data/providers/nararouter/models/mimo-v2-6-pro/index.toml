@@ -3,7 +3,7 @@ name = "MiMo V2.6 Pro"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00438625188758
-input = 0.129165031294
-output = 0.258330062588
+cache_read = 0.00438545271073
+input = 0.129141497374
+output = 0.258282994747

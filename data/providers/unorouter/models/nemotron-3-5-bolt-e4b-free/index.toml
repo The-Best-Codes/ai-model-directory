@@ -1,5 +1,6 @@
 id = "nemotron-3.5-bolt-e4b:free"
 name = "nemotron-3.5-bolt-e4b:free"
+release_date = "1791158400"
 
 [features]
 attachment = false

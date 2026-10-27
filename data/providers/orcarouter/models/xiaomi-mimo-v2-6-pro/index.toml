@@ -1,0 +1,17 @@
+id = "xiaomi/mimo-v2.6-pro"
+name = "Xiaomi: MiMo-V2.6-Pro"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.435
+output = 0.87

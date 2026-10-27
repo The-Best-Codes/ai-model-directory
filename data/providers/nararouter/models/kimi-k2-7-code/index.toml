@@ -6,13 +6,13 @@ attachment = true
 reasoning = true
 
 [limit]
-context = 262000
+context = 1000000
 
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.108132524994
-input = 0.207325383766
-output = 0.942388108131
+cache_read = 0.108112823205
+input = 0.207287608997
+output = 0.942216404639

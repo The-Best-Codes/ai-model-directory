@@ -2,7 +2,7 @@ id = "claude-sonnet-4-5-20250929-thinking"
 name = "claude-sonnet-4-5-20250929-thinking"
 
 [pricing]
-cache_read = 0.00923885144864
-cache_write = 0.115485643108
-input = 0.0923885144864
-output = 0.461942572432
+cache_read = 0.00924099203914
+cache_write = 0.115512400489
+input = 0.0924099203914
+output = 0.462049601957

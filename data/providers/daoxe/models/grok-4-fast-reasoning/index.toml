@@ -2,6 +2,6 @@ id = "grok-4-fast-reasoning"
 name = "grok-4-fast-reasoning"
 
 [pricing]
-cache_read = 0.00771962855
-input = 0.0308785142
-output = 0.0771962855
+cache_read = 0.007721417145
+input = 0.03088566858
+output = 0.07721417145

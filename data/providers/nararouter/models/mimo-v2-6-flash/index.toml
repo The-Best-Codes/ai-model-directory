@@ -3,7 +3,7 @@ name = "MiMo V2.6 Flash"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00303776194986
-input = 0.0413114341827
-output = 0.0826228683654
+cache_read = 0.00303720846841
+input = 0.0413039072228
+output = 0.0826078144456

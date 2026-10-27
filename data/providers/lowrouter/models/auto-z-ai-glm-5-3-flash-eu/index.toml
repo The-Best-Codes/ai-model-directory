@@ -10,5 +10,5 @@ context = 1000000
 output = 16384
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "file", "image", "text", "video" ]
 output = [ "text" ]

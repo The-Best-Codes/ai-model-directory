@@ -1,6 +1,6 @@
 id = "xing4.0-29b-a4b:free"
 name = "XingChen: Xing4.0 29B A4B (free)"
-release_date = "1792177496"
+release_date = "1792108800"
 
 [features]
 attachment = false
@@ -11,6 +11,7 @@ tool_call = true
 
 [limit]
 context = 262144
+input = 262144
 output = 235929
 
 [modalities]

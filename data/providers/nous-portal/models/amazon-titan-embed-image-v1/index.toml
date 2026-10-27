@@ -1,0 +1,21 @@
+id = "amazon/titan-embed-image-v1"
+name = "Amazon: Titan Multimodal Embeddings G1"
+release_date = "1793044729"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 128
+output = 115
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.8
+output = 0

@@ -2,4 +2,4 @@ id = "google/gemini-embedding-001"
 name = "google/gemini-embedding-001"
 
 [pricing]
-input = 0.02315888565
+input = 0.023164251435

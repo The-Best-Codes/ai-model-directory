@@ -8,7 +8,6 @@ attachment = false
 [limit]
 context = 40960
 input = 40960
-output = 40960
 
 [modalities]
 input = [ "text" ]

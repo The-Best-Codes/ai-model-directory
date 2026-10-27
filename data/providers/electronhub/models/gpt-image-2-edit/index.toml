@@ -1,9 +1,0 @@
-id = "gpt-image-2-edit"
-name = "OpenAI: GPT Image 2 - Edit"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "image" ]

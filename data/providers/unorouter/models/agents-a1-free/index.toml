@@ -1,5 +1,6 @@
 id = "agents-a1:free"
 name = "agents-a1:free"
+release_date = "1782086400"
 
 [features]
 attachment = false

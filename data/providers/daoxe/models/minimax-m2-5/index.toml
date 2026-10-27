@@ -1,4 +1,4 @@
-id = "minimax-m2.5"
+id = "MiniMax-M2.5"
 name = "MiniMax: MiniMax M2.5"
 release_date = "1770908502"
 
@@ -18,6 +18,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00308785142
-input = 0.01698318281
-output = 0.14667294245
+cache_read = 0.004632850287
+input = 0.04632850287
+output = 0.18531401148
