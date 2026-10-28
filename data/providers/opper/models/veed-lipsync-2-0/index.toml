@@ -1,0 +1,9 @@
+id = "veed/lipsync-2.0"
+name = "VEED Lipsync 2.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "video" ]
+output = [ "video" ]

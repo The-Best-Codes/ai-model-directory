@@ -1,0 +1,23 @@
+id = "deepinfra-batch/XiaomiMiMo/MiMo-V2.6-Flash"
+name = "MiMo V2.6 Flash"
+release_date = "1790035200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.00224
+input = 0.112
+output = 0.224

@@ -1,0 +1,9 @@
+id = "eleven_multilingual_sts_v2"
+name = "Eleven Multilingual Sts V2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

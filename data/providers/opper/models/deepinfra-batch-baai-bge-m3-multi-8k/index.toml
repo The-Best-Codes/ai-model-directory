@@ -1,0 +1,17 @@
+id = "deepinfra-batch/BAAI/bge-m3-multi-8k"
+name = "bge-m3-multi-8k"
+release_date = "1706572800"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+output = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.008
+output = 0

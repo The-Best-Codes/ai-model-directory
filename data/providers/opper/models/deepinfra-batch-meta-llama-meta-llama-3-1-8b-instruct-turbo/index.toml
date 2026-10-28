@@ -1,0 +1,22 @@
+id = "deepinfra-batch/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+name = "Llama 3.1 8B Instruct Turbo"
+release_date = "1721692800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.016
+output = 0.032

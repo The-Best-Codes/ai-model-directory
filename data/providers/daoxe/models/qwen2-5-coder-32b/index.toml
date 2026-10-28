@@ -2,6 +2,6 @@ id = "qwen2.5-coder-32b"
 name = "qwen2.5-coder-32b"
 
 [pricing]
-cache_read = 0.0111188406888
-input = 0.055594203444
-output = 0.166782610332
+cache_read = 0.011121400692
+input = 0.05560700346
+output = 0.16682101038

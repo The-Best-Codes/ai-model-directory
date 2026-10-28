@@ -1,0 +1,14 @@
+id = "openai/gpt-live-transcribe"
+name = "GPT Live Transcribe"
+release_date = "1785196800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.0002

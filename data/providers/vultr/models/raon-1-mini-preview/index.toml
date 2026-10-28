@@ -1,0 +1,23 @@
+id = "raon-1-mini-preview"
+name = "Raon-1 mini (preview)"
+open_weights = true
+release_date = "1793096888"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.3

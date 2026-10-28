@@ -6,11 +6,11 @@ open_weights = false
 attachment = false
 
 [limit]
-context = 128000
+context = 1000000
 
 [modalities]
 input = [ "text" ]
 
 [pricing]
-input = 0.26375
-output = 0.79125
+input = 0.1055
+output = 0.36925

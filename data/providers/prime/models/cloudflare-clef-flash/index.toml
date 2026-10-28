@@ -9,6 +9,9 @@ structured_output = false
 temperature = false
 tool_call = false
 
+[limit]
+context = 24576
+
 [modalities]
 input = [ "image", "text" ]
 

@@ -1,0 +1,18 @@
+id = "accounts/fireworks/models/ultramarine-1-flash-us"
+name = "Ultramarine 1 Flash"
+open_weights = true
+
+[features]
+attachment = true
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.15
+output = 0.5

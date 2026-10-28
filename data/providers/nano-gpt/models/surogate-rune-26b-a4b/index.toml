@@ -1,0 +1,19 @@
+id = "surogate/rune-26b-a4b"
+name = "Rune 26B-A4B"
+release_date = "1793059200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.042
+output = 0

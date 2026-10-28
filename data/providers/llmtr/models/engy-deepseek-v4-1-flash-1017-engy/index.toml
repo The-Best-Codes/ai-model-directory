@@ -14,6 +14,6 @@ context = 1048576
 input = [ "image", "text" ]
 
 [pricing]
-cache_read = 0.008
-input = 0.04
-output = 0.08
+cache_read = 0.006
+input = 0.03
+output = 0.12

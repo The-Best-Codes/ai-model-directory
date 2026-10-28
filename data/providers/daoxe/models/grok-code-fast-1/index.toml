@@ -2,6 +2,6 @@ id = "grok-code-fast-1"
 name = "grok-code-fast-1"
 
 [pricing]
-cache_read = 0.0027797101722
-input = 0.027797101722
-output = 0.208478262915
+cache_read = 0.002780350173
+input = 0.02780350173
+output = 0.208526262975

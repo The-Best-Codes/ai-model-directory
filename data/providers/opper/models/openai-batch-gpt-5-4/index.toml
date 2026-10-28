@@ -1,0 +1,23 @@
+id = "openai-batch/gpt-5.4"
+name = "GPT-5.4"
+release_date = "1772668800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.13
+input = 1.25
+output = 7.5

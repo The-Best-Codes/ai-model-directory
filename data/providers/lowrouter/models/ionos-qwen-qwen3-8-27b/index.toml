@@ -9,5 +9,5 @@ input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.448874108
-output = 3.029900229
+input = 0.4468781
+output = 3.016427175

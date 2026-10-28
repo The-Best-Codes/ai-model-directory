@@ -2,6 +2,6 @@ id = "text-embedding-ada-002"
 name = "text-embedding-ada-002"
 
 [pricing]
-cache_read = 0.0001544283429
-input = 0.01544283429
-output = 0.03088566858
+cache_read = 0.0001544638985
+input = 0.01544638985
+output = 0.0308927797

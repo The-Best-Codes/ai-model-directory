@@ -9,5 +9,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 1.27479124487
-output = 10.1983299589
+cache_read = 1.27486836722
+cache_write = 1.27486836722
+input = 1.27486836722
+output = 10.1989391174

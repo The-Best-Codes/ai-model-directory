@@ -1,0 +1,19 @@
+id = "deepinfra/google/embeddinggemma-2"
+name = "deepinfra/google/embeddinggemma-2"
+release_date = "1793065678"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.02
+output = 0

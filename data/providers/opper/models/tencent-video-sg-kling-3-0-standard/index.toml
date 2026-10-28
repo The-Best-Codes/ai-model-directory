@@ -1,0 +1,9 @@
+id = "tencent-video:sg/kling-3.0-standard"
+name = "Kling 3.0 Standard"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

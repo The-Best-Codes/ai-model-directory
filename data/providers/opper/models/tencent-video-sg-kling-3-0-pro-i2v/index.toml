@@ -1,0 +1,9 @@
+id = "tencent-video:sg/kling-3.0-pro-i2v"
+name = "Kling 3.0 Pro (Image-to-Video)"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

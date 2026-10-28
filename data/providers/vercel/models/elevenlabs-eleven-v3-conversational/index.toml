@@ -1,0 +1,14 @@
+id = "elevenlabs/eleven-v3-conversational"
+name = "Eleven v3 Conversational"
+release_date = "1793059200"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 20

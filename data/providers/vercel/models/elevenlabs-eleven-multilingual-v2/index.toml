@@ -1,0 +1,14 @@
+id = "elevenlabs/eleven-multilingual-v2"
+name = "Eleven Multilingual v2"
+release_date = "1793059200"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 40

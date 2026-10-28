@@ -8,7 +8,7 @@ temperature = true
 tool_call = false
 
 [limit]
-output = 117964
+output = 16384
 
 [modalities]
 input = [ "file", "image", "text" ]

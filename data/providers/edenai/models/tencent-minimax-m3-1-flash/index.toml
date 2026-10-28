@@ -1,0 +1,21 @@
+id = "tencent/minimax-m3.1-flash"
+name = "tencent/minimax-m3.1-flash"
+release_date = "1793077988"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.15
+output = 0.6

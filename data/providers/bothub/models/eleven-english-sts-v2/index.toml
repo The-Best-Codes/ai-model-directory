@@ -1,0 +1,9 @@
+id = "eleven_english_sts_v2"
+name = "ElevenLabs Speech To Speech V2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

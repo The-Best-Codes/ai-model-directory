@@ -1,0 +1,21 @@
+id = "nvrouter/auto"
+name = "Auto"
+release_date = "1793083113"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 328000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

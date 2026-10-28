@@ -1,0 +1,9 @@
+id = "tencent-video:sg/kling-3.0-pro"
+name = "Kling 3.0 Pro"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]
