@@ -1,0 +1,15 @@
+id = "qwen3.5-9b"
+name = "qwen3.5-9b"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[modalities]
+input = [ "image" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.18
+output = 0.26

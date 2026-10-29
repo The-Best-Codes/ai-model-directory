@@ -1,0 +1,21 @@
+id = "mistral/voxtral-small-latest@eu"
+name = "mistral/voxtral-small-latest@eu"
+release_date = "1787893793"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.011
+input = 0.11
+output = 0.44

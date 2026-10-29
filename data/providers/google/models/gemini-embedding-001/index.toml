@@ -9,3 +9,6 @@ output = 1
 
 [modalities]
 output = [ "text" ]
+
+[pricing]
+input = 0.15

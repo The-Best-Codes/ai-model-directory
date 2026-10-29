@@ -3,7 +3,7 @@ name = "Jev 1.13"
 release_date = "1789430400"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = true
 temperature = true
@@ -13,7 +13,7 @@ tool_call = true
 context = 64000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 
 [pricing]
 cache_read = 0

@@ -1,0 +1,9 @@
+id = "klingai/kling-v3-image"
+name = "Kling v3 Image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,16 @@
+id = "cloudflare/clef-flash"
+name = "Cloudflare: Clef Flash"
+release_date = "1792035333"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 24576
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.038

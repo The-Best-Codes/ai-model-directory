@@ -2,13 +2,17 @@ id = "auto/qwen/qwen3.8-flash-next/eu"
 name = "auto/qwen/qwen3.8-flash-next/eu"
 
 [features]
-attachment = true
-tool_call = true
+attachment = false
 
 [limit]
-context = 256000
-output = 64000
+context = 1048576
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.151998167941
+cache_write = 0.151998167941
+input = 0.151998167941
+output = 0.476260926216

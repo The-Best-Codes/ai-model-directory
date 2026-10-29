@@ -2,4 +2,4 @@ id = "nvidia/nv-embedqa-e5-v5"
 name = "nvidia/nv-embedqa-e5-v5"
 
 [pricing]
-input = 0.00617855594
+input = 0.006179098956

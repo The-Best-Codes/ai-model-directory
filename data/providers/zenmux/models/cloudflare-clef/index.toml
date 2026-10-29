@@ -1,0 +1,16 @@
+id = "cloudflare/clef"
+name = "Cloudflare: Clef"
+release_date = "1792143751"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 64000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.24

@@ -1,0 +1,12 @@
+id = "gpt-image-2.5-flare"
+name = "GPT Image 2.5 Flare"
+
+[features]
+reasoning = false
+
+[limit]
+input = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

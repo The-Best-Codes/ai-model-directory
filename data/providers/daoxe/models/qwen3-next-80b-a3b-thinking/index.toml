@@ -1,23 +1,6 @@
 id = "qwen3-next-80b-a3b-thinking"
-knowledge_cutoff = "1759190400"
-name = "Qwen: Qwen3 Next 80B A3B Thinking"
-release_date = "1757612284"
-
-[features]
-attachment = false
-reasoning = true
-structured_output = true
-temperature = true
-tool_call = true
-
-[limit]
-context = 262144
-output = 235929
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]
+name = "qwen3-next-80b-a3b-thinking"
 
 [pricing]
-input = 0.07723194925
-output = 0.926783391
+input = 0.07723873695
+output = 0.9268648434

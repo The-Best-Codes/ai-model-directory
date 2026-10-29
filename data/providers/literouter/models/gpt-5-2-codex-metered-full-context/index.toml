@@ -1,0 +1,4 @@
+id = "gpt-5.2-codex:metered:full-context"
+
+[modalities]
+output = [ "text" ]

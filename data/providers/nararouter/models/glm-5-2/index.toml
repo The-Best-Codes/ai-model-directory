@@ -3,7 +3,7 @@ name = "GLM 5.2"
 
 [features]
 attachment = false
-reasoning = true
+reasoning = false
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0436544281769
-input = 0.174617712707
-output = 0.58205904234
+cache_read = 0.0435756549505
+input = 0.174302619802
+output = 0.581008732654

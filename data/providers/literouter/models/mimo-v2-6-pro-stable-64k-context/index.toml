@@ -1,0 +1,4 @@
+id = "mimo-v2.6-pro-stable:64k-context"
+
+[modalities]
+output = [ "text" ]

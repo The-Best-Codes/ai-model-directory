@@ -2,4 +2,4 @@ id = "BAAI/bge-reranker-v2-m3"
 name = "BAAI/bge-reranker-v2-m3"
 
 [pricing]
-input = 0.0038615974625
+input = 0.0038619368475

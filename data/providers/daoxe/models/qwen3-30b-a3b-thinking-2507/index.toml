@@ -2,5 +2,5 @@ id = "qwen3-30b-a3b-thinking-2507"
 name = "qwen3-30b-a3b-thinking-2507"
 
 [pricing]
-input = 0.01544638985
-output = 0.01544638985
+input = 0.01544774739
+output = 0.01544774739

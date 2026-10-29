@@ -1,9 +1,0 @@
-id = "mj_blend"
-name = "mj_blend"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]

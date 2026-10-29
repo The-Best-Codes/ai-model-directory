@@ -1,0 +1,11 @@
+id = "Unlimited-OCR-2"
+last_updated = "1793179954"
+name = "Unlimited-OCR-2"
+release_date = "1793179954"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

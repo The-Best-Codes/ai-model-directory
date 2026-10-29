@@ -1,23 +1,6 @@
 id = "o1-pro"
-knowledge_cutoff = "1698710400"
-name = "OpenAI: o1-pro"
-release_date = "1742423211"
-
-[features]
-attachment = true
-reasoning = true
-structured_output = true
-temperature = false
-tool_call = false
-
-[limit]
-context = 200000
-output = 100000
-
-[modalities]
-input = [ "file", "image", "text" ]
-output = [ "text" ]
+name = "o1-pro"
 
 [pricing]
-input = 23.169584775
-output = 92.6783391
+input = 23.171621085
+output = 92.68648434

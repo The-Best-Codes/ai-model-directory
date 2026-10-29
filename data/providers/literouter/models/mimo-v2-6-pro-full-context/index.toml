@@ -1,4 +1,0 @@
-id = "mimo-v2.6-pro:full-context"
-
-[modalities]
-output = [ "text" ]

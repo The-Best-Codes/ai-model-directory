@@ -2,6 +2,6 @@ id = "doubao-seed-2.0-code"
 name = "doubao-seed-2.0-code"
 
 [pricing]
-cache_read = 0.013730110581
-input = 0.0686505529049
-output = 0.343252764525
+cache_read = 0.013731317282
+input = 0.06865658641
+output = 0.34328293205

@@ -1,0 +1,14 @@
+id = "claude-opus-4-5-20251101"
+name = "claude-opus-4-5-20251101"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+cache_write = 1.875
+input = 1.5
+output = 7.5
