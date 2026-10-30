@@ -86,7 +86,11 @@ export default async function Page({ params }: PageProps) {
         <div className="flex flex-wrap items-center gap-3">
           {entry.website ? (
             <Button asChild variant="outline" size="sm">
-              <a href={entry.website} target="_blank" rel="noreferrer">
+              <a
+                href={entry.website}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
                 {entry.website.replace(/^https?:\/\//, "")}
                 <IconExternalLink />
               </a>

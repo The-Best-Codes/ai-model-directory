@@ -151,7 +151,11 @@ const columns: ColumnDef<typeof features, ModelRow>[] = [
       }
 
       return (
-        <a href={providerWebsite} target="_blank" rel="noreferrer">
+        <a
+          href={providerWebsite}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+        >
           {providerName}
         </a>
       );
