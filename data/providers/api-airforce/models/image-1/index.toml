@@ -1,0 +1,9 @@
+id = "image-1"
+name = "image-1"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

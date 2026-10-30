@@ -1,0 +1,16 @@
+id = "codex-auto-review"
+name = "codex-auto-review"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.045
+cache_write = 0
+input = 0.09
+output = 0.56

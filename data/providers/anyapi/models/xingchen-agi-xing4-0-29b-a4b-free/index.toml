@@ -1,0 +1,8 @@
+id = "xingchen-agi/xing4.0-29b-a4b:free"
+
+[features]
+reasoning = true
+
+[limit]
+context = 262144
+output = 235929

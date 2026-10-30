@@ -1,7 +1,7 @@
 id = "hitem3d/hi3d/image-to-relief"
 name = "Hi3D Image to Relief"
 open_weights = true
-release_date = "1788912000"
+release_date = "1792281600"
 
 [features]
 attachment = true

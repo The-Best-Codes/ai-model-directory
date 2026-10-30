@@ -1,0 +1,20 @@
+id = "gemini-3-6-flash"
+name = "gemini-3-6-flash"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0331185648
+cache_write = 0.0165592824
+input = 0.331185648
+output = 1.65592824

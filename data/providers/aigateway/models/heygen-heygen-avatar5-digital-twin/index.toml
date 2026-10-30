@@ -1,7 +1,7 @@
 id = "heygen/heygen-avatar5-digital-twin"
 name = "Heygen v5 Digital Twin"
 open_weights = true
-release_date = "1782864000"
+release_date = "1792454400"
 
 [features]
 attachment = false

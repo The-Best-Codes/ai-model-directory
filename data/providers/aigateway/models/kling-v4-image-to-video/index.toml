@@ -1,0 +1,11 @@
+id = "kling/v4/image-to-video"
+name = "Kling 4.0 Image to Video"
+open_weights = true
+release_date = "1792713600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

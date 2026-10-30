@@ -1,5 +1,5 @@
 id = "WeMM-Embedding-4B"
-last_updated = "1792582142"
+last_updated = "1793265328"
 name = "WeMM-Embedding-4B"
 release_date = "1788414279"
 
@@ -13,4 +13,4 @@ context = 256000
 input = [ "image", "text" ]
 
 [pricing]
-input = 0.119982504
+input = 0.120078784

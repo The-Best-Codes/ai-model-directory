@@ -1,7 +1,7 @@
 id = "vidu/vidu-q2-image-to-video-pro"
 name = "Vidu Q2 Image To Video Pro"
 open_weights = true
-release_date = "1777248000"
+release_date = "1792454400"
 
 [features]
 attachment = true

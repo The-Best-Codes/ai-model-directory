@@ -5,12 +5,11 @@ release_date = "1764633600"
 [features]
 attachment = true
 reasoning = true
-structured_output = true
 tool_call = true
 
 [limit]
 context = 1000000
-output = 32000
+output = 131072
 
 [modalities]
 input = [ "file", "image", "text", "video" ]

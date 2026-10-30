@@ -1,3 +1,17 @@
 id = "qwen/qwen3-asr-0.6b"
 name = "Qwen3-ASR 0.6B"
 release_date = "1793232000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+input = 3.33
+output = 0

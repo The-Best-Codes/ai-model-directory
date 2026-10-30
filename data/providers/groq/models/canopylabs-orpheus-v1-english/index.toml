@@ -1,14 +1,7 @@
 id = "canopylabs/orpheus-v1-english"
-name = "Canopy Labs Orpheus V1 English"
+name = "canopylabs/orpheus-v1-english"
 release_date = "1766186316"
-
-[features]
-attachment = false
 
 [limit]
 context = 4000
 output = 50000
-
-[modalities]
-input = [ "text" ]
-output = [ "audio" ]

@@ -1,7 +1,7 @@
 id = "meta/emu-3.5-image-edit-image"
 name = "Emu 3.5 Image Edit Image"
 open_weights = true
-release_date = "1776729600"
+release_date = "1792454400"
 
 [features]
 attachment = true

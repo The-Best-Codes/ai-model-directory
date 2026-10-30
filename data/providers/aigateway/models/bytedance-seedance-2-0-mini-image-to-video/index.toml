@@ -1,7 +1,7 @@
 id = "bytedance/seedance-2.0/mini/image-to-video"
 name = "Seedance 2.0 Mini Image to Video"
 open_weights = false
-release_date = "1784246400"
+release_date = "1792454400"
 
 [features]
 attachment = true

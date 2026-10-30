@@ -1,0 +1,11 @@
+id = "vast/eden-live-14b-video"
+name = "Eden Live 14B Video"
+open_weights = true
+release_date = "1792713600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

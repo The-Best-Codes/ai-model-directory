@@ -1,7 +1,7 @@
 id = "mirelo-ai/sfx2.0/video-to-video"
 name = "Mirelo SFX2.0"
 open_weights = true
-release_date = "1791936000"
+release_date = "1792972800"
 
 [features]
 attachment = true

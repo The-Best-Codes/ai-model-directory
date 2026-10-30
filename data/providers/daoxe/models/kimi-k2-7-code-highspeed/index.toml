@@ -2,6 +2,6 @@ id = "kimi-k2.7-code-highspeed"
 name = "kimi-k2.7-code-highspeed"
 
 [pricing]
-cache_read = 0.058701440082
-input = 0.29350720041
-output = 1.2358197912
+cache_read = 0.058748545072
+input = 0.29374272536
+output = 1.2368114752

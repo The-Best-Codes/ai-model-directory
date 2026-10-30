@@ -3,5 +3,5 @@ name = "qwen3.5-plus"
 release_date = "1771113600"
 
 [pricing]
-input = 0.269960634
-output = 0.72079489278
+input = 0.270177264
+output = 0.72137329488

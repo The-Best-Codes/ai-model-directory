@@ -1,7 +1,7 @@
 id = "minimax/minimax-speech-02-turbo"
 name = "MiniMax Speech-02 Turbo"
 open_weights = true
-release_date = "1782259200"
+release_date = "1792454400"
 
 [features]
 attachment = false

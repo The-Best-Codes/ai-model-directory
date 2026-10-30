@@ -1,7 +1,7 @@
 id = "xai/grok-imagine-video/edit-video"
 name = "Grok Imagine Video (Edit Video)"
 open_weights = false
-release_date = "1777161600"
+release_date = "1792454400"
 
 [features]
 attachment = true

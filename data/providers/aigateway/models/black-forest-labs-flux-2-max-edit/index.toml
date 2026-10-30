@@ -1,7 +1,7 @@
 id = "black-forest-labs/flux-2-max-edit"
 name = "Flux 2 Max Edit"
 open_weights = true
-release_date = "1776988800"
+release_date = "1792454400"
 
 [features]
 attachment = true

@@ -1,7 +1,7 @@
 id = "topaz/sharpen/image"
 name = "Topaz Sharpen Image"
 open_weights = true
-release_date = "1788566400"
+release_date = "1792454400"
 
 [features]
 attachment = true

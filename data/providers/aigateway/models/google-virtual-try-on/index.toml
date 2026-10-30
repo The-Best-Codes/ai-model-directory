@@ -1,7 +1,7 @@
 id = "google/virtual-try-on"
 name = "Google Virtual Try On"
 open_weights = true
-release_date = "1788220800"
+release_date = "1792454400"
 
 [features]
 attachment = true

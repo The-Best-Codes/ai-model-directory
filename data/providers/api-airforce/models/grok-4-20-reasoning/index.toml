@@ -1,0 +1,16 @@
+id = "grok-4-20-reasoning"
+name = "grok-4-20-reasoning"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.089
+cache_write = 0.89
+input = 0.89
+output = 2.58

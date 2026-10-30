@@ -2,6 +2,6 @@ id = "qwen-flash"
 name = "qwen-flash"
 
 [pricing]
-cache_read = 0.018537296868
-input = 0.18537296868
-output = 1.8537296868
+cache_read = 0.018552172128
+input = 0.18552172128
+output = 1.8552172128

@@ -1,0 +1,7 @@
+id = "deepseek-v3"
+name = "deepseek-v3"
+
+[pricing]
+cache_read = 0.010822100408
+input = 0.086576803264
+output = 0.259730409792

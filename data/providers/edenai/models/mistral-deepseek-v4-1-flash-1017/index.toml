@@ -1,9 +1,9 @@
 id = "mistral/deepseek-v4-1-flash-1017"
 name = "mistral/deepseek-v4-1-flash-1017"
-release_date = "1793216729"
+release_date = "1792225624"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 tool_call = true
@@ -12,7 +12,7 @@ tool_call = true
 context = 1048576
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

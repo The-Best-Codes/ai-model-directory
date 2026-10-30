@@ -2,5 +2,5 @@ id = "qwen3-8b"
 name = "qwen3-8b"
 
 [pricing]
-input = 0.07723873695
-output = 0.7723873695
+input = 0.0773007172
+output = 0.773007172

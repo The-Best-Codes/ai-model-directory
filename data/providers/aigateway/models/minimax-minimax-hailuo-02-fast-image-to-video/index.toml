@@ -1,7 +1,7 @@
 id = "minimax/minimax-hailuo-02-fast-image-to-video"
 name = "Minimax Hailuo 02 Fast (Image To Video)"
 open_weights = true
-release_date = "1782259200"
+release_date = "1792454400"
 
 [features]
 attachment = true

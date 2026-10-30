@@ -1,4 +1,0 @@
-id = "claude-opus-5-thinking:payg"
-
-[modalities]
-output = [ "text" ]

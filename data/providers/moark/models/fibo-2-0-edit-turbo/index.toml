@@ -1,0 +1,11 @@
+id = "Fibo-2.0-edit-turbo"
+last_updated = "1793168969"
+name = "Fibo-2.0-edit-turbo"
+release_date = "1793168546"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

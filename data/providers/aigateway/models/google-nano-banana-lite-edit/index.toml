@@ -1,7 +1,7 @@
 id = "google/nano-banana-lite/edit"
 name = "Nano Banana Lite Edit"
 open_weights = false
-release_date = "1782777600"
+release_date = "1792454400"
 
 [features]
 attachment = true

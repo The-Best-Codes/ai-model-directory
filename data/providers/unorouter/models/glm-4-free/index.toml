@@ -3,7 +3,7 @@ name = "glm-4:free"
 release_date = "1705363200"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true
@@ -15,7 +15,7 @@ input = 24576
 output = 8192
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]

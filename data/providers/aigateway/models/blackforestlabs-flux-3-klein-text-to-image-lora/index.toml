@@ -1,0 +1,11 @@
+id = "blackforestlabs/flux-3/klein/text-to-image/lora"
+name = "FLUX 3 Klein Text to Image LoRA"
+open_weights = true
+release_date = "1792972800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

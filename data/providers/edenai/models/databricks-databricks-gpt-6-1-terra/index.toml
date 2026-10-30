@@ -8,12 +8,15 @@ reasoning = true
 structured_output = false
 tool_call = true
 
+[limit]
+context = 922000
+
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.05
-cache_write = 1.25
-input = 1
-output = 5
+cache_read = 0.099999998
+cache_write = 1.24999
+input = 0.99999998
+output = 4.99999997

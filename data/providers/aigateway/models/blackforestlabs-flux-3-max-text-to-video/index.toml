@@ -1,0 +1,11 @@
+id = "blackforestlabs/flux-3-max/text-to-video"
+name = "FLUX 3 Max Text to Video"
+open_weights = true
+release_date = "1793145600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

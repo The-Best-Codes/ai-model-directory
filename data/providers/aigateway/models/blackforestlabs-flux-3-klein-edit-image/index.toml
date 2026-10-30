@@ -1,7 +1,7 @@
 id = "blackforestlabs/flux-3/klein/edit-image"
 name = "FLUX.3 Klein Image Editing"
 open_weights = true
-release_date = "1792022400"
+release_date = "1793145600"
 
 [features]
 attachment = true

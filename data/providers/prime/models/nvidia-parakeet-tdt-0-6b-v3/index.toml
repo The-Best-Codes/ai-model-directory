@@ -1,3 +1,17 @@
 id = "nvidia/parakeet-tdt-0.6b-v3"
 name = "Parakeet TDT 0.6B v3"
 release_date = "1793232000"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+input = 16.6667
+output = 0

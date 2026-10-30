@@ -2,6 +2,6 @@ id = "qwen3.6-max-preview"
 name = "qwen3.6-max-preview"
 
 [pricing]
-cache_read = 0.0200504462974
-input = 0.20082071607
-output = 1.20492429642
+cache_read = 0.0200665357846
+input = 0.20098186472
+output = 1.20589118832

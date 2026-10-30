@@ -4,14 +4,19 @@ name = "claude-fable-5.1"
 [features]
 attachment = true
 reasoning = true
+structured_output = true
 tool_call = true
 
+[limit]
+context = 1000000
+output = 128000
+
 [modalities]
-input = [ "image" ]
+input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.861
-cache_write = 10.7625
-input = 8.61
-output = 43.06
+cache_read = 0.094
+cache_write = 1.175
+input = 0.94
+output = 4.71

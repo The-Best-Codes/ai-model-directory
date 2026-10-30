@@ -1,7 +1,7 @@
 id = "microsoft/mai-image-2.5/edit"
 name = "Mai Image 2.5"
 open_weights = true
-release_date = "1782864000"
+release_date = "1792454400"
 
 [features]
 attachment = true

@@ -1,0 +1,11 @@
+id = "ideogram/vector/text-to-vector"
+name = "Ideogram Vector (Text To Vector)"
+open_weights = true
+release_date = "1792627200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

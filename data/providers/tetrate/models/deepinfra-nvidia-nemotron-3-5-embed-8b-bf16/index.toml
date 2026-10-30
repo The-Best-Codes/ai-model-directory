@@ -1,0 +1,19 @@
+id = "deepinfra/nvidia/Nemotron-3.5-Embed-8B-BF16"
+name = "deepinfra/nvidia/Nemotron-3.5-Embed-8B-BF16"
+release_date = "1793065678"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0.035
+output = 0

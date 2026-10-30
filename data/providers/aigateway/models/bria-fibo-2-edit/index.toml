@@ -1,0 +1,11 @@
+id = "bria/fibo-2/edit"
+name = "Fibo 2.0 Edit"
+open_weights = true
+release_date = "1792454400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]
