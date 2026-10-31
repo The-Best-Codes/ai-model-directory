@@ -1,0 +1,10 @@
+id = "tencent-video:sg/kling-o3-4k"
+name = "Kling 3.0 Omni 4K"
+release_date = "1776902400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

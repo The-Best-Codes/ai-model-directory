@@ -1,7 +1,7 @@
 id = "veed/fabric-1.0"
 name = "Fabric 1.0"
 open_weights = true
-release_date = "1784592000"
+release_date = "1792454400"
 
 [features]
 attachment = true

@@ -1,7 +1,7 @@
 id = "ideogram/ideogram-v3-replace-background"
 name = "Ideogram Replace Background"
 open_weights = true
-release_date = "1782259200"
+release_date = "1792454400"
 
 [features]
 attachment = true

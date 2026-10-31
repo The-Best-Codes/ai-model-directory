@@ -1,0 +1,9 @@
+id = "heygen-voice-1-turbo"
+name = "HeyGen Voice Turbo"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

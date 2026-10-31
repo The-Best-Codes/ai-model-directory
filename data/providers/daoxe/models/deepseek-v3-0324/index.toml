@@ -1,0 +1,6 @@
+id = "deepseek-v3-0324"
+name = "deepseek-v3-0324"
+
+[pricing]
+input = 0.038665059275
+output = 0.10826216597

@@ -1,24 +1,7 @@
 id = "o1"
-knowledge_cutoff = "1698710400"
-name = "OpenAI: o1"
-release_date = "1734459999"
-
-[features]
-attachment = true
-reasoning = true
-structured_output = true
-temperature = false
-tool_call = true
-
-[limit]
-context = 200000
-output = 100000
-
-[modalities]
-input = [ "file", "image", "text" ]
-output = [ "text" ]
+name = "o1"
 
 [pricing]
-cache_read = 1.15773856575
-input = 2.3154771315
-output = 9.261908526
+cache_read = 1.15995177825
+input = 2.3199035565
+output = 9.279614226

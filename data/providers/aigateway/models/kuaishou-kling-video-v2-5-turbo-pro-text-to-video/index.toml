@@ -1,7 +1,7 @@
 id = "kuaishou/kling-video-v2.5-turbo-pro-text-to-video"
 name = "Kling v2.5 Text to Video"
 open_weights = true
-release_date = "1777161600"
+release_date = "1792454400"
 
 [features]
 attachment = false

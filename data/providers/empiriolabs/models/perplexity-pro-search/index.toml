@@ -5,6 +5,9 @@ name = "Perplexity Pro Search"
 attachment = true
 reasoning = true
 
+[limit]
+output = 32768
+
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]

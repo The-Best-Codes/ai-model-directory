@@ -1,0 +1,12 @@
+id = "nemotron-3.5-transcribe"
+name = "Nemotron 3.5 Transcribe"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

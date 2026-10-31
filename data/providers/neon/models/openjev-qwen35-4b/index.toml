@@ -4,5 +4,8 @@ name = "OpenJev (Qwen 3.5 4B)"
 open_weights = true
 release_date = "1790812800"
 
+[limit]
+context = 131072
+
 [pricing]
 input = 0.042

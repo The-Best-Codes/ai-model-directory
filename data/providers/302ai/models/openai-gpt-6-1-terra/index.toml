@@ -1,0 +1,21 @@
+id = "openai-gpt-6.1-terra"
+last_updated = "1793094588"
+name = "gpt-6.1-terra"
+release_date = "1793094588"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 1
+output = 5

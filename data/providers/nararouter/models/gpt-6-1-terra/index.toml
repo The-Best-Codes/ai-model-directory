@@ -1,0 +1,18 @@
+id = "gpt-6.1-terra"
+name = "GPT 6.1 Terra"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0370729140166
+input = 0.20017762172
+output = 1.00088810855

@@ -1,0 +1,9 @@
+id = "heygen-video-1"
+name = "HeyGen Video"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

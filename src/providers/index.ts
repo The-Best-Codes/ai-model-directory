@@ -78,6 +78,7 @@ import { neuralwattProvider } from "./neuralwatt.ts";
 import { nousPortalProvider } from "./nous-portal.ts";
 import { novitaProvider } from "./novita.ts";
 import { nvidiaProvider } from "./nvidia.ts";
+import { obscurifyAiProvider } from "./obscurify-ai.ts";
 import { ofoxProvider } from "./ofox.ts";
 import { ollamaCloudProvider } from "./ollama-cloud.ts";
 import { openaiProvider } from "./openai.ts";
@@ -206,6 +207,7 @@ export const providers: ProviderDefinition[] = [
   nousPortalProvider,
   novitaProvider,
   nvidiaProvider,
+  obscurifyAiProvider,
   ofoxProvider,
   ollamaCloudProvider,
   openaiProvider,

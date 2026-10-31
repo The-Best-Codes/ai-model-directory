@@ -19,4 +19,5 @@ output = [ "text" ]
 cache_read = 0.024997
 cache_write = 0.31248
 input = 0.24997
+input_audio = 0.62503
 output = 1.50003

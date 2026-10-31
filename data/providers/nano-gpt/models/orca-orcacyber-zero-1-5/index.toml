@@ -1,0 +1,21 @@
+id = "orca/orcacyber-zero-1.5"
+name = "OrcaCyber Zero 1.5"
+release_date = "1793318400"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 999488
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 3
+output = 7.5

@@ -1,0 +1,11 @@
+id = "kling/v4/video-to-video/edit"
+name = "Kling 4.0 Video Editing"
+open_weights = true
+release_date = "1792713600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "video" ]
+output = [ "video" ]

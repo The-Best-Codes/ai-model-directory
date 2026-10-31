@@ -1,0 +1,4 @@
+id = "minimax-m3.1-flash-cheap:payg"
+
+[modalities]
+output = [ "text" ]

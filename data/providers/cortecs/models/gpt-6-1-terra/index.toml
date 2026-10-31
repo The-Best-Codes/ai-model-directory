@@ -1,0 +1,16 @@
+id = "gpt-6.1-terra"
+name = "gpt-6.1-terra"
+release_date = "1790496000"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[pricing]
+cache_read = 0.053
+input = 1.056
+output = 5.28

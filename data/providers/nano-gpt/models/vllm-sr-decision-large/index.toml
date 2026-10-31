@@ -1,0 +1,19 @@
+id = "vllm-sr/decision-large"
+name = "d3 (Decision Large)"
+release_date = "1792627200"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.4
+output = 0

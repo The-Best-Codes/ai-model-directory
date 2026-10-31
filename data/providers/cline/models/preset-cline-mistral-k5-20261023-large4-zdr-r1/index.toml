@@ -1,5 +1,5 @@
 id = "@preset/cline-mistral-k5-20261023-large4-zdr-r1"
-name = "cline-mistral-k5-20261023-large4-zdr-r1"
+name = "Preset: cline-mistral-k5-20261023-large4-zdr-r1"
 release_date = "1792791819"
 
 [features]
@@ -18,6 +18,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.14
-input = 1.36
-output = 4.18
+cache_read = 0.07
+input = 0.7
+output = 2.1

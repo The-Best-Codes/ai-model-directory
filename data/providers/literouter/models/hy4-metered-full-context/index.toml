@@ -1,4 +1,0 @@
-id = "hy4:metered:full-context"
-
-[modalities]
-output = [ "text" ]

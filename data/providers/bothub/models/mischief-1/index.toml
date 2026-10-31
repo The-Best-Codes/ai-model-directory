@@ -1,0 +1,9 @@
+id = "mischief-1"
+name = "TBC Mischief 1"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

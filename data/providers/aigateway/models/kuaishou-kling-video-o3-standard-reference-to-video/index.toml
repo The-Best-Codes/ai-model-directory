@@ -1,7 +1,7 @@
 id = "kuaishou/kling-video-o3-standard-reference-to-video"
 name = "Kling O3 Reference to Video [Standard]"
 open_weights = true
-release_date = "1777161600"
+release_date = "1792454400"
 
 [features]
 attachment = true

@@ -1,0 +1,4 @@
+id = "mimo-v2.6-flash-stable:128k-context"
+
+[modalities]
+output = [ "text" ]

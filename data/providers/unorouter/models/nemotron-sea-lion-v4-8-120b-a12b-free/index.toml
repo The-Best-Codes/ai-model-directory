@@ -1,5 +1,6 @@
 id = "nemotron-sea-lion-v4.8-120b-a12b:free"
 name = "nemotron-sea-lion-v4.8-120b-a12b:free"
+release_date = "1788825600"
 
 [features]
 attachment = false

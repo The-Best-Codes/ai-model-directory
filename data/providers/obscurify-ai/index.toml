@@ -1,0 +1,7 @@
+name = "Obscurify.ai"
+website = "https://obscurify.ai"
+apiBaseUrl = "https://obscurify.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["OBSCURIFY_API_KEY"]

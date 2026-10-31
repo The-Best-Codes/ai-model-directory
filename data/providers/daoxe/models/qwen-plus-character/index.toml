@@ -1,0 +1,6 @@
+id = "qwen-plus-character"
+name = "qwen-plus-character"
+
+[pricing]
+input = 0.0177859272665
+output = 0.0443874880477

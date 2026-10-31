@@ -1,0 +1,16 @@
+id = "marscompute/mimo-v2.6-flash-marscompute"
+name = "MiMo V2.6 Flash"
+release_date = "1793350709"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.3

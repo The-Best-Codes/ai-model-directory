@@ -1,7 +1,7 @@
 id = "kuaishou/kling-video-v2.6-pro-image-to-video"
 name = "Kling Video v2.6 Image to Video"
 open_weights = true
-release_date = "1784592000"
+release_date = "1792454400"
 
 [features]
 attachment = true

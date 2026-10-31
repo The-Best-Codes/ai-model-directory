@@ -1,0 +1,13 @@
+id = "lfm-2.5-embedding-350m:free"
+name = "lfm-2.5-embedding-350m:free"
+release_date = "1777939200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

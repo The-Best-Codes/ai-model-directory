@@ -1,0 +1,15 @@
+id = "MiniMax-M3.1-Flash"
+last_updated = "1793260944"
+name = "MiniMax-M3.1-Flash"
+release_date = "1793070412"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15015557
+output = 0.60062228

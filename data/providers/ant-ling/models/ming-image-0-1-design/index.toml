@@ -1,0 +1,13 @@
+id = "Ming-Image-0.1-Design"
+open_weights = true
+
+[features]
+attachment = false
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+output = 0.0045046671

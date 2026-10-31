@@ -1,9 +1,0 @@
-id = "dalle"
-name = "DALL-E"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "image" ]

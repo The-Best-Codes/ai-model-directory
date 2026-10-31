@@ -1,0 +1,15 @@
+id = "cohere/command-a"
+knowledge_cutoff = "1740787200"
+name = "Cohere: Command A"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 256000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

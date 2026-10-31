@@ -1,0 +1,10 @@
+id = "tencent-video:sg/kling-3.0-4k-i2v"
+name = "Kling 3.0 4K (Image-to-Video)"
+release_date = "1776902400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

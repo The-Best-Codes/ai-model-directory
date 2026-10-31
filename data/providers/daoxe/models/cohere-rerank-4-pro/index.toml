@@ -2,4 +2,4 @@ id = "cohere/rerank-4-pro"
 name = "cohere/rerank-4-pro"
 
 [pricing]
-input = 0.38591285525
+input = 0.38665059275

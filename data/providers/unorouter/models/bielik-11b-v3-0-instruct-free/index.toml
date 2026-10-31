@@ -1,0 +1,17 @@
+id = "bielik-11b-v3.0-instruct:free"
+name = "bielik-11b-v3.0-instruct:free"
+release_date = "1767052800"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,10 @@
+id = "gpt-image-2.5-flare"
+name = "GPT Image 2.5 Flare"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

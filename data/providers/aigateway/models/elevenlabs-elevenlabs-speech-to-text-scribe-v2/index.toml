@@ -1,7 +1,7 @@
 id = "elevenlabs/elevenlabs-speech-to-text-scribe-v2"
 name = "ElevenLabs Speech to Text - Scribe V2"
 open_weights = true
-release_date = "1791936000"
+release_date = "1792454400"
 
 [features]
 attachment = true

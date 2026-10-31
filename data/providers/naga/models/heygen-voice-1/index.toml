@@ -1,0 +1,9 @@
+id = "heygen-voice-1"
+name = "HeyGen Voice"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

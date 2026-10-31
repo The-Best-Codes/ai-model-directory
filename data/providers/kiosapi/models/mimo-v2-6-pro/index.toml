@@ -18,5 +18,5 @@ input = [ "audio", "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-input = 22.5
-output = 22.5
+input = 15
+output = 15

@@ -1,0 +1,17 @@
+id = "north-small-translate-1.0"
+name = "north-small-translate-1.0"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 32768
+output = 16000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

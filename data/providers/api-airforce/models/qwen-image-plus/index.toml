@@ -1,9 +1,0 @@
-id = "qwen-image-plus"
-name = "qwen-image-plus"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]

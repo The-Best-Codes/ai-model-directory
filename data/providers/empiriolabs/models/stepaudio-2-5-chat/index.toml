@@ -6,7 +6,7 @@ attachment = true
 structured_output = true
 
 [limit]
-context = 256000
+context = 262144
 output = 131072
 
 [modalities]

@@ -1,0 +1,17 @@
+id = "moonshotai/kimi-k3-1-pro-highspeed"
+name = "Kimi K3.1 Pro Highspeed"
+open_weights = true
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 6.33
+output = 31.65

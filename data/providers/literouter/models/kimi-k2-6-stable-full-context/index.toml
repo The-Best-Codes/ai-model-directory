@@ -1,4 +1,0 @@
-id = "kimi-k2.6-stable:full-context"
-
-[modalities]
-output = [ "text" ]

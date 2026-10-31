@@ -1,5 +1,6 @@
 id = "beam:free"
 name = "beam:free"
+release_date = "1792108800"
 
 [features]
 attachment = false

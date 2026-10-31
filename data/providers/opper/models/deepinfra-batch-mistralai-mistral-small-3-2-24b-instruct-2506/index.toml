@@ -1,0 +1,22 @@
+id = "deepinfra-batch/mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+name = "Mistral Small 3.2 24B Instruct"
+release_date = "1750377600"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.06
+output = 0.16

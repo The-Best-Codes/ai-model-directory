@@ -1,0 +1,17 @@
+id = "dealignai/deepseek-v4.1-flash-1017-uncensored"
+name = "DeepSeek V4.1 Flash Uncensored"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.68575
+output = 1.52975

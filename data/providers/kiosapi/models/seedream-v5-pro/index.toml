@@ -1,0 +1,12 @@
+id = "seedream-v5-pro"
+name = "seedream-v5-pro"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 75
+output = 75

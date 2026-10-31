@@ -1,0 +1,18 @@
+id = "deepseek-r1-distill-llama-70b:free"
+name = "deepseek-r1-distill-llama-70b:free"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+input = 131072
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

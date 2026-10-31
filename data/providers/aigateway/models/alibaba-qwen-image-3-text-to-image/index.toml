@@ -1,7 +1,7 @@
 id = "alibaba/qwen-image-3/text-to-image"
 name = "Qwen Image 3 Text to Image"
 open_weights = true
-release_date = "1787875200"
+release_date = "1792454400"
 
 [features]
 attachment = false

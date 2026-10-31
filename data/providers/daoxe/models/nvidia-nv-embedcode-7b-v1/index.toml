@@ -2,4 +2,4 @@ id = "nvidia/nv-embedcode-7b-v1"
 name = "nvidia/nv-embedcode-7b-v1"
 
 [pricing]
-input = 0.01543651421
+input = 0.01546602371

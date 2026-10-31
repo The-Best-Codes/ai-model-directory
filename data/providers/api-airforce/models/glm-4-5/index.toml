@@ -4,13 +4,14 @@ name = "glm-4.5"
 [features]
 attachment = false
 reasoning = false
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.063
-cache_write = 0.63
-input = 0.63
-output = 2.31
+cache_read = 0.13
+cache_write = 0.84
+input = 0.67
+output = 2.44

@@ -2,5 +2,5 @@ id = "gpt-6-astra-openai-compact"
 name = "gpt-6-astra-openai-compact"
 
 [pricing]
-input = 0.23154771315
-output = 1.15773856575
+input = 0.23199035565
+output = 1.15995177825

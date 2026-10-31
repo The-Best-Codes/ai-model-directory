@@ -1,0 +1,22 @@
+id = "databricks/databricks-gpt-6-1-terra@eu"
+name = "databricks/databricks-gpt-6-1-terra@eu"
+release_date = "1793060038"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 922000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04998
+cache_write = 1.24999
+input = 1.00002
+output = 5.00003

@@ -3,4 +3,4 @@ name = "Privacy Filter"
 release_date = "1756512000"
 
 [limit]
-context = 8192
+context = 80000

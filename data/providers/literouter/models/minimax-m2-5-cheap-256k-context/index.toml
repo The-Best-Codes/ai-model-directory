@@ -1,4 +1,0 @@
-id = "minimax-m2.5-cheap:256k-context"
-
-[modalities]
-output = [ "text" ]

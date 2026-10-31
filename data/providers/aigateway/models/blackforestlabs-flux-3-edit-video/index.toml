@@ -1,7 +1,7 @@
 id = "blackforestlabs/flux-3/edit-video"
 name = "Flux 3 FAST Edit Video"
 open_weights = true
-release_date = "1789084800"
+release_date = "1792454400"
 
 [features]
 attachment = true

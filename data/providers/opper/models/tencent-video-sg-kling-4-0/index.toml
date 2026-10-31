@@ -1,0 +1,9 @@
+id = "tencent-video:sg/kling-4.0"
+name = "Kling 4.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

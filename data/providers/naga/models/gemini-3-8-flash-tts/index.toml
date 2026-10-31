@@ -1,0 +1,15 @@
+id = "gemini-3.8-flash-tts"
+name = "Gemini 3.8 Flash TTS"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 0.25

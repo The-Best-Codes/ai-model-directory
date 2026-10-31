@@ -1,9 +1,0 @@
-id = "kling-omni-image"
-name = "kling-omni-image"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]

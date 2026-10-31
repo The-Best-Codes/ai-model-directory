@@ -1,0 +1,12 @@
+id = "krea-3"
+name = "Krea 3"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

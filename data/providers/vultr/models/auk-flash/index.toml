@@ -1,0 +1,10 @@
+id = "auk-flash"
+name = "AuK-Flash (evaluation)"
+open_weights = true
+release_date = "1793075573"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

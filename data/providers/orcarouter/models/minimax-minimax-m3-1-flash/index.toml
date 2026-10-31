@@ -1,0 +1,17 @@
+id = "minimax/minimax-m3.1-flash"
+name = "MiniMax: M3.1 Flash"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+output = 524288
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.6

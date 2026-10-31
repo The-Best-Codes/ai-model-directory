@@ -1,0 +1,6 @@
+id = "deepseek-r1-distill-qwen-32b"
+name = "deepseek-r1-distill-qwen-32b"
+
+[pricing]
+input = 0.0443874880477
+output = 0.133162464143

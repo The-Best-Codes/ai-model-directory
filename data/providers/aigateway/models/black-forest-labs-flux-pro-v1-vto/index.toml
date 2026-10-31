@@ -1,7 +1,7 @@
 id = "black-forest-labs/flux-pro-v1-vto"
 name = "FLUX Virtual Try-On "
 open_weights = true
-release_date = "1782864000"
+release_date = "1792454400"
 
 [features]
 attachment = true

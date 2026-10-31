@@ -1,0 +1,15 @@
+id = "anthropic/claude-opus-5.5"
+knowledge_cutoff = "1790035200"
+name = "Anthropic: Claude Opus 5.5"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

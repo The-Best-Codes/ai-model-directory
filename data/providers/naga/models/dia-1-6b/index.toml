@@ -1,0 +1,9 @@
+id = "dia-1.6b"
+name = "Dia 1.6B"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

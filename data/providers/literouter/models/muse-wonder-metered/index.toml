@@ -1,4 +1,0 @@
-id = "muse-wonder:metered"
-
-[modalities]
-output = [ "text" ]

@@ -1,7 +1,7 @@
 id = "pixverse/pixverse-v4-image-to-video-fast"
 name = "PixVerse V4 Image To Video Fast"
 open_weights = true
-release_date = "1781654400"
+release_date = "1792454400"
 
 [features]
 attachment = true

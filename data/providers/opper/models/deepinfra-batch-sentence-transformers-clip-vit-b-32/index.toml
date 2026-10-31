@@ -1,0 +1,16 @@
+id = "deepinfra-batch/sentence-transformers/clip-ViT-B-32"
+name = "clip-ViT-B-32"
+
+[features]
+attachment = true
+
+[limit]
+context = 77
+output = 77
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.004
+output = 0

@@ -1,5 +1,5 @@
 id = "anthropic/claude-standardcompute"
-name = "Standard Compute (smart routing)"
+name = "Standard Compute (Automatic)"
 
 [features]
 reasoning = false

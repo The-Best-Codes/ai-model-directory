@@ -1,0 +1,8 @@
+id = "elevenlabs/eleven-realtime-v1-mini"
+name = "Eleven Realtime v1 Mini"
+release_date = "1793059200"
+
+[pricing]
+cache_read = 0.01
+input = 0.1
+output = 3

@@ -7,13 +7,13 @@ reasoning = true
 tool_call = true
 
 [limit]
-context = 262144
+context = 1048576
 
 [modalities]
 input = [ "file", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0093983429
-input = 0.093983429
-output = 0.464388708
+cache_read = 0.009361883
+input = 0.09361883
+output = 0.46258716

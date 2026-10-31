@@ -1,0 +1,4 @@
+id = "grok-4.3-stable"
+
+[modalities]
+output = [ "text" ]

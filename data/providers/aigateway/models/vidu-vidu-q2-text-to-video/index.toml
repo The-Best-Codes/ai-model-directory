@@ -1,7 +1,7 @@
 id = "vidu/vidu-q2-text-to-video"
 name = "Vidu Q2 (Text To Video)"
 open_weights = true
-release_date = "1777248000"
+release_date = "1792454400"
 
 [features]
 attachment = false

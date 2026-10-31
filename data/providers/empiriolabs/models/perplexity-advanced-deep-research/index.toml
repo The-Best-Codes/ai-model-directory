@@ -5,6 +5,9 @@ name = "Perplexity Advanced Deep Research"
 attachment = true
 reasoning = true
 
+[limit]
+output = 16000
+
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]

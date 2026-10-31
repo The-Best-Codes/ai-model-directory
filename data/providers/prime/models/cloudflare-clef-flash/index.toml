@@ -9,9 +9,12 @@ structured_output = false
 temperature = false
 tool_call = false
 
+[limit]
+context = 24576
+
 [modalities]
 input = [ "image", "text" ]
 
 [pricing]
-input = 0.021
+input = 0.038
 output = 0

@@ -4,5 +4,8 @@ name = "Jev 1.14"
 open_weights = false
 release_date = "1792022400"
 
+[limit]
+context = 65536
+
 [pricing]
 input = 0.042

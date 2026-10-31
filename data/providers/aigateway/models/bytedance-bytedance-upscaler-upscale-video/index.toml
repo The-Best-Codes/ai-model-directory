@@ -1,7 +1,7 @@
 id = "bytedance/bytedance-upscaler-upscale-video"
 name = "Bytedance Upscaler Upscale Video"
 open_weights = true
-release_date = "1777334400"
+release_date = "1792454400"
 
 [features]
 attachment = true

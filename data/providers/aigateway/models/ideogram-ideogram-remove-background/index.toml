@@ -1,7 +1,7 @@
 id = "ideogram/ideogram-remove-background"
 name = "Ideogram Remove Background"
 open_weights = true
-release_date = "1778630400"
+release_date = "1792454400"
 
 [features]
 attachment = true

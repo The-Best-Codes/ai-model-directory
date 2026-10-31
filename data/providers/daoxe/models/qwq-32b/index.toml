@@ -2,6 +2,6 @@ id = "qwq-32b"
 name = "qwq-32b"
 
 [pricing]
-cache_read = 0.009261908526
-input = 0.04630954263
-output = 0.18523817052
+cache_read = 0.009279614226
+input = 0.04639807113
+output = 0.18559228452

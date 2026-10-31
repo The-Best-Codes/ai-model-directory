@@ -1,0 +1,9 @@
+id = "flux-2-flex"
+name = "BlackForestLabs: FLUX.2 Flex"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

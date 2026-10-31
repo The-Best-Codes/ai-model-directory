@@ -1,0 +1,14 @@
+id = "auto/google/gemini-embedding-001"
+name = "auto/google/gemini-embedding-001"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.153071516513
+cache_write = 0.153071516513
+input = 0.153071516513
+output = 0

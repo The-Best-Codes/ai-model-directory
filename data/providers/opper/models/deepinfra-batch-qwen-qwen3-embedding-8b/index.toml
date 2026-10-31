@@ -1,0 +1,17 @@
+id = "deepinfra-batch/Qwen/Qwen3-Embedding-8B"
+name = "Qwen 3 Embedding 8B"
+release_date = "1749081600"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+output = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.008
+output = 0

@@ -1,7 +1,7 @@
 id = "alibaba/wan-3.0-prime/reference-to-video"
 name = "Wan 3.0 Prime (Reference To Video)"
 open_weights = true
-release_date = "1787529600"
+release_date = "1792454400"
 
 [features]
 attachment = true

@@ -1,4 +1,0 @@
-id = "muse-wonder:payg"
-
-[modalities]
-output = [ "text" ]

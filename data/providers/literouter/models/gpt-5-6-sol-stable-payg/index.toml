@@ -1,0 +1,4 @@
+id = "gpt-5.6-sol-stable:payg"
+
+[modalities]
+output = [ "text" ]

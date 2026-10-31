@@ -1,0 +1,12 @@
+id = "nano-banana-2"
+name = "nano-banana-2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 75
+output = 75

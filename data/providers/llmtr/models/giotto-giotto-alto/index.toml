@@ -1,0 +1,16 @@
+id = "giotto/giotto-alto"
+name = "Giotto Alto"
+release_date = "1793165864"
+
+[features]
+attachment = true
+
+[limit]
+context = 120000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 2.5862
+output = 12.931002

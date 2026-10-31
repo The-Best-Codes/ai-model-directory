@@ -1,0 +1,15 @@
+id = "stepfun/step-3.7-flash"
+knowledge_cutoff = "1777593600"
+name = "StepFun: Step 3.7 Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 256000
+output = 256000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

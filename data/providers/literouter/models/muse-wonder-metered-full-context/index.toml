@@ -1,4 +1,0 @@
-id = "muse-wonder:metered:full-context"
-
-[modalities]
-output = [ "text" ]

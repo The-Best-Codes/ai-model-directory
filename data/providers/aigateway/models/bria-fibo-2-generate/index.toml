@@ -1,0 +1,11 @@
+id = "bria/fibo-2/generate"
+name = "Fibo 2.0 Generate"
+open_weights = true
+release_date = "1792454400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -2,14 +2,14 @@ id = "deepseek/deepseek-v4.1-flash"
 open_weights = true
 
 [features]
-attachment = false
+attachment = true
 temperature = true
 
 [limit]
-context = 262000
+context = 1050000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

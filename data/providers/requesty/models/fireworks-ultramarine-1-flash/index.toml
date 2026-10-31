@@ -1,0 +1,20 @@
+id = "fireworks/ultramarine-1-flash"
+name = "fireworks/ultramarine-1-flash"
+release_date = "1793059200"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.045
+input = 0.225
+output = 0.75

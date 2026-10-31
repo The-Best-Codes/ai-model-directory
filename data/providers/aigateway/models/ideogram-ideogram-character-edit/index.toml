@@ -1,7 +1,7 @@
 id = "ideogram/ideogram-character-edit"
 name = "Ideogram V3 Character Edit"
 open_weights = true
-release_date = "1782259200"
+release_date = "1792454400"
 
 [features]
 attachment = true

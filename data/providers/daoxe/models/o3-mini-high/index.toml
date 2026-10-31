@@ -1,23 +1,6 @@
 id = "o3-mini-high"
-knowledge_cutoff = "1698710400"
-name = "OpenAI: o3 Mini High"
-release_date = "1739372611"
-
-[features]
-attachment = true
-reasoning = true
-structured_output = true
-temperature = false
-tool_call = true
-
-[limit]
-context = 200000
-output = 100000
-
-[modalities]
-input = [ "file", "text" ]
-output = [ "text" ]
+name = "o3-mini-high"
 
 [pricing]
-input = 0.16980165631
-output = 0.67920662524
+input = 0.17012626081
+output = 0.68050504324

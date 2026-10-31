@@ -1,0 +1,14 @@
+id = "agnes-image-2.1-flash:free"
+name = "agnes-image-2.1-flash:free"
+release_date = "1782864000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

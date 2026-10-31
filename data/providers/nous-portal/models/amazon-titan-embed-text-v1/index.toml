@@ -1,0 +1,21 @@
+id = "amazon/titan-embed-text-v1"
+name = "Amazon: Titan Embeddings G1 - Text"
+release_date = "1793044727"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 8192
+output = 7372
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0

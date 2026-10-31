@@ -1,9 +1,0 @@
-id = "seedance-2.5"
-name = "seedance-2.5"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "video" ]

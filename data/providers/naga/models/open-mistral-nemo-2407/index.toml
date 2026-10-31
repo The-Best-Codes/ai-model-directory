@@ -3,7 +3,7 @@ name = "Open Mistral Nemo 2407"
 
 [features]
 attachment = false
-reasoning = true
+reasoning = false
 structured_output = true
 temperature = true
 tool_call = true

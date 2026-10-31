@@ -1,4 +1,0 @@
-id = "qwen3-next-80b-a3b-instruct:256k-context"
-
-[modalities]
-output = [ "text" ]

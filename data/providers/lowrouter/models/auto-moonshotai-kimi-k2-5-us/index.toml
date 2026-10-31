@@ -14,5 +14,7 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.610924886518
-output = 3.05461995096
+cache_read = 0.612286066053
+cache_write = 0.612286066053
+input = 0.612286066053
+output = 3.06142697461

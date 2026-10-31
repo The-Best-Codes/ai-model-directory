@@ -1,7 +1,7 @@
 id = "wan/v2.6/text-to-video"
 name = "Wan v2.6 Text to Video"
 open_weights = true
-release_date = "1777161600"
+release_date = "1792454400"
 
 [features]
 attachment = false

@@ -1,0 +1,4 @@
+id = "grok-4.20-0309-reasoning:metered:full-context"
+
+[modalities]
+output = [ "text" ]

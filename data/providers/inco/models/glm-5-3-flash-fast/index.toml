@@ -5,7 +5,6 @@ release_date = "1788137086"
 
 [features]
 attachment = true
-reasoning = true
 
 [limit]
 context = 1048576

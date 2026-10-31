@@ -1,7 +1,7 @@
 id = "google/nano-banana-lite"
 name = "Nano Banana Lite"
 open_weights = false
-release_date = "1782777600"
+release_date = "1792454400"
 
 [features]
 attachment = false

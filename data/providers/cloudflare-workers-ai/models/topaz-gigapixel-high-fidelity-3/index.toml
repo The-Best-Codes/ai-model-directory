@@ -1,0 +1,9 @@
+id = "topaz/gigapixel-high-fidelity-3"
+name = "Gigapixel High Fidelity 3"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

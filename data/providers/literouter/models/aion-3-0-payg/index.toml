@@ -1,0 +1,4 @@
+id = "aion-3.0:payg"
+
+[modalities]
+output = [ "text" ]

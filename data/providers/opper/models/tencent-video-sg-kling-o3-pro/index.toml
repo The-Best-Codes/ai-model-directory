@@ -1,0 +1,9 @@
+id = "tencent-video:sg/kling-o3-pro"
+name = "Kling 3.0 Omni Pro"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

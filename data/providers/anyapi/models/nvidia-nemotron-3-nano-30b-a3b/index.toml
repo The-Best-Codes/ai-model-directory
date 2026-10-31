@@ -1,0 +1,15 @@
+id = "nvidia/nemotron-3-nano-30b-a3b"
+knowledge_cutoff = "1764547200"
+name = "NVIDIA: Nemotron 3 Nano 30B A3B"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 235929
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

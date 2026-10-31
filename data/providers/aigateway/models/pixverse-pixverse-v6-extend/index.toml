@@ -1,7 +1,7 @@
 id = "pixverse/pixverse-v6-extend"
 name = "PixVerse V6 Extend"
 open_weights = true
-release_date = "1782864000"
+release_date = "1792454400"
 
 [features]
 attachment = true
