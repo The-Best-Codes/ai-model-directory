@@ -2,5 +2,5 @@ id = "Qwen/Qwen3-Reranker-0.6B"
 name = "Qwen/Qwen3-Reranker-0.6B"
 
 [pricing]
-input = 0.001546014344
-output = 0.001546014344
+input = 0.001546602371
+output = 0.001546602371

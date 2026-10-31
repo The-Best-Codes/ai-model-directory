@@ -1,9 +1,0 @@
-id = "mj_zoom"
-name = "mj_zoom"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]

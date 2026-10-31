@@ -1,0 +1,6 @@
+id = "minimax/h3-lite"
+name = "MiniMax H3 Lite"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

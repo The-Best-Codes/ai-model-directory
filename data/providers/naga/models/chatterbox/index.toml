@@ -1,0 +1,9 @@
+id = "chatterbox"
+name = "Chatterbox"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

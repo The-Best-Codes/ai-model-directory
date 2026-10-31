@@ -1,0 +1,20 @@
+id = "particle/particle-1"
+name = "Particle-1"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+
+[limit]
+context = 1048576
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.25
+output = 1

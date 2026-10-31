@@ -9,12 +9,12 @@ structured_output = true
 tool_call = true
 
 [limit]
-context = 256000
+context = 262144
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.5
-output = 1.2
+input = 0.78
+output = 1.86

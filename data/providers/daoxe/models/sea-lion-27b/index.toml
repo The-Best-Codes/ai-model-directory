@@ -2,6 +2,6 @@ id = "sea-lion-27b"
 name = "sea-lion-27b"
 
 [pricing]
-cache_read = 0.006184057376
-input = 0.03092028688
-output = 0.09276086064
+cache_read = 0.006186409484
+input = 0.03093204742
+output = 0.09279614226

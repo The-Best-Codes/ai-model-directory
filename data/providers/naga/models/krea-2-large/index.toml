@@ -1,0 +1,12 @@
+id = "krea-2-large"
+name = "Krea 2 Large"
+
+[features]
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

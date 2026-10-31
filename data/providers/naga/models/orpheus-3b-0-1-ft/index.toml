@@ -1,0 +1,9 @@
+id = "orpheus-3b-0.1-ft"
+name = "Orpheus 3B"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -2,16 +2,16 @@ id = "mimo-v2.6-flash"
 name = "mimo-v2.6-flash"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.014
-cache_write = 0.14
-input = 0.14
-output = 0.28
+cache_read = 0
+cache_write = 0.2
+input = 0.16
+output = 0.32

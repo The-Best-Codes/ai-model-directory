@@ -2,5 +2,5 @@ id = "qwen-long"
 name = "qwen-long"
 
 [pricing]
-input = 0.0773007172
-output = 0.3092028688
+input = 0.07733011855
+output = 0.3093204742

@@ -2,5 +2,5 @@ id = "claude-3-7-sonnet-latest"
 name = "claude-3-7-sonnet-latest"
 
 [pricing]
-input = 0.102036946704
-output = 0.51018473352
+input = 0.102075756486
+output = 0.51037878243

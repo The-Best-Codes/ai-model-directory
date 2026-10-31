@@ -1,0 +1,19 @@
+id = "jaredpalmer/kev-9b"
+name = "Kev 9B"
+release_date = "1793404800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.03
+output = 0

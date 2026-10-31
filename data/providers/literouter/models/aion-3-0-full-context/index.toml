@@ -1,4 +1,0 @@
-id = "aion-3.0:full-context"
-
-[modalities]
-output = [ "text" ]

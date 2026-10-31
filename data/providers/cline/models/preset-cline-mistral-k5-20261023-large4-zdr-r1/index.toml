@@ -1,5 +1,5 @@
 id = "@preset/cline-mistral-k5-20261023-large4-zdr-r1"
-name = "cline-mistral-k5-20261023-large4-zdr-r1"
+name = "Preset: cline-mistral-k5-20261023-large4-zdr-r1"
 release_date = "1792791819"
 
 [features]

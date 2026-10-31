@@ -1,0 +1,9 @@
+id = "wan-3.0-prime"
+name = "Wan 3.0 Prime"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

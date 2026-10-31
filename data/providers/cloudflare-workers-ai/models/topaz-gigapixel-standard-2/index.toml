@@ -1,0 +1,9 @@
+id = "topaz/gigapixel-standard-2"
+name = "Gigapixel Standard 2"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,9 @@
+id = "chatterbox-hd"
+name = "Chatterbox HD"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

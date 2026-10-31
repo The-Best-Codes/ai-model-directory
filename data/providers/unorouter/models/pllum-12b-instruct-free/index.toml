@@ -1,0 +1,17 @@
+id = "pllum-12b-instruct:free"
+name = "pllum-12b-instruct:free"
+release_date = "1738368000"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

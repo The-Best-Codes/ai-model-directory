@@ -1,0 +1,16 @@
+id = "marscompute/qwen-sea-lion-v4.5-27b"
+name = "Qwen-SEA-LION-v4.5-27B-IT"
+release_date = "1793350709"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 3.6

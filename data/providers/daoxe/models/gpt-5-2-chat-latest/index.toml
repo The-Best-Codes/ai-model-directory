@@ -2,6 +2,6 @@ id = "gpt-5.2-chat-latest"
 name = "gpt-5.2-chat-latest"
 
 [pricing]
-cache_read = 0.02705525102
-input = 0.2705525102
-output = 2.1644200816
+cache_read = 0.0270655414925
+input = 0.270655414925
+output = 2.1652433194

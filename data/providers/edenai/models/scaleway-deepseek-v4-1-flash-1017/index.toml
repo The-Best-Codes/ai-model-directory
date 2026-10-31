@@ -1,0 +1,18 @@
+id = "scaleway/deepseek-v4.1-flash-1017"
+name = "scaleway/deepseek-v4.1-flash-1017"
+release_date = "1791211484"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.134063982035
+input = 0.670319910177
+output = 2.01095973053

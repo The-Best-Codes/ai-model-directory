@@ -10,6 +10,3 @@ tool_call = false
 [modalities]
 input = [ "text" ]
 output = [ "audio" ]
-
-[pricing]
-input = 20

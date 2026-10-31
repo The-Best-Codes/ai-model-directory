@@ -12,4 +12,4 @@ output = [ "text", "video" ]
 input = 1.5
 input_audio = 1.5
 output = 9
-reasoning = 9
+reasoning = 10

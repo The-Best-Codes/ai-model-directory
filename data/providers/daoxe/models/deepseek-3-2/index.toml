@@ -2,5 +2,5 @@ id = "deepseek-3.2"
 name = "deepseek-3.2"
 
 [pricing]
-input = 0.01546014344
-output = 0.049472459008
+input = 0.01546602371
+output = 0.049491275872

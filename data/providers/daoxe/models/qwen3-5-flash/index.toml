@@ -2,5 +2,5 @@ id = "qwen3.5-flash"
 name = "qwen3.5-flash"
 
 [pricing]
-input = 0.013914129096
-output = 0.055656516384
+input = 0.013919421339
+output = 0.055677685356

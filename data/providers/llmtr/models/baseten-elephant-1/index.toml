@@ -1,0 +1,17 @@
+id = "baseten/elephant-1"
+name = "Elephant-1"
+release_date = "1793341560"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.035
+output = 0

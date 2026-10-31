@@ -1,0 +1,9 @@
+id = "canary-stt"
+name = "Canary Speech-to-Text"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

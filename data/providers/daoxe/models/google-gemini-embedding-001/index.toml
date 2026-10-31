@@ -1,5 +1,5 @@
-id = "google/gemini-embedding-001"
-name = "google/gemini-embedding-001"
+id = "google-gemini-embedding-001"
+name = "google-gemini-embedding-001"
 
 [pricing]
-input = 0.02319021516
+input = 0.023199035565

@@ -2,6 +2,6 @@ id = "gpt-image-2"
 name = "gpt-image-2"
 
 [pricing]
-cache_read = 0.193251793
-input = 0.773007172
-output = 4.638043032
+cache_read = 0.193325296375
+input = 0.7733011855
+output = 4.639807113
