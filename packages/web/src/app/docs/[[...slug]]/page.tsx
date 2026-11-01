@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { cacheLife } from "next/cache";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { IconMenu2 } from "@tabler/icons-react";
@@ -75,41 +74,32 @@ export default async function Page({ params }: PageProps) {
   const highlighter = await shikiHighlighter;
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-6 py-6 lg:py-10">
-      <header className="flex items-center justify-between gap-4">
-        <div className="flex items-center gap-2">
-          <Sheet>
-            <SheetTrigger asChild>
-              <Button className="lg:hidden" size="icon" variant="outline">
-                <IconMenu2 data-icon="inline-start" />
-                <span className="sr-only">Open docs navigation</span>
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="left" className="w-72 p-0">
-              <SheetHeader>
-                <SheetTitle>Docs</SheetTitle>
-                <SheetDescription>
-                  AI Model Directory documentation
-                </SheetDescription>
-              </SheetHeader>
-              <Separator />
-              <div className="p-2">
-                <DocsSidebar pages={pages} currentSlug={slug} />
-              </div>
-            </SheetContent>
-          </Sheet>
-          <Button asChild variant="outline">
-            <Link href="/">Home</Link>
-          </Button>
-        </div>
-        <Button asChild variant="outline">
-          <Link href="/list">Model List</Link>
-        </Button>
-      </header>
-      <Separator className="my-6" />
-      <div className="grid flex-1 gap-10 lg:grid-cols-[16rem_minmax(0,1fr)]">
+    <main className="mx-auto flex w-full flex-1 max-w-6xl flex-col px-6 py-6 lg:py-10">
+      <div className="mb-6 lg:hidden">
+        <Sheet>
+          <SheetTrigger asChild>
+            <Button variant="outline">
+              <IconMenu2 data-icon="inline-start" />
+              Docs menu
+            </Button>
+          </SheetTrigger>
+          <SheetContent side="left" className="w-72 p-0">
+            <SheetHeader>
+              <SheetTitle>Docs</SheetTitle>
+              <SheetDescription>
+                AI Model Directory documentation
+              </SheetDescription>
+            </SheetHeader>
+            <Separator />
+            <div className="p-2">
+              <DocsSidebar pages={pages} currentSlug={slug} />
+            </div>
+          </SheetContent>
+        </Sheet>
+      </div>
+      <div className="grid flex-1 grid-cols-[minmax(0,1fr)] gap-10 lg:grid-cols-[16rem_minmax(0,1fr)]">
         <aside className="hidden lg:block">
-          <div className="sticky top-10 flex flex-col gap-3">
+          <div className="sticky top-20 flex flex-col gap-3">
             <p className="px-2.5 text-sm font-medium">Docs</p>
             <DocsSidebar pages={pages} currentSlug={slug} />
           </div>
