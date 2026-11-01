@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { notFound, permanentRedirect } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
 import { DataNotice } from "#/components/data-notice";
 import { PriceQuoteValue, TagList } from "#/components/model-details";
@@ -124,7 +124,7 @@ export default async function Page({ params }: PageProps) {
   }
 
   if (comparison.slug !== pair) {
-    permanentRedirect(`/compare/${comparison.slug}`);
+    redirect(`/compare/${comparison.slug}`);
   }
 
   const models = comparison.models.map((group) => ({

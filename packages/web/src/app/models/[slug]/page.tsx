@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { notFound, permanentRedirect } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
 import { DataNotice } from "#/components/data-notice";
 import { PriceQuoteValue, TagList } from "#/components/model-details";
@@ -12,6 +12,7 @@ import {
   formatBadgeLabel,
   formatBoolean,
   formatPrice,
+  formatProviderCount,
   formatTokenCount,
   formatUnixDate,
 } from "#/lib/format";
@@ -37,13 +38,9 @@ export async function generateStaticParams() {
   return ranked.map((group) => ({ slug: group.slug }));
 }
 
-function providerLabel(count: number) {
-  return `${count} ${count === 1 ? "provider" : "providers"}`;
-}
-
 function describeModel(group: ModelGroup, summary: ModelSummary) {
   const parts = [
-    `${group.name} is available from ${providerLabel(group.providerCount)}.`,
+    `${group.name} is available from ${formatProviderCount(group.providerCount)}.`,
   ];
 
   if (summary.cheapestInput) {
@@ -132,7 +129,7 @@ export default async function Page({ params }: PageProps) {
   }
 
   if (group.slug !== slug) {
-    permanentRedirect(`/models/${group.slug}`);
+    redirect(`/models/${group.slug}`);
   }
 
   const summary = summarizeModelGroup(group);
@@ -145,7 +142,7 @@ export default async function Page({ params }: PageProps) {
         <div className="flex flex-wrap items-center gap-3">
           <h1 className="text-3xl font-bold tracking-tight">{group.name}</h1>
           <Badge variant="secondary">
-            {providerLabel(group.providerCount)}
+            {formatProviderCount(group.providerCount)}
           </Badge>
         </div>
         <p className="max-w-3xl text-muted-foreground">

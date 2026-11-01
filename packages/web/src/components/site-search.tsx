@@ -24,7 +24,11 @@ import {
   CommandItem,
   CommandList,
 } from "#/components/ui/command";
-import { formatPrice, formatTokenCount } from "#/lib/format";
+import {
+  formatPrice,
+  formatProviderCount,
+  formatTokenCount,
+} from "#/lib/format";
 import { comparisonSlug } from "#/lib/model-slug";
 import { normalizeSearchText } from "#/lib/search-text";
 import type { SearchIndex } from "#/search-index";
@@ -193,7 +197,7 @@ function findComparison(models: PreparedModel[], rawQuery: string) {
 
 function describeModel(model: PreparedModel) {
   return [
-    `${model.providerCount} ${model.providerCount === 1 ? "provider" : "providers"}`,
+    formatProviderCount(model.providerCount),
     model.input === undefined ? undefined : `${formatPrice(model.input)} in`,
     model.output === undefined ? undefined : `${formatPrice(model.output)} out`,
     model.context === undefined

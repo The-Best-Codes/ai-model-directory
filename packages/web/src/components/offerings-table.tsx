@@ -39,15 +39,47 @@ type Sorting = {
 const columns: {
   key: SortKey;
   label: string;
-  format?: (value?: number) => string;
+  className?: string;
+  render: (row: OfferingRow) => React.ReactNode;
 }[] = [
-  { key: "providerName", label: "Provider" },
-  { key: "modelId", label: "Model ID" },
-  { key: "input", label: "Input ($/M)", format: formatPrice },
-  { key: "output", label: "Output ($/M)", format: formatPrice },
-  { key: "cacheRead", label: "Cache Read ($/M)", format: formatPrice },
-  { key: "context", label: "Context", format: formatTokenCount },
-  { key: "outputLimit", label: "Output Limit", format: formatTokenCount },
+  {
+    key: "providerName",
+    label: "Provider",
+    render: (row) => (
+      <Link href={`/providers/${row.providerId}`}>{row.providerName}</Link>
+    ),
+  },
+  {
+    key: "modelId",
+    label: "Model ID",
+    className: "text-muted-foreground",
+    render: (row) => row.modelId,
+  },
+  {
+    key: "input",
+    label: "Input ($/M)",
+    render: (row) => formatPrice(row.input),
+  },
+  {
+    key: "output",
+    label: "Output ($/M)",
+    render: (row) => formatPrice(row.output),
+  },
+  {
+    key: "cacheRead",
+    label: "Cache Read ($/M)",
+    render: (row) => formatPrice(row.cacheRead),
+  },
+  {
+    key: "context",
+    label: "Context",
+    render: (row) => formatTokenCount(row.context),
+  },
+  {
+    key: "outputLimit",
+    label: "Output Limit",
+    render: (row) => formatTokenCount(row.outputLimit),
+  },
 ];
 
 function compareValues(
@@ -156,17 +188,9 @@ export function OfferingsTable({ rows }: { rows: OfferingRow[] }) {
         <TableBody>
           {sortedRows.map((row) => (
             <TableRow key={`${row.providerId}/${row.modelId}`}>
-              <TableCell>
-                <Link href={`/providers/${row.providerId}`}>
-                  {row.providerName}
-                </Link>
-              </TableCell>
-              <TableCell className="text-muted-foreground">
-                {row.modelId}
-              </TableCell>
-              {columns.slice(2).map((column) => (
-                <TableCell key={column.key}>
-                  {column.format?.(row[column.key] as number | undefined)}
+              {columns.map((column) => (
+                <TableCell key={column.key} className={column.className}>
+                  {column.render(row)}
                 </TableCell>
               ))}
             </TableRow>

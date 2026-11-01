@@ -222,6 +222,8 @@ export async function getRelatedComparisons(group: ModelGroup) {
     .slice(0, relatedComparisonCount);
 }
 
+const batchPricing = /(^|[/:_.-])batch([/:_.-]|$)/i;
+
 function cheapest(
   offerings: ModelOffering[],
   getPrice: (model: ModelRecord) => number | undefined,
@@ -229,6 +231,10 @@ function cheapest(
   let best: PriceQuote | undefined;
 
   for (const offering of offerings) {
+    if (batchPricing.test(offering.model.id)) {
+      continue;
+    }
+
     const price = getPrice(offering.model);
 
     if (price !== undefined && (!best || price < best.price)) {
@@ -268,6 +274,14 @@ function commonValues(lists: string[][]) {
     .sort();
 }
 
+const featureKeys = [
+  "reasoning",
+  "tool_call",
+  "structured_output",
+  "attachment",
+  "temperature",
+] as const satisfies (keyof NonNullable<ModelRecord["features"]>)[];
+
 export function summarizeModelGroup(group: ModelGroup): ModelSummary {
   const models = group.offerings.map((offering) => offering.model);
   const releaseDates = models
@@ -284,19 +298,12 @@ export function summarizeModelGroup(group: ModelGroup): ModelSummary {
     openWeights: mostlyTrue(models.map((model) => model.open_weights)),
     features: modelFeatureLabels({
       id: group.slug,
-      features: {
-        reasoning: mostlyTrue(models.map((model) => model.features?.reasoning)),
-        tool_call: mostlyTrue(models.map((model) => model.features?.tool_call)),
-        structured_output: mostlyTrue(
-          models.map((model) => model.features?.structured_output),
-        ),
-        attachment: mostlyTrue(
-          models.map((model) => model.features?.attachment),
-        ),
-        temperature: mostlyTrue(
-          models.map((model) => model.features?.temperature),
-        ),
-      },
+      features: Object.fromEntries(
+        featureKeys.map((key) => [
+          key,
+          mostlyTrue(models.map((model) => model.features?.[key])),
+        ]),
+      ),
     }),
     modalitiesInput: commonValues(
       models.map((model) => model.modalities?.input ?? []),

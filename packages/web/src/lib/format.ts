@@ -37,6 +37,10 @@ export function formatTokenCount(value?: number): string {
   return compactNumberFormatter.format(value);
 }
 
+export function formatProviderCount(count: number): string {
+  return `${count} ${count === 1 ? "provider" : "providers"}`;
+}
+
 export function formatBoolean(value?: boolean): string {
   if (value === undefined) {
     return "-";
