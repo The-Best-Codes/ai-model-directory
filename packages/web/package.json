@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "bun ./scripts/build-search-index.ts && next dev",
-    "build": "(cd ../npm && bun run build) && bun ./scripts/build-search-index.ts && next build && next-sitemap",
+    "dev": "next dev",
+    "build": "(cd ../npm && bun run build) && next build && next-sitemap",
     "start": "next start"
   },
   "dependencies": {

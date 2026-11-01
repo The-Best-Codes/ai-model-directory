@@ -224,17 +224,13 @@ export async function getRelatedComparisons(group: ModelGroup) {
 
 const batchPricing = /(^|[/:_.-])batch([/:_.-]|$)/i;
 
-function cheapest(
+function lowestPrice(
   offerings: ModelOffering[],
   getPrice: (model: ModelRecord) => number | undefined,
 ): PriceQuote | undefined {
   let best: PriceQuote | undefined;
 
   for (const offering of offerings) {
-    if (batchPricing.test(offering.model.id)) {
-      continue;
-    }
-
     const price = getPrice(offering.model);
 
     if (price !== undefined && (!best || price < best.price)) {
@@ -243,6 +239,17 @@ function cheapest(
   }
 
   return best;
+}
+
+function cheapest(
+  offerings: ModelOffering[],
+  getPrice: (model: ModelRecord) => number | undefined,
+): PriceQuote | undefined {
+  const realtime = offerings.filter(
+    (offering) => !batchPricing.test(offering.model.id),
+  );
+
+  return lowestPrice(realtime, getPrice) ?? lowestPrice(offerings, getPrice);
 }
 
 function largest(values: (number | undefined)[]) {
