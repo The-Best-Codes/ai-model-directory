@@ -1,4 +1,0 @@
-id = "minimax-m3.1-flash-cheap:metered"
-
-[modalities]
-output = [ "text" ]

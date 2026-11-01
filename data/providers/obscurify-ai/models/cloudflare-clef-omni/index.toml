@@ -1,0 +1,12 @@
+id = "cloudflare/clef-omni"
+name = "Cloudflare: Clef Omni"
+
+[features]
+tool_call = false
+
+[limit]
+context = 1800
+
+[pricing]
+input = 0.16575
+output = 0

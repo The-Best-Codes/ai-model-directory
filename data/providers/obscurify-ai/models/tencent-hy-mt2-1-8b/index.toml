@@ -1,0 +1,12 @@
+id = "tencent/hy-mt2-1.8b"
+name = "Tencent: Hy-MT2-1.8B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 8192
+
+[pricing]
+input = 0.0572
+output = 0.2301

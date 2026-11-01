@@ -1,0 +1,4 @@
+id = "minimax-m2-cheap:32k-context"
+
+[modalities]
+output = [ "text" ]

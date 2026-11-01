@@ -2,7 +2,7 @@ id = "gpt-5.6-luna-compact"
 name = "gpt-5.6-luna-compact"
 
 [pricing]
-cache_read = 0.01546602371
-cache_write = 0.193325296375
-input = 0.1546602371
-output = 0.9279614226
+cache_read = 0.01547360863
+cache_write = 0.193420107875
+input = 0.1547360863
+output = 0.9284165178

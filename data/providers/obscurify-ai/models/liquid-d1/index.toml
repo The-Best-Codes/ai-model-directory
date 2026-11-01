@@ -1,0 +1,12 @@
+id = "liquid/d1"
+name = "LiquidAI: Liquid D1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 65536
+
+[pricing]
+input = 0.0442
+output = 0

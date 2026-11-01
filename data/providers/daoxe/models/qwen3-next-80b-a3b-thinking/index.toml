@@ -2,5 +2,5 @@ id = "qwen3-next-80b-a3b-thinking"
 name = "qwen3-next-80b-a3b-thinking"
 
 [pricing]
-input = 0.07733011855
-output = 0.9279614226
+input = 0.07736804315
+output = 0.9284165178

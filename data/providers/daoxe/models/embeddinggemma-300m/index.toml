@@ -2,4 +2,4 @@ id = "embeddinggemma-300m"
 name = "embeddinggemma-300m"
 
 [pricing]
-input = 0.0023199035565
+input = 0.0023210412945

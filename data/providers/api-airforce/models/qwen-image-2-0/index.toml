@@ -7,3 +7,7 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 117
+output = 0.02

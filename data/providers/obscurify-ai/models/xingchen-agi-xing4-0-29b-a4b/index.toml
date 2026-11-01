@@ -1,0 +1,12 @@
+id = "xingchen-agi/xing4.0-29b-a4b"
+name = "XingChen: Xing 4.0 29B A4B"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.2431
+output = 0.9945

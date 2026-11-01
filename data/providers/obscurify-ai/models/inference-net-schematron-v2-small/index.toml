@@ -1,0 +1,12 @@
+id = "inference-net/schematron-v2-small"
+name = "Inference.net: Schematron V2 Small"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.05525
+output = 0.25415

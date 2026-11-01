@@ -1,0 +1,20 @@
+id = "text-embedding-3-small-databricks:free"
+name = "text-embedding-3-small-databricks:free"
+release_date = "1706140800"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8200
+input = 8200
+output = 1536
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

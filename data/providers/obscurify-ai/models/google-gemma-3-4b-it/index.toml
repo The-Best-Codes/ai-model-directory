@@ -1,0 +1,12 @@
+id = "google/gemma-3-4b-it"
+name = "Google: Gemma 3 4B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.065
+output = 0.13

@@ -1,0 +1,12 @@
+id = "ibm-granite/granite-4.2-8b"
+name = "IBM: Granite 4.2 8B"
+
+[features]
+tool_call = true
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.0663
+output = 0.16575

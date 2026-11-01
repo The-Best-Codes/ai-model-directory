@@ -1,0 +1,12 @@
+id = "qwen/qwen3-coder-next"
+name = "Qwen: Qwen3 Coder Next"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.1326
+output = 0.884

@@ -1,0 +1,12 @@
+id = "ornith-ai/ornith-1.5-35b-a3b"
+name = "Ornith Ai: Ornith 1.5 35B"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.1105
+output = 0.442

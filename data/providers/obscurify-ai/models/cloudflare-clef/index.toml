@@ -1,0 +1,12 @@
+id = "cloudflare/clef"
+name = "Cloudflare: Clef"
+
+[features]
+tool_call = false
+
+[limit]
+context = 1800
+
+[pricing]
+input = 0.2652
+output = 0

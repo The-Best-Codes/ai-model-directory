@@ -1,0 +1,12 @@
+id = "nousresearch/hermes-4-405b"
+name = "Nous: Hermes 4 Large"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.3315
+output = 1.326

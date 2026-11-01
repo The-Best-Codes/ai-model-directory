@@ -1,0 +1,12 @@
+id = "google/gemma-4-12b-it-starry-ocean"
+name = "Google: Gemma 4 12B Starry Ocean"
+
+[features]
+tool_call = true
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.05525
+output = 0.27625

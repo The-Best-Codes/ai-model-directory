@@ -1,9 +1,0 @@
-id = "mj_modal"
-name = "mj_modal"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]

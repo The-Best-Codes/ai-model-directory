@@ -1,0 +1,12 @@
+id = "relace/relace-search"
+name = "Relace: Relace Search"
+
+[features]
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+input = 1.3
+output = 3.9

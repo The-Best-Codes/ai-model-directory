@@ -1,4 +1,0 @@
-id = "qwen3-235b-a22b:full-context"
-
-[modalities]
-output = [ "text" ]

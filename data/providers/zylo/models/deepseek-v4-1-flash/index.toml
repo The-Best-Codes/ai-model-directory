@@ -2,7 +2,7 @@ id = "deepseek-v4.1-flash"
 name = "DeepSeek V4.1 Flash"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 tool_call = true
 
@@ -10,9 +10,9 @@ tool_call = true
 context = 1048576
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.045
-output = 0.5
+input = 0
+output = 0

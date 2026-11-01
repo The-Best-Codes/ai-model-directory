@@ -1,0 +1,12 @@
+id = "openai/gpt-4o-2024-05-13"
+name = "OpenAI: GPT-4o (2024-05-13)"
+
+[features]
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 6.5
+output = 19.5

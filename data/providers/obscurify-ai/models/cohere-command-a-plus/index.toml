@@ -1,0 +1,12 @@
+id = "cohere/command-a-plus"
+name = "Cohere: Command A+"
+
+[features]
+tool_call = true
+
+[limit]
+context = 192000
+
+[pricing]
+input = 0.39
+output = 1.95

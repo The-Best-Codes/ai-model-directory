@@ -1,0 +1,12 @@
+id = "openai/gpt-6-luna-decisions"
+name = "OpenAI: GPT-6 Luna Decisions"
+
+[features]
+tool_call = false
+
+[limit]
+context = 1050000
+
+[pricing]
+input = 0.1105
+output = 0

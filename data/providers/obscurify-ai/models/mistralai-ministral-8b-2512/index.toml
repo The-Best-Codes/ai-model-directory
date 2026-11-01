@@ -1,0 +1,12 @@
+id = "mistralai/ministral-8b-2512"
+name = "Mistral: Ministral 8B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.16575
+output = 0.16575

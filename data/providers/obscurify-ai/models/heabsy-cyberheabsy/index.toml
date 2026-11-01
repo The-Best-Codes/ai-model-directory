@@ -1,0 +1,12 @@
+id = "heabsy/cyberheabsy"
+name = "Heabsy: CyberHeabsy"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 1.6575
+output = 4.9725

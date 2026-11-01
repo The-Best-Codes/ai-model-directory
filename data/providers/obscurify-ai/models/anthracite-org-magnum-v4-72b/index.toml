@@ -1,0 +1,12 @@
+id = "anthracite-org/magnum-v4-72b"
+name = "Anthracite Org: Magnum v4 72B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 16384
+
+[pricing]
+input = 2.21663
+output = 3.30616

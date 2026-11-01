@@ -1,0 +1,12 @@
+id = "vllm-sr/decision-large"
+name = "Vllm Sr: d3 (Decision Large)"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.442
+output = 0

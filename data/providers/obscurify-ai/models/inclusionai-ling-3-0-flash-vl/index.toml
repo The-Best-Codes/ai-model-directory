@@ -1,0 +1,12 @@
+id = "inclusionai/ling-3.0-flash-vl"
+name = "inclusionAI: Ling 3.0 Flash VL"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.0663
+output = 0.1989

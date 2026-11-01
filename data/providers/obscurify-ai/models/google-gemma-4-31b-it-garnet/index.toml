@@ -1,0 +1,12 @@
+id = "google/gemma-4-31b-it-garnet"
+name = "Google: Gemma 4 31B Garnet"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.1105
+output = 0.49725

@@ -2,6 +2,6 @@ id = "grok-3"
 name = "grok-3"
 
 [pricing]
-cache_read = 0.115995177825
-input = 0.4639807113
-output = 2.3199035565
+cache_read = 0.116052064725
+input = 0.4642082589
+output = 2.3210412945

@@ -1,0 +1,12 @@
+id = "openai/gpt-4.1-mini"
+name = "OpenAI: GPT 4.1 Mini"
+
+[features]
+tool_call = false
+
+[limit]
+context = 1047576
+
+[pricing]
+input = 0.442
+output = 1.768

@@ -1,0 +1,9 @@
+id = "gpt-image-2-flare"
+name = "gpt-image-2-flare"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

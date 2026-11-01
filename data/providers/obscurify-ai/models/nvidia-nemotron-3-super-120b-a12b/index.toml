@@ -1,0 +1,12 @@
+id = "nvidia/nemotron-3-super-120b-a12b"
+name = "NVIDIA: Nvidia Nemotron 3 Super 120B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.05525
+output = 0.27625

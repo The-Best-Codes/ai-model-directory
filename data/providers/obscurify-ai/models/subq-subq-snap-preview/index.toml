@@ -1,0 +1,12 @@
+id = "subq/subq-snap-preview"
+name = "Subq: SubQ Snap Preview"
+
+[features]
+tool_call = false
+
+[limit]
+context = 384000
+
+[pricing]
+input = 0.05525
+output = 0

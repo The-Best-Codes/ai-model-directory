@@ -1,0 +1,12 @@
+id = "google/gemma4-31b-splituntied"
+name = "Google: Gemma 4 31B Split-Untied"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.1105
+output = 0.3315

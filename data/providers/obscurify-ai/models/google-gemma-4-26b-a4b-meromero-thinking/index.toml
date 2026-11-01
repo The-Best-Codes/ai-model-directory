@@ -1,0 +1,12 @@
+id = "google/gemma-4-26b-a4b-meromero:thinking"
+name = "Google: Gemma 4 26B A4B MeroMero Thinking"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.1326
+output = 0.4199

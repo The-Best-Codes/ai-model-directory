@@ -1,4 +1,0 @@
-id = "minimax-m3-cheap:payg"
-
-[modalities]
-output = [ "text" ]

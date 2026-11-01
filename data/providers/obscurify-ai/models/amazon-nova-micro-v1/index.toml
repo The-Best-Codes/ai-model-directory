@@ -1,0 +1,12 @@
+id = "amazon/nova-micro-v1"
+name = "Amazon: Nova Micro 1.0"
+
+[features]
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.0455
+output = 0.182

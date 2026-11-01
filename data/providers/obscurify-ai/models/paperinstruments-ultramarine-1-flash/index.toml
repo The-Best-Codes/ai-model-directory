@@ -1,0 +1,9 @@
+id = "paperinstruments/ultramarine-1-flash"
+name = "Paperinstruments: Ultramarine 1 Flash"
+
+[features]
+tool_call = true
+
+[pricing]
+input = 0.16575
+output = 0.5525

@@ -1,0 +1,12 @@
+id = "google/gemma-4-26b-a4b-it"
+name = "Google: Gemma 4 26B A4B"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.01989
+output = 0.060775

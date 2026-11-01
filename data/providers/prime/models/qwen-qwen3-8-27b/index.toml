@@ -14,9 +14,10 @@ context = 131072
 output = 32768
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.04
-output = 2.2
+cache_read = 0.006
+input = 0.007
+output = 0.358

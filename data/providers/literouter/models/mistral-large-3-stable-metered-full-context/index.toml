@@ -1,0 +1,4 @@
+id = "mistral-large-3-stable:metered:full-context"
+
+[modalities]
+output = [ "text" ]

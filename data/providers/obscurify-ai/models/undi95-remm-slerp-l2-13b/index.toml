@@ -1,0 +1,12 @@
+id = "undi95/remm-slerp-l2-13b"
+name = "Undi95: ReMM SLERP 13B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 6144
+
+[pricing]
+input = 0.455
+output = 0.845

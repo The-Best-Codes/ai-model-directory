@@ -1,0 +1,12 @@
+id = "thedrummer/unslopnemo-12b"
+name = "TheDrummer: UnslopNemo 12B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 1024000
+
+[pricing]
+input = 0.52
+output = 0.52

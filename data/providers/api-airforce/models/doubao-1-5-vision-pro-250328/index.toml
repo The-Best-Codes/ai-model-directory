@@ -1,0 +1,14 @@
+id = "doubao-1.5-vision-pro-250328"
+name = "doubao-1.5-vision-pro-250328"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.45
+output = 1.34

@@ -1,0 +1,12 @@
+id = "surogate/rune-26b-a4b"
+name = "Surogate: Rune 26B-A4B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.04641
+output = 0

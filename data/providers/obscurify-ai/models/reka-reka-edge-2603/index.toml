@@ -1,0 +1,12 @@
+id = "reka/reka-edge-2603"
+name = "Reka: Reka Edge 2603"
+
+[features]
+tool_call = true
+
+[limit]
+context = 16384
+
+[pricing]
+input = 0.116025
+output = 0.116025

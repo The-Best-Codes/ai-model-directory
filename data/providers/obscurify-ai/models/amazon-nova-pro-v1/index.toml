@@ -1,0 +1,12 @@
+id = "amazon/nova-pro-v1"
+name = "Amazon: Amazon Nova Pro 1.0"
+
+[features]
+tool_call = false
+
+[limit]
+context = 300000
+
+[pricing]
+input = 0.882895
+output = 3.53158

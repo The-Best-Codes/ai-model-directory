@@ -1,0 +1,12 @@
+id = "rekaai/reka-edge"
+name = "Rekaai: Reka Edge"
+
+[features]
+tool_call = true
+
+[limit]
+context = 16384
+
+[pricing]
+input = 0.13
+output = 0.13

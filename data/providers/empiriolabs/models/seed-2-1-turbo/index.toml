@@ -9,7 +9,7 @@ structured_output = true
 tool_call = true
 
 [limit]
-context = 256000
+context = 229093
 output = 65536
 
 [modalities]

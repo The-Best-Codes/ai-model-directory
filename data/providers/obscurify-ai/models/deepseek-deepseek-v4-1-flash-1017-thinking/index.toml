@@ -1,0 +1,12 @@
+id = "deepseek/deepseek-v4.1-flash-1017:thinking"
+name = "DeepSeek: DeepSeek V4.1 Flash 1017 Thinking"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 0.1105
+output = 0.663

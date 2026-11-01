@@ -1,0 +1,12 @@
+id = "jaredpalmer/kev-4b"
+name = "Jaredpalmer: Kev 4B TEE"
+
+[features]
+tool_call = false
+
+[limit]
+context = 8192
+
+[pricing]
+input = 0.04641
+output = 0

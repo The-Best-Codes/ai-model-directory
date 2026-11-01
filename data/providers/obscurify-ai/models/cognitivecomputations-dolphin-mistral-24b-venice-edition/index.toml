@@ -1,0 +1,12 @@
+id = "cognitivecomputations/dolphin-mistral-24b-venice-edition"
+name = "Cognitivecomputations: Uncensored"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.26
+output = 1.17

@@ -1,0 +1,12 @@
+id = "microsoft/phi-4"
+name = "Microsoft: Phi 4"
+
+[features]
+tool_call = false
+
+[limit]
+context = 16384
+
+[pricing]
+input = 0.091
+output = 0.182

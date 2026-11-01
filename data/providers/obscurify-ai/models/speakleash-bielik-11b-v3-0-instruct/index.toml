@@ -1,0 +1,12 @@
+id = "speakleash/bielik-11b-v3.0-instruct"
+name = "Speakleash: Bielik 11B v3.0"
+
+[features]
+tool_call = true
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.5304
+output = 0.5304

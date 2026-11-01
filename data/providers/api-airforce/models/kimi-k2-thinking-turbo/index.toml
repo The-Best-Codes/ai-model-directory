@@ -1,0 +1,14 @@
+id = "kimi-k2-thinking-turbo"
+name = "kimi-k2-thinking-turbo"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.22
+output = 8.83

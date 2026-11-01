@@ -1,0 +1,12 @@
+id = "qwen/qwen3.8-27b-queen"
+name = "Qwen: Qwen 3.8 27B Queen"
+
+[features]
+tool_call = true
+
+[limit]
+context = 524288
+
+[pricing]
+input = 0.27625
+output = 1.6575

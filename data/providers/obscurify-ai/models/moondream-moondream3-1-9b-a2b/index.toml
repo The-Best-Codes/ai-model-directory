@@ -1,0 +1,12 @@
+id = "moondream/moondream3.1-9b-a2b"
+name = "Moondream: Moondream 3.1 9B A2B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.3315
+output = 2.7625

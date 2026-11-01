@@ -1,0 +1,12 @@
+id = "amazon/nova-lite-v1"
+name = "Amazon: Amazon Nova Lite 1.0"
+
+[features]
+tool_call = false
+
+[limit]
+context = 300000
+
+[pricing]
+input = 0.0657475
+output = 0.26299

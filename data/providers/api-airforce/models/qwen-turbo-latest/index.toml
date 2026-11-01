@@ -1,0 +1,14 @@
+id = "qwen-turbo-latest"
+name = "qwen-turbo-latest"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.21

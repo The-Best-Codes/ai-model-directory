@@ -1,0 +1,12 @@
+id = "aisingapore/gemma-sea-lion-v4-27b-it"
+name = "Aisingapore: Gemma SEA-LION v4 27B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.2652
+output = 0.5304

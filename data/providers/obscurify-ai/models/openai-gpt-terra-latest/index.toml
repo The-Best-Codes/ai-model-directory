@@ -1,0 +1,12 @@
+id = "openai/gpt-terra-latest"
+name = "OpenAI: GPT Terra Latest"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1050000
+
+[pricing]
+input = 1.105
+output = 5.525

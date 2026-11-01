@@ -1,0 +1,12 @@
+id = "cloudflare/clef-flash"
+name = "Cloudflare: Clef Flash"
+
+[features]
+tool_call = false
+
+[limit]
+context = 1800
+
+[pricing]
+input = 0.09945
+output = 0

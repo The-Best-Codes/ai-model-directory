@@ -1,0 +1,12 @@
+id = "sakana/fugu-ultra"
+name = "Sakana: Fugu Ultra"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1000000
+
+[pricing]
+input = 5.525
+output = 33.15

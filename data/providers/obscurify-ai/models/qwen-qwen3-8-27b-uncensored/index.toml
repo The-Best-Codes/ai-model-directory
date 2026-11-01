@@ -1,0 +1,12 @@
+id = "qwen/qwen3.8-27b-uncensored"
+name = "Qwen: Qwen 3.8 27B Uncensored"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 1.105
+output = 3.315

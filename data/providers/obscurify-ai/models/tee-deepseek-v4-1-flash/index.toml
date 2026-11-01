@@ -1,0 +1,12 @@
+id = "tee/deepseek-v4.1-flash"
+name = "TEE: DeepSeek V4.1 Flash TEE"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 0.71825
+output = 1.60225
