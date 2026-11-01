@@ -83,6 +83,7 @@ export const neuralwatt = modelDirectory["neuralwatt"]!;
 export const nousPortal = modelDirectory["nous-portal"]!;
 export const novita = modelDirectory["novita"]!;
 export const nvidia = modelDirectory["nvidia"]!;
+export const obscurifyAi = modelDirectory["obscurify-ai"]!;
 export const ofox = modelDirectory["ofox"]!;
 export const ollamaCloud = modelDirectory["ollama-cloud"]!;
 export const openai = modelDirectory["openai"]!;
