@@ -3,13 +3,13 @@ name = "google/gemini-3.1-pro"
 open_weights = false
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
 context = 1000000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

@@ -3,13 +3,13 @@ name = "@cf/meta/llama-3.2-11b-vision-instruct"
 open_weights = true
 
 [features]
-attachment = true
+attachment = false
 
 [limit]
 context = 128000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

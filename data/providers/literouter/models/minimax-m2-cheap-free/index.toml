@@ -1,4 +1,0 @@
-id = "minimax-m2-cheap:free"
-
-[modalities]
-output = [ "text" ]

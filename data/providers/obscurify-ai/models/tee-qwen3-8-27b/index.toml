@@ -1,0 +1,12 @@
+id = "tee/qwen3.8-27b"
+name = "TEE: Qwen3.8 27B TEE"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.442
+output = 3.315

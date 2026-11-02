@@ -1,0 +1,16 @@
+id = "inclusionai/ling-3.1-flash-1019:free"
+name = "Ling 3.1 Flash 1019 (free)"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

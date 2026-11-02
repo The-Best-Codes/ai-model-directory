@@ -2,5 +2,5 @@ id = "deepseek-r1-distill-qwen-32b"
 name = "deepseek-r1-distill-qwen-32b"
 
 [pricing]
-input = 0.0444092567681
-output = 0.133227770304
+input = 0.0444095908074
+output = 0.133228772422

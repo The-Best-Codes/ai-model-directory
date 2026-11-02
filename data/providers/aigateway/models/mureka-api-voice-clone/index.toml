@@ -1,0 +1,11 @@
+id = "mureka/api/voice/clone"
+name = "Mureka Voice Cloning"
+open_weights = true
+release_date = "1793318400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "audio" ]

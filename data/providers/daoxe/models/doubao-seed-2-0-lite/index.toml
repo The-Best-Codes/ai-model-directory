@@ -1,7 +1,2 @@
-id = "doubao-seed-2.0-lite"
-name = "doubao-seed-2.0-lite"
-
-[pricing]
-cache_read = 0.00257895540314
-input = 0.0128947770157
-output = 0.0773686620943
+id = "doubao-seed-2-0-lite"
+name = "doubao-seed-2-0-lite"

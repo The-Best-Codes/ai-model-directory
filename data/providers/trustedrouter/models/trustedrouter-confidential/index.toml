@@ -1,6 +1,6 @@
 id = "trustedrouter/confidential"
 name = "TrustedRouter Confidential"
-open_weights = false
+open_weights = true
 
 [features]
 attachment = true

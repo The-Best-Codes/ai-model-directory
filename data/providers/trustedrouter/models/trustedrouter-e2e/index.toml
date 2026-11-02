@@ -1,6 +1,6 @@
 id = "trustedrouter/e2e"
 name = "TrustedRouter E2E"
-open_weights = false
+open_weights = true
 
 [features]
 attachment = true

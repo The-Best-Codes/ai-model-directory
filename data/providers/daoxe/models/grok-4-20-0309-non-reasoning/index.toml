@@ -2,6 +2,6 @@ id = "grok-4.20-0309-non-reasoning"
 name = "grok-4.20-0309-non-reasoning"
 
 [pricing]
-cache_read = 0.03094721726
-input = 0.193420107875
-output = 0.38684021575
+cache_read = 0.03094745004
+input = 0.19342156275
+output = 0.3868431255

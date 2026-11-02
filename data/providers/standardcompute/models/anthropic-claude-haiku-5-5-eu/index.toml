@@ -1,4 +1,4 @@
-id = "anthropic/claude-haiku-5.5:eu"
+id = "anthropic/claude-haiku-5-5:eu"
 name = "Claude Haiku 5.5 · 🇪🇺 EU"
 
 [features]

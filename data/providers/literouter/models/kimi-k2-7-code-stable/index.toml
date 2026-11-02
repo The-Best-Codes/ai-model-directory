@@ -1,0 +1,4 @@
+id = "kimi-k2.7-code-stable"
+
+[modalities]
+output = [ "text" ]

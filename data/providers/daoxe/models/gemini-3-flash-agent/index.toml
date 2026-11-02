@@ -2,6 +2,6 @@ id = "gemini-3-flash-agent"
 name = "gemini-3-flash-agent"
 
 [pricing]
-cache_read = 0.007736804315
-input = 0.07736804315
-output = 0.4642082589
+cache_read = 0.00773686251
+input = 0.0773686251
+output = 0.4642117506
