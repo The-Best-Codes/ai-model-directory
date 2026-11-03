@@ -510,7 +510,7 @@ export function ModelTable({
               {totalRows.toLocaleString()} of {modelCount.toLocaleString()}{" "}
               models
             </span>
-            <span className="hidden sm:inline">
+            <span className="hidden sm:inline pl-1">
               Showing {totalRows.toLocaleString()} of{" "}
               {modelCount.toLocaleString()} models
               {providerId

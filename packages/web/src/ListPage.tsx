@@ -15,7 +15,7 @@ export function ListPage({
         directory={directory}
         modelSlugs={modelSlugs}
         title={
-          <h1 className="text-xl font-semibold tracking-tight">
+          <h1 className="text-xl font-semibold tracking-tight pl-1">
             All AI models
           </h1>
         }
