@@ -8,6 +8,7 @@ import { providersSeo } from "#/provider-seo";
 export const metadata: Metadata = {
   title: providersSeo.title,
   description: providersSeo.description,
+  alternates: { canonical: "/providers" },
   openGraph: {
     title: providersSeo.title,
     description: providersSeo.description,

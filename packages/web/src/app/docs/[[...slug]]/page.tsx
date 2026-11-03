@@ -55,7 +55,10 @@ export async function generateMetadata({
     };
   }
 
-  return getDocMetadata(docPath);
+  return {
+    ...getDocMetadata(docPath),
+    alternates: { canonical: slug ? `/docs/${slug}` : "/docs" },
+  };
 }
 
 export default async function Page({ params }: PageProps) {

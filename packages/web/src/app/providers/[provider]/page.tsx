@@ -50,6 +50,7 @@ export async function generateMetadata({
   return {
     title: seo.title,
     description: seo.description,
+    alternates: { canonical: `/providers/${provider}` },
     openGraph: {
       title: seo.title,
       description: seo.description,

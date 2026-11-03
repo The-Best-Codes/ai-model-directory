@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "All AI Models",
   description:
     "Search and compare AI model pricing, limits, modalities, features, and provider metadata.",
+  alternates: { canonical: "/list" },
 };
 
 export default async function Page() {

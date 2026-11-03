@@ -59,6 +59,7 @@ export async function generateMetadata({
   return {
     title,
     description,
+    alternates: { canonical: `/compare/${comparison.slug}` },
     openGraph: { title, description },
   };
 }
