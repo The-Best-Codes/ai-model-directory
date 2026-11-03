@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { Badge } from "#/components/ui/badge";
-import { Button } from "#/components/ui/button";
 import { loadDirectoryData } from "#/directory-data";
 import { providersSeo } from "#/provider-seo";
 
@@ -36,15 +35,7 @@ export default async function Page() {
   );
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-8 px-6 py-8">
-      <header className="flex items-center justify-between gap-4">
-        <Button asChild variant="outline">
-          <Link href="/">Home</Link>
-        </Button>
-        <Button asChild variant="outline">
-          <Link href="/list">Model List</Link>
-        </Button>
-      </header>
+    <main className="mx-auto flex w-full flex-1 max-w-4xl flex-col gap-8 px-6 py-8">
       <section className="space-y-3">
         <h1 className="text-3xl font-bold tracking-tight">
           {providersSeo.title}

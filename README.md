@@ -45,7 +45,7 @@ data/
           index.toml # generated: normalized model metadata
           metadata.toml # optional: hand-authored manual_data, extends, priorities, preserve
 packages/
-  models.agent-one.dev/ # website (list UI + /docs)
+  web/ # website (list UI + /docs)
   npm/ # published package containing the generated dataset
 src/
   providers/ # provider adapters

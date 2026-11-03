@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://models.agent-one.dev
+Host: https://modeldirectory.dev
 
 # Sitemaps
-Sitemap: https://models.agent-one.dev/sitemap.xml
+Sitemap: https://modeldirectory.dev/sitemap.xml

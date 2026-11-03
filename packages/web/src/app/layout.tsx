@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 
+import { SiteHeader } from "#/components/site-header";
 import { TooltipProvider } from "#/components/ui/tooltip";
+import { getDocPages } from "#/lib/docs";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://models.agent-one.dev"),
+  metadataBase: new URL("https://modeldirectory.dev"),
   title: {
     default: "AI Model Directory",
     template: "%s | AI Model Directory",
@@ -17,11 +19,13 @@ export const metadata: Metadata = {
     title: "AI Model Directory",
     description:
       "Browse pricing, context limits, features, and more across all major AI model providers.",
-    url: "https://models.agent-one.dev",
+    url: "https://modeldirectory.dev",
     siteName: "AI Model Directory",
     type: "website",
   },
 };
+
+const docPages = getDocPages().map(({ title, href }) => ({ title, href }));
 
 export default function RootLayout({
   children,
@@ -36,7 +40,10 @@ export default function RootLayout({
           defaultTheme="system"
           enableSystem={true}
         >
-          <TooltipProvider>{children}</TooltipProvider>
+          <TooltipProvider>
+            <SiteHeader docPages={docPages} />
+            {children}
+          </TooltipProvider>
         </ThemeProvider>
       </body>
     </html>
