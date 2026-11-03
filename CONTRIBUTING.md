@@ -47,7 +47,7 @@ Most providers can be refreshed without an API key (they expose public catalog e
 - `src/`: updater code and provider adapters
 - `data/`: generated model data (`providers/` TOML tree + `all.json`)
 - `packages/npm`: published package containing the generated dataset
-- `packages/models.agent-one.dev`: website (model browser + `/docs`)
+- `packages/web`: website (model browser + `/docs`)
 
 ## Refreshing The Data Locally
 
