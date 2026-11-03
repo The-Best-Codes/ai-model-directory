@@ -1,4 +1,4 @@
-id = "mistral-large:payg"
+id = "hy3:free"
 
 [modalities]
 output = [ "text" ]

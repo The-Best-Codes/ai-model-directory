@@ -1,4 +1,4 @@
-id = "gpt-6.1-sol-stable:payg"
+id = "aion-3.0:payg"
 
 [modalities]
 output = [ "text" ]

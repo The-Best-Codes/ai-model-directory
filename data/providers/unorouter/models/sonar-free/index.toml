@@ -1,0 +1,23 @@
+id = "sonar:free"
+name = "sonar:free"
+release_date = "1738013808"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+input = 128000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
