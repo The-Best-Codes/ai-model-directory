@@ -1,4 +1,4 @@
-id = "claude-sonnet-4-6"
+id = "claude-sonnet-4.6"
 name = "Anthropic: Claude Sonnet 4.6"
 release_date = "1771342990"
 
@@ -18,7 +18,6 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.04642117506
-cache_write = 0.58026468825
-input = 0.4642117506
-output = 2.321058753
+cache_read = 0.04647157296
+input = 0.4647157296
+output = 2.323578648

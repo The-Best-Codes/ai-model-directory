@@ -19,5 +19,5 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.112672755
-output = 0.67603653
+input = 0.11279508
+output = 0.67677048

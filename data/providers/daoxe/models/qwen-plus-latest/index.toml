@@ -2,6 +2,6 @@ id = "qwen-plus-latest"
 name = "qwen-plus-latest"
 
 [pricing]
-cache_read = 0.148547760192
-input = 0.74273880096
-output = 9.9031840128
+cache_read = 0.148709033472
+input = 0.74354516736
+output = 9.9139355648

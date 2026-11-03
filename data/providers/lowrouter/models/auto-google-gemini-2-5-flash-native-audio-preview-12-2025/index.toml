@@ -12,7 +12,7 @@ context = 1048576
 input = [ "audio", "text", "video" ]
 
 [pricing]
-cache_read = 0.508701746891
-cache_write = 0.508701746891
-input = 0.508701746891
-output = 2.03480474675
+cache_read = 0.507493438763
+cache_write = 0.507493438763
+input = 0.507493438763
+output = 2.02997151827

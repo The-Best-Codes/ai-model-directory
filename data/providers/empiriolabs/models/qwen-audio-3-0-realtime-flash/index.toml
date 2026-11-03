@@ -1,0 +1,20 @@
+id = "qwen-audio-3-0-realtime-flash"
+name = "Qwen Audio 3.0 Realtime Flash"
+release_date = "1786320000"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 16384
+output = 8192
+
+[modalities]
+input = [ "audio", "text" ]
+output = [ "audio", "text" ]
+
+[pricing]
+cache_read = 0.46
+input = 0.46
+output = 1.4

@@ -2,6 +2,6 @@ id = "claude-3-5-haiku"
 name = "claude-3-5-haiku"
 
 [pricing]
-cache_read = 0.012378980016
-input = 0.12378980016
-output = 0.6189490008
+cache_read = 0.012392419456
+input = 0.12392419456
+output = 0.6196209728

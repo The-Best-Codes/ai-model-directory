@@ -1,0 +1,21 @@
+id = "orca/orcacyber-minimax-m3.1-flash"
+name = "OrcaCyber MiniMax M3.1 Flash Uncensored"
+release_date = "1793577600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 261632
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.8
+output = 1.6

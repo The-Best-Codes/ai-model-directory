@@ -2,6 +2,6 @@ id = "o4-mini"
 name = "o4-mini"
 
 [pricing]
-cache_read = 0.042552743805
-input = 0.17021097522
-output = 0.68084390088
+cache_read = 0.04259894188
+input = 0.17039576752
+output = 0.68158307008

@@ -2,5 +2,5 @@ id = "gpt-5.6-luna-openai-compact"
 name = "gpt-5.6-luna-openai-compact"
 
 [pricing]
-input = 0.3094745004
-output = 1.8568470024
+input = 0.3098104864
+output = 1.8588629184

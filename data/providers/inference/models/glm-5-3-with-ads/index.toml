@@ -1,0 +1,19 @@
+id = "glm-5.3-with-ads"
+name = "glm-5.3-with-ads"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1048576
+output = 943718
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1425
+input = 0.855
+output = 2.85

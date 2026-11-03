@@ -2,6 +2,6 @@ id = "minimax-m2.7-highspeed"
 name = "minimax-m2.7-highspeed"
 
 [pricing]
-cache_read = 0.009284235012
-input = 0.09284235012
-output = 0.37136940048
+cache_read = 0.009294314592
+input = 0.09294314592
+output = 0.37177258368
