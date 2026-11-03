@@ -8,6 +8,7 @@ import { Badge } from "#/components/ui/badge";
 import { Button } from "#/components/ui/button";
 import { ModelTable } from "#/components/model-table";
 import { loadDirectoryData } from "#/directory-data";
+import { loadModelIndex } from "#/model-groups";
 import { getProviderSeo } from "#/provider-seo";
 
 export const ensureStatic = "navigation";
@@ -56,7 +57,10 @@ export async function generateMetadata({
 
 export default async function Page({ params }: PageProps) {
   const { provider } = await params;
-  const directory = await loadDirectoryData();
+  const [directory, { slugOverrides }] = await Promise.all([
+    loadDirectoryData(),
+    loadModelIndex(),
+  ]);
   const entry = directory[provider];
 
   if (!entry) {
@@ -111,7 +115,11 @@ export default async function Page({ params }: PageProps) {
         and limits on the provider&apos;s site before relying on them.
       </DataNotice>
       <section className="flex h-[70vh] min-h-96 flex-col">
-        <ModelTable directory={{ [entry.id]: entry }} providerId={entry.id} />
+        <ModelTable
+          directory={{ [entry.id]: entry }}
+          modelSlugs={{ [entry.id]: slugOverrides[entry.id] ?? {} }}
+          providerId={entry.id}
+        />
       </section>
     </main>
   );

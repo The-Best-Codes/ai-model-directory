@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { loadDirectoryData } from "#/directory-data";
 import { ListPage } from "#/ListPage";
+import { loadModelIndex } from "#/model-groups";
 
 export const metadata: Metadata = {
   title: "All AI Models",
@@ -10,7 +11,10 @@ export const metadata: Metadata = {
 };
 
 export default async function Page() {
-  const directory = await loadDirectoryData();
+  const [directory, { slugOverrides }] = await Promise.all([
+    loadDirectoryData(),
+    loadModelIndex(),
+  ]);
 
-  return <ListPage directory={directory} />;
+  return <ListPage directory={directory} modelSlugs={slugOverrides} />;
 }

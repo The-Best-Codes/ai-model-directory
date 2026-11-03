@@ -15,12 +15,19 @@ function isSameModelVariant(variant: string) {
   );
 }
 
-export function canonicalModelSlug(modelId: string): string {
+export function modelPathSegments(modelId: string): string[] {
   const segments = modelId.toLowerCase().split("/");
-  const last = segments.at(-1) ?? "";
-  const base = (
-    regionSegments.has(last) && segments.length > 1 ? segments.at(-2)! : last
-  ).replace(deploymentRegionSuffix, "");
+
+  return regionSegments.has(segments.at(-1) ?? "") && segments.length > 1
+    ? segments.slice(0, -1)
+    : segments;
+}
+
+export function canonicalModelSlug(modelId: string): string {
+  const base = (modelPathSegments(modelId).at(-1) ?? "").replace(
+    deploymentRegionSuffix,
+    "",
+  );
   const [name = "", ...variantParts] = base.split(":");
   const variant = variantParts.join(":");
   const slugSource =
@@ -31,6 +38,17 @@ export function canonicalModelSlug(modelId: string): string {
     .replace(/[^a-z0-9-]/g, "")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
+}
+
+export function qualifiedModelSlug(modelId: string): string {
+  const segments = modelPathSegments(modelId);
+  const path = segments.length > 2 ? segments.slice(1) : segments;
+
+  return canonicalModelSlug(
+    path
+      .filter((segment, index) => !path[index + 1]?.startsWith(segment))
+      .join("-"),
+  );
 }
 
 export function comparisonSlug(a: string, b: string): string {

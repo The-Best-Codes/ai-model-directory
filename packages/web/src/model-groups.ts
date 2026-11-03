@@ -1,6 +1,11 @@
 import { loadDirectoryData, type DirectoryData } from "#/directory-data";
 import { modelFeatureLabels } from "#/lib/format";
-import { canonicalModelSlug, comparisonSlug } from "#/lib/model-slug";
+import {
+  canonicalModelSlug,
+  comparisonSlug,
+  modelPathSegments,
+  qualifiedModelSlug,
+} from "#/lib/model-slug";
 import { normalizeSearchText } from "#/lib/search-text";
 
 type ProviderRecord = DirectoryData[string];
@@ -41,11 +46,14 @@ export type ModelComparison = {
   models: [ModelGroup, ModelGroup];
 };
 
+export type ModelSlugOverrides = Record<string, Record<string, string>>;
+
 type ModelIndex = {
   groups: Map<string, ModelGroup>;
   aliases: Map<string, string>;
   ranked: ModelGroup[];
   comparisons: Map<string, ModelComparison>;
+  slugOverrides: ModelSlugOverrides;
 };
 
 export const comparisonModelCount = 100;
@@ -80,13 +88,20 @@ function sharesNameToken(group: ModelGroup, nameText: string) {
   return group.slug.split("-").some((token) => nameTokens.has(token));
 }
 
+function compactsToName(group: ModelGroup, nameText: string) {
+  return group.slug.replaceAll("-", "") === nameText.replaceAll(" ", "");
+}
+
 function mergeGroupsByName(groups: ModelGroup[]) {
   const clusters = new Map<string, ModelGroup[]>();
 
   for (const group of groups) {
     const nameText = normalizeSearchText(group.name);
 
-    if (sharesNameToken(group, nameText)) {
+    if (
+      sharesNameToken(group, nameText) ||
+      compactsToName(group, nameText)
+    ) {
       const cluster = clusters.get(nameText) ?? [];
       cluster.push(group);
       clusters.set(nameText, cluster);
@@ -96,14 +111,17 @@ function mergeGroupsByName(groups: ModelGroup[]) {
   const merged = new Map(groups.map((group) => [group.slug, group]));
   const aliases = new Map<string, string>();
 
-  for (const cluster of clusters.values()) {
+  for (const [nameText, cluster] of clusters) {
     if (cluster.length < 2) {
       continue;
     }
 
     const [primary, ...duplicates] = cluster.toSorted(
       (a, b) =>
-        b.providerCount - a.providerCount || a.slug.length - b.slug.length,
+        b.providerCount - a.providerCount ||
+        Number(sharesNameToken(b, nameText)) -
+          Number(sharesNameToken(a, nameText)) ||
+        a.slug.length - b.slug.length,
     );
 
     for (const duplicate of duplicates) {
@@ -121,6 +139,60 @@ function mergeGroupsByName(groups: ModelGroup[]) {
   }
 
   return { groups: merged, aliases };
+}
+
+function hasSiblingParentsWithinProvider(offerings: ModelOffering[]) {
+  const parentsByNamespace = new Map<string, Set<string>>();
+
+  for (const offering of offerings) {
+    const parent = modelPathSegments(offering.model.id).slice(0, -1);
+
+    if (parent.length < 2) {
+      continue;
+    }
+
+    const namespace = `${offering.providerId}/${parent[0]}`;
+    const parents = parentsByNamespace.get(namespace) ?? new Set<string>();
+    parents.add(parent.join("/"));
+    parentsByNamespace.set(namespace, parents);
+  }
+
+  return [...parentsByNamespace.values()].some((parents) => parents.size > 1);
+}
+
+function isCollapsedGroup(slug: string, offerings: ModelOffering[]) {
+  const slugText = slug.replaceAll("-", " ");
+
+  return (
+    hasSiblingParentsWithinProvider(offerings) &&
+    !offerings.some(
+      (offering) => normalizeSearchText(offering.model.name ?? "") === slugText,
+    )
+  );
+}
+
+function splitCollapsedGroups(offeringsBySlug: Map<string, ModelOffering[]>) {
+  const split = new Map<string, ModelOffering[]>();
+  const qualifiedSlugs = new Map<ModelOffering, string>();
+
+  for (const [slug, offerings] of offeringsBySlug) {
+    const collapsed = isCollapsedGroup(slug, offerings);
+
+    for (const offering of offerings) {
+      const offeringSlug = collapsed
+        ? qualifiedModelSlug(offering.model.id)
+        : slug;
+      const group = split.get(offeringSlug) ?? [];
+      group.push(offering);
+      split.set(offeringSlug, group);
+
+      if (offeringSlug !== slug) {
+        qualifiedSlugs.set(offering, offeringSlug);
+      }
+    }
+  }
+
+  return { offeringsBySlug: split, qualifiedSlugs };
 }
 
 function computeModelIndex(directory: DirectoryData): ModelIndex {
@@ -144,11 +216,20 @@ function computeModelIndex(directory: DirectoryData): ModelIndex {
     }
   }
 
+  const { offeringsBySlug: splitOfferingsBySlug, qualifiedSlugs } =
+    splitCollapsedGroups(offeringsBySlug);
   const { groups, aliases } = mergeGroupsByName(
-    [...offeringsBySlug].map(([slug, offerings]) =>
+    [...splitOfferingsBySlug].map(([slug, offerings]) =>
       createGroup(slug, offerings),
     ),
   );
+  const slugOverrides: ModelSlugOverrides = {};
+
+  for (const [offering, slug] of qualifiedSlugs) {
+    slugOverrides[offering.providerId] ??= {};
+    slugOverrides[offering.providerId]![offering.model.id] =
+      aliases.get(slug) ?? slug;
+  }
 
   const ranked = [...groups.values()].sort(
     (a, b) => b.providerCount - a.providerCount || a.slug.localeCompare(b.slug),
@@ -163,7 +244,7 @@ function computeModelIndex(directory: DirectoryData): ModelIndex {
     }
   }
 
-  return { groups, aliases, ranked, comparisons };
+  return { groups, aliases, ranked, comparisons, slugOverrides };
 }
 
 function resolveModelGroup(index: ModelIndex, slug: string) {

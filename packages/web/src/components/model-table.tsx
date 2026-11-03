@@ -51,6 +51,7 @@ import {
   modelFeatureLabels,
 } from "#/lib/format";
 import { canonicalModelSlug } from "#/lib/model-slug";
+import type { ModelSlugOverrides } from "#/model-groups";
 
 const ROW_HEIGHT = 56;
 const OVERSCAN = 10;
@@ -351,14 +352,16 @@ const columns: ColumnDef<typeof features, ModelRow>[] = [
 
 export function ModelTable({
   directory,
+  modelSlugs,
   providerId,
 }: {
   directory: DirectoryData;
+  modelSlugs: ModelSlugOverrides;
   providerId?: string;
 }) {
   const { modelRows, modelCount, providerCount } = React.useMemo(
-    () => buildRows(directory, providerId),
-    [directory, providerId],
+    () => buildRows(directory, modelSlugs, providerId),
+    [directory, modelSlugs, providerId],
   );
   const [search, setSearch] = React.useState("");
   const deferredSearch = React.useDeferredValue(search.trim().toLowerCase());
@@ -765,6 +768,7 @@ function HeaderInfoTooltip({
 
 function buildRows(
   directory: DirectoryData,
+  modelSlugs: ModelSlugOverrides,
   providerId?: string,
 ): {
   modelRows: ModelRow[];
@@ -796,7 +800,8 @@ function buildRows(
         providerApiKeyEnv,
         modelId: model.id,
         modelName: model.name ?? model.id,
-        modelSlug: canonicalModelSlug(model.id),
+        modelSlug:
+          modelSlugs[provider.id]?.[model.id] ?? canonicalModelSlug(model.id),
         pricingInput: model.pricing?.input,
         pricingOutput: model.pricing?.output,
         pricingReasoning: model.pricing?.reasoning,
