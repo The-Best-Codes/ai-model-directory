@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: "https://modeldirectory.dev",
+  siteUrl: "https://www.modeldirectory.dev",
   generateRobotsTxt: true,
 };
 

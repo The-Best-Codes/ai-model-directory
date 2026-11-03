@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://modeldirectory.dev
+Host: https://www.modeldirectory.dev
 
 # Sitemaps
-Sitemap: https://modeldirectory.dev/sitemap.xml
+Sitemap: https://www.modeldirectory.dev/sitemap.xml

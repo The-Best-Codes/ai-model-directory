@@ -34,7 +34,7 @@ export default async function Page() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "AI Model Directory",
-    url: "https://modeldirectory.dev",
+    url: "https://www.modeldirectory.dev",
     description,
   };
 
