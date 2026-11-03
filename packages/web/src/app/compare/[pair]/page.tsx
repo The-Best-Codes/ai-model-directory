@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import type { ReactNode } from "react";
+import { Suspense, type ReactNode } from "react";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 
 import { DataNotice } from "#/components/data-notice";
+import { PageFallback } from "#/components/page-fallback";
 import { PriceQuoteValue, TagList } from "#/components/model-details";
 import {
   Table,
@@ -115,7 +116,7 @@ const rows: {
   },
 ];
 
-export default async function Page({ params }: PageProps) {
+async function ComparePage({ params }: PageProps) {
   const { pair } = await params;
   const comparison = await getComparison(pair);
 
@@ -181,5 +182,13 @@ export default async function Page({ params }: PageProps) {
         relying on these numbers.
       </DataNotice>
     </main>
+  );
+}
+
+export default function Page({ params }: PageProps) {
+  return (
+    <Suspense fallback={<PageFallback />}>
+      <ComparePage params={params} />
+    </Suspense>
   );
 }

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import type { ReactNode } from "react";
+import { Suspense, type ReactNode } from "react";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 
 import { DataNotice } from "#/components/data-notice";
+import { PageFallback } from "#/components/page-fallback";
 import { PriceQuoteValue, TagList } from "#/components/model-details";
 import { OfferingsTable, type OfferingRow } from "#/components/offerings-table";
 import { Badge } from "#/components/ui/badge";
@@ -120,7 +121,7 @@ function SummaryItem({
   );
 }
 
-export default async function Page({ params }: PageProps) {
+async function ModelPage({ params }: PageProps) {
   const { slug } = await params;
   const group = await getModelGroup(slug);
 
@@ -223,5 +224,13 @@ export default async function Page({ params }: PageProps) {
         </section>
       ) : null}
     </main>
+  );
+}
+
+export default function Page({ params }: PageProps) {
+  return (
+    <Suspense fallback={<PageFallback />}>
+      <ModelPage params={params} />
+    </Suspense>
   );
 }

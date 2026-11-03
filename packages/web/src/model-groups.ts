@@ -98,10 +98,7 @@ function mergeGroupsByName(groups: ModelGroup[]) {
   for (const group of groups) {
     const nameText = normalizeSearchText(group.name);
 
-    if (
-      sharesNameToken(group, nameText) ||
-      compactsToName(group, nameText)
-    ) {
+    if (sharesNameToken(group, nameText) || compactsToName(group, nameText)) {
       const cluster = clusters.get(nameText) ?? [];
       cluster.push(group);
       clusters.set(nameText, cluster);

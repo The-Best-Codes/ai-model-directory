@@ -18,8 +18,8 @@ import {
   IconArrowDown,
   IconArrowUp,
   IconArrowsUpDown,
+  IconFilter,
   IconInfoCircle,
-  IconSearch,
 } from "@tabler/icons-react";
 
 import { Badge } from "#/components/ui/badge";
@@ -354,10 +354,12 @@ export function ModelTable({
   directory,
   modelSlugs,
   providerId,
+  title,
 }: {
   directory: DirectoryData;
   modelSlugs: ModelSlugOverrides;
   providerId?: string;
+  title?: React.ReactNode;
 }) {
   const { modelRows, modelCount, providerCount } = React.useMemo(
     () => buildRows(directory, modelSlugs, providerId),
@@ -501,17 +503,8 @@ export function ModelTable({
   return (
     <div className="flex min-h-0 flex-1 flex-col gap-3 tabular-nums">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <div className="flex flex-1 flex-col gap-3 sm:flex-row sm:items-center">
-          <InputGroup className="sm:max-w-md">
-            <InputGroupAddon>
-              <IconSearch />
-            </InputGroupAddon>
-            <InputGroupInput
-              value={search}
-              onChange={(event) => setSearch(event.target.value)}
-              placeholder="Search models, providers, features, or modalities"
-            />
-          </InputGroup>
+        <div className="space-y-0.5">
+          {title}
           <p className="text-sm text-muted-foreground">
             <span className="sm:hidden">
               {totalRows.toLocaleString()} of {modelCount.toLocaleString()}{" "}
@@ -527,6 +520,17 @@ export function ModelTable({
           </p>
         </div>
         <div className="flex items-center gap-2">
+          <InputGroup className="sm:w-80">
+            <InputGroupAddon>
+              <IconFilter />
+            </InputGroupAddon>
+            <InputGroupInput
+              value={search}
+              onChange={(event) => setSearch(event.target.value)}
+              placeholder="Filter table rows"
+              aria-label="Filter table rows"
+            />
+          </InputGroup>
           <Button
             variant="outline"
             onClick={() => {
@@ -544,7 +548,7 @@ export function ModelTable({
         <div ref={viewportRef} className="h-full w-full overflow-auto">
           {rows.length === 0 ? (
             <div className="flex h-64 items-center justify-center text-sm text-muted-foreground">
-              No models match your search.
+              No models match your filter.
             </div>
           ) : (
             <table

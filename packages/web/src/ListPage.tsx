@@ -11,7 +11,15 @@ export function ListPage({
 }) {
   return (
     <main className="flex h-[calc(100dvh-3.5rem-1px)] w-full flex-col gap-3 p-3">
-      <ModelTable directory={directory} modelSlugs={modelSlugs} />
+      <ModelTable
+        directory={directory}
+        modelSlugs={modelSlugs}
+        title={
+          <h1 className="text-xl font-semibold tracking-tight">
+            All AI models
+          </h1>
+        }
+      />
     </main>
   );
 }

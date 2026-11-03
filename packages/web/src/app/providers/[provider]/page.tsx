@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { IconExternalLink } from "@tabler/icons-react";
 
 import { DataNotice } from "#/components/data-notice";
+import { PageFallback } from "#/components/page-fallback";
 import { Badge } from "#/components/ui/badge";
 import { Button } from "#/components/ui/button";
 import { ModelTable } from "#/components/model-table";
@@ -55,7 +57,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function Page({ params }: PageProps) {
+async function ProviderPage({ params }: PageProps) {
   const { provider } = await params;
   const [directory, { slugOverrides }] = await Promise.all([
     loadDirectoryData(),
@@ -122,5 +124,13 @@ export default async function Page({ params }: PageProps) {
         />
       </section>
     </main>
+  );
+}
+
+export default function Page({ params }: PageProps) {
+  return (
+    <Suspense fallback={<PageFallback />}>
+      <ProviderPage params={params} />
+    </Suspense>
   );
 }
