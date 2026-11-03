@@ -1,0 +1,4 @@
+id = "gpt-6.1-terra-cheap:64k-context"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,12 @@
+id = "abliteration-ai/abliterated-model"
+name = "Abliteration Ai: Abliterated Model"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[pricing]
+input = 1.105
+output = 3.315

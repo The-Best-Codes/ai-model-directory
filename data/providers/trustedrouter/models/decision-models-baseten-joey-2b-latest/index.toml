@@ -1,0 +1,17 @@
+id = "decision-models/baseten-joey-2b-latest"
+name = "joey-1"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.01055
+output = 0.01

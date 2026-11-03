@@ -1,0 +1,4 @@
+id = "deepseek-v4-flash-cheap:free"
+
+[modalities]
+output = [ "text" ]

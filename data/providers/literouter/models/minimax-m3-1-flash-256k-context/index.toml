@@ -1,4 +1,0 @@
-id = "minimax-m3.1-flash:256k-context"
-
-[modalities]
-output = [ "text" ]

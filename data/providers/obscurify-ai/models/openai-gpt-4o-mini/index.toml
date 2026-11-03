@@ -1,0 +1,12 @@
+id = "openai/gpt-4o-mini"
+name = "OpenAI: GPT-4o mini"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.16575
+output = 0.663

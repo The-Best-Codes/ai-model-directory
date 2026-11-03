@@ -1,0 +1,12 @@
+id = "mancer/weaver"
+name = "Mancer: Weaver (alpha)"
+
+[features]
+tool_call = false
+
+[limit]
+context = 8000
+
+[pricing]
+input = 0.52
+output = 0.975

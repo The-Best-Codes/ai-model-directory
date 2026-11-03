@@ -1,0 +1,12 @@
+id = "mistral-large-4"
+name = "mistral-large-4"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

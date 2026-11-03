@@ -1,0 +1,12 @@
+id = "elorian/glimpse"
+name = "Elorian: Elorian Glimpse"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.69615
+output = 3.48075

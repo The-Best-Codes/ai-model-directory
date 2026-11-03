@@ -1,9 +1,0 @@
-id = "doubao-seedream-3-0-t2i-250415"
-name = "doubao-seedream-3-0-t2i-250415"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "text" ]

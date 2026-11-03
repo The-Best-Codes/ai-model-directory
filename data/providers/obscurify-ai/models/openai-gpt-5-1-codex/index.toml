@@ -1,0 +1,12 @@
+id = "openai/gpt-5.1-codex"
+name = "OpenAI: GPT 5.1 Codex"
+
+[features]
+tool_call = false
+
+[limit]
+context = 400000
+
+[pricing]
+input = 1.38125
+output = 11.05

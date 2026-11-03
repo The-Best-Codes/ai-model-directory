@@ -1,0 +1,12 @@
+id = "moonshotai/kimi-k2-0905"
+name = "MoonshotAI: Kimi K2 0905"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.78
+output = 3.25

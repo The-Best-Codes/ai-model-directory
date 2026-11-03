@@ -1,0 +1,11 @@
+id = "speridlabs/idol"
+name = "Sperid Labs Idol"
+open_weights = true
+release_date = "1793318400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "file" ]

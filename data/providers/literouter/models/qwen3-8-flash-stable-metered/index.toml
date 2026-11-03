@@ -1,0 +1,4 @@
+id = "qwen3.8-flash-stable:metered"
+
+[modalities]
+output = [ "text" ]

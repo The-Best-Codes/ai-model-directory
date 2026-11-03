@@ -5,9 +5,6 @@ name = "Linkup Standard"
 attachment = false
 reasoning = true
 
-[limit]
-context = 100000
-
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

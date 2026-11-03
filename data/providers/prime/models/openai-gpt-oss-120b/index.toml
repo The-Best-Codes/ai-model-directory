@@ -1,5 +1,6 @@
 id = "openai/gpt-oss-120b"
 name = "gpt-oss-120b"
+release_date = "1754414231"
 
 [features]
 attachment = false
@@ -17,5 +18,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.35
-output = 0.75
+cache_read = 0.024
+input = 0.026
+output = 0.097

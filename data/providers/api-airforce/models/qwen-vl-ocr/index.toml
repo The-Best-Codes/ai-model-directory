@@ -1,0 +1,13 @@
+id = "qwen-vl-ocr"
+name = "qwen-vl-ocr"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 142.34
+output = 142.34

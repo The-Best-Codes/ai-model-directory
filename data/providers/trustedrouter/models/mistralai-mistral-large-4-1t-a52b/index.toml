@@ -1,0 +1,14 @@
+id = "mistralai/mistral-large-4-1t-a52b"
+name = "mistralai/mistral-large-4-1t-a52b"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2.11
+output = 10.55

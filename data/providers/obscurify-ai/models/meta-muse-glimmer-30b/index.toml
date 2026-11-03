@@ -1,0 +1,12 @@
+id = "meta/muse-glimmer-30b"
+name = "Meta: Muse Glimmer 30B"
+
+[features]
+tool_call = true
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.39
+output = 1.56

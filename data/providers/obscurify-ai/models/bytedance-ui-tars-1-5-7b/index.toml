@@ -1,0 +1,12 @@
+id = "bytedance/ui-tars-1.5-7b"
+name = "ByteDance: UI-TARS 7B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.13
+output = 0.26

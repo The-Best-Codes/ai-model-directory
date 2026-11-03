@@ -1,0 +1,14 @@
+id = "lucid-origin:free"
+name = "lucid-origin:free"
+release_date = "1754352000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

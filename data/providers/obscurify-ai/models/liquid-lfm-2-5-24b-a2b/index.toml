@@ -1,0 +1,12 @@
+id = "liquid/lfm-2.5-24b-a2b"
+name = "LiquidAI: LFM2.5 24B A2B"
+
+[features]
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.05525
+output = 0.7735

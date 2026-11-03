@@ -1,5 +1,5 @@
 id = "mistralai/mistral-medium-3-5"
-name = "Mistral: Mistral Medium 3.5"
+name = "mistral-medium-latest"
 open_weights = false
 
 [features]

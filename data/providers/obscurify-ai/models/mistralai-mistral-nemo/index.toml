@@ -1,0 +1,12 @@
+id = "mistralai/mistral-nemo"
+name = "Mistral: Mistral Nemo"
+
+[features]
+tool_call = true
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.0377
+output = 0.039

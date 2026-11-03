@@ -1,0 +1,12 @@
+id = "typesafe/jev-1.14"
+name = "Typesafe: Jev 1.14"
+
+[features]
+tool_call = false
+
+[limit]
+context = 64000
+
+[pricing]
+input = 0.04641
+output = 0

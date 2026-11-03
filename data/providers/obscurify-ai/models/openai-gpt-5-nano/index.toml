@@ -1,0 +1,12 @@
+id = "openai/gpt-5-nano"
+name = "OpenAI: GPT 5 Nano"
+
+[features]
+tool_call = false
+
+[limit]
+context = 400000
+
+[pricing]
+input = 0.05525
+output = 0.442

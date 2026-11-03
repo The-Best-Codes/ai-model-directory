@@ -1,0 +1,4 @@
+id = "mistral-large-3-stable"
+
+[modalities]
+output = [ "text" ]

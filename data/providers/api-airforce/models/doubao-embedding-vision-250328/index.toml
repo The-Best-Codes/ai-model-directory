@@ -1,0 +1,14 @@
+id = "doubao-embedding-vision-250328"
+name = "doubao-embedding-vision-250328"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.11
+output = 101.11

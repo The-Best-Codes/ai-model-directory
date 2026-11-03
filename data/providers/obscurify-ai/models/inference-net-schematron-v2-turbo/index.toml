@@ -1,0 +1,12 @@
+id = "inference-net/schematron-v2-turbo"
+name = "Inference.net: Schematron V2 Turbo"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.03315
+output = 0.16575

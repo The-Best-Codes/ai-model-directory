@@ -1,0 +1,12 @@
+id = "sao10k/l3.1-euryale-70b"
+name = "Sao10K: Llama 3.1 Euryale 70B v2.2"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 1.105
+output = 1.105

@@ -1,0 +1,17 @@
+id = "decision-models/baseten-mammoth-27b-latest"
+name = "mammoth-1"
+open_weights = false
+
+[features]
+attachment = true
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1055
+output = 0.01

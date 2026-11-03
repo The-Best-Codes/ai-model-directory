@@ -1,0 +1,14 @@
+id = "sdxl-lightning:free"
+name = "sdxl-lightning:free"
+release_date = "1708387200"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

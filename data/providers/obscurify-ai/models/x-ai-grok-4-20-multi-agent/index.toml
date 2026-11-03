@@ -1,0 +1,12 @@
+id = "x-ai/grok-4.20-multi-agent"
+name = "SpaceXAI: Grok 4.20 Multi-Agent"
+
+[features]
+tool_call = true
+
+[limit]
+context = 2000000
+
+[pricing]
+input = 1.38125
+output = 2.7625

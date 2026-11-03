@@ -1,0 +1,12 @@
+id = "vllm-sr/decision-small"
+name = "Vllm Sr: d3 Mini (Decision Small)"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.0221
+output = 0

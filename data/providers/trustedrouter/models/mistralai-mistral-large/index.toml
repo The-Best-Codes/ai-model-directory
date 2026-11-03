@@ -1,12 +1,12 @@
 id = "mistralai/mistral-large"
-name = "Mistral Large"
+name = "mistral-large-2512"
 open_weights = false
 
 [features]
 attachment = true
 
 [limit]
-context = 128000
+context = 262144
 
 [modalities]
 input = [ "image", "text" ]

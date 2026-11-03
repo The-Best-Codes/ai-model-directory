@@ -3,10 +3,10 @@ name = "nvidia/Gemma-4-31B-IT-NVFP4"
 open_weights = true
 
 [features]
-attachment = false
+attachment = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

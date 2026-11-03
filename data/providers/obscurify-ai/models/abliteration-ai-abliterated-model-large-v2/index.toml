@@ -1,0 +1,12 @@
+id = "abliteration-ai/abliterated-model-large-v2"
+name = "Abliteration Ai: Abliterated Model Large V2"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 3.315
+output = 5.525

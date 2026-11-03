@@ -1,0 +1,12 @@
+id = "subq/subq-snap-1.1"
+name = "Subq: SubQ Snap 1.1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 384000
+
+[pricing]
+input = 0.0442
+output = 0

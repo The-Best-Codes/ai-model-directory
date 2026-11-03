@@ -3,13 +3,13 @@ name = "ByteDance/Seed-2.0-code"
 open_weights = false
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
 context = 256000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

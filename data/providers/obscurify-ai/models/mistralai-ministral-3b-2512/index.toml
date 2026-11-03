@@ -1,0 +1,12 @@
+id = "mistralai/ministral-3b-2512"
+name = "Mistral: Ministral 3B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.1105
+output = 0.1105

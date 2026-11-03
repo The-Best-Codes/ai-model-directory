@@ -1,0 +1,12 @@
+id = "mistralai/mistral-small-24b-instruct-2501"
+name = "Mistral: Mistral Small 3"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.065
+output = 0.104

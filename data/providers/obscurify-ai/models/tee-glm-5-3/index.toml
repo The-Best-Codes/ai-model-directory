@@ -1,0 +1,12 @@
+id = "tee/glm-5.3"
+name = "TEE: GLM 5.3 TEE"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 1.547
+output = 4.862

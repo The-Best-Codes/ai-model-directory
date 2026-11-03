@@ -1,0 +1,14 @@
+id = "flux-2-dev:free"
+name = "flux-2-dev:free"
+release_date = "1764028800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 0
+output = 0

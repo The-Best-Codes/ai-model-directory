@@ -1,0 +1,12 @@
+id = "eu-jev/eu-jeff-latest"
+name = "Eu Jev: eu/jev Jeff Latest"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.0460160675
+output = 0

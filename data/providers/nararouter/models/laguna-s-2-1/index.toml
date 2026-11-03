@@ -3,7 +3,7 @@ name = "Laguna S 2.1"
 
 [features]
 attachment = false
-reasoning = true
+reasoning = false
 
 [limit]
 context = 262000

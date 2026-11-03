@@ -1,0 +1,12 @@
+id = "tencent/hunyuan-a13b-instruct"
+name = "Tencent: Hunyuan A13B Instruct"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.182
+output = 0.741

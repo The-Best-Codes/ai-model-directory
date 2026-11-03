@@ -1,0 +1,12 @@
+id = "openai/gpt-astra-latest"
+name = "OpenAI: GPT Astra Latest"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1050000
+
+[pricing]
+input = 11.05
+output = 55.25

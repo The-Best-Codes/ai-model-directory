@@ -1,0 +1,12 @@
+id = "nvidia/nemotron-3.5-content-safety"
+name = "NVIDIA: Nemotron 3.5 Content Safety"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.05525
+output = 0.16575

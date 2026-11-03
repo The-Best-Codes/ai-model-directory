@@ -1,0 +1,12 @@
+id = "jaredpalmer/kev-9b"
+name = "Jaredpalmer: Kev 9B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 8192
+
+[pricing]
+input = 0.03315
+output = 0

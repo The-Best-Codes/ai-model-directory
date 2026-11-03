@@ -1,0 +1,12 @@
+id = "google/gemini-2.5-flash-image"
+name = "Google: Nano Banana (Gemini 2.5 Flash Image)"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.39
+output = 3.25

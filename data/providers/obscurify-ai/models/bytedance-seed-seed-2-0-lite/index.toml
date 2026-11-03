@@ -1,0 +1,12 @@
+id = "bytedance-seed/seed-2.0-lite"
+name = "ByteDance Seed: ByteDance Seed 2.0 Lite"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.27625
+output = 2.21

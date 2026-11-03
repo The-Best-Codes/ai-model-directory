@@ -1,0 +1,12 @@
+id = "qwen/qwen3.8-27b-novelist"
+name = "Qwen: Qwen 3.8 27B Novelist"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.1105
+output = 0.663

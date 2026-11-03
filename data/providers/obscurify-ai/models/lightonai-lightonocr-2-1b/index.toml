@@ -1,0 +1,12 @@
+id = "lightonai/lightonocr-2-1b"
+name = "Lightonai: LightOnOCR 2"
+
+[features]
+tool_call = true
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.1972425
+output = 0.3828825

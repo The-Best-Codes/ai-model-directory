@@ -1,4 +1,0 @@
-id = "ministral-3-3b-instruct:free"
-
-[modalities]
-output = [ "text" ]

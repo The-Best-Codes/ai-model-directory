@@ -1,0 +1,12 @@
+id = "openai/gpt-4.1"
+name = "OpenAI: GPT 4.1"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1047576
+
+[pricing]
+input = 2.21
+output = 8.84

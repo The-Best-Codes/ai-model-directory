@@ -1,0 +1,14 @@
+id = "kimi-k2-0905-preview"
+name = "kimi-k2-0905-preview"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 2.42

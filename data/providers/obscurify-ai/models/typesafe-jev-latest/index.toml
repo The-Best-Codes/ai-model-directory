@@ -1,0 +1,12 @@
+id = "typesafe/jev-latest"
+name = "Typesafe: Jev Latest"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.04641
+output = 0

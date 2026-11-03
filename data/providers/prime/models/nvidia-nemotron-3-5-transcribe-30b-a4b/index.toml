@@ -1,0 +1,17 @@
+id = "nvidia/nemotron-3.5-transcribe-30b-a4b"
+name = "Nemotron 3.5 Transcribe 30B A4B"
+release_date = "1791413421"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+input = 16.6667
+output = 0

@@ -1,0 +1,12 @@
+id = "qwen/qwen3.8-27b-synthia"
+name = "Qwen: Qwen 3.8 27B Synthia"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.1105
+output = 0.663

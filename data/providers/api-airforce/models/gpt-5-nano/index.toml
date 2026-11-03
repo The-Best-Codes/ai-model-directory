@@ -2,15 +2,16 @@ id = "gpt-5-nano"
 name = "gpt-5-nano"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.025
-cache_write = 0
-input = 0.05
-output = 0.34
+cache_read = 0.02
+cache_write = 0.08
+input = 0.06
+output = 0.45

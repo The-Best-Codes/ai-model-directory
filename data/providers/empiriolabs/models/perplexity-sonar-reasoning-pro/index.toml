@@ -6,7 +6,7 @@ attachment = true
 reasoning = true
 
 [limit]
-context = 128000
+context = 919330
 output = 131072
 
 [modalities]

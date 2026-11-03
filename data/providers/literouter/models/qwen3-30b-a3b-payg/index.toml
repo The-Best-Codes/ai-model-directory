@@ -1,4 +1,0 @@
-id = "qwen3-30b-a3b:payg"
-
-[modalities]
-output = [ "text" ]

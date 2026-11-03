@@ -1,0 +1,12 @@
+id = "z-ai/glm-5.3-flash-apex"
+name = "Z.ai: Apex Flash 1"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 0.16575
+output = 0.5525

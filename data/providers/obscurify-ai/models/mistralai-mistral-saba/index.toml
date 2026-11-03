@@ -1,0 +1,12 @@
+id = "mistralai/mistral-saba"
+name = "Mistral: Mistral Saba"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.2197845
+output = 0.657475

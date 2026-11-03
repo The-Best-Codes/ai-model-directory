@@ -1,0 +1,12 @@
+id = "upstage/solar-mini4"
+name = "Upstage: Solar Mini 4"
+
+[features]
+tool_call = true
+
+[limit]
+context = 524288
+
+[pricing]
+input = 0.05525
+output = 0.221

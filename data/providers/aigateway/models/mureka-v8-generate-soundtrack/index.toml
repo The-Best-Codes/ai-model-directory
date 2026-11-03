@@ -1,0 +1,11 @@
+id = "mureka/v8/generate/soundtrack"
+name = "Mureka 8 Soundtrack Generation"
+open_weights = true
+release_date = "1793318400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,12 @@
+id = "qwen/qwen3.5-397b-a17b"
+name = "Qwen: Qwen3.5 397B A17B"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.43095
+output = 2.5857

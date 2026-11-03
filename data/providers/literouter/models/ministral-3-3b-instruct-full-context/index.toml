@@ -1,4 +1,0 @@
-id = "ministral-3-3b-instruct:full-context"
-
-[modalities]
-output = [ "text" ]

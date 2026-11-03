@@ -1,0 +1,12 @@
+id = "heabsy/qwen3.8-27b-uncensored-fast"
+name = "Heabsy: Qwen 3.8 27B Uncensored Fast by Heabsy"
+
+[features]
+tool_call = true
+
+[limit]
+context = 524288
+
+[pricing]
+input = 1.105
+output = 3.315

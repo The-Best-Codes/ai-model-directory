@@ -1,0 +1,12 @@
+id = "meta-llama/llama-3.3-70b-instruct"
+name = "Meta: Llama 3.3 70b Instruct"
+
+[features]
+tool_call = true
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.05525
+output = 0.25415

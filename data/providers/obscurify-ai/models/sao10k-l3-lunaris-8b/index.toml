@@ -1,0 +1,12 @@
+id = "sao10k/l3-lunaris-8b"
+name = "Sao10K: Llama 3 8B Lunaris"
+
+[features]
+tool_call = false
+
+[limit]
+context = 8192
+
+[pricing]
+input = 0.052
+output = 0.065

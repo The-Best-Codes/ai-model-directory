@@ -1,0 +1,23 @@
+id = "sakana/sakana-namazu"
+name = "Sakana: Sakana Namazu"
+release_date = "1786410129"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.15
+input = 0.95
+output = 4

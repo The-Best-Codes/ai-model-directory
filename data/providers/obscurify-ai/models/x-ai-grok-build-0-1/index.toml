@@ -1,0 +1,12 @@
+id = "x-ai/grok-build-0.1"
+name = "SpaceXAI: Grok Build 0.1"
+
+[features]
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+input = 1.105
+output = 2.21

@@ -1,0 +1,12 @@
+id = "inception/mercury-3"
+name = "Inception: Mercury 3"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1000000
+
+[pricing]
+input = 0.1105
+output = 0.38675
