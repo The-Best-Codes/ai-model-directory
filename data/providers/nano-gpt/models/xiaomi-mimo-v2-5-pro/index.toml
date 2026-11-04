@@ -1,5 +1,5 @@
 id = "xiaomi/mimo-v2.5-pro"
-name = "MiMo V2.5 Pro"
+name = "MiMo V2.5 Pro (Deprecated)"
 release_date = "1776816000"
 
 [features]
@@ -17,5 +17,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.435
-output = 0.87
+input = 0.49
+output = 0.97

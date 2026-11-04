@@ -2,5 +2,5 @@ id = "gemini-embedding-001"
 name = "gemini-embedding-001"
 
 [pricing]
-input = 0.18678865248
-output = 0.74715460992
+input = 0.18616768974
+output = 0.74467075896

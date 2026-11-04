@@ -1,0 +1,12 @@
+id = "gemini-3.8-flash-high"
+name = "gemini-3.8-flash-high"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 7.5
+output = 30

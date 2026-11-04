@@ -11,7 +11,7 @@ context = 8000
 input = [ "text" ]
 
 [pricing]
-cache_read = 0.15685434897
-cache_write = 0.15685434897
-input = 0.15685434897
+cache_read = 0.15697783629
+cache_write = 0.15697783629
+input = 0.15697783629
 output = 0

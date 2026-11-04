@@ -1,0 +1,8 @@
+id = "embed-5-pro"
+name = "Embed 5 Pro"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

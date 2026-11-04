@@ -6,7 +6,7 @@ release_date = "1792778188"
 attachment = true
 reasoning = true
 structured_output = true
-temperature = false
+temperature = true
 tool_call = true
 
 [limit]
@@ -18,5 +18,5 @@ input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-input = 22.5
-output = 22.5
+input = 11.25
+output = 11.25

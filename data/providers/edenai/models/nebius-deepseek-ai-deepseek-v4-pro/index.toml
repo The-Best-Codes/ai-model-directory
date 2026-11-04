@@ -1,6 +1,6 @@
 id = "nebius/deepseek-ai/DeepSeek-V4-Pro"
 name = "nebius/deepseek-ai/DeepSeek-V4-Pro"
-release_date = "1782119040"
+release_date = "1777000679"
 
 [features]
 attachment = false

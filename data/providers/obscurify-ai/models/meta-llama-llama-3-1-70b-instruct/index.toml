@@ -2,11 +2,11 @@ id = "meta-llama/llama-3.1-70b-instruct"
 name = "Meta: Llama 3.1 70B Instruct"
 
 [features]
-tool_call = true
+tool_call = false
 
 [limit]
 context = 131072
 
 [pricing]
-input = 0.52
-output = 0.52
+input = 0.936
+output = 0.936

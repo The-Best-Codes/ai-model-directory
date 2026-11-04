@@ -1,0 +1,21 @@
+id = "sicariussicariistuff/assistant-pepe-32b"
+name = "Assistant Pepe 32B"
+release_date = "1793664000"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 40960
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.45

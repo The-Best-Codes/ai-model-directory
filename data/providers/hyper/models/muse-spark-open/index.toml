@@ -1,0 +1,20 @@
+id = "muse-spark-open"
+name = "Muse Spark Open"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+output = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.17
+cache_write = 0
+input = 1.4
+output = 4.65

@@ -1,0 +1,9 @@
+id = "gpt-transcribe"
+name = "gpt-transcribe"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

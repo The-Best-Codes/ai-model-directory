@@ -1,0 +1,18 @@
+id = "deepseek-v4.1-flash-abliterated"
+name = "DeepSeek v4.1 Flash Abliterated"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0270087120666
+input = 0.214855528545
+output = 0.769723873337

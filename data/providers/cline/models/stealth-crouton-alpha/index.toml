@@ -1,0 +1,22 @@
+id = "stealth/crouton-alpha"
+name = "Crouton Alpha"
+release_date = "1793669930"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 943718
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

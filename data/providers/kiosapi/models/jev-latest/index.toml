@@ -1,0 +1,12 @@
+id = "jev-latest"
+name = "jev-latest"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 75
+output = 75

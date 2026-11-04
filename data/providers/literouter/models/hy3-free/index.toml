@@ -1,4 +1,0 @@
-id = "hy3:free"
-
-[modalities]
-output = [ "text" ]

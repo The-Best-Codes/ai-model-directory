@@ -1,4 +1,0 @@
-id = "gemini-3.8-flash-thinking:payg"
-
-[modalities]
-output = [ "text" ]

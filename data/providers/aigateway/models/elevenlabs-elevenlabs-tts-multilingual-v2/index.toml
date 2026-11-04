@@ -1,7 +1,7 @@
 id = "elevenlabs/elevenlabs-tts-multilingual-v2"
 name = "ElevenLabs TTS Multilingual v2"
 open_weights = true
-release_date = "1782259200"
+release_date = "1793577600"
 
 [features]
 attachment = false

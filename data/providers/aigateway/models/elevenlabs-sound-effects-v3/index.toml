@@ -1,0 +1,11 @@
+id = "elevenlabs/sound-effects/v3"
+name = "ElevenLabs Sound Effects V3"
+open_weights = true
+release_date = "1793577600"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -2,5 +2,5 @@ id = "auto-basic__qwen35"
 name = "auto-basic__qwen35"
 
 [pricing]
-input = 0.392256170208
-output = 3.2688014184
+input = 0.390952148454
+output = 3.25793457045

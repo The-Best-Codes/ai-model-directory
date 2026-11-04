@@ -1,7 +1,7 @@
 id = "meta/sam-3-image"
 name = "Segment Anything Model 3"
 open_weights = true
-release_date = "1792454400"
+release_date = "1793577600"
 
 [features]
 attachment = true

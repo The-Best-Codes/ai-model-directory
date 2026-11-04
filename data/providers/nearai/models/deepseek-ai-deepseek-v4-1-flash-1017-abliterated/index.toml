@@ -3,7 +3,7 @@ name = "DeepSeek V4.1 Flash 1017 Abliterated"
 release_date = "1793291306"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
 temperature = false
@@ -13,7 +13,7 @@ tool_call = true
 context = 1048576
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

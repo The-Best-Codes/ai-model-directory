@@ -1,0 +1,23 @@
+id = "gemini-3.1-flash-image-preview"
+name = "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)"
+release_date = "1772119558"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 65536
+output = 58982
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+cache_read = 7.5
+input = 75
+output = 300

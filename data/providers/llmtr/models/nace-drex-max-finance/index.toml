@@ -1,0 +1,17 @@
+id = "nace/drex-max-finance"
+name = "Drex Max Finance"
+release_date = "1793728545"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.03
+output = 0

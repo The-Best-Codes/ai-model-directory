@@ -3,5 +3,5 @@ name = "grok-4.1#search"
 release_date = "1763337600"
 
 [pricing]
-input = 0.030078688
-output = 0.07519672
+input = 0.029978694
+output = 0.074946735

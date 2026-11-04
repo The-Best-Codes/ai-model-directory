@@ -6,9 +6,15 @@ attachment = false
 tool_call = true
 
 [limit]
-context = 32768
-output = 32768
+context = 163840
+output = 81920
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.748841921589
+cache_write = 0.748841921589
+input = 0.748841921589
+output = 2.24652352622

@@ -1,4 +1,0 @@
-id = "gpt-6-astra-stable:payg"
-
-[modalities]
-output = [ "text" ]

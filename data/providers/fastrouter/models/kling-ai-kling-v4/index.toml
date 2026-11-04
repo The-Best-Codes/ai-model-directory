@@ -1,0 +1,18 @@
+id = "kling-ai/kling-v4"
+name = "Kling AI: Kling V4"
+release_date = "1792022400"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 400000
+output = 4096
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "video" ]

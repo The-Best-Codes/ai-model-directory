@@ -4,8 +4,11 @@ release_date = "1756742628"
 
 [features]
 attachment = false
-structured_output = true
+structured_output = false
 tool_call = true
+
+[limit]
+context = 32768
 
 [modalities]
 input = [ "text" ]

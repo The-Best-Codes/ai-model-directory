@@ -1,5 +1,4 @@
 id = "openai/gpt-5.5"
-knowledge_cutoff = "1764547200"
 name = "OpenAI: GPT-5.5"
 release_date = "1777051893"
 
@@ -15,7 +14,7 @@ context = 1050000
 output = 128000
 
 [modalities]
-input = [ "file", "image", "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
