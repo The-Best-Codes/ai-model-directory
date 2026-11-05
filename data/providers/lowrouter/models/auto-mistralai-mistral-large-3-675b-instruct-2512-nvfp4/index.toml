@@ -1,0 +1,18 @@
+id = "auto/mistralai/mistral-large-3-675b-instruct-2512-nvfp4"
+name = "auto/mistralai/mistral-large-3-675b-instruct-2512-nvfp4"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.01284351274
+cache_write = 1.01284351274
+input = 1.01284351274
+output = 2.53210878185

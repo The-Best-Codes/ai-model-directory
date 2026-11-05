@@ -1,0 +1,19 @@
+id = "prism-core"
+name = "Prism Core"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.283088
+cache_write = 0
+input = 1.52432
+output = 4.79072

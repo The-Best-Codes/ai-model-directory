@@ -1,0 +1,16 @@
+id = "nscale/mistralai/mistral-large-3-675b-instruct-2512-nvfp4"
+name = "nscale/mistralai/mistral-large-3-675b-instruct-2512-nvfp4"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1.01284351274
+output = 2.53210878185

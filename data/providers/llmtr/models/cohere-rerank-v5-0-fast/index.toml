@@ -1,0 +1,15 @@
+id = "cohere/rerank-v5.0-fast"
+name = "Cohere Rerank 5 Fast"
+release_date = "1793815708"
+
+[features]
+attachment = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02

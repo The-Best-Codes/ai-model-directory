@@ -3,7 +3,7 @@ name = "Muse Spark 1.3 Contributor"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00479880146113
-input = 0.0194359163398
-output = 0.0388718326796
+cache_read = 0.00480094002999
+input = 0.019444577887
+output = 0.038889155774

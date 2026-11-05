@@ -1,0 +1,18 @@
+id = "morph/reflex"
+name = "Reflex"
+release_date = "1793824539"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.008
+input = 0.042
+output = 0

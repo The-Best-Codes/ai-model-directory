@@ -1,0 +1,16 @@
+id = "hy4"
+name = "hy4"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.4412
+input = 0.8823
+output = 2.647

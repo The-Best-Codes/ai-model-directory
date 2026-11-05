@@ -1,0 +1,10 @@
+id = "llama-instant"
+name = "llama-instant"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

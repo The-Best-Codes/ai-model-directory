@@ -1,4 +1,0 @@
-id = "muse-spark-1.3:payg"
-
-[modalities]
-output = [ "text" ]

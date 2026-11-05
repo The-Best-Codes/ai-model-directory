@@ -1,6 +1,6 @@
 id = "nebius/Qwen/Qwen3.8-27B"
 name = "nebius/Qwen/Qwen3.8-27B"
-release_date = "1790399645"
+release_date = "1786722910"
 
 [features]
 attachment = true

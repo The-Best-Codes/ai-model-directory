@@ -1,0 +1,10 @@
+id = "LongCat-2.5"
+name = "LongCat-2.5"
+
+[features]
+reasoning = true
+
+[pricing]
+cache_read = 0.006
+input = 0.24
+output = 0.96

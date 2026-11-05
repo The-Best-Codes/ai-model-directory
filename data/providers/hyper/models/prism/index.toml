@@ -6,7 +6,7 @@ attachment = true
 
 [limit]
 context = 1000000
-output = 16000
+output = 131072
 
 [modalities]
 input = [ "image", "text" ]

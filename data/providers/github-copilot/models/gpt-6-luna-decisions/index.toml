@@ -1,0 +1,13 @@
+id = "gpt-6-luna-decisions"
+name = "GPT-6 Luna Decisions"
+
+[features]
+reasoning = false
+
+[limit]
+context = 1000000
+input = 872000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,21 @@
+id = "openai/o3-deep-research"
+name = "openai/o3-deep-research"
+release_date = "1760129661"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 2.5
+input = 10
+output = 40

@@ -1,0 +1,14 @@
+id = "hume/audio-decision-model"
+name = "Audio Decision Model"
+release_date = "1793805757"
+
+[features]
+attachment = true
+structured_output = true
+
+[modalities]
+input = [ "audio", "text" ]
+
+[pricing]
+input = 0.47
+output = 0

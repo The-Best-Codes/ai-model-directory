@@ -1,5 +1,5 @@
 id = "tencent/hy4"
-name = "Tencent: Hy4"
+name = "Tencent: Tencent Hy4"
 
 [features]
 tool_call = true
@@ -8,5 +8,5 @@ tool_call = true
 context = 1048576
 
 [pricing]
-input = 0.5421
-output = 1.62565
+input = 0.51051
+output = 1.53153

@@ -1,6 +1,5 @@
 id = "moonshotai/kimi-k3"
 name = "MoonshotAI: Kimi K3"
-open_weights = true
 release_date = "1784215858"
 
 [features]
@@ -12,13 +11,12 @@ tool_call = true
 
 [limit]
 context = 1048576
-output = 943718
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.19
-input = 0.2
-output = 16
+cache_read = 0.2
+input = 0.99
+output = 8.99

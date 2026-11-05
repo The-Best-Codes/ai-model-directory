@@ -1,0 +1,21 @@
+id = "fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast"
+name = "fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast"
+release_date = "1793855556"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.048
+input = 2.4
+output = 9.6

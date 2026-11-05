@@ -1,0 +1,9 @@
+id = "umans-kimi-k3.1-pro-lab"
+name = "umans-kimi-k3.1-pro-lab"
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,8 @@
+id = "nemotron-3.5-rerank-8b:free"
+name = "nemotron-3.5-rerank-8b:free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

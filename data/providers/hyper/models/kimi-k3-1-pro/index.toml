@@ -1,0 +1,20 @@
+id = "kimi-k3.1-pro"
+name = "Kimi K3.1 Pro"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.22
+cache_write = 0
+input = 2.2
+output = 11

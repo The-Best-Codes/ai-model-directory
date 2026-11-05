@@ -1,0 +1,21 @@
+id = "together_ai/ricursive-ai/Ripple-65B-Preview"
+name = "together_ai/ricursive-ai/Ripple-65B-Preview"
+release_date = "1793855556"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.2
+output = 0.6

@@ -1,0 +1,8 @@
+id = "rerank-4-pro"
+name = "Rerank 4 Pro"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

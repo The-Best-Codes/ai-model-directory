@@ -1,0 +1,14 @@
+id = "gpt-image-2.6-sunburst"
+name = "GPT-Image-2.6 Sunburst"
+release_date = "1793222670"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 1.25
+input = 5

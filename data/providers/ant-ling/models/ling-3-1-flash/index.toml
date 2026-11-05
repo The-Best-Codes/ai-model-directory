@@ -7,13 +7,13 @@ reasoning = true
 temperature = true
 
 [limit]
-context = 256000
+context = 1000000
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.014989347
-input = 0.074946735
-output = 0.224840205
+cache_read = 0.014961019
+input = 0.074805095
+output = 0.224415285

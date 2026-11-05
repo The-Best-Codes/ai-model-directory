@@ -1,0 +1,16 @@
+id = "auto/regolo/brick-v1-beta/europe"
+name = "auto/regolo/brick-v1-beta/europe"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.112313541
+cache_write = 0.112313541
+input = 0.112313541
+output = 0.224627082

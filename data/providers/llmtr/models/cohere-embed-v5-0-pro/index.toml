@@ -1,0 +1,15 @@
+id = "cohere/embed-v5.0-pro"
+name = "Cohere Embed 5 Pro"
+release_date = "1793815708"
+
+[features]
+attachment = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.12

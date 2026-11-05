@@ -1,0 +1,18 @@
+id = "ricursive-ai/Ripple-65B-Preview"
+name = "Ripple 65B Preview"
+release_date = "1793816203"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02
+input = 0.2
+output = 0.6
