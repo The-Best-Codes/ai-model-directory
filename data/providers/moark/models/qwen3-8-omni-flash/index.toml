@@ -14,5 +14,5 @@ input = [ "audio", "image", "text" ]
 output = [ "audio", "text" ]
 
 [pricing]
-input = 0.119688152
-output = 0.403947513
+input = 0.119952112
+output = 0.404838378

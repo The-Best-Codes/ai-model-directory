@@ -1,0 +1,13 @@
+id = "openrouter/auto"
+name = "Auto Router"
+release_date = "1793938429"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 2000000
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]

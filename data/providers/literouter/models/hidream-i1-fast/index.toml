@@ -1,4 +1,0 @@
-id = "hidream-i1-fast"
-
-[modalities]
-output = [ "image" ]

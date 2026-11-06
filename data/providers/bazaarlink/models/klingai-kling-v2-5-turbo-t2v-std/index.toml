@@ -1,0 +1,9 @@
+id = "klingai/kling-v2.5-turbo-t2v-std"
+name = "Kling V2.5 Turbo T2v Std"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

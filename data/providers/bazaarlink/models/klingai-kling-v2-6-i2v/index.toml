@@ -1,0 +1,9 @@
+id = "klingai/kling-v2.6-i2v"
+name = "Kling V2.6 I2v"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

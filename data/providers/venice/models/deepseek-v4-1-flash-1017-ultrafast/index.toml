@@ -1,0 +1,22 @@
+id = "deepseek-v4-1-flash-1017-ultrafast"
+name = "DeepSeek V4.1 Flash 1017 Ultrafast"
+release_date = "1792713600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 3
+output = 12

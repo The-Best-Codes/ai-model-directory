@@ -5,9 +5,6 @@ release_date = "1777134643"
 [features]
 attachment = true
 
-[limit]
-context = 32000
-
 [modalities]
 input = [ "image", "text" ]
 

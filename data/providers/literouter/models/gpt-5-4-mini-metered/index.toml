@@ -1,4 +1,0 @@
-id = "gpt-5.4-mini:metered"
-
-[modalities]
-output = [ "text" ]

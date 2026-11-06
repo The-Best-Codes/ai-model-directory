@@ -1,0 +1,23 @@
+id = "reka-edge-2603"
+name = "reka-edge-2603"
+release_date = "1774026965"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 16384
+input = 16384
+output = 14745
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.11
+output = 0.11

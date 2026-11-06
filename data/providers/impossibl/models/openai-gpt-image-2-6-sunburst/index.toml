@@ -1,0 +1,13 @@
+id = "openai/gpt-image-2.6-sunburst"
+name = "GPT Image 2.6 Sunburst"
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 5
+output = 30

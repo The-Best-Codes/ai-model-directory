@@ -1,0 +1,14 @@
+id = "tencent/hy4"
+name = "Hunyuan 4"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.021
+input = 0.417
+output = 1.2505

@@ -1,0 +1,9 @@
+id = "alibaba/wan3.0-prime"
+name = "Wan3.0 Prime"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

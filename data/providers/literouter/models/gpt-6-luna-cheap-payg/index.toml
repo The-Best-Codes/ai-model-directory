@@ -1,4 +1,0 @@
-id = "gpt-6-luna-cheap:payg"
-
-[modalities]
-output = [ "text" ]

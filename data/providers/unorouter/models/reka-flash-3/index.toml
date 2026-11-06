@@ -1,0 +1,24 @@
+id = "reka-flash-3"
+knowledge_cutoff = "1738281600"
+name = "Reka Flash 3"
+release_date = "1741812813"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 65536
+input = 65536
+output = 58982
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.11
+output = 0.22

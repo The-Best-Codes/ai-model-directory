@@ -1,0 +1,20 @@
+id = "levanto/sage-2"
+name = "Levanto Sage 2"
+release_date = "1793367545"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.07
+output = 2

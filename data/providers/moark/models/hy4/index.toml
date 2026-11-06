@@ -1,0 +1,18 @@
+id = "hy4"
+last_updated = "1793885488"
+name = "hy4"
+release_date = "1793883589"
+
+[features]
+attachment = false
+
+[limit]
+context = 1024000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.89964084
+output = 2.69892252

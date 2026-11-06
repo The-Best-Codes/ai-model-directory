@@ -1,0 +1,4 @@
+id = "claude-opus-4.5-thinking:payg"
+
+[modalities]
+output = [ "text" ]

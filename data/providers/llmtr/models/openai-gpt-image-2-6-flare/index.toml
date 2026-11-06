@@ -1,0 +1,12 @@
+id = "openai/gpt-image-2.6-flare"
+name = "GPT Image 2.6 Flare"
+release_date = "1793900261"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 5

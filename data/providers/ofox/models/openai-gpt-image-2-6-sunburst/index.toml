@@ -1,6 +1,6 @@
 id = "openai/gpt-image-2.6-sunburst"
 name = "OpenAI: GPT Image 2.6 Sunburst"
-release_date = "1793846449"
+release_date = "1793750400"
 
 [features]
 attachment = true

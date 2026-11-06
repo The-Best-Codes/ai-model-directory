@@ -1,6 +1,6 @@
 id = "openai/gpt-image-2.6-flare"
 name = "OpenAI: GPT Image 2.6 Flare"
-release_date = "1793846448"
+release_date = "1793750400"
 
 [features]
 attachment = true

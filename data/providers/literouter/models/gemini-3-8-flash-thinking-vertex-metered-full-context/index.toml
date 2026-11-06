@@ -1,4 +1,0 @@
-id = "gemini-3.8-flash-thinking-vertex:metered:full-context"
-
-[modalities]
-output = [ "text" ]

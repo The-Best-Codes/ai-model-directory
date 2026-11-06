@@ -1,0 +1,16 @@
+id = "deepseek-v4.1-flash-1017-abliterated"
+name = "DeepSeek V4.1 Flash 1017 Abliterated"
+
+[features]
+attachment = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.24
+output = 0.9

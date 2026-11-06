@@ -1,4 +1,0 @@
-id = "gpt-5-mini:32k-context"
-
-[modalities]
-output = [ "text" ]

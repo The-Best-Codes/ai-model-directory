@@ -1,5 +1,0 @@
-id = "Doubao-Seedance-2.5"
-name = "Doubao-Seedance-2.5"
-
-[modalities]
-output = [ "video" ]

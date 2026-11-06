@@ -1,5 +1,5 @@
 id = "orca/orcacyber-qwen3.8-flash-next"
-name = "Orca: OrcaCyber Qwen3.8 Flash Next Uncensored"
+name = "Orca: OrcaCyber Qwen3.8 Flash Next"
 
 [features]
 tool_call = true

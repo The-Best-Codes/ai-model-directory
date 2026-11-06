@@ -1,0 +1,12 @@
+id = "openai/gpt-image-2.6-sunburst"
+name = "GPT Image 2.6 Sunburst"
+release_date = "1793900262"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 5

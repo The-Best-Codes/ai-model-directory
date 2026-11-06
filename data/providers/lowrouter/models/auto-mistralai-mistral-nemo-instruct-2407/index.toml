@@ -3,11 +3,16 @@ name = "auto/mistralai/mistral-nemo-instruct-2407"
 
 [features]
 attachment = false
-tool_call = true
 
 [limit]
-context = 118000
+context = 131072
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.0296106238494
+cache_write = 0.0296106238494
+input = 0.0296106238494
+output = 0.0306308643973

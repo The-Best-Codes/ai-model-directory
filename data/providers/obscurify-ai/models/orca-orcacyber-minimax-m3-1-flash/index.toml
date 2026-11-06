@@ -1,5 +1,5 @@
 id = "orca/orcacyber-minimax-m3.1-flash"
-name = "Orca: OrcaCyber MiniMax M3.1 Flash Uncensored"
+name = "Orca: OrcaCyber MiniMax M3.1 Flash"
 
 [features]
 tool_call = true
