@@ -1,4 +1,0 @@
-id = "claude-opus-4.7-thinking-flatcost:metered"
-
-[modalities]
-output = [ "text" ]

@@ -1,0 +1,17 @@
+id = "parallel/parallel-free"
+name = "Parallel (Free)"
+release_date = "1794019665"
+
+[features]
+attachment = false
+structured_output = true
+
+[limit]
+context = 20000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -9,5 +9,5 @@ tool_call = true
 input = [ "audio", "image", "text" ]
 
 [pricing]
-input = 0.76629636942
-output = 4.59777371215
+input = 0.767243692622
+output = 4.60346215573

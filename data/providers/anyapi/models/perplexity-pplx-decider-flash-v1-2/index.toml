@@ -1,0 +1,15 @@
+id = "perplexity/pplx-decider-flash-v1.2"
+knowledge_cutoff = "1790812800"
+name = "Perplexity: Decider Flash V1.2"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 262144
+output = 235929
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

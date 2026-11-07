@@ -1,0 +1,4 @@
+id = "mistral-large-4.0:256k-context"
+
+[modalities]
+output = [ "text" ]

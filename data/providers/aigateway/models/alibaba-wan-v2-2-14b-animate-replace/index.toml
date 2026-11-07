@@ -1,7 +1,7 @@
 id = "alibaba/wan-v2.2-14b-animate-replace"
 name = "Wan-2.2 Animate Replace"
 open_weights = true
-release_date = "1792454400"
+release_date = "1793750400"
 
 [features]
 attachment = true

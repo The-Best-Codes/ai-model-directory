@@ -1,0 +1,15 @@
+id = "cloudflare/clef-omni"
+knowledge_cutoff = "1790812800"
+name = "Cloudflare: Clef Omni"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 65536
+output = 58982
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]

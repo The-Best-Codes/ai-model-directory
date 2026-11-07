@@ -1,7 +1,7 @@
 id = "alibaba/wan-v2.2-5b-text-to-video-distill"
 name = "Wan V2.2 5b Text To Video Distill"
 open_weights = true
-release_date = "1782259200"
+release_date = "1793750400"
 
 [features]
 attachment = false

@@ -11,5 +11,5 @@ context = 1048576
 output = 1048576
 
 [modalities]
-input = [ "file", "image", "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]

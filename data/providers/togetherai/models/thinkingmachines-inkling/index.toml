@@ -1,5 +1,6 @@
 id = "thinkingmachines/Inkling"
 name = "Inkling FP4"
+release_date = "1794000647"
 
 [features]
 attachment = false

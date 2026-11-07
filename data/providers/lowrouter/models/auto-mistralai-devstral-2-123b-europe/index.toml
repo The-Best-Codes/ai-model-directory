@@ -12,9 +12,3 @@ output = 8192
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.408411525298
-cache_write = 0.408411525298
-input = 0.408411525298
-output = 2.04205424821

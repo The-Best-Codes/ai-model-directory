@@ -1,0 +1,15 @@
+id = "scaledown/classify-1"
+knowledge_cutoff = "1790812800"
+name = "ScaleDown: Classify-1"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 1000000
+output = 900000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

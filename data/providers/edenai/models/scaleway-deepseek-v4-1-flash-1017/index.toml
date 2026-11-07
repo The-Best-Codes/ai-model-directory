@@ -3,16 +3,19 @@ name = "scaleway/deepseek-v4.1-flash-1017"
 release_date = "1791211484"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = false
-tool_call = false
+tool_call = true
+
+[limit]
+context = 256000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.134687995259
-input = 0.673439976295
-output = 2.02031992888
+cache_read = 0.133980010182
+input = 0.669900050912
+output = 2.00970015274

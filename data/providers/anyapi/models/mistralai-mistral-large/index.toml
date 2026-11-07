@@ -3,13 +3,12 @@ knowledge_cutoff = "1730419200"
 name = "Mistral: Mistral Large"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 
 [limit]
 context = 128000
-output = 102400
 
 [modalities]
-input = [ "file", "text" ]
+input = [ "text" ]
 output = [ "text" ]

@@ -1,0 +1,15 @@
+id = "arcee-ai/trinity-large-thinking"
+knowledge_cutoff = "1775001600"
+name = "Arcee AI: Trinity Large Thinking"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

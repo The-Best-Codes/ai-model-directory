@@ -1,0 +1,11 @@
+id = "openai/gpt-image-2.6/flare/text-to-image"
+name = "GPT Image 2.6 Flare Text to Image"
+open_weights = false
+release_date = "1793750400"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

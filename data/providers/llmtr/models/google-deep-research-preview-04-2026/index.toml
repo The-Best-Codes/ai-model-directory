@@ -1,0 +1,14 @@
+id = "google/deep-research-preview-04-2026"
+name = "Gemini Deep Research"
+release_date = "1793958335"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+input = 2
+output = 12

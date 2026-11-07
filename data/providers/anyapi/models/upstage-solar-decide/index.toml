@@ -1,0 +1,15 @@
+id = "upstage/solar-decide"
+knowledge_cutoff = "1788220800"
+name = "Upstage: Solar Decide"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 524288
+output = 471859
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

@@ -1,0 +1,15 @@
+id = "baseten/mammoth-1"
+knowledge_cutoff = "1790812800"
+name = "Baseten: Mammoth 1"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 16384
+output = 14745
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

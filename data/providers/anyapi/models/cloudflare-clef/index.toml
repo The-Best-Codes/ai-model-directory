@@ -1,0 +1,15 @@
+id = "cloudflare/clef"
+knowledge_cutoff = "1790812800"
+name = "Cloudflare: Clef"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 65537
+output = 58982
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

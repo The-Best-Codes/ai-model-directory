@@ -1,0 +1,17 @@
+id = "qwen/qwen-3.8-max-qoder"
+name = "qwen/qwen-3.8-max-qoder"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.5
+cache_write = 12
+input = 12
+input_audio = 12
+output = 36
+output_audio = 12

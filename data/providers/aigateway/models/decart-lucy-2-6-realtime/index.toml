@@ -1,0 +1,11 @@
+id = "decart/lucy-2-6/realtime"
+name = "Lucy 2 6"
+open_weights = true
+release_date = "1793836800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

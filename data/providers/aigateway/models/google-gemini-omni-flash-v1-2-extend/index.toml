@@ -1,0 +1,11 @@
+id = "google/gemini-omni-flash/v1.2/extend"
+name = "Gemini Omni Flash 1.2 Extend Video"
+open_weights = false
+release_date = "1793836800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "video" ]
+output = [ "video" ]

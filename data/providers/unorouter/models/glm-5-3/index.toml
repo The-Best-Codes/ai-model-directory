@@ -7,7 +7,7 @@ attachment = false
 reasoning = true
 structured_output = true
 temperature = true
-tool_call = false
+tool_call = true
 
 [limit]
 context = 1000000
@@ -19,7 +19,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01845858
-cache_write = 0.0994
-input = 0.0994
-output = 0.31240426
+cache_read = 0.003977694
+cache_write = 0.02142
+input = 0.02142
+output = 0.067320918

@@ -1,0 +1,4 @@
+id = "gemini-3.1-pro-preview-thinking-cheap:metered"
+
+[modalities]
+output = [ "text" ]

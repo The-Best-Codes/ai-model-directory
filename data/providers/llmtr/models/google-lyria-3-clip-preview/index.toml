@@ -1,0 +1,9 @@
+id = "google/lyria-3-clip-preview"
+name = "Lyria 3 Clip"
+release_date = "1793958337"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text" ]

@@ -1,0 +1,9 @@
+id = "google/lyria-3-pro-preview"
+name = "Lyria 3 Pro"
+release_date = "1793958337"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text" ]

@@ -1,0 +1,19 @@
+id = "prism-flash"
+name = "Prism Flash"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+cache_write = 0
+input = 0.33
+output = 1.31

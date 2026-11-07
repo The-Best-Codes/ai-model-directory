@@ -12,7 +12,3 @@ output = 8192
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 0.408411525298
-output = 2.04205424821

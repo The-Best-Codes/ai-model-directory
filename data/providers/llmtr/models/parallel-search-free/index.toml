@@ -1,0 +1,9 @@
+id = "parallel/search-free"
+name = "Parallel Search (Free)"
+release_date = "1794019665"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]

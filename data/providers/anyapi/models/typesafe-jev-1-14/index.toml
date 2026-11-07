@@ -1,0 +1,15 @@
+id = "typesafe/jev-1.14"
+knowledge_cutoff = "1790812800"
+name = "TypeSafe: Jev 1.14"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 262144
+output = 235929
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

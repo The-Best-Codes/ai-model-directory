@@ -4,12 +4,12 @@ name = "OpenAI: GPT-5.2 Chat"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 128000
 output = 32000
 
 [modalities]
-input = [ "file", "image", "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]

@@ -8,7 +8,7 @@ reasoning = false
 
 [limit]
 context = 32000
-output = 26214
+output = 8192
 
 [modalities]
 input = [ "audio", "image", "text" ]

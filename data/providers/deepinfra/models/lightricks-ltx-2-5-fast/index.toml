@@ -1,0 +1,6 @@
+id = "Lightricks/LTX-2.5-Fast"
+name = "Lightricks/LTX-2.5-Fast"
+
+[features]
+attachment = false
+reasoning = false

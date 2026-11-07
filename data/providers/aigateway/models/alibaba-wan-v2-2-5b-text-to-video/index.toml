@@ -1,7 +1,7 @@
 id = "alibaba/wan-v2.2-5b-text-to-video"
 name = "Wan v2.2 5B (Text To Video)"
 open_weights = true
-release_date = "1776729600"
+release_date = "1793750400"
 
 [features]
 attachment = false

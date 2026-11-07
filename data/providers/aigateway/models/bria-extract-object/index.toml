@@ -1,7 +1,7 @@
 id = "bria/extract-object"
 name = "Extract Object"
 open_weights = true
-release_date = "1782691200"
+release_date = "1793750400"
 
 [features]
 attachment = true

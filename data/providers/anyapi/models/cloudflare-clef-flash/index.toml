@@ -1,0 +1,15 @@
+id = "cloudflare/clef-flash"
+knowledge_cutoff = "1790812800"
+name = "Cloudflare: Clef Flash"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 24576
+output = 22118
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

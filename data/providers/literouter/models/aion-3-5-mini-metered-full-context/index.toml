@@ -1,0 +1,4 @@
+id = "aion-3.5-mini:metered:full-context"
+
+[modalities]
+output = [ "text" ]

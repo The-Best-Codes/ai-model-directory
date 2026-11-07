@@ -8,4 +8,4 @@ attachment = true
 context = 262144
 
 [modalities]
-input = [ "file", "image", "text" ]
+input = [ "file", "image", "text", "video" ]

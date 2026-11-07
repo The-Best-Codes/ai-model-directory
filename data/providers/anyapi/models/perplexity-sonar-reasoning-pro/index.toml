@@ -3,13 +3,12 @@ knowledge_cutoff = "1735689600"
 name = "Perplexity: Sonar Reasoning Pro"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 
 [limit]
 context = 128000
-output = 115200
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]

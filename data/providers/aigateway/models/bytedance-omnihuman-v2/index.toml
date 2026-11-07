@@ -1,7 +1,7 @@
 id = "bytedance/omnihuman/v2"
 name = "Bytedance Omnihuman V2"
 open_weights = true
-release_date = "1792022400"
+release_date = "1793836800"
 
 [features]
 attachment = true

@@ -1,0 +1,15 @@
+id = "togethercomputer/tev1-4b-experimental"
+knowledge_cutoff = "1788220800"
+name = "Together: Tev1 4B Experimental"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 32768
+output = 8
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

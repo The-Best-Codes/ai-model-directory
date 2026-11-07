@@ -4,11 +4,10 @@ name = "Perplexity: Sonar Deep Research"
 
 [features]
 attachment = false
-reasoning = true
+reasoning = false
 
 [limit]
 context = 128000
-output = 115200
 
 [modalities]
 input = [ "text" ]

@@ -1,0 +1,15 @@
+id = "baseten/joey-1"
+knowledge_cutoff = "1790812800"
+name = "Baseten: Joey 1"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 16384
+output = 14745
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

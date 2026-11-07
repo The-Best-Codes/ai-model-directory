@@ -1,0 +1,23 @@
+id = "iceman-free"
+last_updated = "1793923200"
+name = "Iceman Free"
+open_weights = false
+release_date = "1793923200"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

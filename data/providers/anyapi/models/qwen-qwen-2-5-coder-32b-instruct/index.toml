@@ -8,7 +8,6 @@ reasoning = false
 
 [limit]
 context = 32768
-output = 29491
 
 [modalities]
 input = [ "text" ]

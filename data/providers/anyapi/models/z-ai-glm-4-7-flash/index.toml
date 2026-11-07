@@ -1,0 +1,14 @@
+id = "z-ai/glm-4.7-flash"
+knowledge_cutoff = "1767225600"
+name = "Z.ai: GLM 4.7 Flash"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 202752
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

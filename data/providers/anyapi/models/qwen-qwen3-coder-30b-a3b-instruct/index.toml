@@ -4,7 +4,7 @@ name = "Qwen: Qwen3 Coder 30B A3B Instruct"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 
 [limit]
 context = 160000

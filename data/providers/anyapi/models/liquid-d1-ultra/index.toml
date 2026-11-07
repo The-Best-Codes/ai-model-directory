@@ -1,0 +1,15 @@
+id = "liquid/d1-ultra"
+knowledge_cutoff = "1790812800"
+name = "LiquidAI: d1-ultra"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 32768
+output = 29491
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

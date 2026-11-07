@@ -3,7 +3,7 @@ knowledge_cutoff = "1759276800"
 name = "OpenAI: GPT-5 Image Mini"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 
 [limit]
@@ -11,5 +11,5 @@ context = 400000
 output = 128000
 
 [modalities]
-input = [ "file", "image", "text" ]
+input = [ "text" ]
 output = [ "image", "text" ]

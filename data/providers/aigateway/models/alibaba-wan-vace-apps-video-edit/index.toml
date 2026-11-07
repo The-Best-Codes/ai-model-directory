@@ -1,7 +1,7 @@
 id = "alibaba/wan-vace-apps-video-edit"
 name = "Wan VACE Video Edit"
 open_weights = true
-release_date = "1792454400"
+release_date = "1793750400"
 
 [features]
 attachment = true

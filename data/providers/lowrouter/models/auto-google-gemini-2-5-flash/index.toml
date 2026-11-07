@@ -11,3 +11,8 @@ context = 1000000
 [modalities]
 input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+cache_write = 0.306898372815
+input = 0.306898372815
+output = 2.55747897541

@@ -1,0 +1,15 @@
+id = "gemini-2.5-flash-live"
+name = "gemini-2.5-flash-live"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+cache_read = 0
+input = 0
