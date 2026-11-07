@@ -51,6 +51,7 @@ import { incoProvider } from "./inco.ts";
 import { inferenceProvider } from "./inference.ts";
 import { ioNetProvider } from "./io-net.ts";
 import { jiekouProvider } from "./jiekou.ts";
+import { kelnProvider } from "./keln.ts";
 import { kenariProvider } from "./kenari.ts";
 import { kiloProvider } from "./kilo.ts";
 import { kiosapiProvider } from "./kiosapi.ts";
@@ -180,6 +181,7 @@ export const providers: ProviderDefinition[] = [
   inferenceProvider,
   ioNetProvider,
   jiekouProvider,
+  kelnProvider,
   kenariProvider,
   kiloProvider,
   kiosapiProvider,
