@@ -9,7 +9,7 @@ tool_call = true
 input = [ "audio", "image", "text" ]
 
 [pricing]
-cache_read = 0.767243692622
-cache_write = 0.767243692622
-input = 0.767243692622
-output = 4.60346215573
+cache_read = 0.763352134035
+cache_write = 0.763352134035
+input = 0.763352134035
+output = 4.58011280421

@@ -2,5 +2,5 @@ id = "gpt-4o-mini__pt10"
 name = "gpt-4o-mini__pt10"
 
 [pricing]
-input = 0.148980900672
-output = 0.74490450336
+input = 0.148842939312
+output = 0.74421469656

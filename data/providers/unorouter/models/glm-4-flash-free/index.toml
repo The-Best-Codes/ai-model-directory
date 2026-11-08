@@ -1,0 +1,19 @@
+id = "glm-4-flash:free"
+name = "glm-4-flash:free"
+release_date = "1756252800"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

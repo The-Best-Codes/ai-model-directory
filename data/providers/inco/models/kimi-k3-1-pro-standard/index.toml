@@ -1,0 +1,19 @@
+id = "kimi-k3.1-pro:standard"
+name = "Kimi K3.1 Pro (Standard)"
+open_weights = true
+release_date = "1794030431"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.3
+input = 3
+output = 15

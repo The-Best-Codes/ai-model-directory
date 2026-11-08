@@ -2,5 +2,5 @@ id = "gpt-6-luna__pt10"
 name = "gpt-6-luna__pt10"
 
 [pricing]
-input = 0.136565825616
-output = 0.68282912808
+input = 0.136439361036
+output = 0.68219680518

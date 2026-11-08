@@ -1,9 +1,0 @@
-id = "seedream-5-lite"
-name = "ByteDance: Seedream V5 Lite"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "image" ]

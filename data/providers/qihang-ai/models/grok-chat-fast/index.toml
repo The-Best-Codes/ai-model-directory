@@ -2,5 +2,5 @@ id = "grok-chat-fast"
 name = "grok-chat-fast"
 
 [pricing]
-input = 0.119952416
-output = 0.359857248
+input = 0.119841336
+output = 0.359524008

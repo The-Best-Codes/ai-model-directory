@@ -1,4 +1,0 @@
-id = "deepseek-v4-pro-stable:free"
-
-[modalities]
-output = [ "text" ]

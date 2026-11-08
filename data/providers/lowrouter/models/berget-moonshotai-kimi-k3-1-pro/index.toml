@@ -1,0 +1,15 @@
+id = "berget/moonshotai/kimi-k3.1-pro"
+name = "berget/moonshotai/kimi-k3.1-pro"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.334208442
+input = 3.34208442
+output = 11.1402814

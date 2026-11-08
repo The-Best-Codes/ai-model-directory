@@ -9,5 +9,5 @@ tool_call = false
 input = [ "audio", "text" ]
 
 [pricing]
-input = 3.58047056557
-output = 21.4828189146
+input = 3.56230995883
+output = 21.3738552969

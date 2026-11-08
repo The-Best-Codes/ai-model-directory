@@ -12,9 +12,3 @@ output = 64000
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
-
-[pricing]
-cache_read = 0.767243692622
-cache_write = 3.06897477049
-input = 3.06897477049
-output = 15.3448704933

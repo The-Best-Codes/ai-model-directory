@@ -1,0 +1,13 @@
+id = "syn-pro:free"
+name = "syn-pro:free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
