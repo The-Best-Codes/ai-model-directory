@@ -1,0 +1,10 @@
+id = "typhoon-ocr-v2"
+name = "typhoon-ocr-v2"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

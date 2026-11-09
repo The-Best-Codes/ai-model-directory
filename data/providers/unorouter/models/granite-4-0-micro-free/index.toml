@@ -1,5 +1,6 @@
 id = "granite-4.0-micro:free"
 name = "granite-4.0-micro:free"
+release_date = "1759363200"
 
 [features]
 attachment = false

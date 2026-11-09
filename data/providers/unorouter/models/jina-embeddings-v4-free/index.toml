@@ -3,13 +3,14 @@ name = "jina-embeddings-v4:free"
 release_date = "1750809600"
 
 [features]
-attachment = false
+attachment = true
 
 [limit]
 context = 32768
+input = 32768
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 
 [pricing]
 input = 0

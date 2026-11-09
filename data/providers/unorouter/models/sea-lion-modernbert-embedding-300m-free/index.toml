@@ -7,6 +7,7 @@ attachment = false
 
 [limit]
 context = 512
+input = 8192
 
 [modalities]
 input = [ "text" ]

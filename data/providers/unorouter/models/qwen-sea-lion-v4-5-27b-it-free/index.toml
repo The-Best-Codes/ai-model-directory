@@ -3,14 +3,15 @@ name = "qwen-sea-lion-v4.5-27b-it:free"
 release_date = "1769904000"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 
 [limit]
 context = 262144
+input = 262144
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

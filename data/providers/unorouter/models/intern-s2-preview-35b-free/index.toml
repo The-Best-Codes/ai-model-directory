@@ -4,11 +4,10 @@ release_date = "1778803200"
 
 [features]
 attachment = true
-reasoning = true
-tool_call = true
 
 [limit]
 context = 262144
+input = 262144
 
 [modalities]
 input = [ "image", "text" ]

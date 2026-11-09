@@ -1,4 +1,0 @@
-id = "gpt-6-astra-cheap:full-context"
-
-[modalities]
-output = [ "text" ]

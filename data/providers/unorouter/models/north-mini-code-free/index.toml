@@ -1,6 +1,6 @@
 id = "north-mini-code:free"
 name = "Cohere: North Mini Code (free)"
-release_date = "1780963200"
+release_date = "1781723748"
 
 [features]
 attachment = false
@@ -10,7 +10,7 @@ temperature = true
 tool_call = true
 
 [limit]
-context = 262144
+context = 256000
 input = 256000
 output = 64000
 

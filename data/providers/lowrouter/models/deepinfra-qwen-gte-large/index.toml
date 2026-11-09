@@ -8,5 +8,5 @@ attachment = false
 input = [ "text" ]
 
 [pricing]
-input = 0.0101788751152
+input = 0.0101438225604
 output = 0

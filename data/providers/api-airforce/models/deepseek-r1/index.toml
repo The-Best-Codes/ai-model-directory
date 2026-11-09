@@ -4,13 +4,14 @@ name = "deepseek-r1"
 [features]
 attachment = false
 reasoning = true
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.141
-cache_write = 0
+cache_read = 0.09
+cache_write = 1.76
 input = 1.41
 output = 5.64

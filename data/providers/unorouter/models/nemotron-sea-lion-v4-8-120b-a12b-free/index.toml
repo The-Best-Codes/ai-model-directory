@@ -5,6 +5,10 @@ release_date = "1788825600"
 [features]
 attachment = false
 
+[limit]
+context = 262144
+input = 262144
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]

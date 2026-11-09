@@ -1,0 +1,12 @@
+id = "anthropic/claude-opus-4.1:thinking"
+name = "Anthropic: Claude 4.1 Opus Thinking"
+
+[features]
+tool_call = true
+
+[limit]
+context = 200000
+
+[pricing]
+input = 16.575
+output = 82.875

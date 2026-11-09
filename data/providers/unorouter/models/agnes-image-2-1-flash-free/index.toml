@@ -3,10 +3,10 @@ name = "agnes-image-2.1-flash:free"
 release_date = "1782864000"
 
 [features]
-attachment = false
+attachment = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "image" ]
 
 [pricing]

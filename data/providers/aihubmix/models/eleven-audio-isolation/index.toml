@@ -1,0 +1,15 @@
+id = "eleven_audio_isolation"
+name = "eleven_audio_isolation"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+cache_read = 0
+input = 0

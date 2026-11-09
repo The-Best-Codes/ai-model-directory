@@ -1,14 +1,13 @@
 id = "intern-s2-preview-397b:free"
 name = "intern-s2-preview-397b:free"
-release_date = "1778803200"
+release_date = "1784246400"
 
 [features]
 attachment = true
-reasoning = true
-tool_call = true
 
 [limit]
 context = 262144
+input = 262144
 
 [modalities]
 input = [ "image", "text" ]

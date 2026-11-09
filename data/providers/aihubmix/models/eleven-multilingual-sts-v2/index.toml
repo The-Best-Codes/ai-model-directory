@@ -1,0 +1,15 @@
+id = "eleven_multilingual_sts_v2"
+name = "eleven_multilingual_sts_v2"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+cache_read = 0
+input = 0

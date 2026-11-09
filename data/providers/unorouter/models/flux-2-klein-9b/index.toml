@@ -3,8 +3,8 @@ name = "flux.2-klein-9b"
 release_date = "1768435200"
 
 [features]
-attachment = false
+attachment = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "image" ]

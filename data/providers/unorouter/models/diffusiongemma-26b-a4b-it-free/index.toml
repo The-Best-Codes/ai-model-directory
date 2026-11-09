@@ -9,9 +9,10 @@ tool_call = true
 
 [limit]
 context = 262144
+input = 262144
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]

@@ -1,4 +1,0 @@
-id = "gpt-6.1-sol-cheap:32k-context"
-
-[modalities]
-output = [ "text" ]
