@@ -1,0 +1,9 @@
+id = "muse-ember-1.0"
+name = "Muse Ember 1.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]

@@ -11,3 +11,6 @@ context = 250000
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
+
+[pricing]
+output = 4.017649176

@@ -1,0 +1,18 @@
+id = "elorian-labs/glimpse-1.0"
+name = "Elorian Glimpse 1.0"
+release_date = "1794262792"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.6
+output = 3

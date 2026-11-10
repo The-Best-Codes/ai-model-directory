@@ -3,7 +3,7 @@ name = "Ripple 65b Preview"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 temperature = true
 tool_call = true
 

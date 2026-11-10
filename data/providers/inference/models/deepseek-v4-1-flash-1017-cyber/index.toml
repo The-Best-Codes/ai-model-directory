@@ -5,8 +5,8 @@ name = "deepseek-v4.1-flash-1017-cyber"
 attachment = true
 
 [limit]
-context = 262144
-output = 262144
+context = 1040000
+output = 393216
 
 [modalities]
 input = [ "image", "text" ]

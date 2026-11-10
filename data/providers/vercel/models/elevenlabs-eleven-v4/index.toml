@@ -11,4 +11,4 @@ tool_call = false
 input = [ "text" ]
 
 [pricing]
-input = 40
+input = 80

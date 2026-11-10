@@ -1,0 +1,17 @@
+id = "gpt-image-2.6-flare-oai"
+name = "gpt-image-2.6-flare-oai"
+release_date = "1794224944"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+input = 5
+output = 30

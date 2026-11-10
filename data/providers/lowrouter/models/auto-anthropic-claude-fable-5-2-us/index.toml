@@ -1,0 +1,15 @@
+id = "auto/anthropic/claude-fable-5.2/us"
+name = "auto/anthropic/claude-fable-5.2/us"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.221970652919
+cache_write = 11.0984891214
+input = 8.87879152035
+output = 44.3939564857

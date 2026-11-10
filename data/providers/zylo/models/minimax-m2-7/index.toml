@@ -7,7 +7,7 @@ reasoning = false
 tool_call = true
 
 [limit]
-context = 204800
+context = 196608
 
 [modalities]
 input = [ "text" ]

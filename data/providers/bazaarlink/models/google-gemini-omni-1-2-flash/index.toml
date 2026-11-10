@@ -1,0 +1,10 @@
+id = "google/gemini-omni-1.2-flash"
+name = "Gemini Omni 1.2 Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]

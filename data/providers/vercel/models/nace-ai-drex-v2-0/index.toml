@@ -1,0 +1,18 @@
+id = "nace-ai/drex-v2.0"
+name = "Drex 2.0"
+release_date = "1794182400"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.03
+output = 0

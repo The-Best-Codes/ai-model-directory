@@ -1,9 +1,0 @@
-id = "umans-kimi-k3"
-name = "umans-kimi-k3"
-
-[limit]
-context = 1048576
-
-[pricing]
-input = 3
-output = 15

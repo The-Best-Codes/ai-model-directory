@@ -1,0 +1,21 @@
+id = "together_ai/elorian-labs/glimpse-1.0"
+name = "together_ai/elorian-labs/glimpse-1.0"
+release_date = "1794287531"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.6
+output = 3

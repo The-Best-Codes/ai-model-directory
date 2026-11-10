@@ -1,0 +1,10 @@
+id = "gpt-5-codex"
+name = "gpt-5-codex"
+
+[features]
+attachment = false
+reasoning = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

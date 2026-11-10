@@ -2,14 +2,10 @@ id = "eleven_flash_v2_5"
 name = "eleven_flash_v2_5"
 
 [features]
-attachment = true
+attachment = false
 reasoning = false
 structured_output = false
 tool_call = false
 
 [modalities]
-input = [ "audio" ]
-
-[pricing]
-cache_read = 0
-input = 0
+input = [ "text" ]

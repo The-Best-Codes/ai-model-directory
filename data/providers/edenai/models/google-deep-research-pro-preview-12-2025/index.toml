@@ -1,0 +1,20 @@
+id = "google/deep-research-pro-preview-12-2025"
+name = "google/deep-research-pro-preview-12-2025"
+release_date = "1790725775"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 12

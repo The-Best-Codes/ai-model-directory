@@ -1,0 +1,19 @@
+id = "anthropic/anthropic/claude-fable-5.2"
+name = "anthropic/anthropic/claude-fable-5.2"
+
+[features]
+attachment = true
+
+[limit]
+context = 1000000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.201790893919
+cache_write = 10.0895357679
+input = 8.07162906069
+output = 40.3581453034

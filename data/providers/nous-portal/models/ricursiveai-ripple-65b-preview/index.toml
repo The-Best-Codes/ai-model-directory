@@ -1,10 +1,11 @@
 id = "ricursiveai/ripple-65b-preview"
 name = "Ricursive: Ripple 65B Preview"
+open_weights = true
 release_date = "1793818990"
 
 [features]
 attachment = false
-reasoning = false
+reasoning = true
 structured_output = true
 temperature = true
 tool_call = true

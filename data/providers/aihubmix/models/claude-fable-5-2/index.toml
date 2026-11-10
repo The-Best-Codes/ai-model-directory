@@ -1,0 +1,16 @@
+id = "claude-fable-5-2"
+name = "claude-fable-5-2"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.22
+input = 8.8
+output = 44

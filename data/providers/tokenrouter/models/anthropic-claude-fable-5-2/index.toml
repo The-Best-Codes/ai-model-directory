@@ -1,0 +1,17 @@
+id = "anthropic/claude-fable-5.2"
+name = "anthropic/claude-fable-5.2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 10
+input = 8
+input_audio = 8
+output = 40
+output_audio = 8

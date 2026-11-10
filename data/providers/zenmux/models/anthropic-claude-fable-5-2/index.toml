@@ -1,0 +1,20 @@
+id = "anthropic/claude-fable-5.2"
+name = "Anthropic: Claude Fable 5.2"
+release_date = "1794277290"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2
+cache_write = 10
+input = 8
+output = 40

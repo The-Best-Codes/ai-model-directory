@@ -1,4 +1,0 @@
-id = "claude-sonnet-4.5-thinking-stable:payg"
-
-[modalities]
-output = [ "text" ]
