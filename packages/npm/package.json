@@ -1,6 +1,6 @@
 {
   "name": "ai-model-directory",
-  "version": "0.1.213",
+  "version": "0.1.214",
   "description": "Bundled AI model directory dataset with a compact typed payload",
   "license": "MIT",
   "repository": {
