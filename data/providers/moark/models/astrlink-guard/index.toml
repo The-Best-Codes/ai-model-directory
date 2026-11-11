@@ -1,0 +1,11 @@
+id = "astrlink-guard"
+last_updated = "1793254757"
+name = "astrlink-guard"
+release_date = "1793253976"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

@@ -1,0 +1,12 @@
+id = "tee/gemma-4-26b-a4b-uncensored"
+name = "TEE: Gemma 4 26B A4B Uncensored TEE"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.195
+output = 0.91

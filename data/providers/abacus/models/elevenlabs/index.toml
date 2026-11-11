@@ -1,9 +1,0 @@
-id = "elevenlabs"
-name = "ElevenLabs"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "audio" ]

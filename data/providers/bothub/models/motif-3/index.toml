@@ -1,0 +1,15 @@
+id = "motif-3"
+name = "Motif 3"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = false
+
+[limit]
+output = 235929
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

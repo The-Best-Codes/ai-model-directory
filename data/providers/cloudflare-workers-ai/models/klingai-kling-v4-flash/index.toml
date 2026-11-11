@@ -1,0 +1,6 @@
+id = "klingai/kling-v4-flash"
+name = "Kling 4.0 Flash"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

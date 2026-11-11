@@ -1,0 +1,15 @@
+id = "auto/google/gemini-4-carbon"
+name = "auto/google/gemini-4-carbon"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.102090273277
+cache_write = 2.04180322
+input = 2.04180322
+output = 10.2090127317

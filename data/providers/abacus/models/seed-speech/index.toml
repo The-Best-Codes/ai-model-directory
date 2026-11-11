@@ -1,9 +1,0 @@
-id = "seed_speech"
-name = "Seed Speech"
-
-[features]
-attachment = false
-
-[modalities]
-input = [ "text" ]
-output = [ "audio" ]

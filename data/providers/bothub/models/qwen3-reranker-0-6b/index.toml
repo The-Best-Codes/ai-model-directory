@@ -1,5 +1,5 @@
 id = "qwen3-reranker-0.6b"
-name = "qwen3-reranker-0.6b"
+name = "Qwen3 Reranker 0.6B"
 
 [features]
 attachment = false

@@ -3,6 +3,7 @@ name = "anthropic/anthropic/claude-fable-5.2"
 
 [features]
 attachment = true
+tool_call = true
 
 [limit]
 context = 1000000
@@ -13,7 +14,7 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.201790893919
-cache_write = 10.0895357679
-input = 8.07162906069
-output = 40.3581453034
+cache_read = 0.204180546554
+cache_write = 10.2090127317
+input = 8.16721063445
+output = 40.8360498039

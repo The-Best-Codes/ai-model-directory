@@ -1,0 +1,18 @@
+id = "gemini-3.8-flash-stt"
+name = "Gemini 3.8 Flash STT"
+
+[features]
+attachment = false
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 27.6403420138
+output = 0

@@ -1,0 +1,4 @@
+id = "openai-gpt-oss-safeguard-20b:metered:full-context"
+
+[modalities]
+output = [ "text" ]

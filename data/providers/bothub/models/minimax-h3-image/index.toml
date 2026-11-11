@@ -1,0 +1,9 @@
+id = "minimax-h3-image"
+name = "MiniMax H3 Image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

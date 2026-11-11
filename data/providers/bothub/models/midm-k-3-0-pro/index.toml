@@ -1,0 +1,15 @@
+id = "midm-k-3.0-pro"
+name = "Mi:dm K 3.0 Pro"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = false
+
+[limit]
+output = 235615
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

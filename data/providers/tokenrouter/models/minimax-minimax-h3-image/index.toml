@@ -1,0 +1,17 @@
+id = "minimax/minimax-h3-image"
+name = "minimax/minimax-h3-image"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 2.3
+cache_write = 2.3
+input = 2.3
+input_audio = 2.3
+output = 3.8
+output_audio = 2.3

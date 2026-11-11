@@ -1,5 +1,6 @@
 id = "sensenova/sensenova-6.8-flash-lite"
 name = "SenseNova-6.8-Flash-Lite"
+release_date = "1788220800"
 
 [features]
 attachment = true

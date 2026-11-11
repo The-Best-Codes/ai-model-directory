@@ -1,0 +1,16 @@
+id = "minimax/minimax-h3-image"
+name = "MiniMax H3 Image"
+release_date = "1794268800"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 2.3
+output = 3.8

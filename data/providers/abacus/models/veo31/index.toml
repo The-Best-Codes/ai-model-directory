@@ -1,9 +1,0 @@
-id = "veo31"
-name = "Veo 3.1"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "audio", "video" ]

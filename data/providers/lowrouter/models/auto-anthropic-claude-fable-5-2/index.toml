@@ -3,6 +3,7 @@ name = "auto/anthropic/claude-fable-5.2"
 
 [features]
 attachment = true
+tool_call = true
 
 [limit]
 context = 1000000

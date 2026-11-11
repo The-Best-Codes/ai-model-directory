@@ -1,0 +1,8 @@
+id = "grok-image-2-edit"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

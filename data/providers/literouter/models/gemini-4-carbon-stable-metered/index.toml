@@ -1,0 +1,4 @@
+id = "gemini-4-carbon-stable:metered"
+
+[modalities]
+output = [ "text" ]

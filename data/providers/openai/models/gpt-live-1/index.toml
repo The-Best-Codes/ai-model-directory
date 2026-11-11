@@ -1,6 +1,6 @@
 id = "gpt-live-1"
 knowledge_cutoff = "1753920000"
-name = "GPT-Live 1"
+name = "GPT-Live-1"
 release_date = "1788889407"
 
 [features]

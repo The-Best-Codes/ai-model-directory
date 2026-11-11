@@ -1,0 +1,13 @@
+id = "google/gemini-4-carbon"
+name = "Gemini 4 Carbon"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 10

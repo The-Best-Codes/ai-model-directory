@@ -1,9 +1,0 @@
-id = "kling_ai_v3_motion"
-name = "Kling v3 Motion Control"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "video" ]

@@ -1,0 +1,4 @@
+id = "claude-sonnet-4.5-thinking:payg"
+
+[modalities]
+output = [ "text" ]
