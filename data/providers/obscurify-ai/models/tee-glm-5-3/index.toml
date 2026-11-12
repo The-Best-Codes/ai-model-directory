@@ -1,5 +1,5 @@
 id = "tee/glm-5.3"
-name = "TEE: GLM 5.3 TEE"
+name = "Z.ai: GLM 5.3 TEE"
 
 [features]
 tool_call = true

@@ -8,7 +8,7 @@ attachment = true
 input = [ "image", "text" ]
 
 [pricing]
-cache_read = 1.02090161
-cache_write = 1.02090161
-input = 1.02090161
+cache_read = 1.02298183345
+cache_write = 1.02298183345
+input = 1.02298183345
 output = 0

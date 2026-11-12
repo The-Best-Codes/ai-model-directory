@@ -1,0 +1,12 @@
+id = "ernie-5.5-flash-preview"
+name = "ernie-5.5-flash-preview"
+
+[features]
+reasoning = false
+structured_output = false
+tool_call = false
+
+[pricing]
+cache_read = 0.0294
+input = 0.294
+output = 1.176

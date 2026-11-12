@@ -1,0 +1,11 @@
+id = "doubao-seedream-5-5"
+name = "doubao-seedream-5-5"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]

@@ -1,7 +1,7 @@
 id = "elevenlabs/elevenlabs-sound-effects-v2"
 name = "Elevenlabs Sound Effects V2"
 open_weights = true
-release_date = "1793750400"
+release_date = "1794096000"
 
 [features]
 attachment = false

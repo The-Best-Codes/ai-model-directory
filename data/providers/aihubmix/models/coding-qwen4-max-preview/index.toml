@@ -1,0 +1,16 @@
+id = "coding-qwen4-max-preview"
+name = "coding-qwen4-max-preview"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.044125
+input = 0.353
+output = 1.059

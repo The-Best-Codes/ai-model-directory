@@ -1,0 +1,13 @@
+id = "glyph-cluster:free"
+name = "glyph-cluster:free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

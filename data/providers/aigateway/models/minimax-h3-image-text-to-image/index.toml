@@ -1,0 +1,11 @@
+id = "minimax/h3-image/text-to-image"
+name = "MiniMax H3 Image Text to Image"
+open_weights = true
+release_date = "1794268800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

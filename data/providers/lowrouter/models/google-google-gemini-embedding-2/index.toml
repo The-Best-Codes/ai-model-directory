@@ -8,5 +8,5 @@ attachment = true
 input = [ "audio", "file", "image", "text", "video" ]
 
 [pricing]
-input = 0.204180546554
+input = 0.204596589933
 output = 0

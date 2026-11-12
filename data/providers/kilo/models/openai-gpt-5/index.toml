@@ -1,5 +1,5 @@
 id = "openai/gpt-5"
-name = "OpenAI: GPT-5"
+name = "OpenAI: GPT-5 (retires Dec 11)"
 release_date = "1754587413"
 
 [features]

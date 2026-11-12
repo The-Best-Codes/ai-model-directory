@@ -1,5 +1,5 @@
 id = "tee/qwen3.8-27b-uncensored:thinking"
-name = "TEE: Qwen3.8 27B Uncensored TEE (Thinking)"
+name = "Qwen: Qwen3.8 27B Uncensored TEE (Thinking)"
 
 [features]
 tool_call = true

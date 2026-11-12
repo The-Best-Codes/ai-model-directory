@@ -1,7 +1,7 @@
 id = "minimax/h3-max/insert-video"
 name = "H3 Max"
 open_weights = true
-release_date = "1792368000"
+release_date = "1794268800"
 
 [features]
 attachment = true

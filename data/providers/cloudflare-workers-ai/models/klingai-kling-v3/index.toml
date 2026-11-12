@@ -1,0 +1,6 @@
+id = "klingai/kling-v3"
+name = "Kling v3"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

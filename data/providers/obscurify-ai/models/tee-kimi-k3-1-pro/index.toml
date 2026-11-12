@@ -1,5 +1,5 @@
 id = "tee/kimi-k3.1-pro"
-name = "TEE: Kimi K3.1 Pro TEE"
+name = "MoonshotAI: Kimi K3.1 Pro TEE"
 
 [features]
 tool_call = true

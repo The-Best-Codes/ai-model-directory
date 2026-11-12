@@ -1,7 +1,7 @@
 id = "google/nano-banana-2-edit"
 name = "Nano Banana 2 Edit"
 open_weights = true
-release_date = "1792454400"
+release_date = "1794268800"
 
 [features]
 attachment = true

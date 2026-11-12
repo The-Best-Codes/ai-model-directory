@@ -2,13 +2,16 @@ id = "gemini-4-carbon"
 name = "gemini-4-carbon"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 tool_call = false
 
+[limit]
+context = 1048576
+
 [modalities]
-input = [ "text" ]
+input = [ "audio", "file", "image", "text", "video" ]
 
 [pricing]
 cache_read = 0.1

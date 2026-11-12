@@ -1,7 +1,7 @@
 id = "kuaishou/kling-video-v1.6-pro-effects"
 name = "Kling 1.6 (Pro)"
 open_weights = true
-release_date = "1782259200"
+release_date = "1794009600"
 
 [features]
 attachment = true

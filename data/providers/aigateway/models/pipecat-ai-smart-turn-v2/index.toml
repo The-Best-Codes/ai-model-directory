@@ -1,0 +1,10 @@
+id = "pipecat-ai/smart-turn-v2"
+name = "smart-turn-v2"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

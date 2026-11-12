@@ -1,0 +1,11 @@
+id = "dubbing_v2"
+name = "dubbing_v2"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "video" ]

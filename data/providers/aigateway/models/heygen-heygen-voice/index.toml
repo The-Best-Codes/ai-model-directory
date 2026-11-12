@@ -1,7 +1,7 @@
 id = "heygen/heygen-voice"
 name = "HeyGen Voice"
 open_weights = true
-release_date = "1792713600"
+release_date = "1794268800"
 
 [features]
 attachment = false

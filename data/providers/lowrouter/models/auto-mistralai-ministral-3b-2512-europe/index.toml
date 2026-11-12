@@ -6,14 +6,14 @@ attachment = true
 tool_call = true
 
 [limit]
-context = 256000
+context = 131072
 
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.010497916517
-cache_write = 0.10497916517
-input = 0.10497916517
-output = 0.10497916517
+cache_read = 0.0104366082865
+cache_write = 0.104366082865
+input = 0.104366082865
+output = 0.104366082865

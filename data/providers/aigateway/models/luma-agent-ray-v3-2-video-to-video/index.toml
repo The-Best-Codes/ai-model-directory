@@ -1,7 +1,7 @@
 id = "luma/agent/ray/v3.2/video-to-video"
 name = "Luma Ray 3.2 Video to Video"
 open_weights = true
-release_date = "1792454400"
+release_date = "1794268800"
 
 [features]
 attachment = true

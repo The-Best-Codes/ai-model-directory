@@ -1,0 +1,6 @@
+id = "klingai/kling-v3-omni"
+name = "Kling v3 Omni"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,21 @@
+id = "tsystems/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
+name = "tsystems/NVIDIA-Nemotron-3-Super-120B-A12B-FP8"
+release_date = "1794443601"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.100142981924
+input = 0.667619879495
+output = 1.33523975899

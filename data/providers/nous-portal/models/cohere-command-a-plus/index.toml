@@ -1,5 +1,6 @@
 id = "cohere/command-a-plus"
 name = "Cohere: Command A+"
+open_weights = true
 release_date = "1790102896"
 
 [features]

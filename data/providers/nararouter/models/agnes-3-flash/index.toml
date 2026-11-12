@@ -3,7 +3,7 @@ name = "Agnes 3 Flash"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 512000

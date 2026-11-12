@@ -1,5 +1,5 @@
 id = "tee/gemma-4-26b-a4b-uncensored"
-name = "TEE: Gemma 4 26B A4B Uncensored TEE"
+name = "Google: Gemma 4 26B A4B Uncensored TEE"
 
 [features]
 tool_call = true

@@ -1,5 +1,6 @@
 id = "mistralai/mistral-large-2512"
 name = "Mistral: Mistral Large 3 2512"
+open_weights = true
 release_date = "1764624472"
 
 [features]

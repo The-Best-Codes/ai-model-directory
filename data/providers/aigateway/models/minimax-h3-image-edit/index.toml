@@ -1,0 +1,11 @@
+id = "minimax/h3-image/edit"
+name = "MiniMax H3 Image Edit"
+open_weights = true
+release_date = "1794268800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

@@ -1,0 +1,15 @@
+id = "ernie-light-dt-1.0-intl"
+name = "Ernie Light DT 1.0"
+
+[features]
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+
+[limit]
+output = 131072
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]

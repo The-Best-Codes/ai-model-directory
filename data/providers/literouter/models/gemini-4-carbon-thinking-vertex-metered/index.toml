@@ -1,0 +1,4 @@
+id = "gemini-4-carbon-thinking-vertex:metered"
+
+[modalities]
+output = [ "text" ]

@@ -1,7 +1,7 @@
 id = "bria/fibo-2/generate"
 name = "Fibo 2.0 Generate"
 open_weights = true
-release_date = "1793750400"
+release_date = "1794268800"
 
 [features]
 attachment = false

@@ -1,7 +1,7 @@
 id = "elevenlabs/elevenlabs-tts-eleven-v3"
 name = "Elevenlabs Tts Eleven V3"
 open_weights = true
-release_date = "1793577600"
+release_date = "1794096000"
 
 [features]
 attachment = false

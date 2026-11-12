@@ -1,7 +1,7 @@
 id = "elevenlabs/elevenlabs-text-to-dialogue-eleven-v3"
 name = "Elevenlabs Text To Dialogue Eleven V3"
 open_weights = true
-release_date = "1782259200"
+release_date = "1794096000"
 
 [features]
 attachment = false

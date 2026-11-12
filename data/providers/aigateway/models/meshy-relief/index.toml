@@ -1,7 +1,7 @@
 id = "meshy/relief"
 name = "Meshy Relief"
 open_weights = true
-release_date = "1793836800"
+release_date = "1793923200"
 
 [features]
 attachment = true

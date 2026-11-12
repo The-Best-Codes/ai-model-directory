@@ -1,0 +1,18 @@
+id = "google/gemini-decision-1"
+name = "Gemini Decision 1"
+release_date = "1794355200"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "file", "image", "text" ]
+
+[pricing]
+input = 0.1
+output = 0

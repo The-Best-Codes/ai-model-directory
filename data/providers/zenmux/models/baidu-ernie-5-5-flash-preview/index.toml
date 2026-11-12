@@ -1,0 +1,19 @@
+id = "baidu/ernie-5.5-flash-preview"
+name = "Baidu: ERNIE-5.5-Flash-Preview"
+release_date = "1794385834"
+
+[features]
+attachment = false
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0075
+input = 0.075
+output = 0.3

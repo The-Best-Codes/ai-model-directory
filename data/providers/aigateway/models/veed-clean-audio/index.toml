@@ -1,7 +1,7 @@
 id = "veed/clean-audio"
 name = "VEED Clean Audio"
 open_weights = true
-release_date = "1790726400"
+release_date = "1794268800"
 
 [features]
 attachment = true

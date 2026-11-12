@@ -1,5 +1,6 @@
 id = "mistralai/mistral-medium-3-5"
 name = "Mistral: Mistral Medium 3.5"
+open_weights = true
 release_date = "1777570439"
 
 [features]

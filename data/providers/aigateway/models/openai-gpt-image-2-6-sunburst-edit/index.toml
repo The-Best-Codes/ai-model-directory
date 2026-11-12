@@ -1,7 +1,7 @@
 id = "openai/gpt-image-2.6/sunburst/edit"
 name = "GPT Image 2.6 Sunburst Edit"
 open_weights = false
-release_date = "1793836800"
+release_date = "1793923200"
 
 [features]
 attachment = true

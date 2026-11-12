@@ -1,6 +1,7 @@
 id = "mistralai/mistral-large-2407"
 knowledge_cutoff = "1711843200"
 name = "Mistral Large 2407"
+open_weights = true
 release_date = "1731978415"
 
 [features]

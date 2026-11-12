@@ -1,0 +1,21 @@
+id = "recraft-v4.1-flash"
+name = "Recraft V4.1 Flash"
+release_date = "1789862400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0
+reasoning = 0

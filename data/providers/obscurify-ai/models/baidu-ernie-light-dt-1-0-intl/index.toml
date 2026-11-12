@@ -1,0 +1,12 @@
+id = "baidu/ernie-light-dt-1.0-intl"
+name = "Baidu: ERNIE Light DT 1.0 (Intl)"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1024000
+
+[pricing]
+input = 1.4365
+output = 4.9725

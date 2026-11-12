@@ -1,0 +1,10 @@
+id = "AutoTrust-JEV-27B-v1.1"
+last_updated = "1794453323"
+name = "AutoTrust-JEV-27B-v1.1"
+release_date = "1794387074"
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.044948535

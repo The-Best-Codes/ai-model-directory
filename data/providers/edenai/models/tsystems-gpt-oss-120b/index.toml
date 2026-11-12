@@ -1,0 +1,21 @@
+id = "tsystems/gpt-oss-120b"
+name = "tsystems/gpt-oss-120b"
+release_date = "1794443601"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0333809939747
+input = 0.222539959832
+output = 0.723254869452

@@ -1,0 +1,15 @@
+id = "ernie-5.5-flash-preview-free"
+name = "ernie-5.5-flash-preview-free"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

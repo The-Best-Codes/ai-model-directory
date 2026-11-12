@@ -1,0 +1,9 @@
+id = "veed/fabric-1.0-fast"
+name = "VEED Fabric 1.0 Fast"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

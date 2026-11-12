@@ -1,0 +1,21 @@
+id = "tsystems/GLM-5.2"
+name = "tsystems/GLM-5.2"
+release_date = "1794443601"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.25035745481
+input = 1.66904969874
+output = 3.89444929705

@@ -1,7 +1,7 @@
 id = "openai/gpt-image-2.6/flare/edit"
 name = "GPT Image 2.6 Flare Edit"
 open_weights = false
-release_date = "1793836800"
+release_date = "1794268800"
 
 [features]
 attachment = true

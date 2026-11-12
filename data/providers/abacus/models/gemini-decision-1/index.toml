@@ -1,0 +1,16 @@
+id = "gemini-decision-1"
+name = "Gemini Decisions"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0

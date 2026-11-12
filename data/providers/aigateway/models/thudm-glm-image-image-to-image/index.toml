@@ -1,7 +1,7 @@
 id = "thudm/glm-image-image-to-image"
 name = "Glm Image (Image To Image)"
 open_weights = true
-release_date = "1776729600"
+release_date = "1794355200"
 
 [features]
 attachment = true

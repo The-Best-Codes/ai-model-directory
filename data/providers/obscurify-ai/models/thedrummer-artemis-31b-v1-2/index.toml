@@ -1,0 +1,12 @@
+id = "thedrummer/artemis-31b-v1.2"
+name = "TheDrummer: Artemis 31B v1.2"
+
+[features]
+tool_call = false
+
+[limit]
+context = 65536
+
+[pricing]
+input = 0.1105
+output = 0.49725

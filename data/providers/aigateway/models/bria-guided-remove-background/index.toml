@@ -1,7 +1,7 @@
 id = "bria/guided-remove-background"
 name = "Bria Guided Remove Background"
 open_weights = true
-release_date = "1791763200"
+release_date = "1794268800"
 
 [features]
 attachment = true

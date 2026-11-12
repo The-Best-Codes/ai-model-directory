@@ -1,7 +1,7 @@
 id = "openai/gpt-image-2.6/sunburst/text-to-image"
 name = "GPT Image 2.6 Sunburst Text to Image"
 open_weights = false
-release_date = "1793750400"
+release_date = "1794268800"
 
 [features]
 attachment = false

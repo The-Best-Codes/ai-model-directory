@@ -1,7 +1,7 @@
 id = "google/gemini-omni-flash/v1.2/edit"
 name = "Gemini Omni Flash 1.2 Edit Video"
 open_weights = false
-release_date = "1793836800"
+release_date = "1794268800"
 
 [features]
 attachment = true

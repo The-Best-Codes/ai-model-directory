@@ -1,5 +1,5 @@
 id = "tee/deepseek-v4.1-flash"
-name = "TEE: DeepSeek V4.1 Flash TEE"
+name = "DeepSeek: DeepSeek V4.1 Flash TEE"
 
 [features]
 tool_call = true

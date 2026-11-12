@@ -1,6 +1,7 @@
 id = "cohere/command-r-08-2024"
 knowledge_cutoff = "1711843200"
 name = "Cohere: Command R (08-2024)"
+open_weights = true
 release_date = "1724976000"
 
 [features]

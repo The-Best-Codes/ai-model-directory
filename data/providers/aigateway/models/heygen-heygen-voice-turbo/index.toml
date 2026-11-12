@@ -1,7 +1,7 @@
 id = "heygen/heygen-voice/turbo"
 name = "HeyGen Voice Turbo"
 open_weights = true
-release_date = "1792713600"
+release_date = "1794268800"
 
 [features]
 attachment = false

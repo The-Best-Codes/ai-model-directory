@@ -1,0 +1,11 @@
+id = "pixverse/v6/max/image-to-video"
+name = "PixVerse V6 Max Image To Video"
+open_weights = false
+release_date = "1794355200"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]
