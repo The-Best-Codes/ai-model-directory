@@ -1,0 +1,15 @@
+id = "inkling-2-small"
+last_updated = "1794502800"
+name = "inkling-2-small"
+release_date = "1794502800"
+
+[features]
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

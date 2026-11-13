@@ -1,0 +1,22 @@
+id = "vertex/gemini-4-hydrogen@us"
+name = "vertex/gemini-4-hydrogen@us"
+release_date = "1794508082"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0825
+cache_write = 1.65
+input = 1.65
+output = 8.25

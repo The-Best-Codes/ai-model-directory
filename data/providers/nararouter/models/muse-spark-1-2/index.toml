@@ -3,7 +3,7 @@ name = "Muse Spark 1.2"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0294618429849
-input = 0.245515358226
-output = 0.834752218034
+cache_read = 0.0293362545903
+input = 0.244468788271
+output = 0.831193880187

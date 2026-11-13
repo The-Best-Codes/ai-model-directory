@@ -1,0 +1,4 @@
+id = "gemini-4-hydrogen-vertex:metered"
+
+[modalities]
+output = [ "text" ]

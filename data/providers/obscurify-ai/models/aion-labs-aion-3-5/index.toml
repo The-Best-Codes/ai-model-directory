@@ -1,0 +1,12 @@
+id = "aion-labs/aion-3.5"
+name = "AionLabs: Aion 3.5"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 3.9
+output = 7.8

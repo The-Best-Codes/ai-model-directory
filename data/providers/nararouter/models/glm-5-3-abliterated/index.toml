@@ -5,11 +5,14 @@ name = "GLM 5.3 Abliterated"
 attachment = false
 reasoning = true
 
+[limit]
+context = 1000000
+
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0950274958436
-input = 0.230188768291
-output = 0.850935569238
+cache_read = 0.0450818848407
+input = 0.174162495282
+output = 0.572083063674

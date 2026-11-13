@@ -1,0 +1,12 @@
+id = "mistralai/mistral-large"
+name = "Mistral: Mistral Large 2411"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 2.21663
+output = 6.631105

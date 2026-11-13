@@ -1,0 +1,18 @@
+id = "gemini-4-hydrogen"
+name = "Gemini 4 Hydrogen"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 1.5
+output = 7.5

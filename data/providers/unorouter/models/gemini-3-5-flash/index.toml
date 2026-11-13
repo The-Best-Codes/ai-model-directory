@@ -8,7 +8,7 @@ attachment = true
 reasoning = true
 structured_output = true
 temperature = true
-tool_call = true
+tool_call = false
 
 [limit]
 context = 1000000
@@ -20,6 +20,6 @@ input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00375
-input = 0.0375
-output = 0.225
+cache_read = 0.003735
+input = 0.03735
+output = 0.2241

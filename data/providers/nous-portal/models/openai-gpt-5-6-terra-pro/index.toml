@@ -1,4 +1,5 @@
 id = "openai/gpt-5.6-terra-pro"
+knowledge_cutoff = "1771200000"
 name = "OpenAI: GPT-5.6 Terra Pro"
 release_date = "1783590861"
 
@@ -14,7 +15,7 @@ context = 1050000
 output = 128000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]

@@ -1,0 +1,12 @@
+id = "aion-labs/aion-3.5-mini"
+name = "AionLabs: Aion 3.5 Mini"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.91
+output = 1.82

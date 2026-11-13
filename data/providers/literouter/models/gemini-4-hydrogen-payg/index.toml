@@ -1,0 +1,4 @@
+id = "gemini-4-hydrogen:payg"
+
+[modalities]
+output = [ "text" ]

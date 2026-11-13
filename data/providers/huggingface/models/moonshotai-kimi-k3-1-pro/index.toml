@@ -1,0 +1,19 @@
+id = "moonshotai/Kimi-K3.1-Pro"
+name = "moonshotai/Kimi-K3.1-Pro"
+release_date = "1793592831"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 10

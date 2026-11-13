@@ -1,4 +1,0 @@
-id = "gemini-4-carbon-thinking-stable:metered"
-
-[modalities]
-output = [ "text" ]

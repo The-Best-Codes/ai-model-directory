@@ -1,0 +1,16 @@
+id = "gemini-4-hydrogen"
+name = "gemini-4-hydrogen"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 1.5
+output = 7.5

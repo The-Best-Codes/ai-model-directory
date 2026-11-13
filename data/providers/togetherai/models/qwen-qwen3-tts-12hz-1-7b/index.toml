@@ -1,0 +1,13 @@
+id = "Qwen/Qwen3-TTS-12Hz-1.7B"
+name = "Qwen3 TTS 12Hz 1.7B"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]
+
+[pricing]
+input = 20
+output = 0

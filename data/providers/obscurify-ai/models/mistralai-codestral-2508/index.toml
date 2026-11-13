@@ -1,0 +1,12 @@
+id = "mistralai/codestral-2508"
+name = "Mistral: Codestral 2508"
+
+[features]
+tool_call = false
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.3315
+output = 0.9945

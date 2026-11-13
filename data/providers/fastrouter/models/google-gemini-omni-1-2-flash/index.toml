@@ -1,0 +1,23 @@
+id = "google/gemini-omni-1.2-flash"
+name = "Google: Gemini Omni 1.2 Flash"
+release_date = "1793836800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = false
+
+[limit]
+context = 131072
+output = 86880
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+input = 1.5
+output = 9
+reasoning = 0

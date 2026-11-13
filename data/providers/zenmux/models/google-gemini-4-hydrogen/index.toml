@@ -1,0 +1,20 @@
+id = "google/gemini-4-hydrogen"
+name = "Google: Gemini 4 Hydrogen"
+release_date = "1794541125"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+cache_write = 1.875
+input = 1.5
+output = 7.5

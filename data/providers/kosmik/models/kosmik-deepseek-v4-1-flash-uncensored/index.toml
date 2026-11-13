@@ -1,0 +1,23 @@
+id = "kosmik/deepseek-v4.1-flash-uncensored"
+name = "DeepSeek V4.1 Flash Uncensored"
+release_date = "1794513971"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.06
+input = 0.3
+output = 1.2

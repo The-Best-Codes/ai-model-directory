@@ -1,0 +1,12 @@
+id = "upstage/solar-pro-3"
+name = "Upstage: Solar Pro 3"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.16575
+output = 0.663

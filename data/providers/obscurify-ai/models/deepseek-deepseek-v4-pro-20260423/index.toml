@@ -1,0 +1,12 @@
+id = "deepseek/deepseek-v4-pro-20260423"
+name = "DeepSeek: DeepSeek V4 Pro (April preview)"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+input = 0.96111795
+output = 1.96209325

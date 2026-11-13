@@ -1,0 +1,12 @@
+id = "qwen/qwen3.7-plus"
+name = "Qwen: Qwen3.7 Plus"
+
+[features]
+tool_call = true
+
+[limit]
+context = 991808
+
+[pricing]
+input = 0.442
+output = 1.768

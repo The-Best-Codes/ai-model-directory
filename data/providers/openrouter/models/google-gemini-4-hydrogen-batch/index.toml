@@ -1,0 +1,26 @@
+id = "google/gemini-4-hydrogen:batch"
+name = "Google: Gemini 4 Hydrogen (batch)"
+release_date = "1794506460"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 943718
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0375
+cache_write = 0.0833333333333
+input = 0.75
+input_audio = 0.75
+output = 3.75
+reasoning = 3.75

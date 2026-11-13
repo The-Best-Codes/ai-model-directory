@@ -1,0 +1,12 @@
+id = "google/gemini-nano-banana-2.1"
+name = "Google: Nano Banana 2.1"
+
+[features]
+tool_call = true
+
+[limit]
+context = 65536
+
+[pricing]
+input = 1.95
+output = 9.75

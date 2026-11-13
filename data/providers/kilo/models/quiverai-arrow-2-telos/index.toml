@@ -1,0 +1,24 @@
+id = "quiverai/arrow-2-telos"
+name = "Arrow 2 Telos"
+release_date = "1789516800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = true
+
+[limit]
+context = 131072
+output = 131072
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.6
+cache_write = 7.5
+input = 6
+output = 30

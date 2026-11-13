@@ -1,5 +1,6 @@
 id = "nvidia/Nemotron-3.5-Super-VL"
 name = "Nemotron 3.5 Super VL"
+open_weights = true
 release_date = "1791841710"
 
 [features]

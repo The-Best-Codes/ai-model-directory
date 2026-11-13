@@ -1,0 +1,14 @@
+id = "google/gemini-4-hydrogen"
+name = "Gemini 4 Hydrogen"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 1.5
+output = 7.5

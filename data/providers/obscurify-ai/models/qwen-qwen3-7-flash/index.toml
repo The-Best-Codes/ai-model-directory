@@ -1,0 +1,12 @@
+id = "qwen/qwen3.7-flash"
+name = "Qwen: Qwen3.7 Flash"
+
+[features]
+tool_call = true
+
+[limit]
+context = 991808
+
+[pricing]
+input = 0.03315
+output = 0.14365

@@ -1,0 +1,11 @@
+id = "Idol"
+last_updated = "1794452423"
+name = "Idol"
+release_date = "1794452358"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

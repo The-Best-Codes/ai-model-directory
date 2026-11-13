@@ -1,6 +1,6 @@
 id = "stealth/glyph-cluster"
-name = "Stealth: Glyph Cluster (free)"
-release_date = "1756238927"
+name = "Glyph Cluster"
+release_date = "1791331200"
 
 [features]
 attachment = false
@@ -18,8 +18,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0
-cache_write = 0
 input = 0
 output = 0
-reasoning = 0

@@ -1,0 +1,12 @@
+id = "minimax/minimax-m2.1"
+name = "MiniMax: MiniMax M2.1"
+
+[features]
+tool_call = true
+
+[limit]
+context = 200000
+
+[pricing]
+input = 0.3315
+output = 1.326

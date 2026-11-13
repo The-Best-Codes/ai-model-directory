@@ -1,0 +1,12 @@
+id = "qwen/qwen3.5-9b"
+name = "Qwen: Qwen3.5 9B"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.05525
+output = 0.16575

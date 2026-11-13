@@ -1,0 +1,22 @@
+id = "scaledown/scaledown-extract-1"
+name = "ScaleDown: Extract-1"
+release_date = "1792454400"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+temperature = true
+tool_call = false
+
+[limit]
+context = 1000000
+output = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0

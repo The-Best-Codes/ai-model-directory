@@ -1,0 +1,12 @@
+id = "qwen/qwen3.6-max-preview"
+name = "Qwen: Qwen3.6 Max Preview"
+
+[features]
+tool_call = false
+
+[limit]
+context = 245760
+
+[pricing]
+input = 1.1492
+output = 6.8952

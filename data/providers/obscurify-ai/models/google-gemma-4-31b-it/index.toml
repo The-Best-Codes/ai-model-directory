@@ -8,5 +8,5 @@ tool_call = true
 context = 262144
 
 [pricing]
-input = 0.1547
-output = 0.442
+input = 0.12155
+output = 0.36465

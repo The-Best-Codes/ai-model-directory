@@ -1,0 +1,12 @@
+id = "qwen/qwen3.8-max-prime"
+name = "Qwen: Qwen3.8 Max Prime"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1000000
+
+[pricing]
+input = 4.42
+output = 13.26

@@ -1,0 +1,12 @@
+id = "z-ai/glm-4.7-flash"
+name = "Z.ai: GLM 4.7 Flash"
+
+[features]
+tool_call = true
+
+[limit]
+context = 200000
+
+[pricing]
+input = 0.07735
+output = 0.442

@@ -1,4 +1,0 @@
-id = "gemini-3-flash-preview-flatcost:full-context"
-
-[modalities]
-output = [ "text" ]

@@ -1,0 +1,12 @@
+id = "perplexity/sonar-reasoning-pro"
+name = "Perplexity: Sonar Reasoning Pro"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 2.6
+output = 10.4

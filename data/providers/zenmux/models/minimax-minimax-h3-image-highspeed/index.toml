@@ -1,0 +1,17 @@
+id = "minimax/minimax-h3-image-highspeed"
+name = "MiniMax: MiniMax H3 Image Highspeed"
+release_date = "1794544548"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 10000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 1.15

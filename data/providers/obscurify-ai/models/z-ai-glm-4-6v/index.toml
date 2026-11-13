@@ -1,0 +1,12 @@
+id = "z-ai/glm-4.6v"
+name = "Z.ai: GLM 4.6V"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.3315
+output = 0.9945

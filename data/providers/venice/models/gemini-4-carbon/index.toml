@@ -1,0 +1,22 @@
+id = "gemini-4-carbon"
+name = "Gemini 4 Carbon"
+release_date = "1794268800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.125
+input = 2.5
+output = 12.5

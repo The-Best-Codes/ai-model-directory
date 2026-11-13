@@ -1,0 +1,12 @@
+id = "aion-labs/aion-2.0"
+name = "AionLabs: Aion-2.0"
+
+[features]
+tool_call = true
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.884
+output = 1.768

@@ -1,0 +1,12 @@
+id = "perplexity/sonar"
+name = "Perplexity: Sonar"
+
+[features]
+tool_call = false
+
+[limit]
+context = 127072
+
+[pricing]
+input = 1.3
+output = 1.3

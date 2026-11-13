@@ -1,0 +1,12 @@
+id = "minimax/minimax-01"
+name = "MiniMax: MiniMax 01"
+
+[features]
+tool_call = false
+
+[limit]
+context = 1000192
+
+[pricing]
+input = 0.154037
+output = 1.23981

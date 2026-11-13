@@ -1,0 +1,21 @@
+id = "gemini-4-hydrogen"
+name = "Gemini-4-Hydrogen"
+release_date = "1794517257"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0758
+input = 1.5152
+output = 7.5758

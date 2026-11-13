@@ -1,0 +1,4 @@
+id = "gemini-3-pro-preview-vertex:metered"
+
+[modalities]
+output = [ "text" ]

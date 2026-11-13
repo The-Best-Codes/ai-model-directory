@@ -1,0 +1,12 @@
+id = "qwen/qwen3-coder-flash"
+name = "Qwen: Qwen3 Coder Flash"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.3315
+output = 1.6575
