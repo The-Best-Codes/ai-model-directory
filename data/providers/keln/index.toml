@@ -1,0 +1,7 @@
+name = "Keln"
+website = "https://keln.ai"
+apiBaseUrl = "https://api.keln.ai/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["KELN_API_KEY"]
