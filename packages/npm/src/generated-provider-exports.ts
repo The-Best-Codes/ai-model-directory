@@ -56,6 +56,7 @@ export const inco = modelDirectory["inco"]!;
 export const inference = modelDirectory["inference"]!;
 export const ioNet = modelDirectory["io-net"]!;
 export const jiekou = modelDirectory["jiekou"]!;
+export const keln = modelDirectory["keln"]!;
 export const kenari = modelDirectory["kenari"]!;
 export const kilo = modelDirectory["kilo"]!;
 export const kiosapi = modelDirectory["kiosapi"]!;
