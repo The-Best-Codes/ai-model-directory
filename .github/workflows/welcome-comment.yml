@@ -1,0 +1,56 @@
+name: Welcome Comment
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  comment:
+    if: ${{ !endsWith(github.actor, '[bot]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post issue comment
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body "$(cat <<'EOF'
+          Thanks for opening this issue!
+
+          To help us look into it, please make sure it includes:
+
+          - A clear description of the problem or request
+          - The provider and model IDs involved, if applicable
+          - Steps to reproduce, or the expected vs. actual data
+          - Links to official provider documentation or pricing pages that support the change
+
+          **Please note:** the maintainers do not monitor this repository on a regular basis, so responses here may be delayed. For a faster response, please [join our Discord](https://www.agent-one.dev/discord) or create a post on the [AgentOne Forum](https://forum.agent-one.dev).
+          EOF
+          )"
+
+      - name: Post pull request comment
+        if: github.event_name == 'pull_request_target'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body "$(cat <<'EOF'
+          Thanks for your contribution!
+
+          Before this pull request is reviewed, please make sure that:
+
+          - You have read [CONTRIBUTING.md](https://github.com/${{ github.repository }}/blob/main/CONTRIBUTING.md) and followed its pull request checklist
+          - Typechecking passes (`bunx --bun tsc -b`) and the code is formatted (`bunx prettier . -w`)
+          - Any metadata changes are backed by official provider documentation or pricing pages, linked in the description
+          - If an AI agent helped write this change, the description notes the agent, model, and any other relevant details
+
+          **Please note:** the maintainers do not monitor this repository on a regular basis, so reviews here may be delayed. For a faster response, please [join our Discord](https://www.agent-one.dev/discord) or create a post on the [AgentOne Forum](https://forum.agent-one.dev).
+          EOF
+          )"
