@@ -1,0 +1,20 @@
+id = "creekside/qwen3.8-27b-creekside"
+name = "Qwen3.8 27B"
+release_date = "1794580795"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.035
+input = 0.14
+output = 1.75

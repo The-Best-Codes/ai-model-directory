@@ -1,0 +1,17 @@
+id = "perplexity/pplx-decider-v1.3"
+name = "PPLX Decider v1.3"
+release_date = "1794563917"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.02
+output = 0

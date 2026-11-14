@@ -1,0 +1,12 @@
+id = "tee/gpt-oss-120b"
+name = "OpenAI: GPT-OSS 120B TEE"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.195
+output = 0.78

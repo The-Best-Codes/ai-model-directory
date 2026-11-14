@@ -1,0 +1,19 @@
+id = "glm-5-3-flash-abliterated"
+name = "glm-5-3-flash-abliterated"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.02471305995
+input = 0.1372947775
+output = 0.659014932

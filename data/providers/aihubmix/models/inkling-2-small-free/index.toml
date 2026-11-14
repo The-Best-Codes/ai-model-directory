@@ -1,0 +1,15 @@
+id = "inkling-2-small-free"
+name = "inkling-2-small-free"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0
+input = 0

@@ -1,0 +1,19 @@
+id = "glm-5-3-abliterated"
+name = "glm-5-3-abliterated"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.274589555
+input = 0.823768665
+output = 2.74589555

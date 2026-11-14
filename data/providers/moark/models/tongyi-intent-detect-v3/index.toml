@@ -1,5 +1,5 @@
 id = "tongyi-intent-detect-v3"
-last_updated = "1792582142"
+last_updated = "1794554036"
 name = "tongyi-intent-detect-v3"
 release_date = "1778404325"
 
@@ -11,5 +11,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.059983908
-output = 0.14995977
+input = 0.059960092
+output = 0.14990023

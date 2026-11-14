@@ -10,11 +10,11 @@ context = 128000
 output = 16384
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 1.27141983698
-cache_write = 2.54283967397
-input = 2.54283967397
-output = 10.1713586959
+cache_read = 1.27714642726
+cache_write = 2.55429174865
+input = 2.55429174865
+output = 10.2171658887

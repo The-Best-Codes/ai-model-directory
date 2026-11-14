@@ -1,5 +1,5 @@
 id = "tencent/hunyuan-a13b-instruct"
-name = "Tencent: Hunyuan A13B Instruct"
+name = "Tencent: Hunyuan A13B Instruct (retires Nov 15)"
 release_date = "1751987664"
 
 [features]

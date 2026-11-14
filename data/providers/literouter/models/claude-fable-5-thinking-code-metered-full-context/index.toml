@@ -1,0 +1,4 @@
+id = "claude-fable-5-thinking-code:metered:full-context"
+
+[modalities]
+output = [ "text" ]

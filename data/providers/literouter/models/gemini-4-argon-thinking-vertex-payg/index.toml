@@ -1,4 +1,0 @@
-id = "gemini-4-argon-thinking-vertex:payg"
-
-[modalities]
-output = [ "text" ]

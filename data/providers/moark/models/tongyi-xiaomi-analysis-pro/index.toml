@@ -1,5 +1,5 @@
 id = "tongyi-xiaomi-analysis-pro"
-last_updated = "1792582142"
+last_updated = "1794554004"
 name = "tongyi-xiaomi-analysis-pro"
 release_date = "1778207029"
 
@@ -14,5 +14,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.14995977
-output = 0.404891379
+input = 0.14990023
+output = 0.404730621

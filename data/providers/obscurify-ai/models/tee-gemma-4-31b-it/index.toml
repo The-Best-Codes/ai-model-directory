@@ -1,0 +1,12 @@
+id = "tee/gemma-4-31b-it"
+name = "Google: Gemma 4 31B TEE"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.195
+output = 0.598

@@ -1,0 +1,17 @@
+id = "glm-4.7-flash"
+name = "glm-4.7-flash"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.04
+cache_write = 0.1
+input = 0.08
+output = 0.44

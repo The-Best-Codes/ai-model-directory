@@ -1,5 +1,5 @@
 id = "AutoTrust-JEV-27B-v1.1"
-last_updated = "1794453323"
+last_updated = "1794554495"
 name = "AutoTrust-JEV-27B-v1.1"
 release_date = "1794387074"
 
@@ -7,4 +7,4 @@ release_date = "1794387074"
 context = 32000
 
 [pricing]
-input = 0.044987931
+input = 0.044970069

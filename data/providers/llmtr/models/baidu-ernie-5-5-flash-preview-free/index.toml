@@ -1,0 +1,20 @@
+id = "baidu/ernie-5.5-flash-preview-free"
+name = "ERNIE 5.5 Flash Preview (Free)"
+release_date = "1794550983"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1024000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0
+input = 0
+output = 0

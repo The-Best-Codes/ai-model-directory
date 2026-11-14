@@ -1,0 +1,12 @@
+id = "tee/kimi-k2.6"
+name = "MoonshotAI: Kimi K2.6 TEE"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 1.417
+output = 5.98

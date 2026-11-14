@@ -1,5 +1,5 @@
 id = "tongyi-xiaomi-analysis-flash"
-last_updated = "1792582142"
+last_updated = "1794554220"
 name = "tongyi-xiaomi-analysis-flash"
 release_date = "1778207029"
 
@@ -14,5 +14,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.029991954
-output = 0.059983908
+input = 0.029980046
+output = 0.059960092

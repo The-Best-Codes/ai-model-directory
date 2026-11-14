@@ -1,0 +1,9 @@
+id = "hy-world-2.1-panorama"
+name = "HY World 2.1 Panorama"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

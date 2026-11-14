@@ -1,0 +1,21 @@
+id = "flexai/gpt-oss-20b@eu"
+name = "flexai/gpt-oss-20b@eu"
+release_date = "1786610410"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0027
+input = 0.018
+output = 0.09

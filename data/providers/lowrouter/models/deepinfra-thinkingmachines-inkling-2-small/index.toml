@@ -1,0 +1,17 @@
+id = "deepinfra/thinkingmachines/inkling-2-small"
+name = "deepinfra/thinkingmachines/inkling-2-small"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0306522485457
+input = 0.306515850292
+output = 1.02171692063

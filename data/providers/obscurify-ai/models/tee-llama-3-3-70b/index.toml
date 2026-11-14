@@ -1,0 +1,12 @@
+id = "tee/llama-3.3-70b"
+name = "Meta: Llama 3.3 70B TEE"
+
+[features]
+tool_call = true
+
+[limit]
+context = 131072
+
+[pricing]
+input = 2.6
+output = 2.6

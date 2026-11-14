@@ -1,6 +1,6 @@
 id = "parallel/parallel-decisions-fast"
 name = "Decisions Fast"
-release_date = "1793923200"
+release_date = "1794528000"
 
 [limit]
 context = 32000

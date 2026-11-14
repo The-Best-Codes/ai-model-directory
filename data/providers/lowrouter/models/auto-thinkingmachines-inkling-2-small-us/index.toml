@@ -1,0 +1,18 @@
+id = "auto/thinkingmachines/inkling-2-small/us"
+name = "auto/thinkingmachines/inkling-2-small/us"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0306522485457
+cache_write = 0.306515850292
+input = 0.306515850292
+output = 1.02171692063

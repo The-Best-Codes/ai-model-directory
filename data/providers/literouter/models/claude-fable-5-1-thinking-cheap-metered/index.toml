@@ -1,0 +1,4 @@
+id = "claude-fable-5.1-thinking-cheap:metered"
+
+[modalities]
+output = [ "text" ]
