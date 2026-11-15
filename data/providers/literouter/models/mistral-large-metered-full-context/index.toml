@@ -1,4 +1,0 @@
-id = "mistral-large:metered:full-context"
-
-[modalities]
-output = [ "text" ]

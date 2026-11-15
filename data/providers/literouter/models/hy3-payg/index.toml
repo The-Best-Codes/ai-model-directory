@@ -1,4 +1,0 @@
-id = "hy3:payg"
-
-[modalities]
-output = [ "text" ]

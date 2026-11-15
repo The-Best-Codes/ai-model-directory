@@ -1,4 +1,0 @@
-id = "deepseek-r1-0528-fp8:metered"
-
-[modalities]
-output = [ "text" ]

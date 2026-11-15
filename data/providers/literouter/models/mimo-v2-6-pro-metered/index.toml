@@ -1,4 +1,0 @@
-id = "mimo-v2.6-pro:metered"
-
-[modalities]
-output = [ "text" ]

@@ -1,4 +1,0 @@
-id = "hy3:metered:full-context"
-
-[modalities]
-output = [ "text" ]

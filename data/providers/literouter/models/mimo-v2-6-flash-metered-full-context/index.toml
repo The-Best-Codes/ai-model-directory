@@ -1,4 +1,0 @@
-id = "mimo-v2.6-flash:metered:full-context"
-
-[modalities]
-output = [ "text" ]
