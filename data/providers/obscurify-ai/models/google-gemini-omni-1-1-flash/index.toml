@@ -1,0 +1,12 @@
+id = "google/gemini-omni-1.1-flash"
+name = "Google: Gemini Omni 1.1 Flash"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 1.95
+output = 11.7

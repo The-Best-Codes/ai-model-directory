@@ -1,0 +1,9 @@
+id = "muse-video"
+name = "muse-video"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "video" ]

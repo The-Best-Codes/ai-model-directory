@@ -1,0 +1,18 @@
+id = "muse-wonder"
+name = "Muse Wonder"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0944582524186
+input = 0.791583203035
+output = 3.95791601529

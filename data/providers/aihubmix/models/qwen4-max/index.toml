@@ -1,0 +1,16 @@
+id = "qwen4-max"
+name = "qwen4-max"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.0734999999995
+input = 1.471
+output = 4.412

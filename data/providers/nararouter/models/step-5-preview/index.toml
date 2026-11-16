@@ -3,7 +3,7 @@ name = "Step 5 Preview"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.009324283785
-input = 0.0981900576525
-output = 0.294570173012
+cache_read = 0.00932944568629
+input = 0.0982444154345
+output = 0.294733246358

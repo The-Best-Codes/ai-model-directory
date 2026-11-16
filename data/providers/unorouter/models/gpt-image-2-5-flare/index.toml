@@ -10,8 +10,3 @@ tool_call = false
 [modalities]
 input = [ "file", "image", "text" ]
 output = [ "image" ]
-
-[pricing]
-cache_read = 0.4375
-input = 1.75
-output = 1.75

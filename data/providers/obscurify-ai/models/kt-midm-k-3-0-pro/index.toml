@@ -1,0 +1,12 @@
+id = "kt/midm-k-3.0-pro"
+name = "KT: Mi:dm K 3.0 Pro"
+
+[features]
+tool_call = true
+
+[limit]
+context = 261795
+
+[pricing]
+input = 0.26
+output = 1.04

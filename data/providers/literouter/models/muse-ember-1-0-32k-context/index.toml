@@ -1,0 +1,4 @@
+id = "muse-ember-1.0:32k-context"
+
+[modalities]
+output = [ "text" ]

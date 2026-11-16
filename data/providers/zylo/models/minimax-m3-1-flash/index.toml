@@ -1,0 +1,15 @@
+id = "minimax-m3.1-flash"
+name = "Minimax M3.1 Flash"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

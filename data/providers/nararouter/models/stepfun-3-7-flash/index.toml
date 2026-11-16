@@ -3,7 +3,7 @@ name = "Stepfun 3.7 Flash"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 
 [limit]
 context = 262000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00794489054294
-input = 0.0397244528244
-output = 0.228415603781
+cache_read = 0.00794928881542
+input = 0.0397464441868
+output = 0.228542054116

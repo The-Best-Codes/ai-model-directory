@@ -1,0 +1,12 @@
+id = "motif-technologies/motif-3"
+name = "Motif Technologies: Motif 3"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.39
+output = 1.56

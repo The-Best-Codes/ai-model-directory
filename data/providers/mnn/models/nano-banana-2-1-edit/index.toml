@@ -1,0 +1,8 @@
+id = "nano-banana-2.1-edit"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

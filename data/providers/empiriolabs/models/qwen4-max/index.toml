@@ -1,0 +1,22 @@
+id = "qwen4-max"
+name = "Qwen4 Max"
+release_date = "1794787200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 983616
+output = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 1.5
+output = 4.5

@@ -1,5 +1,5 @@
 id = "prism-ml/ternary-bonsai-2-9b"
-name = "Prism Ml: Ternary Bonsai2 9B"
+name = "PrismML: Ternary Bonsai2 9B"
 
 [features]
 tool_call = true
