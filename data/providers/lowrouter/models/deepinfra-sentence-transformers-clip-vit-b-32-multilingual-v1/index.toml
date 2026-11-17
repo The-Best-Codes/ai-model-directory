@@ -1,0 +1,12 @@
+id = "deepinfra/sentence-transformers/clip-vit-b-32-multilingual-v1"
+name = "deepinfra/sentence-transformers/clip-vit-b-32-multilingual-v1"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00508453481697
+output = 0

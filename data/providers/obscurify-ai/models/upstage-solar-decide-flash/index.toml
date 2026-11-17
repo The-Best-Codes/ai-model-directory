@@ -1,0 +1,12 @@
+id = "upstage/solar-decide-flash"
+name = "Upstage: Solar Decide Flash"
+
+[features]
+tool_call = false
+
+[limit]
+context = 524288
+
+[pricing]
+input = 0.065
+output = 0

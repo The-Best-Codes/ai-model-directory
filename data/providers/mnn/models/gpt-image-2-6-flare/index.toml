@@ -1,0 +1,8 @@
+id = "gpt-image-2.6-flare"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

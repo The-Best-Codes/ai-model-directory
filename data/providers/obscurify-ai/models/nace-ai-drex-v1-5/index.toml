@@ -1,0 +1,12 @@
+id = "nace-ai/drex-v1.5"
+name = "Nace.AI: Drex v1.5"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.052
+output = 0

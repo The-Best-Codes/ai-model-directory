@@ -1,0 +1,12 @@
+id = "vllm-sr/decision-medium"
+name = "Vllm Sr: d3 Flash (Decision Medium)"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.0663
+output = 0

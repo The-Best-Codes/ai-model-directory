@@ -1,0 +1,19 @@
+id = "seedream-5.5-el"
+name = "Seedream-5.5-EL"
+release_date = "1794676882"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image", "text" ]
+
+[pricing]
+output = 10.101

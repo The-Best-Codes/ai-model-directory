@@ -1,0 +1,19 @@
+id = "dphn/Dolphin-Mistral-24B-Venice-Edition"
+name = "dphn/Dolphin-Mistral-24B-Venice-Edition"
+release_date = "1749706156"
+
+[features]
+attachment = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.2
+output = 0.9

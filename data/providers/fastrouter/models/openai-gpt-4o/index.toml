@@ -4,7 +4,7 @@ release_date = "1715558400"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 structured_output = true
 temperature = true
 tool_call = true
@@ -21,3 +21,4 @@ output = [ "text" ]
 cache_read = 1.25
 input = 2.5
 output = 10
+reasoning = 0

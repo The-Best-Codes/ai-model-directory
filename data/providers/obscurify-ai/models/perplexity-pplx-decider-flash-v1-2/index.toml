@@ -1,0 +1,12 @@
+id = "perplexity/pplx-decider-flash-v1.2"
+name = "Perplexity: Decider Flash V1.2"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.013
+output = 0

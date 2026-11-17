@@ -2,18 +2,19 @@ id = "auto/deepseek/deepseek-v4.1-flash/europe"
 name = "auto/deepseek/deepseek-v4.1-flash/europe"
 
 [features]
-attachment = true
+attachment = false
 tool_call = true
 
 [limit]
-context = 1000000
+context = 1048576
+output = 1048576
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.01212426292
-cache_write = 0.2424852584
-input = 0.2424852584
-output = 1.212426292
+cache_read = 0.110221869
+cache_write = 0.2755546725
+input = 0.2755546725
+output = 1.10221869

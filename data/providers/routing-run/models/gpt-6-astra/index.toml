@@ -1,7 +1,8 @@
 id = "gpt-6-astra"
-name = "gpt-6-astra"
+name = "GPT-6 Astra"
 
 [features]
+attachment = true
 reasoning = true
 
 [limit]
@@ -9,9 +10,9 @@ context = 1050000
 output = 128000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 3.3
-output = 16.5
+input = 6
+output = 30

@@ -5,12 +5,9 @@ name = "auto/mistralai/mistral-small-4-119b-2603/europe"
 attachment = true
 tool_call = true
 
-[modalities]
-input = [ "image", "text" ]
-output = [ "text" ]
+[limit]
+context = 256000
 
-[pricing]
-cache_read = 0.220441144
-cache_write = 0.220441144
-input = 0.220441144
-output = 0.82665429
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

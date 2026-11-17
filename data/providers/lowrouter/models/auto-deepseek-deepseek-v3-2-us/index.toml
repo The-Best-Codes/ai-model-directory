@@ -12,3 +12,9 @@ output = 81920
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.630402957559
+cache_write = 0.630402957559
+input = 0.630402957559
+output = 1.88104090526

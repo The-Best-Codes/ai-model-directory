@@ -1,0 +1,12 @@
+id = "sophosympatheia/glistening-gem-31b-v2.1"
+name = "Sophosympatheia: Glistening Gem 31B v2.1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.624
+output = 1.872

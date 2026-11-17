@@ -1,0 +1,9 @@
+id = "respan/span-01"
+name = "Respan: Span-01"
+
+[features]
+tool_call = false
+
+[pricing]
+input = 0.026
+output = 0

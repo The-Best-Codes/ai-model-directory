@@ -5,13 +5,10 @@ name = "auto/qwen/qwen3-embedding-4b"
 attachment = false
 
 [limit]
-context = 32768
+context = 32000
 
 [modalities]
 input = [ "text" ]
 
 [pricing]
-cache_read = 0.0203037315681
-cache_write = 0.0203037315681
-input = 0.0203037315681
 output = 0

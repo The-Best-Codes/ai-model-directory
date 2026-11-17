@@ -1,0 +1,19 @@
+id = "auto/meta-llama/llama-3.3-70b-instruct/us"
+name = "auto/meta-llama/llama-3.3-70b-instruct/us"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.101678571934
+cache_write = 0.101678571934
+input = 0.101678571934
+output = 0.325369446195

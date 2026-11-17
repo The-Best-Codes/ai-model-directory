@@ -1,0 +1,13 @@
+id = "mistral/mistralai/ministral-3-3b-instruct-2512"
+name = "mistral/mistralai/ministral-3-3b-instruct-2512"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

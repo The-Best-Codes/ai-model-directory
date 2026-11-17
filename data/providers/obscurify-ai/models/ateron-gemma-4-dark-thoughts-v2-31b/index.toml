@@ -1,0 +1,12 @@
+id = "ateron/gemma-4-dark-thoughts-v2-31b"
+name = "Ateron: Gemma 4 Dark Thoughts V2 31B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.624
+output = 1.872

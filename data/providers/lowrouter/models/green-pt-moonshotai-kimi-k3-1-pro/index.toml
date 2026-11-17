@@ -1,0 +1,18 @@
+id = "green-pt/moonshotai/kimi-k3.1-pro"
+name = "green-pt/moonshotai/kimi-k3.1-pro"
+
+[features]
+attachment = false
+
+[limit]
+context = 1000000
+output = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.90933041925
+input = 3.637321677
+output = 18.186608385

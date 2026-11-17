@@ -1,0 +1,18 @@
+id = "heygen/heygen-decision-1-turbo"
+name = "HeyGen Decision 1 Turbo"
+release_date = "1794787200"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.09
+output = 0

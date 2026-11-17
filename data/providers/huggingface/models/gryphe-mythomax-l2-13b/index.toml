@@ -1,0 +1,19 @@
+id = "Gryphe/MythoMax-L2-13b"
+name = "Gryphe/MythoMax-L2-13b"
+release_date = "1691699734"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.5

@@ -1,0 +1,16 @@
+id = "SparkDesk-v3.5"
+name = "SparkDesk-v3.5"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 1.26
+cache_write = 12.74
+input = 10.19
+output = 10.19

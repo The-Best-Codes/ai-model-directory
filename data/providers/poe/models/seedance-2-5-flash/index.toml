@@ -1,0 +1,19 @@
+id = "seedance-2.5-flash"
+name = "Seedance-2.5-Flash"
+release_date = "1794851622"
+
+[features]
+attachment = true
+reasoning = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text", "video" ]
+
+[pricing]
+output = 10.101

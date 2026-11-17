@@ -1,0 +1,19 @@
+id = "LiquidAI/LFM2.5-24B-A2B"
+name = "LiquidAI/LFM2.5-24B-A2B"
+release_date = "1791783346"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.05
+output = 0.7

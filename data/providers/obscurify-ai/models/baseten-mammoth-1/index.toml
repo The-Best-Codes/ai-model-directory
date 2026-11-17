@@ -1,0 +1,12 @@
+id = "baseten/mammoth-1"
+name = "Baseten: Mammoth 1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 16384
+
+[pricing]
+input = 0.13
+output = 0

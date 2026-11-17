@@ -1,0 +1,12 @@
+id = "perplexity/pplx-decider-v1.2"
+name = "Perplexity: PPLX Decider v1.2"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.0221
+output = 0

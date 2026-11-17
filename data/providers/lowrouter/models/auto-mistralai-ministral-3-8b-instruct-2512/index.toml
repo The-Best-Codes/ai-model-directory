@@ -1,0 +1,14 @@
+id = "auto/mistralai/ministral-3-8b-instruct-2512"
+name = "auto/mistralai/ministral-3-8b-instruct-2512"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]

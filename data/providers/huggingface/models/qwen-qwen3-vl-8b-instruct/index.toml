@@ -1,0 +1,10 @@
+id = "Qwen/Qwen3-VL-8B-Instruct"
+name = "Qwen/Qwen3-VL-8B-Instruct"
+release_date = "1760167419"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]

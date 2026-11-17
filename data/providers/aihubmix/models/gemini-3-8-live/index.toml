@@ -1,0 +1,11 @@
+id = "gemini-3.8-live"
+name = "gemini-3.8-live"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "image", "text" ]

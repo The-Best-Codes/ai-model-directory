@@ -1,0 +1,12 @@
+id = "scaledown/classify-1"
+name = "ScaleDown: Classify-1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 1000000
+
+[pricing]
+input = 0.052
+output = 0

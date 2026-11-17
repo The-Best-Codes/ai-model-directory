@@ -1,4 +1,0 @@
-id = "deepseek-v3.1-stable:free"
-
-[modalities]
-output = [ "text" ]

@@ -1,18 +1,15 @@
 id = "hy4"
-last_updated = "1793885488"
+last_updated = "1794811100"
 name = "hy4"
 release_date = "1793883589"
 
 [features]
 attachment = false
 
-[limit]
-context = 1024000
-
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.89932218
-output = 2.69796654
+input = 0.89947944
+output = 2.69843832

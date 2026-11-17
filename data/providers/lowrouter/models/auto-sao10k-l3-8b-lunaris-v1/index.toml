@@ -1,0 +1,18 @@
+id = "auto/sao10k/l3-8b-lunaris-v1"
+name = "auto/sao10k/l3-8b-lunaris-v1"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.040671869661
+cache_write = 0.040671869661
+input = 0.040671869661
+output = 0.0508398370763

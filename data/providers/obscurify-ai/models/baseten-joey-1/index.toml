@@ -1,0 +1,12 @@
+id = "baseten/joey-1"
+name = "Baseten: Joey 1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 16384
+
+[pricing]
+input = 0.013
+output = 0

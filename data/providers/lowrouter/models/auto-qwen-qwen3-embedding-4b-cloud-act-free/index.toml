@@ -1,0 +1,17 @@
+id = "auto/qwen/qwen3-embedding-4b/cloud-act-free"
+name = "auto/qwen/qwen3-embedding-4b/cloud-act-free"
+
+[features]
+attachment = false
+
+[limit]
+context = 32000
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.220443738
+cache_write = 0.220443738
+input = 0.220443738
+output = 0

@@ -1,0 +1,12 @@
+id = "nbeerbower/gemma4-gutenberg-31b-heretic"
+name = "nbeerbower: Gemma 4 Gutenberg 31B Heretic"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.624
+output = 1.872

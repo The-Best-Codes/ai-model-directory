@@ -1,0 +1,12 @@
+id = "kitani/clover-2"
+name = "Kitani: Clover 2"
+
+[features]
+tool_call = false
+
+[limit]
+context = 200000
+
+[pricing]
+input = 0
+output = 0

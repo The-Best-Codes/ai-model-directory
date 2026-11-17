@@ -1,0 +1,21 @@
+id = "kitani/clover-2"
+name = "Clover 2"
+release_date = "1794873600"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = false
+
+[limit]
+context = 200000
+output = 8192
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

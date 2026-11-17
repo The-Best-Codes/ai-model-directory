@@ -1,0 +1,12 @@
+id = "gryphe/gemma-4-31b-styletune"
+name = "Gryphe: Gemma 4 31B StyleTune"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.624
+output = 1.872

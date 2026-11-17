@@ -1,5 +1,5 @@
-id = "scaleway/lighton/lightonocr-3.0.8b"
-name = "scaleway/lighton/lightonocr-3.0.8b"
+id = "scaleway/lighton/lightonocr-3-0.8b"
+name = "scaleway/lighton/lightonocr-3-0.8b"
 
 [features]
 attachment = false
@@ -9,5 +9,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 2.424852584
+input = 2.424881118
 output = 0

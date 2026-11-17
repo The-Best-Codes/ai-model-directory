@@ -1,0 +1,12 @@
+id = "openai/whisper-1"
+name = "Whisper 1"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+
+[pricing]
+input = 100
+output = 0

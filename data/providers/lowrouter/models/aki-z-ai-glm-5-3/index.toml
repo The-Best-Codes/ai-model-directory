@@ -1,0 +1,19 @@
+id = "aki/z-ai/glm-5.3"
+name = "aki/z-ai/glm-5.3"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 524288
+output = 524288
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.2755546725
+input = 1.10221869
+output = 3.857765415

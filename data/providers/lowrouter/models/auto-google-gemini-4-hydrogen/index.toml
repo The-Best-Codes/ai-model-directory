@@ -1,0 +1,16 @@
+id = "auto/google/gemini-4-hydrogen"
+name = "auto/google/gemini-4-hydrogen"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.076259204505
+cache_write = 1.52516865904
+input = 1.52516865904
+output = 7.62583998854

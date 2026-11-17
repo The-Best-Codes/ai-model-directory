@@ -1,17 +1,18 @@
 id = "deepseek-v4.1-flash"
-name = "deepseek-v4.1-flash"
+name = "DeepSeek V4.1 Flash"
 
 [features]
+attachment = true
 reasoning = true
 
 [limit]
 context = 1048576
-output = 128000
+output = 384000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.149
-output = 0.594
+input = 0.01521
+output = 0.06084

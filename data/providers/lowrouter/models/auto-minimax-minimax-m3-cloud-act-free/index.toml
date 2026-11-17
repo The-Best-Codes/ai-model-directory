@@ -3,7 +3,6 @@ name = "auto/minimax/minimax-m3/cloud-act-free"
 
 [features]
 attachment = false
-tool_call = true
 
 [limit]
 context = 1000000
@@ -12,3 +11,9 @@ output = 64000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.1212440559
+cache_write = 0.4849762236
+input = 0.4849762236
+output = 2.424881118

@@ -1,0 +1,12 @@
+id = "google/gemini-decision-1"
+name = "Google: Gemini Decision 1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.13
+output = 0

@@ -1,0 +1,17 @@
+id = "openai/gpt-image-2.6-sunburst"
+name = "openai/gpt-image-2.6-sunburst"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]
+
+[pricing]
+cache_read = 2
+cache_write = 8
+input = 8
+input_audio = 8
+output = 30
+output_audio = 8

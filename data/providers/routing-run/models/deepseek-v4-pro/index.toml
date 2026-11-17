@@ -1,17 +1,17 @@
 id = "deepseek-v4-pro"
-name = "deepseek-v4-pro"
+name = "DeepSeek V4 Pro"
 
 [features]
 reasoning = true
 
 [limit]
 context = 1000000
-output = 64000
+output = 128000
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.4
-output = 1.4
+input = 0.18
+output = 0.3

@@ -1,0 +1,13 @@
+id = "ionos/mistralai/mistral-small-24b-instruct-2501"
+name = "ionos/mistralai/mistral-small-24b-instruct-2501"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.110221869
+output = 0.330665607

@@ -1,0 +1,12 @@
+id = "deepinfra/sentence-transformers/all-minilm-l12-v2"
+name = "deepinfra/sentence-transformers/all-minilm-l12-v2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00508453481697
+output = 0

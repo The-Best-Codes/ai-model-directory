@@ -1,0 +1,12 @@
+id = "nimbz/gemma-4-dark-orthia-31b"
+name = "Nimbz: Gemma 4 Dark Orthia 31B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.624
+output = 1.872

@@ -1,0 +1,12 @@
+id = "deepinfra/sentence-transformers/multi-qa-mpnet-base-dot-v1"
+name = "deepinfra/sentence-transformers/multi-qa-mpnet-base-dot-v1"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.00508453481697
+output = 0

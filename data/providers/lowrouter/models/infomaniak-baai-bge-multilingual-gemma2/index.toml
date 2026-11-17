@@ -1,0 +1,12 @@
+id = "infomaniak/baai/bge-multilingual-gemma2"
+name = "infomaniak/baai/bge-multilingual-gemma2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.07164421485
+output = 0

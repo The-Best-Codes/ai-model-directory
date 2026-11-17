@@ -1,0 +1,14 @@
+id = "auto/sentence-transformers/multi-qa-mpnet-base-dot-v1/us"
+name = "auto/sentence-transformers/multi-qa-mpnet-base-dot-v1/us"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.00508453481697
+cache_write = 0.00508453481697
+input = 0.00508453481697
+output = 0

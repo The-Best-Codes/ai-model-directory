@@ -1,0 +1,21 @@
+id = "deepinfra/Qwen/Qwen4-Max"
+name = "deepinfra/Qwen/Qwen4-Max"
+release_date = "1794841974"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0710000001
+input = 1.413
+output = 4.24

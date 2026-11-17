@@ -1,9 +1,9 @@
 id = "typesafe/jev-latest"
 name = "TypeSafe: Jev (latest)"
-release_date = "1789689685"
+release_date = "1791936000"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 structured_output = false
 temperature = false
@@ -14,7 +14,7 @@ context = 64000
 output = 4096
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 
 [pricing]
 input = 0.042

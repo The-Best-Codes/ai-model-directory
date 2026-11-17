@@ -1,0 +1,14 @@
+id = "auto/intfloat/e5-base-v2"
+name = "auto/intfloat/e5-base-v2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.00508453481697
+cache_write = 0.00508453481697
+input = 0.00508453481697
+output = 0

@@ -1,0 +1,17 @@
+id = "qwen/qwen-4-max"
+name = "qwen/qwen-4-max"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+cache_write = 3
+input = 1.5
+input_audio = 1.5
+output = 4.5
+output_audio = 1.5

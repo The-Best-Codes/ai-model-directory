@@ -1,8 +1,5 @@
 id = "gpt-oss-120b"
-name = "gpt-oss-120b"
-
-[features]
-reasoning = true
+name = "GPT-OSS 120B"
 
 [limit]
 context = 128000
@@ -13,5 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.001
-output = 0.0033
+input = 0.014
+output = 0.06

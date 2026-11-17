@@ -1,0 +1,12 @@
+id = "heygen/heygen-decision-1"
+name = "HeyGen: HeyGen Decision"
+
+[features]
+tool_call = false
+
+[limit]
+context = 131072
+
+[pricing]
+input = 0.182
+output = 0

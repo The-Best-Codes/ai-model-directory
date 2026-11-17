@@ -1,0 +1,12 @@
+id = "nace-ai/drex-max"
+name = "Nace.AI: Drex Max"
+
+[features]
+tool_call = false
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.078
+output = 0

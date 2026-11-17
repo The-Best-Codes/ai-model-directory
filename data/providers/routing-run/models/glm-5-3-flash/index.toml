@@ -1,17 +1,18 @@
 id = "glm-5.3-flash"
-name = "glm-5.3-flash"
+name = "GLM 5.3 Flash"
 
 [features]
+attachment = true
 reasoning = true
 
 [limit]
 context = 1048576
-output = 128000
+output = 131072
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.00817
-output = 0.0272
+input = 0.00798
+output = 0.01568

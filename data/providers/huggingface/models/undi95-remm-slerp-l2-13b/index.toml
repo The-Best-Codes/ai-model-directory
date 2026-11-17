@@ -1,0 +1,19 @@
+id = "Undi95/ReMM-SLERP-L2-13B"
+name = "Undi95/ReMM-SLERP-L2-13B"
+release_date = "1693849046"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 6144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.3
+output = 0.5

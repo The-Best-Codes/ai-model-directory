@@ -1,0 +1,12 @@
+id = "baseten/elephant-1"
+name = "Baseten: Elephant 1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 16384
+
+[pricing]
+input = 0.0455
+output = 0

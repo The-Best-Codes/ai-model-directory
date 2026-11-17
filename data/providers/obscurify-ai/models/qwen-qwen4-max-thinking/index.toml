@@ -1,0 +1,12 @@
+id = "qwen/qwen4-max:thinking"
+name = "Qwen: Qwen 4 Max Thinking"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1000000
+
+[pricing]
+input = 1.561365
+output = 4.6852

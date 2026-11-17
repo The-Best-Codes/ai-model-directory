@@ -3,6 +3,7 @@ name = "Qwen3.8-Max"
 
 [features]
 attachment = true
+reasoning = true
 
 [limit]
 context = 1000000

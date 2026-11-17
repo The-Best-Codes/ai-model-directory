@@ -1,0 +1,18 @@
+id = "heygen/heygen-decision-1"
+name = "HeyGen Decision 1"
+release_date = "1794787200"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+input = 0.14
+output = 0

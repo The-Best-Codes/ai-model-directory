@@ -1,0 +1,13 @@
+id = "google/google/gemini-3.1-flash-live-preview"
+name = "google/google/gemini-3.1-flash-live-preview"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+
+[pricing]
+input = 0.762584329519
+output = 4.57550377268

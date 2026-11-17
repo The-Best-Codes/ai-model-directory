@@ -1,0 +1,18 @@
+id = "gpt-6.1-sol"
+name = "GPT-6.1 Sol"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1050000
+output = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.6
+output = 3

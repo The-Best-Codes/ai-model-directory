@@ -6,6 +6,9 @@ attachment = true
 reasoning = false
 tool_call = true
 
+[limit]
+context = 1050000
+
 [modalities]
 input = [ "image" ]
 output = [ "text" ]

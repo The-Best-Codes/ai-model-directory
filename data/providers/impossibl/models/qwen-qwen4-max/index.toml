@@ -1,0 +1,15 @@
+id = "qwen/qwen4-max"
+name = "Qwen4 Max"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+cache_write = 1.875
+input = 1.5
+output = 4.5

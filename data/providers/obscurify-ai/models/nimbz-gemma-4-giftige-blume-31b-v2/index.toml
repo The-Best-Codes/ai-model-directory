@@ -1,0 +1,12 @@
+id = "nimbz/gemma-4-giftige-blume-31b-v2"
+name = "Nimbz: Gemma 4 Giftige Blume 31B v2"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.624
+output = 1.872

@@ -1,0 +1,14 @@
+id = "auto/google/gemini-3.8-live-extended-thinking"
+name = "auto/google/gemini-3.8-live-extended-thinking"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+
+[pricing]
+cache_read = 0.762584329519
+cache_write = 0.762584329519
+input = 0.762584329519
+output = 4.57550377268

@@ -1,8 +1,5 @@
 id = "minimax-m3"
-name = "minimax-m3"
-
-[features]
-reasoning = true
+name = "MiniMax M3"
 
 [limit]
 context = 200000
@@ -13,5 +10,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.33
-output = 1.32
+input = 0.135
+output = 0.54

@@ -1,0 +1,17 @@
+id = "deepinfra/nvidia/nemotron-3.5-lightning-30b-a3b"
+name = "deepinfra/nvidia/nemotron-3.5-lightning-30b-a3b"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0305039022458
+input = 0.0610078044915
+output = 0.162685274207

@@ -1,0 +1,17 @@
+id = "ovhcloud/meta-llama/llama-3.3-70b-instruct"
+name = "ovhcloud/meta-llama/llama-3.3-70b-instruct"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 131000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.7384865223
+output = 0.7384865223

@@ -1,0 +1,9 @@
+id = "auto/mistralai/mistral-large-2402"
+name = "auto/mistralai/mistral-large-2402"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

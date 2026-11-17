@@ -1,0 +1,20 @@
+id = "auto/qwen/qwen3-coder-30b-a3b-instruct/us"
+name = "auto/qwen/qwen3-coder-30b-a3b-instruct/us"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.152517306791
+cache_write = 0.152517306791
+input = 0.152517306791
+output = 0.610068124947

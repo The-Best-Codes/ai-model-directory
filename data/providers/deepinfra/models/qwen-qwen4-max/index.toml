@@ -1,0 +1,15 @@
+id = "Qwen/Qwen4-Max"
+name = "Qwen/Qwen4-Max"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+output = 1000000
+
+[pricing]
+cache_read = 0.0710000001
+input = 1.413
+output = 4.24

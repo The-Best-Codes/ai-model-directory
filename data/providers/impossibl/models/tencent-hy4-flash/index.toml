@@ -1,0 +1,14 @@
+id = "tencent/hy4-flash"
+name = "Hunyuan 4 Flash"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0015
+input = 0.035
+output = 0.1405

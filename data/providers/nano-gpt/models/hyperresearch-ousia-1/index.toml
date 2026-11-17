@@ -1,0 +1,21 @@
+id = "hyperresearch/ousia-1"
+name = "Ousia 1"
+release_date = "1794700800"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 128000
+output = 32000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 10

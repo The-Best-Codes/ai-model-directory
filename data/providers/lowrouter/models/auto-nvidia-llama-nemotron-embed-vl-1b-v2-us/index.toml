@@ -1,0 +1,17 @@
+id = "auto/nvidia/llama-nemotron-embed-vl-1b-v2/us"
+name = "auto/nvidia/llama-nemotron-embed-vl-1b-v2/us"
+
+[features]
+attachment = false
+
+[limit]
+context = 10240
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.0101679674153
+cache_write = 0.0101679674153
+input = 0.0101679674153
+output = 0

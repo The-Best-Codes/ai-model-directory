@@ -1,0 +1,19 @@
+id = "ByteDance-Seed/UI-TARS-1.5-7B"
+name = "ByteDance-Seed/UI-TARS-1.5-7B"
+release_date = "1744796450"
+
+[features]
+attachment = true
+structured_output = true
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.2

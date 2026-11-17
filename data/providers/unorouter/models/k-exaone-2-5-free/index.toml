@@ -1,0 +1,13 @@
+id = "k-exaone-2.5:free"
+name = "k-exaone-2.5:free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
