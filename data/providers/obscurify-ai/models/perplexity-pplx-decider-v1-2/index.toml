@@ -1,5 +1,5 @@
 id = "perplexity/pplx-decider-v1.2"
-name = "Perplexity: PPLX Decider v1.2"
+name = "Perplexity: Decider V1.2"
 
 [features]
 tool_call = false
@@ -8,5 +8,5 @@ tool_call = false
 context = 262144
 
 [pricing]
-input = 0.0221
+input = 0.026
 output = 0

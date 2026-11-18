@@ -1,0 +1,12 @@
+id = "jiunsong/supergemma4-26b-uncensored"
+name = "Jiunsong: SuperGemma4 26B Uncensored"
+
+[features]
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.1795625
+output = 0.5525

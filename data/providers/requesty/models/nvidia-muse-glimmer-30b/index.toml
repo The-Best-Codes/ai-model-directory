@@ -3,7 +3,7 @@ name = "nvidia/muse-glimmer-30b"
 release_date = "1786302394"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 131072
 output = 20480
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

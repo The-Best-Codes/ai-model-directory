@@ -1,0 +1,4 @@
+id = "gpt-6.2-astra:32k-context"
+
+[modalities]
+output = [ "text" ]

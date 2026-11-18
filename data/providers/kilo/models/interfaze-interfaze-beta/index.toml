@@ -20,3 +20,4 @@ output = [ "text" ]
 [pricing]
 input = 1.5
 output = 3.5
+reasoning = 0

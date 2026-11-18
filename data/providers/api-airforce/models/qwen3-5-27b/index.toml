@@ -14,4 +14,4 @@ output = [ "text" ]
 cache_read = 0.04
 cache_write = 0.41
 input = 0.33
-output = 2.73
+output = 2.64

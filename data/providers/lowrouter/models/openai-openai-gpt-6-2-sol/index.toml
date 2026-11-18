@@ -1,0 +1,16 @@
+id = "openai/openai/gpt-6.2-sol"
+name = "openai/openai/gpt-6.2-sol"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.101794752226
+cache_write = 2.54486330169
+input = 2.03589064135
+output = 10.179452106

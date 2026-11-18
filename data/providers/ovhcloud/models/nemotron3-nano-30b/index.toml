@@ -1,0 +1,13 @@
+id = "nemotron3-nano-30b"
+name = "nemotron3-nano-30b"
+release_date = "1794912820"
+
+[limit]
+context = 262144
+output = 65536
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

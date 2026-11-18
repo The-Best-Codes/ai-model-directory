@@ -3,7 +3,7 @@ name = "deepinfra/XiaomiMiMo/MiMo-V2.5:flex"
 release_date = "1776874269"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 
@@ -11,7 +11,7 @@ tool_call = true
 context = 262144
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

@@ -1,0 +1,9 @@
+id = "bytedance/seedance-2.5-flash"
+name = "Seedance 2.5 Flash"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]

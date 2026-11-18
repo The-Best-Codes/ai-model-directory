@@ -3,7 +3,7 @@ name = "perplexity/sonar-pro"
 release_date = "1741312423"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 tool_call = false
 
@@ -12,7 +12,7 @@ context = 204800
 output = 8192
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

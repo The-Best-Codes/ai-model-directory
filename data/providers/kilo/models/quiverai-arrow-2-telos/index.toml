@@ -22,3 +22,4 @@ cache_read = 0.6
 cache_write = 7.5
 input = 6
 output = 30
+reasoning = 0

@@ -5,8 +5,8 @@ name = "Cloudflare: Clef Omni"
 tool_call = false
 
 [limit]
-context = 1800
+context = 65536
 
 [pricing]
-input = 0.16575
+input = 0.195
 output = 0

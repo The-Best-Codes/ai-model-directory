@@ -1,0 +1,17 @@
+id = "hy4-flash"
+name = "Hy4 flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.07
+output = 0.281

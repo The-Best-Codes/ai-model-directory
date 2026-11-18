@@ -1,5 +1,5 @@
 id = "jaredpalmer/kev-4b"
-name = "Jared Palmer: Kev 4B TEE"
+name = "Jared Palmer: Kev 4B"
 
 [features]
 tool_call = false
@@ -8,5 +8,5 @@ tool_call = false
 context = 8192
 
 [pricing]
-input = 0.04641
+input = 0.0546
 output = 0

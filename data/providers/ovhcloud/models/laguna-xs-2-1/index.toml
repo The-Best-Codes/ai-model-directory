@@ -1,0 +1,13 @@
+id = "laguna-xs-2.1"
+name = "laguna-xs-2.1"
+release_date = "1794912820"
+
+[limit]
+context = 131072
+output = 65536
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

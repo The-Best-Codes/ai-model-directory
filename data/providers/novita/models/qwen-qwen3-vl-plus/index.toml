@@ -1,0 +1,21 @@
+id = "qwen/qwen3-vl-plus"
+name = "Qwen3 VL Plus"
+release_date = "1794907470"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262000
+output = 32000
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 1

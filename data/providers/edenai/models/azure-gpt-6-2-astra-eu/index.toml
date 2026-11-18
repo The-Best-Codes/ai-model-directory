@@ -1,0 +1,22 @@
+id = "azure/gpt-6.2-astra@eu"
+name = "azure/gpt-6.2-astra@eu"
+release_date = "1794946637"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.48
+cache_write = 12
+input = 9.6
+output = 48

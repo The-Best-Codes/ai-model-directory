@@ -2,7 +2,7 @@ id = "kitani/clover-2"
 name = "Kitani: Clover 2"
 
 [features]
-tool_call = false
+tool_call = true
 
 [limit]
 context = 200000

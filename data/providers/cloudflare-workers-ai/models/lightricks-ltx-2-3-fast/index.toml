@@ -1,0 +1,6 @@
+id = "lightricks/ltx-2-3-fast"
+name = "LTX-2.3 Fast"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,20 @@
+id = "cohere/north-small-translate-1.0"
+name = "cohere/north-small-translate-1.0"
+release_date = "1794978746"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

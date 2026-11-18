@@ -1,0 +1,13 @@
+id = "qwen3-vl-30b-a3b"
+name = "qwen3-vl-30b-a3b"
+release_date = "1794912820"
+
+[limit]
+context = 32768
+output = 16384
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

@@ -1,0 +1,12 @@
+id = "grok-imagine-edit"
+name = "grok-imagine-edit"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 75
+output = 75

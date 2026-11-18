@@ -1,0 +1,6 @@
+id = "minimax/speech-2.6-turbo"
+name = "MiniMax Speech 2.6 Turbo"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

@@ -1,0 +1,16 @@
+id = "auto/openai/gpt-6.2-astra"
+name = "auto/openai/gpt-6.2-astra"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.407179008905
+cache_write = 10.179452106
+input = 8.14356146462
+output = 40.7178051215

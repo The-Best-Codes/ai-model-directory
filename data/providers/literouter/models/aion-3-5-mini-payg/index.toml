@@ -1,4 +1,0 @@
-id = "aion-3.5-mini:payg"
-
-[modalities]
-output = [ "text" ]

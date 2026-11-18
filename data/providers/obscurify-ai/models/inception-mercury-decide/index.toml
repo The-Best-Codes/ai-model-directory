@@ -1,0 +1,12 @@
+id = "inception/mercury-decide"
+name = "Inception: Mercury Decide"
+
+[features]
+tool_call = false
+
+[limit]
+context = 65536
+
+[pricing]
+input = 0.0221
+output = 0

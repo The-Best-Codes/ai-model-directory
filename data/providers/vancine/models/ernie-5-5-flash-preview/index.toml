@@ -1,0 +1,9 @@
+id = "ernie-5.5-flash-preview"
+name = "ernie-5.5-flash-preview"
+
+[features]
+reasoning = true
+
+[pricing]
+input = 0
+output = 0

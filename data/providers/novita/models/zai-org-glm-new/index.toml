@@ -1,0 +1,21 @@
+id = "zai-org/glm-new"
+name = "zai-org/glm-new"
+release_date = "1773213209"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 198000
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

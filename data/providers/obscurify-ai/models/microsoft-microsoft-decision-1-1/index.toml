@@ -1,0 +1,12 @@
+id = "microsoft/microsoft-decision-1.1"
+name = "Microsoft: Microsoft-Decision-1.1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.0546
+output = 0

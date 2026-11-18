@@ -1,0 +1,10 @@
+id = "microsoft/mai-image-2.7-flash"
+name = "MAI-Image-2.7-Flash"
+release_date = "1794873600"
+
+[modalities]
+output = [ "image" ]
+
+[pricing]
+input = 1.75
+output = 10

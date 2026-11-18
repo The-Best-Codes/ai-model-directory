@@ -3,7 +3,7 @@ name = "xai/grok-build-0.1"
 release_date = "1779298123"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 tool_call = true
 
@@ -11,7 +11,7 @@ tool_call = true
 context = 256000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

@@ -3,7 +3,7 @@ name = "Gemma 4 26B A4B IT"
 release_date = "1775088000"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 temperature = true
@@ -13,12 +13,12 @@ tool_call = true
 context = 262144
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0
+cache_read = 0.01
 cache_write = 0
-input = 0.07
-output = 0.34
+input = 0.067
+output = 0.29
 reasoning = 0

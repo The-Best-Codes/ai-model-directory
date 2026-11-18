@@ -1,0 +1,6 @@
+id = "lightricks/ltx-2-3-pro"
+name = "LTX-2.3 Pro"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,0 +1,13 @@
+id = "DeepSeek-V4.1-Flash-1017"
+name = "DeepSeek-V4.1-Flash-1017"
+release_date = "1794911003"
+
+[limit]
+context = 1048576
+output = 262144
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

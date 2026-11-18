@@ -1,0 +1,19 @@
+id = "auto/qwen/qwen3.8-27b-tl5/eu-sovereign"
+name = "auto/qwen/qwen3.8-27b-tl5/eu-sovereign"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0825594915
+cache_write = 0.165118983
+input = 0.165118983
+output = 0.715515593

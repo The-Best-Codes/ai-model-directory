@@ -5,8 +5,8 @@ name = "TypeSafe: Jev 1.13"
 tool_call = false
 
 [limit]
-context = 32000
+context = 262144
 
 [pricing]
-input = 0.04641
+input = 0.0546
 output = 0

@@ -1,0 +1,19 @@
+id = "big-pickle:free"
+name = "big-pickle:free"
+release_date = "1767225600"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

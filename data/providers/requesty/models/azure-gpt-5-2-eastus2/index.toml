@@ -3,7 +3,7 @@ name = "azure/gpt-5.2@eastus2"
 release_date = "1765389775"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 400000
 output = 128000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

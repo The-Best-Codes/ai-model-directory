@@ -3,7 +3,7 @@ name = "alibaba/qwen3.8-max"
 release_date = "1785731612"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 1048576
 output = 131072
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

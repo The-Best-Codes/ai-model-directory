@@ -1,5 +1,5 @@
 id = "sakana/fugu-ultra"
-name = "Sakana: Fugu Ultra"
+name = "Sakana: Fugu Ultra ($$$$)"
 release_date = "1782276303"
 
 [features]
@@ -18,6 +18,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.5
-input = 5
-output = 30
+cache_read = 1
+input = 10
+output = 45

@@ -3,7 +3,7 @@ name = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 release_date = "1781014014"
 
 [features]
-attachment = true
+attachment = false
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 131072
 output = 20480
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

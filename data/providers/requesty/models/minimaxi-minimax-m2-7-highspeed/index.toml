@@ -3,7 +3,7 @@ name = "minimaxi/minimax-m2.7-highspeed"
 release_date = "1773915388"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 tool_call = true
 
@@ -12,7 +12,7 @@ context = 200000
 output = 128000
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

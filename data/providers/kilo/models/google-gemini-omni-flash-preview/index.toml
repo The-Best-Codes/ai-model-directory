@@ -20,3 +20,4 @@ output = [ "text", "video" ]
 [pricing]
 input = 1.5
 output = 9
+reasoning = 0

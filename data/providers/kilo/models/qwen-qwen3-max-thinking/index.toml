@@ -21,3 +21,4 @@ output = [ "text" ]
 cache_read = 0.24
 input = 1.2
 output = 6
+reasoning = 0

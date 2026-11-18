@@ -8,13 +8,13 @@ reasoning = false
 tool_call = true
 
 [limit]
-context = 262114
-output = 262114
+context = 262144
+output = 32768
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.15
-output = 1.2
+input = 0.09
+output = 1.1

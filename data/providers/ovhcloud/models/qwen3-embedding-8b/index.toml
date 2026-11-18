@@ -1,6 +1,6 @@
 id = "Qwen3-Embedding-8B"
 name = "Qwen3-Embedding-8B"
-release_date = "1774533326"
+release_date = "1794929944"
 
 [limit]
 context = 32768

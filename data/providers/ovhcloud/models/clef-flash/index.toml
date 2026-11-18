@@ -1,0 +1,12 @@
+id = "clef-flash"
+name = "clef-flash"
+release_date = "1794912820"
+
+[limit]
+context = 16384
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

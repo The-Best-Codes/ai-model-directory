@@ -1,0 +1,9 @@
+id = "solaria-3"
+name = "solaria-3"
+release_date = "1794911008"
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

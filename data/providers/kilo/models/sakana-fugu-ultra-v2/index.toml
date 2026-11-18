@@ -1,5 +1,5 @@
 id = "sakana/fugu-ultra-v2"
-name = "Sakana: Fugu Ultra v2"
+name = "Sakana: Fugu Ultra v2 ($$$$)"
 release_date = "1789105383"
 
 [features]
@@ -18,6 +18,6 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.5
-input = 5
-output = 30
+cache_read = 1
+input = 10
+output = 45

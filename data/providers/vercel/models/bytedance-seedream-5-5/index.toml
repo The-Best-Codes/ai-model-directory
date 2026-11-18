@@ -1,0 +1,12 @@
+id = "bytedance/seedream-5.5"
+name = "Seedream 5.5"
+release_date = "1794873600"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "image" ]
