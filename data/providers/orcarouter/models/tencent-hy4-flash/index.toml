@@ -1,0 +1,17 @@
+id = "tencent/hy4-flash"
+name = "Tencent: Hy4 Flash"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0175
+output = 0.07024999975

@@ -1,0 +1,17 @@
+id = "tencent/hy4-flash"
+name = "tencent/hy4-flash"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0015
+cache_write = 0.035
+input = 0.035
+input_audio = 0.035
+output = 0.1405
+output_audio = 0.035

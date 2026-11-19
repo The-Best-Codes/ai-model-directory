@@ -1,0 +1,20 @@
+id = "gemini-embedding-2"
+name = "gemini-embedding-2"
+release_date = "1779235200"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 8200
+input = 8200
+output = 3072
+
+[modalities]
+input = [ "audio", "file", "image", "text" ]
+
+[pricing]
+input = 0.11176
+output = 0.11176

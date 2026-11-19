@@ -1,0 +1,22 @@
+id = "gemini-4-neon"
+name = "Gemini 4 Neon"
+release_date = "1795046400"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1000000
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1875
+input = 3.75
+output = 18.75

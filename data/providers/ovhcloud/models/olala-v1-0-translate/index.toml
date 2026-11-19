@@ -1,0 +1,13 @@
+id = "Olala-v1.0-translate"
+name = "Olala-v1.0-translate"
+release_date = "1795030228"
+
+[limit]
+context = 8192
+output = 8192
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

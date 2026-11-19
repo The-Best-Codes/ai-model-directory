@@ -1,5 +1,6 @@
 id = "tencent/hy4-flash"
 name = "Tencent: Hy4 flash"
+open_weights = true
 release_date = "1794838706"
 
 [features]

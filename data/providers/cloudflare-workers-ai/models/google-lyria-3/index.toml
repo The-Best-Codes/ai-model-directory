@@ -1,0 +1,6 @@
+id = "google/lyria-3"
+name = "Lyria 3"
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

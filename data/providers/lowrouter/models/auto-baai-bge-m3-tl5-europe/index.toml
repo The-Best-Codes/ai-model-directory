@@ -1,0 +1,17 @@
+id = "auto/baai/bge-m3-tl5/europe"
+name = "auto/baai/bge-m3-tl5/europe"
+
+[features]
+attachment = false
+
+[limit]
+context = 8192
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.0109792902
+cache_write = 0.0109792902
+input = 0.0109792902
+output = 0

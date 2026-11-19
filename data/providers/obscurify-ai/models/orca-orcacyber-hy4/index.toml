@@ -1,0 +1,12 @@
+id = "orca/orcacyber-hy4"
+name = "Orca: OrcaCyber Hy4"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048064
+
+[pricing]
+input = 0.884
+output = 1.768

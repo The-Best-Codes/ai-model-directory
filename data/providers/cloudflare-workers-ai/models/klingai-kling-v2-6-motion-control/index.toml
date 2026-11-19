@@ -1,0 +1,9 @@
+id = "klingai/kling-v2-6-motion-control"
+name = "Kling v2.6 Motion Control"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "video" ]

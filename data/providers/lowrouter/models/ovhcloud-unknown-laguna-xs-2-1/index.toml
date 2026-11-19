@@ -1,0 +1,17 @@
+id = "ovhcloud/unknown/laguna-xs-2.1"
+name = "ovhcloud/unknown/laguna-xs-2.1"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.054896451
+output = 0.109792902

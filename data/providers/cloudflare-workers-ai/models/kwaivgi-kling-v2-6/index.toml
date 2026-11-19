@@ -1,0 +1,6 @@
+id = "kwaivgi/kling-v2.6"
+name = "Kling v2.6"
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

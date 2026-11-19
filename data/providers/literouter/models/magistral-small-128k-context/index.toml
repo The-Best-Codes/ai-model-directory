@@ -1,4 +1,0 @@
-id = "magistral-small:128k-context"
-
-[modalities]
-output = [ "text" ]

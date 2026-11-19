@@ -1,0 +1,20 @@
+id = "cohere/command-a-translate-08-2025"
+name = "cohere/command-a-translate-08-2025"
+release_date = "1795065165"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 8992
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

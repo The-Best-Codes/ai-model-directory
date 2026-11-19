@@ -1,0 +1,12 @@
+id = "deepseek/deepseek-v4.1-flash-abliterated"
+name = "DeepSeek: DeepSeek V4.1 Flash Abliterated"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.328185
+output = 1.154725

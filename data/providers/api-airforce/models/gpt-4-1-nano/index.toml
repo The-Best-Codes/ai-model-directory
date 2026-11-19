@@ -1,0 +1,16 @@
+id = "gpt-4.1-nano"
+name = "gpt-4.1-nano"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.01
+cache_write = 0.01
+input = 0.01
+output = 0.06

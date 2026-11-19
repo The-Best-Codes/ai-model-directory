@@ -1,0 +1,17 @@
+id = "auto/qwen/qwen3-vl-embedding-8b/eu-sovereign"
+name = "auto/qwen/qwen3-vl-embedding-8b/eu-sovereign"
+
+[features]
+attachment = false
+
+[limit]
+context = 16384
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+cache_read = 0.109792902
+cache_write = 0.109792902
+input = 0.109792902
+output = 0

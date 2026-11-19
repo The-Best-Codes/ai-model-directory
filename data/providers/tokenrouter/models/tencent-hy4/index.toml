@@ -1,0 +1,17 @@
+id = "tencent/hy4"
+name = "tencent/hy4"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.021
+cache_write = 0.417
+input = 0.417
+input_audio = 0.417
+output = 1.251
+output_audio = 0.417

@@ -1,5 +1,5 @@
 id = "~openai/gpt-astra-latest"
-name = "OpenAI: GPT Astra Latest ($$$$)"
+name = "OpenAI: GPT Astra Latest"
 release_date = "1789130932"
 
 [features]
@@ -18,7 +18,7 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.8
-cache_write = 20
-input = 16
-output = 60
+cache_read = 0.4
+cache_write = 10
+input = 8
+output = 40

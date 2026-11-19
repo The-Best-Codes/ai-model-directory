@@ -11,5 +11,5 @@ tool_call = true
 output = 176947
 
 [modalities]
-input = [ "file", "image", "text" ]
+input = [ "file", "text" ]
 output = [ "text" ]

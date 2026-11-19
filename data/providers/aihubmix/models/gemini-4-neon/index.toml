@@ -1,0 +1,18 @@
+id = "gemini-4-neon"
+name = "gemini-4-neon"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+
+[pricing]
+cache_read = 0
+input = 0

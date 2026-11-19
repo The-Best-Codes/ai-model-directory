@@ -1,0 +1,11 @@
+id = "minimax-h3-image"
+last_updated = "1794985546"
+name = "minimax-h3-image"
+release_date = "1794985049"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

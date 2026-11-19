@@ -1,0 +1,4 @@
+id = "gpt-6.2-astra:payg"
+
+[modalities]
+output = [ "text" ]

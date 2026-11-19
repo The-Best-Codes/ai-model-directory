@@ -12,5 +12,5 @@ context = 1050000
 
 [pricing]
 cache_read = 0.011
-input = 0.108
-output = 0.539
+input = 0.111
+output = 0.557

@@ -5,14 +5,11 @@ name = "auto/qwen/qwen3.5-9b/eu-sovereign"
 attachment = true
 tool_call = true
 
-[limit]
-context = 262000
-
 [modalities]
 input = [ "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.110079322
-cache_write = 0.110079322
-input = 0.110079322
+cache_read = 0.109792902
+cache_write = 0.109792902
+input = 0.109792902

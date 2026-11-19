@@ -1,4 +1,0 @@
-id = "gemini-3-pro-preview-thinking-stable:metered"
-
-[modalities]
-output = [ "text" ]

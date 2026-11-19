@@ -1,0 +1,17 @@
+id = "ovhcloud/google/gemma-4-26b-a4b"
+name = "ovhcloud/google/gemma-4-26b-a4b"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.0988136118
+output = 0.384275157

@@ -1,0 +1,13 @@
+id = "Olala-v1.0-mini-7A1B"
+name = "Olala-v1.0-mini-7A1B"
+release_date = "1795030228"
+
+[limit]
+context = 32768
+output = 16384
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

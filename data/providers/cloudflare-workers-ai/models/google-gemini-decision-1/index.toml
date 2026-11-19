@@ -1,0 +1,13 @@
+id = "google/gemini-decision-1"
+name = "Gemini Decision 1"
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0

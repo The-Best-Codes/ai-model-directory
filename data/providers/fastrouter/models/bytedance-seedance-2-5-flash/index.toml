@@ -1,0 +1,21 @@
+id = "bytedance/seedance-2.5-flash"
+name = "ByteDance: Seedance 2.5 Flash"
+release_date = "1794700800"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 4096
+output = 4096
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "video" ]
+
+[pricing]
+reasoning = 0

@@ -1,0 +1,21 @@
+id = "z-ai/glm-5.3-abliterated"
+name = "GLM 5.3 Abliterated"
+release_date = "1794614400"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+tool_call = true
+
+[limit]
+context = 262144
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.429
+output = 1.452

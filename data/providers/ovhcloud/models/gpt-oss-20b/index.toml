@@ -1,10 +1,10 @@
 id = "gpt-oss-20b"
 name = "gpt-oss-20b"
-release_date = "1756386145"
+release_date = "1795016032"
 
 [limit]
 context = 131072
-output = 131072
+output = 65536
 
 [pricing]
 cache_read = 0
