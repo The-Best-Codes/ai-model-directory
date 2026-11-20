@@ -1,14 +1,14 @@
 id = "melious/clef"
 name = "melious/clef"
-release_date = "1792594083"
+release_date = "1791213419"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 tool_call = false
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

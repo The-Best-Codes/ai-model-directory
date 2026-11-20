@@ -1,6 +1,6 @@
 id = "runware/deepseek-v4.1-flash"
 name = "runware/deepseek-v4.1-flash"
-release_date = "1789487766"
+release_date = "1788912000"
 
 [features]
 attachment = true

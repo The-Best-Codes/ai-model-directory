@@ -1,0 +1,12 @@
+id = "mistralai/pixtral-large-2502"
+name = "Mistral: Pixtral Large 2502"
+
+[features]
+tool_call = false
+
+[limit]
+context = 128000
+
+[pricing]
+input = 2.6
+output = 7.8

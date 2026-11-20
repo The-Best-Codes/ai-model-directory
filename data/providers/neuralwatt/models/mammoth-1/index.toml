@@ -1,0 +1,16 @@
+id = "mammoth-1"
+name = "mammoth-1"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32753
+
+[pricing]
+cache_read = 0.018
+input = 0.18
+output = 0

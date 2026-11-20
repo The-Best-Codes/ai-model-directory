@@ -1,0 +1,18 @@
+id = "modaic/mo"
+name = "Mo"
+release_date = "1795046400"
+
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.04
+output = 0

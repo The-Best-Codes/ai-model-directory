@@ -1,6 +1,6 @@
 id = "fireworks/nemotron-lightning-3.5-30b-a3b"
 name = "fireworks/nemotron-lightning-3.5-30b-a3b"
-release_date = "1786826050"
+release_date = "1786452751"
 
 [features]
 attachment = false

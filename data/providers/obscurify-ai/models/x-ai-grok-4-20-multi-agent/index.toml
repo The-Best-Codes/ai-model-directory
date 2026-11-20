@@ -1,5 +1,5 @@
 id = "x-ai/grok-4.20-multi-agent"
-name = "SpaceXAI: Grok 4.20 Multi-Agent"
+name = "X Ai: Grok 4.20 Multi-Agent"
 
 [features]
 tool_call = true

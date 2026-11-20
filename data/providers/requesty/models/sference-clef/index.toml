@@ -3,7 +3,7 @@ name = "sference/clef"
 release_date = "1791232124"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 tool_call = false
 
@@ -11,7 +11,7 @@ tool_call = false
 context = 65536
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

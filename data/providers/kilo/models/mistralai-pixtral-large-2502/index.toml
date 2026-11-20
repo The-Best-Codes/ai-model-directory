@@ -1,0 +1,22 @@
+id = "mistralai/pixtral-large-2502"
+name = "Mistral: Pixtral Large 2502"
+release_date = "1795135865"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 128000
+output = 102400
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 2
+output = 6

@@ -1,0 +1,16 @@
+id = "nemotron-3.5-super-vl"
+name = "nemotron-3.5-super-vl"
+release_date = "1795089100"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[pricing]
+cache_read = 0.037
+input = 0.183
+output = 0.458

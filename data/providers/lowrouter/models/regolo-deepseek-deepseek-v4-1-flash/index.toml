@@ -1,0 +1,13 @@
+id = "regolo/deepseek/deepseek-v4.1-flash"
+name = "regolo/deepseek/deepseek-v4.1-flash"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.493530606
+output = 1.974122424

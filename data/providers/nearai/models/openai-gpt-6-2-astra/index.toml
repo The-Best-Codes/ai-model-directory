@@ -1,0 +1,22 @@
+id = "openai/gpt-6.2-astra"
+name = "GPT-6.2 Astra"
+release_date = "1795152668"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 1050000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.4
+input = 8
+output = 40

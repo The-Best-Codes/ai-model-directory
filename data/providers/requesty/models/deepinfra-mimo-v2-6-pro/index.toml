@@ -1,6 +1,6 @@
 id = "deepinfra/mimo-v2.6-pro"
 name = "deepinfra/mimo-v2.6-pro"
-release_date = "1790520673"
+release_date = "1790021259"
 
 [features]
 attachment = true

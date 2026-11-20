@@ -1,5 +1,5 @@
 id = "tencent/hy4-flash"
-name = "Tencent: Hy4 flash"
+name = "Tencent: Tencent Hy4 Flash"
 
 [features]
 tool_call = true
@@ -8,5 +8,5 @@ tool_call = true
 context = 1048576
 
 [pricing]
-input = 0.0455
-output = 0.18265
+input = 0.038675
+output = 0.1552525

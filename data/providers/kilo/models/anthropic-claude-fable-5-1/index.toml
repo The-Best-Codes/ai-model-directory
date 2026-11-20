@@ -1,5 +1,5 @@
 id = "anthropic/claude-fable-5.1"
-name = "Anthropic: Claude Fable 5.1 ($$$$)"
+name = "Anthropic: Claude Fable 5.1"
 release_date = "1788285838"
 
 [features]

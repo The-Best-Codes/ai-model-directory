@@ -1,0 +1,18 @@
+id = "Ling-3.2-flash"
+open_weights = true
+
+[features]
+attachment = false
+temperature = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.060003884
+input = 0.30001942
+output = 0.90005826

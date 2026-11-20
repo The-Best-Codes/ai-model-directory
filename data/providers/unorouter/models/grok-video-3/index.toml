@@ -1,0 +1,10 @@
+id = "grok-video-3"
+name = "grok-video-3"
+release_date = "1781568000"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "video" ]

@@ -1,6 +1,6 @@
 id = "mistral/glm-5-3"
 name = "mistral/glm-5-3"
-release_date = "1789430400"
+release_date = "1787011200"
 
 [features]
 attachment = false

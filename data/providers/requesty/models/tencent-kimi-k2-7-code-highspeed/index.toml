@@ -1,6 +1,6 @@
 id = "tencent/kimi-k2.7-code-highspeed"
 name = "tencent/kimi-k2.7-code-highspeed"
-release_date = "1782172800"
+release_date = "1781266361"
 
 [features]
 attachment = true

@@ -16,5 +16,5 @@ output = 3072
 input = [ "audio", "file", "image", "text" ]
 
 [pricing]
-input = 0.11176
-output = 0.11176
+input = 0.17648
+output = 0.17648

@@ -1,6 +1,6 @@
 id = "runware/glm-5.3-flash"
 name = "runware/glm-5.3-flash"
-release_date = "1787875200"
+release_date = "1787616000"
 
 [features]
 attachment = true

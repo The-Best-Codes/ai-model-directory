@@ -1,0 +1,20 @@
+id = "gemini-4-hydrogen"
+knowledge_cutoff = "1772323200"
+name = "gemini-4-hydrogen"
+
+[features]
+attachment = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.075
+input = 1.5
+output = 7.5

@@ -1,0 +1,10 @@
+id = "elevenlabs/scribe-v3"
+name = "Scribe v3"
+
+[features]
+attachment = true
+temperature = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

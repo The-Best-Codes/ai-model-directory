@@ -1,6 +1,6 @@
 id = "sference/deepseek-v4.1-flash"
 name = "sference/deepseek-v4.1-flash"
-release_date = "1789201097"
+release_date = "1788912000"
 
 [features]
 attachment = true

@@ -1,6 +1,6 @@
 id = "tensorx/qwen3.8"
 name = "tensorx/qwen3.8"
-release_date = "1787842260"
+release_date = "1786551702"
 
 [features]
 attachment = false

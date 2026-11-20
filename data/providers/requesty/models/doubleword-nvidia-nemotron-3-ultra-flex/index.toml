@@ -1,6 +1,6 @@
 id = "doubleword/nvidia-nemotron-3-ultra:flex"
 name = "doubleword/nvidia-nemotron-3-ultra:flex"
-release_date = "1782230296"
+release_date = "1780551208"
 
 [features]
 attachment = false

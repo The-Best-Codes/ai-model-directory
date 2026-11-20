@@ -3,12 +3,12 @@ name = "melious/clef-flash"
 release_date = "1792594083"
 
 [features]
-attachment = false
+attachment = true
 reasoning = false
 tool_call = false
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

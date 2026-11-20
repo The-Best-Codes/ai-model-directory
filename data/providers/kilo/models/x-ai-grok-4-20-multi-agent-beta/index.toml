@@ -1,5 +1,5 @@
 id = "x-ai/grok-4.20-multi-agent-beta"
-name = "SpaceXAI: Grok 4.20 Multi Agent Beta"
+name = "SpaceXSI: Grok 4.20 Multi Agent Beta"
 release_date = "1773187200"
 
 [features]

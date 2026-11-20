@@ -12,5 +12,5 @@ context = 1048576
 input = [ "audio", "text", "video" ]
 
 [pricing]
-input = 0.508259889513
-output = 2.03303736219
+input = 0.506880060525
+output = 2.02751804863

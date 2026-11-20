@@ -1,0 +1,18 @@
+id = "reka/reka-flash-3"
+name = "Reka Flash 3"
+release_date = "1795071886"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0.2

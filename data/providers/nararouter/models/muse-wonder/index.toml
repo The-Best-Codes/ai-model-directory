@@ -3,7 +3,7 @@ name = "Muse Wonder"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0943695746842
-input = 0.790840061984
-output = 3.95420031003
+cache_read = 0.0942505807562
+input = 0.789842863833
+output = 3.94921431927

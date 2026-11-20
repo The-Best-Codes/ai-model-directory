@@ -1,0 +1,16 @@
+id = "gemini-4-neon"
+name = "gemini-4-neon"
+release_date = "1795099860"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+cache_read = 0.153
+input = 3.063
+output = 15.315

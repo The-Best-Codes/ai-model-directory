@@ -1,6 +1,6 @@
 id = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
 name = "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
-release_date = "1781014014"
+release_date = "1777393095"
 
 [features]
 attachment = false

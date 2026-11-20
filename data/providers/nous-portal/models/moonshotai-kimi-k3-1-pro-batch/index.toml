@@ -1,0 +1,24 @@
+id = "moonshotai/kimi-k3.1-pro:batch"
+name = "MoonshotAI: Kimi K3.1 Pro (batch)"
+open_weights = true
+release_date = "1792778188"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 1048576
+output = 943718
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.1
+input = 0.372
+output = 5.583

@@ -3,13 +3,14 @@ name = "auto/google/gemini-4-neon"
 
 [features]
 attachment = true
+tool_call = true
 
 [modalities]
 input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.15247818644
-cache_write = 3.04955604329
-input = 3.04955604329
-output = 15.2477780206
+cache_read = 0.152058973178
+cache_write = 3.04117397989
+input = 3.04117397989
+output = 15.2058698994

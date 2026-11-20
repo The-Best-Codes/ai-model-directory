@@ -1,5 +1,5 @@
 id = "x-ai/grok-4.5"
-name = "SpaceXAI: Grok 4.5"
+name = "X Ai: Grok 4.5"
 
 [features]
 tool_call = true
