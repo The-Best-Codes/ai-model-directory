@@ -1,0 +1,15 @@
+id = "auto/mistralai/mistral-small-3.1-24b-instruct-2503"
+name = "auto/mistralai/mistral-small-3.1-24b-instruct-2503"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "file", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.101978818053
+cache_write = 0.101978818053
+input = 0.101978818053
+output = 0.30593645416

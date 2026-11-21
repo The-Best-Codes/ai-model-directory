@@ -5,8 +5,8 @@ name = "HeyGen: HeyGen Decision"
 tool_call = false
 
 [limit]
-context = 131072
+context = 262144
 
 [pricing]
-input = 0.182
+input = 0.091
 output = 0

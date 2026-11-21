@@ -1,0 +1,22 @@
+id = "perplexity/pplx-embed-v2-context-9b"
+name = "Perplexity: Embed V2 Context 9B"
+open_weights = true
+release_date = "1795210495"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32000
+output = 28800
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.12
+output = 0

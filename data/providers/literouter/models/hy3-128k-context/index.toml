@@ -1,0 +1,4 @@
+id = "hy3:128k-context"
+
+[modalities]
+output = [ "text" ]

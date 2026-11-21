@@ -1,0 +1,15 @@
+id = "flint-v1.0:free"
+name = "Recursive: Flint (free)"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 64000
+input = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

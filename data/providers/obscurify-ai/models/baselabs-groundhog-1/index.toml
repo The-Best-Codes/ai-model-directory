@@ -1,0 +1,12 @@
+id = "baselabs/groundhog-1"
+name = "Baselabs: Groundhog-1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 16384
+
+[pricing]
+input = 0.038675
+output = 0

@@ -1,0 +1,28 @@
+id = "gpt-6-1-terra"
+knowledge_cutoff = "1780272000"
+last_updated = "1793059200"
+name = "GPT-6.1 Terra"
+open_weights = false
+release_date = "1793059200"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 1050000
+input = 922000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.05
+cache_write = 1.25
+input = 1
+output = 5

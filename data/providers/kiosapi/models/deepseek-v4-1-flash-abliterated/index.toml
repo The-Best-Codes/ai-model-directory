@@ -1,0 +1,12 @@
+id = "deepseek-v4.1-flash-abliterated"
+name = "deepseek-v4.1-flash-abliterated"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 112.5
+output = 112.5

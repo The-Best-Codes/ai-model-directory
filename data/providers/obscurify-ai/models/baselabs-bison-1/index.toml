@@ -1,0 +1,12 @@
+id = "baselabs/bison-1"
+name = "Baselabs: Bison-1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.1105
+output = 0

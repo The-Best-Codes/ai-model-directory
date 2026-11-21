@@ -1,0 +1,12 @@
+id = "glm-5.3-abliterated"
+name = "glm-5.3-abliterated"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 112.5
+output = 112.5

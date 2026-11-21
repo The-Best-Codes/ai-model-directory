@@ -2,13 +2,18 @@ id = "auto/moonshotai/kimi-k3.1-pro/eu"
 name = "auto/moonshotai/kimi-k3.1-pro/eu"
 
 [features]
-attachment = true
-tool_call = true
+attachment = false
 
 [limit]
 context = 1000000
 output = 64000
 
 [modalities]
-input = [ "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.90636607875
+cache_write = 3.625464315
+input = 3.625464315
+output = 18.127321575

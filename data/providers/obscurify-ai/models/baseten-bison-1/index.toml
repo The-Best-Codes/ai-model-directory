@@ -1,0 +1,12 @@
+id = "baseten/bison-1"
+name = "Baseten: Bison 1"
+
+[features]
+tool_call = false
+
+[limit]
+context = 32768
+
+[pricing]
+input = 0.13
+output = 0

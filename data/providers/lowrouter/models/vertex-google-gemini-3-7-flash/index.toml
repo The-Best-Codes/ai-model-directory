@@ -1,0 +1,15 @@
+id = "vertex/google/gemini-3.7-flash"
+name = "vertex/google/gemini-3.7-flash"
+
+[features]
+attachment = true
+tool_call = true
+
+[modalities]
+input = [ "audio", "file", "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0764841135399
+input = 0.764841135399
+output = 3.82420457837

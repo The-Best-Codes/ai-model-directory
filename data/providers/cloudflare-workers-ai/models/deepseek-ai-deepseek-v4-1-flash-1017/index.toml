@@ -1,0 +1,15 @@
+id = "deepseek-ai/deepseek-v4.1-flash-1017"
+name = "DeepSeek V4.1 Flash"
+
+[features]
+reasoning = true
+temperature = true
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.007
+input = 0.3
+output = 1.2

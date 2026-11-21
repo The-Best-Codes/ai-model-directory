@@ -1,4 +1,0 @@
-id = "gemini-4-neon-thinking:metered"
-
-[modalities]
-output = [ "text" ]

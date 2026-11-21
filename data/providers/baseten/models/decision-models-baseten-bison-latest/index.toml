@@ -1,0 +1,21 @@
+id = "decision-models/baseten-bison-latest"
+name = "bison-1"
+release_date = "1795141137"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1
+output = 0

@@ -5,8 +5,8 @@ release_date = "1792029544"
 [features]
 attachment = true
 reasoning = false
-structured_output = true
-tool_call = true
+structured_output = false
+tool_call = false
 
 [limit]
 context = 100000
@@ -16,5 +16,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.769439617127
-output = 2.7479986326
+input = 0.769300090777
+output = 2.74750032421

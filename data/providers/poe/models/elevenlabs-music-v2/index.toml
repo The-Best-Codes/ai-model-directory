@@ -14,3 +14,6 @@ context = 2000
 [modalities]
 input = [ "text" ]
 output = [ "audio" ]
+
+[pricing]
+input = 0.001

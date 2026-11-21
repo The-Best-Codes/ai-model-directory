@@ -1,9 +1,0 @@
-id = "wan-2.6"
-name = "Wan 2.6"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "video" ]

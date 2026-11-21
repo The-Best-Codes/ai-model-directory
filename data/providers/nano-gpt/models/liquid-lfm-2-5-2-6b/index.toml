@@ -5,12 +5,12 @@ release_date = "1786492800"
 [features]
 attachment = false
 reasoning = true
-structured_output = true
-tool_call = true
+structured_output = false
+tool_call = false
 
 [limit]
-context = 128000
-output = 32768
+context = 8192
+output = 4096
 
 [modalities]
 input = [ "text" ]

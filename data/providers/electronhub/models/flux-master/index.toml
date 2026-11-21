@@ -1,5 +1,5 @@
 id = "flux-master"
-name = "Replicate: Flux Master"
+name = "BlackForestLabs: Flux Master"
 
 [features]
 attachment = false

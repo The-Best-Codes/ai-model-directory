@@ -1,0 +1,18 @@
+id = "auto/radixark/daisyrose-27b/us"
+name = "auto/radixark/daisyrose-27b/us"
+
+[features]
+attachment = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0509894090266
+cache_write = 0.203957636106
+input = 0.203957636106
+output = 2.5494693527

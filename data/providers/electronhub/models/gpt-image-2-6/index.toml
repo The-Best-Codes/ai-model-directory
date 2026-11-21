@@ -1,0 +1,9 @@
+id = "gpt-image-2.6"
+name = "OpenAI: GPT Image 2.6"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

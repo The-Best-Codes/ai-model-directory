@@ -1,0 +1,18 @@
+id = "qwen4-max"
+name = "Qwen 4 Max"
+
+[features]
+attachment = true
+reasoning = false
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0323266875357
+input = 0.427499999996
+output = 1.28249999999

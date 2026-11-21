@@ -1,0 +1,4 @@
+id = "deepseek-v3.1"
+
+[modalities]
+output = [ "text" ]

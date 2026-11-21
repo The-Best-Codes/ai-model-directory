@@ -1,0 +1,15 @@
+id = "RadixArk/DaisyRose-27B"
+name = "RadixArk/DaisyRose-27B"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 262144
+output = 262144
+
+[pricing]
+cache_read = 0.05
+input = 0.2
+output = 2.5

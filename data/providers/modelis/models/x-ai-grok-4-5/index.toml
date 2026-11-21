@@ -1,5 +1,5 @@
 id = "x-ai/grok-4.5"
-name = "SpaceXAI: Grok 4.5"
+name = "SpaceXSI: Grok 4.5"
 release_date = "1783523154"
 
 [features]
@@ -18,5 +18,5 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 5.95371757248
-output = 17.8611527174
+input = 5.95945143936
+output = 17.8783543181

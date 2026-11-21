@@ -1,0 +1,4 @@
+id = "aion-2.0:full-context"
+
+[modalities]
+output = [ "text" ]

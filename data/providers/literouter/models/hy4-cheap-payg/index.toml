@@ -1,0 +1,4 @@
+id = "hy4-cheap:payg"
+
+[modalities]
+output = [ "text" ]

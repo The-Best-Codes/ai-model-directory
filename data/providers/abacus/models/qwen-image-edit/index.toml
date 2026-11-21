@@ -1,9 +1,0 @@
-id = "qwen_image_edit"
-name = "Qwen Image Edit"
-
-[features]
-attachment = true
-
-[modalities]
-input = [ "image", "text" ]
-output = [ "image" ]

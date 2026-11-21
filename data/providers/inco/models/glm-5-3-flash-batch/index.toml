@@ -1,0 +1,19 @@
+id = "glm-5.3-flash:batch"
+name = "GLM 5.3 Flash (Batch)"
+open_weights = true
+release_date = "1792616093"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.018
+input = 0.09
+output = 0.3

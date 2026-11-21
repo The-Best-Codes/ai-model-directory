@@ -12,5 +12,5 @@ output = [ "video" ]
 cache_read = 0
 cache_write = 0
 input_audio = 0
-output = 0.4
+output = 0.22
 output_audio = 0

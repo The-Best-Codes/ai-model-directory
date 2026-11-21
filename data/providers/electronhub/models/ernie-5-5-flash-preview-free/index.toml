@@ -1,0 +1,15 @@
+id = "ernie-5.5-flash-preview:free"
+name = "Baidu: ERNIE-5.5-Flash-Preview (free)"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 64000
+input = 64000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

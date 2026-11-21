@@ -5,7 +5,7 @@ release_date = "1791839241"
 [features]
 attachment = false
 reasoning = true
-structured_output = false
+structured_output = true
 tool_call = true
 
 [limit]
@@ -16,6 +16,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.302279849586
-input = 1.20911939834
-output = 4.83647759337
+cache_read = 0.302225035663
+input = 1.20890014265
+output = 4.8356005706

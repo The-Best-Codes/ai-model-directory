@@ -19,6 +19,6 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.00444
-input = 0.0888
-output = 0.444
+cache_read = 0.00398
+input = 0.0796
+output = 0.398
