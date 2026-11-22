@@ -2,5 +2,5 @@ id = "gemini-2.5-flash__pt10"
 name = "gemini-2.5-flash__pt10"
 
 [pricing]
-input = 0.409712286456
-output = 3.4142690538
+input = 0.409541046948
+output = 3.4128420579

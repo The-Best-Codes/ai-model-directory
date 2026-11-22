@@ -1,0 +1,15 @@
+id = "tencent/Hy4"
+name = "tencent/Hy4"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+output = 1048576
+
+[pricing]
+cache_read = 0.04199999814
+input = 0.834
+output = 2.501

@@ -1,4 +1,0 @@
-id = "mistral-large-3:64k-context"
-
-[modalities]
-output = [ "text" ]

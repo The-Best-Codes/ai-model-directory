@@ -1,0 +1,12 @@
+id = "infomaniak/sentence-transformers/all-minilm-l12-v2"
+name = "infomaniak/sentence-transformers/all-minilm-l12-v2"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -22,7 +22,7 @@
     },
     "packages/npm": {
       "name": "ai-model-directory",
-      "version": "0.1.223",
+      "version": "0.1.224",
       "devDependencies": {
         "@types/bun": "^1.4.2",
         "typescript": "^7.0.2",

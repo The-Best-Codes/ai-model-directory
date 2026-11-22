@@ -3,7 +3,7 @@ name = "Qwen 4 Max"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0323266875357
-input = 0.427499999996
-output = 1.28249999999
+cache_read = 0.0322747614679
+input = 0.426813310586
+output = 1.28043993176

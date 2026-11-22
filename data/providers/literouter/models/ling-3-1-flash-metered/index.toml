@@ -1,0 +1,4 @@
+id = "ling-3.1-flash:metered"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,19 @@
+id = "auto/unknown/olala-v1.0-translate/eu-sovereign"
+name = "auto/unknown/olala-v1.0-translate/eu-sovereign"
+
+[features]
+attachment = false
+tool_call = false
+
+[limit]
+context = 8208
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

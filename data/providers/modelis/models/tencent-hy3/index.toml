@@ -11,12 +11,12 @@ tool_call = true
 
 [limit]
 context = 262144
-output = 128000
+output = 235929
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.595945143936
-output = 2.38378057574
+input = 0.595696068288
+output = 2.38278427315
