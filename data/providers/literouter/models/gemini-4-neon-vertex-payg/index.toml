@@ -1,0 +1,4 @@
+id = "gemini-4-neon-vertex:payg"
+
+[modalities]
+output = [ "text" ]

@@ -1,4 +1,0 @@
-id = "magistral-small:free"
-
-[modalities]
-output = [ "text" ]

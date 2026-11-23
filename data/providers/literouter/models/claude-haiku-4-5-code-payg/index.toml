@@ -1,4 +1,0 @@
-id = "claude-haiku-4.5-code:payg"
-
-[modalities]
-output = [ "text" ]

@@ -1,5 +1,5 @@
 id = "deepseek/deepseek-v4-flash-0731:US"
-name = "DeepSeek: DeepSeek V4 Flash"
+name = "DeepSeek: DeepSeek V4 Flash (US)"
 release_date = "1785000000"
 
 [features]

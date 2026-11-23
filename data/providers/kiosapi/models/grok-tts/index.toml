@@ -1,0 +1,12 @@
+id = "grok-tts"
+name = "grok-tts"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 37.5
+output = 37.5

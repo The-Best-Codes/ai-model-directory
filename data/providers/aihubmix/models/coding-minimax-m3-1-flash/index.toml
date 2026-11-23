@@ -1,0 +1,16 @@
+id = "coding-minimax-m3.1-flash"
+name = "coding-minimax-m3.1-flash"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "image", "text", "video" ]
+
+[pricing]
+cache_read = 0.0033
+input = 0.033
+output = 0.132

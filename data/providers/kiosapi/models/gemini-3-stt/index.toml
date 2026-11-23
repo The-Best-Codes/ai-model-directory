@@ -1,0 +1,12 @@
+id = "gemini-3-stt"
+name = "gemini-3-stt"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 37.5
+output = 150

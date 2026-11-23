@@ -1,0 +1,18 @@
+id = "alpha-abliterated"
+name = "Alpha Abliterated"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1000000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0117639960283
+input = 0.13383597342
+output = 0.314016619566

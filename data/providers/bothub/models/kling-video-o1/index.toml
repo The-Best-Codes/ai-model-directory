@@ -1,0 +1,9 @@
+id = "kling-video-o1"
+name = "Kling Video O1"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "video" ]
