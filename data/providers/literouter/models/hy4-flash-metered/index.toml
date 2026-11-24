@@ -1,0 +1,4 @@
+id = "hy4-flash:metered"
+
+[modalities]
+output = [ "text" ]

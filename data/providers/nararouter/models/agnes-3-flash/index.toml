@@ -1,0 +1,18 @@
+id = "agnes-3-flash"
+name = "Agnes 3 Flash"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 512000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.00109917407365
+input = 0.0109917407365
+output = 0.021983481473

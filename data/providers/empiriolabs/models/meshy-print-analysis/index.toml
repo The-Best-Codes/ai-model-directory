@@ -1,0 +1,10 @@
+id = "meshy-print-analysis"
+name = "Meshy Print Analysis"
+release_date = "1778112000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

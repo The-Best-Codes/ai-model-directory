@@ -1,0 +1,12 @@
+id = "orca/orcacyber-ling-3.2-flash"
+name = "Orca: OrcaCyber Ling 3.2 Flash"
+
+[features]
+tool_call = true
+
+[limit]
+context = 1048064
+
+[pricing]
+input = 0.663
+output = 1.989

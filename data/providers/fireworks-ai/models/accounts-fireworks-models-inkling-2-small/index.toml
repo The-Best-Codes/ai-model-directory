@@ -1,0 +1,18 @@
+id = "accounts/fireworks/models/inkling-2-small"
+name = "Inkling 2 Small"
+open_weights = true
+
+[features]
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.03
+input = 0.3
+output = 1

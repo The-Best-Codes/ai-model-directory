@@ -1,0 +1,13 @@
+id = "clef-omni"
+name = "Clef-Omni"
+open_weights = true
+release_date = "1795475544"
+
+[features]
+attachment = true
+
+[limit]
+context = 65536
+
+[modalities]
+input = [ "audio", "image", "text", "video" ]

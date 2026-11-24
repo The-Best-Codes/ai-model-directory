@@ -1,0 +1,12 @@
+id = "intern-s2-preview"
+name = "intern-s2-preview"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,5 +1,6 @@
 id = "Qwen/Qwen4-Max"
 name = "Qwen4 Max"
+release_date = "1795466936"
 
 [features]
 attachment = true
@@ -14,6 +15,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0525
-input = 1.05
-output = 3.15
+cache_read = 0.075
+input = 1.5
+output = 4.5

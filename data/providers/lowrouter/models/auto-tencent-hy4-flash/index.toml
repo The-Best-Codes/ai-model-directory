@@ -1,0 +1,18 @@
+id = "auto/tencent/hy4-flash"
+name = "auto/tencent/hy4-flash"
+
+[features]
+attachment = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.00307030963201
+cache_write = 0.0716269904872
+input = 0.0716269904872
+output = 0.287531031801

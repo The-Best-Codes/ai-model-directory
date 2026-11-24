@@ -1,0 +1,4 @@
+id = "hy4-flash"
+
+[modalities]
+output = [ "text" ]

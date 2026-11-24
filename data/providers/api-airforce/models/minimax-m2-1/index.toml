@@ -4,13 +4,14 @@ name = "minimax-m2.1"
 [features]
 attachment = false
 reasoning = false
+tool_call = true
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.027
-cache_write = 0.27
-input = 0.27
-output = 1.11
+cache_read = 0.069
+cache_write = 0.69
+input = 0.69
+output = 2.73

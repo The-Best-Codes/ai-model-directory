@@ -1,0 +1,12 @@
+id = "dots-3-note-preview"
+name = "dots-3-note-preview"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

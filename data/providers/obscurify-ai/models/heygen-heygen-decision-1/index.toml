@@ -1,5 +1,5 @@
 id = "heygen/heygen-decision-1"
-name = "HeyGen: HeyGen Decision"
+name = "HeyGen: HeyGen Decision 1"
 
 [features]
 tool_call = false

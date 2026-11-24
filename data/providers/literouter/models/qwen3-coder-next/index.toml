@@ -1,4 +1,0 @@
-id = "qwen3-coder-next"
-
-[modalities]
-output = [ "text" ]

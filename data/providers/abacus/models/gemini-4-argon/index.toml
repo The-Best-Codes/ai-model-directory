@@ -9,7 +9,7 @@ context = 1048576
 output = 65536
 
 [modalities]
-input = [ "audio", "image", "text" ]
+input = [ "audio", "image", "text", "video" ]
 output = [ "text" ]
 
 [pricing]

@@ -1,0 +1,10 @@
+id = "meshy-t2"
+name = "Meshy T2"
+release_date = "1783900800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

@@ -1,0 +1,4 @@
+id = "gemini-4-neon-thinking:payg"
+
+[modalities]
+output = [ "text" ]

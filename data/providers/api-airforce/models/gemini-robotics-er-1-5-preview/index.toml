@@ -1,0 +1,14 @@
+id = "gemini-robotics-er-1.5-preview"
+name = "gemini-robotics-er-1.5-preview"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.32
+output = 2.63

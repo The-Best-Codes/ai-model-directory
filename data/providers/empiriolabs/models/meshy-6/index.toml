@@ -1,0 +1,10 @@
+id = "meshy-6"
+name = "Meshy 6"
+release_date = "1768780800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

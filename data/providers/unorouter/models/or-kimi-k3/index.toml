@@ -1,24 +1,21 @@
 id = "or-kimi-k3"
 name = "or-kimi-k3"
-release_date = "1784215858"
+release_date = "1784160000"
 
 [features]
 attachment = true
 reasoning = true
-structured_output = true
-temperature = true
 tool_call = true
 
 [limit]
-context = 1000000
-input = 1000000
-output = 943718
+context = 1048576
+input = 1048576
 
 [modalities]
-input = [ "image", "text", "video" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0552
-input = 0.552
-output = 2.76
+cache_read = 0.05001
+input = 0.5001
+output = 2.5005

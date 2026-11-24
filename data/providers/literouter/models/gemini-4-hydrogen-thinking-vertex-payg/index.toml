@@ -1,0 +1,4 @@
+id = "gemini-4-hydrogen-thinking-vertex:payg"
+
+[modalities]
+output = [ "text" ]

@@ -1,21 +1,11 @@
 id = "or-gemini-4-carbon"
 name = "or-gemini-4-carbon"
-release_date = "1794326871"
 
 [features]
-attachment = true
-reasoning = true
-structured_output = true
-temperature = true
-tool_call = true
-
-[limit]
-context = 1000000
-input = 1000000
-output = 943718
+attachment = false
 
 [modalities]
-input = [ "audio", "file", "image", "text", "video" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

@@ -1,0 +1,10 @@
+id = "meshy-uv-unwrap"
+name = "Meshy UV Unwrap"
+release_date = "1781481600"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

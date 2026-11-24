@@ -1,0 +1,19 @@
+id = "inkling-2-mini-uncensored"
+name = "inkling-2-mini-uncensored"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.0274798585
+input = 0.1373992925
+output = 0.6869964625

@@ -1,0 +1,12 @@
+id = "tencent/hy3"
+name = "Tencent: Tencent Hy3"
+
+[features]
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+input = 0.07293
+output = 0.2873

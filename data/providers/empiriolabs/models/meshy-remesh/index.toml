@@ -1,0 +1,10 @@
+id = "meshy-remesh"
+name = "Meshy Remesh"
+release_date = "1734566400"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

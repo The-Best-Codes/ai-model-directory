@@ -1,21 +1,11 @@
 id = "or-claude-haiku-5-5"
 name = "or-claude-haiku-5-5"
-release_date = "1791397883"
 
 [features]
-attachment = true
-reasoning = true
-structured_output = true
-temperature = false
-tool_call = true
-
-[limit]
-context = 1000000
-input = 1000000
-output = 16000
+attachment = false
 
 [modalities]
-input = [ "file", "image", "text" ]
+input = [ "text" ]
 output = [ "text" ]
 
 [pricing]

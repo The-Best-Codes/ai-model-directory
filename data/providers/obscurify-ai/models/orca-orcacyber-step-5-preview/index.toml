@@ -1,0 +1,12 @@
+id = "orca/orcacyber-step-5-preview"
+name = "Orca: OrcaCyber Step 5 Preview"
+
+[features]
+tool_call = true
+
+[limit]
+context = 999488
+
+[pricing]
+input = 2.21
+output = 5.967

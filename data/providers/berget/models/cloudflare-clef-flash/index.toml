@@ -8,5 +8,5 @@ structured_output = false
 tool_call = false
 
 [pricing]
-input = 0.04607384166
+input = 0.04620315462
 output = 0

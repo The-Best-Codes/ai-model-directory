@@ -1,0 +1,10 @@
+id = "meshy-relief"
+name = "Meshy Relief"
+release_date = "1793836800"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

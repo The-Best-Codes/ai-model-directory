@@ -14,4 +14,5 @@ input = [ "audio", "file", "image", "text", "video" ]
 
 [pricing]
 input = 0.2
+input_audio = 6.5
 output = 0

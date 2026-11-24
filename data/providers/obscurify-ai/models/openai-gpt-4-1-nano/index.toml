@@ -1,12 +1,12 @@
 id = "openai/gpt-4.1-nano"
-name = "OpenAI: GPT 4.1 Nano"
+name = "OpenAI: GPT-4.1 Nano"
 
 [features]
-tool_call = false
+tool_call = true
 
 [limit]
 context = 1047576
 
 [pricing]
-input = 0.1105
-output = 0.442
+input = 0.13
+output = 0.52

@@ -1,0 +1,10 @@
+id = "meshy-multi-color-print"
+name = "Meshy Multi-Color Print"
+release_date = "1775088000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]

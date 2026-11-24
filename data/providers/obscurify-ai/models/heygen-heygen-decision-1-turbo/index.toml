@@ -1,5 +1,5 @@
 id = "heygen/heygen-decision-1-turbo"
-name = "HeyGen: HeyGen Decision Turbo"
+name = "HeyGen: HeyGen Decision 1 Turbo"
 
 [features]
 tool_call = false

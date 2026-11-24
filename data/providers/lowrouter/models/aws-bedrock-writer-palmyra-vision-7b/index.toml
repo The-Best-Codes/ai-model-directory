@@ -4,10 +4,14 @@ name = "aws-bedrock/writer/palmyra-vision-7b"
 [features]
 attachment = true
 
+[limit]
+context = 4096
+output = 4096
+
 [modalities]
 input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.151901067968
-output = 0.607604271872
+input = 0.153493480098
+output = 0.613972820318

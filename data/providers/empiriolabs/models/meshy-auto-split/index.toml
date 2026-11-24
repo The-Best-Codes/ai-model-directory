@@ -1,0 +1,10 @@
+id = "meshy-auto-split"
+name = "Meshy Auto Split"
+release_date = "1788912000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image" ]
+output = [ "image" ]
