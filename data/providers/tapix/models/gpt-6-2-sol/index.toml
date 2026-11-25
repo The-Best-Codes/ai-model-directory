@@ -1,0 +1,7 @@
+id = "gpt-6.2-sol"
+name = "gpt-6.2-sol"
+release_date = "1794960000"
+
+[pricing]
+input = 0.107344
+output = 0.429368

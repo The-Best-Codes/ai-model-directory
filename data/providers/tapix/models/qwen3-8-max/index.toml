@@ -1,0 +1,7 @@
+id = "qwen3.8-max"
+name = "qwen3.8-max"
+release_date = "1794182400"
+
+[pricing]
+input = 2.196357
+output = 5.834768

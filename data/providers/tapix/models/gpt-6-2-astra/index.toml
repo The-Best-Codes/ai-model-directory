@@ -1,0 +1,7 @@
+id = "gpt-6.2-astra"
+name = "gpt-6.2-astra"
+release_date = "1794960000"
+
+[pricing]
+input = 0.419021
+output = 1.676081

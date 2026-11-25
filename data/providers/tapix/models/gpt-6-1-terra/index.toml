@@ -1,0 +1,7 @@
+id = "gpt-6.1-terra"
+name = "gpt-6.1-terra"
+release_date = "1794182400"
+
+[pricing]
+input = 0.429888
+output = 1.453417

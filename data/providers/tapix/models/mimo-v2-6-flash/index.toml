@@ -1,0 +1,7 @@
+id = "mimo-v2.6-flash"
+name = "mimo-v2.6-flash"
+release_date = "1794182400"
+
+[pricing]
+input = 0.097784
+output = 0.385213

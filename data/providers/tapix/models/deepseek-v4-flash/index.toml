@@ -1,0 +1,7 @@
+id = "deepseek-v4-flash"
+name = "deepseek-v4-flash"
+release_date = "1794182400"
+
+[pricing]
+input = 0.250011
+output = 0.762887

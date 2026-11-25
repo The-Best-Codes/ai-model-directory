@@ -1,0 +1,7 @@
+id = "gemini-4-carbon"
+name = "gemini-4-carbon"
+release_date = "1794528000"
+
+[pricing]
+input = 0.934993
+output = 4.684125

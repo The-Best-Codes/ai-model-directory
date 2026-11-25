@@ -1,0 +1,7 @@
+id = "claude-opus-5-5"
+name = "claude-opus-5-5"
+release_date = "1794182400"
+
+[pricing]
+input = 2.8
+output = 14

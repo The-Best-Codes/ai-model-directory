@@ -102,6 +102,7 @@ import { sensenovaTokenPlanProvider } from "./sensenova-token-plan.ts";
 import { spekaProvider } from "./speka.ts";
 import { standardcomputeProvider } from "./standardcompute.ts";
 import { syntheticProvider } from "./synthetic.ts";
+import { tapixProvider } from "./tapix.ts";
 import { tetrateProvider } from "./tetrate.ts";
 import { theGridAiProvider } from "./the-grid-ai.ts";
 import { tinfoilProvider } from "./tinfoil.ts";
@@ -232,6 +233,7 @@ export const providers: ProviderDefinition[] = [
   spekaProvider,
   standardcomputeProvider,
   syntheticProvider,
+  tapixProvider,
   tetrateProvider,
   theGridAiProvider,
   tinfoilProvider,

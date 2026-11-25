@@ -1,0 +1,7 @@
+id = "gemini-4-argon"
+name = "gemini-4-argon"
+release_date = "1794182400"
+
+[pricing]
+input = 1.4
+output = 7

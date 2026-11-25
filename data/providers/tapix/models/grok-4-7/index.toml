@@ -1,0 +1,7 @@
+id = "grok-4.7"
+name = "grok-4.7"
+release_date = "1794182400"
+
+[pricing]
+input = 1.4
+output = 4.2

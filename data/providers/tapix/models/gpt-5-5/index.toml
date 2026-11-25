@@ -1,0 +1,7 @@
+id = "gpt-5.5"
+name = "gpt-5.5"
+release_date = "1794182400"
+
+[pricing]
+input = 3.5
+output = 21

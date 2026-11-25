@@ -1,0 +1,7 @@
+name = "Tapix AI"
+website = "https://tapixai.com"
+apiBaseUrl = "https://tapixai.com/v1"
+
+[aiSdk]
+npmPackage = "@ai-sdk/openai-compatible"
+defaultApiKeyEnv = ["TAPIX_API_KEY"]

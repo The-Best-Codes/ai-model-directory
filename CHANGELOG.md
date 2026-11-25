@@ -1,5 +1,96 @@
 # Changelog
 
+## Run at 1795575884
+
+### Summary
+
+- **Total models currently tracked: 25021** across 129 providers
+- Providers with changes this run: 1
+- Total models added: 56
+- Total models removed: 0
+- Total field changes: 0
+
+<details>
+<summary><strong>Full details</strong></summary>
+
+<details>
+<summary><strong>tapix</strong> — 56 models, 56 added, 0 removed, 0 field changes</summary>
+
+#### Summary
+
+- Models currently tracked: 56
+- Models added: 56
+- Models removed: 0
+- Total field changes: 0
+
+_No field-level changes among existing models._
+
+<details>
+<summary>Added models (56)</summary>
+
+- `claude-fable-5`
+- `claude-fable-5-1`
+- `claude-fable-5-2`
+- `claude-haiku-4-5`
+- `claude-haiku-5-5`
+- `claude-opus-4-6`
+- `claude-opus-4-7`
+- `claude-opus-4-8`
+- `claude-opus-5`
+- `claude-opus-5-5`
+- `claude-sonnet-4-6`
+- `claude-sonnet-5`
+- `claude-sonnet-5-5`
+- `codex-auto-review`
+- `deepseek-v4-flash`
+- `deepseek-v4-pro`
+- `deepseek-v4.1-flash`
+- `gemini-3-flash`
+- `gemini-3.8-flash`
+- `gemini-4-argon`
+- `gemini-4-carbon`
+- `gemini-4-hydrogen`
+- `gemini-4-neon`
+- `glm-5.1`
+- `glm-5.2`
+- `glm-5.3`
+- `glm-5.3-flash`
+- `glm-5.3-flashx`
+- `gpt-5.5`
+- `gpt-5.6-sol`
+- `gpt-5.6-terra`
+- `gpt-6-astra`
+- `gpt-6-sol`
+- `gpt-6.1-sol`
+- `gpt-6.1-terra`
+- `gpt-6.2-astra`
+- `gpt-6.2-sol`
+- `grok-4.5`
+- `grok-4.6`
+- `grok-4.7`
+- `hy3`
+- `hy4-preview`
+- `kimi-k2.6`
+- `kimi-k2.7-code`
+- `kimi-k2.8`
+- `kimi-k3`
+- `kimi-k3.1-pro`
+- `mimo-v2.5`
+- `mimo-v2.5-pro`
+- `mimo-v2.6-flash`
+- `mimo-v2.6-pro`
+- `qwen3.7-max`
+- `qwen3.7-plus`
+- `qwen3.8-flash`
+- `qwen3.8-max`
+- `qwen4-max`
+
+</details>
+
+</details>
+
+</details>
+
 ## Run at 1795511590
 
 ### Summary

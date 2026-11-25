@@ -1,0 +1,7 @@
+id = "qwen4-max"
+name = "qwen4-max"
+release_date = "1795046400"
+
+[pricing]
+input = 1.976192
+output = 7.904767

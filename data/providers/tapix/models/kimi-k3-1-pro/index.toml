@@ -1,0 +1,7 @@
+id = "kimi-k3.1-pro"
+name = "kimi-k3.1-pro"
+release_date = "1794182400"
+
+[pricing]
+input = 1.6
+output = 8

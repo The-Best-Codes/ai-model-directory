@@ -1,0 +1,7 @@
+id = "claude-sonnet-4-6"
+name = "claude-sonnet-4-6"
+release_date = "1794182400"
+
+[pricing]
+input = 2.1
+output = 10.5

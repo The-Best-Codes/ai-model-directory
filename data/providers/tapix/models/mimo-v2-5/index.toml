@@ -1,0 +1,7 @@
+id = "mimo-v2.5"
+name = "mimo-v2.5"
+release_date = "1794182400"
+
+[pricing]
+input = 0.32
+output = 1.6

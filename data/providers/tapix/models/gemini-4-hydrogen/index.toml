@@ -1,0 +1,7 @@
+id = "gemini-4-hydrogen"
+name = "gemini-4-hydrogen"
+release_date = "1794528000"
+
+[pricing]
+input = 0.858589
+output = 3.434589

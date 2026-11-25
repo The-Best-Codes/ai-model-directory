@@ -1,0 +1,7 @@
+id = "qwen3.8-flash"
+name = "qwen3.8-flash"
+release_date = "1794182400"
+
+[pricing]
+input = 0.12
+output = 0.376
