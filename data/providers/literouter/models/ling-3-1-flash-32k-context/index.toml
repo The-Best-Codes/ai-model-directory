@@ -1,4 +1,0 @@
-id = "ling-3.1-flash:32k-context"
-
-[modalities]
-output = [ "text" ]

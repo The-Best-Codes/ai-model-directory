@@ -8,7 +8,7 @@ temperature = false
 tool_call = false
 
 [limit]
-context = 131071
+context = 131072
 
 [modalities]
 input = [ "text" ]

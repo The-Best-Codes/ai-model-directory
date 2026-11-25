@@ -1,4 +1,0 @@
-id = "hy4-flash:metered:full-context"
-
-[modalities]
-output = [ "text" ]

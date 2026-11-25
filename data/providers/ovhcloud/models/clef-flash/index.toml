@@ -8,5 +8,5 @@ context = 16384
 [pricing]
 cache_read = 0
 cache_write = 0
-input = 0
+input = 0.04
 output = 0

@@ -1,0 +1,23 @@
+id = "TheDrummer/Skyfall-31B-v4.2"
+name = "Skyfall-31B-v4.2"
+open_weights = true
+
+[features]
+attachment = false
+reasoning = true
+structured_output = false
+temperature = true
+tool_call = false
+
+[limit]
+context = 65536
+output = 16384
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0
+reasoning = 0

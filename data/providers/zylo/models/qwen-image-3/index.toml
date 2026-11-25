@@ -1,0 +1,14 @@
+id = "qwen-image-3"
+name = "Qwen Image 3"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

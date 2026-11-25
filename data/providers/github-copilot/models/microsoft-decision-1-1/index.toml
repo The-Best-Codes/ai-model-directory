@@ -1,0 +1,9 @@
+id = "microsoft-decision-1-1"
+name = "Microsoft-Decision-1.1"
+
+[features]
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]

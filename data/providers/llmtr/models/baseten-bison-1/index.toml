@@ -1,0 +1,17 @@
+id = "baseten/bison-1"
+name = "Bison-1"
+release_date = "1795540689"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.1
+output = 0

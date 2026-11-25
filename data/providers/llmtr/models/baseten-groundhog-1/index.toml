@@ -1,0 +1,17 @@
+id = "baseten/groundhog-1"
+name = "Groundhog-1"
+release_date = "1795540689"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.035
+output = 0

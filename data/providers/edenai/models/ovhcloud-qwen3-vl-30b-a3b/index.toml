@@ -1,0 +1,20 @@
+id = "ovhcloud/qwen3-vl-30b-a3b"
+name = "ovhcloud/qwen3-vl-30b-a3b"
+release_date = "1795583523"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.58

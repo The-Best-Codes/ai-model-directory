@@ -1,0 +1,21 @@
+id = "microsoft/mai-image-2.6-flash"
+name = "Microsoft: MAI Image 2.6 Flash"
+release_date = "1795513048"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 4100
+output = 1000
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]
+
+[pricing]
+input = 1.75
+output = 19

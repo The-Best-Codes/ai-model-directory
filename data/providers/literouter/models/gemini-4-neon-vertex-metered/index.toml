@@ -1,4 +1,0 @@
-id = "gemini-4-neon-vertex:metered"
-
-[modalities]
-output = [ "text" ]

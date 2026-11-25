@@ -1,0 +1,14 @@
+id = "recraft-v4.1-flash-free"
+name = "Recraft V4.1 Flash (Free)"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

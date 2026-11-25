@@ -1,0 +1,20 @@
+id = "ovhcloud/nemotron3-omni-30b"
+name = "ovhcloud/nemotron3-omni-30b"
+release_date = "1795583523"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.19
+output = 0.57

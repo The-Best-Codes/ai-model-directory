@@ -1,0 +1,4 @@
+id = "hy4:free"
+
+[modalities]
+output = [ "text" ]

@@ -1,5 +1,5 @@
 id = "openai/gpt-6.2-sol"
-name = "OpenAI: GPT-6.2 Sol (new)"
+name = "OpenAI: GPT-6.2 Sol"
 release_date = "1794938371"
 
 [features]

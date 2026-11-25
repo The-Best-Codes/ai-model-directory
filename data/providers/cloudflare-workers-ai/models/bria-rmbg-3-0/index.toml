@@ -1,0 +1,9 @@
+id = "bria/rmbg-3.0"
+name = "RMBG 3.0"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

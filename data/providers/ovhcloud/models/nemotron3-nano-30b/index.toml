@@ -9,5 +9,5 @@ output = 65536
 [pricing]
 cache_read = 0
 cache_write = 0
-input = 0
-output = 0
+input = 0.06
+output = 0.23

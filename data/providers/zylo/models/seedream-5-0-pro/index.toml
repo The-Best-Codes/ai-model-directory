@@ -1,0 +1,14 @@
+id = "seedream-5-0-pro"
+name = "Seedream 5.0 Pro"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -14,7 +14,3 @@ output = 32768
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
-
-[pricing]
-input = 7.5
-output = 7.5

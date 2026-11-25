@@ -1,0 +1,9 @@
+id = "gpt-image-2.6-sunburst"
+name = "GPT Image 2.6 Sunburst"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

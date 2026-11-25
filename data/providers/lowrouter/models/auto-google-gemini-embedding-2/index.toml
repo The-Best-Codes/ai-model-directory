@@ -8,7 +8,7 @@ attachment = true
 input = [ "audio", "file", "image", "text", "video" ]
 
 [pricing]
-cache_read = 0.204648072788
-cache_write = 0.204648072788
-input = 0.204648072788
+cache_read = 0.202660949672
+cache_write = 0.202660949672
+input = 0.202660949672
 output = 0

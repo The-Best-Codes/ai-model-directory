@@ -1,0 +1,14 @@
+id = "grok-imagine-image-2"
+name = "Grok Imagine Image 2.0"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

@@ -1,4 +1,0 @@
-id = "gemini-4-carbon-vertex:payg"
-
-[modalities]
-output = [ "text" ]

@@ -1,0 +1,9 @@
+id = "pruna/z-image-turbo"
+name = "Z-Image Turbo"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

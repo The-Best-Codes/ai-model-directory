@@ -5,7 +5,7 @@ release_date = "1772197106"
 [features]
 attachment = true
 structured_output = true
-tool_call = true
+tool_call = false
 
 [limit]
 context = 262144
@@ -16,4 +16,4 @@ output = [ "text" ]
 
 [pricing]
 input = 0.1
-output = 0.15
+output = 0.25

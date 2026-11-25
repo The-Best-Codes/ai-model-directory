@@ -1,4 +1,0 @@
-id = "deepseek-v3.1:64k-context"
-
-[modalities]
-output = [ "text" ]

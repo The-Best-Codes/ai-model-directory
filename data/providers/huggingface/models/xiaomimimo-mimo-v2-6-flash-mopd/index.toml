@@ -1,0 +1,19 @@
+id = "XiaomiMiMo/MiMo-V2.6-Flash-MOPD"
+name = "XiaomiMiMo/MiMo-V2.6-Flash-MOPD"
+release_date = "1790481660"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.15
+output = 0.42

@@ -1,0 +1,20 @@
+id = "radixark/daisyrose-27b"
+name = "DaisyRose 27B"
+release_date = "1795592426"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+cache_read = 0.0375
+input = 0.15
+output = 1.875

@@ -1,0 +1,14 @@
+id = "thinkingmachines/inkling-2-mini"
+name = "Inkling 2 Mini"
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.015
+input = 0.15
+output = 0.5

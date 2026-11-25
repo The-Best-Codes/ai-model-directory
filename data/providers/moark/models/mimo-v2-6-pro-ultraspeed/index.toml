@@ -1,0 +1,19 @@
+id = "MiMo-V2.6-Pro-UltraSpeed"
+last_updated = "1795576961"
+name = "MiMo-V2.6-Pro-UltraSpeed"
+release_date = "1795576961"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+output = 128000
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 4.5013164
+output = 9.0026328

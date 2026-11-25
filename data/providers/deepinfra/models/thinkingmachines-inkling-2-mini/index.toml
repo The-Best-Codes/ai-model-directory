@@ -1,0 +1,15 @@
+id = "thinkingmachines/Inkling-2-Mini"
+name = "thinkingmachines/Inkling-2-Mini"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 1048576
+output = 1048576
+
+[pricing]
+cache_read = 0.015
+input = 0.075
+output = 0.3
