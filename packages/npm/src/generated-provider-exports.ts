@@ -107,6 +107,7 @@ export const sensenovaTokenPlan = modelDirectory["sensenova-token-plan"]!;
 export const speka = modelDirectory["speka"]!;
 export const standardcompute = modelDirectory["standardcompute"]!;
 export const synthetic = modelDirectory["synthetic"]!;
+export const tapix = modelDirectory["tapix"]!;
 export const tetrate = modelDirectory["tetrate"]!;
 export const theGridAi = modelDirectory["the-grid-ai"]!;
 export const tinfoil = modelDirectory["tinfoil"]!;
