@@ -1,0 +1,11 @@
+id = "qwen/qwen3-asr-1.7b"
+name = "Qwen: Qwen3-ASR 1.7B"
+release_date = "1795564800"
+
+[features]
+attachment = true
+temperature = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

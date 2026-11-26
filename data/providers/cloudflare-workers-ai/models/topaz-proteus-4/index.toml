@@ -1,0 +1,9 @@
+id = "topaz/proteus-4"
+name = "Proteus 4"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "text", "video" ]
+output = [ "video" ]

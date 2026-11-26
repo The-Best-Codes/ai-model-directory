@@ -1,0 +1,11 @@
+id = "openmoss/moss-transcribe-diarize"
+name = "OpenMOSS: MOSS Transcribe Diarize"
+release_date = "1795564800"
+
+[features]
+attachment = true
+temperature = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

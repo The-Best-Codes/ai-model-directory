@@ -1,4 +1,0 @@
-id = "glm-5v-turbo:metered:full-context"
-
-[modalities]
-output = [ "text" ]

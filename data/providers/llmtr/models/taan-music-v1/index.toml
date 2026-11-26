@@ -1,0 +1,9 @@
+id = "taan/music-v1"
+name = "Taan Music v1"
+release_date = "1795674503"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "text" ]

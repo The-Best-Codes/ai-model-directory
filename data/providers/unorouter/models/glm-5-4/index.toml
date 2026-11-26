@@ -1,6 +1,6 @@
 id = "glm-5.4"
 name = "glm-5.4"
-release_date = "1770829182"
+release_date = "1795392000"
 
 [features]
 attachment = false
@@ -12,13 +12,13 @@ tool_call = true
 [limit]
 context = 1000000
 input = 1000000
-output = 131072
+output = 128000
 
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.099997
-input = 0.499985
-output = 1.657850263
+cache_read = 0.068628
+input = 0.34314
+output = 1.137783612

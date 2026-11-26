@@ -1,0 +1,4 @@
+id = "llama-3.3-70b-instruct:64k-context"
+
+[modalities]
+output = [ "text" ]

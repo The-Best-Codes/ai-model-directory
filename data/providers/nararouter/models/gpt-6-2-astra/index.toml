@@ -3,7 +3,7 @@ name = "GPT 6.2 Astra"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000

@@ -1,4 +1,0 @@
-id = "aion-2.0:32k-context"
-
-[modalities]
-output = [ "text" ]

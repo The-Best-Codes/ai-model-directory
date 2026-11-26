@@ -3,6 +3,7 @@ name = "deepinfra/mistralai/mistral-nemo-instruct-2407"
 
 [features]
 attachment = false
+tool_call = true
 
 [limit]
 context = 131072
@@ -12,5 +13,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.0293867983051
-output = 0.0303997974071
+input = 0.0293696161945
+output = 0.030381871019

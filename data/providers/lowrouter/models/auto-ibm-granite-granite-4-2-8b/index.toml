@@ -3,6 +3,7 @@ name = "auto/ibm-granite/granite-4.2-8b"
 
 [features]
 attachment = false
+tool_call = true
 
 [limit]
 context = 131072
@@ -12,7 +13,7 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0152004445005
-cache_write = 0.0607985032204
-input = 0.0607985032204
-output = 0.25332618709
+cache_read = 0.0151914826743
+cache_write = 0.0607626477085
+input = 0.0607626477085
+output = 0.253177516397

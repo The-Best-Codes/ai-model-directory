@@ -1,0 +1,4 @@
+id = "qwen3-32b:full-context"
+
+[modalities]
+output = [ "text" ]

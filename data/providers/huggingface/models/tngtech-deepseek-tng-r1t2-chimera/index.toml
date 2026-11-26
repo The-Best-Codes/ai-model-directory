@@ -1,0 +1,19 @@
+id = "tngtech/DeepSeek-TNG-R1T2-Chimera"
+name = "tngtech/DeepSeek-TNG-R1T2-Chimera"
+release_date = "1751457900"
+
+[features]
+attachment = false
+structured_output = true
+tool_call = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 1
+output = 2.625

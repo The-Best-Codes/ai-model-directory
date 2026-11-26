@@ -1,5 +1,5 @@
 id = "accounts/fireworks/models/hy4-flash"
-name = "Hy4 Flash"
+name = "Hy4 flash"
 open_weights = true
 
 [features]

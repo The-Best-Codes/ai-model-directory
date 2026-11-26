@@ -1,4 +1,0 @@
-id = "muse-ember:full-context"
-
-[modalities]
-output = [ "text" ]

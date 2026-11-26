@@ -1,8 +1,12 @@
 id = "k-exaone-2.5:free"
 name = "k-exaone-2.5:free"
+release_date = "1794182400"
 
 [features]
 attachment = false
+
+[limit]
+context = 512000
 
 [modalities]
 input = [ "text" ]

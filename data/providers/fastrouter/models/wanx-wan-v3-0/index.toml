@@ -4,7 +4,7 @@ release_date = "1787529600"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 structured_output = false
 temperature = false
 tool_call = false
@@ -20,3 +20,4 @@ output = [ "video" ]
 [pricing]
 input = 0
 output = 0
+reasoning = 0

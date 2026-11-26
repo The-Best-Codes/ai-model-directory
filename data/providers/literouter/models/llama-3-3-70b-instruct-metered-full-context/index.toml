@@ -1,0 +1,4 @@
+id = "llama-3.3-70b-instruct:metered:full-context"
+
+[modalities]
+output = [ "text" ]

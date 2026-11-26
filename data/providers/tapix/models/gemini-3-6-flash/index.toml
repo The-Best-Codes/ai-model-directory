@@ -1,0 +1,7 @@
+id = "gemini-3.6-flash"
+name = "gemini-3.6-flash"
+release_date = "1794182400"
+
+[pricing]
+input = 0.525
+output = 2.625

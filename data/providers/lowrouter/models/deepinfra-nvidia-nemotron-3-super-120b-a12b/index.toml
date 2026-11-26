@@ -3,6 +3,7 @@ name = "deepinfra/nvidia/nemotron-3-super-120b-a12b"
 
 [features]
 attachment = false
+tool_call = true
 
 [limit]
 context = 262144
@@ -12,5 +13,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.0759978561271
-output = 0.405321899344
+input = 0.0759541303828
+output = 0.405084682833

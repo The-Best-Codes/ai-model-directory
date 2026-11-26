@@ -3,6 +3,7 @@ name = "deepinfra/mistralai/mistral-small-3.2-24b-instruct-2506"
 
 [features]
 attachment = true
+tool_call = true
 
 [limit]
 context = 128000
@@ -12,5 +13,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.0759978561271
-output = 0.202660949672
+input = 0.0759541303828
+output = 0.202542888581

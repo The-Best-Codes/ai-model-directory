@@ -3,6 +3,7 @@ name = "deepinfra/openai/gpt-oss-120b-ultra"
 
 [features]
 attachment = false
+tool_call = true
 
 [limit]
 context = 131072
@@ -12,5 +13,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.202660949672
-output = 0.962639510943
+input = 0.202542888581
+output = 0.962074343443

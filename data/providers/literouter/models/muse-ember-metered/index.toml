@@ -1,4 +1,0 @@
-id = "muse-ember:metered"
-
-[modalities]
-output = [ "text" ]

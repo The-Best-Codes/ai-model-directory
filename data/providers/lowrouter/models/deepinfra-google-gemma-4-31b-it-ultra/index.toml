@@ -3,6 +3,7 @@ name = "deepinfra/google/gemma-4-31b-it-ultra"
 
 [features]
 attachment = true
+tool_call = true
 
 [limit]
 context = 131072
@@ -12,5 +13,5 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.273592718695
-output = 0.770111827073
+input = 0.273432461853
+output = 0.769659474755

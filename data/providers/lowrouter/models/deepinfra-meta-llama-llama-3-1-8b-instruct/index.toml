@@ -3,6 +3,7 @@ name = "deepinfra/meta-llama/llama-3.1-8b-instruct"
 
 [features]
 attachment = false
+tool_call = true
 
 [limit]
 context = 131072
@@ -12,5 +13,5 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-input = 0.0202665316048
-output = 0.0405330632095
+input = 0.0202549454559
+output = 0.0405087965822

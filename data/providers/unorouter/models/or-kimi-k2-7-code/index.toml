@@ -1,8 +1,12 @@
 id = "or-kimi-k2.7-code"
 name = "or-kimi-k2.7-code"
+release_date = "1781222400"
 
 [features]
 attachment = false
+
+[limit]
+context = 262144
 
 [modalities]
 input = [ "text" ]

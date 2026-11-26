@@ -7,3 +7,7 @@ attachment = false
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+input = 2.02542013118
+output = 6.07625820487

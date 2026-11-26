@@ -11,6 +11,5 @@ tool_call = false
 input = [ "image", "text" ]
 
 [pricing]
-cache_read = 0.1
-input = 0.4
+input = 0.14
 output = 1.6

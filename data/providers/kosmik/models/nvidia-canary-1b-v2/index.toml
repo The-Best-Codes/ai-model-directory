@@ -1,0 +1,11 @@
+id = "nvidia/canary-1b-v2"
+name = "NVIDIA: Canary 1B v2"
+release_date = "1795564800"
+
+[features]
+attachment = true
+temperature = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

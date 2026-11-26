@@ -1,0 +1,11 @@
+id = "microsoft/vibevoice-asr"
+name = "Microsoft: VibeVoice ASR"
+release_date = "1795564800"
+
+[features]
+attachment = true
+temperature = false
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

@@ -2,5 +2,5 @@ id = "meituan/longcat-2.0"
 name = "meituan/longcat-2.0"
 
 [pricing]
-input = 0.893544102432
-output = 3.57417640973
+input = 0.893650338144
+output = 3.57460135258

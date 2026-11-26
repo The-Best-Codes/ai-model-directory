@@ -1,0 +1,9 @@
+id = "recraft/vectorize"
+name = "Recraft Vectorize"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "image" ]

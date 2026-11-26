@@ -2,6 +2,14 @@ id = "scaledown/scaledown-classify-1"
 name = "Classify-1"
 release_date = "1791849600"
 
+[features]
+attachment = true
+reasoning = false
+tool_call = false
+
+[modalities]
+input = [ "file", "image", "text" ]
+
 [pricing]
 input = 0.05
 output = 0

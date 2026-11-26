@@ -12,3 +12,8 @@ output = 65536
 [modalities]
 input = [ "audio", "file", "image", "text", "video" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.030381871019
+input = 0.303813238543
+output = 2.53177406964

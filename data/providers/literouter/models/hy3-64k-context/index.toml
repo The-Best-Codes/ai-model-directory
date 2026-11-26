@@ -1,4 +1,0 @@
-id = "hy3:64k-context"
-
-[modalities]
-output = [ "text" ]

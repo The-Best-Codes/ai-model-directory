@@ -1,0 +1,16 @@
+id = "recursive/flint-v1.0:free"
+name = "Flint V1.0 (free)"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

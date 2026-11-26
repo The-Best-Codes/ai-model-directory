@@ -1,8 +1,12 @@
 id = "or-gemini-4-hydrogen"
 name = "or-gemini-4-hydrogen"
+release_date = "1794441600"
 
 [features]
 attachment = false
+
+[limit]
+context = 1048576
 
 [modalities]
 input = [ "text" ]

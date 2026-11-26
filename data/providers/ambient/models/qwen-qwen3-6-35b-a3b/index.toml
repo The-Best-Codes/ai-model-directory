@@ -3,7 +3,7 @@ name = "Qwen3.6 35B A3B"
 release_date = "1777260255"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
 structured_output = true
 tool_call = true
@@ -13,7 +13,7 @@ context = 262144
 output = 262144
 
 [modalities]
-input = [ "text" ]
+input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]

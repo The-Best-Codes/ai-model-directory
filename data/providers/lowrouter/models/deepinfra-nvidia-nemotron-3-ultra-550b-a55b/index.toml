@@ -3,6 +3,7 @@ name = "deepinfra/nvidia/nemotron-3-ultra-550b-a55b"
 
 [features]
 attachment = true
+tool_call = true
 
 [limit]
 context = 262144
@@ -12,7 +13,7 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.101330474836
-cache_write = 0.633315467726
-input = 0.50665237418
-output = 2.22927044639
+cache_read = 0.101271444291
+cache_write = 0.632943790993
+input = 0.506355032794
+output = 2.22796192543

@@ -3,7 +3,7 @@ name = "GPT 6.1 Terra"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 
 [limit]
 context = 1000000

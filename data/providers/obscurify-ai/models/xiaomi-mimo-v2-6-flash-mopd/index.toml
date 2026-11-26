@@ -1,5 +1,5 @@
 id = "xiaomi/mimo-v2.6-flash-mopd"
-name = "Xiaomi: MiMo V2.6 Flash MOPD"
+name = "Xiaomi: MiMo-V2.6-Flash-MOPD"
 
 [features]
 tool_call = true
@@ -8,5 +8,5 @@ tool_call = true
 context = 1048576
 
 [pricing]
-input = 0.1105
-output = 0.3094
+input = 0.65
+output = 1.3

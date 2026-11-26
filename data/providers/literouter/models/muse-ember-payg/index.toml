@@ -1,4 +1,0 @@
-id = "muse-ember:payg"
-
-[modalities]
-output = [ "text" ]

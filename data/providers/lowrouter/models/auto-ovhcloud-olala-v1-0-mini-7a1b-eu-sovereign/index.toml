@@ -1,0 +1,19 @@
+id = "auto/ovhcloud/olala-v1.0-mini-7a1b/eu-sovereign"
+name = "auto/ovhcloud/olala-v1.0-mini-7a1b/eu-sovereign"
+
+[features]
+attachment = false
+tool_call = true
+
+[limit]
+context = 32688
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0
+cache_write = 0
+input = 0
+output = 0

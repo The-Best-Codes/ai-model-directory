@@ -3,6 +3,7 @@ name = "deepinfra/nvidia/nemotron-3.5-lightning-30b-a3b"
 
 [features]
 attachment = false
+tool_call = true
 
 [limit]
 context = 262144
@@ -12,6 +13,6 @@ input = [ "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0303997974071
-input = 0.0607985032204
-output = 0.162128978057
+cache_read = 0.030381871019
+input = 0.0607626477085
+output = 0.162034091999

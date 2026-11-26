@@ -1,5 +1,6 @@
 id = "mindshub-air:free"
 name = "mindshub-air:free"
+release_date = "1794096000"
 
 [features]
 attachment = true

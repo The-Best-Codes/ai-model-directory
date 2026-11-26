@@ -1,0 +1,17 @@
+id = "tagflow-code-27b:free"
+name = "tagflow-code-27b:free"
+release_date = "1791504000"
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

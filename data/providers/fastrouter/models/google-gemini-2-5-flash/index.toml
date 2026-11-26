@@ -4,7 +4,7 @@ release_date = "1744914667"
 
 [features]
 attachment = true
-reasoning = false
+reasoning = true
 structured_output = true
 temperature = true
 tool_call = true
@@ -18,5 +18,8 @@ input = [ "file", "image", "text" ]
 output = [ "text" ]
 
 [pricing]
+cache_read = 0.03
 input = 0.3
+input_audio = 1
 output = 2.5
+reasoning = 0
