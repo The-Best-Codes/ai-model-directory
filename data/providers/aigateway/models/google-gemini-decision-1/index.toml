@@ -1,0 +1,17 @@
+id = "google/gemini-decision-1"
+name = "Gemini Decision 1"
+open_weights = false
+
+[features]
+attachment = false
+
+[limit]
+context = 262144
+output = 32768
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0.1

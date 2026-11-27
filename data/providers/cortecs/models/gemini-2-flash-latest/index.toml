@@ -1,0 +1,16 @@
+id = "gemini-2-flash:latest"
+name = "gemini-2-flash:latest"
+release_date = "1742125082"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1048576
+
+[pricing]
+cache_read = 0.026
+input = 0.268
+output = 2.236

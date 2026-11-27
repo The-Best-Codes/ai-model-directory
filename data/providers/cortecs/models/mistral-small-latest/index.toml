@@ -1,0 +1,16 @@
+id = "mistral-small:latest"
+name = "mistral-small:latest"
+release_date = "1773741193"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262144
+
+[pricing]
+cache_read = 0.014
+input = 0.14
+output = 0.561

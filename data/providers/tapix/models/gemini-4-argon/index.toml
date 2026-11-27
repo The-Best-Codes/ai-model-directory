@@ -3,5 +3,5 @@ name = "gemini-4-argon"
 release_date = "1794182400"
 
 [pricing]
-input = 1.4
-output = 7
+input = 9.019612
+output = 45.100771

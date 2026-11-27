@@ -1,0 +1,16 @@
+id = "gpt-5-nano:latest"
+name = "gpt-5-nano:latest"
+release_date = "1732102682"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 400000
+
+[pricing]
+cache_read = 0.009
+input = 0.056
+output = 0.408

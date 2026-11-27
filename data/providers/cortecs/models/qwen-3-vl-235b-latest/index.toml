@@ -1,0 +1,15 @@
+id = "qwen-3-vl-235b:latest"
+name = "qwen-3-vl-235b:latest"
+release_date = "1768304282"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.554
+output = 2.8

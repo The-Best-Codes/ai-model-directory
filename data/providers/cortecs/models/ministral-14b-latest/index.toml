@@ -1,0 +1,15 @@
+id = "ministral-14b:latest"
+name = "ministral-14b:latest"
+release_date = "1764761882"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.215
+output = 0.215

@@ -1,0 +1,16 @@
+id = "voxtral-small:latest"
+name = "voxtral-small:latest"
+release_date = "1770025993"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[pricing]
+cache_read = 0.011
+input = 0.11
+output = 0.33

@@ -1,0 +1,15 @@
+id = "gemma-3-27b:latest"
+name = "gemma-3-27b:latest"
+release_date = "1741779482"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131000
+
+[pricing]
+input = 0.089
+output = 0.268

@@ -2,5 +2,5 @@ id = "mistralai/mistral-medium-3.1"
 name = "mistralai/mistral-medium-3.1"
 
 [pricing]
-input = 1.19153378419
-output = 5.95766892096
+input = 1.19334420288
+output = 5.9667210144

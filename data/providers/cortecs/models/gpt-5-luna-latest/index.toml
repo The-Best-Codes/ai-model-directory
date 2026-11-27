@@ -1,0 +1,16 @@
+id = "gpt-5-luna:latest"
+name = "gpt-5-luna:latest"
+release_date = "1783940400"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[pricing]
+cache_read = 0.028
+input = 0.204
+output = 1.224

@@ -1,0 +1,15 @@
+id = "hermes-4-405b:latest"
+name = "hermes-4-405b:latest"
+release_date = "1723549082"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.894
+output = 2.683

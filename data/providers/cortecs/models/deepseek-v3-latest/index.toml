@@ -1,0 +1,16 @@
+id = "deepseek-v3:latest"
+name = "deepseek-v3:latest"
+release_date = "1773833882"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 163840
+
+[pricing]
+cache_read = 0.135
+input = 0.449
+output = 1.346

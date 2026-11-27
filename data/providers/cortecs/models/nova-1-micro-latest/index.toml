@@ -1,0 +1,15 @@
+id = "nova-1-micro:latest"
+name = "nova-1-micro:latest"
+release_date = "1744630682"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.036
+output = 0.143

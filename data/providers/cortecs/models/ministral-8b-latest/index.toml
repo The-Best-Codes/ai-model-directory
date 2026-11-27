@@ -1,0 +1,15 @@
+id = "ministral-8b:latest"
+name = "ministral-8b:latest"
+release_date = "1764762542"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.161
+output = 0.161

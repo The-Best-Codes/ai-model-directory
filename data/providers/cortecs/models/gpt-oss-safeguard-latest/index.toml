@@ -1,0 +1,15 @@
+id = "gpt-oss-safeguard:latest"
+name = "gpt-oss-safeguard:latest"
+release_date = "1764848282"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.161
+output = 0.626

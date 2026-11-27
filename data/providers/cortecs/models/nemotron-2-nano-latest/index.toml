@@ -1,0 +1,15 @@
+id = "nemotron-2-nano:latest"
+name = "nemotron-2-nano:latest"
+release_date = "1761910682"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+input = 0.215
+output = 0.635

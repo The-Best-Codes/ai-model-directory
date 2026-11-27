@@ -7,5 +7,5 @@ release_date = "1793750400"
 attachment = true
 
 [modalities]
-input = [ "image", "video" ]
+input = [ "video" ]
 output = [ "video" ]

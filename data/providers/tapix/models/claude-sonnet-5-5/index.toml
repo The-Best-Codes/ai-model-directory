@@ -3,5 +3,5 @@ name = "claude-sonnet-5-5"
 release_date = "1794182400"
 
 [pricing]
-input = 1.4
-output = 7
+input = 2.555345
+output = 33.991656

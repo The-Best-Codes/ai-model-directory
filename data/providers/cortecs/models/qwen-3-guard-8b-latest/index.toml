@@ -1,0 +1,15 @@
+id = "qwen-3-guard-8b:latest"
+name = "qwen-3-guard-8b:latest"
+release_date = "1770204122"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0
+output = 0

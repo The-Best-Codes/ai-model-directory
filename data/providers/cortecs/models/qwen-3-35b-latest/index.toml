@@ -1,0 +1,15 @@
+id = "qwen-3-35b:latest"
+name = "qwen-3-35b:latest"
+release_date = "1778755082"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 262000
+
+[pricing]
+input = 0.17
+output = 1.15

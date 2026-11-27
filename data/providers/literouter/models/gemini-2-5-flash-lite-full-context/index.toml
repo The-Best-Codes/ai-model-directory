@@ -1,0 +1,4 @@
+id = "gemini-2.5-flash-lite:full-context"
+
+[modalities]
+output = [ "text" ]

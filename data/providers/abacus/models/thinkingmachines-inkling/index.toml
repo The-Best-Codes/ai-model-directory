@@ -5,8 +5,8 @@ name = "Tinker Inkling"
 attachment = true
 
 [limit]
-context = 262144
-output = 131072
+context = 65536
+output = 32768
 
 [modalities]
 input = [ "image", "text" ]

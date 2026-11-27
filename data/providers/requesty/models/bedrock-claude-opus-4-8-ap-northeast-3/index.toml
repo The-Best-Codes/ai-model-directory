@@ -1,6 +1,6 @@
 id = "bedrock/claude-opus-4-8@ap-northeast-3"
 name = "bedrock/claude-opus-4-8@ap-northeast-3"
-release_date = "1778112000"
+release_date = "1779905091"
 
 [features]
 attachment = true

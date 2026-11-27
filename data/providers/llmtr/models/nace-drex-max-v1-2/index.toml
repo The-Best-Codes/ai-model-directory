@@ -1,0 +1,17 @@
+id = "nace/drex-max-v1.2"
+name = "Drex Max v1.2"
+release_date = "1795684861"
+
+[features]
+attachment = true
+structured_output = true
+
+[limit]
+context = 262144
+
+[modalities]
+input = [ "image", "text" ]
+
+[pricing]
+input = 0.03
+output = 0

@@ -1,0 +1,16 @@
+id = "mistral-medium:latest"
+name = "mistral-medium:latest"
+release_date = "1777549993"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+cache_read = 0.138
+input = 1.375
+output = 7.04

@@ -1,0 +1,16 @@
+id = "claude-sonnet-4:latest"
+name = "claude-sonnet-4:latest"
+release_date = "1771490282"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[pricing]
+cache_read = 0.306
+input = 3.062
+output = 15.312

@@ -1,0 +1,10 @@
+id = "google/lyria-3-pro"
+name = "Lyria 3 Pro"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

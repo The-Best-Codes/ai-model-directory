@@ -1,0 +1,15 @@
+id = "mixtral-8x7b:latest"
+name = "mixtral-8x7b:latest"
+release_date = "1702294682"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = false
+
+[limit]
+context = 32000
+
+[pricing]
+input = 0.438
+output = 0.68

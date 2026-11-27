@@ -1,0 +1,17 @@
+id = "l3.3-ms-nevoria-70b:free"
+name = "l3.3-ms-nevoria-70b:free"
+release_date = "1736812800"
+
+[features]
+attachment = false
+
+[limit]
+context = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

@@ -1,0 +1,16 @@
+id = "claude-sonnet-5:latest"
+name = "claude-sonnet-5:latest"
+release_date = "1791275882"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1000000
+
+[pricing]
+cache_read = 0.102
+input = 2.042
+output = 10.208

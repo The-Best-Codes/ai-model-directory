@@ -1,0 +1,4 @@
+id = "gemini-4-hydrogen-sonar:metered"
+
+[modalities]
+output = [ "text" ]

@@ -1,0 +1,16 @@
+id = "claude-haiku-4:latest"
+name = "claude-haiku-4:latest"
+release_date = "1760547600"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 200000
+
+[pricing]
+cache_read = 0.102
+input = 1.021
+output = 5.105

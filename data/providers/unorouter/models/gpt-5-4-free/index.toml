@@ -1,0 +1,23 @@
+id = "gpt-5.4:free"
+name = "gpt-5.4:free"
+release_date = "1772734352"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = false
+tool_call = true
+
+[limit]
+context = 1100000
+input = 1100000
+output = 128000
+
+[modalities]
+input = [ "file", "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

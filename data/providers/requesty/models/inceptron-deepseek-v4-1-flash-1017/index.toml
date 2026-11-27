@@ -1,6 +1,6 @@
 id = "inceptron/deepseek-v4.1-flash-1017"
 name = "inceptron/deepseek-v4.1-flash-1017"
-release_date = "1795608827"
+release_date = "1792225624"
 
 [features]
 attachment = true

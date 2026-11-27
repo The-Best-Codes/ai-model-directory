@@ -2,5 +2,5 @@ id = "Qwen/Qwen3.5-397B-A17B__pt10"
 name = "Qwen/Qwen3.5-397B-A17B__pt10"
 
 [pricing]
-input = 0.532466659811
-output = 3.19479995886
+input = 0.533275690662
+output = 3.19965414397

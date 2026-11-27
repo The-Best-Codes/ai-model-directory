@@ -1,7 +1,6 @@
 id = "moonshot/kimi-k3.1-pro"
-name = "Kimi-K3.1-Pro"
+name = "Kimi K3.1 Pro"
 open_weights = true
-release_date = "1793836800"
 
 [features]
 attachment = true
@@ -10,7 +9,7 @@ tool_call = true
 
 [limit]
 context = 1048576
-output = 1048576
+output = 32768
 
 [modalities]
 input = [ "image", "text" ]

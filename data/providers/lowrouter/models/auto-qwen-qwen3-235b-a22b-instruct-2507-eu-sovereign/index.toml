@@ -11,3 +11,9 @@ context = 250000
 [modalities]
 input = [ "text" ]
 output = [ "text" ]
+
+[pricing]
+cache_read = 0.8232841125
+cache_write = 0.8232841125
+input = 0.8232841125
+output = 2.4698523375

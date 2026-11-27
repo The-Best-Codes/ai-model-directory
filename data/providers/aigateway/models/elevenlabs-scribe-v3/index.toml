@@ -1,0 +1,10 @@
+id = "elevenlabs/scribe-v3"
+name = "Scribe v3"
+open_weights = true
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio" ]
+output = [ "text" ]

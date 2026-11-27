@@ -1,0 +1,16 @@
+id = "codestral:latest"
+name = "codestral:latest"
+release_date = "1736768282"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+cache_read = 0.033
+input = 0.33
+output = 0.99

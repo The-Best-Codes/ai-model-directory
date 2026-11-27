@@ -1,0 +1,12 @@
+id = "tencent/hy-mt2-7b"
+name = "Tencent: Hy-MT2-7B"
+
+[features]
+tool_call = false
+
+[limit]
+context = 8192
+
+[pricing]
+input = 0.0962
+output = 0.3835

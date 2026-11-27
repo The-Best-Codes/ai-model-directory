@@ -1,0 +1,23 @@
+id = "qwen/qwen3.6-35b-a3b-flex"
+name = "Qwen3.6 35B A3B (flex)"
+release_date = "1776232759"
+
+[features]
+attachment = true
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 262144
+output = 65536
+
+[modalities]
+input = [ "image", "text", "video" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.054
+input = 0.06
+output = 0.45

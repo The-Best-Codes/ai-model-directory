@@ -2,15 +2,16 @@ id = "gpt-5.3-codex"
 name = "gpt-5.3-codex"
 
 [features]
-attachment = false
+attachment = true
 reasoning = true
+tool_call = true
 
 [modalities]
-input = [ "text" ]
+input = [ "image" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.69
-cache_write = 0
-input = 1.38
-output = 11.04
+cache_read = 0.2
+cache_write = 2.43
+input = 1.94
+output = 15.51

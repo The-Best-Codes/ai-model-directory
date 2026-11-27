@@ -1,0 +1,15 @@
+id = "qwen-3-coder-next:latest"
+name = "qwen-3-coder-next:latest"
+release_date = "1775140682"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.15
+output = 0.8

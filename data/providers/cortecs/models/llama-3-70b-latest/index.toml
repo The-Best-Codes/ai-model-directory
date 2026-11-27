@@ -1,0 +1,15 @@
+id = "llama-3-70b:latest"
+name = "llama-3-70b:latest"
+release_date = "1733830682"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 131000
+
+[pricing]
+input = 0.65
+output = 0.65

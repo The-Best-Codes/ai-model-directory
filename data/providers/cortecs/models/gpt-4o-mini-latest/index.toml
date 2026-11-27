@@ -1,0 +1,16 @@
+id = "gpt-4o-mini:latest"
+name = "gpt-4o-mini:latest"
+release_date = "1721302682"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 128000
+
+[pricing]
+cache_read = 0.077
+input = 0.153
+output = 0.613

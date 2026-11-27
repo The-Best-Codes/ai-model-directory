@@ -1,0 +1,21 @@
+id = "doubleword/kimi-k3.1-pro:flex"
+name = "doubleword/kimi-k3.1-pro:flex"
+release_date = "1792778188"
+
+[features]
+attachment = true
+reasoning = true
+tool_call = false
+
+[limit]
+context = 1048576
+
+[modalities]
+input = [ "image", "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.14
+cache_write = 1.4
+input = 1.4
+output = 7

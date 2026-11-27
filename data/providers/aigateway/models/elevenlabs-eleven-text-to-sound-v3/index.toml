@@ -1,0 +1,10 @@
+id = "elevenlabs/eleven-text-to-sound-v3"
+name = "Eleven Sound Effects v3"
+open_weights = true
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

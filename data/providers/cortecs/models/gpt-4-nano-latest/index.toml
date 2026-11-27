@@ -1,0 +1,16 @@
+id = "gpt-4-nano:latest"
+name = "gpt-4-nano:latest"
+release_date = "1744630682"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1047576
+
+[pricing]
+cache_read = 0.028
+input = 0.102
+output = 0.408

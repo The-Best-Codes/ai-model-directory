@@ -1,0 +1,16 @@
+id = "gpt-5-terra:latest"
+name = "gpt-5-terra:latest"
+release_date = "1783944000"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 1050000
+
+[pricing]
+cache_read = 0.204
+input = 2.042
+output = 12.244

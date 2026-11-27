@@ -1,0 +1,15 @@
+id = "devstral:latest"
+name = "devstral:latest"
+release_date = "1765356793"
+
+[features]
+attachment = false
+reasoning = false
+tool_call = true
+
+[limit]
+context = 256000
+
+[pricing]
+input = 0.429
+output = 2.147

@@ -1,4 +1,0 @@
-id = "gemini-3.5-flash-thinking-vertex:payg"
-
-[modalities]
-output = [ "text" ]

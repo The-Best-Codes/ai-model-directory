@@ -1,0 +1,15 @@
+id = "inclusionAI/LingSante-3.1-air-VL"
+name = "inclusionAI/LingSante-3.1-air-VL"
+
+[features]
+attachment = true
+reasoning = true
+
+[limit]
+context = 131072
+output = 131072
+
+[pricing]
+cache_read = 0.012
+input = 0.06
+output = 0.18

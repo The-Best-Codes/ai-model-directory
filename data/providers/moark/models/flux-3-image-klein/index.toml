@@ -1,0 +1,11 @@
+id = "flux-3-image-klein"
+last_updated = "1795596850"
+name = "flux-3-image-klein"
+release_date = "1795595235"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "image" ]

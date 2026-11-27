@@ -1,0 +1,15 @@
+id = "minimax-m2:latest"
+name = "minimax-m2:latest"
+release_date = "1773675482"
+
+[features]
+attachment = false
+reasoning = true
+tool_call = true
+
+[limit]
+context = 196000
+
+[pricing]
+input = 0.312
+output = 1.248
