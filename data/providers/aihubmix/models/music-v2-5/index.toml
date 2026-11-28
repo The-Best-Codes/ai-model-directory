@@ -1,0 +1,11 @@
+id = "music_v2_5"
+name = "music_v2_5"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "text" ]

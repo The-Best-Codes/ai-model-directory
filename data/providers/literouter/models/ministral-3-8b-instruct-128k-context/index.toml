@@ -1,4 +1,0 @@
-id = "ministral-3-8b-instruct:128k-context"
-
-[modalities]
-output = [ "text" ]

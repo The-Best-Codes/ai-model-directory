@@ -1,0 +1,4 @@
+id = "deepseek-flash"
+
+[modalities]
+output = [ "text" ]

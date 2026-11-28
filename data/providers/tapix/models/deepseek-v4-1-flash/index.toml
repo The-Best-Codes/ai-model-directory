@@ -3,5 +3,5 @@ name = "deepseek-v4.1-flash"
 release_date = "1794182400"
 
 [pricing]
-input = 0.30177
-output = 1.216813
+input = 0.085916
+output = 0.343374

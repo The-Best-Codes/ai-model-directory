@@ -3,7 +3,7 @@ name = "GPT 6.1 Terra"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.0366337798843
-input = 0.197806488278
-output = 0.989032441334
+cache_read = 0.0366897710916
+input = 0.19810881646
+output = 0.990544082247

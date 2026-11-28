@@ -1,7 +1,0 @@
-id = "gemini-3-flash"
-name = "gemini-3-flash"
-release_date = "1794182400"
-
-[pricing]
-input = 7.625523
-output = 45.80132

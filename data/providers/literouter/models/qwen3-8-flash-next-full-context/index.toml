@@ -1,4 +1,0 @@
-id = "qwen3.8-flash-next:full-context"
-
-[modalities]
-output = [ "text" ]

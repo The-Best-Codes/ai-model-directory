@@ -1,0 +1,7 @@
+id = "gemini-3.1-pro-preview"
+name = "gemini-3.1-pro-preview"
+release_date = "1794182400"
+
+[pricing]
+input = 1.4
+output = 8.4

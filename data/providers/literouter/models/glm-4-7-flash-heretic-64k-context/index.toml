@@ -1,0 +1,4 @@
+id = "glm-4.7-flash-heretic:64k-context"
+
+[modalities]
+output = [ "text" ]

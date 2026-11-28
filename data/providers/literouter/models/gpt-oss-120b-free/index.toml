@@ -1,4 +1,0 @@
-id = "gpt-oss-120b:free"
-
-[modalities]
-output = [ "text" ]

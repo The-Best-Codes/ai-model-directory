@@ -1,0 +1,11 @@
+id = "scribe_v2_medical"
+name = "scribe_v2_medical"
+
+[features]
+attachment = true
+reasoning = false
+structured_output = false
+tool_call = false
+
+[modalities]
+input = [ "audio", "video" ]

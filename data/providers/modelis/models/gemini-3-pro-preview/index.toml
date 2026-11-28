@@ -9,6 +9,6 @@ reasoning = true
 input = [ "image", "text" ]
 
 [pricing]
-cache_read = 0.2486133756
-input = 2.486133756
-output = 14.916802536
+cache_read = 0.24883087464
+input = 2.4883087464
+output = 14.9298524784

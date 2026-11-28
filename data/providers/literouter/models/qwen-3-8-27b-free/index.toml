@@ -1,4 +1,0 @@
-id = "qwen-3.8-27b:free"
-
-[modalities]
-output = [ "text" ]

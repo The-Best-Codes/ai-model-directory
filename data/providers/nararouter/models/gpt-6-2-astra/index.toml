@@ -3,7 +3,7 @@ name = "GPT 6.2 Astra"
 
 [features]
 attachment = true
-reasoning = true
+reasoning = false
 
 [limit]
 context = 1000000
@@ -13,6 +13,6 @@ input = [ "image", "text" ]
 output = [ "text" ]
 
 [pricing]
-cache_read = 0.173993177682
-input = 1.59329926054
-output = 7.96649630271
+cache_read = 0.17425910951
+input = 1.59573446514
+output = 7.9786723257

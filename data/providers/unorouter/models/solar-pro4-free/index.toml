@@ -1,0 +1,23 @@
+id = "solar-pro4:free"
+name = "solar-pro4:free"
+release_date = "1786371636"
+
+[features]
+attachment = false
+reasoning = true
+structured_output = true
+temperature = true
+tool_call = true
+
+[limit]
+context = 524300
+input = 524300
+output = 131072
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

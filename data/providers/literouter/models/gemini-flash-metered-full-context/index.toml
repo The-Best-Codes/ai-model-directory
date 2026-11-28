@@ -1,4 +1,0 @@
-id = "gemini-flash:metered:full-context"
-
-[modalities]
-output = [ "text" ]

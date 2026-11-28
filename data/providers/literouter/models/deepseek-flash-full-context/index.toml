@@ -1,0 +1,4 @@
+id = "deepseek-flash:full-context"
+
+[modalities]
+output = [ "text" ]

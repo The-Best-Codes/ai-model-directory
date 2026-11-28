@@ -1,0 +1,10 @@
+id = "seed-audio-1-0"
+name = "Seed Audio 1.0"
+release_date = "1783296000"
+
+[features]
+attachment = true
+
+[modalities]
+input = [ "audio", "image", "text" ]
+output = [ "audio" ]

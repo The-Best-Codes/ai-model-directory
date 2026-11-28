@@ -5,7 +5,7 @@ name = "Qwen: Qwen3.8 2.4T A95B"
 tool_call = true
 
 [limit]
-context = 1048576
+context = 1000000
 
 [pricing]
 input = 2.6

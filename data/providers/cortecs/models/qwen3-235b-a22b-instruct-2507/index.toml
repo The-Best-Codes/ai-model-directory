@@ -8,8 +8,8 @@ reasoning = false
 tool_call = true
 
 [limit]
-context = 262000
+context = 250000
 
 [pricing]
-input = 0.179
-output = 0.537
+input = 0.75
+output = 2.25

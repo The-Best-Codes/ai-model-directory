@@ -1,4 +1,0 @@
-id = "ministral-3-8b-instruct:metered"
-
-[modalities]
-output = [ "text" ]

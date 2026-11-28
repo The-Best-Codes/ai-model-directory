@@ -1,0 +1,16 @@
+id = "deepseek"
+name = "deepseek"
+
+[features]
+attachment = false
+reasoning = false
+
+[modalities]
+input = [ "text" ]
+output = [ "text" ]
+
+[pricing]
+cache_read = 0.033
+cache_write = 0
+input = 0.33
+output = 0.66

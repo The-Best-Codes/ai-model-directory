@@ -1,0 +1,4 @@
+id = "glm-4.7-flash-heretic:metered"
+
+[modalities]
+output = [ "text" ]

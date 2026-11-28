@@ -1,0 +1,12 @@
+id = "hy4-flash-free"
+name = "hy4-flash-free"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0
+output = 0

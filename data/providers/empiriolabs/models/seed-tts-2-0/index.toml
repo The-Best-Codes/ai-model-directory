@@ -1,0 +1,10 @@
+id = "seed-tts-2-0"
+name = "Seed TTS 2.0"
+release_date = "1760572800"
+
+[features]
+attachment = false
+
+[modalities]
+input = [ "text" ]
+output = [ "audio" ]

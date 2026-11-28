@@ -1,0 +1,20 @@
+id = "qwen/qwen3-embedding-4b"
+name = "Qwen3 Embedding 4B"
+release_date = "1795737600"
+
+[features]
+attachment = false
+reasoning = false
+structured_output = false
+temperature = false
+tool_call = false
+
+[limit]
+context = 32768
+
+[modalities]
+input = [ "text" ]
+
+[pricing]
+input = 0.02
+output = 0
